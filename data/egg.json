@@ -1903,6 +1903,72 @@
    "refs": [
     "phy-zhang2023"
    ]
+  },
+  {
+   "id": "ketogenic-diet-egg",
+   "name": "Ketogenic / low-carbohydrate diet (PCOS and conception)",
+   "kind": "food",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "egg": 2
+   },
+   "evidence": "limited",
+   "headline": "In overweight women with PCOS, ketogenic and low-carb diets cut weight (~5 kg more than other diets), LH and insulin resistance and appear to improve cycles and ovulation. In mice, though, ketone levels typical of keto slow embryo development and a gestational keto diet harms offspring, so the case for staying ketotic while trying to conceive is weak.",
+   "dose": {
+    "effective": "For overweight PCOS: 8-12 weeks of a ketogenic diet (< 20-50 g/day carbohydrate, often Mediterranean-style) or a moderate low-carbohydrate diet (< 45% of energy) aimed at weight loss. Then move to a sustainable lower-glycaemic diet with folate-rich foods plus a folic-acid supplement before trying to conceive.",
+    "studied_range": "PCOS trials: 45 days to 24 weeks, ketogenic (< 20-50 g/day) and very-low-energy ketogenic protocols; low-carb RCTs < 45% energy for > 4 weeks.",
+    "too_much": "Not recommended once trying to conceive or in pregnancy outside specialist care (epilepsy). Avoid in lean PCOS without weight to lose. Restricted carbohydrate intake was linked to half the dietary folic acid and 30% higher odds of neural tube defects.",
+    "timeframe": "Hormonal and menstrual changes over 8-24 weeks, alongside weight loss.",
+    "notes": "Grade honestly: most PCOS data are uncontrolled before-after studies or small RCTs. Pregnancy and live-birth data are anecdotal (2 conceptions in an 11-woman pilot). Benefits are hard to separate from weight loss."
+   },
+   "mechanism": "Lower insulin reduces ovarian theca androgen production and raises SHBG. Weight loss lowers adipose inflammation and lipotoxicity. In PCOS mice, BHB reduced granulosa-cell inflammation and apoptosis. Against that, BHB at ~2 mmol/L (keto-diet levels) disturbed embryo glycolysis and histone acetylation and reduced viability in mouse embryo culture. A maternal keto diet raised BHB in oviduct fluid and delayed blastocyst development.",
+   "pathways": [
+    "endocrine",
+    "inflammation-nfkb",
+    "glycation-ages",
+    "mitochondrial"
+   ],
+   "interactions": "Works through [egg-weight-loss] and [egg-diabetes-insulin-resistance]; see [egg-pcos] / [pcos]. Can be combined with [egg-myo-inositol]. Folate intake drops when grains are cut, so pair with [egg-folic-acid]. General-health effects are under [ketogenic-diet] and [low-carb-diet].",
+   "caveats": "Meta-analyses (2019-2026) agree on weight, insulin and LH but are inconsistent on androgens and lipids, with high heterogeneity. Two RCTs found no weight advantage over a matched low-calorie diet. Low-carb diets help reproductive outcomes in pooled PCOS RCTs, but the evidence is mostly not specific to ketosis. There are no human oocyte-quality data. The cautionary data (embryo, gestation, offspring lifespan) are mouse studies at diets more extreme than human keto, and the neural-tube association is observational.",
+   "key_numbers": [
+    {
+     "label": "Weight change vs other diets in PCOS",
+     "value": -4.98,
+     "unit": "kg",
+     "source": "ket-arsenaki2026"
+    },
+    {
+     "label": "Ovulatory infertility RR, highest vs lowest carb intake",
+     "value": 1.91,
+     "unit": "RR",
+     "source": "ket-chavarro2009"
+    },
+    {
+     "label": "Neural-tube-defect odds with restricted carbohydrate",
+     "value": 1.3,
+     "unit": "aOR",
+     "source": "ket-desrosiers2018"
+    }
+   ],
+   "refs": [
+    "ket-arsenaki2026",
+    "ket-cannarella2025",
+    "ket-zhang2019",
+    "ket-shang2021",
+    "ket-mavropoulos2005",
+    "ket-chavarro2009",
+    "ket-liu2023",
+    "ket-whatley2022",
+    "ket-whatley2024",
+    "ket-sussman2013b",
+    "ket-zala2025",
+    "ket-desrosiers2018",
+    "ket-vanderlouw2017",
+    "ket-deamorim2024"
+   ]
   }
  ],
  "mechanisms": [
@@ -3421,6 +3487,174 @@
    "type": "mechanistic",
    "n": null,
    "finding": "Ovarian spermidine falls with age in mice; supplementation improved follicle development, oocyte maturation and fertility of aged mice by enhancing mitophagy."
+  },
+  {
+   "id": "ket-arsenaki2026",
+   "authors": "Arsenaki E, Stathi D, Triantafyllidis KK, et al.",
+   "year": 2026,
+   "title": "The effects of ketogenic diet on polycystic ovary syndrome: A systematic review and meta-analysis.",
+   "journal": "Clin Nutr",
+   "pmid": "41483483",
+   "doi": "10.1016/j.clnu.2025.11.019",
+   "type": "meta-analysis",
+   "n": "15 studies (10 pooled)",
+   "finding": "In mostly overweight women with PCOS, ketogenic diets reduced weight (-10.8 kg), LH and insulin resistance and shortened cycle length pre-post, and beat other diets for weight and LH; androgen results were inconsistent and heterogeneity high."
+  },
+  {
+   "id": "ket-cannarella2025",
+   "authors": "Cannarella R, Rubulotta M, Leonardi A, et al.",
+   "year": 2025,
+   "title": "Effects of ketogenic diets on polycystic ovary syndrome: a systematic review and meta-analysis.",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "40394635",
+   "doi": "10.1186/s12958-025-01411-1",
+   "type": "meta-analysis",
+   "n": "10 studies (3 RCTs)",
+   "finding": "High-fat ketogenic and very-low-energy ketogenic diets improved weight, glucose, HOMA, triglycerides and LH in PCOS; two RCTs found no weight advantage over low-calorie diets."
+  },
+  {
+   "id": "ket-chavarro2009",
+   "authors": "Chavarro JE, Rich-Edwards JW, Rosner BA, et al.",
+   "year": 2009,
+   "title": "A prospective study of dietary carbohydrate quantity and quality in relation to risk of ovulatory infertility.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "17882137",
+   "doi": "10.1038/sj.ejcn.1602904",
+   "type": "cohort",
+   "n": "18,555 women",
+   "finding": "Highest vs lowest quintile of total carbohydrate (RR 1.91) and glycaemic load (RR 1.92) was associated with ovulatory infertility in the Nurses' Health Study II."
+  },
+  {
+   "id": "ket-deamorim2024",
+   "authors": "de Amorim ALB, Rodrigues EF, Sussi EL, et al.",
+   "year": 2024,
+   "title": "Carbohydrate restriction during lactation: A systematic review.",
+   "journal": "Nutr Res",
+   "pmid": "38565002",
+   "doi": "10.1016/j.nutres.2024.02.007",
+   "type": "review",
+   "n": "16 case reports/series",
+   "finding": "Carbohydrate restriction during breastfeeding appears repeatedly in case reports of lactation ketoacidosis requiring hospital care."
+  },
+  {
+   "id": "ket-desrosiers2018",
+   "authors": "Desrosiers TA, Siega-Riz AM, Mosley BS, et al.",
+   "year": 2018,
+   "title": "Low carbohydrate diets may increase risk of neural tube defects.",
+   "journal": "Birth Defects Res",
+   "pmid": "29368448",
+   "doi": "10.1002/bdr2.1198",
+   "type": "case-control",
+   "n": "1740 cases, 9545 controls",
+   "finding": "Women with restricted periconceptional carbohydrate intake (<= 5th percentile) had half the dietary folic acid and 30% higher odds of a neural-tube-defect pregnancy (aOR 1.30, 1.02-1.67)."
+  },
+  {
+   "id": "ket-liu2023",
+   "authors": "Liu S, Yao Q, Li X, et al.",
+   "year": 2023,
+   "title": "Effects of a ketogenic diet on reproductive and metabolic phenotypes in mice with polycystic ovary syndrome†.",
+   "journal": "Biol Reprod",
+   "pmid": "36688496",
+   "doi": "10.1093/biolre/ioad004",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In DHEA-induced PCOS mice a 3-week ketogenic diet lowered weight and glucose, improved ovarian function in some mice and reduced ovarian inflammation and apoptosis, but impaired glucose tolerance."
+  },
+  {
+   "id": "ket-mavropoulos2005",
+   "authors": "Mavropoulos JC, Yancy WS, Hepburn J, et al.",
+   "year": 2005,
+   "title": "The effects of a low-carbohydrate, ketogenic diet on the polycystic ovary syndrome: a pilot study.",
+   "journal": "Nutr Metab (Lond)",
+   "pmid": "16359551",
+   "doi": "10.1186/1743-7075-2-35",
+   "type": "cohort",
+   "n": "11 women (5 completers)",
+   "finding": "A < 20 g/day carbohydrate diet for 24 weeks cut weight 12%, free testosterone 22%, LH/FSH 36% and fasting insulin 54% in PCOS; two women conceived."
+  },
+  {
+   "id": "ket-shang2021",
+   "authors": "Shang Y, Zhou H, He R, et al.",
+   "year": 2021,
+   "title": "Dietary Modification for Reproductive Health in Women With Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis.",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "34790167",
+   "doi": "10.3389/fendo.2021.735954",
+   "type": "meta-analysis",
+   "n": "20 RCTs, 1113 women",
+   "finding": "Dietary interventions in PCOS increased clinical pregnancy, ovulation and menstrual regularity and lowered miscarriage; low-carbohydrate diets were the best subgroup for reproductive outcomes."
+  },
+  {
+   "id": "ket-sussman2013b",
+   "authors": "Sussman D, Ellegood J, Henkelman M",
+   "year": 2013,
+   "title": "A gestational ketogenic diet alters maternal metabolic status as well as offspring physiological growth and brain structure in the neonatal mouse.",
+   "journal": "BMC Pregnancy Childbirth",
+   "pmid": "24168053",
+   "doi": "10.1186/1471-2393-13-198",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Gestational ketogenic diet lowered fertility and litter size in mice, put dams at risk of fatal ketoacidosis in lactation, and slowed offspring growth with altered brain structure."
+  },
+  {
+   "id": "ket-vanderlouw2017",
+   "authors": "van der Louw EJ, Williams TJ, Henry-Barron BJ, et al.",
+   "year": 2017,
+   "title": "Ketogenic diet therapy for epilepsy during pregnancy: A case series.",
+   "journal": "Seizure",
+   "pmid": "28110175",
+   "doi": "10.1016/j.seizure.2016.12.019",
+   "type": "cohort",
+   "n": "2 pregnant women (case series)",
+   "finding": "Two women with epilepsy stayed on ketogenic/modified Atkins therapy in pregnancy with fewer seizures; one infant had ear deformities of unknown significance; safety not established."
+  },
+  {
+   "id": "ket-whatley2022",
+   "authors": "Whatley EG, Truong TT, Wilhelm D, et al.",
+   "year": 2022,
+   "title": "β-hydroxybutyrate reduces blastocyst viability via trophectoderm-mediated metabolic aberrations in mice.",
+   "journal": "Hum Reprod",
+   "pmid": "35856159",
+   "doi": "10.1093/humrep/deac153",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Culturing mouse embryos with BHB at ketogenic-diet levels (2 mmol/L) slowed development, disturbed glycolysis and reduced fetal viability after transfer in a sex-specific way."
+  },
+  {
+   "id": "ket-whatley2024",
+   "authors": "Whatley EG, Harvey AJ, Gardner DK",
+   "year": 2024,
+   "title": "A maternal ketogenic diet alters oviduct fluid nutrients and embryo histone acetylation in mice.",
+   "journal": "Reproduction",
+   "pmid": "38593828",
+   "doi": "10.1530/REP-24-0026",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "A maternal ketogenic diet for 24-27 days raised BHB in mouse blood and oviduct fluid, delayed blastocyst development and reduced trophectoderm histone acetylation."
+  },
+  {
+   "id": "ket-zala2025",
+   "authors": "Zala SM, Santos R, Strasser E, et al.",
+   "year": 2025,
+   "title": "Sex-dependent effects of a gestational ketogenic diet on offspring birth and lifespan.",
+   "journal": "PLoS One",
+   "pmid": "40674330",
+   "doi": "10.1371/journal.pone.0328455",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "A ketogenic diet in the second half of mouse pregnancy reduced litter size and the proportion of female pups and shortened male offspring lifespan."
+  },
+  {
+   "id": "ket-zhang2019",
+   "authors": "Zhang X, Zheng Y, Guo Y, et al.",
+   "year": 2019,
+   "title": "The Effect of Low Carbohydrate Diet on Polycystic Ovary Syndrome: A Meta-Analysis of Randomized Controlled Trials.",
+   "journal": "Int J Endocrinol",
+   "pmid": "31885557",
+   "doi": "10.1155/2019/4386401",
+   "type": "meta-analysis",
+   "n": "8 RCTs, 327 women",
+   "finding": "Low-carbohydrate diets (< 45% energy) lowered BMI, HOMA-IR and LDL in PCOS; those lasting > 4 weeks raised SHBG and FSH and lowered testosterone."
   }
  ]
 }

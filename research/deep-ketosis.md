@@ -72,7 +72,6 @@ The liver makes ketone bodies (acetoacetate, BHB and a little acetone) from fatt
   - under 30 g/day in a depression RCT [ket-gao2026].
 - **Epilepsy:** the classic diet is 4:1 fat to protein plus carbohydrate, about 90% of energy from fat. The modified Atkins diet starts at 10-15 g/day of carbohydrate and rises to about 20 g [ket-kossoff2018].
 - **Low-carbohydrate vs very-low-carbohydrate:** the BMJ diabetes meta-analysis defines a low-carbohydrate diet as under 130 g/day (under 26% of energy). Below 10% of energy counts as very-low-carbohydrate, which is the ketogenic range [ket-goldenberg2021].
-- **Protein:** too much protein can blunt ketosis. That is why clinical protocols fix protein [ket-kossoff2018].
 
 ### Time to keto-adaptation
 
@@ -155,7 +154,7 @@ The liver makes ketone bodies (acetoacetate, BHB and a little acetone) from fatt
 - **Direct oxidative-damage markers.** Two weeks of a calorie-restricted, 13%-carbohydrate diet in 20 healthy women gave these results [ket-nazarewicz2007]:
   - plasma total antioxidant status, uric acid and red-cell thiols rose;
   - red-cell MDA, SOD and catalase did not change.
-  - Note that uric acid makes up much of "total antioxidant status", so a TAS rise is not necessarily a benefit.
+  - Uric acid rose along with total antioxidant status, so the TAS rise may partly reflect uric acid rather than a real benefit.
 - **Athletes cutting weight.** In 18 adolescent athletes, MDA rose in the non-keto group but not the keto group; ROS and SOD did not differ [ket-rhyu2014].
 - **What is missing:** no ketogenic RCT has used mass-spectrometry F2-isoprostanes or 8-OHdG as a primary outcome.
 - **Inflammation.** Here the human signal is consistent but modest. CRP fell in a meta-analysis of keto RCTs [ket-rondanelli2024] and across carbohydrate restriction in general [ket-feng2025].
@@ -194,7 +193,7 @@ The liver makes ketone bodies (acetoacetate, BHB and a little acetone) from fatt
   - A cross-sectional CT study found no more coronary plaque than in matched controls with lower LDL [ket-budoff2024]. That study was cross-sectional and self-selected.
   - The 2025 longitudinal follow-up claimed plaque progression was unrelated to apoB. It received an expression of concern and was then **retracted in 2026** for methodological errors [ket-sotomota2026].
 - **What guidance says.** The National Lipid Association statement describes mixed LDL effects and almost no safety data beyond 2 years [ket-kirkpatrick2019].
-- **Practical stance:** apoB and LDL are causal for atherosclerosis in the general population. A large diet-induced apoB rise should be treated as a risk, not explained away.
+- **Practical stance:** this review did not re-examine the general LDL/apoB causality literature. Until outcome data exist for diet-induced elevations, the prudent course is to treat a large apoB rise as a risk, not explain it away.
 
 ### Epilepsy, neurology and psychiatry
 
@@ -450,7 +449,6 @@ The liver makes ketone bodies (acetoacetate, BHB and a little acetone) from fatt
 - [ket-needham2023] Needham N, et al. Pilot study of a ketogenic diet in bipolar disorder. BJPsych Open 2023. PMID 37814952.
 - [ket-neudorf2019] Neudorf H, et al. Oral Ketone Supplementation Acutely Increases Markers of NLRP3 Inflammasome Activation in Human Monocytes. Mol Nutr Food Res 2019. PMID 30912285.
 - [ket-newman2014] Newman JC, Verdin E. β-hydroxybutyrate: much more than a metabolite. Diabetes Res Clin Pract 2014. PMID 25193333.
-- [ket-paoli2020] (not cited; removed)
 - [ket-peters2015] Peters AL, et al. Euglycemic Diabetic Ketoacidosis: A Potential Complication of Treatment With Sodium-Glucose Cotransporter 2 Inhibition. Diabetes Care 2015. PMID 26078479.
 - [ket-phillips2021] Phillips MCL, et al. Randomized crossover trial of a modified ketogenic diet in Alzheimer's disease. Alzheimers Res Ther 2021. PMID 33622392.
 - [ket-poffe2019] Poffé C, et al. Ketone ester supplementation blunts overreaching symptoms during endurance training overload. J Physiol 2019. PMID 31039280.

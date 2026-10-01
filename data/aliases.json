@@ -84,7 +84,9 @@
     "soy-isoflavones": "soy",
     "soy-isoflavones-egg": "soy",
     "spermidine-egg": "spermidine",
-    "resveratrol-sperm": "resveratrol-pterostilbene-supplements"
+    "resveratrol-sperm": "resveratrol-pterostilbene-supplements",
+    "ketogenic-diet-egg": "ketogenic-diet",
+    "ketogenic-diet-sperm": "ketogenic-diet"
   },
   "mechanisms": {},
   "names": {
@@ -124,7 +126,8 @@
     "turmeric-curcumin": "Turmeric (culinary)",
     "astaxanthin": "Astaxanthin",
     "soy": "Soy foods & isoflavones",
-    "resveratrol-pterostilbene-supplements": "Resveratrol & pterostilbene supplements"
+    "resveratrol-pterostilbene-supplements": "Resveratrol & pterostilbene supplements",
+    "ketogenic-diet": "Ketogenic diet"
   },
   "kinds": {
     "alcohol": "lifestyle",

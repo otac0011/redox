@@ -300,6 +300,11 @@
             "processed-meat",
             "unprocessed-red-meat"
           ]
+        },
+        {
+          "value": "keto",
+          "label": "Keto or very low carb",
+          "note": "On a keto diet, recheck LDL cholesterol and apoB after 2-3 months: lean people often see large rises. When trying to conceive, switch to a less restrictive pattern: mouse studies found embryo harm at keto-level ketones, and very low carb intake in humans went with lower folate and more neural tube defects. See [ketogenic-diet]."
         }
       ]
     },

@@ -1960,6 +1960,48 @@
    "refs": [
     "phy-illiano2020"
    ]
+  },
+  {
+   "id": "ketogenic-diet-sperm",
+   "name": "Ketogenic diet (male fertility)",
+   "kind": "food",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "In men with obesity, very-low-calorie ketogenic diets raised total testosterone by ~6.75 nmol/L (normocaloric keto by ~1 nmol/L), in proportion to weight lost. No human trial has measured semen quality on keto; the only semen data are from obese mice.",
+   "dose": {
+    "effective": "Weight loss via a supervised very-low-calorie ketogenic diet (8-14 weeks) in men with obesity-related low testosterone, then a sustainable diet.",
+    "studied_range": "7 studies, 230 participants; mostly uncontrolled before-after designs of 8-14 weeks.",
+    "too_much": "Rapid weight loss and very-low-calorie protocols need medical supervision. LDL may rise in lean men.",
+    "timeframe": "Testosterone changes within 8-12 weeks; any semen effect would need at least one ~74-day spermatogenic cycle.",
+    "notes": "Probably a weight-loss effect rather than a ketone effect. Higher-fat diets keep testosterone a little higher than low-fat diets (SMD ~0.38), independent of keto."
+   },
+   "mechanism": "Weight loss lowers aromatase activity and insulin resistance, which releases hypothalamic-pituitary-gonadal suppression. In obese mice an MCT-based ketogenic diet lowered testicular lipid peroxidation and raised glutathione peroxidase.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Essentially a subset of [weight-loss-sperm] / [obesity-sperm]. General effects are under [ketogenic-diet].",
+   "caveats": "No controlled human semen data. The testosterone meta-analysis pools mostly uncontrolled studies, and the gains track weight loss and age. The animal data compare keto with a high-fat high-cholesterol obesogenic diet, not with a healthy diet.",
+   "key_numbers": [
+    {
+     "label": "Total testosterone rise, very-low-calorie KD",
+     "value": 6.75,
+     "unit": "nmol/L",
+     "source": "ket-furini2023"
+    }
+   ],
+   "refs": [
+    "ket-furini2023",
+    "ket-whittaker2021",
+    "ket-liu2022"
+   ]
   }
  ],
  "mechanisms": [
@@ -3645,6 +3687,42 @@
    "type": "cohort",
    "n": "20 men (uncontrolled)",
    "finding": "A multivitamin containing 150 mg/day resveratrol was followed by higher sperm motility (48% to 59%) and concentration after 3-6 months."
+  },
+  {
+   "id": "ket-furini2023",
+   "authors": "Furini C, Spaggiari G, Simoni M, et al.",
+   "year": 2023,
+   "title": "Ketogenic state improves testosterone serum levels-results from a systematic review and meta-analysis.",
+   "journal": "Endocrine",
+   "pmid": "36149528",
+   "doi": "10.1007/s12020-022-03195-5",
+   "type": "meta-analysis",
+   "n": "7 studies, 230 participants",
+   "finding": "Ketogenic diets raised total testosterone (by ~6.75 nmol/L with very-low-calorie KD, ~1 nmol/L with normocaloric KD), proportional to weight loss and age."
+  },
+  {
+   "id": "ket-liu2022",
+   "authors": "Liu CY, Chang TC, Lin SH, et al.",
+   "year": 2022,
+   "title": "Is a Ketogenic Diet Superior to a High-Fat, High-Cholesterol Diet Regarding Testicular Function and Spermatogenesis?",
+   "journal": "Front Nutr",
+   "pmid": "35223950",
+   "doi": "10.3389/fnut.2022.805794",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In obese mice, switching from a high-fat high-cholesterol diet to an MCT-based ketogenic diet for 8 weeks lowered testicular lipid peroxidation and restored semen quality."
+  },
+  {
+   "id": "ket-whittaker2021",
+   "authors": "Whittaker J, Wu K",
+   "year": 2021,
+   "title": "Low-fat diets and testosterone in men: Systematic review and meta-analysis of intervention studies.",
+   "journal": "J Steroid Biochem Mol Biol",
+   "pmid": "33741447",
+   "doi": "10.1016/j.jsbmb.2021.105878",
+   "type": "meta-analysis",
+   "n": "6 studies, 206 men",
+   "finding": "Low-fat diets lowered total testosterone (SMD -0.38) and free testosterone (SMD -0.37) vs higher-fat diets."
   }
  ]
 }
