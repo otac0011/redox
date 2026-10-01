@@ -1,0 +1,55 @@
+{
+  "contexts": [
+    { "id": "training", "label": "I train for fitness gains" },
+    { "id": "ttc-male", "label": "Trying to conceive (male partner)" },
+    { "id": "ttc-female", "label": "Trying to conceive / IVF (female partner)" },
+    { "id": "pregnant", "label": "Pregnant or breastfeeding" },
+    { "id": "smoker", "label": "I smoke or quit within the last year" },
+    { "id": "anticoag", "label": "I take blood thinners (warfarin, DOACs, antiplatelets)" }
+  ],
+  "extra_items": [],
+  "rules": [
+    {
+      "id": "training-blunting", "severity": "caution", "requires": ["training"],
+      "ids_any": ["vitamin-c-supplement", "vitamin-e-supplement", "high-dose-antioxidant-cocktail", "vitamin-c-e-combined", "antioxidant-megadoses-during-training", "n-acetylcysteine"],
+      "title": "May blunt training adaptations",
+      "message": "High-dose antioxidants taken around training reduced gains in insulin sensitivity, mitochondrial biogenesis, and endurance markers in several trials, because the ROS pulse from exercise is part of the adaptation signal. If you keep them, take them away from workouts or drop the dose. See [antioxidant-megadoses-during-training]."
+    },
+    {
+      "id": "smoker-beta-carotene", "severity": "harm", "requires": ["smoker"],
+      "ids_any": ["beta-carotene-supplement", "high-dose-antioxidant-cocktail"],
+      "title": "Beta-carotene raises lung cancer risk in smokers",
+      "message": "Beta-carotene supplements increased lung cancer in smokers and asbestos-exposed workers (ATBC, CARET). Check that your formula has no beta-carotene or high-dose vitamin A. See [beta-carotene-supplement]."
+    },
+    {
+      "id": "ttc-stacking", "severity": "caution", "requires_any": ["ttc-male", "ttc-female"], "min": 2,
+      "ids_any": ["vitamin-c-supplement", "vitamin-e-supplement", "beta-carotene-supplement", "selenium-supplement", "high-dose-antioxidant-cocktail", "male-antioxidant-combination", "female-antioxidant-supplements", "vitamin-c-e-combined", "n-acetylcysteine", "coq10", "l-carnitine", "astaxanthin", "alpha-lipoic-acid", "glynac", "mitoq", "melatonin"],
+      "title": "Stacked antioxidants while trying to conceive",
+      "message": "The best fertility trials of antioxidant combinations (MOXI, FAZST) found no benefit for semen quality, DNA fragmentation, or live birth, and very high antioxidant loads can impair sperm chromatin compaction ('reductive stress'). ESHRE does not recommend antioxidants in IVF. If you use any, one modest-dose product is the evidence-based ceiling. See [high-dose-antioxidant-cocktail] and [male-antioxidant-combination]."
+    },
+    {
+      "id": "iron-no-deficiency", "severity": "caution",
+      "ids_any": ["iron-excess"],
+      "title": "Iron only with a documented deficiency",
+      "message": "Iron catalyzes the most damaging oxidant reactions (Fenton chemistry). Supplement it only when ferritin or other tests show deficiency, and re-test. See [iron-excess]."
+    },
+    {
+      "id": "selenium-double", "severity": "caution", "requires_ids": ["selenium-supplement"], "min": 2,
+      "ids_any": ["selenium-supplement", "multivitamin-mineral", "male-antioxidant-combination", "female-antioxidant-supplements"],
+      "title": "Selenium from more than one product",
+      "message": "Selenium has a narrow U-shaped curve: in people who are already replete, 200 µg/day was linked to higher type 2 diabetes risk. Add up the selenium across all your products and diet (Brazil nuts are very high). See [selenium-supplement]."
+    },
+    {
+      "id": "anticoag-bleeding", "severity": "caution", "requires": ["anticoag"],
+      "ids_any": ["vitamin-e-supplement", "high-dose-antioxidant-cocktail", "isolated-polyphenol-supplements", "curcumin-supplements", "turmeric-curcumin"],
+      "title": "May add to bleeding risk",
+      "message": "Vitamin E raised hemorrhagic stroke risk in trials, and several polyphenol and curcumin supplements have antiplatelet effects. Tell your prescriber and pharmacist about these."
+    },
+    {
+      "id": "pregnancy-check", "severity": "info", "requires": ["pregnant"],
+      "ids_any": ["*"],
+      "title": "Review every supplement with prenatal care",
+      "message": "Folic acid (and iodine, per many guidelines) is recommended in pregnancy. Most other supplements lack pregnancy safety data, and some (high-dose vitamin A, many herbal extracts) are best avoided. See [folic-acid]."
+    }
+  ]
+}

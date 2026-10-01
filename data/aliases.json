@@ -74,7 +74,9 @@
     "diet-calorie-restriction": "calorie-restriction",
     "diet-intermittent-fasting": "intermittent-fasting",
     "diet-iron-excess": "iron-excess",
-    "unprocessed-red-meat-sperm": "unprocessed-red-meat"
+    "unprocessed-red-meat-sperm": "unprocessed-red-meat",
+    "curcumin-sperm": "curcumin-supplements",
+    "curcumin-egg": "curcumin-supplements"
   },
   "mechanisms": {},
   "names": {
@@ -109,7 +111,9 @@
     "unprocessed-red-meat": "Unprocessed red meat (sperm)",
     "caffeine-fertility": "Caffeine (all sources) & fertility",
     "vigorous-exercise-low-energy": "Heavy vigorous exercise & low energy availability (women)",
-    "overfeeding": "Overeating / calorie surplus"
+    "overfeeding": "Overeating / calorie surplus",
+    "curcumin-supplements": "Curcumin supplements (enhanced absorption)",
+    "turmeric-curcumin": "Turmeric (culinary)"
   },
   "kinds": {
     "alcohol": "lifestyle",

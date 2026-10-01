@@ -1400,7 +1400,7 @@
   },
   {
    "id": "turmeric-curcumin",
-   "name": "Turmeric / curcumin",
+   "name": "Turmeric as a spice (culinary use)",
    "kind": "food",
    "scopes": [
     "general"
@@ -1410,40 +1410,66 @@
     "general": 1
    },
    "evidence": "limited",
-   "headline": "Curcumin is barely absorbed: 2 g alone gave undetectable or very low serum levels; 20 mg piperine raised bioavailability ~20-fold, but culinary turmeric doses are far below trial doses.",
+   "headline": "A teaspoon (2-3 g) of ground turmeric holds roughly 60-100 mg curcumin, and eating it in food produces only nanomolar curcumin conjugates in blood (free curcumin mostly undetectable), so culinary turmeric is a pleasant spice with plausible gut-local effects but no demonstrated systemic antioxidant effect.",
    "dose": {
-    "effective": "No reliable systemic antioxidant dose from culinary use; trials use 0.5-2 g/day curcumin, often enhanced formulations.",
-    "studied_range": "Up to 12 g/day curcumin was tolerated in phase I trials.",
-    "too_much": "Phase I trials tolerated up to 12 g/day; piperine works by inhibiting glucuronidation, the same pathway that clears many drugs.",
-    "timeframe": null,
-    "notes": "A teaspoon (~3 g) of dried turmeric contains roughly 65 mg curcumin (Phenol-Explorer ~2.2 g/100 g)."
+    "effective": "No proven systemic dose from cooking. Normal culinary use (about 1/2-2 teaspoons, 1.5-6 g ground turmeric/day in curries) is safe; one small haemodialysis trial used 2.5 g turmeric in juice three times a week.",
+    "studied_range": "Culinary-level feeding studies used a few grams of turmeric per meal; supplement trials use 80 mg-3 g/day of curcuminoids, mostly far above what food provides.",
+    "too_much": "Food amounts are within the EFSA ADI of 3 mg curcumin/kg/day (about 210 mg/day for a 70 kg adult). Turmeric is relatively high in soluble oxalate, a consideration for people with calcium-oxalate kidney stones. Cheap or imported ground turmeric can be adulterated with lead chromate.",
+    "timeframe": "Plasma conjugates peak about 30 min after a turmeric meal and persist for at least 8 h; no long-term human outcome data.",
+    "notes": "Pure turmeric powder averages about 3% curcumin by weight; most curry powders contain much less and vary widely. Black pepper and fat are often recommended, but in a head-to-head human study piperine-type adjuvants did not significantly raise curcumin exposure at a 207 mg dose. Buy from suppliers that test for lead; avoid unusually bright, cheap loose turmeric from markets with documented adulteration."
    },
-   "mechanism": "Curcumin is a Michael acceptor that activates Nrf2 and scavenges radicals in vitro; rapid glucuronidation and poor absorption limit systemic exposure.",
+   "mechanism": "Curcumin is an alpha,beta-unsaturated carbonyl (Michael acceptor) that can modify KEAP1 Cys151 and activate Nrf2/HO-1 in cells, inhibits NF-kB signalling in vitro, and scavenges radicals in a test tube. In people, food doses are rapidly glucuronidated and sulfated in gut wall and liver; circulating forms are mainly conjugates that lack the parent compound's activity in cell assays. The gut lumen and intestinal wall are the only tissues likely to see meaningful concentrations.",
    "pathways": [
     "nrf2",
     "inflammation-nfkb"
    ],
-   "interactions": "Black pepper (piperine) increases absorption; fat helps.",
-   "caveats": "Classic case of strong in vitro data with weak human pharmacokinetics.",
+   "interactions": "Redundant with, and far weaker than, food Nrf2 activators such as [broccoli-sprouts] and [broccoli-seed-powder]. Part of the general [herbs-spices] pattern within a [mediterranean-diet]-style or South Asian diet. Not interchangeable with [curcumin-supplements], which deliver 10-100x more curcuminoids in formulations designed to be absorbed. No known meaningful drug interactions at culinary amounts.",
+   "caveats": "Population associations (e.g. curry eaters with better cognitive scores in Singapore) cannot separate turmeric from the rest of diet and lifestyle. Claims that 'golden milk' or a pinch of pepper turns kitchen turmeric into a systemic antioxidant are not supported by pharmacokinetic data. In-vitro antioxidant capacity of turmeric says nothing about in-vivo effect. Lead chromate adulteration has been documented in turmeric from Bangladesh, India and Pakistan and has caused childhood lead poisoning in the US.",
    "key_numbers": [
     {
-     "label": "Curcumin, dried turmeric (chromatography)",
-     "value": 2214,
-     "unit": "mg/100 g",
-     "source": "phenolexplorer"
+     "label": "Curcumin in pure turmeric powder (mean of brands)",
+     "value": 3.14,
+     "unit": "% by weight",
+     "source": "cur-tayyem2006"
     },
     {
-     "label": "Bioavailability increase with 20 mg piperine",
-     "value": 2000,
+     "label": "Peak plasma curcumin glucuronide after a turmeric meal",
+     "value": 47.6,
+     "unit": "nmol/L",
+     "source": "cur-mahale2018"
+    },
+    {
+     "label": "Peak free curcumin after a turmeric meal (1 of several volunteers)",
+     "value": 3.2,
+     "unit": "nmol/L",
+     "source": "cur-mahale2018"
+    },
+    {
+     "label": "South Asian turmeric samples with detectable lead",
+     "value": 14,
      "unit": "%",
-     "source": "shoba1998"
+     "source": "cur-forsyth2024"
     }
    ],
    "refs": [
-    "anand2007",
-    "shoba1998",
-    "dinkovakostova2008",
-    "phenolexplorer"
+    "cur-tayyem2006",
+    "cur-mahale2018",
+    "cur-vareed2008",
+    "cur-shoba1998",
+    "cur-flory2021",
+    "cur-alvarenga2020",
+    "cur-ng2006",
+    "cur-garcea2005",
+    "cur-pal2014",
+    "cur-shin2020",
+    "cur-houghton2016",
+    "cur-tuntipopipat2006",
+    "cur-tang2008",
+    "cur-forsyth2019",
+    "cur-forsyth2024",
+    "cur-cowell2017",
+    "cur-efsa2010",
+    "cur-nelson2017"
    ]
   },
   {
@@ -2267,6 +2293,111 @@
     "sutton2018",
     "johnson2007",
     "decabo2019"
+   ]
+  },
+  {
+   "id": "curcumin-supplements",
+   "name": "Curcumin supplements (enhanced-bioavailability extracts)",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Enhanced-absorption curcumin (micellar, cyclodextrin, phytosome, colloidal) modestly lowers CRP (~0.6 mg/L) and MDA and reduces knee-osteoarthritis pain about as much as an NSAID in short trials, but the trial base is small, heterogeneous and low quality, and rare idiosyncratic liver injury is now well documented.",
+   "dose": {
+    "effective": "Osteoarthritis: 1500 mg/day Curcuma extract (the ibuprofen-comparison trial) or ~180 mg/day curcumin as Theracurmin, for 4-12 weeks. Biomarkers: ~600 mg/day curcuminoids or more (often with piperine) for at least 4-8 weeks; micellar or gamma-cyclodextrin forms deliver more curcumin per mg.",
+    "studied_range": "80 mg/day (nanomicelle) to 8 g/day (standard powder) in trials; single doses up to 12 g tolerated.",
+    "too_much": "EFSA ADI 3 mg/kg/day (about 210 mg/day at 70 kg), which many products exceed. Liver injury (hepatocellular or cholestatic hepatitis, latency 1-4 months, one US death) has been linked to high-dose, high-bioavailability products and is strongly associated with HLA-B*35:01; 3 of 7 implicated US products also contained piperine. GI upset at gram doses.",
+    "timeframe": "Pain effects within 2-8 weeks; biomarker changes at 4-12 weeks; fasting plasma curcuminoids reached ~50 nmol/L after 3 weeks of meal-time micellar dosing.",
+    "notes": "Free (unconjugated) curcumin is barely detectable in blood even with advanced formulations; most 'fold-increase' claims compare total conjugates after enzymatic hydrolysis and use different assays, so brand comparisons are not reliable. Best head-to-head data favour micelles (57-185x) and gamma-cyclodextrin (30-39x); phytosome ~8-29x; piperine adds little to conjugate exposure in the head-to-head study but inhibits drug-metabolising enzymes. Take with meals."
+   },
+   "mechanism": "Claimed: Nrf2 activation via KEAP1 Cys151 (Michael acceptor), NF-kB inhibition, direct radical scavenging and iron chelation. Reality check: these effects appear in cells at 1-20 uM, whereas oral dosing gives low-nanomolar free curcumin and mostly glucuronide/sulfate conjugates that are inactive in cell assays. Curcumin also degrades rapidly and is a known pan-assay interference compound, so many in-vitro 'hits' are suspect. Clinical effects that do appear (OA pain, CRP) may come from gut-local actions, minor metabolites, or bias, and the mechanism in humans is not established.",
+   "pathways": [
+    "nrf2",
+    "inflammation-nfkb",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Overlaps with [sulforaphane-supplements], [broccoli-sprouts] and [broccoli-seed-powder] on Nrf2; sulforaphane is far more potent and bioavailable, and there are no human data on combining them, so adding curcumin for Nrf2 is likely redundant (inference). Its distinct use case is symptomatic osteoarthritis pain. No human evidence that curcumin blunts training adaptations the way high-dose vitamins C/E do ([antioxidant-megadoses-during-training]); this is untested rather than disproven. Pharmacokinetic interactions: curcumin inhibits intestinal BCRP (sulfasalazine exposure up 3.2x) and CYP/P-gp in vitro; piperine raises phenytoin levels. Short studies found no change in INR on warfarin or bleeding time on antiplatelets, but caution is still advised with anticoagulants. Belongs to the broader [isolated-polyphenol-supplements] category.",
+   "caveats": "The field carries an integrity problem: a leading curcumin laboratory has dozens of retracted papers, and one glycaemic meta-analysis was itself retracted. Most positive trials are small, short, single-centre and often from a few research networks; meta-analyses show very high heterogeneity and GRADE certainty is low. Larger or Western trials are frequently null (FAP adenomas, radiation dermatitis, prostate cancer, Alzheimer's disease, micellar curcumin on CRP/lipids). Liver injury is rare but real; stop and test liver enzymes if jaundice, dark urine or fatigue appear. Avoid with gallstones or bile-duct obstruction (curcumin contracts the gallbladder), with marginal iron stores (iron chelation in mice), and in pregnancy (no safety data at supplement doses).",
+   "key_numbers": [
+    {
+     "label": "Relative AUC, micellar vs native (500 mg)",
+     "value": 185,
+     "unit": "x",
+     "source": "cur-schiborr2014"
+    },
+    {
+     "label": "Relative AUC, gamma-cyclodextrin vs native",
+     "value": 39,
+     "unit": "x",
+     "source": "cur-purpura2018"
+    },
+    {
+     "label": "Relative AUC, phospholipid (Meriva) vs native",
+     "value": 29,
+     "unit": "x",
+     "source": "cur-cuomo2011"
+    },
+    {
+     "label": "CRP change, 66-RCT meta-analysis",
+     "value": -0.58,
+     "unit": "mg/L",
+     "source": "cur-dehzad2023"
+    },
+    {
+     "label": "Knee OA pain vs placebo",
+     "value": -0.82,
+     "unit": "SMD",
+     "source": "cur-wang2021"
+    },
+    {
+     "label": "HLA-B*35:01 carriers among US turmeric liver-injury cases",
+     "value": 70,
+     "unit": "%",
+     "source": "cur-halegoua2023"
+    }
+   ],
+   "refs": [
+    "cur-nelson2017",
+    "cur-pubmed-retractions",
+    "cur-cuomo2011",
+    "cur-jager2014",
+    "cur-schiborr2014",
+    "cur-purpura2018",
+    "cur-flory2021",
+    "cur-stohs2019",
+    "cur-kocher2016",
+    "cur-qin2018",
+    "cur-dehzad2023",
+    "cur-kavyani2024",
+    "cur-ferguson2021",
+    "cur-wang2021",
+    "cur-bannuru2018",
+    "cur-chen2025",
+    "cur-kuptniratsaikul2014",
+    "cur-wang2020",
+    "cur-musso2025",
+    "cur-bahari2026",
+    "cur-fang2021",
+    "cur-small2018",
+    "cur-ringman2012",
+    "cur-cruzcorrea2018",
+    "cur-ryanwolf2018",
+    "cur-houghton2016",
+    "cur-ristow2009",
+    "cur-halegoua2023",
+    "cur-lombardi2021",
+    "cur-menniti2020",
+    "cur-efsa2010",
+    "cur-kusuhara2012",
+    "cur-pattanaik2006",
+    "cur-hu2018",
+    "cur-rasyid2002",
+    "cur-jiao2009"
    ]
   }
  ],
@@ -4094,6 +4225,607 @@
    "type": "rct",
    "n": "15 healthy adults",
    "finding": "Cocoa flavanols and nitrate each raised FMD dose-dependently (peak at 1 h) and their effects were additive at low intake levels."
+  },
+  {
+   "id": "cur-alvarenga2020",
+   "authors": "Alvarenga L, Salarolli R, Cardozo LFMF, et al.",
+   "year": 2020,
+   "title": "Impact of curcumin supplementation on expression of inflammatory transcription factors in hemodialysis patients: A pilot randomized, double-blind, controlled study.",
+   "journal": "Clin Nutr",
+   "pmid": "32204978",
+   "doi": "10.1016/j.clnu.2020.03.007",
+   "type": "rct",
+   "n": "31 haemodialysis patients (28 completed)",
+   "finding": "A juice containing 2.5 g turmeric three times weekly for 3 months lowered PBMC NF-kB mRNA and hs-CRP (3.8 to 2.0 mg/L) but did not change Nrf2 mRNA."
+  },
+  {
+   "id": "cur-bahari2026",
+   "authors": "Bahari H, Jazinaki MS, Asadi Z, et al.",
+   "year": 2026,
+   "title": "Curcumin/Turmeric Supplementation on Glycemic Control in Adults With Prediabetes and Type 2 Diabetes: A Systematic Review and Dose-Response Meta-Analysis.",
+   "journal": "Food Sci Nutr",
+   "pmid": "42005325",
+   "doi": "10.1002/fsn3.71748",
+   "type": "meta-analysis",
+   "n": "34 RCTs",
+   "finding": "In prediabetes/type 2 diabetes, curcumin/turmeric lowered fasting glucose (-10.2 mg/dL), HbA1c (-0.32%) and HOMA-IR, with larger effects at >=1 g/day; heterogeneity was substantial."
+  },
+  {
+   "id": "cur-bannuru2018",
+   "authors": "Bannuru RR, Osani MC, Al-Eid F, et al.",
+   "year": 2018,
+   "title": "Efficacy of curcumin and Boswellia for knee osteoarthritis: Systematic review and meta-analysis.",
+   "journal": "Semin Arthritis Rheum",
+   "pmid": "29622343",
+   "doi": "10.1016/j.semarthrit.2018.03.001",
+   "type": "meta-analysis",
+   "n": "11 RCTs, 1009 participants",
+   "finding": "Curcuminoids beat placebo for knee OA pain and function and matched NSAIDs with fewer GI adverse events, but study quality was low and most trials had <100 participants."
+  },
+  {
+   "id": "cur-chen2025",
+   "authors": "Chen J, Zhou Q, Yu W, et al.",
+   "year": 2025,
+   "title": "A critical review of systematic reviews and meta-analyses of curcumin for knee osteoarthritis.",
+   "journal": "Front Pharmacol",
+   "pmid": "41560742",
+   "doi": "10.3389/fphar.2025.1664319",
+   "type": "review",
+   "n": "7 systematic reviews",
+   "finding": "Overview of curcumin-for-knee-OA reviews: methodological quality extremely low, heavy overlap, and 37 of 48 outcomes rated extremely low-quality evidence."
+  },
+  {
+   "id": "cur-cowell2017",
+   "authors": "Cowell W, Ireland T, Vorhees D, et al.",
+   "year": 2017,
+   "title": "Ground Turmeric as a Source of Lead Exposure in the United States.",
+   "journal": "Public Health Rep",
+   "pmid": "28358991",
+   "doi": "10.1177/0033354917700109",
+   "type": "cross-sectional",
+   "n": "32 turmeric samples",
+   "finding": "Describes US childhood lead-poisoning cases traced to spices; all 32 turmeric samples bought in Boston contained lead (0.03-99.5 ppm), half above the FDA candy limit of 0.1 ppm."
+  },
+  {
+   "id": "cur-cruzcorrea2018",
+   "authors": "Cruz-Correa M, Hylind LM, Marrero JH, et al.",
+   "year": 2018,
+   "title": "Efficacy and Safety of Curcumin in Treatment of Intestinal Adenomas in Patients With Familial Adenomatous Polyposis.",
+   "journal": "Gastroenterology",
+   "pmid": "29802852",
+   "doi": "10.1053/j.gastro.2018.05.031",
+   "type": "rct",
+   "n": "44 patients with familial adenomatous polyposis",
+   "finding": "Pure curcumin 3 g/day for 12 months did not reduce the number or size of intestinal adenomas versus placebo."
+  },
+  {
+   "id": "cur-cuomo2011",
+   "authors": "Cuomo J, Appendino G, Dern AS, et al.",
+   "year": 2011,
+   "title": "Comparative absorption of a standardized curcuminoid mixture and its lecithin formulation.",
+   "journal": "J Nat Prod",
+   "pmid": "21413691",
+   "doi": "10.1021/np1007262",
+   "type": "rct",
+   "n": "healthy volunteers (crossover)",
+   "finding": "Phospholipid curcumin (Meriva) raised total curcuminoid absorption about 29-fold, but only phase-2 conjugates were detected and levels stayed below those needed for most anti-inflammatory targets."
+  },
+  {
+   "id": "cur-dehzad2023",
+   "authors": "Dehzad MJ, Ghalandari H, Nouri M, et al.",
+   "year": 2023,
+   "title": "Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials.",
+   "journal": "Cytokine",
+   "pmid": "36804260",
+   "doi": "10.1016/j.cyto.2023.156144",
+   "type": "meta-analysis",
+   "n": "66 RCTs",
+   "finding": "Turmeric/curcumin lowered CRP (-0.58 mg/L), TNF-a and IL-6 (-1.31 pg/mL), raised TAC (+0.21 mmol/L) and SOD, and lowered MDA (-0.33 umol/L); IL-1b unchanged."
+  },
+  {
+   "id": "cur-efsa2010",
+   "authors": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS)",
+   "year": 2010,
+   "title": "Scientific Opinion on the re-evaluation of curcumin (E 100) as a food additive.",
+   "journal": "EFSA J",
+   "pmid": null,
+   "doi": "10.2903/j.efsa.2010.1679",
+   "type": "guideline",
+   "n": null,
+   "finding": "Set an ADI of 3 mg/kg bw/day for curcumin, from a NOAEL of 250-320 mg/kg bw/day (lower F2 body-weight gain in a reproductive toxicity study) with a 100-fold uncertainty factor; not carcinogenic or genotoxic."
+  },
+  {
+   "id": "cur-fang2021",
+   "authors": "Fang W, Nasir Y",
+   "year": 2021,
+   "title": "The effect of curcumin supplementation on recovery following exercise-induced muscle damage and delayed-onset muscle soreness: A systematic review and meta-analysis of randomized controlled trials.",
+   "journal": "Phytother Res",
+   "pmid": "33174301",
+   "doi": "10.1002/ptr.6912",
+   "type": "meta-analysis",
+   "n": "RCTs on exercise-induced muscle damage",
+   "finding": "Curcumin lowered creatine kinase (-48.5 IU/L) and muscle-soreness scores (WMD -0.48) after damaging exercise."
+  },
+  {
+   "id": "cur-ferguson2021",
+   "authors": "Ferguson JJA, Abbott KA, Garg ML",
+   "year": 2021,
+   "title": "Anti-inflammatory effects of oral supplementation with curcumin: a systematic review and meta-analysis of randomized controlled trials.",
+   "journal": "Nutr Rev",
+   "pmid": "34378053",
+   "doi": "10.1093/nutrit/nuaa114",
+   "type": "meta-analysis",
+   "n": "32 RCTs, 2038 participants",
+   "finding": "Curcumin lowered CRP (-1.55 mg/L), IL-6 (-1.69 pg/mL) and TNF-a; authors note dose, duration and formulation remain unresolved."
+  },
+  {
+   "id": "cur-flory2021",
+   "authors": "Flory S, Sus N, Haas K, et al.",
+   "year": 2021,
+   "title": "Increasing Post-Digestive Solubility of Curcumin Is the Most Successful Strategy to Improve its Oral Bioavailability: A Randomized Cross-Over Trial in Healthy Adults and In Vitro Bioaccessibility Experiments.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "34665507",
+   "doi": "10.1002/mnfr.202100613",
+   "type": "rct",
+   "n": "12 healthy adults (crossover)",
+   "finding": "Head-to-head test of 8 formulations at 207 mg curcumin: no free curcumin was detected in anyone; only micelles (57-fold) and gamma-cyclodextrin (30-fold) significantly raised conjugate AUC; piperine-type adjuvants did not."
+  },
+  {
+   "id": "cur-forsyth2019",
+   "authors": "Forsyth JE, Nurunnahar S, Islam SS, et al.",
+   "year": 2019,
+   "title": "Turmeric means \"yellow\" in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh.",
+   "journal": "Environ Res",
+   "pmid": "31550596",
+   "doi": "10.1016/j.envres.2019.108722",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Lead chromate pigment (2-10% lead by weight) is added to turmeric during polishing in 7 of 9 major producing districts of Bangladesh to meet demand for bright yellow colour."
+  },
+  {
+   "id": "cur-forsyth2024",
+   "authors": "Forsyth JE, Mistree D, Nash E, et al.",
+   "year": 2024,
+   "title": "Evidence of turmeric adulteration with lead chromate across South Asia.",
+   "journal": "Sci Total Environ",
+   "pmid": "39053552",
+   "doi": "10.1016/j.scitotenv.2024.175003",
+   "type": "cross-sectional",
+   "n": "356 turmeric samples, 23 cities",
+   "finding": "14% of turmeric samples from India, Pakistan, Sri Lanka and Nepal had detectable lead (>2 ug/g); some exceeded 1000 ug/g with 1:1 lead:chromium ratios indicating lead chromate."
+  },
+  {
+   "id": "cur-garcea2005",
+   "authors": "Garcea G, Berry DP, Jones DJ, et al.",
+   "year": 2005,
+   "title": "Consumption of the putative chemopreventive agent curcumin by cancer patients: assessment of curcumin levels in the colorectum and their pharmacodynamic consequences.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "15668484",
+   "doi": null,
+   "type": "mechanistic",
+   "n": "12 colorectal cancer patients",
+   "finding": "3.6 g/day curcumin for 7 days gave colorectal tissue curcumin of ~8-13 nmol/g and lowered M1G DNA adducts in tissue: the gut wall is the one site where gram doses reach meaningful levels."
+  },
+  {
+   "id": "cur-halegoua2023",
+   "authors": "Halegoua-DeMarzio D, Navarro V, Ahmad J, et al.",
+   "year": 2023,
+   "title": "Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN].",
+   "journal": "Am J Med",
+   "pmid": "36252717",
+   "doi": "10.1016/j.amjmed.2022.09.026",
+   "type": "review",
+   "n": "10 DILIN cases",
+   "finding": "US DILIN turmeric liver-injury cases rose since 2011; typically hepatocellular after 1-4 months, one death, 3 of 7 tested products contained piperine, and 7 of 10 patients carried HLA-B*35:01."
+  },
+  {
+   "id": "cur-houghton2016",
+   "authors": "Houghton CA, Fassett RG, Coombes JS",
+   "year": 2016,
+   "title": "Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician's Expectation Be Matched by the Reality?",
+   "journal": "Oxid Med Cell Longev",
+   "pmid": "26881038",
+   "doi": "10.1155/2016/7857186",
+   "type": "review",
+   "n": null,
+   "finding": "Sulforaphane activates Nrf2 more potently and is far more bioavailable than curcumin, silymarin or resveratrol."
+  },
+  {
+   "id": "cur-hu2018",
+   "authors": "Hu S, Belcaro G, Dugall M, et al.",
+   "year": 2018,
+   "title": "Interaction study between antiplatelet agents, anticoagulants, thyroid replacement therapy and a bioavailable formulation of curcumin (Meriva®).",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "pmid": "30070343",
+   "doi": "10.26355/eurrev_201808_15647",
+   "type": "cohort",
+   "n": "patients on antiplatelets, anticoagulants, levothyroxine or metformin",
+   "finding": "10-15 days of Meriva did not change bleeding time on aspirin/clopidogrel/ticlopidine, INR on warfarin or dabigatran, thyroid tests or glycaemia; short, uncontrolled, sponsor-linked."
+  },
+  {
+   "id": "cur-jager2014",
+   "authors": "Jäger R, Lowery RP, Calvanese AV, et al.",
+   "year": 2014,
+   "title": "Comparative absorption of curcumin formulations.",
+   "journal": "Nutr J",
+   "pmid": "24461029",
+   "doi": "10.1186/1475-2891-13-11",
+   "type": "rct",
+   "n": "healthy volunteers (crossover)",
+   "finding": "Relative to standard curcumin, total curcuminoid exposure was 1.3-fold higher with turmeric-oil formulation, 7.9-fold with phytosome and 45.9-fold with a hydrophilic-carrier formulation (CHC)."
+  },
+  {
+   "id": "cur-jiao2009",
+   "authors": "Jiao Y, Wilkinson J 4th, Di X, et al.",
+   "year": 2009,
+   "title": "Curcumin, a cancer chemopreventive and chemotherapeutic agent, is a biologically active iron chelator.",
+   "journal": "Blood",
+   "pmid": "18815282",
+   "doi": "10.1182/blood-2008-05-155952",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In mice with marginal iron intake, dietary curcumin acted as an iron chelator, lowered hepcidin and caused iron-deficiency anaemia."
+  },
+  {
+   "id": "cur-kavyani2024",
+   "authors": "Kavyani Z, Najafi K, Naghsh N, et al.",
+   "year": 2024,
+   "title": "The effects of curcumin supplementation on biomarkers of inflammation, oxidative stress, and endothelial function: A meta-analysis of meta-analyses.",
+   "journal": "Prostaglandins Other Lipid Mediat",
+   "pmid": "38945354",
+   "doi": "10.1016/j.prostaglandins.2024.106867",
+   "type": "meta-analysis",
+   "n": "21 meta-analyses",
+   "finding": "Umbrella analysis: curcumin lowered CRP (-0.87 mg/L), IL-6, TNF-a and MDA, raised SOD, GPx, catalase and FMD (+1.64%), but did not significantly change TAC."
+  },
+  {
+   "id": "cur-kocher2016",
+   "authors": "Kocher A, Bohnert L, Schiborr C, et al.",
+   "year": 2016,
+   "title": "Highly bioavailable micellar curcuminoids accumulate in blood, are safe and do not reduce blood lipids and inflammation markers in moderately hyperlipidemic individuals.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "26909743",
+   "doi": "10.1002/mnfr.201501034",
+   "type": "rct",
+   "n": "42 adults with raised cholesterol/CRP (crossover)",
+   "finding": "294 mg/day micellar curcuminoids for 6 weeks reached fasting plasma ~49 nmol/L but did not change lipids, CRP or other inflammation markers versus placebo."
+  },
+  {
+   "id": "cur-kuptniratsaikul2014",
+   "authors": "Kuptniratsaikul V, Dajpratham P, Taechaarpornkul W, et al.",
+   "year": 2014,
+   "title": "Efficacy and safety of Curcuma domestica extracts compared with ibuprofen in patients with knee osteoarthritis: a multicenter study.",
+   "journal": "Clin Interv Aging",
+   "pmid": "24672232",
+   "doi": "10.2147/CIA.S58535",
+   "type": "rct",
+   "n": "367 adults with knee OA",
+   "finding": "Curcuma domestica extract 1500 mg/day was non-inferior to ibuprofen 1200 mg/day over 4 weeks on WOMAC, with fewer abdominal complaints."
+  },
+  {
+   "id": "cur-kusuhara2012",
+   "authors": "Kusuhara H, Furuie H, Inano A, et al.",
+   "year": 2012,
+   "title": "Pharmacokinetic interaction study of sulphasalazine in healthy subjects and the impact of curcumin as an in vivo inhibitor of BCRP.",
+   "journal": "Br J Pharmacol",
+   "pmid": "22300367",
+   "doi": "10.1111/j.1476-5381.2012.01887.x",
+   "type": "mechanistic",
+   "n": "8 healthy volunteers",
+   "finding": "2 g curcumin inhibited intestinal BCRP and raised sulfasalazine exposure 2.0-3.2-fold in humans."
+  },
+  {
+   "id": "cur-lombardi2021",
+   "authors": "Lombardi N, Crescioli G, Maggini V, et al.",
+   "year": 2021,
+   "title": "Acute liver injury following turmeric use in Tuscany: An analysis of the Italian Phytovigilance database and systematic review of case reports.",
+   "journal": "Br J Clin Pharmacol",
+   "pmid": "32656820",
+   "doi": "10.1111/bcp.14460",
+   "type": "review",
+   "n": "7 Tuscan cases + 23 published cases",
+   "finding": "Italian phytovigilance cases of acute (mostly cholestatic) hepatitis were all linked to high-bioavailability, high-dose curcumin products; positive dechallenge in most."
+  },
+  {
+   "id": "cur-mahale2018",
+   "authors": "Mahale J, Singh R, Howells LM, et al.",
+   "year": 2018,
+   "title": "Detection of Plasma Curcuminoids from Dietary Intake of Turmeric-Containing Food in Human Volunteers.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29943914",
+   "doi": "10.1002/mnfr.201800267",
+   "type": "mechanistic",
+   "n": "healthy volunteers (pilot)",
+   "finding": "After a turmeric-containing meal at South Asian culinary levels, curcumin glucuronide peaked at ~48 nM and free curcumin was detectable (3.2 nM) in only one volunteer."
+  },
+  {
+   "id": "cur-menniti2020",
+   "authors": "Menniti-Ippolito F, Ippoliti I, Pastorelli AA, et al.",
+   "year": 2020,
+   "title": "Turmeric (Curcuma longa L.) food supplements and hepatotoxicity: an integrated evaluation approach.",
+   "journal": "Ann Ist Super Sanita",
+   "pmid": "33346172",
+   "doi": "10.4415/ANN_20_04_08",
+   "type": "review",
+   "n": "28 spontaneous reports",
+   "finding": "A 2019 Italian cluster of 28 acute hepatitis reports linked to turmeric supplements; product testing looked for drugs, metals, aflatoxins, dyes and pyrrolizidine alkaloids, and regulators intervened."
+  },
+  {
+   "id": "cur-musso2025",
+   "authors": "Musso G, Pinach S, Mariano F, et al.",
+   "year": 2025,
+   "title": "Effect of phospholipid curcumin Meriva on liver histology and kidney disease in nonalcoholic steatohepatitis: A randomized, double-blind, placebo-controlled trial.",
+   "journal": "Hepatology",
+   "pmid": "38809154",
+   "doi": "10.1097/HEP.0000000000000937",
+   "type": "rct",
+   "n": "52 adults with biopsy-proven NASH",
+   "finding": "Meriva 2 g/day for 72 weeks: NASH resolution in 62% vs 12% on placebo and fibrosis improvement in 50% vs 8%; single trial, needs replication."
+  },
+  {
+   "id": "cur-nelson2017",
+   "authors": "Nelson KM, Dahlin JL, Bisson J, et al.",
+   "year": 2017,
+   "title": "The Essential Medicinal Chemistry of Curcumin.",
+   "journal": "J Med Chem",
+   "pmid": "28074653",
+   "doi": "10.1021/acs.jmedchem.6b00975",
+   "type": "review",
+   "n": null,
+   "finding": "Argues curcumin is a PAINS/IMPS compound that is chemically unstable, reactive and not bioavailable; states that no double-blind placebo-controlled curcumin trial had been successful as of 2017."
+  },
+  {
+   "id": "cur-ng2006",
+   "authors": "Ng TP, Chiam PC, Lee T, et al.",
+   "year": 2006,
+   "title": "Curry consumption and cognitive function in the elderly.",
+   "journal": "Am J Epidemiol",
+   "pmid": "16870699",
+   "doi": "10.1093/aje/kwj267",
+   "type": "cohort",
+   "n": "1010 older Singaporean adults",
+   "finding": "Occasional or frequent curry eaters had better MMSE scores than never/rare eaters (cross-sectional association, confounding possible)."
+  },
+  {
+   "id": "cur-pal2014",
+   "authors": "Pal A, Sung B, Bhanu Prasad BA, et al.",
+   "year": 2014,
+   "title": "Curcumin glucuronides: assessing the proliferative activity against human cell lines.",
+   "journal": "Bioorg Med Chem",
+   "pmid": "24280069",
+   "doi": "10.1016/j.bmc.2013.11.006",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Curcumin killed cancer cell lines at 1-10 uM, but its mono- and di-glucuronides (the main circulating forms) showed no antiproliferative activity."
+  },
+  {
+   "id": "cur-pattanaik2006",
+   "authors": "Pattanaik S, Hota D, Prabhakar S, et al.",
+   "year": 2006,
+   "title": "Effect of piperine on the steady-state pharmacokinetics of phenytoin in patients with epilepsy.",
+   "journal": "Phytother Res",
+   "pmid": "16767797",
+   "doi": "10.1002/ptr.1937",
+   "type": "mechanistic",
+   "n": "20 patients with epilepsy",
+   "finding": "A single 20 mg piperine dose significantly raised phenytoin AUC and Cmax at steady state."
+  },
+  {
+   "id": "cur-pubmed-retractions",
+   "authors": "US National Library of Medicine",
+   "year": 2026,
+   "title": "PubMed searches 'Aggarwal BB[au] AND retracted publication[pt]' and 'curcumin AND retracted publication[pt]', run 2026-10-01 via NCBI E-utilities.",
+   "journal": "PubMed",
+   "pmid": null,
+   "doi": null,
+   "type": "database",
+   "n": null,
+   "finding": "Returned 27 retracted publications with BB Aggarwal as author and 162 retracted publications mentioning curcumin.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin+AND+retracted+publication%5Bpt%5D"
+  },
+  {
+   "id": "cur-purpura2018",
+   "authors": "Purpura M, Lowery RP, Wilson JM, et al.",
+   "year": 2018,
+   "title": "Analysis of different innovative formulations of curcumin for improved relative oral bioavailability in human subjects.",
+   "journal": "Eur J Nutr",
+   "pmid": "28204880",
+   "doi": "10.1007/s00394-016-1376-9",
+   "type": "rct",
+   "n": "12 healthy adults (crossover)",
+   "finding": "A gamma-cyclodextrin curcumin complex gave 39-fold higher total curcuminoid AUC than unformulated extract, exceeding a phytosome and a turmeric-oil formulation."
+  },
+  {
+   "id": "cur-qin2018",
+   "authors": "Qin S, Huang L, Gong J, et al.",
+   "year": 2018,
+   "title": "Meta-analysis of randomized controlled trials of 4 weeks or longer suggest that curcumin may afford some protection against oxidative stress.",
+   "journal": "Nutr Res",
+   "pmid": "30527253",
+   "doi": "10.1016/j.nutres.2018.08.003",
+   "type": "meta-analysis",
+   "n": "8 RCTs, 626 participants",
+   "finding": "Curcumin >=4 weeks lowered MDA (SMD -0.77) and raised SOD (SMD 1.08) with no change in RBC GPx; the MDA effect appeared at >=600 mg/day curcuminoids."
+  },
+  {
+   "id": "cur-rasyid2002",
+   "authors": "Rasyid A, Rahman AR, Jaalam K, et al.",
+   "year": 2002,
+   "title": "Effect of different curcumin dosages on human gall bladder.",
+   "journal": "Asia Pac J Clin Nutr",
+   "pmid": "12495265",
+   "doi": "10.1046/j.1440-6047.2002.00296.x",
+   "type": "rct",
+   "n": "12 healthy volunteers (crossover)",
+   "finding": "Curcumin 20, 40 and 80 mg contracted the gallbladder by 34%, 51% and 72% within 2 h."
+  },
+  {
+   "id": "cur-ringman2012",
+   "authors": "Ringman JM, Frautschy SA, Teng E, et al.",
+   "year": 2012,
+   "title": "Oral curcumin for Alzheimer's disease: tolerability and efficacy in a 24-week randomized, double blind, placebo-controlled study.",
+   "journal": "Alzheimers Res Ther",
+   "pmid": "23107780",
+   "doi": "10.1186/alzrt146",
+   "type": "rct",
+   "n": "36 adults with mild-moderate Alzheimer's",
+   "finding": "Curcumin C3 Complex 2 or 4 g/day for 24 weeks showed no clinical or biomarker benefit; native plasma curcumin was low (7.3 ng/mL) and 3 withdrew for GI symptoms."
+  },
+  {
+   "id": "cur-ristow2009",
+   "authors": "Ristow M, Zarse K, Oberbach A, et al.",
+   "year": 2009,
+   "title": "Antioxidants prevent health-promoting effects of physical exercise in humans.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "19433800",
+   "doi": "10.1073/pnas.0903485106",
+   "type": "rct",
+   "n": "40 young men",
+   "finding": "Vitamin C 1000 mg plus vitamin E 400 IU/day blocked exercise-induced gains in insulin sensitivity and induction of endogenous antioxidant defences."
+  },
+  {
+   "id": "cur-ryanwolf2018",
+   "authors": "Ryan Wolf J, Heckler CE, Guido JJ, et al.",
+   "year": 2018,
+   "title": "Oral curcumin for radiation dermatitis: a URCC NCORP study of 686 breast cancer patients.",
+   "journal": "Support Care Cancer",
+   "pmid": "29192329",
+   "doi": "10.1007/s00520-017-3957-4",
+   "type": "rct",
+   "n": "686 breast cancer patients",
+   "finding": "Oral curcumin 6 g/day during radiotherapy did not reduce radiation dermatitis severity versus placebo."
+  },
+  {
+   "id": "cur-schiborr2014",
+   "authors": "Schiborr C, Kocher A, Behnam D, et al.",
+   "year": 2014,
+   "title": "The oral bioavailability of curcumin from micronized powder and liquid micelles is significantly increased in healthy humans and differs between sexes.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "24402825",
+   "doi": "10.1002/mnfr.201300724",
+   "type": "rct",
+   "n": "23 healthy adults (crossover)",
+   "finding": "Single 500 mg dose: micronized curcumin was 9-fold and liquid micellar curcumin 185-fold more bioavailable (AUC) than native powder; women absorbed more than men."
+  },
+  {
+   "id": "cur-shin2020",
+   "authors": "Shin JW, Chun KS, Kim DH, et al.",
+   "year": 2020,
+   "title": "Curcumin induces stabilization of Nrf2 protein through Keap1 cysteine modification.",
+   "journal": "Biochem Pharmacol",
+   "pmid": "31972171",
+   "doi": "10.1016/j.bcp.2020.113820",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In mouse skin and epidermal cells, curcumin binds KEAP1 Cys151 and stabilises Nrf2 to induce HO-1; tetrahydrocurcumin, which lacks the Michael-acceptor group, does not."
+  },
+  {
+   "id": "cur-shoba1998",
+   "authors": "Shoba G, Joy D, Joseph T, et al.",
+   "year": 1998,
+   "title": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers.",
+   "journal": "Planta Med",
+   "pmid": "9619120",
+   "doi": "10.1055/s-2006-957450",
+   "type": "mechanistic",
+   "n": "healthy volunteers (crossover)",
+   "finding": "2 g curcumin alone gave undetectable or very low serum levels; with 20 mg piperine bioavailability (AUC) rose about 2000%."
+  },
+  {
+   "id": "cur-small2018",
+   "authors": "Small GW, Siddarth P, Li Z, et al.",
+   "year": 2018,
+   "title": "Memory and Brain Amyloid and Tau Effects of a Bioavailable Form of Curcumin in Non-Demented Adults: A Double-Blind, Placebo-Controlled 18-Month Trial.",
+   "journal": "Am J Geriatr Psychiatry",
+   "pmid": "29246725",
+   "doi": "10.1016/j.jagp.2017.10.010",
+   "type": "rct",
+   "n": "40 non-demented adults aged 51-84",
+   "finding": "Theracurmin 90 mg curcumin twice daily for 18 months improved verbal and visual memory and attention versus placebo and lowered FDDNP-PET signal in amygdala/hypothalamus; very small trial."
+  },
+  {
+   "id": "cur-stohs2019",
+   "authors": "Stohs SJ, Chen CYO, Preuss HG, et al.",
+   "year": 2019,
+   "title": "The fallacy of enzymatic hydrolysis for the determination of bioactive curcumin in plasma samples as an indication of bioavailability: a comparative study.",
+   "journal": "BMC Complement Altern Med",
+   "pmid": "31684927",
+   "doi": "10.1186/s12906-019-2699-x",
+   "type": "mechanistic",
+   "n": "8 healthy adults",
+   "finding": "Most curcumin PK studies hydrolyse plasma before analysis and so report total (free plus conjugated) curcumin, which overstates the bioactive free fraction."
+  },
+  {
+   "id": "cur-tang2008",
+   "authors": "Tang M, Larson-Meyer DE, Liebman M",
+   "year": 2008,
+   "title": "Effect of cinnamon and turmeric on urinary oxalate excretion, plasma lipids, and plasma glucose in healthy subjects.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "18469248",
+   "doi": "10.1093/ajcn/87.5.1262",
+   "type": "rct",
+   "n": "11 healthy adults (crossover)",
+   "finding": "Supplemental turmeric raised urinary oxalate excretion (91% of its oxalate is soluble) and did not change glucose or lipids over 4 weeks."
+  },
+  {
+   "id": "cur-tayyem2006",
+   "authors": "Tayyem RF, Heath DD, Al-Delaimy WK, et al.",
+   "year": 2006,
+   "title": "Curcumin content of turmeric and curry powders.",
+   "journal": "Nutr Cancer",
+   "pmid": "17044766",
+   "doi": "10.1207/s15327914nc5502_2",
+   "type": "database",
+   "n": null,
+   "finding": "HPLC of 28 spice products: pure turmeric powder averaged 3.14% curcumin by weight; most curry powders contained little and variable curcumin."
+  },
+  {
+   "id": "cur-tuntipopipat2006",
+   "authors": "Tuntipopipat S, Judprasong K, Zeder C, et al.",
+   "year": 2006,
+   "title": "Chili, but not turmeric, inhibits iron absorption in young women from an iron-fortified composite meal.",
+   "journal": "J Nutr",
+   "pmid": "17116705",
+   "doi": "10.1093/jn/136.12.2970",
+   "type": "rct",
+   "n": "10 young women (crossover)",
+   "finding": "0.5 g turmeric in a meal did not inhibit iron absorption (stable isotopes), whereas chili cut it by 38%."
+  },
+  {
+   "id": "cur-vareed2008",
+   "authors": "Vareed SK, Kakarala M, Ruffin MT, et al.",
+   "year": 2008,
+   "title": "Pharmacokinetics of curcumin conjugate metabolites in healthy human subjects.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "18559556",
+   "doi": "10.1158/1055-9965.EPI-07-2693",
+   "type": "mechanistic",
+   "n": "12 healthy volunteers",
+   "finding": "After 10 or 12 g curcumin, free curcumin was detectable in only one subject; glucuronide and sulfate conjugates were found in all (Cmax ~1.7-2.3 ug/mL)."
+  },
+  {
+   "id": "cur-wang2020",
+   "authors": "Wang Z, Jones G, Winzenberg T, et al.",
+   "year": 2020,
+   "title": "Effectiveness of Curcuma longa Extract for the Treatment of Symptoms and Effusion-Synovitis of Knee Osteoarthritis : A Randomized Trial.",
+   "journal": "Ann Intern Med",
+   "pmid": "32926799",
+   "doi": "10.7326/M20-0990",
+   "type": "rct",
+   "n": "70 adults with knee OA and effusion-synovitis",
+   "finding": "Curcuma longa extract (2 capsules/day, 12 weeks) cut VAS knee pain by 9.1 mm versus placebo but did not change effusion-synovitis volume or cartilage; funded partly by the manufacturer."
+  },
+  {
+   "id": "cur-wang2021",
+   "authors": "Wang Z, Singh A, Jones G, et al.",
+   "year": 2021,
+   "title": "Efficacy and Safety of Turmeric Extracts for the Treatment of Knee Osteoarthritis: a Systematic Review and Meta-analysis of Randomised Controlled Trials.",
+   "journal": "Curr Rheumatol Rep",
+   "pmid": "33511486",
+   "doi": "10.1007/s11926-020-00975-8",
+   "type": "meta-analysis",
+   "n": "16 RCTs, 1810 adults",
+   "finding": "Turmeric extracts reduced knee OA pain (SMD -0.82) and improved function versus placebo, similar to NSAIDs; very high heterogeneity, moderate risk of bias, less benefit with higher BMI."
   }
  ]
 }

@@ -86,6 +86,20 @@
     const title = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(r.title)}</a>` : esc(r.title);
     return `<li><span class="ref-type">${esc(r.type || "")}</span>${esc(r.authors)} (${esc(r.year)}). ${title}. <i>${esc(r.journal || "")}</i>${r.n ? ` · n = ${esc(r.n)}` : ""}${r.finding ? `<span class="finding">${esc(r.finding)}</span>` : ""}</li>`;
   }
+  // [refid] / [refid1, refid2] -> author-year links, using the doc's local reference ids
+  function citeLinks(html, doc) {
+    const idx = (D.ref_index || {})[doc] || {};
+    return html.replace(/\[([a-z0-9][\w-]*(?:\s*[,;]\s*[a-z0-9][\w-]*)*)\]/gi, (m, inner) => {
+      const ids = inner.split(/\s*[,;]\s*/);
+      if (!ids.every((i) => idx[i] && D.references[idx[i]])) return m;
+      return "[" + ids.map((i) => {
+        const r = D.references[idx[i]];
+        const url = r.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/` : r.doi ? `https://doi.org/${r.doi}` : r.url || "";
+        const who = `${String(r.authors || "").split(/[ ,]/)[0]} ${r.year || ""}`.trim();
+        return url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="${esc(r.title)}">${esc(who)}</a>` : esc(who);
+      }).join(", ") + "]";
+    });
+  }
   function setActiveNav(route) {
     document.querySelectorAll("nav a").forEach((a) => a.classList.toggle("active", a.dataset.route === route));
     $("#nav").classList.remove("open");
@@ -229,6 +243,7 @@
         ${paths ? `<div class="chips">${paths}</div>` : ""}
         ${e.interactions ? `<div class="section-label">Interactions, redundancy &amp; synergy</div><p>${linkify(e.interactions)}</p>` : ""}
         ${e.caveats ? `<div class="section-label">Caveats</div><p class="caveat">${linkify(e.caveats)}</p>` : ""}
+        ${e.debate ? `<div class="section-label">Where the evidence is contested</div><p class="debate">${citeLinks(linkify(e.debate), e.area)}</p>` : ""}
         ${kn}
         ${(e.refs || []).length ? `<details><summary class="section-label" style="cursor:pointer">References (${e.refs.length})</summary><ul class="refs">${e.refs.map(refHTML).join("")}</ul></details>` : ""}
       </section>`;
@@ -298,6 +313,7 @@
           ${knLabels.map((l) => row(esc(l), (f) => knRow(f, l))).join("")}
           ${row("Other numbers", otherKn)}
           ${row("Caveats", (f) => `<span class="small">${linkify(e0(f).caveats || "—")}</span>`)}
+          ${fs.some((f) => f.entries.some((e) => e.debate)) ? row("Debate", (f) => { const e = f.entries.find((x) => x.debate); return e ? `<span class="small">${citeLinks(linkify(e.debate), e.area)}</span>` : '<span class="muted">—</span>'; }) : ""}
         </tbody></table></div>`;
       // numeric chart for the key number shared by most of the selection
       const shared = knLabels.map((l) => ({ l, items: fs.map((f) => ({ f, k: kns(f).find((x) => gk(x) === l) })).filter((x) => x.k && typeof x.k.value === "number") }))
@@ -452,6 +468,108 @@
     const r = $("#plan-reset"); if (r) r.addEventListener("click", () => { store.set("redox.plan", {}); route(); });
   }
 
+  // ---------- tests ----------
+  const TEST_CATS = [["", "All"], ["general", "General health"], ["sperm", "Sperm"], ["egg", "Egg & ovarian"], ["genetic", "Genetic"]];
+  function viewTests(params) {
+    const cat = params.get("cat") || "";
+    if (!(D.tests || []).length) return `<h1>What to test</h1><p class="muted">Test guidance is still being researched.</p>`;
+    const tests = D.tests.filter((t) => !cat || t.category === cat);
+    const chips = TEST_CATS.map(([v, l]) => `<a class="chip ${v === cat ? "dir-beneficial" : ""}" href="#/tests${v ? "?cat=" + v : ""}">${esc(l)}</a>`).join("");
+    const cl = (t) => citeLinks(linkify(t), "tests");
+    const card = (t) => `<section class="card entry" id="test-${esc(t.id)}">
+      <div class="entry-title"><h2>${esc(t.name)}</h2><span class="chip">${esc((TEST_CATS.find((c) => c[0] === t.category) || [0, t.category])[1])}</span>${t.access ? `<span class="chip">${esc(t.access)}</span>` : ""}</div>
+      ${t.what ? `<p class="headline">${cl(t.what)}</p>` : ""}
+      <dl class="dose">
+        ${t.why ? `<dt>Why it matters</dt><dd>${cl(t.why)}</dd>` : ""}
+        ${t.who ? `<dt>Who should consider it</dt><dd>${cl(t.who)}</dd>` : ""}
+        ${t.interpretation ? `<dt>Reading the result</dt><dd>${cl(t.interpretation)}</dd>` : ""}
+      </dl>
+      ${t.limits ? `<div class="section-label">Limits</div><p class="caveat">${cl(t.limits)}</p>` : ""}
+      ${t.debate ? `<div class="section-label">Where the evidence is contested</div><p>${cl(t.debate)}</p>` : ""}
+      ${(t.related_factors || []).length ? `<div class="chips">${t.related_factors.filter((i) => byId.has(i)).map((i) => `<a class="chip" href="#/factor/${encodeURIComponent(i)}">${esc(byId.get(i).name)}</a>`).join("")}</div>` : ""}
+      ${(t.refs || []).length ? `<details><summary class="section-label" style="cursor:pointer">References (${t.refs.length})</summary><ul class="refs">${t.refs.map(refHTML).join("")}</ul></details>` : ""}
+    </section>`;
+    return `<h1>What to test (and what not to)</h1>
+      <p class="lede">Lab tests that can actually guide decisions about oxidative stress and fertility, what the numbers mean, and which popular tests aren't worth it. Results need a clinician's interpretation.</p>
+      <div class="toc">${chips}</div>
+      ${tests.map(card).join("")}`;
+  }
+
+  // ---------- stack checker ----------
+  const STACK_KEY = "redox.stack";
+  function stackPool() {
+    const extra = new Set(((D.stack || {}).extra_items) || []);
+    return D.factors.filter((f) => f.kind === "supplement" || extra.has(f.id)).sort((a, b) => a.name.localeCompare(b.name));
+  }
+  function viewStack() {
+    const st = store.get(STACK_KEY, { items: [], ctx: [] });
+    const CTX = ((D.stack || {}).contexts) || [];
+    const opts = stackPool().filter((f) => !st.items.includes(f.id)).map((f) => `<option value="${esc(f.id)}">${esc(f.name)}${f.kind !== "supplement" ? " (medication)" : ""}</option>`).join("");
+    return `<h1>Supplement stack checker</h1>
+      <p class="lede">List what you take. The checker flags evidence of harm, weak evidence, overlapping mechanisms, and combinations that conflict with training or conception. It doesn't know your medical history and isn't a substitute for a pharmacist or clinician.</p>
+      <div class="two-col" style="align-items:start">
+        <div class="card">
+          <div class="q-label">What do you take?</div>
+          <div class="toolbar" style="margin:6px 0"><select id="stack-add" style="flex:1;min-width:0"><option value="">Add a supplement or medication…</option>${opts}</select></div>
+          <div class="chips" id="stack-items">${st.items.filter((i) => byId.has(i)).map((i) => `<button class="chip on" data-rm="${esc(i)}">${esc(byId.get(i).name)} ×</button>`).join("") || '<span class="muted small">Nothing added yet.</span>'}</div>
+          <div class="q-label" style="margin-top:18px">Context</div>
+          <div class="opts" id="stack-ctx">${CTX.map((c) => `<button class="${st.ctx.includes(c.id) ? "on" : ""}" data-ctx="${esc(c.id)}">${esc(c.label)}</button>`).join("")}</div>
+          ${st.items.length ? `<p style="margin-top:16px"><button class="btn secondary small" id="stack-clear">Clear</button></p>` : ""}
+        </div>
+        <div>${stackReport(st)}</div>
+      </div>`;
+  }
+  function stackReport(st) {
+    const items = st.items.filter((i) => byId.has(i)).map((i) => byId.get(i));
+    if (!items.length) return `<div class="card"><p class="muted">Add items to see flags.</p></div>`;
+    const ctx = new Set(st.ctx);
+    const goals = ["general", ...(ctx.has("ttc-male") ? ["sperm"] : []), ...(ctx.has("ttc-female") ? ["egg"] : [])];
+    const sel = new Set(items.map((f) => f.id));
+    const flags = [];
+    for (const r of ((D.stack || {}).rules) || []) {
+      const hit = (r.ids_any || []).includes("*") ? [...sel] : (r.ids_any || []).filter((i) => sel.has(i));
+      if (hit.length < (r.min || 1)) continue;
+      if ((r.requires_ids || []).some((i) => !sel.has(i))) continue;
+      if ((r.requires || []).some((c) => !ctx.has(c))) continue;
+      if ((r.requires_any || []).length && !r.requires_any.some((c) => ctx.has(c))) continue;
+      flags.push({ sev: r.severity || "caution", title: r.title, msg: r.message, hit });
+    }
+    const harmful = items.filter((f) => goals.some((g) => impactOf(f, g) > 0 && dirFor(f, g) === "harmful"));
+    if (harmful.length) flags.push({ sev: "harm", title: "Evidence suggests net harm", msg: "Trials or strong observational data link these to harm for the goals you selected. Open each one for the details and doses.", hit: harmful.map((f) => f.id) });
+    const nrf2 = items.filter((f) => f.pathways.includes("nrf2"));
+    if (nrf2.length >= 2) flags.push({ sev: "info", title: "Overlapping Nrf2 activators", msg: "These work partly through the same pathway, so each adds less than it would alone. Food-dose Nrf2 activation looks additive rather than saturated, but stacking high-dose concentrates has no trial support. See the Nrf2 mechanism page.", hit: nrf2.map((f) => f.id), link: "#/mechanism/nrf2" });
+    const order = { harm: 0, caution: 1, info: 2 };
+    flags.sort((a, b) => order[a.sev] - order[b.sev]);
+    const sevChip = { harm: "dir-harmful", caution: "dir-mixed", info: "dir-neutral" };
+    const sevLabel = { harm: "Avoid", caution: "Caution", info: "Note" };
+    const flagHTML = flags.map((x) => `<div class="plan-item"><span class="chip ${sevChip[x.sev]}" style="height:fit-content">${sevLabel[x.sev]}</span><div>
+      <h3>${x.link ? `<a href="${x.link}">${esc(x.title)}</a>` : esc(x.title)}</h3><div>${linkify(x.msg)}</div>
+      <div class="chips" style="margin-top:6px">${x.hit.map((i) => `<a class="chip" href="#/factor/${encodeURIComponent(i)}">${esc(byId.get(i).name)}</a>`).join("")}</div></div></div>`).join("");
+    const verdict = (f) => {
+      const g = goals.filter((x) => impactOf(f, x) > 0);
+      const ds = g.map((x) => dirFor(f, x));
+      const e = bestEntry(f, g.find((x) => x !== "general") || "general");
+      const d = e.dose || {};
+      const worst = ds.includes("harmful") ? "harmful" : ds.includes("mixed") ? "mixed" : ds.includes("beneficial") ? "beneficial" : "neutral";
+      return `<div class="plan-item"><span>${dirChip(worst)}</span><div>
+        <h3>${fLink(f.id)}</h3><div class="why">${linkify(e.headline || "")}</div>
+        ${d.effective ? `<div class="small" style="margin-top:4px"><b>Studied dose:</b> ${linkify(d.effective)}</div>` : ""}
+        ${d.too_much ? `<div class="small"><b>Too much:</b> ${linkify(d.too_much)}</div>` : ""}
+        <div class="chips" style="margin-top:6px">${g.length ? evChip(evFor(f, g[0])) : ""}${g.map((x) => `<span class="chip">${esc(SCOPES.find((s) => s.id === x).short)}: ${esc(DIR_LABEL[dirFor(f, x)] || "")}</span>`).join("")}</div>
+      </div></div>`;
+    };
+    return `<div class="card"><h2 style="margin-top:0">Flags</h2>${flagHTML || '<p class="muted">No combination flags for this stack.</p>'}</div>
+      <div class="card" style="margin-top:16px"><h2 style="margin-top:0">Item by item</h2>${items.map(verdict).join("")}</div>`;
+  }
+  function bindStack() {
+    const get = () => store.get(STACK_KEY, { items: [], ctx: [] });
+    const put = (st) => { store.set(STACK_KEY, st); const y = window.scrollY; route(); window.scrollTo(0, y); };
+    $("#stack-add").addEventListener("change", (e) => { if (!e.target.value) return; const st = get(); st.items.push(e.target.value); put(st); });
+    $("#stack-items").addEventListener("click", (e) => { const b = e.target.closest("[data-rm]"); if (!b) return; const st = get(); st.items = st.items.filter((i) => i !== b.dataset.rm); put(st); });
+    $("#stack-ctx").addEventListener("click", (e) => { const b = e.target.closest("[data-ctx]"); if (!b) return; const st = get(); const c = b.dataset.ctx; st.ctx = st.ctx.includes(c) ? st.ctx.filter((x) => x !== c) : [...st.ctx, c]; put(st); });
+    const c = $("#stack-clear"); if (c) c.addEventListener("click", () => put({ items: [], ctx: get().ctx }));
+  }
+
   // ---------- read ----------
   async function viewRead(area) {
     const notes = D.notes || [];
@@ -466,18 +584,7 @@
     let md = "";
     try { md = await (await fetch(`research/${encodeURIComponent(area)}.md`, { cache: "no-cache" })).text(); } catch { md = "Could not load this document."; }
     let html = window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`;
-    // [id] / [id1, id2] citations -> author-year links to PubMed
-    const idx = (D.ref_index || {})[area] || {};
-    html = html.replace(/\[([a-z0-9][\w-]*(?:\s*[,;]\s*[a-z0-9][\w-]*)*)\]/gi, (m, inner) => {
-      const ids = inner.split(/\s*[,;]\s*/);
-      if (!ids.every((i) => idx[i] && D.references[idx[i]])) return m;
-      return "[" + ids.map((i) => {
-        const r = D.references[idx[i]];
-        const url = r.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/` : r.doi ? `https://doi.org/${r.doi}` : "";
-        const who = `${String(r.authors || "").split(/[ ,]/)[0]} ${r.year || ""}`.trim();
-        return url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="${esc(r.title)}">${esc(who)}</a>` : esc(who);
-      }).join(", ") + "]";
-    });
+    html = citeLinks(html, area);
     return `<div class="toc">${toc}</div><article class="prose">${html}</article>`;
   }
 
@@ -519,6 +626,8 @@
       case "mechanism": html = viewMechanism(arg); setActiveNav("mechanisms"); break;
       case "plan": html = viewPlan(); bind = bindPlan; break;
       case "read": html = await viewRead(arg); break;
+      case "tests": html = viewTests(params); break;
+      case "stack": html = viewStack(); bind = bindStack; break;
       case "about": html = viewAbout(); break;
       default: html = `<h1>Not found</h1><p><a href="#/">Go to overview</a></p>`;
     }

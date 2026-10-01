@@ -49,6 +49,7 @@ Each research area writes two files:
   "pathways": ["nrf2", "direct-scavenging", "mitochondrial", "inflammation-nfkb", "glycation-ages", "iron-fenton", "nox", "hormesis", "endocrine", "thermal", "dna-repair"],
   "interactions": "Saturation/redundancy/synergy/antagonism with other factors (e.g. multiple Nrf2 activators; antioxidant supplements blunting exercise adaptation). Use factor ids in [brackets] where relevant.",
   "caveats": "Bro-science to debunk, conflicting results, populations where it differs, risks.",
+  "debate": "Where published papers disagree: name the opposing positions and cite both sides with [ref-id] (e.g. conflicting meta-analyses, critical commentaries/letters, failed replications, industry funding concerns). Write 'No substantive published debate found' only after actually searching.",
   "key_numbers": [                           // optional, quantitative comparison data for charts
     { "label": "Total polyphenols", "value": 260, "unit": "mg/100g", "source": "ref-id" }
   ],
@@ -85,4 +86,5 @@ Each research area writes two files:
 2. Prefer: systematic reviews/meta-analyses (Cochrane especially), RCTs, large prospective cohorts, authoritative databases (Phenol-Explorer, USDA FoodData Central), mechanistic reviews in good journals. Avoid health websites, blogs, supplement vendor pages, and press releases.
 3. Be honest about null results and the "antioxidant paradox". A factor with a big mechanistic story but null RCTs should be graded accordingly.
 4. Doses must be concrete and practical (grams, servings, minutes, frequency) where the literature supports it.
-5. In-vitro antioxidant capacity (ORAC, FRAP, TEAC) does not predict in-vivo effect; USDA withdrew its ORAC database in 2012. You may report polyphenol content (Phenol-Explorer) but must not imply that more mg = more benefit.
+5. Search for disagreement: for every factor and every major claim, look for papers that dispute it (opposing meta-analyses, commentaries, letters to the editor, re-analyses, failed replications) and record the debate.
+6. In-vitro antioxidant capacity (ORAC, FRAP, TEAC) does not predict in-vivo effect; USDA withdrew its ORAC database in 2012. You may report polyphenol content (Phenol-Explorer) but must not imply that more mg = more benefit.

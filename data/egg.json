@@ -1696,6 +1696,62 @@
    "refs": [
     "ditucci2021"
    ]
+  },
+  {
+   "id": "curcumin-egg",
+   "name": "Curcumin supplements for PCOS and egg quality",
+   "kind": "supplement",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "In PCOS, several small RCTs and meta-analyses show curcumin modestly lowers fasting glucose (~3-4 mg/dL), insulin and HOMA-IR, without consistent effects on lipids, testosterone, LH/FSH or weight, and no trial has measured ovulation, pregnancy or live birth.",
+   "dose": {
+    "effective": "PCOS trials: 500-1500 mg/day standard curcumin or ~80 mg two to three times daily as nanocurcumin, for 8-12 weeks.",
+    "studied_range": "80-240 mg/day nanocurcumin to 1500 mg/day standard curcumin; endometriosis-ART trial 120 mg/day nanomicelle for 10 weeks.",
+    "too_much": "Not established. EFSA ADI (3 mg/kg/day) rests on a multigeneration reproductive-toxicity study (reduced F2 body-weight gain). Mouse oocytes exposed to curcumin showed impaired maturation and embryo development. No human safety data in pregnancy at supplement doses.",
+    "timeframe": "Metabolic effects at 8-12 weeks; an oocyte matures over ~3 months.",
+    "notes": "Glycaemic benefit is small compared with metformin; one 200-woman factorial trial found curcumin plus metformin better than either alone. Stopping high-dose supplements once pregnancy is possible is a precautionary inference, not a tested rule."
+   },
+   "mechanism": "Improved insulin sensitivity and lower inflammation/oxidative stress would plausibly help the ovarian environment in PCOS; animal studies show curcumin can preserve follicle reserve but other animal studies show direct harm to oocytes and embryos, so the net effect on eggs is unknown.",
+   "pathways": [
+    "endocrine",
+    "inflammation-nfkb",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Additive to metformin in one trial. Alternative or adjunct to [myo-inositol], which has a larger PCOS evidence base; no head-to-head trials. Treat [pcos] and [glycemic-control] first with lifestyle and established drugs. Same liver and drug-interaction cautions as [curcumin-supplements].",
+   "caveats": "All PCOS and endometriosis trials found here were small and mostly from Iran; meta-analyses pool 3-8 trials with high heterogeneity for HOMA-IR. A small endometriosis-ART trial reported more mature oocytes and good embryos but needs replication; a separate endometriosis RCT found no pain benefit. Oocyte-quality claims rest on conflicting animal data (mechanistic).",
+   "key_numbers": [
+    {
+     "label": "Fasting glucose change in PCOS (5 RCTs)",
+     "value": -3.68,
+     "unit": "mg/dL",
+     "source": "cur-simentalmendia2022"
+    },
+    {
+     "label": "HOMA-IR change in PCOS (5 RCTs)",
+     "value": -0.55,
+     "unit": "units",
+     "source": "cur-abdelazeem2022"
+    }
+   ],
+   "refs": [
+    "cur-abdelazeem2022",
+    "cur-chien2021",
+    "cur-simentalmendia2022",
+    "cur-mohammadi2025",
+    "cur-feghhi2024",
+    "cur-ghanbarzadeh2023",
+    "cur-jannatifar2025",
+    "cur-gudarzi2024",
+    "cur-chen2012",
+    "cur-azami2020",
+    "cur-efsa2010"
+   ]
   }
  ],
  "mechanisms": [
@@ -2938,6 +2994,138 @@
    "type": "rct",
    "n": "116 women undergoing IVF",
    "finding": "Melatonin 2, 4 or 8 mg twice daily from cycle day 2 to egg retrieval did not cause daytime sleepiness or change objective sleep vs placebo."
+  },
+  {
+   "id": "cur-abdelazeem2022",
+   "authors": "Abdelazeem B, Abbas KS, Shehata J, et al.",
+   "year": 2022,
+   "title": "The effects of curcumin as dietary supplement for patients with polycystic ovary syndrome: An updated systematic review and meta-analysis of randomized clinical trials.",
+   "journal": "Phytother Res",
+   "pmid": "34517426",
+   "doi": "10.1002/ptr.7274",
+   "type": "meta-analysis",
+   "n": "5 RCTs, 296 women with PCOS",
+   "finding": "Curcumin improved fasting glucose (-3.7 mg/dL), insulin, HOMA-IR (-0.55) and total cholesterol, with no effect on LDL, HDL, sex hormones, weight or CRP."
+  },
+  {
+   "id": "cur-azami2020",
+   "authors": "Azami SH, Nazarian H, Abdollahifar MA, et al.",
+   "year": 2020,
+   "title": "The antioxidant curcumin postpones ovarian aging in young and middle-aged mice.",
+   "journal": "Reprod Fertil Dev",
+   "pmid": "31656219",
+   "doi": "10.1071/RD18472",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In mice, intraperitoneal curcumin (100 mg/kg/day) preserved follicle numbers, AMH and oocyte quality with age."
+  },
+  {
+   "id": "cur-chen2012",
+   "authors": "Chen CC, Chan WH",
+   "year": 2012,
+   "title": "Injurious effects of curcumin on maturation of mouse oocytes, fertilization and fetal development via apoptosis.",
+   "journal": "Int J Mol Sci",
+   "pmid": "22606002",
+   "doi": "10.3390/ijms13044655",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In mice, curcumin (in vitro and 40 uM in drinking water) impaired oocyte maturation, fertilisation and early embryo development via apoptosis."
+  },
+  {
+   "id": "cur-chien2021",
+   "authors": "Chien YJ, Chang CY, Wu MY, et al.",
+   "year": 2021,
+   "title": "Effects of Curcumin on Glycemic Control and Lipid Profile in Polycystic Ovary Syndrome: Systematic Review with Meta-Analysis and Trial Sequential Analysis.",
+   "journal": "Nutrients",
+   "pmid": "33669954",
+   "doi": "10.3390/nu13020684",
+   "type": "meta-analysis",
+   "n": "3 RCTs in PCOS",
+   "finding": "Curcumin improved fasting glucose, insulin, HOMA-IR (-0.32), HDL and total cholesterol but not LDL or triglycerides."
+  },
+  {
+   "id": "cur-efsa2010",
+   "authors": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS)",
+   "year": 2010,
+   "title": "Scientific Opinion on the re-evaluation of curcumin (E 100) as a food additive.",
+   "journal": "EFSA J",
+   "pmid": null,
+   "doi": "10.2903/j.efsa.2010.1679",
+   "type": "guideline",
+   "n": null,
+   "finding": "Set an ADI of 3 mg/kg bw/day for curcumin, from a NOAEL of 250-320 mg/kg bw/day (lower F2 body-weight gain in a reproductive toxicity study) with a 100-fold uncertainty factor; not carcinogenic or genotoxic."
+  },
+  {
+   "id": "cur-feghhi2024",
+   "authors": "Feghhi F, Ghaznavi H, Sheervalilou R, et al.",
+   "year": 2024,
+   "title": "Effects of metformin and curcumin in women with polycystic ovary syndrome: A factorial clinical trial.",
+   "journal": "Phytomedicine",
+   "pmid": "39461199",
+   "doi": "10.1016/j.phymed.2024.156160",
+   "type": "rct",
+   "n": "200 women with PCOS (factorial)",
+   "finding": "Nanocurcumin 80 mg three times daily plus metformin improved lipids, glucose markers, weight and testosterone more than either agent alone or placebo over 12 weeks."
+  },
+  {
+   "id": "cur-ghanbarzadeh2023",
+   "authors": "Ghanbarzadeh-Ghashti N, Ghanbari-Homaie S, Shaseb E, et al.",
+   "year": 2023,
+   "title": "The effect of Curcumin on metabolic parameters and androgen level in women with polycystic ovary syndrome: a randomized controlled trial.",
+   "journal": "BMC Endocr Disord",
+   "pmid": "36788534",
+   "doi": "10.1186/s12902-023-01295-5",
+   "type": "rct",
+   "n": "women with PCOS (Iran)",
+   "finding": "1000 mg/day curcumin for 12 weeks lowered fasting glucose and reduced amenorrhoea/oligomenorrhoea (13% vs 22%) versus placebo, but did not change lipids, insulin, SHBG, testosterone or hirsutism."
+  },
+  {
+   "id": "cur-gudarzi2024",
+   "authors": "Gudarzi R, Shabani F, Mohammad-Alizadeh-Charandabi S, et al.",
+   "year": 2024,
+   "title": "Effect of curcumin on painful symptoms of endometriosis: A triple-blind randomized controlled trial.",
+   "journal": "Phytother Res",
+   "pmid": "37818734",
+   "doi": "10.1002/ptr.8030",
+   "type": "rct",
+   "n": "68 women with endometriosis",
+   "finding": "Curcumin 1000 mg/day for 8 weeks did not improve endometriosis pain or quality of life versus placebo."
+  },
+  {
+   "id": "cur-jannatifar2025",
+   "authors": "Jannatifar R, Asa E, Cheraghi E, et al.",
+   "year": 2025,
+   "title": "Nanomicelle curcumin improves oxidative stress, inflammatory markers, and assisted reproductive techniques outcomes in endometriosis cases: a randomized clinical trial.",
+   "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+   "pmid": "40088332",
+   "doi": "10.1007/s00210-025-03958-7",
+   "type": "rct",
+   "n": "50 women with stage III/IV endometriosis undergoing ART",
+   "finding": "Nanomicelle curcumin 120 mg/day for 10 weeks improved serum and follicular-fluid oxidative-stress markers and reported more oocytes, mature oocytes and good embryos; small single-centre trial."
+  },
+  {
+   "id": "cur-mohammadi2025",
+   "authors": "Mohammadi S, Ziaei S, Morvaridi M, et al.",
+   "year": 2025,
+   "title": "Impacts of Curcumin Supplementation on Cardiometabolic Risk Factors in Patients With Polycystic Ovary Syndrome: A Systematic Review and Dose-Response Meta-Analysis.",
+   "journal": "Health Sci Rep",
+   "pmid": "40041784",
+   "doi": "10.1002/hsr2.70525",
+   "type": "meta-analysis",
+   "n": "8 RCTs in PCOS",
+   "finding": "Curcumin modestly lowered fasting glucose, insulin, HOMA-IR (SMD -0.36) and TC, but did not change BMI, testosterone, DHEA, LH or FSH."
+  },
+  {
+   "id": "cur-simentalmendia2022",
+   "authors": "Simental-Mendía LE, Shah N, Sathyapalan T, et al.",
+   "year": 2022,
+   "title": "Effect of Curcumin on Glycaemic and Lipid Parameters in Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "journal": "Reprod Sci",
+   "pmid": "34655047",
+   "doi": "10.1007/s43032-021-00761-6",
+   "type": "meta-analysis",
+   "n": "5 RCTs in PCOS",
+   "finding": "Curcumin lowered fasting glucose (-3.7 mg/dL), insulin and HOMA-IR (-0.94, I2 90%) but did not change any lipid index."
   }
  ]
 }

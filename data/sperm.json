@@ -1802,6 +1802,57 @@
     "liu2022meat",
     "schisterman2020"
    ]
+  },
+  {
+   "id": "curcumin-sperm",
+   "name": "Curcumin supplements for sperm quality",
+   "kind": "supplement",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "One small Iranian RCT (56 completers) found 80 mg/day nanomicelle curcumin for 10 weeks improved sperm count, concentration and motility plus seminal-redox and inflammation markers; there are no human data on DNA fragmentation, varicocele, pregnancy or live birth.",
+   "dose": {
+    "effective": "80 mg/day curcumin as nanomicelle for 10 weeks in the only RCT.",
+    "studied_range": "80 mg/day (single human RCT); animal varicocele studies used 4-100 mg/kg.",
+    "too_much": "Not established for sperm. In vitro, curcumin added directly to sperm blocks motility and capacitation in a concentration-dependent way (it has been studied as a vaginal contraceptive), although such concentrations are not reached in semen after oral dosing. General supplement risks (liver injury, drug interactions) apply.",
+    "timeframe": "At least one spermatogenic cycle (~74 days); the RCT ran 10 weeks.",
+    "notes": "Human DNA-fragmentation benefits come only from adding curcumin to freezing medium in the lab (cryopreservation), not from oral use. Varicocele data are from rats only (mechanistic)."
+   },
+   "mechanism": "Proposed: lowering seminal lipid peroxidation (MDA) and inflammatory cytokines (TNF-a, CRP) and Nrf2-driven antioxidant enzymes in testis. Human mechanistic support is limited to blood TAC/MDA changes in one trial.",
+   "pathways": [
+    "lipid-peroxidation",
+    "inflammation-nfkb",
+    "nrf2"
+   ],
+   "interactions": "Likely overlaps with other antioxidant approaches such as [n-acetylcysteine]; no head-to-head or combination trials. Redundant with [sulforaphane-supplements] on the Nrf2 axis (inference). Not comparable to culinary [turmeric-curcumin].",
+   "caveats": "A single small trial from one country, without pregnancy outcomes, cannot support a recommendation; it does not show more pregnancies. The in-vitro anti-motility effect argues against assuming 'more is better'. Check for publication bias as further Iranian trials appear.",
+   "key_numbers": [
+    {
+     "label": "Dose in the only human RCT",
+     "value": 80,
+     "unit": "mg/day",
+     "source": "cur-alizadeh2018"
+    },
+    {
+     "label": "Curcumin in freezing medium that reduced post-thaw DNA fragmentation",
+     "value": 20,
+     "unit": "uM",
+     "source": "cur-santonastaso2021"
+    }
+   ],
+   "refs": [
+    "cur-alizadeh2018",
+    "cur-naz2011",
+    "cur-santonastaso2021",
+    "cur-sadraei2022",
+    "cur-halegoua2023",
+    "cur-flory2021"
+   ]
   }
  ],
  "mechanisms": [
@@ -3331,6 +3382,78 @@
    "type": "case-control",
    "n": "552 cases, 585 controls",
    "finding": "Highest vs lowest tertile of unprocessed meat intake had lower odds of asthenozoospermia (OR 0.61) and total meat OR 0.56; processed meat raised the odds (OR 1.44) and stir-frying meat was associated with higher risk (OR 1.58)."
+  },
+  {
+   "id": "cur-alizadeh2018",
+   "authors": "Alizadeh F, Javadi M, Karami AA, et al.",
+   "year": 2018,
+   "title": "Curcumin nanomicelle improves semen parameters, oxidative stress, inflammatory biomarkers, and reproductive hormones in infertile men: A randomized clinical trial.",
+   "journal": "Phytother Res",
+   "pmid": "29193350",
+   "doi": "10.1002/ptr.5998",
+   "type": "rct",
+   "n": "60 infertile men (56 completed)",
+   "finding": "80 mg/day curcumin nanomicelle for 10 weeks raised sperm count, concentration and motility and improved TAC, MDA, CRP and TNF-a versus placebo; single small Iranian trial, no pregnancy or DNA-fragmentation outcomes."
+  },
+  {
+   "id": "cur-flory2021",
+   "authors": "Flory S, Sus N, Haas K, et al.",
+   "year": 2021,
+   "title": "Increasing Post-Digestive Solubility of Curcumin Is the Most Successful Strategy to Improve its Oral Bioavailability: A Randomized Cross-Over Trial in Healthy Adults and In Vitro Bioaccessibility Experiments.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "34665507",
+   "doi": "10.1002/mnfr.202100613",
+   "type": "rct",
+   "n": "12 healthy adults (crossover)",
+   "finding": "Head-to-head test of 8 formulations at 207 mg curcumin: no free curcumin was detected in anyone; only micelles (57-fold) and gamma-cyclodextrin (30-fold) significantly raised conjugate AUC; piperine-type adjuvants did not."
+  },
+  {
+   "id": "cur-halegoua2023",
+   "authors": "Halegoua-DeMarzio D, Navarro V, Ahmad J, et al.",
+   "year": 2023,
+   "title": "Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN].",
+   "journal": "Am J Med",
+   "pmid": "36252717",
+   "doi": "10.1016/j.amjmed.2022.09.026",
+   "type": "review",
+   "n": "10 DILIN cases",
+   "finding": "US DILIN turmeric liver-injury cases rose since 2011; typically hepatocellular after 1-4 months, one death, 3 of 7 tested products contained piperine, and 7 of 10 patients carried HLA-B*35:01."
+  },
+  {
+   "id": "cur-naz2011",
+   "authors": "Naz RK",
+   "year": 2011,
+   "title": "Can curcumin provide an ideal contraceptive?",
+   "journal": "Mol Reprod Dev",
+   "pmid": "21337449",
+   "doi": "10.1002/mrd.21276",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Curcumin added to human and mouse sperm caused concentration-dependent loss of forward motility, capacitation and fertilisation in vitro, and intravaginal curcumin reduced fertility in mice."
+  },
+  {
+   "id": "cur-sadraei2022",
+   "authors": "Sadraei MR, Tavalaee M, Forouzanfar M, et al.",
+   "year": 2022,
+   "title": "Effect of curcumin, and nano-curcumin on sperm function in varicocele rat model.",
+   "journal": "Andrologia",
+   "pmid": "34755901",
+   "doi": "10.1111/and.14282",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In varicocele rats, oral curcumin and nano-curcumin improved sperm concentration, motility, lipid peroxidation and DNA damage."
+  },
+  {
+   "id": "cur-santonastaso2021",
+   "authors": "Santonastaso M, Mottola F, Iovine C, et al.",
+   "year": 2021,
+   "title": "Protective Effects of Curcumin on the Outcome of Cryopreservation in Human Sperm.",
+   "journal": "Reprod Sci",
+   "pmid": "33861392",
+   "doi": "10.1007/s43032-021-00572-9",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Adding 20 uM curcumin to freezing medium improved post-thaw motility and lowered ROS and DNA fragmentation in human sperm (in vitro, cryopreservation only)."
   }
  ]
 }

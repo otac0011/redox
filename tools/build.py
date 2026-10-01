@@ -119,6 +119,20 @@ def main():
         first = next((ln for ln in md.read_text(encoding="utf-8").splitlines() if ln.startswith("# ")), "# " + doc_id)
         notes.append({"id": doc_id, "title": first[2:].strip()})
 
+    tests_doc = load("tests.json", {"tests": [], "references": []})
+    tlocal = {}
+    for r in tests_doc.get("references", []):
+        k = ref_key(r, "tests")
+        tlocal[r["id"]] = k
+        references.setdefault(k, {fld: v for fld, v in r.items() if fld != "id"})
+    ref_index["tests"] = tlocal
+    tests = []
+    for t in tests_doc.get("tests", []):
+        t = dict(t)
+        t["refs"] = [tlocal[i] for i in t.get("refs", []) if i in tlocal or warn(f"test {t['id']}: unknown ref '{i}'")]
+        t["related_factors"] = [factor_alias.get(i, i) for i in t.get("related_factors", [])]
+        tests.append(t)
+
     factors = []
     for fid, entries in groups.items():
         entries.sort(key=lambda e: AREAS.index(e["area"]))
@@ -205,6 +219,8 @@ def main():
         "references": references,
         "ref_index": ref_index,
         "guide": load("guide.json"),
+        "tests": tests,
+        "stack": load("stack.json"),
         "compare_presets": (load("compare.json", {}) or {}).get("presets", []),
         "compare_defaults": (load("compare.json", {}) or {}).get("defaults", []),
     }
@@ -217,6 +233,10 @@ def main():
             for fid in list(o.get("boost", {})) + o.get("hide", []):
                 if fid not in ids:
                     warn(f"guide {q['id']}={o['value']}: unknown factor '{fid}'")
+    for t in tests:
+        for fid in t["related_factors"]:
+            if fid not in ids:
+                warn(f"test {t['id']}: unknown related factor '{fid}'")
     for p in out["compare_presets"]:
         for fid in p["ids"]:
             if fid not in ids:
