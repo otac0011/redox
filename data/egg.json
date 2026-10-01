@@ -1790,6 +1790,119 @@
     "sfn-li2023",
     "sfn-axelsson2017"
    ]
+  },
+  {
+   "id": "astaxanthin-egg",
+   "name": "Astaxanthin before IVF/ICSI",
+   "kind": "supplement",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "Three small RCTs (PCOS, poor responders, endometriosis; 6-12 mg/day for 6-12 weeks) reported more mature (MII) oocytes and high-quality embryos, but the PCOS trial found no difference in pregnancy rates and none reported live births.",
+   "dose": {
+    "effective": "6-12 mg/day for 40 days to 12 weeks before ovarian stimulation.",
+    "studied_range": "6-12 mg/day, 40 days to 12 weeks.",
+    "too_much": "No safety signal in these short trials.",
+    "timeframe": "6-12 weeks before stimulation.",
+    "notes": null
+   },
+   "mechanism": "Raised serum antioxidant capacity and granulosa-cell Nrf2/HO-1/NQO1 expression, and lowered follicular-fluid IL-6, IL-8 and cell-free DNA.",
+   "pathways": [
+    "nrf2",
+    "lipid-peroxidation",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Compare [egg-antioxidant-supplements], [egg-coq10] and [astaxanthin-supplement].",
+   "caveats": "Oocyte and embryo grades are surrogates; the trials are small; no live-birth data; independent replication is needed.",
+   "key_numbers": [
+    {
+     "label": "Daily dose range",
+     "value": 12,
+     "unit": "mg/day (max; min 6)",
+     "source": "phy-shafie2024"
+    }
+   ],
+   "refs": [
+    "phy-gharaei2022",
+    "phy-shafie2024",
+    "phy-rostami2023"
+   ]
+  },
+  {
+   "id": "soy-isoflavones-egg",
+   "name": "Soy isoflavones and IVF outcomes",
+   "kind": "food",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "In a fertility-clinic cohort of 315 women (520 ART cycles), higher dietary soy isoflavone intake was associated with higher live-birth rates (adjusted OR about 1.8); no trial has tested it.",
+   "dose": {
+    "effective": "Habitual intakes of 2.6-28 mg/day isoflavones were in the higher-benefit categories.",
+    "studied_range": "0-28 mg/day dietary isoflavones (observational).",
+    "too_much": null,
+    "timeframe": null,
+    "notes": "Equol-producer status was not assessed."
+   },
+   "mechanism": "Weak estrogen-receptor activity of isoflavones and equol has been proposed to aid endometrial receptivity; unproven.",
+   "pathways": [
+    "endocrine",
+    "microbiome"
+   ],
+   "interactions": "See [soy-isoflavones] and [egg-mediterranean-diet].",
+   "caveats": "Single observational cohort; residual confounding by diet pattern is likely.",
+   "key_numbers": [
+    {
+     "label": "Adjusted odds ratio of live birth, 2.6-7.6 mg/day vs none",
+     "value": 1.87,
+     "unit": "OR",
+     "source": "phy-vanegas2015"
+    }
+   ],
+   "refs": [
+    "phy-vanegas2015",
+    "phy-setchell2002"
+   ]
+  },
+  {
+   "id": "spermidine-egg",
+   "name": "Spermidine for oocyte quality",
+   "kind": "supplement",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "egg": 0
+   },
+   "evidence": "mechanistic",
+   "headline": "Spermidine supplementation restored oocyte quality and fertility in aged mice by enhancing mitophagy, but there are no human data.",
+   "dose": {
+    "effective": "Not established.",
+    "studied_range": "Mouse and pig-oocyte studies only.",
+    "too_much": null,
+    "timeframe": null,
+    "notes": null
+   },
+   "mechanism": "Ovarian spermidine falls with age in mice; supplementation improved mitophagy and mitochondrial function in oocytes.",
+   "pathways": [
+    "mitochondrial"
+   ],
+   "interactions": "See [spermidine] for general human evidence.",
+   "caveats": "Animal-only; supplements marketed for egg quality are ahead of the data.",
+   "key_numbers": [],
+   "refs": [
+    "phy-zhang2023"
+   ]
   }
  ],
  "mechanisms": [
@@ -3236,6 +3349,78 @@
    "type": "mechanistic",
    "n": "granulosa cells from PCOS and control women (in vitro)",
    "finding": "Sulforaphane reduced ROS and apoptosis in granulosa-lutein cells from women with PCOS, with AMPK/AKT/NRF2 activation."
+  },
+  {
+   "id": "phy-gharaei2022",
+   "authors": "Gharaei R, Alyasin A, Mahdavinezhad F, et al.",
+   "year": 2022,
+   "title": "Randomized controlled trial of astaxanthin impacts on antioxidant status and assisted reproductive technology outcomes in women with polycystic ovarian syndrome.",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "35237893",
+   "doi": "10.1007/s10815-022-02432-0",
+   "type": "rct",
+   "n": "women with PCOS undergoing ART",
+   "finding": "8 mg/day astaxanthin for 40 days raised serum antioxidant capacity, granulosa-cell Nrf2 targets, and MII-oocyte and top-quality embryo rates, but not pregnancy rates."
+  },
+  {
+   "id": "phy-rostami2023",
+   "authors": "Rostami S, Alyasin A, Saedi M, et al.",
+   "year": 2023,
+   "title": "Astaxanthin ameliorates inflammation, oxidative stress, and reproductive outcomes in endometriosis patients undergoing assisted reproduction: A randomized, triple-blind placebo-controlled clinical trial.",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "37020589",
+   "doi": "10.3389/fendo.2023.1144323",
+   "type": "rct",
+   "n": "50 women with endometriosis undergoing ART",
+   "finding": "6 mg/day astaxanthin for 12 weeks lowered serum MDA and cytokines and increased oocytes, MII oocytes and high-quality embryos."
+  },
+  {
+   "id": "phy-setchell2002",
+   "authors": "Setchell KD, Brown NM, Lydeking-Olsen E",
+   "year": 2002,
+   "title": "The clinical importance of the metabolite equol-a clue to the effectiveness of soy and its isoflavones.",
+   "journal": "J Nutr",
+   "pmid": "12468591",
+   "doi": "10.1093/jn/132.12.3577",
+   "type": "review",
+   "n": null,
+   "finding": "Equol is made only by gut bacteria from daidzein, and only some adults produce it; the producer/non-producer split may explain inconsistent soy trial results."
+  },
+  {
+   "id": "phy-shafie2024",
+   "authors": "Shafie A, Aleyasin A, Saffari M, et al.",
+   "year": 2024,
+   "title": "Astaxanthin improves assisted reproductive technology outcomes in poor ovarian responders through alleviating oxidative stress, inflammation, and apoptosis: a randomized clinical trial.",
+   "journal": "J Ovarian Res",
+   "pmid": "39482765",
+   "doi": "10.1186/s13048-024-01537-7",
+   "type": "rct",
+   "n": "60 poor ovarian responders",
+   "finding": "12 mg/day astaxanthin for 8 weeks increased oocytes retrieved, MII oocytes and high-quality embryos and lowered serum MDA and follicular-fluid IL-6."
+  },
+  {
+   "id": "phy-vanegas2015",
+   "authors": "Vanegas JC, Afeiche MC, Gaskins AJ, et al.",
+   "year": 2015,
+   "title": "Soy food intake and treatment outcomes of women undergoing assisted reproductive technology.",
+   "journal": "Fertil Steril",
+   "pmid": "25577465",
+   "doi": "10.1016/j.fertnstert.2014.12.104",
+   "type": "cohort",
+   "n": "315 women, 520 ART cycles",
+   "finding": "Higher soy isoflavone intake was associated with higher live-birth rates in ART (OR ~1.8 for 2.6-28 mg/day vs none)."
+  },
+  {
+   "id": "phy-zhang2023",
+   "authors": "Zhang Y, Bai J, Cui Z, et al.",
+   "year": 2023,
+   "title": "Polyamine metabolite spermidine rejuvenates oocyte quality by enhancing mitophagy during female reproductive aging.",
+   "journal": "Nat Aging",
+   "pmid": "37845508",
+   "doi": "10.1038/s43587-023-00498-8",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Ovarian spermidine falls with age in mice; supplementation improved follicle development, oocyte maturation and fertility of aged mice by enhancing mitophagy."
   }
  ]
 }

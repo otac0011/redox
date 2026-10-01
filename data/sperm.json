@@ -1890,6 +1890,76 @@
     "sfn-jiang2017",
     "sfn-bao2014"
    ]
+  },
+  {
+   "id": "pomegranate-extract-sperm",
+   "name": "Pomegranate fruit extract (with galangal)",
+   "kind": "supplement",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "In one 70-man RCT, pomegranate-fruit extract plus galangal tablets for 3 months raised the total number of motile sperm by 62%, vs 20% on placebo; it has not been replicated and pregnancy was not measured.",
+   "dose": {
+    "effective": "Daily standardised pomegranate-extract plus galangal tablets (Punalpin) for 3 months.",
+    "studied_range": "3 months.",
+    "too_much": null,
+    "timeframe": "About 3 months (one spermatogenic cycle plus transit).",
+    "notes": "The extract was standardised for punicalagins, punicalin and ellagic acid; effect of pomegranate alone is unknown."
+   },
+   "mechanism": "Not established in humans; candidates are ellagitannin-derived metabolites (urolithins, metabotype-dependent) and galangal's acetoxychavicol acetate.",
+   "pathways": [
+    "microbiome",
+    "redox-signaling"
+   ],
+   "interactions": "Overlaps [male-antioxidant-combination]. Urolithin production varies by metabotype (see [urolithin-a]).",
+   "caveats": "Single trial; participants were men whose semen did not meet sperm-bank standards, not infertile couples; no pregnancy or DNA-fragmentation outcomes.",
+   "key_numbers": [
+    {
+     "label": "Total motile sperm increase, active vs placebo",
+     "value": 62,
+     "unit": "% (placebo 20%)",
+     "source": "phy-fedder2014"
+    }
+   ],
+   "refs": [
+    "phy-fedder2014"
+   ]
+  },
+  {
+   "id": "resveratrol-sperm",
+   "name": "Resveratrol (multivitamin-based) for sperm",
+   "kind": "supplement",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "sperm": 0
+   },
+   "evidence": "limited",
+   "headline": "The only human data are an uncontrolled 20-man pilot of a multivitamin with 150 mg/day resveratrol, which reported motility rising from 48% to 59%; with no placebo group the effect cannot be attributed to resveratrol.",
+   "dose": {
+    "effective": "Not established.",
+    "studied_range": "150 mg/day resveratrol within a multivitamin for 3-6 months.",
+    "too_much": null,
+    "timeframe": "3-6 months.",
+    "notes": null
+   },
+   "mechanism": "Proposed SIRT1 and mitochondrial effects in sperm, from animal work.",
+   "pathways": [
+    "mitochondrial"
+   ],
+   "interactions": "Overlaps [male-antioxidant-combination]; see [resveratrol-pterostilbene-supplements] for general resveratrol evidence.",
+   "caveats": "Uncontrolled, small, multi-ingredient, no pregnancy outcomes; regression to the mean is likely.",
+   "key_numbers": [],
+   "refs": [
+    "phy-illiano2020"
+   ]
   }
  ],
  "mechanisms": [
@@ -3551,6 +3621,30 @@
    "type": "mechanistic",
    "n": null,
    "finding": "In diabetic mice, 4 months of sulforaphane prevented testicular cell death, oxidative damage and inflammation while up-regulating testicular Nrf2."
+  },
+  {
+   "id": "phy-fedder2014",
+   "authors": "Fedder MD, Jakobsen HB, Giversen I, et al.",
+   "year": 2014,
+   "title": "An extract of pomegranate fruit and galangal rhizome increases the numbers of motile sperm: a prospective, randomised, controlled, double-blinded trial.",
+   "journal": "PLoS One",
+   "pmid": "25275520",
+   "doi": "10.1371/journal.pone.0108532",
+   "type": "rct",
+   "n": "70 men with low semen quality",
+   "finding": "Pomegranate extract plus galangal tablets for 3 months increased total motile sperm by 62%, vs 20% on placebo."
+  },
+  {
+   "id": "phy-illiano2020",
+   "authors": "Illiano E, Trama F, Zucchi A, et al.",
+   "year": 2020,
+   "title": "Resveratrol-Based Multivitamin Supplement Increases Sperm Concentration and Motility in Idiopathic Male Infertility: A Pilot Clinical Study.",
+   "journal": "J Clin Med",
+   "pmid": "33322606",
+   "doi": "10.3390/jcm9124017",
+   "type": "cohort",
+   "n": "20 men (uncontrolled)",
+   "finding": "A multivitamin containing 150 mg/day resveratrol was followed by higher sperm motility (48% to 59%) and concentration after 3-6 months."
   }
  ]
 }

@@ -51,7 +51,7 @@
     "tomatoes-lycopene-sperm": "tomatoes-lycopene",
     "fruit-vegetables-sperm": "high-fruit-vegetable-intake",
     "processed-meat-sperm": "processed-meat",
-    "egg-resveratrol": "isolated-polyphenol-supplements",
+    "egg-resveratrol": "resveratrol-pterostilbene-supplements",
     "egg-maternal-age": "maternal-age",
     "egg-pcos": "pcos",
     "egg-endometriosis": "endometriosis",
@@ -78,7 +78,13 @@
     "curcumin-sperm": "curcumin-supplements",
     "curcumin-egg": "curcumin-supplements",
     "sulforaphane-sperm": "sulforaphane-supplements",
-    "sulforaphane-egg": "sulforaphane-supplements"
+    "sulforaphane-egg": "sulforaphane-supplements",
+    "astaxanthin-supplement": "astaxanthin",
+    "astaxanthin-egg": "astaxanthin",
+    "soy-isoflavones": "soy",
+    "soy-isoflavones-egg": "soy",
+    "spermidine-egg": "spermidine",
+    "resveratrol-sperm": "resveratrol-pterostilbene-supplements"
   },
   "mechanisms": {},
   "names": {
@@ -108,18 +114,22 @@
     "walnuts-nuts": "Walnuts & other nuts",
     "high-fruit-vegetable-intake": "Fruit & vegetables (high intake)",
     "processed-red-meat": "Processed & red meat (gut, cancer)",
-    "isolated-polyphenol-supplements": "Polyphenol & resveratrol capsules",
+    "isolated-polyphenol-supplements": "Isolated polyphenol capsules (general)",
     "processed-meat": "Processed meat (sperm)",
     "unprocessed-red-meat": "Unprocessed red meat (sperm)",
     "caffeine-fertility": "Caffeine (all sources) & fertility",
     "vigorous-exercise-low-energy": "Heavy vigorous exercise & low energy availability (women)",
     "overfeeding": "Overeating / calorie surplus",
     "curcumin-supplements": "Curcumin supplements (enhanced absorption)",
-    "turmeric-curcumin": "Turmeric (culinary)"
+    "turmeric-curcumin": "Turmeric (culinary)",
+    "astaxanthin": "Astaxanthin",
+    "soy": "Soy foods & isoflavones",
+    "resveratrol-pterostilbene-supplements": "Resveratrol & pterostilbene supplements"
   },
   "kinds": {
     "alcohol": "lifestyle",
     "excess-adiposity": "lifestyle",
-    "caffeine-fertility": "food"
+    "caffeine-fertility": "food",
+    "astaxanthin": "supplement"
   }
 }

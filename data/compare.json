@@ -1,14 +1,126 @@
 {
-  "defaults": ["blackberries", "eggplant", "coffee", "broccoli-sprouts"],
+  "defaults": [
+    "blackberries",
+    "eggplant",
+    "coffee",
+    "broccoli-sprouts"
+  ],
   "presets": [
-    { "label": "Berries vs eggplant vs coffee vs sprouts", "ids": ["blackberries", "blueberries", "eggplant", "coffee", "broccoli-sprouts"] },
-    { "label": "Broccoli: sprouts, seed powder, heads, pills", "ids": ["broccoli-sprouts", "broccoli-seed-powder", "broccoli-mature", "mustard-seed-myrosinase", "sulforaphane-supplements"] },
-    { "label": "Drinks", "ids": ["coffee", "green-tea", "black-tea", "cocoa-flavanols", "pomegranate", "red-wine-resveratrol"] },
-    { "label": "Fats & oils", "ids": ["extra-virgin-olive-oil", "walnuts-nuts", "omega3-fish", "oxidized-frying-oils", "trans-fats"] },
-    { "label": "Exercise types", "ids": ["aerobic-exercise-moderate", "hiit-vigorous-exercise", "resistance-training", "overtraining-ultraendurance", "sedentary-time"] },
-    { "label": "Diet patterns", "ids": ["mediterranean-diet", "dash-diet", "high-fruit-vegetable-intake", "calorie-restriction", "intermittent-fasting"] },
-    { "label": "Sperm supplements", "ids": ["male-antioxidant-combination", "coq10", "l-carnitine", "folate-zinc", "vitamin-c-e-combined", "astaxanthin"] },
-    { "label": "Egg supplements", "ids": ["folic-acid", "coq10", "melatonin", "myo-inositol", "dhea", "nmn-nad"] },
-    { "label": "Popular antioxidant pills", "ids": ["vitamin-c-supplement", "vitamin-e-supplement", "beta-carotene-supplement", "n-acetylcysteine", "glynac", "mitoq"] }
+    {
+      "label": "Berries vs eggplant vs coffee vs sprouts",
+      "ids": [
+        "blackberries",
+        "blueberries",
+        "eggplant",
+        "coffee",
+        "broccoli-sprouts"
+      ]
+    },
+    {
+      "label": "Broccoli: sprouts, seed powder, heads, pills",
+      "ids": [
+        "broccoli-sprouts",
+        "broccoli-seed-powder",
+        "broccoli-mature",
+        "mustard-seed-myrosinase",
+        "sulforaphane-supplements"
+      ]
+    },
+    {
+      "label": "Isothiocyanate sources",
+      "ids": [
+        "broccoli-sprouts",
+        "watercress-peitc",
+        "wasabi-horseradish-itc",
+        "moringa",
+        "indole-3-carbinol-dim",
+        "cruciferous-other"
+      ]
+    },
+    {
+      "label": "Polyphenol & 'longevity' pills",
+      "ids": [
+        "quercetin",
+        "fisetin",
+        "urolithin-a",
+        "resveratrol-pterostilbene-supplements",
+        "spermidine",
+        "curcumin-supplements"
+      ]
+    },
+    {
+      "label": "Drinks",
+      "ids": [
+        "coffee",
+        "green-tea",
+        "black-tea",
+        "cocoa-flavanols",
+        "pomegranate",
+        "red-wine-resveratrol"
+      ]
+    },
+    {
+      "label": "Fats & oils",
+      "ids": [
+        "extra-virgin-olive-oil",
+        "walnuts-nuts",
+        "omega3-fish",
+        "oxidized-frying-oils",
+        "trans-fats"
+      ]
+    },
+    {
+      "label": "Exercise types",
+      "ids": [
+        "aerobic-exercise-moderate",
+        "hiit-vigorous-exercise",
+        "resistance-training",
+        "overtraining-ultraendurance",
+        "sedentary-time"
+      ]
+    },
+    {
+      "label": "Diet patterns",
+      "ids": [
+        "mediterranean-diet",
+        "dash-diet",
+        "high-fruit-vegetable-intake",
+        "calorie-restriction",
+        "intermittent-fasting"
+      ]
+    },
+    {
+      "label": "Sperm supplements",
+      "ids": [
+        "male-antioxidant-combination",
+        "coq10",
+        "l-carnitine",
+        "folate-zinc",
+        "vitamin-c-e-combined",
+        "astaxanthin"
+      ]
+    },
+    {
+      "label": "Egg supplements",
+      "ids": [
+        "folic-acid",
+        "coq10",
+        "melatonin",
+        "myo-inositol",
+        "dhea",
+        "nmn-nad"
+      ]
+    },
+    {
+      "label": "Popular antioxidant pills",
+      "ids": [
+        "vitamin-c-supplement",
+        "vitamin-e-supplement",
+        "beta-carotene-supplement",
+        "n-acetylcysteine",
+        "glynac",
+        "mitoq"
+      ]
+    }
   ]
 }
