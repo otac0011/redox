@@ -76,7 +76,9 @@
     "diet-iron-excess": "iron-excess",
     "unprocessed-red-meat-sperm": "unprocessed-red-meat",
     "curcumin-sperm": "curcumin-supplements",
-    "curcumin-egg": "curcumin-supplements"
+    "curcumin-egg": "curcumin-supplements",
+    "sulforaphane-sperm": "sulforaphane-supplements",
+    "sulforaphane-egg": "sulforaphane-supplements"
   },
   "mechanisms": {},
   "names": {

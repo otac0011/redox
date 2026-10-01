@@ -5,7 +5,7 @@
  "factors": [
   {
    "id": "broccoli-sprouts",
-   "name": "Broccoli sprouts (fresh, chewed)",
+   "name": "Broccoli sprouts (fresh, raw, chewed)",
    "kind": "food",
    "scopes": [
     "general"
@@ -15,68 +15,96 @@
     "general": 3
    },
    "evidence": "moderate",
-   "headline": "The richest whole-food source of glucoraphanin plus active myrosinase; daily intake reliably delivers sulforaphane and induces Nrf2-driven detoxication in human trials, but direct proof of lower oxidative damage in healthy people is thin.",
+   "headline": "The richest whole-food source of glucoraphanin plus its own active myrosinase; daily sprout preparations reliably deliver sulforaphane and raised benzene detoxication by about 60% in randomized trials, but proof of lower oxidative damage or better clinical outcomes in healthy people is thin.",
    "dose": {
-    "effective": "About 30-40 g fresh sprouts daily (a small handful) in food trials; detoxication trials used beverages giving ~600 µmol glucoraphanin + 40 µmol sulforaphane per day, and the lowest clearly effective dose produced ~25 µmol urinary sulforaphane metabolites per day.",
-    "studied_range": "30 g/day for 10 weeks; 40 g single servings; up to 200 g sprouts as homogenate (dose escalation); beverages 400-600 µmol glucoraphanin/day for 2-12 weeks.",
-    "too_much": "No toxicity at trial doses; a 12-week beverage trial found no effect on thyroid hormones or thyroid autoimmunity. Very high doses cause bitterness and GI upset.",
-    "timeframe": "Enzyme induction within a day; detox biomarker changes within 1-2 weeks and sustained for 12 weeks without tolerance.",
-    "notes": "Chew thoroughly: chewing intact sprouts raised sulforaphane metabolite excretion vs swallowing whole. Sprouts gave ~3x more absorbed sulforaphane than a myrosinase-treated extract at the same nominal dose. Conversion of glucoraphanin by gut bacteria alone varies 1% to >40% between people."
+    "effective": "About 30-70 g fresh sprouts a day (a loose handful to roughly a cup), eaten raw and chewed well. In Qidong the effective beverage gave 600 µmol glucoraphanin + 40 µmol sulforaphane a day, and only a dose producing about 25 µmol of urinary sulforaphane metabolites per day clearly worked.",
+    "studied_range": "16-200 g fresh sprouts per serving; 30 g/day for 10 weeks; 70 g/day (420 µmol glucoraphanin) for 8 weeks; 100 g/day for 3 days; sprout beverages 400-600 µmol glucoraphanin/day for 1-12 weeks.",
+    "too_much": "No toxicity at trial doses, including a 12-week thyroid safety analysis. Very large amounts are bitter and can cause bloating or loose stools.",
+    "timeframe": "Plasma sulforaphane peaks about 1-2 h after eating and falls with a half-life of about 2 h; detox-enzyme effects appear within days and held for 12 weeks without tolerance.",
+    "notes": "Chew thoroughly (chewing raised absorbed dose by about half vs swallowing whole). Do not cook: sprouts' own myrosinase is what makes them 3-4x better than glucoraphanin without enzyme. Glucoraphanin content varies by seed lot and cultivar; 70 g of the sprouts used in one trial held 420 µmol (about 6 µmol/g). Grow or buy from a reputable source, because raw sprouts carry a food-safety (bacterial) risk."
    },
-   "mechanism": "Myrosinase released on chewing hydrolyses glucoraphanin to sulforaphane, an electrophilic isothiocyanate that modifies KEAP1 cysteines, freeing Nrf2 to induce glutathione synthesis, GSTs, NQO1 and HO-1. This is an indirect, catalytic antioxidant effect (enzymes are not consumed), not radical scavenging.",
+   "mechanism": "Chewing mixes glucoraphanin with myrosinase, releasing sulforaphane, a small electrophile that reacts with sensor cysteines on KEAP1 (notably C151). KEAP1 can then no longer tag Nrf2 for destruction, so Nrf2 accumulates and switches on ARE genes: NQO1, HO-1, GSTs, glutamate-cysteine ligase (glutathione synthesis), thioredoxin reductase. This is an indirect, catalytic antioxidant effect, not radical scavenging. Secondary actions seen in cells include reduced NF-kB DNA binding and HDAC inhibition (also seen in human blood cells after a sprout meal).",
    "pathways": [
     "nrf2",
-    "hormesis"
+    "glutathione",
+    "inflammation-nfkb",
+    "hormesis",
+    "redox-signaling"
    ],
-   "interactions": "Partly redundant with [broccoli-seed-powder], [sulforaphane-supplements] and other strong Nrf2 inducers: human dose-response data show a threshold (Qidong benzene trial: only the full dose worked) but no established plateau; stacking several strong doses on the same day likely gives diminishing returns for the Nrf2-specific effect. Not redundant with polyphenol foods ([blueberries], [coffee], [cocoa-flavanols]) that act mainly on endothelium, NADPH oxidase and gut. Eating mature [broccoli-mature] still adds fiber, vitamin C, folate and lutein that sprouts and seed powder do not replace.",
-   "caveats": "Most oxidative-stress positives come from small trials (e.g. broccoli sprout powder in type 2 diabetes lowered MDA and oxidized LDL, but the sulforaphane dose was taken from manufacturer claims, which later assays did not confirm). A 4-week sulforaphane trial in COPD (25 and 150 µmol/day) found no Nrf2 target induction in lung cells and no change in oxidative markers. Benefits for hard outcomes are unproven.",
+   "interactions": "Directly redundant in mechanism with [broccoli-seed-powder] and [sulforaphane-supplements]. Human data show absorption scales linearly from 25 to 200 µmol, a detox threshold near 25 µmol/day excreted, dose-dependent airway enzyme induction up to 200 g sprouts, and no tolerance over 12 weeks; but blood-cell markers did not rise further between 100 and 200 µmol/day. So adding sprouts on top of a large supplement dose probably gives diminishing Nrf2 returns, while adding them to a small dose probably helps. No human trial tests stacking. Sulforaphane is a far stronger and more bioavailable Nrf2 inducer than [turmeric-curcumin]; [coffee] and [aerobic-exercise-moderate] activate Nrf2 weakly and act through many other routes, so they are not made redundant. Mature [broccoli-mature] and [cruciferous-other] add fiber, folate, vitamin C and indole glucosinolates that sprouts lack.",
+   "caveats": "Many positive results are small or uncontrolled (e.g. lower IL-6 and CRP after 30 g/day for 10 weeks with no control group). Short sprout courses failed in asthma (100 g/day for 3 days), ozone-induced airway inflammation, and a calorie-challenge study, and 4 weeks of sulforaphane did nothing in COPD lungs. Conversion of any glucoraphanin that escapes plant myrosinase depends on gut bacteria and varies 1% to more than 40% between people. Benefits for hard outcomes are unproven.",
    "key_numbers": [
     {
      "label": "Glucoraphanin in 3-day sprouts vs mature heads",
      "value": 10,
      "unit": "x to 100x higher (fold)",
-     "source": "fahey1997"
+     "source": "sfn-fahey1997"
     },
     {
      "label": "Fresh sprouts vs myrosinase-treated extract, absorbed sulforaphane",
      "value": 3,
      "unit": "fold higher",
-     "source": "atwell2015"
+     "source": "sfn-atwell2015a"
     },
     {
-     "label": "Daily urinary sulforaphane metabolites at lowest effective dose",
+     "label": "Urinary sulforaphane metabolites at lowest effective detox dose",
      "value": 25,
      "unit": "µmol/day",
-     "source": "chen2019"
+     "source": "sfn-chen2019"
     },
     {
      "label": "Increase in benzene mercapturic acid excretion (12 wk)",
      "value": 61,
      "unit": "%",
-     "source": "egner2014"
+     "source": "sfn-egner2014"
+    },
+    {
+     "label": "Chewed vs swallowed whole, isothiocyanate excretion",
+     "value": 42,
+     "unit": "µmol vs 29 µmol",
+     "source": "sfn-shapiro2001"
+    },
+    {
+     "label": "Plasma half-life of sprout isothiocyanates",
+     "value": 1.8,
+     "unit": "h",
+     "source": "sfn-ye2002"
     }
    ],
    "refs": [
-    "fahey1997",
-    "shapiro2001",
-    "atwell2015",
-    "fahey2012",
-    "egner2014",
-    "chen2019",
-    "kensler2005",
-    "riedl2009",
-    "lopezchillon2019",
-    "clarke2011",
-    "bahadoran2011",
-    "bahadoran2012",
-    "wise2016",
-    "chartoumpekis2019",
-    "yagishita2019"
+    "sfn-fahey1997",
+    "sfn-zhang1992",
+    "sfn-dinkovakostova2002",
+    "sfn-hu2011",
+    "sfn-myzak2007",
+    "sfn-ye2002",
+    "sfn-shapiro2001",
+    "sfn-atwell2015a",
+    "sfn-clarke2011a",
+    "sfn-clarke2011b",
+    "sfn-fahey2012",
+    "sfn-fahey2015",
+    "sfn-kensler2005",
+    "sfn-kensler2012",
+    "sfn-egner2014",
+    "sfn-chen2019",
+    "sfn-riedl2009",
+    "sfn-noah2014",
+    "sfn-sudini2016",
+    "sfn-duran2016",
+    "sfn-yanaka2009",
+    "sfn-lopezchillon2019",
+    "sfn-vansteenwijk2023",
+    "sfn-bahadoran2011",
+    "sfn-wise2016",
+    "sfn-chartoumpekis2019",
+    "sfn-yagishita2019",
+    "sfn-houghton2016"
    ]
   },
   {
    "id": "broccoli-seed-powder",
-   "name": "Broccoli seed powder (with active myrosinase)",
+   "name": "Broccoli seed powder / seed extract with active myrosinase",
    "kind": "food",
    "scopes": [
     "general"
@@ -86,40 +114,54 @@
     "general": 3
    },
    "evidence": "limited",
-   "headline": "Seeds are the most concentrated glucoraphanin source, and taken whole (not extracted) their own myrosinase makes sulforaphane 3-4x more bioavailable than glucoraphanin-only preparations; outcome trials with seed powder itself are scarce.",
+   "headline": "Seeds are the most concentrated glucoraphanin source; taken with their own (or added mustard) myrosinase they convert roughly 30-40% to sulforaphane, about double to quadruple glucoraphanin alone, but outcome trials with plain seed powder are scarce.",
    "dose": {
-    "effective": "Doses delivering roughly 50-230 µmol glucoraphanin were used in bioavailability studies; aim for a dose that, given ~30-40% conversion with active myrosinase, supplies tens of µmol sulforaphane (comparable to the effective Qidong beverage dose).",
-    "studied_range": "50-230 µmol glucoraphanin per dose in pharmacokinetic studies.",
-    "too_much": "Not established; bitterness and GI upset at high intakes. Product potency varies widely.",
-    "timeframe": "Sulforaphane metabolites peak within hours; plasma half-life ~2.5 h, so effects are pulsatile with daily dosing.",
-    "notes": "Mix ground seed into cool or room-temperature food or water and let it sit a few minutes before eating; do not cook it (heat kills myrosinase). Adding seed powder to cooked broccoli works on the same principle as [mustard-seed-myrosinase]."
+    "effective": "Enough assayed powder to supply roughly 100-200 µmol glucoraphanin a day with active enzyme, which at 30-40% conversion yields on the order of 30-80 µmol sulforaphane; this brackets the effective Qidong detox dose and the 50-150 µmol doses used in clinical trials.",
+    "studied_range": "Single doses of glucoraphanin-rich seed extract with or without myrosinase in bioavailability studies; seed-and-sprout extract tablets with myrosinase supplied the sulforaphane in several psychiatric trials (e.g. 100 µmol/day for 18 weeks).",
+    "too_much": "Not established. GI upset (nausea, loose stools) is the main dose-limiting effect of concentrated broccoli preparations.",
+    "timeframe": "Metabolites peak within hours and are mostly gone in 8-12 h, so effects are pulsatile with once-daily dosing.",
+    "notes": "Stir into cool or room-temperature water, yogurt or juice and wait a few minutes; never cook it. Less stomach acid (e.g. proton pump inhibitors) and enteric coating increased conversion in one pilot, suggesting acid can blunt plant myrosinase. A pinch of seed powder or mustard powder on cooked broccoli restores some conversion, the same principle as [mustard-seed-myrosinase]. Potency of bulk seed powder is rarely assayed."
    },
-   "mechanism": "Same Nrf2/KEAP1 electrophile mechanism as sprouts; seed powder supplies both substrate (glucoraphanin) and enzyme (myrosinase).",
+   "mechanism": "Same KEAP1-Nrf2 electrophile mechanism as sprouts; the powder supplies both substrate (glucoraphanin) and enzyme (myrosinase). Without active myrosinase, conversion falls to whatever the person's gut bacteria (e.g. Bacteroides with the BT2159-2156 operon) can do.",
    "pathways": [
     "nrf2",
-    "hormesis"
+    "glutathione",
+    "hormesis",
+    "microbiome"
    ],
-   "interactions": "Directly redundant with [broccoli-sprouts] and [sulforaphane-supplements] for the Nrf2 effect; see the saturation discussion. Complements polyphenol foods.",
-   "caveats": "Bioavailability data come from small volunteer groups. No trial has shown that seed powder lowers validated oxidative-damage markers (F2-isoprostanes, 8-oxo-dG) in healthy people.",
+   "interactions": "Mechanistically redundant with [broccoli-sprouts] and [sulforaphane-supplements]. Combining an enzyme-active source with a glucoraphanin-only source increases total delivery (65% vs 60% recovery, earlier peak). If seed powder already provides an effective dose, cooked [broccoli-mature] adds little extra sulforaphane but still adds fiber and micronutrients. See the saturation discussion in the deep-dive.",
+   "caveats": "Bioavailability data come from small volunteer groups. No trial has shown that seed powder lowers validated oxidative-damage markers (F2-isoprostanes, 8-oxo-dG) in healthy people. Bulk products vary and are seldom tested for glucoraphanin and enzyme activity.",
    "key_numbers": [
     {
      "label": "Bioavailability with active plant myrosinase vs glucoraphanin alone",
      "value": 3.5,
      "unit": "fold (3-4x)",
-     "source": "fahey2015"
+     "source": "sfn-fahey2015"
     },
     {
-     "label": "Glucoraphanin-only supplement, conversion to urinary metabolites",
-     "value": 10,
-     "unit": "% of dose (about 8-13%)",
-     "source": "fahey2015"
+     "label": "Seed extract + mustard myrosinase, sulforaphane bioavailability",
+     "value": 39.8,
+     "unit": "% of glucoraphanin dose",
+     "source": "sfn-mastaloudis2026"
+    },
+    {
+     "label": "Seed extract without added myrosinase, sulforaphane bioavailability",
+     "value": 18.6,
+     "unit": "% of glucoraphanin dose",
+     "source": "sfn-mastaloudis2026"
     }
    ],
    "refs": [
-    "fahey2015",
-    "yagishita2019",
-    "vermeulen2008",
-    "fahey2012"
+    "sfn-fahey2015",
+    "sfn-mastaloudis2026",
+    "sfn-fahey2019",
+    "sfn-fahey2012",
+    "sfn-liou2020",
+    "sfn-cramer2012",
+    "sfn-egner2011",
+    "sfn-dickerson2021",
+    "sfn-dwibedi2025",
+    "sfn-yagishita2019"
    ]
   },
   {
@@ -134,39 +176,52 @@
     "general": 2
    },
    "evidence": "limited",
-   "headline": "200 g raw broccoli delivers about 3-10x more sulforaphane than fully cooked broccoli because cooking destroys myrosinase; glucoraphanin content of supermarket heads varies more than 100-fold.",
+   "headline": "Raw broccoli delivers roughly 3-10x more sulforaphane than fully cooked broccoli because cooking destroys myrosinase; high-glucoraphanin varieties lowered LDL cholesterol 5-7% in two RCTs, but glucoraphanin in supermarket heads varies more than 100-fold.",
    "dose": {
-    "effective": "~200 g (2 cups) raw, chopped and chewed well, or lightly steamed; or cooked broccoli with a pinch of mustard powder.",
-    "studied_range": "200 g single servings (pharmacokinetics); 250-400 g/day for 12 days to 12 weeks in metabolic studies.",
+    "effective": "About 200 g (2 cups) raw or very lightly steamed, chopped and chewed well, or cooked broccoli with about 1 g mustard powder added after cooking. In trials 400 g/week of high-glucoraphanin broccoli lowered LDL.",
+    "studied_range": "200 g single servings (pharmacokinetics); 400 g/week for 12 weeks (LDL trials); 200 g cooked + daikon daily for 15 days; 300 mL high-glucoraphanin soup weekly for 12 months.",
     "too_much": null,
-    "timeframe": "Sulforaphane peaks 1.6 h after raw and ~6 h after cooked broccoli.",
-    "notes": "Raw: 32-37% of the potential isothiocyanate excreted; steamed/cooked: 3.4-10%. Mild heating (about 60 °C) can actually increase sulforaphane by inactivating epithiospecifier protein (which diverts glucoraphanin to an inactive nitrile), but 70 °C and above destroys myrosinase in florets. Frozen broccoli has been blanched and yields far less."
+    "timeframe": "Sulforaphane peaks about 1.6 h after raw and about 6 h after cooked broccoli; LDL effects over 12 weeks.",
+    "notes": "Raw: 32-37% of the potential isothiocyanate reaches the urine; steamed or cooked: 3.4-10%. Heating to about 60 °C can increase sulforaphane by inactivating epithiospecifier protein (which otherwise diverts glucoraphanin to an inactive nitrile), but 70 °C and above destroys floret myrosinase. Rough arithmetic: an average head (0.38 µmol/g) gives about 76 µmol glucoraphanin per 200 g, or about 28 µmol absorbed sulforaphane raw vs about 3 µmol fully cooked."
    },
-   "mechanism": "Nrf2 activation by sulforaphane; plus vitamin C, carotenoids (lutein), folate and fiber. Mature heads also contain indole glucosinolates, which sprouts largely lack.",
+   "mechanism": "Nrf2 activation by sulforaphane plus fiber, folate, vitamin C and carotenoids. Mature heads also contain indole glucosinolates (yielding indole-3-carbinol and DIM), which sprouts largely lack and which act additively or synergistically with isothiocyanates on ARE genes in cell culture.",
    "pathways": [
     "nrf2",
-    "direct-scavenging"
+    "microbiome",
+    "lipid-peroxidation"
    ],
-   "interactions": "If you already take a strong sulforaphane dose ([broccoli-seed-powder], [broccoli-sprouts]), the extra Nrf2 boost from broccoli is probably smaller, but its vitamin C (89 mg/100 g), lutein and fiber are not duplicated. Add [mustard-seed-myrosinase] when eating it cooked.",
-   "caveats": "Rough arithmetic: supermarket heads averaged 0.38 µmol glucoraphanin/g, so 200 g holds ~76 µmol; raw, ~30% may reach urine as sulforaphane metabolites (~25 µmol), similar to the effective Qidong threshold. But heads ranged from <0.005 to 1.13 µmol/g, so any single head could be far lower.",
+   "interactions": "If you already take a strong sulforaphane dose ([broccoli-seed-powder], [broccoli-sprouts], [sulforaphane-supplements]), cooked broccoli adds only a few µmol of extra sulforaphane, but raw broccoli can add a dose similar to the Qidong threshold, and the fiber, folate and indoles are not duplicated. Add [mustard-seed-myrosinase] when eating it cooked. Part of [high-fruit-vegetable-intake] and [mediterranean-diet] patterns.",
+   "caveats": "Head-to-head variation in glucoraphanin (<0.005 to 1.13 µmol/g) means any single serving may deliver little. Commercially frozen broccoli is blanched (heat-treated), so by the heating data it should be treated like cooked broccoli. Mortality associations for crucifers are observational.",
    "key_numbers": [
     {
      "label": "Sulforaphane bioavailability, raw broccoli",
      "value": 37,
      "unit": "%",
-     "source": "vermeulen2008"
+     "source": "sfn-vermeulen2008"
     },
     {
      "label": "Sulforaphane bioavailability, cooked broccoli",
      "value": 3.4,
      "unit": "%",
-     "source": "vermeulen2008"
+     "source": "sfn-vermeulen2008"
     },
     {
      "label": "Glucoraphanin, supermarket heads (mean)",
      "value": 0.38,
      "unit": "µmol/g fresh weight",
-     "source": "yagishita2019"
+     "source": "sfn-yagishita2019"
+    },
+    {
+     "label": "LDL-C reduction, high-glucoraphanin broccoli 400 g/week, 12 wk",
+     "value": 7.1,
+     "unit": "% (study 1; 5.1% in study 2)",
+     "source": "sfn-armah2015"
+    },
+    {
+     "label": "Circulating sulforaphane, high- vs standard-glucoraphanin soup",
+     "value": 5,
+     "unit": "fold (3-5x)",
+     "source": "sfn-sivapalan2018"
     },
     {
      "label": "Total polyphenols, Folin assay",
@@ -188,12 +243,20 @@
     }
    ],
    "refs": [
-    "conaway2000",
-    "vermeulen2008",
-    "matusheski2004",
-    "yagishita2019",
-    "sivapalan2018",
-    "fahey1997"
+    "sfn-conaway2000",
+    "sfn-vermeulen2008",
+    "sfn-matusheski2004",
+    "sfn-yagishita2019",
+    "sfn-sivapalan2018",
+    "sfn-armah2015",
+    "sfn-traka2019",
+    "sfn-charron2018",
+    "sfn-fahey1997",
+    "sfn-saw2011",
+    "sfn-gasper2005",
+    "sfn-zhang2011",
+    "phenolexplorer",
+    "usdafdc"
    ]
   },
   {
@@ -208,37 +271,47 @@
     "general": 2
    },
    "evidence": "limited",
-   "headline": "Sprinkling 1 g of powdered brown mustard on 200 g of cooked broccoli raised sulforaphane metabolite excretion about 4.5-fold, restoring much of what cooking destroys.",
+   "headline": "Sprinkling 1 g powdered brown mustard on 200 g cooked broccoli raised sulforaphane metabolite excretion about 4.5-fold, and mustard-seed myrosinase doubled conversion of a broccoli seed extract (40% vs 19%).",
    "dose": {
-    "effective": "About 1 g (roughly 1/2 teaspoon) powdered brown mustard per 200 g cooked broccoli, added after cooking.",
-    "studied_range": "1 g mustard powder with 200 g cooked broccoli, single meal, crossover in 12 adults.",
+    "effective": "About 1 g (roughly 1/2 teaspoon) powdered brown mustard per 200 g cooked broccoli, stirred in after cooking.",
+    "studied_range": "1 g mustard powder with 200 g cooked broccoli (12 adults, crossover); mustard-seed powder with a glucoraphanin-rich seed extract (16 adults, crossover).",
     "too_much": null,
     "timeframe": "Same meal.",
-    "notes": "Add after cooking, once the food is below boiling; heat inactivates mustard myrosinase too. Raw daikon radish or a little broccoli seed powder works on the same principle (daikon myrosinase was used to make sulforaphane-rich beverages)."
+    "notes": "Add after cooking, once the food has cooled below steaming; heat inactivates mustard myrosinase too. Raw daikon radish (used to make Qidong's sulforaphane-rich beverage) or a pinch of broccoli seed powder works on the same principle."
    },
-   "mechanism": "Exogenous myrosinase hydrolyses glucoraphanin remaining in cooked broccoli to sulforaphane in the meal and gut, then Nrf2 activation.",
+   "mechanism": "Exogenous plant myrosinase hydrolyses glucoraphanin that survives cooking into sulforaphane in the meal and upper gut, instead of leaving it to variable colonic bacteria; then Nrf2 activation.",
    "pathways": [
-    "nrf2"
+    "nrf2",
+    "microbiome"
    ],
-   "interactions": "Turns [broccoli-mature] cooked into a meaningful sulforaphane source; same redundancy considerations as other Nrf2 inducers.",
-   "caveats": "One small pharmacokinetic trial; no outcome data.",
+   "interactions": "Turns cooked [broccoli-mature] and [cruciferous-other] into meaningful sulforaphane sources and can boost glucoraphanin-only [sulforaphane-supplements]; same redundancy considerations as other Nrf2 inducers.",
+   "caveats": "Two small pharmacokinetic trials; no outcome data.",
    "key_numbers": [
     {
      "label": "Urinary SF-NAC, cooked broccoli alone",
      "value": 9.8,
      "unit": "µmol/g creatinine",
-     "source": "okunade2018"
+     "source": "sfn-okunade2018"
     },
     {
      "label": "Urinary SF-NAC, cooked broccoli + 1 g mustard",
      "value": 44.7,
      "unit": "µmol/g creatinine",
-     "source": "okunade2018"
+     "source": "sfn-okunade2018"
+    },
+    {
+     "label": "Seed extract conversion with mustard myrosinase",
+     "value": 39.8,
+     "unit": "% (vs 18.6% without)",
+     "source": "sfn-mastaloudis2026"
     }
    ],
    "refs": [
-    "okunade2018",
-    "egner2011"
+    "sfn-okunade2018",
+    "sfn-mastaloudis2026",
+    "sfn-egner2011",
+    "sfn-conaway2000",
+    "sfn-fahey2012"
    ]
   },
   {
@@ -253,53 +326,84 @@
     "general": 2
    },
    "evidence": "limited",
-   "headline": "Product type decides everything: glucoraphanin-only pills (no active myrosinase) convert only ~5-20% and very unevenly, whereas sulforaphane-rich or myrosinase-active products deliver ~70% and far more consistently.",
+   "headline": "Product type decides everything: glucoraphanin-only pills convert about 5-20% and very unevenly, whereas preformed (stabilised) sulforaphane or myrosinase-active products deliver about 40-70%; trials at 50-200 µmol/day show mixed results (modest glucose benefit in obese poorly controlled diabetes, small autism effects, several nulls).",
    "dose": {
-    "effective": "Products that deliver free sulforaphane or include active myrosinase, at doses in the tens of µmol sulforaphane per day.",
-    "studied_range": "25-225 µmol/day sulforaphane in trials; glucoraphanin 25-600 µmol/day.",
-    "too_much": "Not established; doses above ~200 µmol/day are poorly tolerated (taste, GI).",
-    "timeframe": "Hours (pulsatile); daily dosing showed no decline in bioavailability over 12 weeks.",
-    "notes": "Check whether the label states active myrosinase or stabilised sulforaphane. A glucoraphanin-only supplement produced dramatically lower plasma isothiocyanates than 40 g fresh sprouts. Taking glucoraphanin plus sulforaphane blends gives a peak plus a slower, steadier tail."
+    "effective": "Myrosinase-active or stabilised-sulforaphane products supplying roughly 40-150 µmol sulforaphane (about 7-27 mg) per day, the range used in most positive and negative trials.",
+    "studied_range": "25-200 µmol/day sulforaphane-equivalent for 4 weeks to 12 months; up to ~340 µmol (60 mg) stabilised sulforaphane for 6 months; glucoraphanin 25-600 µmol/day.",
+    "too_much": "No serious toxicity in trials up to 200 µmol/day for weeks to months. GI effects (nausea, loose stools, reflux) are the main dose-limiting problem and contributed to drop-outs at 150 µmol/day and with 15-capsule regimens.",
+    "timeframe": "Hours per dose (pulsatile); clinical effects in trials appeared after 4-18 weeks and faded within weeks of stopping.",
+    "notes": "Check the label for active myrosinase or stabilised sulforaphane and an assayed µmol figure. A myrosinase-free supplement gave far lower isothiocyanates than 40 g fresh sprouts. Splitting the daily dose keeps blood levels up longer. Conversion is lower in people with higher body mass."
    },
-   "mechanism": "Nrf2 activation. Glucoraphanin without myrosinase depends on gut microbial myrosinase-like activity, which antibiotics and bowel cleansing abolish and which differs greatly between people.",
+   "mechanism": "Nrf2 activation; human blood-cell HDAC inhibition after sprouts or glucoraphanin supplements in some studies; hepatic gluconeogenesis suppression via NRF2 in the diabetes work. Glucoraphanin without myrosinase depends on gut microbial activity, which antibiotics and bowel cleansing abolish.",
    "pathways": [
     "nrf2",
-    "hormesis"
+    "glutathione",
+    "inflammation-nfkb",
+    "hormesis",
+    "microbiome"
    ],
-   "interactions": "Redundant with [broccoli-sprouts] and [broccoli-seed-powder]. Interindividual 'converter' status is fairly stable within a person, so poor converters gain more from myrosinase-active forms.",
-   "caveats": "Commercial labels are often unverified (independent assay did not match the claimed dose in one diabetes trial). The COPD trial at 150 µmol/day showed no target-gene induction in lung cells. Long-term strong Nrf2 activation still has open safety questions. One 2-month RCT of glucoraphanin capsules in men with fatty liver reported lower ALT and urinary 8-OHdG.",
+   "interactions": "Redundant with [broccoli-sprouts] and [broccoli-seed-powder]. Poor microbial 'converters' gain most from myrosinase-active or preformed forms. Sulforaphane inhibited CYP3A4 and induced conjugating enzymes in human liver cells, and crucifer diets induce UGT1A1 in people: a theoretical interaction with drugs cleared by these enzymes at high supplement doses. In cancer patients, strong Nrf2 activation could theoretically protect tumour cells from chemotherapy; discuss with the oncologist. Not shown to add to [turmeric-curcumin] or [isolated-polyphenol-supplements].",
+   "caveats": "About half of registered sulforaphane trials remain unpublished. Effects in published trials are inconsistent: 150 µmol/day did not induce Nrf2 targets in COPD lungs; prediabetes trial missed its primary endpoint; autism trials in young children were null; prostate PSA trials missed primary endpoints. Commercial labels are often not independently verified. Long-term high-dose Nrf2 activation has open safety questions (synthetic activator bardoxolone raised heart-failure events).",
    "key_numbers": [
     {
      "label": "Urinary recovery, sulforaphane-rich beverage",
      "value": 70,
      "unit": "% of dose",
-     "source": "egner2011"
+     "source": "sfn-egner2011"
     },
     {
      "label": "Urinary recovery, glucoraphanin-rich beverage",
      "value": 5,
      "unit": "% of dose",
-     "source": "egner2011"
+     "source": "sfn-egner2011"
     },
     {
      "label": "Glucoraphanin conversion range between people",
      "value": 40,
      "unit": "% (from ~1% to >40%)",
-     "source": "fahey2012"
+     "source": "sfn-fahey2012"
+    },
+    {
+     "label": "Fasting glucose change vs placebo, obese poorly controlled T2D, 150 µmol/day",
+     "value": -0.7,
+     "unit": "mmol/L",
+     "source": "sfn-axelsson2017"
+    },
+    {
+     "label": "Fasting glucose change vs placebo, prediabetes, 150 µmol/day",
+     "value": -0.2,
+     "unit": "mmol/L",
+     "source": "sfn-dwibedi2025"
     }
    ],
    "refs": [
-    "egner2011",
-    "shapiro2006",
-    "fahey2012",
-    "fahey2015",
-    "clarke2011",
-    "atwell2015",
-    "wise2016",
-    "houghton2016",
-    "yagishita2019",
-    "cuadrado2019",
-    "kikuchi2015"
+    "sfn-egner2011",
+    "sfn-shapiro2006",
+    "sfn-fahey2012",
+    "sfn-fahey2015",
+    "sfn-fahey2017",
+    "sfn-clarke2011a",
+    "sfn-atwell2015a",
+    "sfn-axelsson2017",
+    "sfn-dwibedi2025",
+    "sfn-singh2014",
+    "sfn-wang2025",
+    "sfn-magner2023",
+    "sfn-kassar2025",
+    "sfn-cipolla2015",
+    "sfn-alumkal2015",
+    "sfn-wise2016",
+    "sfn-kikuchi2015",
+    "sfn-satomi2022",
+    "sfn-nouchi2022",
+    "sfn-tahata2018",
+    "sfn-lozanovski2020",
+    "sfn-maheo1997",
+    "sfn-navarro2009",
+    "sfn-wang2008",
+    "sfn-dezeeuw2013",
+    "sfn-saito2025",
+    "sfn-cuadrado2019"
    ]
   },
   {
@@ -314,22 +418,41 @@
     "general": 2
    },
    "evidence": "limited",
-   "headline": "Supply other isothiocyanates and indoles plus vitamin C and carotenoids; cohort data link crucifer intake to lower CVD and mortality, but oxidative-stress trials are few.",
+   "headline": "Supply other isothiocyanates and indoles plus fiber and vitamins; in large cohorts the top fifth of crucifer intake had about 22% lower total mortality, and a controlled feeding trial lowered IL-6 by 19%, but oxidative-stress trials are few.",
    "dose": {
-    "effective": "1-2 servings (80-160 g) most days, some raw or lightly cooked.",
-    "studied_range": "Cohort intakes; feeding studies 250 g/day cooked crucifers for 12 days.",
-    "too_much": null,
+    "effective": "1-2 servings (80-160 g) most days, some raw or lightly cooked; in a feeding trial a double dose (14 g/kg body weight, about 1 kg/day for a 70 kg adult) lowered IL-6.",
+    "studied_range": "Cohort intakes; feeding studies 7-14 g/kg body weight per day for 14 days.",
+    "too_much": "Collards, Brussels sprouts and some Russian kale can contain enough goitrin to reduce thyroid iodine uptake if eaten in very large amounts; with adequate iodine, normal intakes show no adverse thyroid effects.",
     "timeframe": "Weeks.",
-    "notes": "Same cooking rules as broccoli: chopping and gentle cooking preserve myrosinase activity."
+    "notes": "Same cooking rules as broccoli: chop and wait, eat some raw, steam briefly, or add mustard powder after cooking."
    },
-   "mechanism": "Isothiocyanates (Nrf2), vitamin C, carotenoids, fiber.",
+   "mechanism": "Isothiocyanates (Nrf2), indoles, fiber and micronutrients; induction of conjugating enzymes such as UGT1A1 and GSTs.",
    "pathways": [
     "nrf2",
-    "direct-scavenging"
+    "inflammation-nfkb",
+    "microbiome"
    ],
-   "interactions": "Overlaps with [broccoli-mature] and [leafy-greens].",
-   "caveats": "Inverse associations of cruciferous vegetables with CVD and mortality are observational.",
+   "interactions": "Overlaps with [broccoli-mature]; benefits from [mustard-seed-myrosinase] when cooked. Part of [high-fruit-vegetable-intake] and [mediterranean-diet].",
+   "caveats": "Inverse associations with mortality and cancers are observational and mostly rated weak to suggestive in an umbrella review.",
    "key_numbers": [
+    {
+     "label": "Total mortality, highest vs lowest crucifer quintile (HR)",
+     "value": 0.78,
+     "unit": "hazard ratio",
+     "source": "sfn-zhang2011"
+    },
+    {
+     "label": "IL-6 change, double-dose crucifer diet vs vegetable-free",
+     "value": -19,
+     "unit": "%",
+     "source": "sfn-navarro2014"
+    },
+    {
+     "label": "Goitrin threshold for reduced thyroid iodine uptake",
+     "value": 194,
+     "unit": "µmol (no effect at 77)",
+     "source": "sfn-felker2016"
+    },
     {
      "label": "Vitamin C, kale",
      "value": 93,
@@ -344,8 +467,15 @@
     }
    ],
    "refs": [
-    "aune2017",
-    "yagishita2019"
+    "sfn-zhang2011",
+    "sfn-li2022",
+    "sfn-aune2017",
+    "sfn-navarro2014",
+    "sfn-navarro2009",
+    "sfn-felker2016",
+    "sfn-galanty2024",
+    "sfn-london2000",
+    "usdafdc"
    ]
   },
   {
@@ -4826,6 +4956,870 @@
    "type": "meta-analysis",
    "n": "16 RCTs, 1810 adults",
    "finding": "Turmeric extracts reduced knee OA pain (SMD -0.82) and improved function versus placebo, similar to NSAIDs; very high heterogeneity, moderate risk of bias, less benefit with higher BMI."
+  },
+  {
+   "id": "sfn-alumkal2015",
+   "authors": "Alumkal JJ, Slottke R, Schwartzman J, et al.",
+   "year": 2015,
+   "title": "A phase II study of sulforaphane-rich broccoli sprout extracts in men with recurrent prostate cancer.",
+   "journal": "Invest New Drugs",
+   "pmid": "25431127",
+   "doi": "10.1007/s10637-014-0189-z",
+   "type": "rct",
+   "n": "20 men with recurrent prostate cancer (single arm)",
+   "finding": "200 µmol/day sulforaphane-rich extract for up to 20 weeks did not produce >=50% PSA declines (1 of 20), but PSA doubling time lengthened from 6.1 to 9.6 months."
+  },
+  {
+   "id": "sfn-armah2015",
+   "authors": "Armah CN, Derdemezis C, Traka MH, et al.",
+   "year": 2015,
+   "title": "Diet rich in high glucoraphanin broccoli reduces plasma LDL cholesterol: Evidence from randomised controlled trials.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "25851421",
+   "doi": "10.1002/mnfr.201400863",
+   "type": "rct",
+   "n": "130 adults (two trials)",
+   "finding": "400 g/week of high-glucoraphanin broccoli for 12 weeks lowered LDL cholesterol by 5-7%, more than standard broccoli (2-3%, not significant)."
+  },
+  {
+   "id": "sfn-atwell2015a",
+   "authors": "Atwell LL, Hsu A, Wong CP, et al.",
+   "year": 2015,
+   "title": "Absorption and chemopreventive targets of sulforaphane in humans following consumption of broccoli sprouts or a myrosinase-treated broccoli sprout extract.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "25522265",
+   "doi": "10.1002/mnfr.201400674",
+   "type": "rct",
+   "n": "healthy adults (crossover)",
+   "finding": "At 200 µmol/day, fresh sprouts gave ~3x higher sulforaphane metabolites than a myrosinase-treated extract; splitting the dose prolonged exposure; no dose response in HO-1, HDAC activity or p21."
+  },
+  {
+   "id": "sfn-aune2017",
+   "authors": "Aune D, Giovannucci E, Boffetta P, et al.",
+   "year": 2017,
+   "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies.",
+   "journal": "Int J Epidemiol",
+   "pmid": "28338764",
+   "doi": "10.1093/ije/dyw319",
+   "type": "meta-analysis",
+   "n": "95 studies",
+   "finding": "Per 200 g/day fruit and vegetables, all-cause mortality RR 0.90; cruciferous vegetables were among the types most strongly inversely associated with outcomes."
+  },
+  {
+   "id": "sfn-axelsson2017",
+   "authors": "Axelsson AS, Tubbs E, Mecham B, et al.",
+   "year": 2017,
+   "title": "Sulforaphane reduces hepatic glucose production and improves glucose control in patients with type 2 diabetes.",
+   "journal": "Sci Transl Med",
+   "pmid": "28615356",
+   "doi": "10.1126/scitranslmed.aah4477",
+   "type": "rct",
+   "n": "97 adults with type 2 diabetes",
+   "finding": "Broccoli sprout extract (150 µmol sulforaphane/day, 12 weeks) reduced fasting blood glucose and HbA1c in obese patients with dysregulated type 2 diabetes (not in the whole group); in cells and animals sulforaphane suppressed hepatic gluconeogenesis via NRF2."
+  },
+  {
+   "id": "sfn-bahadoran2011",
+   "authors": "Bahadoran Z, Mirmiran P, Hosseinpanah F, et al.",
+   "year": 2011,
+   "title": "Broccoli sprouts reduce oxidative stress in type 2 diabetes: a randomized double-blind clinical trial.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "21559038",
+   "doi": "10.1038/ejcn.2011.59",
+   "type": "rct",
+   "n": "81 adults with type 2 diabetes",
+   "finding": "5-10 g/day broccoli sprout powder for 4 weeks lowered MDA, oxidized LDL and an oxidative stress index and raised total antioxidant capacity."
+  },
+  {
+   "id": "sfn-charron2018",
+   "authors": "Charron CS, Vinyard BT, Ross SA, et al.",
+   "year": 2018,
+   "title": "Absorption and metabolism of isothiocyanates formed from broccoli glucosinolates: effects of BMI and daily consumption in a randomised clinical trial.",
+   "journal": "Br J Nutr",
+   "pmid": "30499426",
+   "doi": "10.1017/S0007114518002921",
+   "type": "rct",
+   "n": "18 adults (crossover)",
+   "finding": "Fifteen days of daily broccoli did not uniformly change isothiocyanate absorption: it rose in leaner people (BMI <26) and fell in heavier people; GSTM1 genotype had no effect."
+  },
+  {
+   "id": "sfn-chartoumpekis2019",
+   "authors": "Chartoumpekis DV, Ziros PG, Chen JG, et al.",
+   "year": 2019,
+   "title": "Broccoli sprout beverage is safe for thyroid hormonal and autoimmune status: Results of a 12-week randomized trial.",
+   "journal": "Food Chem Toxicol",
+   "pmid": "30735751",
+   "doi": "10.1016/j.fct.2019.02.004",
+   "type": "rct",
+   "n": "45 women",
+   "finding": "84 days of a sulforaphane/glucoraphanin beverage did not change TSH, free T4, thyroglobulin or thyroid autoimmunity."
+  },
+  {
+   "id": "sfn-chen2019",
+   "authors": "Chen JG, Johnson J, Egner P, et al.",
+   "year": 2019,
+   "title": "Dose-dependent detoxication of the airborne pollutant benzene in a randomized trial of broccoli sprout beverage in Qidong, China.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31268126",
+   "doi": "10.1093/ajcn/nqz122",
+   "type": "rct",
+   "n": "170 adults",
+   "finding": "Only the full-dose beverage (median 24.6 µmol urinary sulforaphane metabolites/day) raised benzene mercapturic acid (+63%); half (+11%) and one-fifth (-6%) doses did not differ from placebo."
+  },
+  {
+   "id": "sfn-cipolla2015",
+   "authors": "Cipolla BG, Mandron E, Lefort JM, et al.",
+   "year": 2015,
+   "title": "Effect of Sulforaphane in Men with Biochemical Recurrence after Radical Prostatectomy.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "25968598",
+   "doi": "10.1158/1940-6207.CAPR-14-0459",
+   "type": "rct",
+   "n": "78 men with PSA recurrence",
+   "finding": "60 mg (~340 µmol) stabilised sulforaphane daily for 6 months missed the primary PSA-slope endpoint; PSA rose less (+0.10 vs +0.62 ng/mL) and doubling time was 86% longer than placebo."
+  },
+  {
+   "id": "sfn-clarke2011a",
+   "authors": "Clarke JD, Hsu A, Riedl K, et al.",
+   "year": 2011,
+   "title": "Bioavailability and inter-conversion of sulforaphane and erucin in human subjects consuming broccoli sprouts or broccoli supplement in a cross-over study design.",
+   "journal": "Pharmacol Res",
+   "pmid": "21816223",
+   "doi": "10.1016/j.phrs.2011.07.005",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "A myrosinase-free broccoli supplement produced dramatically lower and later plasma and urinary sulforaphane and erucin than 40 g fresh broccoli sprouts."
+  },
+  {
+   "id": "sfn-clarke2011b",
+   "authors": "Clarke JD, Riedl K, Bella D, et al.",
+   "year": 2011,
+   "title": "Comparison of isothiocyanate metabolite levels and histone deacetylase activity in human subjects consuming broccoli sprouts or broccoli supplement.",
+   "journal": "J Agric Food Chem",
+   "pmid": "21928849",
+   "doi": "10.1021/jf202887c",
+   "type": "rct",
+   "n": "healthy adults",
+   "finding": "Fresh sprouts gave higher, earlier isothiocyanate excretion than a myrosinase-free supplement with equal glucosinolate, and only sprouts lowered blood-cell HDAC activity."
+  },
+  {
+   "id": "sfn-conaway2000",
+   "authors": "Conaway CC, Getahun SM, Liebes LL, et al.",
+   "year": 2000,
+   "title": "Disposition of glucosinolates and sulforaphane in humans after ingestion of steamed and fresh broccoli.",
+   "journal": "Nutr Cancer",
+   "pmid": "11525594",
+   "doi": "10.1207/S15327914NC382_5",
+   "type": "rct",
+   "n": "12 men",
+   "finding": "After 200 g broccoli, 32% of isothiocyanates were excreted from fresh vs 10% from steamed broccoli, a roughly 3-fold difference."
+  },
+  {
+   "id": "sfn-cramer2012",
+   "authors": "Cramer JM, Teran-Garcia M, Jeffery EH",
+   "year": 2012,
+   "title": "Enhancing sulforaphane absorption and excretion in healthy men through the combined consumption of fresh broccoli sprouts and a glucoraphanin-rich powder.",
+   "journal": "Br J Nutr",
+   "pmid": "21910945",
+   "doi": "10.1017/S0007114511004429",
+   "type": "rct",
+   "n": "4 men (crossover)",
+   "finding": "Combining fresh sprouts (70 µmol) with a myrosinase-free glucoraphanin powder recovered 65% of the dose as urinary SF-NAC vs 60% for sprouts alone and 24% for the powder alone."
+  },
+  {
+   "id": "sfn-cuadrado2019",
+   "authors": "Cuadrado A, Rojo AI, Wells G, et al.",
+   "year": 2019,
+   "title": "Therapeutic targeting of the NRF2 and KEAP1 partnership in chronic diseases.",
+   "journal": "Nat Rev Drug Discov",
+   "pmid": "30610225",
+   "doi": "10.1038/s41573-018-0008-x",
+   "type": "review",
+   "n": null,
+   "finding": "NRF2 activation is cytoprotective in many chronic disease models, but target specificity, pharmacodynamics, efficacy and safety remain unresolved challenges for therapeutic activators."
+  },
+  {
+   "id": "sfn-dezeeuw2013",
+   "authors": "de Zeeuw D, Akizawa T, Audhya P, et al.",
+   "year": 2013,
+   "title": "Bardoxolone methyl in type 2 diabetes and stage 4 chronic kidney disease.",
+   "journal": "N Engl J Med",
+   "pmid": "24206459",
+   "doi": "10.1056/NEJMoa1306033",
+   "type": "rct",
+   "n": "2185 adults with diabetic CKD",
+   "finding": "The synthetic Nrf2 activator bardoxolone methyl did not reduce kidney failure or CV death and increased heart-failure events (HR 1.83); the trial was stopped early."
+  },
+  {
+   "id": "sfn-dickerson2021",
+   "authors": "Dickerson F, Origoni A, Katsafanas E, et al.",
+   "year": 2021,
+   "title": "Randomized controlled trial of an adjunctive sulforaphane nutraceutical in schizophrenia.",
+   "journal": "Schizophr Res",
+   "pmid": "33839372",
+   "doi": "10.1016/j.schres.2021.03.018",
+   "type": "rct",
+   "n": "64 adults with schizophrenia",
+   "finding": "100 µmol/day adjunctive sulforaphane for 18 weeks had no significant effect on symptoms or cognition (as summarised by a 2025 meta-analysis)."
+  },
+  {
+   "id": "sfn-dinkovakostova2002",
+   "authors": "Dinkova-Kostova AT, Holtzclaw WD, Cole RN, et al.",
+   "year": 2002,
+   "title": "Direct evidence that sulfhydryl groups of Keap1 are the sensors regulating induction of phase 2 enzymes that protect against carcinogens and oxidants.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "12193649",
+   "doi": "10.1073/pnas.172398899",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Showed directly that inducers such as sulforaphane react with the most reactive of KEAP1's 25 cysteine thiols, disrupting the KEAP1-Nrf2 complex so Nrf2 can activate ARE-driven genes."
+  },
+  {
+   "id": "sfn-duran2016",
+   "authors": "Duran CG, Burbank AJ, Mills KH, et al.",
+   "year": 2016,
+   "title": "A proof-of-concept clinical study examining the NRF2 activator sulforaphane against neutrophilic airway inflammation.",
+   "journal": "Respir Res",
+   "pmid": "27450419",
+   "doi": "10.1186/s12931-016-0406-8",
+   "type": "rct",
+   "n": "healthy adults",
+   "finding": "Broccoli sprout homogenate did not induce antioxidant genes or protect against neutrophilic airway inflammation after ozone exposure."
+  },
+  {
+   "id": "sfn-dwibedi2025",
+   "authors": "Dwibedi C, Axelsson AS, Abrahamsson B, et al.",
+   "year": 2025,
+   "title": "Effect of broccoli sprout extract and baseline gut microbiota on fasting blood glucose in prediabetes: a randomized, placebo-controlled trial.",
+   "journal": "Nat Microbiol",
+   "pmid": "39929977",
+   "doi": "10.1038/s41564-025-01932-w",
+   "type": "rct",
+   "n": "89 adults with prediabetes",
+   "finding": "150 µmol/day broccoli sprout extract for 12 weeks missed its primary target (fasting glucose -0.2 mmol/L vs placebo, P=0.04); responders had gut Bacteroides genes for glucoraphanin conversion; GI side effects were more common."
+  },
+  {
+   "id": "sfn-egner2011",
+   "authors": "Egner PA, Chen JG, Wang JB, et al.",
+   "year": 2011,
+   "title": "Bioavailability of Sulforaphane from two broccoli sprout beverages: results of a short-term, cross-over clinical trial in Qidong, China.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21372038",
+   "doi": "10.1158/1940-6207.CAPR-10-0296",
+   "type": "rct",
+   "n": "50 adults",
+   "finding": "A sulforaphane-rich beverage gave ~70% urinary recovery vs ~5% for a glucoraphanin-rich beverage, with less inter-individual variation; glucoraphanin gave slower, steadier exposure."
+  },
+  {
+   "id": "sfn-egner2014",
+   "authors": "Egner PA, Chen JG, Zarth AT, et al.",
+   "year": 2014,
+   "title": "Rapid and sustainable detoxication of airborne pollutants by broccoli sprout beverage: results of a randomized clinical trial in China.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "24913818",
+   "doi": "10.1158/1940-6207.CAPR-14-0103",
+   "type": "rct",
+   "n": "291 adults",
+   "finding": "Daily 600 µmol glucoraphanin + 40 µmol sulforaphane for 12 weeks raised excretion of benzene (+61%) and acrolein (+23%) conjugates vs placebo; sulforaphane bioavailability did not decline over 12 weeks."
+  },
+  {
+   "id": "sfn-fahey1997",
+   "authors": "Fahey JW, Zhang Y, Talalay P",
+   "year": 1997,
+   "title": "Broccoli sprouts: an exceptionally rich source of inducers of enzymes that protect against chemical carcinogens.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "9294217",
+   "doi": "10.1073/pnas.94.19.10367",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Three-day-old broccoli sprouts contain 10-100 times more glucoraphanin than mature plants and negligible indole glucosinolates; sprout extracts reduced DMBA mammary tumours in rats."
+  },
+  {
+   "id": "sfn-fahey2012",
+   "authors": "Fahey JW, Wehage SL, Holtzclaw WD, et al.",
+   "year": 2012,
+   "title": "Protection of humans by plant glucosinolates: efficiency of conversion of glucosinolates to isothiocyanates by the gastrointestinal microflora.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "22318753",
+   "doi": "10.1158/1940-6207.CAPR-11-0538",
+   "type": "rct",
+   "n": "Chinese and Baltimore volunteers",
+   "finding": "Gut-microbial conversion of glucoraphanin varied from ~1% to >40% between people but was consistent within a person; preformed isothiocyanates gave 70-90%; antibiotics and bowel cleansing abolish conversion."
+  },
+  {
+   "id": "sfn-fahey2015",
+   "authors": "Fahey JW, Holtzclaw WD, Wehage SL, et al.",
+   "year": 2015,
+   "title": "Sulforaphane Bioavailability from Glucoraphanin-Rich Broccoli: Control by Active Endogenous Myrosinase.",
+   "journal": "PLoS One",
+   "pmid": "26524341",
+   "doi": "10.1371/journal.pone.0140963",
+   "type": "rct",
+   "n": "small volunteer cohorts",
+   "finding": "Sprouts or seeds given with their own active myrosinase yielded 3-4x more sulforaphane than glucoraphanin without active myrosinase; a commercial glucoraphanin supplement matched a boiled sprout extract."
+  },
+  {
+   "id": "sfn-fahey2017",
+   "authors": "Fahey JW, Wade KL, Wehage SL, et al.",
+   "year": 2017,
+   "title": "Stabilized sulforaphane for clinical use: Phytochemical delivery efficiency.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "27935214",
+   "doi": "10.1002/mnfr.201600766",
+   "type": "rct",
+   "n": "10 volunteers",
+   "finding": "Stabilised sulforaphane preparations (cyclodextrin and a commercial supplement) were as bioavailable as pure sulforaphane, peaking at about 2 h, but 6 of 10 volunteers reported mild stomach upset with one form."
+  },
+  {
+   "id": "sfn-fahey2019",
+   "authors": "Fahey JW, Wade KL, Stephenson KK, et al.",
+   "year": 2019,
+   "title": "Bioavailability of Sulforaphane Following Ingestion of Glucoraphanin-Rich Broccoli Sprout and Seed Extracts with Active Myrosinase: A Pilot Study of the Effects of Proton Pump Inhibitor Administration.",
+   "journal": "Nutrients",
+   "pmid": "31261930",
+   "doi": "10.3390/nu11071489",
+   "type": "cohort",
+   "n": "pilot volunteers",
+   "finding": "With a glucoraphanin plus active-myrosinase seed/sprout extract, omeprazole (less stomach acid) and enteric coating increased conversion; greater body mass reduced conversion; cytoprotective PBMC genes rose with bioavailability."
+  },
+  {
+   "id": "sfn-felker2016",
+   "authors": "Felker P, Bunch R, Leung AM",
+   "year": 2016,
+   "title": "Concentrations of thiocyanate and goitrin in human plasma, their precursor concentrations in brassica vegetables, and associated potential risk for hypothyroidism.",
+   "journal": "Nutr Rev",
+   "pmid": "26946249",
+   "doi": "10.1093/nutrit/nuv110",
+   "type": "review",
+   "n": null,
+   "finding": "Goitrin inhibits thyroid iodine uptake at 194 but not 77 µmol; collards, Brussels sprouts and some Russian kale can contain that much, while commercial broccoli and kale contain <10 µmol per 100 g."
+  },
+  {
+   "id": "sfn-galanty2024",
+   "authors": "Galanty A, Grudzińska M, Paździora W, et al.",
+   "year": 2024,
+   "title": "Do Brassica Vegetables Affect Thyroid Function?-A Comprehensive Systematic Review.",
+   "journal": "Int J Mol Sci",
+   "pmid": "38612798",
+   "doi": "10.3390/ijms25073988",
+   "type": "review",
+   "n": "123 studies",
+   "finding": "Systematic review: most evidence does not support antithyroid effects of Brassica vegetables in humans, especially with adequate iodine intake."
+  },
+  {
+   "id": "sfn-gasper2005",
+   "authors": "Gasper AV, Al-Janobi A, Smith JA, et al.",
+   "year": 2005,
+   "title": "Glutathione S-transferase M1 polymorphism and metabolism of sulforaphane from standard and high-glucosinolate broccoli.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "16332662",
+   "doi": "10.1093/ajcn/82.6.1283",
+   "type": "rct",
+   "n": "16 adults",
+   "finding": "GSTM1-null people had slightly higher plasma sulforaphane AUC and faster, larger urinary excretion than GSTM1-positive people; high-glucosinolate broccoli gave ~3x more sulforaphane."
+  },
+  {
+   "id": "sfn-houghton2016",
+   "authors": "Houghton CA, Fassett RG, Coombes JS",
+   "year": 2016,
+   "title": "Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician's Expectation Be Matched by the Reality?",
+   "journal": "Oxid Med Cell Longev",
+   "pmid": "26881038",
+   "doi": "10.1155/2016/7857186",
+   "type": "review",
+   "n": null,
+   "finding": "Sulforaphane activates Nrf2 more potently and is far more bioavailable than curcumin, silymarin or resveratrol supplements."
+  },
+  {
+   "id": "sfn-hu2011",
+   "authors": "Hu C, Eggler AL, Mesecar AD, et al.",
+   "year": 2011,
+   "title": "Modification of keap1 cysteine residues by sulforaphane.",
+   "journal": "Chem Res Toxicol",
+   "pmid": "21391649",
+   "doi": "10.1021/tx100389r",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Mass spectrometry with a corrected protocol confirmed that KEAP1 cysteine 151 is among the residues most readily (and reversibly) modified by sulforaphane."
+  },
+  {
+   "id": "sfn-kassar2025",
+   "authors": "Kassar O, M Mansour ME, Farag N, et al.",
+   "year": 2025,
+   "title": "Efficacy and safety of sulforaphane in schizophrenia: a systematic review and meta-analysis of randomized controlled trials.",
+   "journal": "BMC Psychiatry",
+   "pmid": "41184790",
+   "doi": "10.1186/s12888-025-07515-7",
+   "type": "meta-analysis",
+   "n": "4 RCTs, 369 patients",
+   "finding": "Sulforaphane did not improve PANSS total or positive scores; a small negative-symptom benefit at 12 weeks (MD -1.06) was not sustained; lipids improved and discontinuation was lower."
+  },
+  {
+   "id": "sfn-kensler2005",
+   "authors": "Kensler TW, Chen JG, Egner PA, et al.",
+   "year": 2005,
+   "title": "Effects of glucosinolate-rich broccoli sprouts on urinary levels of aflatoxin-DNA adducts and phenanthrene tetraols in a randomized clinical trial in He Zuo township, Qidong, People's Republic of China.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "16284385",
+   "doi": "10.1158/1055-9965.EPI-05-0368",
+   "type": "rct",
+   "n": "200 adults",
+   "finding": "Nightly broccoli sprout infusion (400 µmol glucoraphanin) for 2 weeks did not change aflatoxin-DNA adducts between arms, but higher sulforaphane excretion correlated with fewer adducts and phenanthrene tetraols."
+  },
+  {
+   "id": "sfn-kensler2012",
+   "authors": "Kensler TW, Ng D, Carmella SG, et al.",
+   "year": 2012,
+   "title": "Modulation of the metabolism of airborne pollutants by glucoraphanin-rich and sulforaphane-rich broccoli sprout beverages in Qidong, China.",
+   "journal": "Carcinogenesis",
+   "pmid": "22045030",
+   "doi": "10.1093/carcin/bgr229",
+   "type": "rct",
+   "n": "50 adults (crossover)",
+   "finding": "Seven days of sulforaphane-rich or glucoraphanin-rich sprout beverage raised excretion of glutathione conjugates of acrolein, crotonaldehyde and benzene by 20-50% vs baseline, with no difference between beverages."
+  },
+  {
+   "id": "sfn-kikuchi2015",
+   "authors": "Kikuchi M, Ushida Y, Shiozawa H, et al.",
+   "year": 2015,
+   "title": "Sulforaphane-rich broccoli sprout extract improves hepatic abnormalities in male subjects.",
+   "journal": "World J Gastroenterol",
+   "pmid": "26604653",
+   "doi": "10.3748/wjg.v21.i43.12457",
+   "type": "rct",
+   "n": "52 men with fatty liver",
+   "finding": "Glucoraphanin-rich sprout extract capsules for 2 months lowered ALT, gamma-GTP and urinary 8-OHdG vs placebo."
+  },
+  {
+   "id": "sfn-li2022",
+   "authors": "Li YZ, Yang ZY, Gong TT, et al.",
+   "year": 2022,
+   "title": "Cruciferous vegetable consumption and multiple health outcomes: an umbrella review of 41 systematic reviews and meta-analyses of 303 observational studies.",
+   "journal": "Food Funct",
+   "pmid": "35352732",
+   "doi": "10.1039/d1fo03094a",
+   "type": "review",
+   "n": "41 meta-analyses",
+   "finding": "Umbrella review: cruciferous vegetable intake associated with lower risk of several cancers and all-cause mortality, but evidence was mostly weak to suggestive and observational."
+  },
+  {
+   "id": "sfn-liou2020",
+   "authors": "Liou CS, Sirk SJ, Diaz CAC, et al.",
+   "year": 2020,
+   "title": "A Metabolic Pathway for Activation of Dietary Glucosinolates by a Human Gut Symbiont.",
+   "journal": "Cell",
+   "pmid": "32084341",
+   "doi": "10.1016/j.cell.2020.01.023",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Identified the Bacteroides thetaiotaomicron operon (BT2159-BT2156) that converts dietary glucosinolates to isothiocyanates in the gut."
+  },
+  {
+   "id": "sfn-london2000",
+   "authors": "London SJ, Yuan JM, Chung FL, et al.",
+   "year": 2000,
+   "title": "Isothiocyanates, glutathione S-transferase M1 and T1 polymorphisms, and lung-cancer risk: a prospective study of men in Shanghai, China.",
+   "journal": "Lancet",
+   "pmid": "11085692",
+   "doi": "10.1016/S0140-6736(00)02631-3",
+   "type": "case-control",
+   "n": "232 cases, 710 controls (nested in 18,244 men)",
+   "finding": "Detectable urinary isothiocyanates predicted lower lung cancer risk (RR 0.65), most strongly in GSTM1-null (RR 0.36) and GSTM1/GSTT1 double-null men (RR 0.28)."
+  },
+  {
+   "id": "sfn-lopezchillon2019",
+   "authors": "López-Chillón MT, Carazo-Díaz C, Prieto-Merino D, et al.",
+   "year": 2019,
+   "title": "Effects of long-term consumption of broccoli sprouts on inflammatory markers in overweight subjects.",
+   "journal": "Clin Nutr",
+   "pmid": "29573889",
+   "doi": "10.1016/j.clnu.2018.03.006",
+   "type": "cohort",
+   "n": "40 overweight adults",
+   "finding": "30 g/day fresh broccoli sprouts for 10 weeks lowered IL-6 (4.76 to 2.11 pg/mL) and CRP in an uncontrolled before-after design."
+  },
+  {
+   "id": "sfn-lozanovski2020",
+   "authors": "Lozanovski VJ, Polychronidis G, Gross W, et al.",
+   "year": 2020,
+   "title": "Broccoli sprout supplementation in patients with advanced pancreatic cancer is difficult despite positive effects-results from the POUDER pilot study.",
+   "journal": "Invest New Drugs",
+   "pmid": "31250356",
+   "doi": "10.1007/s10637-019-00826-z",
+   "type": "rct",
+   "n": "40 pancreatic cancer patients (unblinded)",
+   "finding": "Broccoli sprout capsules (508 µmol sulforaphane + 411 µmol glucoraphanin/day) were hard to tolerate (15 capsules, nausea, high drop-out); early survival trends favoured treatment but the pilot was underpowered."
+  },
+  {
+   "id": "sfn-magner2023",
+   "authors": "Magner M, Thorová K, Župová V, et al.",
+   "year": 2023,
+   "title": "Sulforaphane Treatment in Children with Autism: A Prospective Randomized Double-Blind Study.",
+   "journal": "Nutrients",
+   "pmid": "36771424",
+   "doi": "10.3390/nu15030718",
+   "type": "rct",
+   "n": "40 children (3-7 y) with ASD",
+   "finding": "50 µmol/day sulforaphane for 36 weeks produced no significant improvement in ADOS-2, SRS-2 or ABC vs placebo."
+  },
+  {
+   "id": "sfn-maheo1997",
+   "authors": "Mahéo K, Morel F, Langouët S, et al.",
+   "year": 1997,
+   "title": "Inhibition of cytochromes P-450 and induction of glutathione S-transferases by sulforaphane in primary human and rat hepatocytes.",
+   "journal": "Cancer Res",
+   "pmid": "9288764",
+   "doi": null,
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In primary human hepatocytes, sulforaphane induced GSTA1/2 and markedly decreased CYP3A4 expression and activity, while CYP1A2 was unaffected."
+  },
+  {
+   "id": "sfn-mastaloudis2026",
+   "authors": "Mastaloudis A, Holcomb L, Fahey JW, et al.",
+   "year": 2026,
+   "title": "Exogenous myrosinase from mustard seed increases bioavailability of sulforaphane from a glucoraphanin-rich broccoli seed extract in a randomized clinical study.",
+   "journal": "Sci Rep",
+   "pmid": "41692762",
+   "doi": "10.1038/s41598-026-39389-4",
+   "type": "rct",
+   "n": "16 adults (crossover)",
+   "finding": "Adding mustard-seed myrosinase to a glucoraphanin-rich broccoli seed extract doubled sulforaphane bioavailability (39.8% vs 18.6%); bacterial glucoraphanin-converting genes correlated with conversion."
+  },
+  {
+   "id": "sfn-matusheski2004",
+   "authors": "Matusheski NV, Juvik JA, Jeffery EH",
+   "year": 2004,
+   "title": "Heating decreases epithiospecifier protein activity and increases sulforaphane formation in broccoli.",
+   "journal": "Phytochemistry",
+   "pmid": "15184012",
+   "doi": "10.1016/j.phytochem.2004.04.013",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Heating broccoli to 60 °C before crushing increased sulforaphane and decreased the inactive nitrile by inactivating epithiospecifier protein; 70 °C and above reduced both in florets."
+  },
+  {
+   "id": "sfn-myzak2007",
+   "authors": "Myzak MC, Tong P, Dashwood WM, et al.",
+   "year": 2007,
+   "title": "Sulforaphane retards the growth of human PC-3 xenografts and inhibits HDAC activity in human subjects.",
+   "journal": "Exp Biol Med (Maywood)",
+   "pmid": "17259330",
+   "doi": null,
+   "type": "rct",
+   "n": "healthy volunteers (single dose)",
+   "finding": "A single 68 g serving of broccoli sprouts inhibited histone deacetylase (HDAC) activity in blood mononuclear cells at 3 and 6 h; sulforaphane also slowed prostate cancer xenografts in mice."
+  },
+  {
+   "id": "sfn-navarro2009",
+   "authors": "Navarro SL, Peterson S, Chen C, et al.",
+   "year": 2009,
+   "title": "Cruciferous vegetable feeding alters UGT1A1 activity: diet- and genotype-dependent changes in serum bilirubin in a controlled feeding trial.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "19336732",
+   "doi": "10.1158/1940-6207.CAPR-08-0178",
+   "type": "rct",
+   "n": "70 adults (crossover feeding)",
+   "finding": "Cruciferous vegetable diets lowered serum bilirubin vs a vegetable-free diet, indicating induction of the drug-conjugating enzyme UGT1A1."
+  },
+  {
+   "id": "sfn-navarro2014",
+   "authors": "Navarro SL, Schwarz Y, Song X, et al.",
+   "year": 2014,
+   "title": "Cruciferous vegetables have variable effects on biomarkers of systemic inflammation in a randomized controlled trial in healthy young adults.",
+   "journal": "J Nutr",
+   "pmid": "25165394",
+   "doi": "10.3945/jn.114.197434",
+   "type": "rct",
+   "n": "63 healthy adults (crossover feeding)",
+   "finding": "Double-dose crucifers (14 g/kg body weight) for 14 days lowered IL-6 by 19% vs a vegetable-free diet; no effect on CRP or TNF-alpha."
+  },
+  {
+   "id": "sfn-noah2014",
+   "authors": "Noah TL, Zhang H, Zhou H, et al.",
+   "year": 2014,
+   "title": "Effect of broccoli sprouts on nasal response to live attenuated influenza virus in smokers: a randomized, double-blind study.",
+   "journal": "PLoS One",
+   "pmid": "24910991",
+   "doi": "10.1371/journal.pone.0098671",
+   "type": "rct",
+   "n": "healthy smokers and nonsmokers",
+   "finding": "Four days of broccoli sprout homogenate reduced post-vaccine nasal IL-6 and influenza virus quantity and raised NQO1 in smokers; trends in nonsmokers were not significant."
+  },
+  {
+   "id": "sfn-nouchi2022",
+   "authors": "Nouchi R, Hu Q, Ushida Y, et al.",
+   "year": 2022,
+   "title": "Effects of sulforaphane intake on processing speed and negative moods in healthy older adults: Evidence from a randomized controlled trial.",
+   "journal": "Front Aging Neurosci",
+   "pmid": "35966784",
+   "doi": "10.3389/fnagi.2022.929628",
+   "type": "rct",
+   "n": "144 older adults",
+   "finding": "Analysis of the same 12-week trial: glucoraphanin improved processing speed and reduced negative mood, without changes in oxidative stress, inflammation or neural plasticity biomarkers."
+  },
+  {
+   "id": "sfn-okunade2018",
+   "authors": "Okunade O, Niranjan K, Ghawi SK, et al.",
+   "year": 2018,
+   "title": "Supplementation of the Diet by Exogenous Myrosinase via Mustard Seeds to Increase the Bioavailability of Sulforaphane in Healthy Human Subjects after the Consumption of Cooked Broccoli.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29806738",
+   "doi": "10.1002/mnfr.201700980",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "Adding 1 g brown mustard powder to 200 g cooked broccoli raised urinary SF-NAC from 9.8 to 44.7 µmol/g creatinine (over 4-fold)."
+  },
+  {
+   "id": "sfn-riedl2009",
+   "authors": "Riedl MA, Saxon A, Diaz-Sanchez D",
+   "year": 2009,
+   "title": "Oral sulforaphane increases Phase II antioxidant enzymes in the human upper airway.",
+   "journal": "Clin Immunol",
+   "pmid": "19028145",
+   "doi": "10.1016/j.clim.2008.10.007",
+   "type": "rct",
+   "n": "dose-escalation volunteers",
+   "finding": "Broccoli sprout homogenate dose-dependently induced GSTM1, GSTP1, NQO1 and HO-1 mRNA in nasal cells, maximal at 200 g sprouts; alfalfa sprouts had no effect."
+  },
+  {
+   "id": "sfn-saito2025",
+   "authors": "Saito A, Ishikawa S, Yang K, et al.",
+   "year": 2025,
+   "title": "Sulforaphane as a potential therapeutic agent: a comprehensive analysis of clinical trials and mechanistic insights.",
+   "journal": "J Nutr Sci",
+   "pmid": "40988712",
+   "doi": "10.1017/jns.2025.10033",
+   "type": "review",
+   "n": null,
+   "finding": "Of 84 registered sulforaphane/broccoli-extract trials only 39 were published, raising publication-bias concerns; summarises effects by disease category."
+  },
+  {
+   "id": "sfn-satomi2022",
+   "authors": "Satomi S, Takahashi S, Yoshida K, et al.",
+   "year": 2022,
+   "title": "Effects of broccoli sprout supplements enriched in glucoraphanin on liver functions in healthy middle-aged adults with high-normal serum hepatic biomarkers: A randomized controlled trial.",
+   "journal": "Front Nutr",
+   "pmid": "36618707",
+   "doi": "10.3389/fnut.2022.1077271",
+   "type": "rct",
+   "n": "70 healthy middle-aged adults",
+   "finding": "60 mg (137 µmol) glucoraphanin daily for 24 weeks lowered serum ALT vs placebo without changing serum glutathione."
+  },
+  {
+   "id": "sfn-saw2011",
+   "authors": "Saw CL, Cintrón M, Wu TY, et al.",
+   "year": 2011,
+   "title": "Pharmacodynamics of dietary phytochemical indoles I3C and DIM: Induction of Nrf2-mediated phase II drug metabolizing and antioxidant genes and synergism with isothiocyanates.",
+   "journal": "Biopharm Drug Dispos",
+   "pmid": "21656528",
+   "doi": "10.1002/bdd.759",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In HepG2 cells, low concentrations of crucifer indoles (I3C, DIM) combined with sulforaphane or PEITC induced ARE-driven genes additively or synergistically."
+  },
+  {
+   "id": "sfn-shapiro2001",
+   "authors": "Shapiro TA, Fahey JW, Wade KL, et al.",
+   "year": 2001,
+   "title": "Chemoprotective glucosinolates and isothiocyanates of broccoli sprouts: metabolism and excretion in humans.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "11352861",
+   "doi": null,
+   "type": "rct",
+   "n": "healthy volunteers (crossover)",
+   "finding": "Isothiocyanates were about 6x more bioavailable than glucosinolates; excretion was linear from 25 to 200 µmol with low variation on repeated dosing; chewing sprouts thoroughly raised excretion (42 vs 29 µmol)."
+  },
+  {
+   "id": "sfn-shapiro2006",
+   "authors": "Shapiro TA, Fahey JW, Dinkova-Kostova AT, et al.",
+   "year": 2006,
+   "title": "Safety, tolerance, and metabolism of broccoli sprout glucosinolates and isothiocyanates: a clinical phase I study.",
+   "journal": "Nutr Cancer",
+   "pmid": "16965241",
+   "doi": "10.1207/s15327914nc5501_7",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "Glucosinolate extracts (25 or 100 µmol every 8 h for 7 days) converted ~18-20% vs ~71% for isothiocyanate extracts; no toxicity in 32 blood tests including liver enzymes and thyroid hormones."
+  },
+  {
+   "id": "sfn-singh2014",
+   "authors": "Singh K, Connors SL, Macklin EA, et al.",
+   "year": 2014,
+   "title": "Sulforaphane treatment of autism spectrum disorder (ASD).",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25313065",
+   "doi": "10.1073/pnas.1416940111",
+   "type": "rct",
+   "n": "44 young men (13-27 y) with ASD",
+   "finding": "50-150 µmol/day sulforaphane for 18 weeks improved Aberrant Behavior Checklist by 34% and Social Responsiveness Scale by 17% vs <3.3% on placebo; scores reverted after stopping."
+  },
+  {
+   "id": "sfn-sivapalan2018",
+   "authors": "Sivapalan T, Melchini A, Saha S, et al.",
+   "year": 2018,
+   "title": "Bioavailability of Glucoraphanin and Sulforaphane from High-Glucoraphanin Broccoli.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29266773",
+   "doi": "10.1002/mnfr.201700911",
+   "type": "rct",
+   "n": "10 adults",
+   "finding": "Soups (myrosinase denatured) from high-glucoraphanin broccoli gave 3-5x more circulating sulforaphane; excretion was 2-15% of glucoraphanin eaten, varying by person."
+  },
+  {
+   "id": "sfn-sudini2016",
+   "authors": "Sudini K, Diette GB, Breysse PN, et al.",
+   "year": 2016,
+   "title": "A Randomized Controlled Trial of the Effect of Broccoli Sprouts on Antioxidant Gene Expression and Airway Inflammation in Asthmatics.",
+   "journal": "J Allergy Clin Immunol Pract",
+   "pmid": "27130714",
+   "doi": "10.1016/j.jaip.2016.03.012",
+   "type": "rct",
+   "n": "40 adults with asthma",
+   "finding": "Eating 100 g broccoli sprouts daily for 3 days did not reduce exhaled NO, improve lung function or induce antioxidant genes in nasal or blood cells."
+  },
+  {
+   "id": "sfn-tahata2018",
+   "authors": "Tahata S, Singh SV, Lin Y, et al.",
+   "year": 2018,
+   "title": "Evaluation of Biodistribution of Sulforaphane after Administration of Oral Broccoli Sprout Extract in Melanoma Patients with Multiple Atypical Nevi.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "29691233",
+   "doi": "10.1158/1940-6207.CAPR-17-0268",
+   "type": "rct",
+   "n": "17 melanoma patients",
+   "finding": "50, 100 or 200 µmol/day broccoli sprout extract for 28 days was well tolerated and gave dose-dependent plasma and skin sulforaphane levels."
+  },
+  {
+   "id": "sfn-traka2019",
+   "authors": "Traka MH, Melchini A, Coode-Bate J, et al.",
+   "year": 2019,
+   "title": "Transcriptional changes in prostate of men on active surveillance after a 12-mo glucoraphanin-rich broccoli intervention-results from the Effect of Sulforaphane on prostate CAncer PrEvention (ESCAPE) randomized controlled trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "30982861",
+   "doi": "10.1093/ajcn/nqz012",
+   "type": "rct",
+   "n": "49 men on active surveillance",
+   "finding": "One 300 mL portion per week of high-glucoraphanin broccoli soup for 12 months attenuated cancer-associated gene expression changes in prostate tissue in a dose-dependent way."
+  },
+  {
+   "id": "sfn-vansteenwijk2023",
+   "authors": "van Steenwijk HP, Vinken A, van Osch FHM, et al.",
+   "year": 2023,
+   "title": "Sulforaphane as a potential modifier of calorie-induced inflammation: a double-blind, placebo-controlled, crossover trial.",
+   "journal": "Front Nutr",
+   "pmid": "38089924",
+   "doi": "10.3389/fnut.2023.1245355",
+   "type": "rct",
+   "n": "12 healthy adults (crossover)",
+   "finding": "16 g broccoli sprouts before a high-calorie drink did not blunt the inflammatory response; CCL-2 rose slightly more."
+  },
+  {
+   "id": "sfn-vermeulen2008",
+   "authors": "Vermeulen M, Klöpping-Ketelaars IW, van den Berg R, et al.",
+   "year": 2008,
+   "title": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli.",
+   "journal": "J Agric Food Chem",
+   "pmid": "18950181",
+   "doi": "10.1021/jf801989e",
+   "type": "rct",
+   "n": "8 men",
+   "finding": "Sulforaphane bioavailability was 37% from raw vs 3.4% from cooked broccoli; plasma peak at 1.6 vs 6 h; excretion half-life about 2.5 h for both."
+  },
+  {
+   "id": "sfn-wang2008",
+   "authors": "Wang XJ, Sun Z, Villeneuve NF, et al.",
+   "year": 2008,
+   "title": "Nrf2 enhances resistance of cancer cells to chemotherapeutic drugs, the dark side of Nrf2.",
+   "journal": "Carcinogenesis",
+   "pmid": "18413364",
+   "doi": "10.1093/carcin/bgn095",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Nrf2 overexpression made cancer cells more resistant to cisplatin, doxorubicin and etoposide, while Nrf2 knock-down sensitised them."
+  },
+  {
+   "id": "sfn-wang2025",
+   "authors": "Wang R, Ren Z, Li Y",
+   "year": 2025,
+   "title": "The effect of sulforaphane on autism spectrum disorder: systematic review and meta-analysis.",
+   "journal": "EXCLI J",
+   "pmid": "40458076",
+   "doi": "10.17179/excli2025-8239",
+   "type": "meta-analysis",
+   "n": "6 RCTs",
+   "finding": "Pooled ASD trials showed small improvements in total symptoms (SMD -0.27) and aberrant behaviour (SMD -0.43) with no excess adverse events; results depended on assessors and tools."
+  },
+  {
+   "id": "sfn-wise2016",
+   "authors": "Wise RA, Holbrook JT, Criner G, et al.",
+   "year": 2016,
+   "title": "Lack of Effect of Oral Sulforaphane Administration on Nrf2 Expression in COPD: A Randomized, Double-Blind, Placebo Controlled Trial.",
+   "journal": "PLoS One",
+   "pmid": "27832073",
+   "doi": "10.1371/journal.pone.0163716",
+   "type": "rct",
+   "n": "89 COPD patients",
+   "finding": "25 or 150 µmol/day sulforaphane for 4 weeks was absorbed but did not induce Nrf2 target genes in lung cells or change oxidative stress, inflammation or lung function."
+  },
+  {
+   "id": "sfn-yagishita2019",
+   "authors": "Yagishita Y, Fahey JW, Dinkova-Kostova AT, et al.",
+   "year": 2019,
+   "title": "Broccoli or Sulforaphane: Is It the Source or Dose That Matters?",
+   "journal": "Molecules",
+   "pmid": "31590459",
+   "doi": "10.3390/molecules24193593",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews >50 clinical trials; supermarket broccoli averaged 0.38 µmol glucoraphanin/g (range <0.005-1.13); dose-response shapes and a maximally effective dose are not established."
+  },
+  {
+   "id": "sfn-yanaka2009",
+   "authors": "Yanaka A, Fahey JW, Fukumoto A, et al.",
+   "year": 2009,
+   "title": "Dietary sulforaphane-rich broccoli sprouts reduce colonization and attenuate gastritis in Helicobacter pylori-infected mice and humans.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "19349290",
+   "doi": "10.1158/1940-6207.CAPR-08-0192",
+   "type": "rct",
+   "n": "48 H. pylori-infected adults",
+   "finding": "70 g/day broccoli sprouts (420 µmol glucoraphanin) for 8 weeks lowered urea breath test, stool antigen and pepsinogens vs alfalfa sprouts; values returned to baseline 2 months after stopping."
+  },
+  {
+   "id": "sfn-ye2002",
+   "authors": "Ye L, Dinkova-Kostova AT, Wade KL, et al.",
+   "year": 2002,
+   "title": "Quantitative determination of dithiocarbamates in human plasma, serum, erythrocytes and urine: pharmacokinetics of broccoli sprout isothiocyanates in humans.",
+   "journal": "Clin Chim Acta",
+   "pmid": "11750273",
+   "doi": "10.1016/s0009-8981(01)00727-6",
+   "type": "mechanistic",
+   "n": "4 volunteers",
+   "finding": "After ~200 µmol broccoli sprout isothiocyanates, plasma levels peaked at 0.9-2.3 µM at 1 h and fell with a half-life of 1.77 h; 58% of the dose was excreted in urine within 8 h."
+  },
+  {
+   "id": "sfn-zhang1992",
+   "authors": "Zhang Y, Talalay P, Cho CG, et al.",
+   "year": 1992,
+   "title": "A major inducer of anticarcinogenic protective enzymes from broccoli: isolation and elucidation of structure.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "1549603",
+   "doi": "10.1073/pnas.89.6.2399",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Isolated sulforaphane from broccoli as a major, very potent inducer of phase 2 detoxication enzymes (quinone reductase, GSTs) that does not induce phase 1 cytochromes P450."
+  },
+  {
+   "id": "sfn-zhang2011",
+   "authors": "Zhang X, Shu XO, Xiang YB, et al.",
+   "year": 2011,
+   "title": "Cruciferous vegetable consumption is associated with a reduced risk of total and cardiovascular disease mortality.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "21593509",
+   "doi": "10.3945/ajcn.110.009340",
+   "type": "cohort",
+   "n": "134,796 adults",
+   "finding": "Highest vs lowest quintile of cruciferous vegetable intake was associated with 22% lower total mortality (HR 0.78), mainly cardiovascular, in the Shanghai cohorts."
   }
  ]
 }

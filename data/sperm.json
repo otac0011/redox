@@ -1853,6 +1853,43 @@
     "cur-halegoua2023",
     "cur-flory2021"
    ]
+  },
+  {
+   "id": "sulforaphane-sperm",
+   "name": "Sulforaphane / broccoli sprouts for sperm quality",
+   "kind": "food",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "mechanistic",
+   "headline": "No human trial has tested sulforaphane or broccoli sprouts on sperm DNA fragmentation, motility or fertility; protection is shown only in rodents exposed to toxins, diabetes or high-fat diets and in human sperm treated in the lab.",
+   "dose": {
+    "effective": "Unknown for sperm. General-health doses (30-70 g fresh sprouts, or 40-150 µmol sulforaphane/day) are the only human-tested amounts.",
+    "studied_range": "Rodents: injected or oral sulforaphane for weeks to months; in vitro: 5 µM added to human semen before freezing.",
+    "too_much": "Not established; in cell culture sulforaphane becomes cytotoxic above about 10-15 µM, far above blood levels from food.",
+    "timeframe": "One spermatogenic cycle (about 74 days) would be needed to see any effect.",
+    "notes": "The in vitro cryopreservation result applies to sperm-freezing media, not to eating broccoli."
+   },
+   "mechanism": "Nrf2-driven antioxidant genes in testis, AMPK-dependent relief of ER stress in sperm, and reduced testicular apoptosis in diabetic or toxin-exposed animals.",
+   "pathways": [
+    "nrf2",
+    "glutathione",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Same redundancy considerations as [broccoli-sprouts] and [sulforaphane-supplements]; no data on combining with other sperm antioxidants such as [n-acetylcysteine].",
+   "caveats": "All evidence is animal or in vitro; rodent models used toxic exposures (phthalates, diabetes, high-fat diet) and often injected doses. Do not expect measurable improvement in semen analysis from broccoli in healthy men.",
+   "key_numbers": [],
+   "refs": [
+    "sfn-valipour2021",
+    "sfn-mu2019",
+    "sfn-wang2014",
+    "sfn-jiang2017",
+    "sfn-bao2014"
+   ]
   }
  ],
  "mechanisms": [
@@ -3454,6 +3491,66 @@
    "type": "mechanistic",
    "n": null,
    "finding": "Adding 20 uM curcumin to freezing medium improved post-thaw motility and lowered ROS and DNA fragmentation in human sperm (in vitro, cryopreservation only)."
+  },
+  {
+   "id": "sfn-bao2014",
+   "authors": "Bao Y, Wang W, Zhou Z, et al.",
+   "year": 2014,
+   "title": "Benefits and risks of the hormetic effects of dietary isothiocyanates on cancer prevention.",
+   "journal": "PLoS One",
+   "pmid": "25532034",
+   "doi": "10.1371/journal.pone.0114764",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Sulforaphane was biphasic in cell culture: 1-5 µM increased proliferation and migration of several human cell lines (including cancer cells) while 10-40 µM inhibited them."
+  },
+  {
+   "id": "sfn-jiang2017",
+   "authors": "Jiang XP, Tang JY, Xu Z, et al.",
+   "year": 2017,
+   "title": "Sulforaphane attenuates di-N-butylphthalate-induced reproductive damage in pubertal mice: Involvement of the Nrf2-antioxidant system.",
+   "journal": "Environ Toxicol",
+   "pmid": "28295950",
+   "doi": "10.1002/tox.22413",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Sulforaphane attenuated phthalate (DBP)-induced falls in sperm count, motility and testosterone in pubertal mice via Nrf2."
+  },
+  {
+   "id": "sfn-mu2019",
+   "authors": "Mu Y, Yin TL, Huang XX, et al.",
+   "year": 2019,
+   "title": "Sulforaphane ameliorates high-fat diet-induced spermatogenic deficiency in mice†.",
+   "journal": "Biol Reprod",
+   "pmid": "31004475",
+   "doi": "10.1093/biolre/ioz067",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Sulforaphane injections reversed high-fat-diet-induced spermatogenic impairment in mice and, in vitro, protected mouse and human sperm motility from palmitic acid via AMPK-dependent ER-stress relief."
+  },
+  {
+   "id": "sfn-valipour2021",
+   "authors": "Valipour J, Nashtaei MS, Khosravizadeh Z, et al.",
+   "year": 2021,
+   "title": "Effect of sulforaphane on apoptosis, reactive oxygen species and lipids peroxidation of human sperm during cryopreservation.",
+   "journal": "Cryobiology",
+   "pmid": "33248050",
+   "doi": "10.1016/j.cryobiol.2020.11.012",
+   "type": "mechanistic",
+   "n": "semen samples from 25 men (in vitro)",
+   "finding": "Adding 5 µM sulforaphane to human sperm before freezing improved post-thaw viability, motility and morphology and lowered ROS and lipid peroxidation."
+  },
+  {
+   "id": "sfn-wang2014",
+   "authors": "Wang Y, Zhang Z, Guo W, et al.",
+   "year": 2014,
+   "title": "Sulforaphane reduction of testicular apoptotic cell death in diabetic mice is associated with the upregulation of Nrf2 expression and function.",
+   "journal": "Am J Physiol Endocrinol Metab",
+   "pmid": "24801392",
+   "doi": "10.1152/ajpendo.00702.2013",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In diabetic mice, 4 months of sulforaphane prevented testicular cell death, oxidative damage and inflammation while up-regulating testicular Nrf2."
   }
  ]
 }

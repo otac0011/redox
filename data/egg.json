@@ -1752,6 +1752,44 @@
     "cur-azami2020",
     "cur-efsa2010"
    ]
+  },
+  {
+   "id": "sulforaphane-egg",
+   "name": "Sulforaphane / broccoli sprouts for egg and ovarian function",
+   "kind": "food",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "mechanistic",
+   "headline": "No human trial has tested sulforaphane on egg quality, ovarian reserve, PCOS or IVF outcomes; it protects human granulosa cells and animal oocytes from oxidative stress in the lab, but becomes cytotoxic to granulosa cells at higher concentrations.",
+   "dose": {
+    "effective": "Unknown for ovarian outcomes; only general-health doses have been tested in people.",
+    "studied_range": "In vitro: about 1-5 µM in oocyte maturation or granulosa-cell culture.",
+    "too_much": "Bovine granulosa cells lost viability above about 15 µM in culture.",
+    "timeframe": "Follicle development takes about 3 months, so any dietary effect would need at least that long.",
+    "notes": "In vitro maturation results apply to IVF lab media, not diet."
+   },
+   "mechanism": "Nrf2 activation (SOD, catalase, GCLC/GCLM, HO-1, NQO1) and AMPK/AKT signalling in granulosa cells and oocytes; reduced ROS, mitochondrial dysfunction and spindle defects after toxin exposure.",
+   "pathways": [
+    "nrf2",
+    "mitochondrial",
+    "glutathione"
+   ],
+   "interactions": "Same redundancy considerations as [broccoli-sprouts] and [sulforaphane-supplements]. The modest glucose-lowering seen in obese people with poorly controlled diabetes ([glycemic-control]) is the only human finding with plausible indirect relevance to PCOS, and it has not been tested in PCOS.",
+   "caveats": "Cell and animal data only; biphasic (protective at low, harmful at high concentrations) responses argue against high-dose supplementation around conception without data.",
+   "key_numbers": [],
+   "refs": [
+    "sfn-taheri2021",
+    "sfn-esfandyari2021",
+    "sfn-sohel2017",
+    "sfn-feng2023",
+    "sfn-li2023",
+    "sfn-axelsson2017"
+   ]
   }
  ],
  "mechanisms": [
@@ -3126,6 +3164,78 @@
    "type": "meta-analysis",
    "n": "5 RCTs in PCOS",
    "finding": "Curcumin lowered fasting glucose (-3.7 mg/dL), insulin and HOMA-IR (-0.94, I2 90%) but did not change any lipid index."
+  },
+  {
+   "id": "sfn-axelsson2017",
+   "authors": "Axelsson AS, Tubbs E, Mecham B, et al.",
+   "year": 2017,
+   "title": "Sulforaphane reduces hepatic glucose production and improves glucose control in patients with type 2 diabetes.",
+   "journal": "Sci Transl Med",
+   "pmid": "28615356",
+   "doi": "10.1126/scitranslmed.aah4477",
+   "type": "rct",
+   "n": "97 adults with type 2 diabetes",
+   "finding": "Broccoli sprout extract (150 µmol sulforaphane/day, 12 weeks) reduced fasting blood glucose and HbA1c in obese patients with dysregulated type 2 diabetes (not in the whole group); in cells and animals sulforaphane suppressed hepatic gluconeogenesis via NRF2."
+  },
+  {
+   "id": "sfn-esfandyari2021",
+   "authors": "Esfandyari S, Aleyasin A, Noroozi Z, et al.",
+   "year": 2021,
+   "title": "The Protective Effect of Sulforaphane against Oxidative Stress through Activation of NRF2/ARE Pathway in Human Granulosa Cells.",
+   "journal": "Cell J",
+   "pmid": "34939763",
+   "doi": "10.22074/cellj.2021.7393",
+   "type": "mechanistic",
+   "n": "granulosa cells from 12 women (in vitro)",
+   "finding": "Sulforaphane pretreatment protected human granulosa cells from H2O2-induced ROS and apoptosis via NRF2, SOD and catalase."
+  },
+  {
+   "id": "sfn-feng2023",
+   "authors": "Feng Z, Wang T, Sun Y, et al.",
+   "year": 2023,
+   "title": "Sulforaphane suppresses paraquat-induced oxidative damage in bovine in vitro-matured oocytes through Nrf2 transduction pathway.",
+   "journal": "Ecotoxicol Environ Saf",
+   "pmid": "36907095",
+   "doi": "10.1016/j.ecoenv.2023.114747",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "1 µM sulforaphane during in vitro maturation raised bovine oocyte maturation and embryo rates and countered paraquat oxidative damage via Nrf2."
+  },
+  {
+   "id": "sfn-li2023",
+   "authors": "Li WJ, Zhang X, Shen M, et al.",
+   "year": 2023,
+   "title": "Sulforaphane alleviates the meiosis defects induced by 3-nitropropionic acid in mouse oocytes.",
+   "journal": "Food Chem Toxicol",
+   "pmid": "37783421",
+   "doi": "10.1016/j.fct.2023.114083",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Sulforaphane alleviated 3-nitropropionic-acid-induced meiotic, spindle and mitochondrial defects in mouse oocytes matured in vitro."
+  },
+  {
+   "id": "sfn-sohel2017",
+   "authors": "Sohel MMH, Konca Y, Akyuz B, et al.",
+   "year": 2017,
+   "title": "Concentration dependent antioxidative and apoptotic effects of sulforaphane on bovine granulosa cells in vitro.",
+   "journal": "Theriogenology",
+   "pmid": "28583601",
+   "doi": "10.1016/j.theriogenology.2017.04.015",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In bovine granulosa cells, low sulforaphane (2 µM) activated NRF2 antioxidant genes while concentrations above ~15 µM were cytotoxic."
+  },
+  {
+   "id": "sfn-taheri2021",
+   "authors": "Taheri M, Hayati Roudbari N, Amidi F, et al.",
+   "year": 2021,
+   "title": "The protective effect of sulforaphane against oxidative stress in granulosa cells of patients with polycystic ovary syndrome (PCOS) through activation of AMPK/AKT/NRF2 signaling pathway.",
+   "journal": "Reprod Biol",
+   "pmid": "34678578",
+   "doi": "10.1016/j.repbio.2021.100563",
+   "type": "mechanistic",
+   "n": "granulosa cells from PCOS and control women (in vitro)",
+   "finding": "Sulforaphane reduced ROS and apoptosis in granulosa-lutein cells from women with PCOS, with AMPK/AKT/NRF2 activation."
   }
  ]
 }
