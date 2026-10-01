@@ -64,7 +64,7 @@ def main():
         for pm in batch:
             d = result.get(pm)
             if d and not d.get("error"):
-                cache[pm] = {"title": d.get("title", ""), "year": (d.get("pubdate") or "")[:4], "journal": d.get("source", ""),
+                cache[pm] = {"title": d.get("title") or d.get("booktitle", ""), "year": (d.get("pubdate") or "")[:4], "journal": d.get("source", ""),
                              "doi": next((a["value"] for a in d.get("articleids", []) if a.get("idtype") == "doi"), ""),
                              "pubtype": d.get("pubtype", [])}
             else:

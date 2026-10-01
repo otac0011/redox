@@ -2030,6 +2030,67 @@
     "fst-metzger1982",
     "fst-rizzo1991"
    ]
+  },
+  {
+   "id": "pfas-egg",
+   "name": "PFAS and female fertility",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "A Singapore preconception cohort found 5-10% lower fecundability per quartile of some PFAS and Chinese clinic studies link PFAS to PCOS and poorer embryo quality, but older time-to-pregnancy links were likely reverse causation, and PFAS did not track AMH or follicle counts.",
+   "dose": {
+    "effective": "No fertility intervention tested. For likely-exposed women, see [pfas] (testing, water filtration). Plasma donation and bile-acid sequestrants lower serum PFAS but have not been studied for fertility and sequestrants are not tested in pregnancy planning.",
+    "studied_range": "Plasma PFOS ~4-13 ng/mL in fertility cohorts; follicular fluid PFOA ~5-7 ng/mL.",
+    "too_much": "NASEM serum sum >20 ng/mL = increased general health risk.",
+    "timeframe": "Years (PFAS half-lives 2.7-5.3 years).",
+    "notes": "PFAS cross readily into follicular fluid (65-92% of serum levels). Pregnancy and breastfeeding lower a woman's PFAS, which is why parity confounds time-to-pregnancy studies."
+   },
+   "mechanism": "PFAS in follicular fluid may disrupt steroidogenesis, PPAR signalling and follicular lipid metabolism; one IVF study linked PFOA to altered follicular sphingolipids and organonitrogen metabolites.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Coexists with other persistent pollutants; in one ovarian-tissue study organochlorines, not PFAS, tracked a smaller ovarian reserve. Women's PFAS falls with each pregnancy and breastfeeding period.",
+   "caveats": "Mostly case-control or single-centre clinic studies; PCOS itself alters menstruation and therefore PFAS excretion (reverse causation).",
+   "debate": "Time to pregnancy: the Danish birth cohort found longer TTP with PFOS/PFOA [env-fei2009], but the link appeared only in parous women in Norway [env-whitworth2012], the original authors raised reverse causation [env-fei2012], and a systematic review judged it most likely not causal [env-bach2016]. A preconception cohort that avoids this bias still found modestly lower fecundability [env-cohen2023]. PCOS: a mixture of PFAS, led by newer alternatives, was associated with PCOS [env-zhan2023], whereas an earlier study found only one congener associated [env-wangw2019]. IVF: follicular PFOA tracked poorer embryo quality [env-xu2025], but another IVF study found no clear outcome pattern [env-hong2022]; PFAS were not associated with AMH or follicle density in ovarian tissue [env-bjorvang2021].",
+   "key_numbers": [
+    {
+     "label": "Fecundability ratio per PFOS quartile",
+     "value": 0.88,
+     "unit": "FR",
+     "source": "env-cohen2023"
+    },
+    {
+     "label": "Subfecundity OR, top PFOS quartile, nulliparous women",
+     "value": 0.7,
+     "unit": "OR",
+     "source": "env-whitworth2012"
+    },
+    {
+     "label": "PCOS odds per ln-unit PFAS mixture",
+     "value": 1.2,
+     "unit": "OR",
+     "source": "env-zhan2023"
+    }
+   ],
+   "refs": [
+    "env-fei2009",
+    "env-whitworth2012",
+    "env-fei2012",
+    "env-bach2016",
+    "env-cohen2023",
+    "env-zhan2023",
+    "env-wangw2019",
+    "env-xu2025",
+    "env-hong2022",
+    "env-bjorvang2021"
+   ]
   }
  ],
  "mechanisms": [
@@ -3860,6 +3921,126 @@
    "type": "rct",
    "n": "90 women with PCOS",
    "finding": "8 weeks of 14:10 early TRE (with or without probiotics) gave no greater weight loss or menstrual, androgen or metabolic improvement than daily calorie restriction."
+  },
+  {
+   "id": "env-bach2016",
+   "authors": "Bach CC, Vested A, Jørgensen KT, et al.",
+   "year": 2016,
+   "title": "Perfluoroalkyl and polyfluoroalkyl substances and measures of human fertility: a systematic review.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "27268162",
+   "doi": "10.1080/10408444.2016.1182117",
+   "type": "review",
+   "n": "16 male and 11 female studies",
+   "finding": "Little consistent evidence that PFAS affect semen quality or hormones in men; associations with longer time to pregnancy appear in parous women and are most likely not causal."
+  },
+  {
+   "id": "env-bjorvang2021",
+   "authors": "Björvang RD, Hassan J, Stefopoulou M, et al.",
+   "year": 2021,
+   "title": "Persistent organic pollutants and the size of ovarian reserve in reproductive-aged women.",
+   "journal": "Environ Int",
+   "pmid": "33945905",
+   "doi": "10.1016/j.envint.2021.106589",
+   "type": "cross-sectional",
+   "n": "145 women (50 with ovarian tissue)",
+   "finding": "PFAS were not associated with AMH or follicle density, whereas some organochlorines (HCB, PCBs) were linked to fewer non-growing follicles."
+  },
+  {
+   "id": "env-cohen2023",
+   "authors": "Cohen NJ, Yao M, Midya V, et al.",
+   "year": 2023,
+   "title": "Exposure to perfluoroalkyl substances and women's fertility outcomes in a Singaporean population-based preconception cohort.",
+   "journal": "Sci Total Environ",
+   "pmid": "36801327",
+   "doi": "10.1016/j.scitotenv.2023.162267",
+   "type": "cohort",
+   "n": "382 women trying to conceive (Singapore)",
+   "finding": "Each quartile increase in individual PFAS (PFDA, PFOS) was associated with 5-10% lower fecundability and lower odds of clinical pregnancy."
+  },
+  {
+   "id": "env-fei2009",
+   "authors": "Fei C, McLaughlin JK, Lipworth L, et al.",
+   "year": 2009,
+   "title": "Maternal levels of perfluorinated chemicals and subfecundity.",
+   "journal": "Hum Reprod",
+   "pmid": "19176540",
+   "doi": "10.1093/humrep/den490",
+   "type": "cohort",
+   "n": "1240 pregnant women",
+   "finding": "Higher plasma PFOS and PFOA were associated with longer time to pregnancy (fecundity odds ratios ~0.6-0.75 in upper quartiles)."
+  },
+  {
+   "id": "env-fei2012",
+   "authors": "Fei C, Weinberg CR, Olsen J",
+   "year": 2012,
+   "title": "Commentary: perfluorinated chemicals and time to pregnancy: a link based on reverse causation?",
+   "journal": "Epidemiology",
+   "pmid": "22317809",
+   "doi": "10.1097/EDE.0b013e3182467608",
+   "type": "review",
+   "n": null,
+   "finding": "Commentary by Fei, Weinberg and Olsen asking whether PFAS-time-to-pregnancy links reflect reverse causation (longer gaps since last pregnancy/breastfeeding let PFAS build up)."
+  },
+  {
+   "id": "env-hong2022",
+   "authors": "Hong A, Zhuang L, Cui W, et al.",
+   "year": 2022,
+   "title": "Per- and polyfluoroalkyl substances (PFAS) exposure in women seeking in vitro fertilization-embryo transfer treatment (IVF-ET) in China: Blood-follicular transfer and associations with IVF-ET outcomes.",
+   "journal": "Sci Total Environ",
+   "pmid": "35636536",
+   "doi": "10.1016/j.scitotenv.2022.156323",
+   "type": "cross-sectional",
+   "n": "women undergoing IVF in China",
+   "finding": "PFAS crossed readily from blood into follicular fluid (transfer 0.65-0.92) but showed no clear association with IVF outcomes."
+  },
+  {
+   "id": "env-wangw2019",
+   "authors": "Wang W, Zhou W, Wu S, et al.",
+   "year": 2019,
+   "title": "Perfluoroalkyl substances exposure and risk of polycystic ovarian syndrome related infertility in Chinese women.",
+   "journal": "Environ Pollut",
+   "pmid": "30731307",
+   "doi": "10.1016/j.envpol.2019.01.039",
+   "type": "case-control",
+   "n": "180 PCOS cases, 187 controls",
+   "finding": "Most PFAS did not differ between PCOS-related infertility cases and controls; only PFDoA was associated with higher odds (OR 3.0 top vs bottom tertile)."
+  },
+  {
+   "id": "env-whitworth2012",
+   "authors": "Whitworth KW, Haug LS, Baird DD, et al.",
+   "year": 2012,
+   "title": "Perfluorinated compounds and subfecundity in pregnant women.",
+   "journal": "Epidemiology",
+   "pmid": "22081060",
+   "doi": "10.1097/EDE.0b013e31823b5031",
+   "type": "case-control",
+   "n": "910 pregnant women",
+   "finding": "Higher PFOS/PFOA was linked to subfecundity only in parous women (OR ~2.1), not in nulliparous women (OR 0.5-0.7), pointing to reverse causation."
+  },
+  {
+   "id": "env-xu2025",
+   "authors": "Xu J, Wang Q, Jiao X, et al.",
+   "year": 2025,
+   "title": "Association between Perfluorooctanoic Acid-Related Poor Embryo Quality and Metabolite Alterations in Human Follicular Fluid during IVF: A Cohort Study.",
+   "journal": "Environ Health Perspect",
+   "pmid": "40334213",
+   "doi": "10.1289/EHP15422",
+   "type": "cohort",
+   "n": "378 women undergoing ART",
+   "finding": "A follicular-fluid PFAS mixture, driven by PFOA, was associated with a lower high-quality embryo rate and lower clinical pregnancy."
+  },
+  {
+   "id": "env-zhan2023",
+   "authors": "Zhan W, Qiu W, Ao Y, et al.",
+   "year": 2023,
+   "title": "Environmental Exposure to Emerging Alternatives of Per- and Polyfluoroalkyl Substances and Polycystic Ovarian Syndrome in Women Diagnosed with Infertility: A Mixture Analysis.",
+   "journal": "Environ Health Perspect",
+   "pmid": "37134253",
+   "doi": "10.1289/EHP11814",
+   "type": "case-control",
+   "n": "366 PCOS cases, 577 controls",
+   "finding": "A PFAS mixture, led by emerging alternatives (6:2 Cl-PFESA, HFPO-DA), was associated with higher odds of PCOS (OR 1.20 per ln-unit)."
   }
  ]
 }

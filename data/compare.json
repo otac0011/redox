@@ -134,6 +134,27 @@
         "glynac",
         "mitoq"
       ]
+    },
+    {
+      "label": "Skin protection",
+      "ids": [
+        "sunscreen",
+        "topical-retinoids",
+        "topical-vitamin-c",
+        "nicotinamide",
+        "polypodium-leucotomos",
+        "uv-sun-exposure"
+      ]
+    },
+    {
+      "label": "Everyday chemicals",
+      "ids": [
+        "microplastics",
+        "pfas",
+        "plastics-chemicals",
+        "water-filtration",
+        "organic-food"
+      ]
     }
   ]
 }

@@ -1068,37 +1068,60 @@
   },
   {
    "id": "uv-sun-exposure",
-   "name": "Sun/UV exposure (skin oxidative damage vs vitamin D)",
+   "name": "Sun/UV exposure (photoaging and skin DNA damage)",
    "kind": "environment",
    "scopes": [
     "general"
    ],
-   "direction": "mixed",
+   "direction": "harmful",
    "impact": {
-    "general": 2
+    "general": 3
    },
-   "evidence": "moderate",
-   "headline": "UV is a major source of oxidative damage to skin (photoaging, DNA damage), and daily sunscreen slowed skin aging by 24% in an RCT; vitamin D is better obtained by brief exposure or supplements than by tanning.",
+   "evidence": "strong",
+   "headline": "Chronic unprotected UV is the main driver of visible skin aging and of skin cancer: a single exposure switched on collagen-degrading MMPs and raised collagen breakdown 58% in human skin, and identical twins with more sun exposure looked older.",
    "dose": {
-    "effective": "Avoid sunburn; apply broad-spectrum sunscreen daily to exposed skin (as in the Nambour trial), reapply during long outdoor periods, and use shade and clothing around midday.",
-    "studied_range": "Nambour RCT: daily broad-spectrum sunscreen for 4.5 years in adults under 55.",
-    "too_much": "Sunburn and cumulative high exposure; tanning beds.",
-    "timeframe": "Skin-aging differences measurable over years.",
-    "notes": "If vitamin D is low, short sub-burning exposures or a modest supplement can correct it; vitamin D pills did not prevent cancer or heart disease in VITAL."
+    "effective": "Avoid sunburn. Around midday and whenever the UV index is high, use shade, clothing and a hat, plus daily broad-spectrum sunscreen on exposed skin (see [sunscreen]).",
+    "studied_range": "Experimental studies used single or repeated (every 2 days) erythemal UV doses on buttock skin; twin and cohort data reflect lifetime exposure.",
+    "too_much": "Any sunburn, tanning beds, and long cumulative outdoor exposure without protection.",
+    "timeframe": "MMP induction within hours of one exposure, sustained about 7 days with repeated exposure; visible photoaging accrues over years to decades.",
+    "notes": "Vitamin D: a consensus panel concluded that sunscreen used to prevent sunburn is unlikely to compromise vitamin D status; people with low levels or strict photoprotection needs should test and supplement rather than tan."
    },
-   "mechanism": "UVB directly damages DNA (pyrimidine dimers); UVA is absorbed by skin chromophores that generate singlet oxygen and superoxide, causing 8-oxoguanine, lipid peroxidation and collagen-degrading MMP induction.",
+   "mechanism": "UVB (290-320 nm) is absorbed directly by DNA, forming cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts. UVA (320-400 nm) penetrates deeper into the dermis and is absorbed by cellular chromophores that generate singlet oxygen and superoxide, producing 8-oxo-dG, lipid peroxidation and mitochondrial DNA deletions; in whole human skin UVA also forms CPDs, which outnumber 8-oxo-dG and are repaired more slowly. ROS-activated MAP kinase signalling drives AP-1, which induces MMP-1 (collagenase), MMP-3 and MMP-9 and suppresses new procollagen, while NF-kB drives inflammation. Repeated sub-burning exposures leave behind fragmented collagen: photoaging.",
    "pathways": [
-    "direct-scavenging",
     "dna-repair",
-    "inflammation-nfkb"
+    "redox-signaling",
+    "inflammation-nfkb",
+    "lipid-peroxidation"
    ],
-   "interactions": "Smoking and air pollution add to skin oxidative aging ([tobacco-smoking], [outdoor-air-pollution]).",
-   "caveats": "Systemic (whole-body) oxidative-marker effects of normal sun exposure are not well documented; the evidence is about skin. Organic filters that soak in can increase skin ROS after about an hour, one more reason to reapply.",
+   "interactions": "[tobacco-smoking] and traffic-related [outdoor-air-pollution] add to extrinsic skin aging. Oral antioxidants do not replace UV protection: 30 mg/day beta-carotene ([beta-carotene-supplement]) had no effect on photoaging or skin cancer in Nambour, and the SU.VI.MAX antioxidant capsule raised skin cancer in women. Protection and repair options: [sunscreen], [topical-retinoids], and in high-risk people [nicotinamide].",
+   "caveats": "Whole-body oxidative-marker effects of ordinary sun exposure are not well documented; the evidence concerns skin. Visible light and near-infrared also generate ROS in skin in lab and biopsy studies, but whether everyday doses cause visible aging is unproven (visible light does matter for melasma and darker skin types). Twin and survey studies are observational and partly self-reported.",
+   "debate": "Mechanism weighting: the textbook picture of UVA as an 'oxidative' waveband is complicated by evidence that CPDs, not 8-oxo-dG, are the predominant UVA lesion in whole human skin [skb-mouret2006]. Beyond UV: visible light induced ROS and MMP-1 in skin equivalents [skb-liebel2012] and IR-A induced MMP-1 in human skin in vivo [skb-schroeder2008], but Diffey and Cadars argue solar IR doses equal those of furnace workers who show little chronic damage, so IR-protection claims are premature [skb-diffey2016]. Vitamin D: concern that sun avoidance causes deficiency is countered by a consensus review concluding normal sunscreen use does not compromise status [skb-passeron2019], though that panel included cosmetics-industry scientists.",
+   "key_numbers": [
+    {
+     "label": "Collagen breakdown after one UV exposure",
+     "value": 58,
+     "unit": "% increase",
+     "source": "skb-fisher1997"
+    },
+    {
+     "label": "MMP induction blocked by tretinoin pretreatment",
+     "value": 75,
+     "unit": "% (70-80)",
+     "source": "skb-fisher1997"
+    }
+   ],
    "refs": [
-    "kammeyer2015",
-    "hughes2013",
-    "hanson2006",
-    "manson2019"
+    "skb-fisher1997",
+    "skb-mouret2006",
+    "skb-guyuron2009",
+    "skb-hughes2013",
+    "skb-green1999",
+    "skb-hercberg2007",
+    "skb-liebel2012",
+    "skb-schroeder2008",
+    "skb-diffey2016",
+    "skb-passeron2019",
+    "skb-vierkotter2010"
    ]
   },
   {
@@ -1285,7 +1308,7 @@
   },
   {
    "id": "plastics-chemicals",
-   "name": "Plastic-associated chemicals (phthalates, bisphenols) and persistent pollutants",
+   "name": "Plastic-associated chemicals (phthalates, bisphenols)",
    "kind": "environment",
    "scopes": [
     "general",
@@ -1299,25 +1322,71 @@
     "egg": 1
    },
    "evidence": "limited",
-   "headline": "Phthalate metabolites are associated with higher urinary oxidative-stress markers in pregnancy, but associations for persistent pollutants (PFAS, PCBs, pesticides) are mostly inconsistent.",
+   "headline": "Cutting canned and plastic-packaged food can halve urinary BPA and DEHP within 3 days (a can of soup a day raised urinary BPA more than 10-fold), but one randomized diet trial backfired on contaminated food, and no trial shows a health or fertility benefit from lowering exposure.",
    "dose": {
-    "effective": "Reasonable low-cost steps: don't microwave food in plastic, prefer glass/steel for hot foods, eat fewer ultra-processed and packaged foods, and reduce fragranced personal-care products.",
-    "studied_range": "Observational studies of urinary metabolites.",
-    "too_much": null,
-    "timeframe": "Phthalates and BPA clear within hours to days, so exposure reduction changes levels quickly.",
-    "notes": "Evidence that these steps change health outcomes is lacking."
+    "effective": "Biggest proven exposure levers: avoid canned foods and drinks (canned soup daily: urinary BPA 20.8 vs 1.1 ug/L), avoid drinking from polycarbonate bottles (+69% BPA in 1 week), eat mostly fresh, minimally packaged food (3 days: BPA -66%, DEHP metabolites -53 to -56%), and use phthalate/paraben-free personal-care products (3 days: MEP -27%, methyl/propyl paraben ~-44%).",
+    "studied_range": "Exposure-reduction interventions lasting 1 meal to 1 week; outcomes are urinary metabolites only.",
+    "too_much": "EFSA (2023) tolerable daily intake for BPA: 0.2 ng/kg body weight per day (cut 20,000-fold from 4 ug/kg); EFSA estimates average diets exceed it 100-1000-fold. Other agencies (BfR, FDA) have not adopted this value.",
+    "timeframe": "BPA and phthalates clear within hours to a day (canned-meal BPA peaks at ~4 h and is back to baseline by 24 h), so changes show in urine within 1-3 days; any sperm effect would need ~3 months.",
+    "notes": "'BPA-free' often means BPS or BPF, which show similar hormonal activity in lab and animal studies (regrettable substitution). Hidden contamination of foods and spices can undo careful swaps."
    },
-   "mechanism": "Proposed: mitochondrial disruption and NADPH-oxidase activation; endocrine disruption.",
+   "mechanism": "Bisphenols bind estrogen receptors and phthalate metabolites act anti-androgenically; in cells and animals both raise mitochondrial ROS and NADPH oxidase activity and cause lipid peroxidation. In pregnant women, urinary phthalate metabolites track urinary 8-OHdG and 8-isoprostane.",
    "pathways": [
-    "mitochondrial",
     "endocrine",
-    "nox"
+    "mitochondrial",
+    "nox",
+    "lipid-peroxidation"
    ],
-   "interactions": "Overlaps with diet quality (ultra-processed foods).",
-   "caveats": "Associations from spot urine samples are noisy; causality unproven. Keep expectations modest.",
+   "interactions": "Overlaps heavily with ultra-processed and packaged diets, so diet quality ([mediterranean-diet]) confounds most associations. Shares sources with [microplastics] (heated plastic food contact). Persistent chemicals are covered separately under [pfas].",
+   "caveats": "Single spot-urine samples misclassify exposure to short-lived chemicals. Exposure-reduction studies are tiny (20-100 people) and short, and none measured a health outcome. Fertility associations are inconsistent and sometimes point in opposite directions within the same cohort.",
+   "debate": "Exposure reduction: a fresh-food intervention cut BPA and DEHP by half or more [env-rudel2011], but a randomized catered-diet trial saw DEHP rise about 25-fold because coriander and milk were contaminated, arguing that individual action is limited without regulation [env-sathyanarayana2013]. Safe dose: EFSA cut the BPA TDI 20,000-fold on immune endpoints [env-efsa2023], a move endorsed by academic endocrinologists who criticize the German BfR and US FDA for keeping higher limits [env-vomsaal2024]. Semen: one meta-analysis found BPA's link to motility vanished after publication-bias correction [env-castellini2022], while another found small falls in concentration and count [env-lu2024]; for phthalates only MBP, MBzP and semen DEHP tracked lower concentration [env-wangh2023b]. Fecundity: one cohort found bisphenols and phthalates prolonged time to pregnancy [env-charifson2024], while another found several phthalates linked to shorter time to pregnancy [env-blaauwendraad2025]. IVF: BPA is linked to lower fertilization and embryo quality but not to pregnancy rates [env-yuan2025]. Substitutes: BPS/BPF carry similar hazard signals with large data gaps [env-denbraversewradj2020, env-mhaoutykodja2024].",
+   "key_numbers": [
+    {
+     "label": "Urinary BPA after canned soup daily (vs fresh)",
+     "value": 1221,
+     "unit": "% increase",
+     "source": "env-carwile2011"
+    },
+    {
+     "label": "Urinary BPA fall on 3-day fresh-food diet",
+     "value": 66,
+     "unit": "%",
+     "source": "env-rudel2011"
+    },
+    {
+     "label": "Urinary BPA rise after 1 week of polycarbonate bottles",
+     "value": 69,
+     "unit": "%",
+     "source": "env-carwile2009"
+    },
+    {
+     "label": "EFSA BPA tolerable daily intake (2023)",
+     "value": 0.2,
+     "unit": "ng/kg bw/day",
+     "source": "env-efsa2023"
+    }
+   ],
    "refs": [
-    "ferguson2015",
-    "chen2023"
+    "env-rudel2011",
+    "env-sathyanarayana2013",
+    "env-harley2016",
+    "env-carwile2011",
+    "env-carwile2009",
+    "env-peng2019",
+    "env-plachetka2025",
+    "env-efsa2023",
+    "env-vomsaal2024",
+    "env-mhaoutykodja2024",
+    "env-denbraversewradj2020",
+    "env-castellini2022",
+    "env-lu2024",
+    "env-wangh2023b",
+    "env-yuan2025",
+    "env-blaauwendraad2025",
+    "env-charifson2024",
+    "env-ferguson2015",
+    "env-symeonides2024",
+    "env-lucas2025"
    ]
   },
   {
@@ -1770,6 +1839,413 @@
     "exr-dossantos2022",
     "exr-khurshid2023",
     "exr-kim2025"
+   ]
+  },
+  {
+   "id": "sunscreen",
+   "name": "Daily broad-spectrum sunscreen",
+   "kind": "lifestyle",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 4
+   },
+   "evidence": "strong",
+   "headline": "The best-proven way to prevent oxidative skin aging: in the Nambour RCT, daily sunscreen stopped measurable photoaging (24% less aging than discretionary use over 4.5 years), cut squamous-cell tumours by 39%, and was followed by half as many melanomas over the next 10 years.",
+   "dose": {
+    "effective": "Broad-spectrum SPF 15 or higher applied every morning to the face, neck, arms and hands, as in the Nambour trial; reapply after swimming, heavy sweating or long periods outdoors.",
+    "studied_range": "SPF 15+ broad-spectrum, daily for 4.5 years, adults 25-75 (photoaging analysis in those under 55); melanoma follow-up 10 years after the trial ended.",
+    "too_much": "No harm was seen in the trial. All six common organic filters are absorbed into blood above the FDA's 0.5 ng/mL screening threshold after one application; the clinical significance is unknown.",
+    "timeframe": "Photoaging differences after 4.5 years; melanoma differences emerged over the following decade.",
+    "notes": "Sunscreen filters block photons before they generate ROS; they are not antioxidants. Iron-oxide (tinted) sunscreens also block visible light, which improved melasma in one RCT. Sunscreen is one part of sun protection alongside shade, clothing and timing."
+   },
+   "mechanism": "Organic and mineral UV filters absorb or scatter UVB and UVA, preventing direct DNA photoproducts and the UVA-driven singlet oxygen and superoxide that lead to 8-oxo-dG, lipid peroxidation and AP-1/MMP-mediated collagen breakdown. Standard filters do little against visible light and near-infrared; adding antioxidants to sunscreen reduced IR-A-induced MMP-1 in one small trial.",
+   "pathways": [
+    "dna-repair",
+    "redox-signaling",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Works on the cause of [uv-sun-exposure]. [topical-vitamin-c] and other topical antioxidants are add-ons, not substitutes. Oral [beta-carotene-supplement] added nothing in the same trial. Sunscreen does not meaningfully lower vitamin D status at normal use ([vitamin-d]).",
+   "caveats": "The only long-term RCT is Nambour (one Australian community, high UV). The melanoma result rests on 11 versus 22 cases and was borderline (P=0.051). Sunscreen did not reduce basal-cell carcinoma.",
+   "debate": "Observational meta-analyses of mostly case-control studies found no association between sunscreen use and melanoma (OR 1.10) [skb-silva2018], feeding claims that sunscreen does not prevent skin cancer. Rueegg and colleagues showed that adjusting for sun exposure, sunburn and skin type consistently shifts estimates toward protection, and that the only RCT showed HR 0.49 [skb-rueegg2019, skb-green2011]: sun-seeking, fair-skinned people use more sunscreen, which confounds the observational data. Safety: systemic absorption of organic filters [skb-matta2020] prompted calls for more toxicology, but no harm has been shown. Vitamin D concerns are addressed by [skb-passeron2019].",
+   "key_numbers": [
+    {
+     "label": "Photoaging, daily vs discretionary sunscreen",
+     "value": 0.76,
+     "unit": "relative odds",
+     "source": "skb-hughes2013"
+    },
+    {
+     "label": "Squamous-cell carcinoma tumours",
+     "value": 0.61,
+     "unit": "rate ratio",
+     "source": "skb-green1999"
+    },
+    {
+     "label": "Melanoma, 10-year post-trial follow-up",
+     "value": 0.5,
+     "unit": "hazard ratio",
+     "source": "skb-green2011"
+    },
+    {
+     "label": "Invasive melanoma",
+     "value": 0.27,
+     "unit": "hazard ratio",
+     "source": "skb-green2011"
+    }
+   ],
+   "refs": [
+    "skb-hughes2013",
+    "skb-green1999",
+    "skb-green2011",
+    "skb-silva2018",
+    "skb-rueegg2019",
+    "skb-matta2020",
+    "skb-passeron2019",
+    "skb-castanedo2014",
+    "skb-gretherbeck2015"
+   ]
+  },
+  {
+   "id": "topical-vitamin-c",
+   "name": "Topical vitamin C (L-ascorbic acid serum), alone or with vitamin E and ferulic acid",
+   "kind": "lifestyle",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Vitamin C only gets into skin as L-ascorbic acid at pH below 3.5 (best at about 20%); small vehicle-controlled trials (7 RCTs, 139 people in total) show modest smoothing of wrinkles and lighter pigment, and a 15% C + 1% E + ferulic acid mix doubled UV protection in pig skin, an add-on to sunscreen rather than a replacement.",
+   "dose": {
+    "effective": "10-20% L-ascorbic acid at pH below 3.5, applied once daily in the morning under sunscreen; the best-studied combination is 15% L-ascorbic acid + 1% alpha-tocopherol + ferulic acid.",
+    "studied_range": "5-20% L-ascorbic acid for 3-6 months in clinical trials; 4 days of pretreatment in photoprotection studies.",
+    "too_much": "Concentrations above 20% did not increase skin uptake; the low pH can sting or irritate.",
+    "timeframe": "Skin levels saturate after about 3 daily applications and fall with a half-life of about 4 days; visible change needs 3-6 months.",
+    "notes": "Common derivatives (magnesium ascorbyl phosphate, ascorbyl palmitate) did not raise skin vitamin C in pig skin. L-ascorbic acid is unstable in solution; ferulic acid improved the stability of the C+E formula. Eating or swallowing vitamin C does not deliver comparable skin levels ([vitamin-c-supplement])."
+   },
+   "mechanism": "Ascorbate is the main water-soluble antioxidant in skin, scavenging UV-generated radicals and regenerating alpha-tocopherol from the tocopheroxyl radical. It is also the cofactor for prolyl and lysyl hydroxylases needed to make stable collagen, and it inhibits tyrosinase, which explains the pigment-lightening effect.",
+   "pathways": [
+    "direct-scavenging",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Synergy with vitamin E and ferulic acid in the same formula. Complements [sunscreen] (blocks photons) by mopping up ROS from the photons that get through, including visible and IR-A light. [topical-retinoids] have stronger evidence for wrinkles.",
+   "caveats": "The trials are small, short, split-face or split-arm, and often run or funded by the product developers. There are no long-term trials of visible aging and none on skin cancer. 'Doubled photoprotection' means a protection factor of about 8, measured in pig skin, well below a typical sunscreen.",
+   "debate": "Supporters point to vehicle-controlled improvements in wrinkles and pigmentation [skb-humbert2003, skb-correia2023] and to a 31-study Bayesian pooling showing dose-dependent prevention of UV pigmentation [skb-dedormael2019]. Sceptics note the pooled studies were all run in-house by L'Oreal, the key formulation papers come from the group that developed the C+E+ferulic serum [skb-lin2003, skb-lin2005, skb-pinnell2001], and the only independent systematic review found just 139 participants across 7 trials [skb-correia2023]. No independent large RCT exists.",
+   "key_numbers": [
+    {
+     "label": "pH needed for skin penetration",
+     "value": 3.5,
+     "unit": "pH (below)",
+     "source": "skb-pinnell2001"
+    },
+    {
+     "label": "Optimal L-ascorbic acid concentration",
+     "value": 20,
+     "unit": "%",
+     "source": "skb-pinnell2001"
+    },
+    {
+     "label": "Photoprotection factor, C+E+ferulic (pig skin)",
+     "value": 8,
+     "unit": "fold",
+     "source": "skb-lin2005"
+    },
+    {
+     "label": "Participants in all RCTs (systematic review)",
+     "value": 139,
+     "unit": "people",
+     "source": "skb-correia2023"
+    }
+   ],
+   "refs": [
+    "skb-pinnell2001",
+    "skb-humbert2003",
+    "skb-correia2023",
+    "skb-dedormael2019",
+    "skb-lin2003",
+    "skb-lin2005"
+   ]
+  },
+  {
+   "id": "topical-retinoids",
+   "name": "Topical retinoids (tretinoin, retinol)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "strong",
+   "headline": "The best-proven topical treatment for photoaging: tretinoin improved 14 of 15 treated faces versus none on vehicle in 16 weeks, retinol 0.4% smoothed fine wrinkles even at age 87, and tretinoin blocked 70-80% of UV-induced collagenase; it does not prevent skin cancer.",
+   "dose": {
+    "effective": "Prescription tretinoin cream at night (0.1% in the classic trials; lower strengths if irritated), or over-the-counter retinol (0.4% lotion up to 3 times a week in the elderly-skin trial); build up from every second or third night.",
+    "studied_range": "Tretinoin 0.1% daily for 16 weeks to 5.5 years; retinol 0.4% up to 3 times weekly for 24 weeks.",
+    "too_much": "Irritation, redness and peeling (retinoid dermatitis) are common and dose-related. Avoid during pregnancy as a precaution, although first-trimester topical tretinoin exposure showed no excess birth defects in a 106-pregnancy cohort.",
+    "timeframe": "Visible improvement from about 16-24 weeks, with continued use needed to maintain it.",
+    "notes": "Retinoids are not antioxidants: they work downstream of UV-generated ROS by blocking AP-1-driven MMPs and rebuilding matrix. Use with daily [sunscreen]."
+   },
+   "mechanism": "Retinoic acid binds nuclear retinoic acid receptors, which antagonize AP-1 (c-Jun/c-Fos). This blocks the UV- and ROS-triggered induction of MMP-1, MMP-3 and MMP-9, while increasing procollagen I and glycosaminoglycan synthesis and normalizing epidermal turnover.",
+   "pathways": [
+    "redox-signaling",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Complements [sunscreen] (prevention) and [uv-sun-exposure] avoidance; stronger evidence than [topical-vitamin-c] for wrinkles. Oral retinoid-like compounds such as high-dose [beta-carotene-supplement] are a different story and are not a substitute.",
+   "caveats": "Most photoaging trials are small and vehicle-controlled over months, with clinician-graded outcomes. In the large VATTC trial, high-dose tretinoin did not prevent basal- or squamous-cell carcinoma, and the trial stopped early because of excess deaths in the tretinoin arm.",
+   "debate": "Efficacy for photoaging is not seriously disputed [skb-weiss1988, skb-kafi2007, skb-fisher1997]. The disputes concern cancer and safety: VATTC showed no prevention of keratinocyte carcinoma [skb-weinstock2012] and an unexpected mortality excess [skb-weinstock2009]; the investigators judged it unlikely to be causal given minor baseline imbalances and no plausible mechanism for a topical cream, but the signal has never been explained. Pregnancy: systemic retinoids are teratogens, yet a prospective cohort found no excess malformations after topical tretinoin [skb-loureiro2005], so advice to avoid it is precautionary.",
+   "key_numbers": [
+    {
+     "label": "Faces improved on tretinoin (16 weeks)",
+     "value": 14,
+     "unit": "of 15",
+     "source": "skb-weiss1988"
+    },
+    {
+     "label": "Fine-wrinkle score change, retinol vs vehicle",
+     "value": -1.64,
+     "unit": "points (0-9 scale)",
+     "source": "skb-kafi2007"
+    },
+    {
+     "label": "BCC at 5 years, tretinoin vs vehicle",
+     "value": 53,
+     "unit": "% (vs 54%)",
+     "source": "skb-weinstock2012"
+    }
+   ],
+   "refs": [
+    "skb-weiss1988",
+    "skb-kafi2007",
+    "skb-fisher1997",
+    "skb-weinstock2012",
+    "skb-weinstock2009",
+    "skb-loureiro2005"
+   ]
+  },
+  {
+   "id": "microplastics",
+   "name": "Micro- and nanoplastics",
+   "kind": "environment",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Plastic particles have been reported in blood, placenta, testis and brain, and one NEJM cohort linked plastic in carotid plaque to 4.5x more heart attacks, strokes and deaths, but the tissue numbers rest on a method that can mistake fat for polyethylene, and nothing yet shows that cutting exposure lowers body burden or risk.",
+   "dose": {
+    "effective": "No proven dose or intervention. Low-cost steps that cut measured particle release: don't microwave food, drinks or infant formula in plastic (up to 2 billion nanoparticles per cm2 in 3 min), prefer tap over bottled water where tap is safe (~240,000 particles/L in bottled water by single-particle imaging), use loose tea or non-plastic teabags (one plastic teabag at 95 C: ~15 billion particles), and vacuum regularly.",
+    "studied_range": "Estimated intake 39,000-52,000 particles/year from food (74,000-121,000 with inhalation); tissue concentrations reported from ~1.6 ug/mL (blood) to ~4,900 ug/g (brain) by pyrolysis GC/MS.",
+    "too_much": null,
+    "timeframe": "Unknown: uptake, clearance and half-lives of plastic particles in people have not been measured.",
+    "notes": "Exposure studies count particles released into water or food simulants in the lab; whether those particles are absorbed is unknown. No human study has tested whether any change lowers tissue levels."
+   },
+   "mechanism": "In cells and animals, polystyrene and other particles trigger oxidative stress (mitochondrial ROS, NADPH oxidase), NLRP3/NF-kB inflammation, barrier disruption and immune changes; additives and adsorbed chemicals may contribute. Most experiments use pristine spheres at doses above estimated human exposure.",
+   "pathways": [
+    "inflammation-nfkb",
+    "mitochondrial",
+    "nox",
+    "endothelial"
+   ],
+   "interactions": "Heated plastic food contact also leaches [plastics-chemicals]; household dust also carries flame retardants. No study has tested whether air purifiers or vacuuming lower microplastic body burden.",
+   "caveats": "Pyrolysis GC/MS cannot cleanly separate polyethylene and PVC signals from fats and other tissue components; microscopy-based methods in the same tissues find only a handful of particles. No study has met all basic quality-control criteria. Cross-sectional autopsy data cannot show cause (dementia brains may simply clear less).",
+   "debate": "Tissue burden: Py-GC/MS studies report milligram-per-gram plastic in brain [env-nihart2025], hundreds of ug/g in testis [env-hu2024] and placenta [env-garcia2024]. Against this, a validation study concluded Py-GC/MS is currently unsuitable for polyethylene and PVC in biological samples because of matrix interference [env-rauert2025]; lipid interference forces much higher polyethylene detection limits [env-almeida2026]; a QA/QC screen of 101 human studies found none met all essential criteria [env-lane2026]; analytical chemists published correspondence on the brain study [env-amonikh2025]; the brain paper required a correction for duplicated images and methods [env-nihart2025b]; and a comment on the testis study listed missing blanks and validation, to which the authors replied by trimming their reliable polymer list from 12 to 6 [env-uppu2025, env-hu2025]. Microscopy finds far fewer particles: 16 particles in 15 olfactory bulbs [env-amatolourenco2024]. Cardiovascular: plaque polyethylene predicted events (HR 4.53) [env-marfella2024], but this was one observational cohort measuring exactly the polymers (PE, PVC) that Py-GC/MS struggles with [env-rauert2025], and several letters were published with an author reply [env-glazier2024, env-wang2024, env-kalkman2024, env-holda2024, env-marfella2024b]. Mechanism: animal reproductive studies mostly report harm, but most lacked particle characterization or dose-response [env-due2026]. Exposure counts are also disputed: the teabag study drew a published comment [env-busse2020].",
+   "key_numbers": [
+    {
+     "label": "Plaque-plastic hazard ratio for MI, stroke or death",
+     "value": 4.53,
+     "unit": "HR",
+     "source": "env-marfella2024"
+    },
+    {
+     "label": "Plastic particles in bottled water (90% nano)",
+     "value": 240000,
+     "unit": "particles/L",
+     "source": "env-qian2024"
+    },
+    {
+     "label": "Median brain plastic, 2024 decedents (Py-GC/MS)",
+     "value": 4917,
+     "unit": "ug/g",
+     "source": "env-nihart2025"
+    },
+    {
+     "label": "Human studies meeting all essential QA/QC criteria",
+     "value": 0,
+     "unit": "of 101",
+     "source": "env-lane2026"
+    }
+   ],
+   "refs": [
+    "env-leslie2022",
+    "env-garcia2024",
+    "env-hu2024",
+    "env-nihart2025",
+    "env-nihart2025b",
+    "env-amonikh2025",
+    "env-marfella2024",
+    "env-glazier2024",
+    "env-wang2024",
+    "env-kalkman2024",
+    "env-holda2024",
+    "env-marfella2024b",
+    "env-qian2024",
+    "env-rauert2025",
+    "env-almeida2026",
+    "env-lane2026",
+    "env-thomas2026",
+    "env-uppu2025",
+    "env-hu2025",
+    "env-hernandez2019",
+    "env-busse2020",
+    "env-hussain2023",
+    "env-lid2020",
+    "env-soltani2022",
+    "env-amatolourenco2024",
+    "env-schwabl2019",
+    "env-cox2019",
+    "env-due2026",
+    "env-hernandez2025",
+    "env-symeonides2024"
+   ]
+  },
+  {
+   "id": "pfas",
+   "name": "PFAS ('forever chemicals')",
+   "kind": "environment",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "PFAS stay in blood for years (half-lives 2.7-5.3 years) and are linked to weaker vaccine responses, higher cholesterol, lower birth weight and some cancers; NASEM advises testing likely-exposed people with extra screening above 2 and 20 ng/mL, and regular plasma or blood donation measurably lowered serum PFOS in an RCT.",
+   "dose": {
+    "effective": "If likely exposed (contaminated water, firefighting foam, PFAS work), ask for a serum test: NASEM sum of 7 PFAS <2 ng/mL = usual care; 2-20 ng/mL = cut exposure plus lipid screening; >20 ng/mL = also thyroid testing and kidney/testicular cancer and ulcerative colitis checks. Cut intake by treating contaminated tap water ([water-filtration]). To speed elimination: plasma donation every 6 weeks for 12 months lowered PFOS by 2.9 ng/mL (blood every 12 weeks: 1.1 ng/mL); prescription cholestyramine 4 g three times daily for 12 weeks lowered PFOS by 60% in highly exposed adults.",
+    "studied_range": "Donation RCT in firefighters with PFOS >=5 ng/mL; cholestyramine trials in residents with PFOS ~50-190 ng/mL.",
+    "too_much": "EFSA tolerable weekly intake: 4.4 ng/kg body weight per week for PFOA+PFNA+PFHxS+PFOS; NASEM serum sum >20 ng/mL = increased risk.",
+    "timeframe": "Years: after clean water was supplied, serum PFHxS, PFOS and PFOA fell only 13%, 20% and 26% per year.",
+    "notes": "Donate blood or plasma only if eligible and for its own sake; PFAS reduction is a side benefit. Bile-acid sequestrants have GI side effects and interfere with absorption of other drugs; trials are small and only in highly exposed people. Women eliminate some PFAS faster (menstruation, pregnancy, breastfeeding)."
+   },
+   "mechanism": "PFAS bind serum albumin and liver fatty-acid proteins, activate PPAR-alpha and other nuclear receptors, alter lipid and bile-acid handling, and in cells and animals raise ROS and modulate NF-kB and immune cell signalling. Human oxidative-stress marker data are mixed.",
+   "pathways": [
+    "endocrine",
+    "inflammation-nfkb",
+    "lipid-peroxidation",
+    "redox-signaling"
+   ],
+   "interactions": "Blood or plasma donation also lowers iron stores (relevant to [iron-excess]). Bile-acid sequestrants block enterohepatic recycling of PFAS. Shares food-contact and water routes with [plastics-chemicals].",
+   "caveats": "Most health links are observational; kidney function, menstruation, pregnancy and breastfeeding all change serum PFAS and can create reverse-causation artefacts. Elimination studies measure blood levels, not health outcomes.",
+   "debate": "Clinical relevance: NASEM concluded PFAS are linked to cancers, thyroid dysfunction, cholesterol changes and lower birth weight and set serum action levels [env-nasem2022]; EFSA based its intake limit on reduced vaccine antibodies in children [env-efsa2020, env-grandjean2012]. On cholesterol, a 2025 bias-focused meta-analysis found positive pooled links driven by cross-sectional studies, with longitudinal estimates near null [env-hussey2025]. Oxidative stress: PFOS tracked higher 8-isoprostane in pregnancy [env-siwakoti2024] and 8-OHdG in adults [env-lin2020], but a meta-analysis found PFAS-oxidative stress associations mostly inconsistent [env-chen2023]. Elimination: donation lowers PFOS [env-gasiorowski2022] and sequestrants lower it more [env-moller2024, env-andersson2025], but no study shows a health benefit, and the firefighter treatment-program data are uncontrolled [env-delaere2025]. A fibre trial hinted at falling long-chain PFAS but only in a secondary analysis [env-schlezinger2025].",
+   "key_numbers": [
+    {
+     "label": "PFOS half-life after exposure stops",
+     "value": 3.4,
+     "unit": "years",
+     "source": "env-li2018"
+    },
+    {
+     "label": "PFHxS half-life",
+     "value": 5.3,
+     "unit": "years",
+     "source": "env-li2018"
+    },
+    {
+     "label": "PFOS fall with 12 months of plasma donation",
+     "value": 2.9,
+     "unit": "ng/mL",
+     "source": "env-gasiorowski2022"
+    },
+    {
+     "label": "PFOS fall with 12 weeks of cholestyramine",
+     "value": 60,
+     "unit": "%",
+     "source": "env-moller2024"
+    },
+    {
+     "label": "Lower child vaccine antibodies per doubling of PFAS",
+     "value": 49,
+     "unit": "%",
+     "source": "env-grandjean2012"
+    }
+   ],
+   "refs": [
+    "env-nasem2022",
+    "env-efsa2020",
+    "env-grandjean2012",
+    "env-ehrlich2023",
+    "env-hussey2025",
+    "env-siwakoti2024",
+    "env-lin2020",
+    "env-chen2023",
+    "env-gasiorowski2022",
+    "env-moller2024",
+    "env-andersson2025",
+    "env-delaere2025",
+    "env-schlezinger2025",
+    "env-li2018",
+    "env-symeonides2024"
+   ]
+  },
+  {
+   "id": "water-filtration",
+   "name": "Home water filtration (reverse osmosis, activated carbon)",
+   "kind": "environment",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Where tap water carries PFAS, reverse-osmosis and well-maintained carbon filters remove much of it and home-filter users in a contaminated county had lower serum PFAS, but real-world filter testing is thin, short-chain PFAS slip through more easily, and there is no human evidence that filtering changes microplastic body burden.",
+   "dose": {
+    "effective": "Most worthwhile when local water reports show PFAS, especially in the ~10-100 ng/L range or above (where water clearly raises blood levels, most consistently PFHxS). Options: under-sink reverse osmosis, or a carbon-block filter certified for PFOA/PFOS reduction; change cartridges on schedule.",
+    "studied_range": "Lab and certification tests of point-of-use devices; only five real-life tap studies; observational serum comparisons.",
+    "too_much": null,
+    "timeframe": "Serum PFAS falls slowly after exposure stops (roughly 13-26% per year for PFHxS, PFOS, PFOA).",
+    "notes": "Neglected activated-carbon cartridges can release captured PFAS back into water. Below ~10 ng/L the benefit for blood levels is uncertain. Filtering does not affect PFAS from food or consumer products."
+   },
+   "mechanism": "Reduces intake rather than acting on oxidative stress directly: activated carbon adsorbs long-chain PFAS, ion-exchange resins bind anionic PFAS, and reverse osmosis membranes reject most PFAS molecules.",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "Pairs with [pfas] serum testing; the elimination side (donation, sequestrants) is covered there. For bottled water vs tap and plastics see [microplastics].",
+   "caveats": "Serum benefit is shown only by observational comparisons in a heavily contaminated area. Device performance varies by product, PFAS chain length and maintenance.",
+   "debate": "Benefit size depends on water levels: a 2026 evidence summary found clear water-to-blood links at 10-100 ng/L but inconsistent ones below ~10 ng/L [env-tefera2026], whereas a California study found detectable PFAS in general public supplies raised serum PFHxS ~80% [env-fillman2026]. Filters: home-filter users had lower serum PFAS [env-cuffney2023], and stopping contaminated water lowers serum over years [env-li2018], but a review warns real-world performance is poorly characterized and short-chain PFAS are harder to remove [env-mackeown2024].",
+   "key_numbers": [
+    {
+     "label": "Higher serum PFHxS with PFAS detected in treated public water",
+     "value": 80,
+     "unit": "%",
+     "source": "env-fillman2026"
+    },
+    {
+     "label": "Real-life studies of point-of-use PFAS removal",
+     "value": 5,
+     "unit": "studies",
+     "source": "env-mackeown2024"
+    }
+   ],
+   "refs": [
+    "env-mackeown2024",
+    "env-cuffney2023",
+    "env-tefera2026",
+    "env-fillman2026",
+    "env-li2018",
+    "env-qian2024",
+    "env-cox2019"
    ]
   }
  ],
@@ -4771,6 +5247,1146 @@
    "type": "cross-sectional",
    "n": "587 male students",
    "finding": "Men with low physical activity had 23% lower total sperm count."
+  },
+  {
+   "id": "skb-castanedo2014",
+   "authors": "Castanedo-Cazares JP, Hernandez-Blanco D, Carlos-Ortega B, et al.",
+   "year": 2014,
+   "title": "Near-visible light and UV photoprotection in the treatment of melasma: a double-blind randomized trial.",
+   "journal": "Photodermatol Photoimmunol Photomed",
+   "pmid": "24313385",
+   "doi": "10.1111/phpp.12086",
+   "type": "rct",
+   "n": "68 patients with melasma",
+   "finding": "Adding iron oxide (visible-light-blocking) to an SPF 50+ sunscreen improved melasma severity scores by 15% and colorimetry by 28% more than UV-only sunscreen over 8 weeks with hydroquinone."
+  },
+  {
+   "id": "skb-correia2023",
+   "authors": "Correia G, Magina S",
+   "year": 2023,
+   "title": "Efficacy of topical vitamin C in melasma and photoaging: A systematic review.",
+   "journal": "J Cosmet Dermatol",
+   "pmid": "37128827",
+   "doi": "10.1111/jocd.15748",
+   "type": "review",
+   "n": "7 RCTs, 139 volunteers",
+   "finding": "Systematic review of randomized trials: topical vitamin C smoothed wrinkled skin and lightened pigmentation, but all studies were small and long-term use may be needed for visible change."
+  },
+  {
+   "id": "skb-dedormael2019",
+   "authors": "De Dormael R, Bastien P, Sextius P, et al.",
+   "year": 2019,
+   "title": "Vitamin C Prevents Ultraviolet-induced Pigmentation in Healthy Volunteers: Bayesian Meta-analysis Results from 31 Randomized Controlled versus Vehicle Clinical Studies.",
+   "journal": "J Clin Aesthet Dermatol",
+   "pmid": "30881584",
+   "doi": null,
+   "type": "meta-analysis",
+   "n": "31 in-house RCTs, 741 volunteers",
+   "finding": "A Bayesian pooling of 31 intra-individual vehicle-controlled studies run by L'Oreal found topical vitamin C reduced UV-induced pigmentation dose-dependently but did not speed depigmentation afterwards."
+  },
+  {
+   "id": "skb-diffey2016",
+   "authors": "Diffey B, Cadars B",
+   "year": 2016,
+   "title": "An appraisal of the need for infrared radiation protection in sunscreens.",
+   "journal": "Photochem Photobiol Sci",
+   "pmid": "26846677",
+   "doi": "10.1039/c5pp00451a",
+   "type": "review",
+   "n": null,
+   "finding": "Annual solar IR-A doses are comparable to those of furnace workers who show little chronic skin damage, so there is no compelling evidence that solar IR causes observable skin harm and IR-protection claims in sunscreens are premature."
+  },
+  {
+   "id": "skb-fisher1997",
+   "authors": "Fisher GJ, Wang ZQ, Datta SC, et al.",
+   "year": 1997,
+   "title": "Pathophysiology of premature skin aging induced by ultraviolet light.",
+   "journal": "N Engl J Med",
+   "pmid": "9358139",
+   "doi": "10.1056/NEJM199711133372003",
+   "type": "mechanistic",
+   "n": "59 adults (biopsy studies)",
+   "finding": "A single UV exposure induced collagenase, gelatinase and stromelysin in human skin and raised collagen breakdown by 58%; repeated exposures kept MMP activity elevated for 7 days, and tretinoin pretreatment blocked MMP induction by 70-80%."
+  },
+  {
+   "id": "skb-green1999",
+   "authors": "Green A, Williams G, Neale R, et al.",
+   "year": 1999,
+   "title": "Daily sunscreen application and betacarotene supplementation in prevention of basal-cell and squamous-cell carcinomas of the skin: a randomised controlled trial.",
+   "journal": "Lancet",
+   "pmid": "10475183",
+   "doi": "10.1016/S0140-6736(98)12168-2",
+   "type": "rct",
+   "n": "1621 adults",
+   "finding": "Daily SPF 15+ sunscreen for 4.5 years did not change the number of people developing basal- or squamous-cell carcinoma, but cut the number of squamous-cell tumours by 39% (rate ratio 0.61); 30 mg/day beta-carotene had no effect on either cancer."
+  },
+  {
+   "id": "skb-green2011",
+   "authors": "Green AC, Williams GM, Logan V, et al.",
+   "year": 2011,
+   "title": "Reduced melanoma after regular sunscreen use: randomized trial follow-up.",
+   "journal": "J Clin Oncol",
+   "pmid": "21135266",
+   "doi": "10.1200/JCO.2010.28.7078",
+   "type": "rct",
+   "n": "1621 adults",
+   "finding": "Ten years after the 4.5-year Nambour trial ended, 11 primary melanomas occurred in the daily-sunscreen group vs 22 in the discretionary group (HR 0.50, 95% CI 0.24-1.02, P=0.051); invasive melanomas 3 vs 11 (HR 0.27)."
+  },
+  {
+   "id": "skb-gretherbeck2015",
+   "authors": "Grether-Beck S, Marini A, Jaenicke T, et al.",
+   "year": 2015,
+   "title": "Effective photoprotection of human skin against infrared A radiation by topically applied antioxidants: results from a vehicle controlled, double-blind, randomized study.",
+   "journal": "Photochem Photobiol",
+   "pmid": "25349107",
+   "doi": "10.1111/php.12375",
+   "type": "rct",
+   "n": "30 adults",
+   "finding": "SPF 30 sunscreen plus an antioxidant cocktail (grape seed extract, vitamin E, ubiquinone, vitamin C) reduced IR-A-induced MMP-1 in human skin, whereas the same sunscreen alone did not; the outcome was a molecular marker, not visible aging."
+  },
+  {
+   "id": "skb-guyuron2009",
+   "authors": "Guyuron B, Rowe DJ, Weinfeld AB, et al.",
+   "year": 2009,
+   "title": "Factors contributing to the facial aging of identical twins.",
+   "journal": "Plast Reconstr Surg",
+   "pmid": "19337100",
+   "doi": "10.1097/PRS.0b013e31819c4d42",
+   "type": "cross-sectional",
+   "n": "186 identical twin pairs",
+   "finding": "Within identical twin pairs, longer smoking, more sun exposure and lack of sunscreen were associated with an older appearance; heavier weight looked older before 40 but younger after 40."
+  },
+  {
+   "id": "skb-hercberg2007",
+   "authors": "Hercberg S, Ezzedine K, Guinot C, et al.",
+   "year": 2007,
+   "title": "Antioxidant supplementation increases the risk of skin cancers in women but not in men.",
+   "journal": "J Nutr",
+   "pmid": "17709449",
+   "doi": "10.1093/jn/137.9.2098",
+   "type": "rct",
+   "n": "13,017 adults",
+   "finding": "SU.VI.MAX: a nutritional-dose antioxidant capsule (vitamin C, E, beta-carotene, selenium, zinc) for 7.5 years raised skin-cancer incidence in women (HR 1.68) and melanoma (HR 4.31, few cases), with no significant effect in men."
+  },
+  {
+   "id": "skb-hughes2013",
+   "authors": "Hughes MC, Williams GM, Baker P, et al.",
+   "year": 2013,
+   "title": "Sunscreen and prevention of skin aging: a randomized trial.",
+   "journal": "Ann Intern Med",
+   "pmid": "23732711",
+   "doi": "10.7326/0003-4819-158-11-201306040-00002",
+   "type": "rct",
+   "n": "903 adults under 55",
+   "finding": "Over 4.5 years, daily broad-spectrum sunscreen users showed no detectable increase in skin aging and 24% less photoaging than discretionary users (relative odds 0.76, 95% CI 0.59-0.98); 30 mg/day beta-carotene had no overall effect."
+  },
+  {
+   "id": "skb-humbert2003",
+   "authors": "Humbert PG, Haftek M, Creidi P, et al.",
+   "year": 2003,
+   "title": "Topical ascorbic acid on photoaged skin. Clinical, topographical and ultrastructural evaluation: double-blind study vs. placebo.",
+   "journal": "Exp Dermatol",
+   "pmid": "12823436",
+   "doi": "10.1034/j.1600-0625.2003.00008.x",
+   "type": "rct",
+   "n": "healthy women with photoaged skin",
+   "finding": "In a 6-month double-blind trial, 5% vitamin C cream improved clinical global scores, skin microrelief and deep furrows versus its vehicle, with ultrastructural evidence of elastic-tissue repair."
+  },
+  {
+   "id": "skb-kafi2007",
+   "authors": "Kafi R, Kwak HS, Schumacher WE, et al.",
+   "year": 2007,
+   "title": "Improvement of naturally aged skin with vitamin A (retinol).",
+   "journal": "Arch Dermatol",
+   "pmid": "17515510",
+   "doi": "10.1001/archderm.143.5.606",
+   "type": "rct",
+   "n": "36 elderly adults (mean age 87)",
+   "finding": "0.4% retinol applied up to 3 times weekly for 24 weeks reduced fine wrinkling versus vehicle and increased glycosaminoglycans and procollagen I in biopsies."
+  },
+  {
+   "id": "skb-liebel2012",
+   "authors": "Liebel F, Kaur S, Ruvolo E, et al.",
+   "year": 2012,
+   "title": "Irradiation of skin with visible light induces reactive oxygen species and matrix-degrading enzymes.",
+   "journal": "J Invest Dermatol",
+   "pmid": "22318388",
+   "doi": "10.1038/jid.2011.476",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Visible light (400-700 nm) induced ROS, pro-inflammatory cytokines and MMP-1 in skin equivalents and free-radical activity in human skin; standard UVA/UVB sunscreens barely reduced this, while a sunscreen with an antioxidant combination did (Johnson & Johnson authors)."
+  },
+  {
+   "id": "skb-lin2003",
+   "authors": "Lin JY, Selim MA, Shea CR, et al.",
+   "year": 2003,
+   "title": "UV photoprotection by combination topical antioxidants vitamin C and vitamin E.",
+   "journal": "J Am Acad Dermatol",
+   "pmid": "12789176",
+   "doi": "10.1067/mjd.2003.425",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In pig skin, 15% L-ascorbic acid plus 1% alpha-tocopherol applied for 4 days gave a 4-fold protection against UV erythema and sunburn cells, better than either vitamin alone, and reduced thymine dimers."
+  },
+  {
+   "id": "skb-lin2005",
+   "authors": "Lin FH, Lin JY, Gupta RD, et al.",
+   "year": 2005,
+   "title": "Ferulic acid stabilizes a solution of vitamins C and E and doubles its photoprotection of skin.",
+   "journal": "J Invest Dermatol",
+   "pmid": "16185284",
+   "doi": "10.1111/j.0022-202X.2005.23768.x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Adding ferulic acid to 15% L-ascorbic acid plus 1% alpha-tocopherol improved the solution's chemical stability and doubled its photoprotection of (pig) skin from about 4-fold to about 8-fold, also reducing thymine dimers."
+  },
+  {
+   "id": "skb-loureiro2005",
+   "authors": "Loureiro KD, Kao KK, Jones KL, et al.",
+   "year": 2005,
+   "title": "Minor malformations characteristic of the retinoic acid embryopathy and other birth outcomes in children of women exposed to topical tretinoin during early pregnancy.",
+   "journal": "Am J Med Genet A",
+   "pmid": "15940677",
+   "doi": "10.1002/ajmg.a.30744",
+   "type": "cohort",
+   "n": "106 exposed vs 389 unexposed pregnancies",
+   "finding": "First-trimester exposure to topical tretinoin was not associated with more miscarriage, major birth defects, or the minor malformations typical of retinoic-acid embryopathy."
+  },
+  {
+   "id": "skb-matta2020",
+   "authors": "Matta MK, Florian J, Zusterzeel R, et al.",
+   "year": 2020,
+   "title": "Effect of Sunscreen Application on Plasma Concentration of Sunscreen Active Ingredients: A Randomized Clinical Trial.",
+   "journal": "JAMA",
+   "pmid": "31961417",
+   "doi": "10.1001/jama.2019.20747",
+   "type": "rct",
+   "n": "48 adults",
+   "finding": "All six common organic sunscreen filters exceeded the FDA 0.5 ng/mL systemic-absorption threshold after a single application; the clinical significance is unknown and the authors did not advise against sunscreen."
+  },
+  {
+   "id": "skb-mouret2006",
+   "authors": "Mouret S, Baudouin C, Charveron M, et al.",
+   "year": 2006,
+   "title": "Cyclobutane pyrimidine dimers are predominant DNA lesions in whole human skin exposed to UVA radiation.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "16954188",
+   "doi": "10.1073/pnas.0604213103",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In whole human skin, UVA produced cyclobutane pyrimidine dimers in larger amounts than the oxidative lesion 8-oxo-dG, and UVA-induced dimers were repaired more slowly than UVB-induced ones; skin protected keratinocytes well against UVB but weakly against UVA."
+  },
+  {
+   "id": "skb-passeron2019",
+   "authors": "Passeron T, Bouillon R, Callender V, et al.",
+   "year": 2019,
+   "title": "Sunscreen photoprotection and vitamin D status.",
+   "journal": "Br J Dermatol",
+   "pmid": "31069788",
+   "doi": "10.1111/bjd.17992",
+   "type": "review",
+   "n": null,
+   "finding": "International expert consensus (including industry scientists): broad-spectrum sunscreens that prevent sunburn are unlikely to compromise vitamin D status in healthy people; at-risk groups should be screened and supplemented."
+  },
+  {
+   "id": "skb-pinnell2001",
+   "authors": "Pinnell SR, Yang H, Omar M, et al.",
+   "year": 2001,
+   "title": "Topical L-ascorbic acid: percutaneous absorption studies.",
+   "journal": "Dermatol Surg",
+   "pmid": "11207686",
+   "doi": "10.1046/j.1524-4725.2001.00264.x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In pig skin, L-ascorbic acid only penetrated when formulated at pH below 3.5, absorption peaked at 20% concentration, tissue levels saturated after 3 daily applications with a ~4-day half-life, and common derivatives did not raise skin vitamin C."
+  },
+  {
+   "id": "skb-rueegg2019",
+   "authors": "Rueegg CS, Stenehjem JS, Egger M, et al.",
+   "year": 2019,
+   "title": "Challenges in assessing the sunscreen-melanoma association.",
+   "journal": "Int J Cancer",
+   "pmid": "30447006",
+   "doi": "10.1002/ijc.31997",
+   "type": "meta-analysis",
+   "n": "28 studies, 21,069 melanoma cases",
+   "finding": "Sunscreen-melanoma associations varied by design; adjusting for sun exposure, sunburn and phenotype consistently moved estimates toward protection, and the RCT showed HR 0.49, while cohort studies showed positive associations likely due to confounding."
+  },
+  {
+   "id": "skb-schroeder2008",
+   "authors": "Schroeder P, Lademann J, Darvin ME, et al.",
+   "year": 2008,
+   "title": "Infrared radiation-induced matrix metalloproteinase in human skin: implications for protection.",
+   "journal": "J Invest Dermatol",
+   "pmid": "18449210",
+   "doi": "10.1038/jid.2008.116",
+   "type": "mechanistic",
+   "n": "healthy volunteers (in vivo irradiation)",
+   "finding": "Physiological doses of near-infrared (IR-A) raised dermal MMP-1 in 80% of people and lowered skin antioxidant content; topical antioxidants prevented the MMP-1 rise, a mitochondrial ROS-mediated response."
+  },
+  {
+   "id": "skb-silva2018",
+   "authors": "Silva ESD, Tavares R, Paulitsch FDS, et al.",
+   "year": 2018,
+   "title": "Use of sunscreen and risk of melanoma and non-melanoma skin cancer: a systematic review and meta-analysis.",
+   "journal": "Eur J Dermatol",
+   "pmid": "29620003",
+   "doi": "10.1684/ejd.2018.3251",
+   "type": "meta-analysis",
+   "n": "29 studies, 313,717 participants",
+   "finding": "Mostly case-control studies showed no association between sunscreen use and melanoma (OR 1.10) or non-melanoma skin cancer (OR 0.99); early studies' positive associations faded over time."
+  },
+  {
+   "id": "skb-vierkotter2010",
+   "authors": "Vierkötter A, Schikowski T, Ranft U, et al.",
+   "year": 2010,
+   "title": "Airborne particle exposure and extrinsic skin aging.",
+   "journal": "J Invest Dermatol",
+   "pmid": "20664556",
+   "doi": "10.1038/jid.2010.204",
+   "type": "cohort",
+   "n": "400 women aged 70-80",
+   "finding": "Higher traffic-related soot and particle exposure at home was associated with about 20% more pigment spots on the face and, less strongly, more wrinkles."
+  },
+  {
+   "id": "skb-weinstock2009",
+   "authors": "Weinstock MA, Bingham SF, Lew RA, et al.",
+   "year": 2009,
+   "title": "Topical tretinoin therapy and all-cause mortality.",
+   "journal": "Arch Dermatol",
+   "pmid": "19153339",
+   "doi": "10.1001/archdermatol.2008.542",
+   "type": "rct",
+   "n": "1131 veterans",
+   "finding": "The VATTC trial was stopped 6 months early because of excess deaths in the tretinoin group; the difference persisted after adjustment, but the investigators judged a causal effect unlikely."
+  },
+  {
+   "id": "skb-weinstock2012",
+   "authors": "Weinstock MA, Bingham SF, Digiovanna JJ, et al.",
+   "year": 2012,
+   "title": "Tretinoin and the prevention of keratinocyte carcinoma (Basal and squamous cell carcinoma of the skin): a veterans affairs randomized chemoprevention trial.",
+   "journal": "J Invest Dermatol",
+   "pmid": "22318383",
+   "doi": "10.1038/jid.2011.483",
+   "type": "rct",
+   "n": "1131 veterans",
+   "finding": "VATTC: high-dose topical tretinoin 0.1% for 1.5-5.5 years did not reduce basal-cell (53% vs 54% at 5 years) or squamous-cell carcinoma (28% vs 31%) or actinic keratoses in high-risk veterans."
+  },
+  {
+   "id": "skb-weiss1988",
+   "authors": "Weiss JS, Ellis CN, Headington JT, et al.",
+   "year": 1988,
+   "title": "Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled study.",
+   "journal": "JAMA",
+   "pmid": "3336176",
+   "doi": null,
+   "type": "rct",
+   "n": "30 adults",
+   "finding": "Tretinoin cream improved photoaging on all treated forearms and 14 of 15 treated faces over 16 weeks, versus no improvement on vehicle-treated faces; irritation was the main side effect."
+  },
+  {
+   "id": "env-almeida2026",
+   "authors": "Almeida FN, Leray C, Albignac M, et al.",
+   "year": 2026,
+   "title": "Py-GC-MS/MS quantification of microplastics in vertebrate tissues: Addressing false positives of polyethylene.",
+   "journal": "J Hazard Mater",
+   "pmid": "41352016",
+   "doi": "10.1016/j.jhazmat.2025.140658",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Lipids interfere with polyethylene quantification by Py-GC/MS; using longer-chain markers to avoid false positives raised the polyethylene quantification limit to 50 ug/g."
+  },
+  {
+   "id": "env-amatolourenco2024",
+   "authors": "Amato-Lourenço LF, Dantas KC, Júnior GR, et al.",
+   "year": 2024,
+   "title": "Microplastics in the Olfactory Bulb of the Human Brain.",
+   "journal": "JAMA Netw Open",
+   "pmid": "39283733",
+   "doi": "10.1001/jamanetworkopen.2024.40018",
+   "type": "cross-sectional",
+   "n": "15 decedents",
+   "finding": "Micro-FTIR found 16 microplastic particles and fibres (5.5-26 um, mostly polypropylene) in the olfactory bulbs of 8 of 15 decedents, with clean procedural blanks."
+  },
+  {
+   "id": "env-amonikh2025",
+   "authors": "A Monikh F, Materić D, Valsami-Jones E, et al.",
+   "year": 2025,
+   "title": "Challenges in studying microplastics in human brain.",
+   "journal": "Nat Med",
+   "pmid": "41233597",
+   "doi": "10.1038/s41591-025-04045-3",
+   "type": "review",
+   "n": null,
+   "finding": "Correspondence from microplastic analytical chemists in Nature Medicine setting out the challenges of measuring microplastics in human brain, in response to the Nihart study."
+  },
+  {
+   "id": "env-andersson2025",
+   "authors": "Andersson AG, Xu Y, Kärrman A, et al.",
+   "year": 2025,
+   "title": "Serum, urinary and fecal concentrations of perfluoroalkyl substances after interventions with cholestyramine/colesevelam and probenecid - cross-over trials in Ronneby, Sweden.",
+   "journal": "Environ Int",
+   "pmid": "40974835",
+   "doi": "10.1016/j.envint.2025.109794",
+   "type": "rct",
+   "n": "10 adults (crossover)",
+   "finding": "Bile acid sequestrants raised faecal PFOS excretion 23-fold; 12 weeks of colesevelam lowered serum PFOS by 38% versus 2% in the control period; probenecid did not help."
+  },
+  {
+   "id": "env-blaauwendraad2025",
+   "authors": "Blaauwendraad SM, Boxem AJ, Gaillard R, et al.",
+   "year": 2025,
+   "title": "Periconception bisphenol and phthalate concentrations in women and men, time to pregnancy, and risk of miscarriage.",
+   "journal": "Environ Res",
+   "pmid": "40311909",
+   "doi": "10.1016/j.envres.2025.121712",
+   "type": "cohort",
+   "n": "938 women preconception; 1366 women and 1202 men in early pregnancy",
+   "finding": "BPS in women was linked to longer time to pregnancy, but several phthalate metabolites were linked to shorter time to pregnancy; authors call the findings hypothesis-generating."
+  },
+  {
+   "id": "env-busse2020",
+   "authors": "Busse K, Ebner I, Humpf HU, et al.",
+   "year": 2020,
+   "title": "Comment on \"Plastic Teabags Release Billions of Microparticles and Nanoparticles into Tea\".",
+   "journal": "Environ Sci Technol",
+   "pmid": "33052042",
+   "doi": "10.1021/acs.est.0c03182",
+   "type": "review",
+   "n": null,
+   "finding": "Published comment challenging the Hernandez 2019 teabag particle findings (followed by an author response)."
+  },
+  {
+   "id": "env-carwile2009",
+   "authors": "Carwile JL, Luu HT, Bassett LS, et al.",
+   "year": 2009,
+   "title": "Polycarbonate bottle use and urinary bisphenol A concentrations.",
+   "journal": "Environ Health Perspect",
+   "pmid": "19750099",
+   "doi": "10.1289/ehp.0900604",
+   "type": "cohort",
+   "n": "77 students",
+   "finding": "One week of drinking cold beverages from polycarbonate bottles raised urinary BPA by 69%."
+  },
+  {
+   "id": "env-carwile2011",
+   "authors": "Carwile JL, Ye X, Zhou X, et al.",
+   "year": 2011,
+   "title": "Canned soup consumption and urinary bisphenol A: a randomized crossover trial.",
+   "journal": "JAMA",
+   "pmid": "22110104",
+   "doi": "10.1001/jama.2011.1721",
+   "type": "rct",
+   "n": "75 adults (crossover)",
+   "finding": "One serving of canned soup daily for 5 days raised urinary BPA from 1.1 to 20.8 ug/L (about 1,200%) versus fresh soup."
+  },
+  {
+   "id": "env-castellini2022",
+   "authors": "Castellini C, Muselli M, Parisi A, et al.",
+   "year": 2022,
+   "title": "Association between urinary bisphenol A concentrations and semen quality: A meta-analytic study.",
+   "journal": "Biochem Pharmacol",
+   "pmid": "34968490",
+   "doi": "10.1016/j.bcp.2021.114896",
+   "type": "meta-analysis",
+   "n": "9 studies, 2399 men",
+   "finding": "Urinary BPA was only weakly associated with lower sperm motility, and the association disappeared after correction for publication bias; authors judged it clinically negligible."
+  },
+  {
+   "id": "env-charifson2024",
+   "authors": "Charifson M, Seok E, Wang Y, et al.",
+   "year": 2024,
+   "title": "Evaluating associations of bisphenol and phthalate exposure with time to pregnancy and subfecundity in a New York City pregnancy cohort.",
+   "journal": "Environ Pollut",
+   "pmid": "38830524",
+   "doi": "10.1016/j.envpol.2024.124281",
+   "type": "cohort",
+   "n": "NYC pregnancy cohort",
+   "finding": "Total bisphenol exposure and some phthalate groups were associated with longer time to pregnancy and higher odds of subfecundity, unlike most earlier null studies."
+  },
+  {
+   "id": "env-chen2023",
+   "authors": "Chen JC, Baumert BO, Li Y, et al.",
+   "year": 2023,
+   "title": "Associations of per- and polyfluoroalkyl substances, polychlorinated biphenyls, organochlorine pesticides, and polybrominated diphenyl ethers with oxidative stress markers: A systematic review and meta-analysis.",
+   "journal": "Environ Res",
+   "pmid": "37813138",
+   "doi": "10.1016/j.envres.2023.117308",
+   "type": "meta-analysis",
+   "n": "129 studies (49 on PFAS)",
+   "finding": "Across persistent pollutants, organochlorine pesticides showed consistent links with oxidative stress markers, but PFAS associations were mostly inconsistent."
+  },
+  {
+   "id": "env-cox2019",
+   "authors": "Cox KD, Covernton GA, Davies HL, et al.",
+   "year": 2019,
+   "title": "Human Consumption of Microplastics.",
+   "journal": "Environ Sci Technol",
+   "pmid": "31184127",
+   "doi": "10.1021/acs.est.9b01517",
+   "type": "review",
+   "n": "402 data points from 26 studies",
+   "finding": "Estimated US intake of 39,000-52,000 microplastic particles per year from food (74,000-121,000 with inhalation); bottled-water-only drinkers may ingest ~90,000 extra particles per year versus ~4,000 for tap."
+  },
+  {
+   "id": "env-cuffney2023",
+   "authors": "Cuffney M, Wilkie AA, Kotlarz N, et al.",
+   "year": 2023,
+   "title": "Factors associated with per- and polyfluoroalkyl substances (PFAS) serum concentrations in residents of New Hanover County, North Carolina: The GenX exposure study.",
+   "journal": "Environ Res",
+   "pmid": "37673120",
+   "doi": "10.1016/j.envres.2023.117020",
+   "type": "cross-sectional",
+   "n": "335 residents of a PFAS-contaminated county",
+   "finding": "Drinking municipal water treated with a home filter was associated with lower serum levels of all seven PFAS measured versus unfiltered tap water."
+  },
+  {
+   "id": "env-delaere2025",
+   "authors": "Delaere I, Harris K, Gaskin S, et al.",
+   "year": 2025,
+   "title": "Changes in serum perfluorooctane sulfonic acid and perfluorohexane sulfonic acid concentrations in firefighters accessing a voluntary perfluoroalkyl and polyfluoroalkyl substances reduction treatment program.",
+   "journal": "Environ Int",
+   "pmid": "40540942",
+   "doi": "10.1016/j.envint.2025.109609",
+   "type": "cohort",
+   "n": "28 firefighters (19 treated)",
+   "finding": "Firefighters using plasma donation and/or cholestyramine showed faster PFOS decline (apparent half-life 1.2 vs 7.3 years) than untreated colleagues; small, non-randomized, no statistical testing."
+  },
+  {
+   "id": "env-denbraversewradj2020",
+   "authors": "den Braver-Sewradj SP, van Spronsen R, Hessel EVS",
+   "year": 2020,
+   "title": "Substitution of bisphenol A: a review of the carcinogenicity, reproductive toxicity, and endocrine disruption potential of alternative substances.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "32031044",
+   "doi": "10.1080/10408444.2019.1701986",
+   "type": "review",
+   "n": "20 prioritized BPA alternatives",
+   "finding": "Data for BPS, BPAF and to a lesser extent BPF indicate a reproductive-toxicity hazard with a possible endocrine mode of action; for most alternatives data are very limited or absent."
+  },
+  {
+   "id": "env-due2026",
+   "authors": "Due I, Rubio L, Catalán J, et al.",
+   "year": 2026,
+   "title": "Mammalian reproductive and developmental toxicity of micro- and nanoplastics: a critical appraisal of evidence using the SciRAP tool.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "42621756",
+   "doi": "10.1080/10408444.2026.2686289",
+   "type": "review",
+   "n": "102 animal studies",
+   "finding": "Systematic appraisal of in vivo mammalian micro/nanoplastic reproductive studies: many report harm to testis, ovary and gametes, but particle characterization, dose and dose-response were often missing."
+  },
+  {
+   "id": "env-efsa2020",
+   "authors": "EFSA Panel on Contaminants in the Food Chain (EFSA CONTAM Panel); Schrenk D, Bignami M, et al.",
+   "year": 2020,
+   "title": "Risk to human health related to the presence of perfluoroalkyl substances in food.",
+   "journal": "EFSA J",
+   "pmid": "32994824",
+   "doi": "10.2903/j.efsa.2020.6223",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA set a tolerable weekly intake of 4.4 ng/kg body weight for the sum of PFOA, PFNA, PFHxS and PFOS, based on reduced vaccine antibody responses in children, and noted parts of the European population exceed it."
+  },
+  {
+   "id": "env-efsa2023",
+   "authors": "EFSA Panel on Food Contact Materials, Enzymes and Processing Aids (CEP); Lambré C, Barat Baviera JM, et al.",
+   "year": 2023,
+   "title": "Re-evaluation of the risks to public health related to the presence of bisphenol A (BPA) in foodstuffs.",
+   "journal": "EFSA J",
+   "pmid": "37089179",
+   "doi": "10.2903/j.efsa.2023.6857",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA lowered the BPA tolerable daily intake from 4 ug/kg to 0.2 ng/kg body weight per day (20,000-fold), based on immune (Th17) effects in mice, and concluded that average dietary exposure exceeds it by two to three orders of magnitude."
+  },
+  {
+   "id": "env-ehrlich2023",
+   "authors": "Ehrlich V, Bil W, Vandebriel R, et al.",
+   "year": 2023,
+   "title": "Consideration of pathways for immunotoxicity of per- and polyfluoroalkyl substances (PFAS).",
+   "journal": "Environ Health",
+   "pmid": "36814257",
+   "doi": "10.1186/s12940-022-00958-5",
+   "type": "review",
+   "n": null,
+   "finding": "Review of PFAS immunotoxicity: substantial experimental and epidemiological evidence that several PFAS affect immune function, via NF-kB/PPAR signalling, calcium signalling and oxidative stress among other pathways."
+  },
+  {
+   "id": "env-ferguson2015",
+   "authors": "Ferguson KK, McElrath TF, Chen YH, et al.",
+   "year": 2015,
+   "title": "Urinary phthalate metabolites and biomarkers of oxidative stress in pregnant women: a repeated measures analysis.",
+   "journal": "Environ Health Perspect",
+   "pmid": "25402001",
+   "doi": "10.1289/ehp.1307996",
+   "type": "case-control",
+   "n": "482 pregnant women",
+   "finding": "IQR increases in urinary phthalate metabolites were associated with higher urinary 8-OHdG and 8-isoprostane across repeated measures in pregnancy."
+  },
+  {
+   "id": "env-fillman2026",
+   "authors": "Fillman T, Coffin S, Ta B, et al.",
+   "year": 2026,
+   "title": "Associations between PFAS in public water system drinking water and serum among Southern California adults.",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "41168418",
+   "doi": "10.1038/s41370-025-00817-8",
+   "type": "cross-sectional",
+   "n": "563 Southern California adults",
+   "finding": "People whose public water had detectable PFAS had higher serum PFAS (e.g., PFHxS +80%, PFOA +30%, PFOS +31% with treated-water detections)."
+  },
+  {
+   "id": "env-garcia2024",
+   "authors": "Garcia MA, Liu R, Nihart A, et al.",
+   "year": 2024,
+   "title": "Quantitation and identification of microplastics accumulation in human placental specimens using pyrolysis gas chromatography mass spectrometry.",
+   "journal": "Toxicol Sci",
+   "pmid": "38366932",
+   "doi": "10.1093/toxsci/kfae021",
+   "type": "cross-sectional",
+   "n": "62 placentas",
+   "finding": "Py-GC/MS found microplastics in all 62 placentas (6.5-685 ug/g, mean 127 ug/g), mostly polyethylene, while microscopy and FTIR on a subset saw particles >1 um but no nanoplastics."
+  },
+  {
+   "id": "env-gasiorowski2022",
+   "authors": "Gasiorowski R, Forbes MK, Silver G, et al.",
+   "year": 2022,
+   "title": "Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial.",
+   "journal": "JAMA Netw Open",
+   "pmid": "35394514",
+   "doi": "10.1001/jamanetworkopen.2022.6257",
+   "type": "rct",
+   "n": "285 Australian firefighters",
+   "finding": "Over 12 months, plasma donation every 6 weeks lowered serum PFOS by 2.9 ng/mL and PFHxS by 1.1 ng/mL, and blood donation every 12 weeks lowered PFOS by 1.1 ng/mL, versus no change with observation."
+  },
+  {
+   "id": "env-glazier2024",
+   "authors": "Glazier HA",
+   "year": 2024,
+   "title": "Microplastics and Nanoplastics in Atheromas.",
+   "journal": "N Engl J Med",
+   "pmid": "38718367",
+   "doi": "10.1056/NEJMc2404154",
+   "type": "review",
+   "n": null,
+   "finding": "Letter to the editor responding to Marfella 2024 (NEJM correspondence on microplastics in atheromas)."
+  },
+  {
+   "id": "env-grandjean2012",
+   "authors": "Grandjean P, Andersen EW, Budtz-Jørgensen E, et al.",
+   "year": 2012,
+   "title": "Serum vaccine antibody concentrations in children exposed to perfluorinated compounds.",
+   "journal": "JAMA",
+   "pmid": "22274686",
+   "doi": "10.1001/jama.2011.2034",
+   "type": "cohort",
+   "n": "587 Faroese children",
+   "finding": "A doubling of child serum PFAS at age 5 was associated with 49% lower overall tetanus/diphtheria antibody concentrations at age 7."
+  },
+  {
+   "id": "env-harley2016",
+   "authors": "Harley KG, Kogut K, Madrigal DS, et al.",
+   "year": 2016,
+   "title": "Reducing Phthalate, Paraben, and Phenol Exposure from Personal Care Products in Adolescent Girls: Findings from the HERMOSA Intervention Study.",
+   "journal": "Environ Health Perspect",
+   "pmid": "26947464",
+   "doi": "10.1289/ehp.1510514",
+   "type": "cohort",
+   "n": "100 adolescent girls",
+   "finding": "Three days of personal-care products labelled free of phthalates, parabens, triclosan and BP-3 lowered urinary MEP by 27%, methyl/propyl paraben by ~44% and triclosan and BP-3 by ~36%."
+  },
+  {
+   "id": "env-hernandez2019",
+   "authors": "Hernandez LM, Xu EG, Larsson HCE, et al.",
+   "year": 2019,
+   "title": "Plastic Teabags Release Billions of Microparticles and Nanoparticles into Tea.",
+   "journal": "Environ Sci Technol",
+   "pmid": "31552738",
+   "doi": "10.1021/acs.est.9b02540",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Steeping one plastic (nylon/PET) teabag at 95 C released about 11.6 billion microplastic and 3.1 billion nanoplastic particles into the cup."
+  },
+  {
+   "id": "env-hernandez2025",
+   "authors": "Hernández AF, Lacasaña M, Tsatsakis AM, et al.",
+   "year": 2025,
+   "title": "Cellular and Molecular Mechanisms of Micro- and Nanoplastics Driving Adverse Human Health Effects.",
+   "journal": "Toxics",
+   "pmid": "41304473",
+   "doi": "10.3390/toxics13110921",
+   "type": "review",
+   "n": null,
+   "finding": "Narrative review: oxidative stress, inflammation, barrier disruption and immune dysregulation are plausible mechanisms, but human data are limited to biomonitoring and animal studies use pristine particles at high doses."
+  },
+  {
+   "id": "env-holda2024",
+   "authors": "Holda MK, Batko J",
+   "year": 2024,
+   "title": "Microplastics and Nanoplastics in Atheromas.",
+   "journal": "N Engl J Med",
+   "pmid": "38718363",
+   "doi": "10.1056/NEJMc2404154",
+   "type": "review",
+   "n": null,
+   "finding": "Letter to the editor responding to Marfella 2024 (NEJM correspondence on microplastics in atheromas)."
+  },
+  {
+   "id": "env-hu2024",
+   "authors": "Hu CJ, Garcia MA, Nihart A, et al.",
+   "year": 2024,
+   "title": "Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis.",
+   "journal": "Toxicol Sci",
+   "pmid": "38745431",
+   "doi": "10.1093/toxsci/kfae060",
+   "type": "cross-sectional",
+   "n": "23 human and 47 dog testes",
+   "finding": "Pyrolysis-GC/MS reported microplastics in every testis (mean 328 ug/g in humans, 123 ug/g in dogs), mostly polyethylene; in dogs PVC and PET levels correlated with lower normalized testis weight."
+  },
+  {
+   "id": "env-hu2025",
+   "authors": "Hu CJ, Garcia MA, Nihart A, et al.",
+   "year": 2025,
+   "title": "Response to comment on: \"Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis\".",
+   "journal": "Toxicol Sci",
+   "pmid": "39432568",
+   "doi": "10.1093/toxsci/kfae137",
+   "type": "review",
+   "n": null,
+   "finding": "Authors' reply: controls were described in their placenta paper; after re-evaluation only 6 of the 12 polymers (PE, PP, PVC, nylon, SBR, PET) give enough confidence for health-based work."
+  },
+  {
+   "id": "env-hussain2023",
+   "authors": "Hussain KA, Romanova S, Okur I, et al.",
+   "year": 2023,
+   "title": "Assessing the Release of Microplastics and Nanoplastics from Plastic Containers and Reusable Food Pouches: Implications for Human Health.",
+   "journal": "Environ Sci Technol",
+   "pmid": "37343248",
+   "doi": "10.1021/acs.est.3c01942",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Microwaving polypropylene containers and polyethylene pouches released the most particles (up to 4.2 million micro- and 2.1 billion nanoplastics per cm2 in 3 min); months of fridge or room storage also released particles."
+  },
+  {
+   "id": "env-hussey2025",
+   "authors": "Hussey MR, Kornberg TG, Sherrick JM, et al.",
+   "year": 2025,
+   "title": "The relationship between PFAS exposure and dyslipidemia: an updated review, meta-analysis, and evaluation of bias.",
+   "journal": "Eur J Epidemiol",
+   "pmid": "40801989",
+   "doi": "10.1007/s10654-025-01271-4",
+   "type": "meta-analysis",
+   "n": "69 studies (37 meta-analysed)",
+   "finding": "Pooled cross-sectional data link PFOA and PFOS to higher total and LDL cholesterol, but longitudinal estimates trended to null and heterogeneity tracked confounding and recruitment from contaminated areas."
+  },
+  {
+   "id": "env-kalkman2024",
+   "authors": "Kalkman DN, Renkens MPL, Grundeken MJ",
+   "year": 2024,
+   "title": "Microplastics and Nanoplastics in Atheromas.",
+   "journal": "N Engl J Med",
+   "pmid": "38718364",
+   "doi": "10.1056/NEJMc2404154",
+   "type": "review",
+   "n": null,
+   "finding": "Letter to the editor responding to Marfella 2024 (NEJM correspondence on microplastics in atheromas)."
+  },
+  {
+   "id": "env-lane2026",
+   "authors": "Lane T, de Ruijter VN, Wardani I, et al.",
+   "year": 2026,
+   "title": "A QA/QC screening framework to assess studies reporting microplastic presence in human organs, tissues, and bodily fluids.",
+   "journal": "Environ Int",
+   "pmid": "42503274",
+   "doi": "10.1016/j.envint.2026.110429",
+   "type": "review",
+   "n": "133 datasets from 101 studies",
+   "finding": "A 14-criterion QA/QC screen of human-tissue microplastic studies found none met all essential criteria; blank documentation, positive controls and sample representativeness were common gaps."
+  },
+  {
+   "id": "env-leslie2022",
+   "authors": "Leslie HA, van Velzen MJM, Brandsma SH, et al.",
+   "year": 2022,
+   "title": "Discovery and quantification of plastic particle pollution in human blood.",
+   "journal": "Environ Int",
+   "pmid": "35367073",
+   "doi": "10.1016/j.envint.2022.107199",
+   "type": "cross-sectional",
+   "n": "22 healthy blood donors",
+   "finding": "Double-shot Py-GC/MS quantified plastic particles >=700 nm in whole blood (mean of quantifiable sum 1.6 ug/mL), mainly PET, polyethylene and styrene polymers."
+  },
+  {
+   "id": "env-li2018",
+   "authors": "Li Y, Fletcher T, Mucs D, et al.",
+   "year": 2018,
+   "title": "Half-lives of PFOS, PFHxS and PFOA after end of exposure to contaminated drinking water.",
+   "journal": "Occup Environ Med",
+   "pmid": "29133598",
+   "doi": "10.1136/oemed-2017-104651",
+   "type": "cohort",
+   "n": "106 Ronneby residents",
+   "finding": "After contaminated water was replaced, serum PFHxS, PFOS and PFOA fell 13%, 20% and 26% per year (half-lives 5.3, 3.4 and 2.7 years), faster in women."
+  },
+  {
+   "id": "env-lid2020",
+   "authors": "Li D, Shi Y, Yang L, et al.",
+   "year": 2020,
+   "title": "Microplastic release from the degradation of polypropylene feeding bottles during infant formula preparation.",
+   "journal": "Nat Food",
+   "pmid": "37128027",
+   "doi": "10.1038/s43016-020-00171-y",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Polypropylene infant feeding bottles released up to 16 million microplastic particles per litre during formula preparation, more with sterilization and hot water."
+  },
+  {
+   "id": "env-lin2020",
+   "authors": "Lin CY, Lee HL, Hwang YT, et al.",
+   "year": 2020,
+   "title": "The association between total serum isomers of per- and polyfluoroalkyl substances, lipid profiles, and the DNA oxidative/nitrative stress biomarkers in middle-aged Taiwanese adults.",
+   "journal": "Environ Res",
+   "pmid": "31884197",
+   "doi": "10.1016/j.envres.2019.109064",
+   "type": "cross-sectional",
+   "n": "597 Taiwanese adults",
+   "finding": "Linear PFOS was associated with higher urinary 8-OHdG and 8-nitroguanine and with LDL cholesterol."
+  },
+  {
+   "id": "env-lu2024",
+   "authors": "Lü L, Liu Y, Yang Y, et al.",
+   "year": 2024,
+   "title": "Bisphenol A Exposure Interferes with Reproductive Hormones and Decreases Sperm Counts: A Systematic Review and Meta-Analysis of Epidemiological Studies.",
+   "journal": "Toxics",
+   "pmid": "38668517",
+   "doi": "10.3390/toxics12040294",
+   "type": "meta-analysis",
+   "n": "18 studies",
+   "finding": "Urinary BPA was associated with slightly lower sperm concentration and total count and with higher SHBG and estradiol, but not robustly with below-reference semen quality."
+  },
+  {
+   "id": "env-lucas2025",
+   "authors": "Lucas A, Harray A, Duong L, et al.",
+   "year": 2025,
+   "title": "Randomised controlled trial of a low plastic diet and lifestyle intervention for adults with cardiometabolic risk factors: the Plastic Exposure Reduction Transforms Health (PERTH) trial - a protocol.",
+   "journal": "BMJ Open",
+   "pmid": "40854835",
+   "doi": "10.1136/bmjopen-2025-099330",
+   "type": "rct",
+   "n": "60 adults (planned)",
+   "finding": "Protocol of the PERTH RCT testing whether a 4-week low-plastic diet and lifestyle intervention lowers urinary bisphenols and phthalates and improves cardiometabolic markers."
+  },
+  {
+   "id": "env-mackeown2024",
+   "authors": "MacKeown H, Magi E, Di Carro M, et al.",
+   "year": 2024,
+   "title": "Removal of perfluoroalkyl and polyfluoroalkyl substances from tap water by means of point-of-use treatment: A review.",
+   "journal": "Sci Total Environ",
+   "pmid": "39393709",
+   "doi": "10.1016/j.scitotenv.2024.176764",
+   "type": "review",
+   "n": null,
+   "finding": "Point-of-use filters (activated carbon, ion exchange, reverse osmosis) can remove PFAS, but only five real-life studies exist, short-chain PFAS are harder to remove and poorly maintained carbon can raise PFAS in water."
+  },
+  {
+   "id": "env-marfella2024",
+   "authors": "Marfella R, Prattichizzo F, Sardu C, et al.",
+   "year": 2024,
+   "title": "Microplastics and Nanoplastics in Atheromas and Cardiovascular Events.",
+   "journal": "N Engl J Med",
+   "pmid": "38446676",
+   "doi": "10.1056/NEJMoa2309822",
+   "type": "cohort",
+   "n": "257 carotid endarterectomy patients followed ~34 months",
+   "finding": "Polyethylene was detected in 58% of excised carotid plaques (PVC in 12%); patients with detectable plastic had a higher risk of heart attack, stroke or death (HR 4.53, 95% CI 2.00-10.27)."
+  },
+  {
+   "id": "env-marfella2024b",
+   "authors": "Marfella R, Prattichizzo F",
+   "year": 2024,
+   "title": "Microplastics and Nanoplastics in Atheromas. Reply.",
+   "journal": "N Engl J Med",
+   "pmid": "38718368",
+   "doi": "10.1056/NEJMc2404154",
+   "type": "review",
+   "n": null,
+   "finding": "Authors' reply to the NEJM letters on microplastics in atheromas."
+  },
+  {
+   "id": "env-mhaoutykodja2024",
+   "authors": "Mhaouty-Kodja S, Zalko D, Tait S, et al.",
+   "year": 2024,
+   "title": "A critical review to identify data gaps and improve risk assessment of bisphenol A alternatives for human health.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "39436315",
+   "doi": "10.1080/10408444.2024.2388712",
+   "type": "review",
+   "n": null,
+   "finding": "Critical review: BPS and BPF are found worldwide in people and are being regulated because of toxicity; newer BPA alternatives have large toxicology data gaps (risk of regrettable substitution)."
+  },
+  {
+   "id": "env-moller2024",
+   "authors": "Møller JJ, Lyngberg AC, Hammer PEC, et al.",
+   "year": 2024,
+   "title": "Substantial decrease of PFAS with anion exchange resin treatment - A clinical cross-over trial.",
+   "journal": "Environ Int",
+   "pmid": "38367552",
+   "doi": "10.1016/j.envint.2024.108497",
+   "type": "rct",
+   "n": "45 highly exposed adults (crossover)",
+   "finding": "Cholestyramine 4 g three times daily for 12 weeks lowered serum PFOS by 60% (from a median of 191 ng/mL) and other PFAS by 15-44%, with no serious adverse events."
+  },
+  {
+   "id": "env-nasem2022",
+   "authors": "National Academies of Sciences, Engineering, and Medicine",
+   "year": 2022,
+   "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+   "journal": "National Academies Press",
+   "pmid": "35939564",
+   "doi": "10.17226/26156",
+   "type": "guideline",
+   "n": null,
+   "finding": "NASEM clinical guidance: offer PFAS blood testing to likely exposed patients; for the summed serum level of 7 PFAS, <2 ng/mL usual care, 2-20 ng/mL exposure reduction plus lipid screening, >20 ng/mL add thyroid testing and kidney/testicular cancer and ulcerative colitis assessment."
+  },
+  {
+   "id": "env-nihart2025",
+   "authors": "Nihart AJ, Garcia MA, El Hayek E, et al.",
+   "year": 2025,
+   "title": "Bioaccumulation of microplastics in decedent human brains.",
+   "journal": "Nat Med",
+   "pmid": "39901044",
+   "doi": "10.1038/s41591-024-03453-1",
+   "type": "cross-sectional",
+   "n": "decedent brain, liver and kidney samples (2016 and 2024) plus 12 dementia brains",
+   "finding": "Py-GC/MS reported median ~4,900 ug/g of plastic (mostly polyethylene) in 2024 brain samples, 7-30x higher than liver or kidney, rising from 2016 to 2024, and higher still (median ~26,000 ug/g) in dementia brains."
+  },
+  {
+   "id": "env-nihart2025b",
+   "authors": "Nihart AJ, Garcia MA, El Hayek E, et al.",
+   "year": 2025,
+   "title": "Author Correction: Bioaccumulation of microplastics in decedent human brains.",
+   "journal": "Nat Med",
+   "pmid": "40164728",
+   "doi": "10.1038/s41591-025-03675-x",
+   "type": "review",
+   "n": null,
+   "finding": "Author correction to Nihart 2025: duplicated supplementary microscopy panels removed, mis-sized scale bars fixed, an omitted sample-preparation step added and a supplementary particle-count table recalculated."
+  },
+  {
+   "id": "env-peng2019",
+   "authors": "Peng CY, Tsai EM, Kao TH, et al.",
+   "year": 2019,
+   "title": "Canned food intake and urinary bisphenol a concentrations: a randomized crossover intervention study.",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "31352597",
+   "doi": "10.1007/s11356-019-05534-y",
+   "type": "rct",
+   "n": "20 adults (crossover)",
+   "finding": "A canned-food meal raised urinary BPA by up to 206% at 4 h versus fresh food, returning to baseline by 24 h."
+  },
+  {
+   "id": "env-plachetka2025",
+   "authors": "Plachetka L, Stanislas V, Bauer A, et al.",
+   "year": 2025,
+   "title": "Urinary bisphenol levels and blood pressure after soda consumption from cans, PET and glass bottles.",
+   "journal": "Sci Rep",
+   "pmid": "40940416",
+   "doi": "10.1038/s41598-025-18459-z",
+   "type": "rct",
+   "n": "103 women (crossover)",
+   "finding": "Drinking soda from cans raised urinary BPA by 22% versus PET bottles; BPS, BPF and BPE were detected independent of packaging."
+  },
+  {
+   "id": "env-qian2024",
+   "authors": "Qian N, Gao X, Lang X, et al.",
+   "year": 2024,
+   "title": "Rapid single-particle chemical imaging of nanoplastics by SRS microscopy.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "38190543",
+   "doi": "10.1073/pnas.2300582121",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Stimulated Raman scattering imaging counted about 240,000 plastic particles per litre of bottled water, about 90% of them nanoplastics, orders of magnitude more than earlier microplastic-only counts."
+  },
+  {
+   "id": "env-rauert2025",
+   "authors": "Rauert C, Charlton N, Bagley A, et al.",
+   "year": 2025,
+   "title": "Assessing the Efficacy of Pyrolysis-Gas Chromatography-Mass Spectrometry for Nanoplastic and Microplastic Analysis in Human Blood.",
+   "journal": "Environ Sci Technol",
+   "pmid": "39851066",
+   "doi": "10.1021/acs.est.4c12599",
+   "type": "mechanistic",
+   "n": "pilot Australian blood samples",
+   "finding": "Validation study concluding that Py-GC/MS is currently not suitable for polyethylene and PVC in biological matrices because of interferences, with realistic detection limits up to 20x higher than nominal and no other polymers detectable in human blood."
+  },
+  {
+   "id": "env-rudel2011",
+   "authors": "Rudel RA, Gray JM, Engel CL, et al.",
+   "year": 2011,
+   "title": "Food packaging and bisphenol A and bis(2-ethyhexyl) phthalate exposure: findings from a dietary intervention.",
+   "journal": "Environ Health Perspect",
+   "pmid": "21450549",
+   "doi": "10.1289/ehp.1003170",
+   "type": "cohort",
+   "n": "20 people in 5 families",
+   "finding": "Three days of fresh, unpackaged food cut urinary BPA by 66% and DEHP metabolites by 53-56% (geometric means)."
+  },
+  {
+   "id": "env-sathyanarayana2013",
+   "authors": "Sathyanarayana S, Alcedo G, Saelens BE, et al.",
+   "year": 2013,
+   "title": "Unexpected results in a randomized dietary trial to reduce phthalate and bisphenol A exposures.",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "23443238",
+   "doi": "10.1038/jes.2013.9",
+   "type": "rct",
+   "n": "40 people in 10 families",
+   "finding": "A 5-day catered \"low-exposure\" diet unexpectedly raised urinary DEHP metabolites (median 284 to 7028 nmol/g) and BPA because ingredients such as ground coriander and milk were contaminated."
+  },
+  {
+   "id": "env-schlezinger2025",
+   "authors": "Schlezinger JJ, Bello A, Mangano KM, et al.",
+   "year": 2025,
+   "title": "Per- and poly-fluoroalkyl substances (PFAS) in circulation in a Canadian population: their association with serum-liver enzyme biomarkers and piloting a novel method to reduce serum-PFAS.",
+   "journal": "Environ Health",
+   "pmid": "40089764",
+   "doi": "10.1186/s12940-025-01165-8",
+   "type": "rct",
+   "n": "72 men with high cholesterol",
+   "finding": "In a 4-week dietary fibre trial, long-chain PFAS fell significantly only in the fibre group (secondary analysis; total PFAS fell in both arms)."
+  },
+  {
+   "id": "env-schwabl2019",
+   "authors": "Schwabl P, Köppel S, Königshofer P, et al.",
+   "year": 2019,
+   "title": "Detection of Various Microplastics in Human Stool: A Prospective Case Series.",
+   "journal": "Ann Intern Med",
+   "pmid": "31476765",
+   "doi": "10.7326/M19-0618",
+   "type": "cross-sectional",
+   "n": "8 volunteers",
+   "finding": "All 8 stool samples contained microplastics (median 20 particles per 10 g, 50-500 um), mostly polypropylene and PET."
+  },
+  {
+   "id": "env-siwakoti2024",
+   "authors": "Siwakoti RC, Park S, Ferguson KK, et al.",
+   "year": 2024,
+   "title": "Prenatal per- and polyfluoroalkyl substances (PFAS) and maternal oxidative stress: Evidence from the LIFECODES study.",
+   "journal": "Chemosphere",
+   "pmid": "38768789",
+   "doi": "10.1016/j.chemosphere.2024.142363",
+   "type": "cohort",
+   "n": "469 pregnant women",
+   "finding": "Each IQR increase in plasma PFOS was associated with 9.7% higher urinary 8-isoprostane; other PFAS showed mixed or inverse associations."
+  },
+  {
+   "id": "env-soltani2022",
+   "authors": "Soltani NS, Taylor MP, Wilson SP",
+   "year": 2022,
+   "title": "International quantification of microplastics in indoor dust: prevalence, exposure and risk assessment.",
+   "journal": "Environ Pollut",
+   "pmid": "35977640",
+   "doi": "10.1016/j.envpol.2022.119957",
+   "type": "cross-sectional",
+   "n": "108 homes in 29 countries",
+   "finding": "Synthetic fibres (polyester, polyamide) were common in household dust, mainly from indoor sources; more frequent vacuuming was associated with less microplastic in dust."
+  },
+  {
+   "id": "env-symeonides2024",
+   "authors": "Symeonides C, Aromataris E, Mulders Y, et al.",
+   "year": 2024,
+   "title": "An Umbrella Review of Meta-Analyses Evaluating Associations between Human Health and Exposure to Major Classes of Plastic-Associated Chemicals.",
+   "journal": "Ann Glob Health",
+   "pmid": "39183960",
+   "doi": "10.5334/aogh.4459",
+   "type": "meta-analysis",
+   "n": "52 systematic reviews, 759 meta-analyses",
+   "finding": "Umbrella review: BPA linked to PCOS, type 2 diabetes and CVD; phthalates to pregnancy loss, reduced sperm quality and insulin resistance; some PFAS to lower birth weight; no meta-analyses existed for microplastics."
+  },
+  {
+   "id": "env-tefera2026",
+   "authors": "Tefera Y, Shearer C, Day M, et al.",
+   "year": 2026,
+   "title": "Is drinking water with low PFAS a significant source of human exposure? Evidence summary.",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "42463894",
+   "doi": "10.1038/s41370-026-00944-w",
+   "type": "review",
+   "n": "10 studies, 4576 people",
+   "finding": "Drinking water with low PFAS (10-100 ng/L) measurably raised blood PFAS, most consistently PFHxS, especially in children and heavy water drinkers; below ~10 ng/L links were inconsistent."
+  },
+  {
+   "id": "env-thomas2026",
+   "authors": "Thomas KV, Belz S, Booth AM, et al.",
+   "year": 2026,
+   "title": "Communicating Confidence in the Reliability of Micro- and Nanoplastic Identification in Human Health Studies.",
+   "journal": "Environ Health (Wash)",
+   "pmid": "42164877",
+   "doi": "10.1021/envhealth.5c00671",
+   "type": "review",
+   "n": null,
+   "finding": "Proposes confidence levels for micro/nanoplastic identification in human studies, requiring orthogonal analytical techniques and transparent reporting of contamination and limits."
+  },
+  {
+   "id": "env-uppu2025",
+   "authors": "Uppu RM, Peijnenburg W, Hays SM",
+   "year": 2025,
+   "title": "Comment on: \"Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis\".",
+   "journal": "Toxicol Sci",
+   "pmid": "39475449",
+   "doi": "10.1093/toxsci/kfae136",
+   "type": "review",
+   "n": null,
+   "finding": "Comment on Hu 2024: no reported blanks, negative/positive or background controls, unvalidated digestion and ultracentrifugation steps, and no LOD/LOQ, internal standards or matrix spikes for the Py-GC/MS method."
+  },
+  {
+   "id": "env-vomsaal2024",
+   "authors": "Vom Saal FS, Antoniou M, Belcher SM, et al.",
+   "year": 2024,
+   "title": "The Conflict between Regulatory Agencies over the 20,000-Fold Lowering of the Tolerable Daily Intake (TDI) for Bisphenol A (BPA) by the European Food Safety Authority (EFSA).",
+   "journal": "Environ Health Perspect",
+   "pmid": "38592230",
+   "doi": "10.1289/EHP13812",
+   "type": "review",
+   "n": null,
+   "finding": "Commentary endorsing EFSA's 20,000-fold BPA TDI cut and criticizing the German BfR and US FDA for maintaining higher limits based on guideline studies."
+  },
+  {
+   "id": "env-wang2024",
+   "authors": "Wang X, Tian S",
+   "year": 2024,
+   "title": "Microplastics and Nanoplastics in Atheromas.",
+   "journal": "N Engl J Med",
+   "pmid": "38718366",
+   "doi": "10.1056/NEJMc2404154",
+   "type": "review",
+   "n": null,
+   "finding": "Letter to the editor responding to Marfella 2024 (NEJM correspondence on microplastics in atheromas)."
+  },
+  {
+   "id": "env-wangh2023b",
+   "authors": "Wang H, He H, Wei Y, et al.",
+   "year": 2023,
+   "title": "Do phthalates and their metabolites cause poor semen quality? A systematic review and meta-analysis of epidemiological studies on risk of decline in sperm quality.",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "36504299",
+   "doi": "10.1007/s11356-022-24215-x",
+   "type": "meta-analysis",
+   "n": "12 studies",
+   "finding": "Urinary MBP and MBzP and semen DEHP were associated with lower sperm concentration; other phthalate metabolites and motility/morphology showed no significant association."
+  },
+  {
+   "id": "env-yuan2025",
+   "authors": "Yuan M, Chai J, Song J, et al.",
+   "year": 2025,
+   "title": "Association of bisphenol A exposure with in vitro fertilization outcomes: A meta-analysis and systematic review.",
+   "journal": "Reprod Toxicol",
+   "pmid": "41005444",
+   "doi": "10.1016/j.reprotox.2025.109071",
+   "type": "meta-analysis",
+   "n": "14 studies",
+   "finding": "Higher BPA exposure was associated with lower normal fertilization rates and fewer high-quality embryos in IVF/ICSI, but not with clinical pregnancy or implantation."
   }
  ]
 }

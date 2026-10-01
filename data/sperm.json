@@ -2117,6 +2117,174 @@
     "exr-mountjoy2023",
     "exr-cupka2023"
    ]
+  },
+  {
+   "id": "microplastics-sperm",
+   "name": "Microplastics in testis and semen",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Plastic particles have been reported in human testes (Py-GC/MS, mean 328 ug/g in 23 men) and in most semen samples (a few particles each by Raman or infrared), with hints of lower motility in studies of 40-45 men, but the testis method is disputed and there are no human data on sperm DNA fragmentation.",
+   "dose": {
+    "effective": "No proven intervention; use the general exposure steps in [microplastics] (don't heat food in plastic, prefer tap over bottled water where safe).",
+    "studied_range": "Cross-sectional measurements in 6-45 men per study.",
+    "too_much": null,
+    "timeframe": "Unknown; any effect on sperm would take at least one ~74-day spermatogenic cycle.",
+    "notes": "Different methods give incompatible numbers: Py-GC/MS reports mass (ug/g), spectroscopy counts a handful of particles."
+   },
+   "mechanism": "In rodents, polystyrene micro/nanoplastics cross the blood-testis barrier, raise testicular ROS and inflammation and reduce sperm count and motility; human mechanistic data are lacking.",
+   "pathways": [
+    "inflammation-nfkb",
+    "mitochondrial",
+    "endocrine"
+   ],
+   "interactions": "Plastic particles carry phthalates and bisphenols ([plastics-chemicals]), which are hard to separate from particle effects.",
+   "caveats": "Tiny samples, no exposure gradient, no contamination-proof designs; motility differences were borderline (p=0.056) or between polymer types rather than exposed vs unexposed.",
+   "debate": "Presence: Py-GC/MS found plastic in every human testis [env-hu2024] and spectroscopy found particles in semen [env-montano2023, env-li2024, env-zhao2023, env-guo2025]. A published comment argued the testis study lacked blanks, controls and method validation [env-uppu2025]; the authors defended their digestion method but limited future work to 6 reliable polymers [env-hu2025]. Py-GC/MS polyethylene and PVC values in biological samples are vulnerable to false positives [env-rauert2025]. Harm: animal studies frequently report testicular damage but often lack dose and particle characterization [env-due2026].",
+   "key_numbers": [
+    {
+     "label": "Mean testis plastic, human (Py-GC/MS)",
+     "value": 328,
+     "unit": "ug/g",
+     "source": "env-hu2024"
+    },
+    {
+     "label": "Semen samples with microplastics (fertility clinic)",
+     "value": 76,
+     "unit": "% (34/45)",
+     "source": "env-guo2025"
+    }
+   ],
+   "refs": [
+    "env-hu2024",
+    "env-uppu2025",
+    "env-hu2025",
+    "env-montano2023",
+    "env-li2024",
+    "env-zhao2023",
+    "env-guo2025",
+    "env-rauert2025",
+    "env-due2026"
+   ]
+  },
+  {
+   "id": "pfas-sperm",
+   "name": "PFAS and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Pooled data link PFAS to slightly lower progressive motility and more sperm DNA fragmentation (r = 0.14 across 14 studies), but the effects are small, individual studies disagree, and a 604-man study found no consistent SDF effect.",
+   "dose": {
+    "effective": "No sperm-specific intervention tested. If exposure is likely, see [pfas] for testing and exposure reduction.",
+    "studied_range": "General-population serum PFOS ~5-25 ng/mL; occupational groups higher.",
+    "too_much": "NASEM serum sum >20 ng/mL = increased general health risk (not a fertility-specific threshold).",
+    "timeframe": "PFAS half-lives are years, so serum (and any sperm effect) changes slowly.",
+    "notes": "Effect sizes are correlations of about 0.06-0.14, i.e. small at the individual level."
+   },
+   "mechanism": "PFAS reach the testis and seminal plasma; in animals they lower testosterone, disrupt Sertoli and Leydig cells and raise oxidative stress.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Occurs alongside other persistent pollutants (PCBs, organochlorines) that confound associations; see [plastics-chemicals] for short-lived endocrine disruptors.",
+   "caveats": "Cross-sectional, single-sample designs; many congener-by-endpoint tests invite chance findings.",
+   "debate": "A 2026 meta-analysis found consistent inverse links with motility and DNA integrity [env-dinisio2026] and an earlier one found PFOA/PFNA linked to lower progressive motility [env-wangh2023a]; Danish young men with high PFOS+PFOA had fewer normal sperm [env-joensen2009]. Against this, a 604-man study found no consistent link with SCSA DNA fragmentation [env-specht2012], the LIFE study found associations in varying directions [env-louis2015], and a systematic review found little consistent evidence in men [env-bach2016].",
+   "key_numbers": [
+    {
+     "label": "Pooled correlation, PFAS and sperm DNA fragmentation",
+     "value": 0.141,
+     "unit": "r",
+     "source": "env-dinisio2026"
+    },
+    {
+     "label": "Men in the null SDF study",
+     "value": 604,
+     "unit": "men",
+     "source": "env-specht2012"
+    }
+   ],
+   "refs": [
+    "env-dinisio2026",
+    "env-wangh2023a",
+    "env-joensen2009",
+    "env-specht2012",
+    "env-louis2015",
+    "env-bach2016"
+   ]
+  },
+  {
+   "id": "lubricants-sperm",
+   "name": "Personal lubricants and sperm",
+   "kind": "lifestyle",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "moderate",
+   "headline": "In the lab, many lubricants (K-Y, Astroglide, olive oil, saliva) cut sperm motility and some raise DNA fragmentation, while isotonic 'sperm-friendly' gels (e.g. Pre-Seed) do not; yet in two cohorts (6,467 and 296 women) lubricant use did not lower the chance of conceiving.",
+   "dose": {
+    "effective": "For natural conception, lubricant choice appears not to matter in cohort data; if wanted, pick an isotonic 'fertility-friendly' product. For semen collection (semen analysis, IUI, IVF), use none or a clinic-approved isotonic lubricant (Pre-Seed did not change motility, ROS or DNA damage in a crossover trial).",
+    "studied_range": "In vitro lubricant concentrations of 5-12.5% in semen for 10 min to 4 h; cohorts of natural conception attempts.",
+    "too_much": null,
+    "timeframe": "In vitro motility falls within 10-30 minutes of contact.",
+    "notes": "Saliva is one of the worst performers in vitro. Paraben preservatives at lubricant concentrations raised sperm ROS in vitro."
+   },
+   "mechanism": "Hyperosmolar, acidic or viscous gels and preservatives (parabens, glycerol) impair motility and can raise mitochondrial ROS and oxidative DNA adducts in vitro; isotonic, pH-matched gels avoid this.",
+   "pathways": [
+    "mitochondrial"
+   ],
+   "interactions": "Relevant mainly when sperm quality is already marginal or for samples collected for assisted reproduction.",
+   "caveats": "In vitro tests expose washed sperm to lubricant directly, unlike intercourse where most sperm enter cervical mucus quickly. Cohort data rely on self-reported lubricant type; no randomized fertility trial exists.",
+   "debate": "Lab studies show many lubricants impair motility or chromatin [env-anderson1998, env-agarwal2008, env-tulandi1982, env-mackenzie2019], with 'sperm-friendly' products performing best [env-mowat2014, env-tomlinson2023] and parabens adding oxidative stress [env-samarasinghe2018]. Real-world data disagree with the lab: no lubricant type reduced fecundability in a 6,467-woman cohort [env-mcinerney2018] or in a smaller diary study [env-steiner2012]. Reviews conclude the question is unresolved and that a randomized trial is needed [env-mesen2014, env-gumerova2024].",
+   "key_numbers": [
+    {
+     "label": "Fecundability ratio, any lubricant in fertile window",
+     "value": 1.05,
+     "unit": "FR",
+     "source": "env-steiner2012"
+    },
+    {
+     "label": "Fecundability ratio, water-based non-pH-balanced lubricant",
+     "value": 1.02,
+     "unit": "FR",
+     "source": "env-mcinerney2018"
+    },
+    {
+     "label": "Progressive motility after Aquagel (vs control)",
+     "value": 49,
+     "unit": "% of control",
+     "source": "env-mackenzie2019"
+    }
+   ],
+   "refs": [
+    "env-steiner2012",
+    "env-mcinerney2018",
+    "env-agarwal2008",
+    "env-agarwal2013",
+    "env-mowat2014",
+    "env-anderson1998",
+    "env-tulandi1982",
+    "env-tomlinson2023",
+    "env-mackenzie2019",
+    "env-samarasinghe2018",
+    "env-mesen2014",
+    "env-gumerova2024"
+   ]
   }
  ],
  "mechanisms": [
@@ -4066,6 +4234,330 @@
    "type": "cohort",
    "n": "4,921 men in two preconception cohorts",
    "finding": "Male vigorous, moderate or total activity was not consistently associated with couples' fecundability."
+  },
+  {
+   "id": "env-agarwal2008",
+   "authors": "Agarwal A, Deepinder F, Cocuzza M, et al.",
+   "year": 2008,
+   "title": "Effect of vaginal lubricants on sperm motility and chromatin integrity: a prospective comparative study.",
+   "journal": "Fertil Steril",
+   "pmid": "17509584",
+   "doi": "10.1016/j.fertnstert.2007.02.050",
+   "type": "mechanistic",
+   "n": "13 donors",
+   "finding": "In vitro, FemGlide, Replens and Astroglide reduced progressive motility and FemGlide and K-Y Jelly raised DNA fragmentation (SCSA), whereas Pre-Seed did not differ from culture medium."
+  },
+  {
+   "id": "env-agarwal2013",
+   "authors": "Agarwal A, Malvezzi H, Sharma R",
+   "year": 2013,
+   "title": "Effect of an isotonic lubricant on sperm collection and sperm quality.",
+   "journal": "Fertil Steril",
+   "pmid": "23490168",
+   "doi": "10.1016/j.fertnstert.2013.01.116",
+   "type": "rct",
+   "n": "22 men (crossover)",
+   "finding": "Using Pre-Seed during masturbation for semen collection did not change motility, viability, ROS, antioxidant capacity or DNA damage."
+  },
+  {
+   "id": "env-anderson1998",
+   "authors": "Anderson L, Lewis SE, McClure N",
+   "year": 1998,
+   "title": "The effects of coital lubricants on sperm motility in vitro.",
+   "journal": "Hum Reprod",
+   "pmid": "9886513",
+   "doi": "10.1093/humrep/13.12.3351",
+   "type": "mechanistic",
+   "n": "16 samples",
+   "finding": "K-Y jelly, olive oil and saliva (but not baby oil) significantly reduced sperm motility in vitro at 12.5%; olive oil and saliva still did at 6.25%."
+  },
+  {
+   "id": "env-bach2016",
+   "authors": "Bach CC, Vested A, Jørgensen KT, et al.",
+   "year": 2016,
+   "title": "Perfluoroalkyl and polyfluoroalkyl substances and measures of human fertility: a systematic review.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "27268162",
+   "doi": "10.1080/10408444.2016.1182117",
+   "type": "review",
+   "n": "16 male and 11 female studies",
+   "finding": "Little consistent evidence that PFAS affect semen quality or hormones in men; associations with longer time to pregnancy appear in parous women and are most likely not causal."
+  },
+  {
+   "id": "env-dinisio2026",
+   "authors": "Di Nisio A, López-Gil JF, Pizzol D, et al.",
+   "year": 2026,
+   "title": "Associations between per- and polyfluoroalkyl substances and semen parameters: An updated systematic review and meta-analysis.",
+   "journal": "J Hazard Mater",
+   "pmid": "42570390",
+   "doi": "10.1016/j.jhazmat.2026.143157",
+   "type": "meta-analysis",
+   "n": "14 studies, 7465 men",
+   "finding": "PFAS were weakly associated with lower progressive motility (r = -0.058) and more sperm DNA fragmentation (r = 0.141), with little association with standard counts."
+  },
+  {
+   "id": "env-due2026",
+   "authors": "Due I, Rubio L, Catalán J, et al.",
+   "year": 2026,
+   "title": "Mammalian reproductive and developmental toxicity of micro- and nanoplastics: a critical appraisal of evidence using the SciRAP tool.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "42621756",
+   "doi": "10.1080/10408444.2026.2686289",
+   "type": "review",
+   "n": "102 animal studies",
+   "finding": "Systematic appraisal of in vivo mammalian micro/nanoplastic reproductive studies: many report harm to testis, ovary and gametes, but particle characterization, dose and dose-response were often missing."
+  },
+  {
+   "id": "env-gumerova2024",
+   "authors": "Gumerova E, Rimmer MP, Gellatly SA",
+   "year": 2024,
+   "title": "Do sperm and lubricants gel well with each other? A systematic review.",
+   "journal": "Hum Fertil (Camb)",
+   "pmid": "38044638",
+   "doi": "10.1080/14647273.2023.2285349",
+   "type": "review",
+   "n": "24 studies, 35 lubricants",
+   "finding": "Systematic review: only 2 of 24 studies were in vivo; methodological variation and absent pregnancy outcomes prevent an evidence-based \"sperm-safe\" lubricant guideline."
+  },
+  {
+   "id": "env-guo2025",
+   "authors": "Guo Y, Rong M, Fan Y, et al.",
+   "year": 2025,
+   "title": "The Presence of Microplastics in Human Semen and Their Associations with Semen Quality.",
+   "journal": "Toxics",
+   "pmid": "40711011",
+   "doi": "10.3390/toxics13070566",
+   "type": "cross-sectional",
+   "n": "45 men at a fertility centre",
+   "finding": "Laser-direct infrared found microplastics in 34 of 45 semen samples; men with PET particles had borderline lower progressive motility (20.6% vs 34.9%, p=0.056) and no difference in concentration or count."
+  },
+  {
+   "id": "env-hu2024",
+   "authors": "Hu CJ, Garcia MA, Nihart A, et al.",
+   "year": 2024,
+   "title": "Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis.",
+   "journal": "Toxicol Sci",
+   "pmid": "38745431",
+   "doi": "10.1093/toxsci/kfae060",
+   "type": "cross-sectional",
+   "n": "23 human and 47 dog testes",
+   "finding": "Pyrolysis-GC/MS reported microplastics in every testis (mean 328 ug/g in humans, 123 ug/g in dogs), mostly polyethylene; in dogs PVC and PET levels correlated with lower normalized testis weight."
+  },
+  {
+   "id": "env-hu2025",
+   "authors": "Hu CJ, Garcia MA, Nihart A, et al.",
+   "year": 2025,
+   "title": "Response to comment on: \"Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis\".",
+   "journal": "Toxicol Sci",
+   "pmid": "39432568",
+   "doi": "10.1093/toxsci/kfae137",
+   "type": "review",
+   "n": null,
+   "finding": "Authors' reply: controls were described in their placenta paper; after re-evaluation only 6 of the 12 polymers (PE, PP, PVC, nylon, SBR, PET) give enough confidence for health-based work."
+  },
+  {
+   "id": "env-joensen2009",
+   "authors": "Joensen UN, Bossi R, Leffers H, et al.",
+   "year": 2009,
+   "title": "Do perfluoroalkyl compounds impair human semen quality?",
+   "journal": "Environ Health Perspect",
+   "pmid": "19590684",
+   "doi": "10.1289/ehp.0800517",
+   "type": "cross-sectional",
+   "n": "105 young Danish men",
+   "finding": "Men with high combined PFOS+PFOA had fewer morphologically normal sperm (6.2 vs 15.5 million per ejaculate)."
+  },
+  {
+   "id": "env-li2024",
+   "authors": "Li N, Yang H, Dong Y, et al.",
+   "year": 2024,
+   "title": "Prevalence and implications of microplastic contaminants in general human seminal fluid: A Raman spectroscopic study.",
+   "journal": "Sci Total Environ",
+   "pmid": "38802004",
+   "doi": "10.1016/j.scitotenv.2024.173522",
+   "type": "cross-sectional",
+   "n": "40 men",
+   "finding": "Raman found about 2 microplastic particles per semen sample in all 40 men (mostly polystyrene); PVC-containing samples had lower progressive motility than polystyrene-containing ones."
+  },
+  {
+   "id": "env-louis2015",
+   "authors": "Louis GM, Chen Z, Schisterman EF, et al.",
+   "year": 2015,
+   "title": "Perfluorochemicals and human semen quality: the LIFE study.",
+   "journal": "Environ Health Perspect",
+   "pmid": "25127343",
+   "doi": "10.1289/ehp.1307621",
+   "type": "cohort",
+   "n": "501 male partners",
+   "finding": "Several PFAS were associated with some semen endpoints, but in varying directions; strongest signals were for PFOSA and sperm head morphology."
+  },
+  {
+   "id": "env-mackenzie2019",
+   "authors": "Mackenzie SC, Gellatly SA",
+   "year": 2019,
+   "title": "Vaginal lubricants in the couple trying-to-conceive: Assessing healthcare professional recommendations and effect on in vitro sperm function.",
+   "journal": "PLoS One",
+   "pmid": "31086364",
+   "doi": "10.1371/journal.pone.0209950",
+   "type": "mechanistic",
+   "n": "32 clinician survey responses plus lab testing",
+   "finding": "Aquagel cut progressive motility to 49% of control within 10 min even at 5%, while a sperm-safe lubricant (Pre) had no effect; clinicians' advice was inconsistent."
+  },
+  {
+   "id": "env-mcinerney2018",
+   "authors": "McInerney KA, Hahn KA, Hatch EE, et al.",
+   "year": 2018,
+   "title": "Lubricant use during intercourse and time to pregnancy: a prospective cohort study.",
+   "journal": "BJOG",
+   "pmid": "29543376",
+   "doi": "10.1111/1471-0528.15218",
+   "type": "cohort",
+   "n": "6467 women (Denmark and North America)",
+   "finding": "No lubricant type was associated with lower fecundability (water-based FR 1.02; \"fertility-friendly\" 1.01; oil-based 1.23; silicone 1.27)."
+  },
+  {
+   "id": "env-mesen2014",
+   "authors": "Mesen TB, Steiner AZ",
+   "year": 2014,
+   "title": "Effect of vaginal lubricants on natural fertility.",
+   "journal": "Curr Opin Obstet Gynecol",
+   "pmid": "24717914",
+   "doi": "10.1097/GCO.0000000000000066",
+   "type": "review",
+   "n": null,
+   "finding": "In vitro, many lubricants are sperm-toxic while \"sperm-friendly\" ones are not, yet cohort data show no effect on fecundity; an RCT is needed."
+  },
+  {
+   "id": "env-montano2023",
+   "authors": "Montano L, Giorgini E, Notarstefano V, et al.",
+   "year": 2023,
+   "title": "Raman Microspectroscopy evidence of microplastics in human semen.",
+   "journal": "Sci Total Environ",
+   "pmid": "37532047",
+   "doi": "10.1016/j.scitotenv.2023.165922",
+   "type": "cross-sectional",
+   "n": "10 men",
+   "finding": "Raman microspectroscopy found 16 microplastic fragments (2-6 um) in 6 of 10 semen samples from a polluted area of southern Italy."
+  },
+  {
+   "id": "env-mowat2014",
+   "authors": "Mowat A, Newton C, Boothroyd C, et al.",
+   "year": 2014,
+   "title": "The effects of vaginal lubricants on sperm function: an in vitro analysis.",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "24390681",
+   "doi": "10.1007/s10815-013-0168-x",
+   "type": "mechanistic",
+   "n": "10 patient samples",
+   "finding": "Of nine lubricants tested in vitro, Pre-Seed preserved motility (86%) and vitality (92%) best and Conceive Plus was second; none affected DNA fragmentation over 30 min."
+  },
+  {
+   "id": "env-rauert2025",
+   "authors": "Rauert C, Charlton N, Bagley A, et al.",
+   "year": 2025,
+   "title": "Assessing the Efficacy of Pyrolysis-Gas Chromatography-Mass Spectrometry for Nanoplastic and Microplastic Analysis in Human Blood.",
+   "journal": "Environ Sci Technol",
+   "pmid": "39851066",
+   "doi": "10.1021/acs.est.4c12599",
+   "type": "mechanistic",
+   "n": "pilot Australian blood samples",
+   "finding": "Validation study concluding that Py-GC/MS is currently not suitable for polyethylene and PVC in biological matrices because of interferences, with realistic detection limits up to 20x higher than nominal and no other polymers detectable in human blood."
+  },
+  {
+   "id": "env-samarasinghe2018",
+   "authors": "Samarasinghe SVAC, Krishnan K, Naidu R, et al.",
+   "year": 2018,
+   "title": "Parabens generate reactive oxygen species in human spermatozoa.",
+   "journal": "Andrology",
+   "pmid": "29722171",
+   "doi": "10.1111/andr.12499",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Parabens at concentrations found in vaginal lubricants generated mitochondrial ROS and oxidative DNA adducts and reduced sperm motility and viability in vitro."
+  },
+  {
+   "id": "env-specht2012",
+   "authors": "Specht IO, Hougaard KS, Spanò M, et al.",
+   "year": 2012,
+   "title": "Sperm DNA integrity in relation to exposure to environmental perfluoroalkyl substances - a study of spouses of pregnant women in three geographical regions.",
+   "journal": "Reprod Toxicol",
+   "pmid": "22449571",
+   "doi": "10.1016/j.reprotox.2012.02.008",
+   "type": "cross-sectional",
+   "n": "604 fertile men",
+   "finding": "No consistent association between serum PFAS and sperm DNA fragmentation (SCSA), apoptosis markers or reproductive hormones; only a slight TUNEL rise with PFOA in Greenland."
+  },
+  {
+   "id": "env-steiner2012",
+   "authors": "Steiner AZ, Long DL, Tanner C, et al.",
+   "year": 2012,
+   "title": "Effect of vaginal lubricants on natural fertility.",
+   "journal": "Obstet Gynecol",
+   "pmid": "22914390",
+   "doi": "10.1097/AOG.0b013e31825b87ae",
+   "type": "cohort",
+   "n": "296 women trying to conceive",
+   "finding": "Lubricant use in the fertile window did not reduce fecundability (fecundability ratio 1.05, 95% CI 0.59-1.85)."
+  },
+  {
+   "id": "env-tomlinson2023",
+   "authors": "Tomlinson J, Pooley K, Tomlinson M",
+   "year": 2023,
+   "title": "Sperm toxicity testing on lubricant gels: should we be recommending 'fertility-friendly' specialist products?",
+   "journal": "Hum Fertil (Camb)",
+   "pmid": "35369832",
+   "doi": "10.1080/14647273.2022.2053214",
+   "type": "mechanistic",
+   "n": "12 donor samples",
+   "finding": "All gels reduced motility in vitro; products marketed as sperm-friendly (FertilSafe Plus) performed best, pleasure lubricants worst, and saliva was worse still."
+  },
+  {
+   "id": "env-tulandi1982",
+   "authors": "Tulandi T, Plouffe L, McInnes RA",
+   "year": 1982,
+   "title": "Effect of saliva on sperm motility and activity.",
+   "journal": "Fertil Steril",
+   "pmid": "6890474",
+   "doi": "10.1016/s0015-0282(16)46700-2",
+   "type": "mechanistic",
+   "n": "donor semen",
+   "finding": "Saliva reduced sperm motility and progression in vitro, even at low concentrations."
+  },
+  {
+   "id": "env-uppu2025",
+   "authors": "Uppu RM, Peijnenburg W, Hays SM",
+   "year": 2025,
+   "title": "Comment on: \"Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis\".",
+   "journal": "Toxicol Sci",
+   "pmid": "39475449",
+   "doi": "10.1093/toxsci/kfae136",
+   "type": "review",
+   "n": null,
+   "finding": "Comment on Hu 2024: no reported blanks, negative/positive or background controls, unvalidated digestion and ultracentrifugation steps, and no LOD/LOQ, internal standards or matrix spikes for the Py-GC/MS method."
+  },
+  {
+   "id": "env-wangh2023a",
+   "authors": "Wang H, Wei K, Wu Z, et al.",
+   "year": 2023,
+   "title": "Association between per- and polyfluoroalkyl substances and semen quality.",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "36396760",
+   "doi": "10.1007/s11356-022-24182-3",
+   "type": "meta-analysis",
+   "n": "7 studies, 2190 men",
+   "finding": "PFOA and PFNA were associated with lower progressive sperm motility; other semen parameters were largely unaffected."
+  },
+  {
+   "id": "env-zhao2023",
+   "authors": "Zhao Q, Zhu L, Weng J, et al.",
+   "year": 2023,
+   "title": "Detection and characterization of microplastics in the human testis and semen.",
+   "journal": "Sci Total Environ",
+   "pmid": "36948312",
+   "doi": "10.1016/j.scitotenv.2023.162713",
+   "type": "cross-sectional",
+   "n": "6 testes and 30 semen samples",
+   "finding": "Py-GC/MS and laser-direct infrared found microplastics in testis (11.6 particles/g) and semen (0.23 particles/mL), mostly 20-100 um."
   }
  ]
 }

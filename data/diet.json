@@ -3888,6 +3888,119 @@
     "fst-brandhorst2024",
     "fst-fontana2008"
    ]
+  },
+  {
+   "id": "mind-diet",
+   "name": "MIND diet (Mediterranean-DASH Intervention for Neurodegenerative Delay)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Cohort studies linked high MIND-diet adherence to 53% lower Alzheimer incidence, but the 3-year randomized MIND trial (604 people) found no cognitive or brain-MRI benefit over a control diet with the same mild calorie restriction.",
+   "dose": {
+    "effective": "The MIND score rewards green leafy vegetables, other vegetables, berries, nuts, olive oil, whole grains, fish, beans and poultry, and penalizes red meat, butter and margarine, cheese, pastries and sweets, and fried or fast food.",
+    "studied_range": "Trial: MIND diet with mild caloric restriction versus a control diet with the same mild caloric restriction, 3 years, cognitively healthy adults 65+ with a family history of dementia. Cohorts: 4.5-12 years of follow-up.",
+    "too_much": null,
+    "timeframe": "No difference detectable after 3 years in the trial.",
+    "notes": "Both trial groups improved, so the trial compared MIND with another calorie-restricted diet, not with an unchanged diet."
+   },
+   "mechanism": "Proposed: polyphenols (berries, leafy greens), folate, vitamin E, carotenoids and omega-3 fats limit neuronal lipid peroxidation and neuroinflammation and support vascular health; less saturated fat and fried food reduce dietary oxidation products and cardiometabolic risk.",
+   "pathways": [
+    "inflammation-nfkb",
+    "endothelial",
+    "lipid-peroxidation"
+   ],
+   "interactions": "A hybrid of [mediterranean-diet] and [dash-diet]; emphasizes [blueberries] and [leafy-greens]. Weight loss and calorie restriction were confounded with diet in the trial.",
+   "caveats": "The observational evidence comes from food-frequency questionnaires in health-conscious cohorts and is prone to confounding and reverse causation (people in early cognitive decline change their diets). The MIND score was derived and first tested in the same cohort.",
+   "debate": "For: the original Rush cohort [skb-morris2015] and an Australian cohort [skb-hosking2019] found lower risk with high adherence, and a Mediterranean-diet RCT substudy improved cognitive composites [skb-vallspedret2015]. Against: the MIND RCT was null [skb-barnes2023], and a 20-year Swedish cohort of 28,025 people found no link between midlife diet quality (including Mediterranean adherence) and dementia [skb-glans2023]. Defenders argue 3 years is too short and the control group also improved its diet; critics reply that this is exactly why observational associations should not be read as causal.",
+   "key_numbers": [
+    {
+     "label": "Alzheimer incidence, top vs bottom tertile (cohort)",
+     "value": 0.47,
+     "unit": "hazard ratio",
+     "source": "skb-morris2015"
+    },
+    {
+     "label": "Global cognition, MIND vs control (RCT)",
+     "value": 0.035,
+     "unit": "SD units (P=0.23)",
+     "source": "skb-barnes2023"
+    }
+   ],
+   "refs": [
+    "skb-barnes2023",
+    "skb-morris2015",
+    "skb-hosking2019",
+    "skb-glans2023",
+    "skb-vallspedret2015"
+   ]
+  },
+  {
+   "id": "organic-food",
+   "name": "Organic food (lower pesticide residues)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Switching to organic food reliably cuts urinary pesticide metabolites within days (e.g. organophosphate metabolites down ~60-95%), but health benefits rest on observational cohorts (25% lower cancer in high organic consumers, absolute difference 0.6%) that are heavily confounded.",
+   "dose": {
+    "effective": "If budget allows, prioritize organic versions of produce that typically carry high residues; never eat less fruit and vegetables to avoid pesticides.",
+    "studied_range": "Organic-diet interventions of about 1 week (urinary biomarkers); cohort comparisons of habitual organic intake.",
+    "too_much": null,
+    "timeframe": "Urinary metabolites fall within days; any disease effect would take years and is unproven.",
+    "notes": "Glyphosate fell with organic food only in people living away from fields; near farms, spray drift dominates."
+   },
+   "mechanism": "Lowers dietary intake of organophosphate, pyrethroid and neonicotinoid residues, which in animals induce oxidative stress, lipid peroxidation and endocrine disruption.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Sperm-specific pesticide data are in [pesticides]; fertility diet patterns that favour low-residue produce are in [profertility-diet]. Overall produce intake ([high-fruit-vegetable-intake]) matters more than its organic status.",
+   "caveats": "Organic buyers are richer, leaner, more active and eat better diets; cohort adjustment cannot remove all of this. No long-term randomized trial with clinical outcomes exists.",
+   "debate": "Exposure: organic-diet trials consistently lower urinary pesticide metabolites [env-hyland2019, env-gonzalez2023], though glyphosate fell only modestly [env-hyland2023]. Outcomes: NutriNet-Sante linked high organic intake to 25% lower cancer risk [env-baudry2018] and organic produce substitution to lower postmenopausal breast cancer only [env-berlivet2026], but an accompanying commentary questioned whether this justifies the cost [env-hemler2018]. Reviews split: one reports lower cardiometabolic risk in prospective studies [env-poulia2025], another finds data too contradictory for any conclusion [env-komati2025]. Fertility: high-residue produce was linked to 26% lower IVF live birth in women [env-chiu2018] and lower fertilization in male partners [env-kazemi2025], but a 5,234-woman preconception cohort found no link with natural fecundability and evidence of reverse causation [env-wesselink2020].",
+   "key_numbers": [
+    {
+     "label": "Fall in urinary malathion metabolite on organic diet",
+     "value": 95,
+     "unit": "%",
+     "source": "env-hyland2019"
+    },
+    {
+     "label": "Cancer HR, highest vs lowest organic intake",
+     "value": 0.75,
+     "unit": "HR",
+     "source": "env-baudry2018"
+    },
+    {
+     "label": "Lower IVF live birth, highest high-residue produce intake",
+     "value": 26,
+     "unit": "%",
+     "source": "env-chiu2018"
+    }
+   ],
+   "refs": [
+    "env-hyland2019",
+    "env-hyland2023",
+    "env-gonzalez2023",
+    "env-baudry2018",
+    "env-hemler2018",
+    "env-berlivet2026",
+    "env-poulia2025",
+    "env-komati2025",
+    "env-chiu2018",
+    "env-kazemi2025",
+    "env-wesselink2020"
+   ]
   }
  ],
  "mechanisms": [
@@ -9880,6 +9993,198 @@
    "type": "rct",
    "n": "90 healthy adults without obesity",
    "finding": "5 weeks of early TRE improved insulin sensitivity, fasting glucose, adiposity and inflammation more than mid-day TRE."
+  },
+  {
+   "id": "skb-barnes2023",
+   "authors": "Barnes LL, Dhana K, Liu X, et al.",
+   "year": 2023,
+   "title": "Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons.",
+   "journal": "N Engl J Med",
+   "pmid": "37466280",
+   "doi": "10.1056/NEJMoa2302368",
+   "type": "rct",
+   "n": "604 adults 65+ with family history of dementia",
+   "finding": "The 3-year MIND trial: global cognition improved similarly with the MIND diet and a control diet, both with mild caloric restriction (difference 0.035 SD, P=0.23); MRI outcomes did not differ."
+  },
+  {
+   "id": "skb-glans2023",
+   "authors": "Glans I, Sonestedt E, Nägga K, et al.",
+   "year": 2023,
+   "title": "Association Between Dietary Habits in Midlife With Dementia Incidence Over a 20-Year Period.",
+   "journal": "Neurology",
+   "pmid": "36224029",
+   "doi": "10.1212/WNL.0000000000201336",
+   "type": "cohort",
+   "n": "28,025 adults (Malmo)",
+   "finding": "Over 20 years, midlife adherence to conventional dietary guidelines or a modified Mediterranean diet was not associated with dementia, Alzheimer disease or amyloid accumulation."
+  },
+  {
+   "id": "skb-hosking2019",
+   "authors": "Hosking DE, Eramudugolla R, Cherbuin N, et al.",
+   "year": 2019,
+   "title": "MIND not Mediterranean diet related to 12-year incidence of cognitive impairment in an Australian longitudinal cohort study.",
+   "journal": "Alzheimers Dement",
+   "pmid": "30826160",
+   "doi": "10.1016/j.jalz.2018.12.011",
+   "type": "cohort",
+   "n": "1220 adults (Canberra)",
+   "finding": "MIND-diet adherence, but not Mediterranean-diet adherence, was associated with lower 12-year odds of cognitive impairment (OR 0.47)."
+  },
+  {
+   "id": "skb-morris2015",
+   "authors": "Morris MC, Tangney CC, Wang Y, et al.",
+   "year": 2015,
+   "title": "MIND diet associated with reduced incidence of Alzheimer's disease.",
+   "journal": "Alzheimers Dement",
+   "pmid": "25681666",
+   "doi": "10.1016/j.jalz.2014.11.009",
+   "type": "cohort",
+   "n": "923 adults (Rush Memory and Aging Project)",
+   "finding": "Highest vs lowest tertile of MIND-diet score was associated with 53% lower Alzheimer incidence (HR 0.47); moderate adherence was associated with 35% lower risk."
+  },
+  {
+   "id": "skb-vallspedret2015",
+   "authors": "Valls-Pedret C, Sala-Vila A, Serra-Mir M, et al.",
+   "year": 2015,
+   "title": "Mediterranean Diet and Age-Related Cognitive Decline: A Randomized Clinical Trial.",
+   "journal": "JAMA Intern Med",
+   "pmid": "25961184",
+   "doi": "10.1001/jamainternmed.2015.1668",
+   "type": "rct",
+   "n": "447 adults (334 with follow-up)",
+   "finding": "PREDIMED-Barcelona substudy: Mediterranean diet plus olive oil or nuts improved memory or frontal composites versus a low-fat control diet over about 4 years, in which cognition declined."
+  },
+  {
+   "id": "env-baudry2018",
+   "authors": "Baudry J, Assmann KE, Touvier M, et al.",
+   "year": 2018,
+   "title": "Association of Frequency of Organic Food Consumption With Cancer Risk: Findings From the NutriNet-Santé Prospective Cohort Study.",
+   "journal": "JAMA Intern Med",
+   "pmid": "30422212",
+   "doi": "10.1001/jamainternmed.2018.4357",
+   "type": "cohort",
+   "n": "68,946 French adults",
+   "finding": "The highest quartile of organic food consumption was associated with 25% lower cancer risk (HR 0.75; absolute risk reduction 0.6%)."
+  },
+  {
+   "id": "env-berlivet2026",
+   "authors": "Berlivet J, Meyer E, Allès B, et al.",
+   "year": 2026,
+   "title": "Consumption of organic compared with conventional fruits and vegetables in relation to cancer risk: findings from the NutriNet-Santé cohort study.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "41862000",
+   "doi": "10.1016/j.ajcnut.2026.101284",
+   "type": "cohort",
+   "n": "31,179 French adults",
+   "finding": "Substituting organic for conventional fruit and vegetables (per 100 g/day) was associated with lower postmenopausal breast cancer (HR 0.90) but not robustly with overall cancer."
+  },
+  {
+   "id": "env-chiu2018",
+   "authors": "Chiu YH, Williams PL, Gillman MW, et al.",
+   "year": 2018,
+   "title": "Association Between Pesticide Residue Intake From Consumption of Fruits and Vegetables and Pregnancy Outcomes Among Women Undergoing Infertility Treatment With Assisted Reproductive Technology.",
+   "journal": "JAMA Intern Med",
+   "pmid": "29084307",
+   "doi": "10.1001/jamainternmed.2017.5038",
+   "type": "cohort",
+   "n": "325 women, 541 ART cycles",
+   "finding": "Women eating the most high-pesticide-residue produce (>=2.3 servings/day) had 18% lower probability of clinical pregnancy and 26% lower probability of live birth than those eating <1 serving/day."
+  },
+  {
+   "id": "env-gonzalez2023",
+   "authors": "González N, Pàmies C, Martinez P, et al.",
+   "year": 2023,
+   "title": "Effects of an organic diet intervention on the levels of organophosphorus metabolites in an adult cohort.",
+   "journal": "Food Res Int",
+   "pmid": "37803657",
+   "doi": "10.1016/j.foodres.2023.113354",
+   "type": "rct",
+   "n": "adult cohort (Spain)",
+   "finding": "An organic diet intervention significantly lowered urinary dialkyl phosphate (organophosphate) metabolites, e.g. total DAP by about 75%."
+  },
+  {
+   "id": "env-hemler2018",
+   "authors": "Hemler EC, Chavarro JE, Hu FB",
+   "year": 2018,
+   "title": "Organic Foods for Cancer Prevention-Worth the Investment?",
+   "journal": "JAMA Intern Med",
+   "pmid": "30422205",
+   "doi": "10.1001/jamainternmed.2018.4363",
+   "type": "review",
+   "n": null,
+   "finding": "Invited commentary questioning whether the NutriNet-Sante organic-cancer association justifies the cost of organic food."
+  },
+  {
+   "id": "env-hyland2019",
+   "authors": "Hyland C, Bradman A, Gerona R, et al.",
+   "year": 2019,
+   "title": "Organic diet intervention significantly reduces urinary pesticide levels in U.S. children and adults.",
+   "journal": "Environ Res",
+   "pmid": "30765100",
+   "doi": "10.1016/j.envres.2019.01.024",
+   "type": "cohort",
+   "n": "16 people in 4 families",
+   "finding": "Switching to an organic diet cut urinary levels of 13 pesticide metabolites, e.g. malathion metabolite -95%, chlorpyrifos metabolite -61%, clothianidin -83%."
+  },
+  {
+   "id": "env-hyland2023",
+   "authors": "Hyland C, Spivak M, Sheppard L, et al.",
+   "year": 2023,
+   "title": "Urinary Glyphosate Concentrations among Pregnant Participants in a Randomized, Crossover Trial of Organic and Conventional Diets.",
+   "journal": "Environ Health Perspect",
+   "pmid": "37493357",
+   "doi": "10.1289/EHP12155",
+   "type": "rct",
+   "n": "39 pregnant women (crossover)",
+   "finding": "An organic grocery week modestly lowered urinary glyphosate in women living >0.5 km from fields but not in those living near fields."
+  },
+  {
+   "id": "env-kazemi2025",
+   "authors": "Kazemi M, Salas-Huetos A, Mitsunami M, et al.",
+   "year": 2025,
+   "title": "Male partner pesticide residue exposure from fruit and vegetable intake in relation to outcomes of infertility treatment: a prospective cohort study.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "41338693",
+   "doi": "10.1016/j.ajcnut.2025.09.016",
+   "type": "cohort",
+   "n": "244 couples, 437 ART cycles",
+   "finding": "Male intake of high-pesticide-residue produce was associated with lower fertilization rates and live birth in conventional IVF; low-residue produce with higher fertilization."
+  },
+  {
+   "id": "env-komati2025",
+   "authors": "Komati N, Cravedi JP, Lecerf JM, et al.",
+   "year": 2025,
+   "title": "Potential Health Benefits of a Diet Rich in Organic Fruit and Vegetables versus a Diet Based on Conventional Produce: A Systematic Review.",
+   "journal": "Nutr Rev",
+   "pmid": "39101594",
+   "doi": "10.1093/nutrit/nuae104",
+   "type": "review",
+   "n": "12 human studies",
+   "finding": "Current data do not allow a firm conclusion that diets rich in organic fruit and vegetables are healthier; results were contradictory with methodological limitations."
+  },
+  {
+   "id": "env-poulia2025",
+   "authors": "Poulia KA, Bakaloudi DR, Alevizou M, et al.",
+   "year": 2025,
+   "title": "Impact of organic foods on chronic diseases and health perception: a systematic review of the evidence.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "39261657",
+   "doi": "10.1038/s41430-024-01505-w",
+   "type": "review",
+   "n": "21 studies",
+   "finding": "Organic food consumption was linked to lower cardiometabolic risk in prospective studies and consistently lower pesticide exposure in trials; cancer data inconclusive."
+  },
+  {
+   "id": "env-wesselink2020",
+   "authors": "Wesselink AK, Hatch EE, Rothman KJ, et al.",
+   "year": 2020,
+   "title": "Pesticide residue intake from fruits and vegetables and fecundability in a North American preconception cohort study.",
+   "journal": "Environ Int",
+   "pmid": "32259756",
+   "doi": "10.1016/j.envint.2020.105693",
+   "type": "cohort",
+   "n": "5234 women trying to conceive",
+   "finding": "Intake of high- or low-pesticide-residue produce was not related to fecundability; inverse links seen only in women already trying for 3-6 cycles suggested reverse causation."
   }
  ]
 }
