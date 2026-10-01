@@ -1,0 +1,716 @@
+{
+  "exclude": [
+    "maternal-age",
+    "paternal-age",
+    "chemo-radiation",
+    "varicocele",
+    "chronic-inflammation",
+    "pcos",
+    "endometriosis",
+    "febrile-illness",
+    "genital-tract-infection",
+    "testicular-sperm-icsi",
+    "sleep-apnea",
+    "periodontal-disease",
+    "shift-work-circadian",
+    "testosterone-anabolic-steroids",
+    "cannabis",
+    "secondhand-smoke",
+    "vaping",
+    "varicocele-repair",
+    "indoor-combustion-smoke",
+    "iron-excess",
+    "green-tea-extract",
+    "ozone-therapy",
+    "grounding-earthing",
+    "cycling"
+  ],
+  "pairs": [
+    [
+      "weight-loss",
+      "excess-adiposity"
+    ],
+    [
+      "varicocele-repair",
+      "varicocele"
+    ],
+    [
+      "tobacco-smoking",
+      "secondhand-smoke"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "multi": true,
+      "label": "What are you optimizing for?",
+      "help": "Pick one or more.",
+      "options": [
+        {
+          "value": "general",
+          "label": "Overall oxidative stress"
+        },
+        {
+          "value": "sperm",
+          "label": "Sperm health / DNA fragmentation"
+        },
+        {
+          "value": "egg",
+          "label": "Egg quality",
+          "note": "Trying to conceive or pregnant: keep caffeine under about 200 mg/day (roughly 2 cups of coffee), mainly because of miscarriage risk. Take folic acid (400–800 µg/day) starting at least a month before conception."
+        }
+      ]
+    },
+    {
+      "id": "smoke",
+      "label": "Do you smoke or vape?",
+      "options": [
+        {
+          "value": "cig",
+          "label": "Yes, tobacco",
+          "boost": {
+            "tobacco-smoking": 3,
+            "beta-carotene-supplement": 1
+          },
+          "note": "Quitting is the single largest lever on this site. In studies, F2-isoprostanes fell within 2–4 weeks of quitting; semen quality improves over about 3 months. Cutting down without quitting did not lower oxidative markers in an RCT. Avoid beta-carotene supplements while you smoke: they raised lung cancer risk in smokers."
+        },
+        {
+          "value": "vape",
+          "label": "Vape only",
+          "boost": {
+            "vaping": 2
+          },
+          "hide": [
+            "tobacco-smoking"
+          ]
+        },
+        {
+          "value": "around",
+          "label": "No, but I'm around smoke",
+          "boost": {
+            "secondhand-smoke": 2
+          },
+          "hide": [
+            "tobacco-smoking",
+            "vaping"
+          ]
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "hide": [
+            "tobacco-smoking",
+            "vaping",
+            "secondhand-smoke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmi",
+      "label": "Body mass index (BMI)?",
+      "help": "Rough is fine. BMI = weight (kg) ÷ height (m)².",
+      "options": [
+        {
+          "value": "under",
+          "label": "Under 18.5",
+          "boost": {
+            "overtraining-ultraendurance": 1
+          },
+          "hide": [
+            "weight-loss",
+            "excess-adiposity",
+            "calorie-restriction",
+            "intermittent-fasting"
+          ],
+          "note": "Being underweight or under-fuelled (low energy availability) can disrupt ovulation and hormone levels. Calorie restriction isn't for you."
+        },
+        {
+          "value": "normal",
+          "label": "18.5–25",
+          "hide": [
+            "weight-loss",
+            "excess-adiposity"
+          ]
+        },
+        {
+          "value": "over",
+          "label": "25–30",
+          "boost": {
+            "weight-loss": 1
+          }
+        },
+        {
+          "value": "obese",
+          "label": "30 or more",
+          "boost": {
+            "weight-loss": 3,
+            "glycemic-control": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "exercise",
+      "label": "How much do you exercise?",
+      "options": [
+        {
+          "value": "none",
+          "label": "Mostly sedentary",
+          "boost": {
+            "aerobic-exercise-moderate": 2,
+            "sedentary-time": 2
+          }
+        },
+        {
+          "value": "some",
+          "label": "Some, under 150 min/week",
+          "boost": {
+            "aerobic-exercise-moderate": 1,
+            "resistance-training": 0.5
+          }
+        },
+        {
+          "value": "meets",
+          "label": "150–300 min/week",
+          "boost": {
+            "aerobic-exercise-moderate": -1,
+            "hiit-vigorous-exercise": 0.5
+          },
+          "hide": [
+            "sedentary-time"
+          ]
+        },
+        {
+          "value": "athlete",
+          "label": "Endurance athlete (10+ h/week)",
+          "boost": {
+            "overtraining-ultraendurance": 2.5,
+            "antioxidant-megadoses-during-training": 1.5,
+            "aerobic-exercise-moderate": -2,
+            "cycling": 0.5
+          },
+          "hide": [
+            "sedentary-time"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alcohol",
+      "label": "Alcohol per week?",
+      "options": [
+        {
+          "value": "none",
+          "label": "None",
+          "hide": [
+            "alcohol",
+            "red-wine-resveratrol"
+          ]
+        },
+        {
+          "value": "light",
+          "label": "1–7 drinks"
+        },
+        {
+          "value": "moderate",
+          "label": "8–14 drinks",
+          "boost": {
+            "alcohol": 1.5
+          }
+        },
+        {
+          "value": "heavy",
+          "label": "More than 14",
+          "boost": {
+            "alcohol": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "sleep",
+      "label": "Typical sleep per night?",
+      "options": [
+        {
+          "value": "short",
+          "label": "Under 6 h",
+          "boost": {
+            "short-sleep": 2
+          }
+        },
+        {
+          "value": "mid",
+          "label": "6–7 h",
+          "boost": {
+            "short-sleep": 1
+          }
+        },
+        {
+          "value": "ok",
+          "label": "7 h or more",
+          "hide": [
+            "short-sleep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "label": "How would you describe your diet?",
+      "options": [
+        {
+          "value": "processed",
+          "label": "Lots of fast or processed food",
+          "boost": {
+            "mediterranean-diet": 2,
+            "processed-red-meat": 1.5,
+            "refined-sugar-high-glycemic": 1.5,
+            "oxidized-frying-oils": 1,
+            "trans-fats": 1,
+            "high-fruit-vegetable-intake": 1
+          }
+        },
+        {
+          "value": "mixed",
+          "label": "Typical / mixed",
+          "boost": {
+            "mediterranean-diet": 1,
+            "high-fruit-vegetable-intake": 0.5
+          }
+        },
+        {
+          "value": "whole",
+          "label": "Mostly whole foods"
+        },
+        {
+          "value": "plant",
+          "label": "Vegetarian or vegan",
+          "hide": [
+            "processed-red-meat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "multi": true,
+      "label": "Do any of these apply?",
+      "options": [
+        {
+          "value": "diabetes",
+          "label": "Diabetes or prediabetes",
+          "boost": {
+            "glycemic-control": 2.5
+          }
+        },
+        {
+          "value": "apnea",
+          "label": "Loud snoring / sleep apnea",
+          "boost": {
+            "sleep-apnea": 2.5
+          }
+        },
+        {
+          "value": "shift",
+          "label": "Night shifts",
+          "boost": {
+            "shift-work-circadian": 1.5
+          }
+        },
+        {
+          "value": "stress",
+          "label": "Chronic high stress",
+          "boost": {
+            "psychological-stress": 1,
+            "meditation-yoga": 0.5
+          }
+        },
+        {
+          "value": "gums",
+          "label": "Gum disease / bleeding gums",
+          "boost": {
+            "periodontal-disease": 1.5
+          }
+        },
+        {
+          "value": "traffic",
+          "label": "Heavy traffic or wildfire smoke nearby",
+          "boost": {
+            "outdoor-air-pollution": 1.5,
+            "hepa-air-purifier": 1.5
+          }
+        },
+        {
+          "value": "indoor",
+          "label": "Wood stove, or gas cooking without a hood",
+          "boost": {
+            "indoor-combustion-smoke": 1.5,
+            "hepa-air-purifier": 0.5
+          }
+        },
+        {
+          "value": "none",
+          "label": "None of these"
+        }
+      ]
+    },
+    {
+      "id": "supps",
+      "multi": true,
+      "label": "Are you taking any of these?",
+      "options": [
+        {
+          "value": "acocktail",
+          "label": "High-dose vitamin C/E or an 'antioxidant formula'",
+          "boost": {
+            "high-dose-antioxidant-cocktail": 3,
+            "antioxidant-megadoses-during-training": 1,
+            "vitamin-e-supplement": 1
+          }
+        },
+        {
+          "value": "bcarotene",
+          "label": "Beta-carotene or high-dose vitamin A",
+          "boost": {
+            "beta-carotene-supplement": 3
+          }
+        },
+        {
+          "value": "iron",
+          "label": "Iron, without a diagnosed deficiency",
+          "boost": {
+            "iron-excess": 2
+          }
+        },
+        {
+          "value": "gte",
+          "label": "Green tea extract / EGCG pills",
+          "boost": {
+            "green-tea-extract": 3
+          }
+        },
+        {
+          "value": "none",
+          "label": "None of these"
+        }
+      ]
+    },
+    {
+      "id": "heat",
+      "multi": true,
+      "label": "Testicular heat: any of these?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "sauna",
+          "label": "Sauna, hot tub, or hot baths weekly",
+          "boost": {
+            "sauna": 3
+          }
+        },
+        {
+          "value": "everyday",
+          "label": "Laptop on lap, tight underwear, hot job, or long sitting",
+          "boost": {
+            "everyday-scrotal-heat": 2
+          }
+        },
+        {
+          "value": "cycling",
+          "label": "Cycling more than 5 h/week",
+          "boost": {
+            "cycling": 1.5
+          }
+        },
+        {
+          "value": "none",
+          "label": "None",
+          "hide": [
+            "sauna",
+            "everyday-scrotal-heat",
+            "cycling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trt",
+      "label": "Using testosterone, anabolic steroids, or SARMs?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "boost": {
+            "testosterone-anabolic-steroids": 6
+          },
+          "note": "Exogenous testosterone shuts down sperm production. Come off it only with a doctor (often a urologist or reproductive endocrinologist); recovery can take many months to over a year."
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "hide": [
+            "testosterone-anabolic-steroids"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cannabis",
+      "label": "Cannabis use?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes, regularly",
+          "boost": {
+            "cannabis": 2
+          }
+        },
+        {
+          "value": "no",
+          "label": "No or rarely",
+          "hide": [
+            "cannabis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "varicocele",
+      "label": "Has a doctor found a varicocele?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "boost": {
+            "varicocele-repair": 3
+          }
+        },
+        {
+          "value": "unknown",
+          "label": "Never been examined",
+          "note": "A urologist can check for a varicocele with a quick physical exam. Clinical varicocele is the most common correctable cause of high sperm DNA fragmentation."
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "hide": [
+            "varicocele",
+            "varicocele-repair"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freq",
+      "label": "How often do you ejaculate?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "often",
+          "label": "Every 1–2 days",
+          "boost": {
+            "short-abstinence": -1
+          }
+        },
+        {
+          "value": "rare",
+          "label": "Less than every 3 days",
+          "boost": {
+            "short-abstinence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "fever",
+      "label": "Fever or flu-like illness in the past 3 months?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "boost": {
+            "febrile-illness": 1.5
+          },
+          "note": "Semen quality and DNA integrity can dip for 2–3 months after a fever. If you're getting a semen analysis or DNA fragmentation test, time it accordingly."
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "hide": [
+            "febrile-illness"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "male-clinic",
+      "multi": true,
+      "label": "Any results or treatment so far?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "sperm"
+        }
+      ],
+      "options": [
+        {
+          "value": "infection",
+          "label": "White cells in semen or a genital infection",
+          "boost": {
+            "genital-tract-infection": 3
+          }
+        },
+        {
+          "value": "highsdf",
+          "label": "High DNA fragmentation, doing IVF/ICSI",
+          "boost": {
+            "testicular-sperm-icsi": 2,
+            "short-abstinence": 2
+          }
+        },
+        {
+          "value": "none",
+          "label": "None yet"
+        }
+      ]
+    },
+    {
+      "id": "age",
+      "label": "Age of the person whose eggs are being used?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "egg"
+        }
+      ],
+      "options": [
+        {
+          "value": "u35",
+          "label": "Under 35"
+        },
+        {
+          "value": "35",
+          "label": "35–39",
+          "note": "Age is the dominant factor in egg quality, mostly through chromosome errors, and no supplement or lifestyle change has been shown to reverse it. Time matters more than any item below; if you're not pregnant after 6 months of trying, see a fertility specialist."
+        },
+        {
+          "value": "40",
+          "label": "40 or older",
+          "note": "Age is the dominant factor in egg quality, mostly through chromosome errors, and nothing has been shown to reverse it in humans. See a fertility specialist promptly; the items below support the odds but won't offset age."
+        }
+      ]
+    },
+    {
+      "id": "female-cond",
+      "multi": true,
+      "label": "Any of these diagnoses?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "egg"
+        }
+      ],
+      "options": [
+        {
+          "value": "pcos",
+          "label": "PCOS",
+          "boost": {
+            "pcos": 2,
+            "myo-inositol": 2,
+            "n-acetylcysteine": 1,
+            "weight-loss": 0.5,
+            "glycemic-control": 1
+          }
+        },
+        {
+          "value": "endo",
+          "label": "Endometriosis",
+          "boost": {
+            "endometriosis": 2
+          }
+        },
+        {
+          "value": "diabetes",
+          "label": "Diabetes / insulin resistance",
+          "boost": {
+            "glycemic-control": 2
+          }
+        },
+        {
+          "value": "none",
+          "label": "None",
+          "hide": [
+            "pcos",
+            "myo-inositol",
+            "endometriosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ivf",
+      "label": "Fertility treatment plans?",
+      "show_if": [
+        {
+          "q": "goal",
+          "value": "egg"
+        }
+      ],
+      "options": [
+        {
+          "value": "natural",
+          "label": "Trying naturally"
+        },
+        {
+          "value": "ivf",
+          "label": "Planning IVF"
+        },
+        {
+          "value": "poor",
+          "label": "IVF, told I'm a poor responder",
+          "boost": {
+            "coq10": 2.5,
+            "dhea": 0.5
+          },
+          "note": "For poor responders, CoQ10 (600 mg/day for about 60 days before stimulation) has the best trial support among supplements: more eggs and better embryos, but no significant difference in live birth yet. Discuss with your clinic."
+        }
+      ]
+    }
+  ],
+  "footer": "This plan is a starting point built from impact ratings and your answers, not a prescription. Effects on sperm show up after about 2–3 months (one spermatogenic cycle) and on eggs after about 3 months (folliculogenesis), so start early. Check any supplement with a clinician, especially when trying to conceive."
+}

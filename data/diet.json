@@ -1,0 +1,4099 @@
+{
+ "area": "diet",
+ "title": "Foods, drinks & dietary patterns",
+ "summary": "How specific foods, drinks and eating patterns change systemic oxidative stress in humans. The biggest dietary levers are not 'antioxidant superfoods' but avoiding chronic overfeeding, large high-glycemic and high-fat meal spikes, alcohol, processed meat and high-heat dry cooking, inside a Mediterranean-style pattern. Among individual foods, high-phenolic extra-virgin olive oil, cruciferous foods that actually deliver sulforaphane (sprouts, seed powder with active myrosinase, raw or mustard-dressed broccoli), filtered coffee, blueberries, cocoa flavanols and brewed green tea have the best human evidence. Polyphenol milligrams and ORAC scores do not predict benefit: these compounds work through different routes (Nrf2 electrophile signalling, gut-microbial metabolites, endothelial nitric oxide, blunting NADPH oxidase), most show thresholds and plateaus, and very few human trials measure validated oxidative-damage markers.",
+ "factors": [
+  {
+   "id": "broccoli-sprouts",
+   "name": "Broccoli sprouts (fresh, chewed)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "The richest whole-food source of glucoraphanin plus active myrosinase; daily intake reliably delivers sulforaphane and induces Nrf2-driven detoxication in human trials, but direct proof of lower oxidative damage in healthy people is thin.",
+   "dose": {
+    "effective": "About 30-40 g fresh sprouts daily (a small handful) in food trials; detoxication trials used beverages giving ~600 µmol glucoraphanin + 40 µmol sulforaphane per day, and the lowest clearly effective dose produced ~25 µmol urinary sulforaphane metabolites per day.",
+    "studied_range": "30 g/day for 10 weeks; 40 g single servings; up to 200 g sprouts as homogenate (dose escalation); beverages 400-600 µmol glucoraphanin/day for 2-12 weeks.",
+    "too_much": "No toxicity at trial doses; a 12-week beverage trial found no effect on thyroid hormones or thyroid autoimmunity. Very high doses cause bitterness and GI upset.",
+    "timeframe": "Enzyme induction within a day; detox biomarker changes within 1-2 weeks and sustained for 12 weeks without tolerance.",
+    "notes": "Chew thoroughly: chewing intact sprouts raised sulforaphane metabolite excretion vs swallowing whole. Sprouts gave ~3x more absorbed sulforaphane than a myrosinase-treated extract at the same nominal dose. Conversion of glucoraphanin by gut bacteria alone varies 1% to >40% between people."
+   },
+   "mechanism": "Myrosinase released on chewing hydrolyses glucoraphanin to sulforaphane, an electrophilic isothiocyanate that modifies KEAP1 cysteines, freeing Nrf2 to induce glutathione synthesis, GSTs, NQO1 and HO-1. This is an indirect, catalytic antioxidant effect (enzymes are not consumed), not radical scavenging.",
+   "pathways": [
+    "nrf2",
+    "hormesis"
+   ],
+   "interactions": "Partly redundant with [broccoli-seed-powder], [sulforaphane-supplements] and other strong Nrf2 inducers: human dose-response data show a threshold (Qidong benzene trial: only the full dose worked) but no established plateau; stacking several strong doses on the same day likely gives diminishing returns for the Nrf2-specific effect. Not redundant with polyphenol foods ([blueberries], [coffee], [cocoa-flavanols]) that act mainly on endothelium, NADPH oxidase and gut. Eating mature [broccoli-mature] still adds fiber, vitamin C, folate and lutein that sprouts and seed powder do not replace.",
+   "caveats": "Most oxidative-stress positives come from small trials (e.g. broccoli sprout powder in type 2 diabetes lowered MDA and oxidized LDL, but the sulforaphane dose was taken from manufacturer claims, which later assays did not confirm). A 4-week sulforaphane trial in COPD (25 and 150 µmol/day) found no Nrf2 target induction in lung cells and no change in oxidative markers. Benefits for hard outcomes are unproven.",
+   "key_numbers": [
+    {
+     "label": "Glucoraphanin in 3-day sprouts vs mature heads",
+     "value": 10,
+     "unit": "x to 100x higher (fold)",
+     "source": "fahey1997"
+    },
+    {
+     "label": "Fresh sprouts vs myrosinase-treated extract, absorbed sulforaphane",
+     "value": 3,
+     "unit": "fold higher",
+     "source": "atwell2015"
+    },
+    {
+     "label": "Daily urinary sulforaphane metabolites at lowest effective dose",
+     "value": 25,
+     "unit": "µmol/day",
+     "source": "chen2019"
+    },
+    {
+     "label": "Increase in benzene mercapturic acid excretion (12 wk)",
+     "value": 61,
+     "unit": "%",
+     "source": "egner2014"
+    }
+   ],
+   "refs": [
+    "fahey1997",
+    "shapiro2001",
+    "atwell2015",
+    "fahey2012",
+    "egner2014",
+    "chen2019",
+    "kensler2005",
+    "riedl2009",
+    "lopezchillon2019",
+    "clarke2011",
+    "bahadoran2011",
+    "bahadoran2012",
+    "wise2016",
+    "chartoumpekis2019",
+    "yagishita2019"
+   ]
+  },
+  {
+   "id": "broccoli-seed-powder",
+   "name": "Broccoli seed powder (with active myrosinase)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "limited",
+   "headline": "Seeds are the most concentrated glucoraphanin source, and taken whole (not extracted) their own myrosinase makes sulforaphane 3-4x more bioavailable than glucoraphanin-only preparations; outcome trials with seed powder itself are scarce.",
+   "dose": {
+    "effective": "Doses delivering roughly 50-230 µmol glucoraphanin were used in bioavailability studies; aim for a dose that, given ~30-40% conversion with active myrosinase, supplies tens of µmol sulforaphane (comparable to the effective Qidong beverage dose).",
+    "studied_range": "50-230 µmol glucoraphanin per dose in pharmacokinetic studies.",
+    "too_much": "Not established; bitterness and GI upset at high intakes. Product potency varies widely.",
+    "timeframe": "Sulforaphane metabolites peak within hours; plasma half-life ~2.5 h, so effects are pulsatile with daily dosing.",
+    "notes": "Mix ground seed into cool or room-temperature food or water and let it sit a few minutes before eating; do not cook it (heat kills myrosinase). Adding seed powder to cooked broccoli works on the same principle as [mustard-seed-myrosinase]."
+   },
+   "mechanism": "Same Nrf2/KEAP1 electrophile mechanism as sprouts; seed powder supplies both substrate (glucoraphanin) and enzyme (myrosinase).",
+   "pathways": [
+    "nrf2",
+    "hormesis"
+   ],
+   "interactions": "Directly redundant with [broccoli-sprouts] and [sulforaphane-supplements] for the Nrf2 effect; see the saturation discussion. Complements polyphenol foods.",
+   "caveats": "Bioavailability data come from small volunteer groups. No trial has shown that seed powder lowers validated oxidative-damage markers (F2-isoprostanes, 8-oxo-dG) in healthy people.",
+   "key_numbers": [
+    {
+     "label": "Bioavailability with active plant myrosinase vs glucoraphanin alone",
+     "value": 3.5,
+     "unit": "fold (3-4x)",
+     "source": "fahey2015"
+    },
+    {
+     "label": "Glucoraphanin-only supplement, conversion to urinary metabolites",
+     "value": 10,
+     "unit": "% of dose (about 8-13%)",
+     "source": "fahey2015"
+    }
+   ],
+   "refs": [
+    "fahey2015",
+    "yagishita2019",
+    "vermeulen2008",
+    "fahey2012"
+   ]
+  },
+  {
+   "id": "broccoli-mature",
+   "name": "Mature broccoli (raw or lightly cooked)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "200 g raw broccoli delivers about 3-10x more sulforaphane than fully cooked broccoli because cooking destroys myrosinase; glucoraphanin content of supermarket heads varies more than 100-fold.",
+   "dose": {
+    "effective": "~200 g (2 cups) raw, chopped and chewed well, or lightly steamed; or cooked broccoli with a pinch of mustard powder.",
+    "studied_range": "200 g single servings (pharmacokinetics); 250-400 g/day for 12 days to 12 weeks in metabolic studies.",
+    "too_much": null,
+    "timeframe": "Sulforaphane peaks 1.6 h after raw and ~6 h after cooked broccoli.",
+    "notes": "Raw: 32-37% of the potential isothiocyanate excreted; steamed/cooked: 3.4-10%. Mild heating (about 60 °C) can actually increase sulforaphane by inactivating epithiospecifier protein (which diverts glucoraphanin to an inactive nitrile), but 70 °C and above destroys myrosinase in florets. Frozen broccoli has been blanched and yields far less."
+   },
+   "mechanism": "Nrf2 activation by sulforaphane; plus vitamin C, carotenoids (lutein), folate and fiber. Mature heads also contain indole glucosinolates, which sprouts largely lack.",
+   "pathways": [
+    "nrf2",
+    "direct-scavenging"
+   ],
+   "interactions": "If you already take a strong sulforaphane dose ([broccoli-seed-powder], [broccoli-sprouts]), the extra Nrf2 boost from broccoli is probably smaller, but its vitamin C (89 mg/100 g), lutein and fiber are not duplicated. Add [mustard-seed-myrosinase] when eating it cooked.",
+   "caveats": "Rough arithmetic: supermarket heads averaged 0.38 µmol glucoraphanin/g, so 200 g holds ~76 µmol; raw, ~30% may reach urine as sulforaphane metabolites (~25 µmol), similar to the effective Qidong threshold. But heads ranged from <0.005 to 1.13 µmol/g, so any single head could be far lower.",
+   "key_numbers": [
+    {
+     "label": "Sulforaphane bioavailability, raw broccoli",
+     "value": 37,
+     "unit": "%",
+     "source": "vermeulen2008"
+    },
+    {
+     "label": "Sulforaphane bioavailability, cooked broccoli",
+     "value": 3.4,
+     "unit": "%",
+     "source": "vermeulen2008"
+    },
+    {
+     "label": "Glucoraphanin, supermarket heads (mean)",
+     "value": 0.38,
+     "unit": "µmol/g fresh weight",
+     "source": "yagishita2019"
+    },
+    {
+     "label": "Total polyphenols, Folin assay",
+     "value": 199,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, chromatography (sum of compounds)",
+     "value": 45,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Vitamin C",
+     "value": 89,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    }
+   ],
+   "refs": [
+    "conaway2000",
+    "vermeulen2008",
+    "matusheski2004",
+    "yagishita2019",
+    "sivapalan2018",
+    "fahey1997"
+   ]
+  },
+  {
+   "id": "mustard-seed-myrosinase",
+   "name": "Mustard powder on cooked crucifers (myrosinase add-back)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Sprinkling 1 g of powdered brown mustard on 200 g of cooked broccoli raised sulforaphane metabolite excretion about 4.5-fold, restoring much of what cooking destroys.",
+   "dose": {
+    "effective": "About 1 g (roughly 1/2 teaspoon) powdered brown mustard per 200 g cooked broccoli, added after cooking.",
+    "studied_range": "1 g mustard powder with 200 g cooked broccoli, single meal, crossover in 12 adults.",
+    "too_much": null,
+    "timeframe": "Same meal.",
+    "notes": "Add after cooking, once the food is below boiling; heat inactivates mustard myrosinase too. Raw daikon radish or a little broccoli seed powder works on the same principle (daikon myrosinase was used to make sulforaphane-rich beverages)."
+   },
+   "mechanism": "Exogenous myrosinase hydrolyses glucoraphanin remaining in cooked broccoli to sulforaphane in the meal and gut, then Nrf2 activation.",
+   "pathways": [
+    "nrf2"
+   ],
+   "interactions": "Turns [broccoli-mature] cooked into a meaningful sulforaphane source; same redundancy considerations as other Nrf2 inducers.",
+   "caveats": "One small pharmacokinetic trial; no outcome data.",
+   "key_numbers": [
+    {
+     "label": "Urinary SF-NAC, cooked broccoli alone",
+     "value": 9.8,
+     "unit": "µmol/g creatinine",
+     "source": "okunade2018"
+    },
+    {
+     "label": "Urinary SF-NAC, cooked broccoli + 1 g mustard",
+     "value": 44.7,
+     "unit": "µmol/g creatinine",
+     "source": "okunade2018"
+    }
+   ],
+   "refs": [
+    "okunade2018",
+    "egner2011"
+   ]
+  },
+  {
+   "id": "sulforaphane-supplements",
+   "name": "Sulforaphane / broccoli extract supplements",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Product type decides everything: glucoraphanin-only pills (no active myrosinase) convert only ~5-20% and very unevenly, whereas sulforaphane-rich or myrosinase-active products deliver ~70% and far more consistently.",
+   "dose": {
+    "effective": "Products that deliver free sulforaphane or include active myrosinase, at doses in the tens of µmol sulforaphane per day.",
+    "studied_range": "25-225 µmol/day sulforaphane in trials; glucoraphanin 25-600 µmol/day.",
+    "too_much": "Not established; doses above ~200 µmol/day are poorly tolerated (taste, GI).",
+    "timeframe": "Hours (pulsatile); daily dosing showed no decline in bioavailability over 12 weeks.",
+    "notes": "Check whether the label states active myrosinase or stabilised sulforaphane. A glucoraphanin-only supplement produced dramatically lower plasma isothiocyanates than 40 g fresh sprouts. Taking glucoraphanin plus sulforaphane blends gives a peak plus a slower, steadier tail."
+   },
+   "mechanism": "Nrf2 activation. Glucoraphanin without myrosinase depends on gut microbial myrosinase-like activity, which antibiotics and bowel cleansing abolish and which differs greatly between people.",
+   "pathways": [
+    "nrf2",
+    "hormesis"
+   ],
+   "interactions": "Redundant with [broccoli-sprouts] and [broccoli-seed-powder]. Interindividual 'converter' status is fairly stable within a person, so poor converters gain more from myrosinase-active forms.",
+   "caveats": "Commercial labels are often unverified (independent assay did not match the claimed dose in one diabetes trial). The COPD trial at 150 µmol/day showed no target-gene induction in lung cells. Long-term strong Nrf2 activation still has open safety questions. One 2-month RCT of glucoraphanin capsules in men with fatty liver reported lower ALT and urinary 8-OHdG.",
+   "key_numbers": [
+    {
+     "label": "Urinary recovery, sulforaphane-rich beverage",
+     "value": 70,
+     "unit": "% of dose",
+     "source": "egner2011"
+    },
+    {
+     "label": "Urinary recovery, glucoraphanin-rich beverage",
+     "value": 5,
+     "unit": "% of dose",
+     "source": "egner2011"
+    },
+    {
+     "label": "Glucoraphanin conversion range between people",
+     "value": 40,
+     "unit": "% (from ~1% to >40%)",
+     "source": "fahey2012"
+    }
+   ],
+   "refs": [
+    "egner2011",
+    "shapiro2006",
+    "fahey2012",
+    "fahey2015",
+    "clarke2011",
+    "atwell2015",
+    "wise2016",
+    "houghton2016",
+    "yagishita2019",
+    "cuadrado2019",
+    "kikuchi2015"
+   ]
+  },
+  {
+   "id": "cruciferous-other",
+   "name": "Other crucifers (kale, cabbage, Brussels sprouts, cauliflower)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Supply other isothiocyanates and indoles plus vitamin C and carotenoids; cohort data link crucifer intake to lower CVD and mortality, but oxidative-stress trials are few.",
+   "dose": {
+    "effective": "1-2 servings (80-160 g) most days, some raw or lightly cooked.",
+    "studied_range": "Cohort intakes; feeding studies 250 g/day cooked crucifers for 12 days.",
+    "too_much": null,
+    "timeframe": "Weeks.",
+    "notes": "Same cooking rules as broccoli: chopping and gentle cooking preserve myrosinase activity."
+   },
+   "mechanism": "Isothiocyanates (Nrf2), vitamin C, carotenoids, fiber.",
+   "pathways": [
+    "nrf2",
+    "direct-scavenging"
+   ],
+   "interactions": "Overlaps with [broccoli-mature] and [leafy-greens].",
+   "caveats": "Inverse associations of cruciferous vegetables with CVD and mortality are observational.",
+   "key_numbers": [
+    {
+     "label": "Vitamin C, kale",
+     "value": 93,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "Lutein + zeaxanthin, kale",
+     "value": 6.3,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    }
+   ],
+   "refs": [
+    "aune2017",
+    "yagishita2019"
+   ]
+  },
+  {
+   "id": "blueberries",
+   "name": "Blueberries",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "One cup (150 g) a day improved endothelial function over 6 months in metabolic syndrome, while half a cup did nothing; several trials show lower oxidized LDL, monocyte ROS or DNA oxidation.",
+   "dose": {
+    "effective": "150 g fresh (1 cup) daily, or ~22-25 g freeze-dried powder.",
+    "studied_range": "75-350 g fresh-equivalent/day for 6 weeks to 6 months; acute doses of 319-1791 mg blueberry polyphenols.",
+    "too_much": null,
+    "timeframe": "Acute FMD rise at 1-2 h and 6 h; chronic effects by 6-12 weeks.",
+    "notes": "Acute FMD rose with dose up to ~766 mg blueberry polyphenols and then plateaued. Frozen wild blueberries count. Juice with added sugar is not equivalent."
+   },
+   "mechanism": "Anthocyanins are poorly absorbed intact; benefits track circulating phenolic metabolites (many made by gut bacteria) that lower neutrophil NADPH oxidase activity and improve nitric-oxide-dependent vasodilation. Not direct radical scavenging in plasma.",
+   "pathways": [
+    "nox",
+    "microbiome",
+    "endothelial"
+   ],
+   "interactions": "Within-class saturation: little extra acute benefit above ~766 mg polyphenols per serving, so megadoses of berry extract are unlikely to add much. Mechanistically complementary to [broccoli-sprouts] (Nrf2) and [extra-virgin-olive-oil].",
+   "caveats": "Trials are small (n=18-115) and often industry-funded; oxidative-marker results are inconsistent across the 45 human studies reviewed, while vascular function results are the most consistent. A 75 g/day dose was ineffective. Insulin resistance, blood pressure and plasma thiols did not change in the 6-month trial.",
+   "key_numbers": [
+    {
+     "label": "Total polyphenols, chromatography (highbush, sum of compounds)",
+     "value": 310,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay (highbush)",
+     "value": 223,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Anthocyanins, pH-differential (highbush)",
+     "value": 164,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Chlorogenic acid (5-CQA), highbush",
+     "value": 131,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "FMD gain with 150 g/day for 6 months",
+     "value": 1.45,
+     "unit": "percentage points",
+     "source": "curtis2019"
+    },
+    {
+     "label": "Acute FMD plateau above",
+     "value": 766,
+     "unit": "mg polyphenols",
+     "source": "rodriguezmateos2013"
+    }
+   ],
+   "refs": [
+    "curtis2019",
+    "rodriguezmateos2013",
+    "stull2015",
+    "nair2017",
+    "basu2010",
+    "riso2013",
+    "johnson2015",
+    "woolf2023",
+    "martini2023",
+    "fairliejones2017",
+    "czank2013",
+    "huang2016",
+    "cassidy2013"
+   ]
+  },
+  {
+   "id": "blackberries",
+   "name": "Blackberries",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "As rich in polyphenols as blueberries (mostly cyanidin-3-glucoside and ellagitannins), but the only human feeding trial measured fat oxidation and insulin sensitivity, not oxidative stress; benefits are inferred from other anthocyanin foods.",
+   "dose": {
+    "effective": "A 150 g serving is a reasonable berry portion by analogy with blueberry trials; 600 g/day was used in the one controlled feeding study.",
+    "studied_range": "600 g/day for 7 days (1500 mg flavonoids/day).",
+    "too_much": null,
+    "timeframe": "Days to weeks.",
+    "notes": "Ellagitannins are converted by gut bacteria to urolithins, and people differ in whether they produce them."
+   },
+   "mechanism": "Anthocyanin and ellagitannin metabolites (gut-derived phenolic acids, urolithins) acting on endothelium and inflammation.",
+   "pathways": [
+    "microbiome",
+    "endothelial"
+   ],
+   "interactions": "Interchangeable with [blueberries] and [berries-other] as a berry serving; little reason to think combining berries beyond ~1 cup/day adds much for oxidative stress.",
+   "caveats": "No RCT on oxidative-stress markers. In a 600 g/day feeding study blackberries lowered 24-h respiratory quotient and insulin AUC in overweight men.",
+   "key_numbers": [
+    {
+     "label": "Total polyphenols, chromatography (sum of compounds)",
+     "value": 257,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay",
+     "value": 569,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Anthocyanins, pH-differential",
+     "value": 147,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "solverson2018",
+    "favari2024",
+    "fairliejones2017",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "berries-other",
+   "name": "Other berries & cherries (strawberry, raspberry, chokeberry, blackcurrant, cranberry, cherries)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Berry RCTs pooled together show small improvements in LDL, systolic blood pressure, glucose and TNF-alpha, and anthocyanin foods improve flow-mediated dilation; specific oxidative-stress effects are inconsistent.",
+   "dose": {
+    "effective": "About 1 cup (150 g) of mixed berries daily, or ~3 servings per week in cohort data.",
+    "studied_range": "Juices, powders and whole fruit in 22 RCTs (1251 people); cranberry juice dose-response trials.",
+    "too_much": null,
+    "timeframe": "Acute (hours) for FMD; weeks for lipids and blood pressure.",
+    "notes": "Chokeberry and blackcurrant are far denser in anthocyanins than strawberries, but higher content has not been shown to give proportionally more benefit."
+   },
+   "mechanism": "Anthocyanin and ellagitannin metabolites; vitamin C in strawberries.",
+   "pathways": [
+    "microbiome",
+    "endothelial"
+   ],
+   "interactions": "Substitutes for [blueberries]; not additive beyond plateau.",
+   "caveats": "Meta-analytic effects are small (LDL -0.21 mmol/L, SBP -2.7 mmHg) and heterogeneous. Cohort link: >3 servings/week of blueberries plus strawberries tended toward lower MI risk in young women (not significant on its own).",
+   "key_numbers": [
+    {
+     "label": "Black chokeberry, total polyphenols (chromatography)",
+     "value": 1108,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Blackcurrant, total polyphenols (chromatography)",
+     "value": 622,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Red raspberry, total polyphenols (chromatography)",
+     "value": 207,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Strawberry, total polyphenols (chromatography)",
+     "value": 98,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Strawberry, vitamin C",
+     "value": 59,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    }
+   ],
+   "refs": [
+    "huang2016",
+    "fairliejones2017",
+    "cassidy2013",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "eggplant",
+   "name": "Eggplant (skin: nasunin; flesh: chlorogenic acid)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "mechanistic",
+   "headline": "Eggplant skin's nasunin is a strong superoxide scavenger and iron chelator in test tubes, and the flesh is rich in chlorogenic acid, but there is no human evidence that eggplant lowers oxidative stress.",
+   "dose": {
+    "effective": "No human dose for oxidative stress exists; eat it as a normal vegetable with the skin on.",
+    "studied_range": "One RCT used 1.2 g/day eggplant powder for 12 weeks (blood pressure outcome, attributed to acetylcholine, not antioxidants).",
+    "too_much": null,
+    "timeframe": "Unknown.",
+    "notes": "Phenol-Explorer has only a Folin value (61 mg/100 g) for whole purple eggplant. Chlorogenic acid is the dominant phenolic (>65% of phenolic acids) but content varies widely by cultivar and fruit segment. Frying in oil soaks up a lot of fat."
+   },
+   "mechanism": "In vitro: nasunin (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside) scavenges superoxide and inhibits hydroxyl radical generation mainly by chelating ferrous iron; chlorogenic acid is metabolised much like coffee chlorogenic acids.",
+   "pathways": [
+    "direct-scavenging",
+    "iron-fenton"
+   ],
+   "interactions": "Chlorogenic acid overlaps with [coffee], which supplies far more per serving.",
+   "caveats": "The nasunin data are from rat brain homogenate and ESR assays at micromolar concentrations that dietary anthocyanins do not reach intact in human tissues. A 12-week RCT of eggplant powder lowered blood pressure in stressed adults, but the authors attribute it to choline esters (acetylcholine), not antioxidants.",
+   "key_numbers": [
+    {
+     "label": "Total polyphenols, Folin assay (whole purple)",
+     "value": 61,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "noda2000",
+    "whitaker2003",
+    "kaushik2017",
+    "nishimura2019",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "coffee",
+   "name": "Coffee (paper-filtered)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "The biggest single polyphenol (chlorogenic acid) source in many Western diets; RCTs at 3-4 cups/day cut background DNA strand breaks by about a quarter and urinary 8-iso-PGF2alpha by ~15%, and cohorts show the lowest mortality at 3-4 cups/day.",
+   "dose": {
+    "effective": "3-4 cups (about 750 mL) per day of paper-filtered coffee.",
+    "studied_range": "200-800 mL/day, from 8 hours to 4 weeks in intervention trials.",
+    "too_much": "Unfiltered coffee (French press, boiled, Turkish) raises LDL cholesterol through cafestol/kahweol; ~10 mg cafestol is in 2-3 cups of cafetiere coffee. Caffeine limits apply in pregnancy (see fertility sections).",
+    "timeframe": "DNA strand-break reduction detectable 2 h after the first cup; sustained at 4 weeks.",
+    "notes": "Paper filters retain the diterpenes. Decaffeinated coffee was also associated with lower mortality, so caffeine is not the whole story. Roast level shifts the compound mix (dark roast: less chlorogenic acid, more N-methylpyridinium)."
+   },
+   "mechanism": "Chlorogenic (caffeoylquinic) acids are partly absorbed in the small intestine and extensively metabolised by gut bacteria to dihydrocaffeic and ferulic acid derivatives; coffee also contains roast-derived compounds such as N-methylpyridinium. Trials show raised glutathione (consistent with induced antioxidant defences) and fewer DNA strand breaks rather than higher plasma 'antioxidant capacity'.",
+   "pathways": [
+    "nrf2",
+    "microbiome"
+   ],
+   "interactions": "Shares chlorogenic acids with [eggplant], [blueberries] and artichoke. Caffeine and fertility: covered elsewhere.",
+   "caveats": "Effects on plasma antioxidant capacity, antioxidant enzymes and lipid/protein damage are unclear across 26 intervention studies; the clearest signal is DNA protection and glutathione. Some positive trials were industry-sponsored. Pregnancy: high intake associated with low birth weight and pregnancy loss.",
+   "key_numbers": [
+    {
+     "label": "Total polyphenols, chromatography (filter coffee, sum of compounds)",
+     "value": 215,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay (filter coffee)",
+     "value": 267,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Chlorogenic acid (5-CQA), filter coffee",
+     "value": 70,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Reduction in spontaneous DNA strand breaks vs water (4 wk, 750 mL/day)",
+     "value": 27,
+     "unit": "%",
+     "source": "bakuradze2015"
+    },
+    {
+     "label": "Fall in urinary 8-iso-PGF2alpha (5 days, 800 mL/day)",
+     "value": 15.3,
+     "unit": "%",
+     "source": "hoelzl2010"
+    },
+    {
+     "label": "All-cause mortality RR at 3-4 cups/day vs none",
+     "value": 0.83,
+     "unit": "relative risk",
+     "source": "poole2017"
+    }
+   ],
+   "refs": [
+    "martini2016",
+    "bakuradze2015",
+    "bakuradze2016",
+    "hoelzl2010",
+    "clifford2017",
+    "poole2017",
+    "ding2015",
+    "urgert1997",
+    "urgert1997b",
+    "medinaremon2011"
+   ]
+  },
+  {
+   "id": "green-tea",
+   "name": "Green tea (brewed)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Four cups a day of decaffeinated green tea cut urinary 8-OHdG by 31% in heavy smokers over 4 months, and 4 cups/day lowered plasma MDA/HNE in metabolic syndrome; evidence in healthy non-smokers is weak.",
+   "dose": {
+    "effective": "About 4 cups (~1 L) per day of brewed green tea.",
+    "studied_range": "4 cups/day for 8 weeks to 4 months.",
+    "too_much": "Brewed tea is considered safe at usual intakes (90-300 mg EGCG/day; heavy drinkers up to ~866 mg/day); rare idiosyncratic liver injury reported. See [green-tea-extract] for the supplement risk.",
+    "timeframe": "Weeks to months.",
+    "notes": "EGCG bioavailability is low and variable; plasma half-life ~3.4 h. Ring-fission valerolactone metabolites appear 3-15 h later."
+   },
+   "mechanism": "Catechins (EGCG, EGC, EC) and their microbial valerolactone metabolites; at physiological doses mild Nrf2 signalling and effects on endothelium rather than plasma radical scavenging.",
+   "pathways": [
+    "nrf2",
+    "microbiome"
+   ],
+   "interactions": "Flavan-3-ols overlap with [cocoa-flavanols]. Tea with meals reduces non-heme iron absorption (relevant to [diet-iron-excess] and to iron-deficient people).",
+   "caveats": "The smoker trial used decaf tea and showed no benefit for black tea. Smokers have high baseline oxidative damage, so the effect may not generalise.",
+   "key_numbers": [
+    {
+     "label": "EGCG in green tea infusion",
+     "value": 27,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, chromatography (sum of compounds)",
+     "value": 89,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Urinary 8-OHdG change in smokers (4 cups/day, 4 months)",
+     "value": -31,
+     "unit": "%",
+     "source": "hakim2003"
+    }
+   ],
+   "refs": [
+    "hakim2003",
+    "basu2010tea",
+    "lee2002",
+    "efsa2018",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "black-tea",
+   "name": "Black tea",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Black tea's catechins are largely converted to theaflavins and thearubigins; in the same smoker trial where green tea cut 8-OHdG, black tea had no effect.",
+   "dose": {
+    "effective": "No oxidative-stress benefit shown; normal intake (2-4 cups) is fine.",
+    "studied_range": "4 cups/day for 4 months.",
+    "too_much": null,
+    "timeframe": null,
+    "notes": "Folin values for black tea are similar to green tea, but the compounds differ."
+   },
+   "mechanism": "Theaflavins/thearubigins and catechins, extensively metabolised by gut bacteria.",
+   "pathways": [
+    "microbiome"
+   ],
+   "interactions": "Reduces non-heme iron absorption when taken with meals.",
+   "caveats": "Cohort associations with cardiovascular outcomes exist but are confounded.",
+   "key_numbers": [
+    {
+     "label": "EGCG in black tea infusion",
+     "value": 9,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay",
+     "value": 104,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "hakim2003",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "green-tea-extract",
+   "name": "High-dose green tea extract (EGCG pills)",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "strong",
+   "headline": "EFSA (2018) concluded that 800 mg EGCG/day or more from supplements significantly raises liver transaminases in RCTs; extracts also cause rare severe liver injury, especially in multi-ingredient products.",
+   "dose": {
+    "effective": "No oxidative-stress benefit beyond brewed tea has been shown.",
+    "studied_range": "Supplements supply 5-1000 mg EGCG/day.",
+    "too_much": ">= 800 mg EGCG/day as a supplement (EFSA). Multi-ingredient products caused more severe injury.",
+    "timeframe": "Liver injury latency averaged ~6 months for green-tea-only products and ~6 weeks for multi-ingredient ones.",
+    "notes": "Brewed tea at traditional intakes is considered safe."
+   },
+   "mechanism": "At high concentrations EGCG becomes pro-oxidant (generating H2O2) and hepatotoxic; patient susceptibility factors appear important.",
+   "pathways": [
+    "direct-scavenging"
+   ],
+   "interactions": "Do not combine with other hepatotoxic supplements.",
+   "caveats": "Absolute risk is low given wide use, but the dose threshold is clear from trials.",
+   "key_numbers": [
+    {
+     "label": "EGCG dose raising transaminases (EFSA)",
+     "value": 800,
+     "unit": "mg/day",
+     "source": "efsa2018"
+    },
+    {
+     "label": "Typical EGCG from brewed green tea",
+     "value": 300,
+     "unit": "mg/day (upper usual)",
+     "source": "efsa2018"
+    }
+   ],
+   "refs": [
+    "efsa2018",
+    "mazzanti2015"
+   ]
+  },
+  {
+   "id": "cocoa-flavanols",
+   "name": "Cocoa flavanols / high-flavanol dark chocolate",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "strong",
+   "headline": "Cocoa flavanols reliably improve endothelial function (EFSA-authorised at 200 mg/day); in the 21,442-person COSMOS trial, 500 mg/day did not significantly cut total CVD events (HR 0.90) but reduced CVD death by 27% as a secondary outcome.",
+   "dose": {
+    "effective": "200 mg cocoa flavanols/day: about 2.5 g high-flavanol cocoa powder or 10 g high-flavanol dark chocolate (EFSA).",
+    "studied_range": "200-900 mg flavanols/day; COSMOS 500 mg/day (80 mg epicatechin) for a median 3.6 years.",
+    "too_much": "Chocolate brings sugar, fat and calories; extracts avoid these. Ordinary chocolate flavanol content varies widely and is rarely labelled.",
+    "timeframe": "FMD rises within hours; chronic improvement plateaued after ~2 weeks.",
+    "notes": "Epicatechin is the key active monomer; blood-pressure effects were larger above 50 mg epicatechin/day."
+   },
+   "mechanism": "(-)-Epicatechin and its metabolites raise endothelial nitric oxide bioavailability and reduce NADPH-oxidase-driven superoxide in vessels; procyanidins are mostly degraded by gut bacteria to valerolactones.",
+   "pathways": [
+    "endothelial",
+    "nox",
+    "microbiome"
+   ],
+   "interactions": "Shares flavan-3-ols with [green-tea], apples and grapes; FMD gains appear regardless of dose in meta-analysis, implying a plateau.",
+   "caveats": "Most vascular trials are short and many were funded by cocoa companies. COSMOS primary endpoint was null; the CVD-death finding is secondary. Direct oxidative-damage markers are seldom measured.",
+   "key_numbers": [
+    {
+     "label": "EFSA dose for endothelial claim",
+     "value": 200,
+     "unit": "mg flavanols/day",
+     "source": "efsa2012"
+    },
+    {
+     "label": "Epicatechin, cocoa powder",
+     "value": 158,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Epicatechin, dark chocolate",
+     "value": 70,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay, cocoa powder",
+     "value": 5624,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Chronic FMD gain (meta-analysis)",
+     "value": 1.34,
+     "unit": "percentage points",
+     "source": "hooper2012"
+    },
+    {
+     "label": "COSMOS CVD death hazard ratio",
+     "value": 0.73,
+     "unit": "HR",
+     "source": "sesso2022"
+    }
+   ],
+   "refs": [
+    "efsa2012",
+    "hooper2012",
+    "sansone2015",
+    "sesso2022",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "extra-virgin-olive-oil",
+   "name": "Extra-virgin olive oil (high-phenolic)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 4
+   },
+   "evidence": "strong",
+   "headline": "In the 200-man EUROLIVE RCT, oxidized LDL fell linearly with olive-oil phenolic content at 25 mL/day; EU law authorises an LDL-protection claim for oils supplying 5 mg hydroxytyrosol and derivatives per 20 g, and PREDIMED's EVOO arm cut major CVD events by ~30%.",
+   "dose": {
+    "effective": "20-25 g (about 2 tablespoons) per day of a high-phenolic EVOO meeting >= 5 mg hydroxytyrosol + derivatives per 20 g.",
+    "studied_range": "25 mL/day for 3 weeks (EUROLIVE); ~1 L/week per household in PREDIMED for years.",
+    "too_much": "Calories (about 120 kcal per tablespoon).",
+    "timeframe": "Measurable LDL changes within 3 weeks.",
+    "notes": "Use as the main culinary fat, raw on food or for moderate-heat cooking; phenolics decline with storage, light and heat. Refined olive oil has a fraction of the phenolics."
+   },
+   "mechanism": "Hydroxytyrosol and its secoiridoid precursors (oleacein/3,4-DHPEA-EDA, oleuropein aglycone) bind to LDL and protect its lipids from oxidation; high oleic acid content makes membranes and LDL less oxidizable than PUFA-rich oils; modest Nrf2 and anti-inflammatory effects.",
+   "pathways": [
+    "direct-scavenging",
+    "inflammation-nfkb",
+    "nrf2"
+   ],
+   "interactions": "Best evidence when it replaces butter, refined seed oils or [oxidized-frying-oils]. Improves carotenoid absorption from [tomatoes-lycopene] and [leafy-greens]. Core component of [mediterranean-diet].",
+   "caveats": "Short trials use LDL oxidation markers rather than outcomes; PREDIMED was re-analysed after randomisation irregularities (results held). Phenolic content varies enormously between oils and labels rarely state it.",
+   "key_numbers": [
+    {
+     "label": "EU claim threshold: hydroxytyrosol + derivatives",
+     "value": 5,
+     "unit": "mg per 20 g oil",
+     "source": "tsimidou2019"
+    },
+    {
+     "label": "Hydroxytyrosol-type secoiridoids, average EVOO (sum of compounds)",
+     "value": 37,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay, EVOO",
+     "value": 55,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay, refined olive oil",
+     "value": 20,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Oxidized LDL change, high-phenolic oil (366 mg/kg)",
+     "value": -3.21,
+     "unit": "U/L",
+     "source": "covas2006"
+    },
+    {
+     "label": "PREDIMED major CVD events HR, MedDiet + EVOO",
+     "value": 0.69,
+     "unit": "HR",
+     "source": "estruch2018"
+    }
+   ],
+   "refs": [
+    "covas2006",
+    "efsa2011",
+    "tsimidou2019",
+    "hernaez2017",
+    "estruch2018",
+    "mitjavila2013",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "walnuts-nuts",
+   "name": "Walnuts and other nuts",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "A handful a day (30 g) lowers LDL and apoB and, in PREDIMED, cut major CVD events by ~28%; walnuts improved endothelial function, but direct oxidation markers were unchanged in several trials.",
+   "dose": {
+    "effective": "30 g (a small handful) of mixed nuts or walnuts daily.",
+    "studied_range": "30 g/day mixed nuts (PREDIMED); walnuts replacing ~32% of monounsaturated-fat energy for 4 weeks; 26 walnut trials (1059 people).",
+    "too_much": "Calories; walnut-enriched diets did not cause weight gain in trials.",
+    "timeframe": "4 weeks for lipids and endothelial function.",
+    "notes": "Walnuts are rich in alpha-linolenic acid and gamma-tocopherol."
+   },
+   "mechanism": "Lipid lowering (fewer oxidizable LDL particles), gamma-tocopherol, ellagitannins (converted to urolithins), ALA.",
+   "pathways": [
+    "endothelial",
+    "microbiome"
+   ],
+   "interactions": "Walnut PUFAs are oxidizable; store nuts cool and dark. Overlaps with [mediterranean-diet].",
+   "caveats": "In the walnut endothelial trial, oxidation biomarkers did not differ from the Mediterranean control diet; in PREDIMED the nut arm did not improve LDL oxidation traits (the EVOO arm did).",
+   "key_numbers": [
+    {
+     "label": "LDL cholesterol change, walnut-enriched diets",
+     "value": -5.5,
+     "unit": "mg/dL",
+     "source": "guaschferre2018"
+    },
+    {
+     "label": "Total polyphenols, Folin assay, walnut",
+     "value": 1575,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "PREDIMED major CVD events HR, MedDiet + nuts",
+     "value": 0.72,
+     "unit": "HR",
+     "source": "estruch2018"
+    }
+   ],
+   "refs": [
+    "ros2004",
+    "guaschferre2018",
+    "lopezuriarte2009",
+    "estruch2018",
+    "hernaez2017",
+    "mitjavila2013"
+   ]
+  },
+  {
+   "id": "legumes",
+   "name": "Legumes (beans, lentils, chickpeas)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Good for glycemic control and fiber intake, which indirectly limits postprandial oxidative stress, but direct human oxidative-stress data are scarce; their very high Folin 'polyphenol' scores are largely an assay artefact.",
+   "dose": {
+    "effective": "About 1/2-1 cup cooked most days as part of a high-fiber pattern.",
+    "studied_range": "Part of dietary-pattern trials.",
+    "too_much": null,
+    "timeframe": null,
+    "notes": "Black beans: Folin 1391 mg/100 g but only 54 mg/100 g by chromatography; lentils: Folin 3697 vs 10 mg/100 g. Folin reacts with proteins, sugars and other reducing substances."
+   },
+   "mechanism": "Low glycemic load, fermentable fiber (short-chain fatty acids), modest polyphenols in seed coats.",
+   "pathways": [
+    "microbiome"
+   ],
+   "interactions": "Replacing refined starch or processed meat with legumes reduces [refined-sugar-high-glycemic] and [processed-red-meat] exposure.",
+   "caveats": "Mostly inferred from fiber and dietary-pattern data.",
+   "key_numbers": [
+    {
+     "label": "Black beans, Folin assay",
+     "value": 1391,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Black beans, chromatography (sum of compounds)",
+     "value": 54,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Lentils, Folin assay",
+     "value": 3697,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Lentils, chromatography (sum of compounds)",
+     "value": 10,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "reynolds2019",
+    "okeefe2008",
+    "phenolexplorer",
+    "perezjimenez2010"
+   ]
+  },
+  {
+   "id": "whole-grains",
+   "name": "Whole grains",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Each 90 g/day (3 servings) of whole grain is associated with ~19% lower CHD and 17% lower all-cause mortality; the oxidative-stress link is indirect, through lower glycemic spikes and fermentable fiber.",
+   "dose": {
+    "effective": "3 servings (90 g) per day or more; associations continued up to ~210-225 g/day.",
+    "studied_range": "Cohort intakes; RCTs show lower body weight, blood pressure and cholesterol with higher fiber and whole grain.",
+    "too_much": null,
+    "timeframe": "Long-term.",
+    "notes": "Oats contain avenanthramides and beta-glucan; most grain phenolics (ferulic acid) are bound to fiber and released by gut bacteria."
+   },
+   "mechanism": "Fiber-bound ferulic acid released in the colon, short-chain fatty acids, lower glycemic load.",
+   "pathways": [
+    "microbiome",
+    "glycation-ages"
+   ],
+   "interactions": "Replaces [refined-sugar-high-glycemic] carbohydrate.",
+   "caveats": "Observational for hard outcomes; refined grains and white rice showed little association.",
+   "key_numbers": [
+    {
+     "label": "CHD RR per 90 g/day whole grain",
+     "value": 0.81,
+     "unit": "relative risk",
+     "source": "aune2016"
+    },
+    {
+     "label": "All-cause mortality RR per 90 g/day",
+     "value": 0.83,
+     "unit": "relative risk",
+     "source": "aune2016"
+    }
+   ],
+   "refs": [
+    "aune2016",
+    "reynolds2019"
+   ]
+  },
+  {
+   "id": "tomatoes-lycopene",
+   "name": "Tomatoes and tomato products (cooked with oil)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Lycopene is 2.5-3.8x more bioavailable from tomato paste than fresh tomatoes and needs fat to be absorbed; tomato interventions lower LDL and IL-6, improve FMD, and blunted LDL oxidation after a high-fat meal.",
+   "dose": {
+    "effective": "A serving of cooked tomato product (sauce, paste, puree) with a little olive oil most days.",
+    "studied_range": "21 intervention trials of tomato products or lycopene; single meals with processed tomato.",
+    "too_much": null,
+    "timeframe": "Postprandial (same meal) for oxLDL; weeks for lipids and FMD.",
+    "notes": "Tomato puree has ~8x the lycopene of raw tomato per 100 g (USDA). Fat-free dressing gave essentially no carotenoid absorption from salad."
+   },
+   "mechanism": "Lycopene is a lipid-phase singlet-oxygen quencher carried in LDL; processing breaks cell walls and isomerises lycopene, improving absorption; tomato also supplies vitamin C and naringenin chalcone.",
+   "pathways": [
+    "direct-scavenging",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Pair with [extra-virgin-olive-oil] or avocado; eat with high-fat meals to blunt postprandial oxidation.",
+   "caveats": "Lycopene supplements lowered systolic BP in pooled trials but tomato products, not pills, gave the lipid and FMD effects. Most trials are short.",
+   "key_numbers": [
+    {
+     "label": "Lycopene, raw tomato",
+     "value": 2.57,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "Lycopene, canned tomato puree",
+     "value": 21.8,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "Lycopene AUC, paste vs fresh tomato",
+     "value": 3.8,
+     "unit": "fold",
+     "source": "gartner1997"
+    },
+    {
+     "label": "FMD improvement with tomato interventions",
+     "value": 2.53,
+     "unit": "percentage points",
+     "source": "cheng2017"
+    }
+   ],
+   "refs": [
+    "gartner1997",
+    "brown2004",
+    "unlu2005",
+    "burtonfreeman2012",
+    "cheng2017",
+    "usdafdc"
+   ]
+  },
+  {
+   "id": "carrots-carotenoids",
+   "name": "Carrots and carotenoid-rich vegetables (vs beta-carotene pills)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Carotenoid-rich foods are associated with lower oxidative DNA and lipid damage, but isolated beta-carotene supplements increased lung cancer and mortality in smokers (CARET), a textbook antioxidant paradox.",
+   "dose": {
+    "effective": "Regular orange/yellow and green vegetables eaten with some fat; a medium carrot (~60 g) provides ~5 mg beta-carotene.",
+    "studied_range": "Food: cohort and feeding studies. Supplements: 30 mg beta-carotene + 25,000 IU retinol daily (CARET).",
+    "too_much": "Beta-carotene supplements in smokers and asbestos-exposed workers: lung cancer RR 1.28, all-cause death RR 1.17. Beta-carotene supplements raised mortality in Cochrane analysis.",
+    "timeframe": null,
+    "notes": "Absorption needs dietary fat: salads with full-fat dressing delivered much more carotenoid than reduced-fat or fat-free versions."
+   },
+   "mechanism": "Carotenoids quench singlet oxygen and lipid peroxyl radicals in membranes and lipoproteins; at high doses in high-oxygen, smoke-exposed lungs beta-carotene can act as a pro-oxidant.",
+   "pathways": [
+    "direct-scavenging"
+   ],
+   "interactions": "Absorption improved by [extra-virgin-olive-oil], avocado.",
+   "caveats": "Food associations are observational. The supplement results are the reason not to translate food carotenoid data into pills.",
+   "key_numbers": [
+    {
+     "label": "Beta-carotene, raw carrot",
+     "value": 8.28,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "CARET lung cancer RR (supplement)",
+     "value": 1.28,
+     "unit": "relative risk",
+     "source": "omenn1996"
+    }
+   ],
+   "refs": [
+    "omenn1996",
+    "bjelakovic2012",
+    "brown2004",
+    "unlu2005",
+    "usdafdc"
+   ]
+  },
+  {
+   "id": "leafy-greens",
+   "name": "Leafy greens (spinach, lettuce, rocket, chard)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Nitrate-rich greens and beetroot lower systolic blood pressure by ~4 mmHg in short trials, and greens are the main dietary source of lutein; green leafy vegetables are among the produce most consistently linked to lower CVD and mortality.",
+   "dose": {
+    "effective": "1-2 cups raw or 1/2-1 cup cooked daily.",
+    "studied_range": "Nitrate trials: 2 h to 15 days, dose-dependent BP effect.",
+    "too_much": null,
+    "timeframe": "Hours (nitrate) to weeks.",
+    "notes": "Nitrate effects on blood pressure were dose-dependent in meta-regression."
+   },
+   "mechanism": "Nitrate -> nitrite -> nitric oxide supplements endothelial NO and can offset superoxide-driven NO loss; lutein and zeaxanthin protect membranes; folate.",
+   "pathways": [
+    "endothelial",
+    "direct-scavenging"
+   ],
+   "interactions": "Nitrate and cocoa flavanols had additive effects on endothelial function at dietary amounts ([cocoa-flavanols]); pair greens with fat for carotenoid absorption ([extra-virgin-olive-oil]).",
+   "caveats": "Nitrate BP trials are short and small; oxidative-stress markers seldom measured.",
+   "key_numbers": [
+    {
+     "label": "Systolic BP change with inorganic nitrate/beetroot",
+     "value": -4.4,
+     "unit": "mmHg",
+     "source": "siervo2013"
+    },
+    {
+     "label": "Lutein + zeaxanthin, raw spinach",
+     "value": 12.2,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "Total polyphenols, chromatography, spinach (sum of compounds)",
+     "value": 119,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "siervo2013",
+    "aune2017",
+    "usdafdc",
+    "phenolexplorer",
+    "rodriguezmateos2015"
+   ]
+  },
+  {
+   "id": "vitamin-c-foods",
+   "name": "Vitamin C foods (citrus, kiwi, peppers, strawberries)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Plasma vitamin C saturates near 200 mg/day (white cells saturate at 100 mg), easily reached from foods; extra beyond that is excreted and high-dose pills show no mortality benefit.",
+   "dose": {
+    "effective": "About 200 mg/day from food: e.g. 1 red pepper, or 2 kiwifruit, or 1 orange + 1 cup strawberries.",
+    "studied_range": "30-2500 mg/day in depletion-repletion pharmacokinetics.",
+    "too_much": "Doses above ~400 mg/day have no evident value; at 1000 mg/day oxalate and urate excretion rise (kidney stone risk).",
+    "timeframe": "Steady state in 2-3 weeks.",
+    "notes": "Benefit is concentrated in people with low intake (smokers, low produce eaters)."
+   },
+   "mechanism": "Ascorbate is the main water-soluble chain-breaking antioxidant and regenerates vitamin E; kiwifruit also raised lymphocyte DNA resistance to H2O2 ex vivo beyond what its vitamin C explained.",
+   "pathways": [
+    "direct-scavenging"
+   ],
+   "interactions": "Vitamin C enhances non-heme iron absorption (good if iron-deficient; avoid iron + vitamin C supplements in iron overload, see [diet-iron-excess]). High-dose vitamin C + E blunted exercise adaptation (covered in exercise sections).",
+   "caveats": "In the Cochrane review vitamin C supplements had no effect on mortality; beta-carotene and vitamin E increased it.",
+   "key_numbers": [
+    {
+     "label": "Dose at which plasma vitamin C plateaus",
+     "value": 200,
+     "unit": "mg/day",
+     "source": "levine1996"
+    },
+    {
+     "label": "Vitamin C, kiwifruit",
+     "value": 93,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "Vitamin C, red bell pepper",
+     "value": 128,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    },
+    {
+     "label": "Vitamin C, orange",
+     "value": 53,
+     "unit": "mg/100 g",
+     "source": "usdafdc"
+    }
+   ],
+   "refs": [
+    "levine1996",
+    "collins2001",
+    "bjelakovic2012",
+    "usdafdc"
+   ]
+  },
+  {
+   "id": "garlic-alliums",
+   "name": "Garlic and onions",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Garlic supplements lower blood pressure in hypertensives (about -8.7/-6.1 mmHg) and a meta-analysis of 12 small RCTs reports lower MDA and higher antioxidant enzymes, but these markers are weak and the trials low quality.",
+   "dose": {
+    "effective": "Culinary: 1-2 cloves/day crushed and left 10 min before cooking; supplement trials used aged garlic extract or powder.",
+    "studied_range": "80-4000 mg/day garlic preparations for 2-24 weeks.",
+    "too_much": "Supplements can increase bleeding risk with anticoagulants.",
+    "timeframe": "Weeks.",
+    "notes": "Red onions are a major dietary source of quercetin (onion chromatography total ~140 mg/100 g in Phenol-Explorer)."
+   },
+   "mechanism": "Organosulfur compounds (allicin breakdown products, S-allylcysteine) activate Nrf2 and raise hydrogen sulfide signalling; onion quercetin.",
+   "pathways": [
+    "nrf2",
+    "endothelial"
+   ],
+   "interactions": "Another mild Nrf2 inducer; much weaker than sulforaphane.",
+   "caveats": "TAC and TBARS-type MDA are non-specific oxidative markers; effect sizes in the meta-analysis (Hedges' g up to 13.8) are implausibly large, a sign of small heterogeneous studies.",
+   "key_numbers": [
+    {
+     "label": "SBP change in hypertensives (garlic supplements)",
+     "value": -8.7,
+     "unit": "mmHg",
+     "source": "ried2016"
+    },
+    {
+     "label": "Onion (red), total polyphenols, chromatography (sum of compounds)",
+     "value": 140,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "askari2021",
+    "ried2016",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "turmeric-curcumin",
+   "name": "Turmeric / curcumin",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Curcumin is barely absorbed: 2 g alone gave undetectable or very low serum levels; 20 mg piperine raised bioavailability ~20-fold, but culinary turmeric doses are far below trial doses.",
+   "dose": {
+    "effective": "No reliable systemic antioxidant dose from culinary use; trials use 0.5-2 g/day curcumin, often enhanced formulations.",
+    "studied_range": "Up to 12 g/day curcumin was tolerated in phase I trials.",
+    "too_much": "Phase I trials tolerated up to 12 g/day; piperine works by inhibiting glucuronidation, the same pathway that clears many drugs.",
+    "timeframe": null,
+    "notes": "A teaspoon (~3 g) of dried turmeric contains roughly 65 mg curcumin (Phenol-Explorer ~2.2 g/100 g)."
+   },
+   "mechanism": "Curcumin is a Michael acceptor that activates Nrf2 and scavenges radicals in vitro; rapid glucuronidation and poor absorption limit systemic exposure.",
+   "pathways": [
+    "nrf2",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Black pepper (piperine) increases absorption; fat helps.",
+   "caveats": "Classic case of strong in vitro data with weak human pharmacokinetics.",
+   "key_numbers": [
+    {
+     "label": "Curcumin, dried turmeric (chromatography)",
+     "value": 2214,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Bioavailability increase with 20 mg piperine",
+     "value": 2000,
+     "unit": "%",
+     "source": "shoba1998"
+    }
+   ],
+   "refs": [
+    "anand2007",
+    "shoba1998",
+    "dinkovakostova2008",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "pomegranate",
+   "name": "Pomegranate juice",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "A famous 10-patient study reported dramatic falls in LDL oxidation and carotid thickness, but an 18-month RCT in 289 people found no effect on carotid progression and a meta-analysis found no lipid effect.",
+   "dose": {
+    "effective": "Not established; 240 mL/day was ineffective for carotid progression overall.",
+    "studied_range": "50-240 mL/day for up to 3 years.",
+    "too_much": "Juice adds free sugar.",
+    "timeframe": null,
+    "notes": "Punicalagins are converted by gut bacteria to urolithins; some people produce few."
+   },
+   "mechanism": "Ellagitannins (punicalagin) -> ellagic acid -> urolithins; raised paraoxonase-1 in the small study.",
+   "pathways": [
+    "microbiome"
+   ],
+   "interactions": "None notable.",
+   "caveats": "Industry-funded small studies drove early enthusiasm; possible benefit only in exploratory subgroups with high oxidative stress.",
+   "key_numbers": [
+    {
+     "label": "Punicalagin, pure juice",
+     "value": 43.6,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, Folin assay, pure juice",
+     "value": 204,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "aviram2004",
+    "davidson2009",
+    "sahebkar2016",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "red-wine-resveratrol",
+   "name": "Red wine and resveratrol",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "A glass of red wine contains well under 1 mg trans-resveratrol, oral resveratrol is almost entirely conjugated before it reaches blood, and urinary resveratrol levels did not predict mortality; the ethanol itself raises lipid peroxidation in a dose-dependent way.",
+   "dose": {
+    "effective": "No antioxidant reason to drink. If you drink, wine polyphenols taken with a fatty meal may limit postprandial lipid oxidation in the stomach (animal data).",
+    "studied_range": "Resveratrol supplements in trials range from tens to thousands of mg; a 25 mg oral dose left <5 ng/mL free resveratrol in plasma.",
+    "too_much": "Alcohol raises urinary isoprostanes dose-dependently; see [diet-alcohol].",
+    "timeframe": null,
+    "notes": "Trans-resveratrol ~0.18 mg/100 mL (about 0.3 mg per 150 mL glass), so reaching supplement doses would take hundreds of glasses."
+   },
+   "mechanism": "Resveratrol is absorbed (~70%) but rapidly sulfated and glucuronidated; wine's other polyphenols (anthocyanins, flavan-3-ols) are similar to those in grapes and berries without the ethanol.",
+   "pathways": [
+    "direct-scavenging"
+   ],
+   "interactions": "Ethanol counteracts the polyphenols; grapes, berries or dealcoholised wine provide the polyphenols without it.",
+   "caveats": "Associations of urinary resveratrol metabolites with better lipids in PREDIMED are cross-sectional and confounded by wine drinking patterns.",
+   "key_numbers": [
+    {
+     "label": "Trans-resveratrol, red wine",
+     "value": 0.18,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Total polyphenols, chromatography, red wine (sum of compounds)",
+     "value": 108,
+     "unit": "mg/100 mL",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Free resveratrol in plasma after 25 mg oral dose",
+     "value": 5,
+     "unit": "ng/mL (upper bound)",
+     "source": "walle2004"
+    }
+   ],
+   "refs": [
+    "walle2004",
+    "semba2014",
+    "meagher1999",
+    "gorelik2008",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "herbs-spices",
+   "name": "Herbs and spices (oregano, rosemary, cloves, cinnamon, etc.)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Their biggest proven effect is in the pan: a polyphenol-rich spice mix cut malondialdehyde in cooked burgers by 71% and in the eaters' urine by 49%, and herb marinades cut heterocyclic amines in grilled steak by 57-88%.",
+   "dose": {
+    "effective": "Generous use in cooking, especially in meat dishes and marinades (about a tablespoon of dried herbs per meal); 14 g spice blend in a meal in one trial.",
+    "studied_range": "Single meals; marinating steaks 1 h before grilling at 204 °C.",
+    "too_much": "None established at culinary amounts.",
+    "timeframe": "Same meal.",
+    "notes": "Per gram, dried cloves, oregano and other herbs top every polyphenol table, but servings are small."
+   },
+   "mechanism": "Rosmarinic acid, carnosic acid and carnosol inhibit lipid oxidation and Maillard/HCA chemistry in food and in the stomach, so fewer oxidized lipids are absorbed; a spice blend also lowered postprandial insulin and triglycerides.",
+   "pathways": [
+    "direct-scavenging",
+    "glycation-ages"
+   ],
+   "interactions": "Counteracts [high-temperature-cooking] and [processed-red-meat] oxidation products. Here direct scavenging is plausible because the reaction happens in the food and gut, where concentrations are high.",
+   "caveats": "Meal studies are tiny (n=6-11) and short.",
+   "key_numbers": [
+    {
+     "label": "MDA reduction in spiced vs plain burger meat",
+     "value": 71,
+     "unit": "%",
+     "source": "li2010"
+    },
+    {
+     "label": "Urinary MDA reduction after spiced burger",
+     "value": 49,
+     "unit": "%",
+     "source": "li2010"
+    },
+    {
+     "label": "Total HCA reduction, Caribbean herb marinade",
+     "value": 88,
+     "unit": "%",
+     "source": "smith2008"
+    },
+    {
+     "label": "Cloves, total polyphenols (chromatography)",
+     "value": 15188,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    },
+    {
+     "label": "Dried oregano, total polyphenols (Folin)",
+     "value": 3117,
+     "unit": "mg/100 g",
+     "source": "phenolexplorer"
+    }
+   ],
+   "refs": [
+    "li2010",
+    "skulasray2011",
+    "smith2008",
+    "perezjimenez2010",
+    "phenolexplorer"
+   ]
+  },
+  {
+   "id": "diet-omega3-fish",
+   "name": "Oily fish and omega-3 fats",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Although EPA/DHA are highly peroxidizable, 3.4 g/day fish oil did not raise plasma F2-isoprostanes or MDA vs oleic or linoleic oils; long-chain omega-3s slightly reduce CHD events and lower triglycerides ~15%.",
+   "dose": {
+    "effective": "1-2 servings of oily fish per week (salmon, sardines, mackerel), baked or poached rather than deep-fried.",
+    "studied_range": "0.5 to >5 g/day long-chain omega-3 in RCTs (86 trials, 162,796 people).",
+    "too_much": "Cochrane found little or no effect of increased omega-3 on serious adverse events.",
+    "timeframe": "Weeks for triglycerides.",
+    "notes": "Oxidized (rancid) oils and deep-fried fish deliver dietary lipid oxidation products."
+   },
+   "mechanism": "EPA/DHA alter membrane composition, eicosanoids and resolvins (anti-inflammatory); their double bonds are substrates for lipid peroxidation, so oxidized products in food or capsules matter more than the fats themselves.",
+   "pathways": [
+    "inflammation-nfkb"
+   ],
+   "interactions": "Eat with polyphenol-rich foods and avoid [oxidized-frying-oils]. TBARS rose with fish oil while F2-isoprostanes did not, illustrating how marker choice changes conclusions.",
+   "caveats": "Cochrane: little or no effect on all-cause mortality (RR 0.97) or total CV events; modest CHD reduction is low-certainty.",
+   "key_numbers": [
+    {
+     "label": "CHD events RR, long-chain omega-3",
+     "value": 0.91,
+     "unit": "relative risk",
+     "source": "abdelhamid2020"
+    },
+    {
+     "label": "Triglyceride reduction",
+     "value": 15,
+     "unit": "%",
+     "source": "abdelhamid2020"
+    }
+   ],
+   "refs": [
+    "higdon2000",
+    "abdelhamid2020",
+    "kanner2007"
+   ]
+  },
+  {
+   "id": "dietary-fiber-microbiome",
+   "name": "Dietary fiber and the gut microbiome",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Most dietary polyphenols reach the colon and only work after gut bacteria convert them, and people differ widely in this; a fiber intake of 25-29 g/day is linked to 15-30% lower mortality and cardiometabolic disease.",
+   "dose": {
+    "effective": "25-29 g fiber/day or more from varied plants (whole grains, legumes, vegetables, fruit, nuts).",
+    "studied_range": "Cohorts (185 studies) and 58 RCTs.",
+    "too_much": "Increase gradually to limit bloating.",
+    "timeframe": "Microbiome shifts in days; outcomes long-term.",
+    "notes": "'High' vs 'low excretor' and 'producer vs non-producer' metabotypes (urolithins, equol) explain part of why the same food works differently in different people."
+   },
+   "mechanism": "Microbial catabolism turns anthocyanins, flavan-3-ols, chlorogenic acids and ellagitannins into smaller phenolic acids, valerolactones and urolithins that are absorbed and circulate for up to 48 h; fermentation yields short-chain fatty acids that support barrier integrity and lower inflammation.",
+   "pathways": [
+    "microbiome",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Determines how much benefit you get from [blueberries], [coffee], [cocoa-flavanols], [pomegranate], [walnuts-nuts], and how much glucoraphanin converts to sulforaphane ([sulforaphane-supplements]). Antibiotics abolish microbial glucoraphanin conversion.",
+   "caveats": "Mechanisms are well described; direct evidence that changing the microbiome lowers systemic oxidative stress in humans is limited.",
+   "key_numbers": [
+    {
+     "label": "Fiber intake with greatest risk reduction",
+     "value": 27,
+     "unit": "g/day (25-29)",
+     "source": "reynolds2019"
+    },
+    {
+     "label": "Anthocyanin relative bioavailability incl. metabolites (13C tracer)",
+     "value": 12.4,
+     "unit": "%",
+     "source": "czank2013"
+    }
+   ],
+   "refs": [
+    "reynolds2019",
+    "favari2024",
+    "czank2013",
+    "manach2005",
+    "fahey2012"
+   ]
+  },
+  {
+   "id": "processed-red-meat",
+   "name": "Processed and red meat",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "strong",
+   "headline": "IARC classifies processed meat as carcinogenic (Group 1) and red meat as probably carcinogenic (2A); heme iron catalyses lipid peroxidation and N-nitroso compound formation in the gut, with fecal N-nitroso compounds rising linearly with red-meat intake.",
+   "dose": {
+    "effective": "Keep processed meat rare and red meat to a few modest portions per week.",
+    "studied_range": "0-420 g/day red meat in controlled feeding (dose-response for fecal N-nitroso compounds); white meat at 420-600 g/day had no effect.",
+    "too_much": "Each 50 g/day of processed meat raised colorectal cancer risk ~18% (IARC). Highest vs lowest heme intake: colon cancer RR 1.18.",
+    "timeframe": "Fecal markers change within days; cancer risk over years.",
+    "notes": "Meat eaten with red-wine polyphenols or polyphenol-rich spices produced less postprandial MDA in animal and human meal studies."
+   },
+   "mechanism": "Heme iron catalyses peroxidation of dietary PUFA in the stomach and colon, producing malondialdehyde and 4-hydroxynonenal, and promotes endogenous N-nitrosation; processed meats add nitrite and pre-formed nitrosamines; high-heat cooking adds HCAs and PAHs.",
+   "pathways": [
+    "iron-fenton",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Worse with [high-temperature-cooking]; partly offset by [herbs-spices] and polyphenol-rich foods eaten in the same meal.",
+   "caveats": "Oxidative mechanism evidence is strongest for the gut lumen; effects on systemic markers are less studied.",
+   "key_numbers": [
+    {
+     "label": "Colon cancer RR, highest vs lowest heme iron",
+     "value": 1.18,
+     "unit": "relative risk",
+     "source": "bastide2011"
+    },
+    {
+     "label": "Fecal N-nitroso compounds per g red meat/day",
+     "value": 2.6,
+     "unit": "µg/day per g",
+     "source": "bingham2002"
+    }
+   ],
+   "refs": [
+    "bouvard2015",
+    "bastide2011",
+    "bingham2002",
+    "cross2004",
+    "li2010",
+    "gorelik2008"
+   ]
+  },
+  {
+   "id": "high-temperature-cooking",
+   "name": "High-temperature dry cooking (AGEs, HCAs, PAHs)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "Dry heat (grilling, broiling, roasting, frying) raises food AGEs 10-100-fold; a high-AGE meal cut flow-mediated dilation by 36% vs 21% for the same meal cooked gently, and a year on a low-AGE diet improved insulin resistance and oxidative stress markers.",
+   "dose": {
+    "effective": "Favour moist heat (stewing, poaching, steaming), lower temperatures and shorter times; marinate meat in acidic, herb-rich mixtures.",
+    "studied_range": "Single meals (15,100 vs 2,750 kU AGE); 1-year low-AGE diet in 138 obese adults with metabolic syndrome; 12 dietary AGE RCTs (293 people).",
+    "too_much": "Charred, well-done meat is the main HCA/PAH source.",
+    "timeframe": "Vascular effects within 2 h of a meal; metabolic effects over months.",
+    "notes": "Acidic ingredients (lemon juice, vinegar) and moist heat significantly reduced new AGE formation. Animal foods high in fat and protein are most AGE-prone; vegetables, fruit and whole grains stay low even when cooked."
+   },
+   "mechanism": "Maillard reactions form AGEs (e.g. CML) that engage RAGE and activate NADPH oxidase and NF-kB; meat creatine + sugars + amino acids form heterocyclic amines; fat dripping on flames forms PAHs.",
+   "pathways": [
+    "glycation-ages",
+    "nox",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Pairs with [processed-red-meat]; reduced by [herbs-spices] marinades; compounded by [refined-sugar-high-glycemic] (endogenous AGE formation).",
+   "caveats": "Many dietary-AGE trials come from one research group; measurement of food AGEs by ELISA is debated. The systematic review rated evidence as limited by trial quality.",
+   "key_numbers": [
+    {
+     "label": "AGE increase from dry-heat cooking",
+     "value": 10,
+     "unit": "to 100-fold",
+     "source": "uribarri2010"
+    },
+    {
+     "label": "FMD fall after high-AGE meal (vs 20.9% low-AGE)",
+     "value": 36.2,
+     "unit": "%",
+     "source": "negrean2007"
+    },
+    {
+     "label": "HOMA-IR on low-AGE diet, 1 year (from 3.1)",
+     "value": 1.9,
+     "unit": "HOMA-IR",
+     "source": "vlassara2016"
+    }
+   ],
+   "refs": [
+    "uribarri2010",
+    "negrean2007",
+    "vlassara2016",
+    "clarke2016",
+    "smith2008",
+    "cross2004"
+   ]
+  },
+  {
+   "id": "oxidized-frying-oils",
+   "name": "Repeatedly heated / oxidized frying oils",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Reheating PUFA-rich oils generates lipid hydroperoxides and aldehydes that are partly absorbed; humans excrete more MDA after eating oxidized fat, and animal studies show raised blood pressure and vascular inflammation.",
+   "dose": {
+    "effective": "Avoid reused deep-frying oil and burnt or smoking oil; prefer EVOO or high-oleic oils for heat.",
+    "studied_range": "Mostly animal feeding studies; human postprandial studies.",
+    "too_much": "Repeatedly heated oil (common in fast food) is the main exposure.",
+    "timeframe": "Postprandial and chronic.",
+    "notes": "Polyphenols eaten in the same meal reduced stomach lipid peroxidation in animal models."
+   },
+   "mechanism": "Thermal oxidation of linoleic and linolenic acids forms hydroperoxides, 4-hydroxynonenal, acrolein and other advanced lipid oxidation end-products that are absorbed and inflame the gut, liver and vessels.",
+   "pathways": [
+    "inflammation-nfkb"
+   ],
+   "interactions": "Worsens [processed-red-meat]; offset partly by [herbs-spices], [extra-virgin-olive-oil].",
+   "caveats": "Human outcome data are sparse; the evidence is largely mechanistic and from rodents.",
+   "key_numbers": [],
+   "refs": [
+    "ng2014",
+    "kanner2007",
+    "gorelik2008"
+   ]
+  },
+  {
+   "id": "trans-fats",
+   "name": "Industrial trans fats",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "strong",
+   "headline": "Industrial trans fats raise LDL, lower HDL, promote systemic inflammation and endothelial dysfunction, and carry a higher coronary risk per gram than any other fat.",
+   "dose": {
+    "effective": "As close to zero as possible from partially hydrogenated oils.",
+    "studied_range": "Cohorts and controlled feeding studies.",
+    "too_much": "Any regular intake from partially hydrogenated oils.",
+    "timeframe": "Years.",
+    "notes": "Now banned or restricted in many countries; still present in some imported or older products."
+   },
+   "mechanism": "Altered lipoprotein metabolism and inflammatory signalling (NF-kB), endothelial dysfunction.",
+   "pathways": [
+    "inflammation-nfkb"
+   ],
+   "interactions": "Often co-occurs with [oxidized-frying-oils] in fried fast food.",
+   "caveats": "The oxidative-stress component is one part of a broader cardiometabolic harm.",
+   "key_numbers": [],
+   "refs": [
+    "mozaffarian2006"
+   ]
+  },
+  {
+   "id": "refined-sugar-high-glycemic",
+   "name": "Refined sugar and high-glycemic meals",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "A 75 g glucose drink more than doubled leukocyte ROS generation at 2 h in healthy people and lowered plasma vitamin E; large post-meal glucose and triglyceride spikes drive transient oxidative stress and endothelial dysfunction.",
+   "dose": {
+    "effective": "Limit sugary drinks and large refined-starch meals; pair carbohydrates with fiber, protein, fat and vinegar or acidic foods.",
+    "studied_range": "75 g oral glucose; single high-fat or high-carbohydrate meals.",
+    "too_much": "Repeated large spikes; sugar-sweetened beverages.",
+    "timeframe": "Peaks at 1-3 h after the meal.",
+    "notes": "Cream (fat) and casein (protein) also raised leukocyte ROS, so the size of the meal matters, not only sugar."
+   },
+   "mechanism": "Nutrient surges increase leukocyte NADPH oxidase (p47phox) and mitochondrial superoxide; hyperglycemia fuels AGE and polyol pathways and NF-kB activation.",
+   "pathways": [
+    "nox",
+    "mitochondrial",
+    "glycation-ages",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Additive with [diet-overfeeding]. Blunted by [whole-grains], [legumes], [dietary-fiber-microbiome] and polyphenol-rich foods with the meal (e.g. [tomatoes-lycopene], [herbs-spices]).",
+   "caveats": "Acute leukocyte ROS assays are not the same as chronic tissue damage; whether postprandial spikes in non-diabetic people cause disease independent of overall diet is debated.",
+   "key_numbers": [
+    {
+     "label": "Peak leukocyte (PMNL) ROS after 75 g glucose",
+     "value": 244,
+     "unit": "% of baseline",
+     "source": "mohanty2000"
+    }
+   ],
+   "refs": [
+    "mohanty2000",
+    "mohanty2002",
+    "okeefe2008",
+    "reynolds2019"
+   ]
+  },
+  {
+   "id": "diet-overfeeding",
+   "name": "Excess calories / overfeeding and weight gain",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 4
+   },
+   "evidence": "moderate",
+   "headline": "Overeating by ~1000 kcal/day for 28 days raised urinary F2-isoprostanes and muscle protein carbonyls; 6000 kcal/day caused systemic oxidative stress within 2-3 days; BMI is one of the strongest correlates of urinary isoprostanes in the population.",
+   "dose": {
+    "effective": "Eat to energy balance; avoid sustained surplus.",
+    "studied_range": "+1040 kcal/day for 28 days; ~6000 kcal/day for 1 week.",
+    "too_much": "Any chronic surplus that drives weight gain, especially visceral fat.",
+    "timeframe": "Oxidative stress rises within days of overfeeding.",
+    "notes": "Avoiding a surplus probably outweighs any single 'antioxidant food'."
+   },
+   "mechanism": "Nutrient excess overloads mitochondrial electron transport, increasing superoxide; adipose tissue oxidative stress carbonylated GLUT4, impairing insulin action; adipose inflammation.",
+   "pathways": [
+    "mitochondrial",
+    "nox",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Reversed by [diet-calorie-restriction]; compounded by [refined-sugar-high-glycemic] and [diet-alcohol].",
+   "caveats": "Overfeeding studies are short and small; the Framingham link is cross-sectional.",
+   "key_numbers": [
+    {
+     "label": "Weight gain in 1 week at ~6000 kcal/day",
+     "value": 3.5,
+     "unit": "kg",
+     "source": "boden2015"
+    },
+    {
+     "label": "Weight gain after 28 days at +1040 kcal/day",
+     "value": 2.7,
+     "unit": "kg",
+     "source": "samochabonet2012"
+    }
+   ],
+   "refs": [
+    "samochabonet2012",
+    "boden2015",
+    "keaney2003"
+   ]
+  },
+  {
+   "id": "diet-alcohol",
+   "name": "Alcohol (dietary)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "Acute alcohol raised urinary isoprostanes in a time- and dose-dependent way in healthy volunteers, tracking blood alcohol; red-wine polyphenols do not cancel this.",
+   "dose": {
+    "effective": "Less is better for oxidative stress; there is no antioxidant reason to drink.",
+    "studied_range": "Acute doses in a randomized placebo-controlled study; patients with alcoholic liver disease.",
+    "too_much": "Dose-dependent; heavy and binge drinking worst.",
+    "timeframe": "Hours.",
+    "notes": "Covered in more depth in the lifestyle section."
+   },
+   "mechanism": "Ethanol metabolism by CYP2E1 generates ROS; acetaldehyde depletes glutathione; raised NADH/NAD+ alters mitochondrial redox; iron mobilisation.",
+   "pathways": [
+    "mitochondrial",
+    "iron-fenton"
+   ],
+   "interactions": "Negates the polyphenol benefit of [red-wine-resveratrol].",
+   "caveats": "Small acute study; chronic moderate intake data are confounded.",
+   "key_numbers": [],
+   "refs": [
+    "meagher1999"
+   ]
+  },
+  {
+   "id": "diet-iron-excess",
+   "name": "Unneeded iron supplements / iron excess",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "A routine 19 mg/day ferrous sulfate supplement for 2 weeks raised weakly bound fecal iron 5-fold and the fecal free-radical generating capacity by ~40% in healthy volunteers.",
+   "dose": {
+    "effective": "Take iron only to correct documented deficiency.",
+    "studied_range": "19 mg elemental iron/day for 2 weeks.",
+    "too_much": "Iron supplements in iron-replete people; untreated hereditary hemochromatosis.",
+    "timeframe": "Weeks.",
+    "notes": "Most supplemental iron is not absorbed and stays in the colon."
+   },
+   "mechanism": "Free ferrous iron drives Fenton chemistry (Fe2+ + H2O2 -> hydroxyl radical) and catalyses lipid peroxidation; heme iron from meat acts similarly in the gut.",
+   "pathways": [
+    "iron-fenton"
+   ],
+   "interactions": "Avoid combining with high-dose vitamin C in iron overload. Tea and coffee reduce non-heme iron absorption.",
+   "caveats": "Fecal free-radical capacity is an ex vivo assay; systemic consequences not measured.",
+   "key_numbers": [
+    {
+     "label": "Rise in fecal free-radical production on 19 mg Fe/day",
+     "value": 40,
+     "unit": "%",
+     "source": "lund1999"
+    }
+   ],
+   "refs": [
+    "lund1999",
+    "bastide2011"
+   ]
+  },
+  {
+   "id": "mediterranean-diet",
+   "name": "Mediterranean diet",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 4
+   },
+   "evidence": "strong",
+   "headline": "In PREDIMED (7447 high-risk adults) a Mediterranean diet with EVOO or nuts cut major CVD events by ~30%; sub-studies found larger falls in urinary 8-oxo-dG, more oxidation-resistant LDL and borderline lower F2-isoprostanes vs a low-fat diet.",
+   "dose": {
+    "effective": "Daily EVOO as the main fat, vegetables, fruit, legumes, whole grains, nuts (about 30 g), fish weekly, little red/processed meat or sweets.",
+    "studied_range": "4.8 years median (PREDIMED); 1-year oxidative sub-studies.",
+    "too_much": null,
+    "timeframe": "Oxidative markers improved at 1 year; CVD events diverged within a few years.",
+    "notes": "The wine component is optional and not needed for the benefits."
+   },
+   "mechanism": "Combines olive phenolics (LDL protection), high produce and fiber (gut metabolites), lower glycemic load, fewer AGEs and processed meats, and better fatty-acid profile.",
+   "pathways": [
+    "direct-scavenging",
+    "inflammation-nfkb",
+    "microbiome",
+    "endothelial"
+   ],
+   "interactions": "Contains most of the beneficial foods here; individual 'superfoods' add little on top of it.",
+   "caveats": "PREDIMED was retracted and republished after randomisation irregularities; re-analysed results held. Oxidative endpoints were secondary and in subsamples.",
+   "key_numbers": [
+    {
+     "label": "Major CVD events HR (EVOO arm)",
+     "value": 0.69,
+     "unit": "HR",
+     "source": "estruch2018"
+    },
+    {
+     "label": "LDL oxidative modifications, EVOO arm vs control",
+     "value": -36.3,
+     "unit": "%",
+     "source": "hernaez2017"
+    }
+   ],
+   "refs": [
+    "estruch2018",
+    "mitjavila2013",
+    "hernaez2017",
+    "medinaremon2011"
+   ]
+  },
+  {
+   "id": "dash-diet",
+   "name": "DASH diet",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "limited",
+   "headline": "In obese hypertensive adults DASH lowered blood pressure by ~8/7 mmHg, raised plasma antioxidant capacity and prevented the F2-isoprostane rise during an experimental lipid infusion.",
+   "dose": {
+    "effective": "8-10 servings/day of fruit and vegetables, low-fat dairy, whole grains, nuts and legumes, low sodium and sweets.",
+    "studied_range": "4 weeks per diet in a 24-person crossover study.",
+    "too_much": null,
+    "timeframe": "4 weeks.",
+    "notes": "Blood pressure benefits of DASH are well established in larger trials; oxidative data are small."
+   },
+   "mechanism": "High potassium, fiber and plant polyphenols; reduced sodium lowers vascular NADPH oxidase activity.",
+   "pathways": [
+    "endothelial",
+    "nox"
+   ],
+   "interactions": "Overlaps heavily with [high-fruit-vegetable-intake] and [mediterranean-diet].",
+   "caveats": "Oxidative-stress data come from one small study.",
+   "key_numbers": [
+    {
+     "label": "BP change in obese hypertensives",
+     "value": -8.1,
+     "unit": "mmHg systolic",
+     "source": "lopes2003"
+    }
+   ],
+   "refs": [
+    "lopes2003"
+   ]
+  },
+  {
+   "id": "high-fruit-vegetable-intake",
+   "name": "High fruit and vegetable intake",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "moderate",
+   "headline": "Doubling produce from 5.8 to 12 servings/day for 2 weeks reduced lymphocyte 8-OHdG and urinary isoprostanes, but another controlled trial found 600 g/day had no effect on oxidative DNA damage in healthy non-smokers; cohorts show lower mortality up to ~800 g/day.",
+   "dose": {
+    "effective": "At least 5 servings (400-500 g)/day, ideally up to ~800 g, from diverse botanical families.",
+    "studied_range": "600 g/day for 24 days; 12 servings/day for 14 days.",
+    "too_much": null,
+    "timeframe": "Weeks.",
+    "notes": "Diversity across plant families mattered in the positive trial; benefit was larger in people with low baseline carotenoids."
+   },
+   "mechanism": "Many compounds acting through different routes (Nrf2 electrophiles, gut metabolites, vitamin C/carotenoids, nitrate, fiber, potassium).",
+   "pathways": [
+    "nrf2",
+    "direct-scavenging",
+    "microbiome",
+    "endothelial"
+   ],
+   "interactions": "The null Danish trial suggests healthy people with adequate defences may already be near a ceiling for oxidative DNA damage.",
+   "caveats": "Oxidative-marker trials conflict; cohort benefits may partly reflect healthier lifestyles.",
+   "key_numbers": [
+    {
+     "label": "All-cause mortality RR per 200 g/day fruit and vegetables",
+     "value": 0.9,
+     "unit": "relative risk",
+     "source": "aune2017"
+    },
+    {
+     "label": "Lymphocyte 8-OHdG reduction, low-carotene subgroup",
+     "value": 32,
+     "unit": "%",
+     "source": "thompson1999"
+    }
+   ],
+   "refs": [
+    "thompson1999",
+    "moller2003",
+    "aune2017"
+   ]
+  },
+  {
+   "id": "diet-calorie-restriction",
+   "name": "Calorie restriction",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 4
+   },
+   "evidence": "strong",
+   "headline": "In CALERIE, the only long-term RCT of calorie restriction in healthy non-obese adults, prescribed 25% CR for 2 years lowered urinary F2-isoprostanes by 13-27% vs ad libitum controls.",
+   "dose": {
+    "effective": "A sustained moderate deficit; CALERIE participants achieved about half the prescribed 25% restriction.",
+    "studied_range": "25% CR for 6 months to 2 years.",
+    "too_much": "Malnutrition, low bone density and loss of lean mass if extreme; not for underweight people, pregnancy or eating disorders.",
+    "timeframe": "Reduction present at 12 months and sustained at 24 months; DNA damage reduced at 6 months.",
+    "notes": "In overweight people, weight loss itself drives much of the effect."
+   },
+   "mechanism": "Lower mitochondrial ROS production per unit of energy, lower insulin and IGF-1 signalling, less adipose inflammation, hormetic upregulation of defences.",
+   "pathways": [
+    "mitochondrial",
+    "hormesis",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Opposite of [diet-overfeeding].",
+   "caveats": "Long-term adherence is hard; most people will benefit from avoiding surplus rather than strict CR.",
+   "key_numbers": [
+    {
+     "label": "2,3-dinor-iPF2alpha-III reduction at 12 months",
+     "value": 17,
+     "unit": "%",
+     "source": "ilyasova2018"
+    },
+    {
+     "label": "iPF2alpha-III reduction at 24 months",
+     "value": 27,
+     "unit": "%",
+     "source": "ilyasova2018"
+    }
+   ],
+   "refs": [
+    "ilyasova2018",
+    "heilbronn2006"
+   ]
+  },
+  {
+   "id": "diet-intermittent-fasting",
+   "name": "Intermittent fasting / time-restricted eating",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Early time-restricted feeding (6-hour window, dinner before 3 pm) lowered plasma 8-isoprostane ~14% vs a 12-hour schedule without weight loss in 8 men with prediabetes; an uncontrolled alternate-day trial reported large falls in oxidative markers with 8% weight loss.",
+   "dose": {
+    "effective": "Eating within an early daytime window, or alternate-day restriction, if sustainable.",
+    "studied_range": "5-week supervised crossover (n=8); 8-week alternate-day (n=10).",
+    "too_much": "Not for pregnancy, diabetes on insulin/sulfonylureas without supervision, or eating disorders.",
+    "timeframe": "Weeks.",
+    "notes": "In the eTRF trial the improvement came mostly from oxidative stress worsening on the control schedule."
+   },
+   "mechanism": "Metabolic switching to ketones, circadian alignment of meals, reduced postprandial load, weight loss.",
+   "pathways": [
+    "mitochondrial",
+    "hormesis"
+   ],
+   "interactions": "Effects largely overlap with [diet-calorie-restriction] when weight is lost.",
+   "caveats": "Very small trials; 8-isoprostane by ELISA is less reliable than mass-spectrometry methods.",
+   "key_numbers": [
+    {
+     "label": "Plasma 8-isoprostane change with eTRF",
+     "value": -14,
+     "unit": "%",
+     "source": "sutton2018"
+    }
+   ],
+   "refs": [
+    "sutton2018",
+    "johnson2007",
+    "decabo2019"
+   ]
+  }
+ ],
+ "mechanisms": [
+  {
+   "id": "nrf2",
+   "name": "Nrf2 / KEAP1 pathway",
+   "description": "Electrophiles such as sulforaphane (and, more weakly, curcumin, garlic sulfur compounds and some coffee roast products) modify cysteines on KEAP1, so Nrf2 escapes degradation and switches on glutathione synthesis, GSTs, NQO1, HO-1 and other cytoprotective enzymes. These 'indirect antioxidants' act catalytically and for longer than the inducer stays in blood. Induction is bounded (enzyme levels plateau) and human dose-response curves are poorly mapped; no maximally effective dose has been established.",
+   "refs": [
+    "dinkovakostova2008",
+    "cuadrado2019",
+    "forman2014",
+    "yagishita2019"
+   ]
+  },
+  {
+   "id": "direct-scavenging",
+   "name": "Direct radical scavenging (and why it mostly fails in vivo)",
+   "description": "Polyphenols scavenge radicals in test tubes (ORAC, FRAP, Folin), but in the body they are present at low micromolar or lower concentrations, mostly as conjugates and microbial metabolites, and cannot out-compete endogenous enzymes kinetically. Plausible exceptions are inside the gut lumen and food itself, where concentrations are high (e.g. spices preventing lipid oxidation in meat), and lipid-soluble carotenoids/tocopherols and vitamin C, which are real chain-breaking antioxidants up to saturation.",
+   "refs": [
+    "forman2014",
+    "halliwell2007",
+    "manach2005",
+    "kanner2007",
+    "carlsen2010",
+    "wu2004",
+    "rothwell2013"
+   ]
+  },
+  {
+   "id": "nox",
+   "name": "NADPH oxidase and postprandial oxidative stress",
+   "description": "Large meals, glucose, fat and AGEs acutely upregulate leukocyte and vascular NADPH oxidase, raising superoxide for several hours. Blueberry metabolites lowered neutrophil NADPH oxidase activity in parallel with improved vascular function.",
+   "refs": [
+    "mohanty2000",
+    "mohanty2002",
+    "rodriguezmateos2013",
+    "negrean2007"
+   ]
+  },
+  {
+   "id": "endothelial",
+   "name": "Endothelial nitric oxide",
+   "description": "Flavanols, anthocyanin metabolites and dietary nitrate raise nitric-oxide bioavailability; flow-mediated dilation (FMD) is the most reproducible human outcome for polyphenol foods and partly reflects reduced vascular superoxide.",
+   "refs": [
+    "hooper2012",
+    "fairliejones2017",
+    "siervo2013",
+    "woolf2023"
+   ]
+  },
+  {
+   "id": "microbiome",
+   "name": "Gut microbial metabolism of polyphenols",
+   "description": "Most anthocyanins, flavan-3-ol oligomers, chlorogenic acids and ellagitannins reach the colon, where bacteria convert them into phenolic acids, valerolactones and urolithins that circulate for up to 48 h. Inter-individual differences in this metabolism are large and partly explain variable responses.",
+   "refs": [
+    "czank2013",
+    "favari2024",
+    "clifford2017",
+    "fahey2012"
+   ]
+  },
+  {
+   "id": "glycation-ages",
+   "name": "Glycation and dietary AGEs",
+   "description": "Dry-heat cooking of protein- and fat-rich foods creates AGEs; hyperglycemia also forms them endogenously. AGE-RAGE signalling activates NADPH oxidase and NF-kB.",
+   "refs": [
+    "uribarri2010",
+    "vlassara2016",
+    "clarke2016"
+   ]
+  },
+  {
+   "id": "iron-fenton",
+   "name": "Iron and Fenton chemistry",
+   "description": "Free or heme iron catalyses hydroxyl radical formation and lipid peroxidation, notably in the gut after red meat or unneeded iron supplements.",
+   "refs": [
+    "bastide2011",
+    "lund1999"
+   ]
+  },
+  {
+   "id": "mitochondrial",
+   "name": "Mitochondrial ROS from nutrient excess",
+   "description": "Overfeeding increases electron supply to the respiratory chain and superoxide leak; calorie restriction does the reverse.",
+   "refs": [
+    "boden2015",
+    "samochabonet2012",
+    "ilyasova2018"
+   ]
+  },
+  {
+   "id": "hormesis",
+   "name": "Hormesis / para-hormesis",
+   "description": "Mild electrophilic or oxidative signals (from phytochemicals, exercise, fasting) upregulate endogenous defences; high-dose direct antioxidants can blunt such signals, as vitamin C + E blunted exercise-induced gains in insulin sensitivity.",
+   "refs": [
+    "forman2014",
+    "ristow2009"
+   ]
+  },
+  {
+   "id": "inflammation-nfkb",
+   "name": "Inflammation / NF-kB",
+   "description": "Oxidized dietary lipids, AGEs, excess nutrients and trans fats activate NF-kB-driven inflammation, which itself generates ROS; olive phenolics, fiber-derived SCFA and weight loss dampen it.",
+   "refs": [
+    "kanner2007",
+    "okeefe2008",
+    "reynolds2019"
+   ]
+  },
+  {
+   "id": "oxidative-biomarkers",
+   "name": "How oxidative stress is measured in diet trials",
+   "description": "Validation work found plasma/urinary F2-isoprostanes and MDA measured by mass spectrometry, and urinary 8-OHdG, to be the most reliable general markers; TBARS, 'total antioxidant capacity' (TAC, FRAP, ORAC of plasma) and many ELISA kits are non-specific. Even 8-iso-PGF2alpha can rise from enzymatic COX activity during inflammation. Many positive food trials rely on the weaker markers.",
+   "refs": [
+    "kadiiska2005",
+    "vanterve2015",
+    "higdon2000"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "fahey1997",
+   "authors": "Fahey JW, Zhang Y, Talalay P",
+   "year": 1997,
+   "title": "Broccoli sprouts: an exceptionally rich source of inducers of enzymes that protect against chemical carcinogens.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "9294217",
+   "doi": "10.1073/pnas.94.19.10367",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "3-day-old broccoli sprouts contain 10-100 times more glucoraphanin than mature plants and little indole glucosinolate."
+  },
+  {
+   "id": "shapiro2001",
+   "authors": "Shapiro TA, Fahey JW, Wade KL, et al.",
+   "year": 2001,
+   "title": "Chemoprotective glucosinolates and isothiocyanates of broccoli sprouts: metabolism and excretion in humans.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "11352861",
+   "doi": null,
+   "type": "rct",
+   "n": "healthy volunteers (crossover)",
+   "finding": "Isothiocyanates were ~6x more bioavailable than glucosinolates; excretion was linear from 25-200 µmol; chewing sprouts thoroughly increased excretion."
+  },
+  {
+   "id": "shapiro2006",
+   "authors": "Shapiro TA, Fahey JW, Dinkova-Kostova AT, et al.",
+   "year": 2006,
+   "title": "Safety, tolerance, and metabolism of broccoli sprout glucosinolates and isothiocyanates: a clinical phase I study.",
+   "journal": "Nutr Cancer",
+   "pmid": "16965241",
+   "doi": "10.1207/s15327914nc5501_7",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "Glucosinolate extracts converted ~18-20% vs ~71% for isothiocyanate extracts; no toxicity including liver and thyroid tests over 7 days."
+  },
+  {
+   "id": "atwell2015",
+   "authors": "Atwell LL, Hsu A, Wong CP, et al.",
+   "year": 2015,
+   "title": "Absorption and chemopreventive targets of sulforaphane in humans following consumption of broccoli sprouts or a myrosinase-treated broccoli sprout extract.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "25522265",
+   "doi": "10.1002/mnfr.201400674",
+   "type": "rct",
+   "n": "healthy adults (crossover)",
+   "finding": "At 200 µmol/day, fresh sprouts gave ~3x higher sulforaphane metabolites than a myrosinase-treated extract; no dose response in HO-1, HDAC activity or p21."
+  },
+  {
+   "id": "fahey2012",
+   "authors": "Fahey JW, Wehage SL, Holtzclaw WD, et al.",
+   "year": 2012,
+   "title": "Protection of humans by plant glucosinolates: efficiency of conversion of glucosinolates to isothiocyanates by the gastrointestinal microflora.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "22318753",
+   "doi": "10.1158/1940-6207.CAPR-11-0538",
+   "type": "rct",
+   "n": "Chinese and Baltimore volunteers",
+   "finding": "Microbial conversion of glucosinolates varied from ~1% to >40% between people but was consistent within a person; preformed isothiocyanates gave 70-90%."
+  },
+  {
+   "id": "egner2014",
+   "authors": "Egner PA, Chen JG, Zarth AT, et al.",
+   "year": 2014,
+   "title": "Rapid and sustainable detoxication of airborne pollutants by broccoli sprout beverage: results of a randomized clinical trial in China.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "24913818",
+   "doi": "10.1158/1940-6207.CAPR-14-0103",
+   "type": "rct",
+   "n": "291 adults",
+   "finding": "Daily 600 µmol glucoraphanin + 40 µmol sulforaphane for 12 weeks raised excretion of benzene (61%) and acrolein (23%) conjugates; sulforaphane bioavailability did not decline over 12 weeks."
+  },
+  {
+   "id": "chen2019",
+   "authors": "Chen JG, Johnson J, Egner P, et al.",
+   "year": 2019,
+   "title": "Dose-dependent detoxication of the airborne pollutant benzene in a randomized trial of broccoli sprout beverage in Qidong, China.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31268126",
+   "doi": "10.1093/ajcn/nqz122",
+   "type": "rct",
+   "n": "170 adults",
+   "finding": "Only the full dose (~25 µmol urinary sulforaphane metabolites/day) raised benzene mercapturic acid excretion (+63%); half and one-fifth doses were not different from placebo."
+  },
+  {
+   "id": "kensler2005",
+   "authors": "Kensler TW, Chen JG, Egner PA, et al.",
+   "year": 2005,
+   "title": "Effects of glucosinolate-rich broccoli sprouts on urinary levels of aflatoxin-DNA adducts and phenanthrene tetraols in a randomized clinical trial in He Zuo township, Qidong, People's Republic of China.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "16284385",
+   "doi": "10.1158/1055-9965.EPI-05-0368",
+   "type": "rct",
+   "n": "200 adults",
+   "finding": "No overall difference between arms, but individual sulforaphane metabolite excretion was inversely associated with aflatoxin-DNA adducts and phenanthrene tetraols; bioavailability varied greatly."
+  },
+  {
+   "id": "riedl2009",
+   "authors": "Riedl MA, Saxon A, Diaz-Sanchez D",
+   "year": 2009,
+   "title": "Oral sulforaphane increases Phase II antioxidant enzymes in the human upper airway.",
+   "journal": "Clin Immunol",
+   "pmid": "19028145",
+   "doi": "10.1016/j.clim.2008.10.007",
+   "type": "rct",
+   "n": "dose-escalation volunteers",
+   "finding": "Broccoli sprout homogenate dose-dependently induced GSTM1, GSTP1, NQO1 and HO-1 in nasal cells, maximal at 200 g sprouts; alfalfa sprouts had no effect."
+  },
+  {
+   "id": "lopezchillon2019",
+   "authors": "López-Chillón MT, Carazo-Díaz C, Prieto-Merino D, et al.",
+   "year": 2019,
+   "title": "Effects of long-term consumption of broccoli sprouts on inflammatory markers in overweight subjects.",
+   "journal": "Clin Nutr",
+   "pmid": "29573889",
+   "doi": "10.1016/j.clnu.2018.03.006",
+   "type": "cohort",
+   "n": "40 overweight adults",
+   "finding": "30 g/day fresh broccoli sprouts for 10 weeks lowered IL-6 and CRP (uncontrolled before-after design)."
+  },
+  {
+   "id": "clarke2011",
+   "authors": "Clarke JD, Hsu A, Riedl K, et al.",
+   "year": 2011,
+   "title": "Bioavailability and inter-conversion of sulforaphane and erucin in human subjects consuming broccoli sprouts or broccoli supplement in a cross-over study design.",
+   "journal": "Pharmacol Res",
+   "pmid": "21816223",
+   "doi": "10.1016/j.phrs.2011.07.005",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "A myrosinase-free broccoli supplement produced dramatically lower plasma and urinary isothiocyanates than 40 g fresh sprouts."
+  },
+  {
+   "id": "bahadoran2011",
+   "authors": "Bahadoran Z, Mirmiran P, Hosseinpanah F, et al.",
+   "year": 2011,
+   "title": "Broccoli sprouts reduce oxidative stress in type 2 diabetes: a randomized double-blind clinical trial.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "21559038",
+   "doi": "10.1038/ejcn.2011.59",
+   "type": "rct",
+   "n": "81 adults with type 2 diabetes",
+   "finding": "5-10 g/day broccoli sprout powder for 4 weeks lowered MDA, oxidized LDL and oxidative stress index and raised total antioxidant capacity."
+  },
+  {
+   "id": "bahadoran2012",
+   "authors": "Bahadoran Z, Mirmiran P, Hosseinpanah F, et al.",
+   "year": 2012,
+   "title": "Broccoli sprouts powder could improve serum triglyceride and oxidized LDL/LDL-cholesterol ratio in type 2 diabetic patients: a randomized double-blind placebo-controlled clinical trial.",
+   "journal": "Diabetes Res Clin Pract",
+   "pmid": "22325157",
+   "doi": "10.1016/j.diabres.2012.01.009",
+   "type": "rct",
+   "n": "81 adults with type 2 diabetes",
+   "finding": "10 g/day broccoli sprout powder for 4 weeks lowered triglycerides and the oxidized LDL/LDL ratio."
+  },
+  {
+   "id": "wise2016",
+   "authors": "Wise RA, Holbrook JT, Criner G, et al.",
+   "year": 2016,
+   "title": "Lack of Effect of Oral Sulforaphane Administration on Nrf2 Expression in COPD: A Randomized, Double-Blind, Placebo Controlled Trial.",
+   "journal": "PLoS One",
+   "pmid": "27832073",
+   "doi": "10.1371/journal.pone.0163716",
+   "type": "rct",
+   "n": "89 COPD patients",
+   "finding": "25 or 150 µmol/day sulforaphane for 4 weeks was absorbed but did not induce Nrf2 target genes in lung cells or change oxidative stress or inflammation markers."
+  },
+  {
+   "id": "chartoumpekis2019",
+   "authors": "Chartoumpekis DV, Ziros PG, Chen JG, et al.",
+   "year": 2019,
+   "title": "Broccoli sprout beverage is safe for thyroid hormonal and autoimmune status: Results of a 12-week randomized trial.",
+   "journal": "Food Chem Toxicol",
+   "pmid": "30735751",
+   "doi": "10.1016/j.fct.2019.02.004",
+   "type": "rct",
+   "n": "45 women",
+   "finding": "84 days of a sulforaphane/glucoraphanin beverage did not change TSH, free T4, thyroglobulin or thyroid autoimmunity."
+  },
+  {
+   "id": "yagishita2019",
+   "authors": "Yagishita Y, Fahey JW, Dinkova-Kostova AT, et al.",
+   "year": 2019,
+   "title": "Broccoli or Sulforaphane: Is It the Source or Dose That Matters?",
+   "journal": "Molecules",
+   "pmid": "31590459",
+   "doi": "10.3390/molecules24193593",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews >50 clinical trials; supermarket broccoli heads averaged 0.38 µmol glucoraphanin/g (range <0.005-1.13); no maximally effective sulforaphane dose has been established and dose-response shapes are unknown."
+  },
+  {
+   "id": "fahey2015",
+   "authors": "Fahey JW, Holtzclaw WD, Wehage SL, et al.",
+   "year": 2015,
+   "title": "Sulforaphane Bioavailability from Glucoraphanin-Rich Broccoli: Control by Active Endogenous Myrosinase.",
+   "journal": "PLoS One",
+   "pmid": "26524341",
+   "doi": "10.1371/journal.pone.0140963",
+   "type": "rct",
+   "n": "small volunteer cohorts",
+   "finding": "Broccoli sprouts or seeds given with their active myrosinase yielded 3-4x more sulforaphane than glucoraphanin without myrosinase; a glucoraphanin supplement matched a boiled sprout extract."
+  },
+  {
+   "id": "conaway2000",
+   "authors": "Conaway CC, Getahun SM, Liebes LL, et al.",
+   "year": 2000,
+   "title": "Disposition of glucosinolates and sulforaphane in humans after ingestion of steamed and fresh broccoli.",
+   "journal": "Nutr Cancer",
+   "pmid": "11525594",
+   "doi": "10.1207/S15327914NC382_5",
+   "type": "rct",
+   "n": "12 men",
+   "finding": "After 200 g broccoli, 32% of isothiocyanates were excreted from fresh vs 10% from steamed broccoli (~3x difference)."
+  },
+  {
+   "id": "vermeulen2008",
+   "authors": "Vermeulen M, Klöpping-Ketelaars IW, van den Berg R, et al.",
+   "year": 2008,
+   "title": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli.",
+   "journal": "J Agric Food Chem",
+   "pmid": "18950181",
+   "doi": "10.1021/jf801989e",
+   "type": "rct",
+   "n": "8 men",
+   "finding": "Sulforaphane bioavailability was 37% from raw vs 3.4% from cooked broccoli; peak at 1.6 vs 6 h; half-life ~2.5 h."
+  },
+  {
+   "id": "matusheski2004",
+   "authors": "Matusheski NV, Juvik JA, Jeffery EH",
+   "year": 2004,
+   "title": "Heating decreases epithiospecifier protein activity and increases sulforaphane formation in broccoli.",
+   "journal": "Phytochemistry",
+   "pmid": "15184012",
+   "doi": "10.1016/j.phytochem.2004.04.013",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Heating broccoli to 60 °C increased sulforaphane and decreased inactive nitrile formation; 70 °C and above decreased both in florets."
+  },
+  {
+   "id": "sivapalan2018",
+   "authors": "Sivapalan T, Melchini A, Saha S, et al.",
+   "year": 2018,
+   "title": "Bioavailability of Glucoraphanin and Sulforaphane from High-Glucoraphanin Broccoli.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29266773",
+   "doi": "10.1002/mnfr.201700911",
+   "type": "rct",
+   "n": "10 adults",
+   "finding": "Soups (myrosinase denatured) from high-glucoraphanin broccoli gave 3-5x higher circulating sulforaphane; excretion was 2-15% of glucoraphanin consumed."
+  },
+  {
+   "id": "okunade2018",
+   "authors": "Okunade O, Niranjan K, Ghawi SK, et al.",
+   "year": 2018,
+   "title": "Supplementation of the Diet by Exogenous Myrosinase via Mustard Seeds to Increase the Bioavailability of Sulforaphane in Healthy Human Subjects after the Consumption of Cooked Broccoli.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29806738",
+   "doi": "10.1002/mnfr.201700980",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "Adding 1 g brown mustard powder to 200 g cooked broccoli raised urinary sulforaphane-NAC from 9.8 to 44.7 µmol/g creatinine."
+  },
+  {
+   "id": "egner2011",
+   "authors": "Egner PA, Chen JG, Wang JB, et al.",
+   "year": 2011,
+   "title": "Bioavailability of Sulforaphane from two broccoli sprout beverages: results of a short-term, cross-over clinical trial in Qidong, China.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21372038",
+   "doi": "10.1158/1940-6207.CAPR-10-0296",
+   "type": "rct",
+   "n": "50 adults",
+   "finding": "Sulforaphane-rich beverage (made with daikon myrosinase) gave ~70% urinary recovery vs ~5% for glucoraphanin-rich beverage, with less variability."
+  },
+  {
+   "id": "houghton2016",
+   "authors": "Houghton CA, Fassett RG, Coombes JS",
+   "year": 2016,
+   "title": "Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician's Expectation Be Matched by the Reality?",
+   "journal": "Oxid Med Cell Longev",
+   "pmid": "26881038",
+   "doi": "10.1155/2016/7857186",
+   "type": "review",
+   "n": null,
+   "finding": "Sulforaphane activates Nrf2 more potently and is more bioavailable than curcumin, silymarin or resveratrol."
+  },
+  {
+   "id": "kikuchi2015",
+   "authors": "Kikuchi M, Ushida Y, Shiozawa H, et al.",
+   "year": 2015,
+   "title": "Sulforaphane-rich broccoli sprout extract improves hepatic abnormalities in male subjects.",
+   "journal": "World J Gastroenterol",
+   "pmid": "26604653",
+   "doi": "10.3748/wjg.v21.i43.12457",
+   "type": "rct",
+   "n": "52 men with fatty liver",
+   "finding": "Glucoraphanin capsules for 2 months lowered ALT, gamma-GTP and urinary 8-OHdG vs placebo."
+  },
+  {
+   "id": "curtis2019",
+   "authors": "Curtis PJ, van der Velpen V, Berends L, et al.",
+   "year": 2019,
+   "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31136659",
+   "doi": "10.1093/ajcn/nqy380",
+   "type": "rct",
+   "n": "115 adults with metabolic syndrome",
+   "finding": "1 cup (150 g)/day blueberries improved FMD (+1.45%) and arterial stiffness over 6 months; 1/2 cup had no effect; insulin resistance and plasma thiols unchanged."
+  },
+  {
+   "id": "rodriguezmateos2013",
+   "authors": "Rodriguez-Mateos A, Rendeiro C, Bergillos-Meca T, et al.",
+   "year": 2013,
+   "title": "Intake and time dependence of blueberry flavonoid-induced improvements in vascular function: a randomized, controlled, double-blind, crossover intervention study with mechanistic insights into biological activity.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "24004888",
+   "doi": "10.3945/ajcn.113.066639",
+   "type": "rct",
+   "n": "21 healthy men",
+   "finding": "FMD rose at 1-2 and 6 h after blueberry; dose-dependent up to 766 mg polyphenols then plateaued; linked to metabolites and lower neutrophil NADPH oxidase."
+  },
+  {
+   "id": "stull2015",
+   "authors": "Stull AJ, Cash KC, Champagne CM, et al.",
+   "year": 2015,
+   "title": "Blueberries improve endothelial function, but not blood pressure, in adults with metabolic syndrome: a randomized, double-blind, placebo-controlled clinical trial.",
+   "journal": "Nutrients",
+   "pmid": "26024297",
+   "doi": "10.3390/nu7064107",
+   "type": "rct",
+   "n": "44 adults",
+   "finding": "Blueberry smoothies twice daily for 6 weeks improved endothelial function (RHI) but not blood pressure or insulin sensitivity."
+  },
+  {
+   "id": "nair2017",
+   "authors": "Nair AR, Mariappan N, Stull AJ, et al.",
+   "year": 2017,
+   "title": "Blueberry supplementation attenuates oxidative stress within monocytes and modulates immune cell levels in adults with metabolic syndrome: a randomized, double-blind, placebo-controlled trial.",
+   "journal": "Food Funct",
+   "pmid": "29019365",
+   "doi": "10.1039/c7fo00815e",
+   "type": "rct",
+   "n": "adults with metabolic syndrome",
+   "finding": "22.5 g freeze-dried blueberry twice daily for 6 weeks lowered superoxide and total ROS in whole blood and monocytes."
+  },
+  {
+   "id": "basu2010",
+   "authors": "Basu A, Du M, Leyva MJ, et al.",
+   "year": 2010,
+   "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+   "journal": "J Nutr",
+   "pmid": "20660279",
+   "doi": "10.3945/jn.110.124701",
+   "type": "rct",
+   "n": "48 adults",
+   "finding": "50 g freeze-dried blueberries (~350 g fresh) daily for 8 weeks reduced blood pressure and oxidized LDL (-28%) and MDA/HNE more than control."
+  },
+  {
+   "id": "riso2013",
+   "authors": "Riso P, Klimis-Zacas D, Del Bo' C, et al.",
+   "year": 2013,
+   "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+   "journal": "Eur J Nutr",
+   "pmid": "22733001",
+   "doi": "10.1007/s00394-012-0402-9",
+   "type": "rct",
+   "n": "18 men",
+   "finding": "Wild blueberry drink (375 mg anthocyanins) for 6 weeks reduced oxidized DNA bases and H2O2-induced DNA damage; no effect on endothelial markers."
+  },
+  {
+   "id": "johnson2015",
+   "authors": "Johnson SA, Figueroa A, Navaei N, et al.",
+   "year": 2015,
+   "title": "Daily blueberry consumption improves blood pressure and arterial stiffness in postmenopausal women with pre- and stage 1-hypertension: a randomized, double-blind, placebo-controlled clinical trial.",
+   "journal": "J Acad Nutr Diet",
+   "pmid": "25578927",
+   "doi": "10.1016/j.jand.2014.11.001",
+   "type": "rct",
+   "n": "48 women",
+   "finding": "22 g/day freeze-dried blueberry for 8 weeks lowered blood pressure and arterial stiffness and raised nitric oxide."
+  },
+  {
+   "id": "woolf2023",
+   "authors": "Woolf EK, Terwoord JD, Litwin NS, et al.",
+   "year": 2023,
+   "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+   "journal": "Food Funct",
+   "pmid": "36847333",
+   "doi": "10.1039/d3fo00157a",
+   "type": "rct",
+   "n": "43 women",
+   "finding": "22 g/day freeze-dried blueberry for 12 weeks improved FMD, and the smaller response to ascorbate infusion implied the gain came from reduced oxidative stress."
+  },
+  {
+   "id": "martini2023",
+   "authors": "Martini D, Marino M, Venturi S, et al.",
+   "year": 2023,
+   "title": "Blueberries and their bioactives in the modulation of oxidative stress, inflammation and cardio/vascular function markers: a systematic review of human intervention studies.",
+   "journal": "J Nutr Biochem",
+   "pmid": "36150681",
+   "doi": "10.1016/j.jnutbio.2022.109154",
+   "type": "review",
+   "n": "45 human studies",
+   "finding": "Blueberries most consistently improve vascular function; results on oxidative stress, inflammation and cardiometabolic markers conflict."
+  },
+  {
+   "id": "fairliejones2017",
+   "authors": "Fairlie-Jones L, Davison K, Fromentin E, et al.",
+   "year": 2017,
+   "title": "The Effect of Anthocyanin-Rich Foods or Extracts on Vascular Function in Adults: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
+   "journal": "Nutrients",
+   "pmid": "28825651",
+   "doi": "10.3390/nu9080908",
+   "type": "meta-analysis",
+   "n": "24 studies",
+   "finding": "Anthocyanin foods/extracts improved FMD acutely and chronically (chronic SMD 0.84) with high heterogeneity."
+  },
+  {
+   "id": "czank2013",
+   "authors": "Czank C, Cassidy A, Zhang Q, et al.",
+   "year": 2013,
+   "title": "Human metabolism and elimination of the anthocyanin, cyanidin-3-glucoside: a (13)C-tracer study.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "23604435",
+   "doi": "10.3945/ajcn.112.049247",
+   "type": "mechanistic",
+   "n": "8 men",
+   "finding": "Relative bioavailability of labelled cyanidin-3-glucoside including metabolites was ~12%; metabolites (phenolic, hippuric acids) circulated for up to 48 h."
+  },
+  {
+   "id": "huang2016",
+   "authors": "Huang H, Chen G, Liao D, et al.",
+   "year": 2016,
+   "title": "Effects of Berries Consumption on Cardiovascular Risk Factors: A Meta-analysis with Trial Sequential Analysis of Randomized Controlled Trials.",
+   "journal": "Sci Rep",
+   "pmid": "27006201",
+   "doi": "10.1038/srep23625",
+   "type": "meta-analysis",
+   "n": "22 RCTs, 1251 people",
+   "finding": "Berries lowered LDL (-0.21 mmol/L), systolic BP (-2.7 mmHg), fasting glucose, HbA1c and TNF-alpha."
+  },
+  {
+   "id": "cassidy2013",
+   "authors": "Cassidy A, Mukamal KJ, Liu L, et al.",
+   "year": 2013,
+   "title": "High anthocyanin intake is associated with a reduced risk of myocardial infarction in young and middle-aged women.",
+   "journal": "Circulation",
+   "pmid": "23319811",
+   "doi": "10.1161/CIRCULATIONAHA.112.122408",
+   "type": "cohort",
+   "n": "93,600 women",
+   "finding": "Highest vs lowest anthocyanin quintile: MI HR 0.68; >3 servings/week of blueberries + strawberries HR 0.66 (CI crossed 1)."
+  },
+  {
+   "id": "solverson2018",
+   "authors": "Solverson PM, Rumpler WV, Leger JL, et al.",
+   "year": 2018,
+   "title": "Blackberry Feeding Increases Fat Oxidation and Improves Insulin Sensitivity in Overweight and Obese Males.",
+   "journal": "Nutrients",
+   "pmid": "30096878",
+   "doi": "10.3390/nu10081048",
+   "type": "rct",
+   "n": "27 men",
+   "finding": "600 g/day blackberries for 7 days on a high-fat diet lowered respiratory quotient and insulin AUC and improved HOMA-IR."
+  },
+  {
+   "id": "noda2000",
+   "authors": "Noda Y, Kneyuki T, Igarashi K, et al.",
+   "year": 2000,
+   "title": "Antioxidant activity of nasunin, an anthocyanin in eggplant peels.",
+   "journal": "Toxicology",
+   "pmid": "10962130",
+   "doi": "10.1016/s0300-483x(00)00202-x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Nasunin scavenged superoxide, inhibited hydroxyl radical generation by chelating iron, and protected rat brain homogenate from lipid peroxidation in vitro."
+  },
+  {
+   "id": "whitaker2003",
+   "authors": "Whitaker BD, Stommel JR",
+   "year": 2003,
+   "title": "Distribution of hydroxycinnamic acid conjugates in fruit of commercial eggplant (Solanum melongena L.) cultivars.",
+   "journal": "J Agric Food Chem",
+   "pmid": "12744682",
+   "doi": "10.1021/jf026250b",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Chlorogenic acid is the predominant eggplant phenolic, with large differences among cultivars and fruit segments."
+  },
+  {
+   "id": "kaushik2017",
+   "authors": "Kaushik P, Gramazio P, Vilanova S, et al.",
+   "year": 2017,
+   "title": "Phenolics content, fruit flesh colour and browning in cultivated eggplant, wild relatives and interspecific hybrids and implications for fruit quality breeding.",
+   "journal": "Food Res Int",
+   "pmid": "29195964",
+   "doi": "10.1016/j.foodres.2017.09.028",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Chlorogenic acid made up >65% of phenolic acids in cultivated eggplant; wild relatives had more phenolics."
+  },
+  {
+   "id": "nishimura2019",
+   "authors": "Nishimura M, Suzuki M, Takahashi R, et al.",
+   "year": 2019,
+   "title": "Daily Ingestion of Eggplant Powder Improves Blood Pressure and Psychological State in Stressed Individuals: A Randomized Placebo-Controlled Study.",
+   "journal": "Nutrients",
+   "pmid": "31744060",
+   "doi": "10.3390/nu11112797",
+   "type": "rct",
+   "n": "100 adults",
+   "finding": "1.2 g/day eggplant powder for 12 weeks lowered blood pressure, attributed to acetylcholine (choline esters), not antioxidants."
+  },
+  {
+   "id": "martini2016",
+   "authors": "Martini D, Del Bo' C, Tassotti M, et al.",
+   "year": 2016,
+   "title": "Coffee Consumption and Oxidative Stress: A Review of Human Intervention Studies.",
+   "journal": "Molecules",
+   "pmid": "27483219",
+   "doi": "10.3390/molecules21080979",
+   "type": "review",
+   "n": "26 intervention studies",
+   "finding": "Coffee can raise glutathione and protect against DNA damage, especially with regular intake; effects on antioxidant capacity, enzymes and lipid/protein damage are unclear."
+  },
+  {
+   "id": "hoelzl2010",
+   "authors": "Hoelzl C, Knasmüller S, Wagner KH, et al.",
+   "year": 2010,
+   "title": "Instant coffee with high chlorogenic acid levels protects humans against oxidative damage of macromolecules.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "20589860",
+   "doi": "10.1002/mnfr.201000048",
+   "type": "rct",
+   "n": "36 treated + controls",
+   "finding": "800 mL/day high-chlorogenic-acid coffee for 5 days lowered urinary 8-iso-PGF2alpha by 15% and 3-nitrotyrosine by 16%."
+  },
+  {
+   "id": "bakuradze2015",
+   "authors": "Bakuradze T, Lang R, Hofmann T, et al.",
+   "year": 2015,
+   "title": "Consumption of a dark roast coffee decreases the level of spontaneous DNA strand breaks: a randomized controlled trial.",
+   "journal": "Eur J Nutr",
+   "pmid": "24740588",
+   "doi": "10.1007/s00394-014-0696-x",
+   "type": "rct",
+   "n": "84 healthy men",
+   "finding": "750 mL/day coffee for 4 weeks produced a 27% difference in spontaneous DNA strand breaks vs water."
+  },
+  {
+   "id": "bakuradze2016",
+   "authors": "Bakuradze T, Lang R, Hofmann T, et al.",
+   "year": 2016,
+   "title": "Coffee consumption rapidly reduces background DNA strand breaks in healthy humans: Results of a short-term repeated uptake intervention study.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "26632023",
+   "doi": "10.1002/mnfr.201500668",
+   "type": "rct",
+   "n": "healthy men",
+   "finding": "DNA strand breaks fell within 2 h of the first cup and by about one-third after 800 mL over 8 h."
+  },
+  {
+   "id": "clifford2017",
+   "authors": "Clifford MN, Jaganath IB, Ludwig IA, et al.",
+   "year": 2017,
+   "title": "Chlorogenic acids and the acyl-quinic acids: discovery, biosynthesis, bioavailability and bioactivity.",
+   "journal": "Nat Prod Rep",
+   "pmid": "29160894",
+   "doi": "10.1039/c7np00030h",
+   "type": "review",
+   "n": null,
+   "finding": "Coffee is the major dietary source of chlorogenic (acyl-quinic) acids worldwide; much is metabolised by colonic microbiota."
+  },
+  {
+   "id": "poole2017",
+   "authors": "Poole R, Kennedy OJ, Roderick P, et al.",
+   "year": 2017,
+   "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes.",
+   "journal": "BMJ",
+   "pmid": "29167102",
+   "doi": "10.1136/bmj.j5024",
+   "type": "meta-analysis",
+   "n": "201 + 17 meta-analyses",
+   "finding": "Largest risk reductions at 3-4 cups/day (all-cause mortality RR 0.83); harms in pregnancy."
+  },
+  {
+   "id": "ding2015",
+   "authors": "Ding M, Satija A, Bhupathiraju SN, et al.",
+   "year": 2015,
+   "title": "Association of Coffee Consumption With Total and Cause-Specific Mortality in 3 Large Prospective Cohorts.",
+   "journal": "Circulation",
+   "pmid": "26572796",
+   "doi": "10.1161/CIRCULATIONAHA.115.017341",
+   "type": "cohort",
+   "n": "208,501 adults",
+   "finding": "Caffeinated and decaffeinated coffee were both inversely associated with mortality in never smokers."
+  },
+  {
+   "id": "urgert1997",
+   "authors": "Urgert R, Katan MB",
+   "year": 1997,
+   "title": "The cholesterol-raising factor from coffee beans.",
+   "journal": "Annu Rev Nutr",
+   "pmid": "9240930",
+   "doi": "10.1146/annurev.nutr.17.1.305",
+   "type": "review",
+   "n": null,
+   "finding": "Cafestol and kahweol raise LDL cholesterol; paper filters retain them, so filtered coffee does not raise cholesterol while boiled, cafetiere and Turkish coffee do."
+  },
+  {
+   "id": "urgert1997b",
+   "authors": "Urgert R, Weusten-van der Wouw MP, Hovenier R, et al.",
+   "year": 1997,
+   "title": "Diterpenes from coffee beans decrease serum levels of lipoprotein(a) in humans: results from four randomised controlled trials.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "9234024",
+   "doi": "10.1038/sj.ejcn.1600414",
+   "type": "rct",
+   "n": "63 adults (4 trials)",
+   "finding": "10 mg/day cafestol corresponds to two to three cups of cafetiere coffee."
+  },
+  {
+   "id": "medinaremon2011",
+   "authors": "Medina-Remón A, Zamora-Ros R, Rotchés-Ribalta M, et al.",
+   "year": 2011,
+   "title": "Total polyphenol excretion and blood pressure in subjects at high cardiovascular risk.",
+   "journal": "Nutr Metab Cardiovasc Dis",
+   "pmid": "20167460",
+   "doi": "10.1016/j.numecd.2009.10.019",
+   "type": "cross-sectional",
+   "n": "589 PREDIMED participants",
+   "finding": "Fruit and vegetables, then coffee, then wine contributed most to urinary polyphenols; higher excretion associated with lower blood pressure."
+  },
+  {
+   "id": "hakim2003",
+   "authors": "Hakim IA, Harris RB, Brown S, et al.",
+   "year": 2003,
+   "title": "Effect of increased tea consumption on oxidative DNA damage among smokers: a randomized controlled study.",
+   "journal": "J Nutr",
+   "pmid": "14519830",
+   "doi": "10.1093/jn/133.10.3303S",
+   "type": "rct",
+   "n": "143 heavy smokers",
+   "finding": "4 cups/day decaffeinated green tea for 4 months lowered urinary 8-OHdG by 31%; black tea had no effect."
+  },
+  {
+   "id": "basu2010tea",
+   "authors": "Basu A, Sanchez K, Leyva MJ, et al.",
+   "year": 2010,
+   "title": "Green tea supplementation affects body weight, lipids, and lipid peroxidation in obese subjects with metabolic syndrome.",
+   "journal": "J Am Coll Nutr",
+   "pmid": "20595643",
+   "doi": "10.1080/07315724.2010.10719814",
+   "type": "rct",
+   "n": "35 adults",
+   "finding": "4 cups/day green tea for 8 weeks lowered plasma MDA and HNE vs control."
+  },
+  {
+   "id": "lee2002",
+   "authors": "Lee MJ, Maliakal P, Chen L, et al.",
+   "year": 2002,
+   "title": "Pharmacokinetics of tea catechins after ingestion of green tea and (-)-epigallocatechin-3-gallate by humans: formation of different metabolites and individual variability.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "12376503",
+   "doi": null,
+   "type": "mechanistic",
+   "n": "8 adults",
+   "finding": "EGCG peaked in plasma at ~1.5 h with a 3.4 h half-life and large variability; valerolactone ring-fission metabolites peaked at 8-15 h."
+  },
+  {
+   "id": "efsa2018",
+   "authors": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS), Younes M, Aggett P, et al.",
+   "year": 2018,
+   "title": "Scientific opinion on the safety of green tea catechins.",
+   "journal": "EFSA J",
+   "pmid": "32625874",
+   "doi": "10.2903/j.efsa.2018.5239",
+   "type": "guideline",
+   "n": null,
+   "finding": "Brewed green tea is generally safe (90-300 mg EGCG/day typical); supplement intakes >= 800 mg EGCG/day significantly raise serum transaminases in trials."
+  },
+  {
+   "id": "mazzanti2015",
+   "authors": "Mazzanti G, Di Sotto A, Vitalone A",
+   "year": 2015,
+   "title": "Hepatotoxicity of green tea: an update.",
+   "journal": "Arch Toxicol",
+   "pmid": "25975988",
+   "doi": "10.1007/s00204-015-1521-x",
+   "type": "review",
+   "n": "19 cases",
+   "finding": "Green-tea supplement liver injury cases were mostly hepatocellular in women; multi-ingredient products caused more severe injury with shorter latency."
+  },
+  {
+   "id": "efsa2012",
+   "authors": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+   "year": 2012,
+   "title": "Scientific Opinion on the substantiation of a health claim related to cocoa flavanols and maintenance of normal endothelium-dependent vasodilation pursuant to Article 13(5) of Regulation (EC) No 1924/2006.",
+   "journal": "EFSA J",
+   "pmid": "42016115",
+   "doi": "10.2903/j.efsa.2012.2809",
+   "type": "guideline",
+   "n": null,
+   "finding": "Cause-and-effect established; 200 mg cocoa flavanols/day (2.5 g high-flavanol cocoa powder or 10 g high-flavanol dark chocolate) needed."
+  },
+  {
+   "id": "hooper2012",
+   "authors": "Hooper L, Kay C, Abdelhamid A, et al.",
+   "year": 2012,
+   "title": "Effects of chocolate, cocoa, and flavan-3-ols on cardiovascular health: a systematic review and meta-analysis of randomized trials.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "22301923",
+   "doi": "10.3945/ajcn.111.023457",
+   "type": "meta-analysis",
+   "n": "42 RCTs, 1297 people",
+   "finding": "Cocoa improved FMD (chronic +1.34%, acute +3.19%) regardless of dose, insulin resistance and diastolic BP; >50 mg epicatechin/day gave larger BP effects."
+  },
+  {
+   "id": "sansone2015",
+   "authors": "Sansone R, Rodriguez-Mateos A, Heuel J, et al.",
+   "year": 2015,
+   "title": "Cocoa flavanol intake improves endothelial function and Framingham Risk Score in healthy men and women: a randomised, controlled, double-masked trial: the Flaviola Health Study.",
+   "journal": "Br J Nutr",
+   "pmid": "26348767",
+   "doi": "10.1017/S0007114515002822",
+   "type": "rct",
+   "n": "100 healthy adults",
+   "finding": "450 mg cocoa flavanols twice daily for 1 month raised FMD by 1.2% and lowered BP, LDL and pulse wave velocity; FMD plateaued after ~2 weeks."
+  },
+  {
+   "id": "sesso2022",
+   "authors": "Sesso HD, Manson JE, Aragaki AK, et al.",
+   "year": 2022,
+   "title": "Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "35294962",
+   "doi": "10.1093/ajcn/nqac055",
+   "type": "rct",
+   "n": "21,442 older adults",
+   "finding": "500 mg/day cocoa flavanols for 3.6 years: total CVD events HR 0.90 (NS); CVD death HR 0.73 (secondary)."
+  },
+  {
+   "id": "covas2006",
+   "authors": "Covas MI, Nyyssönen K, Poulsen HE, et al.",
+   "year": 2006,
+   "title": "The effect of polyphenols in olive oil on heart disease risk factors: a randomized trial.",
+   "journal": "Ann Intern Med",
+   "pmid": "16954359",
+   "doi": "10.7326/0003-4819-145-5-200609050-00006",
+   "type": "rct",
+   "n": "200 healthy men",
+   "finding": "25 mL/day olive oil for 3 weeks: HDL rose and oxidized LDL and oxidative stress markers fell linearly with phenolic content (2.7, 164, 366 mg/kg)."
+  },
+  {
+   "id": "efsa2011",
+   "authors": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+   "year": 2011,
+   "title": "Scientific Opinion on the substantiation of health claims related to polyphenols in olive and protection of LDL particles from oxidative damage (ID 1333, 1638, 1639, 1696, 2865), maintenance of normal blood HDL cholesterol concentrations (ID 1639), maintenance of normal blood pressure (ID 3781), \"anti-inflammatory properties\" (ID 1882), \"contributes to the upper respiratory tract health\" (ID 3468), \"can help to maintain a normal function of gastrointestinal tract\" (3779), and \"contributes to body defences against external agents\" (ID 3467) pursuant to Article 13(1) of Regulation (EC) No 1924/2006.",
+   "journal": "EFSA J",
+   "pmid": "42078706",
+   "doi": "10.2903/j.efsa.2011.2033",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA opinion underpinning the authorised claim that olive oil polyphenols contribute to protecting blood lipids (LDL) from oxidative stress."
+  },
+  {
+   "id": "tsimidou2019",
+   "authors": "Tsimidou MZ, Sotiroglou M, Mastralexi A, et al.",
+   "year": 2019,
+   "title": "In House Validated UHPLC Protocol for the Determination of the Total Hydroxytyrosol and Tyrosol Content in Virgin Olive Oil Fit for the Purpose of the Health Claim Introduced by the EC Regulation 432/2012 for \"Olive Oil Polyphenols\".",
+   "journal": "Molecules",
+   "pmid": "30884804",
+   "doi": "10.3390/molecules24061044",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The EC 432/2012 claim requires at least 5 mg of olive oil polyphenols (hydroxytyrosol and derivatives) per 20 g of oil; measurement methods are still debated."
+  },
+  {
+   "id": "hernaez2017",
+   "authors": "Hernáez Á, Castañer O, Goday A, et al.",
+   "year": 2017,
+   "title": "The Mediterranean Diet decreases LDL atherogenicity in high cardiovascular risk individuals: a randomized controlled trial.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "28371298",
+   "doi": "10.1002/mnfr.201601015",
+   "type": "rct",
+   "n": "210 PREDIMED participants",
+   "finding": "MedDiet + virgin olive oil for 1 year raised LDL resistance to oxidation (+6.5%) and lowered LDL oxidative modifications (-36%) vs low-fat diet; the nut arm did not."
+  },
+  {
+   "id": "estruch2018",
+   "authors": "Estruch R, Ros E, Salas-Salvadó J, et al.",
+   "year": 2018,
+   "title": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts.",
+   "journal": "N Engl J Med",
+   "pmid": "29897866",
+   "doi": "10.1056/NEJMoa1800389",
+   "type": "rct",
+   "n": "7447 adults at high CV risk",
+   "finding": "Major CVD events HR 0.69 (EVOO) and 0.72 (nuts) vs reduced-fat diet over 4.8 years, robust to randomisation-protocol deviations."
+  },
+  {
+   "id": "mitjavila2013",
+   "authors": "Mitjavila MT, Fandos M, Salas-Salvadó J, et al.",
+   "year": 2013,
+   "title": "The Mediterranean diet improves the systemic lipid and DNA oxidative damage in metabolic syndrome individuals. A randomized, controlled, trial.",
+   "journal": "Clin Nutr",
+   "pmid": "22999065",
+   "doi": "10.1016/j.clnu.2012.08.002",
+   "type": "rct",
+   "n": "110 women with metabolic syndrome",
+   "finding": "After 1 year, urinary 8-oxo-dG fell more in both MedDiet arms (P<0.001) and F2-isoprostanes showed a borderline larger fall vs low-fat control."
+  },
+  {
+   "id": "ros2004",
+   "authors": "Ros E, Núñez I, Pérez-Heras A, et al.",
+   "year": 2004,
+   "title": "A walnut diet improves endothelial function in hypercholesterolemic subjects: a randomized crossover trial.",
+   "journal": "Circulation",
+   "pmid": "15037535",
+   "doi": "10.1161/01.CIR.0000124477.91474.FF",
+   "type": "rct",
+   "n": "21 adults",
+   "finding": "Walnuts replacing ~32% of MUFA energy for 4 weeks improved endothelium-dependent vasodilation and lowered LDL; oxidation biomarkers unchanged."
+  },
+  {
+   "id": "guaschferre2018",
+   "authors": "Guasch-Ferré M, Li J, Hu FB, et al.",
+   "year": 2018,
+   "title": "Effects of walnut consumption on blood lipids and other cardiovascular risk factors: an updated meta-analysis and systematic review of controlled trials.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "29931130",
+   "doi": "10.1093/ajcn/nqy091",
+   "type": "meta-analysis",
+   "n": "26 trials, 1059 people",
+   "finding": "Walnut diets lowered total cholesterol (-7.0 mg/dL), LDL (-5.5 mg/dL), triglycerides and apoB without weight gain."
+  },
+  {
+   "id": "lopezuriarte2009",
+   "authors": "López-Uriarte P, Bulló M, Casas-Agustench P, et al.",
+   "year": 2009,
+   "title": "Nuts and oxidation: a systematic review.",
+   "journal": "Nutr Rev",
+   "pmid": "19703258",
+   "doi": "10.1111/j.1753-4887.2009.00223.x",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews in vitro, animal and human studies of nut intake on oxidation; nuts are fat-rich but their skins carry antioxidants."
+  },
+  {
+   "id": "gartner1997",
+   "authors": "Gärtner C, Stahl W, Sies H",
+   "year": 1997,
+   "title": "Lycopene is more bioavailable from tomato paste than from fresh tomatoes.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "9209178",
+   "doi": "10.1093/ajcn/66.1.116",
+   "type": "rct",
+   "n": "healthy volunteers (crossover)",
+   "finding": "With 15 g oil, tomato paste gave 2.5x higher peak and 3.8x higher AUC lycopene than fresh tomatoes."
+  },
+  {
+   "id": "unlu2005",
+   "authors": "Unlu NZ, Bohn T, Clinton SK, et al.",
+   "year": 2005,
+   "title": "Carotenoid absorption from salad and salsa by humans is enhanced by the addition of avocado or avocado oil.",
+   "journal": "J Nutr",
+   "pmid": "15735074",
+   "doi": "10.1093/jn/135.3.431",
+   "type": "rct",
+   "n": "11 per study",
+   "finding": "Adding 150 g avocado or 24 g avocado oil raised carotenoid absorption 2.6-15-fold."
+  },
+  {
+   "id": "brown2004",
+   "authors": "Brown MJ, Ferruzzi MG, Nguyen ML, et al.",
+   "year": 2004,
+   "title": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "15277161",
+   "doi": "10.1093/ajcn/80.2.396",
+   "type": "rct",
+   "n": "7 adults",
+   "finding": "Essentially no carotenoid absorption with fat-free dressing; more with 6 g and most with 28 g oil."
+  },
+  {
+   "id": "burtonfreeman2012",
+   "authors": "Burton-Freeman B, Talbot J, Park E, et al.",
+   "year": 2012,
+   "title": "Protective activity of processed tomato products on postprandial oxidation and inflammation: a clinical trial in healthy weight men and women.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "22331646",
+   "doi": "10.1002/mnfr.201100649",
+   "type": "rct",
+   "n": "25 adults",
+   "finding": "Processed tomato with a high-fat meal attenuated postprandial LDL oxidation and IL-6 rise."
+  },
+  {
+   "id": "cheng2017",
+   "authors": "Cheng HM, Koutsidis G, Lodge JK, et al.",
+   "year": 2017,
+   "title": "Tomato and lycopene supplementation and cardiovascular risk factors: A systematic review and meta-analysis.",
+   "journal": "Atherosclerosis",
+   "pmid": "28129549",
+   "doi": "10.1016/j.atherosclerosis.2017.01.009",
+   "type": "meta-analysis",
+   "n": "21 studies",
+   "finding": "Tomato interventions lowered LDL (-0.22 mmol/L) and IL-6 and improved FMD (+2.53%); lycopene supplements lowered systolic BP; oxidized LDL not significantly changed."
+  },
+  {
+   "id": "omenn1996",
+   "authors": "Omenn GS, Goodman GE, Thornquist MD, et al.",
+   "year": 1996,
+   "title": "Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease.",
+   "journal": "N Engl J Med",
+   "pmid": "8602180",
+   "doi": "10.1056/NEJM199605023341802",
+   "type": "rct",
+   "n": "18,314 smokers and asbestos workers",
+   "finding": "30 mg beta-carotene + 25,000 IU retinol raised lung cancer (RR 1.28) and all-cause mortality (RR 1.17); trial stopped early."
+  },
+  {
+   "id": "levine1996",
+   "authors": "Levine M, Conry-Cantilena C, Wang Y, et al.",
+   "year": 1996,
+   "title": "Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "8623000",
+   "doi": "10.1073/pnas.93.8.3704",
+   "type": "mechanistic",
+   "n": "7 inpatient volunteers",
+   "finding": "Plasma vitamin C plateaued beyond ~200 mg/day and saturated at 1000 mg; leukocytes saturated at 100 mg; doses >400 mg/day had no evident value."
+  },
+  {
+   "id": "collins2001",
+   "authors": "Collins BH, Horská A, Hotten PM, et al.",
+   "year": 2001,
+   "title": "Kiwifruit protects against oxidative DNA damage in human cells and in vitro.",
+   "journal": "Nutr Cancer",
+   "pmid": "11588897",
+   "doi": "10.1207/S15327914nc391_20",
+   "type": "rct",
+   "n": "small volunteer group",
+   "finding": "A kiwifruit juice drink increased lymphocyte resistance to H2O2-induced DNA damage ex vivo, not fully explained by vitamin C; no effect on endogenous damage."
+  },
+  {
+   "id": "anand2007",
+   "authors": "Anand P, Kunnumakkara AB, Newman RA, et al.",
+   "year": 2007,
+   "title": "Bioavailability of curcumin: problems and promises.",
+   "journal": "Mol Pharm",
+   "pmid": "17999464",
+   "doi": "10.1021/mp700113r",
+   "type": "review",
+   "n": null,
+   "finding": "Curcumin is safe up to 12 g/day but poorly bioavailable due to poor absorption, rapid metabolism and elimination."
+  },
+  {
+   "id": "shoba1998",
+   "authors": "Shoba G, Joy D, Joseph T, et al.",
+   "year": 1998,
+   "title": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers.",
+   "journal": "Planta Med",
+   "pmid": "9619120",
+   "doi": "10.1055/s-2006-957450",
+   "type": "mechanistic",
+   "n": "healthy volunteers",
+   "finding": "2 g curcumin alone gave undetectable or very low serum levels; with 20 mg piperine bioavailability rose 2000%."
+  },
+  {
+   "id": "aviram2004",
+   "authors": "Aviram M, Rosenblat M, Gaitini D, et al.",
+   "year": 2004,
+   "title": "Pomegranate juice consumption for 3 years by patients with carotid artery stenosis reduces common carotid intima-media thickness, blood pressure and LDL oxidation.",
+   "journal": "Clin Nutr",
+   "pmid": "15158307",
+   "doi": "10.1016/j.clnu.2003.10.002",
+   "type": "cohort",
+   "n": "10 patients (5 for 3 years)",
+   "finding": "Pomegranate juice reduced LDL oxidation and carotid IMT in a tiny, non-randomised study."
+  },
+  {
+   "id": "davidson2009",
+   "authors": "Davidson MH, Maki KC, Dicklin MR, et al.",
+   "year": 2009,
+   "title": "Effects of consumption of pomegranate juice on carotid intima-media thickness in men and women at moderate risk for coronary heart disease.",
+   "journal": "Am J Cardiol",
+   "pmid": "19766760",
+   "doi": "10.1016/j.amjcard.2009.05.037",
+   "type": "rct",
+   "n": "289 adults",
+   "finding": "240 mL/day pomegranate juice for up to 18 months had no effect on overall carotid IMT progression."
+  },
+  {
+   "id": "sahebkar2016",
+   "authors": "Sahebkar A, Simental-Mendía LE, Giorgini P, et al.",
+   "year": 2016,
+   "title": "Lipid profile changes after pomegranate consumption: A systematic review and meta-analysis of randomized controlled trials.",
+   "journal": "Phytomedicine",
+   "pmid": "26857863",
+   "doi": "10.1016/j.phymed.2015.12.014",
+   "type": "meta-analysis",
+   "n": "12 RCTs, 545 people",
+   "finding": "Pomegranate had no significant effect on plasma lipids."
+  },
+  {
+   "id": "askari2021",
+   "authors": "Askari M, Mozaffari H, Darooghegi Mofrad M, et al.",
+   "year": 2021,
+   "title": "Effects of garlic supplementation on oxidative stress and antioxidative capacity biomarkers: A systematic review and meta-analysis of randomized controlled trials.",
+   "journal": "Phytother Res",
+   "pmid": "33484037",
+   "doi": "10.1002/ptr.7021",
+   "type": "meta-analysis",
+   "n": "12 RCTs",
+   "finding": "Garlic (80-4000 mg/day) raised TAC and SOD and lowered MDA, with very large heterogeneous effect sizes."
+  },
+  {
+   "id": "ried2016",
+   "authors": "Ried K",
+   "year": 2016,
+   "title": "Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and Review.",
+   "journal": "J Nutr",
+   "pmid": "26764326",
+   "doi": "10.3945/jn.114.202192",
+   "type": "meta-analysis",
+   "n": "20 trials, 970 people",
+   "finding": "Garlic lowered BP by 5.1/2.5 mmHg overall and 8.7/6.1 mmHg in hypertensives."
+  },
+  {
+   "id": "walle2004",
+   "authors": "Walle T, Hsieh F, DeLegge MH, et al.",
+   "year": 2004,
+   "title": "High absorption but very low bioavailability of oral resveratrol in humans.",
+   "journal": "Drug Metab Dispos",
+   "pmid": "15333514",
+   "doi": "10.1124/dmd.104.000885",
+   "type": "mechanistic",
+   "n": "6 volunteers",
+   "finding": "A 25 mg oral dose was >=70% absorbed but only trace unchanged resveratrol (<5 ng/mL) appeared in plasma due to rapid sulfation."
+  },
+  {
+   "id": "semba2014",
+   "authors": "Semba RD, Ferrucci L, Bartali B, et al.",
+   "year": 2014,
+   "title": "Resveratrol levels and all-cause mortality in older community-dwelling adults.",
+   "journal": "JAMA Intern Med",
+   "pmid": "24819981",
+   "doi": "10.1001/jamainternmed.2014.1582",
+   "type": "cohort",
+   "n": "783 adults >=65 y",
+   "finding": "Urinary resveratrol metabolites from diet did not predict mortality, inflammation, CVD or cancer over 9 years."
+  },
+  {
+   "id": "abdelhamid2020",
+   "authors": "Abdelhamid AS, Brown TJ, Brainard JS, et al.",
+   "year": 2020,
+   "title": "Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "32114706",
+   "doi": "10.1002/14651858.CD003177.pub5",
+   "type": "meta-analysis",
+   "n": "86 RCTs, 162,796 people",
+   "finding": "Long-chain omega-3 had little effect on mortality, slightly reduced CHD events (RR 0.91) and lowered triglycerides ~15%."
+  },
+  {
+   "id": "higdon2000",
+   "authors": "Higdon JV, Liu J, Du SH, et al.",
+   "year": 2000,
+   "title": "Supplementation of postmenopausal women with fish oil rich in eicosapentaenoic acid and docosahexaenoic acid is not associated with greater in vivo lipid peroxidation compared with oils rich in oleate and linoleate as assessed by plasma malondialdehyde and F(2)-isoprostanes.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "10966889",
+   "doi": "10.1093/ajcn/72.3.714",
+   "type": "rct",
+   "n": "15 women",
+   "finding": "Fish oil (2.0 g EPA + 1.4 g DHA/day) did not raise F2-isoprostanes or MDA vs sunflower or safflower oil, though TBARS was higher."
+  },
+  {
+   "id": "kanner2007",
+   "authors": "Kanner J",
+   "year": 2007,
+   "title": "Dietary advanced lipid oxidation endproducts are risk factors to human health.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "17854006",
+   "doi": "10.1002/mnfr.200600303",
+   "type": "review",
+   "n": null,
+   "finding": "Oxidized dietary fats yield absorbed cytotoxic lipid oxidation end-products; humans excrete more MDA after eating them; dietary antioxidants in the meal may limit this."
+  },
+  {
+   "id": "gorelik2008",
+   "authors": "Gorelik S, Ligumsky M, Kohen R, et al.",
+   "year": 2008,
+   "title": "The stomach as a \"bioreactor\": when red meat meets red wine.",
+   "journal": "J Agric Food Chem",
+   "pmid": "18540628",
+   "doi": "10.1021/jf703700d",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In rats, red meat raised stomach lipid hydroperoxides and plasma MDA (+50%); adding red-wine polyphenols prevented the rise."
+  },
+  {
+   "id": "ng2014",
+   "authors": "Ng CY, Leong XF, Masbah N, et al.",
+   "year": 2014,
+   "title": "Heated vegetable oils and cardiovascular disease risk factors.",
+   "journal": "Vascul Pharmacol",
+   "pmid": "24632108",
+   "doi": "10.1016/j.vph.2014.02.004",
+   "type": "review",
+   "n": null,
+   "finding": "Repeatedly heated oils generate lipid oxidation products that raise blood pressure, cholesterol and vascular inflammation, mainly in animal models."
+  },
+  {
+   "id": "uribarri2010",
+   "authors": "Uribarri J, Woodruff S, Goodman S, et al.",
+   "year": 2010,
+   "title": "Advanced glycation end products in foods and a practical guide to their reduction in the diet.",
+   "journal": "J Am Diet Assoc",
+   "pmid": "20497781",
+   "doi": "10.1016/j.jada.2010.03.018",
+   "type": "database",
+   "n": null,
+   "finding": "Dry heat raises food AGEs 10-100-fold; moist heat, shorter times, lower temperatures and acidic marinades reduce formation."
+  },
+  {
+   "id": "vlassara2016",
+   "authors": "Vlassara H, Cai W, Tripp E, et al.",
+   "year": 2016,
+   "title": "Oral AGE restriction ameliorates insulin resistance in obese individuals with the metabolic syndrome: a randomised controlled trial.",
+   "journal": "Diabetologia",
+   "pmid": "27468708",
+   "doi": "10.1007/s00125-016-4053-x",
+   "type": "rct",
+   "n": "138 randomised (100 analysed)",
+   "finding": "A 1-year low-AGE diet lowered HOMA-IR from 3.1 to 1.9 and reduced AGEs, oxidative stress and inflammation; the regular diet worsened them."
+  },
+  {
+   "id": "negrean2007",
+   "authors": "Negrean M, Stirban A, Stratmann B, et al.",
+   "year": 2007,
+   "title": "Effects of low- and high-advanced glycation endproduct meals on macro- and microvascular endothelial function and oxidative stress in patients with type 2 diabetes mellitus.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "17490958",
+   "doi": "10.1093/ajcn/85.5.1236",
+   "type": "rct",
+   "n": "20 adults with type 2 diabetes",
+   "finding": "An identical meal cooked to be high-AGE cut FMD by 36% vs 21% for the low-AGE version and raised oxidative stress markers."
+  },
+  {
+   "id": "clarke2016",
+   "authors": "Clarke RE, Dordevic AL, Tan SM, et al.",
+   "year": 2016,
+   "title": "Dietary Advanced Glycation End Products and Risk Factors for Chronic Disease: A Systematic Review of Randomised Controlled Trials.",
+   "journal": "Nutrients",
+   "pmid": "26938557",
+   "doi": "10.3390/nu8030125",
+   "type": "meta-analysis",
+   "n": "12 interventions, 293 people",
+   "finding": "High-AGE diets increased TNF-alpha and circulating AGEs, and 8-isoprostanes in healthy adults; evidence quality limited."
+  },
+  {
+   "id": "mohanty2000",
+   "authors": "Mohanty P, Hamouda W, Garg R, et al.",
+   "year": 2000,
+   "title": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "10946914",
+   "doi": "10.1210/jcem.85.8.6854",
+   "type": "mechanistic",
+   "n": "14 healthy adults",
+   "finding": "75 g glucose raised leukocyte ROS generation to ~240% of baseline at 2 h, increased p47phox and lowered alpha-tocopherol."
+  },
+  {
+   "id": "mohanty2002",
+   "authors": "Mohanty P, Ghanim H, Hamouda W, et al.",
+   "year": 2002,
+   "title": "Both lipid and protein intakes stimulate increased generation of reactive oxygen species by polymorphonuclear leukocytes and mononuclear cells.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "11916766",
+   "doi": "10.1093/ajcn/75.4.767",
+   "type": "mechanistic",
+   "n": "healthy adults",
+   "finding": "Cream raised leukocyte ROS for 3 h and lipid peroxidation; casein raised ROS for 1 h."
+  },
+  {
+   "id": "okeefe2008",
+   "authors": "O'Keefe JH, Gheewala NM, O'Keefe JO",
+   "year": 2008,
+   "title": "Dietary strategies for improving post-prandial glucose, lipids, inflammation, and cardiovascular health.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "18206731",
+   "doi": "10.1016/j.jacc.2007.10.016",
+   "type": "review",
+   "n": null,
+   "finding": "Post-meal glucose and triglyceride spikes induce oxidant stress proportional to their size; minimally processed high-fiber plant foods blunt them."
+  },
+  {
+   "id": "boden2015",
+   "authors": "Boden G, Homko C, Barrero CA, et al.",
+   "year": 2015,
+   "title": "Excessive caloric intake acutely causes oxidative stress, GLUT4 carbonylation, and insulin resistance in healthy men.",
+   "journal": "Sci Transl Med",
+   "pmid": "26355033",
+   "doi": "10.1126/scitranslmed.aac4765",
+   "type": "mechanistic",
+   "n": "healthy men",
+   "finding": "~6000 kcal/day for 1 week caused 3.5 kg gain and systemic and adipose oxidative stress and insulin resistance within 2-3 days."
+  },
+  {
+   "id": "samochabonet2012",
+   "authors": "Samocha-Bonet D, Campbell LV, Mori TA, et al.",
+   "year": 2012,
+   "title": "Overfeeding reduces insulin sensitivity and increases oxidative stress, without altering markers of mitochondrial content and function in humans.",
+   "journal": "PLoS One",
+   "pmid": "22586466",
+   "doi": "10.1371/journal.pone.0036320",
+   "type": "mechanistic",
+   "n": "40 adults",
+   "finding": "+1040 kcal/day for 28 days raised urinary F2-isoprostanes and muscle protein carbonyls and reduced insulin sensitivity."
+  },
+  {
+   "id": "keaney2003",
+   "authors": "Keaney JF Jr, Larson MG, Vasan RS, et al.",
+   "year": 2003,
+   "title": "Obesity and systemic oxidative stress: clinical correlates of oxidative stress in the Framingham Study.",
+   "journal": "Arterioscler Thromb Vasc Biol",
+   "pmid": "12615693",
+   "doi": "10.1161/01.ATV.0000058402.34138.11",
+   "type": "cross-sectional",
+   "n": "2828 adults",
+   "finding": "Smoking, diabetes and BMI were strongly associated with urinary 8-epi-PGF2alpha."
+  },
+  {
+   "id": "bastide2011",
+   "authors": "Bastide NM, Pierre FH, Corpet DE",
+   "year": 2011,
+   "title": "Heme iron from meat and risk of colorectal cancer: a meta-analysis and a review of the mechanisms involved.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21209396",
+   "doi": "10.1158/1940-6207.CAPR-10-0113",
+   "type": "meta-analysis",
+   "n": "566,607 people",
+   "finding": "Highest vs lowest heme intake: colon cancer RR 1.18; heme catalyses N-nitrosation and lipoperoxidation to cytotoxic aldehydes."
+  },
+  {
+   "id": "bouvard2015",
+   "authors": "Bouvard V, Loomis D, Guyton KZ, et al.",
+   "year": 2015,
+   "title": "Carcinogenicity of consumption of red and processed meat.",
+   "journal": "Lancet Oncol",
+   "pmid": "26514947",
+   "doi": "10.1016/S1470-2045(15)00444-1",
+   "type": "guideline",
+   "n": null,
+   "finding": "IARC classified processed meat as carcinogenic to humans (Group 1) and red meat as probably carcinogenic (Group 2A)."
+  },
+  {
+   "id": "bingham2002",
+   "authors": "Bingham SA, Hughes R, Cross AJ",
+   "year": 2002,
+   "title": "Effect of white versus red meat on endogenous N-nitrosation in the human colon and further evidence of a dose response.",
+   "journal": "J Nutr",
+   "pmid": "12421881",
+   "doi": "10.1093/jn/132.11.3522S",
+   "type": "rct",
+   "n": "controlled feeding volunteers",
+   "finding": "Fecal N-nitroso compounds rose linearly with red meat from 0 to 420 g/day; white meat had no effect; fiber did not reduce them."
+  },
+  {
+   "id": "cross2004",
+   "authors": "Cross AJ, Sinha R",
+   "year": 2004,
+   "title": "Meat-related mutagens/carcinogens in the etiology of colorectal cancer.",
+   "journal": "Environ Mol Mutagen",
+   "pmid": "15199546",
+   "doi": "10.1002/em.20030",
+   "type": "review",
+   "n": null,
+   "finding": "High-temperature cooking forms HCAs and PAHs; endogenous N-nitroso exposure is dose-dependent on red meat."
+  },
+  {
+   "id": "li2010",
+   "authors": "Li Z, Henning SM, Zhang Y, et al.",
+   "year": 2010,
+   "title": "Antioxidant-rich spice added to hamburger meat during cooking results in reduced meat, plasma, and urine malondialdehyde concentrations.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20335545",
+   "doi": "10.3945/ajcn.2009.28526",
+   "type": "rct",
+   "n": "11 adults",
+   "finding": "Spice blend cut burger MDA by 71%, prevented the plasma MDA rise and lowered urinary MDA by 49%."
+  },
+  {
+   "id": "smith2008",
+   "authors": "Smith JS, Ameri F, Gadgil P",
+   "year": 2008,
+   "title": "Effect of marinades on the formation of heterocyclic amines in grilled beef steaks.",
+   "journal": "J Food Sci",
+   "pmid": "19241593",
+   "doi": "10.1111/j.1750-3841.2008.00856.x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Herb/spice marinades cut total HCAs in steaks grilled at 204 °C by 57-88%."
+  },
+  {
+   "id": "skulasray2011",
+   "authors": "Skulas-Ray AC, Kris-Etherton PM, Teeter DL, et al.",
+   "year": 2011,
+   "title": "A high antioxidant spice blend attenuates postprandial insulin and triglyceride responses and increases some plasma measures of antioxidant activity in healthy, overweight men.",
+   "journal": "J Nutr",
+   "pmid": "21697300",
+   "doi": "10.3945/jn.111.138966",
+   "type": "rct",
+   "n": "6 men",
+   "finding": "14 g spice blend in a meal reduced postprandial insulin (21%) and triglycerides (31%) and raised plasma FRAP."
+  },
+  {
+   "id": "mozaffarian2006",
+   "authors": "Mozaffarian D, Katan MB, Ascherio A, et al.",
+   "year": 2006,
+   "title": "Trans fatty acids and cardiovascular disease.",
+   "journal": "N Engl J Med",
+   "pmid": "16611951",
+   "doi": "10.1056/NEJMra054035",
+   "type": "review",
+   "n": null,
+   "finding": "Industrial trans fats adversely affect lipoproteins, inflammation and endothelial function and are strongly linked to coronary heart disease."
+  },
+  {
+   "id": "lund1999",
+   "authors": "Lund EK, Wharf SG, Fairweather-Tait SJ, et al.",
+   "year": 1999,
+   "title": "Oral ferrous sulfate supplements increase the free radical-generating capacity of feces from healthy volunteers.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "9989688",
+   "doi": "10.1093/ajcn/69.2.250",
+   "type": "mechanistic",
+   "n": "18 adults",
+   "finding": "19 mg Fe/day for 2 weeks raised weakly bound fecal iron from 60 to 300 µmol/L and fecal free-radical production ~40%."
+  },
+  {
+   "id": "meagher1999",
+   "authors": "Meagher EA, Barry OP, Burke A, et al.",
+   "year": 1999,
+   "title": "Alcohol-induced generation of lipid peroxidation products in humans.",
+   "journal": "J Clin Invest",
+   "pmid": "10491416",
+   "doi": "10.1172/JCI5584",
+   "type": "rct",
+   "n": "10 healthy volunteers + patients",
+   "finding": "Acute alcohol raised urinary isoprostanes in a time- and dose-dependent way tracking blood alcohol; levels were high in alcoholic liver disease."
+  },
+  {
+   "id": "ilyasova2018",
+   "authors": "Il'yasova D, Fontana L, Bhapkar M, et al.",
+   "year": 2018,
+   "title": "Effects of 2 years of caloric restriction on oxidative status assessed by urinary F2-isoprostanes: The CALERIE 2 randomized clinical trial.",
+   "journal": "Aging Cell",
+   "pmid": "29424490",
+   "doi": "10.1111/acel.12719",
+   "type": "rct",
+   "n": "218 healthy non-obese adults",
+   "finding": "Prescribed 25% CR lowered 2,3-dinor-iPF2alpha-III by 17%/13% and iPF2alpha-III by 20%/27% at 12/24 months vs ad libitum."
+  },
+  {
+   "id": "heilbronn2006",
+   "authors": "Heilbronn LK, de Jonge L, Frisard MI, et al.",
+   "year": 2006,
+   "title": "Effect of 6-month calorie restriction on biomarkers of longevity, metabolic adaptation, and oxidative stress in overweight individuals: a randomized controlled trial.",
+   "journal": "JAMA",
+   "pmid": "16595757",
+   "doi": "10.1001/jama.295.13.1539",
+   "type": "rct",
+   "n": "48 overweight adults",
+   "finding": "6 months of CR lowered fasting insulin and DNA damage; protein carbonyls unchanged."
+  },
+  {
+   "id": "thompson1999",
+   "authors": "Thompson HJ, Heimendinger J, Haegele A, et al.",
+   "year": 1999,
+   "title": "Effect of increased vegetable and fruit consumption on markers of oxidative cellular damage.",
+   "journal": "Carcinogenesis",
+   "pmid": "10590217",
+   "doi": "10.1093/carcin/20.12.2261",
+   "type": "cohort",
+   "n": "28 women",
+   "finding": "Raising produce from 5.8 to 12 servings/day for 14 days lowered lymphocyte and urinary 8-OHdG and urinary 8-isoprostane (uncontrolled)."
+  },
+  {
+   "id": "moller2003",
+   "authors": "Møller P, Vogel U, Pedersen A, et al.",
+   "year": 2003,
+   "title": "No effect of 600 grams fruit and vegetables per day on oxidative DNA damage and repair in healthy nonsmokers.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "14578137",
+   "doi": null,
+   "type": "rct",
+   "n": "43 healthy non-smokers",
+   "finding": "600 g/day fruit and vegetables or matched vitamins for 24 days did not change oxidative DNA damage or repair."
+  },
+  {
+   "id": "lopes2003",
+   "authors": "Lopes HF, Martin KL, Nashar K, et al.",
+   "year": 2003,
+   "title": "DASH diet lowers blood pressure and lipid-induced oxidative stress in obesity.",
+   "journal": "Hypertension",
+   "pmid": "12623938",
+   "doi": "10.1161/01.HYP.0000053450.19998.11",
+   "type": "rct",
+   "n": "24 adults",
+   "finding": "DASH lowered BP ~8/7 mmHg in obese hypertensives, raised FRAP and prevented the F2-isoprostane rise during lipid infusion."
+  },
+  {
+   "id": "sutton2018",
+   "authors": "Sutton EF, Beyl R, Early KS, et al.",
+   "year": 2018,
+   "title": "Early Time-Restricted Feeding Improves Insulin Sensitivity, Blood Pressure, and Oxidative Stress Even without Weight Loss in Men with Prediabetes.",
+   "journal": "Cell Metab",
+   "pmid": "29754952",
+   "doi": "10.1016/j.cmet.2018.04.010",
+   "type": "rct",
+   "n": "8 men",
+   "finding": "5 weeks of 6-h early feeding lowered plasma 8-isoprostane by ~14% (p=0.05) vs 12-h feeding without weight loss."
+  },
+  {
+   "id": "johnson2007",
+   "authors": "Johnson JB, Summer W, Cutler RG, et al.",
+   "year": 2007,
+   "title": "Alternate day calorie restriction improves clinical findings and reduces markers of oxidative stress and inflammation in overweight adults with moderate asthma.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "17291990",
+   "doi": "10.1016/j.freeradbiomed.2006.12.005",
+   "type": "cohort",
+   "n": "10 adults",
+   "finding": "8 weeks of alternate-day CR (8% weight loss) reduced 8-isoprostane, nitrotyrosine, protein carbonyls and HNE adducts (uncontrolled)."
+  },
+  {
+   "id": "decabo2019",
+   "authors": "de Cabo R, Mattson MP",
+   "year": 2019,
+   "title": "Effects of Intermittent Fasting on Health, Aging, and Disease.",
+   "journal": "N Engl J Med",
+   "pmid": "31881139",
+   "doi": "10.1056/NEJMra1905136",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews metabolic switching and adaptive stress responses (including antioxidant defences) proposed to underlie fasting benefits."
+  },
+  {
+   "id": "aune2017",
+   "authors": "Aune D, Giovannucci E, Boffetta P, et al.",
+   "year": 2017,
+   "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies.",
+   "journal": "Int J Epidemiol",
+   "pmid": "28338764",
+   "doi": "10.1093/ije/dyw319",
+   "type": "meta-analysis",
+   "n": "95 studies",
+   "finding": "Per 200 g/day: all-cause mortality RR 0.90; reductions up to 800 g/day; strongest for citrus, apples/pears, green leafy and cruciferous vegetables."
+  },
+  {
+   "id": "aune2016",
+   "authors": "Aune D, Keum N, Giovannucci E, et al.",
+   "year": 2016,
+   "title": "Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies.",
+   "journal": "BMJ",
+   "pmid": "27301975",
+   "doi": "10.1136/bmj.i2716",
+   "type": "meta-analysis",
+   "n": "45 studies",
+   "finding": "Per 90 g/day whole grain: CHD RR 0.81, all-cause mortality RR 0.83; reductions up to 210-225 g/day."
+  },
+  {
+   "id": "reynolds2019",
+   "authors": "Reynolds A, Mann J, Cummings J, et al.",
+   "year": 2019,
+   "title": "Carbohydrate quality and human health: a series of systematic reviews and meta-analyses.",
+   "journal": "Lancet",
+   "pmid": "30638909",
+   "doi": "10.1016/S0140-6736(18)31809-9",
+   "type": "meta-analysis",
+   "n": "185 cohorts, 58 trials",
+   "finding": "Highest vs lowest fiber intake: 15-30% lower mortality and cardiometabolic disease; greatest benefit at 25-29 g/day."
+  },
+  {
+   "id": "forman2014",
+   "authors": "Forman HJ, Davies KJ, Ursini F",
+   "year": 2014,
+   "title": "How do nutritional antioxidants really work: nucleophilic tone and para-hormesis versus free radical scavenging in vivo.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "23747930",
+   "doi": "10.1016/j.freeradbiomed.2013.05.045",
+   "type": "review",
+   "n": null,
+   "finding": "Kinetics make in vivo radical scavenging by dietary antioxidants ineffective; their main action is likely mild electrophilic activation of Nrf2 (para-hormesis)."
+  },
+  {
+   "id": "cuadrado2019",
+   "authors": "Cuadrado A, Rojo AI, Wells G, et al.",
+   "year": 2019,
+   "title": "Therapeutic targeting of the NRF2 and KEAP1 partnership in chronic diseases.",
+   "journal": "Nat Rev Drug Discov",
+   "pmid": "30610225",
+   "doi": "10.1038/s41573-018-0008-x",
+   "type": "review",
+   "n": null,
+   "finding": "NRF2 activation is cytoprotective across many diseases, but specificity, pharmacodynamics, efficacy and safety challenges remain."
+  },
+  {
+   "id": "dinkovakostova2008",
+   "authors": "Dinkova-Kostova AT, Talalay P",
+   "year": 2008,
+   "title": "Direct and indirect antioxidant properties of inducers of cytoprotective proteins.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "18327872",
+   "doi": "10.1002/mnfr.200700195",
+   "type": "review",
+   "n": null,
+   "finding": "Indirect antioxidants (Nrf2 inducers like sulforaphane) act catalytically and durably, unlike sacrificial direct antioxidants."
+  },
+  {
+   "id": "halliwell2007",
+   "authors": "Halliwell B",
+   "year": 2007,
+   "title": "Dietary polyphenols: good, bad, or indifferent for your health?",
+   "journal": "Cardiovasc Res",
+   "pmid": "17141749",
+   "doi": "10.1016/j.cardiores.2006.10.004",
+   "type": "review",
+   "n": null,
+   "finding": "Polyphenols are antioxidant in vitro but their in vivo role is uncertain; they may mainly protect the gastrointestinal tract; supplements should not be encouraged."
+  },
+  {
+   "id": "bjelakovic2012",
+   "authors": "Bjelakovic G, Nikolova D, Gluud LL, et al.",
+   "year": 2012,
+   "title": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "22419320",
+   "doi": "10.1002/14651858.CD007176.pub2",
+   "type": "meta-analysis",
+   "n": "78 RCTs, 296,707 people",
+   "finding": "Antioxidant supplements did not reduce mortality; in low-bias trials beta-carotene and vitamin E increased it."
+  },
+  {
+   "id": "manach2005",
+   "authors": "Manach C, Williamson G, Morand C, et al.",
+   "year": 2005,
+   "title": "Bioavailability and bioefficacy of polyphenols in humans. I. Review of 97 bioavailability studies.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "15640486",
+   "doi": "10.1093/ajcn/81.1.230S",
+   "type": "review",
+   "n": "97 studies",
+   "finding": "50 mg of a polyphenol yields 0-4 µmol/L plasma metabolites; anthocyanins, galloylated catechins and proanthocyanidins are least absorbed; the most abundant are not the most bioavailable."
+  },
+  {
+   "id": "ristow2009",
+   "authors": "Ristow M, Zarse K, Oberbach A, et al.",
+   "year": 2009,
+   "title": "Antioxidants prevent health-promoting effects of physical exercise in humans.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "19433800",
+   "doi": "10.1073/pnas.0903485106",
+   "type": "rct",
+   "n": "39 young men",
+   "finding": "Vitamin C (1000 mg) + E (400 IU) blocked exercise-induced gains in insulin sensitivity and induction of antioxidant enzymes."
+  },
+  {
+   "id": "perezjimenez2010",
+   "authors": "Pérez-Jiménez J, Neveu V, Vos F, et al.",
+   "year": 2010,
+   "title": "Identification of the 100 richest dietary sources of polyphenols: an application of the Phenol-Explorer database.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "21045839",
+   "doi": "10.1038/ejcn.2010.221",
+   "type": "database",
+   "n": null,
+   "finding": "Total polyphenols by chromatography ranged from 15,000 mg/100 g (cloves) down; Folin values systematically exceed chromatography totals."
+  },
+  {
+   "id": "rothwell2013",
+   "authors": "Rothwell JA, Perez-Jimenez J, Neveu V, et al.",
+   "year": 2013,
+   "title": "Phenol-Explorer 3.0: a major update of the Phenol-Explorer database to incorporate data on the effects of food processing on polyphenol content.",
+   "journal": "Database (Oxford)",
+   "pmid": "24103452",
+   "doi": "10.1093/database/bat070",
+   "type": "database",
+   "n": null,
+   "finding": "Describes the Phenol-Explorer database and its retention factors for food processing."
+  },
+  {
+   "id": "phenolexplorer",
+   "authors": "Phenol-Explorer (INRA/IARC/University of Alberta)",
+   "year": 2026,
+   "title": "Phenol-Explorer database: polyphenol content of foods, food pages accessed 2026-09-30 (chromatography, Folin assay and pH-differential tables).",
+   "journal": "phenol-explorer.eu",
+   "pmid": null,
+   "doi": null,
+   "type": "database",
+   "n": null,
+   "finding": "Source of per-food polyphenol values used here; 'chromatography (sum of compounds)' values were computed by summing the individual compounds listed in each food's chromatography table.",
+   "url": "http://phenol-explorer.eu/"
+  },
+  {
+   "id": "usdafdc",
+   "authors": "USDA Agricultural Research Service",
+   "year": 2026,
+   "title": "FoodData Central, SR Legacy food records (e.g. FDC 168153 kiwifruit, 170108 red pepper, 170379 broccoli, 170457 tomato, 170460 tomato puree, 170393 carrot, 168462 spinach, 168421 kale, 169097 orange, 167762 strawberry), accessed 2026-09-30.",
+   "journal": "fdc.nal.usda.gov",
+   "pmid": null,
+   "doi": null,
+   "type": "database",
+   "n": null,
+   "finding": "Source of vitamin C, carotenoid and lycopene contents per 100 g.",
+   "url": "https://fdc.nal.usda.gov/"
+  },
+  {
+   "id": "kadiiska2005",
+   "authors": "Kadiiska MB, Gladen BC, Baird DD, et al.",
+   "year": 2005,
+   "title": "Biomarkers of oxidative stress study II: are oxidation products of lipids, proteins, and DNA markers of CCl4 poisoning?",
+   "journal": "Free Radic Biol Med",
+   "pmid": "15721980",
+   "doi": "10.1016/j.freeradbiomed.2004.09.017",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In a validation model, plasma/urine isoprostanes and MDA (GC-MS) and urinary 8-OHdG tracked oxidative stress; most other markers did not."
+  },
+  {
+   "id": "vanterve2015",
+   "authors": "van 't Erve TJ, Lih FB, Kadiiska MB, et al.",
+   "year": 2015,
+   "title": "Reinterpreting the best biomarker of oxidative stress: The 8-iso-PGF(2α)/PGF(2α) ratio distinguishes chemical from enzymatic lipid peroxidation.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "25772010",
+   "doi": "10.1016/j.freeradbiomed.2015.03.004",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "8-iso-PGF2alpha can also come from enzymatic (COX) synthesis during inflammation, so rises do not always mean more chemical oxidative stress."
+  },
+  {
+   "id": "siervo2013",
+   "authors": "Siervo M, Lara J, Ogbonmwan I, et al.",
+   "year": 2013,
+   "title": "Inorganic nitrate and beetroot juice supplementation reduces blood pressure in adults: a systematic review and meta-analysis.",
+   "journal": "J Nutr",
+   "pmid": "23596162",
+   "doi": "10.3945/jn.112.170233",
+   "type": "meta-analysis",
+   "n": "16 trials, 254 people",
+   "finding": "Nitrate/beetroot lowered systolic BP by 4.4 mmHg, dose-dependently."
+  },
+  {
+   "id": "carlsen2010",
+   "authors": "Carlsen MH, Halvorsen BL, Holte K, et al.",
+   "year": 2010,
+   "title": "The total antioxidant content of more than 3100 foods, beverages, spices, herbs and supplements used worldwide.",
+   "journal": "Nutr J",
+   "pmid": "20096093",
+   "doi": "10.1186/1475-2891-9-3",
+   "type": "database",
+   "n": null,
+   "finding": "FRAP antioxidant content varies several-thousand-fold between foods; spices and herbs are highest."
+  },
+  {
+   "id": "wu2004",
+   "authors": "Wu X, Beecher GR, Holden JM, et al.",
+   "year": 2004,
+   "title": "Lipophilic and hydrophilic antioxidant capacities of common foods in the United States.",
+   "journal": "J Agric Food Chem",
+   "pmid": "15186133",
+   "doi": "10.1021/jf049696w",
+   "type": "database",
+   "n": null,
+   "finding": "ORAC values of >100 US foods; total phenolics (Folin) correlated only weakly with hydrophilic ORAC."
+  },
+  {
+   "id": "favari2024",
+   "authors": "Favari C, Rinaldi de Alvarenga JF, Sánchez-Martínez L, et al.",
+   "year": 2024,
+   "title": "Factors driving the inter-individual variability in the metabolism and bioavailability of (poly)phenolic metabolites: A systematic review of human studies.",
+   "journal": "Redox Biol",
+   "pmid": "38428187",
+   "doi": "10.1016/j.redox.2024.103095",
+   "type": "review",
+   "n": "153 studies",
+   "finding": "Gut microbiota, genetics, age, sex and BMI drive high/low excretor gradients and producer/non-producer metabotypes (urolithins, equol) for polyphenol metabolites."
+  },
+  {
+   "id": "rodriguezmateos2015",
+   "authors": "Rodriguez-Mateos A, Hezel M, Aydin H, et al.",
+   "year": 2015,
+   "title": "Interactions between cocoa flavanols and inorganic nitrate: additive effects on endothelial function at achievable dietary amounts.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "25530151",
+   "doi": "10.1016/j.freeradbiomed.2014.12.009",
+   "type": "rct",
+   "n": "15 healthy adults",
+   "finding": "Cocoa flavanols and nitrate each raised FMD dose-dependently (peak at 1 h) and their effects were additive at low intake levels."
+  }
+ ]
+}

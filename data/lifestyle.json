@@ -1,0 +1,2501 @@
+{
+  "area": "lifestyle",
+  "title": "Exercise, lifestyle & environment",
+  "summary": "Lifestyle and environment drive more of the body's oxidative load than any supplement. Not smoking, losing excess visceral fat, staying fit, keeping blood sugar in range and limiting alcohol produce the largest, best-documented drops in validated markers such as urinary F2-isoprostanes. Exercise works by hormesis: each session briefly raises ROS, which trains the body's own antioxidant systems, and megadose vitamin C/E can blunt that signal. Sleep, air quality, sun protection and gum health matter at a smaller scale, while hydrogen water, grounding, ozone therapy and IV glutathione lack credible evidence.",
+  "factors": [
+    {
+      "id": "aerobic-exercise-moderate",
+      "name": "Regular moderate aerobic exercise",
+      "kind": "exercise",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "beneficial",
+      "impact": {
+        "general": 4,
+        "sperm": 2,
+        "egg": 1
+      },
+      "evidence": "strong",
+      "headline": "Regular aerobic training raises the body's own antioxidant defences and, when it improves fitness, lowers resting lipid-peroxidation markers by roughly 5-15%; each session causes a brief, useful ROS pulse.",
+      "dose": {
+        "effective": "150-300 min/week of moderate activity (brisk walking, easy cycling, swimming at about 60-75% of maximum heart rate, the range used in the trials; you can talk but not sing), e.g. 30-60 min on 5 days/week.",
+        "studied_range": "RCTs used 30-60 min, 3-5 days/week at 60-75% HRmax for 8 weeks to 12 months; the Campbell trial used >=45 min/day, 5 days/week at 60-75% HRmax for 12 months.",
+        "too_much": "No harmful ceiling at guideline volumes; oxidative damage rises mainly with very high volume plus high intensity (see [overtraining-ultraendurance]).",
+        "timeframe": "Enzyme up-regulation within weeks; resting F2-isoprostane reductions seen at 12 months and only in people who gained fitness (VO2max up >15%).",
+        "notes": "Fitness gain, not minutes logged, tracked the drop in F2-isoprostanes. Do not pair with high-dose vitamin C/E (see [antioxidant-megadoses-during-training])."
+      },
+      "mechanism": "Contracting muscle makes superoxide and H2O2 (mitochondria, NADPH oxidase NOX2/NOX4, xanthine oxidase). These transient ROS oxidize KEAP1 cysteines, releasing Nrf2 to induce SOD, catalase, GPx, glutathione synthesis enzymes and HO-1, and activate PGC-1alpha-driven mitochondrial biogenesis. Repeated pulses leave a higher resting antioxidant capacity (hormesis). Exercise also reduces visceral fat and improves insulin sensitivity, which removes two big chronic ROS sources.",
+      "pathways": [
+        "hormesis",
+        "nrf2",
+        "mitochondrial",
+        "nox",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Adds to [weight-loss-excess-adiposity] (diet-induced weight loss lowered F2-isoprostanes more than exercise alone in the Duggan trial). Improves [glycemic-control]. High-dose vitamin C/E can blunt molecular adaptations ([antioxidant-megadoses-during-training]). Post-exercise [cold-water-immersion] may blunt strength adaptations.",
+      "caveats": "Overall effects on resting oxidative markers in healthy, already-fit people are small and heterogeneous; most benefit appears in sedentary, overweight or unhealthy people. Measuring oxidative markers right after a session shows a rise; that is the signal, not damage.",
+      "key_numbers": [
+        {
+          "label": "F2-isoprostane change, exercisers with VO2max gain >15% (12 mo)",
+          "value": -14.1,
+          "unit": "%",
+          "source": "campbell2010"
+        },
+        {
+          "label": "F2-isoprostane change, all exercisers (12 mo, NS)",
+          "value": -6.2,
+          "unit": "%",
+          "source": "campbell2010"
+        }
+      ],
+      "refs": [
+        "bull2020",
+        "campbell2010",
+        "duggan2016",
+        "torresrojo2025",
+        "zhou2022",
+        "radak2008",
+        "powers2016",
+        "done2016"
+      ]
+    },
+    {
+      "id": "hiit-vigorous-exercise",
+      "name": "Vigorous exercise and high-intensity interval training (HIIT)",
+      "kind": "exercise",
+      "scopes": [
+        "general",
+        "sperm"
+      ],
+      "direction": "beneficial",
+      "impact": {
+        "general": 4,
+        "sperm": 1
+      },
+      "evidence": "moderate",
+      "headline": "Vigorous training (including low-volume HIIT) produced larger improvements in antioxidant status than non-vigorous training in a 2025 meta-analysis of RCTs; keep total volume moderate.",
+      "dose": {
+        "effective": "75-150 min/week of vigorous activity (hard breathing, only a few words at a time), or 2-3 interval sessions/week, e.g. 4-6 x 4-6 min at >90% of maximum heart rate with easy recovery between (the Paulsen 2014 protocol).",
+        "studied_range": "Trials used 2-4 sessions/week for 6-16 weeks; Paulsen 2014 combined 4-6 x 4-6 min intervals at >90% HRmax with 30-60 min steady sessions at 70-90% HRmax, 3-4 times/week.",
+        "too_much": "High intensity combined with high volume (daily hard sessions, many hours/week) carries the highest oxidative load; in one study ramping training load over 4 weeks impaired mitochondrial function and glucose tolerance.",
+        "timeframe": "Antioxidant-enzyme changes in 6-12 weeks.",
+        "notes": "Low-volume HIIT gives much of the redox benefit for less time. Allow 48 h between very hard sessions."
+      },
+      "mechanism": "Higher intensity gives a larger ROS and calcium signal per session, which drives stronger Nrf2 and PGC-1alpha responses (hormesis). Excess volume leads to sustained ROS, mitochondrial dysfunction and glutathione depletion.",
+      "pathways": [
+        "hormesis",
+        "nrf2",
+        "mitochondrial"
+      ],
+      "interactions": "Same caution about [antioxidant-megadoses-during-training]. Combines with [resistance-training]. Volume beyond recovery capacity leads to [overtraining-ultraendurance].",
+      "caveats": "The meta-analysis included only 7 RCTs (267 people). 'More intense is better' holds only while total volume and recovery stay reasonable.",
+      "refs": [
+        "torresrojo2025",
+        "zhou2022",
+        "paulsen2014",
+        "flockhart2021",
+        "bull2020"
+      ]
+    },
+    {
+      "id": "resistance-training",
+      "name": "Resistance (strength) training",
+      "kind": "exercise",
+      "scopes": [
+        "general"
+      ],
+      "direction": "beneficial",
+      "impact": {
+        "general": 3
+      },
+      "evidence": "limited",
+      "headline": "Strength training raises glutathione peroxidase in older adults but has inconsistent effects on other antioxidant markers; its main value is muscle and metabolic health.",
+      "dose": {
+        "effective": "At least 2 sessions/week (WHO) on non-consecutive days covering the major muscle groups; a common program is 2-3 sets of 8-12 repetitions per exercise, stopping a couple of reps short of failure.",
+        "studied_range": "RCTs in older adults typically used 2-3 sessions/week for 8-24 weeks.",
+        "too_much": "Rapid jumps in weekly volume caused large oxidative-stress rises in an overreaching study (isoprostanes up 7-fold at peak load).",
+        "timeframe": "8-12 weeks for enzyme changes.",
+        "notes": "WHO recommends muscle strengthening on >=2 days/week in addition to aerobic activity."
+      },
+      "mechanism": "Mechanical and metabolic stress cause local ROS production and inflammation-linked repair; repeated stimulus up-regulates glutathione peroxidase. Added muscle mass improves glucose disposal, indirectly lowering glycemic oxidative stress.",
+      "pathways": [
+        "hormesis",
+        "nrf2",
+        "inflammation-nfkb"
+      ],
+      "interactions": "High-dose vitamin C/E blunted lean-mass gains in older men ([antioxidant-megadoses-during-training]). Post-workout [cold-water-immersion] blunted strength and muscle gains.",
+      "caveats": "Meta-analysis found a small decrease in SOD and no change in catalase, so 'strength training is an antioxidant' is an overstatement.",
+      "refs": [
+        "cordeiro2025",
+        "margonis2007",
+        "bull2020",
+        "bjornsen2016"
+      ]
+    },
+    {
+      "id": "overtraining-ultraendurance",
+      "name": "Overtraining and ultra-endurance events",
+      "kind": "exercise",
+      "scopes": [
+        "general",
+        "sperm"
+      ],
+      "direction": "mixed",
+      "impact": {
+        "general": 2,
+        "sperm": 1
+      },
+      "evidence": "moderate",
+      "headline": "Very long or excessive exercise raises oxidative damage markers sharply (F2-isoprostanes up ~75% after a 50 km race; up to 7-fold in overreaching), usually returning to baseline within 24-96 h if recovery is adequate.",
+      "dose": {
+        "effective": "Stay within a load you recover from: performance, sleep and mood should not decline across weeks. Build volume gradually.",
+        "studied_range": "Studies: 50 km ultramarathon (~6.5 h); 12-week resistance block peaking at 14 t/week; 4-week progressive endurance overload.",
+        "too_much": "Signs of excess: falling performance, persistent fatigue, poor sleep, frequent illness. One study found impaired glucose tolerance in world-class endurance athletes.",
+        "timeframe": "Acute rise lasts about 24 h after an ultramarathon; overreaching markers stayed high 96 h after sessions.",
+        "notes": "Occasional long events are not a health problem for trained people; chronic under-recovery is."
+      },
+      "mechanism": "Prolonged high oxygen flux plus muscle damage and immune-cell activation (neutrophil NADPH oxidase, myeloperoxidase) overwhelm glutathione and vitamin E; ROS shift from signal to damage, impairing mitochondrial function.",
+      "pathways": [
+        "mitochondrial",
+        "inflammation-nfkb",
+        "nox"
+      ],
+      "interactions": "Adequate sleep ([short-sleep]) and energy intake matter for recovery. High-dose antioxidants do not solve this and may hinder adaptation.",
+      "caveats": "Most data come from small samples of athletes. Spikes after an event do not prove long-term harm.",
+      "key_numbers": [
+        {
+          "label": "Plasma F2-isoprostanes before 50 km race",
+          "value": 75,
+          "unit": "pg/ml",
+          "source": "mastaloudis2001"
+        },
+        {
+          "label": "Plasma F2-isoprostanes after 50 km race",
+          "value": 131,
+          "unit": "pg/ml",
+          "source": "mastaloudis2001"
+        }
+      ],
+      "refs": [
+        "mastaloudis2001",
+        "margonis2007",
+        "flockhart2021",
+        "zhou2022"
+      ]
+    },
+    {
+      "id": "antioxidant-megadoses-during-training",
+      "name": "High-dose vitamin C/E taken during training",
+      "kind": "supplement",
+      "scopes": [
+        "general"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2
+      },
+      "evidence": "moderate",
+      "headline": "Gram-level vitamin C plus vitamin E during training blunted molecular adaptations (insulin sensitivity in one trial, mitochondrial markers, lean mass in older men), though meta-analysis finds no clear loss of VO2max or strength.",
+      "dose": {
+        "effective": "Avoid routine supplementation at >=500-1000 mg vitamin C plus >=235 mg (~400 IU) vitamin E per day during training blocks; get antioxidants from food.",
+        "studied_range": "Trials: 500-1000 mg/day vitamin C, 235-400 IU vitamin E, for 4-12 weeks.",
+        "too_much": "1000 mg vitamin C plus 400 IU vitamin E/day removed the insulin-sensitivity gain from 4 weeks of training in Ristow 2009.",
+        "timeframe": "Effects appeared within 4-12 weeks of training.",
+        "notes": "Food-level intakes (fruit, vegetables) have not been shown to cause this. Correcting a true deficiency is different."
+      },
+      "mechanism": "Exercise ROS are the signal that activates Nrf2, PGC-1alpha and insulin-signalling adaptations. Flooding the system with reducing agents blunts that signal, reducing induction of SOD, GPx and mitochondrial biogenesis.",
+      "pathways": [
+        "hormesis",
+        "direct-scavenging",
+        "nrf2",
+        "mitochondrial"
+      ],
+      "interactions": "Directly undermines [aerobic-exercise-moderate], [hiit-vigorous-exercise] and [resistance-training].",
+      "caveats": "Findings are mixed: Yfanti 2011 found no effect on insulin sensitivity, and the Clifford 2020 meta-analysis of 18 small RCTs found no significant loss of VO2max, endurance, lean mass or strength. Practical stance: no benefit, possible harm, so skip megadoses.",
+      "refs": [
+        "ristow2009",
+        "gomezcabrera2008",
+        "paulsen2014",
+        "yfanti2011",
+        "bjornsen2016",
+        "clifford2020",
+        "mason2020"
+      ]
+    },
+    {
+      "id": "sedentary-time",
+      "name": "Prolonged sitting and physical inactivity",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 3,
+        "sperm": 1
+      },
+      "evidence": "limited",
+      "headline": "Inactivity harms metabolic health quickly (bed rest cut insulin sensitivity 42%), but direct human evidence that sitting itself raises oxidative markers is weak; the harm runs mostly through fitness loss, fat gain and glucose control.",
+      "dose": {
+        "effective": "Break up sitting every 30-60 min with a few minutes of light movement; replace sitting with any activity (WHO: 'some is better than none').",
+        "studied_range": "Bed rest studies of several days; WHO observational evidence on daily sitting time.",
+        "too_much": "Long uninterrupted sitting; very low daily steps.",
+        "timeframe": "Insulin resistance appears within days of bed rest.",
+        "notes": "Moderate-to-vigorous activity offsets much of the risk linked to high sitting time."
+      },
+      "mechanism": "Loss of muscle contraction reduces glucose uptake and mitochondrial capacity; over time this leads to fat gain, hyperglycemia and inflammation, which raise ROS from NADPH oxidase and mitochondria.",
+      "pathways": [
+        "mitochondrial",
+        "glycation-ages",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Reversed by [aerobic-exercise-moderate]; worsens [weight-loss-excess-adiposity] and [glycemic-control].",
+      "caveats": "A careful bed-rest study found no rise in muscle mitochondrial H2O2 or oxidative markers despite large insulin resistance, so 'sitting causes oxidative stress' is not established directly.",
+      "refs": [
+        "bull2020",
+        "dirks2020"
+      ]
+    },
+    {
+      "id": "short-sleep",
+      "name": "Short or insufficient sleep",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 3,
+        "sperm": 1,
+        "egg": 1
+      },
+      "evidence": "limited",
+      "headline": "Cutting sleep raises oxidative stress in human studies (endothelial oxidative stress after 6 weeks of 1.5 h less sleep; lower glutathione after one sleepless night), but the dramatic 'sleep loss kills via gut ROS' finding is from flies and mice.",
+      "dose": {
+        "effective": "7-9 h per night on a regular schedule (adults; AASM/SRS: 7 h or more).",
+        "studied_range": "Human studies: one night of total deprivation; 6 weeks of 1.5 h/night restriction; observational comparison of <=6 h vs >8 h.",
+        "too_much": "Regularly <=6 h was associated with ~12% higher urinary 8-isoprostane; chronic restriction increased endothelial oxidative stress.",
+        "timeframe": "Glutathione drop after a single night; endothelial changes within 6 weeks.",
+        "notes": "Consistency matters as well as duration. Treat sleep apnea if present (see [sleep-apnea])."
+      },
+      "mechanism": "Wakefulness raises metabolic rate and sympathetic tone, consumes glutathione and cysteine, and reduces melatonin (itself a radical scavenger and regulator of DNA repair). In animals, ROS accumulate in the gut with severe deprivation. Short sleep also worsens insulin resistance and appetite regulation.",
+      "pathways": [
+        "endocrine",
+        "mitochondrial",
+        "dna-repair"
+      ],
+      "interactions": "Interacts with [shift-work-circadian]. Poor sleep worsens [glycemic-control] and weight gain ([weight-loss-excess-adiposity]) and impairs recovery from [overtraining-ultraendurance].",
+      "caveats": "Vaccaro 2020 (Cell) was done in flies and mice with extreme deprivation; antioxidants rescued survival there, which does not mean antioxidant pills replace sleep in humans. Human data are small or observational.",
+      "refs": [
+        "watson2015",
+        "shah2023",
+        "trivedi2017",
+        "nagata2017",
+        "vaccaro2020"
+      ]
+    },
+    {
+      "id": "shift-work-circadian",
+      "name": "Night-shift work and circadian disruption",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "egg",
+        "sperm"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2,
+        "egg": 1,
+        "sperm": 1
+      },
+      "evidence": "limited",
+      "headline": "Night work suppresses melatonin and was linked to much lower excretion of repaired oxidative DNA lesions (20% of night-sleep levels), suggesting impaired DNA repair.",
+      "dose": {
+        "effective": "Limit consecutive night shifts where possible; sleep in a dark room; keep a stable schedule on days off. Melatonin before day sleep is being studied.",
+        "studied_range": "Observational studies of rotating and permanent night workers; one 4-week melatonin RCT (n=40).",
+        "too_much": "Long-term rotating night work.",
+        "timeframe": "Melatonin trial: 4 weeks.",
+        "notes": "The melatonin result was borderline and needs confirmation."
+      },
+      "mechanism": "Light at night suppresses melatonin; melatonin supports OGG1-mediated repair of 8-oxoguanine and acts as an antioxidant. Circadian misalignment also disturbs glucose and lipid metabolism and clock-controlled Nrf2 rhythms.",
+      "pathways": [
+        "endocrine",
+        "dna-repair",
+        "nrf2"
+      ],
+      "interactions": "Overlaps with [short-sleep]; worsens [glycemic-control].",
+      "caveats": "Reduced urinary 8-OH-dG is read as reduced repair, not reduced damage; interpretation depends on that assumption. Evidence is mostly observational.",
+      "refs": [
+        "bhatti2017",
+        "zanif2025",
+        "nagata2017"
+      ]
+    },
+    {
+      "id": "sleep-apnea",
+      "name": "Untreated obstructive sleep apnea",
+      "kind": "medical",
+      "scopes": [
+        "general",
+        "sperm"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 3,
+        "sperm": 1
+      },
+      "evidence": "moderate",
+      "headline": "Repeated night-time oxygen drops and re-oxygenation act like ischemia-reperfusion; CPAP treatment raised total antioxidant capacity in a meta-analysis.",
+      "dose": {
+        "effective": "Get tested if you snore loudly, stop breathing during sleep, or have daytime sleepiness; use CPAP or other prescribed therapy nightly.",
+        "studied_range": "CPAP studies of weeks to months.",
+        "too_much": null,
+        "timeframe": "Changes within weeks to months of consistent CPAP use.",
+        "notes": "Weight loss often reduces apnea severity."
+      },
+      "mechanism": "Cycles of hypoxia and re-oxygenation activate NADPH oxidase and xanthine oxidase and cause mitochondrial ROS bursts, much like ischemia-reperfusion injury.",
+      "pathways": [
+        "nox",
+        "mitochondrial",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Strongly linked to [weight-loss-excess-adiposity]; worsened by [alcohol] at night.",
+      "caveats": "Total antioxidant capacity is a crude marker; studies are heterogeneous.",
+      "refs": [
+        "hosseini2023"
+      ]
+    },
+    {
+      "id": "tobacco-smoking",
+      "name": "Smoking tobacco (and quitting)",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 5,
+        "sperm": 4,
+        "egg": 4
+      },
+      "evidence": "strong",
+      "headline": "Smoking roughly doubles circulating F2-isoprostanes in a dose-dependent way; quitting lowers them within 2 weeks and to a new steady state by about 4 weeks, making it the single largest lifestyle lever.",
+      "dose": {
+        "effective": "Quit completely. In an RCT, cutting down from ~27 to ~18 cigarettes/day did not lower F2-isoprostanes or any other harm marker except carbon monoxide.",
+        "studied_range": "Studies compared heavy, moderate and non-smokers; cessation studies followed people from 2 weeks to 1 year.",
+        "too_much": "No safe level: urinary 8-epi-PGF2a was ~1.7x the nonsmoker level in moderate and ~3.3x in heavy smokers.",
+        "timeframe": "Isoprostanes fall within days, are ~20-40% lower at 2-3 weeks, and plateau about 4 weeks after quitting; cardiovascular risk falls ~39% within 5 years but takes 10-15+ years to approach never-smoker levels.",
+        "notes": "Nicotine replacement did not prevent the fall in isoprostanes, suggesting combustion products, not nicotine, drive most of it."
+      },
+      "mechanism": "Each puff delivers large amounts of free radicals in the gas and tar phases (semiquinone radicals, NO, peroxynitrite, H2O2), plus metals and aldehydes. Smoke also activates neutrophils and vascular NADPH oxidase, depletes vitamin C and E, and uncouples eNOS.",
+      "pathways": [
+        "direct-scavenging",
+        "nox",
+        "inflammation-nfkb",
+        "iron-fenton",
+        "dna-repair"
+      ],
+      "interactions": "Effects add to [alcohol], [secondhand-smoke] and [outdoor-air-pollution]. Weight gain after quitting does not cancel the drop in oxidative markers. Smoking is also the main source of cadmium ([heavy-metals]) and worsens [periodontal-disease].",
+      "caveats": "Five days of 2 g/day vitamin C lowered smokers' isoprostanes in Reilly 1996 (vitamin E alone did not), but that is not a substitute for quitting. Smoking harms sperm parameters (meta-analysis) and is relevant to egg health (cross-link to fertility areas).",
+      "key_numbers": [
+        {
+          "label": "Urinary 8-epi-PGF2a, heavy smokers",
+          "value": 176.5,
+          "unit": "pmol/mmol creatinine",
+          "source": "reilly1996"
+        },
+        {
+          "label": "Urinary 8-epi-PGF2a, moderate smokers",
+          "value": 92.7,
+          "unit": "pmol/mmol creatinine",
+          "source": "reilly1996"
+        },
+        {
+          "label": "Urinary 8-epi-PGF2a, nonsmokers",
+          "value": 54.1,
+          "unit": "pmol/mmol creatinine",
+          "source": "reilly1996"
+        }
+      ],
+      "refs": [
+        "morrow1995",
+        "reilly1996",
+        "pilz2000",
+        "king2017",
+        "joseph2008",
+        "duncan2019",
+        "keaney2003",
+        "sharma2016"
+      ]
+    },
+    {
+      "id": "secondhand-smoke",
+      "name": "Secondhand (passive) smoke",
+      "kind": "environment",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 3,
+        "sperm": 1,
+        "egg": 2
+      },
+      "evidence": "moderate",
+      "headline": "Secondhand smoke raises coronary heart disease risk about 30%, and even brief exposures produce vascular and oxidative effects averaging 80-90% of active smoking.",
+      "dose": {
+        "effective": "Keep home and car completely smoke-free; avoid indoor smoky venues.",
+        "studied_range": "Experimental exposures of 30 min to a few hours; cohort exposure from household smoking.",
+        "too_much": "No safe level identified for cardiovascular effects; 30 min of exposure impaired coronary flow reserve in healthy nonsmokers.",
+        "timeframe": "Acute vascular effects within minutes to hours.",
+        "notes": "Ventilation and smoking in another room do not remove the exposure."
+      },
+      "mechanism": "Sidestream smoke contains the same radical-generating tar and oxidant gases as mainstream smoke; tar from secondhand smoke generates H2O2 and breaks DNA in cells.",
+      "pathways": [
+        "direct-scavenging",
+        "nox",
+        "dna-repair"
+      ],
+      "interactions": "Adds to [outdoor-air-pollution] and [indoor-combustion-smoke].",
+      "caveats": "One cross-sectional study of women with modest exposure (>=15 min, 2 days/week) found no difference in 8-isoprostane, so low-level exposure may not show up on systemic markers even though vascular effects are documented.",
+      "refs": [
+        "barnoya2005",
+        "otsuka2001",
+        "bermudez1994",
+        "sitihajar2018"
+      ]
+    },
+    {
+      "id": "vaping",
+      "name": "E-cigarettes (vaping)",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2,
+        "sperm": 1
+      },
+      "evidence": "limited",
+      "headline": "Vaping causes less oxidative stress than smoking but more than not using anything: a single e-cigarette acutely raised 8-iso-PGF2a, and dual use is worse than smoking alone.",
+      "dose": {
+        "effective": "Best: use neither. For a smoker who cannot otherwise quit, a complete switch lowers toxicant exposure; dual use should be avoided.",
+        "studied_range": "Acute single-session crossover; large cross-sectional cohort (PATH); 24-week switching RCT.",
+        "too_much": "Dual use (vaping plus smoking) had 9% higher F2-isoprostanes than smoking only.",
+        "timeframe": "Acute effects within minutes; switching changes over weeks.",
+        "notes": "Long-term data are still limited."
+      },
+      "mechanism": "Heated propylene glycol/glycerol forms carbonyls (formaldehyde, acrolein), and coils release metals; nicotine activates NOX2. Exposure to radicals is far lower than from combustion.",
+      "pathways": [
+        "nox",
+        "iron-fenton",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Only reduces harm versus [tobacco-smoking] if it fully replaces cigarettes.",
+      "caveats": "Long-term independent data are limited; the acute study tested one session in healthy adults, and the cohort data are cross-sectional.",
+      "refs": [
+        "carnevale2016",
+        "christensen2021"
+      ]
+    },
+    {
+      "id": "alcohol",
+      "name": "Alcohol",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 3,
+        "sperm": 2,
+        "egg": 2
+      },
+      "evidence": "moderate",
+      "headline": "Alcohol raises lipid-peroxidation markers even at moderate intake (4 drinks/day of red wine raised urinary 8-iso-PGF2a versus the same wine without alcohol); there is no antioxidant benefit from drinking.",
+      "dose": {
+        "effective": "Less is better. If drinking, stay at or below ~100 g alcohol/week (about 7 US standard drinks or 12 UK units), spread out, with alcohol-free days; avoid binges.",
+        "studied_range": "Experimental: 41 g/day (4 drinks) red wine for 4 weeks; acute dosing in volunteers; cohorts across 0 to >350 g/week.",
+        "too_much": "Mortality rose above ~100 g/week; heavy and binge drinking drive CYP2E1 induction and liver injury.",
+        "timeframe": "Isoprostane rise within 4 weeks of daily moderate drinking; acute rise after single doses.",
+        "notes": "The polyphenols in red wine did not offset the alcohol; dealcoholized wine performed better."
+      },
+      "mechanism": "Ethanol is oxidized by alcohol dehydrogenase and, with chronic use, by induced CYP2E1, which leaks superoxide and H2O2. Acetaldehyde forms protein/DNA adducts and depletes glutathione; a high NADH/NAD+ ratio, iron mobilization and gut-derived endotoxin activating Kupffer-cell NADPH oxidase add to the load.",
+      "pathways": [
+        "mitochondrial",
+        "iron-fenton",
+        "nox",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Adds to [tobacco-smoking]. Can worsen [short-sleep] quality, [sleep-apnea] and [weight-loss-excess-adiposity] (alcohol is calorie-dense).",
+      "caveats": "The 'red wine is an antioxidant' story is not supported by biomarker data. Observational 'J-curves' for heart disease are confounded.",
+      "key_numbers": [
+        {
+          "label": "Urinary 8-iso-PGF2a after 4 wk red wine",
+          "value": 157,
+          "unit": "pg/mg creatinine",
+          "source": "schrieks2013"
+        },
+        {
+          "label": "Urinary 8-iso-PGF2a after 4 wk dealcoholized wine",
+          "value": 141,
+          "unit": "pg/mg creatinine",
+          "source": "schrieks2013"
+        }
+      ],
+      "refs": [
+        "schrieks2013",
+        "meagher1999",
+        "lu2008",
+        "wood2018"
+      ]
+    },
+    {
+      "id": "weight-loss-excess-adiposity",
+      "name": "Losing excess body fat (if overweight or obese)",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "beneficial",
+      "impact": {
+        "general": 5,
+        "sperm": 3,
+        "egg": 3
+      },
+      "evidence": "strong",
+      "headline": "Excess (especially visceral) fat is one of the strongest population drivers of oxidative stress; a 12-month diet-based weight-loss trial cut F2-isoprostanes by about 23%, and bariatric surgery lowers them further.",
+      "dose": {
+        "effective": "If BMI >=25 or waist is high, aim for 5-10% weight loss over 6-12 months via a sustained calorie deficit (e.g., ~500 kcal/day), ideally combined with exercise.",
+        "studied_range": "Duggan 2016: 12 months of reduced-calorie diet with or without exercise in women with BMI >25; CALERIE 2: prescribed 25% calorie restriction for 2 years in non-obese adults; sleeve gastrectomy in BMI >40.",
+        "too_much": "Very-low-calorie diets and rapid loss carry their own risks (gallstones, muscle loss) and need supervision.",
+        "timeframe": "Reductions visible by 6-12 months and scale with amount of weight lost.",
+        "notes": "Visceral fat matters more than subcutaneous fat. Calorie restriction lowered isoprostanes even in non-obese people."
+      },
+      "mechanism": "Enlarged adipocytes and infiltrating macrophages produce ROS via NADPH oxidase, release free fatty acids that overload mitochondria, and secrete inflammatory cytokines. Obesity also causes insulin resistance and hyperglycemia. Weight loss reverses these sources.",
+      "pathways": [
+        "nox",
+        "mitochondrial",
+        "inflammation-nfkb",
+        "glycation-ages"
+      ],
+      "interactions": "Works with [aerobic-exercise-moderate] (exercise adds fitness-related benefits); improves [glycemic-control] and [sleep-apnea].",
+      "caveats": "F2-isoprostanes vary with metabolic rate; one cohort found higher isoprostanes predicted less later weight gain, so interpret single measurements cautiously. Obesity is consistently linked to poorer sperm parameters (cross-link to fertility areas).",
+      "key_numbers": [
+        {
+          "label": "F2-isoprostane change, diet arm (12 mo)",
+          "value": -22.7,
+          "unit": "%",
+          "source": "duggan2016"
+        },
+        {
+          "label": "F2-isoprostane change, diet + exercise (12 mo)",
+          "value": -23.5,
+          "unit": "%",
+          "source": "duggan2016"
+        },
+        {
+          "label": "F2-isoprostane change, exercise only (12 mo)",
+          "value": -14.5,
+          "unit": "%",
+          "source": "duggan2016"
+        },
+        {
+          "label": "F2-isoprostane change, controls (12 mo)",
+          "value": -3.0,
+          "unit": "%",
+          "source": "duggan2016"
+        }
+      ],
+      "refs": [
+        "keaney2003",
+        "pou2007",
+        "furukawa2004",
+        "duggan2016",
+        "ilyasova2018",
+        "monzobeltran2017",
+        "ilyasova2012",
+        "sermondade2013"
+      ]
+    },
+    {
+      "id": "outdoor-air-pollution",
+      "name": "Outdoor air pollution (PM2.5, ozone, traffic)",
+      "kind": "environment",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 3,
+        "sperm": 2,
+        "egg": 1
+      },
+      "evidence": "moderate",
+      "headline": "Fine particles raise oxidative and inflammatory markers within days; each 10 µg/m³ of short-term PM2.5 was linked to ~1.6% higher malondialdehyde. Individually modest, but it affects everyone in polluted areas.",
+      "dose": {
+        "effective": "Aim to live and exercise where annual PM2.5 is near the WHO guideline of 5 µg/m³; on high-pollution days (AQI 'unhealthy') move hard exercise indoors or away from traffic, and use HEPA filtration indoors (see [hepa-air-purifier]).",
+        "studied_range": "Epidemiology across typical urban levels (roughly 10-100 µg/m³ PM2.5).",
+        "too_much": "WHO 2021: annual PM2.5 above 5 µg/m³ and peak-season 8-h ozone above 60 µg/m³ are associated with harm; no clear safe threshold.",
+        "timeframe": "Marker changes within hours to days of exposure.",
+        "notes": "Distance from heavy traffic and indoor filtration are the practical levers for individuals."
+      },
+      "mechanism": "Particles carry transition metals and quinones that redox-cycle (Fenton chemistry), activate NADPH oxidase in airway and immune cells, and trigger systemic inflammation and endothelial dysfunction. Ozone directly oxidizes lung-lining lipids and proteins.",
+      "pathways": [
+        "iron-fenton",
+        "nox",
+        "inflammation-nfkb",
+        "nrf2"
+      ],
+      "interactions": "Adds to [tobacco-smoking] and [secondhand-smoke]. Reduced by [hepa-air-purifier].",
+      "caveats": "Effect sizes on systemic markers are small per unit exposure; most evidence is observational. Air pollution is also linked to poorer semen quality (cross-link to sperm area).",
+      "refs": [
+        "li2020",
+        "kelly2017",
+        "hoffmann2021"
+      ]
+    },
+    {
+      "id": "hepa-air-purifier",
+      "name": "Indoor HEPA air purification",
+      "kind": "environment",
+      "scopes": [
+        "general"
+      ],
+      "direction": "beneficial",
+      "impact": {
+        "general": 3
+      },
+      "evidence": "moderate",
+      "headline": "In randomized sham-controlled crossover trials, running HEPA purifiers cut indoor PM2.5 by about half and lowered oxidative and inflammatory markers (8-isoprostane, myeloperoxidase) and blood pressure within days.",
+      "dose": {
+        "effective": "Run a HEPA purifier sized for the room (check its clean-air delivery rate) continuously in the bedroom and main living space when outdoor or indoor PM2.5 is elevated, with windows closed.",
+        "studied_range": "Trials: 48 h to 1 week of real vs sham purification in dormitories with outdoor PM2.5 roughly 40-100 µg/m³.",
+        "too_much": null,
+        "timeframe": "Effects within 48 h to 1 week; they disappear when purification stops.",
+        "notes": "Benefits are largest where indoor air is polluted; in clean-air regions the gain is small."
+      },
+      "mechanism": "Removes redox-active particles before they reach the lungs, reducing airway NADPH-oxidase activation, inflammatory cell activation and systemic lipid peroxidation.",
+      "pathways": [
+        "iron-fenton",
+        "nox",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Counters [outdoor-air-pollution] and [indoor-combustion-smoke]; does not remove gases like NO2 unless the unit has activated carbon.",
+      "caveats": "Trials were short, in young healthy Chinese students exposed to high pollution; long-term clinical outcomes are not yet shown.",
+      "key_numbers": [
+        {
+          "label": "Indoor PM2.5, sham purifier",
+          "value": 96.2,
+          "unit": "µg/m³",
+          "source": "chen2015"
+        },
+        {
+          "label": "Indoor PM2.5, real purifier",
+          "value": 41.3,
+          "unit": "µg/m³",
+          "source": "chen2015"
+        }
+      ],
+      "refs": [
+        "chen2015",
+        "wang2021"
+      ]
+    },
+    {
+      "id": "indoor-combustion-smoke",
+      "name": "Indoor combustion: wood stoves, fireplaces, gas cooking",
+      "kind": "environment",
+      "scopes": [
+        "general"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2
+      },
+      "evidence": "limited",
+      "headline": "Wood smoke at smoky-home levels raised airway oxidative stress in one chamber study but had no systemic effect in another; gas cooking is linked to childhood asthma, though the quality of that evidence is debated.",
+      "dose": {
+        "effective": "Use range hoods vented outdoors when cooking (especially on gas), keep wood stoves well-sealed and burning cleanly, avoid open fireplaces as daily heat, and ventilate.",
+        "studied_range": "Chamber studies: 3-4 h at 220-354 µg/m³ wood-smoke particles.",
+        "too_much": "Exposure in poorly vented homes with daily solid-fuel burning (much higher in low-income countries using biomass).",
+        "timeframe": "Airway markers changed within hours.",
+        "notes": "Electric or induction cooking removes the NO2 source."
+      },
+      "mechanism": "Combustion particles and gases (NO2, aldehydes, PAHs) generate airway ROS and inflammation; NO2 is itself an oxidant.",
+      "pathways": [
+        "iron-fenton",
+        "nox",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Similar pathways to [outdoor-air-pollution]; mitigated by [hepa-air-purifier] for particles.",
+      "caveats": "Controlled wood-smoke studies are small and inconsistent. The gas-stove literature is mostly cross-sectional; a 2013 meta-analysis found OR 1.32 for asthma while a 2023 review judged the evidence too low-quality for causal conclusions.",
+      "refs": [
+        "barregard2008",
+        "forchhammer2012",
+        "lin2013",
+        "li2023"
+      ]
+    },
+    {
+      "id": "uv-sun-exposure",
+      "name": "Sun/UV exposure (skin oxidative damage vs vitamin D)",
+      "kind": "environment",
+      "scopes": [
+        "general"
+      ],
+      "direction": "mixed",
+      "impact": {
+        "general": 2
+      },
+      "evidence": "moderate",
+      "headline": "UV is a major source of oxidative damage to skin (photoaging, DNA damage), and daily sunscreen slowed skin aging by 24% in an RCT; vitamin D is better obtained by brief exposure or supplements than by tanning.",
+      "dose": {
+        "effective": "Avoid sunburn; apply broad-spectrum sunscreen daily to exposed skin (as in the Nambour trial), reapply during long outdoor periods, and use shade and clothing around midday.",
+        "studied_range": "Nambour RCT: daily broad-spectrum sunscreen for 4.5 years in adults under 55.",
+        "too_much": "Sunburn and cumulative high exposure; tanning beds.",
+        "timeframe": "Skin-aging differences measurable over years.",
+        "notes": "If vitamin D is low, short sub-burning exposures or a modest supplement can correct it; vitamin D pills did not prevent cancer or heart disease in VITAL."
+      },
+      "mechanism": "UVB directly damages DNA (pyrimidine dimers); UVA is absorbed by skin chromophores that generate singlet oxygen and superoxide, causing 8-oxoguanine, lipid peroxidation and collagen-degrading MMP induction.",
+      "pathways": [
+        "direct-scavenging",
+        "dna-repair",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Smoking and air pollution add to skin oxidative aging ([tobacco-smoking], [outdoor-air-pollution]).",
+      "caveats": "Systemic (whole-body) oxidative-marker effects of normal sun exposure are not well documented; the evidence is about skin. Organic filters that soak in can increase skin ROS after about an hour, one more reason to reapply.",
+      "refs": [
+        "kammeyer2015",
+        "hughes2013",
+        "hanson2006",
+        "manson2019"
+      ]
+    },
+    {
+      "id": "psychological-stress",
+      "name": "Chronic psychological stress and depression",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2,
+        "sperm": 1,
+        "egg": 1
+      },
+      "evidence": "limited",
+      "headline": "Chronic stress and depression are associated with higher oxidative damage markers (depression: F2-isoprostanes effect size ~0.5), but causality and the size of any modifiable effect are uncertain.",
+      "dose": {
+        "effective": "Treat depression and anxiety with proven methods (therapy, medication when indicated, exercise, sleep); reduce chronic stressors where possible.",
+        "studied_range": "Cross-sectional comparisons of high vs low perceived stress and depressed vs non-depressed groups.",
+        "too_much": null,
+        "timeframe": "Unknown for oxidative markers.",
+        "notes": "Exercise and sleep improvements are the best-evidenced stress interventions that also affect oxidative stress."
+      },
+      "mechanism": "Chronic stress raises cortisol and catecholamines, increases metabolic rate and inflammatory signalling (NF-kB), and is associated with lower telomerase activity; catecholamine auto-oxidation produces ROS.",
+      "pathways": [
+        "endocrine",
+        "inflammation-nfkb",
+        "mitochondrial"
+      ],
+      "interactions": "Stress worsens [short-sleep], drinking ([alcohol]), smoking and eating, which are likely bigger oxidative contributors than stress itself.",
+      "caveats": "The famous Epel 2004 study was cross-sectional in 58 women; it shows association, not cause. Confounding by health behaviours is likely in most studies.",
+      "refs": [
+        "epel2004",
+        "black2015"
+      ]
+    },
+    {
+      "id": "meditation-yoga",
+      "name": "Meditation, mindfulness and yoga",
+      "kind": "lifestyle",
+      "scopes": [
+        "general"
+      ],
+      "direction": "beneficial",
+      "impact": {
+        "general": 1
+      },
+      "evidence": "limited",
+      "headline": "Mind-body practices reliably lower cortisol and blood pressure modestly, but evidence that they reduce oxidative damage comes from small, weakly controlled trials.",
+      "dose": {
+        "effective": "If you enjoy it: ~20-45 min sessions, most days (yoga trials typically 2-5 sessions/week for 8-12 weeks).",
+        "studied_range": "Yoga/MBSR trials of 6-16 weeks.",
+        "too_much": null,
+        "timeframe": "8-12 weeks in most trials.",
+        "notes": "Physical yoga also counts as light exercise."
+      },
+      "mechanism": "Lower sympathetic and HPA-axis activity reduces cortisol and catecholamines; gene-expression studies show down-regulation of NF-kB inflammatory pathways.",
+      "pathways": [
+        "endocrine",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Addresses [psychological-stress]; can improve [short-sleep].",
+      "caveats": "Oxidative-marker trials are small (e.g., 29 people), often lack active controls, and use crude markers like malondialdehyde. Grade honestly as limited.",
+      "refs": [
+        "pascoe2017",
+        "buric2017",
+        "hegde2013"
+      ]
+    },
+    {
+      "id": "sauna",
+      "name": "Sauna bathing (Finnish sauna) and passive heat",
+      "kind": "lifestyle",
+      "scopes": [
+        "general",
+        "sperm"
+      ],
+      "direction": "mixed",
+      "impact": {
+        "general": 2,
+        "sperm": 3
+      },
+      "evidence": "limited",
+      "headline": "Frequent sauna use is linked to lower cardiovascular death and inflammation in Finnish cohorts, and heat therapy improves vascular function in trials, but direct oxidative-stress benefits are unproven; sauna clearly impairs sperm (reversibly).",
+      "dose": {
+        "effective": "Cohort 'high' group: 4-7 sessions/week, sessions longer than 19 min, in a traditional Finnish sauna (hot and dry, ~80-90 C as in the sperm study); trial: 40.5 C hot-water immersion for 60 min, 4-5x/week for 8 weeks.",
+        "studied_range": "Cohorts: 1 to 4-7 sessions/week, <11 to >19 min; sperm study: 2 x 15 min/week at 80-90 C for 3 months.",
+        "too_much": "Men trying to conceive should avoid sauna: 2 sessions/week at 80-90 C for 3 months reduced sperm count and motility and damaged chromatin; avoid alcohol in the sauna; caution with unstable heart disease, pregnancy and low blood pressure.",
+        "timeframe": "Vascular changes in 8 weeks; sperm recovered ~6 months after stopping.",
+        "notes": "Cohort men who used saunas more often were also fitter and healthier; benefits may partly reflect that."
+      },
+      "mechanism": "Heat stress induces heat-shock proteins, increases shear stress and nitric oxide production (like exercise), and may trigger mild hormetic ROS signalling. For testes, heat disrupts spermatogenesis and increases sperm oxidative/chromatin damage.",
+      "pathways": [
+        "thermal",
+        "hormesis",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Partially mimics [aerobic-exercise-moderate] vascular effects but is not a substitute for exercise. Cross-link to sperm area: heat is a strong, reversible harm to sperm.",
+      "caveats": "The KIHD cohort found no association between sauna frequency and GGT (the oxidative-stress proxy studied) despite lower CRP. Oxidative claims for sauna are mostly extrapolation.",
+      "refs": [
+        "laukkanen2015",
+        "kunutsor2018",
+        "laukkanen2018",
+        "brunt2016",
+        "garolla2013"
+      ]
+    },
+    {
+      "id": "cold-water-immersion",
+      "name": "Cold-water immersion and winter swimming",
+      "kind": "lifestyle",
+      "scopes": [
+        "general"
+      ],
+      "direction": "mixed",
+      "impact": {
+        "general": 1
+      },
+      "evidence": "limited",
+      "headline": "Regular winter swimmers show higher baseline antioxidant enzymes (a hormesis signal), but human evidence for health benefits is small and inconsistent, and cold plunges right after strength training blunt muscle gains.",
+      "dose": {
+        "effective": "If you do it: brief immersions (seconds to a few minutes) in cold water, with acclimatization and never alone; keep it away from (at least several hours after) strength sessions.",
+        "studied_range": "Winter-swimming studies over a season; post-exercise CWI 10 min after each strength session for 12 weeks.",
+        "too_much": "Cold shock and arrhythmia risk on sudden immersion, especially with heart disease; hypothermia.",
+        "timeframe": "Antioxidant adaptations seen after a winter season.",
+        "notes": "Each plunge itself causes acute oxidative stress; adaptation follows repetition."
+      },
+      "mechanism": "Cold triggers a catecholamine surge and increased metabolic rate (brown-fat thermogenesis), generating a transient ROS pulse that may up-regulate glutathione, SOD and catalase. Post-exercise cooling reduces blood flow and anabolic signalling.",
+      "pathways": [
+        "hormesis",
+        "endocrine",
+        "thermal",
+        "mitochondrial"
+      ],
+      "interactions": "Blunts adaptations to [resistance-training] if done immediately after.",
+      "caveats": "Winter swimmers are a self-selected healthy group; most studies are small, single-sex and uncontrolled. Reviews rate many claimed benefits as resting on weak or anecdotal data.",
+      "refs": [
+        "siems1999",
+        "esperland2022",
+        "tipton2017",
+        "roberts2015"
+      ]
+    },
+    {
+      "id": "heavy-metals",
+      "name": "Heavy metals: lead, cadmium, arsenic, mercury",
+      "kind": "environment",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2,
+        "sperm": 2,
+        "egg": 1
+      },
+      "evidence": "moderate",
+      "headline": "Toxic metals deplete glutathione and drive oxidative damage; even at normal background levels, urinary cadmium tracked oxidative DNA damage in non-smokers.",
+      "dose": {
+        "effective": "Do not smoke (the main cadmium source); test well water for arsenic; check old homes for lead paint and pipes; choose low-mercury fish (salmon, sardines) over high-mercury species (swordfish, king mackerel, shark).",
+        "studied_range": "Observational studies at background and occupational exposure levels.",
+        "too_much": "Occupational exposures and contaminated water are the main high-dose risks.",
+        "timeframe": "Body burdens of cadmium and lead decline slowly (years).",
+        "notes": "Chelation 'detox' for people without documented poisoning is not supported."
+      },
+      "mechanism": "Cadmium, lead and arsenic bind thiol groups, deplete glutathione and inhibit antioxidant enzymes; redox-active metals (iron, copper) generate hydroxyl radical via Fenton chemistry; arsenic can generate H2O2.",
+      "pathways": [
+        "iron-fenton",
+        "nrf2",
+        "dna-repair"
+      ],
+      "interactions": "Cadmium exposure is largely from [tobacco-smoking].",
+      "caveats": "Spot-urine biomarker studies are prone to confounding: in one study the strongest metal associations were for essential selenium and copper.",
+      "refs": [
+        "jomova2011",
+        "urbano2022",
+        "kim2019"
+      ]
+    },
+    {
+      "id": "plastics-chemicals",
+      "name": "Plastic-associated chemicals (phthalates, bisphenols) and persistent pollutants",
+      "kind": "environment",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 1,
+        "sperm": 1,
+        "egg": 1
+      },
+      "evidence": "limited",
+      "headline": "Phthalate metabolites are associated with higher urinary oxidative-stress markers in pregnancy, but associations for persistent pollutants (PFAS, PCBs, pesticides) are mostly inconsistent.",
+      "dose": {
+        "effective": "Reasonable low-cost steps: don't microwave food in plastic, prefer glass/steel for hot foods, eat fewer ultra-processed and packaged foods, and reduce fragranced personal-care products.",
+        "studied_range": "Observational studies of urinary metabolites.",
+        "too_much": null,
+        "timeframe": "Phthalates and BPA clear within hours to days, so exposure reduction changes levels quickly.",
+        "notes": "Evidence that these steps change health outcomes is lacking."
+      },
+      "mechanism": "Proposed: mitochondrial disruption and NADPH-oxidase activation; endocrine disruption.",
+      "pathways": [
+        "mitochondrial",
+        "endocrine",
+        "nox"
+      ],
+      "interactions": "Overlaps with diet quality (ultra-processed foods).",
+      "caveats": "Associations from spot urine samples are noisy; causality unproven. Keep expectations modest.",
+      "refs": [
+        "ferguson2015",
+        "chen2023"
+      ]
+    },
+    {
+      "id": "glycemic-control",
+      "name": "Blood-sugar control and diabetes",
+      "kind": "medical",
+      "scopes": [
+        "general",
+        "sperm",
+        "egg"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 4,
+        "sperm": 1,
+        "egg": 1
+      },
+      "evidence": "moderate",
+      "headline": "Type 2 diabetes was associated with ~75% higher urinary 8-iso-PGF2a, which tracked day-to-day glucose swings (r = 0.86) more than HbA1c; reducing glucose spikes is a meaningful lever.",
+      "dose": {
+        "effective": "Keep fasting glucose and HbA1c in the normal range (individualized targets with diabetes); limit post-meal spikes with fibre-rich whole foods, fewer refined carbohydrates, and a short walk after meals.",
+        "studied_range": "Case-control comparison using continuous glucose monitoring.",
+        "too_much": "Large post-meal excursions and sustained hyperglycemia.",
+        "timeframe": "Glucose swings respond within days; HbA1c over ~3 months.",
+        "notes": "Exercise and weight loss are the main non-drug tools."
+      },
+      "mechanism": "High glucose overloads mitochondria, causing superoxide overproduction that activates the polyol, AGE, PKC and hexosamine pathways; AGE-RAGE binding further activates NADPH oxidase and NF-kB.",
+      "pathways": [
+        "glycation-ages",
+        "mitochondrial",
+        "nox",
+        "inflammation-nfkb"
+      ],
+      "interactions": "Improved by [aerobic-exercise-moderate], [resistance-training], [weight-loss-excess-adiposity] and [short-sleep] correction.",
+      "caveats": "Monnier 2006 was small (21 patients); the 'swings matter more than average glucose' idea is supported mechanistically but outcome trials targeting variability are limited.",
+      "refs": [
+        "monnier2006",
+        "brownlee2001",
+        "keaney2003"
+      ]
+    },
+    {
+      "id": "periodontal-disease",
+      "name": "Gum disease (periodontitis)",
+      "kind": "medical",
+      "scopes": [
+        "general"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 2
+      },
+      "evidence": "moderate",
+      "headline": "Chronic periodontitis is associated with lower systemic antioxidant capacity and higher malondialdehyde, and periodontal treatment lowers oxidative markers.",
+      "dose": {
+        "effective": "Brush twice daily, clean between teeth daily, and get professional cleaning and periodontal treatment if gums bleed or recede.",
+        "studied_range": "Non-surgical periodontal therapy studies with >=6 weeks follow-up.",
+        "too_much": null,
+        "timeframe": "Markers improved within 6 weeks to months after treatment.",
+        "notes": "Smoking and diabetes strongly worsen periodontitis."
+      },
+      "mechanism": "Chronic bacterial infection recruits neutrophils that release superoxide, hypochlorous acid and other oxidants locally, with spill-over systemic inflammation.",
+      "pathways": [
+        "inflammation-nfkb",
+        "nox"
+      ],
+      "interactions": "Worsened by [tobacco-smoking] and poor [glycemic-control].",
+      "caveats": "Most data are from saliva and gum fluid; systemic effects are less consistent and few trials are randomized.",
+      "refs": [
+        "liu2014",
+        "dasilva2018"
+      ]
+    },
+    {
+      "id": "hydration",
+      "name": "Hydration",
+      "kind": "lifestyle",
+      "scopes": [
+        "general"
+      ],
+      "direction": "neutral",
+      "impact": {
+        "general": 1
+      },
+      "evidence": "limited",
+      "headline": "Being dehydrated increased muscle H2O2 after resistance exercise in one small study; there is no evidence that drinking extra water beyond thirst lowers oxidative stress.",
+      "dose": {
+        "effective": "Drink to thirst; aim for pale-yellow urine; replace fluids lost in heavy sweating.",
+        "studied_range": "One crossover study with 24 h fluid restriction.",
+        "too_much": "Overdrinking (hyponatremia) is a risk in endurance events.",
+        "timeframe": null,
+        "notes": "'Alkaline' or 'structured' water claims have no support."
+      },
+      "mechanism": "Dehydration raises cell stress and may increase ROS production in exercising muscle.",
+      "pathways": [
+        "mitochondrial"
+      ],
+      "interactions": "Relevant to [overtraining-ultraendurance] and [sauna].",
+      "caveats": "Evidence is a single small study; 'flushing out toxins' with water is not a real antioxidant mechanism.",
+      "refs": [
+        "luk2025"
+      ]
+    },
+    {
+      "id": "hydrogen-water",
+      "name": "Hydrogen-rich water / molecular hydrogen",
+      "kind": "supplement",
+      "scopes": [
+        "general"
+      ],
+      "direction": "neutral",
+      "impact": {
+        "general": 1
+      },
+      "evidence": "limited",
+      "headline": "Molecular hydrogen scavenges hydroxyl radicals in lab and animal studies, but human trials are small and show at most modest effects on lipids, not established oxidative-stress benefits.",
+      "dose": {
+        "effective": "Not recommended for oxidative stress. Trials used ~0.5-1.5 L/day of hydrogen-rich water.",
+        "studied_range": "Pilot RCTs of weeks to 6 months.",
+        "too_much": "Appears safe.",
+        "timeframe": null,
+        "notes": "Hydrogen escapes quickly from water once opened."
+      },
+      "mechanism": "H2 reacts selectively with hydroxyl radical and peroxynitrite; may also signal via Nrf2. Doses from drinking water are tiny and transient.",
+      "pathways": [
+        "direct-scavenging",
+        "nrf2"
+      ],
+      "interactions": "No known interactions.",
+      "caveats": "Most trials are small and come from a few research groups; the telomere result came from a 40-person pilot with many outcomes, and the lipid meta-analysis pooled only 7 small studies.",
+      "refs": [
+        "ohsawa2007",
+        "zanini2021",
+        "todorovic2023"
+      ]
+    },
+    {
+      "id": "grounding-earthing",
+      "name": "Grounding / earthing",
+      "kind": "lifestyle",
+      "scopes": [
+        "general"
+      ],
+      "direction": "neutral",
+      "impact": {
+        "general": 0
+      },
+      "evidence": "limited",
+      "headline": "Claims that touching the ground supplies 'antioxidant electrons' have no credible mechanism and rest on small, mostly unblinded studies by proponents.",
+      "dose": {
+        "effective": "Not recommended for oxidative stress. Walking barefoot outdoors is harmless and pleasant if you enjoy it.",
+        "studied_range": "Small studies of grounding mats/patches over nights to weeks.",
+        "too_much": null,
+        "timeframe": null,
+        "notes": "No validated oxidative biomarker improvement in rigorous trials."
+      },
+      "mechanism": "Proposed mechanism (free electrons neutralizing radicals) is not physiologically plausible: radical chemistry occurs inside cells and is buffered by enzymes and glutathione.",
+      "pathways": [
+        "direct-scavenging"
+      ],
+      "interactions": "None.",
+      "caveats": "The main review is by advocates; independent replication is lacking.",
+      "refs": [
+        "chevalier2012"
+      ]
+    },
+    {
+      "id": "ozone-therapy",
+      "name": "Ozone therapy (autohemotherapy, ozone saunas)",
+      "kind": "medical",
+      "scopes": [
+        "general"
+      ],
+      "direction": "harmful",
+      "impact": {
+        "general": 0
+      },
+      "evidence": "limited",
+      "headline": "Ozone is a strong oxidant and a regulated air pollutant; 'ozone therapy' is marketed as hormetic, but a Cochrane review could draw no firm conclusions even for its best-studied use (diabetic foot ulcers).",
+      "dose": {
+        "effective": "Not recommended for oxidative stress.",
+        "studied_range": "Clinical trials of ozone for wounds and other conditions; small and high risk of bias.",
+        "too_much": "Inhaled ozone is toxic to the lungs; WHO's peak-season 8-h outdoor guideline is 60 µg/m³.",
+        "timeframe": null,
+        "notes": "Intravenous and blood-handling procedures carry their own procedural risks."
+      },
+      "mechanism": "Ozone reacts with lipids to form ozonides, aldehydes and H2O2; proponents claim this triggers Nrf2-mediated hormesis.",
+      "pathways": [
+        "nrf2",
+        "hormesis"
+      ],
+      "interactions": "Opposite of [outdoor-air-pollution] advice: ozone exposure is a recognized harm.",
+      "caveats": "Hormesis claims are mechanistic; human outcome evidence is poor.",
+      "refs": [
+        "liu2015",
+        "hoffmann2021"
+      ]
+    },
+    {
+      "id": "iv-glutathione",
+      "name": "Intravenous (IV) or oral glutathione",
+      "kind": "supplement",
+      "scopes": [
+        "general"
+      ],
+      "direction": "neutral",
+      "impact": {
+        "general": 1
+      },
+      "evidence": "limited",
+      "headline": "IV glutathione is cleared from blood with a half-life of ~14 minutes; oral glutathione raised blood stores 17-35% in one 6-month RCT, but no trial shows clinical benefit for oxidative stress.",
+      "dose": {
+        "effective": "Not recommended. Oral trial used 250-1000 mg/day for 6 months; levels returned to baseline within a month of stopping.",
+        "studied_range": "IV: single 2 g/m² infusion pharmacokinetics; oral: 6-month RCT.",
+        "too_much": "No benefit shown; usual infusion risks apply to IV use.",
+        "timeframe": "IV effect gone within about an hour; oral effect builds over months and reverses within a month.",
+        "notes": "Cells make their own glutathione from cysteine, glycine and glutamate; exercise, sleep and not smoking support it."
+      },
+      "mechanism": "Exogenous glutathione is broken down in plasma and by gamma-glutamyl transferase into amino acids; cells resynthesize glutathione internally.",
+      "pathways": [
+        "direct-scavenging"
+      ],
+      "interactions": "Lifestyle factors that preserve glutathione: avoiding [tobacco-smoking] and [alcohol], [short-sleep] correction.",
+      "caveats": "Biomarker increases do not equal health benefit; no outcome trials.",
+      "refs": [
+        "aebi1991",
+        "richie2015"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "hormesis",
+      "name": "Hormesis (adaptive stress response)",
+      "description": "A small, brief dose of a stressor (exercise ROS, heat, cold) triggers protective programs that leave the body more resistant than before; too much or too continuous a dose causes damage instead. This is why exercise transiently raises oxidative markers yet lowers resting oxidative stress over time, and why blocking the signal with megadose antioxidants can blunt adaptation.",
+      "refs": [
+        "radak2008",
+        "powers2016",
+        "ristow2009",
+        "mason2020"
+      ]
+    },
+    {
+      "id": "nrf2",
+      "name": "Nrf2 / KEAP1 pathway",
+      "description": "KEAP1 normally tags the transcription factor Nrf2 for destruction. Oxidants modify KEAP1 cysteines, freeing Nrf2 to switch on more than 200 protective genes (glutathione synthesis, SOD, catalase, HO-1, NQO1). Repeated exercise bouts up-regulate this system.",
+      "refs": [
+        "done2016"
+      ]
+    },
+    {
+      "id": "mitochondrial",
+      "name": "Mitochondrial electron leak",
+      "description": "Electrons escaping the respiratory chain reduce oxygen to superoxide. Leak rises when fuel supply outstrips demand (obesity, hyperglycemia, overfeeding), during extreme exercise loads, and with toxic exposures. Hyperglycemia-driven mitochondrial superoxide is proposed as the common trigger of diabetic damage pathways.",
+      "refs": [
+        "brownlee2001",
+        "flockhart2021",
+        "furukawa2004"
+      ]
+    },
+    {
+      "id": "nox",
+      "name": "NADPH oxidases (NOX)",
+      "description": "Enzymes whose job is to make superoxide/H2O2: in immune cells (killing microbes), blood vessels and fat tissue. They are activated by smoke, particles, obesity, high glucose and inflammation, and also produce the signalling ROS of exercising muscle.",
+      "refs": [
+        "furukawa2004",
+        "carnevale2016",
+        "powers2016"
+      ]
+    },
+    {
+      "id": "inflammation-nfkb",
+      "name": "Inflammation / NF-kB",
+      "description": "Inflammatory cells release oxidants, and oxidants activate the NF-kB inflammatory switch, creating a self-reinforcing loop. Smoking, visceral fat, air pollution, gum disease and chronic stress all feed this loop.",
+      "refs": [
+        "kelly2017",
+        "liu2014",
+        "buric2017"
+      ]
+    },
+    {
+      "id": "iron-fenton",
+      "name": "Transition metals and Fenton chemistry",
+      "description": "Free iron and copper convert H2O2 into the highly reactive hydroxyl radical. Particulate air pollution and smoke carry redox-active metals; cadmium, lead and arsenic instead deplete glutathione by binding thiols.",
+      "refs": [
+        "jomova2011",
+        "kelly2017"
+      ]
+    },
+    {
+      "id": "glycation-ages",
+      "name": "Glycation and AGEs",
+      "description": "High glucose glycates proteins to form advanced glycation end-products, which bind RAGE receptors and activate NADPH oxidase and NF-kB. Glucose swings may be especially damaging.",
+      "refs": [
+        "brownlee2001",
+        "monnier2006"
+      ]
+    },
+    {
+      "id": "endocrine",
+      "name": "Hormonal regulation (melatonin, cortisol, catecholamines)",
+      "description": "Melatonin, suppressed by light at night, supports repair of oxidative DNA lesions; cortisol and catecholamines from chronic stress or cold raise metabolic rate and inflammatory signalling.",
+      "refs": [
+        "bhatti2017",
+        "epel2004"
+      ]
+    },
+    {
+      "id": "thermal",
+      "name": "Thermal stress",
+      "description": "Heat induces heat-shock proteins and exercise-like vascular shear stress; the testes are highly heat-sensitive, so heat that may benefit blood vessels harms sperm production.",
+      "refs": [
+        "brunt2016",
+        "garolla2013"
+      ]
+    },
+    {
+      "id": "dna-repair",
+      "name": "Oxidative DNA damage and repair",
+      "description": "ROS oxidize guanine to 8-oxoguanine; repair enzymes excise it and it is excreted as urinary 8-OHdG. Urinary 8-OHdG therefore reflects both damage and repair, which complicates interpretation.",
+      "refs": [
+        "bhatti2017",
+        "urbano2022"
+      ]
+    },
+    {
+      "id": "direct-scavenging",
+      "name": "Direct radical scavenging",
+      "description": "Small molecules (vitamin C, vitamin E, glutathione, hydrogen) react directly with radicals. In vivo, enzymes and regulated glutathione handle most of the load, so extra scavenger intake has limited effect and can blunt useful signals.",
+      "refs": [
+        "richie2015",
+        "aebi1991",
+        "mason2020"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "ristow2009",
+      "authors": "Ristow M, Zarse K, Oberbach A, et al.",
+      "year": 2009,
+      "title": "Antioxidants prevent health-promoting effects of physical exercise in humans.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "19433800",
+      "doi": "10.1073/pnas.0903485106",
+      "type": "rct",
+      "n": "39 young men",
+      "finding": "Vitamin C 1000 mg/d plus vitamin E 400 IU/d during 4 weeks of training abolished the training-induced rise in insulin sensitivity (clamp) and in muscle expression of ROS-responsive genes, in both untrained and pretrained men."
+    },
+    {
+      "id": "gomezcabrera2008",
+      "authors": "Gomez-Cabrera MC, Domenech E, Romagnoli M, et al.",
+      "year": 2008,
+      "title": "Oral administration of vitamin C decreases muscle mitochondrial biogenesis and hampers training-induced adaptations in endurance performance.",
+      "journal": "Am J Clin Nutr",
+      "pmid": "18175748",
+      "doi": "10.1093/ajcn/87.1.142",
+      "type": "rct",
+      "n": "14 men (plus rat study)",
+      "finding": "Vitamin C (1 g/d in humans, equivalent dose in rats) during endurance training hampered endurance-capacity gains in rats and reduced training-induced expression of mitochondrial-biogenesis transcription factors; the human arm was very small."
+    },
+    {
+      "id": "paulsen2014",
+      "authors": "Paulsen G, Cumming KT, Holden G, et al.",
+      "year": 2014,
+      "title": "Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial.",
+      "journal": "J Physiol",
+      "pmid": "24492839",
+      "doi": "10.1113/jphysiol.2013.267419",
+      "type": "rct",
+      "n": "54 young adults",
+      "finding": "1000 mg vitamin C plus 235 mg vitamin E daily for 11 weeks of endurance training did not change VO2max gains (8% in both groups) but blunted training-induced increases in muscle mitochondrial markers."
+    },
+    {
+      "id": "yfanti2011",
+      "authors": "Yfanti C, Nielsen AR, Akerström T, et al.",
+      "year": 2011,
+      "title": "Effect of antioxidant supplementation on insulin sensitivity in response to endurance exercise training.",
+      "journal": "Am J Physiol Endocrinol Metab",
+      "pmid": "21325105",
+      "doi": "10.1152/ajpendo.00207.2010",
+      "type": "rct",
+      "n": "21 young men",
+      "finding": "500 mg vitamin C plus 400 IU vitamin E during 12 weeks of intense endurance training (5x/week) did not change the ~17-19% training-induced gain in insulin-stimulated glucose uptake or VO2max."
+    },
+    {
+      "id": "bjornsen2016",
+      "authors": "Bjørnsen T, Salvesen S, Berntsen S, et al.",
+      "year": 2016,
+      "title": "Vitamin C and E supplementation blunts increases in total lean body mass in elderly men after strength training.",
+      "journal": "Scand J Med Sci Sports",
+      "pmid": "26129928",
+      "doi": "10.1111/sms.12506",
+      "type": "rct",
+      "n": "34 men aged 60-81",
+      "finding": "500 mg vitamin C plus 117.5 mg vitamin E around each of three weekly strength sessions for 12 weeks blunted lean-mass gain (1.4% vs 3.9% on placebo) but not strength gains."
+    },
+    {
+      "id": "clifford2020",
+      "authors": "Clifford T, Jeffries O, Stevenson EJ, et al.",
+      "year": 2020,
+      "title": "The effects of vitamin C and E on exercise-induced physiological adaptations: a systematic review and Meta-analysis of randomized controlled trials.",
+      "journal": "Crit Rev Food Sci Nutr",
+      "pmid": "31851538",
+      "doi": "10.1080/10408398.2019.1703642",
+      "type": "meta-analysis",
+      "n": "18 RCTs",
+      "finding": "Across 9 aerobic and 9 resistance-training RCTs, vitamin C and/or E did not significantly attenuate gains in VO2max, endurance performance, lean mass or strength; trials were small."
+    },
+    {
+      "id": "mason2020",
+      "authors": "Mason SA, Trewin AJ, Parker L, et al.",
+      "year": 2020,
+      "title": "Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights.",
+      "journal": "Redox Biol",
+      "pmid": "32127289",
+      "doi": "10.1016/j.redox.2020.101471",
+      "type": "review",
+      "n": null,
+      "finding": "Review concluding that chronic intake of 1000 mg vitamin C plus vitamin E is not recommended during heavy training, and that most marketed antioxidant compounds lack supportive human evidence."
+    },
+    {
+      "id": "radak2008",
+      "authors": "Radak Z, Chung HY, Koltai E, et al.",
+      "year": 2008,
+      "title": "Exercise, oxidative stress and hormesis.",
+      "journal": "Ageing Res Rev",
+      "pmid": "17869589",
+      "doi": "10.1016/j.arr.2007.04.004",
+      "type": "review",
+      "n": null,
+      "finding": "Review framing exercise as a hormetic stressor: repeated moderate ROS exposure up-regulates antioxidant and repair systems, with a bell-shaped dose-response curve."
+    },
+    {
+      "id": "powers2016",
+      "authors": "Powers SK, Radak Z, Ji LL",
+      "year": 2016,
+      "title": "Exercise-induced oxidative stress: past, present and future.",
+      "journal": "J Physiol",
+      "pmid": "26893258",
+      "doi": "10.1113/JP270646",
+      "type": "review",
+      "n": null,
+      "finding": "Review of sources of exercise-induced ROS (mitochondria, NADPH oxidases, xanthine oxidase) and evidence that these ROS act as signals required for training adaptation."
+    },
+    {
+      "id": "done2016",
+      "authors": "Done AJ, Traustadóttir T",
+      "year": 2016,
+      "title": "Nrf2 mediates redox adaptations to exercise.",
+      "journal": "Redox Biol",
+      "pmid": "27770706",
+      "doi": "10.1016/j.redox.2016.10.003",
+      "type": "review",
+      "n": null,
+      "finding": "Review of evidence that acute exercise activates Nrf2 and that repeated bouts up-regulate Nrf2-controlled antioxidant defences, with emerging human data."
+    },
+    {
+      "id": "torresrojo2025",
+      "authors": "Torres-Rojo FI, Enríquez-Del Castillo LA, González-Chávez SA, et al.",
+      "year": 2025,
+      "title": "Effect of exercise intensity on redox biomarkers in healthy adults: A systematic review and meta-analysis of randomized clinical trials.",
+      "journal": "PLoS One",
+      "pmid": "40834031",
+      "doi": "10.1371/journal.pone.0330185",
+      "type": "meta-analysis",
+      "n": "7 RCTs, 267 healthy adults",
+      "finding": "Chronic exercise training raised antioxidant capacity and lowered pro-oxidant markers in healthy adults; the effect was significant for vigorous protocols but not for non-vigorous ones."
+    },
+    {
+      "id": "zhou2022",
+      "authors": "Zhou Z, Chen C, Teo EC, et al.",
+      "year": 2022,
+      "title": "Intracellular Oxidative Stress Induced by Physical Exercise in Adults: Systematic Review and Meta-Analysis.",
+      "journal": "Antioxidants (Basel)",
+      "pmid": "36139825",
+      "doi": "10.3390/antiox11091751",
+      "type": "meta-analysis",
+      "n": "12 RCTs",
+      "finding": "Exercise-induced oxidative damage (8-OHdG, F2-isoprostanes, protein carbonyls) depends on intensity times volume; moderate continuous exercise and low-volume HIIT carried the lowest probability of large oxidative stress in unhealthy adults."
+    },
+    {
+      "id": "cordeiro2025",
+      "authors": "Cordeiro LS, Linhares DG, Castro JBP, et al.",
+      "year": 2025,
+      "title": "Impacts of Resistance Training on Endogenous Antioxidants in Older Individuals: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+      "journal": "J Phys Act Health",
+      "pmid": "39914379",
+      "doi": "10.1123/jpah.2024-0281",
+      "type": "meta-analysis",
+      "n": "14 RCTs, 676 older adults",
+      "finding": "Resistance training in healthy older adults raised glutathione peroxidase (SMD 0.57) but did not significantly change catalase or total antioxidant activity."
+    },
+    {
+      "id": "campbell2010",
+      "authors": "Campbell PT, Gross MD, Potter JD, et al.",
+      "year": 2010,
+      "title": "Effect of exercise on oxidative stress: a 12-month randomized, controlled trial.",
+      "journal": "Med Sci Sports Exerc",
+      "pmid": "20139793",
+      "doi": "10.1249/MSS.0b013e3181cfc908",
+      "type": "rct",
+      "n": "173 postmenopausal women",
+      "finding": "12 months of aerobic exercise (>=45 min/day, 5 days/week, 60-75% HRmax) lowered F2-isoprostanes 6% vs controls (not significant overall); women whose VO2max rose >15% had a 14% reduction."
+    },
+    {
+      "id": "flockhart2021",
+      "authors": "Flockhart M, Nilsson LC, Tais S, et al.",
+      "year": 2021,
+      "title": "Excessive exercise training causes mitochondrial functional impairment and decreases glucose tolerance in healthy volunteers.",
+      "journal": "Cell Metab",
+      "pmid": "33740420",
+      "doi": "10.1016/j.cmet.2021.02.017",
+      "type": "cohort",
+      "n": "healthy volunteers (small progressive-load training study) plus elite athletes",
+      "finding": "When training load was ramped up over 4 weeks, the highest-load week caused a sharp fall in intrinsic mitochondrial function and impaired glucose tolerance."
+    },
+    {
+      "id": "margonis2007",
+      "authors": "Margonis K, Fatouros IG, Jamurtas AZ, et al.",
+      "year": 2007,
+      "title": "Oxidative stress biomarkers responses to physical overtraining: implications for diagnosis.",
+      "journal": "Free Radic Biol Med",
+      "pmid": "17697935",
+      "doi": "10.1016/j.freeradbiomed.2007.05.022",
+      "type": "cohort",
+      "n": "12 young men",
+      "finding": "An overreaching resistance-training block raised urinary isoprostanes 7-fold, TBARS 56% and protein carbonyls 73% and lowered GSH 31%; markers tracked the performance decline."
+    },
+    {
+      "id": "mastaloudis2001",
+      "authors": "Mastaloudis A, Leonard SW, Traber MG",
+      "year": 2001,
+      "title": "Oxidative stress in athletes during extreme endurance exercise.",
+      "journal": "Free Radic Biol Med",
+      "pmid": "11585710",
+      "doi": "10.1016/s0891-5849(01)00667-0",
+      "type": "cohort",
+      "n": "11 athletes",
+      "finding": "A 50 km ultramarathon (~6.5 h) raised plasma F2-isoprostanes from 75 to 131 pg/ml, with return to baseline by 24 h."
+    },
+    {
+      "id": "bull2020",
+      "authors": "Bull FC, Al-Ansari SS, Biddle S, et al.",
+      "year": 2020,
+      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour.",
+      "journal": "Br J Sports Med",
+      "pmid": "33239350",
+      "doi": "10.1136/bjsports-2020-102955",
+      "type": "guideline",
+      "n": null,
+      "finding": "WHO 2020 guidelines: adults should do 150-300 min/week of moderate or 75-150 min/week of vigorous aerobic activity, muscle strengthening on >=2 days/week, and limit sedentary time."
+    },
+    {
+      "id": "dirks2020",
+      "authors": "Dirks ML, Miotto PM, Goossens GH, et al.",
+      "year": 2020,
+      "title": "Short-term bed rest-induced insulin resistance cannot be explained by increased mitochondrial H(2) O(2) emission.",
+      "journal": "J Physiol",
+      "pmid": "31721213",
+      "doi": "10.1113/JP278920",
+      "type": "cohort",
+      "n": "20 healthy men",
+      "finding": "Short-term bed rest cut insulin sensitivity by 42% and lowered mitochondrial respiration, but did not raise resting mitochondrial H2O2 emission or oxidative stress markers."
+    },
+    {
+      "id": "vaccaro2020",
+      "authors": "Vaccaro A, Kaplan Dor Y, Nambara K, et al.",
+      "year": 2020,
+      "title": "Sleep Loss Can Cause Death through Accumulation of Reactive Oxygen Species in the Gut.",
+      "journal": "Cell",
+      "pmid": "32502393",
+      "doi": "10.1016/j.cell.2020.04.049",
+      "type": "mechanistic",
+      "n": null,
+      "finding": "In flies and mice, severe sleep deprivation caused ROS accumulation in the gut; oral antioxidants or gut-targeted antioxidant enzymes prevented early death."
+    },
+    {
+      "id": "shah2023",
+      "authors": "Shah R, Shah VK, Emin M, et al.",
+      "year": 2023,
+      "title": "Mild sleep restriction increases endothelial oxidative stress in female persons.",
+      "journal": "Sci Rep",
+      "pmid": "37717072",
+      "doi": "10.1038/s41598-023-42758-y",
+      "type": "rct",
+      "n": "35 women",
+      "finding": "Six weeks of sleeping 1.5 h less than habitual (randomized crossover) increased endothelial-cell oxidative stress without a compensatory antioxidant response."
+    },
+    {
+      "id": "trivedi2017",
+      "authors": "Trivedi MS, Holger D, Bui AT, et al.",
+      "year": 2017,
+      "title": "Short-term sleep deprivation leads to decreased systemic redox metabolites and altered epigenetic status.",
+      "journal": "PLoS One",
+      "pmid": "28738082",
+      "doi": "10.1371/journal.pone.0181978",
+      "type": "cohort",
+      "n": "19 young adults",
+      "finding": "One night of total sleep deprivation significantly lowered plasma glutathione, cysteine, ATP and homocysteine."
+    },
+    {
+      "id": "nagata2017",
+      "authors": "Nagata C, Tamura T, Wada K, et al.",
+      "year": 2017,
+      "title": "Sleep duration, nightshift work, and the timing of meals and urinary levels of 8-isoprostane and 6-sulfatoxymelatonin in Japanese women.",
+      "journal": "Chronobiol Int",
+      "pmid": "28933565",
+      "doi": "10.1080/07420528.2017.1355313",
+      "type": "cross-sectional",
+      "n": "542 women",
+      "finding": "Women sleeping 6 h or less had about 12% higher urinary 8-isoprostane than women sleeping more than 8 h."
+    },
+    {
+      "id": "watson2015",
+      "authors": "Watson NF, Badr MS, Belenky G, et al.",
+      "year": 2015,
+      "title": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society.",
+      "journal": "Sleep",
+      "pmid": "26039963",
+      "doi": "10.5665/sleep.4716",
+      "type": "guideline",
+      "n": null,
+      "finding": "AASM/SRS consensus statement: adults should sleep 7 or more hours per night on a regular basis."
+    },
+    {
+      "id": "bhatti2017",
+      "authors": "Bhatti P, Mirick DK, Randolph TW, et al.",
+      "year": 2017,
+      "title": "Oxidative DNA damage during night shift work.",
+      "journal": "Occup Environ Med",
+      "pmid": "28652381",
+      "doi": "10.1136/oemed-2017-104414",
+      "type": "cross-sectional",
+      "n": "50 shift workers",
+      "finding": "During night work (low melatonin) urinary 8-OH-dG excretion was only 20% of that during night sleep, interpreted as reduced repair of oxidative DNA lesions."
+    },
+    {
+      "id": "zanif2025",
+      "authors": "Zanif U, Lai AS, Parks J, et al.",
+      "year": 2025,
+      "title": "Melatonin supplementation and oxidative DNA damage repair capacity among night shift workers: a randomised placebo-controlled trial.",
+      "journal": "Occup Environ Med",
+      "pmid": "39993913",
+      "doi": "10.1136/oemed-2024-109824",
+      "type": "rct",
+      "n": "40 night-shift workers",
+      "finding": "Melatonin taken before day sleep for 4 weeks gave a borderline-significant 1.8-fold increase in urinary 8-OH-dG during day sleep, suggesting improved oxidative DNA repair."
+    },
+    {
+      "id": "hosseini2023",
+      "authors": "Hosseini H, Homayouni-Tabrizi M, Amiri H, et al.",
+      "year": 2023,
+      "title": "The effect of continuous positive airway pressure on total antioxidant capacity in obstructive sleep apnea: a systematic review and meta-analysis.",
+      "journal": "Sleep Breath",
+      "pmid": "36322225",
+      "doi": "10.1007/s11325-022-02733-9",
+      "type": "meta-analysis",
+      "n": "10 studies",
+      "finding": "CPAP treatment of obstructive sleep apnea increased total antioxidant capacity (SMD 0.50)."
+    },
+    {
+      "id": "morrow1995",
+      "authors": "Morrow JD, Frei B, Longmire AW, et al.",
+      "year": 1995,
+      "title": "Increase in circulating products of lipid peroxidation (F2-isoprostanes) in smokers. Smoking as a cause of oxidative damage.",
+      "journal": "N Engl J Med",
+      "pmid": "7700313",
+      "doi": "10.1056/NEJM199505043321804",
+      "type": "case-control",
+      "n": "10 smokers, 10 nonsmokers",
+      "finding": "Smokers had roughly double the plasma free F2-isoprostanes of nonsmokers; levels fell significantly after 2 weeks of abstinence."
+    },
+    {
+      "id": "reilly1996",
+      "authors": "Reilly M, Delanty N, Lawson JA, et al.",
+      "year": 1996,
+      "title": "Modulation of oxidant stress in vivo in chronic cigarette smokers.",
+      "journal": "Circulation",
+      "pmid": "8964113",
+      "doi": "10.1161/01.cir.94.1.19",
+      "type": "cohort",
+      "n": "smokers and nonsmokers (several sub-studies)",
+      "finding": "Urinary 8-epi-PGF2a rose with smoking dose (heavy 177, moderate 93, nonsmokers 54 pmol/mmol) and fell within 2-3 weeks of quitting; high-dose vitamin C lowered it, vitamin E alone did not."
+    },
+    {
+      "id": "pilz2000",
+      "authors": "Pilz H, Oguogho A, Chehne F, et al.",
+      "year": 2000,
+      "title": "Quitting cigarette smoking results in a fast improvement of in vivo oxidation injury (determined via plasma, serum and urinary isoprostane).",
+      "journal": "Thromb Res",
+      "pmid": "10944241",
+      "doi": "10.1016/s0049-3848(00)00249-8",
+      "type": "cohort",
+      "n": "47 adults",
+      "finding": "Isoprostanes in plasma, serum and urine dropped within days of quitting and reached a new steady state about 4 weeks after cessation."
+    },
+    {
+      "id": "king2017",
+      "authors": "King CC, Piper ME, Gepner AD, et al.",
+      "year": 2017,
+      "title": "Longitudinal Impact of Smoking and Smoking Cessation on Inflammatory Markers of Cardiovascular Disease Risk.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "pmid": "27932354",
+      "doi": "10.1161/ATVBAHA.116.308728",
+      "type": "cohort",
+      "n": "1,652 smokers",
+      "finding": "Smoking heaviness was independently tied to urinary F2-isoprostanes; after one year, successful quitters had lower F2-isoprostanes and white-cell counts despite gaining weight."
+    },
+    {
+      "id": "joseph2008",
+      "authors": "Joseph AM, Hecht SS, Murphy SE, et al.",
+      "year": 2008,
+      "title": "Smoking reduction fails to improve clinical and biological markers of cardiac disease: a randomized controlled trial.",
+      "journal": "Nicotine Tob Res",
+      "pmid": "18324566",
+      "doi": "10.1080/14622200801901948",
+      "type": "rct",
+      "n": "152 smokers with heart disease",
+      "finding": "Cutting cigarettes from ~27 to ~18/day over 6 months did not change F2-isoprostanes, inflammatory markers or symptoms; only carbon monoxide fell."
+    },
+    {
+      "id": "otsuka2001",
+      "authors": "Otsuka R, Watanabe H, Hirata K, et al.",
+      "year": 2001,
+      "title": "Acute effects of passive smoking on the coronary circulation in healthy young adults.",
+      "journal": "JAMA",
+      "pmid": "11466122",
+      "doi": "10.1001/jama.286.4.436",
+      "type": "cohort",
+      "n": "30 young men",
+      "finding": "A 30-minute exposure to environmental tobacco smoke reduced coronary flow velocity reserve in healthy nonsmokers (4.4 to 3.4), indicating acute coronary endothelial dysfunction."
+    },
+    {
+      "id": "duncan2019",
+      "authors": "Duncan MS, Freiberg MS, Greevy RA Jr, et al.",
+      "year": 2019,
+      "title": "Association of Smoking Cessation With Subsequent Risk of Cardiovascular Disease.",
+      "journal": "JAMA",
+      "pmid": "31429895",
+      "doi": "10.1001/jama.2019.10298",
+      "type": "cohort",
+      "n": "8,770 adults (Framingham)",
+      "finding": "Quitting was linked to 39% lower CVD risk within 5 years versus continued smoking, but heavy smokers' risk stayed above never-smokers for well over 5 years (10-15+ years)."
+    },
+    {
+      "id": "bermudez1994",
+      "authors": "Bermúdez E, Stone K, Carter KM, et al.",
+      "year": 1994,
+      "title": "Environmental tobacco smoke is just as damaging to DNA as mainstream smoke.",
+      "journal": "Environ Health Perspect",
+      "pmid": "9644196",
+      "doi": "10.1289/ehp.102-1567343",
+      "type": "mechanistic",
+      "n": null,
+      "finding": "Tar from environmental (secondhand) tobacco smoke generated hydrogen peroxide and nicked DNA in cells much like mainstream-smoke tar; catalase was protective."
+    },
+    {
+      "id": "barnoya2005",
+      "authors": "Barnoya J, Glantz SA",
+      "year": 2005,
+      "title": "Cardiovascular effects of secondhand smoke: nearly as large as smoking.",
+      "journal": "Circulation",
+      "pmid": "15911719",
+      "doi": "10.1161/CIRCULATIONAHA.104.492215",
+      "type": "review",
+      "n": null,
+      "finding": "Secondhand smoke raises coronary heart disease risk ~30%; even brief exposure produces effects on platelets, endothelium and oxidative stress averaging 80-90% of those of chronic active smoking."
+    },
+    {
+      "id": "sitihajar2018",
+      "authors": "Siti Hajar MH, Zulkefli S, Juwita S, et al.",
+      "year": 2018,
+      "title": "Metabolic, inflammatory, and oxidative stress markers in women exposed to secondhand smoke.",
+      "journal": "PeerJ",
+      "pmid": "30356972",
+      "doi": "10.7717/peerj.5758",
+      "type": "cross-sectional",
+      "n": "192 women",
+      "finding": "Women with modest secondhand-smoke exposure (>=15 min on >=2 days/week) did not differ from unexposed women in 8-isoprostane, oxidized LDL or inflammatory markers."
+    },
+    {
+      "id": "carnevale2016",
+      "authors": "Carnevale R, Sciarretta S, Violi F, et al.",
+      "year": 2016,
+      "title": "Acute Impact of Tobacco vs Electronic Cigarette Smoking on Oxidative Stress and Vascular Function.",
+      "journal": "Chest",
+      "pmid": "27108682",
+      "doi": "10.1016/j.chest.2016.04.012",
+      "type": "cohort",
+      "n": "40 adults",
+      "finding": "A single e-cigarette and a single tobacco cigarette both acutely raised 8-iso-PGF2a and NOX2 activation and lowered flow-mediated dilation; the e-cigarette's oxidative effects were smaller."
+    },
+    {
+      "id": "christensen2021",
+      "authors": "Christensen CH, Chang JT, Rostron BL, et al.",
+      "year": 2021,
+      "title": "Biomarkers of Inflammation and Oxidative Stress among Adult Former Smoker, Current E-Cigarette Users-Results from Wave 1 PATH Study.",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "pmid": "34289969",
+      "doi": "10.1158/1055-9965.EPI-21-0140",
+      "type": "cross-sectional",
+      "n": "3,712 adults (PATH Study)",
+      "finding": "Former smokers who now only vape had F2-isoprostane levels similar to former smokers using nothing; dual users had 9% higher levels than cigarette-only smokers."
+    },
+    {
+      "id": "sharma2016",
+      "authors": "Sharma R, Harlev A, Agarwal A, et al.",
+      "year": 2016,
+      "title": "Cigarette Smoking and Semen Quality: A New Meta-analysis Examining the Effect of the 2010 World Health Organization Laboratory Methods for the Examination of Human Semen.",
+      "journal": "Eur Urol",
+      "pmid": "27113031",
+      "doi": "10.1016/j.eururo.2016.04.010",
+      "type": "meta-analysis",
+      "n": "20 studies, 5,865 men",
+      "finding": "Smoking was associated with lower sperm count, motility and morphology, with larger effects in moderate/heavy smokers."
+    },
+    {
+      "id": "lu2008",
+      "authors": "Lu Y, Cederbaum AI",
+      "year": 2008,
+      "title": "CYP2E1 and oxidative liver injury by alcohol.",
+      "journal": "Free Radic Biol Med",
+      "pmid": "18078827",
+      "doi": "10.1016/j.freeradbiomed.2007.11.004",
+      "type": "review",
+      "n": null,
+      "finding": "Review: chronic ethanol induces CYP2E1, which leaks superoxide and hydrogen peroxide and drives lipid peroxidation in alcoholic liver injury."
+    },
+    {
+      "id": "meagher1999",
+      "authors": "Meagher EA, Barry OP, Burke A, et al.",
+      "year": 1999,
+      "title": "Alcohol-induced generation of lipid peroxidation products in humans.",
+      "journal": "J Clin Invest",
+      "pmid": "10491416",
+      "doi": "10.1172/JCI5584",
+      "type": "cohort",
+      "n": "healthy volunteers and patients with alcoholic liver disease",
+      "finding": "Alcohol given to healthy volunteers raised urinary isoprostanes; levels were highest in alcoholic cirrhosis, and vitamin C (not aspirin) lowered them."
+    },
+    {
+      "id": "schrieks2013",
+      "authors": "Schrieks IC, van den Berg R, Sierksma A, et al.",
+      "year": 2013,
+      "title": "Effect of red wine consumption on biomarkers of oxidative stress.",
+      "journal": "Alcohol Alcohol",
+      "pmid": "22859618",
+      "doi": "10.1093/alcalc/ags086",
+      "type": "rct",
+      "n": "19 overweight men",
+      "finding": "Four weeks of 450 ml/day red wine (4 drinks, 41 g alcohol) raised urinary 8-iso-PGF2a versus the same wine dealcoholized (157 vs 141 pg/mg creatinine)."
+    },
+    {
+      "id": "wood2018",
+      "authors": "Wood AM, Kaptoge S, Butterworth AS, et al.",
+      "year": 2018,
+      "title": "Risk thresholds for alcohol consumption: combined analysis of individual-participant data for 599 912 current drinkers in 83 prospective studies.",
+      "journal": "Lancet",
+      "pmid": "29676281",
+      "doi": "10.1016/S0140-6736(18)30134-X",
+      "type": "cohort",
+      "n": "599,912 current drinkers, 83 studies",
+      "finding": "All-cause mortality was lowest at or below ~100 g alcohol per week and rose with higher intake; stroke, heart failure and fatal hypertensive disease rose roughly linearly."
+    },
+    {
+      "id": "keaney2003",
+      "authors": "Keaney JF Jr, Larson MG, Vasan RS, et al.",
+      "year": 2003,
+      "title": "Obesity and systemic oxidative stress: clinical correlates of oxidative stress in the Framingham Study.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "pmid": "12615693",
+      "doi": "10.1161/01.ATV.0000058402.34138.11",
+      "type": "cross-sectional",
+      "n": "2,828 adults (Framingham)",
+      "finding": "Urinary 8-epi-PGF2a was independently associated with BMI, smoking, diabetes and blood glucose in a community cohort."
+    },
+    {
+      "id": "pou2007",
+      "authors": "Pou KM, Massaro JM, Hoffmann U, et al.",
+      "year": 2007,
+      "title": "Visceral and subcutaneous adipose tissue volumes are cross-sectionally related to markers of inflammation and oxidative stress: the Framingham Heart Study.",
+      "journal": "Circulation",
+      "pmid": "17709633",
+      "doi": "10.1161/CIRCULATIONAHA.107.710509",
+      "type": "cross-sectional",
+      "n": "1,250 adults (Framingham)",
+      "finding": "Visceral fat was more strongly associated with urinary isoprostanes than subcutaneous abdominal fat."
+    },
+    {
+      "id": "furukawa2004",
+      "authors": "Furukawa S, Fujita T, Shimabukuro M, et al.",
+      "year": 2004,
+      "title": "Increased oxidative stress in obesity and its impact on metabolic syndrome.",
+      "journal": "J Clin Invest",
+      "pmid": "15599400",
+      "doi": "10.1172/JCI21625",
+      "type": "mechanistic",
+      "n": null,
+      "finding": "Fat accumulation correlated with systemic oxidative stress in humans and mice; adipose NADPH oxidase produced ROS that dysregulated adipokines, and blocking it improved metabolic disease in mice."
+    },
+    {
+      "id": "duggan2016",
+      "authors": "Duggan C, Tapsoba JD, Wang CY, et al.",
+      "year": 2016,
+      "title": "Dietary Weight Loss, Exercise, and Oxidative Stress in Postmenopausal Women: A Randomized Controlled Trial.",
+      "journal": "Cancer Prev Res (Phila)",
+      "pmid": "27803047",
+      "doi": "10.1158/1940-6207.CAPR-16-0163",
+      "type": "rct",
+      "n": "439 postmenopausal women",
+      "finding": "12 months of calorie-restricted weight-loss diet lowered F2-isoprostanes by ~23% (diet) and ~24% (diet plus exercise) vs 3% in controls; greater weight loss gave greater reductions."
+    },
+    {
+      "id": "ilyasova2018",
+      "authors": "Il'yasova D, Fontana L, Bhapkar M, et al.",
+      "year": 2018,
+      "title": "Effects of 2 years of caloric restriction on oxidative status assessed by urinary F2-isoprostanes: The CALERIE 2 randomized clinical trial.",
+      "journal": "Aging Cell",
+      "pmid": "29424490",
+      "doi": "10.1111/acel.12719",
+      "type": "rct",
+      "n": "218 healthy non-obese adults",
+      "finding": "Two years of prescribed 25% calorie restriction (CALERIE 2) lowered the main urinary F2-isoprostane metabolite by 13-17% versus ad libitum controls."
+    },
+    {
+      "id": "monzobeltran2017",
+      "authors": "Monzo-Beltran L, Vazquez-Tarragón A, Cerdà C, et al.",
+      "year": 2017,
+      "title": "One-year follow-up of clinical, metabolic and oxidative stress profile of morbid obese patients after laparoscopic sleeve gastrectomy. 8-oxo-dG as a clinical marker.",
+      "journal": "Redox Biol",
+      "pmid": "28319890",
+      "doi": "10.1016/j.redox.2017.02.003",
+      "type": "cohort",
+      "n": "morbidly obese patients vs normal-weight controls",
+      "finding": "Morbidly obese patients had raised urinary F2-isoprostanes and 8-oxo-dG; after sleeve gastrectomy these declined progressively and antioxidant enzymes recovered over one year."
+    },
+    {
+      "id": "ilyasova2012",
+      "authors": "Il'yasova D, Wang F, Spasojevic I, et al.",
+      "year": 2012,
+      "title": "Urinary F2-isoprostanes, obesity, and weight gain in the IRAS cohort.",
+      "journal": "Obesity (Silver Spring)",
+      "pmid": "21959342",
+      "doi": "10.1038/oby.2011.292",
+      "type": "cohort",
+      "n": "299 adults (IRAS)",
+      "finding": "Urinary F2-isoprostanes were higher with obesity cross-sectionally, yet some isoprostanes predicted less weight gain over 5 years, cautioning against naive reading of the marker."
+    },
+    {
+      "id": "sermondade2013",
+      "authors": "Sermondade N, Faure C, Fezeu L, et al.",
+      "year": 2013,
+      "title": "BMI in relation to sperm count: an updated systematic review and collaborative meta-analysis.",
+      "journal": "Hum Reprod Update",
+      "pmid": "23242914",
+      "doi": "10.1093/humupd/dms050",
+      "type": "meta-analysis",
+      "n": "21 studies, 13,077 men",
+      "finding": "Obesity was associated with higher odds of oligozoospermia or azoospermia (OR 1.28; morbid obesity OR 2.04)."
+    },
+    {
+      "id": "li2020",
+      "authors": "Li Z, Liu Q, Xu Z, et al.",
+      "year": 2020,
+      "title": "Association between short-term exposure to ambient particulate air pollution and biomarkers of oxidative stress: A meta-analysis.",
+      "journal": "Environ Res",
+      "pmid": "32835677",
+      "doi": "10.1016/j.envres.2020.110105",
+      "type": "meta-analysis",
+      "n": "23 studies",
+      "finding": "Each 10 ug/m3 rise in short-term PM2.5 was associated with 1.6% higher malondialdehyde and a borderline 2.1% higher 8-OHdG."
+    },
+    {
+      "id": "kelly2017",
+      "authors": "Kelly FJ, Fussell JC",
+      "year": 2017,
+      "title": "Role of oxidative stress in cardiovascular disease outcomes following exposure to ambient air pollution.",
+      "journal": "Free Radic Biol Med",
+      "pmid": "28669628",
+      "doi": "10.1016/j.freeradbiomed.2017.06.019",
+      "type": "review",
+      "n": null,
+      "finding": "Review of epidemiological, controlled-exposure and experimental data concluding that oxidative stress is central to the cardiovascular effects of ambient air pollution."
+    },
+    {
+      "id": "chen2015",
+      "authors": "Chen R, Zhao A, Chen H, et al.",
+      "year": 2015,
+      "title": "Cardiopulmonary benefits of reducing indoor particles of outdoor origin: a randomized, double-blind crossover trial of air purifiers.",
+      "journal": "J Am Coll Cardiol",
+      "pmid": "26022815",
+      "doi": "10.1016/j.jacc.2015.03.553",
+      "type": "rct",
+      "n": "35 students",
+      "finding": "48 h of real vs sham air purification cut indoor PM2.5 by 57% (96 to 41 ug/m3) and lowered inflammatory and thrombotic markers (e.g., myeloperoxidase -33%) and blood pressure."
+    },
+    {
+      "id": "wang2021",
+      "authors": "Wang Y, Zhao Y, Xue L, et al.",
+      "year": 2021,
+      "title": "Effects of air purification of indoor PM(2.5) on the cardiorespiratory biomarkers in young healthy adults.",
+      "journal": "Indoor Air",
+      "pmid": "33682970",
+      "doi": "10.1111/ina.12815",
+      "type": "rct",
+      "n": "54 students",
+      "finding": "One week of real vs sham HEPA purification lowered diastolic blood pressure, exhaled NO and 8-isoprostane and improved lung function."
+    },
+    {
+      "id": "hoffmann2021",
+      "authors": "Hoffmann B, Boogaard H, de Nazelle A, et al.",
+      "year": 2021,
+      "title": "WHO Air Quality Guidelines 2021-Aiming for Healthier Air for all: A Joint Statement by Medical, Public Health, Scientific Societies and Patient Representative Organisations.",
+      "journal": "Int J Public Health",
+      "pmid": "34630006",
+      "doi": "10.3389/ijph.2021.1604465",
+      "type": "guideline",
+      "n": null,
+      "finding": "Joint statement endorsing the WHO 2021 Air Quality Guidelines, including annual mean PM2.5 not exceeding 5 ug/m3 and peak-season 8-h ozone not exceeding 60 ug/m3."
+    },
+    {
+      "id": "forchhammer2012",
+      "authors": "Forchhammer L, Møller P, Riddervold IS, et al.",
+      "year": 2012,
+      "title": "Controlled human wood smoke exposure: oxidative stress, inflammation and microvascular function.",
+      "journal": "Part Fibre Toxicol",
+      "pmid": "22452928",
+      "doi": "10.1186/1743-8977-9-7",
+      "type": "rct",
+      "n": "20 atopic adults",
+      "finding": "Three-hour controlled exposures to 220-354 ug/m3 particles from a modern wood stove had no effect on oxidatively damaged DNA, inflammatory markers or microvascular function."
+    },
+    {
+      "id": "barregard2008",
+      "authors": "Barregard L, Sällsten G, Andersson L, et al.",
+      "year": 2008,
+      "title": "Experimental exposure to wood smoke: effects on airway inflammation and oxidative stress.",
+      "journal": "Occup Environ Med",
+      "pmid": "17704195",
+      "doi": "10.1136/oem.2006.032458",
+      "type": "cohort",
+      "n": "13 healthy adults",
+      "finding": "Four-hour exposure to 240-280 ug/m3 wood smoke raised malondialdehyde in exhaled breath condensate and alveolar NO, indicating airway oxidative stress."
+    },
+    {
+      "id": "lin2013",
+      "authors": "Lin W, Brunekreef B, Gehring U",
+      "year": 2013,
+      "title": "Meta-analysis of the effects of indoor nitrogen dioxide and gas cooking on asthma and wheeze in children.",
+      "journal": "Int J Epidemiol",
+      "pmid": "23962958",
+      "doi": "10.1093/ije/dyt150",
+      "type": "meta-analysis",
+      "n": "41 studies",
+      "finding": "Gas cooking was associated with higher odds of childhood asthma (OR 1.32) and indoor NO2 with current wheeze (OR 1.15 per 15 ppb)."
+    },
+    {
+      "id": "li2023",
+      "authors": "Li W, Long C, Fan T, et al.",
+      "year": 2023,
+      "title": "Gas cooking and respiratory outcomes in children: A systematic review.",
+      "journal": "Glob Epidemiol",
+      "pmid": "37638371",
+      "doi": "10.1016/j.gloepi.2023.100107",
+      "type": "review",
+      "n": "66 studies",
+      "finding": "Systematic review concluding the gas-cooking and childhood asthma literature is heterogeneous, mostly cross-sectional and low quality, and insufficient to establish causation."
+    },
+    {
+      "id": "kammeyer2015",
+      "authors": "Kammeyer A, Luiten RM",
+      "year": 2015,
+      "title": "Oxidation events and skin aging.",
+      "journal": "Ageing Res Rev",
+      "pmid": "25653189",
+      "doi": "10.1016/j.arr.2015.01.001",
+      "type": "review",
+      "n": null,
+      "finding": "Review: UV drives skin photoaging through direct DNA damage and indirect ROS/RNS-mediated oxidation of lipids, proteins and DNA."
+    },
+    {
+      "id": "hughes2013",
+      "authors": "Hughes MC, Williams GM, Baker P, et al.",
+      "year": 2013,
+      "title": "Sunscreen and prevention of skin aging: a randomized trial.",
+      "journal": "Ann Intern Med",
+      "pmid": "23732711",
+      "doi": "10.7326/0003-4819-158-11-201306040-00002",
+      "type": "rct",
+      "n": "903 adults",
+      "finding": "Daily broad-spectrum sunscreen for 4.5 years gave 24% less skin aging than discretionary use; 30 mg/day beta-carotene had no overall effect."
+    },
+    {
+      "id": "hanson2006",
+      "authors": "Hanson KM, Gratton E, Bardeen CJ",
+      "year": 2006,
+      "title": "Sunscreen enhancement of UV-induced reactive oxygen species in the skin.",
+      "journal": "Free Radic Biol Med",
+      "pmid": "17015167",
+      "doi": "10.1016/j.freeradbiomed.2006.06.011",
+      "type": "mechanistic",
+      "n": null,
+      "finding": "Organic UV filters that penetrate into the epidermis increased UV-induced ROS above unprotected skin after about 60 minutes, arguing for reapplication."
+    },
+    {
+      "id": "manson2019",
+      "authors": "Manson JE, Cook NR, Lee IM, et al.",
+      "year": 2019,
+      "title": "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease.",
+      "journal": "N Engl J Med",
+      "pmid": "30415629",
+      "doi": "10.1056/NEJMoa1809944",
+      "type": "rct",
+      "n": "25,871 adults",
+      "finding": "Vitamin D3 2000 IU/day for a median 5.3 years did not lower invasive cancer or major cardiovascular events (VITAL)."
+    },
+    {
+      "id": "epel2004",
+      "authors": "Epel ES, Blackburn EH, Lin J, et al.",
+      "year": 2004,
+      "title": "Accelerated telomere shortening in response to life stress.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "15574496",
+      "doi": "10.1073/pnas.0407162101",
+      "type": "cross-sectional",
+      "n": "58 women",
+      "finding": "Higher perceived and chronic stress was associated with higher oxidative stress, lower telomerase and telomeres shorter by the equivalent of about a decade of aging."
+    },
+    {
+      "id": "black2015",
+      "authors": "Black CN, Bot M, Scheffer PG, et al.",
+      "year": 2015,
+      "title": "Is depression associated with increased oxidative stress? A systematic review and meta-analysis.",
+      "journal": "Psychoneuroendocrinology",
+      "pmid": "25462890",
+      "doi": "10.1016/j.psyneuen.2014.09.025",
+      "type": "meta-analysis",
+      "n": "18 studies, ~3,800 participants",
+      "finding": "Depression was associated with higher 8-OHdG (g = 0.31) and F2-isoprostanes (g = 0.48)."
+    },
+    {
+      "id": "pascoe2017",
+      "authors": "Pascoe MC, Thompson DR, Ski CF",
+      "year": 2017,
+      "title": "Yoga, mindfulness-based stress reduction and stress-related physiological measures: A meta-analysis.",
+      "journal": "Psychoneuroendocrinology",
+      "pmid": "28963884",
+      "doi": "10.1016/j.psyneuen.2017.08.008",
+      "type": "meta-analysis",
+      "n": "42 RCTs",
+      "finding": "Yoga-based practices, versus active controls, lowered cortisol, ambulatory blood pressure and resting heart rate; trials were heterogeneous."
+    },
+    {
+      "id": "buric2017",
+      "authors": "Buric I, Farias M, Jong J, et al.",
+      "year": 2017,
+      "title": "What Is the Molecular Signature of Mind-Body Interventions? A Systematic Review of Gene Expression Changes Induced by Meditation and Related Practices.",
+      "journal": "Front Immunol",
+      "pmid": "28670311",
+      "doi": "10.3389/fimmu.2017.00670",
+      "type": "review",
+      "n": "18 studies",
+      "finding": "Meditation, yoga, tai chi and related practices were associated with down-regulation of NF-kB pathway gene expression; studies were small and heterogeneous."
+    },
+    {
+      "id": "hegde2013",
+      "authors": "Hegde SV, Adhikari P, Shetty S, et al.",
+      "year": 2013,
+      "title": "Effect of community-based yoga intervention on oxidative stress and glycemic parameters in prediabetes: a randomized controlled trial.",
+      "journal": "Complement Ther Med",
+      "pmid": "24280463",
+      "doi": "10.1016/j.ctim.2013.08.013",
+      "type": "rct",
+      "n": "29 adults with prediabetes",
+      "finding": "Three months of community yoga lowered malondialdehyde versus wait-list control but did not change antioxidant levels; no active control."
+    },
+    {
+      "id": "laukkanen2015",
+      "authors": "Laukkanen T, Khan H, Zaccardi F, et al.",
+      "year": 2015,
+      "title": "Association between sauna bathing and fatal cardiovascular and all-cause mortality events.",
+      "journal": "JAMA Intern Med",
+      "pmid": "25705824",
+      "doi": "10.1001/jamainternmed.2014.8187",
+      "type": "cohort",
+      "n": "2,315 men (KIHD)",
+      "finding": "Compared with one session/week, 4-7 sauna sessions/week was associated with 63% lower sudden cardiac death and lower CVD and all-cause mortality; sessions >19 min were also associated with lower risk."
+    },
+    {
+      "id": "kunutsor2018",
+      "authors": "Kunutsor SK, Laukkanen T, Laukkanen JA",
+      "year": 2018,
+      "title": "Longitudinal associations of sauna bathing with inflammation and oxidative stress: the KIHD prospective cohort study.",
+      "journal": "Ann Med",
+      "pmid": "29897261",
+      "doi": "10.1080/07853890.2018.1489143",
+      "type": "cohort",
+      "n": "2,269 men (KIHD)",
+      "finding": "4-7 sauna sessions/week was associated with lower CRP and leukocyte counts over 11 years, but not with gamma-glutamyltransferase, the oxidative-stress proxy studied."
+    },
+    {
+      "id": "laukkanen2018",
+      "authors": "Laukkanen JA, Laukkanen T, Kunutsor SK",
+      "year": 2018,
+      "title": "Cardiovascular and Other Health Benefits of Sauna Bathing: A Review of the Evidence.",
+      "journal": "Mayo Clin Proc",
+      "pmid": "30077204",
+      "doi": "10.1016/j.mayocp.2018.04.008",
+      "type": "review",
+      "n": null,
+      "finding": "Review of observational and interventional evidence linking Finnish sauna bathing to lower blood pressure, cardiovascular disease and mortality, with proposed vascular and autonomic mechanisms."
+    },
+    {
+      "id": "brunt2016",
+      "authors": "Brunt VE, Howard MJ, Francisco MA, et al.",
+      "year": 2016,
+      "title": "Passive heat therapy improves endothelial function, arterial stiffness and blood pressure in sedentary humans.",
+      "journal": "J Physiol",
+      "pmid": "27270841",
+      "doi": "10.1113/JP272453",
+      "type": "cohort",
+      "n": "20 sedentary young adults (sham-controlled)",
+      "finding": "Eight weeks of 40.5 C hot-water immersion 4-5 times/week (rectal temperature >=38.5 C for 60 min) doubled flow-mediated dilation (5.6 to 10.9%) and lowered blood pressure versus thermoneutral sham."
+    },
+    {
+      "id": "garolla2013",
+      "authors": "Garolla A, Torino M, Sartini B, et al.",
+      "year": 2013,
+      "title": "Seminal and molecular evidence that sauna exposure affects human spermatogenesis.",
+      "journal": "Hum Reprod",
+      "pmid": "23411620",
+      "doi": "10.1093/humrep/det020",
+      "type": "cohort",
+      "n": "10 men",
+      "finding": "Two sauna sessions/week at 80-90 C, 15 min each, for 3 months impaired sperm count, motility, chromatin condensation and mitochondrial function; fully reversed 6 months after stopping."
+    },
+    {
+      "id": "siems1999",
+      "authors": "Siems WG, Brenke R, Sommerburg O, et al.",
+      "year": 1999,
+      "title": "Improved antioxidative protection in winter swimmers.",
+      "journal": "QJM",
+      "pmid": "10396606",
+      "doi": "10.1093/qjmed/92.4.193",
+      "type": "cross-sectional",
+      "n": "winter swimmers vs non-swimmers",
+      "finding": "Winter swimmers had higher baseline erythrocyte glutathione and higher SOD and catalase activity, interpreted as adaptation to repeated cold-induced oxidative stress."
+    },
+    {
+      "id": "esperland2022",
+      "authors": "Esperland D, de Weerd L, Mercer JB",
+      "year": 2022,
+      "title": "Health effects of voluntary exposure to cold water - a continuing subject of debate.",
+      "journal": "Int J Circumpolar Health",
+      "pmid": "36137565",
+      "doi": "10.1080/22423982.2022.2111789",
+      "type": "review",
+      "n": "104 studies",
+      "finding": "Review of voluntary cold-water immersion: studies are small and heterogeneous; possible benefits on insulin sensitivity and adipose tissue, but no firm conclusions."
+    },
+    {
+      "id": "tipton2017",
+      "authors": "Tipton MJ, Collier N, Massey H, et al.",
+      "year": 2017,
+      "title": "Cold water immersion: kill or cure?",
+      "journal": "Exp Physiol",
+      "pmid": "28833689",
+      "doi": "10.1113/EP086283",
+      "type": "review",
+      "n": null,
+      "finding": "Review of cold-water immersion as hazard (cold shock, drowning, cardiac arrest, hypothermia) and treatment; evidence for many claimed benefits ranges from credible to anecdotal."
+    },
+    {
+      "id": "roberts2015",
+      "authors": "Roberts LA, Raastad T, Markworth JF, et al.",
+      "year": 2015,
+      "title": "Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training.",
+      "journal": "J Physiol",
+      "pmid": "26174323",
+      "doi": "10.1113/JP270570",
+      "type": "rct",
+      "n": "21 men",
+      "finding": "Ten minutes of cold-water immersion after each strength session for 12 weeks blunted gains in strength and muscle mass versus active recovery."
+    },
+    {
+      "id": "jomova2011",
+      "authors": "Jomova K, Valko M",
+      "year": 2011,
+      "title": "Advances in metal-induced oxidative stress and human disease.",
+      "journal": "Toxicology",
+      "pmid": "21414382",
+      "doi": "10.1016/j.tox.2011.03.001",
+      "type": "review",
+      "n": null,
+      "finding": "Review: redox-active metals (iron, copper, chromium) generate radicals via Fenton chemistry, while cadmium, arsenic and lead act mainly by binding thiols and depleting glutathione."
+    },
+    {
+      "id": "urbano2022",
+      "authors": "Urbano T, Filippini T, Wise LA, et al.",
+      "year": 2022,
+      "title": "Associations of urinary and dietary cadmium with urinary 8-oxo-7,8-dihydro-2'-deoxyguanosine and blood biochemical parameters.",
+      "journal": "Environ Res",
+      "pmid": "35150710",
+      "doi": "10.1016/j.envres.2022.112912",
+      "type": "cross-sectional",
+      "n": "137 non-smoking adults",
+      "finding": "Urinary and dietary cadmium were positively and linearly correlated with urinary 8-oxodG in non-smoking blood donors."
+    },
+    {
+      "id": "kim2019",
+      "authors": "Kim SS, Meeker JD, Keil AP, et al.",
+      "year": 2019,
+      "title": "Exposure to 17 trace metals in pregnancy and associations with urinary oxidative stress biomarkers.",
+      "journal": "Environ Res",
+      "pmid": "31678726",
+      "doi": "10.1016/j.envres.2019.108854",
+      "type": "cross-sectional",
+      "n": "380 pregnant women",
+      "finding": "Among 17 urinary metals, the strongest associations with 8-isoprostane and 8-OHdG were for essential selenium and copper, illustrating confounding in spot-urine biomarker studies."
+    },
+    {
+      "id": "ferguson2015",
+      "authors": "Ferguson KK, McElrath TF, Chen YH, et al.",
+      "year": 2015,
+      "title": "Urinary phthalate metabolites and biomarkers of oxidative stress in pregnant women: a repeated measures analysis.",
+      "journal": "Environ Health Perspect",
+      "pmid": "25402001",
+      "doi": "10.1289/ehp.1307996",
+      "type": "case-control",
+      "n": "482 pregnant women",
+      "finding": "Urinary phthalate metabolites were associated with higher urinary 8-OHdG and 8-isoprostane across repeated measures in pregnancy."
+    },
+    {
+      "id": "chen2023",
+      "authors": "Chen JC, Baumert BO, Li Y, et al.",
+      "year": 2023,
+      "title": "Associations of per- and polyfluoroalkyl substances, polychlorinated biphenyls, organochlorine pesticides, and polybrominated diphenyl ethers with oxidative stress markers: A systematic review and meta-analysis.",
+      "journal": "Environ Res",
+      "pmid": "37813138",
+      "doi": "10.1016/j.envres.2023.117308",
+      "type": "meta-analysis",
+      "n": "129 study-exposure sets",
+      "finding": "Associations of PFAS, PCBs, organochlorine pesticides and PBDEs with oxidative stress markers were mostly inconsistent; only a few pooled associations (e.g., DDE with malondialdehyde) were significant."
+    },
+    {
+      "id": "monnier2006",
+      "authors": "Monnier L, Mas E, Ginet C, et al.",
+      "year": 2006,
+      "title": "Activation of oxidative stress by acute glucose fluctuations compared with sustained chronic hyperglycemia in patients with type 2 diabetes.",
+      "journal": "JAMA",
+      "pmid": "16609090",
+      "doi": "10.1001/jama.295.14.1681",
+      "type": "case-control",
+      "n": "21 type 2 diabetics, 21 controls",
+      "finding": "Urinary 8-iso-PGF2a was ~75% higher in type 2 diabetes (482 vs 275 pg/mg creatinine) and correlated strongly with glucose swings (r = 0.86) rather than HbA1c."
+    },
+    {
+      "id": "brownlee2001",
+      "authors": "Brownlee M",
+      "year": 2001,
+      "title": "Biochemistry and molecular cell biology of diabetic complications.",
+      "journal": "Nature",
+      "pmid": "11742414",
+      "doi": "10.1038/414813a",
+      "type": "review",
+      "n": null,
+      "finding": "Review proposing that hyperglycemia-driven mitochondrial superoxide overproduction is the unifying trigger of the polyol, AGE, PKC and hexosamine damage pathways."
+    },
+    {
+      "id": "liu2014",
+      "authors": "Liu Z, Liu Y, Song Y, et al.",
+      "year": 2014,
+      "title": "Systemic oxidative stress biomarkers in chronic periodontitis: a meta-analysis.",
+      "journal": "Dis Markers",
+      "pmid": "25477703",
+      "doi": "10.1155/2014/931083",
+      "type": "meta-analysis",
+      "n": "16 studies",
+      "finding": "Chronic periodontitis was associated with lower serum total antioxidant capacity and higher malondialdehyde and nitric oxide."
+    },
+    {
+      "id": "dasilva2018",
+      "authors": "da Silva JC, Muniz FWMG, Oballe HJR, et al.",
+      "year": 2018,
+      "title": "The effect of periodontal therapy on oxidative stress biomarkers: A systematic review.",
+      "journal": "J Clin Periodontol",
+      "pmid": "30076616",
+      "doi": "10.1111/jcpe.12993",
+      "type": "review",
+      "n": "20 trials",
+      "finding": "Mechanical periodontal treatment generally reduced oxidative markers (8-OHdG, total oxidant status) in saliva and gingival fluid, and in serum in most studies."
+    },
+    {
+      "id": "ohsawa2007",
+      "authors": "Ohsawa I, Ishikawa M, Takahashi K, et al.",
+      "year": 2007,
+      "title": "Hydrogen acts as a therapeutic antioxidant by selectively reducing cytotoxic oxygen radicals.",
+      "journal": "Nat Med",
+      "pmid": "17486089",
+      "doi": "10.1038/nm1577",
+      "type": "mechanistic",
+      "n": null,
+      "finding": "Molecular hydrogen selectively reduced hydroxyl radical and peroxynitrite in cells and, inhaled, limited brain ischemia-reperfusion injury in rats."
+    },
+    {
+      "id": "zanini2021",
+      "authors": "Zanini D, Todorovic N, Korovljev D, et al.",
+      "year": 2021,
+      "title": "The effects of 6-month hydrogen-rich water intake on molecular and phenotypic biomarkers of aging in older adults aged 70 years and over: A randomized controlled pilot trial.",
+      "journal": "Exp Gerontol",
+      "pmid": "34601077",
+      "doi": "10.1016/j.exger.2021.111574",
+      "type": "rct",
+      "n": "40 adults aged 70+",
+      "finding": "Pilot trial of 0.5 L/day hydrogen-rich water for 6 months reported small differences in telomere length and some molecular markers; exploratory, many outcomes."
+    },
+    {
+      "id": "todorovic2023",
+      "authors": "Todorovic N, Fernández-Landa J, Santibañez A, et al.",
+      "year": 2023,
+      "title": "The Effects of Hydrogen-Rich Water on Blood Lipid Profiles in Clinical Populations: A Systematic Review and Meta-Analysis.",
+      "journal": "Pharmaceuticals (Basel)",
+      "pmid": "37259294",
+      "doi": "10.3390/ph16020142",
+      "type": "meta-analysis",
+      "n": "7 studies",
+      "finding": "Hydrogen-rich water modestly lowered total cholesterol, LDL and triglycerides in small clinical trials (pooled SMD about -0.2 to -0.4)."
+    },
+    {
+      "id": "chevalier2012",
+      "authors": "Chevalier G, Sinatra ST, Oschman JL, et al.",
+      "year": 2012,
+      "title": "Earthing: health implications of reconnecting the human body to the Earth's surface electrons.",
+      "journal": "J Environ Public Health",
+      "pmid": "22291721",
+      "doi": "10.1155/2012/291541",
+      "type": "review",
+      "n": null,
+      "finding": "Narrative review by proponents of earthing summarizing small studies claiming better sleep, less pain and other effects from conductive contact with the ground."
+    },
+    {
+      "id": "liu2015",
+      "authors": "Liu J, Zhang P, Tian J, et al.",
+      "year": 2015,
+      "title": "Ozone therapy for treating foot ulcers in people with diabetes.",
+      "journal": "Cochrane Database Syst Rev",
+      "pmid": "26505864",
+      "doi": "10.1002/14651858.CD008474.pub2",
+      "type": "meta-analysis",
+      "n": "3 RCTs, 212 participants",
+      "finding": "Cochrane review: three small, high or unclear risk-of-bias trials; no firm conclusions possible on ozone therapy for diabetic foot ulcers."
+    },
+    {
+      "id": "aebi1991",
+      "authors": "Aebi S, Assereto R, Lauterburg BH",
+      "year": 1991,
+      "title": "High-dose intravenous glutathione in man. Pharmacokinetics and effects on cyst(e)ine in plasma and urine.",
+      "journal": "Eur J Clin Invest",
+      "pmid": "1907548",
+      "doi": "10.1111/j.1365-2362.1991.tb01366.x",
+      "type": "cohort",
+      "n": "10 healthy volunteers",
+      "finding": "Intravenous glutathione (2 g/m2) had a plasma half-life of about 14 minutes and was rapidly broken down or excreted in urine."
+    },
+    {
+      "id": "richie2015",
+      "authors": "Richie JP Jr, Nichenametla S, Neidig W, et al.",
+      "year": 2015,
+      "title": "Randomized controlled trial of oral glutathione supplementation on body stores of glutathione.",
+      "journal": "Eur J Nutr",
+      "pmid": "24791752",
+      "doi": "10.1007/s00394-014-0706-z",
+      "type": "rct",
+      "n": "54 adults",
+      "finding": "Oral glutathione 250-1000 mg/day for 6 months raised blood glutathione stores by 17-35%, which returned to baseline after a 1-month washout."
+    },
+    {
+      "id": "luk2025",
+      "authors": "Luk HY, Jiwan NC, Appell CR, et al.",
+      "year": 2025,
+      "title": "Passive dehydration increases oxidative stress and mTOR signalling pathway activation in young men following resistance exercise.",
+      "journal": "J Physiol",
+      "pmid": "40500991",
+      "doi": "10.1113/JP288434",
+      "type": "rct",
+      "n": "11 trained men (crossover)",
+      "finding": "Fluid restriction from 24 h before resistance exercise raised muscle H2O2 compared with euhydration."
+    }
+  ]
+}
