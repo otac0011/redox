@@ -91,6 +91,17 @@
       ]
     },
     {
+      "label": "Fasting protocols",
+      "ids": [
+        "calorie-restriction",
+        "time-restricted-eating",
+        "alternate-day-fasting",
+        "five-two-diet",
+        "prolonged-fasting",
+        "fasting-mimicking-diet"
+      ]
+    },
+    {
       "label": "Sperm supplements",
       "ids": [
         "male-antioxidant-combination",

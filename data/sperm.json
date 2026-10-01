@@ -2002,6 +2002,56 @@
     "ket-whittaker2021",
     "ket-liu2022"
    ]
+  },
+  {
+   "id": "fasting-sperm",
+   "name": "Fasting and sperm (Ramadan, TRE, multi-day fasts)",
+   "kind": "food",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "No trial shows fasting improves sperm; a 48-h fast cut LH by ~64% and lowered testosterone, 16:8 TRE lowered testosterone in trained men, and a retrospective IVF study found lower progressive motility (30% vs 38%) in samples produced during Ramadan.",
+   "dose": {
+    "effective": "None established. If overweight, the benefit comes from losing weight by any method; daily 12-14 h overnight fasts appear harmless.",
+    "studied_range": "48-h fasts, 8 weeks of 16:8 TRE, Ramadan (dawn-to-sunset fasting for a month), three 5-day FMD cycles.",
+    "too_much": "Multi-day fasts suppress the reproductive axis within 48 h; avoid them during the ~74-day window before conception attempts or semen analysis.",
+    "timeframe": "Hormone changes within 48 h; semen effects would need one spermatogenic cycle (~74 days).",
+    "notes": "Ramadan meta-analysis found no average change in testosterone, LH or FSH, so daily dawn-to-dusk fasting is probably neutral for hormones."
+   },
+   "mechanism": "Acute energy deficit slows hypothalamic GnRH/LH pulsatility and lowers testosterone and IGF-1; dehydration and circadian disruption during Ramadan may affect semen volume and motility.",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "Weight loss in men with obesity improves semen quality; see [weight-loss-sperm] and [obesity-sperm]. Poor sleep during late-night eating periods overlaps with [poor-sleep-sperm].",
+   "caveats": "Human sperm data are a 21-man 1986 study, a 97-man retrospective IVF cohort, and an 18-man FMD pilot. Rodent studies of fasting and sperm are not transferable.",
+   "key_numbers": [
+    {
+     "label": "Mean LH after 48 h fast (from 2.94)",
+     "value": 1.07,
+     "unit": "IU/L",
+     "source": "fst-cameron1991"
+    },
+    {
+     "label": "Post-gradient progressive motility during Ramadan (vs 38%)",
+     "value": 30,
+     "unit": "%",
+     "source": "fst-engel2023"
+    }
+   ],
+   "refs": [
+    "fst-cameron1991",
+    "fst-moro2016",
+    "fst-cienfuegos2022",
+    "fst-poursalehian2024",
+    "fst-engel2023",
+    "fst-abbas1986",
+    "fst-may2024"
+   ]
   }
  ],
  "mechanisms": [
@@ -3723,6 +3773,90 @@
    "type": "meta-analysis",
    "n": "6 studies, 206 men",
    "finding": "Low-fat diets lowered total testosterone (SMD -0.38) and free testosterone (SMD -0.37) vs higher-fat diets."
+  },
+  {
+   "id": "fst-abbas1986",
+   "authors": "Abbas SM, Basalamah AH",
+   "year": 1986,
+   "title": "Effects of Ramadhan fast on male fertility.",
+   "journal": "Arch Androl",
+   "pmid": "3090956",
+   "doi": "10.3109/01485018608986937",
+   "type": "cohort",
+   "n": "21 men",
+   "finding": "Small study: Ramadan did not harm semen in healthy men; LH and semen volume fell after the fast while sperm count rose during it."
+  },
+  {
+   "id": "fst-cameron1991",
+   "authors": "Cameron JL, Weltzin TE, McConaha C, et al.",
+   "year": 1991,
+   "title": "Slowing of pulsatile luteinizing hormone secretion in men after forty-eight hours of fasting.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "1904451",
+   "doi": "10.1210/jcem-73-1-35",
+   "type": "mechanistic",
+   "n": "8 healthy men",
+   "finding": "48 h of fasting cut mean LH from 2.94 to 1.07 IU/L and halved LH pulse frequency, and lowered FSH and testosterone, without a rise in cortisol."
+  },
+  {
+   "id": "fst-cienfuegos2022",
+   "authors": "Cienfuegos S, Corapi S, Gabel K, et al.",
+   "year": 2022,
+   "title": "Effect of Intermittent Fasting on Reproductive Hormone Levels in Females and Males: A Review of Human Trials.",
+   "journal": "Nutrients",
+   "pmid": "35684143",
+   "doi": "10.3390/nu14112343",
+   "type": "review",
+   "n": null,
+   "finding": "Review of human trials: IF lowers testosterone/free androgen index and raises SHBG in premenopausal women with obesity, does not change oestrogen or gonadotropins, and lowers testosterone in lean active young men."
+  },
+  {
+   "id": "fst-engel2023",
+   "authors": "Engel OJ, Doctory N, Sun B, et al.",
+   "year": 2023,
+   "title": "The Effect of Month-Long Daily Fasting on Semen Parameters: A Retrospective Cohort Study.",
+   "journal": "Gynecol Obstet Invest",
+   "pmid": "37883941",
+   "doi": "10.1159/000534773",
+   "type": "cohort",
+   "n": "97 men at an IVF unit",
+   "finding": "Semen samples produced during Ramadan (and 70 days after) had lower post-gradient progressive motility (30% vs 38%) and lower volume than the same men's samples at other times (retrospective)."
+  },
+  {
+   "id": "fst-may2024",
+   "authors": "May KT, Behling J, Sochiera-Plegniere K, et al.",
+   "year": 2024,
+   "title": "Fasting for male fertility-a mixed methods study.",
+   "journal": "Front Nutr",
+   "pmid": "39885870",
+   "doi": "10.3389/fnut.2024.1529466",
+   "type": "rct",
+   "n": "22 men with impaired semen (18 completed)",
+   "finding": "Three 5-day 500 kcal FMD cycles over 4 months produced no clear differences in semen parameters vs waiting-list controls (pilot, underpowered)."
+  },
+  {
+   "id": "fst-moro2016",
+   "authors": "Moro T, Tinsley G, Bianco A, et al.",
+   "year": 2016,
+   "title": "Effects of eight weeks of time-restricted feeding (16/8) on basal metabolism, maximal strength, body composition, inflammation, and cardiovascular risk factors in resistance-trained males.",
+   "journal": "J Transl Med",
+   "pmid": "27737674",
+   "doi": "10.1186/s12967-016-1044-0",
+   "type": "rct",
+   "n": "34 resistance-trained men",
+   "finding": "8 weeks of isocaloric 16:8 TRE with resistance training reduced fat mass, preserved lean mass and strength, but lowered testosterone, IGF-1 and T3."
+  },
+  {
+   "id": "fst-poursalehian2024",
+   "authors": "Poursalehian M, Mohseni S, Shadman Z, et al.",
+   "year": 2024,
+   "title": "Impact of Ramadan fasting on serum levels of major endocrinology hormonal and biochemical parameters in healthy non-athlete adults: A systematic review and meta-analyses.",
+   "journal": "PLoS One",
+   "pmid": "38781203",
+   "doi": "10.1371/journal.pone.0299695",
+   "type": "meta-analysis",
+   "n": "35 studies, 1107 adults",
+   "finding": "Ramadan fasting did not significantly change testosterone, LH, FSH, prolactin or thyroid hormones in healthy non-athletes; morning cortisol tended to fall."
   }
  ]
 }

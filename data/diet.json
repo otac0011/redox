@@ -2402,44 +2402,63 @@
     "general": 4
    },
    "evidence": "strong",
-   "headline": "In CALERIE, the only long-term RCT of calorie restriction in healthy non-obese adults, prescribed 25% CR for 2 years lowered urinary F2-isoprostanes by 13-27% vs ad libitum controls.",
+   "headline": "In CALERIE, the only long-term RCT of calorie restriction in healthy non-obese adults, prescribed 25% CR (about 12% achieved) for 2 years lowered urinary F2-isoprostanes by 13-27%, LDL, blood pressure, CRP and insulin resistance, at the cost of some bone and lean mass.",
    "dose": {
-    "effective": "A sustained moderate deficit; CALERIE participants achieved about half the prescribed 25% restriction.",
-    "studied_range": "25% CR for 6 months to 2 years.",
-    "too_much": "Malnutrition, low bone density and loss of lean mass if extreme; not for underweight people, pregnancy or eating disorders.",
-    "timeframe": "Reduction present at 12 months and sustained at 24 months; DNA damage reduced at 6 months.",
-    "notes": "In overweight people, weight loss itself drives much of the effect."
+    "effective": "A sustained moderate deficit of ~10-15% of energy needs; CALERIE participants achieved 11.9% (about 300 kcal/day) and lost ~7.5 kg.",
+    "studied_range": "25% CR prescribed for 6 months to 2 years in non-obese and overweight adults.",
+    "too_much": "Bone density fell at spine and hip and fat-free mass fell ~2.2 kg over 2 years in CALERIE; extreme CR risks malnutrition and amenorrhoea. Not for underweight people, pregnancy or eating disorders.",
+    "timeframe": "Isoprostane reductions present at 12 months and sustained at 24 months; DNA damage reduced at 6 months.",
+    "notes": "In overweight people weight loss itself drives much of the effect. Long-term CR does not lower IGF-1 in humans unless protein intake also falls (~0.95 g/kg/day)."
    },
-   "mechanism": "Lower mitochondrial ROS production per unit of energy, lower insulin and IGF-1 signalling, less adipose inflammation, hormetic upregulation of defences.",
+   "mechanism": "Lower energy flux reduces mitochondrial ROS production per day (metabolic adaptation of 80-120 kcal/day beyond weight loss, lower T3), lower insulin signalling, less adipose inflammation, and hormetic upregulation of defences.",
    "pathways": [
     "mitochondrial",
     "hormesis",
-    "inflammation-nfkb"
+    "inflammation-nfkb",
+    "endocrine",
+    "lipid-peroxidation"
    ],
-   "interactions": "Opposite of [diet-overfeeding].",
-   "caveats": "Long-term adherence is hard; most people will benefit from avoiding surplus rather than strict CR.",
+   "interactions": "Opposite of [diet-overfeeding]. The comparator against which all fasting protocols should be judged: [time-restricted-eating], [alternate-day-fasting] and [five-two-diet] match but do not beat it when calories are equal. Combine with [resistance-training] and adequate protein and calcium to protect bone and lean mass. Overlaps with [weight-loss].",
+   "caveats": "Long-term adherence is hard; most people benefit from avoiding surplus rather than strict CR. Effects on DNA-methylation aging clocks were small (DunedinPACE only). Lean, active women risk crossing into low energy availability; see [vigorous-exercise-low-energy].",
    "key_numbers": [
     {
      "label": "2,3-dinor-iPF2alpha-III reduction at 12 months",
      "value": 17,
      "unit": "%",
-     "source": "ilyasova2018"
+     "source": "fst-ilyasova2018"
     },
     {
      "label": "iPF2alpha-III reduction at 24 months",
      "value": 27,
      "unit": "%",
-     "source": "ilyasova2018"
+     "source": "fst-ilyasova2018"
+    },
+    {
+     "label": "Achieved calorie restriction in CALERIE",
+     "value": 11.9,
+     "unit": "%",
+     "source": "fst-kraus2019"
+    },
+    {
+     "label": "Weight change over 2 years",
+     "value": -7.5,
+     "unit": "kg",
+     "source": "fst-kraus2019"
     }
    ],
    "refs": [
-    "ilyasova2018",
-    "heilbronn2006"
+    "fst-ilyasova2018",
+    "fst-heilbronn2006",
+    "fst-redman2018",
+    "fst-kraus2019",
+    "fst-waziry2023",
+    "fst-villareal2016",
+    "fst-fontana2008"
    ]
   },
   {
    "id": "diet-intermittent-fasting",
-   "name": "Intermittent fasting / time-restricted eating",
+   "name": "Intermittent fasting (umbrella: TRE, alternate-day, 5:2, periodic)",
    "kind": "food",
    "scopes": [
     "general"
@@ -2448,34 +2467,59 @@
    "impact": {
     "general": 2
    },
-   "evidence": "limited",
-   "headline": "Early time-restricted feeding (6-hour window, dinner before 3 pm) lowered plasma 8-isoprostane ~14% vs a 12-hour schedule without weight loss in 8 men with prediabetes; an uncontrolled alternate-day trial reported large falls in oxidative markers with 8% weight loss.",
+   "evidence": "moderate",
+   "headline": "Intermittent fasting helps mainly by making people eat less: across 99 RCTs it beat ad libitum eating, but matched calorie restriction about equally (Cochrane: -0.56 kg difference over 3-12 months), and calorie-matched trials show no fasting-specific drop in oxidative stress markers.",
    "dose": {
-    "effective": "Eating within an early daytime window, or alternate-day restriction, if sustainable.",
-    "studied_range": "5-week supervised crossover (n=8); 8-week alternate-day (n=10).",
-    "too_much": "Not for pregnancy, diabetes on insulin/sulfonylureas without supervision, or eating disorders.",
-    "timeframe": "Weeks.",
-    "notes": "In the eTRF trial the improvement came mostly from oxidative stress worsening on the control schedule."
+    "effective": "Any form you can sustain that produces a modest energy deficit: an 8-10 h daily eating window, alternate-day fasting (~500 kcal or zero on fast days), or 2 days/week of 500-600 kcal (5:2). See [time-restricted-eating], [alternate-day-fasting], [five-two-diet].",
+    "studied_range": "Daily fasts of 12-20 h, 24-36 h alternate-day fasts, 2 days/week at ~25% of needs, for 3 weeks to 12 months.",
+    "too_much": "Daily eating windows under ~6 h and multi-day fasts increase lean-mass loss; not for pregnancy, eating disorders, underweight, type 1 diabetes, or insulin/sulfonylurea users without medical adjustment.",
+    "timeframe": "Weight and insulin changes within 4-12 weeks; oxidative stress markers follow weight loss.",
+    "notes": "Fasting length matters physiologically (ketones barely rise before ~20 h), but for health outcomes the total energy deficit matters far more than the pattern."
    },
-   "mechanism": "Metabolic switching to ketones, circadian alignment of meals, reduced postprandial load, weight loss.",
+   "mechanism": "Energy deficit and weight loss lower insulin, adipose inflammation and mitochondrial ROS production. Longer fasts add a metabolic switch to fatty acids and ketones; beta-hydroxybutyrate can inhibit class I HDACs and induce FOXO3A and metallothionein (mouse data). Early eating windows align intake with circadian insulin sensitivity.",
    "pathways": [
     "mitochondrial",
-    "hormesis"
+    "hormesis",
+    "endocrine",
+    "inflammation-nfkb",
+    "lipid-peroxidation"
    ],
-   "interactions": "Effects largely overlap with [diet-calorie-restriction] when weight is lost.",
-   "caveats": "Very small trials; 8-isoprostane by ELISA is less reliable than mass-spectrometry methods.",
+   "interactions": "Effects largely overlap with [diet-calorie-restriction] and [weight-loss]; benefits are biggest with [excess-adiposity] and [glycemic-control] problems. Pair with [resistance-training] and adequate protein to limit lean loss. Diet quality still matters: fasting does not offset [diet-overfeeding] on eating days. Late, short windows can shorten sleep; see [short-sleep].",
+   "caveats": "Most claims about autophagy, 'cellular cleanup' and longevity come from rodents. Calorie-matched trials (Templeman 2021, Liu 2022, Peters 2025) found no fasting-specific benefit. Only modified alternate-day fasting for BMI reached high-quality evidence in an umbrella review, and IF is associated with fat-free mass loss. The early eTRF oxidative stress result (n = 8) was driven partly by worsening on the control schedule.",
    "key_numbers": [
     {
-     "label": "Plasma 8-isoprostane change with eTRF",
+     "label": "IF vs continuous restriction, weight at 3-12 months (Cochrane)",
+     "value": -0.56,
+     "unit": "kg",
+     "source": "fst-allaf2021"
+    },
+    {
+     "label": "ADF vs continuous restriction, weight (network meta-analysis)",
+     "value": -1.29,
+     "unit": "kg",
+     "source": "fst-semnaniazad2025"
+    },
+    {
+     "label": "Plasma 8-isoprostane change with eTRF (n = 8)",
      "value": -14,
      "unit": "%",
-     "source": "sutton2018"
+     "source": "fst-sutton2018"
     }
    ],
    "refs": [
-    "sutton2018",
-    "johnson2007",
-    "decabo2019"
+    "fst-allaf2021",
+    "fst-semnaniazad2025",
+    "fst-patikorn2021",
+    "fst-templeman2021",
+    "fst-liu2022",
+    "fst-peters2025",
+    "fst-sutton2018",
+    "fst-johnson2007",
+    "fst-wegman2015",
+    "fst-cienfuegos2020",
+    "fst-decabo2019",
+    "fst-anton2018",
+    "fst-shimazu2013"
    ]
   },
   {
@@ -3533,6 +3577,316 @@
     "ket-fortier2021",
     "ket-vandenberghe2017",
     "ket-taggart2005"
+   ]
+  },
+  {
+   "id": "time-restricted-eating",
+   "name": "Time-restricted eating (8-10 h eating window)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Eating within an 8-10 h window cuts intake by roughly 170-550 kcal/day and gives weight loss similar to calorie counting; when calories are matched (Liu 2022 NEJM, Peters 2025) it adds little or nothing, and 4-6 h windows lowered 8-isoprostane ~35% only alongside ~3% weight loss.",
+   "dose": {
+    "effective": "An 8-10 h daily window, ideally early (e.g., 8:00-16:00 or 7:00-15:00), at least 5-6 days/week, for 12 weeks or more.",
+    "studied_range": "4-10 h windows, early (ending 14:00-16:00), mid-day or late (12:00-20:00), 4 days to 12 months.",
+    "too_much": "Windows of 4-6 h increased lean-mass loss (6-h TRE: -1.5 kg lean in 8 weeks); 16:8 without resistance training reduced appendicular lean mass. An observational NHANES analysis linked <8 h eating to CV mortality (HR 2.35) but is heavily confounded.",
+    "timeframe": "Glucose and insulin changes within 4 days to 5 weeks; weight loss over 3-12 months.",
+    "notes": "Early windows look better than late ones in some trials (Xie 2022) but not when calories are held constant (Peters 2025). The overnight fast in a 16:8 schedule barely raises ketones (~0.1-0.15 mmol/L)."
+   },
+   "mechanism": "Mainly spontaneous energy reduction. Early windows align meals with daytime insulin sensitivity and lower evening glucose exposure; a longer overnight fast lowers insulin and slightly raises fat oxidation and ketones. eTRF raised blood SIRT1 and LC3A expression in one 4-day study.",
+   "pathways": [
+    "endocrine",
+    "mitochondrial",
+    "glycation-ages",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Equivalent to [diet-calorie-restriction] at matched intake; benefits track [weight-loss]. Combine with [resistance-training] and ~1.6 g/kg protein to keep lean mass. Late windows that push dinner close to bedtime may conflict with [short-sleep] and [shift-work-circadian]. Useful as a weight-loss tool in [pcos].",
+   "caveats": "Many trials are small and short. TREAT (Lowe 2020) found 16:8 alone no better than three meals. Manoogian 2024 found only a -0.10% HbA1c effect in metabolic syndrome. The 2024 AHA abstract (published as Chen 2025) used two days of dietary recall; the <8 h group was ~2% of participants, more often smokers, food-insecure and habitual breakfast-skippers, and the CV association lost significance when <8 h was required on both recall days (HR 1.78, 0.85-3.74).",
+   "key_numbers": [
+    {
+     "label": "TRE + CR vs CR alone, weight at 12 months (NS)",
+     "value": -1.8,
+     "unit": "kg",
+     "source": "fst-liu2022"
+    },
+    {
+     "label": "16:8 TRE vs 3 meals, weight at 12 weeks (NS)",
+     "value": -0.26,
+     "unit": "kg",
+     "source": "fst-lowe2020"
+    },
+    {
+     "label": "8-isoprostane change, 4-h TRF",
+     "value": -37,
+     "unit": "%",
+     "source": "fst-cienfuegos2020"
+    },
+    {
+     "label": "Early TRE + ER extra weight loss vs >=12 h window",
+     "value": -2.3,
+     "unit": "kg",
+     "source": "fst-jamshed2022"
+    }
+   ],
+   "refs": [
+    "fst-sutton2018",
+    "fst-lowe2020",
+    "fst-liu2022",
+    "fst-jamshed2022",
+    "fst-lin2023",
+    "fst-cienfuegos2020",
+    "fst-peters2025",
+    "fst-xie2022",
+    "fst-manoogian2024",
+    "fst-jones2020",
+    "fst-ravussin2019",
+    "fst-jamshed2019",
+    "fst-moro2016",
+    "fst-tinsley2019",
+    "fst-chen2025"
+   ]
+  },
+  {
+   "id": "alternate-day-fasting",
+   "name": "Alternate-day fasting",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Fasting (0-25% of needs) every other day gives the same 1-year weight loss as daily 25% restriction (-6.0% vs -5.3%), with more dropouts; calorie-matched ADF did not lower oxidative stress markers and lost less fat than daily restriction.",
+   "dose": {
+    "effective": "Fast days at ~500 kcal (about 25% of needs) or zero calories, alternating with ad libitum or ~125% days, for 8 weeks to 12 months.",
+    "studied_range": "20-36 h fasts every other day; 3 weeks to 1 year.",
+    "too_much": "Persistent hunger on fast days and high dropout (38% at 1 year). Hypoglycaemia risk with insulin or sulfonylureas.",
+    "timeframe": "Weight and insulin changes within 3-8 weeks.",
+    "notes": "Strict 36-h fasts raise beta-hydroxybutyrate even on eating days; a 20-h fast barely does (0.10 mmol/L)."
+   },
+   "mechanism": "Energy deficit plus repeated 20-36 h fasts that lower insulin and raise fat oxidation and ketones; in a long-term cohort ADF lowered sICAM-1, LDL and T3.",
+   "pathways": [
+    "mitochondrial",
+    "hormesis",
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Matches [diet-calorie-restriction] and [five-two-diet]; benefits follow [weight-loss]. Food quality on eating days still matters; a [mediterranean-diet]-style pattern is a sensible base.",
+   "caveats": "The large falls in isoprostanes, carbonyls and nitrotyrosine (Johnson 2007) came from an uncontrolled study of 10 people. Templeman 2021: ADF without a deficit did nothing, and with a deficit lost less fat than daily CR. The network meta-analysis edge for ADF (-1.29 kg) is trivial.",
+   "key_numbers": [
+    {
+     "label": "Weight at 12 months, ADF vs control",
+     "value": -6.0,
+     "unit": "%",
+     "source": "fst-trepanowski2017"
+    },
+    {
+     "label": "Fat mass change, ADF at matched deficit (vs -1.75 kg daily CR)",
+     "value": -0.74,
+     "unit": "kg",
+     "source": "fst-templeman2021"
+    },
+    {
+     "label": "Calorie reduction with strict ADF",
+     "value": 37,
+     "unit": "%",
+     "source": "fst-stekovic2019"
+    }
+   ],
+   "refs": [
+    "fst-trepanowski2017",
+    "fst-templeman2021",
+    "fst-stekovic2019",
+    "fst-wegman2015",
+    "fst-johnson2007",
+    "fst-halberg2005",
+    "fst-semnaniazad2025"
+   ]
+  },
+  {
+   "id": "five-two-diet",
+   "name": "5:2 diet (two low-calorie days per week)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Two days/week at 500-650 kcal matched continuous restriction for weight loss (-6.4 vs -5.6 kg at 6 months; -8.0 vs -9.0 kg at 1 year) and for HbA1c in type 2 diabetes, with more hunger and double the hypoglycaemia rate on glucose-lowering drugs.",
+   "dose": {
+    "effective": "500 kcal (women) / 600 kcal (men) on 2 non-consecutive days per week, usual healthy eating on the other 5.",
+    "studied_range": "400-650 kcal on 2 days/week for 3-12 months.",
+    "too_much": "Not for insulin or sulfonylurea users without medication adjustment (hypoglycaemia RR 2.05); not for pregnancy or eating disorders.",
+    "timeframe": "Weight changes within 1-3 months.",
+    "notes": "Low-calorie days do not usually produce deep ketosis because some food is eaten."
+   },
+   "mechanism": "Weekly energy deficit with two short periods of very low intake; small extra falls in fasting insulin vs continuous restriction in one trial.",
+   "pathways": [
+    "endocrine",
+    "mitochondrial",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Interchangeable with [diet-calorie-restriction] and [alternate-day-fasting]; choose by preference. Benefits follow [weight-loss] and [glycemic-control].",
+   "caveats": "Few trials measured oxidative stress directly; any benefit is expected to follow weight loss.",
+   "key_numbers": [
+    {
+     "label": "Weight change at 6 months (vs -5.6 kg continuous)",
+     "value": -6.4,
+     "unit": "kg",
+     "source": "fst-harvie2011"
+    },
+    {
+     "label": "Hypoglycaemia rate ratio on glucose-lowering drugs",
+     "value": 2.05,
+     "unit": "RR",
+     "source": "fst-corley2018"
+    }
+   ],
+   "refs": [
+    "fst-harvie2011",
+    "fst-sundfor2018",
+    "fst-carter2018",
+    "fst-corley2018",
+    "fst-allaf2021"
+   ]
+  },
+  {
+   "id": "prolonged-fasting",
+   "name": "Prolonged (multi-day) fasting",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Fasts of 2-10+ days push ketones into the millimolar range and lowered lipid peroxidation (TBARS) in uncontrolled cohorts, but half or more of the weight lost is lean tissue and water, uric acid rises 100-200 umol/L, and no controlled trial shows lasting oxidative stress or health benefit beyond weight loss.",
+   "dose": {
+    "effective": "No proven effective dose. Medically supervised Buchinger-type fasts of 5-10 days at 200-250 kcal/day, or water-only fasts, have been studied; a refeeding period of at least half the fast length is used in clinics.",
+    "studied_range": "2-21 days, water-only or 75-250 kcal/day, usually 1-2 times per year.",
+    "too_much": "Beyond ~5 days of little or no intake, refeeding-syndrome criteria apply (NICE: >5 days plus another risk factor, or >10 days alone). Risks: hyponatraemia, orthostatic hypotension, arrhythmia, gout and urate stones, gallstones, lean-mass loss. Never unsupervised with diabetes medication, low BMI, eating disorder, pregnancy, gout or kidney disease.",
+    "timeframe": "Ketosis from day 2-4; systemic proteome changes appear only after ~3 days; most weight is regained within weeks.",
+    "notes": "Ketonaemia reaches roughly 2-4 mmol/L by day 3-5 in many adults (higher in lean people and with exercise) and keeps rising for ~2-3 weeks."
+   },
+   "mechanism": "Glycogen depletion (largely by ~24-42 h), lipolysis and ketogenesis; insulin and IGF-1 fall, growth hormone rises ~5-fold. Beta-hydroxybutyrate signalling (HDAC inhibition) and lower substrate flux may reduce ROS production; the rise in uric acid, an antioxidant, inflates total antioxidant capacity readings.",
+   "pathways": [
+    "hormesis",
+    "endocrine",
+    "mitochondrial",
+    "lipid-peroxidation",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Exercise during a fast speeds ketosis; light activity was used to protect muscle in the 10-day trial. Does not replace sustained [diet-calorie-restriction] or [weight-loss]. Avoid stacking with [vigorous-exercise-low-energy] in women.",
+   "caveats": "Evidence comes mostly from clinic cohorts run by fasting-clinic staff, without control groups. 'Autophagy peaks at day 2-3' is extrapolated from mice; human muscle and blood studies show ambiguous flux changes. TAC increases partly reflect uric acid.",
+   "key_numbers": [
+    {
+     "label": "Weight loss over 10 days",
+     "value": -5.9,
+     "unit": "kg",
+     "source": "fst-laurens2021"
+    },
+    {
+     "label": "Share of 10-day weight loss that was lean soft tissue",
+     "value": 60,
+     "unit": "%",
+     "source": "fst-laurens2021"
+    },
+    {
+     "label": "Uric acid rise, high-ketosis group",
+     "value": 200,
+     "unit": "umol/L",
+     "source": "fst-grundler2024"
+    },
+    {
+     "label": "Brain beta-hydroxybutyrate on day 3",
+     "value": 0.98,
+     "unit": "mmol/L",
+     "source": "fst-pan2000"
+    }
+   ],
+   "refs": [
+    "fst-wilhelmidetoledo2019",
+    "fst-wilhelmidetoledo2020",
+    "fst-grundler2024",
+    "fst-laurens2021",
+    "fst-finnell2018",
+    "fst-mojto2018",
+    "fst-pietzner2024",
+    "fst-pan2000",
+    "fst-owen1969",
+    "fst-hartman1992",
+    "fst-clemmons1981",
+    "fst-vendelbo2014",
+    "fst-mehanna2008",
+    "fst-kerndt1982"
+   ]
+  },
+  {
+   "id": "fasting-mimicking-diet",
+   "name": "Fasting-mimicking diet (5-day low-calorie, low-protein cycles)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Three monthly 5-day cycles (~1,100 then ~700 kcal/day, low protein) lowered weight, trunk fat, blood pressure and IGF-1 vs usual diet in one 100-person trial; no direct oxidative stress endpoints, and the lead developer holds a commercial interest.",
+   "dose": {
+    "effective": "5 consecutive days per month of a plant-based, low-protein, low-sugar, higher-unsaturated-fat diet (~1,100 kcal on day 1, ~700 kcal on days 2-5), for 3 cycles.",
+    "studied_range": "3 monthly cycles in generally healthy adults; 3 cycles over 4 months in men with poor semen quality.",
+    "too_much": "Same exclusions as fasting: pregnancy, eating disorders, underweight, diabetes medication without supervision.",
+    "timeframe": "Changes measured after 3 cycles (3 months).",
+    "notes": "Benefits were concentrated in people with elevated baseline risk; low protein is probably what lowers IGF-1."
+   },
+   "mechanism": "Mimics fasting signals (low insulin, IGF-1 and amino acids) while supplying some food; in mice, cycles triggered regeneration on refeeding and extended lifespan.",
+   "pathways": [
+    "endocrine",
+    "hormesis",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Effects overlap with [weight-loss]; IGF-1 lowering is also achieved by moderate protein reduction under [diet-calorie-restriction].",
+   "caveats": "Small number of trials, largely from one group with a commercial product; the 2.5-year 'biological age' reduction is an exploratory secondary analysis.",
+   "key_numbers": [
+    {
+     "label": "Weight change after 3 cycles (control +0.1 kg)",
+     "value": -2.6,
+     "unit": "kg",
+     "source": "fst-wei2017"
+    },
+    {
+     "label": "IGF-1 change after 3 cycles",
+     "value": -21.7,
+     "unit": "ng/mL",
+     "source": "fst-wei2017"
+    },
+    {
+     "label": "Biological-age estimate change after 3 cycles (exploratory)",
+     "value": -2.5,
+     "unit": "years",
+     "source": "fst-brandhorst2024"
+    }
+   ],
+   "refs": [
+    "fst-wei2017",
+    "fst-brandhorst2015",
+    "fst-brandhorst2024",
+    "fst-fontana2008"
    ]
   }
  ],
@@ -8866,6 +9220,666 @@
    "type": "mechanistic",
    "n": null,
    "finding": "BHB (not acetoacetate) blocked NLRP3 inflammasome activation by preventing K+ efflux and ASC oligomerisation in mouse cells and human monocytes in vitro, and BHB or a ketogenic diet reduced IL-1beta in mouse disease models."
+  },
+  {
+   "id": "fst-allaf2021",
+   "authors": "Allaf M, Elghazaly H, Mohamed OG, et al.",
+   "year": 2021,
+   "title": "Intermittent fasting for the prevention of cardiovascular disease.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "33512717",
+   "doi": "10.1002/14651858.CD013496.pub2",
+   "type": "meta-analysis",
+   "n": "18 RCTs, 1125 adults",
+   "finding": "Cochrane: IF beat ad libitum eating for short-term weight (-2.88 kg) but showed no clinically meaningful difference from continuous energy restriction (-0.88 kg short term, -0.56 kg medium term); no hard CVD outcome data."
+  },
+  {
+   "id": "fst-anton2018",
+   "authors": "Anton SD, Moehl K, Donahoo WT, et al.",
+   "year": 2018,
+   "title": "Flipping the Metabolic Switch: Understanding and Applying the Health Benefits of Fasting.",
+   "journal": "Obesity (Silver Spring)",
+   "pmid": "29086496",
+   "doi": "10.1002/oby.22065",
+   "type": "review",
+   "n": null,
+   "finding": "Defines the 'metabolic switch' from glucose to fatty acids/ketones as typically occurring 12-36 h after the last meal, depending on liver glycogen and activity."
+  },
+  {
+   "id": "fst-brandhorst2015",
+   "authors": "Brandhorst S, Choi IY, Wei M, et al.",
+   "year": 2015,
+   "title": "A Periodic Diet that Mimics Fasting Promotes Multi-System Regeneration, Enhanced Cognitive Performance, and Healthspan.",
+   "journal": "Cell Metab",
+   "pmid": "26094889",
+   "doi": "10.1016/j.cmet.2015.05.012",
+   "type": "mechanistic",
+   "n": "mice + pilot human trial",
+   "finding": "Bimonthly 4-day FMD cycles in mice extended lifespan, cut visceral fat and cancer incidence and lowered IGF-1; a pilot trial of 3 cycles reduced human risk markers."
+  },
+  {
+   "id": "fst-brandhorst2024",
+   "authors": "Brandhorst S, Levine ME, Wei M, et al.",
+   "year": 2024,
+   "title": "Fasting-mimicking diet causes hepatic and blood markers changes indicating reduced biological age and disease risk.",
+   "journal": "Nat Commun",
+   "pmid": "38378685",
+   "doi": "10.1038/s41467-024-45260-9",
+   "type": "rct",
+   "n": "secondary analysis of 2 trials",
+   "finding": "Exploratory analysis: 3 FMD cycles were associated with lower insulin resistance and liver fat and a 2.5-year drop in a blood-chemistry biological age estimate."
+  },
+  {
+   "id": "fst-carter2018",
+   "authors": "Carter S, Clifton PM, Keogh JB",
+   "year": 2018,
+   "title": "Effect of Intermittent Compared With Continuous Energy Restricted Diet on Glycemic Control in Patients With Type 2 Diabetes: A Randomized Noninferiority Trial.",
+   "journal": "JAMA Netw Open",
+   "pmid": "30646030",
+   "doi": "10.1001/jamanetworkopen.2018.0756",
+   "type": "rct",
+   "n": "137 adults with type 2 diabetes",
+   "finding": "Over 12 months, 2 days/week of 500-600 kcal was equivalent to continuous 1200-1500 kcal/day for HbA1c (-0.3% vs -0.5%), with medication reduction to manage hypoglycaemia."
+  },
+  {
+   "id": "fst-chen2025",
+   "authors": "Chen M, Xu L, Van Horn L, et al.",
+   "year": 2025,
+   "title": "Association of eating duration less than 8 h with all-cause, cardiovascular, and cancer mortality.",
+   "journal": "Diabetes Metab Syndr",
+   "pmid": "40849219",
+   "doi": "10.1016/j.dsx.2025.103278",
+   "type": "cohort",
+   "n": "19,831 NHANES adults",
+   "finding": "Eating duration <8 h on two 24-h recalls (~2% of participants, more often smokers, food-insecure and breakfast-skippers) was associated with higher cardiovascular mortality (HR 2.35, 1.39-3.98) vs 12-14 h but not robustly with all-cause or cancer mortality; requiring <8 h on both days gave HR 1.78 (NS)."
+  },
+  {
+   "id": "fst-cienfuegos2020",
+   "authors": "Cienfuegos S, Gabel K, Kalam F, et al.",
+   "year": 2020,
+   "title": "Effects of 4- and 6-h Time-Restricted Feeding on Weight and Cardiometabolic Health: A Randomized Controlled Trial in Adults with Obesity.",
+   "journal": "Cell Metab",
+   "pmid": "32673591",
+   "doi": "10.1016/j.cmet.2020.06.018",
+   "type": "rct",
+   "n": "58 adults with obesity",
+   "finding": "8 weeks of 4-h or 6-h TRE cut intake ~550 kcal/day and weight ~3%, lowered 8-isoprostane by 34-37% vs control, did not change TNF-alpha or IL-6, and the 6-h group lost 1.5 kg lean mass."
+  },
+  {
+   "id": "fst-clemmons1981",
+   "authors": "Clemmons DR, Klibanski A, Underwood LE, et al.",
+   "year": 1981,
+   "title": "Reduction of plasma immunoreactive somatomedin C during fasting in humans.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "7197688",
+   "doi": "10.1210/jcem-53-6-1247",
+   "type": "mechanistic",
+   "n": "7 obese men",
+   "finding": "Ten days of fasting lowered plasma somatomedin C (IGF-1) from 0.83 to 0.21 U/mL, tracking nitrogen loss; it rose promptly with refeeding."
+  },
+  {
+   "id": "fst-corley2018",
+   "authors": "Corley BT, Carroll RW, Hall RM, et al.",
+   "year": 2018,
+   "title": "Intermittent fasting in Type 2 diabetes mellitus and the risk of hypoglycaemia: a randomized controlled trial.",
+   "journal": "Diabet Med",
+   "pmid": "29405359",
+   "doi": "10.1111/dme.13595",
+   "type": "rct",
+   "n": "41 adults with type 2 diabetes",
+   "finding": "Two 500-600 kcal days/week roughly doubled hypoglycaemia rate in people on glucose-lowering drugs despite medication reduction (RR 2.05), whether fast days were consecutive or not."
+  },
+  {
+   "id": "fst-decabo2019",
+   "authors": "de Cabo R, Mattson MP",
+   "year": 2019,
+   "title": "Effects of Intermittent Fasting on Health, Aging, and Disease.",
+   "journal": "N Engl J Med",
+   "pmid": "31881139",
+   "doi": "10.1056/NEJMra1905136",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews metabolic switching and adaptive stress responses (including antioxidant defences) proposed to underlie fasting benefits."
+  },
+  {
+   "id": "fst-finnell2018",
+   "authors": "Finnell JS, Saul BC, Goldhamer AC, et al.",
+   "year": 2018,
+   "title": "Is fasting safe? A chart review of adverse events during medically supervised, water-only fasting.",
+   "journal": "BMC Complement Altern Med",
+   "pmid": "29458369",
+   "doi": "10.1186/s12906-018-2136-6",
+   "type": "cohort",
+   "n": "768 clinic visits",
+   "finding": "Among supervised water-only fasts of >=2 days, most adverse events were mild (fatigue, insomnia, nausea, headache), 212 visits had a grade 3 event, and one grade 4 hyponatraemia occurred on day 9 in a 70-year-old."
+  },
+  {
+   "id": "fst-fontana2008",
+   "authors": "Fontana L, Weiss EP, Villareal DT, et al.",
+   "year": 2008,
+   "title": "Long-term effects of calorie or protein restriction on serum IGF-1 and IGFBP-3 concentration in humans.",
+   "journal": "Aging Cell",
+   "pmid": "18843793",
+   "doi": "10.1111/j.1474-9726.2008.00417.x",
+   "type": "cohort",
+   "n": "CR practitioners + 6 volunteers",
+   "finding": "Long-term severe CR without malnutrition did not lower serum IGF-1 in humans, whereas reducing protein from 1.67 to 0.95 g/kg/day for 3 weeks lowered IGF-1 from 194 to 152 ng/mL."
+  },
+  {
+   "id": "fst-grundler2024",
+   "authors": "Grundler F, Mesnage R, Ruppert PMM, et al.",
+   "year": 2024,
+   "title": "Long-Term Fasting-Induced Ketosis in 1610 Subjects: Metabolic Regulation and Safety.",
+   "journal": "Nutrients",
+   "pmid": "38931204",
+   "doi": "10.3390/nu16121849",
+   "type": "cohort",
+   "n": "1610 adults",
+   "finding": "In 4-21-day Buchinger fasts (~75-250 kcal/day) ketonuria was present in >95% from day 4; ketosis stayed far below ketoacidosis, and uric acid rose by ~100-200 umol/L, more with stronger ketosis."
+  },
+  {
+   "id": "fst-halberg2005",
+   "authors": "Halberg N, Henriksen M, Söderhamn N, et al.",
+   "year": 2005,
+   "title": "Effect of intermittent fasting and refeeding on insulin action in healthy men.",
+   "journal": "J Appl Physiol (1985)",
+   "pmid": "16051710",
+   "doi": "10.1152/japplphysiol.00683.2005",
+   "type": "rct",
+   "n": "8 healthy men",
+   "finding": "Beta-hydroxybutyrate was 0.06 mmol/L after an overnight fast and only 0.10 mmol/L after 20 h; 15 days of every-other-day 20-h fasts without weight loss improved insulin-mediated glucose uptake."
+  },
+  {
+   "id": "fst-hartman1992",
+   "authors": "Hartman ML, Veldhuis JD, Johnson ML, et al.",
+   "year": 1992,
+   "title": "Augmented growth hormone (GH) secretory burst frequency and amplitude mediate enhanced GH secretion during a two-day fast in normal men.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "1548337",
+   "doi": "10.1210/jcem.74.4.1548337",
+   "type": "mechanistic",
+   "n": "9 healthy men",
+   "finding": "Two days of fasting produced a ~5-fold increase in 24-h endogenous growth hormone production via more and larger secretory bursts."
+  },
+  {
+   "id": "fst-harvie2011",
+   "authors": "Harvie MN, Pegington M, Mattson MP, et al.",
+   "year": 2011,
+   "title": "The effects of intermittent or continuous energy restriction on weight loss and metabolic disease risk markers: a randomized trial in young overweight women.",
+   "journal": "Int J Obes (Lond)",
+   "pmid": "20921964",
+   "doi": "10.1038/ijo.2010.171",
+   "type": "rct",
+   "n": "107 premenopausal women",
+   "finding": "Over 6 months, 2 days/week of ~650 kcal (5:2-type) and continuous 25% restriction lost similar weight (-6.4 vs -5.6 kg) with slightly greater falls in fasting insulin and HOMA-IR with intermittent restriction."
+  },
+  {
+   "id": "fst-heilbronn2006",
+   "authors": "Heilbronn LK, de Jonge L, Frisard MI, et al.",
+   "year": 2006,
+   "title": "Effect of 6-month calorie restriction on biomarkers of longevity, metabolic adaptation, and oxidative stress in overweight individuals: a randomized controlled trial.",
+   "journal": "JAMA",
+   "pmid": "16595757",
+   "doi": "10.1001/jama.295.13.1539",
+   "type": "rct",
+   "n": "48 overweight adults",
+   "finding": "6 months of 25% CR (or CR plus exercise) lowered fasting insulin and DNA damage; protein carbonyls were unchanged."
+  },
+  {
+   "id": "fst-ilyasova2018",
+   "authors": "Il'yasova D, Fontana L, Bhapkar M, et al.",
+   "year": 2018,
+   "title": "Effects of 2 years of caloric restriction on oxidative status assessed by urinary F2-isoprostanes: The CALERIE 2 randomized clinical trial.",
+   "journal": "Aging Cell",
+   "pmid": "29424490",
+   "doi": "10.1111/acel.12719",
+   "type": "rct",
+   "n": "218 healthy non-obese adults",
+   "finding": "Prescribed 25% CR for 2 years (CALERIE 2) lowered urinary 2,3-dinor-iPF2alpha-III by 17%/13% and iPF2alpha-III by 20%/27% at 12/24 months vs ad libitum (LC-MS/MS)."
+  },
+  {
+   "id": "fst-jamshed2019",
+   "authors": "Jamshed H, Beyl RA, Della Manna DL, et al.",
+   "year": 2019,
+   "title": "Early Time-Restricted Feeding Improves 24-Hour Glucose Levels and Affects Markers of the Circadian Clock, Aging, and Autophagy in Humans.",
+   "journal": "Nutrients",
+   "pmid": "31151228",
+   "doi": "10.3390/nu11061234",
+   "type": "rct",
+   "n": "11 overweight adults",
+   "finding": "Four days of eating 8 am-2 pm vs 8 am-8 pm lowered 24-h glucose, raised morning beta-hydroxybutyrate to ~0.15 mmol/L, and increased whole-blood expression of SIRT1 and the autophagy gene LC3A."
+  },
+  {
+   "id": "fst-jamshed2022",
+   "authors": "Jamshed H, Steger FL, Bryan DR, et al.",
+   "year": 2022,
+   "title": "Effectiveness of Early Time-Restricted Eating for Weight Loss, Fat Loss, and Cardiometabolic Health in Adults With Obesity: A Randomized Clinical Trial.",
+   "journal": "JAMA Intern Med",
+   "pmid": "35939311",
+   "doi": "10.1001/jamainternmed.2022.3050",
+   "type": "rct",
+   "n": "90 adults with obesity",
+   "finding": "With matched weight-loss counselling, 8-h early TRE (7:00-15:00) lost 2.3 kg more than a >=12-h window over 14 weeks, equivalent to ~214 kcal/day extra restriction; body fat difference NS."
+  },
+  {
+   "id": "fst-johnson2007",
+   "authors": "Johnson JB, Summer W, Cutler RG, et al.",
+   "year": 2007,
+   "title": "Alternate day calorie restriction improves clinical findings and reduces markers of oxidative stress and inflammation in overweight adults with moderate asthma.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "17291990",
+   "doi": "10.1016/j.freeradbiomed.2006.12.005",
+   "type": "cohort",
+   "n": "10 adults with asthma",
+   "finding": "8 weeks of alternate-day calorie restriction (8% weight loss) reduced 8-isoprostane, nitrotyrosine, protein carbonyls and HNE adducts (uncontrolled)."
+  },
+  {
+   "id": "fst-jones2020",
+   "authors": "Jones R, Pabla P, Mallinson J, et al.",
+   "year": 2020,
+   "title": "Two weeks of early time-restricted feeding (eTRF) improves skeletal muscle insulin and anabolic sensitivity in healthy men.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "32729615",
+   "doi": "10.1093/ajcn/nqaa192",
+   "type": "rct",
+   "n": "16 healthy men",
+   "finding": "2 weeks of early TRF (08:00-16:00) improved whole-body insulin sensitivity and muscle glucose and BCAA uptake vs a control diet matched for the same ~400 kcal/day deficit and ~1 kg weight loss."
+  },
+  {
+   "id": "fst-kerndt1982",
+   "authors": "Kerndt PR, Naughton JL, Driscoll CE, et al.",
+   "year": 1982,
+   "title": "Fasting: the history, pathophysiology and complications.",
+   "journal": "West J Med",
+   "pmid": "6758355",
+   "doi": null,
+   "type": "review",
+   "n": null,
+   "finding": "Weight loss averages ~0.9 kg/day in the first week of fasting (largely sodium and water) and ~0.3 kg/day by week 3; insulin and T3 fall, glucagon rises; complications include gout, urate stones, postural hypotension and arrhythmias."
+  },
+  {
+   "id": "fst-kraus2019",
+   "authors": "Kraus WE, Bhapkar M, Huffman KM, et al.",
+   "year": 2019,
+   "title": "2 years of calorie restriction and cardiometabolic risk (CALERIE): exploratory outcomes of a multicentre, phase 2, randomised controlled trial.",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "31303390",
+   "doi": "10.1016/S2213-8587(19)30151-2",
+   "type": "rct",
+   "n": "218 healthy non-obese adults",
+   "finding": "CALERIE: achieved 11.9% CR for 2 years (-7.5 kg, 71% fat) lowered LDL, total/HDL ratio, blood pressure, CRP and insulin resistance vs control."
+  },
+  {
+   "id": "fst-laurens2021",
+   "authors": "Laurens C, Grundler F, Damiot A, et al.",
+   "year": 2021,
+   "title": "Is muscle and protein loss relevant in long-term fasting in healthy men? A prospective trial on physiological adaptations.",
+   "journal": "J Cachexia Sarcopenia Muscle",
+   "pmid": "34668663",
+   "doi": "10.1002/jcsm.12766",
+   "type": "cohort",
+   "n": "16 healthy men",
+   "finding": "A 10-day fast (200-250 kcal/day) cut weight 5.9 kg, ~60% lean soft tissue (mostly water and glycogen; 42% metabolically active tissue), lowered BMR 12%, and preserved strength; urinary BHB plateaued from day 4."
+  },
+  {
+   "id": "fst-lin2023",
+   "authors": "Lin S, Cienfuegos S, Ezpeleta M, et al.",
+   "year": 2023,
+   "title": "Time-Restricted Eating Without Calorie Counting for Weight Loss in a Racially Diverse Population : A Randomized Controlled Trial.",
+   "journal": "Ann Intern Med",
+   "pmid": "37364268",
+   "doi": "10.7326/M23-0052",
+   "type": "rct",
+   "n": "90 adults with obesity",
+   "finding": "Over 12 months, 8-h TRE (noon-8 pm) and 25% CR reduced intake similarly (~-425 vs -405 kcal/day) and weight similarly (-4.6 vs -5.4 kg vs control; difference NS)."
+  },
+  {
+   "id": "fst-liu2022",
+   "authors": "Liu D, Huang Y, Huang C, et al.",
+   "year": 2022,
+   "title": "Calorie Restriction with or without Time-Restricted Eating in Weight Loss.",
+   "journal": "N Engl J Med",
+   "pmid": "35443107",
+   "doi": "10.1056/NEJMoa2114833",
+   "type": "rct",
+   "n": "139 adults with obesity",
+   "finding": "With identical calorie targets for 12 months, 8-h TRE (8 am-4 pm) plus CR lost 8.0 kg vs 6.3 kg with CR alone (difference -1.8 kg, P = 0.11); no differences in fat, lean mass or metabolic risk factors."
+  },
+  {
+   "id": "fst-lowe2020",
+   "authors": "Lowe DA, Wu N, Rohdin-Bibby L, et al.",
+   "year": 2020,
+   "title": "Effects of Time-Restricted Eating on Weight Loss and Other Metabolic Parameters in Women and Men With Overweight and Obesity: The TREAT Randomized Clinical Trial.",
+   "journal": "JAMA Intern Med",
+   "pmid": "32986097",
+   "doi": "10.1001/jamainternmed.2020.4153",
+   "type": "rct",
+   "n": "116 adults with overweight/obesity",
+   "finding": "12 weeks of 16:8 TRE (noon-8 pm) did not beat 3 structured meals (between-group -0.26 kg, NS) and reduced appendicular lean mass index more (-0.16 kg/m2)."
+  },
+  {
+   "id": "fst-manoogian2024",
+   "authors": "Manoogian ENC, Wilkinson MJ, O'Neal M, et al.",
+   "year": 2024,
+   "title": "Time-Restricted Eating in Adults With Metabolic Syndrome : A Randomized Controlled Trial.",
+   "journal": "Ann Intern Med",
+   "pmid": "39348690",
+   "doi": "10.7326/M24-0859",
+   "type": "rct",
+   "n": "108 adults with metabolic syndrome",
+   "finding": "Adding personalised 8-10-h TRE to standard care for 3 months lowered HbA1c by only 0.10% vs standard care alone."
+  },
+  {
+   "id": "fst-mehanna2008",
+   "authors": "Mehanna HM, Moledina J, Travis J",
+   "year": 2008,
+   "title": "Refeeding syndrome: what it is, and how to prevent and treat it.",
+   "journal": "BMJ",
+   "pmid": "18583681",
+   "doi": "10.1136/bmj.a301",
+   "type": "review",
+   "n": null,
+   "finding": "NICE-based refeeding risk criteria include little or no intake for >10 days (one criterion alone) or >5 days (with another factor), plus low potassium, phosphate or magnesium before feeding."
+  },
+  {
+   "id": "fst-mojto2018",
+   "authors": "Mojto V, Gvozdjakova A, Kucharska J, et al.",
+   "year": 2018,
+   "title": "Effects of complete water fasting and regeneration diet on kidney function, oxidative stress and antioxidants.",
+   "journal": "Bratisl Lek Listy",
+   "pmid": "29455546",
+   "doi": "10.4149/BLL_2018_020",
+   "type": "cohort",
+   "n": "10 volunteers",
+   "finding": "An 11-day water-only fast lowered TBARS, weight and blood pressure but raised uric acid and creatinine, lowered GFR and alpha-tocopherol; values normalised after refeeding."
+  },
+  {
+   "id": "fst-moro2016",
+   "authors": "Moro T, Tinsley G, Bianco A, et al.",
+   "year": 2016,
+   "title": "Effects of eight weeks of time-restricted feeding (16/8) on basal metabolism, maximal strength, body composition, inflammation, and cardiovascular risk factors in resistance-trained males.",
+   "journal": "J Transl Med",
+   "pmid": "27737674",
+   "doi": "10.1186/s12967-016-1044-0",
+   "type": "rct",
+   "n": "34 resistance-trained men",
+   "finding": "8 weeks of isocaloric 16:8 TRE with resistance training reduced fat mass, preserved lean mass and strength, but lowered testosterone, IGF-1 and T3."
+  },
+  {
+   "id": "fst-owen1969",
+   "authors": "Owen OE, Felig P, Morgan AP, et al.",
+   "year": 1969,
+   "title": "Liver and kidney metabolism during prolonged starvation.",
+   "journal": "J Clin Invest",
+   "pmid": "5773093",
+   "doi": "10.1172/JCI106016",
+   "type": "mechanistic",
+   "n": "11 obese adults",
+   "finding": "During prolonged starvation glucose and insulin fell over the first 3 days, while free fatty acids, beta-hydroxybutyrate and acetoacetate did not plateau until after ~17 days."
+  },
+  {
+   "id": "fst-pan2000",
+   "authors": "Pan JW, Rothman TL, Behar KL, et al.",
+   "year": 2000,
+   "title": "Human brain beta-hydroxybutyrate and lactate increase in fasting-induced ketosis.",
+   "journal": "J Cereb Blood Flow Metab",
+   "pmid": "11043913",
+   "doi": "10.1097/00004647-200010000-00012",
+   "type": "mechanistic",
+   "n": "healthy adults (MRS)",
+   "finding": "Brain beta-hydroxybutyrate rose from 0.05 to 0.60 mmol/L after 2 days and 0.98 mmol/L after 3 days of fasting; brain levels were about a quarter of plasma (slope 0.26)."
+  },
+  {
+   "id": "fst-patikorn2021",
+   "authors": "Patikorn C, Roubal K, Veettil SK, et al.",
+   "year": 2021,
+   "title": "Intermittent Fasting and Obesity-Related Health Outcomes: An Umbrella Review of Meta-analyses of Randomized Clinical Trials.",
+   "journal": "JAMA Netw Open",
+   "pmid": "34919135",
+   "doi": "10.1001/jamanetworkopen.2021.39558",
+   "type": "meta-analysis",
+   "n": "11 meta-analyses, 130 RCTs",
+   "finding": "Umbrella review: most IF benefits were supported by low or very-low quality evidence; only modified ADF for BMI reached high quality, and IF was associated with reduced fat-free mass."
+  },
+  {
+   "id": "fst-peters2025",
+   "authors": "Peters B, Schwarz J, Schuppelius B, et al.",
+   "year": 2025,
+   "title": "Intended isocaloric time-restricted eating shifts circadian clocks but does not improve cardiometabolic health in women with overweight.",
+   "journal": "Sci Transl Med",
+   "pmid": "41160666",
+   "doi": "10.1126/scitranslmed.adv6787",
+   "type": "rct",
+   "n": "31 women with overweight",
+   "finding": "In an intended-isocaloric crossover, 2 weeks of early (8:00-16:00) or late (13:00-21:00) 8-h TRE did not improve insulin sensitivity, 24-h glucose, lipids, inflammatory or oxidative stress markers, though it shifted circadian phase."
+  },
+  {
+   "id": "fst-pietzner2024",
+   "authors": "Pietzner M, Uluvar B, Kolnes KJ, et al.",
+   "year": 2024,
+   "title": "Systemic proteome adaptions to 7-day complete caloric restriction in humans.",
+   "journal": "Nat Metab",
+   "pmid": "38429390",
+   "doi": "10.1038/s42255-024-01008-9",
+   "type": "cohort",
+   "n": "12 healthy adults",
+   "finding": "A 7-day water-only fast (mean -5.7 kg) produced >1,000 changing plasma proteins, but systemic proteome changes appeared only after ~3 days of fasting."
+  },
+  {
+   "id": "fst-ravussin2019",
+   "authors": "Ravussin E, Beyl RA, Poggiogalle E, et al.",
+   "year": 2019,
+   "title": "Early Time-Restricted Feeding Reduces Appetite and Increases Fat Oxidation But Does Not Affect Energy Expenditure in Humans.",
+   "journal": "Obesity (Silver Spring)",
+   "pmid": "31339000",
+   "doi": "10.1002/oby.22518",
+   "type": "rct",
+   "n": "11 adults with overweight",
+   "finding": "Isocaloric eating 8 am-2 pm vs 8 am-8 pm for 4 days did not change 24-h energy expenditure but lowered ghrelin and hunger and increased fat oxidation."
+  },
+  {
+   "id": "fst-redman2018",
+   "authors": "Redman LM, Smith SR, Burton JH, et al.",
+   "year": 2018,
+   "title": "Metabolic Slowing and Reduced Oxidative Damage with Sustained Caloric Restriction Support the Rate of Living and Oxidative Damage Theories of Aging.",
+   "journal": "Cell Metab",
+   "pmid": "29576535",
+   "doi": "10.1016/j.cmet.2018.02.019",
+   "type": "rct",
+   "n": "53 non-obese adults",
+   "finding": "~15% CR sustained for 2 years (-8.7 kg) lowered 24-h energy expenditure 80-120 kcal/day beyond weight loss, reduced thyroid axis activity and lowered F2-isoprostane excretion."
+  },
+  {
+   "id": "fst-semnaniazad2025",
+   "authors": "Semnani-Azad Z, Khan TA, Chiavaroli L, et al.",
+   "year": 2025,
+   "title": "Intermittent fasting strategies and their effects on body weight and other cardiometabolic risk factors: systematic review and network meta-analysis of randomised clinical trials.",
+   "journal": "BMJ",
+   "pmid": "40533200",
+   "doi": "10.1136/bmj-2024-082007",
+   "type": "meta-analysis",
+   "n": "99 RCTs, 6582 adults",
+   "finding": "Network meta-analysis: all IF forms and continuous restriction beat ad libitum eating; vs continuous restriction only ADF showed a small extra weight loss (-1.29 kg, moderate certainty)."
+  },
+  {
+   "id": "fst-shimazu2013",
+   "authors": "Shimazu T, Hirschey MD, Newman J, et al.",
+   "year": 2013,
+   "title": "Suppression of oxidative stress by β-hydroxybutyrate, an endogenous histone deacetylase inhibitor.",
+   "journal": "Science",
+   "pmid": "23223453",
+   "doi": "10.1126/science.1227166",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Beta-hydroxybutyrate inhibits class I histone deacetylases, inducing FOXO3A and metallothionein-2 and protecting mice against oxidative stress; fasting and CR raised histone acetylation in mouse tissues."
+  },
+  {
+   "id": "fst-stekovic2019",
+   "authors": "Stekovic S, Hofer SJ, Tripolt N, et al.",
+   "year": 2019,
+   "title": "Alternate Day Fasting Improves Physiological and Molecular Markers of Aging in Healthy, Non-obese Humans.",
+   "journal": "Cell Metab",
+   "pmid": "31471173",
+   "doi": "10.1016/j.cmet.2019.07.016",
+   "type": "rct",
+   "n": "60 healthy non-obese adults (+ long-term cohort)",
+   "finding": "4 weeks of strict 36-h/12-h alternate-day fasting cut intake 37%, reduced trunk fat, raised beta-hydroxybutyrate even on eating days, and lowered sICAM-1, LDL and T3 after long-term ADF, without adverse events."
+  },
+  {
+   "id": "fst-sundfor2018",
+   "authors": "Sundfør TM, Svendsen M, Tonstad S",
+   "year": 2018,
+   "title": "Effect of intermittent versus continuous energy restriction on weight loss, maintenance and cardiometabolic risk: A randomized 1-year trial.",
+   "journal": "Nutr Metab Cardiovasc Dis",
+   "pmid": "29778565",
+   "doi": "10.1016/j.numecd.2018.03.009",
+   "type": "rct",
+   "n": "112 adults with abdominal obesity",
+   "finding": "Over 1 year, 400/600 kcal on 2 non-consecutive days/week matched continuous restriction for weight loss (-8.0 vs -9.0 kg) and maintenance, with more hunger."
+  },
+  {
+   "id": "fst-sutton2018",
+   "authors": "Sutton EF, Beyl R, Early KS, et al.",
+   "year": 2018,
+   "title": "Early Time-Restricted Feeding Improves Insulin Sensitivity, Blood Pressure, and Oxidative Stress Even without Weight Loss in Men with Prediabetes.",
+   "journal": "Cell Metab",
+   "pmid": "29754952",
+   "doi": "10.1016/j.cmet.2018.04.010",
+   "type": "rct",
+   "n": "8 men with prediabetes",
+   "finding": "5 weeks of 6-h early feeding (dinner before 3 pm) vs 12-h feeding, isocaloric and without weight loss, improved insulin sensitivity, blood pressure and plasma 8-isoprostane (~14%, P = 0.05)."
+  },
+  {
+   "id": "fst-templeman2021",
+   "authors": "Templeman I, Smith HA, Chowdhury E, et al.",
+   "year": 2021,
+   "title": "A randomized controlled trial to isolate the effects of fasting and energy restriction on weight loss and metabolic health in lean adults.",
+   "journal": "Sci Transl Med",
+   "pmid": "34135111",
+   "doi": "10.1126/scitranslmed.abd8034",
+   "type": "rct",
+   "n": "36 lean adults",
+   "finding": "3 weeks of 24-h alternate-day fasts with 150% intake on feed days lost similar weight to matched daily 25% CR but less fat (-0.74 vs -1.75 kg); fasting without energy deficit changed nothing; no fasting-specific metabolic benefit."
+  },
+  {
+   "id": "fst-tinsley2019",
+   "authors": "Tinsley GM, Moore ML, Graybeal AJ, et al.",
+   "year": 2019,
+   "title": "Time-restricted feeding plus resistance training in active females: a randomized trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31268131",
+   "doi": "10.1093/ajcn/nqz126",
+   "type": "rct",
+   "n": "40 resistance-trained women",
+   "finding": "8 weeks of ~7.5-h TRE with resistance training and adequate protein (1.6 g/kg) produced the same lean-mass and strength gains as a normal schedule."
+  },
+  {
+   "id": "fst-trepanowski2017",
+   "authors": "Trepanowski JF, Kroeger CM, Barnosky A, et al.",
+   "year": 2017,
+   "title": "Effect of Alternate-Day Fasting on Weight Loss, Weight Maintenance, and Cardioprotection Among Metabolically Healthy Obese Adults: A Randomized Clinical Trial.",
+   "journal": "JAMA Intern Med",
+   "pmid": "28459931",
+   "doi": "10.1001/jamainternmed.2017.0936",
+   "type": "rct",
+   "n": "100 adults with obesity",
+   "finding": "Over 1 year, alternate-day fasting (25%/125% days) and daily 25% CR produced the same weight loss (-6.0% vs -5.3% vs control) and cardiometabolic changes; ADF had more dropouts (38%)."
+  },
+  {
+   "id": "fst-vendelbo2014",
+   "authors": "Vendelbo MH, Møller AB, Christensen B, et al.",
+   "year": 2014,
+   "title": "Fasting increases human skeletal muscle net phenylalanine release and this is associated with decreased mTOR signaling.",
+   "journal": "PLoS One",
+   "pmid": "25020061",
+   "doi": "10.1371/journal.pone.0102031",
+   "type": "rct",
+   "n": "8 healthy men",
+   "finding": "A 72-h fast halved muscle mTOR phosphorylation and raised LC3B-II ~30%, but p62 also rose ~10%, so autophagic flux could not be confirmed; net muscle protein release increased."
+  },
+  {
+   "id": "fst-villareal2016",
+   "authors": "Villareal DT, Fontana L, Das SK, et al.",
+   "year": 2016,
+   "title": "Effect of Two-Year Caloric Restriction on Bone Metabolism and Bone Mineral Density in Non-Obese Younger Adults: A Randomized Clinical Trial.",
+   "journal": "J Bone Miner Res",
+   "pmid": "26332798",
+   "doi": "10.1002/jbmr.2701",
+   "type": "rct",
+   "n": "218 non-obese adults",
+   "finding": "2 years of CR (-7.5 kg, including -2.2 kg fat-free mass) reduced lumbar spine, hip and femoral neck BMD vs ad libitum and raised bone resorption markers."
+  },
+  {
+   "id": "fst-waziry2023",
+   "authors": "Waziry R, Ryan CP, Corcoran DL, et al.",
+   "year": 2023,
+   "title": "Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial.",
+   "journal": "Nat Aging",
+   "pmid": "37118425",
+   "doi": "10.1038/s43587-022-00357-y",
+   "type": "rct",
+   "n": "220 non-obese adults",
+   "finding": "Post hoc CALERIE analysis: 2 years of CR slowed the DunedinPACE pace-of-aging methylation measure (small effect) but did not change PhenoAge or GrimAge clocks."
+  },
+  {
+   "id": "fst-wegman2015",
+   "authors": "Wegman MP, Guo MH, Bennion DM, et al.",
+   "year": 2015,
+   "title": "Practicality of intermittent fasting in humans and its effect on oxidative stress and genes related to aging and metabolism.",
+   "journal": "Rejuvenation Res",
+   "pmid": "25546413",
+   "doi": "10.1089/rej.2014.1624",
+   "type": "rct",
+   "n": "24 healthy adults",
+   "finding": "Weight-stable alternate-day fasting (25%/175% days) for 3 weeks, with or without vitamins C and E, did not change oxidative stress markers; SIRT3 expression rose 2.7% and insulin fell slightly."
+  },
+  {
+   "id": "fst-wei2017",
+   "authors": "Wei M, Brandhorst S, Shelehchi M, et al.",
+   "year": 2017,
+   "title": "Fasting-mimicking diet and markers/risk factors for aging, diabetes, cancer, and cardiovascular disease.",
+   "journal": "Sci Transl Med",
+   "pmid": "28202779",
+   "doi": "10.1126/scitranslmed.aai8700",
+   "type": "rct",
+   "n": "100 adults (71 completed 3 cycles)",
+   "finding": "Three monthly 5-day fasting-mimicking diet cycles lowered body weight, trunk fat, blood pressure and IGF-1 vs usual diet, with larger changes in people at higher baseline risk."
+  },
+  {
+   "id": "fst-wilhelmidetoledo2019",
+   "authors": "Wilhelmi de Toledo F, Grundler F, Bergouignan A, et al.",
+   "year": 2019,
+   "title": "Safety, health improvement and well-being during a 4 to 21-day fasting period in an observational study including 1422 subjects.",
+   "journal": "PLoS One",
+   "pmid": "30601864",
+   "doi": "10.1371/journal.pone.0209353",
+   "type": "cohort",
+   "n": "1422 adults",
+   "finding": "Buchinger fasts of 4-21 days at 200-250 kcal/day lowered weight, waist and blood pressure, raised ketones and were well tolerated, with adverse effects in <1% (uncontrolled, clinic-affiliated authors)."
+  },
+  {
+   "id": "fst-wilhelmidetoledo2020",
+   "authors": "Wilhelmi de Toledo F, Grundler F, Goutzourelas N, et al.",
+   "year": 2020,
+   "title": "Influence of Long-Term Fasting on Blood Redox Status in Humans.",
+   "journal": "Antioxidants (Basel)",
+   "pmid": "32517172",
+   "doi": "10.3390/antiox9060496",
+   "type": "cohort",
+   "n": "109 adults",
+   "finding": "A 10-day Buchinger fast lowered plasma TBARS and raised total antioxidant capacity alongside rising uric acid; erythrocyte GSH, GR, GPx and catalase were unchanged."
+  },
+  {
+   "id": "fst-xie2022",
+   "authors": "Xie Z, Sun Y, Ye Y, et al.",
+   "year": 2022,
+   "title": "Randomized controlled trial for time-restricted eating in healthy volunteers without obesity.",
+   "journal": "Nat Commun",
+   "pmid": "35194047",
+   "doi": "10.1038/s41467-022-28662-5",
+   "type": "rct",
+   "n": "90 healthy adults without obesity",
+   "finding": "5 weeks of early TRE improved insulin sensitivity, fasting glucose, adiposity and inflammation more than mid-day TRE."
   }
  ]
 }

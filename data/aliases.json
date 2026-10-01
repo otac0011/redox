@@ -127,7 +127,9 @@
     "astaxanthin": "Astaxanthin",
     "soy": "Soy foods & isoflavones",
     "resveratrol-pterostilbene-supplements": "Resveratrol & pterostilbene supplements",
-    "ketogenic-diet": "Ketogenic diet"
+    "ketogenic-diet": "Ketogenic diet",
+    "fasting-sperm": "Fasting & energy deficit (sperm)",
+    "fasting-egg": "Fasting & energy deficit (egg)"
   },
   "kinds": {
     "alcohol": "lifestyle",

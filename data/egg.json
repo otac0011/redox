@@ -1969,6 +1969,67 @@
     "ket-vanderlouw2017",
     "ket-deamorim2024"
    ]
+  },
+  {
+   "id": "fasting-egg",
+   "name": "Fasting, ovulation, PCOS and pregnancy",
+   "kind": "food",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "egg": 2
+   },
+   "evidence": "limited",
+   "headline": "In PCOS, intermittent fasting lowered weight (-4.25 kg) and free androgen index and raised SHBG, but no more than calorie restriction; in lean women a 72-h fast made 2 of 7 cycles anovulatory, and fasting beyond the overnight period in late pregnancy rapidly produces ketosis.",
+   "dose": {
+    "effective": "With PCOS and excess weight: an 8-10 h eating window or daily calorie restriction for 8+ weeks, whichever is easier to keep. Without excess weight: avoid deliberate energy deficit while trying to conceive.",
+    "studied_range": "72-h follicular-phase fasts; 5-12 weeks of 6-10 h TRE in PCOS; Ramadan in pregnancy.",
+    "too_much": "Energy availability below ~30 kcal/kg lean mass/day disrupts LH pulses; multi-day fasts in lean women can block ovulation. In pregnancy avoid fasting beyond the overnight period (18-h fasts cause ketonaemia).",
+    "timeframe": "Androgen and menstrual changes in PCOS over 5-8 weeks; follicle effects within one cycle.",
+    "notes": "Normal-weight women tolerated a 3-day fast without cycle disruption; lean women (<=20% body fat) did not."
+   },
+   "mechanism": "In insulin-resistant PCOS, lower insulin raises SHBG and lowers ovarian androgen output. In lean women, energy deficit slows GnRH/LH pulsatility (hypothalamic suppression). In pregnancy, 'accelerated starvation' raises maternal ketones that cross the placenta.",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "Works through the same route as [egg-weight-loss] in [pcos]. Stacking fasting with heavy training risks [vigorous-exercise-low-energy]. Prenatal nutrient needs (e.g., [egg-folic-acid]) are harder to meet in short eating windows.",
+   "caveats": "PCOS evidence is five small studies; the only RCT comparing early TRE with calorie restriction (Talebi 2024) found no difference. Ramadan pregnancy meta-analyses show no birth-weight effect but are observational and lack mortality data; the IQ-ketone link (Rizzo 1991) is correlational.",
+   "key_numbers": [
+    {
+     "label": "Weight change with IF in PCOS (meta-analysis)",
+     "value": -4.25,
+     "unit": "kg",
+     "source": "fst-ranneh2025"
+    },
+    {
+     "label": "Energy availability threshold for LH disruption",
+     "value": 30,
+     "unit": "kcal/kg lean mass/day",
+     "source": "fst-loucks2003"
+    },
+    {
+     "label": "PCOS women with improved menstrual regularity after 5 weeks of 8-h TRE",
+     "value": 73,
+     "unit": "%",
+     "source": "fst-li2021"
+    }
+   ],
+   "refs": [
+    "fst-ranneh2025",
+    "fst-li2021",
+    "fst-talebi2024",
+    "fst-cienfuegos2022",
+    "fst-loucks2003",
+    "fst-olson1995",
+    "fst-alvero1998",
+    "fst-mountjoy2023",
+    "fst-glazier2018",
+    "fst-altaiar2025",
+    "fst-metzger1982",
+    "fst-rizzo1991"
+   ]
   }
  ],
  "mechanisms": [
@@ -3655,6 +3716,150 @@
    "type": "meta-analysis",
    "n": "8 RCTs, 327 women",
    "finding": "Low-carbohydrate diets (< 45% energy) lowered BMI, HOMA-IR and LDL in PCOS; those lasting > 4 weeks raised SHBG and FSH and lowered testosterone."
+  },
+  {
+   "id": "fst-altaiar2025",
+   "authors": "Al-Taiar A, Rahman ME, Salama M, et al.",
+   "year": 2025,
+   "title": "Impacts of Ramadan fasting during pregnancy on pregnancy and birth outcomes: An umbrella review.",
+   "journal": "Int J Gynaecol Obstet",
+   "pmid": "39785103",
+   "doi": "10.1002/ijgo.16127",
+   "type": "review",
+   "n": "13 reviews",
+   "finding": "Umbrella review: insufficient evidence that Ramadan fasting in pregnancy shortens gestation or reduces birth weight, but evidence quality is low and no firm guidance is possible."
+  },
+  {
+   "id": "fst-alvero1998",
+   "authors": "Alvero R, Kimzey L, Sebring N, et al.",
+   "year": 1998,
+   "title": "Effects of fasting on neuroendocrine function and follicle development in lean women.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "9435419",
+   "doi": "10.1210/jcem.83.1.4512",
+   "type": "cohort",
+   "n": "lean women (<=20% body fat)",
+   "finding": "In lean women a 72-h follicular-phase fast cut LH pulses 19%; 2 of 7 fasted cycles were anovulatory and follicular phases lengthened."
+  },
+  {
+   "id": "fst-cienfuegos2022",
+   "authors": "Cienfuegos S, Corapi S, Gabel K, et al.",
+   "year": 2022,
+   "title": "Effect of Intermittent Fasting on Reproductive Hormone Levels in Females and Males: A Review of Human Trials.",
+   "journal": "Nutrients",
+   "pmid": "35684143",
+   "doi": "10.3390/nu14112343",
+   "type": "review",
+   "n": null,
+   "finding": "Review of human trials: IF lowers testosterone/free androgen index and raises SHBG in premenopausal women with obesity, does not change oestrogen or gonadotropins, and lowers testosterone in lean active young men."
+  },
+  {
+   "id": "fst-glazier2018",
+   "authors": "Glazier JD, Hayes DJL, Hussain S, et al.",
+   "year": 2018,
+   "title": "The effect of Ramadan fasting during pregnancy on perinatal outcomes: a systematic review and meta-analysis.",
+   "journal": "BMC Pregnancy Childbirth",
+   "pmid": "30359228",
+   "doi": "10.1186/s12884-018-2048-y",
+   "type": "meta-analysis",
+   "n": "22 studies, 31,374 pregnancies",
+   "finding": "Ramadan fasting in pregnancy did not affect birth weight or preterm delivery; lower placental weight came mainly from one large study; no perinatal mortality data."
+  },
+  {
+   "id": "fst-li2021",
+   "authors": "Li C, Xing C, Zhang J, et al.",
+   "year": 2021,
+   "title": "Eight-hour time-restricted feeding improves endocrine and metabolic profiles in women with anovulatory polycystic ovary syndrome.",
+   "journal": "J Transl Med",
+   "pmid": "33849562",
+   "doi": "10.1186/s12967-021-02817-2",
+   "type": "cohort",
+   "n": "18 women with anovulatory PCOS (15 completed)",
+   "finding": "5 weeks of 8-h TRE (single arm) lowered weight, testosterone, free androgen index, insulin and hsCRP, raised SHBG, and improved menstrual regularity in 11 of 15 women."
+  },
+  {
+   "id": "fst-loucks2003",
+   "authors": "Loucks AB, Thuma JR",
+   "year": 2003,
+   "title": "Luteinizing hormone pulsatility is disrupted at a threshold of energy availability in regularly menstruating women.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "12519869",
+   "doi": "10.1210/jc.2002-020369",
+   "type": "rct",
+   "n": "29 women",
+   "finding": "LH pulsatility was unaffected at an energy availability of 30 kcal/kg lean mass/day but disrupted below that threshold (10-20 kcal/kg)."
+  },
+  {
+   "id": "fst-metzger1982",
+   "authors": "Metzger BE, Ravnikar V, Vileisis RA, et al.",
+   "year": 1982,
+   "title": "\"Accelerated starvation\" and the skipped breakfast in late normal pregnancy.",
+   "journal": "Lancet",
+   "pmid": "6121184",
+   "doi": "10.1016/s0140-6736(82)91750-0",
+   "type": "mechanistic",
+   "n": "pregnant and non-pregnant women",
+   "finding": "Extending the overnight fast from 12 to 18 h in late pregnancy ('skipped breakfast') caused falling glucose and rising fatty acids and beta-hydroxybutyrate ('accelerated starvation'); non-pregnant women barely changed."
+  },
+  {
+   "id": "fst-mountjoy2023",
+   "authors": "Mountjoy M, Ackerman KE, Bailey DM, et al.",
+   "year": 2023,
+   "title": "2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs).",
+   "journal": "Br J Sports Med",
+   "pmid": "37752011",
+   "doi": "10.1136/bjsports-2023-106994",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOC consensus on Relative Energy Deficiency in Sport: low energy availability impairs reproductive, bone, metabolic and other systems in all sexes."
+  },
+  {
+   "id": "fst-olson1995",
+   "authors": "Olson BR, Cartledge T, Sebring N, et al.",
+   "year": 1995,
+   "title": "Short-term fasting affects luteinizing hormone secretory dynamics but not reproductive function in normal-weight sedentary women.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "7714088",
+   "doi": "10.1210/jcem.80.4.7714088",
+   "type": "rct",
+   "n": "12 normal-weight women",
+   "finding": "A 3-day mid-follicular fast reduced LH pulses but did not alter follicle growth, ovulation or cycle length in normal-weight women."
+  },
+  {
+   "id": "fst-ranneh2025",
+   "authors": "Ranneh Y, Hamsho M, Shkorfu W, et al.",
+   "year": 2025,
+   "title": "Effect of Intermittent Fasting on Anthropometric Measurements, Metabolic Profile, and Hormones in Women with Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis.",
+   "journal": "Nutrients",
+   "pmid": "40806019",
+   "doi": "10.3390/nu17152436",
+   "type": "meta-analysis",
+   "n": "5 studies",
+   "finding": "In PCOS, IF reduced weight (-4.25 kg), insulin resistance, free androgen index and DHEA-S and raised SHBG; total testosterone and AMH did not change."
+  },
+  {
+   "id": "fst-rizzo1991",
+   "authors": "Rizzo T, Metzger BE, Burns WJ, et al.",
+   "year": 1991,
+   "title": "Correlations between antepartum maternal metabolism and intelligence of offspring.",
+   "journal": "N Engl J Med",
+   "pmid": "1881416",
+   "doi": "10.1056/NEJM199109263251303",
+   "type": "cohort",
+   "n": "223 mother-child pairs",
+   "finding": "Higher third-trimester maternal beta-hydroxybutyrate correlated with lower offspring IQ scores at ages 2-5 (r about -0.2), observational."
+  },
+  {
+   "id": "fst-talebi2024",
+   "authors": "Talebi S, Shab-Bidar S, Moini A, et al.",
+   "year": 2024,
+   "title": "The effects of time-restricted eating alone or in combination with probiotic supplementation in comparison with a calorie-restricted diet on endocrine and metabolic profiles in women with polycystic ovary syndrome: A randomized clinical trial.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "39143654",
+   "doi": "10.1111/dom.15801",
+   "type": "rct",
+   "n": "90 women with PCOS",
+   "finding": "8 weeks of 14:10 early TRE (with or without probiotics) gave no greater weight loss or menstrual, androgen or metabolic improvement than daily calorie restriction."
   }
  ]
 }
