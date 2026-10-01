@@ -50,9 +50,8 @@
     "nuts-walnuts-sperm": "walnuts-nuts",
     "tomatoes-lycopene-sperm": "tomatoes-lycopene",
     "fruit-vegetables-sperm": "high-fruit-vegetable-intake",
-    "processed-meat-sperm": "processed-red-meat",
+    "processed-meat-sperm": "processed-meat",
     "egg-resveratrol": "isolated-polyphenol-supplements",
-
     "egg-maternal-age": "maternal-age",
     "egg-pcos": "pcos",
     "egg-endometriosis": "endometriosis",
@@ -74,7 +73,8 @@
     "folate-zinc-sperm": "folate-zinc",
     "diet-calorie-restriction": "calorie-restriction",
     "diet-intermittent-fasting": "intermittent-fasting",
-    "diet-iron-excess": "iron-excess"
+    "diet-iron-excess": "iron-excess",
+    "unprocessed-red-meat-sperm": "unprocessed-red-meat"
   },
   "mechanisms": {},
   "names": {
@@ -103,8 +103,10 @@
     "coffee": "Coffee & caffeine",
     "walnuts-nuts": "Walnuts & other nuts",
     "high-fruit-vegetable-intake": "Fruit & vegetables (high intake)",
-    "processed-red-meat": "Processed & red meat",
-    "isolated-polyphenol-supplements": "Polyphenol & resveratrol capsules"
+    "processed-red-meat": "Processed & red meat (gut, cancer)",
+    "isolated-polyphenol-supplements": "Polyphenol & resveratrol capsules",
+    "processed-meat": "Processed meat (sperm)",
+    "unprocessed-red-meat": "Unprocessed red meat (sperm)"
   },
   "kinds": {
     "alcohol": "lifestyle",
