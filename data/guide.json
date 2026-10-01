@@ -37,6 +37,10 @@
     [
       "tobacco-smoking",
       "secondhand-smoke"
+    ],
+    [
+      "weight-loss",
+      "overfeeding"
     ]
   ],
   "questions": [
@@ -115,13 +119,14 @@
           "value": "under",
           "label": "Under 18.5",
           "boost": {
-            "overtraining-ultraendurance": 1
+            "vigorous-exercise-low-energy": 1.5
           },
           "hide": [
             "weight-loss",
             "excess-adiposity",
             "calorie-restriction",
-            "intermittent-fasting"
+            "intermittent-fasting",
+            "overfeeding"
           ],
           "note": "Being underweight or under-fuelled (low energy availability) can disrupt ovulation and hormone levels. Calorie restriction isn't for you."
         },
@@ -145,7 +150,8 @@
           "label": "30 or more",
           "boost": {
             "weight-loss": 3,
-            "glycemic-control": 0.5
+            "glycemic-control": 0.5,
+            "overfeeding": 0.5
           }
         }
       ]
@@ -188,7 +194,9 @@
             "overtraining-ultraendurance": 2.5,
             "antioxidant-megadoses-during-training": 1.5,
             "aerobic-exercise-moderate": -2,
-            "cycling": 0.5
+            "cycling": 0.5,
+            "vigorous-exercise-low-energy": 1.5,
+            "hiit-vigorous-exercise": -2
           },
           "hide": [
             "sedentary-time"

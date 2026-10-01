@@ -404,7 +404,7 @@
     }
     const scoreFor = (f) => Math.max(...goals.map((g) => score(f, g))) + (boost[f.id] || 0);
     const exclude = new Set(G.exclude || []);
-    const relevant = D.factors.filter((f) => !hide.has(f.id) && (!exclude.has(f.id) || boost[f.id] > 0) && (goals.some((g) => impactOf(f, g) > 0) || boost[f.id] > 0));
+    const relevant = D.factors.filter((f) => !hide.has(f.id) && (!exclude.has(f.id) || boost[f.id] > 0) && goals.some((g) => impactOf(f, g) > 0));
     const isSkip = (f) => f.kind === "supplement" && (["neutral", "harmful", "mixed"].includes(f.direction) || ["limited", "mechanistic"].includes(f.evidence)) && !boost[f.id];
     const actDir = (f) => dirFor(f, goals.reduce((a, g) => (score(f, g) > score(f, a) ? g : a), goals[0]));
     const actions = relevant.filter((f) => !isSkip(f) && ["beneficial", "harmful"].includes(actDir(f))).sort((a, b) => scoreFor(b) - scoreFor(a)).slice(0, 14);
@@ -454,10 +454,14 @@
 
   // ---------- read ----------
   async function viewRead(area) {
-    const toc = D.areas.map((a) => `<a class="chip ${a.id === area ? "dir-beneficial" : ""}" href="#/read/${a.id}">${esc(a.title)}</a>`).join("");
+    const notes = D.notes || [];
+    const docs = [...D.areas, ...notes];
+    if (!docs.some((a) => a.id === area)) area = "";
+    const toc = docs.map((a) => `<a class="chip ${a.id === area ? "dir-beneficial" : ""}" href="#/read/${a.id}">${esc(a.title)}</a>`).join("");
     if (!area) {
       return `<h1>Read the research notes</h1><p class="lede">Long-form write-ups behind each section, with the reasoning, controversies, and what the evidence does not show.</p>
-        <div class="grid">${D.areas.map((a) => `<a class="card fcard" href="#/read/${a.id}"><h3>${esc(a.title)}</h3><p>${esc(a.summary || "")}</p></a>`).join("")}</div>`;
+        <div class="grid">${D.areas.map((a) => `<a class="card fcard" href="#/read/${a.id}"><h3>${esc(a.title)}</h3><p>${esc(a.summary || "")}</p></a>`).join("")}</div>
+        ${notes.length ? `<h2>Deep dives</h2><div class="grid">${notes.map((n) => `<a class="card fcard" href="#/read/${n.id}"><h3>${esc(n.title)}</h3></a>`).join("")}</div>` : ""}`;
     }
     let md = "";
     try { md = await (await fetch(`research/${encodeURIComponent(area)}.md`, { cache: "no-cache" })).text(); } catch { md = "Could not load this document."; }

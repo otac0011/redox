@@ -50,7 +50,7 @@ def sim(a, b):
 def main():
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     refs = []
-    for p in sorted((ROOT / "data").glob("*.json")):
+    for p in sorted((ROOT / "data").rglob("*.json")):
         doc = json.loads(p.read_text(encoding="utf-8"))
         for r in doc.get("references", []) if isinstance(doc, dict) else []:
             refs.append((p.stem, r))

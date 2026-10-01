@@ -102,6 +102,23 @@ def main():
             entry["_name"], entry["_kind"], entry["_scopes"], entry["_orig_id"] = f.get("name", fid), f.get("kind"), f.get("scopes", []), f["id"]
             groups.setdefault(fid, []).append(entry)
 
+    notes = []
+    for npath in sorted((DATA / "notes").glob("*.json")):
+        ndoc = json.loads(npath.read_text(encoding="utf-8"))
+        doc_id = ndoc["doc"]
+        local = {}
+        for r in ndoc.get("references", []):
+            k = ref_key(r, doc_id)
+            local[r["id"]] = k
+            references.setdefault(k, {fld: v for fld, v in r.items() if fld != "id"})
+        ref_index[doc_id] = local
+        md = ROOT / "research" / f"{doc_id}.md"
+        if not md.exists():
+            warn(f"notes {doc_id}: research/{doc_id}.md missing")
+            continue
+        first = next((ln for ln in md.read_text(encoding="utf-8").splitlines() if ln.startswith("# ")), "# " + doc_id)
+        notes.append({"id": doc_id, "title": first[2:].strip()})
+
     factors = []
     for fid, entries in groups.items():
         entries.sort(key=lambda e: AREAS.index(e["area"]))
@@ -182,6 +199,7 @@ def main():
     out = {
         "built": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "areas": areas,
+        "notes": notes,
         "factors": sorted(factors, key=lambda f: f["name"].lower()),
         "mechanisms": sorted(mechs.values(), key=lambda m: m["name"].lower()),
         "references": references,
