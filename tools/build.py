@@ -88,12 +88,12 @@ def main():
                 warn(f"{area}: duplicate factor id '{f['id']}'")
             seen.add(f["id"])
             fid = factor_alias.get(f["id"], f["id"])
-            entry = {k: f.get(k) for k in ("direction", "evidence", "headline", "dose", "mechanism", "interactions", "caveats", "key_numbers")}
+            entry = {k: f.get(k) for k in ("direction", "evidence", "headline", "dose", "mechanism", "interactions", "caveats", "debate", "key_numbers")}
             entry["area"] = area
             entry["impact"] = f.get("impact") or {}
             entry["pathways"] = [mech_alias.get(p, p) for p in f.get("pathways", [])]
             entry["refs"] = mapref(f.get("refs", []), f"factor {f['id']}")
-            for fld in ("headline", "mechanism", "interactions", "caveats"):
+            for fld in ("headline", "mechanism", "interactions", "caveats", "debate"):
                 if entry.get(fld):
                     entry[fld] = re.sub(r"\[([a-z0-9-]+)\]", lambda m: "[" + factor_alias.get(m.group(1), m.group(1)) + "]", entry[fld])
             if isinstance(entry.get("dose"), dict):
@@ -184,10 +184,10 @@ def main():
     ids = {f["id"] for f in factors}
     for f in factors:
         for e in f["entries"]:
-            for fld in ("headline", "mechanism", "interactions", "caveats"):
+            for fld in ("headline", "mechanism", "interactions", "caveats", "debate"):
                 for m in re.findall(r"\[([a-z0-9-]+)\]", e.get(fld) or ""):
-                    if m not in ids:
-                        warn(f"{e['area']}/{f['id']}: [{m}] in {fld} is not a factor id")
+                    if m not in ids and m not in ref_index.get(e["area"], {}):
+                        warn(f"{e['area']}/{f['id']}: [{m}] in {fld} is not a factor or reference id")
             if not e.get("refs"):
                 warn(f"{e['area']}/{f['id']}: no references")
         for p in f["pathways"]:

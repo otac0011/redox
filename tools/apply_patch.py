@@ -41,7 +41,7 @@ def main():
     patch = json.loads(pathlib.Path(sys.argv[1]).read_text(encoding="utf-8"))
     dry = "--dry-run" in sys.argv
     prefs = {r["id"]: r for r in patch.get("references", [])}
-    unknown_areas = set(patch) - AREAS - {"references"}
+    unknown_areas = set(patch) - AREAS - {"references", "mechanisms"}
     if unknown_areas:
         sys.exit(f"unknown areas in patch: {unknown_areas}")
     if "--doc" in sys.argv:

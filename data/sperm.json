@@ -2052,6 +2052,71 @@
     "fst-abbas1986",
     "fst-may2024"
    ]
+  },
+  {
+   "id": "endurance-hypogonadism-sperm",
+   "name": "Chronic high-volume endurance training and low testosterone (exercise-hypogonadal male condition)",
+   "kind": "exercise",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Men with years of very high endurance volumes (e.g. ~100+ km/week running, elite triathlon) can develop persistently low testosterone without raised LH, and small studies show lower motility, more immature sperm and high DNA fragmentation (~20% in elite triathletes), though changes rarely fall below WHO thresholds.",
+   "dose": {
+    "effective": "If trying to conceive and training very high volumes, cut back toward moderate volumes for about 3 months, eat enough to match training (avoid low energy availability), and keep cycling under about 5 h/week.",
+    "studied_range": "High-mileage runners ~108 km/week vs ~54 km/week vs sedentary; elite triathletes in championship preparation; endurance athletes in cross-sectional and short training studies (280 athletes across 13 studies).",
+    "too_much": "Hormonal and semen changes appeared at high-mileage running (~100+ km/week) and elite triathlon training, not at moderate volumes.",
+    "timeframe": "Spermatogenesis takes ~74 days, so allow about 3 months after reducing load; testosterone recovers when energy balance and load normalise, sometimes over months.",
+    "notes": "Recreational activity is associated with equal or better semen quality ([aerobic-exercise-moderate]). Men with low testosterone should not self-treat with testosterone, which shuts down sperm production ([testosterone-anabolic-steroids])."
+   },
+   "mechanism": "Chronic training load and low energy availability suppress hypothalamic GnRH pulses (functional hypogonadotropic hypogonadism), lowering testosterone; high cortisol, systemic and seminal inflammation (more round cells/leukocytes), scrotal heat and oxidative stress during heavy training may add sperm DNA damage.",
+   "pathways": [
+    "endocrine",
+    "inflammation-nfkb",
+    "thermal",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Overlaps with [cycling] (saddle pressure, heat) and [overtraining-ultraendurance]; the female counterpart is [vigorous-exercise-low-energy]. Adequate sleep ([short-sleep]) and energy intake support recovery.",
+   "caveats": "Evidence is small, cross-sectional and mostly in elite athletes; whether low testosterone reflects dysfunction or an adaptive readjustment is debated, and few studies measure fertility (pregnancy) outcomes.",
+   "debate": "Hackney's group describes a persistent 'exercise-hypogonadal male condition' with possible spermatogenesis effects [exr-lane2019, exr-hackney2008], supported by lower testosterone and semen quality in high-mileage runners [exr-desouza1994], high DNA fragmentation in elite triathletes [exr-vaamonde2018], and lower libido at the highest training loads [exr-hackney2017]; the IOC REDs consensus and a review of male runners link it to low energy availability [exr-mountjoy2023, exr-cupka2023]. But Hackney himself argues some cases may be adaptive rather than pathological [exr-hackney2020]; a systematic review found semen changes in endurance athletes rarely clinically relevant [exr-aerts2024]; a meta-analysis found most activity has no major semen effect, with harm limited to elite levels [exr-ibanezperez2019]; and in large preconception cohorts male vigorous activity was not consistently associated with couples' fecundability [exr-wise2025].",
+   "key_numbers": [
+    {
+     "label": "Total testosterone, high-mileage runners (~108 km/wk)",
+     "value": 15.3,
+     "unit": "nmol/L",
+     "source": "exr-desouza1994"
+    },
+    {
+     "label": "Total testosterone, moderate-mileage runners (~54 km/wk)",
+     "value": 21.4,
+     "unit": "nmol/L",
+     "source": "exr-desouza1994"
+    },
+    {
+     "label": "Sperm DNA fragmentation, elite triathletes",
+     "value": 20.4,
+     "unit": "%",
+     "source": "exr-vaamonde2018"
+    }
+   ],
+   "refs": [
+    "exr-lane2019",
+    "exr-hackney2008",
+    "exr-hackney2020",
+    "exr-hackney2017",
+    "exr-desouza1994",
+    "exr-vaamonde2018",
+    "exr-aerts2024",
+    "exr-ibanezperez2019",
+    "exr-wise2025",
+    "exr-wise2011",
+    "exr-mountjoy2023",
+    "exr-cupka2023"
+   ]
   }
  ],
  "mechanisms": [
@@ -3857,6 +3922,150 @@
    "type": "meta-analysis",
    "n": "35 studies, 1107 adults",
    "finding": "Ramadan fasting did not significantly change testosterone, LH, FSH, prolactin or thyroid hormones in healthy non-athletes; morning cortisol tended to fall."
+  },
+  {
+   "id": "exr-aerts2024",
+   "authors": "Aerts A, Temmerman A, Vanhie A, et al.",
+   "year": 2024,
+   "title": "The Effect of Endurance Exercise on Semen Quality in Male Athletes: A Systematic Review.",
+   "journal": "Sports Med Open",
+   "pmid": "38861008",
+   "doi": "10.1186/s40798-024-00739-z",
+   "type": "review",
+   "n": "280 athletes, 13 studies",
+   "finding": "Endurance exercise can lower semen quality, but changes were usually not clinically relevant; some cyclists and triathletes had more abnormal morphology or DNA fragmentation."
+  },
+  {
+   "id": "exr-cupka2023",
+   "authors": "Cupka M, Sedliak M",
+   "year": 2023,
+   "title": "Hungry runners - low energy availability in male endurance athletes and its impact on performance and testosterone: mini-review.",
+   "journal": "Eur J Transl Myol",
+   "pmid": "37052052",
+   "doi": "10.4081/ejtm.2023.11104",
+   "type": "review",
+   "n": null,
+   "finding": "Low energy availability is common in male endurance athletes and correlates with lower testosterone, bone density and resting metabolic rate."
+  },
+  {
+   "id": "exr-desouza1994",
+   "authors": "De Souza MJ, Arce JC, Pescatello LS, et al.",
+   "year": 1994,
+   "title": "Gonadal hormones and semen quality in male runners. A volume threshold effect of endurance training.",
+   "journal": "Int J Sports Med",
+   "pmid": "8002116",
+   "doi": "10.1055/s-2007-1021075",
+   "type": "cross-sectional",
+   "n": "30 men",
+   "finding": "High-mileage runners (~108 km/week) had lower testosterone, sperm motility and density than moderate-mileage runners or sedentary men."
+  },
+  {
+   "id": "exr-hackney2008",
+   "authors": "Hackney AC",
+   "year": 2008,
+   "title": "Effects of endurance exercise on the reproductive system of men: the \"exercise-hypogonadal male condition\".",
+   "journal": "J Endocrinol Invest",
+   "pmid": "19092301",
+   "doi": "10.1007/BF03346444",
+   "type": "review",
+   "n": null,
+   "finding": "Describes the exercise-hypogonadal male condition as limited to men with years of chronic endurance training and not highly prevalent."
+  },
+  {
+   "id": "exr-hackney2017",
+   "authors": "Hackney AC, Lane AR, Register-Mihalik J, et al.",
+   "year": 2017,
+   "title": "Endurance Exercise Training and Male Sexual Libido.",
+   "journal": "Med Sci Sports Exerc",
+   "pmid": "28195945",
+   "doi": "10.1249/MSS.0000000000001235",
+   "type": "cross-sectional",
+   "n": "1,077 men",
+   "finding": "Men with the highest training intensity and duration had greater odds of low libido than those training least."
+  },
+  {
+   "id": "exr-hackney2020",
+   "authors": "Hackney AC",
+   "year": 2020,
+   "title": "Hypogonadism in Exercising Males: Dysfunction or Adaptive-Regulatory Adjustment?",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "32082255",
+   "doi": "10.3389/fendo.2020.00011",
+   "type": "review",
+   "n": null,
+   "finding": "Proposes several forms of exercise-related male hypogonadism, some transient and linked to low energy availability or overtraining, others possibly an adaptive readjustment."
+  },
+  {
+   "id": "exr-ibanezperez2019",
+   "authors": "Ibañez-Perez J, Santos-Zorrozua B, Lopez-Lopez E, et al.",
+   "year": 2019,
+   "title": "An update on the implication of physical activity on semen quality: a systematic review and meta-analysis.",
+   "journal": "Arch Gynecol Obstet",
+   "pmid": "30671700",
+   "doi": "10.1007/s00404-019-05045-8",
+   "type": "meta-analysis",
+   "n": "32 studies",
+   "finding": "Most data show no major effect of activity on semen; recreational activity may help concentration or motility, while elite activity may harm motility, and cycling may lower concentration."
+  },
+  {
+   "id": "exr-lane2019",
+   "authors": "Lane AR, Magallanes CA, Hackney AC",
+   "year": 2019,
+   "title": "Reproductive Dysfunction from Exercise Training: The \"Exercise-Hypogonadal Male Condition\".",
+   "journal": "Arch Med Deporte",
+   "pmid": "32724267",
+   "doi": null,
+   "type": "review",
+   "n": null,
+   "finding": "Men chronically doing endurance training can show persistently low free and total testosterone without raised LH ('exercise-hypogonadal male condition'); spermatogenesis problems may occur in some."
+  },
+  {
+   "id": "exr-mountjoy2023",
+   "authors": "Mountjoy M, Ackerman KE, Bailey DM, et al.",
+   "year": 2023,
+   "title": "2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs).",
+   "journal": "Br J Sports Med",
+   "pmid": "37752011",
+   "doi": "10.1136/bjsports-2023-106994",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOC 2023 consensus on Relative Energy Deficiency in Sport (REDs), covering reproductive suppression from low energy availability in both sexes."
+  },
+  {
+   "id": "exr-vaamonde2018",
+   "authors": "Vaamonde D, Algar-Santacruz C, Abbasi A, et al.",
+   "year": 2018,
+   "title": "Sperm DNA fragmentation as a result of ultra-endurance exercise training in male athletes.",
+   "journal": "Andrologia",
+   "pmid": "28295487",
+   "doi": "10.1111/and.12793",
+   "type": "cross-sectional",
+   "n": "12 elite triathletes",
+   "finding": "Elite triathletes in training had high sperm DNA fragmentation (mean 20.4%) and raised round cells."
+  },
+  {
+   "id": "exr-wise2011",
+   "authors": "Wise LA, Cramer DW, Hornstein MD, et al.",
+   "year": 2011,
+   "title": "Physical activity and semen quality among men attending an infertility clinic.",
+   "journal": "Fertil Steril",
+   "pmid": "21122845",
+   "doi": "10.1016/j.fertnstert.2010.11.006",
+   "type": "cohort",
+   "n": "2,261 men at IVF clinics",
+   "finding": "Regular exercise was not associated with semen quality overall, but cycling 5+ h/week was linked to low sperm concentration (OR 1.92)."
+  },
+  {
+   "id": "exr-wise2025",
+   "authors": "Wise LA, Wang TR, Ulrichsen SP, et al.",
+   "year": 2025,
+   "title": "A prospective study of male physical activity and fecundability.",
+   "journal": "Hum Reprod",
+   "pmid": "39680487",
+   "doi": "10.1093/humrep/deae275",
+   "type": "cohort",
+   "n": "4,921 men in two preconception cohorts",
+   "finding": "Male vigorous, moderate or total activity was not consistently associated with couples' fecundability."
   }
  ]
 }

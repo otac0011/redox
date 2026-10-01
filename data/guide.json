@@ -165,7 +165,9 @@
           "label": "Mostly sedentary",
           "boost": {
             "aerobic-exercise-moderate": 2,
-            "sedentary-time": 2
+            "sedentary-time": 2,
+            "post-meal-walking": 1,
+            "exercise-snacks": 1
           }
         },
         {
@@ -173,7 +175,8 @@
           "label": "Some, under 150 min/week",
           "boost": {
             "aerobic-exercise-moderate": 1,
-            "resistance-training": 0.5
+            "resistance-training": 1,
+            "cardiorespiratory-fitness": 0.5
           }
         },
         {
