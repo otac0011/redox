@@ -11,7 +11,10 @@ Private beta on GitHub Pages behind a simple passphrase. This is obscurity only:
 - **Compare:** foods, habits, or supplements side by side (e.g. blackberries vs eggplant skin vs coffee vs broccoli sprouts).
 - **Mechanisms:** factors grouped by pathway (Nrf2, mitochondrial ROS, NOX, iron/Fenton, glycation, …), which is the right frame for "if I already do X, does Y still add anything?"
 - **My plan:** a short questionnaire that produces a prioritized, personalized list. Answers stay in the browser.
-- **Read:** long-form research notes for each area.
+- **Stack check:** list supplements and medications and get flags for evidence of harm, overlapping mechanisms, and conflicts with training, conception, pregnancy, smoking, blood thinners, cancer treatment, or G6PD deficiency (rules in `data/stack.json`).
+- **Tests:** which lab and genetic tests actually guide decisions, how to read them, and which to skip.
+- **Read:** long-form research notes for each area, plus 14 deep dives (sulforaphane, curcumin, isothiocyanates & polyphenols, fasting, ketosis, exercise, longevity supplements & aging theory, iron & micronutrients, medications, testing, microplastics & PFAS, IVF add-ons, skin & brain, cooking & circadian timing).
+- **Where the evidence is contested:** factor pages and deep dives cite published disagreement on both sides.
 
 ## Evidence policy
 
@@ -26,10 +29,15 @@ data/<area>.json                structured research per area (foundations, diet,
 data/aliases.json               merges the same factor across areas
 data/guide.json                 "My plan" questions
 data/compare.json               compare presets
+data/stack.json                 stack-checker contexts and rules
+data/tests.json                 lab/genetic test guidance
+data/notes/<deep-dive>.json     full reference lists for research/deep-*.md
 research/<area>.md              long-form notes; research/SCHEMA.md defines the data format
 tools/build.py                  data/*.json -> assets/data.json (+ consistency warnings)
 tools/verify_refs.py            re-verify every citation against PubMed / Crossref
+tools/apply_patch.py            merge a research patch (factors, refs, mechanisms, tests, notes)
 tools/set_passphrase.py         change the passphrase
+research/BRIEF.md               instructions given to research agents
 ```
 
 ## Working on it

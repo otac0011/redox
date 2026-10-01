@@ -49,6 +49,17 @@
       ]
     },
     {
+      "label": "Longevity supplements",
+      "ids": [
+        "creatine",
+        "taurine",
+        "glycine",
+        "nmn-nad",
+        "melatonin",
+        "rapamycin"
+      ]
+    },
+    {
       "label": "Drinks",
       "ids": [
         "coffee",

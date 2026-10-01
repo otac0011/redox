@@ -458,72 +458,105 @@
     "general": 1
    },
    "evidence": "limited",
-   "headline": "In older adults with low glutathione, glycine plus NAC restored glutathione, lowered F2-isoprostanes and in a 24-person RCT improved mitochondrial, metabolic and physical-function measures. The trials are small and mostly from one group.",
+   "headline": "In small trials from one Baylor group, about 7 g glycine plus 9 g NAC daily restored glutathione and improved many aging markers in older adults, but a 114-person industry RCT at lower doses found no rise in glutathione.",
    "dose": {
-    "effective": "Glycine 1.33 mmol/kg/day + cysteine 0.81 mmol/kg/day as NAC (roughly 100 mg/kg glycine + 130 mg/kg NAC; ~7 g + ~9 g/day at 70 kg)",
-    "studied_range": "Same weight-based dose for 2 weeks to 24 weeks",
-    "too_much": "Long-term safety beyond 24 weeks not established; same cancer caveat as NAC.",
-    "timeframe": "Changes reported at 16-24 weeks; benefits declined within 12 weeks of stopping",
-    "notes": "Relevant mainly to older adults; young adults already have normal glutathione synthesis."
+    "effective": "Glycine 1.33 mmol/kg/day + cysteine 0.81 mmol/kg/day as NAC (about 100 mg/kg glycine + 130 mg/kg NAC, roughly 7 g + 9 g/day at 70 kg)",
+    "studied_range": "Weight-based doses for 2-24 weeks in the Baylor trials; 2.4, 4.8 or 7.2 g/day total (1:1) for 2 weeks in the Nestle trial",
+    "too_much": "Long-term safety beyond 24 weeks not established; NAC carries the same tumour-promotion caution in mice as [n-acetylcysteine]",
+    "timeframe": "Changes reported at 16-24 weeks; benefits faded within 12 weeks of stopping",
+    "notes": "Relevant mainly to older adults with low glutathione; young adults already have normal glutathione synthesis. Over-the-counter GlyNAC products usually supply far less than the trial doses."
    },
-   "mechanism": "Supplies both limiting precursors (cysteine and glycine) for glutathione synthesis, which is reduced with aging. This restores GSH concentration and synthesis rate and lowers oxidative damage.",
+   "mechanism": "Supplies both limiting precursors (cysteine and glycine) for glutathione synthesis, which is reduced with aging. Older adults in the original study had about half the red-cell glutathione and synthesis rate of young adults, and 2 weeks of precursors restored both and lowered F2-isoprostanes.",
    "pathways": [
-    "direct-scavenging"
+    "glutathione",
+    "mitochondrial"
    ],
-   "interactions": "Overlaps with [n-acetylcysteine]. Probably redundant in people with high protein intake and normal glutathione.",
-   "caveats": "Evidence comes from small open-label and placebo-controlled trials from a single research group, with no hard outcomes. The large doses are not those in typical over-the-counter products.",
+   "interactions": "Overlaps with [n-acetylcysteine] and [glycine]. Probably redundant in people with high protein intake and normal glutathione. Not a substitute for oral or IV glutathione, see [iv-glutathione].",
+   "caveats": "The positive trials are tiny (8 older adults open-label; 24 in the RCT), come from a single group, and measured many outcomes, which raises the chance of false positives. The striking mouse lifespan gain (24%) came from a single-lab study in one inbred strain, not the multi-site ITP design. No hard outcomes.",
+   "debate": "The Baylor group reports broad benefits: corrected glutathione, lower oxidative stress, better mitochondrial fuel oxidation, insulin sensitivity, gait speed and strength [lon-sekhar2011, lon-kumar2021, lon-kumar2023], and longer life in mice [lon-kumar2022]. A larger Nestle-run RCT in 114 healthy older adults found GlyNAC at up to 7.2 g/day for 2 weeks did not raise glutathione or the GSH:GSSG ratio; only a post-hoc subgroup with high oxidative stress and low glutathione responded [lon-lizzo2022]. The doses and duration were lower than in the Baylor trials, so the two are not a direct contradiction, but the null primary result shows benefit is not universal. Both sides have commercial interests: Nestle Health Science holds patents and licences on glycine-plus-NAC use [lon-lizzo2022].",
    "key_numbers": [
     {
-     "label": "Glutathione rise in older adults",
+     "label": "Glutathione rise in older adults (2 weeks)",
      "value": 94.6,
      "unit": "%",
-     "source": "sekhar2011"
+     "source": "lon-sekhar2011"
+    },
+    {
+     "label": "Participants in largest RCT (null primary)",
+     "value": 114,
+     "unit": "older adults",
+     "source": "lon-lizzo2022"
+    },
+    {
+     "label": "Participants in Baylor RCT",
+     "value": 24,
+     "unit": "older adults",
+     "source": "lon-kumar2023"
     }
    ],
    "refs": [
-    "sekhar2011",
-    "kumar2021",
-    "kumar2023",
-    "lu2013"
+    "lon-sekhar2011",
+    "lon-kumar2021",
+    "lon-kumar2023",
+    "lon-kumar2022",
+    "lon-lizzo2022"
    ]
   },
   {
    "id": "mitoq",
-   "name": "Mitochondria-targeted antioxidant (MitoQ)",
+   "name": "Mitochondria-targeted antioxidants (MitoQ, SkQ1)",
    "kind": "supplement",
    "scopes": [
     "general"
    ],
-   "direction": "beneficial",
+   "direction": "mixed",
    "impact": {
     "general": 1
    },
    "evidence": "limited",
-   "headline": "20 mg/day MitoQ for 6 weeks improved flow-mediated dilation by 42% in 20 older adults with impaired endothelial function. This is a single small crossover trial without outcome data.",
+   "headline": "MitoQ 20 mg/day improved artery function in two small trials (older adults, kidney disease), but did not slow Parkinson disease over a year and slowed recovery after muscle-damaging exercise; SkQ1 has only eye-drop trials in humans.",
    "dose": {
-    "effective": "20 mg/day",
-    "studied_range": "20 mg/day for 6 weeks",
-    "too_much": null,
-    "timeframe": "6 weeks",
-    "notes": "Proprietary compound; independent replication is limited."
+    "effective": "MitoQ 20 mg/day (vascular trials)",
+    "studied_range": "MitoQ 20 mg/day for 2-6 weeks; 40-80 mg/day for 28 days (hepatitis C) and 12 months (Parkinson disease); single doses of 100-160 mg",
+    "too_much": "No serious toxicity reported; a single 100-160 mg dose did not raise urinary kidney-injury markers",
+    "timeframe": "Vascular effects at 4-6 weeks; DNA-damage protection after 3 weeks but not after a single dose",
+    "notes": "MitoQ is a proprietary product. SkQ1 has been tested in humans only as eye drops (Visomitin); oral SkQ1 has no published human trials."
    },
-   "mechanism": "A ubiquinone attached to a lipophilic cation that accumulates in the mitochondrial matrix, aiming to quench mitochondrial ROS where generic antioxidants cannot reach.",
+   "mechanism": "A ubiquinone (MitoQ) or plastoquinone (SkQ1) attached to a lipophilic triphenylphosphonium cation, which concentrates the antioxidant several hundred-fold in the mitochondrial matrix, aiming to quench mitochondrial superoxide and lipid peroxidation where ordinary antioxidants cannot reach.",
    "pathways": [
-    "mitochondrial"
+    "mitochondrial",
+    "direct-scavenging"
    ],
-   "interactions": "Could in theory blunt mitohormetic signalling from exercise, like other antioxidants. This has not been tested.",
-   "caveats": "Small, short-term study measuring a surrogate endpoint only.",
+   "interactions": "Like other antioxidants it may blunt adaptive signalling (see the mitohormesis mechanism); in one trial it delayed recovery after eccentric exercise. Compare [coq10], which suppressed muscle mitochondrial H2O2 similarly in a head-to-head trial.",
+   "caveats": "All human trials are small and short except the null Parkinson trial. Effects on urinary F2-isoprostanes, the best oxidative-damage marker, were absent in two trials. Rodent lifespan studies with SkQ1 depended heavily on housing and pathogen conditions.",
+   "debate": "Supporters point to improved flow-mediated dilation in older adults [lon-rossman2018] and chronic kidney disease [lon-kirkman2023], lower liver enzymes in hepatitis C [lon-gane2010], less exercise-induced DNA damage [lon-williamson2020], and its rationale as a targeted drug [lon-murphy2018]. Against this, a 12-month RCT in 128 people found no effect on Parkinson progression [lon-snow2010], MitoQ did not change mitochondrial function or F2-isoprostanes in middle-aged men [lon-pham2020], and it delayed strength recovery and raised creatine kinase after eccentric exercise [lon-broome2022]. SkQ1 rodent lifespan gains were strain- and vivarium-dependent [lon-anisimov2011], and its human evidence is limited to company-funded dry-eye trials [lon-petrov2016, lon-brzheskiy2015].",
    "key_numbers": [
     {
-     "label": "Flow-mediated dilation improvement",
+     "label": "Flow-mediated dilation improvement (older adults)",
      "value": 42,
      "unit": "%",
-     "source": "rossman2018"
+     "source": "lon-rossman2018"
+    },
+    {
+     "label": "Parkinson trial size (null)",
+     "value": 128,
+     "unit": "participants",
+     "source": "lon-snow2010"
     }
    ],
    "refs": [
-    "rossman2018",
-    "murphy2009"
+    "lon-rossman2018",
+    "lon-murphy2018",
+    "lon-snow2010",
+    "lon-gane2010",
+    "lon-kirkman2023",
+    "lon-linder2024",
+    "lon-pham2020",
+    "lon-williamson2020",
+    "lon-broome2022",
+    "lon-petrov2016",
+    "lon-brzheskiy2015",
+    "lon-anisimov2011"
    ]
   },
   {
@@ -1349,6 +1382,682 @@
     "kcc-rundblad2017",
     "kcc-garciahernandez2013"
    ]
+  },
+  {
+   "id": "taurine",
+   "name": "Taurine",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Taurine extended mouse lifespan in a 2023 Science study, but a 2025 NIH study found blood taurine does not fall with age in humans; human trials show only small drops in blood pressure (about 4 mmHg systolic), glucose and triglycerides.",
+   "dose": {
+    "effective": "1.5-3 g/day; 1.6 g/day for 12 weeks lowered clinic systolic BP by 7.2 vs 2.6 mmHg (placebo) in prehypertension",
+    "studied_range": "0.5-6 g/day for 5 days to 1 year in RCTs",
+    "too_much": "Observed safe level 3 g/day for long-term use; no systematic adverse effects in trials up to 6 g/day",
+    "timeframe": "Blood-pressure and metabolic effects measured at 8-12 weeks; endurance effects seen after a single dose",
+    "notes": "Diet supplies taurine mainly from meat, fish and shellfish. Mouse doses, scaled per kg of body weight, are much higher than typical human supplement doses. Energy drinks contain taurine plus caffeine and sugar; those are not a sensible source."
+   },
+   "mechanism": "Taurine is a sulfur-containing amino acid that is not built into proteins. It conjugates bile acids, regulates cell volume and calcium, and modifies mitochondrial tRNAs, which supports translation of respiratory-chain proteins. It is a weak direct antioxidant; its proposed anti-aging effects in mice act through less mitochondrial dysfunction, less cellular senescence, less DNA damage and lower inflammation. In humans it may lower blood pressure partly through hydrogen sulfide and improved endothelial function.",
+   "pathways": [
+    "mitochondrial",
+    "inflammation-nfkb",
+    "endothelial"
+   ],
+   "interactions": "Overlaps with exercise, which raised blood taurine acutely in the Singh study; there is no evidence that taurine adds to the benefits of [aerobic-exercise-moderate]. Often stacked with [glycine] and [n-acetylcysteine] in 'longevity' blends with no trial of the combination.",
+   "caveats": "The 'taurine deficiency drives aging' claim rests on mouse and monkey data plus human cross-sectional associations. Monkeys showed health-span markers, not lifespan. Human blood taurine varies with diet and was not consistently lower in older people in larger longitudinal cohorts. No trial has tested taurine on aging outcomes in humans.",
+   "debate": "Singh et al. reported that circulating taurine declines with age in mice, monkeys and humans and that supplementation extended mouse median lifespan and improved monkey health span [lon-singh2023], a result welcomed as a reason for human trials [lon-mcgaunn2023]. An NIH group led by Fernandez and de Cabo measured taurine longitudinally in three human cohorts, monkeys and mice and found it increased or stayed flat with age, with inconsistent links to health outcomes, arguing taurine is not a universal aging biomarker [lon-fernandez2025]. On the clinical side, a meta-analysis of 25 small RCTs found modest metabolic benefits [lon-tzang2024], consistent with one well-run BP trial [lon-sun2016], but the trials are short and heterogeneous.",
+   "key_numbers": [
+    {
+     "label": "Systolic BP change (meta-analysis)",
+     "value": -4.0,
+     "unit": "mmHg",
+     "source": "lon-tzang2024"
+    },
+    {
+     "label": "Triglyceride change (meta-analysis)",
+     "value": -18.3,
+     "unit": "mg/dL",
+     "source": "lon-tzang2024"
+    },
+    {
+     "label": "Observed safe level",
+     "value": 3,
+     "unit": "g/day",
+     "source": "lon-shao2008"
+    }
+   ],
+   "refs": [
+    "lon-singh2023",
+    "lon-mcgaunn2023",
+    "lon-fernandez2025",
+    "lon-tzang2024",
+    "lon-sun2016",
+    "lon-waldron2018",
+    "lon-shao2008"
+   ]
+  },
+  {
+   "id": "creatine",
+   "name": "Creatine monohydrate",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "strong",
+   "headline": "Combined with resistance training, 3-5 g/day creatine adds about 1.4 kg lean mass and modest strength in older adults; memory effects are small and contested, the antioxidant role is mechanistic only, and long trials in Parkinson and Huntington disease were null.",
+   "dose": {
+    "effective": "3-5 g/day creatine monohydrate (or about 0.1 g/kg/day), taken with resistance training",
+    "studied_range": "3-20 g/day (20 g/day for 5-7 days as an optional loading phase); 10 g/day for 5 years in Parkinson disease; up to 40 g/day in Huntington disease",
+    "too_much": "No kidney harm in healthy people at studied doses; serum creatinine rises slightly as a by-product, which is not kidney injury. People with kidney disease should involve their doctor. Very high doses cause more gastrointestinal upset.",
+    "timeframe": "Muscle stores fill in about a week with loading or about 3-4 weeks at 3-5 g/day; lean-mass gains seen over 7-52 weeks of training",
+    "notes": "Monohydrate is the studied and cheapest form. Vegetarians start with lower stores and may respond more on memory tests. A single 0.35 g/kg dose (about 25 g) was used in the sleep-deprivation study, far above normal use."
+   },
+   "mechanism": "Creatine and phosphocreatine buffer ATP through creatine kinase, which matters in tissues with high, fluctuating energy demand (muscle, brain). Cell and animal studies suggest direct scavenging of some radicals and indirect protection of mitochondria, but these antioxidant effects have not been shown to matter in humans.",
+   "pathways": [
+    "mitochondrial",
+    "direct-scavenging"
+   ],
+   "interactions": "Its benefit for muscle depends on training; pair with [resistance-training]. No known antagonism with exercise adaptation, unlike [antioxidant-megadoses-during-training]. Often combined with [coq10] in sarcopenia proposals without outcome data.",
+   "caveats": "Persistent myths (kidney damage, dehydration, cramps, hair loss) are not supported by the trial evidence. Water retention adds 1-2 kg body weight early on. Neurodegeneration trials at high doses were negative. Creatine is not a longevity drug: there is no human lifespan or aging-rate data.",
+   "debate": "For muscle, meta-analyses agree that creatine plus training beats training alone in older adults [lon-devries2014, lon-chilibeck2017]. For cognition, positive meta-analyses report memory gains mainly in older adults [lon-prokopidis2023, lon-xu2024], but a letter argued the Prokopidis analysis double-counted data and may be a false positive [lon-eckert2023], and an earlier systematic review found no effect in young people and inconsistent results across domains [lon-avgerinos2018]. Antioxidant claims rest on mechanistic reviews [lon-sestili2011]. Hopes for neuroprotection were tested and failed in large RCTs [lon-kieburtz2015, lon-hersch2017]. Note that the main safety reviews come from sports-nutrition authors, some with industry ties [lon-kreider2017, lon-antonio2021], although an independent meta-analysis also found no renal harm [lon-desouzaesilva2019].",
+   "key_numbers": [
+    {
+     "label": "Extra lean mass with training (older adults)",
+     "value": 1.37,
+     "unit": "kg",
+     "source": "lon-chilibeck2017"
+    },
+    {
+     "label": "Memory effect size, older adults",
+     "value": 0.88,
+     "unit": "SMD",
+     "source": "lon-prokopidis2023"
+    },
+    {
+     "label": "Parkinson trial size (null)",
+     "value": 1741,
+     "unit": "participants",
+     "source": "lon-kieburtz2015"
+    }
+   ],
+   "refs": [
+    "lon-kreider2017",
+    "lon-antonio2021",
+    "lon-devries2014",
+    "lon-chilibeck2017",
+    "lon-avgerinos2018",
+    "lon-prokopidis2023",
+    "lon-eckert2023",
+    "lon-xu2024",
+    "lon-gordjinejad2024",
+    "lon-desouzaesilva2019",
+    "lon-kieburtz2015",
+    "lon-hersch2017",
+    "lon-sestili2011",
+    "lon-muccini2021",
+    "lon-larosa2016",
+    "lon-nedeljkovic2026"
+   ]
+  },
+  {
+   "id": "glycine",
+   "name": "Glycine",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "3 g of glycine at bedtime reduced next-day fatigue in small sleep-restriction studies, and a high-glycine diet extended mouse lifespan by only 4-6%; there are no human aging-outcome trials.",
+   "dose": {
+    "effective": "3 g taken about an hour before bed (sleep studies)",
+    "studied_range": "3 g/night in sleep studies; about 100 mg/kg/day (about 7 g at 70 kg) as part of GlyNAC; 8% of diet in mice",
+    "too_much": "Well tolerated at gram doses in trials; long-term safety of multi-gram daily use has not been formally assessed",
+    "timeframe": "Sleep effects measured over 1-3 nights",
+    "notes": "Glycine is abundant in collagen and gelatin. For glutathione support, see [glynac]."
+   },
+   "mechanism": "Glycine is one of the three amino acids of glutathione, and red-cell glycine is low in older adults. In rats it promotes sleep by acting on NMDA receptors in the suprachiasmatic nucleus, widening skin blood vessels and lowering core temperature. In mice it may also offset methionine excess, which is one proposed reason the ITP glycine diet extended life.",
+   "pathways": [
+    "glutathione"
+   ],
+   "interactions": "Combined with [n-acetylcysteine] it forms [glynac]. Any glutathione effect is likely limited to people with low baseline status.",
+   "caveats": "Sleep data come from small, short studies, mostly from one research group. The mouse lifespan effect was small and the dose (8% of the diet) is not comparable to supplement use.",
+   "debate": "The ITP glycine result is one of the more rigorous mouse lifespan studies (three sites, both sexes) but the effect was small [lon-miller2019]. Human sleep evidence is a few small trials from one group [lon-bannai2012] with a rat mechanism [lon-kawai2015]; no independent replication or critique was found, which reflects how little the question has been studied.",
+   "key_numbers": [
+    {
+     "label": "Mouse lifespan increase (ITP)",
+     "value": 5,
+     "unit": "% (4-6%)",
+     "source": "lon-miller2019"
+    },
+    {
+     "label": "Sleep-study dose",
+     "value": 3,
+     "unit": "g at bedtime",
+     "source": "lon-bannai2012"
+    }
+   ],
+   "refs": [
+    "lon-miller2019",
+    "lon-bannai2012",
+    "lon-kawai2015",
+    "lon-sekhar2011"
+   ]
+  },
+  {
+   "id": "nmn-nad",
+   "name": "NAD+ precursors (NMN, NR)",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 0
+   },
+   "evidence": "limited",
+   "headline": "NR and NMN reliably raise blood NAD+ (NR 1 g/day by about 140%), but most human trials found no gain in insulin sensitivity, muscle mitochondria or muscle function, and NR did not extend mouse lifespan in the ITP.",
+   "dose": {
+    "effective": "No dose has a proven clinical benefit; NR 300-1000 mg/day or NMN 250-600 mg/day raise blood NAD+",
+    "studied_range": "NR 100-2000 mg/day for up to 12 weeks; NMN 250-900 mg/day for up to about 12 weeks",
+    "too_much": "No serious adverse effects in trials up to NR 2 g/day for 12 weeks; long-term safety beyond months is unknown",
+    "timeframe": "Blood NAD+ rises within 2 weeks; no clinical effect has been consistently shown at any duration",
+    "notes": "Blood NAD+ is a marker of intake, not proof of tissue benefit; muscle NAD+ did not rise in some trials. In the US, FDA reversed its 2022 exclusion of NMN from the supplement definition in September 2025."
+   },
+   "mechanism": "NAD+ is the cofactor for mitochondrial energy metabolism and the substrate of sirtuins and PARPs (DNA repair). NAD+ falls with age in rodent tissues. NR and NMN are vitamin B3 forms that feed NAD+ salvage synthesis. They are not antioxidants, but NAD+/NADH and NADPH balance underlies much of cellular redox control.",
+   "pathways": [
+    "mitochondrial",
+    "dna-repair",
+    "redox-signaling"
+   ],
+   "interactions": "Exercise raises muscle NAD+ synthesis naturally ([aerobic-exercise-moderate]). Plain nicotinamide and niacin also raise NAD+ but were rarely compared head-to-head. The egg-specific evidence is covered on the same page.",
+   "caveats": "Many trials are small, short, industry-funded and measure surrogate markers. The single strongly positive insulin-sensitivity trial had a large baseline liver-fat imbalance. Positive walking-distance and 'biological age' findings come from one trial that used an online age calculator of uncertain validity.",
+   "debate": "Supporters cite the Yoshino trial, in which NMN 250 mg/day raised muscle insulin sensitivity in 25 prediabetic women [lon-yoshino2021], a dose-ranging trial showing longer 6-minute walks [lon-yi2023], and anti-inflammatory signals [lon-elhassan2019, lon-brakedal2022]. Critics note the Yoshino groups differed sharply in baseline liver fat [lon-brenner2021], while trials of NR at 1-2 g/day found no improvement in insulin sensitivity, mitochondrial function or body composition [lon-dollerup2018, lon-dollerup2020, lon-remie2020] and a meta-analysis found no benefit for muscle mass or function in older adults [lon-prokopidis2025]. NR also failed to extend lifespan in the rigorous ITP mouse programme [lon-harrison2021]. Several key pharmacokinetic and safety trials were sponsored by the NR manufacturer [lon-trammell2016, lon-conze2019]. Reviews agree the compounds are safe short term and raise NAD+, but benefit is unproven [lon-freeberg2023].",
+   "key_numbers": [
+    {
+     "label": "Blood NAD+ rise, NR 1000 mg/day",
+     "value": 142,
+     "unit": "%",
+     "source": "lon-conze2019"
+    },
+    {
+     "label": "Blood NAD+ rise, NR 300 mg/day",
+     "value": 51,
+     "unit": "%",
+     "source": "lon-conze2019"
+    },
+    {
+     "label": "Baseline liver fat, NMN vs placebo group",
+     "value": 6.3,
+     "unit": "% vs 14.8%",
+     "source": "lon-brenner2021"
+    }
+   ],
+   "refs": [
+    "lon-yoshino2021",
+    "lon-brenner2021",
+    "lon-elhassan2019",
+    "lon-dollerup2018",
+    "lon-dollerup2020",
+    "lon-martens2018",
+    "lon-remie2020",
+    "lon-conze2019",
+    "lon-trammell2016",
+    "lon-irie2020",
+    "lon-igarashi2022",
+    "lon-yi2023",
+    "lon-prokopidis2025",
+    "lon-harrison2021",
+    "lon-freeberg2023",
+    "lon-brakedal2022",
+    "lon-fda2025nmn",
+    "lon-fdandi"
+   ]
+  },
+  {
+   "id": "melatonin",
+   "name": "Melatonin",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "As a sleep aid melatonin shortens sleep onset by about 7 minutes; claims that it is a powerful mitochondrial antioxidant come from cell and animal work, human antioxidant data are small biomarker trials, and real products contain anywhere from -83% to +478% of the labelled dose.",
+   "dose": {
+    "effective": "For sleep: 0.3-5 mg; 0.3 mg restored sleep efficiency in older insomniacs, and benefit in a dose-response meta-analysis plateaued near 4 mg taken about 3 hours before bedtime. No dose is proven to slow aging.",
+    "studied_range": "0.1-12 mg/day in sleep trials; often 5-20 mg or more in antioxidant-biomarker trials",
+    "too_much": "3 mg or more can cause next-day sleepiness and leave blood levels high into the morning; label content is unreliable; keep gummies away from children",
+    "timeframe": "Sleep effects from the first nights; biomarker trials ran weeks to months",
+    "notes": "Regulated as a drug in the UK and EU but sold as a supplement in the US and Canada. Choose products with third-party testing because content varies widely."
+   },
+   "mechanism": "Melatonin is the pineal hormone that signals darkness to the circadian system through MT1/MT2 receptors. In cell and animal studies it and its metabolites scavenge radicals, and it may be made inside mitochondria and raise antioxidant enzymes. At sleep doses, blood levels are in the nanomolar range, far below concentrations used in many antioxidant experiments.",
+   "pathways": [
+    "endocrine",
+    "direct-scavenging",
+    "mitochondrial"
+   ],
+   "interactions": "Helps with circadian problems such as [shift-work-circadian] and jet lag more clearly than with insomnia. Does not replace fixing [short-sleep]. Egg-quality evidence is on the same page.",
+   "caveats": "The AASM suggests not using melatonin for chronic insomnia in adults. Products are poorly controlled: 71% of tested supplements were outside 10% of label and some contained serotonin; 22 of 25 gummies were mislabelled. US pediatric ingestions rose 530% in a decade, with two deaths reported.",
+   "debate": "Reiter and colleagues argue melatonin is 'one of evolution's best' mitochondria-targeted antioxidants, mainly from experimental data [lon-reiter2017]. A meta-analysis of 15 RCTs found lower MDA and protein carbonyls with melatonin [lon-ghorbaninejad2020], but these were heterogeneous patient studies with surrogate markers and no clinical outcomes. For sleep, meta-analyses show real but small effects [lon-ferracioliOda2013, lon-cruzsanabria2024], and the AASM guideline judged the evidence too weak to recommend it for chronic insomnia [lon-sateia2017]. Short-term safety looks good [lon-besag2019], but long-term placebo-controlled data are scarce [lon-besag2022].",
+   "key_numbers": [
+    {
+     "label": "Sleep onset shortened (meta-analysis)",
+     "value": 7,
+     "unit": "minutes",
+     "source": "lon-ferracioliOda2013"
+    },
+    {
+     "label": "Highest label deviation found",
+     "value": 478,
+     "unit": "% above label",
+     "source": "lon-erland2017"
+    },
+    {
+     "label": "Gummies outside 10% of label",
+     "value": 88,
+     "unit": "%",
+     "source": "lon-cohen2023"
+    },
+    {
+     "label": "Rise in US pediatric ingestions 2012-2021",
+     "value": 530,
+     "unit": "%",
+     "source": "lon-lelak2022"
+    }
+   ],
+   "refs": [
+    "lon-reiter2017",
+    "lon-ghorbaninejad2020",
+    "lon-ferracioliOda2013",
+    "lon-sateia2017",
+    "lon-zhdanova2001",
+    "lon-cruzsanabria2024",
+    "lon-erland2017",
+    "lon-cohen2023",
+    "lon-lelak2022",
+    "lon-besag2019",
+    "lon-besag2022"
+   ]
+  },
+  {
+   "id": "astaxanthin",
+   "name": "Astaxanthin",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 0
+   },
+   "evidence": "limited",
+   "headline": "Astaxanthin modestly lowers blood MDA in small trials and extended median lifespan 12% in male (not female) ITP mice, but no human trial shows a clinical or aging benefit.",
+   "dose": {
+    "effective": "No proven clinical dose; trials commonly used 4-12 mg/day of natural astaxanthin",
+    "studied_range": "2-24 mg/day approved by different regulators; 35 of 87 human studies used 12 mg/day or more",
+    "too_much": "No safety concerns in 87 human studies of natural astaxanthin (35 at 12 mg/day or more); EFSA's ADI of 2 mg/day was derived from synthetic astaxanthin in rats",
+    "timeframe": "Biomarker changes at 8-12 weeks",
+    "notes": "Fat-soluble; take with a meal. Salmon and shrimp supply small amounts. The sperm-specific evidence is on the same page."
+   },
+   "mechanism": "A red xanthophyll carotenoid that spans cell membranes and quenches singlet oxygen and lipid peroxyl radicals; in models it also activates Nrf2. The ITP classified it as an Nrf2 activator.",
+   "pathways": [
+    "lipid-peroxidation",
+    "direct-scavenging",
+    "nrf2"
+   ],
+   "interactions": "Overlaps with other carotenoids. High-dose beta-carotene harmed smokers ([beta-carotene-supplement]); astaxanthin has no such signal but has never been tested in trials of that size.",
+   "caveats": "The MDA result is mostly from TBARS-type assays, which are non-specific. Many trials are small and industry-supplied.",
+   "debate": "Proponents cite a meta-analysis showing reduced MDA and, in diabetes, IL-6 [lon-ma2022], improved exercise performance with training [lon-liu2024], and the ITP male lifespan extension [lon-harrison2024]; Ames lists it as a putative 'longevity vitamin' [lon-ames2018]. Skeptics note the absence of any clinical outcome trial, the male-only mouse effect, and that cognition outcomes were null or marginal [lon-liu2024]. Regulators disagree on safe intake: EFSA's 2 mg/day versus a review arguing natural astaxanthin is safe at 12 mg/day or more [lon-brendler2019].",
+   "key_numbers": [
+    {
+     "label": "Male mouse median lifespan (ITP)",
+     "value": 12,
+     "unit": "% increase",
+     "source": "lon-harrison2024"
+    },
+    {
+     "label": "Blood MDA effect",
+     "value": -0.95,
+     "unit": "SMD",
+     "source": "lon-ma2022"
+    }
+   ],
+   "refs": [
+    "lon-brendler2019",
+    "lon-ma2022",
+    "lon-harrison2024",
+    "lon-liu2024",
+    "lon-ames2018"
+   ]
+  },
+  {
+   "id": "alpha-lipoic-acid",
+   "name": "Alpha-lipoic acid (ALA)",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "moderate",
+   "headline": "600 mg/day ALA eases diabetic nerve-pain symptoms over weeks, but a 4-year trial missed its main endpoint with more serious adverse events, weight loss is only about 1.3 kg, and it can trigger insulin autoimmune hypoglycaemia in genetically susceptible people.",
+   "dose": {
+    "effective": "600 mg/day orally for symptomatic diabetic neuropathy; 600 mg/day IV for 3 weeks in clinical settings",
+    "studied_range": "300-1800 mg/day orally for 5 weeks to 4 years",
+    "too_much": "Doses above 600 mg/day add nausea, vomiting and vertigo without more benefit; insulin autoimmune syndrome reported 30-120 days after starting 600 mg/day in HLA-DRB1*04:03 or *04:06 carriers",
+    "timeframe": "Symptom relief within 3-5 weeks; no structural nerve benefit over 4 years",
+    "notes": "Not a general longevity supplement. The egg- and sperm-specific evidence is on the same page."
+   },
+   "mechanism": "A mitochondrial enzyme cofactor (pyruvate and alpha-ketoglutarate dehydrogenase). As a free supplement, ALA and its reduced form dihydrolipoate scavenge radicals, chelate metals, help recycle vitamins C and E and glutathione, and can activate Nrf2. Its thiol groups explain the immune reaction to insulin in susceptible people.",
+   "pathways": [
+    "glutathione",
+    "direct-scavenging",
+    "nrf2"
+   ],
+   "interactions": "May add to glucose-lowering drugs; watch for hypoglycaemia. Overlaps with [n-acetylcysteine] as a thiol antioxidant.",
+   "caveats": "Neuropathy symptom trials are short and mostly from one network; the 4-year NATHAN 1 trial was negative on its primary endpoint. Unexplained low blood sugar in someone taking ALA warrants testing for insulin autoimmune syndrome.",
+   "debate": "Short trials and a meta-analysis show symptom relief, particularly with IV dosing [lon-ziegler2006, lon-mijnhout2012], while the long NATHAN 1 trial found no effect on the primary composite outcome, only on some secondary scores, and more serious adverse events on ALA (38% vs 28%) [lon-ziegler2011]. The meta-analysts themselves questioned the clinical relevance of oral dosing [lon-mijnhout2012]. Weight-loss effects are statistically significant but small [lon-kucukgoncu2017]. Case series show a rare but serious autoimmune risk [lon-gullo2014].",
+   "key_numbers": [
+    {
+     "label": "Symptom score reduction, 600 mg (vs 32% placebo)",
+     "value": 51,
+     "unit": "%",
+     "source": "lon-ziegler2006"
+    },
+    {
+     "label": "Extra weight loss vs placebo",
+     "value": 1.27,
+     "unit": "kg",
+     "source": "lon-kucukgoncu2017"
+    },
+    {
+     "label": "Serious adverse events, ALA vs placebo",
+     "value": 38.1,
+     "unit": "% vs 28.0%",
+     "source": "lon-ziegler2011"
+    }
+   ],
+   "refs": [
+    "lon-ziegler2006",
+    "lon-ziegler2011",
+    "lon-mijnhout2012",
+    "lon-kucukgoncu2017",
+    "lon-gullo2014"
+   ]
+  },
+  {
+   "id": "pqq",
+   "name": "Pyrroloquinoline quinone (PQQ)",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 0
+   },
+   "evidence": "limited",
+   "headline": "Marketed for 'mitochondrial biogenesis', PQQ raised muscle PGC-1alpha but not aerobic performance in a 23-man trial; cognition trials are small and manufacturer-linked.",
+   "dose": {
+    "effective": "No proven clinical dose; 20 mg/day is typical",
+    "studied_range": "0.2-0.3 mg/kg in a 10-person study; 20-21.5 mg/day for 6-12 weeks",
+    "too_much": "EFSA judged up to 20 mg/day safe for healthy adults, excluding pregnant and breastfeeding women",
+    "timeframe": "Trials ran 6-12 weeks",
+    "notes": "The proposed supplement dose is at least 250 times typical dietary intake."
+   },
+   "mechanism": "A redox-cycling quinone made by bacteria and present in trace amounts in foods. In animals it influences mitochondrial biogenesis signalling (PGC-1alpha) and acts as a redox cofactor; it is not a confirmed vitamin in humans.",
+   "pathways": [
+    "mitochondrial",
+    "redox-signaling"
+   ],
+   "interactions": "Often sold with [coq10]; no evidence for the combination. Exercise is a far stronger trigger of mitochondrial biogenesis ([aerobic-exercise-moderate]).",
+   "caveats": "Human data are tiny and short. The 'longevity vitamin' label is a hypothesis, not evidence.",
+   "debate": "Supporters cite lower CRP and IL-6 in a 10-person study [lon-harris2013], better cognitive test scores in two small Japanese RCTs of branded PQQ products [lon-itoh2016, lon-shiojima2022], and Ames's proposal of PQQ as a longevity vitamin [lon-ames2018]. In the only exercise trial, PQQ raised PGC-1alpha protein but did not improve aerobic performance beyond training alone [lon-hwang2020]. EFSA addressed safety, not efficacy [lon-efsa2017pqq].",
+   "key_numbers": [
+    {
+     "label": "EFSA maximum safe intake",
+     "value": 20,
+     "unit": "mg/day",
+     "source": "lon-efsa2017pqq"
+    }
+   ],
+   "refs": [
+    "lon-harris2013",
+    "lon-hwang2020",
+    "lon-efsa2017pqq",
+    "lon-itoh2016",
+    "lon-shiojima2022",
+    "lon-ames2018"
+   ]
+  },
+  {
+   "id": "carnosine",
+   "name": "Carnosine and anserine",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Carnosine and anserine (meat dipeptides) lowered HbA1c by about 0.8% and waist by 3.5 cm in a meta-analysis of mostly small trials, and anserine slightly slowed decline in one 30-person MCI trial; anti-glycation claims are mainly experimental.",
+   "dose": {
+    "effective": "Carnosine 2 g/day (glucose pilot); anserine 500 mg/day (cognition pilot)",
+    "studied_range": "About 0.5-2 g/day for 8-12 weeks; beta-alanine (the precursor) is used to raise muscle carnosine",
+    "too_much": "No serious adverse events reported in the small trials",
+    "timeframe": "Effects measured at 12 weeks",
+    "notes": "Oral carnosine is partly broken down in blood by carnosinase. Meat and fish are the dietary sources."
+   },
+   "mechanism": "Histidine-containing dipeptides buffer acid in muscle, chelate copper and zinc, quench reactive carbonyls and inhibit advanced glycation end-product formation, and scavenge hypochlorous acid in experimental systems.",
+   "pathways": [
+    "glycation-ages",
+    "direct-scavenging",
+    "iron-fenton"
+   ],
+   "interactions": "Relevant mainly to [glycemic-control]; no evidence it adds to diet and exercise measures.",
+   "caveats": "Human trials are few and small; the glycaemic meta-analyses pooled heterogeneous populations, and one included only four human studies.",
+   "debate": "Two meta-analyses report glycaemic benefits [lon-menon2020, lon-matthews2021], supported by a 30-person pilot [lon-decourten2016] and mechanistic reviews [lon-boldyrev2013]. The evidence base is thin (Matthews rated human certainty moderate but on four studies) and effects shrank in low-bias trials [lon-menon2020]; the cognition evidence is a single small Japanese trial [lon-masuoka2021]. No critical commentary was found, which reflects limited attention rather than consensus.",
+   "key_numbers": [
+    {
+     "label": "HbA1c change (meta-analysis)",
+     "value": -0.76,
+     "unit": "%",
+     "source": "lon-menon2020"
+    },
+    {
+     "label": "Waist circumference change",
+     "value": -3.53,
+     "unit": "cm",
+     "source": "lon-menon2020"
+    }
+   ],
+   "refs": [
+    "lon-boldyrev2013",
+    "lon-decourten2016",
+    "lon-menon2020",
+    "lon-matthews2021",
+    "lon-masuoka2021"
+   ]
+  },
+  {
+   "id": "ergothioneine",
+   "name": "Ergothioneine (mushrooms)",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 0
+   },
+   "evidence": "limited",
+   "headline": "Higher blood ergothioneine (mainly from mushrooms) is linked to 14% lower mortality per SD in a Swedish cohort, and the body has a dedicated transporter for it, but supplement trials are tiny and show only trends.",
+   "dose": {
+    "effective": "No proven supplement dose; eating mushrooms regularly is the practical source",
+    "studied_range": "Supplements 5-25 mg/day for weeks; 25 mg three times weekly for one year in an MCI pilot",
+    "too_much": "EFSA judged synthetic ergothioneine safe at proposed levels, including in pregnancy and for young children (NOAEL 800 mg/kg/day in animals)",
+    "timeframe": "Blood levels rise within days and the compound is retained for weeks",
+    "notes": "Mushrooms are by far the richest food source; mushroom intake was linked to modestly lower all-cause mortality in cohort studies."
+   },
+   "mechanism": "A sulfur-containing histidine derivative made only by fungi and some bacteria. Humans absorb and concentrate it through the OCTN1 (SLC22A4) transporter in red cells, immune cells and other tissues. It scavenges radicals and chelates metals, and may act mainly under oxidative stress.",
+   "pathways": [
+    "direct-scavenging",
+    "iron-fenton"
+   ],
+   "interactions": "Comes packaged with fibre and other compounds in mushrooms; overlaps with diet-pattern benefits such as [mediterranean-diet].",
+   "caveats": "Blood ergothioneine is a marker of a health-conscious diet, so cohort links may be confounded. Supplement trials measured biomarkers in small groups; the MCI pilot had 19 participants.",
+   "debate": "Halliwell and Ames argue ergothioneine may be a 'longevity vitamin' because the body actively concentrates it and levels fall with age and cognitive decline [lon-halliwell2018, lon-ames2018, lon-cheah2016]; the Malmo cohort found strong links with lower mortality [lon-smith2020]. But the cohort authors identified it as a marker of a healthy food pattern, the mushroom-mortality meta-analysis showed only a small association (RR 0.94) and a null NHANES estimate [lon-ba2021], and supplementation produced mostly non-significant biomarker changes [lon-cheah2017]. The only cognitive trial is a 19-person pilot [lon-yau2024].",
+   "key_numbers": [
+    {
+     "label": "All-cause mortality HR per SD higher ergothioneine",
+     "value": 0.86,
+     "unit": "HR",
+     "source": "lon-smith2020"
+    },
+    {
+     "label": "Mushroom intake and all-cause mortality",
+     "value": 0.94,
+     "unit": "pooled RR",
+     "source": "lon-ba2021"
+    }
+   ],
+   "refs": [
+    "lon-grundemann2005",
+    "lon-halliwell2018",
+    "lon-smith2020",
+    "lon-cheah2017",
+    "lon-cheah2016",
+    "lon-yau2024",
+    "lon-ba2021",
+    "lon-efsa2017erg",
+    "lon-ames2018"
+   ]
+  },
+  {
+   "id": "methylene-blue",
+   "name": "Methylene blue (as a 'mitochondrial' longevity supplement)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Promoted online as a mitochondrial enhancer, methylene blue did not extend mouse median lifespan in the ITP and its derivative failed a phase 3 Alzheimer trial, while it is a potent MAO-A inhibitor that can cause fatal serotonin toxicity with common antidepressants.",
+   "dose": {
+    "effective": "No proven anti-aging dose; medical uses (e.g. methaemoglobinaemia) are supervised IV doses of about 1-7.5 mg/kg",
+    "studied_range": "Single low oral doses in imaging studies; 195 mg/day in a bipolar trial; LMTM 8-250 mg/day in Alzheimer trials",
+    "too_much": "Severe serotonin toxicity reported at about 1 mg/kg in people taking serotonin reuptake inhibitors; high doses of the oxidized form can cause methaemoglobinaemia",
+    "timeframe": "Acute fMRI effects within an hour; no long-term benefit shown",
+    "notes": "Non-pharmaceutical-grade 'nootropic' products may contain impurities and are not standardized. Anyone on antidepressants should not take it without medical advice."
+   },
+   "mechanism": "A redox dye that shuttles electrons between NADH and cytochrome c, bypassing complex I-III blocks in the respiratory chain; at low doses it enhanced cytochrome oxidase and memory in animal models. It is also a tight-binding MAO-A inhibitor, which is the basis of its main interaction risk.",
+   "pathways": [
+    "mitochondrial",
+    "redox-signaling"
+   ],
+   "interactions": "Dangerous with serotonin reuptake inhibitors (SSRIs, SNRIs, clomipramine) and other serotonergic drugs because of MAO-A inhibition.",
+   "caveats": "The human evidence for cognition is a 26-person single-dose imaging study; the Alzheimer phase 3 trial was negative. It is a prescription drug in medical use, and social-media dosing advice ignores its interaction profile.",
+   "debate": "Gonzalez-Lima and colleagues argue low-dose methylene blue enhances mitochondrial respiration and memory [lon-rojas2012], citing a small human fMRI study [lon-rodriguez2016]; a bipolar crossover trial found improved residual depression [lon-alda2017]. Against this, the ITP found no median lifespan effect in mice [lon-harrison2014], the 891-person phase 3 trial of the derivative LMTM was negative [lon-gauthier2016], and pharmacologists warn that all proposed doses reach MAO-A-inhibiting levels [lon-ramsay2007, lon-gillman2011]. Sponsor-employed authors later argued that the low-dose 'control' arm was itself pharmacologically active, which would mask a benefit [lon-vanmaanen2026]; this is a post-hoc, conflicted explanation that has not been confirmed by an independent trial.",
+   "key_numbers": [
+    {
+     "label": "Dose associated with severe serotonin toxicity",
+     "value": 1,
+     "unit": "mg/kg",
+     "source": "lon-gillman2011"
+    },
+    {
+     "label": "Alzheimer phase 3 participants (negative)",
+     "value": 891,
+     "unit": "participants",
+     "source": "lon-gauthier2016"
+    }
+   ],
+   "refs": [
+    "lon-ramsay2007",
+    "lon-gillman2011",
+    "lon-rojas2012",
+    "lon-rodriguez2016",
+    "lon-gauthier2016",
+    "lon-vanmaanen2026",
+    "lon-alda2017",
+    "lon-harrison2014"
+   ]
+  },
+  {
+   "id": "rapamycin",
+   "name": "Rapamycin (sirolimus), off-label for longevity",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Rapamycin is the most reproducible drug for extending mouse lifespan, but in humans the year-long PEARL trial (5-10 mg weekly) found no change in its primary outcome, visceral fat; it is a prescription immunosuppressant with real risks.",
+   "dose": {
+    "effective": "No proven longevity dose in humans; PEARL used 5 or 10 mg compounded rapamycin once weekly",
+    "studied_range": "Weekly 5-10 mg (PEARL, 48 weeks); low-dose everolimus or combined TORC1 inhibitors for 6 weeks in immune-function trials",
+    "too_much": "Transplant-level daily dosing causes immunosuppression, infections, raised cholesterol and triglycerides, and impaired glucose control (mTORC2 disruption in mice)",
+    "timeframe": "Immune effects after 6 weeks; PEARL ran 48 weeks",
+    "notes": "Prescription-only; off-label use should be medically supervised with monitoring of lipids, glucose and blood counts. Compounded products vary in bioavailability."
+   },
+   "mechanism": "Inhibits mTORC1, the nutrient-sensing kinase that drives growth and suppresses autophagy; this mimics aspects of calorie restriction. Chronic exposure also disrupts mTORC2, which causes insulin resistance. Effects on oxidative stress are indirect, through improved mitochondrial quality control.",
+   "pathways": [
+    "inflammation-nfkb",
+    "mitochondrial"
+   ],
+   "interactions": "Has many drug interactions; review all medicines with a prescriber. Overlaps conceptually with energy restriction and exercise, which also lower mTORC1 signalling.",
+   "caveats": "Human data are short and mostly surrogate. The off-label user survey is self-selected and partly authored by people with commercial interests in longevity medicine.",
+   "debate": "Mouse data are robust: rapamycin extended lifespan even when started late in life [lon-harrison2009], and low-dose mTOR inhibitors improved vaccine responses and reduced infections in older adults [lon-mannick2014, lon-mannick2018]. But PEARL missed its primary endpoint, with benefits only in subgroups [lon-moel2025]; a systematic review found some immune and cardiovascular improvements but more infections and higher lipids in patients [lon-lee2024]; and insulin resistance via mTORC2 is a known mechanism-based risk [lon-lamming2012]. Supporters cite a survey of 333 off-label users as evidence of safety [lon-kaeberlein2023], but that design cannot detect benefits or uncommon harms.",
+   "key_numbers": [
+    {
+     "label": "Mouse 90th-percentile lifespan, females",
+     "value": 14,
+     "unit": "% increase",
+     "source": "lon-harrison2009"
+    },
+    {
+     "label": "Influenza vaccine response with everolimus",
+     "value": 20,
+     "unit": "% improvement",
+     "source": "lon-mannick2014"
+    }
+   ],
+   "refs": [
+    "lon-harrison2009",
+    "lon-mannick2014",
+    "lon-mannick2018",
+    "lon-lamming2012",
+    "lon-moel2025",
+    "lon-kaeberlein2023",
+    "lon-lee2024"
+   ]
   }
  ],
  "mechanisms": [
@@ -1560,6 +2269,44 @@
     "nut-kakhlon2002",
     "nut-ni2022",
     "nut-ursini1999"
+   ]
+  },
+  {
+   "id": "mitohormesis",
+   "name": "Mitohormesis (adaptive signalling from mitochondrial ROS)",
+   "description": "Mitohormesis is the idea that a small, transient rise in mitochondrial reactive oxygen species is a useful signal rather than pure damage. Ristow's group showed in worms that restricting glucose raised mitochondrial respiration and ROS, induced catalase and stress resistance, and extended lifespan, and that feeding antioxidants abolished the extension. In young men, vitamin C 1000 mg plus vitamin E 400 IU a day blocked the rise in insulin sensitivity and in the body's own antioxidant enzymes that four weeks of training normally produces. Finkel and colleagues describe the general pattern: mild mitochondrial stress switches on cytosolic signalling and nuclear gene programmes that leave cells more resistant to later stress. In worms, deleting the mitochondrial superoxide dismutase gene sod-2 actually lengthened life despite more protein oxidation. Mitohormesis explains two otherwise puzzling facts: why exercise and energy restriction, which raise ROS production in the short term, are healthy, and why high-dose antioxidant supplements have failed or harmed in large trials. It does not mean more ROS is always better. The response is dose-dependent, and chronic high oxidant exposure (smoking, uncontrolled diabetes) still causes damage. The evidence in mammals for lifespan effects is much thinner than in worms, and the human evidence rests mainly on exercise-adaptation studies.",
+   "refs": [
+    "lon-schulz2007",
+    "lon-ristow2009",
+    "lon-ristow2010",
+    "lon-ristow2014",
+    "lon-yun2014",
+    "lon-vanraamsdonk2009",
+    "lon-bjelakovic2012"
+   ]
+  },
+  {
+   "id": "free-radical-theory-aging",
+   "name": "Free-radical (oxidative damage) theory of aging and its revision",
+   "description": "In 1956 Denham Harman proposed that aging is caused by the slow build-up of damage from free radicals made during normal metabolism, and in 1972 he pointed to mitochondria as both the main source and the main target. The theory dominated aging research for decades and is the origin of the idea that antioxidant supplements should slow aging. Direct genetic tests in mice largely failed it. Mice with half the mitochondrial superoxide dismutase (Sod2+/-), or with Gpx1 deleted on top of that, had more oxidative DNA and protein damage and more cancer but lived just as long. Overexpressing SOD, catalase or both did not extend lifespan. Of 18 antioxidant-gene manipulations tested by one group, only Sod1 deletion changed lifespan (it shortened it, mainly through liver cancer). Naked mole-rats, which live more than 28 years, carry more lipid, protein and DNA oxidation than mice from a young age. Mice that accumulate mitochondrial DNA mutations age prematurely without producing more ROS. Large antioxidant-supplement trials in humans did not lower mortality. The main exception is catalase targeted to mitochondria, which extended mouse lifespan by about 5 months and reduced cardiac aging and cancer burden, suggesting that oxidative damage in specific places contributes to specific age-related diseases. Current views split three ways. Defenders such as Barja argue an updated mitochondrial version still explains why long-lived species have low mitochondrial ROS production and oxidation-resistant membranes. Sies and others reframe ROS as signals, with low levels ('eustress') needed for health. Gladyshev argues oxidative damage is just one part of a broader 'deleteriome', the sum of all the by-products of imperfect biological processes that accumulate with age.",
+   "refs": [
+    "lon-harman1956",
+    "lon-harman1972",
+    "lon-vanremmen2003",
+    "lon-zhang2009",
+    "lon-perez2009a",
+    "lon-perez2009b",
+    "lon-elchuri2005",
+    "lon-andziak2006",
+    "lon-perez2009c",
+    "lon-trifunovic2005",
+    "lon-bjelakovic2012",
+    "lon-schriner2005",
+    "lon-dai2009",
+    "lon-barja2013",
+    "lon-sies2017",
+    "lon-gladyshev2014",
+    "lon-gladyshev2016"
    ]
   }
  ],
@@ -4252,6 +4999,1664 @@
    "type": "rct",
    "n": "Healthy adults (same trial design)",
    "finding": "High-quality fish oil (PV 4) lowered IDL and LDL particle subclasses compared with oxidized fish oil (PV 18, AV 9) and high-oleic sunflower oil."
+  },
+  {
+   "id": "lon-alda2017",
+   "authors": "Alda M, McKinnon M, Blagdon R, et al.",
+   "year": 2017,
+   "title": "Methylene blue treatment for residual symptoms of bipolar disorder: randomised crossover study",
+   "journal": "Br J Psychiatry",
+   "pmid": "27284082",
+   "doi": "10.1192/bjp.bp.115.173930",
+   "type": "rct",
+   "n": "37 people with bipolar disorder (crossover)",
+   "finding": "Methylene blue 195 mg/day vs 15 mg added to lamotrigine improved residual depression and anxiety, but not cognition."
+  },
+  {
+   "id": "lon-ames2018",
+   "authors": "Ames BN",
+   "year": 2018,
+   "title": "Prolonging healthy aging: Longevity vitamins and proteins",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "30322941",
+   "doi": "10.1073/pnas.1809045115",
+   "type": "review",
+   "n": null,
+   "finding": "Proposed 'longevity vitamins', including ergothioneine, PQQ and astaxanthin, and taurine as a conditional vitamin, based largely on mechanistic and observational reasoning."
+  },
+  {
+   "id": "lon-andziak2006",
+   "authors": "Andziak B, Buffenstein R",
+   "year": 2006,
+   "title": "Disparate patterns of age-related changes in lipid peroxidation in long-lived naked mole-rats and shorter-lived mice",
+   "journal": "Aging Cell",
+   "pmid": "17129214",
+   "doi": "10.1111/j.1474-9726.2006.00246.x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Young naked mole-rats (lifespan >28 years) had at least twice the lipid peroxidation (urinary isoprostanes, liver MDA) of mice (lifespan ~3.5 years)."
+  },
+  {
+   "id": "lon-anisimov2011",
+   "authors": "Anisimov VN, Egorov MV, Krasilshchikova MS, et al.",
+   "year": 2011,
+   "title": "Effects of the mitochondria-targeted antioxidant SkQ1 on lifespan of rodents",
+   "journal": "Aging (Albany NY)",
+   "pmid": "22166671",
+   "doi": "10.18632/aging.100404",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "SkQ1 increased lifespan in some mouse strains and housing conditions, with effects strongly dependent on vivarium pathogen status and sex."
+  },
+  {
+   "id": "lon-antonio2021",
+   "authors": "Antonio J, Candow DG, Forbes SC, et al.",
+   "year": 2021,
+   "title": "Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show?",
+   "journal": "J Int Soc Sports Nutr",
+   "pmid": "33557850",
+   "doi": "10.1186/s12970-021-00412-w",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews misconceptions: creatine does not harm healthy kidneys, does not cause dehydration or cramps, and has no consistent link to hair loss."
+  },
+  {
+   "id": "lon-avgerinos2018",
+   "authors": "Avgerinos KI, Spyrou N, Bougioukas KI, et al.",
+   "year": 2018,
+   "title": "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials",
+   "journal": "Exp Gerontol",
+   "pmid": "29704637",
+   "doi": "10.1016/j.exger.2018.04.013",
+   "type": "review",
+   "n": "6 RCTs, 281 people",
+   "finding": "Systematic review: creatine may improve short-term memory and reasoning in healthy people, especially vegetarians; other domains were inconsistent and young people showed little effect."
+  },
+  {
+   "id": "lon-ba2021",
+   "authors": "Ba DM, Gao X, Al-Shaar L, et al.",
+   "year": 2021,
+   "title": "Prospective study of dietary mushroom intake and risk of mortality: results from continuous National Health and Nutrition Examination Survey (NHANES) 2003-2014 and a meta-analysis",
+   "journal": "Nutr J",
+   "pmid": "34548082",
+   "doi": "10.1186/s12937-021-00738-w",
+   "type": "meta-analysis",
+   "n": "601,893 individuals in 5 cohorts",
+   "finding": "Mushroom intake was associated with slightly lower all-cause mortality (pooled RR 0.94) in cohort studies; the NHANES analysis alone was non-significant."
+  },
+  {
+   "id": "lon-bannai2012",
+   "authors": "Bannai M, Kawai N, Ono K, et al.",
+   "year": 2012,
+   "title": "The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers",
+   "journal": "Front Neurol",
+   "pmid": "22529837",
+   "doi": "10.3389/fneur.2012.00061",
+   "type": "rct",
+   "n": "healthy sleep-restricted volunteers (small crossover)",
+   "finding": "3 g glycine before bed during 3 nights of 25% sleep restriction reduced daytime fatigue and improved psychomotor vigilance compared with placebo."
+  },
+  {
+   "id": "lon-barja2013",
+   "authors": "Barja G",
+   "year": 2013,
+   "title": "Updating the mitochondrial free radical theory of aging: an integrated view, key aspects, and confounding concepts",
+   "journal": "Antioxid Redox Signal",
+   "pmid": "23642158",
+   "doi": "10.1089/ars.2012.5148",
+   "type": "review",
+   "n": null,
+   "finding": "Defends an updated mitochondrial free-radical theory: long-lived animals have low mitochondrial ROS generation (complex I) and oxidation-resistant macromolecules; many criticisms rest on misconceptions."
+  },
+  {
+   "id": "lon-besag2019",
+   "authors": "Besag FMC, Vasey MJ, Lao KSJ, et al.",
+   "year": 2019,
+   "title": "Adverse Events Associated with Melatonin for the Treatment of Primary or Secondary Sleep Disorders: A Systematic Review",
+   "journal": "CNS Drugs",
+   "pmid": "31722088",
+   "doi": "10.1007/s40263-019-00680-w",
+   "type": "review",
+   "n": "37 RCTs",
+   "finding": "Systematic review: melatonin adverse events in sleep-disorder trials were generally mild and short-lived (e.g., daytime sleepiness, headache, dizziness), but long-term data are scarce."
+  },
+  {
+   "id": "lon-besag2022",
+   "authors": "Besag FMC, Vasey MJ",
+   "year": 2022,
+   "title": "Adverse events in long-term studies of exogenous melatonin",
+   "journal": "Expert Opin Drug Saf",
+   "pmid": "36562403",
+   "doi": "10.1080/14740338.2022.2160444",
+   "type": "review",
+   "n": null,
+   "finding": "Long-term (6 months or more) melatonin studies report few clinically significant adverse events, but placebo-controlled long-term data are scarce."
+  },
+  {
+   "id": "lon-bjelakovic2012",
+   "authors": "Bjelakovic G, Nikolova D, Gluud LL, et al.",
+   "year": 2012,
+   "title": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "22419320",
+   "doi": "10.1002/14651858.CD007176.pub2",
+   "type": "meta-analysis",
+   "n": "78 RCTs, 296,707 participants",
+   "finding": "Antioxidant supplements did not reduce mortality; in low-bias trials beta-carotene, vitamin E and higher-dose vitamin A slightly increased it (RR 1.04 overall)."
+  },
+  {
+   "id": "lon-boldyrev2013",
+   "authors": "Boldyrev AA, Aldini G, Derave W",
+   "year": 2013,
+   "title": "Physiology and pathophysiology of carnosine",
+   "journal": "Physiol Rev",
+   "pmid": "24137022",
+   "doi": "10.1152/physrev.00039.2012",
+   "type": "review",
+   "n": null,
+   "finding": "Carnosine (beta-alanyl-L-histidine) is abundant in muscle and brain and acts as a pH buffer, metal chelator, antioxidant and anti-glycation agent in experimental models."
+  },
+  {
+   "id": "lon-brakedal2022",
+   "authors": "Brakedal B, Dölle C, Riemer F, et al.",
+   "year": 2022,
+   "title": "The NADPARK study: A randomized phase I trial of nicotinamide riboside supplementation in Parkinson's disease",
+   "journal": "Cell Metab",
+   "pmid": "35235774",
+   "doi": "10.1016/j.cmet.2022.02.001",
+   "type": "rct",
+   "n": "30 people with newly diagnosed Parkinson disease",
+   "finding": "NR 1000 mg/day for 30 days raised brain NAD levels in some patients and lowered inflammatory cytokines, with mild clinical improvement in responders (phase I)."
+  },
+  {
+   "id": "lon-brendler2019",
+   "authors": "Brendler T, Williamson EM",
+   "year": 2019,
+   "title": "Astaxanthin: How much is too much? A safety review",
+   "journal": "Phytother Res",
+   "pmid": "31788888",
+   "doi": "10.1002/ptr.6514",
+   "type": "review",
+   "n": null,
+   "finding": "Of 87 human studies of natural astaxanthin, none found safety concerns, 35 at 12 mg/day or more; approved doses range 2-24 mg/day, and EFSA's 2 mg ADI was based on synthetic astaxanthin in rats."
+  },
+  {
+   "id": "lon-brenner2021",
+   "authors": "Brenner C",
+   "year": 2021,
+   "title": "Comment on \"Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women\"",
+   "journal": "Science",
+   "pmid": "34326206",
+   "doi": "10.1126/science.abj1696",
+   "type": "review",
+   "n": null,
+   "finding": "Comment arguing the Yoshino NMN trial was not effectively randomized: the NMN group had far less liver fat at baseline (6.3% vs 14.8%)."
+  },
+  {
+   "id": "lon-broome2022",
+   "authors": "Broome SC, Atiola RD, Braakhuis AJ, et al.",
+   "year": 2022,
+   "title": "Mitochondria-targeted antioxidant supplementation does not affect muscle soreness or recovery of maximal voluntary isometric contraction force following muscle-damaging exercise in untrained men: a randomized clinical trial",
+   "journal": "Appl Physiol Nutr Metab",
+   "pmid": "35201920",
+   "doi": "10.1139/apnm-2021-0767",
+   "type": "rct",
+   "n": "32 untrained men",
+   "finding": "MitoQ 20 mg/day for 14 days did not reduce muscle soreness after eccentric exercise, delayed recovery of eccentric torque and increased creatine kinase."
+  },
+  {
+   "id": "lon-brzheskiy2015",
+   "authors": "Brzheskiy VV, Efimova EL, Vorontsova TN, et al.",
+   "year": 2015,
+   "title": "Results of a Multicenter, Randomized, Double-Masked, Placebo-Controlled Clinical Study of the Efficacy and Safety of Visomitin Eye Drops in Patients with Dry Eye Syndrome",
+   "journal": "Adv Ther",
+   "pmid": "26660938",
+   "doi": "10.1007/s12325-015-0273-6",
+   "type": "rct",
+   "n": "adults with dry eye syndrome",
+   "finding": "Visomitin (SkQ1) eye drops three times daily for 6 weeks improved tear film stability and dry eye symptoms vs placebo (company-funded)."
+  },
+  {
+   "id": "lon-cheah2016",
+   "authors": "Cheah IK, Feng L, Tang RMY, et al.",
+   "year": 2016,
+   "title": "Ergothioneine levels in an elderly population decrease with age and incidence of cognitive decline; a risk factor for neurodegeneration?",
+   "journal": "Biochem Biophys Res Commun",
+   "pmid": "27444382",
+   "doi": "10.1016/j.bbrc.2016.07.074",
+   "type": "cross-sectional",
+   "n": "elderly Singapore adults",
+   "finding": "Whole-blood ergothioneine declined after age 60 and was lower in people with mild cognitive impairment."
+  },
+  {
+   "id": "lon-cheah2017",
+   "authors": "Cheah IK, Tang RM, Yew TS, et al.",
+   "year": 2017,
+   "title": "Administration of Pure Ergothioneine to Healthy Human Subjects: Uptake, Metabolism, and Effects on Biomarkers of Oxidative Damage and Inflammation",
+   "journal": "Antioxid Redox Signal",
+   "pmid": "27488221",
+   "doi": "10.1089/ars.2016.6778",
+   "type": "rct",
+   "n": "healthy adults",
+   "finding": "Oral pure ergothioneine was avidly absorbed and retained; oxidative damage and inflammation markers showed mostly non-significant downward trends."
+  },
+  {
+   "id": "lon-chilibeck2017",
+   "authors": "Chilibeck PD, Kaviani M, Candow DG, et al.",
+   "year": 2017,
+   "title": "Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis",
+   "journal": "Open Access J Sports Med",
+   "pmid": "29138605",
+   "doi": "10.2147/OAJSM.S123529",
+   "type": "meta-analysis",
+   "n": "22 RCTs, 721 older adults",
+   "finding": "Creatine during resistance training added 1.37 kg lean mass and improved chest press (SMD 0.35) and leg press (SMD 0.24) strength."
+  },
+  {
+   "id": "lon-cohen2023",
+   "authors": "Cohen PA, Avula B, Wang YH, et al.",
+   "year": 2023,
+   "title": "Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US",
+   "journal": "JAMA",
+   "pmid": "37097362",
+   "doi": "10.1001/jama.2023.2296",
+   "type": "cross-sectional",
+   "n": "25 gummy products",
+   "finding": "In US melatonin gummies, actual melatonin ranged from 74% to 347% of the label; only 3 of 25 were within 10%, and one contained undeclared CBD and no melatonin."
+  },
+  {
+   "id": "lon-conze2019",
+   "authors": "Conze D, Brenner C, Kruger CL",
+   "year": 2019,
+   "title": "Safety and Metabolism of Long-term Administration of NIAGEN (Nicotinamide Riboside Chloride) in a Randomized, Double-Blind, Placebo-controlled Clinical Trial of Healthy Overweight Adults",
+   "journal": "Sci Rep",
+   "pmid": "31278280",
+   "doi": "10.1038/s41598-019-46120-z",
+   "type": "rct",
+   "n": "overweight but otherwise healthy adults",
+   "finding": "NR 100, 300 or 1000 mg/day for 8 weeks raised whole-blood NAD+ by 22%, 51% and 142% with no excess adverse events."
+  },
+  {
+   "id": "lon-cruzsanabria2024",
+   "authors": "Cruz-Sanabria F, Bruno S, Crippa A, et al.",
+   "year": 2024,
+   "title": "Optimizing the Time and Dose of Melatonin as a Sleep-Promoting Drug: A Systematic Review of Randomized Controlled Trials and Dose-Response Meta-Analysis",
+   "journal": "J Pineal Res",
+   "pmid": "38888087",
+   "doi": "10.1111/jpi.12985",
+   "type": "meta-analysis",
+   "n": "26 RCTs",
+   "finding": "Melatonin's effect on sleep onset and total sleep rose with dose up to about 4 mg/day, and taking it about 3 hours before bedtime worked better."
+  },
+  {
+   "id": "lon-dai2009",
+   "authors": "Dai DF, Santana LF, Vermulst M, et al.",
+   "year": 2009,
+   "title": "Overexpression of catalase targeted to mitochondria attenuates murine cardiac aging",
+   "journal": "Circulation",
+   "pmid": "19451351",
+   "doi": "10.1161/CIRCULATIONAHA.108.822403",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Mitochondrial catalase attenuated age-related cardiac hypertrophy, diastolic dysfunction, fibrosis and mitochondrial DNA mutations in mice."
+  },
+  {
+   "id": "lon-decourten2016",
+   "authors": "de Courten B, Jakubova M, de Courten MP, et al.",
+   "year": 2016,
+   "title": "Effects of carnosine supplementation on glucose metabolism: Pilot clinical trial",
+   "journal": "Obesity (Silver Spring)",
+   "pmid": "27040154",
+   "doi": "10.1002/oby.21434",
+   "type": "rct",
+   "n": "30 overweight or obese adults",
+   "finding": "Carnosine 2 g/day for 12 weeks prevented a rise in fasting insulin and insulin resistance seen on placebo (pilot)."
+  },
+  {
+   "id": "lon-desouzaesilva2019",
+   "authors": "de Souza E Silva A, Pertille A, Reis Barbosa CG, et al.",
+   "year": 2019,
+   "title": "Effects of Creatine Supplementation on Renal Function: A Systematic Review and Meta-Analysis",
+   "journal": "J Ren Nutr",
+   "pmid": "31375416",
+   "doi": "10.1053/j.jrn.2019.05.004",
+   "type": "meta-analysis",
+   "n": "6 studies in quantitative analysis",
+   "finding": "Creatine supplementation did not cause renal damage at studied doses and durations; small serum creatinine changes reflect creatine metabolism, not kidney injury."
+  },
+  {
+   "id": "lon-devries2014",
+   "authors": "Devries MC, Phillips SM",
+   "year": 2014,
+   "title": "Creatine supplementation during resistance training in older adults-a meta-analysis",
+   "journal": "Med Sci Sports Exerc",
+   "pmid": "24576864",
+   "doi": "10.1249/MSS.0000000000000220",
+   "type": "meta-analysis",
+   "n": "357 older adults",
+   "finding": "Adding creatine to resistance training in older adults increased fat-free mass and chest- and leg-press strength more than training alone."
+  },
+  {
+   "id": "lon-dollerup2018",
+   "authors": "Dollerup OL, Christensen B, Svart M, et al.",
+   "year": 2018,
+   "title": "A randomized placebo-controlled clinical trial of nicotinamide riboside in obese men: safety, insulin-sensitivity, and lipid-mobilizing effects",
+   "journal": "Am J Clin Nutr",
+   "pmid": "29992272",
+   "doi": "10.1093/ajcn/nqy132",
+   "type": "rct",
+   "n": "40 obese men",
+   "finding": "NR 2 g/day for 12 weeks was safe but did not improve insulin sensitivity, glucose metabolism, energy expenditure or body composition."
+  },
+  {
+   "id": "lon-dollerup2020",
+   "authors": "Dollerup OL, Chubanava S, Agerholm M, et al.",
+   "year": 2020,
+   "title": "Nicotinamide riboside does not alter mitochondrial respiration, content or morphology in skeletal muscle from obese and insulin-resistant men",
+   "journal": "J Physiol",
+   "pmid": "31710095",
+   "doi": "10.1113/JP278752",
+   "type": "rct",
+   "n": "40 obese insulin-resistant men",
+   "finding": "NR 2 g/day for 12 weeks did not change muscle mitochondrial respiration, content or morphology, or muscle NAD+ levels."
+  },
+  {
+   "id": "lon-eckert2023",
+   "authors": "Eckert I, Pascher E",
+   "year": 2023,
+   "title": "Letter to the Editor: Double-counting due to inadequate statistics leads to false-positive findings in \"Effects of creatine supplementation on memory in healthy individuals: a systematic review and meta-analysis of randomized controlled trials\"",
+   "journal": "Nutr Rev",
+   "pmid": "36644917",
+   "doi": "10.1093/nutrit/nuac108",
+   "type": "review",
+   "n": null,
+   "finding": "Letter arguing the Prokopidis creatine-memory meta-analysis double-counted data, inflating a possibly false-positive result."
+  },
+  {
+   "id": "lon-efsa2017erg",
+   "authors": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+   "year": 2017,
+   "title": "Statement on the safety of synthetic l-ergothioneine as a novel food - supplementary dietary exposure and safety assessment for infants and young children, pregnant and breastfeeding women",
+   "journal": "EFSA J",
+   "pmid": "32625352",
+   "doi": "10.2903/j.efsa.2017.5060",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA concluded synthetic L-ergothioneine is safe as a novel food at proposed use levels, including for pregnant and breastfeeding women and young children (NOAEL 800 mg/kg/day)."
+  },
+  {
+   "id": "lon-efsa2017pqq",
+   "authors": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+   "year": 2017,
+   "title": "Safety of pyrroloquinoline quinone disodium salt as a novel food pursuant to Regulation (EC) No 258/97",
+   "journal": "EFSA J",
+   "pmid": "32625350",
+   "doi": "10.2903/j.efsa.2017.5058",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA judged PQQ disodium salt safe as a novel food in supplements up to 20 mg/day for healthy adults (not pregnant or lactating women)."
+  },
+  {
+   "id": "lon-elchuri2005",
+   "authors": "Elchuri S, Oberley TD, Qi W, et al.",
+   "year": 2005,
+   "title": "CuZnSOD deficiency leads to persistent and widespread oxidative damage and hepatocarcinogenesis later in life",
+   "journal": "Oncogene",
+   "pmid": "15531919",
+   "doi": "10.1038/sj.onc.1208207",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Sod1-knockout mice had widespread oxidative damage, more than 70% developed liver nodules or carcinoma, and they had shorter lives."
+  },
+  {
+   "id": "lon-elhassan2019",
+   "authors": "Elhassan YS, Kluckova K, Fletcher RS, et al.",
+   "year": 2019,
+   "title": "Nicotinamide Riboside Augments the Aged Human Skeletal Muscle NAD(+) Metabolome and Induces Transcriptomic and Anti-inflammatory Signatures",
+   "journal": "Cell Rep",
+   "pmid": "31412242",
+   "doi": "10.1016/j.celrep.2019.07.043",
+   "type": "rct",
+   "n": "12 older men (crossover)",
+   "finding": "NR 1 g/day for 21 days raised the muscle NAD+ metabolome and lowered inflammatory cytokines but did not change mitochondrial bioenergetics."
+  },
+  {
+   "id": "lon-erland2017",
+   "authors": "Erland LA, Saxena PK",
+   "year": 2017,
+   "title": "Melatonin Natural Health Products and Supplements: Presence of Serotonin and Significant Variability of Melatonin Content",
+   "journal": "J Clin Sleep Med",
+   "pmid": "27855744",
+   "doi": "10.5664/jcsm.6462",
+   "type": "cross-sectional",
+   "n": "31 supplements",
+   "finding": "Melatonin content ranged from -83% to +478% of label; over 71% of products were outside 10% of label and 26% contained serotonin."
+  },
+  {
+   "id": "lon-fda2025nmn",
+   "authors": "US Food and Drug Administration, Human Foods Program",
+   "year": 2025,
+   "title": "Response letter to Natural Products Association and Alliance for Natural Health USA regarding the regulatory status of beta-nicotinamide mononucleotide (NMN), Docket FDA-2023-P-0872",
+   "journal": "FDA citizen petition response (regulations.gov)",
+   "pmid": null,
+   "doi": null,
+   "url": "https://downloads.regulations.gov/FDA-2023-P-0872-2754/attachment_1.pdf",
+   "type": "guideline",
+   "n": null,
+   "finding": "FDA reversed its 2022 position and determined that NMN is not excluded from the dietary supplement definition, granting the industry petition in part (September 29, 2025)."
+  },
+  {
+   "id": "lon-fdandi",
+   "authors": "US Food and Drug Administration",
+   "year": 2026,
+   "title": "Submitted 75-Day Premarket Notifications for New Dietary Ingredients",
+   "journal": "FDA database",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.fda.gov/food/new-dietary-ingredient-ndi-notification-process/submitted-75-day-premarket-notifications-new-dietary-ingredients",
+   "type": "database",
+   "n": null,
+   "finding": "Lists new-dietary-ingredient notifications for beta-NMN (NDIN 1444, filed November 2025, FDA response January 2026) and reduced NMN (NDIN 1451)."
+  },
+  {
+   "id": "lon-fernandez2025",
+   "authors": "Fernandez ME, Bernier M, Price NL, et al.",
+   "year": 2025,
+   "title": "Is taurine an aging biomarker?",
+   "journal": "Science",
+   "pmid": "40472098",
+   "doi": "10.1126/science.adl2116",
+   "type": "cohort",
+   "n": "three human cohorts plus monkeys and mice",
+   "finding": "Circulating taurine increased or stayed unchanged with age in three human cohorts, monkeys and mice measured longitudinally; links between taurine and health outcomes were inconsistent."
+  },
+  {
+   "id": "lon-ferracioliOda2013",
+   "authors": "Ferracioli-Oda E, Qawasmi A, Bloch MH",
+   "year": 2013,
+   "title": "Meta-analysis: melatonin for the treatment of primary sleep disorders",
+   "journal": "PLoS One",
+   "pmid": "23691095",
+   "doi": "10.1371/journal.pone.0063773",
+   "type": "meta-analysis",
+   "n": "19 RCTs, 1,683 participants",
+   "finding": "Melatonin shortened sleep onset by about 7 minutes and lengthened total sleep by about 8 minutes in primary sleep disorders, with small improvement in sleep quality."
+  },
+  {
+   "id": "lon-freeberg2023",
+   "authors": "Freeberg KA, Udovich CC, Martens CR, et al.",
+   "year": 2023,
+   "title": "Dietary Supplementation With NAD+-Boosting Compounds in Humans: Current Knowledge and Future Directions",
+   "journal": "J Gerontol A Biol Sci Med Sci",
+   "pmid": "37068054",
+   "doi": "10.1093/gerona/glad106",
+   "type": "review",
+   "n": null,
+   "finding": "NAD+-boosting compounds are safe and raise NAD+ metabolites in human tissues, but small, heterogeneous trials limit conclusions about physiological benefit."
+  },
+  {
+   "id": "lon-gane2010",
+   "authors": "Gane EJ, Weilert F, Orr DW, et al.",
+   "year": 2010,
+   "title": "The mitochondria-targeted anti-oxidant mitoquinone decreases liver damage in a phase II study of hepatitis C patients",
+   "journal": "Liver Int",
+   "pmid": "20492507",
+   "doi": "10.1111/j.1478-3231.2010.02250.x",
+   "type": "rct",
+   "n": "30 people with hepatitis C",
+   "finding": "MitoQ 40 or 80 mg/day for 28 days lowered liver enzymes (ALT) from baseline, but differences vs placebo were not significant and viral load was unchanged."
+  },
+  {
+   "id": "lon-gauthier2016",
+   "authors": "Gauthier S, Feldman HH, Schneider LS, et al.",
+   "year": 2016,
+   "title": "Efficacy and safety of tau-aggregation inhibitor therapy in patients with mild or moderate Alzheimer's disease: a randomised, controlled, double-blind, parallel-arm, phase 3 trial",
+   "journal": "Lancet",
+   "pmid": "27863809",
+   "doi": "10.1016/S0140-6736(16)31275-2",
+   "type": "rct",
+   "n": "891 people with mild-to-moderate Alzheimer disease",
+   "finding": "LMTM (a stabilized reduced methylene blue) at 75 or 125 mg twice daily for 15 months did not slow cognitive or functional decline (negative primary analysis)."
+  },
+  {
+   "id": "lon-ghorbaninejad2020",
+   "authors": "Ghorbaninejad P, Sheikhhossein F, Djafari F, et al.",
+   "year": 2020,
+   "title": "Effects of melatonin supplementation on oxidative stress: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Horm Mol Biol Clin Investig",
+   "pmid": "33185572",
+   "doi": "10.1515/hmbci-2020-0030",
+   "type": "meta-analysis",
+   "n": "15 RCTs",
+   "finding": "Melatonin raised total antioxidant capacity and lowered MDA and protein carbonyls, with high heterogeneity and mostly patient populations."
+  },
+  {
+   "id": "lon-gillman2011",
+   "authors": "Gillman PK",
+   "year": 2011,
+   "title": "CNS toxicity involving methylene blue: the exemplar for understanding and predicting drug interactions that precipitate serotonin toxicity",
+   "journal": "J Psychopharmacol",
+   "pmid": "20142303",
+   "doi": "10.1177/0269881109359098",
+   "type": "review",
+   "n": null,
+   "finding": "13 of 14 reported cases of CNS toxicity with methylene blue met criteria for serotonin toxicity; even 0.75-1 mg/kg reaches MAO-A-inhibiting levels, so serotonergic drugs are a major hazard."
+  },
+  {
+   "id": "lon-gladyshev2014",
+   "authors": "Gladyshev VN",
+   "year": 2014,
+   "title": "The free radical theory of aging is dead. Long live the damage theory!",
+   "journal": "Antioxid Redox Signal",
+   "pmid": "24159899",
+   "doi": "10.1089/ars.2013.5228",
+   "type": "review",
+   "n": null,
+   "finding": "Argues the free-radical theory is dead: ROS are one of many by-products of imperfect biological processes, and aging reflects accumulation of all such damage."
+  },
+  {
+   "id": "lon-gladyshev2016",
+   "authors": "Gladyshev VN",
+   "year": 2016,
+   "title": "Aging: progressive decline in fitness due to the rising deleteriome adjusted by genetic, environmental, and stochastic processes",
+   "journal": "Aging Cell",
+   "pmid": "27060562",
+   "doi": "10.1111/acel.12480",
+   "type": "review",
+   "n": null,
+   "finding": "Introduces the 'deleteriome': the sum of cumulative deleterious age-related changes at all levels, adjusted by genetic, environmental and stochastic processes, as a unifying model of aging."
+  },
+  {
+   "id": "lon-gordjinejad2024",
+   "authors": "Gordji-Nejad A, Matusch A, Kleedörfer S, et al.",
+   "year": 2024,
+   "title": "Single dose creatine improves cognitive performance and induces changes in cerebral high energy phosphates during sleep deprivation",
+   "journal": "Sci Rep",
+   "pmid": "38418482",
+   "doi": "10.1038/s41598-024-54249-9",
+   "type": "rct",
+   "n": "15 healthy adults",
+   "finding": "A single 0.35 g/kg creatine dose during 21 h of sleep deprivation changed brain high-energy phosphates and improved processing speed and cognitive performance."
+  },
+  {
+   "id": "lon-grundemann2005",
+   "authors": "Gründemann D, Harlfinger S, Golz S, et al.",
+   "year": 2005,
+   "title": "Discovery of the ergothioneine transporter",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "15795384",
+   "doi": "10.1073/pnas.0408624102",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Identified OCTN1 (SLC22A4) as a dedicated ergothioneine transporter; cells expressing it accumulate and retain dietary ergothioneine."
+  },
+  {
+   "id": "lon-gullo2014",
+   "authors": "Gullo D, Evans JL, Sortino G, et al.",
+   "year": 2014,
+   "title": "Insulin autoimmune syndrome (Hirata Disease) in European Caucasians taking α-lipoic acid",
+   "journal": "Clin Endocrinol (Oxf)",
+   "pmid": "24111525",
+   "doi": "10.1111/cen.12334",
+   "type": "case-control",
+   "n": "6 patients",
+   "finding": "Six European patients developed insulin autoimmune syndrome with severe hypoglycaemia 30-120 days after starting ALA 600 mg/day, linked to HLA-DRB1*04:03."
+  },
+  {
+   "id": "lon-halliwell2018",
+   "authors": "Halliwell B, Cheah IK, Tang RMY",
+   "year": 2018,
+   "title": "Ergothioneine - a diet-derived antioxidant with therapeutic potential",
+   "journal": "FEBS Lett",
+   "pmid": "29851075",
+   "doi": "10.1002/1873-3468.13123",
+   "type": "review",
+   "n": null,
+   "finding": "Ergothioneine is a diet-derived thiol antioxidant concentrated by a specific transporter, with protective effects in cell and animal models and therapeutic potential still untested in humans."
+  },
+  {
+   "id": "lon-harman1956",
+   "authors": "Harman D",
+   "year": 1956,
+   "title": "Aging: a theory based on free radical and radiation chemistry",
+   "journal": "J Gerontol",
+   "pmid": "13332224",
+   "doi": "10.1093/geronj/11.3.298",
+   "type": "review",
+   "n": null,
+   "finding": "Proposed that aging is caused by cumulative damage from free radicals formed during normal oxygen metabolism, and suggested that antioxidants might slow it."
+  },
+  {
+   "id": "lon-harman1972",
+   "authors": "Harman D",
+   "year": 1972,
+   "title": "The biologic clock: the mitochondria?",
+   "journal": "J Am Geriatr Soc",
+   "pmid": "5016631",
+   "doi": "10.1111/j.1532-5415.1972.tb00787.x",
+   "type": "review",
+   "n": null,
+   "finding": "Narrowed the free-radical theory to mitochondria, proposing them as both the main source and the main target of the radicals that set lifespan."
+  },
+  {
+   "id": "lon-harris2013",
+   "authors": "Harris CB, Chowanadisai W, Mishchuk DO, et al.",
+   "year": 2013,
+   "title": "Dietary pyrroloquinoline quinone (PQQ) alters indicators of inflammation and mitochondrial-related metabolism in human subjects",
+   "journal": "J Nutr Biochem",
+   "pmid": "24231099",
+   "doi": "10.1016/j.jnutbio.2013.07.008",
+   "type": "rct",
+   "n": "10 adults (crossover)",
+   "finding": "PQQ 0.2-0.3 mg/kg briefly lowered CRP and IL-6 and altered urinary metabolites in a tiny short study."
+  },
+  {
+   "id": "lon-harrison2009",
+   "authors": "Harrison DE, Strong R, Sharp ZD, et al.",
+   "year": 2009,
+   "title": "Rapamycin fed late in life extends lifespan in genetically heterogeneous mice",
+   "journal": "Nature",
+   "pmid": "19587680",
+   "doi": "10.1038/nature08221",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Rapamycin fed from 600 days of age extended median and maximal lifespan of male and female genetically heterogeneous mice (90th-percentile age +14% females, +9% males)."
+  },
+  {
+   "id": "lon-harrison2014",
+   "authors": "Harrison DE, Strong R, Allison DB, et al.",
+   "year": 2014,
+   "title": "Acarbose, 17-α-estradiol, and nordihydroguaiaretic acid extend mouse lifespan preferentially in males",
+   "journal": "Aging Cell",
+   "pmid": "24245565",
+   "doi": "10.1111/acel.12170",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In the NIA Interventions Testing Program, methylene blue did not change median lifespan of male or female mice (small rise in female maximum lifespan)."
+  },
+  {
+   "id": "lon-harrison2021",
+   "authors": "Harrison DE, Strong R, Reifsnyder P, et al.",
+   "year": 2021,
+   "title": "17-a-estradiol late in life extends lifespan in aging UM-HET3 male mice; nicotinamide riboside and three other drugs do not affect lifespan in either sex",
+   "journal": "Aging Cell",
+   "pmid": "33788371",
+   "doi": "10.1111/acel.13328",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In the NIA Interventions Testing Program, nicotinamide riboside did not extend lifespan in male or female mice."
+  },
+  {
+   "id": "lon-harrison2024",
+   "authors": "Harrison DE, Strong R, Reifsnyder P, et al.",
+   "year": 2024,
+   "title": "Astaxanthin and meclizine extend lifespan in UM-HET3 male mice; fisetin, SG1002 (hydrogen sulfide donor), dimethyl fumarate, mycophenolic acid, and 4-phenylbutyrate do not significantly affect lifespan in either sex at the doses and schedules used",
+   "journal": "Geroscience",
+   "pmid": "38041783",
+   "doi": "10.1007/s11357-023-01011-0",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In the NIA Interventions Testing Program, astaxanthin extended median male mouse lifespan by 12%, with no significant effect in females or on 90th-percentile lifespan."
+  },
+  {
+   "id": "lon-hersch2017",
+   "authors": "Hersch SM, Schifitto G, Oakes D, et al.",
+   "year": 2017,
+   "title": "The CREST-E study of creatine for Huntington disease: A randomized controlled trial",
+   "journal": "Neurology",
+   "pmid": "28701493",
+   "doi": "10.1212/WNL.0000000000004209",
+   "type": "rct",
+   "n": "553 people with Huntington disease",
+   "finding": "Up to 40 g/day creatine for up to 48 months did not slow functional decline (stopped for futility); gastrointestinal side effects were more common."
+  },
+  {
+   "id": "lon-hwang2020",
+   "authors": "Hwang PS, Machek SB, Cardaci TD, et al.",
+   "year": 2020,
+   "title": "Effects of Pyrroloquinoline Quinone (PQQ) Supplementation on Aerobic Exercise Performance and Indices of Mitochondrial Biogenesis in Untrained Men",
+   "journal": "J Am Coll Nutr",
+   "pmid": "31860387",
+   "doi": "10.1080/07315724.2019.1705203",
+   "type": "rct",
+   "n": "23 untrained men",
+   "finding": "PQQ 20 mg/day during 6 weeks of endurance training raised muscle PGC-1alpha protein but did not improve aerobic performance vs placebo."
+  },
+  {
+   "id": "lon-igarashi2022",
+   "authors": "Igarashi M, Nakagawa-Nagahama Y, Miura M, et al.",
+   "year": 2022,
+   "title": "Chronic nicotinamide mononucleotide supplementation elevates blood nicotinamide adenine dinucleotide levels and alters muscle function in healthy older men",
+   "journal": "NPJ Aging",
+   "pmid": "35927255",
+   "doi": "10.1038/s41514-022-00084-z",
+   "type": "rct",
+   "n": "healthy older men",
+   "finding": "NMN 250 mg/day for 6-12 weeks raised blood NAD+; gait speed and grip improvements were only nominally significant and body composition did not change."
+  },
+  {
+   "id": "lon-irie2020",
+   "authors": "Irie J, Inagaki E, Fujita M, et al.",
+   "year": 2020,
+   "title": "Effect of oral administration of nicotinamide mononucleotide on clinical parameters and nicotinamide metabolite levels in healthy Japanese men",
+   "journal": "Endocr J",
+   "pmid": "31685720",
+   "doi": "10.1507/endocrj.EJ19-0313",
+   "type": "cohort",
+   "n": "10 healthy Japanese men",
+   "finding": "Single-arm, non-randomized study: single oral NMN doses of 100-500 mg were safe and dose-dependently raised NAD+ breakdown products in plasma."
+  },
+  {
+   "id": "lon-itoh2016",
+   "authors": "Itoh Y, Hine K, Miura H, et al.",
+   "year": 2016,
+   "title": "Effect of the Antioxidant Supplement Pyrroloquinoline Quinone Disodium Salt (BioPQQ™) on Cognitive Functions",
+   "journal": "Adv Exp Med Biol",
+   "pmid": "26782228",
+   "doi": "10.1007/978-1-4939-3023-4_40",
+   "type": "rct",
+   "n": "41 healthy older adults",
+   "finding": "PQQ 20 mg/day for 12 weeks reduced decline on a Stroop interference test; other effects appeared only in subgroups."
+  },
+  {
+   "id": "lon-kaeberlein2023",
+   "authors": "Kaeberlein TL, Green AS, Haddad G, et al.",
+   "year": 2023,
+   "title": "Evaluation of off-label rapamycin use to promote healthspan in 333 adults",
+   "journal": "Geroscience",
+   "pmid": "37191826",
+   "doi": "10.1007/s11357-023-00818-1",
+   "type": "cross-sectional",
+   "n": "333 off-label users, 172 non-users",
+   "finding": "Survey of off-label rapamycin users was presented as initial evidence that rapamycin can be used safely in healthy adults; data are self-reported and uncontrolled, and several authors have commercial ties to longevity medicine."
+  },
+  {
+   "id": "lon-kawai2015",
+   "authors": "Kawai N, Sakai N, Okuro M, et al.",
+   "year": 2015,
+   "title": "The sleep-promoting and hypothermic effects of glycine are mediated by NMDA receptors in the suprachiasmatic nucleus",
+   "journal": "Neuropsychopharmacology",
+   "pmid": "25533534",
+   "doi": "10.1038/npp.2014.326",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In rats, glycine promoted NREM sleep and lowered core temperature via NMDA receptors in the suprachiasmatic nucleus, causing peripheral vasodilation."
+  },
+  {
+   "id": "lon-kieburtz2015",
+   "authors": "Writing Group for the NINDS Exploratory Trials in Parkinson Disease (NET-PD) Investigators; Kieburtz K, Tilley BC, Elm JJ, et al.",
+   "year": 2015,
+   "title": "Effect of creatine monohydrate on clinical progression in patients with Parkinson disease: a randomized clinical trial",
+   "journal": "JAMA",
+   "pmid": "25668262",
+   "doi": "10.1001/jama.2015.120",
+   "type": "rct",
+   "n": "1,741 people with early Parkinson disease",
+   "finding": "Creatine 10 g/day for at least 5 years did not slow clinical progression of Parkinson disease; the trial was stopped for futility."
+  },
+  {
+   "id": "lon-kirkman2023",
+   "authors": "Kirkman DL, Stock JM, Shenouda N, et al.",
+   "year": 2023,
+   "title": "Effects of a mitochondrial-targeted ubiquinol on vascular function and exercise capacity in chronic kidney disease: a randomized controlled pilot study",
+   "journal": "Am J Physiol Renal Physiol",
+   "pmid": "37560769",
+   "doi": "10.1152/ajprenal.00067.2023",
+   "type": "rct",
+   "n": "18 adults with chronic kidney disease",
+   "finding": "MitoQ 20 mg/day for 4 weeks improved flow-mediated dilation vs placebo but did not change exercise capacity (pilot)."
+  },
+  {
+   "id": "lon-kreider2017",
+   "authors": "Kreider RB, Kalman DS, Antonio J, et al.",
+   "year": 2017,
+   "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+   "journal": "J Int Soc Sports Nutr",
+   "pmid": "28615996",
+   "doi": "10.1186/s12970-017-0173-z",
+   "type": "guideline",
+   "n": null,
+   "finding": "ISSN position stand: creatine monohydrate is the most effective ergogenic supplement for high-intensity exercise and lean mass, and is safe at recommended doses (3-5 g/day; up to 30 g/day for 5 years studied)."
+  },
+  {
+   "id": "lon-kucukgoncu2017",
+   "authors": "Kucukgoncu S, Zhou E, Lucas KB, et al.",
+   "year": 2017,
+   "title": "Alpha-lipoic acid (ALA) as a supplementation for weight loss: results from a meta-analysis of randomized controlled trials",
+   "journal": "Obes Rev",
+   "pmid": "28295905",
+   "doi": "10.1111/obr.12528",
+   "type": "meta-analysis",
+   "n": "10 RCTs",
+   "finding": "ALA produced a small short-term weight loss of 1.27 kg more than placebo."
+  },
+  {
+   "id": "lon-kumar2021",
+   "authors": "Kumar P, Liu C, Hsu JW, et al.",
+   "year": 2021,
+   "title": "Glycine and N-acetylcysteine (GlyNAC) supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction, inflammation, insulin resistance, endothelial dysfunction, genotoxicity, muscle strength, and cognition: Results of a pilot clinical trial",
+   "journal": "Clin Transl Med",
+   "pmid": "33783984",
+   "doi": "10.1002/ctm2.372",
+   "type": "rct",
+   "n": "8 older adults, 8 young controls (open-label)",
+   "finding": "Open-label pilot: 24 weeks of GlyNAC in 8 older adults corrected glutathione deficiency and improved many markers including strength, gait speed and cognition; benefits faded 12 weeks after stopping."
+  },
+  {
+   "id": "lon-kumar2022",
+   "authors": "Kumar P, Osahon OW, Sekhar RV",
+   "year": 2022,
+   "title": "GlyNAC (Glycine and N-Acetylcysteine) Supplementation in Mice Increases Length of Life by Correcting Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Abnormalities in Mitophagy and Nutrient Sensing, and Genomic Damage",
+   "journal": "Nutrients",
+   "pmid": "35268089",
+   "doi": "10.3390/nu14051114",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "GlyNAC-fed C57BL/6J mice lived 24% longer than controls in a single-lab study."
+  },
+  {
+   "id": "lon-kumar2023",
+   "authors": "Kumar P, Liu C, Suliburk J, et al.",
+   "year": 2023,
+   "title": "Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial",
+   "journal": "J Gerontol A Biol Sci Med Sci",
+   "pmid": "35975308",
+   "doi": "10.1093/gerona/glac135",
+   "type": "rct",
+   "n": "24 older adults (12 GlyNAC, 12 alanine placebo)",
+   "finding": "16-week placebo-controlled RCT: GlyNAC improved glutathione, oxidative stress, mitochondrial fuel oxidation, inflammation, insulin resistance, gait speed and strength in older adults."
+  },
+  {
+   "id": "lon-lamming2012",
+   "authors": "Lamming DW, Ye L, Katajisto P, et al.",
+   "year": 2012,
+   "title": "Rapamycin-induced insulin resistance is mediated by mTORC2 loss and uncoupled from longevity",
+   "journal": "Science",
+   "pmid": "22461615",
+   "doi": "10.1126/science.1215135",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In mice, chronic rapamycin causes insulin resistance by disrupting mTORC2, while lifespan extension is linked to mTORC1 inhibition."
+  },
+  {
+   "id": "lon-larosa2016",
+   "authors": "LaRosa DA, Ellery SJ, Snow RJ, et al.",
+   "year": 2016,
+   "title": "Maternal creatine supplementation during pregnancy prevents acute and long-term deficits in skeletal muscle after birth asphyxia: a study of structure and function of hind limb muscle in the spiny mouse",
+   "journal": "Pediatr Res",
+   "pmid": "27466898",
+   "doi": "10.1038/pr.2016.153",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In spiny mice, maternal creatine supplementation during pregnancy prevented asphyxia-induced skeletal muscle damage in offspring."
+  },
+  {
+   "id": "lon-lee2024",
+   "authors": "Lee DJW, Hodzic Kuerec A, Maier AB",
+   "year": 2024,
+   "title": "Targeting ageing with rapamycin and its derivatives in humans: a systematic review",
+   "journal": "Lancet Healthy Longev",
+   "pmid": "38310895",
+   "doi": "10.1016/S2666-7568(23)00258-1",
+   "type": "review",
+   "n": "19 studies",
+   "finding": "Systematic review: rapamycin and rapalogs improved some immune, cardiovascular and skin ageing measures; in patients with disease they increased infections and blood lipids."
+  },
+  {
+   "id": "lon-lelak2022",
+   "authors": "Lelak K, Vohra V, Neuman MI, et al.",
+   "year": 2022,
+   "title": "Pediatric Melatonin Ingestions - United States, 2012-2021",
+   "journal": "MMWR Morb Mortal Wkly Rep",
+   "pmid": "35653284",
+   "doi": "10.15585/mmwr.mm7122a1",
+   "type": "cross-sectional",
+   "n": "260,435 pediatric ingestions",
+   "finding": "US pediatric melatonin ingestions reported to poison centres rose 530% from 2012 to 2021, with more hospitalizations; five children needed ventilation and two died."
+  },
+  {
+   "id": "lon-linder2024",
+   "authors": "Linder BA, Stute NL, Hutchison ZJ, et al.",
+   "year": 2024,
+   "title": "Acute high-dose MitoQ does not increase urinary kidney injury markers in healthy adults: a randomized crossover trial",
+   "journal": "Am J Physiol Renal Physiol",
+   "pmid": "37942539",
+   "doi": "10.1152/ajprenal.00186.2023",
+   "type": "rct",
+   "n": "32 healthy adults (crossover)",
+   "finding": "An acute high dose of MitoQ (100-160 mg) did not raise urinary kidney injury markers."
+  },
+  {
+   "id": "lon-liu2024",
+   "authors": "Liu C, Dong X, Jia J, et al.",
+   "year": 2024,
+   "title": "Effects of Astaxanthin Supplementation on Fatigue, Motor Function and Cognition: A Meta-Analysis of Randomized Controlled Trials",
+   "journal": "Biol Res Nurs",
+   "pmid": "38243785",
+   "doi": "10.1177/10998004241227561",
+   "type": "meta-analysis",
+   "n": "RCTs on fatigue, motor function and cognition",
+   "finding": "Astaxanthin had no significant effect on reaction time and a marginal effect on cognitive accuracy, but improved exercise performance when combined with training."
+  },
+  {
+   "id": "lon-lizzo2022",
+   "authors": "Lizzo G, Migliavacca E, Lamers D, et al.",
+   "year": 2022,
+   "title": "A Randomized Controlled Clinical Trial in Healthy Older Adults to Determine Efficacy of Glycine and N-Acetylcysteine Supplementation on Glutathione Redox Status and Oxidative Damage",
+   "journal": "Front Aging",
+   "pmid": "35821844",
+   "doi": "10.3389/fragi.2022.852569",
+   "type": "rct",
+   "n": "114 healthy older adults",
+   "finding": "Industry-run RCT: GlyNAC at 2.4, 4.8 or 7.2 g/day for 2 weeks did not raise glutathione or the GSH:GSSG ratio (primary endpoint); a post-hoc subgroup with high oxidative stress and low glutathione responded."
+  },
+  {
+   "id": "lon-ma2022",
+   "authors": "Ma B, Lu J, Kang T, et al.",
+   "year": 2022,
+   "title": "Astaxanthin supplementation mildly reduced oxidative stress and inflammation biomarkers: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Nutr Res",
+   "pmid": "35091276",
+   "doi": "10.1016/j.nutres.2021.09.005",
+   "type": "meta-analysis",
+   "n": "12 RCTs, 380 participants",
+   "finding": "Astaxanthin modestly lowered blood MDA (SMD -0.95) and, in type 2 diabetes, IL-6; data on other markers were limited."
+  },
+  {
+   "id": "lon-mannick2014",
+   "authors": "Mannick JB, Del Giudice G, Lattanzi M, et al.",
+   "year": 2014,
+   "title": "mTOR inhibition improves immune function in the elderly",
+   "journal": "Sci Transl Med",
+   "pmid": "25540326",
+   "doi": "10.1126/scitranslmed.3009892",
+   "type": "rct",
+   "n": "elderly volunteers",
+   "finding": "The rapalog everolimus (RAD001) for 6 weeks improved influenza vaccine response by about 20% and lowered PD-1-positive T cells."
+  },
+  {
+   "id": "lon-mannick2018",
+   "authors": "Mannick JB, Morris M, Hockey HP, et al.",
+   "year": 2018,
+   "title": "TORC1 inhibition enhances immune function and reduces infections in the elderly",
+   "journal": "Sci Transl Med",
+   "pmid": "29997249",
+   "doi": "10.1126/scitranslmed.aaq1564",
+   "type": "rct",
+   "n": "264 elderly adults",
+   "finding": "Low-dose TORC1 inhibition for 6 weeks was associated with fewer reported infections over a year and better influenza vaccine response."
+  },
+  {
+   "id": "lon-martens2018",
+   "authors": "Martens CR, Denman BA, Mazzo MR, et al.",
+   "year": 2018,
+   "title": "Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD(+) in healthy middle-aged and older adults",
+   "journal": "Nat Commun",
+   "pmid": "29599478",
+   "doi": "10.1038/s41467-018-03421-7",
+   "type": "rct",
+   "n": "30 healthy middle-aged and older adults (crossover)",
+   "finding": "NR 1 g/day for 6 weeks was well tolerated and raised blood NAD+ metabolism, with possible small benefits on blood pressure and arterial stiffness to be tested."
+  },
+  {
+   "id": "lon-masuoka2021",
+   "authors": "Masuoka N, Lei C, Li H, et al.",
+   "year": 2021,
+   "title": "Anserine, HClO-scavenger, protected against cognitive decline in individuals with mild cognitive impairment",
+   "journal": "Aging (Albany NY)",
+   "pmid": "33472172",
+   "doi": "10.18632/aging.202535",
+   "type": "rct",
+   "n": "36 adults with MCI (30 analysed)",
+   "finding": "Anserine 500 mg/day for 12 weeks improved MMSE change score vs placebo (1.9 vs 0 points)."
+  },
+  {
+   "id": "lon-matthews2021",
+   "authors": "Matthews JJ, Dolan E, Swinton PA, et al.",
+   "year": 2021,
+   "title": "Effect of Carnosine or β-Alanine Supplementation on Markers of Glycemic Control and Insulin Resistance in Humans and Animals: A Systematic Review and Meta-analysis",
+   "journal": "Adv Nutr",
+   "pmid": "34333586",
+   "doi": "10.1093/advances/nmab087",
+   "type": "meta-analysis",
+   "n": "4 human and 16 rodent studies",
+   "finding": "Carnosine or beta-alanine may lower fasting glucose, HbA1c and HOMA-IR in humans, based on only four human studies."
+  },
+  {
+   "id": "lon-mcgaunn2023",
+   "authors": "McGaunn J, Baur JA",
+   "year": 2023,
+   "title": "Taurine linked with healthy aging",
+   "journal": "Science",
+   "pmid": "37289872",
+   "doi": "10.1126/science.adi3025",
+   "type": "review",
+   "n": null,
+   "finding": "Science perspective on Singh et al.: reversing age-associated taurine loss improved mouse longevity and monkey health, but human trials are needed."
+  },
+  {
+   "id": "lon-menon2020",
+   "authors": "Menon K, Marquina C, Liew D, et al.",
+   "year": 2020,
+   "title": "Histidine-containing dipeptides reduce central obesity and improve glycaemic outcomes: A systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Obes Rev",
+   "pmid": "31828942",
+   "doi": "10.1111/obr.12975",
+   "type": "meta-analysis",
+   "n": "23 studies pooled",
+   "finding": "Histidine-containing dipeptides (carnosine, anserine) lowered waist circumference by 3.5 cm and HbA1c by 0.76%, with smaller effects in low-bias trials."
+  },
+  {
+   "id": "lon-mijnhout2012",
+   "authors": "Mijnhout GS, Kollen BJ, Alkhalaf A, et al.",
+   "year": 2012,
+   "title": "Alpha lipoic Acid for symptomatic peripheral neuropathy in patients with diabetes: a meta-analysis of randomized controlled trials",
+   "journal": "Int J Endocrinol",
+   "pmid": "22331979",
+   "doi": "10.1155/2012/456279",
+   "type": "meta-analysis",
+   "n": "RCTs of diabetic neuropathy",
+   "finding": "IV ALA 600 mg/day for 3 weeks clinically reduced neuropathic symptoms; the clinical relevance of 3-5 weeks of oral ALA above 600 mg/day was unclear."
+  },
+  {
+   "id": "lon-miller2019",
+   "authors": "Miller RA, Harrison DE, Astle CM, et al.",
+   "year": 2019,
+   "title": "Glycine supplementation extends lifespan of male and female mice",
+   "journal": "Aging Cell",
+   "pmid": "30916479",
+   "doi": "10.1111/acel.12953",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In the NIA Interventions Testing Program, an 8% glycine diet extended lifespan of male and female genetically heterogeneous mice by 4-6%."
+  },
+  {
+   "id": "lon-moel2025",
+   "authors": "Moel M, Harinath G, Lee V, et al.",
+   "year": 2025,
+   "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results",
+   "journal": "Aging (Albany NY)",
+   "pmid": "40188830",
+   "doi": "10.18632/aging.206235",
+   "type": "rct",
+   "n": "healthy normative-aging adults (PEARL)",
+   "finding": "Compounded rapamycin 5 or 10 mg weekly for 48 weeks was relatively safe but did not change visceral fat (primary outcome); lean mass and pain improved only in women on 10 mg."
+  },
+  {
+   "id": "lon-muccini2021",
+   "authors": "Muccini AM, Tran NT, de Guingand DL, et al.",
+   "year": 2021,
+   "title": "Creatine Metabolism in Female Reproduction, Pregnancy and Newborn Health",
+   "journal": "Nutrients",
+   "pmid": "33540766",
+   "doi": "10.3390/nu13020490",
+   "type": "review",
+   "n": null,
+   "finding": "Creatine metabolism supports energy in female reproductive tissues and placenta; antenatal creatine protects against birth asphyxia in animal models, but human evidence is lacking."
+  },
+  {
+   "id": "lon-murphy2018",
+   "authors": "Murphy MP, Hartley RC",
+   "year": 2018,
+   "title": "Mitochondria as a therapeutic target for common pathologies",
+   "journal": "Nat Rev Drug Discov",
+   "pmid": "30393373",
+   "doi": "10.1038/nrd.2018.174",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews mitochondria as drug targets in common diseases and mitochondria-targeted compounds such as MitoQ; few agents have reached clinical trials."
+  },
+  {
+   "id": "lon-nedeljkovic2026",
+   "authors": "Nedeljkovic D, Todorovic N, Javorac D, et al.",
+   "year": 2026,
+   "title": "The effects of 8-week creatine supplementation with and without ubiquinol on sperm quality biomarkers in normospermic and oligospermic men: A randomized controlled pilot trial",
+   "journal": "Nutr Health",
+   "pmid": "41052075",
+   "doi": "10.1177/02601060251385000",
+   "type": "rct",
+   "n": "15 men",
+   "finding": "Exploratory pilot: 8 weeks of creatine (with or without ubiquinol) gave a non-significant trend toward higher sperm concentration."
+  },
+  {
+   "id": "lon-perez2009a",
+   "authors": "Pérez VI, Bokov A, Van Remmen H, et al.",
+   "year": 2009,
+   "title": "Is the oxidative stress theory of aging dead?",
+   "journal": "Biochim Biophys Acta",
+   "pmid": "19524016",
+   "doi": "10.1016/j.bbagen.2009.06.003",
+   "type": "review",
+   "n": null,
+   "finding": "Reviewed a large mouse programme: of 18 genetic manipulations of antioxidant enzymes, only Sod1 deletion changed lifespan (shortened it), and none extended it."
+  },
+  {
+   "id": "lon-perez2009b",
+   "authors": "Pérez VI, Van Remmen H, Bokov A, et al.",
+   "year": 2009,
+   "title": "The overexpression of major antioxidant enzymes does not extend the lifespan of mice",
+   "journal": "Aging Cell",
+   "pmid": "19077044",
+   "doi": "10.1111/j.1474-9726.2008.00449.x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Mice overexpressing CuZnSOD, catalase, CuZnSOD plus catalase, or CuZnSOD plus MnSOD did not live longer than controls."
+  },
+  {
+   "id": "lon-perez2009c",
+   "authors": "Pérez VI, Buffenstein R, Masamsetti V, et al.",
+   "year": 2009,
+   "title": "Protein stability and resistance to oxidative stress are determinants of longevity in the longest-living rodent, the naked mole-rat",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "19223593",
+   "doi": "10.1073/pnas.0809620106",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Naked mole-rats carry more lipid, protein and DNA oxidation than mice from a young age, but their proteins are more stable and their proteasome activity is higher."
+  },
+  {
+   "id": "lon-petrov2016",
+   "authors": "Petrov A, Perekhvatova N, Skulachev M, et al.",
+   "year": 2016,
+   "title": "SkQ1 Ophthalmic Solution for Dry Eye Treatment: Results of a Phase 2 Safety and Efficacy Clinical Study in the Environment and During Challenge in the Controlled Adverse Environment Model",
+   "journal": "Adv Ther",
+   "pmid": "26733410",
+   "doi": "10.1007/s12325-015-0274-5",
+   "type": "rct",
+   "n": "91 adults with dry eye",
+   "finding": "SkQ1 eye drops improved some signs and symptoms of dry eye vs placebo over 29 days (phase 2)."
+  },
+  {
+   "id": "lon-pham2020",
+   "authors": "Pham T, MacRae CL, Broome SC, et al.",
+   "year": 2020,
+   "title": "MitoQ and CoQ10 supplementation mildly suppresses skeletal muscle mitochondrial hydrogen peroxide levels without impacting mitochondrial function in middle-aged men",
+   "journal": "Eur J Appl Physiol",
+   "pmid": "32458156",
+   "doi": "10.1007/s00421-020-04396-4",
+   "type": "rct",
+   "n": "20 middle-aged men",
+   "finding": "MitoQ 20 mg/day or CoQ10 200 mg/day for 6 weeks mildly lowered muscle mitochondrial H2O2 but did not change mitochondrial function, urinary F2-isoprostanes or plasma TBARS."
+  },
+  {
+   "id": "lon-prokopidis2023",
+   "authors": "Prokopidis K, Giannos P, Triantafyllidis KK, et al.",
+   "year": 2023,
+   "title": "Effects of creatine supplementation on memory in healthy individuals: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Nutr Rev",
+   "pmid": "35984306",
+   "doi": "10.1093/nutrit/nuac064",
+   "type": "meta-analysis",
+   "n": "8 RCTs",
+   "finding": "Creatine improved memory overall (SMD 0.29), driven by older adults (SMD 0.88), with no effect in people aged 11-31."
+  },
+  {
+   "id": "lon-prokopidis2025",
+   "authors": "Prokopidis K, Moriarty F, Bahat G, et al.",
+   "year": 2025,
+   "title": "The Effect of Nicotinamide Mononucleotide and Riboside on Skeletal Muscle Mass and Function: A Systematic Review and Meta-Analysis",
+   "journal": "J Cachexia Sarcopenia Muscle",
+   "pmid": "40275690",
+   "doi": "10.1002/jcsm.13799",
+   "type": "meta-analysis",
+   "n": "RCTs in adults aged over 60",
+   "finding": "NMN did not improve skeletal muscle index, grip strength, gait speed or chair-stand time; evidence does not support NMN or NR for preserving muscle in older adults."
+  },
+  {
+   "id": "lon-ramsay2007",
+   "authors": "Ramsay RR, Dunford C, Gillman PK",
+   "year": 2007,
+   "title": "Methylene blue and serotonin toxicity: inhibition of monoamine oxidase A (MAO A) confirms a theoretical prediction",
+   "journal": "Br J Pharmacol",
+   "pmid": "17721552",
+   "doi": "10.1038/sj.bjp.0707430",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Methylene blue is a potent, tight-binding inhibitor of MAO-A, explaining serotonin toxicity when given to patients on SSRIs."
+  },
+  {
+   "id": "lon-reiter2017",
+   "authors": "Reiter RJ, Rosales-Corral S, Tan DX, et al.",
+   "year": 2017,
+   "title": "Melatonin as a mitochondria-targeted antioxidant: one of evolution's best ideas",
+   "journal": "Cell Mol Life Sci",
+   "pmid": "28864909",
+   "doi": "10.1007/s00018-017-2609-7",
+   "type": "review",
+   "n": null,
+   "finding": "Argues melatonin is a mitochondria-targeted antioxidant made within mitochondria, scavenging radicals and upregulating antioxidant enzymes (largely cell and animal data)."
+  },
+  {
+   "id": "lon-remie2020",
+   "authors": "Remie CME, Roumans KHM, Moonen MPB, et al.",
+   "year": 2020,
+   "title": "Nicotinamide riboside supplementation alters body composition and skeletal muscle acetylcarnitine concentrations in healthy obese humans",
+   "journal": "Am J Clin Nutr",
+   "pmid": "32320006",
+   "doi": "10.1093/ajcn/nqaa072",
+   "type": "rct",
+   "n": "13 overweight or obese adults (crossover)",
+   "finding": "NR 1 g/day for 6 weeks did not improve insulin sensitivity, mitochondrial function, liver fat or blood pressure; it slightly increased fat-free mass."
+  },
+  {
+   "id": "lon-ristow2009",
+   "authors": "Ristow M, Zarse K, Oberbach A, et al.",
+   "year": 2009,
+   "title": "Antioxidants prevent health-promoting effects of physical exercise in humans",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "19433800",
+   "doi": "10.1073/pnas.0903485106",
+   "type": "rct",
+   "n": "39 young men",
+   "finding": "Vitamin C 1000 mg/day plus vitamin E 400 IU/day abolished the gain in insulin sensitivity and the induction of antioxidant genes from 4 weeks of exercise training."
+  },
+  {
+   "id": "lon-ristow2010",
+   "authors": "Ristow M, Zarse K",
+   "year": 2010,
+   "title": "How increased oxidative stress promotes longevity and metabolic health: The concept of mitochondrial hormesis (mitohormesis)",
+   "journal": "Exp Gerontol",
+   "pmid": "20350594",
+   "doi": "10.1016/j.exger.2010.03.014",
+   "type": "review",
+   "n": null,
+   "finding": "Defines mitohormesis: a transient rise in mitochondrial ROS during energy restriction or exercise triggers adaptive stress resistance, and antioxidants block the benefit."
+  },
+  {
+   "id": "lon-ristow2014",
+   "authors": "Ristow M",
+   "year": 2014,
+   "title": "Unraveling the truth about antioxidants: mitohormesis explains ROS-induced health benefits",
+   "journal": "Nat Med",
+   "pmid": "24999941",
+   "doi": "10.1038/nm.3624",
+   "type": "review",
+   "n": null,
+   "finding": "Argues that mitohormesis explains why ROS produced during exercise and caloric restriction promote health and why antioxidant supplements fail or harm."
+  },
+  {
+   "id": "lon-rodriguez2016",
+   "authors": "Rodriguez P, Zhou W, Barrett DW, et al.",
+   "year": 2016,
+   "title": "Multimodal Randomized Functional MR Imaging of the Effects of Methylene Blue in the Human Brain",
+   "journal": "Radiology",
+   "pmid": "27351678",
+   "doi": "10.1148/radiol.2016152893",
+   "type": "rct",
+   "n": "26 healthy adults",
+   "finding": "A single low oral dose of methylene blue increased fMRI responses during attention and memory tasks and raised correct memory retrieval by 7%."
+  },
+  {
+   "id": "lon-rojas2012",
+   "authors": "Rojas JC, Bruchey AK, Gonzalez-Lima F",
+   "year": 2012,
+   "title": "Neurometabolic mechanisms for memory enhancement and neuroprotection of methylene blue",
+   "journal": "Prog Neurobiol",
+   "pmid": "22067440",
+   "doi": "10.1016/j.pneurobio.2011.10.007",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews animal evidence that low-dose methylene blue cycles electrons in the respiratory chain, enhances cytochrome oxidase and memory, and is neuroprotective."
+  },
+  {
+   "id": "lon-rossman2018",
+   "authors": "Rossman MJ, Santos-Parker JR, Steward CAC, et al.",
+   "year": 2018,
+   "title": "Chronic Supplementation With a Mitochondrial Antioxidant (MitoQ) Improves Vascular Function in Healthy Older Adults",
+   "journal": "Hypertension",
+   "pmid": "29661838",
+   "doi": "10.1161/HYPERTENSIONAHA.117.10787",
+   "type": "rct",
+   "n": "20 older adults (crossover)",
+   "finding": "MitoQ 20 mg/day for 6 weeks improved brachial flow-mediated dilation by 42% in older adults with impaired endothelial function, and lowered aortic stiffness only in those with high baseline stiffness."
+  },
+  {
+   "id": "lon-sateia2017",
+   "authors": "Sateia MJ, Buysse DJ, Krystal AD, et al.",
+   "year": 2017,
+   "title": "Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An American Academy of Sleep Medicine Clinical Practice Guideline",
+   "journal": "J Clin Sleep Med",
+   "pmid": "27998379",
+   "doi": "10.5664/jcsm.6470",
+   "type": "guideline",
+   "n": null,
+   "finding": "AASM guideline: suggests clinicians not use melatonin for chronic insomnia in adults (weak recommendation, low-quality evidence)."
+  },
+  {
+   "id": "lon-schriner2005",
+   "authors": "Schriner SE, Linford NJ, Martin GM, et al.",
+   "year": 2005,
+   "title": "Extension of murine life span by overexpression of catalase targeted to mitochondria",
+   "journal": "Science",
+   "pmid": "15879174",
+   "doi": "10.1126/science.1106653",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Mice expressing catalase targeted to mitochondria (MCAT) lived about 5 months longer (median and maximum), with less oxidative damage, delayed cardiac pathology and cataracts."
+  },
+  {
+   "id": "lon-schulz2007",
+   "authors": "Schulz TJ, Zarse K, Voigt A, et al.",
+   "year": 2007,
+   "title": "Glucose restriction extends Caenorhabditis elegans life span by inducing mitochondrial respiration and increasing oxidative stress",
+   "journal": "Cell Metab",
+   "pmid": "17908557",
+   "doi": "10.1016/j.cmet.2007.08.011",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Glucose restriction extended worm lifespan by raising mitochondrial respiration and ROS; antioxidants abolished the extension, the first direct evidence for 'mitohormesis'."
+  },
+  {
+   "id": "lon-sekhar2011",
+   "authors": "Sekhar RV, Patel SG, Guthikonda AP, et al.",
+   "year": 2011,
+   "title": "Deficient synthesis of glutathione underlies oxidative stress in aging and can be corrected by dietary cysteine and glycine supplementation",
+   "journal": "Am J Clin Nutr",
+   "pmid": "21795440",
+   "doi": "10.3945/ajcn.110.003483",
+   "type": "rct",
+   "n": "8 older and 8 younger adults",
+   "finding": "Older adults had about half the red-cell glutathione and synthesis rate of young adults; 2 weeks of cysteine (as NAC) plus glycine raised glutathione 94.6% and lowered F2-isoprostanes."
+  },
+  {
+   "id": "lon-sestili2011",
+   "authors": "Sestili P, Martinelli C, Colombo E, et al.",
+   "year": 2011,
+   "title": "Creatine as an antioxidant",
+   "journal": "Amino Acids",
+   "pmid": "21404063",
+   "doi": "10.1007/s00726-011-0875-5",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews cell and animal evidence that creatine has direct and indirect antioxidant actions as part of its cytoprotective effects."
+  },
+  {
+   "id": "lon-shao2008",
+   "authors": "Shao A, Hathcock JN",
+   "year": 2008,
+   "title": "Risk assessment for the amino acids taurine, L-glutamine and L-arginine",
+   "journal": "Regul Toxicol Pharmacol",
+   "pmid": "18325648",
+   "doi": "10.1016/j.yrtph.2008.01.004",
+   "type": "review",
+   "n": null,
+   "finding": "Risk assessment set an observed safe level for supplemental taurine of 3 g/day based on human trials, with no systematic adverse effects found."
+  },
+  {
+   "id": "lon-shiojima2022",
+   "authors": "Shiojima Y, Takahashi M, Takahashi R, et al.",
+   "year": 2022,
+   "title": "Effect of Dietary Pyrroloquinoline Quinone Disodium Salt on Cognitive Function in Healthy Volunteers: A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study",
+   "journal": "J Am Nutr Assoc",
+   "pmid": "34415830",
+   "doi": "10.1080/07315724.2021.1962770",
+   "type": "rct",
+   "n": "64 healthy Japanese adults aged 40-80",
+   "finding": "PQQ disodium salt 21.5 mg/day for 12 weeks improved several computerized cognitive scores vs placebo (manufacturer-linked trial)."
+  },
+  {
+   "id": "lon-sies2017",
+   "authors": "Sies H",
+   "year": 2017,
+   "title": "Hydrogen peroxide as a central redox signaling molecule in physiological oxidative stress: Oxidative eustress",
+   "journal": "Redox Biol",
+   "pmid": "28110218",
+   "doi": "10.1016/j.redox.2016.12.035",
+   "type": "review",
+   "n": null,
+   "finding": "Defines physiological H2O2 (about 1-10 nM) as 'oxidative eustress' that signals through specific cysteines; higher levels cause damage ('distress')."
+  },
+  {
+   "id": "lon-singh2023",
+   "authors": "Singh P, Gollapalli K, Mangiola S, et al.",
+   "year": 2023,
+   "title": "Taurine deficiency as a driver of aging",
+   "journal": "Science",
+   "pmid": "37289866",
+   "doi": "10.1126/science.abn9257",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Circulating taurine fell with age in mice, monkeys and humans; taurine supplementation extended mouse median lifespan and improved healthspan in mice and middle-aged monkeys; human low taurine correlated with age-related disease."
+  },
+  {
+   "id": "lon-smith2020",
+   "authors": "Smith E, Ottosson F, Hellstrand S, et al.",
+   "year": 2020,
+   "title": "Ergothioneine is associated with reduced mortality and decreased risk of cardiovascular disease",
+   "journal": "Heart",
+   "pmid": "31672783",
+   "doi": "10.1136/heartjnl-2019-315485",
+   "type": "cohort",
+   "n": "3,236 adults (Malmo Diet and Cancer)",
+   "finding": "Higher plasma ergothioneine was associated with lower coronary disease (HR 0.85/SD), cardiovascular mortality (HR 0.79) and overall mortality (HR 0.86) over 21 years."
+  },
+  {
+   "id": "lon-snow2010",
+   "authors": "Snow BJ, Rolfe FL, Lockhart MM, et al.",
+   "year": 2010,
+   "title": "A double-blind, placebo-controlled study to assess the mitochondria-targeted antioxidant MitoQ as a disease-modifying therapy in Parkinson's disease",
+   "journal": "Mov Disord",
+   "pmid": "20568096",
+   "doi": "10.1002/mds.23148",
+   "type": "rct",
+   "n": "128 people with untreated Parkinson disease",
+   "finding": "MitoQ 40 or 80 mg/day for 12 months did not slow Parkinson disease progression on any measure."
+  },
+  {
+   "id": "lon-sun2016",
+   "authors": "Sun Q, Wang B, Li Y, et al.",
+   "year": 2016,
+   "title": "Taurine Supplementation Lowers Blood Pressure and Improves Vascular Function in Prehypertension: Randomized, Double-Blind, Placebo-Controlled Study",
+   "journal": "Hypertension",
+   "pmid": "26781281",
+   "doi": "10.1161/HYPERTENSIONAHA.115.06624",
+   "type": "rct",
+   "n": "120 adults with prehypertension",
+   "finding": "Taurine 1.6 g/day for 12 weeks lowered clinic systolic BP by 7.2 vs 2.6 mmHg (placebo) and improved endothelial function."
+  },
+  {
+   "id": "lon-trammell2016",
+   "authors": "Trammell SA, Schmidt MS, Weidemann BJ, et al.",
+   "year": 2016,
+   "title": "Nicotinamide riboside is uniquely and orally bioavailable in mice and humans",
+   "journal": "Nat Commun",
+   "pmid": "27721479",
+   "doi": "10.1038/ncomms12948",
+   "type": "rct",
+   "n": "healthy volunteers (pharmacokinetic study)",
+   "finding": "Single oral doses of 100-1000 mg NR produced dose-dependent rises in the blood NAD+ metabolome (industry-sponsored)."
+  },
+  {
+   "id": "lon-trifunovic2005",
+   "authors": "Trifunovic A, Hansson A, Wredenberg A, et al.",
+   "year": 2005,
+   "title": "Somatic mtDNA mutations cause aging phenotypes without affecting reactive oxygen species production",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "16332961",
+   "doi": "10.1073/pnas.0508886102",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "mtDNA mutator mice age prematurely from accumulated mtDNA mutations, but without any increase in ROS production, breaking the predicted 'vicious cycle'."
+  },
+  {
+   "id": "lon-tzang2024",
+   "authors": "Tzang CC, Chi LY, Lin LH, et al.",
+   "year": 2024,
+   "title": "Taurine reduces the risk for metabolic syndrome: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Nutr Diabetes",
+   "pmid": "38755142",
+   "doi": "10.1038/s41387-024-00289-z",
+   "type": "meta-analysis",
+   "n": "25 RCTs, 1,024 participants",
+   "finding": "Taurine 0.5-6 g/day lowered systolic BP by ~4 mmHg, diastolic BP by ~1.5 mmHg, fasting glucose by ~5.9 mg/dL and triglycerides by ~18 mg/dL, with no excess adverse effects."
+  },
+  {
+   "id": "lon-vanmaanen2026",
+   "authors": "van Maanen E, Gonçalves A, Chen L, et al.",
+   "year": 2026,
+   "title": "Atypical population pharmacokinetics of hydromethylthionine in patients with Alzheimer's disease explains unexpected phase 3 trial results",
+   "journal": "Br J Clin Pharmacol",
+   "pmid": "41917677",
+   "doi": "10.1002/bcp.70539",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "TauRx-affiliated pharmacokinetic modelling argued that the 4 mg methylthioninium 'control' in LMTM phase 3 trials reached active plasma levels, explaining unexpected symptomatic effects in the control arm."
+  },
+  {
+   "id": "lon-vanraamsdonk2009",
+   "authors": "Van Raamsdonk JM, Hekimi S",
+   "year": 2009,
+   "title": "Deletion of the mitochondrial superoxide dismutase sod-2 extends lifespan in Caenorhabditis elegans",
+   "journal": "PLoS Genet",
+   "pmid": "19197346",
+   "doi": "10.1371/journal.pgen.1000361",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In C. elegans, deleting any of the five sod genes (singly or in combinations) did not shorten lifespan, and sod-2 deletion extended it despite more protein oxidation."
+  },
+  {
+   "id": "lon-vanremmen2003",
+   "authors": "Van Remmen H, Ikeno Y, Hamilton M, et al.",
+   "year": 2003,
+   "title": "Life-long reduction in MnSOD activity results in increased DNA damage and higher incidence of cancer but does not accelerate aging",
+   "journal": "Physiol Genomics",
+   "pmid": "14679299",
+   "doi": "10.1152/physiolgenomics.00122.2003",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Sod2+/- mice with 50% less MnSOD had more oxidative DNA damage (8-oxodG) and twice the tumour incidence, but identical mean and maximum lifespan."
+  },
+  {
+   "id": "lon-waldron2018",
+   "authors": "Waldron M, Patterson SD, Tallent J, et al.",
+   "year": 2018,
+   "title": "The Effects of an Oral Taurine Dose and Supplementation Period on Endurance Exercise Performance in Humans: A Meta-Analysis",
+   "journal": "Sports Med",
+   "pmid": "29546641",
+   "doi": "10.1007/s40279-018-0896-2",
+   "type": "meta-analysis",
+   "n": "10 studies",
+   "finding": "Taurine 1-6 g taken acutely or for up to 2 weeks gave a small-to-moderate improvement in endurance performance (Hedges' g 0.40)."
+  },
+  {
+   "id": "lon-williamson2020",
+   "authors": "Williamson J, Hughes CM, Cobley JN, et al.",
+   "year": 2020,
+   "title": "The mitochondria-targeted antioxidant MitoQ, attenuates exercise-induced mitochondrial DNA damage",
+   "journal": "Redox Biol",
+   "pmid": "32810739",
+   "doi": "10.1016/j.redox.2020.101673",
+   "type": "rct",
+   "n": "24 healthy men",
+   "finding": "21 days of MitoQ 20 mg/day attenuated exercise-induced nuclear and mitochondrial DNA damage in lymphocytes and muscle; a single dose had no effect."
+  },
+  {
+   "id": "lon-xu2024",
+   "authors": "Xu C, Bi S, Zhang W, et al.",
+   "year": 2024,
+   "title": "The effects of creatine supplementation on cognitive function in adults: a systematic review and meta-analysis",
+   "journal": "Front Nutr",
+   "pmid": "39070254",
+   "doi": "10.3389/fnut.2024.1424972",
+   "type": "meta-analysis",
+   "n": "16 RCTs, 492 participants",
+   "finding": "Creatine monohydrate improved memory (SMD 0.31) and attention time, with little effect on other cognitive domains."
+  },
+  {
+   "id": "lon-yau2024",
+   "authors": "Yau YF, Cheah IK, Mahendran R, et al.",
+   "year": 2024,
+   "title": "Investigating the efficacy of ergothioneine to delay cognitive decline in mild cognitively impaired subjects: A pilot study",
+   "journal": "J Alzheimers Dis",
+   "pmid": "39544014",
+   "doi": "10.1177/13872877241291253",
+   "type": "rct",
+   "n": "19 older adults with MCI",
+   "finding": "Ergothioneine 25 mg three times weekly for one year was safe, improved a verbal learning test and stabilized neurofilament light chain vs placebo (pilot)."
+  },
+  {
+   "id": "lon-yi2023",
+   "authors": "Yi L, Maier AB, Tao R, et al.",
+   "year": 2023,
+   "title": "The efficacy and safety of β-nicotinamide mononucleotide (NMN) supplementation in healthy middle-aged adults: a randomized, multicenter, double-blind, placebo-controlled, parallel-group, dose-dependent clinical trial",
+   "journal": "Geroscience",
+   "pmid": "36482258",
+   "doi": "10.1007/s11357-022-00705-1",
+   "type": "rct",
+   "n": "80 healthy middle-aged adults",
+   "finding": "NMN 300-900 mg/day for 60 days raised blood NAD+ (plateau at 600 mg) and increased 6-minute walk distance; HOMA-IR did not change."
+  },
+  {
+   "id": "lon-yoshino2021",
+   "authors": "Yoshino M, Yoshino J, Kayser BD, et al.",
+   "year": 2021,
+   "title": "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women",
+   "journal": "Science",
+   "pmid": "33888596",
+   "doi": "10.1126/science.abe9985",
+   "type": "rct",
+   "n": "25 postmenopausal women with prediabetes",
+   "finding": "NMN 250 mg/day for 10 weeks increased muscle insulin sensitivity (clamp) and insulin signalling vs placebo."
+  },
+  {
+   "id": "lon-yun2014",
+   "authors": "Yun J, Finkel T",
+   "year": 2014,
+   "title": "Mitohormesis",
+   "journal": "Cell Metab",
+   "pmid": "24561260",
+   "doi": "10.1016/j.cmet.2014.01.011",
+   "type": "review",
+   "n": null,
+   "finding": "Mild mitochondrial stress activates cytosolic signalling and nuclear gene expression that leave cells more resistant to later stress (mitohormesis)."
+  },
+  {
+   "id": "lon-zhang2009",
+   "authors": "Zhang Y, Ikeno Y, Qi W, et al.",
+   "year": 2009,
+   "title": "Mice deficient in both Mn superoxide dismutase and glutathione peroxidase-1 have increased oxidative damage and a greater incidence of pathology but no reduction in longevity",
+   "journal": "J Gerontol A Biol Sci Med Sci",
+   "pmid": "19776219",
+   "doi": "10.1093/gerona/glp132",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Mice lacking Gpx1 and half of Sod2 had more DNA and protein oxidation and more cancer, but no reduction in lifespan."
+  },
+  {
+   "id": "lon-zhdanova2001",
+   "authors": "Zhdanova IV, Wurtman RJ, Regan MM, et al.",
+   "year": 2001,
+   "title": "Melatonin treatment for age-related insomnia",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "11600532",
+   "doi": "10.1210/jcem.86.10.7901",
+   "type": "rct",
+   "n": "30 adults over 50",
+   "finding": "A physiological 0.3 mg melatonin dose restored sleep efficiency in older insomniacs; 3 mg caused hypothermia and melatonin levels persisting into daytime."
+  },
+  {
+   "id": "lon-ziegler2006",
+   "authors": "Ziegler D, Ametov A, Barinov A, et al.",
+   "year": 2006,
+   "title": "Oral treatment with alpha-lipoic acid improves symptomatic diabetic polyneuropathy: the SYDNEY 2 trial",
+   "journal": "Diabetes Care",
+   "pmid": "17065669",
+   "doi": "10.2337/dc06-1216",
+   "type": "rct",
+   "n": "181 adults with diabetic polyneuropathy",
+   "finding": "Oral ALA 600, 1200 or 1800 mg/day for 5 weeks reduced neuropathy symptoms by about half vs 32% on placebo; higher doses caused more nausea and vomiting."
+  },
+  {
+   "id": "lon-ziegler2011",
+   "authors": "Ziegler D, Low PA, Litchy WJ, et al.",
+   "year": 2011,
+   "title": "Efficacy and safety of antioxidant treatment with α-lipoic acid over 4 years in diabetic polyneuropathy: the NATHAN 1 trial",
+   "journal": "Diabetes Care",
+   "pmid": "21775755",
+   "doi": "10.2337/dc11-0503",
+   "type": "rct",
+   "n": "460 adults with diabetic polyneuropathy",
+   "finding": "ALA 600 mg/day for 4 years did not improve the primary composite endpoint; some secondary impairment scores improved, and serious adverse events were more frequent (38% vs 28%)."
   }
  ]
 }

@@ -287,3 +287,6 @@ select { padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border)
 .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; flex: 0 1 140px; min-width: 0; }
 .kpi b { display: block; font-size: 1.4rem; font-family: var(--serif); }
 .kpi span { font-size: .8rem; color: var(--muted); }
+.two-col > * { min-width: 0; }
+#stack-items .chip, .plan-item .chips .chip { white-space: normal; text-align: left; }
+#stack-add { width: 100%; max-width: 100%; }

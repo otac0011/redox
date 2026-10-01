@@ -307,6 +307,41 @@
       ],
       "title": "High-dose zinc can cause copper deficiency",
       "message": "At 50 mg/day zinc lowered the copper-dependent antioxidant enzyme SOD1 within weeks, and 100 mg/day or more over time causes copper-deficiency anemia and nerve damage. Stay under the upper limit (40 mg/day US, 25 mg/day EU) unless a clinician is treating a deficiency. See [zinc-status]."
+    },
+    {
+      "id": "mb-g6pd",
+      "severity": "harm",
+      "requires": [
+        "g6pd"
+      ],
+      "ids_any": [
+        "methylene-blue"
+      ],
+      "title": "Methylene blue with G6PD deficiency",
+      "message": "Methylene blue is classed as high-risk in G6PD deficiency because it can trigger hemolysis (red blood cell destruction). Don't take it. See [methylene-blue] and [g6pd-deficiency]."
+    },
+    {
+      "id": "mb-ssri",
+      "severity": "harm",
+      "min": 2,
+      "requires_ids": [
+        "methylene-blue"
+      ],
+      "ids_any": [
+        "methylene-blue",
+        "ssris"
+      ],
+      "title": "Methylene blue + SSRI: serotonin toxicity",
+      "message": "Methylene blue is a potent MAO inhibitor; combined with SSRIs and other serotonergic drugs it has caused serotonin toxicity at doses around 1 mg/kg. Don't combine. See [methylene-blue]."
+    },
+    {
+      "id": "rapamycin-selfuse",
+      "severity": "caution",
+      "ids_any": [
+        "rapamycin"
+      ],
+      "title": "Off-label rapamycin",
+      "message": "Rapamycin's lifespan data are from mice; the human PEARL trial missed its primary endpoint, and the drug can cause infections, high lipids, and insulin resistance. Use only under medical supervision. See [rapamycin]."
     }
   ]
 }

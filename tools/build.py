@@ -256,6 +256,15 @@ def main():
             if fid not in ids:
                 warn(f"compare preset '{p['label']}': unknown factor '{fid}'")
 
+    # cache-bust app.js/style.css so beta testers get fresh code after each publish
+    import hashlib
+    ver = hashlib.sha1(b"".join((ROOT / n).read_bytes() for n in ("app.js", "style.css"))).hexdigest()[:8]
+    idx = ROOT / "index.html"
+    html = idx.read_text(encoding="utf-8")
+    html2 = re.sub(r'(style\.css|app\.js)\?v=[0-9a-z]+', lambda m: f"{m.group(1)}?v={ver}", html)
+    if html2 != html:
+        idx.write_text(html2, encoding="utf-8", newline="\n")
+
     print(f"{len(factors)} factors, {len(mechs)} mechanisms, {len(references)} references -> assets/data.json")
     for w in warnings:
         print("WARN", w)

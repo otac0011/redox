@@ -3162,56 +3162,6 @@
    ]
   },
   {
-   "id": "astaxanthin-supplement",
-   "name": "Astaxanthin (supplement; also in salmon, krill and Haematococcus algae)",
-   "kind": "supplement",
-   "scopes": [
-    "general"
-   ],
-   "direction": "beneficial",
-   "impact": {
-    "general": 1
-   },
-   "evidence": "limited",
-   "headline": "In 12 small RCTs astaxanthin lowered blood MDA (SMD -0.95) and IL-6 in type 2 diabetes, and 2-8 mg/day reduced a DNA-damage marker in young women, but CRP and TNF-alpha did not change and no clinical outcomes have been tested.",
-   "dose": {
-    "effective": "2-12 mg/day in trials.",
-    "studied_range": "2-12 mg/day for 4 weeks to 3 months.",
-    "too_much": "No safety signal at these doses; long-term data limited.",
-    "timeframe": "4-12 weeks.",
-    "notes": "Fat-soluble carotenoid; capsules produced dose-dependent rises in plasma astaxanthin."
-   },
-   "mechanism": "A polar xanthophyll that sits across lipid membranes and quenches lipid peroxyl radicals and singlet oxygen there, a setting where direct scavenging is plausible; it also raised Nrf2 targets (HO-1, NQO1) in human granulosa cells.",
-   "pathways": [
-    "lipid-peroxidation",
-    "direct-scavenging",
-    "nrf2"
-   ],
-   "interactions": "Fertility data in [astaxanthin-sperm] and [astaxanthin-egg]. In the NIA ITP, astaxanthin extended male (not female) median mouse lifespan by 12%.",
-   "caveats": "Trials are small and short and mostly use soft markers (TBARS-type MDA, total antioxidant capacity); heterogeneity is high.",
-   "key_numbers": [
-    {
-     "label": "Blood MDA, pooled SMD",
-     "value": -0.95,
-     "unit": "SMD",
-     "source": "phy-ma2022"
-    },
-    {
-     "label": "Median male mouse lifespan (ITP)",
-     "value": 12,
-     "unit": "% increase",
-     "source": "phy-harrison2024"
-    }
-   ],
-   "refs": [
-    "phy-ma2022",
-    "phy-park2010",
-    "phy-karppi2007",
-    "phy-harrison2024",
-    "phy-gharaei2022"
-   ]
-  },
-  {
    "id": "citrus-hesperidin",
    "name": "Citrus flavanones (hesperidin: oranges, orange juice, supplements)",
    "kind": "food",
