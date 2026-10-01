@@ -190,58 +190,86 @@
   },
   {
    "id": "selenium-supplement",
-   "name": "Selenium supplements",
+   "name": "Selenium status and supplements",
    "kind": "supplement",
    "scopes": [
-    "general"
+    "general",
+    "sperm"
    ],
    "direction": "mixed",
    "impact": {
-    "general": 2
+    "general": 2,
+    "sperm": 1
    },
    "evidence": "strong",
-   "headline": "No cancer prevention (Cochrane RR 1.01). In people who already have adequate selenium, 200 µg/day may raise type 2 diabetes risk (HR 1.55) and high-grade prostate cancer (+91%). Benefit is plausible only if status is low.",
+   "headline": "Selenium is a textbook U-curve: deficiency causes Keshan cardiomyopathy (supplements cut it 86%) and weak sperm midpieces, but in replete people 200 ug/day raised type 2 diabetes (HR 1.55), and 300 ug/day for 5 years raised 10-year mortality (HR 1.59); Cochrane finds no cancer prevention.",
    "dose": {
-    "effective": "Only correct a documented deficiency or very low intake. Most people in North America get enough from food.",
-    "studied_range": "100 µg/day (SU.VI.MAX) to 200 µg/day selenomethionine or selenised yeast (SELECT, NPC)",
-    "too_much": "200 µg/day in replete people: diabetes HR 1.55 (2.70 in top baseline tertile); high-grade prostate cancer +91% if baseline selenium is high.",
-    "timeframe": "Diabetes signal over ~7.7 years; prostate cancer over 5-7 years",
-    "notes": "U-shaped relationship with health."
+    "effective": "RDA 55 ug/day (60 in pregnancy). Selenoprotein P was maximised at about 105 ug/day total intake. Food covers this in North America (wheat, meat, fish, eggs); Brazil nuts are very rich but their selenium content varies widely, so a nut or two is enough. Supplement (50-100 ug/day) only with low intake or low measured status, e.g. parts of Europe, China, vegans in low-selenium regions.",
+    "studied_range": "50-300 ug/day selenium yeast or selenomethionine in trials; 100-200 ug/day in male fertility trials.",
+    "too_much": "UL 400 ug/day (IOM) or 255 ug/day (EFSA 2023, based on hair loss at 330 ug/day in SELECT). Signals of harm in replete people at 200 ug/day (diabetes, high-grade prostate cancer in men with high baseline status) and 300 ug/day (mortality).",
+    "timeframe": "Plasma selenium plateaus in ~10 weeks; one spermatogenic cycle ~74 days.",
+    "notes": "Measure plasma/serum selenium or selenoprotein P if in doubt; many 'antioxidant' and fertility blends add 50-200 ug on top of diet."
    },
-   "mechanism": "Selenium is the active-site element of glutathione peroxidases and thioredoxin reductases, so deficiency impairs peroxide removal. Above repletion there is no further gain, and the reason for the diabetes signal in replete people is not established.",
+   "mechanism": "Selenium is the active-site selenocysteine of glutathione peroxidases (including GPX4, the master brake on ferroptosis) and thioredoxin reductases, plus deiodinases for thyroid hormone. Once selenoproteins are saturated, extra selenium accumulates non-specifically (as selenomethionine) with no further antioxidant gain and possible pro-oxidant and insulin-signalling effects. In sperm, GPX4 is cross-linked into the mitochondrial capsule as a structural protein.",
    "pathways": [
-    "direct-scavenging"
+    "glutathione",
+    "lipid-peroxidation",
+    "endocrine"
    ],
-   "interactions": "Interacts with vitamin E status in prostate cancer risk [vitamin-e-supplement]. Selenium co-treatment enhanced sulforaphane's cytoprotection in vitro, but this has not been studied in humans.",
-   "caveats": "Cancer results from trials have been mixed, and SELECT and the Cochrane review found no benefit. Many 'antioxidant' blends include 50-200 µg selenium, which adds to dietary intake.",
+   "interactions": "Vitamin E effects on prostate cancer depended on selenium status [vitamin-e-supplement]. Iodine and selenium together support thyroid function [iodine-status]. Selenium in [multivitamin-mineral] and [male-antioxidant-combination] products adds up.",
+   "caveats": "Benefits are confined to people with low status; most US/Canadian adults are replete. The best-known positive male fertility trial (Safarinejad 2009) carries a 2023 journal Expression of Concern.",
+   "debate": "U-curve proponents [nut-rayman2012] point to harms in replete people: diabetes in NPC [nut-stranges2007] (editorial: 'more bad news for supplements' [nut-bleys2007]), high-grade prostate cancer when baseline status was high [nut-kristal2014] (with methodological questions raised [nut-frankel2014]) and excess mortality at 300 ug/day [nut-rayman2018]; Cochrane found no cancer benefit [nut-vinceti2018]. Benefits are clear for deficiency (Keshan disease [nut-zhou2018]). For sperm, a low-status Scottish RCT improved motility [nut-scott1998] and meta-analysis of small trials is positive [nut-buhling2019], but the largest positive trial [nut-safarinejad2009] is under an Expression of Concern [nut-jurol2023] and Cochrane rates male antioxidant evidence low to very low certainty [nut-deligny2022].",
    "key_numbers": [
     {
-     "label": "Type 2 diabetes HR (NPC)",
+     "label": "Type 2 diabetes, 200 ug/day (NPC)",
      "value": 1.55,
      "unit": "HR",
-     "source": "stranges2007"
+     "source": "nut-stranges2007"
     },
     {
-     "label": "Any cancer RR (Cochrane)",
+     "label": "All-cause mortality, 300 ug/day (PRECISE)",
+     "value": 1.59,
+     "unit": "HR",
+     "source": "nut-rayman2018"
+    },
+    {
+     "label": "Any cancer (Cochrane)",
      "value": 1.01,
      "unit": "RR",
-     "source": "vinceti2018"
+     "source": "nut-vinceti2018"
     },
     {
-     "label": "High-grade prostate cancer (high baseline Se)",
-     "value": 91,
-     "unit": "% increase",
-     "source": "kristal2014"
+     "label": "Keshan disease with supplementation",
+     "value": 0.14,
+     "unit": "RR",
+     "source": "nut-zhou2018"
+    },
+    {
+     "label": "EFSA UL",
+     "value": 255,
+     "unit": "ug/day",
+     "source": "nut-efsa2023se"
     }
    ],
    "refs": [
-    "rayman2012",
-    "stranges2007",
-    "lippman2009",
-    "kristal2014",
-    "vinceti2018",
-    "bjelakovic2012",
-    "bao2014"
+    "nut-rayman2012",
+    "nut-hurst2010",
+    "nut-ashton2009",
+    "nut-zhou2018",
+    "nut-stranges2007",
+    "nut-bleys2007",
+    "nut-kristal2014",
+    "nut-frankel2014",
+    "nut-vinceti2018",
+    "nut-rayman2018",
+    "nut-efsa2023se",
+    "nut-iom2000",
+    "nut-ursini1999",
+    "nut-scott1998",
+    "nut-buhling2019",
+    "nut-safarinejad2009",
+    "nut-jurol2023",
+    "nut-deligny2022"
    ]
   },
   {
@@ -249,53 +277,76 @@
    "name": "Standard multivitamin/mineral (nutritional doses)",
    "kind": "supplement",
    "scopes": [
-    "general"
+    "general",
+    "egg"
    ],
    "direction": "beneficial",
    "impact": {
-    "general": 1
+    "general": 1,
+    "egg": 1
    },
    "evidence": "moderate",
-   "headline": "A daily standard multivitamin cut total cancer by about 8% in older men (PHS II), with no cardiovascular effect. USPSTF rates the evidence insufficient. It works as nutrient insurance, not as an antioxidant.",
+   "headline": "Two large RCTs disagree on cancer (PHS II HR 0.92 over 11 years; COSMOS HR 0.97 over 3.6 years), neither cut heart disease or death, and a 390,000-person cohort found no mortality benefit; COSMOS did find a small slowing of cognitive ageing (0.07 SD). It is nutrient insurance for shortfalls, not an antioxidant therapy.",
    "dose": {
-    "effective": "One standard multivitamin/mineral daily with nutrients near RDA levels (not 'mega' or 'antioxidant formula').",
-    "studied_range": "RDA-level combinations; SU.VI.MAX: vitamin C 120 mg, E 30 mg, beta-carotene 6 mg, Se 100 µg, Zn 20 mg",
-    "too_much": "Avoid formulas with high-dose beta-carotene or vitamin A (especially smokers), vitamin E ≥400 IU, or selenium ≥200 µg.",
-    "timeframe": "Cancer effect seen after ~11 years in PHS II; 7.5 years in SU.VI.MAX",
-    "notes": "Benefit is most plausible in people with poor diets or low baseline status (SU.VI.MAX: effect in men, who had lower baseline beta-carotene)."
+    "effective": "One daily multivitamin/mineral near RDA levels (100% DV range), chosen for need: iron-free for men and postmenopausal women; a prenatal with 400-800 ug folic acid, ~150 ug iodine and ~27 mg iron when trying to conceive.",
+    "studied_range": "Centrum Silver-type formulas in PHS II and COSMOS.",
+    "too_much": "Avoid 'mega' or 'antioxidant' formulas: preformed vitamin A >3000 ug (10,000 IU), beta-carotene in smokers, vitamin E >=400 IU, selenium >=200 ug, zinc >25-40 mg, folic acid >1000 ug unless prescribed. Stacking several products easily breaches ULs.",
+    "timeframe": "Cognitive effects over 2-3 years in COSMOS; cancer effect after ~11 years in PHS II.",
+    "notes": "Most useful for restricted diets (vegan: B12, iodine, zinc), older adults (B12 absorption), heavy drinkers, bariatric surgery, and before/during pregnancy."
    },
-   "mechanism": "Probably corrects marginal micronutrient shortfalls, including selenium, zinc and B vitamins that support endogenous antioxidant enzymes and DNA synthesis and repair, rather than any scavenging effect.",
+   "mechanism": "Corrects marginal shortfalls of cofactors for antioxidant and DNA-maintenance enzymes (selenium for GPx, zinc/copper for SOD1, manganese for SOD2, riboflavin for glutathione reductase, folate/B12 for one-carbon metabolism) rather than scavenging radicals directly.",
    "pathways": [
-    "dna-repair"
+    "dna-repair",
+    "glutathione"
    ],
-   "interactions": "Do not confuse with [high-dose-antioxidant-cocktail]. Adds to dietary selenium and vitamin A [selenium-supplement] [beta-carotene-supplement].",
-   "caveats": "Evidence comes mostly from male physicians and French adults; the results may not transfer to women or well-nourished groups. The effect size is small and USPSTF calls the evidence insufficient.",
+   "interactions": "Not the same as [high-dose-antioxidant-cocktail]. Adds to dietary selenium [selenium-supplement] and vitamin A [beta-carotene-supplement]. Prenatal formulas deliver [folic-acid] and [iodine-status]. Iron content matters [iron-excess] [iron-deficiency].",
+   "caveats": "Trial populations were well-nourished older Americans, so benefits may be larger where diets are poor and smaller where they are good. The PHS II cancer result was a modest effect on one of several endpoints.",
+   "debate": "Supportive: PHS II cancer reduction [nut-gaziano2012], COSMOS cognitive benefit [nut-vyas2024], USPSTF evidence review showing a small pooled cancer reduction (OR 0.93) [nut-oconnor2022], and lower ovulatory infertility in multivitamin users [nut-chavarro2008]. Sceptical: COSMOS found no cancer or CVD effect [nut-sesso2022], PHS II found no CVD [nut-sesso2012] or cognitive [nut-grodstein2013] benefit, an editorial questioned the PHS II cancer finding given multiple comparisons [nut-bach2012], USPSTF calls the evidence insufficient [nut-uspstf2022], and a 390,124-person cohort found no mortality benefit [nut-loftfield2024] with commentary on their limited value [nut-barnard2024].",
    "key_numbers": [
     {
      "label": "Total cancer HR (PHS II)",
      "value": 0.92,
      "unit": "HR",
-     "source": "gaziano2012"
+     "source": "nut-gaziano2012"
+    },
+    {
+     "label": "Total cancer HR (COSMOS)",
+     "value": 0.97,
+     "unit": "HR",
+     "source": "nut-sesso2022"
     },
     {
      "label": "Major CV events HR (PHS II)",
      "value": 1.01,
      "unit": "HR",
-     "source": "sesso2012"
+     "source": "nut-sesso2012"
     },
     {
-     "label": "Cancer RR in men (SU.VI.MAX)",
-     "value": 0.69,
+     "label": "Global cognition, COSMOS pooled",
+     "value": 0.07,
+     "unit": "SD units",
+     "source": "nut-vyas2024"
+    },
+    {
+     "label": "Ovulatory infertility, multivitamin 6+/week",
+     "value": 0.59,
      "unit": "RR",
-     "source": "hercberg2004"
+     "source": "nut-chavarro2008"
     }
    ],
    "refs": [
-    "gaziano2012",
-    "sesso2012",
-    "hercberg2004",
-    "oconnor2022",
-    "uspstf2022"
+    "nut-gaziano2012",
+    "nut-sesso2012",
+    "nut-bach2012",
+    "nut-grodstein2013",
+    "nut-sesso2022",
+    "nut-vyas2024",
+    "nut-loftfield2024",
+    "nut-barnard2024",
+    "nut-uspstf2022",
+    "nut-oconnor2022",
+    "nut-chavarro2008",
+    "nut-passarelli2024"
    ]
   },
   {
@@ -849,6 +900,392 @@
     "skb-aisen2008",
     "skb-smith2018"
    ]
+  },
+  {
+   "id": "zinc-status",
+   "name": "Zinc (and copper) status",
+   "kind": "supplement",
+   "scopes": [
+    "general",
+    "sperm"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 2,
+    "sperm": 1
+   },
+   "evidence": "moderate",
+   "headline": "About 17% of the world is at risk of low zinc intake, and infertile men have lower seminal zinc, yet zinc supplements in replete people do little: 30 mg zinc plus folic acid did nothing for semen or live birth in 2370 men, and doses of 50 mg/day already depress copper-dependent SOD1, with 100+ mg/day causing copper-deficiency anaemia and myelopathy.",
+   "dose": {
+    "effective": "RDA 11 mg/day men, 8 mg/day women (11-12 in pregnancy/lactation). Get it from meat, shellfish (oysters), dairy, legumes, seeds and whole grains; vegans may need up to ~50% more because phytate blocks absorption. If supplementing, 8-15 mg/day in a multivitamin with ~1-2 mg copper.",
+    "studied_range": "15-66 mg/day elemental zinc in trials; 30 mg/day in FAZST; 50 mg/day lowered SOD1 in 6 weeks.",
+    "too_much": "UL 40 mg/day (IOM), 25 mg/day (EFSA). Chronic intake above these induces copper deficiency (anaemia, neutropenia, myelopathy that mimics B12 deficiency); zinc-containing denture creams and long-term cold lozenges are recognised causes.",
+    "timeframe": "Copper status falls within weeks at high zinc; semen changes need ~74 days.",
+    "notes": "At risk of deficiency: vegans, older adults, alcohol use disorder, malabsorption (Crohn's, coeliac, bariatric surgery), diuretics. Serum zinc is an insensitive marker and falls with inflammation."
+   },
+   "mechanism": "Zinc and copper together form the active site of cytosolic SOD1 (copper is catalytic, zinc structural). Zinc also induces metallothionein, protects protein thiols, competes with iron and copper for Fenton-active sites and stabilises sperm chromatin. Excess zinc induces intestinal metallothionein that traps copper, lowering SOD1 and ceruloplasmin activity.",
+   "pathways": [
+    "direct-scavenging",
+    "redox-signaling",
+    "dna-repair"
+   ],
+   "interactions": "FAZST combined zinc with high-dose folic acid [folate-zinc]. High zinc impairs copper and possibly iron status [iron-deficiency]. Zinc appears in many fertility blends [male-antioxidant-combination] [multivitamin-mineral].",
+   "caveats": "Small meta-analysed trials reporting lower CRP or MDA after zinc are heterogeneous and contested. Benefits in sperm come mainly from small trials in men with low zinc.",
+   "debate": "A meta-analysis reported zinc lowers CRP, TNF-alpha and MDA [nut-hosseini2021], but a published critique flagged search and methodological flaws [nut-jafari2021] (authors replied [nut-hosseini2021b]). For sperm, low seminal zinc in infertile men and small positive trials [nut-zhao2016] contrast with the large null FAZST trial, which also slightly raised DNA fragmentation [nut-schisterman2020] and did not alter sperm methylation [nut-jenkins2022]. Harms of excess zinc are uncontested [nut-fosmire1990, nut-jaiser2010, nut-fischer1984].",
+   "key_numbers": [
+    {
+     "label": "Global population at risk of inadequate zinc",
+     "value": 17.3,
+     "unit": "%",
+     "source": "nut-wessells2012"
+    },
+    {
+     "label": "Live birth, folic acid + zinc vs placebo",
+     "value": 34,
+     "unit": "% vs 35%",
+     "source": "nut-schisterman2020"
+    },
+    {
+     "label": "IOM UL",
+     "value": 40,
+     "unit": "mg/day",
+     "source": "nut-iom2001"
+    },
+    {
+     "label": "EFSA UL",
+     "value": 25,
+     "unit": "mg/day",
+     "source": "nut-efsa2006"
+    }
+   ],
+   "refs": [
+    "nut-wessells2012",
+    "nut-hosseini2021",
+    "nut-jafari2021",
+    "nut-hosseini2021b",
+    "nut-fosmire1990",
+    "nut-jaiser2010",
+    "nut-fischer1984",
+    "nut-zhao2016",
+    "nut-schisterman2020",
+    "nut-jenkins2022",
+    "nut-iom2001",
+    "nut-efsa2006"
+   ]
+  },
+  {
+   "id": "vitamin-b12-folate-status",
+   "name": "Vitamin B12 and folate status (homocysteine)",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 3,
+    "egg": 2
+   },
+   "evidence": "moderate",
+   "headline": "Correcting B12 or folate deficiency is essential (anaemia, neuropathy, neural tube defects), and folic acid cut first stroke by 21% in unfortified China; but lowering homocysteine with B vitamins did not prevent heart attacks or death in 71,422 trial participants, and high-dose folic acid plus B12 raised cancer in Norway. Women with higher B12 and folate before IVF had ~26 points higher live birth.",
+   "dose": {
+    "effective": "Folate RDA 400 ug DFE/day; anyone who could become pregnant: 400-800 ug folic acid daily from at least 1 month (ideally 3) before conception [folic-acid]. B12 RDA 2.4 ug/day; vegans need a reliable source every day (fortified foods or a B12 supplement); adults over 50 should get B12 from fortified foods or supplements.",
+    "studied_range": "Folic acid 0.4-5 mg/day; B12 0.4-1 mg/day in homocysteine-lowering trials.",
+    "too_much": "Folic acid UL 1000 ug/day (IOM and EFSA): high folic acid can mask B12 deficiency and let neuropathy progress. Norwegian trial of 0.8 mg folic acid + 0.4 mg B12 saw more cancer; 1 mg/day folic acid did not prevent adenomas and may have raised advanced lesions. No UL for B12.",
+    "timeframe": "Homocysteine falls within weeks; neural tube closes by day 28 after conception.",
+    "notes": "At risk of B12 deficiency: vegans, older adults (atrophic gastritis), metformin users (B12 ~57 pmol/L lower), long-term PPI or H2-blocker users (OR 1.65), bariatric surgery, pernicious anaemia, nitrous oxide use. Serum B12 is imperfect; methylmalonic acid and homocysteine are functional markers."
+   },
+   "mechanism": "Folate (as 5-methyl-THF) and B12 (methionine synthase) remethylate homocysteine to methionine, sustaining SAM-dependent DNA methylation and thymidine synthesis for DNA repair. Homocysteine not remethylated can enter transsulfuration (B6-dependent) to cysteine, the rate-limiting precursor of glutathione. Elevated homocysteine auto-oxidises, generating H2O2, and impairs endothelial nitric oxide.",
+   "pathways": [
+    "dna-repair",
+    "glutathione",
+    "endothelial"
+   ],
+   "interactions": "Riboflavin is the FAD cofactor of MTHFR [riboflavin]. Folic acid is the core of [profertility-diet] and [folic-acid]. High-dose folic acid in men: [folate-zinc]. NAC and glycine bypass the transsulfuration route to glutathione [n-acetylcysteine] [glynac].",
+   "caveats": "The homocysteine hypothesis largely failed for heart attacks; benefits concentrate where folate status is low (unfortified populations). Fertility data are observational and from a fortified population.",
+   "debate": "Cochrane finds homocysteine lowering does not prevent MI or death but modestly reduces stroke [nut-marticarvajal2017]; CSPPT showed a 21% stroke reduction in an unfortified population [nut-huo2015], which an editorial argued outweighs earlier null trials [nut-stampfer2015]. Safety concerns come from excess cancer with folic acid + B12 in Norway [nut-ebbing2009] (editorial urged caution on interpretation [nut-drake2009]) and a possible rise in advanced adenomas [nut-cole2007], although EFSA judged cancer links insufficient while keeping the 1000 ug UL [nut-efsa2023folate]. For eggs, higher serum folate/B12 predicted IVF live birth [nut-gaskins2015] and folic acid predicted fecundability [nut-cueto2016], but no RCT tests B12 for fertility.",
+   "key_numbers": [
+    {
+     "label": "First stroke, folic acid + enalapril (CSPPT)",
+     "value": 0.79,
+     "unit": "HR",
+     "source": "nut-huo2015"
+    },
+    {
+     "label": "MI with homocysteine lowering (Cochrane)",
+     "value": 1.02,
+     "unit": "RR",
+     "source": "nut-marticarvajal2017"
+    },
+    {
+     "label": "Cancer incidence, folic acid + B12 (Norway)",
+     "value": 1.21,
+     "unit": "HR",
+     "source": "nut-ebbing2009"
+    },
+    {
+     "label": "IVF live birth, top vs bottom quartile serum B12",
+     "value": 2.04,
+     "unit": "RR",
+     "source": "nut-gaskins2015"
+    },
+    {
+     "label": "B12 deficiency with >=2 years PPI",
+     "value": 1.65,
+     "unit": "OR",
+     "source": "nut-lam2013"
+    }
+   ],
+   "refs": [
+    "nut-lam2013",
+    "nut-chapman2016",
+    "nut-niklewicz2024",
+    "nut-marticarvajal2017",
+    "nut-huo2015",
+    "nut-stampfer2015",
+    "nut-ebbing2009",
+    "nut-drake2009",
+    "nut-cole2007",
+    "nut-efsa2023folate",
+    "nut-iom1998",
+    "nut-gaskins2015",
+    "nut-cueto2016",
+    "nut-chavarro2008",
+    "nut-uspstf2023",
+    "nut-asrm2022"
+   ]
+  },
+  {
+   "id": "riboflavin",
+   "name": "Riboflavin (vitamin B2) status",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Riboflavin's FAD form powers glutathione reductase, which recycles oxidised glutathione; subclinical deficiency is probably common but rarely measured, and in people with the MTHFR 677TT genotype 1.6 mg/day lowered systolic blood pressure by 5.6 mmHg.",
+   "dose": {
+    "effective": "RDA 1.3 mg/day men, 1.1 mg/day women (1.4 pregnancy). Dairy, eggs, meat, fortified cereals, almonds and mushrooms.",
+    "studied_range": "1.6 mg/day in the MTHFR trials.",
+    "too_much": "No UL has been set (IOM); excess is excreted in urine.",
+    "timeframe": "Status (EGRac) improves within weeks; BP effect seen at 16 weeks.",
+    "notes": "At risk: low dairy intake (some vegans), older adults, alcohol use disorder, adolescents, pregnancy. Best status marker is the erythrocyte glutathione reductase activation coefficient (EGRac)."
+   },
+   "mechanism": "FAD is the cofactor of glutathione reductase (GSSG -> 2 GSH, using NADPH), of MTHFR in folate metabolism, and of mitochondrial complex II and fatty-acid oxidation enzymes. Low riboflavin therefore weakens glutathione recycling and one-carbon metabolism.",
+   "pathways": [
+    "glutathione",
+    "mitochondrial",
+    "dna-repair"
+   ],
+   "interactions": "Works with folate and B12 in homocysteine metabolism [vitamin-b12-folate-status]; supports the glutathione system targeted by [n-acetylcysteine] and [glynac].",
+   "caveats": "Evidence for oxidative-stress outcomes is mechanistic; the human trial evidence is for blood pressure in a specific genotype, from one research group.",
+   "debate": "Proponents argue subclinical deficiency is widespread and under-recognised [nut-mcnulty2023], supported by global intake models showing >4 billion people under-consume riboflavin [nut-passarelli2024]. The blood-pressure benefit [nut-wilson2013] has been studied mainly by one group in genotype-selected patients and lacks independent replication; no outcome trials show oxidative-stress benefits in replete people.",
+   "key_numbers": [
+    {
+     "label": "Systolic BP reduction, MTHFR 677TT",
+     "value": 5.6,
+     "unit": "mmHg",
+     "source": "nut-wilson2013"
+    },
+    {
+     "label": "Global share with inadequate riboflavin intake",
+     "value": 55,
+     "unit": "%",
+     "source": "nut-passarelli2024"
+    }
+   ],
+   "refs": [
+    "nut-mcnulty2023",
+    "nut-wilson2013",
+    "nut-passarelli2024",
+    "nut-iom1998"
+   ]
+  },
+  {
+   "id": "magnesium-status",
+   "name": "Magnesium status",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Many adults eat below the magnesium requirement and PPIs raise the odds of low blood magnesium (OR 1.71); supplements modestly lower CRP in RCTs, mostly in people who start inflamed or depleted, but claims of a hidden 'magnesium crisis' driving heart disease go beyond the data.",
+   "dose": {
+    "effective": "RDA 400-420 mg/day men, 310-320 mg/day women. Leafy greens, legumes, nuts, seeds, whole grains, dark chocolate. If low intake or on PPIs/diuretics, 200-320 mg/day supplemental magnesium (citrate or glycinate) is reasonable.",
+    "studied_range": "Typically 250-500 mg/day elemental magnesium in RCTs; 320 mg/day in the sleep/CRP trial.",
+    "too_much": "UL for supplemental magnesium 350 mg/day (IOM) or 250 mg/day for readily dissociable salts (EFSA); diarrhoea first; avoid supplements in kidney failure.",
+    "timeframe": "Weeks to months.",
+    "notes": "Serum magnesium is a poor marker of body stores; risk groups include PPI and loop/thiazide diuretic users, type 2 diabetes, alcohol use disorder, GI disease, older adults."
+   },
+   "mechanism": "Magnesium is required for ATP handling, glutathione synthesis (Mg-ATP-dependent enzymes), and stabilising membranes; deficiency in animals primes inflammatory cells and oxidative stress. It is not itself an antioxidant.",
+   "pathways": [
+    "inflammation-nfkb",
+    "mitochondrial",
+    "glutathione"
+   ],
+   "interactions": "Often co-depleted with other nutrients in diets high in refined foods [refined-sugar-high-glycemic]; relevant to [glycemic-control].",
+   "caveats": "Inflammation trials are small and heterogeneous; effects on oxidative-stress outcomes are not established.",
+   "debate": "An opinion review called subclinical magnesium deficiency a principal driver of cardiovascular disease and a public health crisis [nut-dinicolantonio2018] (lead author has a commercial book interest). RCT evidence is more modest: CRP falls in meta-analysis [nut-veronese2022] and benefits concentrated in people with baseline CRP >3 mg/L or low serum magnesium [nut-nielsen2010]. PPI-related hypomagnesaemia is consistent across observational studies [nut-srinutta2019].",
+   "key_numbers": [
+    {
+     "label": "Hypomagnesaemia with PPI use",
+     "value": 1.71,
+     "unit": "adjusted OR",
+     "source": "nut-srinutta2019"
+    },
+    {
+     "label": "Participants below magnesium EAR (sleep trial)",
+     "value": 58,
+     "unit": "%",
+     "source": "nut-nielsen2010"
+    },
+    {
+     "label": "IOM UL, supplemental magnesium",
+     "value": 350,
+     "unit": "mg/day",
+     "source": "nut-iom1997"
+    }
+   ],
+   "refs": [
+    "nut-veronese2022",
+    "nut-nielsen2010",
+    "nut-srinutta2019",
+    "nut-dinicolantonio2018",
+    "nut-iom1997",
+    "nut-efsa2006"
+   ]
+  },
+  {
+   "id": "vitamin-c-status",
+   "name": "Vitamin C status (deficiency vs saturation)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Plasma vitamin C rises steeply between 30 and 100 mg/day and plateaus by about 200 mg/day; about 7% of Americans (more among smokers and low-income groups) are deficient, but once tissues are saturated, extra vitamin C did not lower F2-isoprostanes at any dose up to 2500 mg/day.",
+   "dose": {
+    "effective": "About 100-200 mg/day from food (e.g. one red pepper, two kiwifruit, or an orange plus a cup of strawberries). Smokers need at least 35 mg/day more than non-smokers. RDA 90 mg men, 75 mg women.",
+    "studied_range": "30-2500 mg/day in inpatient depletion-repletion pharmacokinetics.",
+    "too_much": "UL 2000 mg/day (IOM; diarrhoea). Doses above ~400 mg/day have no evident value; oxalate excretion rises at 1000 mg/day, and supplements are linked to kidney stones in men. EFSA set no UL.",
+    "timeframe": "Steady state in 2-3 weeks.",
+    "notes": "At risk of deficiency: smokers, low fruit and vegetable intake, alcohol use disorder, restrictive diets, dialysis."
+   },
+   "mechanism": "Ascorbate is the main water-soluble chain-breaking antioxidant, regenerates vitamin E, and is a cofactor for collagen and carnitine synthesis and iron absorption. Tissue and white-cell uptake is transporter-limited, so above saturation extra intake is excreted.",
+   "pathways": [
+    "direct-scavenging"
+   ],
+   "interactions": "Food sources are covered in [vitamin-c-foods]; pills in [vitamin-c-supplement]. Raises non-heme iron absorption (useful in [iron-deficiency], unhelpful with high [iron-status-ferritin]). High-dose C plus E belongs to [high-dose-antioxidant-cocktail].",
+   "caveats": "The 'more is better' view rests on observational associations; in saturated people neither oxidative-stress biomarkers nor outcomes improve with more.",
+   "debate": "Levine's pharmacokinetic studies argue for ~200 mg/day and no value above ~400 mg [nut-levine1996, nut-levine2001], while Carr and Frei argued from epidemiology for ~120 mg/day [nut-carr1999]; the IOM settled on 75-90 mg [nut-iom2000]. Both camps agree megadoses add nothing for replete people, and limited evidence links vitamin C supplements to kidney stones [nut-oconnor2022].",
+   "key_numbers": [
+    {
+     "label": "Dose at which plasma vitamin C plateaus",
+     "value": 200,
+     "unit": "mg/day",
+     "source": "nut-levine1996"
+    },
+    {
+     "label": "White-cell saturation dose",
+     "value": 100,
+     "unit": "mg/day",
+     "source": "nut-levine1996"
+    },
+    {
+     "label": "US prevalence of vitamin C deficiency",
+     "value": 7.1,
+     "unit": "%",
+     "source": "nut-schleicher2009"
+    },
+    {
+     "label": "IOM UL",
+     "value": 2000,
+     "unit": "mg/day",
+     "source": "nut-iom2000"
+    }
+   ],
+   "refs": [
+    "nut-levine1996",
+    "nut-levine2001",
+    "nut-carr1999",
+    "nut-schleicher2009",
+    "nut-iom2000",
+    "nut-oconnor2022"
+   ]
+  },
+  {
+   "id": "iodine-status",
+   "name": "Iodine status",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2,
+    "egg": 2
+   },
+   "evidence": "moderate",
+   "headline": "Even mild iodine deficiency matters around conception: women with very low urinary iodine took longer to conceive (46% lower fecundability per cycle), and children of mildly deficient UK mothers had higher odds of low verbal IQ (OR 1.58); but excess iodine can also tip the thyroid into dysfunction.",
+   "dose": {
+    "effective": "RDA 150 ug/day (220 pregnancy, 290 lactation). Iodised salt, dairy, eggs and seafood are main sources. The American Thyroid Association recommends a 150 ug/day iodine supplement (as potassium iodide) before and during pregnancy and lactation.",
+    "studied_range": "Observational urinary iodine:creatinine ratios (<50 to >150 ug/g).",
+    "too_much": "UL 1100 ug/day (IOM) or 600 ug/day (EFSA). Kelp supplements, amiodarone and contrast media can cause hypo- or hyperthyroidism in susceptible people.",
+    "timeframe": "Thyroid stores build over months; fetal brain depends on maternal thyroxine in the first trimester.",
+    "notes": "At risk: vegans and people avoiding dairy, fish and iodised salt (sea salt and specialty salts are usually not iodised), pregnancy, regions without salt iodisation (e.g. UK)."
+   },
+   "mechanism": "Iodine is the substrate for thyroid hormones, which set mitochondrial metabolic rate and drive fetal brain development. Thyroid hormone synthesis itself uses H2O2 (thyroid peroxidase), protected by selenium-dependent GPx.",
+   "pathways": [
+    "endocrine",
+    "mitochondrial"
+   ],
+   "interactions": "Selenium supports thyroid peroxidase protection and deiodinases [selenium-supplement]. Delivered by most prenatal multivitamins [multivitamin-mineral].",
+   "caveats": "Fertility data come from a single cohort of 501 women; no RCT tests iodine for conception or child IQ in mildly deficient populations.",
+   "debate": "Observational data link mild deficiency to child cognition [nut-bath2013] and slower conception [nut-mills2018], prompting calls for action [nut-stagnarogreen2013] and supplement recommendations [nut-alexander2017, nut-korevaar2026]. The counterweight is that iodine has a U-curve too: excess can trigger thyroid dysfunction [nut-sohn2024], and the Mills result needs replication, as the authors themselves note [nut-mills2018].",
+   "key_numbers": [
+    {
+     "label": "Fecundability, iodine:creatinine <50 ug/g",
+     "value": 0.54,
+     "unit": "OR",
+     "source": "nut-mills2018"
+    },
+    {
+     "label": "Low child verbal IQ, maternal iodine <150 ug/g",
+     "value": 1.58,
+     "unit": "OR",
+     "source": "nut-bath2013"
+    },
+    {
+     "label": "Global share with inadequate iodine intake (food only)",
+     "value": 68,
+     "unit": "%",
+     "source": "nut-passarelli2024"
+    }
+   ],
+   "refs": [
+    "nut-bath2013",
+    "nut-stagnarogreen2013",
+    "nut-mills2018",
+    "nut-sohn2024",
+    "nut-alexander2017",
+    "nut-korevaar2026",
+    "nut-passarelli2024",
+    "nut-iom2001",
+    "nut-efsa2006"
+   ]
   }
  ],
  "mechanisms": [
@@ -1034,6 +1471,32 @@
     "bao2014",
     "howitz2008",
     "forman2014"
+   ]
+  },
+  {
+   "id": "micronutrient-cofactors",
+   "name": "Micronutrient cofactors of the antioxidant enzymes",
+   "description": "The body's main antioxidant defences are enzymes that need minerals and vitamins: SOD1 (copper + zinc) and SOD2 (manganese) convert superoxide to H2O2; catalase (heme iron) and glutathione peroxidases (selenium) remove H2O2 and lipid peroxides; glutathione reductase (riboflavin/FAD, NADPH) recycles glutathione; glutathione synthesis needs cysteine, supplied partly by B6-dependent transsulfuration of homocysteine, whose remethylation needs folate and B12. Deficiency of any cofactor weakens the system, but once enzymes are saturated, extra cofactor adds nothing and some (selenium, iron, zinc, folic acid) cause harm at high intakes: a U-shaped curve.",
+   "refs": [
+    "nut-rayman2012",
+    "nut-fischer1984",
+    "nut-davis1992",
+    "nut-mcnulty2023",
+    "nut-hurst2010",
+    "nut-iom2000",
+    "nut-iom2001"
+   ]
+  },
+  {
+   "id": "ferroptosis",
+   "name": "Ferroptosis (iron-dependent lipid-peroxidation death)",
+   "description": "Ferroptosis is a regulated cell death driven by iron-catalysed peroxidation of polyunsaturated membrane lipids when the selenoprotein GPX4 and its substrate glutathione are depleted (e.g. by cystine deprivation). It links labile iron, selenium status and glutathione supply to tissue damage in models of neurodegeneration, kidney and liver injury, and to sperm and granulosa-cell damage in iron overload; human clinical evidence remains indirect.",
+   "refs": [
+    "nut-dixon2012",
+    "nut-stockwell2017",
+    "nut-kakhlon2002",
+    "nut-ni2022",
+    "nut-ursini1999"
    ]
   }
  ],
@@ -2693,6 +3156,955 @@
    "type": "review",
    "n": "21 studies incl. 11 RCTs",
    "finding": "Systematic review of oral Polypodium leucotomos extract across photoaging/skin cancer, actinic keratosis, photodermatoses, melasma, vitiligo and atopic dermatitis: promising photoprotective signals and good safety, from small studies."
+  },
+  {
+   "id": "nut-alexander2017",
+   "authors": "Alexander EK, Pearce EN, Brent GA, et al.",
+   "year": 2017,
+   "title": "2017 Guidelines of the American Thyroid Association for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum",
+   "journal": "Thyroid",
+   "pmid": "28056690",
+   "doi": "10.1089/thy.2016.0457",
+   "type": "guideline",
+   "n": null,
+   "finding": "ATA 2017 pregnancy guideline including recommendations on iodine nutrition before and during pregnancy and lactation."
+  },
+  {
+   "id": "nut-ashton2009",
+   "authors": "Ashton K, Hooper L, Harvey LJ, et al.",
+   "year": 2009,
+   "title": "Methods of assessment of selenium status in humans: a systematic review",
+   "journal": "Am J Clin Nutr",
+   "pmid": "19420095",
+   "doi": "10.3945/ajcn.2009.27230F",
+   "type": "review",
+   "n": "18 supplementation studies",
+   "finding": "Plasma/whole-blood selenium, selenoprotein P and GPx activity respond to selenium intake and are usable status markers."
+  },
+  {
+   "id": "nut-asrm2022",
+   "authors": "Penzias A, Azziz R, Bendikson K, et al.",
+   "year": 2022,
+   "title": "Optimizing natural fertility: a committee opinion",
+   "journal": "Fertil Steril",
+   "pmid": "34815068",
+   "doi": "10.1016/j.fertnstert.2021.10.007",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASRM committee opinion on optimizing natural fertility, including preconception folic acid."
+  },
+  {
+   "id": "nut-bach2012",
+   "authors": "Bach PB, Lewis RJ",
+   "year": 2012,
+   "title": "Multiplicities in the assessment of multiple vitamins: is it too soon to tell men that vitamins prevent cancer?",
+   "journal": "JAMA",
+   "pmid": "23150011",
+   "doi": "10.1001/jama.2012.53273",
+   "type": "review",
+   "n": null,
+   "finding": "JAMA editorial questioning whether the PHS II cancer result, given multiple comparisons, justified telling men vitamins prevent cancer."
+  },
+  {
+   "id": "nut-barnard2024",
+   "authors": "Barnard ND, Kahleova H, Becker R",
+   "year": 2024,
+   "title": "The Limited Value of Multivitamin Supplements",
+   "journal": "JAMA Netw Open",
+   "pmid": "38922621",
+   "doi": "10.1001/jamanetworkopen.2024.18965",
+   "type": "review",
+   "n": null,
+   "finding": "Commentary on the cohort study arguing that multivitamins have limited value for healthy people."
+  },
+  {
+   "id": "nut-bath2013",
+   "authors": "Bath SC, Steer CD, Golding J, et al.",
+   "year": 2013,
+   "title": "Effect of inadequate iodine status in UK pregnant women on cognitive outcomes in their children: results from the Avon Longitudinal Study of Parents and Children (ALSPAC)",
+   "journal": "Lancet",
+   "pmid": "23706508",
+   "doi": "10.1016/S0140-6736(13)60436-5",
+   "type": "cohort",
+   "n": "1040 first-trimester pregnant women (ALSPAC)",
+   "finding": "Children of mothers with iodine:creatinine <150 ug/g had higher odds of low verbal IQ (OR 1.58) and poor reading scores."
+  },
+  {
+   "id": "nut-bleys2007",
+   "authors": "Bleys J, Navas-Acien A, Guallar E",
+   "year": 2007,
+   "title": "Selenium and diabetes: more bad news for supplements",
+   "journal": "Ann Intern Med",
+   "pmid": "17620657",
+   "doi": "10.7326/0003-4819-147-4-200708210-00177",
+   "type": "review",
+   "n": null,
+   "finding": "Editorial on the NPC diabetes result titled 'more bad news for supplements'."
+  },
+  {
+   "id": "nut-buhling2019",
+   "authors": "Buhling K, Schumacher A, Eulenburg CZ, et al.",
+   "year": 2019,
+   "title": "Influence of oral vitamin and mineral supplementation on male infertility: a meta-analysis and systematic review",
+   "journal": "Reprod Biomed Online",
+   "pmid": "31160241",
+   "doi": "10.1016/j.rbmo.2019.03.099",
+   "type": "meta-analysis",
+   "n": "18 double-blind RCTs",
+   "finding": "Selenium (100-200 ug/day), CoQ10 and carnitines improved semen parameters in small trials; pregnancy data were scarce."
+  },
+  {
+   "id": "nut-carr1999",
+   "authors": "Carr AC, Frei B",
+   "year": 1999,
+   "title": "Toward a new recommended dietary allowance for vitamin C based on antioxidant and health effects in humans",
+   "journal": "Am J Clin Nutr",
+   "pmid": "10357726",
+   "doi": "10.1093/ajcn/69.6.1086",
+   "type": "review",
+   "n": null,
+   "finding": "Argued that 90-100 mg/day vitamin C is needed for optimal chronic disease risk reduction and proposed an RDA of 120 mg/day."
+  },
+  {
+   "id": "nut-chapman2016",
+   "authors": "Chapman LE, Darling AL, Brown JE",
+   "year": 2016,
+   "title": "Association between metformin and vitamin B(12) deficiency in patients with type 2 diabetes: A systematic review and meta-analysis",
+   "journal": "Diabetes Metab",
+   "pmid": "27130885",
+   "doi": "10.1016/j.diabet.2016.03.008",
+   "type": "meta-analysis",
+   "n": "26 papers",
+   "finding": "Metformin lowered B12 by about 57 pmol/L, causing deficiency or borderline status in some patients."
+  },
+  {
+   "id": "nut-chavarro2008",
+   "authors": "Chavarro JE, Rich-Edwards JW, Rosner BA, et al.",
+   "year": 2008,
+   "title": "Use of multivitamins, intake of B vitamins, and risk of ovulatory infertility",
+   "journal": "Fertil Steril",
+   "pmid": "17624345",
+   "doi": "10.1016/j.fertnstert.2007.03.089",
+   "type": "cohort",
+   "n": "18,555 women (Nurses' Health Study II)",
+   "finding": "Multivitamin use 6+ times a week was associated with 41% lower ovulatory infertility (RR 0.59), partly explained by folic acid."
+  },
+  {
+   "id": "nut-cole2007",
+   "authors": "Cole BF, Baron JA, Sandler RS, et al.",
+   "year": 2007,
+   "title": "Folic acid for the prevention of colorectal adenomas: a randomized clinical trial",
+   "journal": "JAMA",
+   "pmid": "17551129",
+   "doi": "10.1001/jama.297.21.2351",
+   "type": "rct",
+   "n": "1021 people with prior adenomas",
+   "finding": "1 mg/day folic acid did not reduce colorectal adenomas and may have raised advanced lesions (RR 1.67, P = .05)."
+  },
+  {
+   "id": "nut-cueto2016",
+   "authors": "Cueto HT, Riis AH, Hatch EE, et al.",
+   "year": 2016,
+   "title": "Folic acid supplementation and fecundability: a Danish prospective cohort study",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "26081493",
+   "doi": "10.1038/ejcn.2015.94",
+   "type": "cohort",
+   "n": "3895 Danish pregnancy planners",
+   "finding": "Folic acid supplement users had 15% higher fecundability (FR 1.15)."
+  },
+  {
+   "id": "nut-davis1992",
+   "authors": "Davis CD, Greger JL",
+   "year": 1992,
+   "title": "Longitudinal changes of manganese-dependent superoxide dismutase and other indexes of manganese and iron status in women",
+   "journal": "Am J Clin Nutr",
+   "pmid": "1550052",
+   "doi": "10.1093/ajcn/55.3.747",
+   "type": "rct",
+   "n": "47 women",
+   "finding": "15 mg/day manganese raised lymphocyte MnSOD activity, showing SOD2 activity responds to manganese supply."
+  },
+  {
+   "id": "nut-deligny2022",
+   "authors": "de Ligny W, Smits RM, Mackenzie-Proctor R, et al.",
+   "year": 2022,
+   "title": "Antioxidants for male subfertility",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "35506389",
+   "doi": "10.1002/14651858.CD007411.pub5",
+   "type": "meta-analysis",
+   "n": "90 studies, 10,303 subfertile men",
+   "finding": "Cochrane update: possible live birth increase (OR 1.43, very low certainty), no effect in low-risk-of-bias trials."
+  },
+  {
+   "id": "nut-dinicolantonio2018",
+   "authors": "DiNicolantonio JJ, O'Keefe JH, Wilson W",
+   "year": 2018,
+   "title": "Subclinical magnesium deficiency: a principal driver of cardiovascular disease and a public health crisis",
+   "journal": "Open Heart",
+   "pmid": "29387426",
+   "doi": "10.1136/openhrt-2017-000668",
+   "type": "review",
+   "n": null,
+   "finding": "Opinion review claiming subclinical magnesium deficiency is a principal driver of cardiovascular disease and a public health crisis (lead author discloses a related book)."
+  },
+  {
+   "id": "nut-dixon2012",
+   "authors": "Dixon SJ, Lemberg KM, Lamprecht MR, et al.",
+   "year": 2012,
+   "title": "Ferroptosis: an iron-dependent form of nonapoptotic cell death",
+   "journal": "Cell",
+   "pmid": "22632970",
+   "doi": "10.1016/j.cell.2012.03.042",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Defined ferroptosis: an iron-dependent, lipid-peroxidation-driven cell death triggered by cystine/glutathione depletion and blocked by ferrostatin-1."
+  },
+  {
+   "id": "nut-drake2009",
+   "authors": "Drake BF, Colditz GA",
+   "year": 2009,
+   "title": "Assessing cancer prevention studies--a matter of time",
+   "journal": "JAMA",
+   "pmid": "19920243",
+   "doi": "10.1001/jama.2009.1691",
+   "type": "review",
+   "n": null,
+   "finding": "Editorial on the Norwegian folic acid/B12 cancer finding discussing timing and interpretation of cancer prevention trials."
+  },
+  {
+   "id": "nut-ebbing2009",
+   "authors": "Ebbing M, Bønaa KH, Nygård O, et al.",
+   "year": 2009,
+   "title": "Cancer incidence and mortality after treatment with folic acid and vitamin B12",
+   "journal": "JAMA",
+   "pmid": "19920236",
+   "doi": "10.1001/jama.2009.1622",
+   "type": "rct",
+   "n": "6837 Norwegian heart patients",
+   "finding": "Folic acid (0.8 mg) plus B12 raised cancer incidence (HR 1.21), cancer death (HR 1.38) and all-cause death (HR 1.18) in an unfortified population."
+  },
+  {
+   "id": "nut-efsa2006",
+   "authors": "EFSA Scientific Committee on Food / Panel on Dietetic Products, Nutrition and Allergies",
+   "year": 2006,
+   "title": "Tolerable Upper Intake Levels for Vitamins and Minerals",
+   "journal": "European Food Safety Authority (report)",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.efsa.europa.eu/sites/default/files/efsa_rep/blobserver_assets/ndatolerableuil.pdf",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA/SCF compendium of tolerable upper intake levels (e.g. zinc 25 mg, copper 5 mg, iodine 600 ug, supplemental magnesium 250 mg per day for adults)."
+  },
+  {
+   "id": "nut-efsa2023folate",
+   "authors": "EFSA NDA Panel: Turck D, Bohn T, Castenmiller J, et al.",
+   "year": 2023,
+   "title": "Scientific opinion on the tolerable upper intake level for folate",
+   "journal": "EFSA J",
+   "pmid": "37965303",
+   "doi": "10.2903/j.efsa.2023.8353",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA retained a 1000 ug/day UL for synthetic folic acid in adults, based on masking/progression of B12-deficiency neuropathy; cancer links judged insufficient."
+  },
+  {
+   "id": "nut-efsa2023se",
+   "authors": "EFSA NDA Panel: Turck D, Bohn T, Castenmiller J, et al.",
+   "year": 2023,
+   "title": "Scientific opinion on the tolerable upper intake level for selenium",
+   "journal": "EFSA J",
+   "pmid": "36698500",
+   "doi": "10.2903/j.efsa.2023.7704",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA set a selenium UL of 255 ug/day for adults (including pregnancy), based on alopecia in SELECT at 330 ug/day."
+  },
+  {
+   "id": "nut-fischer1984",
+   "authors": "Fischer PW, Giroux A, L'Abbé MR",
+   "year": 1984,
+   "title": "Effect of zinc supplementation on copper status in adult man",
+   "journal": "Am J Clin Nutr",
+   "pmid": "6486080",
+   "doi": "10.1093/ajcn/40.4.743",
+   "type": "rct",
+   "n": "Healthy adult men",
+   "finding": "50 mg/day zinc for 6 weeks lowered erythrocyte Cu,Zn-superoxide dismutase activity, an early sign of reduced copper status."
+  },
+  {
+   "id": "nut-fosmire1990",
+   "authors": "Fosmire GJ",
+   "year": 1990,
+   "title": "Zinc toxicity",
+   "journal": "Am J Clin Nutr",
+   "pmid": "2407097",
+   "doi": "10.1093/ajcn/51.2.225",
+   "type": "review",
+   "n": null,
+   "finding": "Zinc at 100-300 mg/day induces copper deficiency with anaemia and neutropenia; even lower doses may impair copper and iron use and lower HDL."
+  },
+  {
+   "id": "nut-frankel2014",
+   "authors": "Frankel PH, Parker RS, Madsen FC, et al.",
+   "year": 2014,
+   "title": "Baseline selenium and prostate cancer risk: comments and open questions",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "24563520",
+   "doi": "10.1093/jnci/dju005",
+   "type": "review",
+   "n": null,
+   "finding": "Editorial raising open questions about the SELECT baseline-selenium analysis."
+  },
+  {
+   "id": "nut-gaskins2015",
+   "authors": "Gaskins AJ, Chiu YH, Williams PL, et al.",
+   "year": 2015,
+   "title": "Association between serum folate and vitamin B-12 and outcomes of assisted reproductive technologies",
+   "journal": "Am J Clin Nutr",
+   "pmid": "26354529",
+   "doi": "10.3945/ajcn.115.112185",
+   "type": "cohort",
+   "n": "100 women undergoing ART (EARTH)",
+   "finding": "Highest vs lowest quartile of serum B12 (>701 pg/mL) doubled live birth probability (RR 2.04); folate and B12 above the median together raised live birth by 26 points."
+  },
+  {
+   "id": "nut-gaziano2012",
+   "authors": "Gaziano JM, Sesso HD, Christen WG, et al.",
+   "year": 2012,
+   "title": "Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial",
+   "journal": "JAMA",
+   "pmid": "23162860",
+   "doi": "10.1001/jama.2012.14641",
+   "type": "rct",
+   "n": "14,641 male US physicians (PHS II)",
+   "finding": "A daily multivitamin modestly reduced total cancer (HR 0.92) over a median 11.2 years."
+  },
+  {
+   "id": "nut-grodstein2013",
+   "authors": "Grodstein F, O'Brien J, Kang JH, et al.",
+   "year": 2013,
+   "title": "Long-term multivitamin supplementation and cognitive function in men: a randomized trial",
+   "journal": "Ann Intern Med",
+   "pmid": "24490265",
+   "doi": "10.7326/0003-4819-159-12-201312170-00006",
+   "type": "rct",
+   "n": "5947 male physicians aged >=65",
+   "finding": "Long-term multivitamin use did not slow cognitive decline."
+  },
+  {
+   "id": "nut-hosseini2021",
+   "authors": "Hosseini R, Ferns GA, Sahebkar A, et al.",
+   "year": 2021,
+   "title": "Zinc supplementation is associated with a reduction in serum markers of inflammation and oxidative stress in adults: A systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Cytokine",
+   "pmid": "33333394",
+   "doi": "10.1016/j.cyto.2020.155396",
+   "type": "meta-analysis",
+   "n": "21 RCTs, 1321 participants",
+   "finding": "Zinc supplements lowered CRP (-0.92 mg/L), TNF-alpha and malondialdehyde, with very high heterogeneity."
+  },
+  {
+   "id": "nut-hosseini2021b",
+   "authors": "Hosseini R, Ferns GA, Sahebkar A, et al.",
+   "year": 2021,
+   "title": "Response to commentary on 'zinc supplementation is associated with a reduction in serum markers of inflammation and oxidative stress in adults: A systematic review and meta-analysis of randomized controlled trials'",
+   "journal": "Cytokine",
+   "pmid": "33601291",
+   "doi": "10.1016/j.cyto.2021.155460",
+   "type": "review",
+   "n": null,
+   "finding": "Authors' reply defending their zinc meta-analysis."
+  },
+  {
+   "id": "nut-huo2015",
+   "authors": "Huo Y, Li J, Qin X, et al.",
+   "year": 2015,
+   "title": "Efficacy of folic acid therapy in primary prevention of stroke among adults with hypertension in China: the CSPPT randomized clinical trial",
+   "journal": "JAMA",
+   "pmid": "25771069",
+   "doi": "10.1001/jama.2015.2274",
+   "type": "rct",
+   "n": "20,702 Chinese adults with hypertension",
+   "finding": "CSPPT: enalapril plus 0.8 mg folic acid cut first stroke by 21% (HR 0.79) vs enalapril alone in a population without folate fortification."
+  },
+  {
+   "id": "nut-hurst2010",
+   "authors": "Hurst R, Armah CN, Dainty JR, et al.",
+   "year": 2010,
+   "title": "Establishing optimal selenium status: results of a randomized, double-blind, placebo-controlled trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20181815",
+   "doi": "10.3945/ajcn.2009.28169",
+   "type": "rct",
+   "n": "119 UK adults aged 50-64",
+   "finding": "Selenoprotein P was optimised with ~50 ug/day selenium on top of a ~55 ug/day habitual intake; platelet GPx did not change."
+  },
+  {
+   "id": "nut-iom1997",
+   "authors": "Institute of Medicine (US) Standing Committee on the Scientific Evaluation of Dietary Reference Intakes",
+   "year": 1997,
+   "title": "Dietary Reference Intakes for Calcium, Phosphorus, Magnesium, Vitamin D, and Fluoride",
+   "journal": "National Academies Press (US)",
+   "pmid": "23115811",
+   "doi": "10.17226/5776",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for calcium, phosphorus, magnesium, vitamin D and fluoride (magnesium RDA 310-420 mg; UL 350 mg from supplements)."
+  },
+  {
+   "id": "nut-iom1998",
+   "authors": "Institute of Medicine (US) Standing Committee on the Scientific Evaluation of Dietary Reference Intakes and its Panel on Folate, Other B Vitamins, and Choline",
+   "year": 1998,
+   "title": "Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B(6), Folate, Vitamin B(12), Pantothenic Acid, Biotin, and Choline",
+   "journal": "National Academies Press (US)",
+   "pmid": "23193625",
+   "doi": "10.17226/6015",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for B vitamins and choline (riboflavin, folate, B12; folic acid UL 1000 ug; no UL for riboflavin or B12)."
+  },
+  {
+   "id": "nut-iom2000",
+   "authors": "Institute of Medicine (US) Panel on Dietary Antioxidants and Related Compounds",
+   "year": 2000,
+   "title": "Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids",
+   "journal": "National Academies Press (US)",
+   "pmid": "25077263",
+   "doi": "10.17226/9810",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for vitamin C, vitamin E, selenium and carotenoids (ULs: vitamin C 2000 mg, vitamin E 1000 mg, selenium 400 ug)."
+  },
+  {
+   "id": "nut-iom2001",
+   "authors": "Institute of Medicine (US) Panel on Micronutrients",
+   "year": 2001,
+   "title": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+   "journal": "National Academies Press (US)",
+   "pmid": "25057538",
+   "doi": "10.17226/10026",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for vitamin A, copper, iodine, iron, manganese, zinc and others (ULs: zinc 40 mg, copper 10 mg, iron 45 mg, iodine 1100 ug, manganese 11 mg, preformed vitamin A 3000 ug)."
+  },
+  {
+   "id": "nut-jafari2021",
+   "authors": "Jafari A, Ghobadi S",
+   "year": 2021,
+   "title": "Comments on \"Zinc supplementation is associated with a reduction in serum markers of inflammation and oxidative stress in adults: A systematic review and meta-analysis of randomized controlled trials\"",
+   "journal": "Cytokine",
+   "pmid": "33571933",
+   "doi": "10.1016/j.cyto.2021.155459",
+   "type": "review",
+   "n": null,
+   "finding": "Letter criticising the zinc meta-analysis for inadequate search, methodological flaws and interpretation that might bias results."
+  },
+  {
+   "id": "nut-jaiser2010",
+   "authors": "Jaiser SR, Winston GP",
+   "year": 2010,
+   "title": "Copper deficiency myelopathy",
+   "journal": "J Neurol",
+   "pmid": "20232210",
+   "doi": "10.1007/s00415-010-5511-x",
+   "type": "review",
+   "n": "55 case reports",
+   "finding": "Copper deficiency myelopathy mimics B12 deficiency; risk factors include zinc overload, upper GI surgery and malabsorption; cytopenias in 78%."
+  },
+  {
+   "id": "nut-jenkins2022",
+   "authors": "Jenkins T, Aston K, Carrell D, et al.",
+   "year": 2022,
+   "title": "The impact of zinc and folic acid supplementation on sperm DNA methylation: results from the folic acid and zinc supplementation randomized clinical trial (FAZST)",
+   "journal": "Fertil Steril",
+   "pmid": "34656303",
+   "doi": "10.1016/j.fertnstert.2021.09.009",
+   "type": "rct",
+   "n": "1470 men (FAZST)",
+   "finding": "Folic acid plus zinc did not significantly change sperm DNA methylation patterns."
+  },
+  {
+   "id": "nut-jurol2023",
+   "authors": "Safarinejad MR, Safarinejad S",
+   "year": 2023,
+   "title": "Expression of Concern: Efficacy of Selenium and/or N-Acetyl-Cysteine for Improving Semen Parameters in Infertile Men: A Double-Blind, Placebo Controlled, Randomized Study",
+   "journal": "J Urol",
+   "pmid": "36626340",
+   "doi": "10.1097/JU.0000000000003113",
+   "type": "review",
+   "n": null,
+   "finding": "Journal of Urology Expression of Concern regarding the Safarinejad selenium/NAC trial."
+  },
+  {
+   "id": "nut-kakhlon2002",
+   "authors": "Kakhlon O, Cabantchik ZI",
+   "year": 2002,
+   "title": "The labile iron pool: characterization, measurement, and participation in cellular processes(1)",
+   "journal": "Free Radic Biol Med",
+   "pmid": "12374615",
+   "doi": "10.1016/s0891-5849(02)01006-7",
+   "type": "review",
+   "n": null,
+   "finding": "The labile (chelatable, redox-active) iron pool promotes ROS formation and rises and falls with iron import, chelation and ferritin turnover."
+  },
+  {
+   "id": "nut-korevaar2026",
+   "authors": "Korevaar TIM, Leung AM, Alexander EK, et al.",
+   "year": 2026,
+   "title": "American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum",
+   "journal": "Thyroid",
+   "pmid": "42219800",
+   "doi": "10.1177/10507256261445624",
+   "type": "guideline",
+   "n": null,
+   "finding": "ATA 2026 update of the pregnancy, preconception and postpartum thyroid guideline, including iodine supplementation recommendations."
+  },
+  {
+   "id": "nut-kristal2014",
+   "authors": "Kristal AR, Darke AK, Morris JS, et al.",
+   "year": 2014,
+   "title": "Baseline selenium status and effects of selenium and vitamin e supplementation on prostate cancer risk",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "24563519",
+   "doi": "10.1093/jnci/djt456",
+   "type": "rct",
+   "n": "Case-cohort of 3117 men in SELECT",
+   "finding": "Selenium raised high-grade prostate cancer by 91% in men with high baseline selenium; vitamin E raised prostate cancer in men with low selenium."
+  },
+  {
+   "id": "nut-lam2013",
+   "authors": "Lam JR, Schneider JL, Zhao W, et al.",
+   "year": 2013,
+   "title": "Proton pump inhibitor and histamine 2 receptor antagonist use and vitamin B12 deficiency",
+   "journal": "JAMA",
+   "pmid": "24327038",
+   "doi": "10.1001/jama.2013.280490",
+   "type": "case-control",
+   "n": "25,956 B12-deficient patients and 184,199 controls",
+   "finding": "Two or more years of PPIs (OR 1.65) or H2 blockers (OR 1.25) was associated with vitamin B12 deficiency, more at higher PPI doses."
+  },
+  {
+   "id": "nut-levine1996",
+   "authors": "Levine M, Conry-Cantilena C, Wang Y, et al.",
+   "year": 1996,
+   "title": "Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "8623000",
+   "doi": "10.1073/pnas.93.8.3704",
+   "type": "mechanistic",
+   "n": "7 healthy men (inpatient depletion-repletion)",
+   "finding": "Plasma vitamin C rises steeply between 30 and 100 mg/day, plateaus from 200 mg/day; white cells saturate at 100 mg; doses >400 mg have no evident value; oxalate rises at 1000 mg."
+  },
+  {
+   "id": "nut-levine2001",
+   "authors": "Levine M, Wang Y, Padayatty SJ, et al.",
+   "year": 2001,
+   "title": "A new recommended dietary allowance of vitamin C for healthy young women",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "11504949",
+   "doi": "10.1073/pnas.171318198",
+   "type": "mechanistic",
+   "n": "15 healthy young women (inpatient depletion-repletion)",
+   "finding": "Plasma and cells saturated at 400 mg/day; F2-isoprostanes did not change at any vitamin C dose in these replete women."
+  },
+  {
+   "id": "nut-loftfield2024",
+   "authors": "Loftfield E, O'Connell CP, Abnet CC, et al.",
+   "year": 2024,
+   "title": "Multivitamin Use and Mortality Risk in 3 Prospective US Cohorts",
+   "journal": "JAMA Netw Open",
+   "pmid": "38922615",
+   "doi": "10.1001/jamanetworkopen.2024.18729",
+   "type": "cohort",
+   "n": "390,124 US adults",
+   "finding": "Daily multivitamin use was not associated with lower mortality (HR 1.04 in the first half of follow-up)."
+  },
+  {
+   "id": "nut-marticarvajal2017",
+   "authors": "Martí-Carvajal AJ, Solà I, Lathyris D, et al.",
+   "year": 2017,
+   "title": "Homocysteine-lowering interventions for preventing cardiovascular events",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "28816346",
+   "doi": "10.1002/14651858.CD006612.pub5",
+   "type": "meta-analysis",
+   "n": "15 RCTs, 71,422 participants",
+   "finding": "Cochrane: B-vitamin homocysteine lowering did not reduce MI or death but modestly reduced stroke (RR 0.90)."
+  },
+  {
+   "id": "nut-mcnulty2023",
+   "authors": "McNulty H, Pentieva K, Ward M",
+   "year": 2023,
+   "title": "Causes and Clinical Sequelae of Riboflavin Deficiency",
+   "journal": "Annu Rev Nutr",
+   "pmid": "37603429",
+   "doi": "10.1146/annurev-nutr-061121-084407",
+   "type": "review",
+   "n": null,
+   "finding": "Subclinical riboflavin deficiency may be widespread even in high-income countries but goes undetected; linked to anaemia and hypertension."
+  },
+  {
+   "id": "nut-mills2018",
+   "authors": "Mills JL, Buck Louis GM, Kannan K, et al.",
+   "year": 2018,
+   "title": "Delayed conception in women with low-urinary iodine concentrations: a population-based prospective cohort study",
+   "journal": "Hum Reprod",
+   "pmid": "29340704",
+   "doi": "10.1093/humrep/dex379",
+   "type": "cohort",
+   "n": "501 women trying to conceive (LIFE Study)",
+   "finding": "Women with iodine:creatinine <50 ug/g had 46% lower fecundability per cycle (OR 0.54)."
+  },
+  {
+   "id": "nut-ni2022",
+   "authors": "Ni Z, Li Y, Song D, et al.",
+   "year": 2022,
+   "title": "Iron-overloaded follicular fluid increases the risk of endometriosis-related infertility by triggering granulosa cell ferroptosis and oocyte dysmaturity",
+   "journal": "Cell Death Dis",
+   "pmid": "35787614",
+   "doi": "10.1038/s41419-022-05037-8",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Iron-overloaded follicular fluid from women with endometriosis triggered granulosa-cell ferroptosis and impaired oocyte maturation in mouse models; vitamin E and deferoxamine helped."
+  },
+  {
+   "id": "nut-nielsen2010",
+   "authors": "Nielsen FH, Johnson LK, Zeng H",
+   "year": 2010,
+   "title": "Magnesium supplementation improves indicators of low magnesium status and inflammatory stress in adults older than 51 years with poor quality sleep",
+   "journal": "Magnes Res",
+   "pmid": "21199787",
+   "doi": "10.1684/mrh.2010.0220",
+   "type": "rct",
+   "n": "100 adults >51 y with poor sleep",
+   "finding": "320 mg/day magnesium lowered CRP only in those with baseline CRP >3 mg/L; 58% ate below the magnesium EAR."
+  },
+  {
+   "id": "nut-niklewicz2024",
+   "authors": "Niklewicz A, Hannibal L, Warren M, et al.",
+   "year": 2024,
+   "title": "A systematic review and meta-analysis of functional vitamin B12 status among adult vegans",
+   "journal": "Nutr Bull",
+   "pmid": "39373282",
+   "doi": "10.1111/nbu.12712",
+   "type": "meta-analysis",
+   "n": "17 studies of adult vegans",
+   "finding": "Vegans had lower serum B12 and higher homocysteine and methylmalonic acid than omnivores, indicating functional B12 deficiency."
+  },
+  {
+   "id": "nut-oconnor2022",
+   "authors": "O'Connor EA, Evans CV, Ivlev I, et al.",
+   "year": 2022,
+   "title": "Vitamin and Mineral Supplements for the Primary Prevention of Cardiovascular Disease and Cancer: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force",
+   "journal": "JAMA",
+   "pmid": "35727272",
+   "doi": "10.1001/jama.2021.15650",
+   "type": "meta-analysis",
+   "n": "84 studies, 739,803 participants (USPSTF evidence review)",
+   "finding": "Multivitamins were associated with slightly lower cancer incidence (OR 0.93, 4 RCTs) with important limitations; beta-carotene raised lung cancer; limited evidence linked vitamin A to hip fracture, vitamin E to hemorrhagic stroke and vitamin C to kidney stones."
+  },
+  {
+   "id": "nut-passarelli2024",
+   "authors": "Passarelli S, Free CM, Shepon A, et al.",
+   "year": 2024,
+   "title": "Global estimation of dietary micronutrient inadequacies: a modelling analysis",
+   "journal": "Lancet Glob Health",
+   "pmid": "39218000",
+   "doi": "10.1016/S2214-109X(24)00276-6",
+   "type": "database",
+   "n": "Dietary intake models for 185 countries",
+   "finding": "From food alone, >5 billion people under-consume iodine, vitamin E and calcium and >4 billion under-consume iron, riboflavin, folate and vitamin C."
+  },
+  {
+   "id": "nut-rayman2012",
+   "authors": "Rayman MP",
+   "year": 2012,
+   "title": "Selenium and human health",
+   "journal": "Lancet",
+   "pmid": "22381456",
+   "doi": "10.1016/S0140-6736(11)61452-9",
+   "type": "review",
+   "n": null,
+   "finding": "Selenium's health effects follow a U-shaped curve: extra intake may help people with low status but those with adequate-to-high status may be harmed."
+  },
+  {
+   "id": "nut-rayman2018",
+   "authors": "Rayman MP, Winther KH, Pastor-Barriuso R, et al.",
+   "year": 2018,
+   "title": "Effect of long-term selenium supplementation on mortality: Results from a multiple-dose, randomised controlled trial",
+   "journal": "Free Radic Biol Med",
+   "pmid": "29454039",
+   "doi": "10.1016/j.freeradbiomed.2018.02.015",
+   "type": "rct",
+   "n": "491 Danes aged 60-74 (PRECISE)",
+   "finding": "300 ug/day selenium for 5 years raised all-cause mortality over 10 years (HR 1.59, 1.02-2.46); 100 and 200 ug showed no harm."
+  },
+  {
+   "id": "nut-safarinejad2009",
+   "authors": "Safarinejad MR, Safarinejad S",
+   "year": 2009,
+   "title": "Efficacy of selenium and/or N-acetyl-cysteine for improving semen parameters in infertile men: a double-blind, placebo controlled, randomized study",
+   "journal": "J Urol",
+   "pmid": "19091331",
+   "doi": "10.1016/j.juro.2008.10.015",
+   "type": "rct",
+   "n": "468 infertile men",
+   "finding": "Reported that 200 ug selenium and/or 600 mg NAC improved all semen parameters; the journal issued an Expression of Concern in 2023."
+  },
+  {
+   "id": "nut-schisterman2020",
+   "authors": "Schisterman EF, Sjaarda LA, Clemons T, et al.",
+   "year": 2020,
+   "title": "Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial",
+   "journal": "JAMA",
+   "pmid": "31910279",
+   "doi": "10.1001/jama.2019.18714",
+   "type": "rct",
+   "n": "2370 men in couples seeking infertility care (FAZST)",
+   "finding": "5 mg folic acid plus 30 mg zinc for 6 months did not improve semen quality or live birth (34% vs 35%) and slightly raised sperm DNA fragmentation (+2.4 points)."
+  },
+  {
+   "id": "nut-schleicher2009",
+   "authors": "Schleicher RL, Carroll MD, Ford ES, et al.",
+   "year": 2009,
+   "title": "Serum vitamin C and the prevalence of vitamin C deficiency in the United States: 2003-2004 National Health and Nutrition Examination Survey (NHANES)",
+   "journal": "Am J Clin Nutr",
+   "pmid": "19675106",
+   "doi": "10.3945/ajcn.2008.27016",
+   "type": "cross-sectional",
+   "n": "7277 people (NHANES 2003-2004)",
+   "finding": "7.1% of the US population was vitamin C deficient; smokers had about one-third lower concentrations."
+  },
+  {
+   "id": "nut-scott1998",
+   "authors": "Scott R, MacPherson A, Yates RW, et al.",
+   "year": 1998,
+   "title": "The effect of oral selenium supplementation on human sperm motility",
+   "journal": "Br J Urol",
+   "pmid": "9698665",
+   "doi": "10.1046/j.1464-410x.1998.00683.x",
+   "type": "rct",
+   "n": "69 subfertile Scottish men with low selenium status",
+   "finding": "Selenium (100 ug/day) for 3 months raised sperm motility vs placebo; 11% achieved paternity vs none on placebo."
+  },
+  {
+   "id": "nut-sesso2012",
+   "authors": "Sesso HD, Christen WG, Bubes V, et al.",
+   "year": 2012,
+   "title": "Multivitamins in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial",
+   "journal": "JAMA",
+   "pmid": "23117775",
+   "doi": "10.1001/jama.2012.14805",
+   "type": "rct",
+   "n": "14,641 male US physicians (PHS II)",
+   "finding": "A daily multivitamin did not reduce major cardiovascular events (HR 1.01) or total mortality (HR 0.94)."
+  },
+  {
+   "id": "nut-sesso2022",
+   "authors": "Sesso HD, Rist PM, Aragaki AK, et al.",
+   "year": 2022,
+   "title": "Multivitamins in the prevention of cancer and cardiovascular disease: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "35294969",
+   "doi": "10.1093/ajcn/nqac056",
+   "type": "rct",
+   "n": "21,442 US adults (COSMOS)",
+   "finding": "A daily multivitamin for a median 3.6 years did not reduce total cancer (HR 0.97) or CVD (HR 0.98); lung cancer was lower (HR 0.62)."
+  },
+  {
+   "id": "nut-sohn2024",
+   "authors": "Sohn SY, Inoue K, Rhee CM, et al.",
+   "year": 2024,
+   "title": "Risks of Iodine Excess",
+   "journal": "Endocr Rev",
+   "pmid": "38870258",
+   "doi": "10.1210/endrev/bnae019",
+   "type": "review",
+   "n": null,
+   "finding": "Excess iodine (supplements, contrast media, amiodarone) can trigger hypo- or hyperthyroidism in susceptible people."
+  },
+  {
+   "id": "nut-srinutta2019",
+   "authors": "Srinutta T, Chewcharat A, Takkavatakarn K, et al.",
+   "year": 2019,
+   "title": "Proton pump inhibitors and hypomagnesemia: A meta-analysis of observational studies",
+   "journal": "Medicine (Baltimore)",
+   "pmid": "31689852",
+   "doi": "10.1097/MD.0000000000017788",
+   "type": "meta-analysis",
+   "n": "16 observational studies, 131,507 patients",
+   "finding": "PPI use was associated with hypomagnesaemia (adjusted OR 1.71), more with high doses (OR 2.13)."
+  },
+  {
+   "id": "nut-stagnarogreen2013",
+   "authors": "Stagnaro-Green A, Pearce EN",
+   "year": 2013,
+   "title": "Iodine and pregnancy: a call to action",
+   "journal": "Lancet",
+   "pmid": "23706509",
+   "doi": "10.1016/S0140-6736(13)60717-5",
+   "type": "review",
+   "n": null,
+   "finding": "Lancet comment calling for action on iodine nutrition in pregnancy."
+  },
+  {
+   "id": "nut-stampfer2015",
+   "authors": "Stampfer M, Willett W",
+   "year": 2015,
+   "title": "Folate supplements for stroke prevention: targeted trial trumps the rest",
+   "journal": "JAMA",
+   "pmid": "25770867",
+   "doi": "10.1001/jama.2015.1961",
+   "type": "review",
+   "n": null,
+   "finding": "JAMA editorial arguing that the CSPPT targeted trial in a low-folate population outweighs earlier null trials in fortified populations."
+  },
+  {
+   "id": "nut-stockwell2017",
+   "authors": "Stockwell BR, Friedmann Angeli JP, Bayir H, et al.",
+   "year": 2017,
+   "title": "Ferroptosis: A Regulated Cell Death Nexus Linking Metabolism, Redox Biology, and Disease",
+   "journal": "Cell",
+   "pmid": "28985560",
+   "doi": "10.1016/j.cell.2017.09.021",
+   "type": "review",
+   "n": null,
+   "finding": "Ferroptosis review: iron, polyunsaturated lipid peroxidation and loss of GPX4/glutathione defences link metabolism, redox biology and disease."
+  },
+  {
+   "id": "nut-stranges2007",
+   "authors": "Stranges S, Marshall JR, Natarajan R, et al.",
+   "year": 2007,
+   "title": "Effects of long-term selenium supplementation on the incidence of type 2 diabetes: a randomized trial",
+   "journal": "Ann Intern Med",
+   "pmid": "17620655",
+   "doi": "10.7326/0003-4819-147-4-200708210-00175",
+   "type": "rct",
+   "n": "1202 US adults (NPC trial)",
+   "finding": "200 ug/day selenium raised type 2 diabetes (HR 1.55), highest in the top baseline selenium tertile (HR 2.70)."
+  },
+  {
+   "id": "nut-ursini1999",
+   "authors": "Ursini F, Heim S, Kiess M, et al.",
+   "year": 1999,
+   "title": "Dual function of the selenoprotein PHGPx during sperm maturation",
+   "journal": "Science",
+   "pmid": "10464096",
+   "doi": "10.1126/science.285.5432.1393",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The selenoprotein PHGPx (GPX4) becomes a structural protein making up >=50% of the sperm midpiece mitochondrial capsule, explaining midpiece fragility in selenium deficiency."
+  },
+  {
+   "id": "nut-uspstf2022",
+   "authors": "Mangione CM, Barry MJ, Nicholson WK, et al.",
+   "year": 2022,
+   "title": "Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: US Preventive Services Task Force Recommendation Statement",
+   "journal": "JAMA",
+   "pmid": "35727271",
+   "doi": "10.1001/jama.2022.8970",
+   "type": "guideline",
+   "n": null,
+   "finding": "USPSTF: insufficient evidence for multivitamins to prevent CVD or cancer; recommends against beta-carotene and vitamin E."
+  },
+  {
+   "id": "nut-uspstf2023",
+   "authors": "Barry MJ, Nicholson WK, Silverstein M, et al.",
+   "year": 2023,
+   "title": "Folic Acid Supplementation to Prevent Neural Tube Defects: US Preventive Services Task Force Reaffirmation Recommendation Statement",
+   "journal": "JAMA",
+   "pmid": "37526713",
+   "doi": "10.1001/jama.2023.12876",
+   "type": "guideline",
+   "n": null,
+   "finding": "USPSTF (A recommendation): everyone who could become pregnant should take 400-800 ug folic acid daily."
+  },
+  {
+   "id": "nut-veronese2022",
+   "authors": "Veronese N, Pizzol D, Smith L, et al.",
+   "year": 2022,
+   "title": "Effect of Magnesium Supplementation on Inflammatory Parameters: A Meta-Analysis of Randomized Controlled Trials",
+   "journal": "Nutrients",
+   "pmid": "35277037",
+   "doi": "10.3390/nu14030679",
+   "type": "meta-analysis",
+   "n": "17 RCTs, 889 participants",
+   "finding": "Magnesium supplements lowered serum CRP and raised nitric oxide."
+  },
+  {
+   "id": "nut-vinceti2018",
+   "authors": "Vinceti M, Filippini T, Del Giovane C, et al.",
+   "year": 2018,
+   "title": "Selenium for preventing cancer",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "29376219",
+   "doi": "10.1002/14651858.CD005195.pub4",
+   "type": "meta-analysis",
+   "n": "10 RCTs, 27,232 participants",
+   "finding": "Cochrane: selenium supplements did not prevent cancer (RR 1.01, high certainty)."
+  },
+  {
+   "id": "nut-vyas2024",
+   "authors": "Vyas CM, Manson JE, Sesso HD, et al.",
+   "year": 2024,
+   "title": "Effect of multivitamin-mineral supplementation versus placebo on cognitive function: results from the clinic subcohort of the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial and meta-analysis of 3 cognitive studies within COSMOS",
+   "journal": "Am J Clin Nutr",
+   "pmid": "38244989",
+   "doi": "10.1016/j.ajcnut.2023.12.011",
+   "type": "rct",
+   "n": "573 COSMOS-Clinic participants plus meta-analysis of 3 COSMOS cohorts",
+   "finding": "A multivitamin improved episodic memory over 2 years; pooled COSMOS data showed small benefits on global cognition (0.07 SD)."
+  },
+  {
+   "id": "nut-wessells2012",
+   "authors": "Wessells KR, Brown KH",
+   "year": 2012,
+   "title": "Estimating the global prevalence of zinc deficiency: results based on zinc availability in national food supplies and the prevalence of stunting",
+   "journal": "PLoS One",
+   "pmid": "23209782",
+   "doi": "10.1371/journal.pone.0050568",
+   "type": "database",
+   "n": "National food-supply data, global",
+   "finding": "An estimated 17.3% of the world's population is at risk of inadequate zinc intake, highest in sub-Saharan Africa and South Asia."
+  },
+  {
+   "id": "nut-wilson2013",
+   "authors": "Wilson CP, McNulty H, Ward M, et al.",
+   "year": 2013,
+   "title": "Blood pressure in treated hypertensive individuals with the MTHFR 677TT genotype is responsive to intervention with riboflavin: findings of a targeted randomized trial",
+   "journal": "Hypertension",
+   "pmid": "23608654",
+   "doi": "10.1161/HYPERTENSIONAHA.111.01047",
+   "type": "rct",
+   "n": "91 hypertensive adults with MTHFR 677TT",
+   "finding": "1.6 mg/day riboflavin for 16 weeks lowered systolic BP by 5.6 mmHg vs placebo in this genotype."
+  },
+  {
+   "id": "nut-zhao2016",
+   "authors": "Zhao J, Dong X, Hu X, et al.",
+   "year": 2016,
+   "title": "Zinc levels in seminal plasma and their correlation with male infertility: A systematic review and meta-analysis",
+   "journal": "Sci Rep",
+   "pmid": "26932683",
+   "doi": "10.1038/srep22386",
+   "type": "meta-analysis",
+   "n": "20 studies, 2600 cases and 867 controls",
+   "finding": "Infertile men had lower seminal zinc; pooled small trials suggested zinc improved volume, motility and morphology."
+  },
+  {
+   "id": "nut-zhou2018",
+   "authors": "Zhou H, Wang T, Li Q, et al.",
+   "year": 2018,
+   "title": "Prevention of Keshan Disease by Selenium Supplementation: a Systematic Review and Meta-analysis",
+   "journal": "Biol Trace Elem Res",
+   "pmid": "29627894",
+   "doi": "10.1007/s12011-018-1302-5",
+   "type": "meta-analysis",
+   "n": "41 community trials, ~2 million people",
+   "finding": "Selenium supplementation in endemic areas cut Keshan disease (selenium-deficiency cardiomyopathy) incidence by 86% (RR 0.14)."
   }
  ]
 }

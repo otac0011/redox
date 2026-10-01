@@ -181,6 +181,12 @@ def main():
                         break
 
     # checks
+    allowed_same_area = set(aliases.get("same_area_ok", []))
+    for f in factors:
+        areas_seen = [e["area"] for e in f["entries"]]
+        for a in set(areas_seen):
+            if areas_seen.count(a) > 1 and f["id"] not in allowed_same_area:
+                warn(f"{f['id']}: {areas_seen.count(a)} entries from area '{a}' (stale alias or duplicate?)")
     ids = {f["id"] for f in factors}
     for f in factors:
         for e in f["entries"]:

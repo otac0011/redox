@@ -3222,6 +3222,64 @@
     "fer-burton2011",
     "fer-burton2019"
    ]
+  },
+  {
+   "id": "iron-egg",
+   "name": "Iron status and ovulatory fertility",
+   "kind": "supplement",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "egg": 2
+   },
+   "evidence": "limited",
+   "headline": "In the Nurses' Health Study II, women taking iron supplements had 40% less ovulatory infertility, but two newer cohorts of 4662 pregnancy planners found no consistent link except in women prone to deficiency; correcting deficiency matters, extra iron does not.",
+   "dose": {
+    "effective": "Check ferritin before trying to conceive; if low, treat (see [iron-deficiency]). Prenatal vitamins typically supply 27 mg/day, matching the pregnancy RDA.",
+    "studied_range": "Dietary and supplemental non-heme iron intakes in cohorts; heme iron showed no association.",
+    "too_much": "IOM UL 45 mg/day outside treatment; high ferritin in pregnancy is associated with gestational diabetes.",
+    "timeframe": "Repletion takes about 3 months, similar to the ~3-month follicle development window.",
+    "notes": "Heavy menstrual bleeding and short cycles are common causes of low iron in women trying to conceive."
+   },
+   "mechanism": "Iron supports mitochondrial energy production and oxygen delivery to developing follicles. At the other extreme, iron overload in follicular fluid (seen in endometriosis) triggered granulosa-cell ferroptosis and poor oocyte maturation in mouse models, a mechanistic warning against excess.",
+   "pathways": [
+    "mitochondrial",
+    "iron-fenton",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Usually delivered via prenatal multivitamins together with folic acid [folic-acid] [multivitamin-mineral]. Endometriosis creates local iron overload [endometriosis].",
+   "caveats": "Observational and self-reported; women who take supplements differ in many ways. No RCT of iron for fertility in non-anaemic women exists.",
+   "debate": "Positive: NHS II found iron supplements lowered ovulatory infertility (RR 0.60) [nut-chavarro2006]. Null-to-modest: PRESTO and Snart Foraeldre found no consistent association, with benefit limited to supplement users in North America and women with heavy menses [nut-hahn2019]. Mechanistic data point the other way for local excess [nut-ni2022], and iron-overload disorders cause amenorrhoea [nut-carlomagno2026].",
+   "key_numbers": [
+    {
+     "label": "Ovulatory infertility, iron supplement users",
+     "value": 0.6,
+     "unit": "RR",
+     "source": "nut-chavarro2006"
+    },
+    {
+     "label": "Fecundability, iron-containing supplements (PRESTO)",
+     "value": 1.19,
+     "unit": "FR",
+     "source": "nut-hahn2019"
+    },
+    {
+     "label": "Fecundability, iron-containing supplements (Denmark)",
+     "value": 1.01,
+     "unit": "FR",
+     "source": "nut-hahn2019"
+    }
+   ],
+   "refs": [
+    "nut-chavarro2006",
+    "nut-hahn2019",
+    "nut-ni2022",
+    "nut-carlomagno2026",
+    "nut-khambalia2016",
+    "nut-iom2001"
+   ]
   }
  ],
  "mechanisms": [
@@ -6316,6 +6374,78 @@
    "type": "cohort",
    "n": "1202 women",
    "finding": "EAGeR trial cohort: low or high AMH was not associated with fecundability in women with prior losses (FOR 1.13 for low AMH)."
+  },
+  {
+   "id": "nut-carlomagno2026",
+   "authors": "Carlomagno F, Tenuta M, Sansone A, et al.",
+   "year": 2026,
+   "title": "Iron overload disorders in adults: a comprehensive review of gonadal function, reproductive, and sexual health",
+   "journal": "Hum Reprod Update",
+   "pmid": "42101252",
+   "doi": "10.1093/humupd/dmag010",
+   "type": "review",
+   "n": "Systematic review: 1201 men, 2134 women with iron overload",
+   "finding": "In iron overload disorders, 47% of men had hypogonadism and over half of those assessed had azoospermia or other sperm abnormalities; early chelation helps prevent but rarely reverses damage."
+  },
+  {
+   "id": "nut-chavarro2006",
+   "authors": "Chavarro JE, Rich-Edwards JW, Rosner BA, et al.",
+   "year": 2006,
+   "title": "Iron intake and risk of ovulatory infertility",
+   "journal": "Obstet Gynecol",
+   "pmid": "17077236",
+   "doi": "10.1097/01.AOG.0000238333.37423.ab",
+   "type": "cohort",
+   "n": "18,555 women (Nurses' Health Study II)",
+   "finding": "Women using iron supplements had 40% lower risk of ovulatory infertility (RR 0.60); heme iron was unrelated."
+  },
+  {
+   "id": "nut-hahn2019",
+   "authors": "Hahn KA, Wesselink AK, Wise LA, et al.",
+   "year": 2019,
+   "title": "Iron Consumption Is Not Consistently Associated with Fecundability among North American and Danish Pregnancy Planners",
+   "journal": "J Nutr",
+   "pmid": "31152673",
+   "doi": "10.1093/jn/nxz094",
+   "type": "cohort",
+   "n": "4662 pregnancy planners (Denmark n=1693, North America n=2969)",
+   "finding": "Iron intake was not consistently associated with fecundability; supplements helped modestly in North America (FR 1.19) and in women with heavy menses."
+  },
+  {
+   "id": "nut-iom2001",
+   "authors": "Institute of Medicine (US) Panel on Micronutrients",
+   "year": 2001,
+   "title": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+   "journal": "National Academies Press (US)",
+   "pmid": "25057538",
+   "doi": "10.17226/10026",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for vitamin A, copper, iodine, iron, manganese, zinc and others (ULs: zinc 40 mg, copper 10 mg, iron 45 mg, iodine 1100 ug, manganese 11 mg, preformed vitamin A 3000 ug)."
+  },
+  {
+   "id": "nut-khambalia2016",
+   "authors": "Khambalia AZ, Aimone A, Nagubandi P, et al.",
+   "year": 2016,
+   "title": "High maternal iron status, dietary iron intake and iron supplement use in pregnancy and risk of gestational diabetes mellitus: a prospective study and systematic review",
+   "journal": "Diabet Med",
+   "pmid": "26670627",
+   "doi": "10.1111/dme.13056",
+   "type": "cohort",
+   "n": "3776 pregnant women plus systematic review",
+   "finding": "Higher ferritin (OR 1.41 per unit), serum iron and heme iron intake were associated with gestational diabetes; two supplement trials showed no association."
+  },
+  {
+   "id": "nut-ni2022",
+   "authors": "Ni Z, Li Y, Song D, et al.",
+   "year": 2022,
+   "title": "Iron-overloaded follicular fluid increases the risk of endometriosis-related infertility by triggering granulosa cell ferroptosis and oocyte dysmaturity",
+   "journal": "Cell Death Dis",
+   "pmid": "35787614",
+   "doi": "10.1038/s41419-022-05037-8",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Iron-overloaded follicular fluid from women with endometriosis triggered granulosa-cell ferroptosis and impaired oocyte maturation in mouse models; vitamin E and deferoxamine helped."
   }
  ]
 }

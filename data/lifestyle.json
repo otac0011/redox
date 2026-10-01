@@ -3080,6 +3080,227 @@
     "tst-wu2013",
     "tst-mear2020"
    ]
+  },
+  {
+   "id": "iron-status-ferritin",
+   "name": "High iron stores (high-normal ferritin)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Higher ferritin consistently predicts type 2 diabetes (about +22% per 100 ug/L) and Mendelian randomization supports a causal diabetes link, but the heart-disease side of the 'iron hypothesis' failed: genetic data even suggest slightly less coronary disease with higher iron, and the one phlebotomy RCT (FeAST) was null on its primary outcome.",
+   "dose": {
+    "effective": "No target has been validated by trials. Practical reading: ferritin roughly 30-200 ug/L (women) or 30-300 ug/L (men) with normal transferrin saturation is unremarkable; persistently high ferritin together with high transferrin saturation warrants medical evaluation for haemochromatosis rather than self-treatment.",
+    "studied_range": "FeAST lowered mean ferritin from ~123 to ~80 ng/mL by phlebotomy over ~4.5 years.",
+    "too_much": "Pathological overload (haemochromatosis, transfusion) damages liver, pancreas, heart, joints and gonads.",
+    "timeframe": "Ferritin falls over months with phlebotomy or donation; disease associations accrue over years.",
+    "notes": "Ferritin is also an acute-phase protein: inflammation, obesity, fatty liver, alcohol and infection all raise it, so a single high value often reflects inflammation rather than iron. Check CRP and transferrin saturation alongside."
+   },
+   "mechanism": "Iron stored in ferritin is safe; danger comes from the small labile iron pool that catalyses Fenton chemistry and drives ferroptosis (iron-dependent lipid peroxidation when GPX4/glutathione defences fail). Hepatic and pancreatic iron may impair insulin secretion and action. Serum ferritin itself partly leaks from damaged cells, which ties it to oxidative stress independently of stores.",
+   "pathways": [
+    "iron-fenton",
+    "lipid-peroxidation",
+    "glutathione",
+    "inflammation-nfkb",
+    "glycation-ages"
+   ],
+   "interactions": "Blood donation lowers stores [blood-donation]. Red meat raises heme iron intake [processed-red-meat]. Interpreting ferritin requires accounting for [chronic-inflammation], [excess-adiposity] and alcohol; high ferritin co-travels with [glycemic-control] problems. Avoid iron pills when stores are high [iron-excess].",
+   "caveats": "Observational ferritin-disease links are heavily confounded because ferritin rises with inflammation and fatty liver. Do not induce iron deficiency in pursuit of 'low ferritin': [iron-deficiency] carries real harms. Haemochromatosis genetics is covered elsewhere.",
+   "debate": "Supporting a harmful role: Sullivan's hypothesis [nut-sullivan1981], ferritin-diabetes meta-analyses [nut-jiang2019, nut-kunutsor2013, nut-zhao2012], MR showing iron raises diabetes risk [nut-wang2021, nut-liu2024] and shortens lifespan [nut-daghlas2021], and FeAST's secondary cancer reduction [nut-zacharski2008]. Against: prospective studies found no ferritin-CHD association [nut-danesh1999, nut-sempos2000], FeAST was null on its primary endpoints [nut-zacharski2007] with an editorial calling the evidence far from ironclad [nut-hu2007] and another doubting the cancer result [nut-edgren2008], MR suggests higher iron is mildly protective for coronary disease [nut-gill2017, nut-liu2024] and hypercholesterolemia [nut-gill2019], and ferritin may mostly mark cell damage [nut-kell2014, nut-depalma2010]. Reviewers have long called the iron-heart question unresolved [nut-wood2004].",
+   "key_numbers": [
+    {
+     "label": "T2D risk per 100 ug/L ferritin",
+     "value": 1.22,
+     "unit": "RR",
+     "source": "nut-jiang2019"
+    },
+    {
+     "label": "FeAST all-cause death, phlebotomy vs control",
+     "value": 0.85,
+     "unit": "HR (NS)",
+     "source": "nut-zacharski2007"
+    },
+    {
+     "label": "CAD per SD genetically higher serum iron",
+     "value": 0.94,
+     "unit": "OR",
+     "source": "nut-gill2017"
+    },
+    {
+     "label": "Parental lifespan per SD genetically higher serum iron",
+     "value": -0.7,
+     "unit": "years",
+     "source": "nut-daghlas2021"
+    }
+   ],
+   "refs": [
+    "nut-sullivan1981",
+    "nut-zacharski2007",
+    "nut-zacharski2008",
+    "nut-hu2007",
+    "nut-edgren2008",
+    "nut-depalma2010",
+    "nut-jiang2019",
+    "nut-kunutsor2013",
+    "nut-zhao2012",
+    "nut-danesh1999",
+    "nut-sempos2000",
+    "nut-wood2004",
+    "nut-hunnicutt2014",
+    "nut-gill2017",
+    "nut-gill2019",
+    "nut-liu2024",
+    "nut-wang2021",
+    "nut-daghlas2021",
+    "nut-timmers2020",
+    "nut-kell2014",
+    "nut-kakhlon2002",
+    "nut-dixon2012",
+    "nut-stockwell2017",
+    "nut-pilling2019"
+   ]
+  },
+  {
+   "id": "iron-deficiency",
+   "name": "Iron deficiency (with or without anaemia)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 4
+   },
+   "evidence": "strong",
+   "headline": "Iron deficiency is one of the world's leading nutritional harms: even without anaemia it causes fatigue (iron cut fatigue scores 48% vs 29% placebo in women with ferritin <50 ug/L), and in pregnancy anaemia is linked to ~30% more low birthweight and ~60% more preterm birth.",
+   "dose": {
+    "effective": "Treat documented deficiency: typical oral regimens give 40-100 mg elemental iron once daily or on alternate days for about 3 months, then recheck ferritin; 80 mg/day for 12 weeks was used in the fatigue RCT. Prevention: RDA 8 mg/day (men, postmenopausal women), 18 mg/day (menstruating women), 27 mg/day (pregnancy); vegetarians need ~1.8x more because non-heme iron is less bioavailable.",
+    "studied_range": "Oral iron 60-80 mg/day in most adult trials; prenatal 30-60 mg/day.",
+    "too_much": "Continuing high-dose iron after repletion pushes stores up [iron-excess]; IOM UL 45 mg/day (GI effects) applies to healthy people, not to supervised treatment.",
+    "timeframe": "Haemoglobin rises within 2-4 weeks; ferritin repletion takes ~3 months; fatigue improved by 12 weeks.",
+    "notes": "At-risk groups: heavy menstrual bleeding, pregnancy, infants and adolescents, vegans/vegetarians, frequent blood donors, endurance athletes, coeliac disease and other GI disease, bariatric surgery, chronic PPI use. In men and postmenopausal women, unexplained iron deficiency needs investigation for GI blood loss."
+   },
+   "mechanism": "Iron is needed for haemoglobin, myoglobin, mitochondrial cytochromes and iron-sulfur clusters, catalase and many DNA-synthesis enzymes. Deficiency impairs oxygen delivery and mitochondrial energy production, immunity and brain neurotransmitter synthesis. It is not an 'antioxidant' state: anaemia is itself associated with oxidative stress in red cells.",
+   "pathways": [
+    "mitochondrial",
+    "dna-repair"
+   ],
+   "interactions": "Frequent donation can cause it [blood-donation]. Vitamin C-rich foods with meals raise non-heme absorption [vitamin-c-foods]; tea and coffee with meals reduce it [green-tea] [coffee]. For fertility relevance see [iron-egg].",
+   "caveats": "Ferritin is the best single test but is falsely raised by inflammation; in that setting transferrin saturation <20% helps. Cognitive benefits of iron in non-anaemic people are less certain than fatigue benefits.",
+   "debate": "That deficiency harms health is not contested [nut-pasricha2021]. Debate centres on thresholds and on non-anaemic deficiency: fatigue benefits appeared in an RCT [nut-vaucher2012] and a 2025 meta-analysis found psychiatric and cognitive gains only in iron-deficient participants [nut-fiani2025], while an earlier review judged cognitive trials small and weak [nut-falkingham2010]. In pregnancy, Cochrane supports routine iron [nut-finkelstein2024] but also notes more haemoglobin above 130 g/L [nut-penarosas2015], and high maternal haemoglobin/ferritin are themselves linked to gestational diabetes and pre-eclampsia [nut-young2023, nut-khambalia2016].",
+   "key_numbers": [
+    {
+     "label": "Fatigue reduction, iron vs placebo (ferritin <50 ug/L)",
+     "value": 47.7,
+     "unit": "% vs 28.8%",
+     "source": "nut-vaucher2012"
+    },
+    {
+     "label": "Preterm birth with maternal anaemia (LMICs)",
+     "value": 1.63,
+     "unit": "RR",
+     "source": "nut-rahman2016"
+    },
+    {
+     "label": "Low birthweight with prenatal iron",
+     "value": 0.84,
+     "unit": "RR",
+     "source": "nut-finkelstein2024"
+    },
+    {
+     "label": "Iron bioavailability, vegetarian diets",
+     "value": 10,
+     "unit": "% (5-12%)",
+     "source": "nut-hurrell2010"
+    }
+   ],
+   "refs": [
+    "nut-pasricha2021",
+    "nut-vaucher2012",
+    "nut-falkingham2010",
+    "nut-fiani2025",
+    "nut-finkelstein2024",
+    "nut-penarosas2015",
+    "nut-hansen2023",
+    "nut-rahman2016",
+    "nut-young2023",
+    "nut-khambalia2016",
+    "nut-hurrell2010",
+    "nut-iom2001",
+    "nut-diangelantonio2017"
+   ]
+  },
+  {
+   "id": "blood-donation",
+   "name": "Regular blood donation",
+   "kind": "lifestyle",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Donating lowers iron stores, and donors live longer, but most of that is the 'healthy donor effect': in 1.2 million donors the 18.6% lower mortality per annual donation shrank to 7.5% after adjustment, a large cohort found no heart benefit, and frequent donation often causes iron deficiency.",
+   "dose": {
+    "effective": "Donate for altruism, not as a health intervention. Standard whole-blood intervals (in the UK about 12 weeks for men and 16 for women), with ferritin checks or iron supplementation for frequent donors.",
+    "studied_range": "One donation removes ~200-250 mg iron. RCT of 550-800 mL phlebotomy in metabolic syndrome; donation intervals of 8-16 weeks (INTERVAL).",
+    "too_much": "Each week shorter donation interval lowered ferritin ~5-6.5% and raised low-haemoglobin deferrals; frequent donors reported more tiredness and restless legs.",
+    "timeframe": "Ferritin falls within months of regular donation.",
+    "notes": "Therapeutic phlebotomy for haemochromatosis is a medical treatment and is clearly beneficial in that condition; this entry is about healthy people."
+   },
+   "mechanism": "Removes iron (as haemoglobin) and thereby lowers ferritin and, in theory, the labile iron available for Fenton chemistry. Short-term blood-pressure falls after phlebotomy may reflect volume and haemodynamic effects rather than iron.",
+   "pathways": [
+    "iron-fenton"
+   ],
+   "interactions": "Lowers [iron-status-ferritin]; can cause [iron-deficiency], especially in young women and frequent donors.",
+   "caveats": "Donors are pre-screened for good health and continue donating only while healthy, so observational comparisons overstate benefits. No study has shown that donation reduces oxidative-stress outcomes or disease in healthy people.",
+   "debate": "For a benefit: the Kuopio cohort found 88% fewer heart attacks in recent donors [nut-salonen1998], a small RCT of phlebotomy in metabolic syndrome lowered systolic BP by 16.6 mmHg [nut-houschyar2012] (commentary noted design drawbacks [nut-manco2012]), and FeAST suggested fewer cancers [nut-zacharski2008]. Against: the 38,244-man Health Professionals cohort found no CHD benefit despite lower ferritin [nut-ascherio2001], FeAST was null for death and CV events [nut-zacharski2007], and Scandinavian and Dutch data show a strong healthy donor effect [nut-ullum2015, nut-atsma2011]. INTERVAL showed the harms side: more symptoms and iron deficiency with frequent donation [nut-diangelantonio2017, nut-kaptoge2019, nut-vandenhurk2018].",
+   "key_numbers": [
+    {
+     "label": "Mortality per extra annual donation, crude",
+     "value": -18.6,
+     "unit": "%",
+     "source": "nut-ullum2015"
+    },
+    {
+     "label": "Mortality per extra annual donation, healthy-donor adjusted",
+     "value": -7.5,
+     "unit": "%",
+     "source": "nut-ullum2015"
+    },
+    {
+     "label": "MI, >=30 lifetime donations vs never",
+     "value": 1.2,
+     "unit": "RR (NS)",
+     "source": "nut-ascherio2001"
+    },
+    {
+     "label": "Systolic BP change after phlebotomy (metabolic syndrome)",
+     "value": -16.6,
+     "unit": "mmHg",
+     "source": "nut-houschyar2012"
+    }
+   ],
+   "refs": [
+    "nut-ullum2015",
+    "nut-atsma2011",
+    "nut-salonen1998",
+    "nut-ascherio2001",
+    "nut-houschyar2012",
+    "nut-manco2012",
+    "nut-zacharski2007",
+    "nut-zacharski2008",
+    "nut-diangelantonio2017",
+    "nut-kaptoge2019",
+    "nut-vandenhurk2018"
+   ]
   }
  ],
  "mechanisms": [
@@ -8699,6 +8920,546 @@
    "type": "meta-analysis",
    "n": "6,934 subjects",
    "finding": "GSTM1 null genotype was associated with a significantly higher risk of male infertility in Asian and Caucasian groups; GSTT1 findings were inconsistent."
+  },
+  {
+   "id": "nut-ascherio2001",
+   "authors": "Ascherio A, Rimm EB, Giovannucci E, et al.",
+   "year": 2001,
+   "title": "Blood donations and risk of coronary heart disease in men",
+   "journal": "Circulation",
+   "pmid": "11136685",
+   "doi": "10.1161/01.cir.103.1.52",
+   "type": "cohort",
+   "n": "38,244 US men",
+   "finding": "Lifetime blood donation lowered ferritin but was not associated with MI or fatal CHD (RR 1.2 for >=30 donations vs never)."
+  },
+  {
+   "id": "nut-atsma2011",
+   "authors": "Atsma F, Veldhuizen I, Verbeek A, et al.",
+   "year": 2011,
+   "title": "Healthy donor effect: its magnitude in health research among blood donors",
+   "journal": "Transfusion",
+   "pmid": "21342203",
+   "doi": "10.1111/j.1537-2995.2010.03055.x",
+   "type": "cross-sectional",
+   "n": "Dutch donors vs general population",
+   "finding": "Donors were healthier than the general population (better self-rated health, fewer GP visits), demonstrating a strong healthy donor effect."
+  },
+  {
+   "id": "nut-daghlas2021",
+   "authors": "Daghlas I, Gill D",
+   "year": 2021,
+   "title": "Genetically predicted iron status and life expectancy",
+   "journal": "Clin Nutr",
+   "pmid": "32690432",
+   "doi": "10.1016/j.clnu.2020.06.025",
+   "type": "cohort",
+   "n": "Mendelian randomization using parental lifespan GWAS",
+   "finding": "Each SD of genetically higher serum iron corresponded to 0.7 fewer years of parental lifespan and lower odds of reaching the 90th age percentile (OR 0.81)."
+  },
+  {
+   "id": "nut-danesh1999",
+   "authors": "Danesh J, Appleby P",
+   "year": 1999,
+   "title": "Coronary heart disease and iron status: meta-analyses of prospective studies",
+   "journal": "Circulation",
+   "pmid": "10027804",
+   "doi": "10.1161/01.cir.99.7.852",
+   "type": "meta-analysis",
+   "n": "12 prospective studies, 7800 CHD cases",
+   "finding": "Ferritin >=200 vs <200 ug/L showed no association with coronary heart disease (RR 1.0, 0.8-1.3); no strong link for any iron marker."
+  },
+  {
+   "id": "nut-depalma2010",
+   "authors": "Depalma RG, Hayes VW, Chow BK, et al.",
+   "year": 2010,
+   "title": "Ferritin levels, inflammatory biomarkers, and mortality in peripheral arterial disease: a substudy of the Iron (Fe) and Atherosclerosis Study (FeAST) Trial",
+   "journal": "J Vasc Surg",
+   "pmid": "20304584",
+   "doi": "10.1016/j.jvs.2009.12.068",
+   "type": "rct",
+   "n": "100 FeAST participants",
+   "finding": "In a FeAST substudy, ferritin correlated with IL-6 and hsCRP, and higher ferritin tracked with mortality, illustrating ferritin's overlap with inflammation."
+  },
+  {
+   "id": "nut-diangelantonio2017",
+   "authors": "Di Angelantonio E, Thompson SG, Kaptoge S, et al.",
+   "year": 2017,
+   "title": "Efficiency and safety of varying the frequency of whole blood donation (INTERVAL): a randomised trial of 45 000 donors",
+   "journal": "Lancet",
+   "pmid": "28941948",
+   "doi": "10.1016/S0140-6736(17)31928-1",
+   "type": "rct",
+   "n": "45,263 blood donors",
+   "finding": "INTERVAL: shorter donation intervals collected more blood but caused more symptoms (tiredness, restless legs), lower hemoglobin and ferritin, and more deferrals."
+  },
+  {
+   "id": "nut-dixon2012",
+   "authors": "Dixon SJ, Lemberg KM, Lamprecht MR, et al.",
+   "year": 2012,
+   "title": "Ferroptosis: an iron-dependent form of nonapoptotic cell death",
+   "journal": "Cell",
+   "pmid": "22632970",
+   "doi": "10.1016/j.cell.2012.03.042",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Defined ferroptosis: an iron-dependent, lipid-peroxidation-driven cell death triggered by cystine/glutathione depletion and blocked by ferrostatin-1."
+  },
+  {
+   "id": "nut-edgren2008",
+   "authors": "Edgren G, Nyrén O, Melbye M",
+   "year": 2008,
+   "title": "Cancer as a ferrotoxic disease: are we getting hard stainless evidence?",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "18612127",
+   "doi": "10.1093/jnci/djn225",
+   "type": "review",
+   "n": null,
+   "finding": "JNCI editorial accompanying the FeAST cancer analysis, questioning how firm the evidence is that iron reduction prevents cancer."
+  },
+  {
+   "id": "nut-falkingham2010",
+   "authors": "Falkingham M, Abdelhamid A, Curtis P, et al.",
+   "year": 2010,
+   "title": "The effects of oral iron supplementation on cognition in older children and adults: a systematic review and meta-analysis",
+   "journal": "Nutr J",
+   "pmid": "20100340",
+   "doi": "10.1186/1475-2891-9-4",
+   "type": "meta-analysis",
+   "n": "14 RCTs",
+   "finding": "Iron supplements improved attention/concentration and, in anaemic people only, IQ by 2.5 points; trials were small and weak."
+  },
+  {
+   "id": "nut-fiani2025",
+   "authors": "Fiani D, Chahine S, Zaboube M, et al.",
+   "year": 2025,
+   "title": "Psychiatric and cognitive outcomes of iron supplementation in non-anemic children, adolescents, and menstruating adults: A meta-analysis and systematic review",
+   "journal": "Neurosci Biobehav Rev",
+   "pmid": "40945632",
+   "doi": "10.1016/j.neubiorev.2025.106372",
+   "type": "meta-analysis",
+   "n": "18 studies, 1408 participants",
+   "finding": "In non-anaemic iron-deficient youth and menstruating adults, iron improved anxiety, fatigue and memory; effects vanished when iron-replete people were analysed alone."
+  },
+  {
+   "id": "nut-finkelstein2024",
+   "authors": "Finkelstein JL, Cuthbert A, Weeks J, et al.",
+   "year": 2024,
+   "title": "Daily oral iron supplementation during pregnancy",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "39145520",
+   "doi": "10.1002/14651858.CD004736.pub6",
+   "type": "meta-analysis",
+   "n": "Cochrane, trials in >40,000 pregnant women",
+   "finding": "Daily iron in pregnancy reduces maternal anaemia, iron deficiency and iron-deficiency anaemia at term and probably reduces low birthweight (RR 0.84)."
+  },
+  {
+   "id": "nut-gill2017",
+   "authors": "Gill D, Del Greco M F, Walker AP, et al.",
+   "year": 2017,
+   "title": "The Effect of Iron Status on Risk of Coronary Artery Disease: A Mendelian Randomization Study-Brief Report",
+   "journal": "Arterioscler Thromb Vasc Biol",
+   "pmid": "28684612",
+   "doi": "10.1161/ATVBAHA.117.309757",
+   "type": "cohort",
+   "n": "~60,800 CAD cases and 123,500 controls (two-sample Mendelian randomization)",
+   "finding": "Genetically higher iron status was associated with slightly LOWER coronary artery disease risk (OR 0.94 per SD serum iron)."
+  },
+  {
+   "id": "nut-gill2019",
+   "authors": "Gill D, Benyamin B, Moore LSP, et al.",
+   "year": 2019,
+   "title": "Associations of genetically determined iron status across the phenome: A mendelian randomization study",
+   "journal": "PLoS Med",
+   "pmid": "31220083",
+   "doi": "10.1371/journal.pmed.1002833",
+   "type": "cohort",
+   "n": "424,439 UK Biobank participants (MR phenome-wide)",
+   "finding": "Higher genetic iron status lowered iron-deficiency anemia and hypercholesterolemia but raised skin and soft-tissue infections (cellulitis/abscess OR 1.25)."
+  },
+  {
+   "id": "nut-hansen2023",
+   "authors": "Hansen R, Sejer EPF, Holm C, et al.",
+   "year": 2023,
+   "title": "Iron supplements in pregnant women with normal iron status: A systematic review and meta-analysis",
+   "journal": "Acta Obstet Gynecol Scand",
+   "pmid": "37403900",
+   "doi": "10.1111/aogs.14607",
+   "type": "meta-analysis",
+   "n": "8 RCTs, 2822 iron-replete non-anaemic pregnant women",
+   "finding": "Daily iron in iron-replete pregnant women probably reduced iron-deficiency anaemia at term and low birthweight."
+  },
+  {
+   "id": "nut-houschyar2012",
+   "authors": "Houschyar KS, Lüdtke R, Dobos GJ, et al.",
+   "year": 2012,
+   "title": "Effects of phlebotomy-induced reduction of body iron stores on metabolic syndrome: results from a randomized clinical trial",
+   "journal": "BMC Med",
+   "pmid": "22647517",
+   "doi": "10.1186/1741-7015-10-54",
+   "type": "rct",
+   "n": "64 patients with metabolic syndrome",
+   "finding": "Removing 550-800 mL blood lowered systolic BP by 16.6 mmHg vs control at 6 weeks, without changing insulin resistance (HOMA)."
+  },
+  {
+   "id": "nut-hu2007",
+   "authors": "Hu FB",
+   "year": 2007,
+   "title": "The iron-heart hypothesis: search for the ironclad evidence",
+   "journal": "JAMA",
+   "pmid": "17299200",
+   "doi": "10.1001/jama.297.6.639",
+   "type": "review",
+   "n": null,
+   "finding": "JAMA editorial accompanying FeAST arguing that conclusive ('ironclad') evidence for the iron-heart hypothesis was still lacking."
+  },
+  {
+   "id": "nut-hunnicutt2014",
+   "authors": "Hunnicutt J, He K, Xun P",
+   "year": 2014,
+   "title": "Dietary iron intake and body iron stores are associated with risk of coronary heart disease in a meta-analysis of prospective cohort studies",
+   "journal": "J Nutr",
+   "pmid": "24401818",
+   "doi": "10.3945/jn.113.185124",
+   "type": "meta-analysis",
+   "n": "21 studies, 292,454 participants",
+   "finding": "Heme iron intake was associated with higher CHD incidence (RR 1.57) while total iron, serum iron and transferrin saturation were inversely associated."
+  },
+  {
+   "id": "nut-hurrell2010",
+   "authors": "Hurrell R, Egli I",
+   "year": 2010,
+   "title": "Iron bioavailability and dietary reference values",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20200263",
+   "doi": "10.3945/ajcn.2010.28674F",
+   "type": "review",
+   "n": null,
+   "finding": "Iron bioavailability is ~14-18% from mixed diets and 5-12% from vegetarian diets; body iron status influences absorption more than diet composition."
+  },
+  {
+   "id": "nut-iom2001",
+   "authors": "Institute of Medicine (US) Panel on Micronutrients",
+   "year": 2001,
+   "title": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+   "journal": "National Academies Press (US)",
+   "pmid": "25057538",
+   "doi": "10.17226/10026",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for vitamin A, copper, iodine, iron, manganese, zinc and others (ULs: zinc 40 mg, copper 10 mg, iron 45 mg, iodine 1100 ug, manganese 11 mg, preformed vitamin A 3000 ug)."
+  },
+  {
+   "id": "nut-jiang2019",
+   "authors": "Jiang L, Wang K, Lo K, et al.",
+   "year": 2019,
+   "title": "Sex-Specific Association of Circulating Ferritin Level and Risk of Type 2 Diabetes: A Dose-Response Meta-Analysis of Prospective Studies",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "31074789",
+   "doi": "10.1210/jc.2019-00495",
+   "type": "meta-analysis",
+   "n": "15 prospective studies, 77,352 participants",
+   "finding": "Each 100 ug/L higher ferritin was associated with 22% higher type 2 diabetes risk, stronger in women (RR 1.53) than men (RR 1.21)."
+  },
+  {
+   "id": "nut-kakhlon2002",
+   "authors": "Kakhlon O, Cabantchik ZI",
+   "year": 2002,
+   "title": "The labile iron pool: characterization, measurement, and participation in cellular processes(1)",
+   "journal": "Free Radic Biol Med",
+   "pmid": "12374615",
+   "doi": "10.1016/s0891-5849(02)01006-7",
+   "type": "review",
+   "n": null,
+   "finding": "The labile (chelatable, redox-active) iron pool promotes ROS formation and rises and falls with iron import, chelation and ferritin turnover."
+  },
+  {
+   "id": "nut-kaptoge2019",
+   "authors": "Kaptoge S, Di Angelantonio E, Moore C, et al.",
+   "year": 2019,
+   "title": "Longer-term efficiency and safety of increasing the frequency of whole blood donation (INTERVAL): extension study of a randomised trial of 20 757 blood donors",
+   "journal": "Lancet Haematol",
+   "pmid": "31383583",
+   "doi": "10.1016/S2352-3026(19)30106-1",
+   "type": "rct",
+   "n": "20,757 blood donors",
+   "finding": "Each week shorter inter-donation interval lowered ferritin by ~5-6.5% and increased low-hemoglobin deferrals."
+  },
+  {
+   "id": "nut-kell2014",
+   "authors": "Kell DB, Pretorius E",
+   "year": 2014,
+   "title": "Serum ferritin is an important inflammatory disease marker, as it is mainly a leakage product from damaged cells",
+   "journal": "Metallomics",
+   "pmid": "24549403",
+   "doi": "10.1039/c3mt00347g",
+   "type": "review",
+   "n": null,
+   "finding": "Argues serum ferritin is largely a leakage product of damaged cells, explaining its correlation with inflammation and oxidative stress as well as with iron stores."
+  },
+  {
+   "id": "nut-khambalia2016",
+   "authors": "Khambalia AZ, Aimone A, Nagubandi P, et al.",
+   "year": 2016,
+   "title": "High maternal iron status, dietary iron intake and iron supplement use in pregnancy and risk of gestational diabetes mellitus: a prospective study and systematic review",
+   "journal": "Diabet Med",
+   "pmid": "26670627",
+   "doi": "10.1111/dme.13056",
+   "type": "cohort",
+   "n": "3776 pregnant women plus systematic review",
+   "finding": "Higher ferritin (OR 1.41 per unit), serum iron and heme iron intake were associated with gestational diabetes; two supplement trials showed no association."
+  },
+  {
+   "id": "nut-kunutsor2013",
+   "authors": "Kunutsor SK, Apekey TA, Walley J, et al.",
+   "year": 2013,
+   "title": "Ferritin levels and risk of type 2 diabetes mellitus: an updated systematic review and meta-analysis of prospective evidence",
+   "journal": "Diabetes Metab Res Rev",
+   "pmid": "23381919",
+   "doi": "10.1002/dmrr.2394",
+   "type": "meta-analysis",
+   "n": "12 studies, 185,462 participants",
+   "finding": "Top vs bottom fifth of ferritin: type 2 diabetes RR 1.73; heme iron intake RR 1.28."
+  },
+  {
+   "id": "nut-liu2024",
+   "authors": "Liu Y, Clarke R, Bennett DA, et al.",
+   "year": 2024,
+   "title": "Iron Status and Risk of Heart Disease, Stroke, and Diabetes: A Mendelian Randomization Study in European Adults",
+   "journal": "J Am Heart Assoc",
+   "pmid": "38497484",
+   "doi": "10.1161/JAHA.123.031732",
+   "type": "cohort",
+   "n": "UK Biobank plus consortia with 181,522 CAD and 80,154 T2D cases (Mendelian randomization)",
+   "finding": "Genetically higher iron biomarkers were modestly protective for coronary disease (7-14% lower risk per SD) but raised type 2 diabetes risk."
+  },
+  {
+   "id": "nut-manco2012",
+   "authors": "Manco M, Fernandez-Real JM",
+   "year": 2012,
+   "title": "Back to past leeches: repeated phlebotomies and cardiovascular risk",
+   "journal": "BMC Med",
+   "pmid": "22647488",
+   "doi": "10.1186/1741-7015-10-53",
+   "type": "review",
+   "n": null,
+   "finding": "Commentary on the phlebotomy trial noting design drawbacks (unblinded, short) while discussing iron depletion and metabolic risk."
+  },
+  {
+   "id": "nut-pasricha2021",
+   "authors": "Pasricha SR, Tye-Din J, Muckenthaler MU, et al.",
+   "year": 2021,
+   "title": "Iron deficiency",
+   "journal": "Lancet",
+   "pmid": "33285139",
+   "doi": "10.1016/S0140-6736(20)32594-0",
+   "type": "review",
+   "n": null,
+   "finding": "Iron deficiency is a leading cause of global disease burden; harms occur even without anaemia; hepcidin limits absorption of high-dose oral iron."
+  },
+  {
+   "id": "nut-penarosas2015",
+   "authors": "Peña-Rosas JP, De-Regil LM, Garcia-Casal MN, et al.",
+   "year": 2015,
+   "title": "Daily oral iron supplementation during pregnancy",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "26198451",
+   "doi": "10.1002/14651858.CD004736.pub5",
+   "type": "meta-analysis",
+   "n": "44 trials, 43,274 women",
+   "finding": "Prenatal iron cut anaemia at term by 70% but raised the risk of haemoglobin above 130 g/L."
+  },
+  {
+   "id": "nut-pilling2019",
+   "authors": "Pilling LC, Tamosauskaite J, Jones G, et al.",
+   "year": 2019,
+   "title": "Common conditions associated with hereditary haemochromatosis genetic variants: cohort study in UK Biobank",
+   "journal": "BMJ",
+   "pmid": "30651232",
+   "doi": "10.1136/bmj.k5222",
+   "type": "cohort",
+   "n": "451,243 UK Biobank participants (2890 C282Y homozygotes)",
+   "finding": "HFE C282Y homozygosity (1 in 156) was associated with liver disease, arthritis and diabetes; diagnosed haemochromatosis in 21.7% of homozygous men and 9.8% of women."
+  },
+  {
+   "id": "nut-rahman2016",
+   "authors": "Rahman MM, Abe SK, Rahman MS, et al.",
+   "year": 2016,
+   "title": "Maternal anemia and risk of adverse birth and health outcomes in low- and middle-income countries: systematic review and meta-analysis",
+   "journal": "Am J Clin Nutr",
+   "pmid": "26739036",
+   "doi": "10.3945/ajcn.115.107896",
+   "type": "meta-analysis",
+   "n": "26 studies in low- and middle-income countries",
+   "finding": "Maternal anaemia was associated with low birthweight (RR 1.31), preterm birth (RR 1.63) and perinatal mortality (RR 1.51)."
+  },
+  {
+   "id": "nut-salonen1998",
+   "authors": "Salonen JT, Tuomainen TP, Salonen R, et al.",
+   "year": 1998,
+   "title": "Donation of blood is associated with reduced risk of myocardial infarction. The Kuopio Ischaemic Heart Disease Risk Factor Study",
+   "journal": "Am J Epidemiol",
+   "pmid": "9737556",
+   "doi": "10.1093/oxfordjournals.aje.a009669",
+   "type": "cohort",
+   "n": "~2700 Finnish men (Kuopio)",
+   "finding": "Men who had donated blood in the previous 24 months had 88% lower risk of acute MI (1 event in 153 donors)."
+  },
+  {
+   "id": "nut-sempos2000",
+   "authors": "Sempos CT, Looker AC, Gillum RE, et al.",
+   "year": 2000,
+   "title": "Serum ferritin and death from all causes and cardiovascular disease: the NHANES II Mortality Study. National Health and Nutrition Examination Study",
+   "journal": "Ann Epidemiol",
+   "pmid": "11023623",
+   "doi": "10.1016/s1047-2797(00)00068-5",
+   "type": "cohort",
+   "n": "NHANES II Mortality Study",
+   "finding": "Serum ferritin was not associated with cardiovascular or all-cause death in US adults; low ferritin predicted higher mortality in Black men."
+  },
+  {
+   "id": "nut-stockwell2017",
+   "authors": "Stockwell BR, Friedmann Angeli JP, Bayir H, et al.",
+   "year": 2017,
+   "title": "Ferroptosis: A Regulated Cell Death Nexus Linking Metabolism, Redox Biology, and Disease",
+   "journal": "Cell",
+   "pmid": "28985560",
+   "doi": "10.1016/j.cell.2017.09.021",
+   "type": "review",
+   "n": null,
+   "finding": "Ferroptosis review: iron, polyunsaturated lipid peroxidation and loss of GPX4/glutathione defences link metabolism, redox biology and disease."
+  },
+  {
+   "id": "nut-sullivan1981",
+   "authors": "Sullivan JL",
+   "year": 1981,
+   "title": "Iron and the sex difference in heart disease risk",
+   "journal": "Lancet",
+   "pmid": "6112609",
+   "doi": "10.1016/s0140-6736(81)92463-6",
+   "type": "review",
+   "n": null,
+   "finding": "Proposed the 'iron hypothesis': higher stored iron in men and postmenopausal women explains their higher heart disease risk, and suggested phlebotomy as a test."
+  },
+  {
+   "id": "nut-timmers2020",
+   "authors": "Timmers PRHJ, Wilson JF, Joshi PK, et al.",
+   "year": 2020,
+   "title": "Multivariate genomic scan implicates novel loci and haem metabolism in human ageing",
+   "journal": "Nat Commun",
+   "pmid": "32678081",
+   "doi": "10.1038/s41467-020-17312-3",
+   "type": "cohort",
+   "n": "Multivariate GWAS of healthspan, parental lifespan and longevity",
+   "finding": "Identified haem metabolism as a pathway linked to human ageing traits."
+  },
+  {
+   "id": "nut-ullum2015",
+   "authors": "Ullum H, Rostgaard K, Kamper-Jørgensen M, et al.",
+   "year": 2015,
+   "title": "Blood donation and blood donor mortality after adjustment for a healthy donor effect",
+   "journal": "Transfusion",
+   "pmid": "26098293",
+   "doi": "10.1111/trf.13205",
+   "type": "cohort",
+   "n": "1,182,495 Danish and Swedish donors",
+   "finding": "Each extra annual donation was linked to 18.6% lower mortality, shrinking to 7.5% after adjusting for the healthy donor effect; not proof of benefit."
+  },
+  {
+   "id": "nut-vandenhurk2018",
+   "authors": "van den Hurk K, van Kraaij MGJ, Zalpuri S",
+   "year": 2018,
+   "title": "Lessons from the INTERVAL study",
+   "journal": "Lancet",
+   "pmid": "30070219",
+   "doi": "10.1016/S0140-6736(18)30795-5",
+   "type": "review",
+   "n": null,
+   "finding": "Letter on INTERVAL urging attention to iron deficiency in frequent donors and ferritin monitoring."
+  },
+  {
+   "id": "nut-vaucher2012",
+   "authors": "Vaucher P, Druais PL, Waldvogel S, et al.",
+   "year": 2012,
+   "title": "Effect of iron supplementation on fatigue in nonanemic menstruating women with low ferritin: a randomized controlled trial",
+   "journal": "CMAJ",
+   "pmid": "22777991",
+   "doi": "10.1503/cmaj.110950",
+   "type": "rct",
+   "n": "198 non-anaemic menstruating women with ferritin <50 ug/L",
+   "finding": "80 mg/day oral iron for 12 weeks reduced fatigue scores by 47.7% vs 28.8% with placebo."
+  },
+  {
+   "id": "nut-wang2021",
+   "authors": "Wang X, Fang X, Zheng W, et al.",
+   "year": 2021,
+   "title": "Genetic Support of A Causal Relationship Between Iron Status and Type 2 Diabetes: A Mendelian Randomization Study",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "34147035",
+   "doi": "10.1210/clinem/dgab454",
+   "type": "cohort",
+   "n": "Two-sample Mendelian randomization (European GWAS)",
+   "finding": "Genetically higher serum iron (OR 1.07), ferritin (OR 1.19) and transferrin saturation (OR 1.06) were associated with higher type 2 diabetes risk."
+  },
+  {
+   "id": "nut-wood2004",
+   "authors": "Wood RJ",
+   "year": 2004,
+   "title": "The iron-heart disease connection: is it dead or just hiding?",
+   "journal": "Ageing Res Rev",
+   "pmid": "15231242",
+   "doi": "10.1016/j.arr.2004.04.002",
+   "type": "review",
+   "n": null,
+   "finding": "Reviewed why the iron-heart hypothesis remained unresolved and called for better measures of the potentially damaging forms of iron."
+  },
+  {
+   "id": "nut-young2023",
+   "authors": "Young MF, Oaks BM, Rogers HP, et al.",
+   "year": 2023,
+   "title": "Maternal low and high hemoglobin concentrations and associations with adverse maternal and infant health outcomes: an updated global systematic review and meta-analysis",
+   "journal": "BMC Pregnancy Childbirth",
+   "pmid": "37076797",
+   "doi": "10.1186/s12884-023-05489-6",
+   "type": "meta-analysis",
+   "n": "148 studies",
+   "finding": "Both low and high maternal haemoglobin were associated with adverse outcomes; high Hb with gestational diabetes (OR 1.71), pre-eclampsia and stillbirth."
+  },
+  {
+   "id": "nut-zacharski2007",
+   "authors": "Zacharski LR, Chow BK, Howes PS, et al.",
+   "year": 2007,
+   "title": "Reduction of iron stores and cardiovascular outcomes in patients with peripheral arterial disease: a randomized controlled trial",
+   "journal": "JAMA",
+   "pmid": "17299195",
+   "doi": "10.1001/jama.297.6.603",
+   "type": "rct",
+   "n": "1277 patients with peripheral arterial disease",
+   "finding": "FeAST: phlebotomy to lower ferritin did not significantly reduce all-cause death (HR 0.85, 95% CI 0.67-1.08) or death plus MI and stroke (HR 0.88, 0.72-1.07)."
+  },
+  {
+   "id": "nut-zacharski2008",
+   "authors": "Zacharski LR, Chow BK, Howes PS, et al.",
+   "year": 2008,
+   "title": "Decreased cancer risk after iron reduction in patients with peripheral arterial disease: results from a randomized trial",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "18612130",
+   "doi": "10.1093/jnci/djn209",
+   "type": "rct",
+   "n": "1277 patients with peripheral arterial disease",
+   "finding": "FeAST secondary analysis: iron reduction (mean ferritin ~80 vs ~123 ng/mL) was associated with fewer new visceral cancers (HR 0.65, 0.43-0.97)."
+  },
+  {
+   "id": "nut-zhao2012",
+   "authors": "Zhao Z, Li S, Liu G, et al.",
+   "year": 2012,
+   "title": "Body iron stores and heme-iron intake in relation to risk of type 2 diabetes: a systematic review and meta-analysis",
+   "journal": "PLoS One",
+   "pmid": "22848554",
+   "doi": "10.1371/journal.pone.0041641",
+   "type": "meta-analysis",
+   "n": "16 studies",
+   "finding": "Highest vs lowest ferritin: prospective T2D RR 1.66; highest vs lowest heme iron intake RR 1.31."
   }
  ]
 }

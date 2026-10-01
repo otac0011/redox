@@ -140,5 +140,9 @@
     "caffeine-fertility": "food",
     "astaxanthin": "supplement",
     "ssris": "medical"
-  }
+  },
+  "same_area_ok": [
+    "tobacco-smoking",
+    "plastics-chemicals"
+  ]
 }

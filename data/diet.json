@@ -2214,45 +2214,6 @@
    ]
   },
   {
-   "id": "diet-iron-excess",
-   "name": "Unneeded iron supplements / iron excess",
-   "kind": "supplement",
-   "scopes": [
-    "general"
-   ],
-   "direction": "harmful",
-   "impact": {
-    "general": 2
-   },
-   "evidence": "limited",
-   "headline": "A routine 19 mg/day ferrous sulfate supplement for 2 weeks raised weakly bound fecal iron 5-fold and the fecal free-radical generating capacity by ~40% in healthy volunteers.",
-   "dose": {
-    "effective": "Take iron only to correct documented deficiency.",
-    "studied_range": "19 mg elemental iron/day for 2 weeks.",
-    "too_much": "Iron supplements in iron-replete people; untreated hereditary hemochromatosis.",
-    "timeframe": "Weeks.",
-    "notes": "Most supplemental iron is not absorbed and stays in the colon."
-   },
-   "mechanism": "Free ferrous iron drives Fenton chemistry (Fe2+ + H2O2 -> hydroxyl radical) and catalyses lipid peroxidation; heme iron from meat acts similarly in the gut.",
-   "pathways": [
-    "iron-fenton"
-   ],
-   "interactions": "Avoid combining with high-dose vitamin C in iron overload. Tea and coffee reduce non-heme iron absorption.",
-   "caveats": "Fecal free-radical capacity is an ex vivo assay; systemic consequences not measured.",
-   "key_numbers": [
-    {
-     "label": "Rise in fecal free-radical production on 19 mg Fe/day",
-     "value": 40,
-     "unit": "%",
-     "source": "lund1999"
-    }
-   ],
-   "refs": [
-    "lund1999",
-    "bastide2011"
-   ]
-  },
-  {
    "id": "mediterranean-diet",
    "name": "Mediterranean diet",
    "kind": "food",
@@ -4000,6 +3961,79 @@
     "env-chiu2018",
     "env-kazemi2025",
     "env-wesselink2020"
+   ]
+  },
+  {
+   "id": "iron-excess",
+   "name": "Unneeded iron supplements / excess iron intake",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Iron pills taken without a deficiency mostly pass unabsorbed into the colon, where 19 mg/day raised faecal free-radical production by ~40% and, in infant trials, shifted gut bacteria toward pathogens and inflammation; genetic studies link lifelong higher iron to shorter lifespan and more diabetes.",
+   "dose": {
+    "effective": "Take iron only to correct documented deficiency (ferritin below ~30 ug/L, or below ~50 ug/L with symptoms such as fatigue), then stop or reduce once ferritin is replete. Most iron-replete men and postmenopausal women need no supplemental iron; a multivitamin 'for men' or '50+' formula without iron is the sensible default.",
+    "studied_range": "19 mg/day ferrous sulfate for 2 weeks (adults, gut markers); 2.5-12.5 mg/day in infant micronutrient powders; >100 mg/day high-dose supplements (cross-sectional microbiome data).",
+    "too_much": "IOM UL 45 mg/day elemental iron (GI side effects); EFSA set no UL but a safe level of 40 mg/day total iron for adults including pregnancy. Untargeted iron in malaria-endemic settings raised severe illness and death in young children. Never self-supplement with known or suspected haemochromatosis.",
+    "timeframe": "Gut changes within 2 weeks; systemic store build-up over years.",
+    "notes": "Absorption is regulated (hepcidin) but there is no excretion route, so stores accumulate in iron-replete people, especially men. Vitamin C taken with iron raises non-heme absorption; tea, coffee and calcium lower it."
+   },
+   "mechanism": "Unabsorbed ferrous iron in the colon catalyses Fenton chemistry (Fe2+ + H2O2 -> hydroxyl radical) and lipid peroxidation, and favours iron-hungry Enterobacteriaceae over bifidobacteria and butyrate producers. Systemically, surplus iron expands the labile iron pool that feeds Fenton reactions and ferroptosis.",
+   "pathways": [
+    "iron-fenton",
+    "microbiome",
+    "lipid-peroxidation",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Heme iron from red and processed meat acts similarly in the gut [processed-red-meat]. Do not pair high-dose vitamin C with iron in people with high stores [vitamin-c-status]. Overlaps with [iron-status-ferritin]; the opposite risk is [iron-deficiency]. Multivitamins often contain 8-18 mg iron [multivitamin-mineral].",
+   "caveats": "Faecal radical generation is an ex vivo assay and the infant microbiome trials were done in low-income settings with high pathogen loads; adult outcome data are thin. The harm signal is for iron the body does not need: in deficient people, including many pregnant women, iron is clearly beneficial.",
+   "debate": "Harm from untargeted iron is shown by infant trials (Pemba mortality [nut-sazawal2006]; Kenyan microbiome and calprotectin [nut-jaeggi2015]) and by gut-biology commentaries [nut-weiss2015, nut-simonytesjodin2019], with Mendelian randomization suggesting lifelong higher iron shortens lifespan [nut-daghlas2021]. On the other side, a 2023 meta-analysis found daily iron in iron-replete pregnant women still reduced iron-deficiency anaemia and low birthweight [nut-hansen2023], and EFSA could not identify a dose-response for chronic disease, setting only a conservative safe level [nut-efsa2024iron]. Adult evidence for harm at typical multivitamin doses (8-18 mg) is lacking.",
+   "key_numbers": [
+    {
+     "label": "Rise in faecal free-radical production on 19 mg Fe/day",
+     "value": 40,
+     "unit": "%",
+     "source": "nut-lund1999"
+    },
+    {
+     "label": "Death or hospitalisation with routine iron + folic acid (malaria setting)",
+     "value": 12,
+     "unit": "% increase",
+     "source": "nut-sazawal2006"
+    },
+    {
+     "label": "EFSA safe level, total iron",
+     "value": 40,
+     "unit": "mg/day",
+     "source": "nut-efsa2024iron"
+    },
+    {
+     "label": "IOM UL, iron",
+     "value": 45,
+     "unit": "mg/day",
+     "source": "nut-iom2001"
+    }
+   ],
+   "refs": [
+    "nut-lund1999",
+    "nut-jaeggi2015",
+    "nut-weiss2015",
+    "nut-simonytesjodin2019",
+    "nut-shearer2024",
+    "nut-sazawal2006",
+    "nut-english2006",
+    "nut-daghlas2021",
+    "nut-hansen2023",
+    "nut-efsa2024iron",
+    "nut-iom2001",
+    "nut-hurrell2010",
+    "nut-bastide2011",
+    "nut-kakhlon2002"
    ]
   }
  ],
@@ -10185,6 +10219,174 @@
    "type": "cohort",
    "n": "5234 women trying to conceive",
    "finding": "Intake of high- or low-pesticide-residue produce was not related to fecundability; inverse links seen only in women already trying for 3-6 cycles suggested reverse causation."
+  },
+  {
+   "id": "nut-bastide2011",
+   "authors": "Bastide NM, Pierre FH, Corpet DE",
+   "year": 2011,
+   "title": "Heme iron from meat and risk of colorectal cancer: a meta-analysis and a review of the mechanisms involved",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21209396",
+   "doi": "10.1158/1940-6207.CAPR-10-0113",
+   "type": "meta-analysis",
+   "n": "566,607 people, 4734 colon cancers",
+   "finding": "Highest vs lowest heme iron intake: colon cancer RR 1.18; heme catalyses N-nitroso compound formation and lipid peroxidation in the gut."
+  },
+  {
+   "id": "nut-daghlas2021",
+   "authors": "Daghlas I, Gill D",
+   "year": 2021,
+   "title": "Genetically predicted iron status and life expectancy",
+   "journal": "Clin Nutr",
+   "pmid": "32690432",
+   "doi": "10.1016/j.clnu.2020.06.025",
+   "type": "cohort",
+   "n": "Mendelian randomization using parental lifespan GWAS",
+   "finding": "Each SD of genetically higher serum iron corresponded to 0.7 fewer years of parental lifespan and lower odds of reaching the 90th age percentile (OR 0.81)."
+  },
+  {
+   "id": "nut-efsa2024iron",
+   "authors": "EFSA NDA Panel: Turck D, Bohn T, Castenmiller J, et al.",
+   "year": 2024,
+   "title": "Scientific opinion on the tolerable upper intake level for iron",
+   "journal": "EFSA J",
+   "pmid": "38868106",
+   "doi": "10.2903/j.efsa.2024.8819",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA could not set an iron UL; it set a safe level of 40 mg/day total iron for adults including pregnant women."
+  },
+  {
+   "id": "nut-english2006",
+   "authors": "English M, Snow RW",
+   "year": 2006,
+   "title": "Iron and folic acid supplementation and malaria risk",
+   "journal": "Lancet",
+   "pmid": "16413858",
+   "doi": "10.1016/S0140-6736(06)67939-7",
+   "type": "review",
+   "n": null,
+   "finding": "Lancet comment on the Pemba trial discussing risks of untargeted iron supplementation where malaria is common."
+  },
+  {
+   "id": "nut-hansen2023",
+   "authors": "Hansen R, Sejer EPF, Holm C, et al.",
+   "year": 2023,
+   "title": "Iron supplements in pregnant women with normal iron status: A systematic review and meta-analysis",
+   "journal": "Acta Obstet Gynecol Scand",
+   "pmid": "37403900",
+   "doi": "10.1111/aogs.14607",
+   "type": "meta-analysis",
+   "n": "8 RCTs, 2822 iron-replete non-anaemic pregnant women",
+   "finding": "Daily iron in iron-replete pregnant women probably reduced iron-deficiency anaemia at term and low birthweight."
+  },
+  {
+   "id": "nut-hurrell2010",
+   "authors": "Hurrell R, Egli I",
+   "year": 2010,
+   "title": "Iron bioavailability and dietary reference values",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20200263",
+   "doi": "10.3945/ajcn.2010.28674F",
+   "type": "review",
+   "n": null,
+   "finding": "Iron bioavailability is ~14-18% from mixed diets and 5-12% from vegetarian diets; body iron status influences absorption more than diet composition."
+  },
+  {
+   "id": "nut-iom2001",
+   "authors": "Institute of Medicine (US) Panel on Micronutrients",
+   "year": 2001,
+   "title": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+   "journal": "National Academies Press (US)",
+   "pmid": "25057538",
+   "doi": "10.17226/10026",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOM DRI report for vitamin A, copper, iodine, iron, manganese, zinc and others (ULs: zinc 40 mg, copper 10 mg, iron 45 mg, iodine 1100 ug, manganese 11 mg, preformed vitamin A 3000 ug)."
+  },
+  {
+   "id": "nut-jaeggi2015",
+   "authors": "Jaeggi T, Kortman GA, Moretti D, et al.",
+   "year": 2015,
+   "title": "Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation in Kenyan infants",
+   "journal": "Gut",
+   "pmid": "25143342",
+   "doi": "10.1136/gutjnl-2014-307720",
+   "type": "rct",
+   "n": "115 Kenyan infants",
+   "finding": "Iron-containing micronutrient powders increased enterobacteria and pathogenic E. coli, lowered bifidobacteria and raised faecal calprotectin (gut inflammation)."
+  },
+  {
+   "id": "nut-kakhlon2002",
+   "authors": "Kakhlon O, Cabantchik ZI",
+   "year": 2002,
+   "title": "The labile iron pool: characterization, measurement, and participation in cellular processes(1)",
+   "journal": "Free Radic Biol Med",
+   "pmid": "12374615",
+   "doi": "10.1016/s0891-5849(02)01006-7",
+   "type": "review",
+   "n": null,
+   "finding": "The labile (chelatable, redox-active) iron pool promotes ROS formation and rises and falls with iron import, chelation and ferritin turnover."
+  },
+  {
+   "id": "nut-lund1999",
+   "authors": "Lund EK, Wharf SG, Fairweather-Tait SJ, et al.",
+   "year": 1999,
+   "title": "Oral ferrous sulfate supplements increase the free radical-generating capacity of feces from healthy volunteers",
+   "journal": "Am J Clin Nutr",
+   "pmid": "9989688",
+   "doi": "10.1093/ajcn/69.2.250",
+   "type": "rct",
+   "n": "18 healthy volunteers (before/during/after design)",
+   "finding": "19 mg/day ferrous sulfate for 2 weeks raised weakly bound faecal iron 5-fold and faecal free-radical production by ~40%."
+  },
+  {
+   "id": "nut-sazawal2006",
+   "authors": "Sazawal S, Black RE, Ramsan M, et al.",
+   "year": 2006,
+   "title": "Effects of routine prophylactic supplementation with iron and folic acid on admission to hospital and mortality in preschool children in a high malaria transmission setting: community-based, randomised, placebo-controlled trial",
+   "journal": "Lancet",
+   "pmid": "16413877",
+   "doi": "10.1016/S0140-6736(06)67962-2",
+   "type": "rct",
+   "n": "24,076 preschool children, Pemba (Zanzibar)",
+   "finding": "Routine iron (12.5 mg) plus folic acid in a high-malaria setting raised death or hospitalisation by 12%; the arm was stopped early."
+  },
+  {
+   "id": "nut-shearer2024",
+   "authors": "Shearer J, Shah S, MacInnis MJ, et al.",
+   "year": 2024,
+   "title": "Dose-Responsive Effects of Iron Supplementation on the Gut Microbiota in Middle-Aged Women",
+   "journal": "Nutrients",
+   "pmid": "38542697",
+   "doi": "10.3390/nu16060786",
+   "type": "cross-sectional",
+   "n": "56 women aged 40-65",
+   "finding": "High-dose iron supplements (>100 mg/day) were associated with more Proteobacteria and fewer butyrate producers (e.g. Faecalibacterium)."
+  },
+  {
+   "id": "nut-simonytesjodin2019",
+   "authors": "Simonyté Sjödin K, Domellöf M, Lagerqvist C, et al.",
+   "year": 2019,
+   "title": "Administration of ferrous sulfate drops has significant effects on the gut microbiota of iron-sufficient infants: a randomised controlled study",
+   "journal": "Gut",
+   "pmid": "30343273",
+   "doi": "10.1136/gutjnl-2018-316988",
+   "type": "rct",
+   "n": "Iron-sufficient Swedish infants",
+   "finding": "Ferrous sulfate drops significantly changed the gut microbiota of infants who were not iron deficient."
+  },
+  {
+   "id": "nut-weiss2015",
+   "authors": "Weiss G",
+   "year": 2015,
+   "title": "Dietary iron supplementation: a proinflammatory attack on the intestine?",
+   "journal": "Gut",
+   "pmid": "25331454",
+   "doi": "10.1136/gutjnl-2014-308147",
+   "type": "review",
+   "n": null,
+   "finding": "Gut commentary describing dietary iron supplementation as a potential pro-inflammatory insult to the intestine."
   }
  ]
 }

@@ -298,6 +298,15 @@
       ],
       "title": "Long-term acid suppressants and nutrients",
       "message": "Long-term PPI use is associated with lower B12, iron, and magnesium in observational studies, though a large RCT (COMPASS) found few harms. Worth checking B12 and ferritin if you've used them for years. See [ppi-acid-suppressants]."
+    },
+    {
+      "id": "zinc-copper",
+      "severity": "caution",
+      "ids_any": [
+        "zinc-status"
+      ],
+      "title": "High-dose zinc can cause copper deficiency",
+      "message": "At 50 mg/day zinc lowered the copper-dependent antioxidant enzyme SOD1 within weeks, and 100 mg/day or more over time causes copper-deficiency anemia and nerve damage. Stay under the upper limit (40 mg/day US, 25 mg/day EU) unless a clinician is treating a deficiency. See [zinc-status]."
     }
   ]
 }

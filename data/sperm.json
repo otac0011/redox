@@ -2611,6 +2611,57 @@
     "fer-asrm2020icsi",
     "fer-eshre2023addons"
    ]
+  },
+  {
+   "id": "iron-overload-sperm",
+   "name": "Iron overload and sperm",
+   "kind": "medical",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Pathological iron overload (thalassaemia, haemochromatosis) causes hypogonadism in about half of affected men and more sperm DNA damage; in ordinary men, higher seminal iron tracks with poorer motility, but there is no evidence that normal dietary iron harms sperm.",
+   "dose": {
+    "effective": "Men do not need iron supplements unless deficient; men with known iron overload need chelation or phlebotomy started early.",
+    "studied_range": "Median ferritin 2251 ug/L in thalassaemic men; observational seminal iron levels.",
+    "too_much": "Iron overload disorders: hypogonadism in ~47% of men, azoospermia in ~18% of those assessed.",
+    "timeframe": "Earlier chelation was associated with less sperm DNA damage.",
+    "notes": "Relevant mainly to men with thalassaemia, transfusion dependence or untreated haemochromatosis."
+   },
+   "mechanism": "Iron deposits in the pituitary and testis; free iron catalyses Fenton chemistry and lipid peroxidation in polyunsaturated-rich sperm membranes; ferroptosis markers (low GPX4) appear in poor-motility sperm.",
+   "pathways": [
+    "iron-fenton",
+    "lipid-peroxidation",
+    "endocrine"
+   ],
+   "interactions": "Do not take iron-containing multivitamins without need [iron-excess]. Antioxidant supplements have not been tested in this group [male-antioxidant-combination].",
+   "caveats": "Evidence comes from tiny case series and case-control studies; seminal iron correlations are confounded by infection and leukocytes.",
+   "debate": "A systematic review of iron-overload disorders documents frequent hypogonadism and sperm abnormalities [nut-carlomagno2026], and a small study linked overload to sperm DNA damage [nut-perera2002]. Seminal iron correlates with poorer sperm quality [nut-ammar2019], but no study shows that dietary iron in non-overloaded men affects sperm; this extrapolation is unsupported.",
+   "key_numbers": [
+    {
+     "label": "Hypogonadism in men with iron overload",
+     "value": 47,
+     "unit": "%",
+     "source": "nut-carlomagno2026"
+    },
+    {
+     "label": "Median ferritin, thalassaemic men with sperm DNA damage",
+     "value": 2251,
+     "unit": "ug/L",
+     "source": "nut-perera2002"
+    }
+   ],
+   "refs": [
+    "nut-carlomagno2026",
+    "nut-perera2002",
+    "nut-ammar2019",
+    "nut-pilling2019",
+    "nut-dixon2012"
+   ]
   }
  ],
  "mechanisms": [
@@ -5294,6 +5345,66 @@
    "type": "rct",
    "n": "237 ICSI donor-oocyte cycles",
    "finding": "Removing annexin V-positive sperm by MACS did not improve fertilisation, embryo quality or live birth (48.4% vs 56.4%, NS) in donor-egg ICSI."
+  },
+  {
+   "id": "nut-ammar2019",
+   "authors": "Ammar O, Houas Z, Mehdi M",
+   "year": 2019,
+   "title": "The association between iron, calcium, and oxidative stress in seminal plasma and sperm quality",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "30852746",
+   "doi": "10.1007/s11356-019-04575-7",
+   "type": "case-control",
+   "n": "79 subfertile men and 29 donors",
+   "finding": "Seminal iron was higher in subfertile men and correlated negatively with sperm motility and normal morphology."
+  },
+  {
+   "id": "nut-carlomagno2026",
+   "authors": "Carlomagno F, Tenuta M, Sansone A, et al.",
+   "year": 2026,
+   "title": "Iron overload disorders in adults: a comprehensive review of gonadal function, reproductive, and sexual health",
+   "journal": "Hum Reprod Update",
+   "pmid": "42101252",
+   "doi": "10.1093/humupd/dmag010",
+   "type": "review",
+   "n": "Systematic review: 1201 men, 2134 women with iron overload",
+   "finding": "In iron overload disorders, 47% of men had hypogonadism and over half of those assessed had azoospermia or other sperm abnormalities; early chelation helps prevent but rarely reverses damage."
+  },
+  {
+   "id": "nut-dixon2012",
+   "authors": "Dixon SJ, Lemberg KM, Lamprecht MR, et al.",
+   "year": 2012,
+   "title": "Ferroptosis: an iron-dependent form of nonapoptotic cell death",
+   "journal": "Cell",
+   "pmid": "22632970",
+   "doi": "10.1016/j.cell.2012.03.042",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Defined ferroptosis: an iron-dependent, lipid-peroxidation-driven cell death triggered by cystine/glutathione depletion and blocked by ferrostatin-1."
+  },
+  {
+   "id": "nut-perera2002",
+   "authors": "Perera D, Pizzey A, Campbell A, et al.",
+   "year": 2002,
+   "title": "Sperm DNA damage in potentially fertile homozygous beta-thalassaemia patients with iron overload",
+   "journal": "Hum Reprod",
+   "pmid": "12093845",
+   "doi": "10.1093/humrep/17.7.1820",
+   "type": "case-control",
+   "n": "6 iron-overloaded thalassaemic men, 5 controls",
+   "finding": "Iron-overloaded men (median ferritin 2251 ug/L) had more sperm DNA damage, which rose with later onset of chelation."
+  },
+  {
+   "id": "nut-pilling2019",
+   "authors": "Pilling LC, Tamosauskaite J, Jones G, et al.",
+   "year": 2019,
+   "title": "Common conditions associated with hereditary haemochromatosis genetic variants: cohort study in UK Biobank",
+   "journal": "BMJ",
+   "pmid": "30651232",
+   "doi": "10.1136/bmj.k5222",
+   "type": "cohort",
+   "n": "451,243 UK Biobank participants (2890 C282Y homozygotes)",
+   "finding": "HFE C282Y homozygosity (1 in 156) was associated with liver disease, arthritis and diabetes; diagnosed haemochromatosis in 21.7% of homozygous men and 9.8% of women."
   }
  ]
 }

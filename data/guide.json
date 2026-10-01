@@ -4,6 +4,7 @@
     "antioxidants-preeclampsia-egg",
     "aspirin-preeclampsia-egg",
     "assisted-hatching-egg",
+    "blood-donation",
     "cannabis",
     "chemo-radiation",
     "chronic-inflammation",
@@ -15,16 +16,22 @@
     "endometrial-scratch-egg",
     "endometriosis",
     "febrile-illness",
+    "g6pd-deficiency",
     "genital-tract-infection",
     "green-tea-extract",
     "grounding-earthing",
     "growth-hormone-ivf-egg",
+    "gstm1-genotype",
+    "hfe-hemochromatosis",
     "hormonal-contraception-egg",
     "icsi-non-male-factor-sperm",
     "immune-addons-egg",
     "indoor-combustion-smoke",
     "intrauterine-hcg-egg",
+    "iron-deficiency",
     "iron-excess",
+    "iron-overload-sperm",
+    "iron-status-ferritin",
     "ivf-addons-egg",
     "maternal-age",
     "mitochondrial-augment-egg",
@@ -323,7 +330,13 @@
             "processed-red-meat",
             "processed-meat",
             "unprocessed-red-meat"
-          ]
+          ],
+          "boost": {
+            "vitamin-b12-folate-status": 2,
+            "iodine-status": 1,
+            "zinc-status": 0.5
+          },
+          "note": "Plant-based diets need a reliable B12 source (supplement or fortified foods), and iodine and zinc deserve a check. See [vitamin-b12-folate-status] and [iodine-status]."
         },
         {
           "value": "keto",
@@ -387,6 +400,32 @@
           "boost": {
             "indoor-combustion-smoke": 1.5,
             "hepa-air-purifier": 0.5
+          }
+        },
+        {
+          "value": "lowiron",
+          "label": "Heavy periods, low ferritin, or anemia",
+          "boost": {
+            "iron-deficiency": 2.5,
+            "iron-egg": 1
+          }
+        },
+        {
+          "value": "highiron",
+          "label": "Hemochromatosis or high ferritin",
+          "boost": {
+            "hfe-hemochromatosis": 3,
+            "iron-status-ferritin": 2
+          },
+          "hide": [
+            "iron-egg"
+          ]
+        },
+        {
+          "value": "b12risk",
+          "label": "Years on metformin or acid-suppressing drugs",
+          "boost": {
+            "vitamin-b12-folate-status": 2
           }
         },
         {
