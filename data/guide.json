@@ -1,29 +1,50 @@
 {
   "exclude": [
-    "maternal-age",
-    "paternal-age",
+    "amh-ovarian-reserve-egg",
+    "antioxidants-preeclampsia-egg",
+    "aspirin-preeclampsia-egg",
+    "assisted-hatching-egg",
+    "cannabis",
     "chemo-radiation",
-    "varicocele",
     "chronic-inflammation",
-    "pcos",
+    "culture-antioxidants-egg",
+    "cycling",
+    "egg-freezing-egg",
+    "embryo-glue-egg",
+    "endometrial-receptivity-egg",
+    "endometrial-scratch-egg",
     "endometriosis",
     "febrile-illness",
     "genital-tract-infection",
-    "testicular-sperm-icsi",
-    "sleep-apnea",
-    "periodontal-disease",
-    "shift-work-circadian",
-    "testosterone-anabolic-steroids",
-    "cannabis",
-    "secondhand-smoke",
-    "vaping",
-    "varicocele-repair",
-    "indoor-combustion-smoke",
-    "iron-excess",
     "green-tea-extract",
-    "ozone-therapy",
     "grounding-earthing",
-    "cycling"
+    "growth-hormone-ivf-egg",
+    "hormonal-contraception-egg",
+    "icsi-non-male-factor-sperm",
+    "immune-addons-egg",
+    "indoor-combustion-smoke",
+    "intrauterine-hcg-egg",
+    "iron-excess",
+    "ivf-addons-egg",
+    "maternal-age",
+    "mitochondrial-augment-egg",
+    "ozone-therapy",
+    "paternal-age",
+    "pcos",
+    "periodontal-disease",
+    "pgt-a-egg",
+    "prp-intrauterine-egg",
+    "prp-ovarian-egg",
+    "secondhand-smoke",
+    "shift-work-circadian",
+    "sleep-apnea",
+    "sperm-selection-icsi-sperm",
+    "testicular-sperm-icsi",
+    "testosterone-anabolic-steroids",
+    "time-lapse-egg",
+    "vaping",
+    "varicocele",
+    "varicocele-repair"
   ],
   "pairs": [
     [
@@ -717,19 +738,24 @@
         },
         {
           "value": "ivf",
-          "label": "Planning IVF"
+          "label": "Planning IVF",
+          "note": "Most IVF add-ons (endometrial scratching, PGT-A for live birth, receptivity tests, PRP, immune treatments) have no proven live-birth benefit; see [ivf-addons-egg].",
+          "boost": {
+            "ivf-addons-egg": 1.5
+          }
         },
         {
           "value": "poor",
           "label": "IVF, told I'm a poor responder",
           "boost": {
             "coq10": 2.5,
-            "dhea": 0.5
+            "dhea": 0.5,
+            "ivf-addons-egg": 1.5
           },
-          "note": "For poor responders, CoQ10 (600 mg/day for about 60 days before stimulation) has the best trial support among supplements: more eggs and better embryos, but no significant difference in live birth yet. Discuss with your clinic."
+          "note": "For poor responders, CoQ10 (600 mg/day for about 60 days before stimulation) has the best trial support among supplements: more eggs and better embryos, but no significant difference in live birth yet. Discuss with your clinic. Most IVF add-ons (endometrial scratching, PGT-A for live birth, receptivity tests, PRP, immune treatments) have no proven live-birth benefit; see [ivf-addons-egg]."
         }
       ]
     }
   ],
-  "footer": "This plan is a starting point built from impact ratings and your answers, not a prescription. Effects on sperm show up after about 2–3 months (one spermatogenic cycle) and on eggs after about 3 months (folliculogenesis), so start early. Check any supplement with a clinician, especially when trying to conceive."
+  "footer": "This plan is a starting point built from impact ratings and your answers, not a prescription. Effects on sperm show up after about 2–3 months (one spermatogenic cycle) and on eggs after about 3 months (folliculogenesis), so start early. Check any supplement with a clinician, especially when trying to conceive. For a month-by-month plan covering both partners, read the \"Couple's 3-month plan\" in the IVF add-ons deep dive."
 }

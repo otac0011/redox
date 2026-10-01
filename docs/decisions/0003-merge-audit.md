@@ -14,3 +14,10 @@ Following 0002 (the meat merge), every factor built from more than one source en
 Passed (same exposure, different populations or outcomes): alcohol, CoQ10, fruit & vegetables, heavy metals, glycemic control, high-dose antioxidant cocktails, L-carnitine, weight loss, Mediterranean diet, moderate aerobic exercise, NAC, oily fish/omega-3, outdoor air pollution, plastics chemicals, polyphenol/resveratrol capsules, psychological stress, refined sugar/sugary drinks, sauna/hot tubs, selenium, tobacco smoking (incl. egg "stopping smoking"), tomatoes, vitamin C+E, vitamin D, nuts.
 
 Plan logic fix found during the audit: an answer boost could pull in a factor that wasn't rated for any selected goal (e.g. the women's RED-S item for a sperm-only plan). Factors now appear only when they have impact for a chosen goal; boosts only reorder them.
+
+## Addendum: scope discipline for the expansion research (same day)
+
+- Fertility entries for curcumin, sulforaphane, ketogenic diet, astaxanthin, soy, spermidine, resveratrol and SSRIs were aliased onto one page per exposure, following the same-exposure rule.
+- IVF add-ons and other clinic procedures are in the guide's `exclude` list, so they appear in My plan only when an answer brings them in. The IVF answers link to the add-on summary instead.
+- `aspirin-preeclampsia-egg` was lowered from 4 to 1 on the egg scale. It acts in pregnancy, not on egg quality, and would otherwise lead the egg-quality overview.
+- Claims the research agents couldn't check against an abstract or full text were removed or reworded: the Axelsson 2017 effect size, the Lancet Commission's per-factor percentages, and the ACR 2020 attribution on paternal methotrexate.

@@ -2507,6 +2507,110 @@
     "med-hellstrom2006",
     "med-sakata2012"
    ]
+  },
+  {
+   "id": "sperm-selection-icsi-sperm",
+   "name": "Advanced sperm selection for ICSI (PICSI/hyaluronan, MACS, microfluidics, IMSI)",
+   "kind": "medical",
+   "scopes": [
+    "sperm",
+    "egg"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "sperm": 1,
+    "egg": 0
+   },
+   "evidence": "moderate",
+   "headline": "Selecting 'better' sperm lowers measured DNA fragmentation in the dish but has not raised live birth: PICSI in 2772 couples gave 27.4% vs 25.2% (NS), MACS and microfluidics trials are small and conflicting; HFEA rates PICSI black and SDF-guided selection grey.",
+   "dose": {
+    "effective": "Not routinely recommended (ESHRE); microfluidics 'can be considered'. If SDF is high, cheaper first steps are short abstinence and fixing causes.",
+    "studied_range": "Hyaluronan binding (PICSI), annexin-V magnetic beads (MACS), microfluidic chips, high-magnification morphology (IMSI).",
+    "too_much": "Extra cost per cycle; no safety signal.",
+    "timeframe": "Lab step on the day of ICSI.",
+    "notes": "Cochrane 2026: hyaluronan selection probably slightly reduces miscarriage (RR 0.59, moderate certainty), a secondary outcome."
+   },
+   "mechanism": "Mature sperm with intact chromatin bind hyaluronan; apoptotic sperm expose phosphatidylserine (removed by MACS); microfluidic channels select motile sperm without the ROS burst of centrifugation. All aim to deliver sperm with less oxidative DNA damage to the egg.",
+   "pathways": [
+    "dna-repair",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Alternatives for high SDF: [short-abstinence], [varicocele] repair, [testicular-sperm-icsi]; the egg's repair capacity falls with [maternal-age], so effects might differ by female age.",
+   "caveats": "Lower DFI in the prepared sample does not translate into live births in trials so far.",
+   "debate": "A small single-centre RCT reported higher live birth with a microfluidic chip (46.8% vs 25%) [fer-aydin2022], but a 2026 RCT found lower DFI without better live birth [fer-huong2026]; MACS RCTs were null [fer-romany2014, fer-mantravadi2024]. HABSelect was null for live birth [fer-miller2019], while Cochrane 2026 finds a probable miscarriage reduction with hyaluronan selection [fer-garg2026]. ESHRE: not routine, microfluidics 'can be considered' [fer-eshre2023addons]; HFEA: PICSI black, SDF-guided selection grey [fer-hfea2026, fer-hfea2026sdf].",
+   "key_numbers": [
+    {
+     "label": "Term live birth, PICSI vs ICSI (HABSelect)",
+     "value": 27.4,
+     "unit": "% vs 25.2%",
+     "source": "fer-miller2019"
+    },
+    {
+     "label": "Miscarriage RR, hyaluronan-selected ICSI (Cochrane 2026)",
+     "value": 0.59,
+     "unit": "RR",
+     "source": "fer-garg2026"
+    }
+   ],
+   "refs": [
+    "fer-miller2019",
+    "fer-garg2026",
+    "fer-aydin2022",
+    "fer-huong2026",
+    "fer-romany2014",
+    "fer-mantravadi2024",
+    "fer-eshre2023addons",
+    "fer-hfea2026",
+    "fer-hfea2026sdf"
+   ]
+  },
+  {
+   "id": "icsi-non-male-factor-sperm",
+   "name": "ICSI when sperm are normal (non-male-factor ICSI)",
+   "kind": "medical",
+   "scopes": [
+    "sperm",
+    "egg"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "sperm": 1,
+    "egg": 1
+   },
+   "evidence": "strong",
+   "headline": "With normal sperm count and motility, ICSI did not beat conventional IVF in a 1064-couple Lancet RCT (live birth 35% vs 31%, NS; fertilisation failure 5% vs 6%), yet US registry data show two-thirds of non-male-factor cycles use it; ESHRE and ASRM advise against routine use.",
+   "dose": {
+    "effective": "Use conventional IVF when semen is normal; reserve ICSI for male factor, prior fertilisation failure, PGT cycles or very few eggs.",
+    "studied_range": "Sibling and randomised comparisons with WHO-normal semen.",
+    "too_much": "Extra cost and lab time; skips natural sperm selection at the egg's surface.",
+    "timeframe": "Fertilisation day.",
+    "notes": "Distinct from ICSI for genuine male factor, where it is the standard of care."
+   },
+   "mechanism": "ICSI bypasses sperm binding and penetration; it rescues fertilisation when sperm cannot do this, but adds nothing when they can.",
+   "pathways": [],
+   "interactions": "Often combined with [sperm-selection-icsi-sperm]; high SDF is not by itself an indication for ICSI over IVF.",
+   "caveats": "Observational data even suggest slightly lower live birth with ICSI in non-male-factor cycles, but confounding is likely.",
+   "debate": "Some clinicians use ICSI routinely to avoid the small risk of total fertilisation failure; the Dang RCT found no difference in failure or live birth [fer-dang2021], and registry data found no benefit and slightly lower live birth (aRR 0.95) [fer-boulet2015]. ASRM and ESHRE advise against routine use [fer-asrm2020icsi, fer-eshre2023addons].",
+   "key_numbers": [
+    {
+     "label": "Live birth, ICSI vs conventional IVF (normal sperm)",
+     "value": 35,
+     "unit": "% vs 31%",
+     "source": "fer-dang2021"
+    },
+    {
+     "label": "US non-male-factor cycles using ICSI (2012)",
+     "value": 66.9,
+     "unit": "%",
+     "source": "fer-boulet2015"
+    }
+   ],
+   "refs": [
+    "fer-dang2021",
+    "fer-boulet2015",
+    "fer-asrm2020icsi",
+    "fer-eshre2023addons"
+   ]
   }
  ],
  "mechanisms": [
@@ -5044,6 +5148,152 @@
    "type": "cohort",
    "n": "male partners in PRESTO",
    "finding": "Male depression history was weakly associated with lower fecundability (FR 0.89, CI crossing 1); current psychotropic medication use statistically mediated 44% of the depressive-symptom association."
+  },
+  {
+   "id": "fer-asrm2020icsi",
+   "authors": "Practice Committees of the American Society for Reproductive Medicine and the Society for Assisted Reproductive Technology",
+   "year": 2020,
+   "title": "Intracytoplasmic sperm injection (ICSI) for non-male factor indications: a committee opinion",
+   "journal": "Fertil Steril",
+   "pmid": "32654822",
+   "doi": "10.1016/j.fertnstert.2020.05.032",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASRM/SART committee opinion reviewing when ICSI may or may not benefit couples whose semen meets WHO reference values; routine ICSI for non-male factor is not supported."
+  },
+  {
+   "id": "fer-aydin2022",
+   "authors": "Aydın Ş, Bulgan Kılıçdağ E, Çağlar Aytaç P, et al.",
+   "year": 2022,
+   "title": "Prospective randomized controlled study of a microfluidic chip technology for sperm selection in male infertility patients",
+   "journal": "Andrologia",
+   "pmid": "35263457",
+   "doi": "10.1111/and.14415",
+   "type": "rct",
+   "n": "128 couples",
+   "finding": "Single-centre RCT in male-factor ICSI: microfluidic chip vs swim-up gave similar fertilisation and embryo quality but higher live birth (46.8% vs 25%)."
+  },
+  {
+   "id": "fer-boulet2015",
+   "authors": "Boulet SL, Mehta A, Kissin DM, et al.",
+   "year": 2015,
+   "title": "Trends in use of and reproductive outcomes associated with intracytoplasmic sperm injection",
+   "journal": "JAMA",
+   "pmid": "25602996",
+   "doi": "10.1001/jama.2014.17985",
+   "type": "cohort",
+   "n": "1,395,634 fresh IVF cycles",
+   "finding": "US registry: ICSI use without male factor rose from 15.4% to 66.9% (1996-2012) and, in those cycles, was associated with slightly lower live birth than conventional IVF (36.5% vs 39.2%; aRR 0.95)."
+  },
+  {
+   "id": "fer-dang2021",
+   "authors": "Dang VQ, Vuong LN, Luu TM, et al.",
+   "year": 2021,
+   "title": "Intracytoplasmic sperm injection versus conventional in-vitro fertilisation in couples with infertility in whom the male partner has normal total sperm count and motility: an open-label, randomised controlled trial",
+   "journal": "Lancet",
+   "pmid": "33894833",
+   "doi": "10.1016/S0140-6736(21)00535-3",
+   "type": "rct",
+   "n": "1064 couples",
+   "finding": "In couples with normal sperm count and motility, ICSI did not raise live birth over conventional IVF (35% vs 31%; RR 1.11, 95% CI 0.93-1.32); total fertilisation failure was similar (5% vs 6%)."
+  },
+  {
+   "id": "fer-eshre2023addons",
+   "authors": "ESHRE Add-ons working group; Lundin K, Bentzen JG, Bozdag G, et al.",
+   "year": 2023,
+   "title": "Good practice recommendations on add-ons in reproductive medicine",
+   "journal": "Hum Reprod",
+   "pmid": "37747409",
+   "doi": "10.1093/humrep/dead184",
+   "type": "guideline",
+   "n": null,
+   "finding": "ESHRE good practice recommendations on 42 add-ons: none based on high-quality evidence; not recommended include endometrial receptivity tests, immune testing and immunomodulators (Intralipid, IVIG), glucocorticoids, assisted hatching, time-lapse imaging (to improve live birth), intrauterine hCG, intrauterine and intraovarian PRP, mitochondrial replacement, adjuncts during stimulation (growth hormone, DHEA, testosterone), oral antioxidants and ICSI for non-male factor; PGT-A, endometrial scratching, MACS, PICSI and IMSI 'not recommended for routine clinical use'; microfluidics 'can be considered'; hyaluronan in transfer medium 'recommended' (with single embryo transfer)."
+  },
+  {
+   "id": "fer-garg2026",
+   "authors": "Garg A, Nakhla O, Steeper M, et al.",
+   "year": 2026,
+   "title": "Advanced sperm selection techniques for assisted reproduction",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "42227305",
+   "doi": "10.1002/14651858.CD010461.pub4",
+   "type": "meta-analysis",
+   "n": "RCTs of advanced sperm selection",
+   "finding": "Cochrane 2026: hyaluronan-selected ICSI may make no or a slight difference to live birth (RR 1.09, 0.97-1.24; low certainty) and probably slightly reduces miscarriage (RR 0.59; moderate); effects of other techniques (MACS, microfluidics, IMSI) unknown due to very low certainty."
+  },
+  {
+   "id": "fer-hfea2026",
+   "authors": "Human Fertilisation and Embryology Authority (HFEA)",
+   "year": 2026,
+   "title": "Treatment add-ons with limited evidence (HFEA add-ons rating list)",
+   "journal": "HFEA website",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/",
+   "type": "guideline",
+   "n": null,
+   "finding": "HFEA traffic-light ratings for 'chances of having a baby' (page reviewed 28 Sep 2026; ratings set by SCAAC): yellow/amber (unclear) for endometrial scratching, hyaluronate-enriched transfer medium and elective freeze-all; grey (insufficient evidence) for assisted hatching, androgens, intralipids, IMSI, intrauterine culture, microbiome testing and SDF-guided treatments; black (no effect) for time-lapse imaging and PICSI; red (no benefit and/or safety concerns) for endometrial receptivity testing, IVIG, steroids, PRP and PGT-A (PGT-A rated green for reducing miscarriage). No green rating for live birth."
+  },
+  {
+   "id": "fer-hfea2026sdf",
+   "authors": "Human Fertilisation and Embryology Authority (HFEA)",
+   "year": 2026,
+   "title": "Sperm DNA fragmentation: treatment add-on rating",
+   "journal": "HFEA website",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/sperm-dna-fragmentation/",
+   "type": "guideline",
+   "n": null,
+   "finding": "After SDF testing: antioxidants and sperm selection (DGC/MACS with ICSI or PICSI) rated grey (insufficient evidence) for male factor and recurrent pregnancy loss; testicular sperm (TESE/TESA) with ICSI rated red for male factor (insufficient evidence plus surgical risk). Reviewed 24 Sep 2026."
+  },
+  {
+   "id": "fer-huong2026",
+   "authors": "Huong DT, Tam DTM, Hoa NT, et al.",
+   "year": 2026,
+   "title": "Comparative Efficacy of Microfluidics and Density Gradient Centrifugation for Sperm Preparation in IVF: A Randomized Controlled Trial",
+   "journal": "JBRA Assist Reprod",
+   "pmid": "41757843",
+   "doi": "10.5935/1518-0557.20250190",
+   "type": "rct",
+   "n": "119 couples",
+   "finding": "Microfluidic preparation lowered sperm DNA fragmentation index more than density gradients, especially with high baseline DFI, but did not improve pregnancy or live birth."
+  },
+  {
+   "id": "fer-mantravadi2024",
+   "authors": "Mantravadi KC, Rao D",
+   "year": 2024,
+   "title": "In cases with raised sperm DNA fragmentation, can sperm selection by magnetic-activated cell sorting or testicular sperm aspiration help improve reproductive outcomes?",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "38700621",
+   "doi": "10.1007/s10815-024-03128-3",
+   "type": "rct",
+   "n": "couples with failed IVF and SDF >30%",
+   "finding": "In couples with raised sperm DNA fragmentation, MACS-selected and testicular sperm gave comparable live birth; no control arm without either."
+  },
+  {
+   "id": "fer-miller2019",
+   "authors": "Miller D, Pavitt S, Sharma V, et al.",
+   "year": 2019,
+   "title": "Physiological, hyaluronan-selected intracytoplasmic sperm injection for infertility treatment (HABSelect): a parallel, two-group, randomised trial",
+   "journal": "Lancet",
+   "pmid": "30712901",
+   "doi": "10.1016/S0140-6736(18)32989-1",
+   "type": "rct",
+   "n": "2772 couples",
+   "finding": "HABSelect: hyaluronan-selected sperm (PICSI) did not raise term live birth vs ICSI (27.4% vs 25.2%; OR 1.12, 95% CI 0.95-1.34); miscarriage was a secondary finding."
+  },
+  {
+   "id": "fer-romany2014",
+   "authors": "Romany L, Garrido N, Motato Y, et al.",
+   "year": 2014,
+   "title": "Removal of annexin V-positive sperm cells for intracytoplasmic sperm injection in ovum donation cycles does not improve reproductive outcome: a controlled and randomized trial in unselected males",
+   "journal": "Fertil Steril",
+   "pmid": "25305728",
+   "doi": "10.1016/j.fertnstert.2014.09.001",
+   "type": "rct",
+   "n": "237 ICSI donor-oocyte cycles",
+   "finding": "Removing annexin V-positive sperm by MACS did not improve fertilisation, embryo quality or live birth (48.4% vs 56.4%, NS) in donor-egg ICSI."
   }
  ]
 }

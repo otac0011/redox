@@ -27,6 +27,10 @@
     {
       "id": "cancer-tx",
       "label": "In cancer treatment (incl. tamoxifen)"
+    },
+    {
+      "id": "g6pd",
+      "label": "I have G6PD deficiency"
     }
   ],
   "extra_items": [

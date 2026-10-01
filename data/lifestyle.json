@@ -2918,6 +2918,168 @@
     "med-hall2003",
     "med-whitten2006"
    ]
+  },
+  {
+   "id": "hfe-hemochromatosis",
+   "name": "HFE hemochromatosis (C282Y homozygosity) and iron overload",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "strong",
+   "headline": "About 1 in 156 people of northern European descent are C282Y homozygotes; untreated iron loading caused documented organ disease in about 28% of homozygous men (about 1% of women in one cohort, more in UK Biobank), and regular blood removal to a ferritin below 50-100 ug/L prevents it.",
+   "dose": {
+    "effective": "Test transferrin saturation and ferritin; if TSAT >45% (women) or >50% (men) with ferritin >200/300 ug/L, genotype HFE. In C282Y homozygotes, phlebotomy (typically 400-500 mL blood) to ferritin <50 ug/L during induction, then maintenance at <100 ug/L.",
+    "studied_range": "Diagnostic thresholds and phlebotomy targets from EASL 2022 and ACG 2019 guidelines; outcomes from cohorts of 31,192 (Melbourne) and 451,243 (UK Biobank) people.",
+    "too_much": "Over-phlebotomy to iron deficiency causes fatigue and anemia; ferritin targets exist for that reason. Avoid iron supplements and iron-fortified 'antioxidant' blends, and avoid high-dose vitamin C supplements, which increase non-heme iron absorption.",
+    "timeframe": "Iron accumulates over decades (disease usually after 40 in men, after menopause in women); induction phlebotomy takes months, then lifelong maintenance.",
+    "notes": "Ferritin above 1,000 ng/mL at diagnosis marks higher risk of advanced liver fibrosis. C282Y/H63D compound heterozygotes rarely develop disease without fatty liver, diabetes or excess alcohol. High ferritin with normal TSAT is usually fatty liver, alcohol or inflammation, not hemochromatosis."
+   },
+   "mechanism": "Loss of HFE function lowers hepcidin, so the gut absorbs and macrophages release too much iron; transferrin saturates and non-transferrin-bound iron enters liver, pancreas, heart and joints. Labile iron catalyzes Fenton chemistry (Fe2+ + H2O2 -> hydroxyl radical), driving lipid peroxidation, fibrosis and cell death.",
+   "pathways": [
+    "iron-fenton",
+    "lipid-peroxidation",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Alcohol and fatty liver multiply liver damage, see [alcohol] and [excess-adiposity]. Iron supplements and multivitamins with iron are contraindicated (see [iron-excess], [multivitamin-mineral]); megadose [vitamin-c-supplement] raises iron absorption. Diabetes in homozygotes interacts with [glycemic-control].",
+   "caveats": "Genotype alone is not disease: penetrance is incomplete and much lower in women, who lose iron through menstruation and pregnancy. Heterozygotes (single C282Y) do not need treatment. Consumer genotyping that reports HFE should be confirmed clinically with iron studies before any action.",
+   "debate": "UK Biobank found C282Y homozygosity caused substantial incident morbidity in both men (15.7% vs 5.0%) and women (10.1% vs 3.4%) and argued for expanded early case-finding [tst-pilling2019], whereas an earlier cohort found documented disease in only 1.2% of homozygous women [tst-allen2008] and USPSTF judged evidence insufficient to estimate benefit from population genetic screening [tst-whitlock2006]. Ferritin's accuracy for detecting overload is rated very low certainty [tst-garciacasal2021].",
+   "key_numbers": [
+    {
+     "label": "Homozygous men with iron-overload disease",
+     "value": 28.4,
+     "unit": "%",
+     "source": "tst-allen2008"
+    },
+    {
+     "label": "Homozygous women with iron-overload disease",
+     "value": 1.2,
+     "unit": "%",
+     "source": "tst-allen2008"
+    },
+    {
+     "label": "Liver disease odds in homozygotes (UK Biobank)",
+     "value": 4.3,
+     "unit": "OR",
+     "source": "tst-pilling2019"
+    },
+    {
+     "label": "Maintenance ferritin target",
+     "value": 100,
+     "unit": "ug/L",
+     "source": "tst-easl2022"
+    }
+   ],
+   "refs": [
+    "tst-easl2022",
+    "tst-kowdley2019",
+    "tst-allen2008",
+    "tst-pilling2019",
+    "tst-whitlock2006",
+    "tst-walsh2006",
+    "tst-garciacasal2021"
+   ]
+  },
+  {
+   "id": "g6pd-deficiency",
+   "name": "G6PD deficiency (oxidant drug and fava bean sensitivity)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "strong",
+   "headline": "An X-linked enzyme defect carried by roughly 400-500 million people; carriers are usually well but can hemolyze after fava beans, high-risk drugs (dapsone, primaquine, rasburicase, methylene blue) or very high IV vitamin C, so knowing your status changes what you must avoid.",
+   "dose": {
+    "effective": "One G6PD activity test (or genotype) before high-risk drugs or IV vitamin C infusions, especially with African, Mediterranean, Middle Eastern or Asian ancestry. If deficient: avoid fava beans and CPIC high-risk drugs.",
+    "studied_range": "CPIC 2022 classification of drugs by systematic review: high risk (dapsone, methylene blue, pegloticase, primaquine, rasburicase, tafenoquine, toluidine blue), medium (nitrofurantoin), low-to-no risk (vitamin C at standard doses, vitamin K, many sulfonamides).",
+    "too_much": "Very high-dose IV vitamin C (gram-level infusions) can trigger hemolysis in deficient people; methylene blue, sometimes sold as a 'mitochondrial' or nootropic supplement, is classed high risk.",
+    "timeframe": "Hemolysis typically starts within 1-3 days of the trigger and resolves after it is removed.",
+    "notes": "Activity tests can read falsely normal during or right after a hemolytic episode; heterozygous women may have intermediate activity and still hemolyze."
+   },
+   "mechanism": "G6PD makes NADPH through the pentose phosphate pathway; NADPH keeps glutathione reduced. Red cells have no other NADPH source, so oxidant drugs, fava-bean glycosides (vicine, convicine) or infection-related oxidants overwhelm glutathione, oxidize hemoglobin into Heinz bodies and destroy the cells.",
+   "pathways": [
+    "glutathione",
+    "direct-scavenging"
+   ],
+   "interactions": "Pro-oxidant effects of megadose vitamin C (see [vitamin-c-supplement]) and of high-dose antioxidant stacks ([high-dose-antioxidant-cocktail]) matter here because ascorbate can act as an oxidant in the presence of iron and oxygen. Infections ([febrile-illness]) are themselves triggers.",
+   "caveats": "Most carriers are lifelong asymptomatic; this is about avoiding specific triggers, not about general oxidative stress. Ordinary dietary antioxidants and standard-dose vitamin C are not a concern.",
+   "debate": "Regulatory warnings conflict and evidence for many listed drugs is sparse; CPIC authors disagreed about the strength of the nitrofurantoin evidence [tst-gammal2023], while older reviews list a broader range of triggers [tst-cappellini2008]. CPIC classes standard-dose vitamin C as low-to-no risk [tst-gammal2023], but a systematic review of IV vitamin C flags hemolysis at very high doses and supports pre-infusion G6PD testing [tst-alangari2026].",
+   "key_numbers": [
+    {
+     "label": "People affected worldwide",
+     "value": 400,
+     "unit": "million",
+     "source": "tst-nkhoma2009"
+    }
+   ],
+   "refs": [
+    "tst-luzzatto2020",
+    "tst-cappellini2008",
+    "tst-gammal2023",
+    "tst-nkhoma2009",
+    "tst-alangari2026",
+    "tst-beretta2023"
+   ]
+  },
+  {
+   "id": "gstm1-genotype",
+   "name": "GSTM1 / GSTT1 null genotype and isothiocyanate handling",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 1,
+    "sperm": 0
+   },
+   "evidence": "limited",
+   "headline": "Roughly half of people lack both GSTM1 copies; null carriers handle broccoli's sulforaphane differently and in one cohort gained the most lung-cancer protection from isothiocyanates, but results conflict and the advice (eat crucifers) is the same whatever the genotype.",
+   "dose": {
+    "effective": "No test needed. Whatever the genotype, regular cruciferous vegetables (for example 1/2 cup broccoli sprouts or a serving of crucifers most days) are the lever.",
+    "studied_range": "Crossover feeding with standard and high-glucosinolate broccoli; urinary isothiocyanate cohort of 18,244 men; case-control meta-analysis of 6,934 men for infertility.",
+    "too_much": null,
+    "timeframe": "Sulforaphane pharmacokinetics differ within hours; any cancer association reflects years of intake.",
+    "notes": "Consumer 'detox' panels often report GSTM1 status; it should not drive supplement purchases."
+   },
+   "mechanism": "GSTM1 and GSTT1 conjugate isothiocyanates and electrophilic toxins to glutathione for excretion. Null carriers may keep sulforaphane in circulation longer (more Nrf2 activation) or form less of the conjugated metabolites, depending on the study.",
+   "pathways": [
+    "glutathione",
+    "nrf2"
+   ],
+   "interactions": "Relevant to [broccoli-sprouts], [cruciferous-other] and [sulforaphane-supplements]; may modify the effect of [tobacco-smoking] carcinogens.",
+   "caveats": "Associations with male infertility and endometriosis come from case-control studies with population heterogeneity and possible publication bias; no intervention study uses genotype to change outcomes.",
+   "debate": "In Shanghai men, isothiocyanate protection was concentrated in GSTM1-null and double-null carriers [tst-london2000], whereas a crossover study suggested GSTM1-positive people retain different sulforaphane metabolites that might give them more benefit [tst-gasper2005], and a 114-person feeding study found genotype made little difference to excretion [tst-steck2007]. GSTM1 null was associated with male infertility in a meta-analysis [tst-wu2013], but a broad meta-analysis of endometriosis polymorphisms found GSTT1, not GSTM1, among the more robust signals [tst-mear2020].",
+   "key_numbers": [
+    {
+     "label": "Lung cancer RR with urinary ITC, GSTM1-null",
+     "value": 0.36,
+     "unit": "RR",
+     "source": "tst-london2000"
+    },
+    {
+     "label": "Lung cancer RR with urinary ITC, double-null",
+     "value": 0.28,
+     "unit": "RR",
+     "source": "tst-london2000"
+    }
+   ],
+   "refs": [
+    "tst-london2000",
+    "tst-gasper2005",
+    "tst-steck2007",
+    "tst-wu2013",
+    "tst-mear2020"
+   ]
   }
  ],
  "mechanisms": [
@@ -8321,6 +8483,222 @@
    "type": "review",
    "n": "49 RCTs",
    "finding": "Harm from antioxidant supplements during cancer therapy remains unclear except for smokers having radiotherapy."
+  },
+  {
+   "id": "tst-alangari2026",
+   "authors": "Alangari A, Arif J, Al Qureshah F, et al.",
+   "year": 2026,
+   "title": "Clinical benefits and risks of high-dose intravenous vitamin C: a systematic review.",
+   "journal": "J Med Life",
+   "pmid": "41815850",
+   "doi": "10.25122/jml-2025-0176",
+   "type": "review",
+   "n": null,
+   "finding": "Systematic review of high-dose IV vitamin C: benefits in sepsis and cancer remain exploratory, and risks include oxalate nephropathy and hemolysis at very high doses in G6PD deficiency, supporting pre-infusion testing."
+  },
+  {
+   "id": "tst-allen2008",
+   "authors": "Allen KJ, Gurrin LC, Constantine CC, et al.",
+   "year": 2008,
+   "title": "Iron-overload-related disease in HFE hereditary hemochromatosis.",
+   "journal": "N Engl J Med",
+   "pmid": "18199861",
+   "doi": "10.1056/NEJMoa073286",
+   "type": "cohort",
+   "n": "31,192 screened; 203 C282Y homozygotes",
+   "finding": "Documented iron-overload-related disease developed in 28.4% of male but only 1.2% of female C282Y homozygotes; only one non-homozygote (a compound heterozygote) had such disease."
+  },
+  {
+   "id": "tst-beretta2023",
+   "authors": "Beretta A, Manuelli M, Cena H",
+   "year": 2023,
+   "title": "Favism: Clinical Features at Different Ages.",
+   "journal": "Nutrients",
+   "pmid": "36678214",
+   "doi": "10.3390/nu15020343",
+   "type": "review",
+   "n": null,
+   "finding": "Favism (hemolysis after fava beans in G6PD deficiency) varies widely in severity, is most severe in young children and pregnancy, and often needs hospitalization and transfusion."
+  },
+  {
+   "id": "tst-cappellini2008",
+   "authors": "Cappellini MD, Fiorelli G",
+   "year": 2008,
+   "title": "Glucose-6-phosphate dehydrogenase deficiency.",
+   "journal": "Lancet",
+   "pmid": "18177777",
+   "doi": "10.1016/S0140-6736(08)60073-2",
+   "type": "review",
+   "n": null,
+   "finding": "G6PD deficiency, an X-linked defect affecting over 400 million people, causes neonatal jaundice and acute hemolysis triggered by oxidant drugs, infections or fava beans; management is avoidance of oxidative triggers."
+  },
+  {
+   "id": "tst-easl2022",
+   "authors": "European Association for the Study of the Liver",
+   "year": 2022,
+   "title": "EASL Clinical Practice Guidelines on haemochromatosis.",
+   "journal": "J Hepatol",
+   "pmid": "35662478",
+   "doi": "10.1016/j.jhep.2022.03.033",
+   "type": "guideline",
+   "n": null,
+   "finding": "EASL haemochromatosis guideline: in HFE C282Y homozygotes, TSAT >45% with ferritin >200 ug/L (women) or TSAT >50% with ferritin >300 ug/L (men, postmenopausal women) suffices for diagnosis; phlebotomy targets ferritin <50 ug/L in induction and <100 ug/L in maintenance."
+  },
+  {
+   "id": "tst-gammal2023",
+   "authors": "Gammal RS, Pirmohamed M, Somogyi AA, et al.",
+   "year": 2023,
+   "title": "Expanded Clinical Pharmacogenetics Implementation Consortium Guideline for Medication Use in the Context of G6PD Genotype.",
+   "journal": "Clin Pharmacol Ther",
+   "pmid": "36049896",
+   "doi": "10.1002/cpt.2735",
+   "type": "guideline",
+   "n": null,
+   "finding": "CPIC classifies dapsone, methylene blue, pegloticase, primaquine, rasburicase, tafenoquine and toluidine blue as high-risk in G6PD deficiency, nitrofurantoin as medium risk, and vitamin C at standard doses as low-to-no risk."
+  },
+  {
+   "id": "tst-garciacasal2021",
+   "authors": "Garcia-Casal MN, Pasricha SR, Martinez RX, et al.",
+   "year": 2021,
+   "title": "Serum or plasma ferritin concentration as an index of iron deficiency and overload.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "34028001",
+   "doi": "10.1002/14651858.CD011817.pub2",
+   "type": "meta-analysis",
+   "n": "108 studies",
+   "finding": "At a threshold of 30 ug/L, ferritin is reasonably sensitive and very specific for iron deficiency in people presenting for care (low-certainty evidence); evidence that high ferritin detects iron overload is very low certainty, and screening performance in healthy people is unknown."
+  },
+  {
+   "id": "tst-gasper2005",
+   "authors": "Gasper AV, Al-Janobi A, Smith JA, et al.",
+   "year": 2005,
+   "title": "Glutathione S-transferase M1 polymorphism and metabolism of sulforaphane from standard and high-glucosinolate broccoli.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "16332662",
+   "doi": "10.1093/ajcn/82.6.1283",
+   "type": "rct",
+   "n": "16 adults (crossover)",
+   "finding": "GSTM1-null subjects had higher plasma sulforaphane and excreted more of it than GSTM1-positive subjects after broccoli; genotype altered sulforaphane metabolism."
+  },
+  {
+   "id": "tst-kowdley2019",
+   "authors": "Kowdley KV, Brown KE, Ahn J, et al.",
+   "year": 2019,
+   "title": "ACG Clinical Guideline: Hereditary Hemochromatosis.",
+   "journal": "Am J Gastroenterol",
+   "pmid": "31335359",
+   "doi": "10.14309/ajg.0000000000000315",
+   "type": "guideline",
+   "n": null,
+   "finding": "ACG hemochromatosis guideline: ferritin <1,000 ng/mL at diagnosis identifies low risk of advanced fibrosis; elevated ferritin is more often due to fatty liver or alcohol than to hemochromatosis in people who are not C282Y homozygotes or C282Y/H63D compound heterozygotes."
+  },
+  {
+   "id": "tst-london2000",
+   "authors": "London SJ, Yuan JM, Chung FL, et al.",
+   "year": 2000,
+   "title": "Isothiocyanates, glutathione S-transferase M1 and T1 polymorphisms, and lung-cancer risk: a prospective study of men in Shanghai, China.",
+   "journal": "Lancet",
+   "pmid": "11085692",
+   "doi": "10.1016/S0140-6736(00)02631-3",
+   "type": "case-control",
+   "n": "232 lung cancer cases and 710 controls nested in 18,244 men",
+   "finding": "Detectable urinary isothiocyanates were linked to lower lung cancer risk (RR 0.65), most strongly in GSTM1-null (0.36) and GSTM1/GSTT1 double-null men (0.28)."
+  },
+  {
+   "id": "tst-luzzatto2020",
+   "authors": "Luzzatto L, Ally M, Notaro R",
+   "year": 2020,
+   "title": "Glucose-6-phosphate dehydrogenase deficiency.",
+   "journal": "Blood",
+   "pmid": "32702756",
+   "doi": "10.1182/blood.2019000944",
+   "type": "review",
+   "n": null,
+   "finding": "About 500 million people carry G6PD mutations; most are asymptomatic but can develop severe acute hemolysis after fava beans, drugs such as primaquine or rasburicase, or infection."
+  },
+  {
+   "id": "tst-mear2020",
+   "authors": "Méar L, Herr M, Fauconnier A, et al.",
+   "year": 2020,
+   "title": "Polymorphisms and endometriosis: a systematic review and meta-analyses.",
+   "journal": "Hum Reprod Update",
+   "pmid": "31821471",
+   "doi": "10.1093/humupd/dmz034",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Among many studied polymorphisms, GSTT1 null was among the few robustly associated with endometriosis, while GSTM1 null was among candidates needing confirmation in well-defined cohorts."
+  },
+  {
+   "id": "tst-nkhoma2009",
+   "authors": "Nkhoma ET, Poole C, Vannappagari V, et al.",
+   "year": 2009,
+   "title": "The global prevalence of glucose-6-phosphate dehydrogenase deficiency: a systematic review and meta-analysis.",
+   "journal": "Blood Cells Mol Dis",
+   "pmid": "19233695",
+   "doi": "10.1016/j.bcmd.2008.12.005",
+   "type": "meta-analysis",
+   "n": "280 prevalence estimates from 88 countries",
+   "finding": "G6PD deficiency affects an estimated 400 million people, with the highest prevalence in sub-Saharan Africa and malaria-endemic regions."
+  },
+  {
+   "id": "tst-pilling2019",
+   "authors": "Pilling LC, Tamosauskaite J, Jones G, et al.",
+   "year": 2019,
+   "title": "Common conditions associated with hereditary haemochromatosis genetic variants: cohort study in UK Biobank.",
+   "journal": "BMJ",
+   "pmid": "30651232",
+   "doi": "10.1136/bmj.k5222",
+   "type": "cohort",
+   "n": "451,243 UK Biobank participants (2,890 C282Y homozygotes)",
+   "finding": "C282Y homozygosity was associated with liver disease (OR 4.30), arthritis, diabetes (OR 1.53) and more incident morbidity in both men (15.7% vs 5.0%) and women (10.1% vs 3.4%), supporting re-examination of early case-finding."
+  },
+  {
+   "id": "tst-steck2007",
+   "authors": "Steck SE, Gammon MD, Hebert JR, et al.",
+   "year": 2007,
+   "title": "GSTM1, GSTT1, GSTP1, and GSTA1 polymorphisms and urinary isothiocyanate metabolites following broccoli consumption in humans.",
+   "journal": "J Nutr",
+   "pmid": "17374652",
+   "doi": "10.1093/jn/137.4.904",
+   "type": "cross-sectional",
+   "n": "114 adults fed broccoli",
+   "finding": "GST genotypes did not substantially change isothiocyanate excretion; GSTM1-null subjects were more often high excreters (62% vs 39%)."
+  },
+  {
+   "id": "tst-walsh2006",
+   "authors": "Walsh A, Dixon JL, Ramm GA, et al.",
+   "year": 2006,
+   "title": "The clinical relevance of compound heterozygosity for the C282Y and H63D substitutions in hemochromatosis.",
+   "journal": "Clin Gastroenterol Hepatol",
+   "pmid": "16979952",
+   "doi": "10.1016/j.cgh.2006.07.009",
+   "type": "cohort",
+   "n": "249 C282Y/H63D compound heterozygotes and 483 C282Y homozygotes",
+   "finding": "C282Y/H63D compound heterozygotes often had raised iron indices but did not develop progressive disease without cofactors such as fatty liver, diabetes or excess alcohol."
+  },
+  {
+   "id": "tst-whitlock2006",
+   "authors": "Whitlock EP, Garlitz BA, Harris EL, et al.",
+   "year": 2006,
+   "title": "Screening for hereditary hemochromatosis: a systematic review for the U.S. Preventive Services Task Force.",
+   "journal": "Ann Intern Med",
+   "pmid": "16880463",
+   "doi": "10.7326/0003-4819-145-3-200608010-00009",
+   "type": "review",
+   "n": null,
+   "finding": "USPSTF systematic review: up to 38-50% of C282Y homozygotes may develop iron overload and 10-33% hemochromatosis-related morbidity, but evidence was insufficient to estimate the benefit of population genetic screening."
+  },
+  {
+   "id": "tst-wu2013",
+   "authors": "Wu W, Lu J, Tang Q, et al.",
+   "year": 2013,
+   "title": "GSTM1 and GSTT1 null polymorphisms and male infertility risk: an updated meta-analysis encompassing 6934 subjects.",
+   "journal": "Sci Rep",
+   "pmid": "23877133",
+   "doi": "10.1038/srep02258",
+   "type": "meta-analysis",
+   "n": "6,934 subjects",
+   "finding": "GSTM1 null genotype was associated with a significantly higher risk of male infertility in Asian and Caucasian groups; GSTT1 findings were inconsistent."
   }
  ]
 }
