@@ -2285,6 +2285,228 @@
     "env-mesen2014",
     "env-gumerova2024"
    ]
+  },
+  {
+   "id": "ssri-sperm",
+   "name": "SSRIs (antidepressants) and sperm DNA",
+   "kind": "medical",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 2
+   },
+   "evidence": "limited",
+   "headline": "In 35 healthy men, 4 weeks of paroxetine raised sperm DNA fragmentation from 13.8% to 30.3% (abnormal in 50% of men vs 9.7% before) with a normal standard semen analysis; small sertraline and escitalopram studies point the same way and effects appear reversible.",
+   "dose": {
+    "effective": "Effects seen at standard antidepressant or premature-ejaculation doses: paroxetine (4 weeks), sertraline 50 mg/day (3 months), escitalopram 10 mg/day (12 weeks).",
+    "studied_range": "Single-arm or small controlled studies of 25-60 men, 4-12 weeks.",
+    "too_much": "No dose threshold established; a sperm DNA fragmentation test (rather than a routine semen analysis) is what detects the change.",
+    "timeframe": "DNA fragmentation rose within 4 weeks; reversal after stopping is expected over about one spermatogenic cycle (~74 days) but timing data are limited.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Untreated depression also lowers couple fertility; men trying to conceive who take SSRIs can discuss a DNA fragmentation test, timing, or alternatives with the prescriber rather than stopping."
+   },
+   "mechanism": "Proposed mechanisms include serotonin effects on the hypothalamic-pituitary-gonadal axis and epididymal transit, and direct effects on sperm membranes and chromatin; DNA fragmentation without changes in count or motility suggests a post-testicular or chromatin-packaging effect [med-tanrikut2010, med-beeder2020].",
+   "pathways": [
+    "dna-repair",
+    "endocrine"
+   ],
+   "interactions": "Untreated [psychological-stress] and depression are themselves linked to lower fertility. Ejaculatory delay on SSRIs may lengthen abstinence; see [short-abstinence]. Not known whether [male-antioxidant-combination] offsets the effect.",
+   "caveats": "Studies are small, mostly uncontrolled, and many are in men treated for premature ejaculation. No study shows lower live-birth rates from paternal SSRI use.",
+   "debate": "Harm: paroxetine [med-tanrikut2010], escitalopram [med-koyuncu2011] and sertraline (vs behavioural therapy) [med-akasheh2014] all worsened sperm measures, and reviews conclude SSRIs can harm semen quality reversibly [med-beeder2020]. Caution: a frequently cited large study [med-safarinejad2008] is under a 2023 Expression of Concern; a systematic review rated most male studies poor quality [med-sylvester2019]; and in a preconception cohort, male depression rather than medication explained most of a weak fecundability association [med-yland2022], with active depression in men linked to lower conception [med-evanshoeker2018].",
+   "key_numbers": [
+    {
+     "label": "Sperm DNA fragmentation before paroxetine",
+     "value": 13.8,
+     "unit": "%",
+     "source": "med-tanrikut2010"
+    },
+    {
+     "label": "Sperm DNA fragmentation on paroxetine",
+     "value": 30.3,
+     "unit": "%",
+     "source": "med-tanrikut2010"
+    }
+   ],
+   "refs": [
+    "med-tanrikut2010",
+    "med-koyuncu2011",
+    "med-akasheh2014",
+    "med-safarinejad2008",
+    "med-beeder2020",
+    "med-sylvester2019",
+    "med-yland2022",
+    "med-evanshoeker2018"
+   ]
+  },
+  {
+   "id": "finasteride-sperm",
+   "name": "Finasteride & dutasteride (5-alpha-reductase inhibitors)",
+   "kind": "medical",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 2
+   },
+   "evidence": "moderate",
+   "headline": "Hair-loss-dose finasteride (1 mg) left semen unchanged in 181 young men, but prostate doses (finasteride 5 mg, dutasteride 0.5 mg) cut total sperm count about 30%, and subfertile men on finasteride saw counts rise on average 11.6-fold after stopping.",
+   "dose": {
+    "effective": "Finasteride 1 mg/day (hair loss) or 5 mg/day (prostate); dutasteride 0.5 mg/day.",
+    "studied_range": "Finasteride 1 mg/day for 48 weeks (RCT); finasteride 5 mg and dutasteride 0.5 mg for 1 year (RCT); mean 1 mg/day for ~57 months (subfertile men).",
+    "too_much": "Prostate doses and dutasteride have larger effects (semen volume -29.7% on dutasteride); men who are already oligospermic appear most vulnerable even at 1 mg.",
+    "timeframe": "Counts fell by 26 weeks; recovery after stopping over months (one spermatogenic cycle is ~74 days).",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Men with low counts who are trying to conceive and use finasteride for hair loss can ask about pausing it; a repeat semen analysis about 3 months after stopping shows whether it was a factor."
+   },
+   "mechanism": "Blocking conversion of testosterone to DHT (by 73% with finasteride 5 mg and 94% with dutasteride) reduces prostate and seminal-vesicle secretions and modestly impairs epididymal sperm maturation; testosterone itself rises slightly [med-amory2007].",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "Unlike [testosterone-anabolic-steroids], 5-ARIs do not shut down LH/FSH. Often used alongside [alpha-blockers-sperm] for prostate enlargement, which adds ejaculatory problems.",
+   "caveats": "The dramatic recovery data come from 27 men who presented with infertility, a selected group; healthy men on 1 mg show no average change.",
+   "debate": "In healthy young men, 1 mg finasteride did not affect spermatogenesis [med-overstreet1999]; in subfertile men on similar doses, counts rose sharply after stopping [med-samplaski2013], suggesting a vulnerable subgroup. Prostate doses produced mild, mostly reversible falls [med-amory2007].",
+   "key_numbers": [
+    {
+     "label": "Total sperm count change, finasteride 5 mg (26 wk)",
+     "value": -34.3,
+     "unit": "%",
+     "source": "med-amory2007"
+    },
+    {
+     "label": "Total sperm count change, dutasteride (26 wk)",
+     "value": -28.6,
+     "unit": "%",
+     "source": "med-amory2007"
+    },
+    {
+     "label": "Average count increase after stopping (subfertile men)",
+     "value": 11.6,
+     "unit": "fold",
+     "source": "med-samplaski2013"
+    }
+   ],
+   "refs": [
+    "med-overstreet1999",
+    "med-amory2007",
+    "med-samplaski2013"
+   ]
+  },
+  {
+   "id": "opioids-sperm",
+   "name": "Opioid painkillers & methadone",
+   "kind": "medical",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 2
+   },
+   "evidence": "limited",
+   "headline": "Regular opioid use, including methadone, lowers testosterone by about 165 ng/dL in men, and reviews report lower semen quality and higher sperm DNA fragmentation; direct human semen studies are few and low quality.",
+   "dose": {
+    "effective": "Effects described with regular (daily) use of any opioid, including maintenance methadone.",
+    "studied_range": "Cross-sectional and cohort studies of chronic users; no dose-response trials.",
+    "too_much": "Higher doses and long-acting opioids appear worse; tramadol and tapentadol may cause less suppression.",
+    "timeframe": "Hormonal suppression develops with regular use; semen recovery after tapering is expected over months but is poorly studied.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Never stop opioids or methadone abruptly; tapering or switching must be supervised. Men on opioids with low testosterone who want children should not be treated with testosterone, which further suppresses sperm production."
+   },
+   "mechanism": "Opioids suppress hypothalamic GnRH and hence LH and testosterone, increase aromatase, and act on opioid receptors in the testis and on sperm themselves [med-drobnis2017, med-bawor2015].",
+   "pathways": [
+    "endocrine",
+    "dna-repair"
+   ],
+   "interactions": "Testosterone replacement ([testosterone-anabolic-steroids]) for opioid-induced low testosterone suppresses spermatogenesis; [glp1-agonists] raised testosterone without suppressing LH/FSH in obese men, though not studied in opioid users. [cannabis] is covered separately.",
+   "caveats": "Opioid users differ from controls in smoking, illness and other drug use, so semen findings are heavily confounded.",
+   "debate": "The testosterone effect is consistent across 17 studies, though heterogeneous and low quality [med-bawor2015]; the semen and DNA-fragmentation effects rest mainly on narrative review of small studies [med-drobnis2017]. No published study was found arguing opioids are harmless to sperm; the debate is about magnitude and reversibility.",
+   "key_numbers": [
+    {
+     "label": "Testosterone difference, opioid users vs controls",
+     "value": -165,
+     "unit": "ng/dL",
+     "source": "med-bawor2015"
+    }
+   ],
+   "refs": [
+    "med-bawor2015",
+    "med-drobnis2017",
+    "med-gregoric2025"
+   ]
+  },
+  {
+   "id": "sulfasalazine-methotrexate-sperm",
+   "name": "Sulfasalazine & methotrexate (bowel and arthritis drugs)",
+   "kind": "medical",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "sperm": 2
+   },
+   "evidence": "moderate",
+   "headline": "Sulfasalazine (2-4 g/day) reliably but reversibly damages sperm, with pregnancies typically about 2.5 months after switching; low-dose methotrexate showed no change in semen or sperm DNA fragmentation and no excess birth defects in 127 children of exposed fathers.",
+   "dose": {
+    "effective": "Sulfasalazine 2-4 g/day; low-dose weekly methotrexate as used in arthritis, psoriasis and IBD.",
+    "studied_range": "Sulfasalazine 2-4 g/day for >2 months; methotrexate in 20 men followed prospectively and 127 Danish births.",
+    "too_much": "Sulfasalazine at any therapeutic dose for over 2 months; high-dose methotrexate as chemotherapy is a different exposure (see chemo-radiation).",
+    "timeframe": "Sulfasalazine effects reverse within about 2-3 months of switching; methotrexate data cover the 90 days before conception.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Men on sulfasalazine who are trying to conceive can ask about switching to mesalazine or another agent; the ACR guideline supports continuing low-dose methotrexate in men planning conception."
+   },
+   "mechanism": "The sulphapyridine part of sulfasalazine is toxic to maturing sperm late in their development (rat data show the same effect with sulphapyridine but not 5-aminosalicylic acid) [med-omorain1984]. Methotrexate barely accumulates in sperm because of low folylpolyglutamate synthetase activity [med-perezgarcia2023].",
+   "pathways": [
+    "dna-repair"
+   ],
+   "interactions": "Underlying inflammatory disease ([chronic-inflammation]) can itself affect fertility; high-dose cytotoxic treatment belongs under [chemo-radiation]. Folate status ([folate-zinc]) is relevant for methotrexate users.",
+   "caveats": "Sulfasalazine data are older and small but consistent. Methotrexate data come from 20 men and registry births; high-dose regimens are not covered.",
+   "debate": "Older advice to stop methotrexate 3 months before conception is contested by a Danish registry (aOR 1.01 for malformations) [med-eck2017] and a prospective semen study [med-perezgarcia2023]; reviews still describe its sperm effect as uncertain and note animal testicular toxicity [med-perezgarcia2020, med-banerjee2019]. For sulfasalazine there is no real disagreement: men on it have lower counts and motility than men on mesalazine [med-banerjee2019, med-toovey1981].",
+   "refs": [
+    "med-toovey1981",
+    "med-omorain1984",
+    "med-banerjee2019",
+    "med-perezgarcia2020",
+    "med-perezgarcia2023",
+    "med-eck2017"
+   ]
+  },
+  {
+   "id": "alpha-blockers-sperm",
+   "name": "Alpha-blockers (tamsulosin, silodosin) and ejaculation",
+   "kind": "medical",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "moderate",
+   "headline": "Tamsulosin 0.8 mg/day cut ejaculate volume by 2.4 mL and caused complete anejaculation in 35% of healthy men, and 95% of sexually active silodosin users reported ejaculatory disorder; alfuzosin had no such effect.",
+   "dose": {
+    "effective": "Tamsulosin 0.4-0.8 mg/day; silodosin 8 mg/day (typical prostate doses).",
+    "studied_range": "Tamsulosin 0.8 mg/day vs alfuzosin vs placebo (healthy volunteers); silodosin in 91 men with BPH.",
+    "too_much": "Higher tamsulosin doses and silodosin have the strongest effect.",
+    "timeframe": "Immediate and reversible on stopping.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Men trying to conceive who take these drugs can ask about an alternative (alfuzosin did not affect ejaculation in the healthy-volunteer trial) or timing."
+   },
+   "mechanism": "Alpha-1A blockade relaxes the vas deferens, seminal vesicles and bladder neck, reducing emission of semen; the tamsulosin trial found this was not explained by retrograde ejaculation [med-hellstrom2006]. This is a mechanical, not a redox, effect.",
+   "pathways": [],
+   "interactions": "Often combined with [finasteride-sperm] (5-ARIs) for prostate enlargement, which also lowers semen volume.",
+   "caveats": "Ejaculate volume and anejaculation matter for natural conception; sperm production itself is not shown to be harmed.",
+   "debate": "No substantive published debate found on the effect itself; the size differs by drug, with tamsulosin and silodosin affecting most men and alfuzosin none in a head-to-head trial [med-hellstrom2006, med-sakata2012].",
+   "key_numbers": [
+    {
+     "label": "Anejaculation on tamsulosin 0.8 mg",
+     "value": 35.4,
+     "unit": "% of men",
+     "source": "med-hellstrom2006"
+    }
+   ],
+   "refs": [
+    "med-hellstrom2006",
+    "med-sakata2012"
+   ]
   }
  ],
  "mechanisms": [
@@ -4558,6 +4780,270 @@
    "type": "cross-sectional",
    "n": "6 testes and 30 semen samples",
    "finding": "Py-GC/MS and laser-direct infrared found microplastics in testis (11.6 particles/g) and semen (0.23 particles/mL), mostly 20-100 um."
+  },
+  {
+   "id": "med-akasheh2014",
+   "authors": "Akasheh G, Sirati L, Noshad Kamran AR, et al.",
+   "year": 2014,
+   "title": "Comparison of the effect of sertraline with behavioral therapy on semen parameters in men with primary premature ejaculation.",
+   "journal": "Urology",
+   "pmid": "24529582",
+   "doi": "10.1016/j.urology.2013.12.004",
+   "type": "rct",
+   "n": "60 men with premature ejaculation",
+   "finding": "Sertraline 50 mg/day for 3 months (vs behavioural therapy) lowered sperm concentration and normal morphology and raised sperm DNA fragmentation."
+  },
+  {
+   "id": "med-amory2007",
+   "authors": "Amory JK, Wang C, Swerdloff RS, et al.",
+   "year": 2007,
+   "title": "The effect of 5alpha-reductase inhibition with dutasteride and finasteride on semen parameters and serum hormones in healthy men.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "17299062",
+   "doi": "10.1210/jc.2006-2203",
+   "type": "rct",
+   "n": "99 healthy men",
+   "finding": "Dutasteride 0.5 mg and finasteride 5 mg cut total sperm count by 28.6% and 34.3% at 26 weeks, lowered volume and motility, with largely reversible effects after stopping."
+  },
+  {
+   "id": "med-banerjee2019",
+   "authors": "Banerjee A, Scarpa M, Pathak S, et al.",
+   "year": 2019,
+   "title": "Inflammatory Bowel Disease Therapies Adversely Affect Fertility in Men- A Systematic Review and Meta-analysis.",
+   "journal": "Endocr Metab Immune Disord Drug Targets",
+   "pmid": "30864530",
+   "doi": "10.2174/1871530319666190313112110",
+   "type": "meta-analysis",
+   "n": "14 studies",
+   "finding": "Sulphasalazine-treated men had lower sperm counts and motility and more oligospermia than mesalazine-treated men; biologics appeared safe."
+  },
+  {
+   "id": "med-bawor2015",
+   "authors": "Bawor M, Bami H, Dennis BB, et al.",
+   "year": 2015,
+   "title": "Testosterone suppression in opioid users: a systematic review and meta-analysis.",
+   "journal": "Drug Alcohol Depend",
+   "pmid": "25702934",
+   "doi": "10.1016/j.drugalcdep.2015.01.038",
+   "type": "meta-analysis",
+   "n": "17 studies, 2769 participants",
+   "finding": "Regular opioid use (including methadone) lowered testosterone in men by about 165 ng/dL versus controls; no effect seen in women."
+  },
+  {
+   "id": "med-beeder2020",
+   "authors": "Beeder LA, Samplaski MK",
+   "year": 2020,
+   "title": "Effect of antidepressant medications on semen parameters and male fertility.",
+   "journal": "Int J Urol",
+   "pmid": "31542895",
+   "doi": "10.1111/iju.14111",
+   "type": "review",
+   "n": null,
+   "finding": "SSRIs, especially fluoxetine, are linked to lower sperm concentration and motility and higher DNA fragmentation in human and animal studies; effects appear reversible; data on other antidepressants are sparse."
+  },
+  {
+   "id": "med-drobnis2017",
+   "authors": "Drobnis EZ, Nangia AK",
+   "year": 2017,
+   "title": "Pain Medications and Male Reproduction.",
+   "journal": "Adv Exp Med Biol",
+   "pmid": "29256126",
+   "doi": "10.1007/978-3-319-69535-8_6",
+   "type": "review",
+   "n": null,
+   "finding": "Exogenous opioids suppress the hypothalamic-pituitary-gonadal axis and act directly on the testis, lowering semen quality and raising DNA fragmentation; NSAIDs have less effect; paracetamol may be of concern."
+  },
+  {
+   "id": "med-eck2017",
+   "authors": "Eck LK, Jensen TB, Mastrogiannis D, et al.",
+   "year": 2017,
+   "title": "Risk of Adverse Pregnancy Outcome After Paternal Exposure to Methotrexate Within 90 Days Before Pregnancy.",
+   "journal": "Obstet Gynecol",
+   "pmid": "28277353",
+   "doi": "10.1097/AOG.0000000000001936",
+   "type": "cohort",
+   "n": "849,676 Danish births, 127 with methotrexate-exposed fathers",
+   "finding": "Paternal methotrexate within 90 days before conception was not associated with major malformations (aOR 1.01), stillbirth or preterm birth."
+  },
+  {
+   "id": "med-evanshoeker2018",
+   "authors": "Evans-Hoeker EA, Eisenberg E, Diamond MP, et al.",
+   "year": 2018,
+   "title": "Major depression, antidepressant use, and male and female fertility.",
+   "journal": "Fertil Steril",
+   "pmid": "29778387",
+   "doi": "10.1016/j.fertnstert.2018.01.029",
+   "type": "cohort",
+   "n": "1650 women and 1608 men in infertility trials",
+   "finding": "Active major depression in the male partner lowered conception; maternal antidepressant use (n=90) was associated with first-trimester pregnancy loss."
+  },
+  {
+   "id": "med-gregoric2025",
+   "authors": "Gregorič N, Šikonja J, Janež A, et al.",
+   "year": 2025,
+   "title": "Semaglutide improved sperm morphology in obese men with type 2 diabetes mellitus and functional hypogonadism.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "39511836",
+   "doi": "10.1111/dom.16042",
+   "type": "rct",
+   "n": "obese men with type 2 diabetes and functional hypogonadism",
+   "finding": "Semaglutide raised normal sperm morphology (median 2% to 4%) and testosterone, whereas testosterone therapy lowered sperm concentration and count."
+  },
+  {
+   "id": "med-hellstrom2006",
+   "authors": "Hellstrom WJ, Sikka SC",
+   "year": 2006,
+   "title": "Effects of acute treatment with tamsulosin versus alfuzosin on ejaculatory function in normal volunteers.",
+   "journal": "J Urol",
+   "pmid": "16952675",
+   "doi": "10.1016/j.juro.2006.06.004",
+   "type": "rct",
+   "n": "48 healthy men",
+   "finding": "Tamsulosin 0.8 mg daily lowered ejaculate volume by 2.4 mL and caused anejaculation in 35% of men; alfuzosin and placebo did not."
+  },
+  {
+   "id": "med-koyuncu2011",
+   "authors": "Koyuncu H, Serefoglu EC, Yencilek E, et al.",
+   "year": 2011,
+   "title": "Escitalopram treatment for premature ejaculation has a negative effect on semen parameters.",
+   "journal": "Int J Impot Res",
+   "pmid": "21776003",
+   "doi": "10.1038/ijir.2011.35",
+   "type": "cohort",
+   "n": "25 men with lifelong premature ejaculation",
+   "finding": "Escitalopram 10 mg daily for 12 weeks lowered sperm concentration, motility and morphology."
+  },
+  {
+   "id": "med-omorain1984",
+   "authors": "O'Moráin C, Smethurst P, Doré CJ, et al.",
+   "year": 1984,
+   "title": "Reversible male infertility due to sulphasalazine: studies in man and rat.",
+   "journal": "Gut",
+   "pmid": "6148293",
+   "doi": "10.1136/gut.25.10.1078",
+   "type": "cohort",
+   "n": "men with IBD plus rat studies",
+   "finding": "Sulphasalazine caused oligospermia, poor motility and abnormal forms that reversed on withdrawal (15 pregnancies at a median 2.5 months); the sulphapyridine moiety was responsible in rats."
+  },
+  {
+   "id": "med-overstreet1999",
+   "authors": "Overstreet JW, Fuh VL, Gould J, et al.",
+   "year": 1999,
+   "title": "Chronic treatment with finasteride daily does not affect spermatogenesis or semen production in young men.",
+   "journal": "J Urol",
+   "pmid": "10492183",
+   "doi": null,
+   "type": "rct",
+   "n": "181 young men",
+   "finding": "Finasteride 1 mg daily for 48 weeks did not affect sperm concentration, count, motility or morphology versus placebo."
+  },
+  {
+   "id": "med-perezgarcia2020",
+   "authors": "Perez-Garcia LF, Dolhain RJEM, Vorstenbosch S, et al.",
+   "year": 2020,
+   "title": "The effect of paternal exposure to immunosuppressive drugs on sexual function, reproductive hormones, fertility, pregnancy and offspring outcomes: a systematic review.",
+   "journal": "Hum Reprod Update",
+   "pmid": "32743663",
+   "doi": "10.1093/humupd/dmaa022",
+   "type": "review",
+   "n": null,
+   "finding": "Clear negative effects on sperm for sulfasalazine and cyclophosphamide; dubious effects for methotrexate, colchicine and sirolimus; no large negative offspring effects of paternal immunosuppressants reported."
+  },
+  {
+   "id": "med-perezgarcia2023",
+   "authors": "Perez-Garcia LF, Röder E, Krijthe BP, et al.",
+   "year": 2023,
+   "title": "Is methotrexate safe for men with an immune-mediated inflammatory disease and an active desire to become a father? Results of a prospective cohort study (iFAME-MTX).",
+   "journal": "Ann Rheum Dis",
+   "pmid": "37263756",
+   "doi": "10.1136/ard-2023-224032",
+   "type": "cohort",
+   "n": "20 men starting methotrexate, 25 controls",
+   "finding": "Semen parameters and sperm DNA fragmentation did not change after starting low-dose methotrexate and matched healthy controls; methotrexate barely accumulated in sperm."
+  },
+  {
+   "id": "med-safarinejad2008",
+   "authors": "Safarinejad MR",
+   "year": 2008,
+   "title": "Sperm DNA damage and semen quality impairment after treatment with selective serotonin reuptake inhibitors detected using semen analysis and sperm chromatin structure assay.",
+   "journal": "J Urol",
+   "pmid": "18804223",
+   "doi": "10.1016/j.juro.2008.07.034",
+   "type": "case-control",
+   "n": "74 SSRI users vs 44 controls",
+   "finding": "Reported lower sperm count and motility and higher DNA denaturation with SSRIs; the journal issued an Expression of Concern in 2023, so this paper should not be relied on."
+  },
+  {
+   "id": "med-sakata2012",
+   "authors": "Sakata K, Morita T",
+   "year": 2012,
+   "title": "Investigation of ejaculatory disorder by silodosin in the treatment of prostatic hyperplasia.",
+   "journal": "BMC Urol",
+   "pmid": "23082785",
+   "doi": "10.1186/1471-2490-12-29",
+   "type": "cohort",
+   "n": "91 men with BPH on silodosin",
+   "finding": "Among sexually active men on silodosin, 95% reported ejaculatory disorder."
+  },
+  {
+   "id": "med-samplaski2013",
+   "authors": "Samplaski MK, Lo K, Grober E, et al.",
+   "year": 2013,
+   "title": "Finasteride use in the male infertility population: effects on semen and hormone parameters.",
+   "journal": "Fertil Steril",
+   "pmid": "24012200",
+   "doi": "10.1016/j.fertnstert.2013.07.2000",
+   "type": "cohort",
+   "n": "27 subfertile men on finasteride",
+   "finding": "In men presenting with infertility while on finasteride (mean 1 mg/day), sperm counts rose on average 11.6-fold after stopping; 57% of severely oligospermic men rose above 15 million/mL."
+  },
+  {
+   "id": "med-sylvester2019",
+   "authors": "Sylvester C, Menke M, Gopalan P",
+   "year": 2019,
+   "title": "Selective Serotonin Reuptake Inhibitors and Fertility: Considerations for Couples Trying to Conceive.",
+   "journal": "Harv Rev Psychiatry",
+   "pmid": "30676405",
+   "doi": "10.1097/HRP.0000000000000204",
+   "type": "review",
+   "n": "20 articles",
+   "finding": "Insufficient evidence that SSRIs reduce female fertility or IVF outcomes; six of seven mostly poor-quality male studies found adverse effects on semen."
+  },
+  {
+   "id": "med-tanrikut2010",
+   "authors": "Tanrikut C, Feldman AS, Altemus M, et al.",
+   "year": 2010,
+   "title": "Adverse effect of paroxetine on sperm.",
+   "journal": "Fertil Steril",
+   "pmid": "19515367",
+   "doi": "10.1016/j.fertnstert.2009.04.039",
+   "type": "cohort",
+   "n": "35 healthy men",
+   "finding": "Five weeks of paroxetine raised mean sperm DNA fragmentation from 13.8% to 30.3% (TUNEL); abnormal fragmentation rose from 9.7% to 50% of men (OR 9.3) without changes in standard semen parameters."
+  },
+  {
+   "id": "med-toovey1981",
+   "authors": "Toovey S, Hudson E, Hendry WF, et al.",
+   "year": 1981,
+   "title": "Sulphasalazine and male infertility: reversibility and possible mechanism.",
+   "journal": "Gut",
+   "pmid": "6114897",
+   "doi": "10.1136/gut.22.6.445",
+   "type": "cohort",
+   "n": "28 men with IBD",
+   "finding": "Sulphasalazine 2-4 g/day caused gross semen abnormalities in 18 men treated over 2 months; quality recovered after withdrawal and 10 pregnancies followed."
+  },
+  {
+   "id": "med-yland2022",
+   "authors": "Yland JJ, McKinnon CJ, Hatch EE, et al.",
+   "year": 2022,
+   "title": "A Prospective Study of Male Depression, Psychotropic Medication Use, and Fecundability.",
+   "journal": "Am J Mens Health",
+   "pmid": "35144505",
+   "doi": "10.1177/15579883221075520",
+   "type": "cohort",
+   "n": "male partners in PRESTO",
+   "finding": "Male depression history was weakly associated with lower fecundability (FR 0.89, CI crossing 1); current psychotropic medication use statistically mediated 44% of the depressive-symptom association."
   }
  ]
 }

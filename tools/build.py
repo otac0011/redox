@@ -233,6 +233,14 @@ def main():
             for fid in list(o.get("boost", {})) + o.get("hide", []):
                 if fid not in ids:
                     warn(f"guide {q['id']}={o['value']}: unknown factor '{fid}'")
+    stk = out["stack"] or {}
+    for fid in stk.get("extra_items", []):
+        if fid not in ids:
+            warn(f"stack extra item '{fid}' is not a factor")
+    for r in stk.get("rules", []):
+        for fid in r.get("ids_any", []) + r.get("requires_ids", []):
+            if fid != "*" and fid not in ids:
+                warn(f"stack rule {r['id']}: unknown factor '{fid}'")
     for t in tests:
         for fid in t["related_factors"]:
             if fid not in ids:

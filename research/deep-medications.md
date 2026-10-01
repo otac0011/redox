@@ -152,7 +152,7 @@ On antioxidants during cancer therapy, a JNCI review advised against them [med-l
 - **SSRIs and sperm:** consistent small studies [med-tanrikut2010, med-akasheh2014, med-koyuncu2011] but poor overall quality [med-sylvester2019], one key paper under an Expression of Concern [med-safarinejad2008], and depression itself as a confounder [med-yland2022].
 - **SSRIs and female fertility:** no harm [med-nillni2016] versus lower fecundability [med-casillalennon2016] and miscarriage signal [med-evanshoeker2018].
 - **Finasteride 1 mg:** harmless on average [med-overstreet1999] versus marked recovery after stopping in subfertile men [med-samplaski2013].
-- **Methotrexate in fathers:** old stop-3-months advice versus reassuring registry, semen and guideline data [med-eck2017, med-perezgarcia2023, med-sammaritano2020].
+- **Methotrexate in fathers:** old stop-3-months advice versus reassuring registry and semen data [med-eck2017, med-perezgarcia2023]; ask the prescribing rheumatologist about current guidance [med-sammaritano2020].
 - **PPIs:** observational nutrient deficits [med-lam2013, med-lam2017] versus RCT safety [med-moayyedi2019]; sperm harm [med-huijgen2016] versus none [med-keihani2018b].
 - **Antioxidants during cancer treatment:** caution [med-bairati2005, med-lawenda2008, med-ambrosone2020] versus no demonstrated harm in small RCTs [med-block2007, med-yasueda2016].
 - **Contraception and return of fertility:** no delay [med-girum2018] versus short, method-specific delays [med-yland2020].

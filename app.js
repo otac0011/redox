@@ -504,7 +504,7 @@
   function viewStack() {
     const st = store.get(STACK_KEY, { items: [], ctx: [] });
     const CTX = ((D.stack || {}).contexts) || [];
-    const opts = stackPool().filter((f) => !st.items.includes(f.id)).map((f) => `<option value="${esc(f.id)}">${esc(f.name)}${f.kind !== "supplement" ? " (medication)" : ""}</option>`).join("");
+    const opts = stackPool().filter((f) => !st.items.includes(f.id)).map((f) => `<option value="${esc(f.id)}">${esc(f.name)}${f.kind === "medical" ? " (medication)" : f.kind === "food" ? " (diet)" : ""}</option>`).join("");
     return `<h1>Supplement stack checker</h1>
       <p class="lede">List what you take. The checker flags evidence of harm, weak evidence, overlapping mechanisms, and combinations that conflict with training or conception. It doesn't know your medical history and isn't a substitute for a pharmacist or clinician.</p>
       <div class="two-col" style="align-items:start">

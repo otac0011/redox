@@ -29,7 +29,23 @@
       "label": "In cancer treatment (incl. tamoxifen)"
     }
   ],
-  "extra_items": [],
+  "extra_items": [
+    "metformin",
+    "glp1-agonists",
+    "statins",
+    "sglt2-inhibitors",
+    "acetaminophen",
+    "nsaids",
+    "ppi-acid-suppressants",
+    "ssris",
+    "finasteride-sperm",
+    "opioids-sperm",
+    "sulfasalazine-methotrexate-sperm",
+    "alpha-blockers-sperm",
+    "testosterone-anabolic-steroids",
+    "hormonal-contraception-egg",
+    "ketogenic-diet"
+  ],
   "rules": [
     {
       "id": "training-blunting",
@@ -157,6 +173,127 @@
       ],
       "title": "DIM / indole-3-carbinol with tamoxifen",
       "message": "DIM lowered levels of tamoxifen's active metabolites in a trial in women taking tamoxifen. Don't combine without your oncologist. See [indole-3-carbinol-dim]."
+    },
+    {
+      "id": "metformin-training",
+      "severity": "caution",
+      "requires": [
+        "training"
+      ],
+      "ids_any": [
+        "metformin"
+      ],
+      "title": "Metformin may blunt some training gains",
+      "message": "In older adults, metformin reduced muscle gains from resistance training (MASTERS) and blunted aerobic fitness and mitochondrial gains; other trials found no blunting. If you take it for diabetes or PCOS, keep taking it, and raise the question with your prescriber. See [metformin]."
+    },
+    {
+      "id": "sglt2-keto",
+      "severity": "harm",
+      "min": 2,
+      "requires_ids": [
+        "sglt2-inhibitors"
+      ],
+      "ids_any": [
+        "sglt2-inhibitors",
+        "ketogenic-diet",
+        "exogenous-ketones"
+      ],
+      "title": "SGLT2 inhibitor + ketogenic diet: ketoacidosis risk",
+      "message": "SGLT2 inhibitors (empagliflozin, dapagliflozin, canagliflozin) combined with very low carbohydrate intake can cause euglycemic diabetic ketoacidosis, which is dangerous because blood glucose looks normal. Talk to your prescriber before starting keto. See [sglt2-inhibitors] and [ketogenic-diet]."
+    },
+    {
+      "id": "glp1-conception",
+      "severity": "caution",
+      "requires_any": [
+        "ttc-female",
+        "pregnant"
+      ],
+      "ids_any": [
+        "glp1-agonists"
+      ],
+      "title": "GLP-1 drugs and conception",
+      "message": "The semaglutide (Wegovy) label advises stopping at least 2 months before a planned pregnancy, and tirzepatide lowers oral contraceptive levels after starting and after each dose increase (use a non-oral or back-up method for 4 weeks). Plan timing with your prescriber. See [glp1-agonists]."
+    },
+    {
+      "id": "nsaid-ovulation",
+      "severity": "caution",
+      "requires": [
+        "ttc-female"
+      ],
+      "ids_any": [
+        "nsaids"
+      ],
+      "title": "NSAIDs around ovulation",
+      "message": "Continuous NSAID use around mid-cycle was linked to luteinized unruptured follicles (the egg isn't released) in a substantial share of cycles in small studies, mostly with COX-2 inhibitors. Occasional use is unlikely to matter; ask about alternatives around ovulation if you use them daily. See [nsaids]."
+    },
+    {
+      "id": "nsaid-training",
+      "severity": "info",
+      "requires": [
+        "training"
+      ],
+      "ids_any": [
+        "nsaids"
+      ],
+      "title": "Daily NSAIDs and muscle growth",
+      "message": "Daily high-dose ibuprofen roughly halved quadriceps growth from training in young adults, though not in older adults. See [nsaids]."
+    },
+    {
+      "id": "male-meds-ttc",
+      "severity": "caution",
+      "requires": [
+        "ttc-male"
+      ],
+      "ids_any": [
+        "ssris",
+        "finasteride-sperm",
+        "opioids-sperm",
+        "sulfasalazine-methotrexate-sperm",
+        "alpha-blockers-sperm"
+      ],
+      "title": "Medications that can affect sperm",
+      "message": "Some of these affect sperm DNA, counts, hormones, or ejaculation (for example paroxetine raised sperm DNA fragmentation in a small study; 5 mg finasteride and dutasteride lower counts; opioids lower testosterone). Don't stop any prescribed medication on your own; ask the prescriber whether there's a fertility-friendlier option while trying to conceive. Open each item for details."
+    },
+    {
+      "id": "trt-ttc",
+      "severity": "harm",
+      "requires": [
+        "ttc-male"
+      ],
+      "ids_any": [
+        "testosterone-anabolic-steroids"
+      ],
+      "title": "Testosterone shuts down sperm production",
+      "message": "Exogenous testosterone and anabolic steroids suppress the hormones that drive sperm production, often to zero. Come off only with medical help (often a urologist or reproductive endocrinologist); recovery can take months to over a year. See [testosterone-anabolic-steroids]."
+    },
+    {
+      "id": "cancer-antioxidants",
+      "severity": "caution",
+      "requires": [
+        "cancer-tx"
+      ],
+      "ids_any": [
+        "vitamin-c-supplement",
+        "vitamin-e-supplement",
+        "beta-carotene-supplement",
+        "high-dose-antioxidant-cocktail",
+        "n-acetylcysteine",
+        "selenium-supplement",
+        "glynac",
+        "mitoq",
+        "coq10"
+      ],
+      "title": "Antioxidants during chemotherapy or radiation",
+      "message": "Some trials found worse outcomes with antioxidant supplements during cancer treatment (for example vitamin E during radiotherapy and more second primary cancers), while others found no harm. Clear every supplement with your oncology team. See [antioxidants-during-cancer-treatment]."
+    },
+    {
+      "id": "ppi-nutrients",
+      "severity": "info",
+      "ids_any": [
+        "ppi-acid-suppressants"
+      ],
+      "title": "Long-term acid suppressants and nutrients",
+      "message": "Long-term PPI use is associated with lower B12, iron, and magnesium in observational studies, though a large RCT (COMPASS) found few harms. Worth checking B12 and ferritin if you've used them for years. See [ppi-acid-suppressants]."
     }
   ]
 }

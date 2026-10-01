@@ -86,7 +86,9 @@
     "spermidine-egg": "spermidine",
     "resveratrol-sperm": "resveratrol-pterostilbene-supplements",
     "ketogenic-diet-egg": "ketogenic-diet",
-    "ketogenic-diet-sperm": "ketogenic-diet"
+    "ketogenic-diet-sperm": "ketogenic-diet",
+    "ssri-sperm": "ssris",
+    "ssri-egg": "ssris"
   },
   "mechanisms": {},
   "names": {
@@ -129,12 +131,14 @@
     "resveratrol-pterostilbene-supplements": "Resveratrol & pterostilbene supplements",
     "ketogenic-diet": "Ketogenic diet",
     "fasting-sperm": "Fasting & energy deficit (sperm)",
-    "fasting-egg": "Fasting & energy deficit (egg)"
+    "fasting-egg": "Fasting & energy deficit (egg)",
+    "ssris": "SSRI antidepressants"
   },
   "kinds": {
     "alcohol": "lifestyle",
     "excess-adiposity": "lifestyle",
     "caffeine-fertility": "food",
-    "astaxanthin": "supplement"
+    "astaxanthin": "supplement",
+    "ssris": "medical"
   }
 }

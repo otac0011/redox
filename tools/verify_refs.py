@@ -89,7 +89,7 @@ def main():
         pm = str(r.get("pmid") or "").strip()
         doi = str(r.get("doi") or "").strip().lower()
         key = pm if pm.isdigit() else ("doi:" + doi if doi else None)
-        if not key and r.get("type") == "database" and r.get("url"):
+        if not key and r.get("type") in ("database", "guideline") and r.get("url"):
             ok += 1
             continue
         if not key:

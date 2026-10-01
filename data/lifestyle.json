@@ -2247,6 +2247,677 @@
     "env-qian2024",
     "env-cox2019"
    ]
+  },
+  {
+   "id": "metformin",
+   "name": "Metformin",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm",
+    "egg"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 3,
+    "sperm": 1,
+    "egg": 2
+   },
+   "evidence": "moderate",
+   "headline": "Metformin lowers glucose partly by mildly inhibiting mitochondrial complex I; in exercise trials it blunted some training gains (about half the VO2max gain in one study, less muscle growth in the MASTERS trial), it lowers vitamin B12 by about 19% over years, and in PCOS it helps ovulation but less than letrozole or clomiphene.",
+   "dose": {
+    "effective": "Usual prescribed range 500-2000 mg/day (e.g. 850 mg twice daily in the DPP). The exercise-blunting trials used 1700-2000 mg/day.",
+    "studied_range": "500-3000 mg/day in exercise studies; 1700 mg/day (MASTERS); 2550 mg/day for 4.3 years (de Jager B12 trial); 1700 mg/day for up to 13 years (DPP/DPPOS).",
+    "too_much": "B12 deficiency risk rises about 13% per year of use; check B12 periodically on long-term use (deficiency roughly <150 pmol/L or <=203 pg/mL; borderline up to ~220 pmol/L or 298 pg/mL).",
+    "timeframe": "Training interactions appear within 12-16 weeks; B12 falls within 6 weeks to 3 months and deficiency accumulates over years; ovulation effects within a few cycles.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. People with diabetes, prediabetes or PCOS who take metformin should keep exercising: exercise still improves fitness and glucose on metformin, the blunting is partial and inconsistent, and the disease benefits of each are established. Ask about B12 testing on long-term use."
+   },
+   "mechanism": "Metformin accumulates in mitochondria and inhibits respiratory-chain complex I, lowering the cell's energy charge and activating AMPK; it also acts through AMPK-independent, gut and lysosomal routes [med-owen2000, med-rena2017]. It suppresses NF-kB-linked inflammatory signalling independent of diabetes status [med-cameron2016]. Exercise adaptations depend partly on mitochondrial redox and energy-stress signals, and metformin abolished the exercise-induced rise in muscle mitochondrial respiration in older adults [med-konopka2019], a plausible way it can dampen a hormetic signal. B12 loss reflects reduced ileal absorption, raising homocysteine [med-dejager2010].",
+   "pathways": [
+    "mitochondrial",
+    "hormesis",
+    "inflammation-nfkb",
+    "glycation-ages",
+    "endocrine"
+   ],
+   "interactions": "May partially blunt adaptations to [aerobic-exercise-moderate], [hiit-vigorous-exercise] and [resistance-training] (a parallel to [antioxidant-megadoses-during-training]). Improves [glycemic-control]. Main fertility use is in [pcos]. Long-term B12 depletion adds to that from [ppi-acid-suppressants]. [statins] have a similar exercise-interaction debate; [glp1-agonists] are the newer weight-and-glucose alternative.",
+   "caveats": "The blunting trials were mostly in healthy older adults or people with prediabetes taking metformin for research, not in people who need it for diabetes. Metformin is not an anti-aging supplement: TAME has not reported, and the survival advantage seen in one UK cohort was not reproduced in Danish twin data. Sperm data are tiny and uncontrolled.",
+   "debate": "Exercise blunting: RCTs found metformin reduced lean-mass and thigh-muscle gains [med-walton2019], VO2max and mitochondrial gains [med-konopka2019], and insulin-sensitivity gains [med-malin2012], and a 2026 meta-analysis of 9 trials found a modest VO2peak penalty (-1.19 mL/kg/min) and smaller blood-pressure falls [med-etayourtasun2026]; but other trials found no attenuation of glycaemic or fitness benefits [med-boule2013, med-pilmark2021, med-terada2019], and transcriptomic work suggests some aging-related muscle pathways may even be favourably shifted [med-kulkarni2020]. Longevity: TAME advocates cite metformin users outliving non-diabetic controls [med-barzilai2016, med-bannister2014]; a Danish twin and registry reanalysis found the opposite (IRR 1.32-1.64) [med-keys2022], and critics argue healthy-person benefit is unproven [med-konopka2019tame, med-miller2020]. Fathers: a Danish cohort linked paternal metformin during sperm development to birth defects (aOR 1.40) [med-wensink2022], but a larger Norway-Taiwan study controlling for diabetes severity found no association (pooled RR 0.89) [med-meng2024].",
+   "key_numbers": [
+    {
+     "label": "VO2max gain with HIIT, no metformin",
+     "value": 25.3,
+     "unit": "%",
+     "source": "med-morenocabanas2022"
+    },
+    {
+     "label": "VO2max gain with HIIT, on metformin",
+     "value": 12.7,
+     "unit": "%",
+     "source": "med-morenocabanas2022"
+    },
+    {
+     "label": "Fall in B12 vs placebo over 4.3 years",
+     "value": 19,
+     "unit": "%",
+     "source": "med-dejager2010"
+    },
+    {
+     "label": "Live birth odds vs placebo in PCOS (OR)",
+     "value": 1.59,
+     "unit": "OR",
+     "source": "med-sharpe2019"
+    },
+    {
+     "label": "Birth defects, paternal metformin (Denmark, aOR)",
+     "value": 1.4,
+     "unit": "OR",
+     "source": "med-wensink2022"
+    },
+    {
+     "label": "Malformations, paternal metformin (Norway-Taiwan, pooled RR)",
+     "value": 0.89,
+     "unit": "RR",
+     "source": "med-meng2024"
+    }
+   ],
+   "refs": [
+    "med-walton2019",
+    "med-konopka2019",
+    "med-malin2012",
+    "med-boule2011",
+    "med-boule2013",
+    "med-pilmark2021",
+    "med-morenocabanas2022",
+    "med-etayourtasun2026",
+    "med-grammer2026",
+    "med-kulkarni2020",
+    "med-terada2019",
+    "med-barzilai2016",
+    "med-konopka2019tame",
+    "med-bannister2014",
+    "med-keys2022",
+    "med-miller2020",
+    "med-aroda2016",
+    "med-dejager2010",
+    "med-chapman2016",
+    "med-rena2017",
+    "med-owen2000",
+    "med-cameron2016",
+    "med-teede2023",
+    "med-sharpe2019",
+    "med-asrm2017",
+    "med-wensink2022",
+    "med-meng2024",
+    "med-bosman2015"
+   ]
+  },
+  {
+   "id": "glp1-agonists",
+   "name": "GLP-1 drugs (semaglutide, tirzepatide)",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm",
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 4,
+    "sperm": 1,
+    "egg": 2
+   },
+   "evidence": "strong",
+   "headline": "Semaglutide and tirzepatide cut body weight by about 15-21% in 68-72-week trials and lower CRP and malondialdehyde in meta-analyses of RCTs, but roughly a quarter to a third of the weight lost is lean mass unless resistance training is added.",
+   "dose": {
+    "effective": "Semaglutide 2.4 mg once weekly (obesity dose); tirzepatide 5, 10 or 15 mg once weekly, reached by gradual dose escalation.",
+    "studied_range": "Semaglutide 2.4 mg/week for 68 weeks (STEP 1); tirzepatide 5-15 mg/week for 72 weeks (SURMOUNT-1); liraglutide 1.2-3 mg/day in older and fertility studies.",
+    "too_much": "Lean mass made up about 35% of weight lost on semaglutide and 25% on tirzepatide; older or frail people risk sarcopenia. GI side effects are the main reason for stopping (4.5% vs 0.8% on placebo for semaglutide).",
+    "timeframe": "Weight and inflammatory markers fall over months, with weight plateauing around 1-1.5 years; in STEP 4, switching to placebo after 20 weeks regained 6.9% of body weight by week 68.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. To protect muscle, pair the drug with resistance training (lean-mass share fell to ~17.5% with lifestyle plus resistance training) and adequate protein. Women: see the egg entry for contraception and the label's 2-month semaglutide washout before trying to conceive."
+   },
+   "mechanism": "Most of the redox benefit likely comes from losing visceral fat, which lowers adipose NADPH oxidase activity, inflammatory cytokines and insulin resistance; GLP-1 receptor signalling may also have direct anti-inflammatory effects. In a 40-RCT meta-analysis the CRP fall tracked blood-pressure and insulin-resistance improvement rather than HbA1c [med-bray2021]. The drugs slow gastric emptying, which is why they can change absorption of oral medicines [med-fda-zepbound2023].",
+   "pathways": [
+    "inflammation-nfkb",
+    "nox",
+    "glycation-ages",
+    "endocrine",
+    "endothelial"
+   ],
+   "interactions": "Delivers the benefits of [weight-loss] in people with [excess-adiposity]; improves [glycemic-control]. Combine with [resistance-training] and adequate protein to limit lean-mass loss. Alternative or add-on to [metformin] in [pcos]. In obese men with low testosterone it raised testosterone and preserved sperm, unlike [testosterone-anabolic-steroids]. Very-low-calorie intake on these drugs overlaps with [calorie-restriction].",
+   "caveats": "The MDA (lipid peroxidation) result rests on only 3 trials in the 2026 meta-analysis; IL-6 and TNF-alpha effects were not significant. Weight is regained after stopping (STEP 4). Long-term data on muscle function and bone in younger people are limited. Supply via compounded or unregulated products is outside the evidence base.",
+   "debate": "Inflammation/oxidative stress: one meta-analysis calls the anti-inflammatory and antioxidant evidence strong [med-bray2021], while a 2026 update finds consistent CRP and adiponectin effects but variable IL-6/TNF-alpha and a thin MDA evidence base [med-kanbay2026]. Lean mass: reviewers argue the loss is proportional and adaptive, with better muscle quality [med-neeland2024], and a 2026 meta-analysis found the lean-mass share similar to diet-based weight loss [med-eisa2026]; another 2026 systematic review found muscle-related losses exceeded prespecified benchmarks in about two thirds of incretin trials [med-batsis2026]. Sperm: a small RCT found GLP-1 treatment maintained diet-induced sperm-count gains [med-andersen2022] and semaglutide improved morphology in hypogonadal diabetic men [med-gregoric2025], but systematic reviews note no change in healthy men and too few trials to judge [med-deameh2026, med-peel2026].",
+   "key_numbers": [
+    {
+     "label": "Weight loss, semaglutide 2.4 mg (68 wk)",
+     "value": 14.9,
+     "unit": "%",
+     "source": "med-wilding2021"
+    },
+    {
+     "label": "Weight loss, tirzepatide 15 mg (72 wk)",
+     "value": 20.9,
+     "unit": "%",
+     "source": "med-jastreboff2022"
+    },
+    {
+     "label": "CRP change vs control",
+     "value": -0.54,
+     "unit": "mg/L",
+     "source": "med-bray2021"
+    },
+    {
+     "label": "Lean mass share of weight lost, semaglutide",
+     "value": 35.2,
+     "unit": "%",
+     "source": "med-eisa2026"
+    },
+    {
+     "label": "Lean mass share, lifestyle + resistance training",
+     "value": 17.5,
+     "unit": "%",
+     "source": "med-eisa2026"
+    }
+   ],
+   "refs": [
+    "med-wilding2021",
+    "med-rubino2021",
+    "med-jastreboff2022",
+    "med-bray2021",
+    "med-kanbay2026",
+    "med-neeland2024",
+    "med-eisa2026",
+    "med-batsis2026",
+    "med-andersen2022",
+    "med-gregoric2025",
+    "med-deameh2026",
+    "med-peel2026",
+    "med-fda-zepbound2023",
+    "med-fda-wegovy2021"
+   ]
+  },
+  {
+   "id": "statins",
+   "name": "Statins",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm",
+    "egg"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 4,
+    "sperm": 0,
+    "egg": 1
+   },
+   "evidence": "strong",
+   "headline": "Statins lower LDL and, in proportion, oxidized LDL (-39% on atorvastatin 80 mg) and F2-isoprostanes, and cut CRP by 37% in JUPITER; only about 1 in 15 muscle complaints on statins is caused by the drug, and CoQ10 for statin muscle pain has conflicting trial evidence.",
+   "dose": {
+    "effective": "Prescribed by cardiovascular risk: moderate intensity (e.g. atorvastatin 10-20 mg, rosuvastatin 5-10 mg) or high intensity (atorvastatin 40-80 mg, rosuvastatin 20-40 mg).",
+    "studied_range": "Rosuvastatin 20 mg (JUPITER, 1.9 years median); atorvastatin 10 vs 80 mg (12 weeks, oxidative markers); simvastatin 20-40 mg (exercise and CoQ10 trials).",
+    "too_much": "High-intensity regimens give a slightly larger muscle-symptom excess (RR 1.08 vs 1.03); JUPITER saw more physician-reported diabetes.",
+    "timeframe": "LDL and oxidized LDL fall within weeks; event reduction accrues over 1-5 years; excess muscle symptoms occur mainly in year 1.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. If muscle symptoms appear, ask about a supervised re-challenge or dose change rather than quitting; most symptoms are not drug-caused. CoQ10 (100-600 mg/day in trials) is harmless but not reliably helpful. Most women should stop statins once pregnancy is recognized, but very high-risk patients may continue with their doctor (FDA 2021)."
+   },
+   "mechanism": "HMG-CoA reductase inhibition lowers cholesterol and also isoprenoid intermediates, reducing prenylation of Rho and Rac and hence NADPH oxidase activation and ROS production in cell and animal studies [med-oesterle2017]. In humans the fall in F2-isoprostanes tracked the fall in LDL, implying much of the 'antioxidant' effect follows from removing oxidizable lipoprotein [med-decaterina2002]. The same mevalonate pathway makes coenzyme Q10, which statins lower in blood [med-taylor2015].",
+   "pathways": [
+    "nox",
+    "lipid-peroxidation",
+    "inflammation-nfkb",
+    "endothelial",
+    "mitochondrial"
+   ],
+   "interactions": "Lower oxidized LDL more than [vitamin-e-supplement] (adding vitamin E to simvastatin added nothing). [coq10] is often taken for statin myalgia with mixed evidence. May blunt gains from [aerobic-exercise-moderate] in one RCT, yet fitness plus statins carried the lowest mortality in a cohort. Similar exercise debate to [metformin]. Complements [mediterranean-diet] and [glycemic-control] for cardiovascular risk.",
+   "caveats": "Pleiotropic claims come mostly from cells and animals and are hard to separate from LDL lowering. The exercise-blunting finding rests on one small 12-week trial. Statin effects on sperm are probably negligible, though one 17-man pilot found a 31% fall in sperm count on atorvastatin.",
+   "debate": "CoQ10 for statin myopathy: a 6-trial meta-analysis found no significant effect [med-banach2015] and a well-run RCT in confirmed myalgia found none [med-taylor2015], whereas a 12-trial meta-analysis found reduced pain, weakness and cramps [med-qu2018]; individual-patient data show most muscle complaints on statins are not drug-caused [med-ctt2022]. Exercise: simvastatin abolished fitness and mitochondrial gains in one RCT [med-mikus2013], but statin users who were fit had the lowest mortality [med-kokkinos2013] and atorvastatin did not reduce habitual activity vs placebo [med-panza2016]; reviewers call for trials in healthy users [med-miller2020]. Pleiotropy beyond LDL remains disputed [med-oesterle2017, med-decaterina2002]. Pregnancy: no excess malformations [med-bateman2015, med-vahedianazimi2021, med-dutta2026], but a Taiwan cohort linked use to low birth weight and preterm birth [med-chang2021]. Sperm: a small pilot reported harm [med-ponsrejraji2014]; a systematic review and a large clinic study found no clinically relevant effect [med-anagnostis2021, med-keihani2018a].",
+   "key_numbers": [
+    {
+     "label": "Oxidized LDL fall, atorvastatin 80 mg",
+     "value": 39,
+     "unit": "%",
+     "source": "med-singh2008"
+    },
+    {
+     "label": "hsCRP fall, rosuvastatin 20 mg",
+     "value": 37,
+     "unit": "%",
+     "source": "med-ridker2008"
+    },
+    {
+     "label": "Fitness gain, exercise alone",
+     "value": 10,
+     "unit": "%",
+     "source": "med-mikus2013"
+    },
+    {
+     "label": "Fitness gain, exercise + simvastatin",
+     "value": 1.5,
+     "unit": "%",
+     "source": "med-mikus2013"
+    },
+    {
+     "label": "Excess muscle symptoms in year 1",
+     "value": 11,
+     "unit": "per 1000 person-years",
+     "source": "med-ctt2022"
+    }
+   ],
+   "refs": [
+    "med-oesterle2017",
+    "med-ridker2008",
+    "med-decaterina2002",
+    "med-singh2008",
+    "med-banach2015",
+    "med-qu2018",
+    "med-taylor2015",
+    "med-ctt2022",
+    "med-mikus2013",
+    "med-kokkinos2013",
+    "med-panza2016",
+    "med-miller2020",
+    "med-chang2021",
+    "med-bateman2015",
+    "med-vahedianazimi2021",
+    "med-dutta2026",
+    "med-fda-statins2021",
+    "med-anagnostis2021",
+    "med-keihani2018a",
+    "med-ponsrejraji2014"
+   ]
+  },
+  {
+   "id": "sglt2-inhibitors",
+   "name": "SGLT2 inhibitors (empagliflozin, dapagliflozin, canagliflozin)",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Lower oxidative stress is one of many proposed reasons for these drugs' heart and kidney benefits, but that part is mostly mechanistic; the practical redox-diet point is safety: combined with a ketogenic diet they can cause euglycemic ketoacidosis, sometimes within a week.",
+   "dose": {
+    "effective": "As prescribed (e.g. empagliflozin 10-25 mg/day, dapagliflozin 10 mg/day).",
+    "studied_range": "Case reports involve standard doses; euDKA occurred after one dose in one case and after one week of a ketogenic diet in another.",
+    "too_much": "Ketogenic or very-low-carbohydrate diets, prolonged fasting, acute illness, surgery and dehydration raise euDKA risk; blood glucose may look normal.",
+    "timeframe": "Ketoacidosis can develop within days of starting a ketogenic diet on the drug.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Tell the prescriber before starting a ketogenic diet, extended fasting or a very-low-carb plan; seek urgent care for nausea, vomiting, abdominal pain or malaise even if glucose is normal."
+   },
+   "mechanism": "SGLT2 inhibitors make the kidney excrete glucose, causing natriuresis, a shift toward ketone fuel, lower uric acid and less AGE signalling; reduced oxidative stress and inflammation are proposed contributors from mechanistic studies [med-cowie2020]. Insulin-independent glucose loss, high glucagon and volume depletion promote ketogenesis, which a carbohydrate-free diet amplifies [med-peters2015, med-mistry2021].",
+   "pathways": [
+    "mitochondrial",
+    "inflammation-nfkb",
+    "glycation-ages",
+    "redox-signaling"
+   ],
+   "interactions": "Dangerous with [ketogenic-diet], [low-carb-diet] and prolonged [intermittent-fasting]. Part of [glycemic-control] therapy alongside [metformin] and [glp1-agonists].",
+   "caveats": "No human outcome data show that their oxidative-stress effects matter clinically; the heart-failure and kidney benefits are established on clinical outcomes and are not the subject here.",
+   "debate": "Which mechanisms explain the cardiorenal benefits is debated, with haemodynamic, natriuretic and metabolic explanations competing with anti-inflammatory and antioxidant ones [med-cowie2020]. On euDKA itself no substantive published disagreement was found: case series agree on the risk and on avoiding ketogenic diets [med-peters2015, med-mistry2021].",
+   "refs": [
+    "med-cowie2020",
+    "med-peters2015",
+    "med-mistry2021"
+   ]
+  },
+  {
+   "id": "acetaminophen",
+   "name": "Acetaminophen (paracetamol)",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm",
+    "egg"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 2,
+    "sperm": 1,
+    "egg": 1
+   },
+   "evidence": "moderate",
+   "headline": "Every dose is detoxified with glutathione: even 600-1200 mg speeds glutathione turnover, 4 g/day raised liver enzymes (ALT >3x normal) in 31-44% of healthy adults within two weeks, and overdose exhausts glutathione; the prenatal autism/ADHD association shrinks to nothing in sibling comparisons.",
+   "dose": {
+    "effective": "Occasional use at labelled doses (e.g. 500-1000 mg per dose) for pain or fever.",
+    "studied_range": "50-1200 mg single doses (glutathione turnover); 4 g/day for 14 days (liver enzymes); 4 g/day for 12 weeks (resistance-training trial).",
+    "too_much": "Label maximum for healthy adults is 4 g/day; at that dose ALT rose in a third of healthy volunteers. Overdose is a medical emergency. People with low glutathione reserves (fasting, malnutrition, heavy alcohol use, liver disease) have less margin.",
+    "timeframe": "Glutathione drain is per dose; ALT rises appeared within days at 4 g/day and resolved after stopping.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. In pregnancy, follow the 2021 consensus advice: use it when medically indicated (fever needs treating), at the lowest effective dose for the shortest time, and check with a clinician before long-term use. Do not combine products that both contain acetaminophen."
+   },
+   "mechanism": "A small fraction of each dose is oxidized by CYP2E1 to the reactive metabolite NAPQI, which is neutralized by conjugation with glutathione; therapeutic doses measurably accelerate cysteine and glutathione turnover [med-lauterburg1987]. When glutathione runs out (overdose), NAPQI binds liver proteins and causes oxidative hepatocyte death, which is why the glutathione precursor N-acetylcysteine is the antidote. Acetaminophen also weakly inhibits COX and has anti-androgenic effects in rodent fetal testis [med-kristensen2011].",
+   "pathways": [
+    "glutathione",
+    "mitochondrial",
+    "endocrine"
+   ],
+   "interactions": "Shares the glutathione pool with other detox demands; [n-acetylcysteine] replenishes cysteine for glutathione. [alcohol] and [calorie-restriction]/fasting reduce the safety margin. In older adults it did not blunt (and may have enhanced) gains from [resistance-training]. Often chosen instead of [nsaids] around conception and in pregnancy.",
+   "caveats": "Therapeutic-dose glutathione depletion in healthy people is transient and not shown to cause harm; ALT rises at 4 g/day resolved. Male-fertility signals (longer time to pregnancy) come from one cohort and were not seen when exposure was modelled continuously.",
+   "debate": "Pregnancy: a consensus statement of 91 scientists [med-bauer2021] and a 2025 Navigation Guide review (27 of 46 studies positive) [med-prada2025] urge precaution over neurodevelopmental risk; teratology experts warned against causal inference [med-alwan2022], and a 2.5-million-child Swedish sibling analysis found no association with autism, ADHD or intellectual disability (HR 0.98) [med-ahlqvist2024]. Male reproduction: Danish cohort and rat data link prenatal mild analgesics to cryptorchidism but the Finnish cohort did not [med-kristensen2011]; adult male urinary paracetamol was linked to longer time to pregnancy in the top quartile only [med-smarr2016]. Exercise: OTC acetaminophen enhanced muscle gains in older adults [med-trappe2011], while reviews warn COX inhibitors may impair adaptation in the young [med-lundberg2018].",
+   "key_numbers": [
+    {
+     "label": "Healthy adults with ALT >3x ULN on 4 g/day",
+     "value": 44,
+     "unit": "% (upper of 31-44%)",
+     "source": "med-watkins2006"
+    },
+    {
+     "label": "Autism HR, population model",
+     "value": 1.05,
+     "unit": "HR",
+     "source": "med-ahlqvist2024"
+    },
+    {
+     "label": "Autism HR, sibling control",
+     "value": 0.98,
+     "unit": "HR",
+     "source": "med-ahlqvist2024"
+    },
+    {
+     "label": "Fecundability OR, top-quartile male urinary paracetamol",
+     "value": 0.67,
+     "unit": "OR",
+     "source": "med-smarr2016"
+    }
+   ],
+   "refs": [
+    "med-lauterburg1987",
+    "med-watkins2006",
+    "med-bauer2021",
+    "med-alwan2022",
+    "med-ahlqvist2024",
+    "med-prada2025",
+    "med-kristensen2011",
+    "med-smarr2016",
+    "med-trappe2011",
+    "med-lundberg2018",
+    "med-drobnis2017"
+   ]
+  },
+  {
+   "id": "nsaids",
+   "name": "NSAIDs (ibuprofen, naproxen, diclofenac, COX-2 inhibitors)",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm",
+    "egg"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 2,
+    "sperm": 1,
+    "egg": 2
+   },
+   "evidence": "limited",
+   "headline": "Daily maximal OTC ibuprofen (1200 mg) halved muscle growth from 8 weeks of strength training in young adults, yet similar doses did not hurt (and seemed to help) older adults; in young men daily ibuprofen produced compensated hypogonadism, and around ovulation NSAIDs can stop the follicle from rupturing.",
+   "dose": {
+    "effective": "Occasional use at labelled doses (e.g. ibuprofen 200-400 mg per dose) for pain or inflammation.",
+    "studied_range": "Ibuprofen 1200 mg/day for 8 weeks (young adults) or 12 weeks (older adults); ibuprofen 1600 mg/day and etoricoxib in women with arthritis.",
+    "too_much": "Chronic daily high doses are where training and testicular effects appear; GI bleeding, kidney and cardiovascular risks rise with dose and duration.",
+    "timeframe": "Training effects over 8-12 weeks; hormonal changes in men within weeks; ovulatory effects in the same cycle.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. If you take NSAIDs for a chronic condition and are trying to conceive or training for muscle, discuss timing (avoiding continuous use around ovulation) and alternatives with the prescriber."
+   },
+   "mechanism": "NSAIDs block COX-1/COX-2 and prostaglandin synthesis. Prostaglandins help drive satellite-cell activity and muscle protein turnover after exercise [med-schoenfeld2012, med-lundberg2018], are needed for follicle rupture at ovulation [med-stone2002], and influence Leydig-cell steroidogenesis; ibuprofen transcriptionally repressed testosterone production in human testis explants [med-kristensen2018].",
+   "pathways": [
+    "inflammation-nfkb",
+    "endocrine",
+    "redox-signaling"
+   ],
+   "interactions": "May blunt hypertrophy from [resistance-training] in young people (compare [antioxidant-megadoses-during-training]). [acetaminophen] is the usual alternative around conception. Fish oil ([omega3-fish]) is sometimes used for inflammatory pain without the ovulation issue.",
+   "caveats": "Occasional use is unlikely to matter for muscle. The testicular study is short-term with a hormonal (not semen) outcome. Ovulation data come mainly from women with inflammatory arthritis on continuous NSAIDs.",
+   "debate": "Muscle: maximal OTC ibuprofen blunted hypertrophy and strength in young adults [med-lilja2018], while ibuprofen or acetaminophen enhanced gains in older adults [med-trappe2011]; reviewers suggest age and growth potential explain the split and that occasional use is harmless [med-schoenfeld2012, med-lundberg2018]. Men: ibuprofen induced compensated hypogonadism [med-kristensen2018], but reviews note human semen data on NSAIDs are scarce and effects look smaller than for opioids [med-drobnis2017]. Women: see the egg entry for ovulation and miscarriage debates [med-micu2011, med-li2018, med-chen2024].",
+   "key_numbers": [
+    {
+     "label": "Quadriceps growth, ibuprofen 1200 mg/day (young)",
+     "value": 3.7,
+     "unit": "%",
+     "source": "med-lilja2018"
+    },
+    {
+     "label": "Quadriceps growth, low-dose aspirin (young)",
+     "value": 7.5,
+     "unit": "%",
+     "source": "med-lilja2018"
+    },
+    {
+     "label": "Muscle volume gain, ibuprofen (older)",
+     "value": 10.9,
+     "unit": "%",
+     "source": "med-trappe2011"
+    },
+    {
+     "label": "Muscle volume gain, placebo (older)",
+     "value": 8.6,
+     "unit": "%",
+     "source": "med-trappe2011"
+    }
+   ],
+   "refs": [
+    "med-lilja2018",
+    "med-trappe2011",
+    "med-schoenfeld2012",
+    "med-lundberg2018",
+    "med-kristensen2018",
+    "med-drobnis2017",
+    "med-stone2002",
+    "med-micu2011",
+    "med-li2018",
+    "med-chen2024"
+   ]
+  },
+  {
+   "id": "ppi-acid-suppressants",
+   "name": "Proton-pump inhibitors & acid suppressants",
+   "kind": "medical",
+   "scopes": [
+    "general",
+    "sperm"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 2,
+    "sperm": 1
+   },
+   "evidence": "moderate",
+   "headline": "Two or more years of PPIs is linked to B12 deficiency (OR 1.65), iron deficiency (OR 2.49) and low magnesium (RR 1.43) in observational studies, but the 17,598-person COMPASS RCT found no excess harm over 3 years except slightly more gut infections.",
+   "dose": {
+    "effective": "As prescribed (e.g. omeprazole 20-40 mg/day, pantoprazole 40 mg/day), ideally at the lowest effective dose and for a defined duration.",
+    "studied_range": "Pantoprazole 40 mg/day for ~3 years (COMPASS); >=2 years' supply in case-control studies.",
+    "too_much": "Associations strengthen above ~1.5 pills/day and with longer use (iron deficiency OR 4.27 at >1.5 pills/day for >=10 years).",
+    "timeframe": "Nutrient effects appear over years; iron-deficiency association weakens after stopping.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Ask the prescriber how to step down rather than stopping on your own. On long-term use, ask whether B12, iron (ferritin) and magnesium checks make sense."
+   },
+   "mechanism": "Gastric acid frees food-bound B12 and keeps non-heme iron soluble, so chronic acid suppression reduces their absorption; magnesium loss reflects impaired intestinal uptake. Higher gastric pH also lets oral bacteria colonize the gut and reduces microbial diversity [med-imhann2016].",
+   "pathways": [
+    "microbiome",
+    "iron-fenton"
+   ],
+   "interactions": "Adds to the B12 drain of [metformin]. Iron deficiency interacts with [iron-excess] advice (supplementing iron when deficient is different from excess). Microbiome shifts overlap [antibiotics-microbiome] and may affect polyphenol metabolism ([dietary-fiber-microbiome]).",
+   "caveats": "Observational associations are prone to confounding by indication and illness; the RCT used pantoprazole in older adults with cardiovascular disease and did not measure nutrient levels.",
+   "debate": "Harms: large case-control studies link long-term PPIs to B12 and iron deficiency [med-lam2013, med-lam2017] and a meta-analysis to hypomagnesemia [med-cheungpasitporn2015]; a B12 meta-analysis found only a modest, heterogeneous association with no difference in serum B12 in most studies [med-choudhury2023], and the COMPASS RCT found no excess harms besides enteric infection [med-moayyedi2019]. Sperm: a Dutch registry linked PPI use 6-12 months earlier to threefold odds of low motile sperm count [med-huijgen2016], while a US clinic study of 248 users found no effect [med-keihani2018b].",
+   "key_numbers": [
+    {
+     "label": "B12 deficiency OR, >=2 y PPI",
+     "value": 1.65,
+     "unit": "OR",
+     "source": "med-lam2013"
+    },
+    {
+     "label": "Iron deficiency OR, >=2 y PPI",
+     "value": 2.49,
+     "unit": "OR",
+     "source": "med-lam2017"
+    },
+    {
+     "label": "Hypomagnesemia RR",
+     "value": 1.43,
+     "unit": "RR",
+     "source": "med-cheungpasitporn2015"
+    },
+    {
+     "label": "Enteric infection, pantoprazole vs placebo",
+     "value": 1.33,
+     "unit": "OR",
+     "source": "med-moayyedi2019"
+    }
+   ],
+   "refs": [
+    "med-lam2013",
+    "med-lam2017",
+    "med-choudhury2023",
+    "med-cheungpasitporn2015",
+    "med-moayyedi2019",
+    "med-imhann2016",
+    "med-huijgen2016",
+    "med-keihani2018b"
+   ]
+  },
+  {
+   "id": "antibiotics-microbiome",
+   "name": "Antibiotics and the gut microbiome",
+   "kind": "medical",
+   "scopes": [
+    "general"
+   ],
+   "direction": "neutral",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "A 4-day broad-spectrum antibiotic course wiped out much of the gut microbiota in healthy men; most of it recovered within 6 weeks, but 9 common species were still missing in most men at 6 months.",
+   "dose": {
+    "effective": "Not applicable: take antibiotics when clinically indicated, for the prescribed course.",
+    "studied_range": "Meropenem, gentamicin and vancomycin for 4 days in 12 healthy men.",
+    "too_much": "Repeated or unnecessary courses; effects on polyphenol-converting bacteria are not quantified.",
+    "timeframe": "Near-baseline recovery in about 1.5 months; some species absent at 180 days.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Never stop a prescribed antibiotic course early on the basis of microbiome concerns. A fibre- and plant-rich diet supports recovery generally, but no specific post-antibiotic protocol is proven."
+   },
+   "mechanism": "Gut bacteria convert many dietary polyphenols into the metabolites that are actually absorbed, so a depleted microbiome may temporarily change what people get from polyphenol-rich foods; after antibiotics, enterobacteria and pathobionts bloom and butyrate producers and bifidobacteria fall [med-palleja2018].",
+   "pathways": [
+    "microbiome"
+   ],
+   "interactions": "Relevant to the benefits of [dietary-fiber-microbiome] and polyphenol foods; [ppi-acid-suppressants] shift the microbiome more than antibiotics at population level [med-imhann2016]. Treating [genital-tract-infection] with antibiotics can lower seminal ROS.",
+   "caveats": "Evidence is from a small study in young men; health consequences of the residual changes are unknown.",
+   "debate": "The same data support both resilience (near-full recovery in 6 weeks) and a lasting imprint (species still missing at 6 months) [med-palleja2018]; at population level, PPI effects on the microbiome exceeded those of antibiotics [med-imhann2016]. No direct human outcome data link these changes to oxidative stress.",
+   "refs": [
+    "med-palleja2018",
+    "med-imhann2016"
+   ]
+  },
+  {
+   "id": "antioxidants-during-cancer-treatment",
+   "name": "Antioxidant supplements during chemotherapy or radiotherapy",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 3
+   },
+   "evidence": "limited",
+   "headline": "In a radiotherapy RCT, vitamin E (with beta-carotene initially) nearly tripled second primary cancers during supplementation (HR 2.88), and antioxidant use during breast-cancer chemotherapy was linked to more recurrence (HR 1.41); older reviews found no loss of efficacy, so the default is: do not take high-dose antioxidants during treatment without the oncology team.",
+   "dose": {
+    "effective": "None recommended during active treatment without oncologist approval; food sources are not the concern.",
+    "studied_range": "Alpha-tocopherol 400 IU/day with or without beta-carotene 30 mg/day (head and neck radiotherapy); self-reported vitamins A, C, E, carotenoids, CoQ10 (breast chemotherapy).",
+    "too_much": "Any high-dose antioxidant supplement concurrent with radiation or ROS-generating chemotherapy; smokers having radiotherapy are the clearest risk group.",
+    "timeframe": "Risk concentrated during the supplementation/treatment period.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Tell the oncology team about every supplement, including 'fertility' antioxidant blends used during fertility preservation."
+   },
+   "mechanism": "Radiotherapy and many chemotherapy drugs kill tumour cells partly through ROS; antioxidants could protect tumour cells as well as normal tissue, though some trials suggest selective protection of normal tissue [med-lawenda2008].",
+   "pathways": [
+    "direct-scavenging",
+    "redox-signaling",
+    "dna-repair"
+   ],
+   "interactions": "A special case of [high-dose-antioxidant-cocktail], [vitamin-e-supplement] and [beta-carotene-supplement] risks; relevant to [chemo-radiation] and fertility preservation; [n-acetylcysteine] and [coq10] are commonly self-prescribed in this setting.",
+   "caveats": "The breast-cancer data are observational and the result for antioxidants was borderline (CI 0.98-2.04). Some specific agents are used under oncology supervision to reduce toxicity; this is not covered here.",
+   "debate": "Caution camp: an RCT showed more second cancers with vitamin E during radiotherapy [med-bairati2005], a JNCI review concluded antioxidants should be discouraged [med-lawenda2008], and SWOG S0221 linked antioxidant use to recurrence [med-ambrosone2020]. Reassurance camp: a systematic review of 19 RCTs found no decrease in chemotherapy efficacy and often fewer toxicities, though trials were underpowered [med-block2007], and a 49-RCT review judged harm unclear except for smokers on radiotherapy [med-yasueda2016].",
+   "key_numbers": [
+    {
+     "label": "Second primary cancer HR during vitamin E",
+     "value": 2.88,
+     "unit": "HR",
+     "source": "med-bairati2005"
+    },
+    {
+     "label": "Recurrence HR, antioxidant use during chemo",
+     "value": 1.41,
+     "unit": "HR",
+     "source": "med-ambrosone2020"
+    }
+   ],
+   "refs": [
+    "med-bairati2005",
+    "med-ambrosone2020",
+    "med-lawenda2008",
+    "med-block2007",
+    "med-yasueda2016"
+   ]
+  },
+  {
+   "id": "supplement-drug-interactions",
+   "name": "Supplement-drug interactions (anticoagulants, nitrates, St John's wort)",
+   "kind": "supplement",
+   "scopes": [
+    "general",
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2,
+    "egg": 1
+   },
+   "evidence": "moderate",
+   "headline": "Vitamin E raised haemorrhagic stroke 22% in trials, NAC with nitroglycerin caused symptomatic hypotension and intolerable headache in a third of patients, and St John's wort sped up oral-contraceptive breakdown (breakthrough bleeding in 7 of 12 women); fish oil, by contrast, did not raise bleeding overall in 120,643 trial patients.",
+   "dose": {
+    "effective": "Not applicable: this is about avoiding harmful combinations.",
+    "studied_range": "Vitamin E 50-800 IU/day (stroke trials) and 100-400 IU/day with warfarin; NAC 10 g/day IV or oral with nitroglycerin; high-hyperforin St John's wort (>10 mg hyperforin/day); omega-3 up to 4 g/day purified EPA.",
+    "too_much": "Vitamin E above ~400 IU/day with anticoagulants; any NAC with nitrate therapy without supervision; any St John's wort with hormonal contraceptives, transplant drugs or other CYP3A substrates; high-dose purified EPA (bleeding RR ~1.5, absolute +0.6%).",
+    "timeframe": "Interactions act within days of starting the combination.",
+    "notes": "Informs, does not prescribe: do not stop, start or change the dose of a prescribed medication without talking to the prescriber. Bring a list of all supplements to every prescriber and pharmacist; ask before combining supplements with anticoagulants, antiplatelets, nitrates, hormonal contraception or immunosuppressants."
+   },
+   "mechanism": "Vitamin E may antagonize vitamin K-dependent clotting factors at high doses [med-corrigan1981]; omega-3s alter platelet function without clearly raising bleeding [med-wachira2014]; NAC supplies thiols that potentiate nitroglycerin's vasodilation [med-horowitz1988]; St John's wort's hyperforin induces CYP3A, accelerating breakdown of ethinyl estradiol and progestins [med-hall2003, med-whitten2006].",
+   "pathways": [
+    "endothelial",
+    "redox-signaling"
+   ],
+   "interactions": "Applies to [vitamin-e-supplement], [omega3-fish], [n-acetylcysteine], [turmeric-curcumin] and [curcumin-supplements]. Contraceptive failure from St John's wort parallels the oral-contraceptive interaction of tirzepatide ([glp1-agonists]).",
+   "caveats": "Curcumin is often listed as a warfarin potentiator, but the evidence is case-level; it was not among the higher-risk items named in a 2021 systematic review of warfarin interactions [med-tan2021]. Vitamin E 400 IU/day did not change prothrombin time in a small warfarin study.",
+   "debate": "Fish oil: reviews and a 2024 meta-analysis found no increase in clinically significant bleeding even with antithrombotic drugs [med-wachira2014, med-javaid2024], though high-dose purified EPA showed a small dose-related signal [med-javaid2024]. Vitamin E: no prothrombin-time change at <=400 IU/day with warfarin [med-corrigan1981], but a 9-trial meta-analysis found more haemorrhagic strokes [med-schurks2010]. NAC with nitrates: the combination reduced cardiac events in angina trials yet was limited by hypotension and headache [med-horowitz1988, med-ardissino1997]. Warfarin and herbs: most supplements are safe in moderation but dozens potentiate warfarin [med-tan2021].",
+   "key_numbers": [
+    {
+     "label": "Haemorrhagic stroke RR, vitamin E",
+     "value": 1.22,
+     "unit": "RR",
+     "source": "med-schurks2010"
+    },
+    {
+     "label": "Bleeding RR, omega-3 (all trials)",
+     "value": 1.09,
+     "unit": "RR",
+     "source": "med-javaid2024"
+    },
+    {
+     "label": "Side effects (mainly headache), nitroglycerin + NAC",
+     "value": 35,
+     "unit": "%",
+     "source": "med-ardissino1997"
+    }
+   ],
+   "refs": [
+    "med-schurks2010",
+    "med-corrigan1981",
+    "med-wachira2014",
+    "med-javaid2024",
+    "med-tan2021",
+    "med-horowitz1988",
+    "med-ardissino1997",
+    "med-hall2003",
+    "med-whitten2006"
+   ]
   }
  ],
  "mechanisms": [
@@ -6387,6 +7058,1269 @@
    "type": "meta-analysis",
    "n": "14 studies",
    "finding": "Higher BPA exposure was associated with lower normal fertilization rates and fewer high-quality embryos in IVF/ICSI, but not with clinical pregnancy or implantation."
+  },
+  {
+   "id": "med-ahlqvist2024",
+   "authors": "Ahlqvist VH, Sjöqvist H, Dalman C, et al.",
+   "year": 2024,
+   "title": "Acetaminophen Use During Pregnancy and Children's Risk of Autism, ADHD, and Intellectual Disability.",
+   "journal": "JAMA",
+   "pmid": "38592388",
+   "doi": "10.1001/jama.2024.3172",
+   "type": "cohort",
+   "n": "2,480,797 Swedish children",
+   "finding": "Small associations of prenatal acetaminophen with autism (HR 1.05) and ADHD (HR 1.07) disappeared in sibling comparisons (HR 0.98 for both), suggesting familial confounding."
+  },
+  {
+   "id": "med-alwan2022",
+   "authors": "Alwan S, Conover EA, Harris-Sagaribay L, et al.",
+   "year": 2022,
+   "title": "Paracetamol use in pregnancy - caution over causal inference from available data.",
+   "journal": "Nat Rev Endocrinol",
+   "pmid": "34907341",
+   "doi": "10.1038/s41574-021-00606-x",
+   "type": "review",
+   "n": null,
+   "finding": "Letter from teratology and pharmacoepidemiology experts cautioning against causal inference from the observational acetaminophen-pregnancy data."
+  },
+  {
+   "id": "med-ambrosone2020",
+   "authors": "Ambrosone CB, Zirpoli GR, Hutson AD, et al.",
+   "year": 2020,
+   "title": "Dietary Supplement Use During Chemotherapy and Survival Outcomes of Patients With Breast Cancer Enrolled in a Cooperative Group Clinical Trial (SWOG S0221).",
+   "journal": "J Clin Oncol",
+   "pmid": "31855498",
+   "doi": "10.1200/JCO.19.01203",
+   "type": "cohort",
+   "n": "1134 women with breast cancer in a chemotherapy trial",
+   "finding": "Antioxidant supplement use before and during chemotherapy was associated with higher recurrence (adjHR 1.41, CI 0.98-2.04); B12 and iron use were significantly linked to worse outcomes."
+  },
+  {
+   "id": "med-anagnostis2021",
+   "authors": "Anagnostis P, Papanikolaou D, Ioannidou PG, et al.",
+   "year": 2021,
+   "title": "The effect of statins on semen parameters in patients with hypercholesterolemia: A systematic review.",
+   "journal": "Andrology",
+   "pmid": "33998174",
+   "doi": "10.1111/andr.13039",
+   "type": "review",
+   "n": "4 studies, 161 men",
+   "finding": "Systematic review of pravastatin and simvastatin found no consistent harmful effect on semen volume or concentration, with mixed motility and morphology findings."
+  },
+  {
+   "id": "med-andersen2022",
+   "authors": "Andersen E, Juhl CR, Kjøller ET, et al.",
+   "year": 2022,
+   "title": "Sperm count is increased by diet-induced weight loss and maintained by exercise or GLP-1 analogue treatment: a randomized controlled trial.",
+   "journal": "Hum Reprod",
+   "pmid": "35580859",
+   "doi": "10.1093/humrep/deac096",
+   "type": "rct",
+   "n": "56 men with obesity",
+   "finding": "An 8-week low-calorie diet (-16.5 kg) raised sperm concentration 1.49-fold and count 1.41-fold; the gain was kept at 52 weeks in men who maintained weight loss (including with liraglutide or exercise) but lost in those who regained."
+  },
+  {
+   "id": "med-ardissino1997",
+   "authors": "Ardissino D, Merlini PA, Savonitto S, et al.",
+   "year": 1997,
+   "title": "Effect of transdermal nitroglycerin or N-acetylcysteine, or both, in the long-term treatment of unstable angina pectoris.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "9120179",
+   "doi": "10.1016/s0735-1097(97)00005-3",
+   "type": "rct",
+   "n": "200 patients with unstable angina",
+   "finding": "Transdermal nitroglycerin plus oral NAC reduced outcome events (13% vs 39% placebo) but caused side effects, mainly intolerable headache, in 35%."
+  },
+  {
+   "id": "med-aroda2016",
+   "authors": "Aroda VR, Edelstein SL, Goldberg RB, et al.",
+   "year": 2016,
+   "title": "Long-term Metformin Use and Vitamin B12 Deficiency in the Diabetes Prevention Program Outcomes Study.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "26900641",
+   "doi": "10.1210/jc.2015-3754",
+   "type": "rct",
+   "n": "2155 adults with prediabetes (DPP/DPPOS)",
+   "finding": "Metformin 850 mg twice daily was associated with more low or borderline B12 (<=298 pg/mL: 19.1% vs 9.5% at 5 years); each year of use raised deficiency odds 13%, and neuropathy was more common in metformin users with low B12."
+  },
+  {
+   "id": "med-asrm2017",
+   "authors": "Practice Committee of the American Society for Reproductive Medicine. Electronic address: ASRM@asrm.org, Practice Committee of the American Society for Reproductive Medicine",
+   "year": 2017,
+   "title": "Role of metformin for ovulation induction in infertile patients with polycystic ovary syndrome (PCOS): a guideline.",
+   "journal": "Fertil Steril",
+   "pmid": "28865539",
+   "doi": "10.1016/j.fertnstert.2017.06.026",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASRM: metformin raises ovulation versus placebo in PCOS but should not be first-line for anovulation because clomiphene or letrozole are much more effective; no added miscarriage when stopped at conception."
+  },
+  {
+   "id": "med-bairati2005",
+   "authors": "Bairati I, Meyer F, Gélinas M, et al.",
+   "year": 2005,
+   "title": "A randomized trial of antioxidant vitamins to prevent second primary cancers in head and neck cancer patients.",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "15812073",
+   "doi": "10.1093/jnci/dji095",
+   "type": "rct",
+   "n": "540 head-and-neck cancer patients on radiotherapy",
+   "finding": "Alpha-tocopherol (with beta-carotene initially) during and after radiotherapy raised second primary cancers during supplementation (HR 2.88)."
+  },
+  {
+   "id": "med-banach2015",
+   "authors": "Banach M, Serban C, Sahebkar A, et al.",
+   "year": 2015,
+   "title": "Effects of coenzyme Q10 on statin-induced myopathy: a meta-analysis of randomized controlled trials.",
+   "journal": "Mayo Clin Proc",
+   "pmid": "25440725",
+   "doi": "10.1016/j.mayocp.2014.08.021",
+   "type": "meta-analysis",
+   "n": "6 RCTs, 302 statin users",
+   "finding": "CoQ10 supplementation did not significantly reduce statin-associated muscle pain (SMD -0.53, CI -1.33 to 0.28) or CK."
+  },
+  {
+   "id": "med-bannister2014",
+   "authors": "Bannister CA, Holden SE, Jenkins-Jones S, et al.",
+   "year": 2014,
+   "title": "Can people with type 2 diabetes live longer than those without? A comparison of mortality in people initiated with metformin or sulphonylurea monotherapy and matched, non-diabetic controls.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "25041462",
+   "doi": "10.1111/dom.12354",
+   "type": "cohort",
+   "n": "78,241 metformin users, 12,222 sulphonylurea users, 90,463 matched controls",
+   "finding": "In UK primary-care data, people with type 2 diabetes started on metformin had 15% longer adjusted survival than matched non-diabetic controls; this finding underpins much of the anti-aging interest in metformin."
+  },
+  {
+   "id": "med-barzilai2016",
+   "authors": "Barzilai N, Crandall JP, Kritchevsky SB, et al.",
+   "year": 2016,
+   "title": "Metformin as a Tool to Target Aging.",
+   "journal": "Cell Metab",
+   "pmid": "27304507",
+   "doi": "10.1016/j.cmet.2016.05.011",
+   "type": "review",
+   "n": null,
+   "finding": "Rationale paper for TAME (Targeting Aging with Metformin), proposing metformin as a first test of a drug targeting aging itself, based largely on observational data in diabetes."
+  },
+  {
+   "id": "med-bateman2015",
+   "authors": "Bateman BT, Hernandez-Diaz S, Fischer MA, et al.",
+   "year": 2015,
+   "title": "Statins and congenital malformations: cohort study.",
+   "journal": "BMJ",
+   "pmid": "25784688",
+   "doi": "10.1136/bmj.h1035",
+   "type": "cohort",
+   "n": "886,996 Medicaid pregnancies",
+   "finding": "First-trimester statin use showed no teratogenic effect after adjustment for confounders such as diabetes (RR 1.07, 0.85-1.37)."
+  },
+  {
+   "id": "med-batsis2026",
+   "authors": "Batsis JA, Gavras A, Gross DC, et al.",
+   "year": 2026,
+   "title": "Effect of Incretin-Based and Nonpharmacologic Weight Loss on Body Composition : A Systematic Review.",
+   "journal": "Ann Intern Med",
+   "pmid": "41996180",
+   "doi": "10.7326/ANNALS-25-00478",
+   "type": "review",
+   "n": null,
+   "finding": "Systematic review: loss of muscle-related indices exceeded prespecified benchmarks in about two thirds of incretin interventions and nearly half of non-drug weight-loss interventions."
+  },
+  {
+   "id": "med-bauer2021",
+   "authors": "Bauer AZ, Swan SH, Kriebel D, et al.",
+   "year": 2021,
+   "title": "Paracetamol use during pregnancy - a call for precautionary action.",
+   "journal": "Nat Rev Endocrinol",
+   "pmid": "34556849",
+   "doi": "10.1038/s41574-021-00553-7",
+   "type": "review",
+   "n": null,
+   "finding": "Consensus statement by 91 scientists calling for precaution: pregnant women should use acetaminophen only when indicated, at the lowest dose for the shortest time, citing neurodevelopmental and urogenital associations."
+  },
+  {
+   "id": "med-block2007",
+   "authors": "Block KI, Koch AC, Mead MN, et al.",
+   "year": 2007,
+   "title": "Impact of antioxidant supplementation on chemotherapeutic efficacy: a systematic review of the evidence from randomized controlled trials.",
+   "journal": "Cancer Treat Rev",
+   "pmid": "17367938",
+   "doi": "10.1016/j.ctrv.2007.01.005",
+   "type": "review",
+   "n": "19 RCTs",
+   "finding": "No trial showed reduced chemotherapy efficacy with antioxidants and many reported fewer toxicities or better survival, but trials were small and underpowered."
+  },
+  {
+   "id": "med-bosman2015",
+   "authors": "Bosman E, Esterhuizen AD, Rodrigues FA, et al.",
+   "year": 2015,
+   "title": "Effect of metformin therapy and dietary supplements on semen parameters in hyperinsulinaemic males.",
+   "journal": "Andrologia",
+   "pmid": "25359661",
+   "doi": "10.1111/and.12366",
+   "type": "cohort",
+   "n": "34 hyperinsulinaemic men",
+   "finding": "Uncontrolled study: 3 months of metformin (with or without supplements) raised normal sperm forms from about 4% to 5.5% and improved chromatin packaging in hyperinsulinaemic men."
+  },
+  {
+   "id": "med-boule2011",
+   "authors": "Boulé NG, Robert C, Bell GJ, et al.",
+   "year": 2011,
+   "title": "Metformin and exercise in type 2 diabetes: examining treatment modality interactions.",
+   "journal": "Diabetes Care",
+   "pmid": "21602430",
+   "doi": "10.2337/dc10-2207",
+   "type": "rct",
+   "n": "10 adults with type 2 diabetes (crossover)",
+   "finding": "Metformin raised exercise heart rate and lactate; adding exercise reduced metformin's lowering of the post-meal glucose response (interaction P=0.05)."
+  },
+  {
+   "id": "med-boule2013",
+   "authors": "Boulé NG, Kenny GP, Larose J, et al.",
+   "year": 2013,
+   "title": "Does metformin modify the effect on glycaemic control of aerobic exercise, resistance exercise or both?",
+   "journal": "Diabetologia",
+   "pmid": "23975325",
+   "doi": "10.1007/s00125-013-3026-6",
+   "type": "rct",
+   "n": "225 adults with type 2 diabetes (DARE trial)",
+   "finding": "Over 22 weeks of aerobic, resistance or combined training, background metformin use did not significantly change the training effects on HbA1c, fitness, strength or body weight."
+  },
+  {
+   "id": "med-bray2021",
+   "authors": "Bray JJH, Foster-Davies H, Salem A, et al.",
+   "year": 2021,
+   "title": "Glucagon-like peptide-1 receptor agonists improve biomarkers of inflammation and oxidative stress: A systematic review and meta-analysis of randomised controlled trials.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "33830637",
+   "doi": "10.1111/dom.14399",
+   "type": "meta-analysis",
+   "n": "40 RCTs, 6749 participants",
+   "finding": "GLP-1 receptor agonists lowered CRP (-0.54 mg/L), TNF-alpha and malondialdehyde (SMD -0.84) and raised adiponectin versus standard therapy or placebo; CRP fall tracked blood-pressure and insulin-resistance improvement."
+  },
+  {
+   "id": "med-cameron2016",
+   "authors": "Cameron AR, Morrison VL, Levin D, et al.",
+   "year": 2016,
+   "title": "Anti-Inflammatory Effects of Metformin Irrespective of Diabetes Status.",
+   "journal": "Circ Res",
+   "pmid": "27418629",
+   "doi": "10.1161/CIRCRESAHA.116.308445",
+   "type": "rct",
+   "n": "cell, cohort and a nondiabetic heart-failure RCT",
+   "finding": "Metformin suppressed NF-kB-linked inflammatory signalling in cells, lowered the neutrophil-to-lymphocyte ratio versus sulfonylurea in a diabetes cohort, and reduced plasma cytokines in nondiabetic heart failure."
+  },
+  {
+   "id": "med-chang2021",
+   "authors": "Chang JC, Chen YJ, Chen IC, et al.",
+   "year": 2021,
+   "title": "Perinatal Outcomes After Statin Exposure During Pregnancy.",
+   "journal": "JAMA Netw Open",
+   "pmid": "34967881",
+   "doi": "10.1001/jamanetworkopen.2021.41321",
+   "type": "cohort",
+   "n": "469 statin-exposed and 4690 control pregnancies (Taiwan)",
+   "finding": "Statin use in pregnancy was not associated with congenital anomalies but was associated with low birth weight (RR 1.51) and preterm birth (RR 1.99)."
+  },
+  {
+   "id": "med-chapman2016",
+   "authors": "Chapman LE, Darling AL, Brown JE",
+   "year": 2016,
+   "title": "Association between metformin and vitamin B12 deficiency in patients with type 2 diabetes: A systematic review and meta-analysis.",
+   "journal": "Diabetes Metab",
+   "pmid": "27130885",
+   "doi": "10.1016/j.diabet.2016.03.008",
+   "type": "meta-analysis",
+   "n": "26 studies",
+   "finding": "Metformin lowered vitamin B12 by about 57 pmol/L within 6 weeks to 3 months in pooled trials, pushing some patients into deficiency or borderline status."
+  },
+  {
+   "id": "med-chen2024",
+   "authors": "Chen X, Yang Y, Chen L, et al.",
+   "year": 2024,
+   "title": "Pregnancy outcomes and birth defects in offspring following Non-steroidal anti-inflammatory drugs exposure during pregnancy: A systematic review and meta-analysis.",
+   "journal": "Reprod Toxicol",
+   "pmid": "38423229",
+   "doi": "10.1016/j.reprotox.2024.108561",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Early-pregnancy NSAID exposure was associated with more congenital anomalies (OR 1.28) and major birth defects (OR 1.19); miscarriage association was not significant (OR 1.20)."
+  },
+  {
+   "id": "med-cheungpasitporn2015",
+   "authors": "Cheungpasitporn W, Thongprayoon C, Kittanamongkolchai W, et al.",
+   "year": 2015,
+   "title": "Proton pump inhibitors linked to hypomagnesemia: a systematic review and meta-analysis of observational studies.",
+   "journal": "Ren Fail",
+   "pmid": "26108134",
+   "doi": "10.3109/0886022X.2015.1057800",
+   "type": "meta-analysis",
+   "n": "9 observational studies, 109,798 patients",
+   "finding": "PPI use was associated with a 43% higher risk of hypomagnesemia (RR 1.43; 1.63 in high-quality studies)."
+  },
+  {
+   "id": "med-choudhury2023",
+   "authors": "Choudhury A, Jena A, Jearth V, et al.",
+   "year": 2023,
+   "title": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.",
+   "journal": "Expert Rev Gastroenterol Hepatol",
+   "pmid": "37060552",
+   "doi": "10.1080/17474124.2023.2204229",
+   "type": "meta-analysis",
+   "n": "25 studies",
+   "finding": "PPI users had modestly higher odds of B12 deficiency (OR 1.42) with significant heterogeneity; most studies found no difference in serum B12 levels."
+  },
+  {
+   "id": "med-corrigan1981",
+   "authors": "Corrigan JJ, Ulfers LL",
+   "year": 1981,
+   "title": "Effect of vitamin E on prothrombin levels in warfarin-induced vitamin K deficiency.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "7282596",
+   "doi": "10.1093/ajcn/34.9.1701",
+   "type": "rct",
+   "n": "12 warfarin-treated patients",
+   "finding": "Vitamin E 100-400 IU/day for 4 weeks did not change prothrombin time in warfarin users, though it subtly reduced functional factor II; higher doses may potentiate vitamin K deficiency."
+  },
+  {
+   "id": "med-cowie2020",
+   "authors": "Cowie MR, Fisher M",
+   "year": 2020,
+   "title": "SGLT2 inhibitors: mechanisms of cardiovascular benefit beyond glycaemic control.",
+   "journal": "Nat Rev Cardiol",
+   "pmid": "32665641",
+   "doi": "10.1038/s41569-020-0406-8",
+   "type": "review",
+   "n": null,
+   "finding": "Proposed SGLT2-inhibitor benefit mechanisms include natriuresis, ketone use, reduced inflammation and oxidative stress and less AGE signalling; mostly from mechanistic work."
+  },
+  {
+   "id": "med-ctt2022",
+   "authors": "Cholesterol Treatment Trialists' Collaboration",
+   "year": 2022,
+   "title": "Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials.",
+   "journal": "Lancet",
+   "pmid": "36049498",
+   "doi": "10.1016/S0140-6736(22)01545-8",
+   "type": "meta-analysis",
+   "n": "19 double-blind trials, 123,940 participants",
+   "finding": "Statins caused a 7% relative excess of muscle pain or weakness in year 1 (about 11 per 1000 person-years); only about 1 in 15 muscle complaints on statins was actually due to the drug."
+  },
+  {
+   "id": "med-deameh2026",
+   "authors": "Deameh MG, Ramez M, Rowaiee R, et al.",
+   "year": 2026,
+   "title": "Effects of glucagon-like peptide-1 receptor agonists on male reproductive hormones, semen parameters, and metabolic outcomes: a systematic review.",
+   "journal": "J Sex Med",
+   "pmid": "41498523",
+   "doi": "10.1093/jsxmed/qdaf381",
+   "type": "review",
+   "n": "10 studies, 639 men",
+   "finding": "GLP-1 agonists consistently raised total testosterone in men with obesity or type 2 diabetes while preserving LH/FSH; semen improvements were reported in obese or hypogonadal men but not in healthy men."
+  },
+  {
+   "id": "med-decaterina2002",
+   "authors": "De Caterina R, Cipollone F, Filardo FP, et al.",
+   "year": 2002,
+   "title": "Low-density lipoprotein level reduction by the 3-hydroxy-3-methylglutaryl coenzyme-A inhibitor simvastatin is accompanied by a related reduction of F2-isoprostane formation in hypercholesterolemic subjects: no further effect of vitamin E.",
+   "journal": "Circulation",
+   "pmid": "12427649",
+   "doi": "10.1161/01.cir.0000038500.43292.d7",
+   "type": "rct",
+   "n": "43 hypercholesterolemic patients",
+   "finding": "Simvastatin's LDL lowering was accompanied by a proportional fall in urinary F2-isoprostanes; adding vitamin E 600 mg/day did not lower lipid peroxidation further."
+  },
+  {
+   "id": "med-dejager2010",
+   "authors": "de Jager J, Kooy A, Lehert P, et al.",
+   "year": 2010,
+   "title": "Long term treatment with metformin in patients with type 2 diabetes and risk of vitamin B-12 deficiency: randomised placebo controlled trial.",
+   "journal": "BMJ",
+   "pmid": "20488910",
+   "doi": "10.1136/bmj.c2181",
+   "type": "rct",
+   "n": "390 insulin-treated adults with type 2 diabetes",
+   "finding": "Metformin 850 mg three times daily for 4.3 years lowered B12 by 19% versus placebo and raised absolute B12-deficiency risk by 7.2 percentage points (number needed to harm ~14), with higher homocysteine."
+  },
+  {
+   "id": "med-drobnis2017",
+   "authors": "Drobnis EZ, Nangia AK",
+   "year": 2017,
+   "title": "Pain Medications and Male Reproduction.",
+   "journal": "Adv Exp Med Biol",
+   "pmid": "29256126",
+   "doi": "10.1007/978-3-319-69535-8_6",
+   "type": "review",
+   "n": null,
+   "finding": "Exogenous opioids suppress the hypothalamic-pituitary-gonadal axis and act directly on the testis, lowering semen quality and raising DNA fragmentation; NSAIDs have less effect; paracetamol may be of concern."
+  },
+  {
+   "id": "med-dutta2026",
+   "authors": "Dutta D, Mahajan K, Jena S, et al.",
+   "year": 2026,
+   "title": "Feto-maternal safety of statins in pregnancy: An updated systematic review and meta-analysis.",
+   "journal": "Diabetes Metab Syndr",
+   "pmid": "42607353",
+   "doi": "10.1016/j.dsx.2026.103472",
+   "type": "meta-analysis",
+   "n": "21 studies, 9016 exposed women",
+   "finding": "Statins in pregnancy were not associated with congenital malformations (OR 1.05); low birth weight signals were confined to non-pravastatin use in cohort studies."
+  },
+  {
+   "id": "med-eisa2026",
+   "authors": "Eisa N, Barood O",
+   "year": 2026,
+   "title": "Lean Mass Changes With Incretin Therapy Versus Lifestyle Intervention: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "41877354",
+   "doi": "10.1111/dom.70666",
+   "type": "meta-analysis",
+   "n": "20 RCTs, 15,782 participants",
+   "finding": "Lean mass made up 25-39% of weight lost on incretin drugs (semaglutide 35%, tirzepatide 25%), similar to diet-based weight loss (26%); adding resistance training cut it to about 17.5%."
+  },
+  {
+   "id": "med-etayourtasun2026",
+   "authors": "Etayo-Urtasun P, Sáez de Asteasu ML, Izquierdo M",
+   "year": 2026,
+   "title": "The effects of metformin and exercise training on cardiorespiratory, blood pressure, and metabolic adaptations across the spectrum of glucose dysregulation: a systematic review and meta-analysis.",
+   "journal": "EClinicalMedicine",
+   "pmid": "42051241",
+   "doi": "10.1016/j.eclinm.2026.103915",
+   "type": "meta-analysis",
+   "n": "9 controlled trials, 827 adults",
+   "finding": "Adding metformin to structured exercise modestly attenuated VO2peak gains (MD -1.19 mL/kg/min) and blood-pressure reductions, with no difference in weight, glycemic or lipid outcomes (moderate certainty for VO2peak)."
+  },
+  {
+   "id": "med-fda-statins2021",
+   "authors": "US Food and Drug Administration",
+   "year": 2021,
+   "title": "FDA requests removal of strongest warning against using cholesterol-lowering statins during pregnancy; still advises most pregnant patients should stop taking statins (Drug Safety Communication, 20 July 2021)",
+   "journal": "FDA Drug Safety Communication",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-removal-strongest-warning-against-using-cholesterol-lowering-statins-during-pregnancy",
+   "type": "guideline",
+   "n": null,
+   "finding": "FDA removed the pregnancy contraindication for statins because observational data showed no increase in birth defects, while advising most patients to stop on learning they are pregnant, allowing continuation in very high-risk patients, and advising against breastfeeding."
+  },
+  {
+   "id": "med-fda-wegovy2021",
+   "authors": "US Food and Drug Administration; Novo Nordisk",
+   "year": 2021,
+   "title": "WEGOVY (semaglutide) injection, prescribing information (revised 06/2021)",
+   "journal": "FDA label",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/215256s000lbl.pdf",
+   "type": "guideline",
+   "n": null,
+   "finding": "Label section 8.3: discontinue semaglutide at least 2 months before a planned pregnancy because of its long half-life; discontinue when pregnancy is recognized."
+  },
+  {
+   "id": "med-fda-zepbound2023",
+   "authors": "US Food and Drug Administration; Eli Lilly",
+   "year": 2023,
+   "title": "ZEPBOUND (tirzepatide) injection, prescribing information (revised 11/2023)",
+   "journal": "FDA label",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217806s000lbl.pdf",
+   "type": "guideline",
+   "n": null,
+   "finding": "A single 5 mg tirzepatide dose cut ethinyl estradiol Cmax 59% and AUC 20%; users of oral contraceptives should switch to a non-oral method or add a barrier method for 4 weeks after starting and after each dose escalation."
+  },
+  {
+   "id": "med-grammer2026",
+   "authors": "Grammer EE, Stahl ME, Ortiz de Zevallos J, et al.",
+   "year": 2026,
+   "title": "Influence of metformin on exercise metabolism and capacity: a systematic review and meta-analysis.",
+   "journal": "Am J Physiol Endocrinol Metab",
+   "pmid": "42139118",
+   "doi": "10.1152/ajpendo.00012.2026",
+   "type": "meta-analysis",
+   "n": "21 studies, 325 participants",
+   "finding": "Metformin raised blood lactate during exercise (SMD 0.98) and modulated exercise metabolism; effects on exercise capacity depended on dose, duration and population."
+  },
+  {
+   "id": "med-gregoric2025",
+   "authors": "Gregorič N, Šikonja J, Janež A, et al.",
+   "year": 2025,
+   "title": "Semaglutide improved sperm morphology in obese men with type 2 diabetes mellitus and functional hypogonadism.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "39511836",
+   "doi": "10.1111/dom.16042",
+   "type": "rct",
+   "n": "obese men with type 2 diabetes and functional hypogonadism",
+   "finding": "Semaglutide raised normal sperm morphology (median 2% to 4%) and testosterone, whereas testosterone therapy lowered sperm concentration and count."
+  },
+  {
+   "id": "med-hall2003",
+   "authors": "Hall SD, Wang Z, Huang SM, et al.",
+   "year": 2003,
+   "title": "The interaction between St John's wort and an oral contraceptive.",
+   "journal": "Clin Pharmacol Ther",
+   "pmid": "14663455",
+   "doi": "10.1016/j.clpt.2003.08.009",
+   "type": "cohort",
+   "n": "12 women on oral contraceptives",
+   "finding": "St John's wort increased norethindrone clearance and halved ethinyl estradiol half-life; breakthrough bleeding rose from 2 to 7 of 12 women."
+  },
+  {
+   "id": "med-horowitz1988",
+   "authors": "Horowitz JD, Henry CA, Syrjanen ML, et al.",
+   "year": 1988,
+   "title": "Combined use of nitroglycerin and N-acetylcysteine in the management of unstable angina pectoris.",
+   "journal": "Circulation",
+   "pmid": "3127076",
+   "doi": "10.1161/01.cir.77.4.787",
+   "type": "rct",
+   "n": "46 patients with unstable angina",
+   "finding": "Adding IV NAC to IV nitroglycerin cut myocardial infarction (3 vs 10 patients) but caused symptomatic hypotension in 7 vs 0 patients."
+  },
+  {
+   "id": "med-huijgen2016",
+   "authors": "Huijgen NA, de Ridder MA, Verhamme KM, et al.",
+   "year": 2016,
+   "title": "Are proton-pump inhibitors harmful for the semen quality of men in couples who are planning pregnancy?",
+   "journal": "Fertil Steril",
+   "pmid": "27743698",
+   "doi": "10.1016/j.fertnstert.2016.09.010",
+   "type": "case-control",
+   "n": "Dutch primary-care registry",
+   "finding": "PPI use 6-12 months before semen analysis was associated with threefold higher odds of low total motile sperm count (OR 2.96), but use in the preceding 6 months was not."
+  },
+  {
+   "id": "med-imhann2016",
+   "authors": "Imhann F, Bonder MJ, Vich Vila A, et al.",
+   "year": 2016,
+   "title": "Proton pump inhibitors affect the gut microbiome.",
+   "journal": "Gut",
+   "pmid": "26657899",
+   "doi": "10.1136/gutjnl-2015-310376",
+   "type": "cross-sectional",
+   "n": "1815 people",
+   "finding": "PPI use was associated with lower gut microbial diversity and changes in 20% of taxa, including more oral bacteria and potential pathogens, an effect larger than antibiotics at population level."
+  },
+  {
+   "id": "med-jastreboff2022",
+   "authors": "Jastreboff AM, Aronne LJ, Ahmad NN, et al.",
+   "year": 2022,
+   "title": "Tirzepatide Once Weekly for the Treatment of Obesity.",
+   "journal": "N Engl J Med",
+   "pmid": "35658024",
+   "doi": "10.1056/NEJMoa2206038",
+   "type": "rct",
+   "n": "2539 adults with obesity (SURMOUNT-1)",
+   "finding": "Tirzepatide 5, 10 and 15 mg weekly cut body weight 15.0%, 19.5% and 20.9% vs 3.1% with placebo over 72 weeks."
+  },
+  {
+   "id": "med-javaid2024",
+   "authors": "Javaid M, Kadhim K, Bawamia B, et al.",
+   "year": 2024,
+   "title": "Bleeding Risk in Patients Receiving Omega-3 Polyunsaturated Fatty Acids: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.",
+   "journal": "J Am Heart Assoc",
+   "pmid": "38742535",
+   "doi": "10.1161/JAHA.123.032390",
+   "type": "meta-analysis",
+   "n": "11 RCTs, 120,643 patients",
+   "finding": "Omega-3 PUFAs did not increase bleeding overall (RR 1.09, 0.91-1.31); high-dose purified EPA raised relative bleeding risk about 50% but absolute risk only 0.6%."
+  },
+  {
+   "id": "med-kanbay2026",
+   "authors": "Kanbay M, Shah E, AlShiab R, et al.",
+   "year": 2026,
+   "title": "Effects of GLP-1 Receptor Agonists and Dual GIP/GLP-1 Receptor Agonists on Inflammatory and Metabolic Biomarkers in Type 2 Diabetes: A Systematic Review and Meta-Analysis.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "42449480",
+   "doi": "10.1111/dom.71106",
+   "type": "meta-analysis",
+   "n": "41 RCTs in type 2 diabetes",
+   "finding": "Incretin therapies lowered CRP (SMD -0.37) and MDA (SMD -0.98, only 3 trials) and raised adiponectin; IL-6 and TNF-alpha effects were not significant overall."
+  },
+  {
+   "id": "med-keihani2018a",
+   "authors": "Keihani S, Martin C, Craig JR, et al.",
+   "year": 2018,
+   "title": "Semen parameters are unaffected by statin use in men evaluated for infertility.",
+   "journal": "Andrologia",
+   "pmid": "29512172",
+   "doi": "10.1111/and.12995",
+   "type": "cohort",
+   "n": "118 statin users vs 7698 unmedicated subfertile men",
+   "finding": "Statin use for over 3 months was not associated with changes in semen parameters other than a small fall in volume in combination users."
+  },
+  {
+   "id": "med-keihani2018b",
+   "authors": "Keihani S, Craig JR, Zhang C, et al.",
+   "year": 2018,
+   "title": "Proton-pump inhibitor use does not affect semen quality in subfertile men.",
+   "journal": "Asian J Androl",
+   "pmid": "28879865",
+   "doi": "10.4103/aja.aja_35_17",
+   "type": "cohort",
+   "n": "248 PPI users vs 7698 unmedicated subfertile men",
+   "finding": "PPI use for over 3 months was not associated with changes in semen parameters."
+  },
+  {
+   "id": "med-keys2022",
+   "authors": "Keys MT, Thinggaard M, Larsen LA, et al.",
+   "year": 2022,
+   "title": "Reassessing the evidence of a survival advantage in Type 2 diabetes treated with metformin compared with controls without diabetes: a retrospective cohort study.",
+   "journal": "Int J Epidemiol",
+   "pmid": "36287641",
+   "doi": "10.1093/ije/dyac200",
+   "type": "cohort",
+   "n": "Danish national registers incl. discordant twins",
+   "finding": "Reanalysis using Danish registers and discordant twins found metformin-treated type 2 diabetes was associated with higher, not lower, mortality than no diabetes (adjusted IRR 1.32 singletons, 1.64 twins), contradicting Bannister 2014."
+  },
+  {
+   "id": "med-kokkinos2013",
+   "authors": "Kokkinos PF, Faselis C, Myers J, et al.",
+   "year": 2013,
+   "title": "Interactive effects of fitness and statin treatment on mortality risk in veterans with dyslipidaemia: a cohort study.",
+   "journal": "Lancet",
+   "pmid": "23199849",
+   "doi": "10.1016/S0140-6736(12)61426-3",
+   "type": "cohort",
+   "n": "10,043 veterans with dyslipidaemia",
+   "finding": "Statin use and higher fitness were independently associated with lower mortality, and the combination (highly fit statin users HR 0.30) was lowest of all."
+  },
+  {
+   "id": "med-konopka2019",
+   "authors": "Konopka AR, Laurin JL, Schoenberg HM, et al.",
+   "year": 2019,
+   "title": "Metformin inhibits mitochondrial adaptations to aerobic exercise training in older adults.",
+   "journal": "Aging Cell",
+   "pmid": "30548390",
+   "doi": "10.1111/acel.12880",
+   "type": "rct",
+   "n": "53 older adults (~62 y)",
+   "finding": "Metformin (vs placebo) during 12 weeks of aerobic training attenuated the training-induced rise in whole-body insulin sensitivity and VO2max and abolished the rise in muscle mitochondrial respiration; responses were highly variable."
+  },
+  {
+   "id": "med-konopka2019tame",
+   "authors": "Konopka AR, Miller BF",
+   "year": 2019,
+   "title": "Taming expectations of metformin as a treatment to extend healthspan.",
+   "journal": "Geroscience",
+   "pmid": "30746605",
+   "doi": "10.1007/s11357-019-00057-3",
+   "type": "review",
+   "n": null,
+   "finding": "Argues that TAME goals may not match healthspan goals: metformin's benefits are documented in people with chronic disease, and whether they extend to healthy people (and alongside exercise) is unknown."
+  },
+  {
+   "id": "med-kristensen2011",
+   "authors": "Kristensen DM, Hass U, Lesné L, et al.",
+   "year": 2011,
+   "title": "Intrauterine exposure to mild analgesics is a risk factor for development of male reproductive disorders in human and rat.",
+   "journal": "Hum Reprod",
+   "pmid": "21059752",
+   "doi": "10.1093/humrep/deq323",
+   "type": "cohort",
+   "n": "Danish and Finnish birth cohorts plus rat studies",
+   "finding": "Mild analgesic use in pregnancy (especially second trimester) was dose-dependently linked to cryptorchidism in the Danish but not the Finnish cohort; paracetamol was anti-androgenic in rats."
+  },
+  {
+   "id": "med-kristensen2018",
+   "authors": "Kristensen DM, Desdoits-Lethimonier C, Mackey AL, et al.",
+   "year": 2018,
+   "title": "Ibuprofen alters human testicular physiology to produce a state of compensated hypogonadism.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "29311296",
+   "doi": "10.1073/pnas.1715035115",
+   "type": "rct",
+   "n": "young healthy men plus human testis explants",
+   "finding": "Daily ibuprofen in young men lowered the testosterone/LH ratio, producing compensated hypogonadism, and suppressed testosterone production in human testis explants."
+  },
+  {
+   "id": "med-kulkarni2020",
+   "authors": "Kulkarni AS, Peck BD, Walton RG, et al.",
+   "year": 2020,
+   "title": "Metformin alters skeletal muscle transcriptome adaptations to resistance training in older adults.",
+   "journal": "Aging (Albany NY)",
+   "pmid": "33071237",
+   "doi": "10.18632/aging.104096",
+   "type": "rct",
+   "n": "47 older adults (MASTERS biopsies)",
+   "finding": "Metformin dampened the muscle gene-expression response to resistance training while shifting some aging-related pathways (senescence, autophagy) in a possibly favourable direction."
+  },
+  {
+   "id": "med-lam2013",
+   "authors": "Lam JR, Schneider JL, Zhao W, et al.",
+   "year": 2013,
+   "title": "Proton pump inhibitor and histamine 2 receptor antagonist use and vitamin B12 deficiency.",
+   "journal": "JAMA",
+   "pmid": "24327038",
+   "doi": "10.1001/jama.2013.280490",
+   "type": "case-control",
+   "n": "25,956 cases, 184,199 controls",
+   "finding": "Two or more years of PPI use was associated with 65% higher odds of B12 deficiency (OR 1.65), higher at >1.5 pills/day (OR 1.95)."
+  },
+  {
+   "id": "med-lam2017",
+   "authors": "Lam JR, Schneider JL, Quesenberry CP, et al.",
+   "year": 2017,
+   "title": "Proton Pump Inhibitor and Histamine-2 Receptor Antagonist Use and Iron Deficiency.",
+   "journal": "Gastroenterology",
+   "pmid": "27890768",
+   "doi": "10.1053/j.gastro.2016.11.023",
+   "type": "case-control",
+   "n": "77,046 cases, 389,314 controls",
+   "finding": "Two or more years of PPI use was associated with iron deficiency (OR 2.49), rising with dose and falling after stopping."
+  },
+  {
+   "id": "med-lauterburg1987",
+   "authors": "Lauterburg BH, Mitchell JR",
+   "year": 1987,
+   "title": "Therapeutic doses of acetaminophen stimulate the turnover of cysteine and glutathione in man.",
+   "journal": "J Hepatol",
+   "pmid": "3584929",
+   "doi": "10.1016/s0168-8278(87)80081-8",
+   "type": "mechanistic",
+   "n": "healthy volunteers",
+   "finding": "Single therapeutic doses of acetaminophen (600-1200 mg) markedly increased turnover of the cysteine pool used for glutathione synthesis, showing that normal doses draw on glutathione."
+  },
+  {
+   "id": "med-lawenda2008",
+   "authors": "Lawenda BD, Kelly KM, Ladas EJ, et al.",
+   "year": 2008,
+   "title": "Should supplemental antioxidant administration be avoided during chemotherapy and radiation therapy?",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "18505970",
+   "doi": "10.1093/jnci/djn148",
+   "type": "review",
+   "n": null,
+   "finding": "Concluded from RCTs that supplemental antioxidants during chemotherapy and radiotherapy should be discouraged because of possible tumour protection."
+  },
+  {
+   "id": "med-li2018",
+   "authors": "Li DK, Ferber JR, Odouli R, et al.",
+   "year": 2018,
+   "title": "Use of nonsteroidal antiinflammatory drugs during pregnancy and the risk of miscarriage.",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "29890124",
+   "doi": "10.1016/j.ajog.2018.06.002",
+   "type": "cohort",
+   "n": "1097 pregnant women (Kaiser Permanente)",
+   "finding": "NSAID use around conception was associated with more miscarriage (aHR 1.89), stronger for early loss and longer use; acetaminophen users were used as an indication control."
+  },
+  {
+   "id": "med-lilja2018",
+   "authors": "Lilja M, Mandić M, Apró W, et al.",
+   "year": 2018,
+   "title": "High doses of anti-inflammatory drugs compromise muscle strength and hypertrophic adaptations to resistance training in young adults.",
+   "journal": "Acta Physiol (Oxf)",
+   "pmid": "28834248",
+   "doi": "10.1111/apha.12948",
+   "type": "rct",
+   "n": "31 young adults",
+   "finding": "Ibuprofen 1200 mg/day halved quadriceps growth (3.7% vs 7.5%) in young men and women and blunted strength gains versus low-dose aspirin during 8 weeks of resistance training."
+  },
+  {
+   "id": "med-lundberg2018",
+   "authors": "Lundberg TR, Howatson G",
+   "year": 2018,
+   "title": "Analgesic and anti-inflammatory drugs in sports: Implications for exercise performance and training adaptations.",
+   "journal": "Scand J Med Sci Sports",
+   "pmid": "30102811",
+   "doi": "10.1111/sms.13275",
+   "type": "review",
+   "n": null,
+   "finding": "NSAIDs and paracetamol inhibit COX; NSAIDs interfere with hypertrophy and strength gains in young people, while effects in elite athletes are unproven."
+  },
+  {
+   "id": "med-malin2012",
+   "authors": "Malin SK, Gerber R, Chipkin SR, et al.",
+   "year": 2012,
+   "title": "Independent and combined effects of exercise training and metformin on insulin sensitivity in individuals with prediabetes.",
+   "journal": "Diabetes Care",
+   "pmid": "22040838",
+   "doi": "10.2337/dc11-0925",
+   "type": "rct",
+   "n": "32 adults with prediabetes",
+   "finding": "Exercise, metformin (2000 mg/day) and both combined all raised clamp insulin sensitivity over 12 weeks; the rise was 25-30% higher with exercise alone than with exercise plus metformin, a non-significant difference read as possible blunting."
+  },
+  {
+   "id": "med-meng2024",
+   "authors": "Meng LC, van Gelder MMHJ, Chuang HM, et al.",
+   "year": 2024,
+   "title": "Paternal metformin use and risk of congenital malformations in offspring in Norway and Taiwan: population based, cross national cohort study.",
+   "journal": "BMJ",
+   "pmid": "39414354",
+   "doi": "10.1136/bmj-2024-080127",
+   "type": "cohort",
+   "n": "619,389 Norwegian and 2,563,812 Taiwanese offspring",
+   "finding": "After restricting to fathers with type 2 diabetes and adjusting for diabetes severity, paternal metformin during sperm development was not linked to malformations (pooled RR 0.89, 0.77-1.03), including in sibling comparisons."
+  },
+  {
+   "id": "med-micu2011",
+   "authors": "Micu MC, Micu R, Ostensen M",
+   "year": 2011,
+   "title": "Luteinized unruptured follicle syndrome increased by inactive disease and selective cyclooxygenase 2 inhibitors in women with inflammatory arthropathies.",
+   "journal": "Arthritis Care Res (Hoboken)",
+   "pmid": "21618455",
+   "doi": "10.1002/acr.20510",
+   "type": "cohort",
+   "n": "59 monitored cycles with NSAIDs vs untreated cycles in women with inflammatory arthritis",
+   "finding": "Continuous periovulatory NSAIDs caused luteinized unruptured follicle in 35.6% of cycles vs 3.4% untreated; etoricoxib was the main culprit and ibuprofen 1600 mg/day caused none."
+  },
+  {
+   "id": "med-mikus2013",
+   "authors": "Mikus CR, Boyle LJ, Borengasser SJ, et al.",
+   "year": 2013,
+   "title": "Simvastatin impairs exercise training adaptations.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "23583255",
+   "doi": "10.1016/j.jacc.2013.02.074",
+   "type": "rct",
+   "n": "37 overweight/obese sedentary adults",
+   "finding": "Simvastatin 40 mg blunted the training-induced gain in cardiorespiratory fitness (1.5% vs 10%) and turned a 13% rise in muscle citrate synthase into a 4.5% fall over 12 weeks."
+  },
+  {
+   "id": "med-miller2020",
+   "authors": "Miller BF, Thyfault JP",
+   "year": 2020,
+   "title": "Exercise-Pharmacology Interactions: Metformin, Statins, and Healthspan.",
+   "journal": "Physiology (Bethesda)",
+   "pmid": "32783612",
+   "doi": "10.1152/physiol.00013.2020",
+   "type": "review",
+   "n": null,
+   "finding": "Reviews how metformin and statins may blunt exercise adaptations and argues their healthspan use in disease-free people must be tested alongside exercise."
+  },
+  {
+   "id": "med-mistry2021",
+   "authors": "Mistry S, Eschler DC",
+   "year": 2021,
+   "title": "Euglycemic Diabetic Ketoacidosis Caused by SGLT2 Inhibitors and a Ketogenic Diet: A Case Series and Review of Literature.",
+   "journal": "AACE Clin Case Rep",
+   "pmid": "33851013",
+   "doi": "10.1016/j.aace.2020.11.009",
+   "type": "case-control",
+   "n": "2 cases plus literature review",
+   "finding": "Euglycemic DKA occurred with an SGLT2 inhibitor after only one week of a ketogenic diet; patients on these drugs should avoid ketogenic diets."
+  },
+  {
+   "id": "med-moayyedi2019",
+   "authors": "Moayyedi P, Eikelboom JW, Bosch J, et al.",
+   "year": 2019,
+   "title": "Safety of Proton Pump Inhibitors Based on a Large, Multi-Year, Randomized Trial of Patients Receiving Rivaroxaban or Aspirin.",
+   "journal": "Gastroenterology",
+   "pmid": "31152740",
+   "doi": "10.1053/j.gastro.2019.05.056",
+   "type": "rct",
+   "n": "17,598 patients (COMPASS)",
+   "finding": "Pantoprazole 40 mg for about 3 years caused no excess of pneumonia, fracture, dementia or other harms versus placebo except enteric infections (1.4% vs 1.0%)."
+  },
+  {
+   "id": "med-morenocabanas2022",
+   "authors": "Moreno-Cabañas A, Morales-Palomo F, Alvarez-Jimenez L, et al.",
+   "year": 2022,
+   "title": "Effects of chronic metformin treatment on training adaptations in men and women with hyperglycemia: A prospective study.",
+   "journal": "Obesity (Silver Spring)",
+   "pmid": "35578807",
+   "doi": "10.1002/oby.23410",
+   "type": "cohort",
+   "n": "63 adults with metabolic syndrome",
+   "finding": "Among people doing 16 weeks of HIIT, those already taking metformin gained about half as much VO2max (12.7% vs 25.3%) as non-users, although insulin-resistance improvements were similar."
+  },
+  {
+   "id": "med-neeland2024",
+   "authors": "Neeland IJ, Linge J, Birkenfeld AL",
+   "year": 2024,
+   "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "38937282",
+   "doi": "10.1111/dom.15728",
+   "type": "review",
+   "n": null,
+   "finding": "Lean-mass loss on GLP-1 therapies is largely proportional to weight lost and may be adaptive (less muscle fat, better insulin sensitivity), but older or frail patients risk sarcopenia."
+  },
+  {
+   "id": "med-oesterle2017",
+   "authors": "Oesterle A, Laufs U, Liao JK",
+   "year": 2017,
+   "title": "Pleiotropic Effects of Statins on the Cardiovascular System.",
+   "journal": "Circ Res",
+   "pmid": "28057795",
+   "doi": "10.1161/CIRCRESAHA.116.308537",
+   "type": "review",
+   "n": null,
+   "finding": "Statins block isoprenoid synthesis and thereby Rho/Rac signalling and NADPH oxidase activity, lowering ROS and inflammation in cells and animals; how much this adds clinically beyond LDL lowering is debated."
+  },
+  {
+   "id": "med-owen2000",
+   "authors": "Owen MR, Doran E, Halestrap AP",
+   "year": 2000,
+   "title": "Evidence that metformin exerts its anti-diabetic effects through inhibition of complex 1 of the mitochondrial respiratory chain.",
+   "journal": "Biochem J",
+   "pmid": "10839993",
+   "doi": null,
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Metformin slowly accumulates in mitochondria and inhibits respiratory-chain complex I in hepatoma cells and rat liver, which restrains gluconeogenesis."
+  },
+  {
+   "id": "med-palleja2018",
+   "authors": "Palleja A, Mikkelsen KH, Forslund SK, et al.",
+   "year": 2018,
+   "title": "Recovery of gut microbiota of healthy adults following antibiotic exposure.",
+   "journal": "Nat Microbiol",
+   "pmid": "30349083",
+   "doi": "10.1038/s41564-018-0257-9",
+   "type": "mechanistic",
+   "n": "12 healthy men",
+   "finding": "After a 4-day broad-spectrum antibiotic cocktail, gut microbiota recovered to near-baseline within 1.5 months, though 9 common species were still missing at 180 days."
+  },
+  {
+   "id": "med-panza2016",
+   "authors": "Panza GA, Taylor BA, Thompson PD, et al.",
+   "year": 2016,
+   "title": "The Effect of Atorvastatin on Habitual Physical Activity among Healthy Adults.",
+   "journal": "Med Sci Sports Exerc",
+   "pmid": "26197031",
+   "doi": "10.1249/MSS.0000000000000740",
+   "type": "rct",
+   "n": "418 statin-naive adults",
+   "finding": "Atorvastatin 80 mg for 6 months did not reduce habitual physical activity differently from placebo."
+  },
+  {
+   "id": "med-peel2026",
+   "authors": "Peel A, Lyons H, Tully CA, et al.",
+   "year": 2026,
+   "title": "The effect of obesity interventions on male fertility: a systematic review and meta-analysis.",
+   "journal": "Hum Reprod Update",
+   "pmid": "41065428",
+   "doi": "10.1093/humupd/dmaf025",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Lifestyle weight-loss interventions modestly improved sperm morphology and progressive motility in men; data on GLP-1 agonists and on conception outcomes were too limited to judge."
+  },
+  {
+   "id": "med-peters2015",
+   "authors": "Peters AL, Buschur EO, Buse JB, et al.",
+   "year": 2015,
+   "title": "Euglycemic Diabetic Ketoacidosis: A Potential Complication of Treatment With Sodium-Glucose Cotransporter 2 Inhibition.",
+   "journal": "Diabetes Care",
+   "pmid": "26078479",
+   "doi": "10.2337/dc15-0843",
+   "type": "case-control",
+   "n": "13 episodes in 9 patients",
+   "finding": "Case series establishing euglycemic diabetic ketoacidosis with SGLT2 inhibitors; normal glucose delayed recognition."
+  },
+  {
+   "id": "med-pilmark2021",
+   "authors": "Pilmark NS, Lyngbæk M, Oberholzer L, et al.",
+   "year": 2021,
+   "title": "The interaction between metformin and physical activity on postprandial glucose and glucose kinetics: a randomised, clinical trial.",
+   "journal": "Diabetologia",
+   "pmid": "32979074",
+   "doi": "10.1007/s00125-020-05282-6",
+   "type": "rct",
+   "n": "29 glucose-intolerant adults",
+   "finding": "Metformin 2 g/day plus 12 weeks of interval cycling was not better than training alone for post-meal glucose; VO2peak rose 15% with no between-group difference."
+  },
+  {
+   "id": "med-ponsrejraji2014",
+   "authors": "Pons-Rejraji H, Brugnon F, Sion B, et al.",
+   "year": 2014,
+   "title": "Evaluation of atorvastatin efficacy and toxicity on spermatozoa, accessory glands and gonadal hormones of healthy men: a pilot prospective clinical trial.",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "25016482",
+   "doi": "10.1186/1477-7827-12-65",
+   "type": "cohort",
+   "n": "17 healthy men (pilot)",
+   "finding": "Atorvastatin 10 mg for 5 months was followed by a 31% fall in total sperm count and changes in accessory-gland markers, some persisting 3 months after stopping."
+  },
+  {
+   "id": "med-prada2025",
+   "authors": "Prada D, Ritz B, Bauer AZ, et al.",
+   "year": 2025,
+   "title": "Evaluation of the evidence on acetaminophen use and neurodevelopmental disorders using the Navigation Guide methodology.",
+   "journal": "Environ Health",
+   "pmid": "40804730",
+   "doi": "10.1186/s12940-025-01208-0",
+   "type": "review",
+   "n": "46 studies",
+   "finding": "Navigation Guide review: 27 of 46 studies reported positive associations of prenatal acetaminophen with ADHD/autism, with higher-quality studies more often positive; authors urge limiting use."
+  },
+  {
+   "id": "med-qu2018",
+   "authors": "Qu H, Guo M, Chai H, et al.",
+   "year": 2018,
+   "title": "Effects of Coenzyme Q10 on Statin-Induced Myopathy: An Updated Meta-Analysis of Randomized Controlled Trials.",
+   "journal": "J Am Heart Assoc",
+   "pmid": "30371340",
+   "doi": "10.1161/JAHA.118.009835",
+   "type": "meta-analysis",
+   "n": "12 RCTs, 575 patients",
+   "finding": "CoQ10 reduced statin-associated muscle pain, weakness, cramps and tiredness versus placebo, without changing CK."
+  },
+  {
+   "id": "med-rena2017",
+   "authors": "Rena G, Hardie DG, Pearson ER",
+   "year": 2017,
+   "title": "The mechanisms of action of metformin.",
+   "journal": "Diabetologia",
+   "pmid": "28776086",
+   "doi": "10.1007/s00125-017-4342-z",
+   "type": "review",
+   "n": null,
+   "finding": "Metformin acts through AMPK-dependent and independent routes, including inhibition of mitochondrial respiration (complex I) and possibly mitochondrial glycerophosphate dehydrogenase, with a growing role for the gut."
+  },
+  {
+   "id": "med-ridker2008",
+   "authors": "Ridker PM, Danielson E, Fonseca FA, et al.",
+   "year": 2008,
+   "title": "Rosuvastatin to prevent vascular events in men and women with elevated C-reactive protein.",
+   "journal": "N Engl J Med",
+   "pmid": "18997196",
+   "doi": "10.1056/NEJMoa0807646",
+   "type": "rct",
+   "n": "17,802 adults with LDL <130 mg/dL and hsCRP >=2 mg/L (JUPITER)",
+   "finding": "Rosuvastatin 20 mg cut LDL 50% and hsCRP 37% and nearly halved major cardiovascular events (HR 0.56), with more physician-reported diabetes."
+  },
+  {
+   "id": "med-rubino2021",
+   "authors": "Rubino D, Abrahamsson N, Davies M, et al.",
+   "year": 2021,
+   "title": "Effect of Continued Weekly Subcutaneous Semaglutide vs Placebo on Weight Loss Maintenance in Adults With Overweight or Obesity: The STEP 4 Randomized Clinical Trial.",
+   "journal": "JAMA",
+   "pmid": "33755728",
+   "doi": "10.1001/jama.2021.3224",
+   "type": "rct",
+   "n": "803 adults with obesity (STEP 4)",
+   "finding": "After a 20-week semaglutide run-in (-10.6%), continuing semaglutide lost a further 7.9% by week 68 whereas switching to placebo regained 6.9%."
+  },
+  {
+   "id": "med-schoenfeld2012",
+   "authors": "Schoenfeld BJ",
+   "year": 2012,
+   "title": "The use of nonsteroidal anti-inflammatory drugs for exercise-induced muscle damage: implications for skeletal muscle development.",
+   "journal": "Sports Med",
+   "pmid": "23013520",
+   "doi": "10.1007/BF03262309",
+   "type": "review",
+   "n": null,
+   "finding": "Occasional NSAID use is unlikely to impair muscle growth; chronic use is less clear and may be detrimental in people with high growth potential."
+  },
+  {
+   "id": "med-schurks2010",
+   "authors": "Schürks M, Glynn RJ, Rist PM, et al.",
+   "year": 2010,
+   "title": "Effects of vitamin E on stroke subtypes: meta-analysis of randomised controlled trials.",
+   "journal": "BMJ",
+   "pmid": "21051774",
+   "doi": "10.1136/bmj.c5702",
+   "type": "meta-analysis",
+   "n": "9 RCTs, 118,765 participants",
+   "finding": "Vitamin E raised haemorrhagic stroke risk 22% while lowering ischaemic stroke 10%; no net effect on total stroke."
+  },
+  {
+   "id": "med-sharpe2019",
+   "authors": "Sharpe A, Morley LC, Tang T, et al.",
+   "year": 2019,
+   "title": "Metformin for ovulation induction (excluding gonadotrophins) in women with polycystic ovary syndrome.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "31845767",
+   "doi": "10.1002/14651858.CD013505",
+   "type": "meta-analysis",
+   "n": "41 RCTs, 4552 women",
+   "finding": "Cochrane: in PCOS, metformin may improve live birth versus placebo (OR 1.59, low quality) but quadruples GI side effects; adding it to clomiphene has uncertain effect on live birth; clomiphene beats metformin in obese women."
+  },
+  {
+   "id": "med-singh2008",
+   "authors": "Singh U, Devaraj S, Jialal I, et al.",
+   "year": 2008,
+   "title": "Comparison effect of atorvastatin (10 versus 80 mg) on biomarkers of inflammation and oxidative stress in subjects with metabolic syndrome.",
+   "journal": "Am J Cardiol",
+   "pmid": "18638594",
+   "doi": "10.1016/j.amjcard.2008.03.057",
+   "type": "rct",
+   "n": "70 adults with metabolic syndrome",
+   "finding": "Atorvastatin 80 mg cut oxidized LDL 39% (vs 24% with 10 mg) and lowered hsCRP and NF-kB activity over 12 weeks."
+  },
+  {
+   "id": "med-smarr2016",
+   "authors": "Smarr MM, Grantz KL, Sundaram R, et al.",
+   "year": 2016,
+   "title": "Urinary paracetamol and time-to-pregnancy.",
+   "journal": "Hum Reprod",
+   "pmid": "27412248",
+   "doi": "10.1093/humrep/dew172",
+   "type": "cohort",
+   "n": "501 couples (LIFE study)",
+   "finding": "Men in the highest quartile of urinary paracetamol had longer time to pregnancy (fecundability OR 0.67); no association when modelled continuously or in women."
+  },
+  {
+   "id": "med-stone2002",
+   "authors": "Stone S, Khamashta MA, Nelson-Piercy C",
+   "year": 2002,
+   "title": "Nonsteroidal anti-inflammatory drugs and reversible female infertility: is there a link?",
+   "journal": "Drug Saf",
+   "pmid": "12113640",
+   "doi": "10.2165/00002018-200225080-00001",
+   "type": "review",
+   "n": null,
+   "finding": "COX-2 inhibition blocks follicle rupture; animal data and three small clinical studies link regular NSAIDs to reversible anovulation, so withdrawal should be considered during fertility work-up."
+  },
+  {
+   "id": "med-tan2021",
+   "authors": "Tan CSS, Lee SWH",
+   "year": 2021,
+   "title": "Warfarin and food, herbal or dietary supplement interactions: A systematic review.",
+   "journal": "Br J Clin Pharmacol",
+   "pmid": "32478963",
+   "doi": "10.1111/bcp.14404",
+   "type": "review",
+   "n": "149 articles, 78 foods/herbs/supplements",
+   "finding": "Systematic review of warfarin interactions: 45 foods, herbs or supplements potentiated warfarin, some causing serious bleeding; St John's wort, green tea and others flagged."
+  },
+  {
+   "id": "med-taylor2015",
+   "authors": "Taylor BA, Lorson L, White CM, et al.",
+   "year": 2015,
+   "title": "A randomized trial of coenzyme Q10 in patients with confirmed statin myopathy.",
+   "journal": "Atherosclerosis",
+   "pmid": "25545331",
+   "doi": "10.1016/j.atherosclerosis.2014.12.016",
+   "type": "rct",
+   "n": "120 patients with reported statin myalgia; 41 randomized to CoQ10 or placebo",
+   "finding": "Only 36% of people reporting statin myalgia had symptoms on blinded simvastatin vs placebo; ubiquinol CoQ10 600 mg/day raised serum CoQ10 fourfold but did not reduce pain."
+  },
+  {
+   "id": "med-teede2023",
+   "authors": "Teede HJ, Tay CT, Laven JJE, et al.",
+   "year": 2023,
+   "title": "Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "37580314",
+   "doi": "10.1210/clinem/dgad463",
+   "type": "guideline",
+   "n": null,
+   "finding": "2023 International Evidence-based PCOS Guideline (endorsed by ASRM, ESHRE, Endocrine Society, ESE): 254 recommendations including letrozole as first-line ovulation induction, metformin for metabolic features, and anti-obesity medicines alongside lifestyle."
+  },
+  {
+   "id": "med-terada2019",
+   "authors": "Terada T, Boulé NG",
+   "year": 2019,
+   "title": "Does metformin therapy influence the effects of intensive lifestyle intervention? Exploring the interaction between first line therapies in the Look AHEAD trial.",
+   "journal": "Metabolism",
+   "pmid": "30653978",
+   "doi": "10.1016/j.metabol.2019.01.004",
+   "type": "rct",
+   "n": "1982 adults with type 2 diabetes (Look AHEAD)",
+   "finding": "Background metformin was associated with slightly smaller weight loss (-4.7 vs -5.7 kg) under intensive lifestyle intervention and added little glycemic benefit, but did not change fitness gains."
+  },
+  {
+   "id": "med-trappe2011",
+   "authors": "Trappe TA, Carroll CC, Dickinson JM, et al.",
+   "year": 2011,
+   "title": "Influence of acetaminophen and ibuprofen on skeletal muscle adaptations to resistance exercise in older adults.",
+   "journal": "Am J Physiol Regul Integr Comp Physiol",
+   "pmid": "21160058",
+   "doi": "10.1152/ajpregu.00611.2010",
+   "type": "rct",
+   "n": "36 older adults",
+   "finding": "Over-the-counter doses of acetaminophen (4 g/day) or ibuprofen (1.2 g/day) during 12 weeks of resistance training did not inhibit muscle growth and strength and appeared to enhance them (muscle volume +12.5% and +10.9% vs +8.6% on placebo) in older adults."
+  },
+  {
+   "id": "med-vahedianazimi2021",
+   "authors": "Vahedian-Azimi A, Makvandi S, Banach M, et al.",
+   "year": 2021,
+   "title": "Fetal toxicity associated with statins: A systematic review and meta-analysis.",
+   "journal": "Atherosclerosis",
+   "pmid": "34044205",
+   "doi": "10.1016/j.atherosclerosis.2021.05.006",
+   "type": "meta-analysis",
+   "n": "23 studies",
+   "finding": "Statin use in pregnancy was not significantly associated with birth defects (OR 1.48, 0.90-2.42), though the authors call for more data."
+  },
+  {
+   "id": "med-wachira2014",
+   "authors": "Wachira JK, Larson MK, Harris WS",
+   "year": 2014,
+   "title": "n-3 Fatty acids affect haemostasis but do not increase the risk of bleeding: clinical observations and mechanistic insights.",
+   "journal": "Br J Nutr",
+   "pmid": "24472372",
+   "doi": "10.1017/S000711451300425X",
+   "type": "review",
+   "n": null,
+   "finding": "Omega-3 fatty acids alter platelet function but did not increase clinically significant bleeding, including with antiplatelet or anticoagulant drugs."
+  },
+  {
+   "id": "med-walton2019",
+   "authors": "Walton RG, Dungan CM, Long DE, et al.",
+   "year": 2019,
+   "title": "Metformin blunts muscle hypertrophy in response to progressive resistance exercise training in older adults: A randomized, double-blind, placebo-controlled, multicenter trial: The MASTERS trial.",
+   "journal": "Aging Cell",
+   "pmid": "31557380",
+   "doi": "10.1111/acel.13039",
+   "type": "rct",
+   "n": "94 healthy adults aged 65+",
+   "finding": "MASTERS: metformin 1700 mg/day during 14 weeks of progressive resistance training blunted gains in lean body mass and thigh muscle area versus placebo, with a non-significant trend to smaller strength gains."
+  },
+  {
+   "id": "med-watkins2006",
+   "authors": "Watkins PB, Kaplowitz N, Slattery JT, et al.",
+   "year": 2006,
+   "title": "Aminotransferase elevations in healthy adults receiving 4 grams of acetaminophen daily: a randomized controlled trial.",
+   "journal": "JAMA",
+   "pmid": "16820551",
+   "doi": "10.1001/jama.296.1.87",
+   "type": "rct",
+   "n": "145 healthy adults",
+   "finding": "Starting 4 g/day acetaminophen produced ALT >3x the upper limit in 31-44% of healthy adults within 2 weeks versus 0% on placebo."
+  },
+  {
+   "id": "med-wensink2022",
+   "authors": "Wensink MJ, Lu Y, Tian L, et al.",
+   "year": 2022,
+   "title": "Preconception Antidiabetic Drugs in Men and Birth Defects in Offspring : A Nationwide Cohort Study.",
+   "journal": "Ann Intern Med",
+   "pmid": "35344380",
+   "doi": "10.7326/M21-4389",
+   "type": "cohort",
+   "n": "1,116,779 Danish births",
+   "finding": "Offspring of fathers who filled metformin prescriptions during sperm development had more major birth defects (aOR 1.40), especially genital defects in boys; exposure outside that window showed no excess."
+  },
+  {
+   "id": "med-whitten2006",
+   "authors": "Whitten DL, Myers SP, Hawrelak JA, et al.",
+   "year": 2006,
+   "title": "The effect of St John's wort extracts on CYP3A: a systematic review of prospective clinical trials.",
+   "journal": "Br J Clin Pharmacol",
+   "pmid": "17010103",
+   "doi": "10.1111/j.1365-2125.2006.02755.x",
+   "type": "review",
+   "n": "31 studies",
+   "finding": "High-hyperforin St John's wort extracts (>10 mg/day) consistently induce CYP3A; low-hyperforin extracts (<4 mg/day) did not."
+  },
+  {
+   "id": "med-wilding2021",
+   "authors": "Wilding JPH, Batterham RL, Calanna S, et al.",
+   "year": 2021,
+   "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity.",
+   "journal": "N Engl J Med",
+   "pmid": "33567185",
+   "doi": "10.1056/NEJMoa2032183",
+   "type": "rct",
+   "n": "1961 adults with overweight/obesity (STEP 1)",
+   "finding": "Semaglutide 2.4 mg weekly plus lifestyle cut body weight 14.9% vs 2.4% with placebo over 68 weeks."
+  },
+  {
+   "id": "med-yasueda2016",
+   "authors": "Yasueda A, Urushima H, Ito T",
+   "year": 2016,
+   "title": "Efficacy and Interaction of Antioxidant Supplements as Adjuvant Therapy in Cancer Treatment: A Systematic Review.",
+   "journal": "Integr Cancer Ther",
+   "pmid": "26503419",
+   "doi": "10.1177/1534735415610427",
+   "type": "review",
+   "n": "49 RCTs",
+   "finding": "Harm from antioxidant supplements during cancer therapy remains unclear except for smokers having radiotherapy."
   }
  ]
 }
