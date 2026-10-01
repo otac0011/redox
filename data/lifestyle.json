@@ -612,40 +612,104 @@
   },
   {
    "id": "shift-work-circadian",
-   "name": "Night-shift work and circadian disruption",
+   "name": "Night-shift work and circadian misalignment",
    "kind": "lifestyle",
    "scopes": [
     "general",
-    "egg",
-    "sperm"
+    "sperm",
+    "egg"
    ],
    "direction": "harmful",
    "impact": {
-    "general": 2,
-    "egg": 1,
-    "sperm": 1
+    "general": 3,
+    "sperm": 1,
+    "egg": 1
    },
-   "evidence": "limited",
-   "headline": "Night work suppresses melatonin and was linked to much lower excretion of repaired oxidative DNA lesions (20% of night-sleep levels), suggesting impaired DNA repair.",
+   "evidence": "moderate",
+   "headline": "Shift work is linked to about 17% more cardiovascular events and roughly 10% more type 2 diabetes, and lab studies that flip sleep and meals by 12 hours raise glucose, blood pressure and inflammatory markers within days; night workers show more oxidative damage and lower antioxidant defences, though these data are cross-sectional.",
    "dose": {
-    "effective": "Limit consecutive night shifts where possible; sleep in a dark room; keep a stable schedule on days off. Melatonin before day sleep is being studied.",
-    "studied_range": "Observational studies of rotating and permanent night workers; one 4-week melatonin RCT (n=40).",
-    "too_much": "Long-term rotating night work.",
-    "timeframe": "Melatonin trial: 4 weeks.",
-    "notes": "The melatonin result was borderline and needs confirmation."
+    "effective": "Where possible limit consecutive nights and years of rotating nights; keep the day-sleep room dark and quiet; avoid large meals during the biological night (roughly midnight to 6 am); get bright light during the shift and wear dark glasses on the way home; keep a regular schedule on days off.",
+    "studied_range": "Lab misalignment for 3-10 days or 3 weeks of 28-hour days; cohorts with up to decades of rotating nights (≥3 night shifts/month).",
+    "too_much": "CVD risk rose ~7% per additional 5 years of shift work after the first 5 years; CHD risk rose with years of rotating nights and waned after stopping.",
+    "timeframe": "Glucose and blood-pressure effects within 3 days of misalignment; cardiometabolic disease over years.",
+    "notes": "Melatonin before day sleep is being tested for DNA repair (borderline result); see [melatonin]. Short or poor sleep often coexists ([short-sleep])."
    },
-   "mechanism": "Light at night suppresses melatonin; melatonin supports OGG1-mediated repair of 8-oxoguanine and acts as an antioxidant. Circadian misalignment also disturbs glucose and lipid metabolism and clock-controlled Nrf2 rhythms.",
+   "mechanism": "Light at night suppresses melatonin and desynchronises the central clock from peripheral clocks in liver, muscle and fat. Misalignment lowers insulin sensitivity, raises blood pressure and inflammatory cytokines and disturbs clock-controlled antioxidant and DNA-repair genes (including Nrf2 targets and OGG1). Reduced night-time melatonin is proposed to impair repair of 8-oxoguanine.",
    "pathways": [
     "endocrine",
     "dna-repair",
+    "inflammation-nfkb",
+    "mitochondrial",
     "nrf2"
    ],
-   "interactions": "Overlaps with [short-sleep]; worsens [glycemic-control].",
-   "caveats": "Reduced urinary 8-OH-dG is read as reduced repair, not reduced damage; interpretation depends on that assumption. Evidence is mostly observational.",
+   "interactions": "Overlaps with [short-sleep], [evening-light-exposure] and [late-eating]; worsens [glycemic-control] and weight gain ([excess-adiposity]).",
+   "caveats": "Shift workers differ from day workers in income, smoking and health (healthy-worker and selection effects). Lower urinary 8-OH-dG during night work is interpreted as reduced repair rather than less damage, which is an assumption. Sperm and egg data are observational: rotating-shift men had ~11% lower sperm concentration and lower fecundity, and women on non-day shifts had 2.3 fewer mature oocytes at IVF, but a large nurse cohort found no effect of shift work on time to pregnancy.",
+   "debate": "IARC classifies night shift work as probably carcinogenic (Group 2A) [kcc-iarc2019], yet a meta-analysis of 10 prospective studies found no association with breast cancer even after 30 years [kcc-travis2016]. Cardiometabolic associations are consistent [kcc-torquati2018, kcc-gan2015, kcc-gao2020, kcc-vetter2016] and supported by lab misalignment studies [kcc-scheer2009, kcc-morris2015, kcc-morris2016, kcc-buxton2012]. For oxidative stress, a cross-sectional study found worse markers in night workers but no link with social jetlag [kcc-teixeira2019]; the reduced-repair reading of 8-OH-dG [kcc-bhatti2016, kcc-bhatti2017] rests on an untested assumption and the melatonin trial was borderline [kcc-zanif2025]. Fertility: a meta-analysis linked shift work to menstrual disruption and infertility (with very high heterogeneity) [kcc-stocker2014], while nurses showed no effect on time to pregnancy [kcc-gaskins2015].",
+   "key_numbers": [
+    {
+     "label": "Any CVD event, shift vs day workers",
+     "value": 1.17,
+     "unit": "RR",
+     "source": "kcc-torquati2018"
+    },
+    {
+     "label": "Diabetes, ever shift work",
+     "value": 1.09,
+     "unit": "OR",
+     "source": "kcc-gan2015"
+    },
+    {
+     "label": "Postprandial glucose rise from misalignment alone",
+     "value": 6,
+     "unit": "%",
+     "source": "kcc-morris2015"
+    },
+    {
+     "label": "Breast cancer, any night shift work (10 prospective studies)",
+     "value": 0.99,
+     "unit": "RR",
+     "source": "kcc-travis2016"
+    },
+    {
+     "label": "Urinary 8-OH-dG during night work vs night sleep",
+     "value": 20,
+     "unit": "%",
+     "source": "kcc-bhatti2017"
+    },
+    {
+     "label": "Mature oocytes, non-day vs day shifts",
+     "value": -2.3,
+     "unit": "oocytes",
+     "source": "kcc-minguezalarcon2017"
+    },
+    {
+     "label": "Sperm concentration, rotating shift vs fixed day",
+     "value": -10.8,
+     "unit": "%",
+     "source": "kcc-wang2026"
+    }
+   ],
    "refs": [
-    "bhatti2017",
-    "zanif2025",
-    "nagata2017"
+    "kcc-torquati2018",
+    "kcc-gan2015",
+    "kcc-gao2020",
+    "kcc-vetter2016",
+    "kcc-iarc2019",
+    "kcc-travis2016",
+    "kcc-scheer2009",
+    "kcc-morris2015",
+    "kcc-morris2016",
+    "kcc-buxton2012",
+    "kcc-teixeira2019",
+    "kcc-bhatti2016",
+    "kcc-bhatti2017",
+    "kcc-zanif2025",
+    "kcc-jiang2026",
+    "kcc-stocker2014",
+    "kcc-gaskins2015",
+    "kcc-minguezalarcon2017",
+    "kcc-wang2026",
+    "kcc-boeri2025"
    ]
   },
   {
@@ -3300,6 +3364,152 @@
     "nut-diangelantonio2017",
     "nut-kaptoge2019",
     "nut-vandenhurk2018"
+   ]
+  },
+  {
+   "id": "morning-light",
+   "name": "Morning and daytime bright light",
+   "kind": "lifestyle",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "limited",
+   "headline": "Bright daytime, especially morning, light anchors the body clock earlier (a summer camping weekend gave ~69% of a full week's shift), light therapy modestly improves sleep problems, and among 88,905 UK Biobank sensor-wearers the brightest days were linked to 17-34% lower mortality, but these outcome links are observational.",
+   "dose": {
+    "effective": "Daytime light of at least 250 lux melanopic EDI at eye level, which typical indoor lighting often fails to reach but outdoor daylight easily exceeds; in practice, time outdoors in the first hours after waking and working near windows.",
+    "studied_range": "Camping in natural light for a weekend to a week; office workers with measured circadian light; light-therapy trials with light boxes for sleep problems.",
+    "too_much": "Never look directly at the sun; balance with skin UV protection ([uv-sun-exposure]).",
+    "timeframe": "Circadian shifts within days; sleep improvements within weeks.",
+    "notes": "Late chronotypes shifted the most toward solar time in the camping study."
+   },
+   "mechanism": "Melanopsin-containing retinal ganglion cells signal the suprachiasmatic nucleus; light in the early biological day advances the clock, strengthens rhythm amplitude and supports a timely, robust evening melatonin rise, which aligns metabolic, antioxidant and DNA-repair rhythms with behaviour.",
+   "pathways": [
+    "endocrine",
+    "redox-signaling"
+   ],
+   "interactions": "Complements dim evenings ([evening-light-exposure]); helps shift workers re-entrain ([shift-work-circadian]); supports sleep ([short-sleep]).",
+   "caveats": "Mortality and diabetes associations with light patterns come from a week of wrist-sensor data and could reflect health, mobility and time outdoors (exercise). Light-therapy meta-analysis showed publication bias and smaller effects in RCTs. Some of the leading cohort authors disclose lighting-industry funding.",
+   "debate": "Camping and office studies show earlier, stronger rhythms with more daylight [kcc-wright2013, kcc-stothard2017, kcc-figueiro2017], and UK Biobank links brighter days to lower mortality [kcc-windred2024b]; an expert consensus sets daytime targets [kcc-brown2022]. Sceptics note the outcome data are observational with possible reverse causation (sick people go outside less), light-therapy effects are small with publication bias [kcc-vanmaanen2016], and some cohort authors disclose lighting-industry funding [kcc-windred2024b]. No trial has tested daylight exposure on oxidative-stress markers.",
+   "key_numbers": [
+    {
+     "label": "Recommended daytime light at the eye",
+     "value": 250,
+     "unit": "lux melanopic EDI (min)",
+     "source": "kcc-brown2022"
+    },
+    {
+     "label": "Circadian shift from weekend camping, relative to a week",
+     "value": 69,
+     "unit": "%",
+     "source": "kcc-stothard2017"
+    },
+    {
+     "label": "Light therapy effect on insomnia",
+     "value": 0.47,
+     "unit": "Hedges g",
+     "source": "kcc-vanmaanen2016"
+    },
+    {
+     "label": "All-cause mortality, brightest-day decile (lower bound of range)",
+     "value": 0.66,
+     "unit": "aHR",
+     "source": "kcc-windred2024b"
+    }
+   ],
+   "refs": [
+    "kcc-wright2013",
+    "kcc-stothard2017",
+    "kcc-figueiro2017",
+    "kcc-windred2024b",
+    "kcc-brown2022",
+    "kcc-vanmaanen2016"
+   ]
+  },
+  {
+   "id": "evening-light-exposure",
+   "name": "Evening and night-time light (room light, screens, light while sleeping)",
+   "kind": "lifestyle",
+   "scopes": [
+    "general",
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2,
+    "sperm": 1
+   },
+   "evidence": "moderate",
+   "headline": "Ordinary room light before bed delayed melatonin onset in 99% of people and shortened melatonin by about 90 minutes, half-maximal suppression occurs at only ~25 lux, sleeping with a light or TV on was linked to 17-33% more weight gain and obesity, and one night at 100 lux raised next-morning insulin resistance.",
+   "dose": {
+    "effective": "In the 3 hours before bed keep light at the eye below about 10 lux melanopic EDI (dim, warm lamps below eye level); keep the bedroom as dark as possible (≤1 lux melanopic EDI; blackout curtains or an eye mask); reduce screen brightness and use low-melanopic (warm) display settings, or stop screens before bed.",
+    "studied_range": "Room light <200 lux vs <3 lux for 8 h before bed; 10-2,000 lux for 5 h; ~4 h of e-reader use for 5 nights; 100 lux during one night of sleep; habitual bedroom light ≥3 lux.",
+    "too_much": "Sleeping with a TV or ceiling light on; bright overhead lighting or full-brightness screens late in the evening.",
+    "timeframe": "Melatonin suppression within minutes to hours; circadian delay after a few evenings; metabolic effects after one night.",
+    "notes": "Brightness matters more than screen colour filters: in one trial, iPhone Night Shift did not improve sleep, and blue-blocking glasses have indeterminate effects on sleep. See also [morning-light]. Melatonin supplements are covered under [melatonin]."
+   },
+   "mechanism": "Melanopsin-driven signals from the retina inhibit pineal melatonin synthesis and phase-delay the clock. Melatonin is a direct radical scavenger and induces antioxidant enzymes and DNA repair; suppressing it, plus sympathetic activation during lit sleep, worsens insulin sensitivity. Follicular fluid melatonin protects oocytes from oxidative stress in laboratory studies.",
+   "pathways": [
+    "endocrine",
+    "direct-scavenging",
+    "dna-repair"
+   ],
+   "interactions": "Delays the melatonin rise that makes [late-eating] worse for glucose; adds to [shift-work-circadian]; contributes to [short-sleep].",
+   "caveats": "Health-outcome links (obesity, diabetes, mortality) are observational and confounded by urban living, income, sleep and mental health. Sperm data are one small cross-sectional study of men at a fertility clinic and one ecological study of outdoor light at night; we did not create a separate sperm factor. No human study has tied evening light to egg quality, although melatonin protects oocytes in laboratory work.",
+   "debate": "Laboratory trials consistently show melatonin suppression and circadian delay [kcc-gooley2011, kcc-phillips2019, kcc-chang2015, kcc-schollhorn2023], and one night of lit sleep impaired insulin sensitivity [kcc-mason2022]; cohorts link light at night to obesity, diabetes and mortality [kcc-park2019, kcc-obayashi2013, kcc-windred2024a, kcc-windred2024b]. A letter argued the e-reader findings overstate real-life relevance and the authors defended them [kcc-zeitzer2015, kcc-changczeisler2015]; screen-colour fixes have weak support (Night Shift [kcc-duraccio2021]; blue-blocking glasses indeterminate [kcc-singh2023]); and cohort authors disclose lighting-industry funding [kcc-windred2024a]. Sperm associations [kcc-green2020, kcc-tian2024] are preliminary.",
+   "key_numbers": [
+    {
+     "label": "Melatonin duration lost with room light before bed",
+     "value": 90,
+     "unit": "min",
+     "source": "kcc-gooley2011"
+    },
+    {
+     "label": "Evening light for 50% melatonin suppression (group ED50)",
+     "value": 24.6,
+     "unit": "lux",
+     "source": "kcc-phillips2019"
+    },
+    {
+     "label": "Recommended max light in 3 h before bed",
+     "value": 10,
+     "unit": "lux melanopic EDI",
+     "source": "kcc-brown2022"
+    },
+    {
+     "label": "Incident obesity, sleeping with TV/light on",
+     "value": 1.33,
+     "unit": "RR",
+     "source": "kcc-park2019"
+    },
+    {
+     "label": "Type 2 diabetes, brightest-night decile vs darkest half",
+     "value": 1.53,
+     "unit": "HR",
+     "source": "kcc-windred2024a"
+    }
+   ],
+   "refs": [
+    "kcc-gooley2011",
+    "kcc-phillips2019",
+    "kcc-chang2015",
+    "kcc-zeitzer2015",
+    "kcc-changczeisler2015",
+    "kcc-schollhorn2023",
+    "kcc-mason2022",
+    "kcc-park2019",
+    "kcc-obayashi2013",
+    "kcc-windred2024a",
+    "kcc-windred2024b",
+    "kcc-brown2022",
+    "kcc-duraccio2021",
+    "kcc-singh2023",
+    "kcc-green2020",
+    "kcc-tian2024",
+    "kcc-reiter2014"
    ]
   }
  ],
@@ -9460,6 +9670,498 @@
    "type": "meta-analysis",
    "n": "16 studies",
    "finding": "Highest vs lowest ferritin: prospective T2D RR 1.66; highest vs lowest heme iron intake RR 1.31."
+  },
+  {
+   "id": "kcc-bhatti2016",
+   "authors": "Bhatti P, Mirick DK, Randolph TW, et al.",
+   "year": 2016,
+   "title": "Oxidative DNA damage during sleep periods among nightshift workers.",
+   "journal": "Occup Environ Med",
+   "pmid": "27307003",
+   "doi": "10.1136/oemed-2016-103629",
+   "type": "cross-sectional",
+   "n": "Night- and day-shift workers",
+   "finding": "Night-shift workers excreted less urinary 8-OH-dG during day sleep than day workers during night sleep, interpreted as reduced oxidative DNA repair linked to melatonin disruption."
+  },
+  {
+   "id": "kcc-bhatti2017",
+   "authors": "Bhatti P, Mirick DK, Randolph TW, et al.",
+   "year": 2017,
+   "title": "Oxidative DNA damage during night shift work.",
+   "journal": "Occup Environ Med",
+   "pmid": "28652381",
+   "doi": "10.1136/oemed-2017-104414",
+   "type": "cross-sectional",
+   "n": "Night-shift workers",
+   "finding": "Melatonin was much lower during night work than night sleep, and urinary 8-OH-dG during night work was only 20% of night-sleep levels, interpreted as reduced repair."
+  },
+  {
+   "id": "kcc-boeri2025",
+   "authors": "Boeri L, Passarelli F, Basadonna LM, et al.",
+   "year": 2025,
+   "title": "Oxidative Stress and Semen Quality Among Night- and Day-Shift Workers: A Cross-Sectional Study.",
+   "journal": "Antioxidants (Basel)",
+   "pmid": "40722906",
+   "doi": "10.3390/antiox14070802",
+   "type": "cross-sectional",
+   "n": "96 men seeking fertility assessment",
+   "finding": "Night-shift work independently predicted elevated oxidative stress (d-ROMs, OR 2.1); in an uncontrolled subgroup, antioxidant supplementation lowered d-ROMs more in night workers."
+  },
+  {
+   "id": "kcc-brown2022",
+   "authors": "Brown TM, Brainard GC, Cajochen C, et al.",
+   "year": 2022,
+   "title": "Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults.",
+   "journal": "PLoS Biol",
+   "pmid": "35298459",
+   "doi": "10.1371/journal.pbio.3001571",
+   "type": "guideline",
+   "n": null,
+   "finding": "Expert consensus: daytime light ≥250 lux melanopic EDI at the eye; ≤10 lux melanopic EDI in the 3 h before bed; ≤1 lux melanopic EDI in the sleep environment (≤10 if some light is needed)."
+  },
+  {
+   "id": "kcc-buxton2012",
+   "authors": "Buxton OM, Cain SW, O'Connor SP, et al.",
+   "year": 2012,
+   "title": "Adverse metabolic consequences in humans of prolonged sleep restriction combined with circadian disruption.",
+   "journal": "Sci Transl Med",
+   "pmid": "22496545",
+   "doi": "10.1126/scitranslmed.3003200",
+   "type": "rct",
+   "n": "Healthy adults (>5 weeks in laboratory)",
+   "finding": "Three weeks of sleep restriction (5.6 h/24 h) combined with 28-h days lowered resting metabolic rate and raised postprandial glucose through inadequate insulin secretion; reversed with recovery."
+  },
+  {
+   "id": "kcc-chang2015",
+   "authors": "Chang AM, Aeschbach D, Duffy JF, et al.",
+   "year": 2015,
+   "title": "Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25535358",
+   "doi": "10.1073/pnas.1418490112",
+   "type": "rct",
+   "n": "12 healthy adults (crossover)",
+   "finding": "Reading a light-emitting e-reader for ~4 h before bed for 5 nights, vs a printed book, lengthened sleep onset, suppressed melatonin, delayed the circadian clock and reduced next-morning alertness."
+  },
+  {
+   "id": "kcc-changczeisler2015",
+   "authors": "Chang AM, Czeisler CA",
+   "year": 2015,
+   "title": "Reply to Zeitzer: Good science, in or out of the laboratory, should prevail.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25762077",
+   "doi": "10.1073/pnas.1501544112",
+   "type": "review",
+   "n": null,
+   "finding": "Authors' reply defending the controlled laboratory design and its relevance to everyday evening device use."
+  },
+  {
+   "id": "kcc-duraccio2021",
+   "authors": "Duraccio KM, Zaugg KK, Blackburn RC, et al.",
+   "year": 2021,
+   "title": "Does iPhone night shift mitigate negative effects of smartphone use on sleep outcomes in emerging adults?",
+   "journal": "Sleep Health",
+   "pmid": "33867308",
+   "doi": "10.1016/j.sleh.2021.03.005",
+   "type": "rct",
+   "n": "167 iPhone users aged 18-24",
+   "finding": "iPhone Night Shift mode did not improve sleep outcomes vs normal phone use; among those sleeping >6.8 h, no phone before bed gave the best sleep."
+  },
+  {
+   "id": "kcc-figueiro2017",
+   "authors": "Figueiro MG, Steverson B, Heerwagen J, et al.",
+   "year": 2017,
+   "title": "The impact of daytime light exposures on sleep and mood in office workers.",
+   "journal": "Sleep Health",
+   "pmid": "28526259",
+   "doi": "10.1016/j.sleh.2017.03.005",
+   "type": "cohort",
+   "n": "109 office workers",
+   "finding": "High morning circadian-effective light was associated with shorter sleep onset latency, better sleep quality and stronger circadian entrainment, especially in winter."
+  },
+  {
+   "id": "kcc-gan2015",
+   "authors": "Gan Y, Yang C, Tong X, et al.",
+   "year": 2015,
+   "title": "Shift work and diabetes mellitus: a meta-analysis of observational studies.",
+   "journal": "Occup Environ Med",
+   "pmid": "25030030",
+   "doi": "10.1136/oemed-2014-102150",
+   "type": "meta-analysis",
+   "n": "12 studies, 226,652 participants",
+   "finding": "Ever shift work was associated with 9% higher diabetes risk (OR 1.09), higher in men (1.37) and rotating shifts."
+  },
+  {
+   "id": "kcc-gao2020",
+   "authors": "Gao Y, Gan T, Jiang L, et al.",
+   "year": 2020,
+   "title": "Association between shift work and risk of type 2 diabetes mellitus: a systematic review and dose-response meta-analysis of observational studies.",
+   "journal": "Chronobiol Int",
+   "pmid": "31684766",
+   "doi": "10.1080/07420528.2019.1683570",
+   "type": "meta-analysis",
+   "n": "Observational studies",
+   "finding": "Shift work was associated with higher type 2 diabetes risk (~10%), especially night and rotating shifts, with possible dose-response with years of exposure in women."
+  },
+  {
+   "id": "kcc-gaskins2015",
+   "authors": "Gaskins AJ, Rich-Edwards JW, Lawson CC, et al.",
+   "year": 2015,
+   "title": "Work schedule and physical factors in relation to fecundity in nurses.",
+   "journal": "Occup Environ Med",
+   "pmid": "26251064",
+   "doi": "10.1136/oemed-2015-103026",
+   "type": "cohort",
+   "n": "1,739 nurses trying to conceive",
+   "finding": "No shift-work pattern was associated with time to pregnancy; working >40 h/week and heavy lifting were."
+  },
+  {
+   "id": "kcc-gooley2011",
+   "authors": "Gooley JJ, Chamberlain K, Smith KA, et al.",
+   "year": 2011,
+   "title": "Exposure to room light before bedtime suppresses melatonin onset and shortens melatonin duration in humans.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "21193540",
+   "doi": "10.1210/jc.2010-2098",
+   "type": "rct",
+   "n": "116 healthy adults aged 18-30",
+   "finding": "Room light (<200 lux) before bedtime vs dim light delayed melatonin onset in 99% and shortened melatonin duration by ~90 min; room light during sleep hours suppressed melatonin >50% in 85% of trials."
+  },
+  {
+   "id": "kcc-green2020",
+   "authors": "Green A, Barak S, Shine L, et al.",
+   "year": 2020,
+   "title": "Exposure by males to light emitted from media devices at night is linked with decline of sperm quality and correlated with sleep quality measures.",
+   "journal": "Chronobiol Int",
+   "pmid": "32126861",
+   "doi": "10.1080/07420528.2020.1727918",
+   "type": "cross-sectional",
+   "n": "116 men undergoing fertility evaluation",
+   "finding": "Evening and post-bedtime smartphone/tablet use correlated negatively with sperm motility, progressive motility and concentration."
+  },
+  {
+   "id": "kcc-iarc2019",
+   "authors": "IARC Monographs Vol 124 group",
+   "year": 2019,
+   "title": "Carcinogenicity of night shift work.",
+   "journal": "Lancet Oncol",
+   "pmid": "31281097",
+   "doi": "10.1016/S1470-2045(19)30455-3",
+   "type": "guideline",
+   "n": null,
+   "finding": "IARC Monograph 124 classified night shift work as probably carcinogenic to humans (Group 2A), based on limited human evidence and sufficient animal evidence."
+  },
+  {
+   "id": "kcc-jiang2026",
+   "authors": "Jiang Z, Dou Y, Lei Y, et al.",
+   "year": 2026,
+   "title": "Mitochondrial Dysfunction Unravels the Potential Molecular Link Between Night Shift Work-Related Circadian Disruption and Elevated Blood Pressure in Human and Mouse Models.",
+   "journal": "Adv Sci (Weinh)",
+   "pmid": "42318636",
+   "doi": "10.1002/advs.202520318",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Simulated night-shift work in mice raised blood pressure with clock-gene disruption, mitochondrial dysfunction and oxidative stress; in human night workers exposure duration tracked blood pressure and mitochondrial markers."
+  },
+  {
+   "id": "kcc-mason2022",
+   "authors": "Mason IC, Grimaldi D, Reid KJ, et al.",
+   "year": 2022,
+   "title": "Light exposure during sleep impairs cardiometabolic function.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "35286195",
+   "doi": "10.1073/pnas.2113290119",
+   "type": "rct",
+   "n": "Healthy young adults",
+   "finding": "One night of sleeping in 100 lux room light vs <3 lux raised night-time heart rate, lowered heart rate variability and increased next-morning insulin resistance."
+  },
+  {
+   "id": "kcc-minguezalarcon2017",
+   "authors": "Mínguez-Alarcón L, Souter I, Williams PL, et al.",
+   "year": 2017,
+   "title": "Occupational factors and markers of ovarian reserve and response among women at a fertility centre.",
+   "journal": "Occup Environ Med",
+   "pmid": "28167499",
+   "doi": "10.1136/oemed-2016-103953",
+   "type": "cohort",
+   "n": "313-473 women at a fertility centre (EARTH study)",
+   "finding": "Women working evening/night/rotating shifts had 2.3 fewer mature oocytes retrieved after ovarian stimulation than day workers."
+  },
+  {
+   "id": "kcc-morris2015",
+   "authors": "Morris CJ, Yang JN, Garcia JI, et al.",
+   "year": 2015,
+   "title": "Endogenous circadian system and circadian misalignment impact glucose tolerance via separate mechanisms in humans.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25870289",
+   "doi": "10.1073/pnas.1418955112",
+   "type": "rct",
+   "n": "Healthy adults (two 8-day protocols)",
+   "finding": "Postprandial glucose was 17% higher in the biological evening than morning, and circadian misalignment itself raised it a further 6%, via reduced insulin sensitivity."
+  },
+  {
+   "id": "kcc-morris2016",
+   "authors": "Morris CJ, Purvis TE, Hu K, et al.",
+   "year": 2016,
+   "title": "Circadian misalignment increases cardiovascular disease risk factors in humans.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "26858430",
+   "doi": "10.1073/pnas.1516953113",
+   "type": "rct",
+   "n": "Healthy adults (two 8-day protocols)",
+   "finding": "Three days of circadian misalignment raised 24-h blood pressure (+3.0/1.5 mmHg) and IL-6, CRP, resistin and TNF-alpha by 3-29%."
+  },
+  {
+   "id": "kcc-obayashi2013",
+   "authors": "Obayashi K, Saeki K, Iwamoto J, et al.",
+   "year": 2013,
+   "title": "Exposure to light at night, nocturnal urinary melatonin excretion, and obesity/dyslipidemia in the elderly: a cross-sectional analysis of the HEIJO-KYO study.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "23118419",
+   "doi": "10.1210/jc.2012-2874",
+   "type": "cross-sectional",
+   "n": "528 older adults (HEIJO-KYO)",
+   "finding": "Bedroom light ≥3 lux at night was associated with higher odds of obesity (OR 1.89) and dyslipidaemia (OR 1.72), independent of urinary melatonin."
+  },
+  {
+   "id": "kcc-park2019",
+   "authors": "Park YM, White AJ, Jackson CL, et al.",
+   "year": 2019,
+   "title": "Association of Exposure to Artificial Light at Night While Sleeping With Risk of Obesity in Women.",
+   "journal": "JAMA Intern Med",
+   "pmid": "31180469",
+   "doi": "10.1001/jamainternmed.2019.0571",
+   "type": "cohort",
+   "n": "43,722 women (Sister Study)",
+   "finding": "Sleeping with a TV or light on was associated with gaining ≥5 kg (RR 1.17) and incident obesity (RR 1.33) over ~5.7 years."
+  },
+  {
+   "id": "kcc-phillips2019",
+   "authors": "Phillips AJK, Vidafar P, Burns AC, et al.",
+   "year": 2019,
+   "title": "High sensitivity and interindividual variability in the response of the human circadian system to evening light.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "31138694",
+   "doi": "10.1073/pnas.1901824116",
+   "type": "rct",
+   "n": "55 adults aged 18-30",
+   "finding": "Half-maximal melatonin suppression occurred at only ~25 lux of evening light; 10, 30 and 50 lux delayed melatonin onset by 22, 77 and 109 min; individual sensitivity varied over 10-fold."
+  },
+  {
+   "id": "kcc-reiter2014",
+   "authors": "Reiter RJ, Tamura H, Tan DX, et al.",
+   "year": 2014,
+   "title": "Melatonin and the circadian system: contributions to successful female reproduction.",
+   "journal": "Fertil Steril",
+   "pmid": "24996495",
+   "doi": "10.1016/j.fertnstert.2014.06.014",
+   "type": "review",
+   "n": null,
+   "finding": "Follicular fluid melatonin exceeds blood levels and protects the oocyte from oxidative stress around ovulation; light at night suppresses melatonin and should be avoided."
+  },
+  {
+   "id": "kcc-scheer2009",
+   "authors": "Scheer FA, Hilton MF, Mantzoros CS, et al.",
+   "year": 2009,
+   "title": "Adverse metabolic and cardiovascular consequences of circadian misalignment.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "19255424",
+   "doi": "10.1073/pnas.0808180106",
+   "type": "rct",
+   "n": "Healthy adults (10-day laboratory misalignment protocol)",
+   "finding": "Eating and sleeping ~12 h out of phase lowered leptin 17%, raised glucose 6% despite 22% more insulin, reversed the cortisol rhythm and raised blood pressure; 3 of 8 had prediabetic postprandial glucose."
+  },
+  {
+   "id": "kcc-schollhorn2023",
+   "authors": "Schöllhorn I, Stefani O, Lucas RJ, et al.",
+   "year": 2023,
+   "title": "Melanopic irradiance defines the impact of evening display light on sleep latency, melatonin and alertness.",
+   "journal": "Commun Biol",
+   "pmid": "36854795",
+   "doi": "10.1038/s42003-023-04598-4",
+   "type": "rct",
+   "n": "72 healthy men",
+   "finding": "At equal screen brightness, low-melanopic display light shortened sleep latency, reduced melatonin suppression and advanced melatonin onset vs high-melanopic light, dose-dependently."
+  },
+  {
+   "id": "kcc-singh2023",
+   "authors": "Singh S, Keller PR, Busija L, et al.",
+   "year": 2023,
+   "title": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "37593770",
+   "doi": "10.1002/14651858.CD013244.pub2",
+   "type": "meta-analysis",
+   "n": "17 RCTs",
+   "finding": "Blue-light filtering spectacle lenses probably do not reduce eye strain; effects on sleep quality were indeterminate with mixed results and high risk of bias."
+  },
+  {
+   "id": "kcc-stocker2014",
+   "authors": "Stocker LJ, Macklon NS, Cheong YC, et al.",
+   "year": 2014,
+   "title": "Influence of shift work on early reproductive outcomes: a systematic review and meta-analysis.",
+   "journal": "Obstet Gynecol",
+   "pmid": "24901274",
+   "doi": "10.1097/AOG.0000000000000321",
+   "type": "meta-analysis",
+   "n": "15 studies, 123,403 women",
+   "finding": "Shift work was associated with menstrual disruption (aOR 1.15) and infertility (OR 1.80, I² 94%); night shifts with early pregnancy loss (OR 1.29)."
+  },
+  {
+   "id": "kcc-stothard2017",
+   "authors": "Stothard ER, McHill AW, Depner CM, et al.",
+   "year": 2017,
+   "title": "Circadian Entrainment to the Natural Light-Dark Cycle across Seasons and the Weekend.",
+   "journal": "Curr Biol",
+   "pmid": "28162893",
+   "doi": "10.1016/j.cub.2016.12.041",
+   "type": "cohort",
+   "n": "Small groups of adults (camping)",
+   "finding": "A summer weekend of camping achieved ~69% of the circadian advance of a full week; the biological night expanded in winter natural light."
+  },
+  {
+   "id": "kcc-teixeira2019",
+   "authors": "Teixeira KRC, Dos Santos CP, de Medeiros LA, et al.",
+   "year": 2019,
+   "title": "Night workers have lower levels of antioxidant defenses and higher levels of oxidative stress damage when compared to day workers.",
+   "journal": "Sci Rep",
+   "pmid": "30872663",
+   "doi": "10.1038/s41598-019-40989-6",
+   "type": "cross-sectional",
+   "n": "79 men (37 night workers)",
+   "finding": "Night workers had higher TBARS and hydrogen peroxide and lower total antioxidant capacity, catalase and SOD than day workers; social jetlag was not associated with these markers."
+  },
+  {
+   "id": "kcc-tian2024",
+   "authors": "Tian R, Yang T, Xiao C, et al.",
+   "year": 2024,
+   "title": "Outdoor artificial light at night and male sperm quality: A retrospective cohort study in China.",
+   "journal": "Environ Pollut",
+   "pmid": "37977357",
+   "doi": "10.1016/j.envpol.2023.122927",
+   "type": "cohort",
+   "n": "Sperm donors in Sichuan, China (retrospective)",
+   "finding": "Each 100 nW/cm²/sr higher outdoor artificial light at night was associated with lower sperm motility, most strongly in men under 25."
+  },
+  {
+   "id": "kcc-torquati2018",
+   "authors": "Torquati L, Mielke GI, Brown WJ, et al.",
+   "year": 2018,
+   "title": "Shift work and the risk of cardiovascular disease. A systematic review and meta-analysis including dose-response relationship.",
+   "journal": "Scand J Work Environ Health",
+   "pmid": "29247501",
+   "doi": "10.5271/sjweh.3700",
+   "type": "meta-analysis",
+   "n": "21 studies, 173,010 participants",
+   "finding": "Shift workers had 17% higher risk of any CVD event and 26% higher CHD morbidity; risk rose 7.1% per additional 5 years after the first 5 years."
+  },
+  {
+   "id": "kcc-travis2016",
+   "authors": "Travis RC, Balkwill A, Fensom GK, et al.",
+   "year": 2016,
+   "title": "Night Shift Work and Breast Cancer Incidence: Three Prospective Studies and Meta-analysis of Published Studies.",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "27758828",
+   "doi": "10.1093/jnci/djw169",
+   "type": "meta-analysis",
+   "n": "3 UK cohorts + 10 prospective studies",
+   "finding": "Night shift work was not associated with breast cancer (RR 0.99), even after 20 or 30+ years."
+  },
+  {
+   "id": "kcc-vanmaanen2016",
+   "authors": "van Maanen A, Meijer AM, van der Heijden KB, et al.",
+   "year": 2016,
+   "title": "The effects of light therapy on sleep problems: A systematic review and meta-analysis.",
+   "journal": "Sleep Med Rev",
+   "pmid": "26606319",
+   "doi": "10.1016/j.smrv.2015.08.009",
+   "type": "meta-analysis",
+   "n": "53 studies",
+   "finding": "Light therapy improved sleep problems overall (g 0.39), circadian rhythm sleep disorders (g 0.41) and insomnia (g 0.47); effects small to medium, smaller in RCTs, with publication bias."
+  },
+  {
+   "id": "kcc-vetter2016",
+   "authors": "Vetter C, Devore EE, Wegrzyn LR, et al.",
+   "year": 2016,
+   "title": "Association Between Rotating Night Shift Work and Risk of Coronary Heart Disease Among Women.",
+   "journal": "JAMA",
+   "pmid": "27115377",
+   "doi": "10.1001/jama.2016.4454",
+   "type": "cohort",
+   "n": "189,158 women (Nurses' Health Studies)",
+   "finding": "Longer duration of rotating night-shift work was associated with a statistically significant but small absolute increase in CHD risk, which waned after stopping shift work."
+  },
+  {
+   "id": "kcc-wang2026",
+   "authors": "Wang Y, He M, Ling X, et al.",
+   "year": 2026,
+   "title": "Rotating shiftwork in men is linked to decreased fecundity, attributable primarily to sperm concentration and vitality: 24-month follow-up in 3425 males of PREBIC cohort.",
+   "journal": "Andrology",
+   "pmid": "40736282",
+   "doi": "10.1111/andr.70102",
+   "type": "cohort",
+   "n": "3,425 men planning pregnancy",
+   "finding": "Rotating shift workers had 16% lower hazard of pregnancy within 1 year and ~11% lower sperm concentration and total count; fixed shift workers did not differ from day workers."
+  },
+  {
+   "id": "kcc-windred2024a",
+   "authors": "Windred DP, Burns AC, Rutter MK, et al.",
+   "year": 2024,
+   "title": "Personal light exposure patterns and incidence of type 2 diabetes: analysis of 13 million hours of light sensor data and 670,000 person-years of prospective observation.",
+   "journal": "Lancet Reg Health Eur",
+   "pmid": "39070751",
+   "doi": "10.1016/j.lanepe.2024.100943",
+   "type": "cohort",
+   "n": "84,790 UK Biobank light-sensor wearers",
+   "finding": "Brighter night-light exposure was associated with higher type 2 diabetes risk (HR 1.29, 1.39 and 1.53 for 50-70th, 70-90th and 90-100th percentiles vs darkest nights); authors disclose lighting-industry funding."
+  },
+  {
+   "id": "kcc-windred2024b",
+   "authors": "Windred DP, Burns AC, Lane JM, et al.",
+   "year": 2024,
+   "title": "Brighter nights and darker days predict higher mortality risk: A prospective analysis of personal light exposure in >88,000 individuals.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "39405349",
+   "doi": "10.1073/pnas.2405924121",
+   "type": "cohort",
+   "n": "88,905 UK Biobank light-sensor wearers",
+   "finding": "Brighter day light was associated with lower all-cause mortality (aHR ~0.66-0.83 for top decile) and brighter night light with higher mortality (aHR 1.21-1.34 top decile) over 8 years."
+  },
+  {
+   "id": "kcc-wright2013",
+   "authors": "Wright KP Jr, McHill AW, Birks BR, et al.",
+   "year": 2013,
+   "title": "Entrainment of the human circadian clock to the natural light-dark cycle.",
+   "journal": "Curr Biol",
+   "pmid": "23910656",
+   "doi": "10.1016/j.cub.2013.06.039",
+   "type": "cohort",
+   "n": "Small group of adults (camping study)",
+   "finding": "A week of camping with natural light only advanced the circadian clock (melatonin onset moved toward sunset) and reduced differences between late and early chronotypes."
+  },
+  {
+   "id": "kcc-zanif2025",
+   "authors": "Zanif U, Lai AS, Parks J, et al.",
+   "year": 2025,
+   "title": "Melatonin supplementation and oxidative DNA damage repair capacity among night shift workers: a randomised placebo-controlled trial.",
+   "journal": "Occup Environ Med",
+   "pmid": "39993913",
+   "doi": "10.1136/oemed-2024-109824",
+   "type": "rct",
+   "n": "40 night-shift workers",
+   "finding": "Melatonin before day sleep for 4 weeks gave a borderline 1.8-fold increase in urinary 8-OH-dG during day sleep (p = 0.06), interpreted as better repair capacity; no change during night work."
+  },
+  {
+   "id": "kcc-zeitzer2015",
+   "authors": "Zeitzer JM",
+   "year": 2015,
+   "title": "Real life trumps laboratory in matters of public health.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25762078",
+   "doi": "10.1073/pnas.1500717112",
+   "type": "review",
+   "n": null,
+   "finding": "Letter arguing that the e-reader laboratory findings may not translate to real-life public-health relevance."
   }
  ]
 }

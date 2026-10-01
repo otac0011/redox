@@ -63,10 +63,11 @@
       "label": "Fats & oils",
       "ids": [
         "extra-virgin-olive-oil",
-        "walnuts-nuts",
-        "omega3-fish",
+        "cooking-oil-choice",
+        "seed-oils-linoleic-acid",
         "oxidized-frying-oils",
-        "trans-fats"
+        "trans-fats",
+        "omega3-fish"
       ]
     },
     {
@@ -154,6 +155,26 @@
         "plastics-chemicals",
         "water-filtration",
         "organic-food"
+      ]
+    },
+    {
+      "label": "Cooking methods",
+      "ids": [
+        "high-temperature-cooking",
+        "marinating-meat",
+        "acrylamide",
+        "oxidized-frying-oils",
+        "processed-red-meat"
+      ]
+    },
+    {
+      "label": "Light & timing",
+      "ids": [
+        "morning-light",
+        "evening-light-exposure",
+        "late-eating",
+        "shift-work-circadian",
+        "short-sleep"
       ]
     }
   ]

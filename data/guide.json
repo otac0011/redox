@@ -275,14 +275,18 @@
           "value": "short",
           "label": "Under 6 h",
           "boost": {
-            "short-sleep": 2
+            "short-sleep": 2,
+            "evening-light-exposure": 1,
+            "morning-light": 0.5
           }
         },
         {
           "value": "mid",
           "label": "6–7 h",
           "boost": {
-            "short-sleep": 1
+            "short-sleep": 1,
+            "evening-light-exposure": 1,
+            "morning-light": 0.5
           }
         },
         {
@@ -368,7 +372,9 @@
           "value": "shift",
           "label": "Night shifts",
           "boost": {
-            "shift-work-circadian": 1.5
+            "shift-work-circadian": 1.5,
+            "morning-light": 0.5,
+            "late-eating": 0.5
           }
         },
         {

@@ -1286,6 +1286,69 @@
     "nut-iom2001",
     "nut-efsa2006"
    ]
+  },
+  {
+   "id": "fish-oil-oxidation",
+   "name": "Oxidized (rancid) fish-oil supplements",
+   "kind": "supplement",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Independent surveys found 50-83% of fish-oil supplements exceeded oxidation limits while an industry-run survey found most compliant; in RCTs, 7 weeks of heavily oxidized fish oil did not raise isoprostanes or HNE, but it lost the LDL-lowering benefit of fresh oil.",
+   "dose": {
+    "effective": "Choose plain capsules over flavoured liquids and children's products; prefer brands that publish third-party oxidation results (peroxide value, anisidine value, TOTOX); store closed, cool and dark, refrigerate liquids after opening, and discard any product that smells or tastes strongly fishy or rancid.",
+    "studied_range": "RCTs: 8 g/day fish oil (1.6 g EPA+DHA) at peroxide values ~4 vs ~18 meq/kg for 3-7 weeks; 30-day capsule trial in 52 women.",
+    "too_much": "Voluntary industry limits (GOED): PV ≤5 meq O2/kg, p-anisidine ≤20, TOTOX ≤26; pharmacopoeia limits are looser (PV 10, p-AV 30, TOTOX 50).",
+    "timeframe": "Oxidation accumulates during storage and after opening; lipid effects seen within 4-7 weeks.",
+    "notes": "Fishy taste is masked in flavoured products, which also interfere with standard oxidation assays. Eating oily fish avoids the issue ([omega3-fish])."
+   },
+   "mechanism": "EPA and DHA have five and six double bonds and oxidize readily to hydroperoxides (measured as peroxide value) and then aldehydes and ketones (anisidine value). Oxidized lipids may reduce the omega-3 biological activity and, in theory, add dietary lipid peroxides; in practice, gut and liver metabolism appear to handle the amounts in capsules without raising systemic oxidative-stress markers.",
+   "pathways": [
+    "lipid-peroxidation"
+   ],
+   "interactions": "Relevant to anyone taking fish oil for [omega3-fish] benefits. Antioxidants added by manufacturers (tocopherols, rosemary extract) slow oxidation in the bottle; taking [vitamin-e-supplement] does not fix an already rancid oil.",
+   "caveats": "Lab methods and limits differ; several surveys had commercial affiliations on both sides. Human trials are short, small and in healthy people.",
+   "debate": "Albert and colleagues found 83% of New Zealand products over the peroxide limit and most below label EPA/DHA [kcc-albert2015], and a Canadian survey found 50% over limits [kcc-jackowski2015] (most authors were affiliated with an omega-3 company); a US analysis of three top sellers also found excess oxidation [kcc-mason2017]. The industry association GOED re-tested 47 New Zealand products and found 72-86% compliant [kcc-bannenberg2017]. On health effects, oxidized oil did not raise isoprostanes, HNE or CRP [kcc-ottestad2012], but it blunted lipid benefits in two trials [kcc-rundblad2017, kcc-garciahernandez2013].",
+   "key_numbers": [
+    {
+     "label": "NZ products exceeding peroxide limit (independent)",
+     "value": 83,
+     "unit": "%",
+     "source": "kcc-albert2015"
+    },
+    {
+     "label": "N. American products exceeding oxidation limits",
+     "value": 50,
+     "unit": "%",
+     "source": "kcc-jackowski2015"
+    },
+    {
+     "label": "NZ products compliant with PV limit (industry)",
+     "value": 72,
+     "unit": "%",
+     "source": "kcc-bannenberg2017"
+    },
+    {
+     "label": "Peroxide value of oxidized oil in RCT",
+     "value": 18,
+     "unit": "meq/kg",
+     "source": "kcc-rundblad2017"
+    }
+   ],
+   "refs": [
+    "kcc-albert2015",
+    "kcc-jackowski2015",
+    "kcc-mason2017",
+    "kcc-bannenberg2017",
+    "kcc-ottestad2012",
+    "kcc-rundblad2017",
+    "kcc-garciahernandez2013"
+   ]
   }
  ],
  "mechanisms": [
@@ -4105,6 +4168,90 @@
    "type": "meta-analysis",
    "n": "41 community trials, ~2 million people",
    "finding": "Selenium supplementation in endemic areas cut Keshan disease (selenium-deficiency cardiomyopathy) incidence by 86% (RR 0.14)."
+  },
+  {
+   "id": "kcc-albert2015",
+   "authors": "Albert BB, Derraik JG, Cameron-Smith D, et al.",
+   "year": 2015,
+   "title": "Fish oil supplements in New Zealand are highly oxidised and do not meet label content of n-3 PUFA.",
+   "journal": "Sci Rep",
+   "pmid": "25604397",
+   "doi": "10.1038/srep07928",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Of 32 New Zealand fish-oil supplements, 83% exceeded the recommended peroxide value, 25% anisidine value and 50% TOTOX; only 8% met all limits and most contained <67% of labelled EPA+DHA."
+  },
+  {
+   "id": "kcc-bannenberg2017",
+   "authors": "Bannenberg G, Mallon C, Edwards H, et al.",
+   "year": 2017,
+   "title": "Omega-3 Long-Chain Polyunsaturated Fatty Acid Content and Oxidation State of Fish Oil Supplements in New Zealand.",
+   "journal": "Sci Rep",
+   "pmid": "28469193",
+   "doi": "10.1038/s41598-017-01470-4",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Industry-association (GOED) testing of 47 New Zealand fish-oil products found 72-86% compliant with voluntary oxidation limits and 91% meeting EPA/DHA label claims, contradicting Albert 2015."
+  },
+  {
+   "id": "kcc-garciahernandez2013",
+   "authors": "García-Hernández VM, Gallar M, Sánchez-Soriano J, et al.",
+   "year": 2013,
+   "title": "Effect of omega-3 dietary supplements with different oxidation levels in the lipidic profile of women: a randomized controlled trial.",
+   "journal": "Int J Food Sci Nutr",
+   "pmid": "23863036",
+   "doi": "10.3109/09637486.2013.812619",
+   "type": "rct",
+   "n": "52 women",
+   "finding": "Less-oxidized omega-3 capsules lowered triglycerides and cholesterol over 30 days, whereas highly oxidized capsules worsened cholesterol."
+  },
+  {
+   "id": "kcc-jackowski2015",
+   "authors": "Jackowski SA, Alvi AZ, Mirajkar A, et al.",
+   "year": 2015,
+   "title": "Oxidation levels of North American over-the-counter n-3 (omega-3) supplements and the influence of supplement formulation and delivery form on evaluating oxidative safety.",
+   "journal": "J Nutr Sci",
+   "pmid": "26688721",
+   "doi": "10.1017/jns.2015.21",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Of 171 North American omega-3 supplements, 50% exceeded voluntary oxidation limits; flavoured products, bulk oils and children's products were more oxidized than plain capsules; most authors were affiliated with an omega-3 company."
+  },
+  {
+   "id": "kcc-mason2017",
+   "authors": "Mason RP, Sherratt SCR",
+   "year": 2017,
+   "title": "Omega-3 fatty acid fish oil dietary supplements contain saturated fats and oxidized lipids that may interfere with their intended biological benefits.",
+   "journal": "Biochem Biophys Res Commun",
+   "pmid": "28011269",
+   "doi": "10.1016/j.bbrc.2016.12.127",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Three top-selling US fish-oil supplements exceeded oxidation limits (a prescription product did not), and omega-3 isolated from them failed to inhibit small dense LDL oxidation in vitro."
+  },
+  {
+   "id": "kcc-ottestad2012",
+   "authors": "Ottestad I, Vogt G, Retterstøl K, et al.",
+   "year": 2012,
+   "title": "Oxidised fish oil does not influence established markers of oxidative stress in healthy human subjects: a randomised controlled trial.",
+   "journal": "Br J Nutr",
+   "pmid": "22136711",
+   "doi": "10.1017/S0007114511005484",
+   "type": "rct",
+   "n": "54 healthy adults",
+   "finding": "7 weeks of 8 g/day oxidized fish oil (1.6 g EPA+DHA) did not change urinary 8-iso-PGF2alpha, plasma HNE/HHE, hs-CRP or antioxidant enzymes vs fresh fish oil or high-oleic sunflower oil."
+  },
+  {
+   "id": "kcc-rundblad2017",
+   "authors": "Rundblad A, Holven KB, Ottestad I, et al.",
+   "year": 2017,
+   "title": "High-quality fish oil has a more favourable effect than oxidised fish oil on intermediate-density lipoprotein and LDL subclasses: a randomised controlled trial.",
+   "journal": "Br J Nutr",
+   "pmid": "28558855",
+   "doi": "10.1017/S0007114517001167",
+   "type": "rct",
+   "n": "Healthy adults (same trial design)",
+   "finding": "High-quality fish oil (PV 4) lowered IDL and LDL particle subclasses compared with oxidized fish oil (PV 18, AV 9) and high-oleic sunflower oil."
   }
  ]
 }
