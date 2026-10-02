@@ -1,0 +1,2694 @@
+{
+ "references": [
+  {
+   "id": "tsperm-heller1963",
+   "authors": "HELLER CG, CLERMONT Y",
+   "year": 1963,
+   "title": "Spermatogenesis in man: an estimate of its duration",
+   "journal": "Science",
+   "pmid": "13953583",
+   "doi": "10.1126/science.140.3563.184",
+   "type": "cohort",
+   "n": "men given intratesticular tritiated thymidine (number not in abstract)",
+   "finding": "Labelled preleptotene spermatocytes reached mid-pachytene by 16 days and immature spermatids by 32 days; one epithelial cycle lasts 16 days and spermatogenesis about 64 days."
+  },
+  {
+   "id": "tsperm-misell2006",
+   "authors": "Misell LM, Holochwost D, Boban D, et al.",
+   "year": 2006,
+   "title": "A stable isotope-mass spectrometric method for measuring human spermatogenesis kinetics in vivo",
+   "journal": "J Urol",
+   "pmid": "16406920",
+   "doi": "10.1016/S0022-5347(05)00053-4",
+   "type": "cohort",
+   "n": "11 men",
+   "finding": "After 3 weeks of oral heavy water, labelled sperm first appeared in semen after 64 +/- 8 days (range 42-76), with signs that the epididymal reservoir washes out at different speeds in different men."
+  },
+  {
+   "id": "tsperm-amann2008",
+   "authors": "Amann RP",
+   "year": 2008,
+   "title": "The cycle of the seminiferous epithelium in humans: a need to revisit?",
+   "journal": "J Androl",
+   "pmid": "18497337",
+   "doi": "10.2164/jandrol.107.004655",
+   "type": "review",
+   "n": null,
+   "finding": "Argues that the 1960s data on human spermatogenesis are neither robust nor precise and the accepted duration may be off by about 6 days; most germ-cell loss is at the spermatocyte stage."
+  },
+  {
+   "id": "tsperm-amann1980",
+   "authors": "Amann RP, Howards SS",
+   "year": 1980,
+   "title": "Daily spermatozoal production and epididymal spermatozoal reserves of the human male",
+   "journal": "J Urol",
+   "pmid": "6772801",
+   "doi": "10.1016/s0022-5347(17)55377-x",
+   "type": "cross-sectional",
+   "n": "23 men (autopsy/surgical tissue)",
+   "finding": "Estimated transit through caput, corpus and cauda epididymidis at 0.72, 0.71 and 1.76 days; maturation in caput plus corpus takes under 2 days and human sperm reserves are small."
+  },
+  {
+   "id": "tsperm-johnson1988",
+   "authors": "Johnson L, Varner DD",
+   "year": 1988,
+   "title": "Effect of daily spermatozoan production but not age on transit time of spermatozoa through the human epididymis",
+   "journal": "Biol Reprod",
+   "pmid": "3207807",
+   "doi": "10.1095/biolreprod39.4.812",
+   "type": "cross-sectional",
+   "n": "38 men (autopsy)",
+   "finding": "Epididymal transit time was shorter in men with higher daily sperm production and did not change with age."
+  },
+  {
+   "id": "tsperm-ahmad2012",
+   "authors": "Ahmad G, Moinard N, Esquerré-Lamare C, et al.",
+   "year": 2012,
+   "title": "Mild induced testicular and epididymal hyperthermia alters sperm chromatin integrity in men",
+   "journal": "Fertil Steril",
+   "pmid": "22265039",
+   "doi": "10.1016/j.fertnstert.2011.12.025",
+   "type": "cohort",
+   "n": "5 men",
+   "finding": "Raising testis/epididymis temperature by about 2 C for 15 h/day raised DFI by day 20 and HDS by day 34, before sperm output fell; all values returned to baseline 73 days after heating stopped."
+  },
+  {
+   "id": "tsperm-abdelhamid2019",
+   "authors": "Abdelhamid MHM, Walschaerts M, Ahmad G, et al.",
+   "year": 2019,
+   "title": "Mild experimental increase in testis and epididymis temperature in men: effects on sperm morphology according to spermatogenesis stages",
+   "journal": "Transl Androl Urol",
+   "pmid": "32038961",
+   "doi": "10.21037/tau.2019.11.18",
+   "type": "cohort",
+   "n": "5 men",
+   "finding": "Mild sustained testicular and epididymal heating raised abnormal morphology from day 34 (multiple anomalies index from day 20), persisting to 45 days after heating and normalising by day 73; attributed mainly to impaired spermiogenesis and meiosis."
+  },
+  {
+   "id": "tsperm-sergerie2007",
+   "authors": "Sergerie M, Mieusset R, Croute F, et al.",
+   "year": 2007,
+   "title": "High risk of temporary alteration of semen parameters after recent acute febrile illness",
+   "journal": "Fertil Steril",
+   "pmid": "17434502",
+   "doi": "10.1016/j.fertnstert.2006.12.045",
+   "type": "cohort",
+   "n": "1 man (case report)",
+   "finding": "After a 2-day fever of 39-40 C, DFI rose 24% at day 15 and 36% at day 37, then fell back by days 58-79; sperm count was low at days 15-58 and normal by day 79."
+  },
+  {
+   "id": "tsperm-evenson2000",
+   "authors": "Evenson DP, Jost LK, Corzett M, et al.",
+   "year": 2000,
+   "title": "Characteristics of human sperm chromatin structure following an episode of influenza and high fever: a case study",
+   "journal": "J Androl",
+   "pmid": "10975421",
+   "doi": null,
+   "type": "cohort",
+   "n": "1 man (case report)",
+   "finding": "After a 1-day 39.9 C influenza fever, 36% of sperm had denatured DNA at day 18 and 23% at day 39; a protamine-2 precursor appeared at days 33-39 and almost vanished by day 52."
+  },
+  {
+   "id": "tsperm-carlsen2003",
+   "authors": "Carlsen E, Andersson AM, Petersen JH, et al.",
+   "year": 2003,
+   "title": "History of febrile illness and variation in semen quality",
+   "journal": "Hum Reprod",
+   "pmid": "14507826",
+   "doi": "10.1093/humrep/deg412",
+   "type": "cohort",
+   "n": "27 men followed monthly for 16 months",
+   "finding": "Fever during meiosis or spermiogenesis lowered sperm concentration in later samples by about 33-35% (7-9% per fever day); fever during spermiogenesis also worsened morphology and motility."
+  },
+  {
+   "id": "tsperm-garolla2013",
+   "authors": "Garolla A, Torino M, Sartini B, et al.",
+   "year": 2013,
+   "title": "Seminal and molecular evidence that sauna exposure affects human spermatogenesis",
+   "journal": "Hum Reprod",
+   "pmid": "23411620",
+   "doi": "10.1093/humrep/det020",
+   "type": "cohort",
+   "n": "10 men",
+   "finding": "Two 15-min Finnish sauna sessions a week at 80-90 C for 3 months impaired sperm count, motility, histone-protamine exchange and sperm mitochondrial function; all changes had reversed 6 months after stopping."
+  },
+  {
+   "id": "tsperm-rao2016",
+   "authors": "Rao M, Xia W, Yang J, et al.",
+   "year": 2016,
+   "title": "Transient scrotal hyperthermia affects human sperm DNA integrity, sperm apoptosis, and sperm protein expression",
+   "journal": "Andrology",
+   "pmid": "27410176",
+   "doi": "10.1111/andr.12228",
+   "type": "rct",
+   "n": "20 men",
+   "finding": "Ten 30-min 43 C scrotal baths (daily or every third day) reversibly raised sperm apoptosis, high DNA stainability and mitochondrial damage; Bcl-2 fell at weeks 6-10 and recovered by week 16; consecutive exposure did more damage but intermittent exposure recovered later."
+  },
+  {
+   "id": "tsperm-rao2015",
+   "authors": "Rao M, Zhao XL, Yang J, et al.",
+   "year": 2015,
+   "title": "Effect of transient scrotal hyperthermia on sperm parameters, seminal plasma biochemical markers, and oxidative stress in men",
+   "journal": "Asian J Androl",
+   "pmid": "25652627",
+   "doi": "10.4103/1008-682X.146967",
+   "type": "cohort",
+   "n": "20 men",
+   "finding": "Ten 30-min 43 C scrotal baths reversibly lowered concentration and motility and raised seminal malondialdehyde over a 16-week follow-up; in this report the every-third-day schedule lowered concentration more than daily baths."
+  },
+  {
+   "id": "tsperm-shefi2007",
+   "authors": "Shefi S, Tarapore PE, Walsh TJ, et al.",
+   "year": 2007,
+   "title": "Wet heat exposure: a potentially reversible cause of low semen quality in infertile men",
+   "journal": "Int Braz J Urol",
+   "pmid": "17335598",
+   "doi": "10.1590/s1677-55382007000100008",
+   "type": "cohort",
+   "n": "11 infertile men",
+   "finding": "After stopping hot tubs or hot baths, 5 of 11 men had a mean 491% rise in total motile sperm count, mostly through better motility; non-responders smoked more."
+  },
+  {
+   "id": "tsperm-sheynkin2005",
+   "authors": "Sheynkin Y, Jung M, Yoo P, et al.",
+   "year": 2005,
+   "title": "Increase in scrotal temperature in laptop computer users",
+   "journal": "Hum Reprod",
+   "pmid": "15591087",
+   "doi": "10.1093/humrep/deh616",
+   "type": "cohort",
+   "n": "29 men",
+   "finding": "A working laptop on the lap raised scrotal temperature by 2.6-2.8 C within a 60-min session; sitting with thighs together alone raised it 2.1 C."
+  },
+  {
+   "id": "tsperm-minguez2018",
+   "authors": "Mínguez-Alarcón L, Gaskins AJ, Chiu YH, et al.",
+   "year": 2018,
+   "title": "Type of underwear worn and markers of testicular function among men attending a fertility center",
+   "journal": "Hum Reprod",
+   "pmid": "30102388",
+   "doi": "10.1093/humrep/dey259",
+   "type": "cross-sectional",
+   "n": "656 men",
+   "finding": "Men who mostly wore boxers had higher sperm concentration and total count and lower FSH than men who did not."
+  },
+  {
+   "id": "tsperm-laberge2005",
+   "authors": "Laberge RM, Boissonneault G",
+   "year": 2005,
+   "title": "Chromatin remodeling in spermatids: a sensitive step for the genetic integrity of the male gamete",
+   "journal": "Arch Androl",
+   "pmid": "15804867",
+   "doi": "10.1080/014850190518134",
+   "type": "review",
+   "n": null,
+   "finding": "Transient DNA strand breaks appear in all elongating spermatids during chromatin remodelling; if not resealed they may persist into mature sperm."
+  },
+  {
+   "id": "tsperm-aitken2010",
+   "authors": "Aitken RJ, De Iuliis GN",
+   "year": 2010,
+   "title": "On the possible origins of DNA damage in human spermatozoa",
+   "journal": "Mol Hum Reprod",
+   "pmid": "19648152",
+   "doi": "10.1093/molehr/gap059",
+   "type": "review",
+   "n": null,
+   "finding": "Proposes a two-step origin of sperm DNA damage: defective spermiogenesis leaves poorly protaminated cells, which oxidative stress then attacks, possibly worsened during epididymal maturation."
+  },
+  {
+   "id": "tsperm-deiuliis2009",
+   "authors": "De Iuliis GN, Thomson LK, Mitchell LA, et al.",
+   "year": 2009,
+   "title": "DNA damage in human spermatozoa is highly correlated with the efficiency of chromatin remodeling and the formation of 8-hydroxy-2'-deoxyguanosine, a marker of oxidative stress",
+   "journal": "Biol Reprod",
+   "pmid": "19494251",
+   "doi": "10.1095/biolreprod.109.076836",
+   "type": "mechanistic",
+   "n": "human semen samples",
+   "finding": "Poor protamination correlated strongly with DNA fragmentation and with 8-OHdG oxidative base damage in human sperm."
+  },
+  {
+   "id": "tsperm-muratori2015",
+   "authors": "Muratori M, Tamburrino L, Marchiani S, et al.",
+   "year": 2015,
+   "title": "Investigation on the Origin of Sperm DNA Fragmentation: Role of Apoptosis, Immaturity and Oxidative Stress",
+   "journal": "Mol Med",
+   "pmid": "25786204",
+   "doi": "10.2119/molmed.2014.00158",
+   "type": "mechanistic",
+   "n": "human semen samples",
+   "finding": "Most DNA-fragmented sperm carried active caspases and excess histones, pointing to apoptosis triggered by defective chromatin maturation in the testis; oxidative damage tracked fragmentation mainly in live sperm."
+  },
+  {
+   "id": "tsperm-gawecka2015",
+   "authors": "Gawecka JE, Boaz S, Kasperson K, et al.",
+   "year": 2015,
+   "title": "Luminal fluid of epididymis and vas deferens contributes to sperm chromatin fragmentation",
+   "journal": "Hum Reprod",
+   "pmid": "26466911",
+   "doi": "10.1093/humrep/dev245",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In mice, luminal fluid from the epididymis and especially the vas deferens was needed to activate sperm chromatin fragmentation."
+  },
+  {
+   "id": "tsperm-greco2005a",
+   "authors": "Greco E, Scarselli F, Iacobelli M, et al.",
+   "year": 2005,
+   "title": "Efficient treatment of infertility due to sperm DNA damage by ICSI with testicular spermatozoa",
+   "journal": "Hum Reprod",
+   "pmid": "15539441",
+   "doi": "10.1093/humrep/deh590",
+   "type": "cohort",
+   "n": "18 men",
+   "finding": "Testicular sperm had markedly lower TUNEL DNA fragmentation than ejaculated sperm in men with high SDF; ICSI with testicular sperm gave 44% pregnancies versus 1 (miscarried) with ejaculated sperm."
+  },
+  {
+   "id": "tsperm-greco2005b",
+   "authors": "Greco E, Romano S, Iacobelli M, et al.",
+   "year": 2005,
+   "title": "ICSI in cases of sperm DNA damage: beneficial effect of oral antioxidant treatment",
+   "journal": "Hum Reprod",
+   "pmid": "15932912",
+   "doi": "10.1093/humrep/dei091",
+   "type": "cohort",
+   "n": "38 men",
+   "finding": "Two months of 1 g vitamin C plus 1 g vitamin E lowered SDF in 76% of men after a failed ICSI; the next ICSI had higher clinical pregnancy (48% vs 7%), in an uncontrolled before-after design."
+  },
+  {
+   "id": "tsperm-greco2005c",
+   "authors": "Greco E, Iacobelli M, Rienzi L, et al.",
+   "year": 2005,
+   "title": "Reduction of the incidence of sperm DNA fragmentation by oral antioxidant treatment",
+   "journal": "J Androl",
+   "pmid": "15867002",
+   "doi": "10.2164/jandrol.04146",
+   "type": "rct",
+   "n": "64 men",
+   "finding": "Two months of 1 g vitamin C plus 1 g vitamin E daily lowered TUNEL SDF from 22.1% to 9.1%, with no change on placebo."
+  },
+  {
+   "id": "tsperm-moskovtsev2010",
+   "authors": "Moskovtsev SI, Jarvi K, Mullen JB, et al.",
+   "year": 2010,
+   "title": "Testicular spermatozoa have statistically significantly lower DNA damage compared with ejaculated spermatozoa in patients with unsuccessful oral antioxidant treatment",
+   "journal": "Fertil Steril",
+   "pmid": "19108827",
+   "doi": "10.1016/j.fertnstert.2008.11.005",
+   "type": "cohort",
+   "n": "12 men",
+   "finding": "In men whose high SDF did not respond to antioxidants, testicular sperm had about one third of the DNA damage of same-day ejaculated sperm (13.3% vs 39.7%)."
+  },
+  {
+   "id": "tsperm-moskovtsev2012",
+   "authors": "Moskovtsev SI, Alladin N, Lo KC, et al.",
+   "year": 2012,
+   "title": "A comparison of ejaculated and testicular spermatozoa aneuploidy rates in patients with high sperm DNA damage",
+   "journal": "Syst Biol Reprod Med",
+   "pmid": "22432504",
+   "doi": "10.3109/19396368.2012.667504",
+   "type": "cohort",
+   "n": "8 men plus 10 controls",
+   "finding": "Testicular sperm had less DNA damage (14.9% vs 40.6%) but more than twice the aneuploidy (12.4% vs 5.8%) of ejaculated sperm from the same men."
+  },
+  {
+   "id": "tsperm-esteves2017",
+   "authors": "Esteves SC, Roque M, Bradley CK, et al.",
+   "year": 2017,
+   "title": "Reproductive outcomes of testicular versus ejaculated sperm for intracytoplasmic sperm injection among men with high levels of DNA fragmentation in semen: systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "28865546",
+   "doi": "10.1016/j.fertnstert.2017.06.018",
+   "type": "meta-analysis",
+   "n": "5 studies (143 men) for SDF; 507 ICSI cycles",
+   "finding": "Testicular sperm had about 25 percentage points lower SDF than ejaculated sperm, and ICSI with testicular sperm gave higher pregnancy and live birth in men with high SDF."
+  },
+  {
+   "id": "tsperm-gosalvez2011",
+   "authors": "Gosálvez J, González-Martínez M, López-Fernández C, et al.",
+   "year": 2011,
+   "title": "Shorter abstinence decreases sperm deoxyribonucleic acid fragmentation in ejaculate",
+   "journal": "Fertil Steril",
+   "pmid": "21924714",
+   "doi": "10.1016/j.fertnstert.2011.08.027",
+   "type": "cohort",
+   "n": "33 men",
+   "finding": "SDF was lower after 24-hour and especially 3-hour abstinence than after standard abstinence."
+  },
+  {
+   "id": "tsperm-dahan2021",
+   "authors": "Dahan MH, Mills G, Khoudja R, et al.",
+   "year": 2021,
+   "title": "Three hour abstinence as a treatment for high sperm DNA fragmentation: a prospective cohort study",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "33179134",
+   "doi": "10.1007/s10815-020-01999-w",
+   "type": "cohort",
+   "n": "112 men",
+   "finding": "A second sample 3 hours after the first lowered SDF from 34.6% to 23.7%; 55% of men with SDF above 35% moved into the normal range."
+  },
+  {
+   "id": "tsperm-pons2013",
+   "authors": "Pons I, Cercas R, Villas C, et al.",
+   "year": 2013,
+   "title": "One abstinence day decreases sperm DNA fragmentation in 90 % of selected patients",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "23996278",
+   "doi": "10.1007/s10815-013-0089-8",
+   "type": "cohort",
+   "n": "416 men screened, 35 with high SDF completed the protocol",
+   "finding": "With 1-day abstinence, SDF normalised in 91% of men with high SDF within three attempts (81% at the first)."
+  },
+  {
+   "id": "tsperm-logiudice2024",
+   "authors": "Lo Giudice A, Asmundo MG, Cimino S, et al.",
+   "year": 2024,
+   "title": "Effects of long and short ejaculatory abstinence on sperm parameters: a meta-analysis of randomized-controlled trials",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "38828413",
+   "doi": "10.3389/fendo.2024.1373426",
+   "type": "meta-analysis",
+   "n": "13 studies, 2,315 men",
+   "finding": "Longer abstinence meant more sperm but more SDF (+3.46 points); SDF rose about 0.65 points per extra day of abstinence."
+  },
+  {
+   "id": "tsperm-du2024",
+   "authors": "Du C, Li Y, Yin C, et al.",
+   "year": 2024,
+   "title": "Association of abstinence time with semen quality and fertility outcomes: a systematic review and dose-response meta-analysis",
+   "journal": "Andrology",
+   "pmid": "38197853",
+   "doi": "10.1111/andr.13583",
+   "type": "meta-analysis",
+   "n": "85 studies",
+   "finding": "Short abstinence lowered DFI by 2.4 points in healthy men and 5.6 points in unexplained infertility; total count rose until about day 4-5; IUI clinical pregnancy fell beyond about day 3."
+  },
+  {
+   "id": "tsperm-barbagallo2022",
+   "authors": "Barbagallo F, Cannarella R, Crafa A, et al.",
+   "year": 2022,
+   "title": "The Impact of a Very Short Abstinence Period on Conventional Sperm Parameters and Sperm DNA Fragmentation: A Systematic Review and Meta-Analysis",
+   "journal": "J Clin Med",
+   "pmid": "36555920",
+   "doi": "10.3390/jcm11247303",
+   "type": "meta-analysis",
+   "n": "19 studies",
+   "finding": "A second ejaculate within 4 hours had lower SDF and better concentration and motility in men with abnormal semen, with lower volume."
+  },
+  {
+   "id": "tsperm-gupta2021",
+   "authors": "Gupta S, Singh VJ, Fauzdar A, et al.",
+   "year": 2021,
+   "title": "Short Ejaculatory Abstinence in Normozoospermic Men is Associated with Higher Clinical Pregnancy Rates in Sub-fertile Couples Undergoing Intra-Cytoplasmic Sperm Injection in Assisted Reproductive Technology: A Retrospective Analysis of 1691 Cycles",
+   "journal": "J Hum Reprod Sci",
+   "pmid": "34759617",
+   "doi": "10.4103/jhrs.jhrs_235_20",
+   "type": "cohort",
+   "n": "1,691 ICSI cycles",
+   "finding": "One-day abstinence was linked to higher clinical pregnancy than longer abstinence (30.0% vs 25.4%) in normozoospermic men."
+  },
+  {
+   "id": "tsperm-szabo2023",
+   "authors": "Szabó A, Váncsa S, Hegyi P, et al.",
+   "year": 2023,
+   "title": "Lifestyle-, environmental-, and additional health factors associated with an increased sperm DNA fragmentation: a systematic review and meta-analysis",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "36653793",
+   "doi": "10.1186/s12958-023-01054-0",
+   "type": "meta-analysis",
+   "n": "190 studies",
+   "finding": "Varicocele (+13.6 points), smoking (+9.2), pollution (+9.7) and age over 50 (+12.6) were linked to higher SDF; different abstinence periods did not significantly change SDF."
+  },
+  {
+   "id": "tsperm-masterson2019",
+   "authors": "Masterson TA, Greer AB, Ramasamy R",
+   "year": 2019,
+   "title": "Time to improvement in semen parameters after microsurgical varicocelectomy in men with severe oligospermia",
+   "journal": "Can Urol Assoc J",
+   "pmid": "30169150",
+   "doi": "10.5489/cuaj.5408",
+   "type": "cohort",
+   "n": "33 men",
+   "finding": "After microsurgical varicocelectomy, total motile count rose from 1.5 to 7.3 million at 3-6 months and 12.2 million after 6 months, with no significant gain after 3-6 months."
+  },
+  {
+   "id": "tsperm-wang2024",
+   "authors": "Wang L, Zheng L, Jiang H, et al.",
+   "year": 2024,
+   "title": "Does Sperm DNA Fragmentation Index Continuously Decrease Over Time After Varicocelectomy in Varicocele-Induced Infertility? A Systematic Review and Meta-Analysis",
+   "journal": "Am J Mens Health",
+   "pmid": "39376021",
+   "doi": "10.1177/15579883241285670",
+   "type": "meta-analysis",
+   "n": "4 studies",
+   "finding": "After varicocelectomy, DFI fell by 3.7 points within 3 months, a further 1.5 points by 6 months, and did not fall significantly further by 12 months."
+  },
+  {
+   "id": "tsperm-chehval1992",
+   "authors": "Chehval MJ, Purcell MH",
+   "year": 1992,
+   "title": "Deterioration of semen parameters over time in men with untreated varicocele: evidence of progressive testicular damage",
+   "journal": "Fertil Steril",
+   "pmid": "1730313",
+   "doi": "10.1016/s0015-0282(16)54796-7",
+   "type": "cohort",
+   "n": "13 men",
+   "finding": "Men with untreated varicocele and initially normal semen showed significant deterioration when re-tested 9-96 months later."
+  },
+  {
+   "id": "tsperm-liraneto2021",
+   "authors": "Lira Neto FT, Roque M, Esteves SC",
+   "year": 2021,
+   "title": "Effect of varicocelectomy on sperm deoxyribonucleic acid fragmentation rates in infertile men with clinical varicocele: a systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "33985792",
+   "doi": "10.1016/j.fertnstert.2021.04.003",
+   "type": "meta-analysis",
+   "n": "19 studies, 1,070 men",
+   "finding": "Varicocelectomy lowered SDF by 7.2 percentage points on average."
+  },
+  {
+   "id": "tsperm-steiner2020",
+   "authors": "Steiner AZ, Hansen KR, Barnhart KT, et al.",
+   "year": 2020,
+   "title": "The effect of antioxidants on male factor infertility: the Males, Antioxidants, and Infertility (MOXI) randomized clinical trial",
+   "journal": "Fertil Steril",
+   "pmid": "32111479",
+   "doi": "10.1016/j.fertnstert.2019.11.008",
+   "type": "rct",
+   "n": "171 men",
+   "finding": "MOXI: a 7-ingredient antioxidant for 3-6 months did not improve semen parameters or DNA fragmentation at 3 months and did not raise live birth (15% vs 24%)."
+  },
+  {
+   "id": "tsperm-stenqvist2018",
+   "authors": "Stenqvist A, Oleszczuk K, Leijonhufvud I, et al.",
+   "year": 2018,
+   "title": "Impact of antioxidant treatment on DNA fragmentation index: a double-blind placebo-controlled randomized trial",
+   "journal": "Andrology",
+   "pmid": "30298673",
+   "doi": "10.1111/andr.12547",
+   "type": "rct",
+   "n": "77 men",
+   "finding": "Six months of combined antioxidants did not change DFI in men with DFI of 25% or more."
+  },
+  {
+   "id": "tsperm-schisterman2020",
+   "authors": "Schisterman EF, Sjaarda LA, Clemons T, et al.",
+   "year": 2020,
+   "title": "Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial",
+   "journal": "JAMA",
+   "pmid": "31910279",
+   "doi": "10.1001/jama.2019.18714",
+   "type": "rct",
+   "n": "2,370 couples",
+   "finding": "FAZST: 5 mg folic acid plus 30 mg zinc for 6 months did not improve semen or live birth, and DNA fragmentation was slightly higher (29.7% vs 27.2%)."
+  },
+  {
+   "id": "tsperm-tunc2009",
+   "authors": "Tunc O, Thompson J, Tremellen K",
+   "year": 2009,
+   "title": "Improvement in sperm DNA quality using an oral antioxidant therapy",
+   "journal": "Reprod Biomed Online",
+   "pmid": "19490779",
+   "doi": "10.1016/s1472-6483(10)60024-7",
+   "type": "cohort",
+   "n": "50 men",
+   "finding": "Three months of an oral antioxidant improved TUNEL DNA integrity and protamination and lowered seminal ROS, in an uncontrolled study."
+  },
+  {
+   "id": "tsperm-deligny2022",
+   "authors": "de Ligny W, Smits RM, Mackenzie-Proctor R, et al.",
+   "year": 2022,
+   "title": "Antioxidants for male subfertility",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "35506389",
+   "doi": "10.1002/14651858.CD007411.pub5",
+   "type": "meta-analysis",
+   "n": "Cochrane review of RCTs",
+   "finding": "Very low-certainty evidence that antioxidants may raise live birth; the evidence overall is inconclusive because of bias and small trials."
+  },
+  {
+   "id": "tsperm-ragheb2025",
+   "authors": "Ragheb A, Abdelbary A, Massoud A, et al.",
+   "year": 2025,
+   "title": "Evaluating the effect of smoking and its cessation on semen parameters",
+   "journal": "Reprod Fertil",
+   "pmid": "41051027",
+   "doi": "10.1530/RAF-24-0135",
+   "type": "cohort",
+   "n": "60 men",
+   "finding": "After quitting smoking, semen volume, concentration, count, motility and morphology improved at 3 months and further at 6 months, in proportion to time since quitting."
+  },
+  {
+   "id": "tsperm-sharma2016",
+   "authors": "Sharma R, Harlev A, Agarwal A, et al.",
+   "year": 2016,
+   "title": "Cigarette Smoking and Semen Quality: A New Meta-analysis Examining the Effect of the 2010 World Health Organization Laboratory Methods for the Examination of Human Semen",
+   "journal": "Eur Urol",
+   "pmid": "27113031",
+   "doi": "10.1016/j.eururo.2016.04.010",
+   "type": "meta-analysis",
+   "n": "20 studies, 5,865 men",
+   "finding": "Smoking was linked to lower sperm count, motility and morphology, more so in moderate/heavy smokers."
+  },
+  {
+   "id": "tsperm-pilz2000",
+   "authors": "Pilz H, Oguogho A, Chehne F, et al.",
+   "year": 2000,
+   "title": "Quitting cigarette smoking results in a fast improvement of in vivo oxidation injury (determined via plasma, serum and urinary isoprostane)",
+   "journal": "Thromb Res",
+   "pmid": "10944241",
+   "doi": "10.1016/s0049-3848(00)00249-8",
+   "type": "cohort",
+   "n": "47 adults",
+   "finding": "After quitting smoking, isoprostanes dropped within a few days and reached a new steady state about 4 weeks later."
+  },
+  {
+   "id": "tsperm-donders2022",
+   "authors": "Donders GGG, Bosmans E, Reumers J, et al.",
+   "year": 2022,
+   "title": "Sperm quality and absence of SARS-CoV-2 RNA in semen after COVID-19 infection: a prospective, observational study and validation of the SpermCOVID test",
+   "journal": "Fertil Steril",
+   "pmid": "34937665",
+   "doi": "10.1016/j.fertnstert.2021.10.022",
+   "type": "cohort",
+   "n": "120 men",
+   "finding": "After COVID-19, reduced motility was seen in 60% of men tested within a month, 37% at 1-2 months and 28% after 2 months; the authors estimate recovery takes about 3 months."
+  },
+  {
+   "id": "tsperm-depuydt2023",
+   "authors": "Depuydt C, Bosmans E, Jonckheere J, et al.",
+   "year": 2023,
+   "title": "SARS-CoV-2 infection reduces quality of sperm parameters: prospective one year follow-up study in 93 patients",
+   "journal": "EBioMedicine",
+   "pmid": "37307756",
+   "doi": "10.1016/j.ebiom.2023.104640",
+   "type": "cohort",
+   "n": "93 men",
+   "finding": "SARS-CoV-2 infection was followed by temporary declines in motility, morphology, DFI and concentration that mostly returned to baseline over a year of follow-up, at different speeds in different men."
+  },
+  {
+   "id": "tsperm-stigliani2022",
+   "authors": "Stigliani S, Massarotti C, Bovis F, et al.",
+   "year": 2022,
+   "title": "Semen parameters and male reproductive potential are not adversely affected after three or more months of recovery from COVID-19 disease",
+   "journal": "Front Reprod Health",
+   "pmid": "36743823",
+   "doi": "10.3389/frph.2022.1114308",
+   "type": "cohort",
+   "n": "20 men",
+   "finding": "Semen collected 3 or more months (mean 8 months) after COVID-19 did not differ from the same men's pre-infection samples."
+  },
+  {
+   "id": "tsperm-bujan2013",
+   "authors": "Bujan L, Walschaerts M, Moinard N, et al.",
+   "year": 2013,
+   "title": "Impact of chemotherapy and radiotherapy for testicular germ cell tumors on spermatogenesis and sperm DNA: a multicenter prospective study from the CECOS network",
+   "journal": "Fertil Steril",
+   "pmid": "23755953",
+   "doi": "10.1016/j.fertnstert.2013.05.018",
+   "type": "cohort",
+   "n": "129 men plus 257 controls",
+   "finding": "After testicular-cancer treatment, sperm values were lowest at 3-6 months; count recovered by 12 months after two or fewer BEP cycles but not after radiotherapy or more cycles."
+  },
+  {
+   "id": "tsperm-paoli2015",
+   "authors": "Paoli D, Gallo M, Rizzo F, et al.",
+   "year": 2015,
+   "title": "Testicular cancer and sperm DNA damage: short- and long-term effects of antineoplastic treatment",
+   "journal": "Andrology",
+   "pmid": "25180491",
+   "doi": "10.1111/j.2047-2927.2014.00250.x",
+   "type": "cohort",
+   "n": "testicular cancer patients (number not in abstract)",
+   "finding": "DFI rose from 18% to 28% three months after treatment and 23% at six months, then improved to about 14% at 12-24 months."
+  },
+  {
+   "id": "tsperm-tempest2008",
+   "authors": "Tempest HG, Ko E, Chan P, et al.",
+   "year": 2008,
+   "title": "Sperm aneuploidy frequencies analysed before and after chemotherapy in testicular cancer and Hodgkin's lymphoma patients",
+   "journal": "Hum Reprod",
+   "pmid": "18083744",
+   "doi": "10.1093/humrep/dem389",
+   "type": "cohort",
+   "n": "testicular cancer and Hodgkin lymphoma patients plus controls",
+   "finding": "Sperm aneuploidy rose after chemotherapy, generally returned to pre-treatment levels by 18 months but persisted for some chromosomes up to 24 months."
+  },
+  {
+   "id": "tsperm-howell2005",
+   "authors": "Howell SJ, Shalet SM",
+   "year": 2005,
+   "title": "Spermatogenesis after cancer treatment: damage and recovery",
+   "journal": "J Natl Cancer Inst Monogr",
+   "pmid": "15784814",
+   "doi": "10.1093/jncimonographs/lgi003",
+   "type": "review",
+   "n": null,
+   "finding": "After cisplatin chemotherapy about 50% of men recover spermatogenesis by 2 years and 80% by 5 years; testicular radiation of 0.2-0.7 Gy lowers counts transiently with recovery in 12-24 months."
+  },
+  {
+   "id": "tsperm-oktay2018",
+   "authors": "Oktay K, Harvey BE, Partridge AH, et al.",
+   "year": 2018,
+   "title": "Fertility Preservation in Patients With Cancer: ASCO Clinical Practice Guideline Update",
+   "journal": "J Clin Oncol",
+   "pmid": "29620997",
+   "doi": "10.1200/JCO.2018.78.1914",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASCO: discuss fertility as early as possible; sperm cryopreservation before treatment is standard practice."
+  },
+  {
+   "id": "tsperm-liu2006",
+   "authors": "Liu PY, Swerdloff RS, Christenson PD, et al.",
+   "year": 2006,
+   "title": "Rate, extent, and modifiers of spermatogenic recovery after hormonal male contraception: an integrated analysis",
+   "journal": "Lancet",
+   "pmid": "16650651",
+   "doi": "10.1016/S0140-6736(06)68614-5",
+   "type": "meta-analysis",
+   "n": "1,549 men (individual data, 30 studies)",
+   "finding": "After hormonal male contraception, median recovery to 20 million/mL took 3.4 months; 67% recovered by 6 months, 90% by 12 months and 100% by 24 months."
+  },
+  {
+   "id": "tsperm-who1995",
+   "authors": "World Health Organization Task Force on Methods for the Regulation of Male Fertility",
+   "year": 1995,
+   "title": "Rates of testosterone-induced suppression to severe oligozoospermia or azoospermia in two multinational clinical studies. World Health Organization Task force on Methods for The Regulations of Male Fertility",
+   "journal": "Int J Androl",
+   "pmid": "7558380",
+   "doi": "10.1111/j.1365-2605.1995.tb00405.x",
+   "type": "cohort",
+   "n": "670 men",
+   "finding": "Weekly 200 mg testosterone enanthate suppressed sperm to under 3 million/mL in 96-98% of men and to azoospermia in 67-89% within 6 months."
+  },
+  {
+   "id": "tsperm-mclachlan2002",
+   "authors": "McLachlan RI, O'Donnell L, Stanton PG, et al.",
+   "year": 2002,
+   "title": "Effects of testosterone plus medroxyprogesterone acetate on semen quality, reproductive hormones, and germ cell populations in normal young men",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "11836283",
+   "doi": "10.1210/jcem.87.2.8231",
+   "type": "rct",
+   "n": "30 men",
+   "finding": "Testosterone (with or without DMPA) cut sperm counts to 10% of baseline in about 24 days, through blocked spermatogonial maturation and striking spermiation failure."
+  },
+  {
+   "id": "tsperm-shankara2020",
+   "authors": "Shankara-Narayana N, Yu C, Savkovic S, et al.",
+   "year": 2020,
+   "title": "Rate and Extent of Recovery from Reproductive and Cardiac Dysfunction Due to Androgen Abuse in Men",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "32030409",
+   "doi": "10.1210/clinem/dgz324",
+   "type": "cross-sectional",
+   "n": "93 men",
+   "finding": "Past androgen abusers looked like non-users except for smaller testes; estimated recovery took 7-11 months for hormones and about 14 months for sperm output."
+  },
+  {
+   "id": "tsperm-rajmil2024",
+   "authors": "Rajmil O, Moreno-Sepulveda J",
+   "year": 2024,
+   "title": "Recovery of spermatogenesis after androgenic anabolic steroids abuse in men. A systematic review of the literature",
+   "journal": "Actas Urol Esp (Engl Ed)",
+   "pmid": "37567343",
+   "doi": "10.1016/j.acuroe.2023.07.007",
+   "type": "review",
+   "n": "13 studies",
+   "finding": "After anabolic steroid abuse, sperm production may take over a year to normalise; hCG, SERMs and aromatase inhibitors can help."
+  },
+  {
+   "id": "tsperm-tanrikut2010",
+   "authors": "Tanrikut C, Feldman AS, Altemus M, et al.",
+   "year": 2010,
+   "title": "Adverse effect of paroxetine on sperm",
+   "journal": "Fertil Steril",
+   "pmid": "19515367",
+   "doi": "10.1016/j.fertnstert.2009.04.039",
+   "type": "cohort",
+   "n": "35 men",
+   "finding": "Paroxetine raised mean TUNEL SDF from 13.8% to 30.3% by week 4 (abnormal in 50% vs 9.7%) without changing standard semen parameters."
+  },
+  {
+   "id": "tsperm-safarinejad2008",
+   "authors": "Safarinejad MR",
+   "year": 2008,
+   "title": "Sperm DNA damage and semen quality impairment after treatment with selective serotonin reuptake inhibitors detected using semen analysis and sperm chromatin structure assay",
+   "journal": "J Urol",
+   "pmid": "18804223",
+   "doi": "10.1016/j.juro.2008.07.034",
+   "type": "case-control",
+   "n": "118 men",
+   "finding": "Reported lower counts and higher SDF in SSRI-treated men; the paper received an Expression of Concern from J Urol in 2023, so it is cited only to flag it."
+  },
+  {
+   "id": "tsperm-koyuncu2011",
+   "authors": "Koyuncu H, Serefoglu EC, Yencilek E, et al.",
+   "year": 2011,
+   "title": "Escitalopram treatment for premature ejaculation has a negative effect on semen parameters",
+   "journal": "Int J Impot Res",
+   "pmid": "21776003",
+   "doi": "10.1038/ijir.2011.35",
+   "type": "cohort",
+   "n": "25 men",
+   "finding": "Escitalopram 10 mg daily for 12 weeks lowered sperm concentration, motility and morphology at 3 months."
+  },
+  {
+   "id": "tsperm-gundersen2015",
+   "authors": "Gundersen TD, Jørgensen N, Andersson AM, et al.",
+   "year": 2015,
+   "title": "Association Between Use of Marijuana and Male Reproductive Hormones and Semen Quality: A Study Among 1,215 Healthy Young Men",
+   "journal": "Am J Epidemiol",
+   "pmid": "26283092",
+   "doi": "10.1093/aje/kwv135",
+   "type": "cross-sectional",
+   "n": "1,215 men",
+   "finding": "Marijuana more than once a week in the past 3 months was linked to 28% lower concentration and 29% lower total count; with other drugs, about 52-55% lower."
+  },
+  {
+   "id": "tsperm-nassan2019",
+   "authors": "Nassan FL, Arvizu M, Mínguez-Alarcón L, et al.",
+   "year": 2019,
+   "title": "Marijuana smoking and markers of testicular function among men from a fertility centre",
+   "journal": "Hum Reprod",
+   "pmid": "30726923",
+   "doi": "10.1093/humrep/dez002",
+   "type": "cohort",
+   "n": "662 men",
+   "finding": "Men who had ever smoked marijuana had higher sperm concentration and count than never-users; current and past users did not differ."
+  },
+  {
+   "id": "tsperm-verhaeghe2020",
+   "authors": "Verhaeghe F, Di Pizio P, Bichara C, et al.",
+   "year": 2020,
+   "title": "Cannabis consumption might exert deleterious effects on sperm nuclear quality in infertile men",
+   "journal": "Reprod Biomed Online",
+   "pmid": "32001159",
+   "doi": "10.1016/j.rbmo.2019.11.002",
+   "type": "case-control",
+   "n": "54 men",
+   "finding": "Regular cannabis users had more sperm aneuploidy and DNA fragmentation than matched non-users."
+  },
+  {
+   "id": "tsperm-hedges2023",
+   "authors": "Hedges JC, Hanna CB, Shorey-Kendrick LE, et al.",
+   "year": 2023,
+   "title": "Cessation of chronic delta-9-tetrahydrocannabinol use partially reverses impacts on male fertility and the sperm epigenome in rhesus macaques",
+   "journal": "Fertil Steril",
+   "pmid": "36990913",
+   "doi": "10.1016/j.fertnstert.2023.02.034",
+   "type": "mechanistic",
+   "n": "6 rhesus macaques",
+   "finding": "Daily THC shrank testes, lowered sex steroids and raised sperm DNA fragmentation; stopping THC gave partial recovery (testes back to 73% of original volume)."
+  },
+  {
+   "id": "tsperm-jensen2014",
+   "authors": "Jensen TK, Gottschau M, Madsen JO, et al.",
+   "year": 2014,
+   "title": "Habitual alcohol consumption associated with reduced semen quality and changes in reproductive hormones; a cross-sectional study among 1221 young Danish men",
+   "journal": "BMJ Open",
+   "pmid": "25277121",
+   "doi": "10.1136/bmjopen-2014-005462",
+   "type": "cross-sectional",
+   "n": "1,221 men",
+   "finding": "Habitual intake above 5 units/week, and most clearly above 25 units/week, was linked to lower concentration, count and morphology; above 40 units/week concentration was 33% lower."
+  },
+  {
+   "id": "tsperm-ricci2017",
+   "authors": "Ricci E, Al Beitawi S, Cipriani S, et al.",
+   "year": 2017,
+   "title": "Semen quality and alcohol intake: a systematic review and meta-analysis",
+   "journal": "Reprod Biomed Online",
+   "pmid": "28029592",
+   "doi": "10.1016/j.rbmo.2016.09.012",
+   "type": "meta-analysis",
+   "n": "15 studies, 16,395 men",
+   "finding": "Alcohol was linked to lower semen volume and morphology, mainly in daily versus occasional drinkers; moderate intake did not clearly harm semen."
+  },
+  {
+   "id": "tsperm-sermondade2010",
+   "authors": "Sermondade N, Elloumi H, Berthaut I, et al.",
+   "year": 2010,
+   "title": "Progressive alcohol-induced sperm alterations leading to spermatogenic arrest, which was reversed after alcohol withdrawal",
+   "journal": "Reprod Biomed Online",
+   "pmid": "20117050",
+   "doi": "10.1016/j.rbmo.2009.12.003",
+   "type": "cohort",
+   "n": "1 man (6-year case report)",
+   "finding": "Heavy drinking progressively led to azoospermia with pachytene arrest; after stopping alcohol, semen was normal within 3 months."
+  },
+  {
+   "id": "tsperm-amory2007",
+   "authors": "Amory JK, Wang C, Swerdloff RS, et al.",
+   "year": 2007,
+   "title": "The effect of 5alpha-reductase inhibition with dutasteride and finasteride on semen parameters and serum hormones in healthy men",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "17299062",
+   "doi": "10.1210/jc.2006-2203",
+   "type": "rct",
+   "n": "99 men",
+   "finding": "Finasteride 5 mg and dutasteride lowered total sperm count about 29-34% at 26 weeks; at 52 weeks and 24 weeks after stopping, falls were smaller and the authors judged them reversible."
+  },
+  {
+   "id": "tsperm-overstreet1999",
+   "authors": "Overstreet JW, Fuh VL, Gould J, et al.",
+   "year": 1999,
+   "title": "Chronic treatment with finasteride daily does not affect spermatogenesis or semen production in young men",
+   "journal": "J Urol",
+   "pmid": "10492183",
+   "doi": null,
+   "type": "rct",
+   "n": "181 men",
+   "finding": "Finasteride 1 mg daily for 48 weeks did not affect sperm concentration, count, motility or morphology in young men."
+  },
+  {
+   "id": "tsperm-samplaski2013",
+   "authors": "Samplaski MK, Lo K, Grober E, et al.",
+   "year": 2013,
+   "title": "Finasteride use in the male infertility population: effects on semen and hormone parameters",
+   "journal": "Fertil Steril",
+   "pmid": "24012200",
+   "doi": "10.1016/j.fertnstert.2013.07.2000",
+   "type": "cohort",
+   "n": "27 men",
+   "finding": "In subfertile men on finasteride (mean 1.04 mg for 57 months), sperm counts rose 11.6-fold on average after stopping."
+  },
+  {
+   "id": "tsperm-toovey1981",
+   "authors": "Toovey S, Hudson E, Hendry WF, et al.",
+   "year": 1981,
+   "title": "Sulphasalazine and male infertility: reversibility and possible mechanism",
+   "journal": "Gut",
+   "pmid": "6114897",
+   "doi": "10.1136/gut.22.6.445",
+   "type": "cohort",
+   "n": "28 men",
+   "finding": "Sulfasalazine 2-4 g/day caused gross semen abnormalities after more than 2 months; semen improved after more than 2 months off the drug and 10 pregnancies followed."
+  },
+  {
+   "id": "tsperm-omorain1984",
+   "authors": "O'Moráin C, Smethurst P, Doré CJ, et al.",
+   "year": 1984,
+   "title": "Reversible male infertility due to sulphasalazine: studies in man and rat",
+   "journal": "Gut",
+   "pmid": "6148293",
+   "doi": "10.1136/gut.25.10.1078",
+   "type": "cohort",
+   "n": "men with IBD (number not in abstract)",
+   "finding": "Sulfasalazine-induced semen changes reversed after stopping, with 15 pregnancies at a median of 2.5 months; the sulfapyridine part acts late in sperm maturation."
+  },
+  {
+   "id": "tsperm-eck2017",
+   "authors": "Eck LK, Jensen TB, Mastrogiannis D, et al.",
+   "year": 2017,
+   "title": "Risk of Adverse Pregnancy Outcome After Paternal Exposure to Methotrexate Within 90 Days Before Pregnancy",
+   "journal": "Obstet Gynecol",
+   "pmid": "28277353",
+   "doi": "10.1097/AOG.0000000000001936",
+   "type": "cohort",
+   "n": "849,676 births, 127 with methotrexate-exposed fathers",
+   "finding": "Paternal methotrexate in the 90 days before pregnancy was not linked to malformations, stillbirth or preterm birth."
+  },
+  {
+   "id": "tsperm-hellstrom2006",
+   "authors": "Hellstrom WJ, Sikka SC",
+   "year": 2006,
+   "title": "Effects of acute treatment with tamsulosin versus alfuzosin on ejaculatory function in normal volunteers",
+   "journal": "J Urol",
+   "pmid": "16952675",
+   "doi": "10.1016/j.juro.2006.06.004",
+   "type": "rct",
+   "n": "48 men (crossover)",
+   "finding": "Five days of tamsulosin 0.8 mg cut ejaculate volume by 2.4 mL and caused anejaculation in 35%, while alfuzosin did not."
+  },
+  {
+   "id": "tsperm-sakata2012",
+   "authors": "Sakata K, Morita T",
+   "year": 2012,
+   "title": "Investigation of ejaculatory disorder by silodosin in the treatment of prostatic hyperplasia",
+   "journal": "BMC Urol",
+   "pmid": "23082785",
+   "doi": "10.1186/1471-2490-12-29",
+   "type": "cross-sectional",
+   "n": "91 men",
+   "finding": "Ejaculatory disorder occurred in 95% of sexually active men on silodosin."
+  },
+  {
+   "id": "tsperm-mendelson1975",
+   "authors": "Mendelson JH, Mendelson JE, Patch VD",
+   "year": 1975,
+   "title": "Plasma testosterone levels in heroin addiction and during methadone maintenance",
+   "journal": "J Pharmacol Exp Ther",
+   "pmid": "1123724",
+   "doi": null,
+   "type": "cross-sectional",
+   "n": "heroin and methadone users plus controls",
+   "finding": "High-dose methadone (80-150 mg/day) and heroin lowered testosterone; low-dose methadone did not, and testosterone tracked dose during detoxification."
+  },
+  {
+   "id": "tsperm-bliesener2005",
+   "authors": "Bliesener N, Albrecht S, Schwager A, et al.",
+   "year": 2005,
+   "title": "Plasma testosterone and sexual function in men receiving buprenorphine maintenance for opioid dependence",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "15483091",
+   "doi": "10.1210/jc.2004-0929",
+   "type": "cross-sectional",
+   "n": "105 men",
+   "finding": "High-dose methadone users had much lower testosterone than buprenorphine users, whose levels matched healthy controls."
+  },
+  {
+   "id": "tsperm-desouza1994",
+   "authors": "De Souza MJ, Arce JC, Pescatello LS, et al.",
+   "year": 1994,
+   "title": "Gonadal hormones and semen quality in male runners. A volume threshold effect of endurance training",
+   "journal": "Int J Sports Med",
+   "pmid": "8002116",
+   "doi": "10.1055/s-2007-1021075",
+   "type": "cross-sectional",
+   "n": "30 men",
+   "finding": "Runners averaging 108 km/week had lower testosterone, lower motile count and more immature sperm than runners at 54 km/week or sedentary men."
+  },
+  {
+   "id": "tsperm-vaamonde2018",
+   "authors": "Vaamonde D, Algar-Santacruz C, Abbasi A, et al.",
+   "year": 2018,
+   "title": "Sperm DNA fragmentation as a result of ultra-endurance exercise training in male athletes",
+   "journal": "Andrologia",
+   "pmid": "28295487",
+   "doi": "10.1111/and.12793",
+   "type": "cross-sectional",
+   "n": "12 male triathletes",
+   "finding": "Elite triathletes in training had high sperm DNA fragmentation despite normal hormones and standard semen values."
+  },
+  {
+   "id": "tsperm-maleki2014",
+   "authors": "Maleki BH, Tartibian B, Vaamonde D",
+   "year": 2014,
+   "title": "The effects of 16 weeks of intensive cycling training on seminal oxidants and antioxidants in male road cyclists",
+   "journal": "Clin J Sport Med",
+   "pmid": "24389625",
+   "doi": "10.1097/JSM.0000000000000051",
+   "type": "cohort",
+   "n": "24 male cyclists",
+   "finding": "Sixteen weeks of intensive cycling raised seminal ROS and malondialdehyde and lowered antioxidants; they were still abnormal 30 days after training stopped (same author group has several retracted exercise-and-semen trials; read with caution)."
+  },
+  {
+   "id": "tsperm-lane2019",
+   "authors": "Lane AR, Magallanes CA, Hackney AC",
+   "year": 2019,
+   "title": "Reproductive Dysfunction from Exercise Training: The \"Exercise-Hypogonadal Male Condition\"",
+   "journal": "Arch Med Deporte",
+   "pmid": "32724267",
+   "doi": null,
+   "type": "review",
+   "n": null,
+   "finding": "Describes the exercise-hypogonadal male condition: persistently low testosterone without raised LH in men with years of chronic endurance training."
+  },
+  {
+   "id": "tsperm-cameron1991",
+   "authors": "Cameron JL, Weltzin TE, McConaha C, et al.",
+   "year": 1991,
+   "title": "Slowing of pulsatile luteinizing hormone secretion in men after forty-eight hours of fasting",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "1904451",
+   "doi": "10.1210/jcem-73-1-35",
+   "type": "cohort",
+   "n": "8 men",
+   "finding": "A 48-hour fast lowered mean LH from 2.94 to 1.07 IU/L and also lowered FSH and testosterone."
+  },
+  {
+   "id": "tsperm-engel2023",
+   "authors": "Engel OJ, Doctory N, Sun B, et al.",
+   "year": 2023,
+   "title": "The Effect of Month-Long Daily Fasting on Semen Parameters: A Retrospective Cohort Study",
+   "journal": "Gynecol Obstet Invest",
+   "pmid": "37883941",
+   "doi": "10.1159/000534773",
+   "type": "cohort",
+   "n": "97 men",
+   "finding": "Samples produced during Ramadan or the 70 days after had lower post-preparation progressive motility (30% vs 38%) than the same men's other samples."
+  },
+  {
+   "id": "tsperm-gallegos2008",
+   "authors": "Gallegos G, Ramos B, Santiso R, et al.",
+   "year": 2008,
+   "title": "Sperm DNA fragmentation in infertile men with genitourinary infection by Chlamydia trachomatis and Mycoplasma",
+   "journal": "Fertil Steril",
+   "pmid": "17953955",
+   "doi": "10.1016/j.fertnstert.2007.06.035",
+   "type": "cohort",
+   "n": "143 men (95 treated)",
+   "finding": "Men with Chlamydia or Mycoplasma had 3.2 times the SDF of fertile men; 3.8 +/- 2.2 months of antibiotics lowered SDF from 37.7% to 24.2%, and couples trying after treatment conceived far more often than during it."
+  },
+  {
+   "id": "tsperm-perera2002",
+   "authors": "Perera D, Pizzey A, Campbell A, et al.",
+   "year": 2002,
+   "title": "Sperm DNA damage in potentially fertile homozygous beta-thalassaemia patients with iron overload",
+   "journal": "Hum Reprod",
+   "pmid": "12093845",
+   "doi": "10.1093/humrep/17.7.1820",
+   "type": "case-control",
+   "n": "6 patients, 5 controls",
+   "finding": "Iron-overloaded thalassaemia patients had more sperm DNA damage, and later onset of chelation was linked to more damage."
+  },
+  {
+   "id": "tsperm-carlomagno2026",
+   "authors": "Carlomagno F, Tenuta M, Sansone A, et al.",
+   "year": 2026,
+   "title": "Iron overload disorders in adults: a comprehensive review of gonadal function, reproductive, and sexual health",
+   "journal": "Hum Reprod Update",
+   "pmid": "42101252",
+   "doi": "10.1093/humupd/dmag010",
+   "type": "review",
+   "n": null,
+   "finding": "Systematic review of iron overload disorders and reproduction: hormonal and gonadal damage is common and under-recognised."
+  },
+  {
+   "id": "tsperm-agarwal2008",
+   "authors": "Agarwal A, Deepinder F, Cocuzza M, et al.",
+   "year": 2008,
+   "title": "Effect of vaginal lubricants on sperm motility and chromatin integrity: a prospective comparative study",
+   "journal": "Fertil Steril",
+   "pmid": "17509584",
+   "doi": "10.1016/j.fertnstert.2007.02.050",
+   "type": "mechanistic",
+   "n": "13 donors",
+   "finding": "After 30 minutes in vitro, several lubricants reduced progressive motility, and some raised DFI over 4 hours, while Pre-Seed did not."
+  },
+  {
+   "id": "tsperm-steiner2012",
+   "authors": "Steiner AZ, Long DL, Tanner C, et al.",
+   "year": 2012,
+   "title": "Effect of vaginal lubricants on natural fertility",
+   "journal": "Obstet Gynecol",
+   "pmid": "22914390",
+   "doi": "10.1097/AOG.0b013e31825b87ae",
+   "type": "cohort",
+   "n": "296 women",
+   "finding": "Lubricant use in the fertile window did not lower fecundability (FR 1.05)."
+  },
+  {
+   "id": "tsperm-li2018",
+   "authors": "Li Y, Fletcher T, Mucs D, et al.",
+   "year": 2018,
+   "title": "Half-lives of PFOS, PFHxS and PFOA after end of exposure to contaminated drinking water",
+   "journal": "Occup Environ Med",
+   "pmid": "29133598",
+   "doi": "10.1136/oemed-2017-104651",
+   "type": "cohort",
+   "n": "106 people",
+   "finding": "After clean water replaced contaminated water, serum half-lives were 5.3 years for PFHxS, 3.4 years for PFOS and 2.7 years for PFOA (13-26% fall per year)."
+  },
+  {
+   "id": "tsperm-li2022",
+   "authors": "Li Y, Andersson A, Xu Y, et al.",
+   "year": 2022,
+   "title": "Determinants of serum half-lives for linear and branched perfluoroalkyl substances after long-term high exposure-A study in Ronneby, Sweden",
+   "journal": "Environ Int",
+   "pmid": "35447437",
+   "doi": "10.1016/j.envint.2022.107198",
+   "type": "cohort",
+   "n": "114 people",
+   "finding": "Serum half-lives of PFAS after long-term high exposure ranged from about 0.9 years (PFPeS) to 5 years (branched PFOS); younger age and better kidney function shortened them."
+  },
+  {
+   "id": "tsperm-gasiorowski2022",
+   "authors": "Gasiorowski R, Forbes MK, Silver G, et al.",
+   "year": 2022,
+   "title": "Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial",
+   "journal": "JAMA Netw Open",
+   "pmid": "35394514",
+   "doi": "10.1001/jamanetworkopen.2022.6257",
+   "type": "rct",
+   "n": "285 firefighters",
+   "finding": "Plasma donation every 6 weeks for 12 months lowered serum PFOS by 2.9 ng/mL, more than blood donation (1.1 ng/mL), with no change on observation."
+  },
+  {
+   "id": "tsperm-dinisio2026",
+   "authors": "Di Nisio A, López-Gil JF, Pizzol D, et al.",
+   "year": 2026,
+   "title": "Associations between per- and polyfluoroalkyl substances and semen parameters: An updated systematic review and meta-analysis",
+   "journal": "J Hazard Mater",
+   "pmid": "42570390",
+   "doi": "10.1016/j.jhazmat.2026.143157",
+   "type": "meta-analysis",
+   "n": "14 studies, 7,465 men",
+   "finding": "PFAS were weakly linked to lower progressive motility (r = -0.06) and more sperm DNA damage (r = 0.14), with heterogeneous results."
+  },
+  {
+   "id": "tsperm-hu2024",
+   "authors": "Hu CJ, Garcia MA, Nihart A, et al.",
+   "year": 2024,
+   "title": "Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis",
+   "journal": "Toxicol Sci",
+   "pmid": "38745431",
+   "doi": "10.1093/toxsci/kfae060",
+   "type": "cross-sectional",
+   "n": "23 human and 47 canine testes",
+   "finding": "Pyrolysis-GC/MS found microplastics in all testes (mean 328 ug/g in humans)."
+  },
+  {
+   "id": "tsperm-uppu2025",
+   "authors": "Uppu RM, Peijnenburg W, Hays SM",
+   "year": 2025,
+   "title": "Comment on: \"Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis\"",
+   "journal": "Toxicol Sci",
+   "pmid": "39475449",
+   "doi": "10.1093/toxsci/kfae136",
+   "type": "review",
+   "n": null,
+   "finding": "Published comment disputing the methods and interpretation of the testis microplastics study."
+  },
+  {
+   "id": "tsperm-kim2021",
+   "authors": "Kim S, Han D, Ryu J, et al.",
+   "year": 2021,
+   "title": "Effects of mobile phone usage on sperm quality - No time-dependent relationship on usage: A systematic review and updated meta-analysis",
+   "journal": "Environ Res",
+   "pmid": "34333014",
+   "doi": "10.1016/j.envres.2021.111784",
+   "type": "meta-analysis",
+   "n": "18 studies, 4,280 samples",
+   "finding": "Mobile phone exposure was linked to lower motility, viability and concentration, but the decrease did not grow with more hours of use."
+  },
+  {
+   "id": "tsperm-wyrobek2006",
+   "authors": "Wyrobek AJ, Eskenazi B, Young S, et al.",
+   "year": 2006,
+   "title": "Advancing age has differential effects on DNA damage, chromatin integrity, gene mutations, and aneuploidies in sperm",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "16766665",
+   "doi": "10.1073/pnas.0506468103",
+   "type": "cross-sectional",
+   "n": "97 men aged 22-80",
+   "finding": "DFI and FGFR3 mutations rose with age without a threshold, while aneuploidy and immature chromatin did not."
+  },
+  {
+   "id": "tsperm-johnson2015",
+   "authors": "Johnson SL, Dunleavy J, Gemmell NJ, et al.",
+   "year": 2015,
+   "title": "Consistent age-dependent declines in human semen quality: a systematic review and meta-analysis",
+   "journal": "Ageing Res Rev",
+   "pmid": "25462195",
+   "doi": "10.1016/j.arr.2014.10.007",
+   "type": "meta-analysis",
+   "n": "90 studies, 93,839 men",
+   "finding": "Semen volume, motility, morphology and unfragmented DNA declined with male age."
+  },
+  {
+   "id": "tsperm-fedder2014",
+   "authors": "Fedder MD, Jakobsen HB, Giversen I, et al.",
+   "year": 2014,
+   "title": "An extract of pomegranate fruit and galangal rhizome increases the numbers of motile sperm: a prospective, randomised, controlled, double-blinded trial",
+   "journal": "PLoS One",
+   "pmid": "25275520",
+   "doi": "10.1371/journal.pone.0108532",
+   "type": "rct",
+   "n": "70 men",
+   "finding": "Three months of pomegranate fruit extract plus galangal raised total motile sperm by 62% versus 20% on placebo; two authors commercialise the product."
+  },
+  {
+   "id": "tsperm-holmboe2020",
+   "authors": "Holmboe SA, Priskorn L, Jensen TK, et al.",
+   "year": 2020,
+   "title": "Use of e-cigarettes associated with lower sperm counts in a cross-sectional study of young men from the general population",
+   "journal": "Hum Reprod",
+   "pmid": "32558890",
+   "doi": "10.1093/humrep/deaa089",
+   "type": "cross-sectional",
+   "n": "2,008 men",
+   "finding": "Daily e-cigarette users had lower total sperm count (91 vs 147 million) than non-users."
+  },
+  {
+   "id": "tsperm-odonnell2011",
+   "authors": "O'Donnell L, Nicholls PK, O'Bryan MK, et al.",
+   "year": 2011,
+   "title": "Spermiation: The process of sperm release",
+   "journal": "Spermatogenesis",
+   "pmid": "21866274",
+   "doi": "10.4161/spmg.1.1.14525",
+   "type": "review",
+   "n": null,
+   "finding": "Spermiation releases mature spermatids from Sertoli cells over several days; its failure, for example during hormonal suppression, lowers sperm counts and harms sperm quality."
+  },
+  {
+   "id": "tsperm-safarinejad2009",
+   "authors": "Safarinejad MR, Azma K, Kolahi AA",
+   "year": 2009,
+   "title": "The effects of intensive, long-term treadmill running on reproductive hormones, hypothalamus-pituitary-testis axis, and semen quality: a randomized controlled study",
+   "journal": "J Endocrinol",
+   "pmid": "19066291",
+   "doi": "10.1677/JOE-08-0477",
+   "type": "rct",
+   "n": "treadmill running trial",
+   "finding": "RETRACTED. A widely cited trial claiming intensive treadmill running harms semen; it must not be used as evidence."
+  },
+  {
+   "id": "tegg-balachandren2026",
+   "authors": "Balachandren N, Kastora SL, Anderson RA, et al.",
+   "year": 2026,
+   "title": "Assessing the reproductive lifespan of female cancer survivors using AMH: a meta-synthesis of longitudinal studies",
+   "journal": "Hum Reprod Update",
+   "pmid": "42497321",
+   "doi": "10.1093/humupd/dmag019",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "AMH fell 76% at 12 months after breast-cancer chemotherapy and recovered partly between 6 and 12-24 months; survivors who kept ovarian function then tracked age-matched controls."
+  },
+  {
+   "id": "tegg-benedict2011",
+   "authors": "Benedict MD, Missmer SA, Vitonis AF, et al.",
+   "year": 2011,
+   "title": "Cotinine concentrations in follicular fluid as a measure of secondhand tobacco smoke exposure in women undergoing in vitro fertilization: inter-matrix comparisons with urine and temporal variability",
+   "journal": "Chemosphere",
+   "pmid": "21397293",
+   "doi": "10.1016/j.chemosphere.2011.02.037",
+   "type": "cohort",
+   "n": null,
+   "finding": "Cotinine is measurable in follicular fluid of IVF patients and reflects tobacco smoke exposure reaching the follicle."
+  },
+  {
+   "id": "tegg-cesta2016",
+   "authors": "Cesta CE, Viktorin A, Olsson H, et al.",
+   "year": 2016,
+   "title": "Depression, anxiety, and antidepressant treatment in women: association with in vitro fertilization outcome",
+   "journal": "Fertil Steril",
+   "pmid": "26920258",
+   "doi": "10.1016/j.fertnstert.2016.01.036",
+   "type": "cohort",
+   "n": "23,557 women",
+   "finding": "SSRI-only prescriptions before a first IVF cycle were not associated with pregnancy or live birth; untreated depression/anxiety and non-SSRI antidepressants were."
+  },
+  {
+   "id": "tegg-cohen2006",
+   "authors": "Cohen LS, Altshuler LL, Harlow BL, et al.",
+   "year": 2006,
+   "title": "Relapse of major depression during pregnancy in women who maintain or discontinue antidepressant treatment",
+   "journal": "JAMA",
+   "pmid": "16449615",
+   "doi": "10.1001/jama.295.5.499",
+   "type": "cohort",
+   "n": "201 women",
+   "finding": "Relapse of major depression in pregnancy: 68% after discontinuing antidepressants near conception vs 26% when maintained."
+  },
+  {
+   "id": "tegg-domar2013",
+   "authors": "Domar AD, Moragianni VA, Ryley DA, et al.",
+   "year": 2013,
+   "title": "The risks of selective serotonin reuptake inhibitor use in infertile women: a review of the impact on fertility, pregnancy, neonatal health and beyond",
+   "journal": "Hum Reprod",
+   "pmid": "23117129",
+   "doi": "10.1093/humrep/des383",
+   "type": "review",
+   "n": null,
+   "finding": "Argues SSRI use in infertile women carries pregnancy risks without proven benefit and favours psychotherapy and exercise first."
+  },
+  {
+   "id": "tegg-hartnett2018",
+   "authors": "Hartnett KP, Mertens AC, Kramer MR, et al.",
+   "year": 2018,
+   "title": "Pregnancy after cancer: Does timing of conception affect infant health?",
+   "journal": "Cancer",
+   "pmid": "30403424",
+   "doi": "10.1002/cncr.31732",
+   "type": "cohort",
+   "n": null,
+   "finding": "Conceiving within 1 year of starting chemotherapy was linked to more preterm birth (RR 1.9; 2.4 with radiation); conceiving later was not."
+  },
+  {
+   "id": "tegg-huybrechts2014",
+   "authors": "Huybrechts KF, Palmsten K, Avorn J, et al.",
+   "year": 2014,
+   "title": "Antidepressant use in pregnancy and the risk of cardiac defects",
+   "journal": "N Engl J Med",
+   "pmid": "24941178",
+   "doi": "10.1056/NEJMoa1312828",
+   "type": "cohort",
+   "n": "949,504 pregnancies",
+   "finding": "First-trimester antidepressant use was not associated with cardiac defects after adjustment for depression and confounders (SSRI RR 1.06)."
+  },
+  {
+   "id": "tegg-klonoffcohen2003",
+   "authors": "Klonoff-Cohen H, Lam-Kruglick P, Gonzalez C",
+   "year": 2003,
+   "title": "Effects of maternal and paternal alcohol consumption on the success rates of in vitro fertilization and gamete intrafallopian transfer",
+   "journal": "Fertil Steril",
+   "pmid": "12568842",
+   "doi": "10.1016/s0015-0282(02)04582-x",
+   "type": "cohort",
+   "n": "221 couples",
+   "finding": "Female drinking was linked to fewer eggs (per drink/day in the year before), higher risk of no pregnancy (month before) and miscarriage (week before) in IVF/GIFT."
+  },
+  {
+   "id": "tegg-mailliez2022",
+   "authors": "Mailliez A, Pigny P, Bogart E, et al.",
+   "year": 2022,
+   "title": "Is ovarian recovery after chemotherapy in young patients with early breast cancer influenced by controlled ovarian hyperstimulation for fertility preservation or tumor characteristics? Results of a prospective study in 126 patients",
+   "journal": "Int J Cancer",
+   "pmid": "35038360",
+   "doi": "10.1002/ijc.33933",
+   "type": "cohort",
+   "n": "126 women",
+   "finding": "After breast-cancer chemotherapy, 94% had amenorrhoea and 33% still had undetectable AMH 12 months after treatment, though most resumed menses."
+  },
+  {
+   "id": "tegg-meirow2001",
+   "authors": "Meirow D, Epstein M, Lewis H, et al.",
+   "year": 2001,
+   "title": "Administration of cyclophosphamide at different stages of follicular maturation in mice: effects on reproductive performance and fetal malformations",
+   "journal": "Hum Reprod",
+   "pmid": "11278209",
+   "doi": "10.1093/humrep/16.4.632",
+   "type": "mechanistic",
+   "n": "mice",
+   "finding": "After cyclophosphamide, conceptions from follicles exposed at mature stages failed more often and malformations were >10-fold higher; malformation rates fell toward normal by 12 weeks after exposure."
+  },
+  {
+   "id": "tegg-mikkelsen2016",
+   "authors": "Mikkelsen EM, Riis AH, Wise LA, et al.",
+   "year": 2016,
+   "title": "Alcohol consumption and fecundability: prospective Danish cohort study",
+   "journal": "BMJ",
+   "pmid": "27581754",
+   "doi": "10.1136/bmj.i4262",
+   "type": "cohort",
+   "n": "6120 women",
+   "finding": "Fewer than 14 servings of alcohol per week showed no discernible effect on fecundability; binge drinking in the fertile window was not assessed."
+  },
+  {
+   "id": "tegg-oktay2018",
+   "authors": "Oktay K, Harvey BE, Partridge AH, et al.",
+   "year": 2018,
+   "title": "Fertility Preservation in Patients With Cancer: ASCO Clinical Practice Guideline Update",
+   "journal": "J Clin Oncol",
+   "pmid": "29620997",
+   "doi": "10.1200/JCO.2018.78.1914",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASCO: discuss fertility early; oocyte and embryo cryopreservation are standard before gonadotoxic treatment; GnRH agonists only as an adjunct."
+  },
+  {
+   "id": "tegg-preskorn1997",
+   "authors": "Preskorn SH",
+   "year": 1997,
+   "title": "Clinically relevant pharmacology of selective serotonin reuptake inhibitors. An overview with emphasis on pharmacokinetics and effects on oxidative drug metabolism",
+   "journal": "Clin Pharmacokinet",
+   "pmid": "9068931",
+   "doi": "10.2165/00003088-199700321-00003",
+   "type": "review",
+   "n": null,
+   "finding": "Most SSRIs have half-lives of about 1 day; fluoxetine 2-4 days and its metabolite norfluoxetine 7-15 days."
+  },
+  {
+   "id": "tegg-rossi2011",
+   "authors": "Rossi BV, Berry KF, Hornstein MD, et al.",
+   "year": 2011,
+   "title": "Effect of alcohol consumption on in vitro fertilization",
+   "journal": "Obstet Gynecol",
+   "pmid": "21173655",
+   "doi": "10.1097/AOG.0b013e31820090e1",
+   "type": "cohort",
+   "n": "2545 couples",
+   "finding": "Women drinking at least four drinks a week before IVF had 16% lower odds of live birth."
+  },
+  {
+   "id": "tegg-signorello2010",
+   "authors": "Signorello LB, Mulvihill JJ, Green DM, et al.",
+   "year": 2010,
+   "title": "Stillbirth and neonatal death in relation to radiation exposure before conception: a retrospective cohort study",
+   "journal": "Lancet",
+   "pmid": "20655585",
+   "doi": "10.1016/S0140-6736(10)60752-0",
+   "type": "cohort",
+   "n": "1657 women survivors",
+   "finding": "Uterine/ovarian radiation >10 Gy (or >=1 Gy before menarche) raised stillbirth and neonatal death; alkylating chemotherapy did not."
+  },
+  {
+   "id": "tegg-sundermann2019",
+   "authors": "Sundermann AC, Zhao S, Young CL, et al.",
+   "year": 2019,
+   "title": "Alcohol Use in Pregnancy and Miscarriage: A Systematic Review and Meta-Analysis",
+   "journal": "Alcohol Clin Exp Res",
+   "pmid": "31194258",
+   "doi": "10.1111/acer.14124",
+   "type": "meta-analysis",
+   "n": "231,808 women",
+   "finding": "Any alcohol in pregnancy was associated with more miscarriage (OR 1.19), about 6% more per extra drink a week up to 5."
+  },
+  {
+   "id": "tegg-waylen2009",
+   "authors": "Waylen AL, Metwally M, Jones GL, et al.",
+   "year": 2009,
+   "title": "Effects of cigarette smoking upon clinical outcomes of assisted reproduction: a meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "18927070",
+   "doi": "10.1093/humupd/dmn046",
+   "type": "meta-analysis",
+   "n": "21 studies",
+   "finding": "Women smoking at the time of ART had lower odds of live birth per cycle (OR 0.54) and higher odds of miscarriage (OR 2.65)."
+  },
+  {
+   "id": "tegg-whitcomb2018",
+   "authors": "Whitcomb BW, Purdue-Smithe AC, Szegda KL, et al.",
+   "year": 2018,
+   "title": "Cigarette Smoking and Risk of Early Natural Menopause",
+   "journal": "Am J Epidemiol",
+   "pmid": "29020262",
+   "doi": "10.1093/aje/kwx292",
+   "type": "cohort",
+   "n": "116,429 women",
+   "finding": "Current smokers had higher risk of early menopause (HR 1.90), former smokers slightly higher (HR 1.10); light smokers who quit by 25 matched never-smokers."
+  },
+  {
+   "id": "tegg-zhu2018",
+   "authors": "Zhu D, Chung HF, Pandeya N, et al.",
+   "year": 2018,
+   "title": "Relationships between intensity, duration, cumulative dose, and timing of smoking with age at menopause: A pooled analysis of individual data from 17 observational studies",
+   "journal": "PLoS Med",
+   "pmid": "30481189",
+   "doi": "10.1371/journal.pmed.1002704",
+   "type": "meta-analysis",
+   "n": "207,231 women (17 studies)",
+   "finding": "Current smokers had about twice the risk of premature and early menopause; risk rose with duration and pack-years and fell with time since quitting, reaching never-smoker levels after >10 years."
+  }
+ ],
+ "windows": [
+  {
+   "id": "spermatogonial-proliferation",
+   "scope": "sperm",
+   "name": "Spermatogonial proliferation (stem cell to last pre-meiotic DNA copy)",
+   "start_days": 90,
+   "end_days": 64,
+   "what": "Pale type A spermatogonia commit to divide, multiply through type B spermatogonia and copy their DNA one last time as preleptotene spermatocytes. This sets how many cells enter the pipeline. Heavy-water label taken up at that last DNA copy first reached semen after 64 +/- 8 days (range 42-76) [tsperm-misell2006], and the steps before it take roughly one 16-day cycle of the seminiferous epithelium [tsperm-heller1963], so this window sits about 64-90 days before ejaculation (extrapolated; the 1960s timings may be off by about 6 days [tsperm-amann2008]).",
+   "sensitive_to": "Killing or arrest of dividing cells: chemotherapy and testicular radiation (counts dip after as little as 0.2-0.7 Gy and recover in 12-24 months; after cisplatin only about half of men recover by 2 years) [tsperm-howell2005, tsperm-bujan2013]; outside testosterone, which blocks the type A to type B step within weeks [tsperm-mclachlan2002]. Damage here shows up as low counts 2-3 months later, not as instant DNA breaks.",
+   "refs": [
+    "tsperm-misell2006",
+    "tsperm-heller1963",
+    "tsperm-amann2008",
+    "tsperm-howell2005",
+    "tsperm-bujan2013",
+    "tsperm-mclachlan2002"
+   ]
+  },
+  {
+   "id": "meiosis-spermatocytes",
+   "scope": "sperm",
+   "name": "Meiosis (primary and secondary spermatocytes)",
+   "start_days": 64,
+   "end_days": 40,
+   "what": "Spermatocytes pair and recombine their chromosomes over a long pachytene stage, then divide twice to make round spermatids with half the chromosomes. In the original tracer study, labelled preleptotene cells were at mid-pachytene 16 days later and had become immature spermatids by 32 days [tsperm-heller1963]. Counting back from the 64-day label-to-semen lag [tsperm-misell2006] puts meiosis roughly 40-64 days before ejaculation (extrapolated).",
+   "sensitive_to": "Heat and fever: fever during meiosis lowered concentration in the sample formed from those cells by about a third (7% per fever day) [tsperm-carlsen2003], and mild sustained heat impaired meiosis and spermiogenesis [tsperm-abdelhamid2019]. Chemotherapy raises sperm aneuploidy that can persist 18-24 months [tsperm-tempest2008]. Heavy alcohol caused arrest at pachytene in one case [tsperm-sermondade2010]. Most natural germ-cell loss happens at the spermatocyte stage [tsperm-amann2008].",
+   "refs": [
+    "tsperm-heller1963",
+    "tsperm-misell2006",
+    "tsperm-carlsen2003",
+    "tsperm-abdelhamid2019",
+    "tsperm-tempest2008",
+    "tsperm-sermondade2010",
+    "tsperm-amann2008"
+   ]
+  },
+  {
+   "id": "spermiogenesis",
+   "scope": "sperm",
+   "name": "Spermiogenesis (round spermatid to sperm, chromatin packing)",
+   "start_days": 40,
+   "end_days": 12,
+   "what": "Round spermatids grow an acrosome and tail and pack their DNA very tightly by swapping histones for transition proteins and then protamines. To do this, every elongating spermatid makes temporary DNA strand breaks that must be resealed [tsperm-laberge2005]. The cell loses most of its ability to repair DNA, so the quality of packing set here largely decides how vulnerable the sperm is later (timing extrapolated from [tsperm-heller1963, tsperm-misell2006]).",
+   "sensitive_to": "Fever and heat: a 1-day 39.9 C fever produced 36% sperm with denatured DNA 18 days later and an unprocessed protamine precursor at days 33-39 [tsperm-evenson2000]; a 2-day fever raised DFI at days 15-37 [tsperm-sergerie2007]; fever during spermiogenesis worsened count, morphology and motility [tsperm-carlsen2003]; sauna reduced histone-protamine exchange [tsperm-garolla2013]. Poorly protaminated sperm are the ones that later carry oxidative DNA damage [tsperm-deiuliis2009, tsperm-aitken2010], and most DNA-fragmented sperm show excess histones and apoptosis markers that point to a testicular origin [tsperm-muratori2015].",
+   "refs": [
+    "tsperm-laberge2005",
+    "tsperm-heller1963",
+    "tsperm-misell2006",
+    "tsperm-evenson2000",
+    "tsperm-sergerie2007",
+    "tsperm-carlsen2003",
+    "tsperm-garolla2013",
+    "tsperm-deiuliis2009",
+    "tsperm-aitken2010",
+    "tsperm-muratori2015"
+   ]
+  },
+  {
+   "id": "spermiation",
+   "scope": "sperm",
+   "name": "Spermiation (release from the Sertoli cell)",
+   "start_days": 12,
+   "end_days": 9,
+   "what": "Finished spermatids shed their excess cytoplasm and are released from the Sertoli cells into the tubule over several days [tsperm-odonnell2011]. The exact position in days before ejaculation is extrapolated from the label-to-semen lag [tsperm-misell2006] minus epididymal transit [tsperm-amann1980] and is uncertain by about a week.",
+   "sensitive_to": "Loss of testosterone and FSH support: outside testosterone caused striking spermiation failure and cut sperm counts to 10% of baseline in about 24 days, faster than a full cycle [tsperm-mclachlan2002]. Failed or faulty release leaves sperm with retained cytoplasm and poor function [tsperm-odonnell2011].",
+   "refs": [
+    "tsperm-odonnell2011",
+    "tsperm-misell2006",
+    "tsperm-amann1980",
+    "tsperm-mclachlan2002"
+   ]
+  },
+  {
+   "id": "epididymal-transit-storage",
+   "scope": "sperm",
+   "name": "Epididymal transit and storage (to ejaculation)",
+   "start_days": 9,
+   "end_days": 0,
+   "what": "Sperm mature while passing through the caput and corpus of the epididymis (about 1.4 days) and then wait in the cauda (about 1.8 days) and vas deferens until ejaculation [tsperm-amann1980]; transit is faster in men who make more sperm per day [tsperm-johnson1988]. Human sperm reserves are small, so how long sperm sit in storage depends mostly on how often a man ejaculates (the 9-day start is an extrapolated upper estimate with infrequent ejaculation).",
+   "sensitive_to": "Oxidative and nuclease attack on stored, transcriptionally silent sperm: sperm taken straight from the testis have about 25 percentage points less SDF than ejaculated sperm [tsperm-esteves2017, tsperm-greco2005a]; a second ejaculate after 3 hours [tsperm-dahan2021] or 1-day abstinence [tsperm-pons2013] lowers SDF, and SDF rises about 0.65 points per extra day of abstinence [tsperm-logiudice2024]. In mice, fluid from the epididymis and vas activates chromatin fragmentation [tsperm-gawecka2015]. Genital-tract infection and white cells add ROS here [tsperm-gallegos2008]. Mild heating of testis plus epididymis raised DFI within 20 days [tsperm-ahmad2012], and paroxetine within 4 weeks [tsperm-tanrikut2010], consistent with late-stage effects.",
+   "refs": [
+    "tsperm-amann1980",
+    "tsperm-johnson1988",
+    "tsperm-esteves2017",
+    "tsperm-greco2005a",
+    "tsperm-dahan2021",
+    "tsperm-pons2013",
+    "tsperm-logiudice2024",
+    "tsperm-gawecka2015",
+    "tsperm-gallegos2008",
+    "tsperm-ahmad2012",
+    "tsperm-tanrikut2010"
+   ]
+  }
+ ],
+ "timing": [
+  {
+   "factor": "alcohol",
+   "shape": "build",
+   "summary": "Semen differences track habitual, mostly daily or heavy, drinking rather than occasional drinks. Recovery after stopping heavy drinking can be complete within about one spermatogenic cycle.",
+   "onset": {
+    "text": "Not measured in sperm; associations are with habitual intake over typical weeks, strongest above 25 units/week [tsperm-jensen2014].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured; in a heavy chronic drinker, damage built up over years from abnormal morphology to azoospermia [tsperm-sermondade2010].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "After stopping heavy drinking, semen was normal within 3 months in one documented case [tsperm-sermondade2010], which fits one spermatogenic cycle of about 64-76 days [tsperm-misell2006].",
+    "days": [
+     64,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Differences appear mainly in daily versus occasional drinkers; moderate intake did not clearly harm semen [tsperm-ricci2017]. Concentration was 33% lower above 40 units/week [tsperm-jensen2014]. No study compared binge versus spread-out patterns for sperm DNA."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Cutting down 2-4 weeks before only reaches sperm already in late spermiogenesis and storage; whether that helps was never measured.",
+     "text": "Heavy alcohol acted at meiosis (pachytene arrest) in the case report [tsperm-sermondade2010], so the full benefit needs a whole cycle (extrapolated)."
+    },
+    "egg": {
+     "start_by_days": 30,
+     "late_start": "Alcohol clears within hours, so stopping 2 weeks before still removes exposure during final maturation, conception and the weeks before a pregnancy is recognised.",
+     "text": "In IVF, female drinking in the month before was linked to failure to conceive and in the week before to miscarriage [tegg-klonoffcohen2003]; four or more drinks a week before IVF lowered live birth odds by 16% [tegg-rossi2011]. Fewer than 14 drinks a week did not change natural fecundability [tegg-mikkelsen2016], but any drinking in pregnancy was linked to miscarriage (OR 1.19) [tegg-sundermann2019], so stopping before the conception cycle covers the unrecognised early weeks."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "Cross-sectional data link habitual intake above 5 units/week to poorer semen [tsperm-jensen2014], while a meta-analysis found moderate intake did not clearly harm semen and only daily drinking mattered [tsperm-ricci2017]; neither measured a time course.",
+   "refs": [
+    "tsperm-jensen2014",
+    "tsperm-sermondade2010",
+    "tsperm-misell2006",
+    "tsperm-ricci2017",
+    "tegg-klonoffcohen2003",
+    "tegg-mikkelsen2016",
+    "tegg-rossi2011",
+    "tegg-sundermann2019"
+   ]
+  },
+  {
+   "factor": "alpha-blockers-sperm",
+   "shape": "acute",
+   "summary": "Tamsulosin and silodosin act on the muscles that move semen, not on sperm production, so the effect is on within days. It should also wear off within days of stopping, though no study timed that.",
+   "onset": {
+    "text": "After 5 days of tamsulosin 0.8 mg, ejaculate volume fell 2.4 mL and 35% of men had no ejaculate [tsperm-hellstrom2006].",
+    "days": [
+     5,
+     5
+    ]
+   },
+   "full": {
+    "text": "Present at the first check (day 5) [tsperm-hellstrom2006]; with silodosin 95% of sexually active men reported ejaculatory disorder [tsperm-sakata2012].",
+    "days": [
+     5,
+     5
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured; because the effect is pharmacological on emission rather than on spermatogenesis, it should fade within days of stopping (extrapolated).",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Effect occurs with every dose; alfuzosin did not reduce ejaculate volume and is the usual alternative [tsperm-hellstrom2006]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 7,
+     "late_start": "Switching or pausing (with a doctor) even 1-2 weeks before trying should restore ejaculation, since sperm production is not affected (extrapolated).",
+     "text": "Acts on ejaculation, not on any stage of sperm development, so no 3-month lead time is needed."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tsperm-hellstrom2006",
+    "tsperm-sakata2012"
+   ]
+  },
+  {
+   "factor": "cannabis",
+   "shape": "build",
+   "summary": "Human data tie lower counts to cannabis use more than once a week in the previous 3 months, but there is no human time course for onset or recovery. In monkeys, stopping THC gave only partial recovery.",
+   "onset": {
+    "text": "Not measured in humans; the association was with use in the previous 3 months [tsperm-gundersen2015].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured in humans. In rhesus macaques, testis volume returned only to 73% of baseline after THC was stopped [tsperm-hedges2023].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Use more than once a week was linked to 28% lower concentration; use once a week or less was not clearly linked [tsperm-gundersen2015]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown; stopping late cannot undo effects on cells that passed meiosis while exposed, if the reported aneuploidy link is real [tsperm-verhaeghe2020].",
+     "text": "Reported effects on aneuploidy and DNA fragmentation point to meiosis and spermiogenesis [tsperm-verhaeghe2020], so a full cycle is the minimum lead time (extrapolated)."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "A large Danish study linked weekly-plus use to lower counts [tsperm-gundersen2015], but a US fertility-clinic cohort found higher concentrations in men who had ever smoked marijuana [tsperm-nassan2019]; recovery data come only from monkeys [tsperm-hedges2023].",
+   "refs": [
+    "tsperm-gundersen2015",
+    "tsperm-hedges2023",
+    "tsperm-verhaeghe2020",
+    "tsperm-nassan2019"
+   ]
+  },
+  {
+   "factor": "chemo-radiation",
+   "shape": "lasting",
+   "summary": "Chemotherapy and testicular radiation hit dividing spermatogonia and spermatocytes; sperm DNA damage and counts are worst 3-6 months after treatment. Recovery takes 1-2 years for milder regimens and up to 5 years or never for harsher ones.",
+   "onset": {
+    "text": "Worst DFI and sperm counts at the first follow-ups, 3-6 months after treatment [tsperm-paoli2015, tsperm-bujan2013].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "full": {
+    "text": "Lowest values at 3-6 months [tsperm-bujan2013]; DFI 28% at 3 months versus 18% before treatment [tsperm-paoli2015].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "DFI improved by 12-24 months [tsperm-paoli2015]; count recovered by 12 months after two or fewer BEP cycles but not after radiotherapy or more cycles [tsperm-bujan2013]; aneuploidy normalised by about 18 months but persisted for some chromosomes to 24 months [tsperm-tempest2008]; after cisplatin about 50% of men recover by 2 years and 80% by 5 years [tsperm-howell2005].",
+    "days": [
+     365,
+     1825
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not applicable; damage depends on drug class and cumulative dose [tsperm-howell2005]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 730,
+     "late_start": "Nothing done in the last weeks repairs this; bank sperm before treatment starts [tsperm-oktay2018].",
+     "text": "Because damaged stem cells and spermatocytes keep feeding the pipeline, genetic counselling is advised for conceptions up to 2 years after starting chemotherapy [tsperm-tempest2008]."
+    },
+    "egg": {
+     "start_by_days": 365,
+     "late_start": "Conceiving soon after treatment uses oocytes that were growing during chemotherapy: in mice this gave more pregnancy failure and malformations, normalising by about 12 weeks [tegg-meirow2001]; in women, conception within 1 year of starting chemotherapy was linked to more preterm birth [tegg-hartnett2018].",
+     "text": "Waiting about a year after chemotherapy before conceiving avoided the excess preterm risk (2 years after chemoradiation) [tegg-hartnett2018]. AMH falls by about 20-90% at 12 months depending on regimen (76% after breast-cancer chemotherapy) and recovers partly between 6 and 24 months [tegg-balachandren2026, tegg-mailliez2022]. Eggs or embryos frozen before treatment avoid the problem [tegg-oktay2018]; ovarian or uterine radiation above 10 Gy raises stillbirth and neonatal death regardless of wait [tegg-signorello2010]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Studies agree on worst damage at 3-6 months; they differ on whether DFI ends lower than before treatment after chemotherapy (yes in [tsperm-paoli2015]) and on how long aneuploidy lasts (18 vs 24 months in [tsperm-tempest2008]).",
+   "refs": [
+    "tsperm-paoli2015",
+    "tsperm-bujan2013",
+    "tsperm-tempest2008",
+    "tsperm-howell2005",
+    "tsperm-oktay2018",
+    "tegg-balachandren2026",
+    "tegg-hartnett2018",
+    "tegg-mailliez2022",
+    "tegg-meirow2001",
+    "tegg-oktay2018",
+    "tegg-signorello2010"
+   ]
+  },
+  {
+   "factor": "endurance-hypogonadism-sperm",
+   "shape": "slow-build",
+   "summary": "Low testosterone from endurance training builds over years of high volume, while seminal oxidative stress rises within weeks of an intensive block. That oxidative stress was still raised a month after training stopped; full recovery has not been timed.",
+   "onset": {
+    "text": "Seminal ROS and malondialdehyde were raised by week 8 of intensive cycling training [tsperm-maleki2014].",
+    "days": [
+     56,
+     112
+    ]
+   },
+   "full": {
+    "text": "Keeps building: the hormonal condition is seen in men with years of chronic endurance training [tsperm-lane2019].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Seminal ROS and antioxidant capacity were still abnormal 30 days after a 16-week block ended [tsperm-maleki2014]; recovery of semen after cutting volume has not been measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "This is about very high volume: runners at about 108 km/week had lower testosterone and motile counts, those at 54 km/week did not [tsperm-desouza1994]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "A taper in the last weeks may lower seminal oxidative stress for stored sperm, but it was still raised after 30 days in the one study [tsperm-maleki2014].",
+     "text": "Hormonal suppression affects spermatogonia and spermiation, so a full cycle at reduced volume is needed (extrapolated)."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "Small studies show high SDF in triathletes despite normal hormones [tsperm-vaamonde2018], while reviews stress that the condition is uncommon and limited to long-term high-volume athletes [tsperm-lane2019]; a widely cited 2009 treadmill RCT on this question was retracted [tsperm-safarinejad2009]. The only time-course data come from one author group (Hajizadeh Maleki/Tartibian) whose other exercise-and-semen trials have been retracted [tsperm-maleki2014], so these timings are provisional.",
+   "refs": [
+    "tsperm-maleki2014",
+    "tsperm-lane2019",
+    "tsperm-desouza1994",
+    "tsperm-vaamonde2018",
+    "tsperm-safarinejad2009"
+   ]
+  },
+  {
+   "factor": "everyday-scrotal-heat",
+   "shape": "build",
+   "summary": "A small, sustained rise in testis and epididymis temperature raises sperm DNA fragmentation within about 3 weeks, before counts fall. Everything returned to baseline about 10 weeks after the heat stopped.",
+   "onset": {
+    "text": "With +2 C for 15 h/day, DFI rose by day 20 and HDS by day 34 [tsperm-ahmad2012]; abnormal morphology rose by day 34 [tsperm-abdelhamid2019]. A laptop on the lap warms the scrotum 2.6-2.8 C within an hour [tsperm-sheynkin2005].",
+    "days": [
+     20,
+     34
+    ]
+   },
+   "full": {
+    "text": "Effects were established by day 34 and stayed raised for the rest of 120 days of heating [tsperm-ahmad2012].",
+    "days": [
+     34,
+     120
+    ]
+   },
+   "after_stopping": {
+    "text": "Abnormal forms persisted 45 days after heating stopped; all parameters were back to baseline by day 73 [tsperm-abdelhamid2019, tsperm-ahmad2012].",
+    "days": [
+     45,
+     73
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "The experiments used hours of heat every day; boxer wearers had higher counts in a cross-sectional study [tsperm-minguez2018]. No study tested how few hours per week are harmless."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 73,
+     "late_start": "Removing heat in the last 2-3 weeks protects late spermatids and stored sperm, where DFI rose within 20 days [tsperm-ahmad2012], but cells heated earlier will still come through.",
+     "text": "Heat acts on meiosis, spermiogenesis and the epididymis [tsperm-abdelhamid2019], so the full benefit needs about 10 weeks [tsperm-ahmad2012]."
+    }
+   },
+   "basis": "measured",
+   "debate": "The time course comes from 5 volunteers per study [tsperm-ahmad2012, tsperm-abdelhamid2019]; whether ordinary laptops or underwear reach enough heat for long enough is inferred from temperature [tsperm-sheynkin2005] and cross-sectional data [tsperm-minguez2018], not from trials.",
+   "refs": [
+    "tsperm-ahmad2012",
+    "tsperm-abdelhamid2019",
+    "tsperm-sheynkin2005",
+    "tsperm-minguez2018"
+   ]
+  },
+  {
+   "factor": "fasting-sperm",
+   "shape": "acute",
+   "summary": "A 48-hour fast suppresses the hormone signal to the testes within two days. Semen produced during and in the 70 days after a month of daily fasting had lower motility, but recovery has not been timed.",
+   "onset": {
+    "text": "LH fell from 2.94 to 1.07 IU/L, with lower FSH and testosterone, after 48 h of fasting [tsperm-cameron1991].",
+    "days": [
+     2,
+     2
+    ]
+   },
+   "full": {
+    "text": "Not measured for semen.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; samples during Ramadan and the 70 days after showed lower progressive motility (30% vs 38%) [tsperm-engel2023].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "No trial shows a sperm benefit; repeated or prolonged fasting in the months before a sample is where harm signals appear [tsperm-engel2023]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "Hormone suppression affects spermatogonial development and spermiation, so avoiding long fasts for about one cycle before is the cautious choice (extrapolated)."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tsperm-cameron1991",
+    "tsperm-engel2023"
+   ]
+  },
+  {
+   "factor": "febrile-illness",
+   "shape": "window",
+   "summary": "A fever of 39-40 C damages the sperm that are in meiosis and spermiogenesis at the time, so DNA damage shows in semen 2-5 weeks later and counts fall for about 2 months. Values return to normal about 2-3 months after the fever, as after COVID-19.",
+   "onset": {
+    "text": "DFI up 24% at day 15 and 36% at day 37 after a 2-day fever [tsperm-sergerie2007]; 36% denatured DNA 18 days after a 1-day fever [tsperm-evenson2000].",
+    "days": [
+     15,
+     37
+    ]
+   },
+   "full": {
+    "text": "Worst DNA changes around days 18-37 after the fever [tsperm-evenson2000, tsperm-sergerie2007].",
+    "days": [
+     18,
+     37
+    ]
+   },
+   "after_stopping": {
+    "text": "DFI fell back by days 58-79 and count was normal by day 79 [tsperm-sergerie2007]; after COVID-19, abnormal counts fell from 37% of men within a month to 6% after 2 months, with recovery estimated at about 3 months [tsperm-donders2022, tsperm-stigliani2022].",
+    "days": [
+     58,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Each fever day during meiosis or spermiogenesis lowered later concentration by about 7-9% [tsperm-carlsen2003]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "A fever in the last week before a sample mostly spares sperm already stored; a fever 2-5 weeks before hits the sperm that will be ejaculated then [tsperm-carlsen2003, tsperm-evenson2000].",
+     "text": "If possible, plan semen tests or IVF/ICSI cycles about 3 months after a high fever, when the damaged cohort has passed [tsperm-sergerie2007]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Most COVID-19 cohorts found recovery by about 3 months [tsperm-donders2022, tsperm-stigliani2022], but one year-long cohort described slower, immune-driven recovery in some men [tsperm-depuydt2023]; the fever DNA time courses rest on single-case reports [tsperm-sergerie2007, tsperm-evenson2000].",
+   "refs": [
+    "tsperm-sergerie2007",
+    "tsperm-evenson2000",
+    "tsperm-donders2022",
+    "tsperm-stigliani2022",
+    "tsperm-carlsen2003",
+    "tsperm-depuydt2023"
+   ]
+  },
+  {
+   "factor": "finasteride-sperm",
+   "shape": "build",
+   "summary": "Prostate-dose finasteride and dutasteride cut sperm counts by about a third by 6 months, with largely reversible changes. Hair-loss doses had no effect in healthy young men but some subfertile men improved dramatically after stopping.",
+   "onset": {
+    "text": "Total count down 29-34% at the first check, 26 weeks, with 5 mg finasteride or 0.5 mg dutasteride [tsperm-amory2007].",
+    "days": null
+   },
+   "full": {
+    "text": "Largest fall at 26 weeks; smaller at 52 weeks [tsperm-amory2007].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Smaller residual differences 24 weeks after stopping [tsperm-amory2007]; in subfertile men on about 1 mg, counts rose 11.6-fold after stopping (time not given) [tsperm-samplaski2013]. One cycle of about 64 days is the minimum wait [tsperm-misell2006].",
+    "days": [
+     64,
+     168
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Daily drug; 1 mg daily for 48 weeks did not change semen in 181 healthy young men [tsperm-overstreet1999]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 168,
+     "late_start": "Stopping 2-4 weeks before is too late to change counts; recovery was assessed at 24 weeks.",
+     "text": "For subfertile men with low counts, stopping about 3-6 months before trying is reasonable [tsperm-samplaski2013, tsperm-amory2007]."
+    }
+   },
+   "basis": "measured",
+   "debate": "A large RCT found no semen effect of 1 mg [tsperm-overstreet1999], while a clinic series of subfertile men on about 1 mg saw counts rise 11.6-fold after stopping [tsperm-samplaski2013]; the difference may be susceptibility in already-subfertile men.",
+   "refs": [
+    "tsperm-amory2007",
+    "tsperm-samplaski2013",
+    "tsperm-misell2006",
+    "tsperm-overstreet1999"
+   ]
+  },
+  {
+   "factor": "genital-tract-infection",
+   "shape": "build",
+   "summary": "Chlamydia or Mycoplasma infection triples sperm DNA fragmentation, and antibiotic treatment lowered it by about a third over a few months. Couples who tried after finishing treatment did much better than those who tried during it.",
+   "onset": {
+    "text": "Not timed.",
+    "days": null
+   },
+   "full": {
+    "text": "SDF fell from 37.7% to 24.2% after 3.8 +/- 2.2 months of antibiotic treatment [tsperm-gallegos2008].",
+    "days": [
+     48,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Not applicable to treatment; reinfection would restart the damage.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "A prescribed antibiotic course; no schedule comparisons."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 120,
+     "late_start": "Treating late still reduces white-cell ROS on stored sperm, but in the one cohort pregnancy was 12.5% during treatment versus 85.7% after it [tsperm-gallegos2008].",
+     "text": "Infection-related ROS acts mainly in the genital tract after the testis, but measured SDF improvement took about 2-6 months [tsperm-gallegos2008]."
+    }
+   },
+   "basis": "measured",
+   "debate": "A large meta-analysis found the overall SDF effect of Chlamydia negligible [tsperm-szabo2023], unlike the threefold rise in one clinic cohort [tsperm-gallegos2008].",
+   "refs": [
+    "tsperm-gallegos2008",
+    "tsperm-szabo2023"
+   ]
+  },
+  {
+   "factor": "iron-overload-sperm",
+   "shape": "lasting",
+   "summary": "Iron overload damages the testis and pituitary over years, and later start of chelation was linked to more sperm DNA damage. How fast sperm improve after iron is lowered has not been measured.",
+   "onset": {
+    "text": "Not measured; damage accumulates with years of overload [tsperm-carlomagno2026].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; later onset of chelation was associated with more sperm DNA damage [tsperm-perera2002].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not applicable."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "If iron is being lowered, at least one spermatogenic cycle of good control before a semen test or conception attempt is the minimum (extrapolated)."
+    }
+   },
+   "basis": "unknown",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tsperm-carlomagno2026",
+    "tsperm-perera2002"
+   ]
+  },
+  {
+   "factor": "lubricants-sperm",
+   "shape": "acute",
+   "summary": "Some lubricants slow sperm within 30 minutes in a dish, so the effect, if any, is limited to the sperm they touch during that act. Nothing carries over, and in couples lubricant use did not lower the chance of conceiving.",
+   "onset": {
+    "text": "Motility fell after 30 minutes of contact in vitro with several lubricants [tsperm-agarwal2008].",
+    "days": [
+     0.02,
+     0.02
+    ]
+   },
+   "full": {
+    "text": "Some products raised DFI over 4 hours in vitro [tsperm-agarwal2008].",
+    "days": [
+     0.02,
+     0.17
+    ]
+   },
+   "after_stopping": {
+    "text": "No carry-over: only sperm in contact are affected.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Lubricant use in the fertile window did not change fecundability [tsperm-steiner2012]; a sperm-friendly product removes even the in-vitro concern [tsperm-agarwal2008]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 1,
+     "late_start": "Switching on the day is enough, because the effect is only on contact.",
+     "text": "Acts on ejaculated sperm only, not on any developmental stage."
+    }
+   },
+   "basis": "measured",
+   "debate": "In-vitro motility and DFI effects [tsperm-agarwal2008] contrast with no effect on real-world conception [tsperm-steiner2012].",
+   "refs": [
+    "tsperm-agarwal2008",
+    "tsperm-steiner2012"
+   ]
+  },
+  {
+   "factor": "male-antioxidant-combination",
+   "shape": "build",
+   "summary": "Where antioxidants were reported to work, changes showed after 2-3 months, but the best-designed trials saw no change in DNA fragmentation at 3 or 6 months. No trial tested whether a short course in the final weeks helps.",
+   "onset": {
+    "text": "Shortest positive result: TUNEL SDF fell from 22.1% to 9.1% after 2 months of vitamins C and E [tsperm-greco2005c]; null at 3 months in MOXI [tsperm-steiner2020].",
+    "days": [
+     60,
+     90
+    ]
+   },
+   "full": {
+    "text": "Not established: DFI did not change over 6 months in a placebo-controlled RCT [tsperm-stenqvist2018], and folic acid plus zinc for 6 months slightly raised it [tsperm-schisterman2020].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "All trials used daily dosing; none compared schedules [tsperm-deligny2022]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "No trial measured a course shorter than 2 months; a post-testicular (epididymal) effect would act fast in theory, but this is unproven.",
+     "text": "Trials run for one cycle or more (2-6 months) [tsperm-greco2005c, tsperm-steiner2020]; any benefit would need cells to pass through the vulnerable late stages while supplemented (extrapolated)."
+    }
+   },
+   "basis": "measured",
+   "debate": "Small trials report fast falls in SDF within 2-3 months [tsperm-greco2005c, tsperm-tunc2009], while larger placebo-controlled trials found no change at 3-6 months [tsperm-steiner2020, tsperm-stenqvist2018, tsperm-schisterman2020]; Cochrane rates the evidence very low certainty [tsperm-deligny2022].",
+   "refs": [
+    "tsperm-greco2005c",
+    "tsperm-steiner2020",
+    "tsperm-stenqvist2018",
+    "tsperm-schisterman2020",
+    "tsperm-deligny2022",
+    "tsperm-tunc2009"
+   ]
+  },
+  {
+   "factor": "microplastics-sperm",
+   "shape": "build",
+   "summary": "No time course exists: microplastics have been measured in testes, but not how fast levels change or how long any effect on sperm would last. The shape here is an assumption.",
+   "onset": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; tissue clearance rates in humans are unknown.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No evidence on exposure frequency."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "Any effect on sperm production would need at least one cycle to change (extrapolated)."
+    }
+   },
+   "basis": "unknown",
+   "debate": "The testis measurement method behind the 328 ug/g figure [tsperm-hu2024] has been disputed in a published comment [tsperm-uppu2025].",
+   "refs": [
+    "tsperm-hu2024",
+    "tsperm-uppu2025"
+   ]
+  },
+  {
+   "factor": "mobile-phones",
+   "shape": "none",
+   "summary": "Studies found no relationship between hours of phone use and the size of any sperm effect. There is no time course to report.",
+   "onset": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured; the effect did not grow with more use [tsperm-kim2021].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No dose or time relationship with usage was found [tsperm-kim2021]."
+   },
+   "basis": "unknown",
+   "debate": "The same meta-analysis reports lower motility with exposure but no increase with more use [tsperm-kim2021], which weakens a causal reading.",
+   "refs": [
+    "tsperm-kim2021"
+   ]
+  },
+  {
+   "factor": "opioids-sperm",
+   "shape": "build",
+   "summary": "High-dose methadone and heroin keep testosterone low as long as they are taken, and testosterone tracked the dose during detoxification. Sperm recovery after tapering has not been timed.",
+   "onset": {
+    "text": "Not timed; testosterone is low during regular high-dose use (80-150 mg/day methadone) but not on low doses [tsperm-mendelson1975].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured for sperm; testosterone rose as methadone doses fell during detoxification [tsperm-mendelson1975].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Effect is dose-related; buprenorphine-treated men had normal testosterone [tsperm-bliesener2005]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "Low testosterone affects spermatogonial development and spermiation, so a full cycle after any change is needed (extrapolated); never stop opioid treatment abruptly without medical supervision."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tsperm-mendelson1975",
+    "tsperm-bliesener2005"
+   ]
+  },
+  {
+   "factor": "paternal-age",
+   "shape": "slow-build",
+   "summary": "Sperm DNA fragmentation rises gradually through adult life with no clear threshold, and more steeply after 50. It does not reverse.",
+   "onset": {
+    "text": "Trends begin in the early reproductive years, with no age threshold [tsperm-wyrobek2006].",
+    "days": null
+   },
+   "full": {
+    "text": "Keeps growing; after age 50 SDF is on average 12.6 points higher [tsperm-szabo2023].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not reversible; freezing sperm earlier is the only way to use younger sperm.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not applicable."
+   },
+   "basis": "measured",
+   "debate": "Age clearly raises SDF [tsperm-wyrobek2006, tsperm-johnson2015], but aneuploidy did not rise with age in one cohort [tsperm-wyrobek2006], so not every sperm defect worsens on the same timescale.",
+   "refs": [
+    "tsperm-wyrobek2006",
+    "tsperm-szabo2023",
+    "tsperm-johnson2015"
+   ]
+  },
+  {
+   "factor": "pfas-sperm",
+   "shape": "lasting",
+   "summary": "PFAS stay in the blood for years after exposure ends, so any effect on sperm cannot be cut quickly. Plasma or blood donation lowered levels only modestly over a year.",
+   "onset": {
+    "text": "Not measured for sperm.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured; weak links to motility and DNA damage are seen with long-term body burden [tsperm-dinisio2026].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Serum half-lives after exposure ended were 2.7 years (PFOA), 3.4 years (PFOS) and 5.3 years (PFHxS) [tsperm-li2018], 0.9-5 years across PFAS [tsperm-li2022].",
+    "days": [
+     986,
+     1935
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Plasma donation every 6 weeks for 12 months lowered PFOS by 2.9 ng/mL [tsperm-gasiorowski2022]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 365,
+     "late_start": "Cutting exposure 2-4 weeks or even 3 months before barely changes blood levels, which fall about 13-26% per year [tsperm-li2018].",
+     "text": "Body burden, not recent intake, drives exposure, so any reduction plan works on a scale of years (extrapolated from half-lives)."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "The pooled association with sperm DNA damage is small (r = 0.14) and individual studies disagree [tsperm-dinisio2026]; no study shows that lowering PFAS improves sperm.",
+   "refs": [
+    "tsperm-dinisio2026",
+    "tsperm-li2018",
+    "tsperm-li2022",
+    "tsperm-gasiorowski2022"
+   ]
+  },
+  {
+   "factor": "pomegranate-extract-sperm",
+   "shape": "build",
+   "summary": "One 3-month trial reported more motile sperm with a pomegranate-galangal tablet. Nothing is known about faster effects or how long a benefit lasts.",
+   "onset": {
+    "text": "Not measured before the end of treatment.",
+    "days": null
+   },
+   "full": {
+    "text": "After 3 months, total motile sperm rose 62% versus 20% on placebo [tsperm-fedder2014].",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily tablets in the only trial; no schedule data [tsperm-fedder2014]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "The trial lasted one cycle plus transit [tsperm-fedder2014]."
+    }
+   },
+   "basis": "measured",
+   "debate": "The single trial has not been replicated and two authors commercialise the product [tsperm-fedder2014].",
+   "refs": [
+    "tsperm-fedder2014"
+   ]
+  },
+  {
+   "factor": "sauna",
+   "shape": "build",
+   "summary": "Two 15-minute saunas a week for 3 months were enough to impair sperm count, motility and DNA packing. Recovery was complete 6 months after stopping, and hot-bath studies show changes and recovery over about 16 weeks.",
+   "onset": {
+    "text": "After ten 30-min 43 C scrotal baths, apoptosis-related markers changed from week 2 and Bcl-2 fell at weeks 6-10 [tsperm-rao2016]; 3 months of sauna clearly impaired semen [tsperm-garolla2013].",
+    "days": [
+     14,
+     70
+    ]
+   },
+   "full": {
+    "text": "Strong impairment at the end of 3 months of twice-weekly sauna [tsperm-garolla2013].",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Bcl-2 recovered by week 16 after a short heat course [tsperm-rao2016]; after 3 months of sauna, all changes had reversed by 6 months [tsperm-garolla2013].",
+    "days": [
+     112,
+     180
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Twice weekly for 15 min at 80-90 C was enough to harm [tsperm-garolla2013]. Daily versus every-third-day heat gave conflicting answers on which is worse [tsperm-rao2015, tsperm-rao2016]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 180,
+     "late_start": "Stopping in the last 2-3 weeks spares late spermatids and stored sperm (extrapolated from [tsperm-ahmad2012]), but cells heated earlier still arrive.",
+     "text": "Heat acts on spermatocytes and spermatids, and full recovery was documented at 6 months [tsperm-garolla2013]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Two reports from the same group disagree on whether consecutive or intermittent heat is worse [tsperm-rao2015, tsperm-rao2016]; recovery after stopping hot tubs varied widely between men [tsperm-shefi2007].",
+   "refs": [
+    "tsperm-rao2016",
+    "tsperm-garolla2013",
+    "tsperm-rao2015",
+    "tsperm-ahmad2012",
+    "tsperm-shefi2007"
+   ]
+  },
+  {
+   "factor": "short-abstinence",
+   "shape": "acute",
+   "summary": "Shortening the time sperm sit in storage lowers DNA fragmentation within hours to a day, because damage accumulates after sperm leave the testis. The benefit is lost again as abstinence lengthens.",
+   "onset": {
+    "text": "A second sample 3 hours after the first cut SDF from 34.6% to 23.7% [tsperm-dahan2021]; 1-day abstinence normalised high SDF in 91% of men [tsperm-pons2013].",
+    "days": [
+     0.125,
+     1
+    ]
+   },
+   "full": {
+    "text": "Immediate; the next ejaculate benefits [tsperm-gosalvez2011, tsperm-pons2013].",
+    "days": [
+     0.125,
+     1
+    ]
+   },
+   "after_stopping": {
+    "text": "SDF rises about 0.65 points per extra day of abstinence [tsperm-logiudice2024]; IUI pregnancy fell beyond about day 3 [tsperm-du2024].",
+    "days": [
+     1,
+     4
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Ejaculation every 1-2 days keeps storage short; for an ART sample, 1 day of abstinence (or a second sample after 1-4 hours) [tsperm-pons2013, tsperm-barbagallo2022]. Very short abstinence lowers volume and count [tsperm-du2024]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 3,
+     "late_start": "This is the main intervention that works fully in the final days: up to three 1-day-abstinence samples normalised SDF [tsperm-pons2013].",
+     "text": "Acts on the epididymal storage window, not on sperm production."
+    }
+   },
+   "basis": "measured",
+   "debate": "Meta-analyses of short-abstinence studies find lower SDF [tsperm-logiudice2024, tsperm-du2024], but a broader SDF risk-factor meta-analysis found no significant effect of abstinence period [tsperm-szabo2023], and the benefit is clearest in men with abnormal semen [tsperm-barbagallo2022]; pregnancy data are mostly retrospective [tsperm-gupta2021].",
+   "refs": [
+    "tsperm-dahan2021",
+    "tsperm-pons2013",
+    "tsperm-gosalvez2011",
+    "tsperm-logiudice2024",
+    "tsperm-du2024",
+    "tsperm-barbagallo2022",
+    "tsperm-szabo2023",
+    "tsperm-gupta2021"
+   ]
+  },
+  {
+   "factor": "ssris",
+   "shape": "build",
+   "summary": "Paroxetine doubled sperm DNA fragmentation within 4 weeks while standard semen results stayed normal, which points to late-stage or post-testicular effects. How fast it reverses after stopping has not been reported.",
+   "onset": {
+    "text": "Mean SDF rose from 13.8% to 30.3% by week 4 of paroxetine [tsperm-tanrikut2010].",
+    "days": [
+     28,
+     28
+    ]
+   },
+   "full": {
+    "text": "Escitalopram lowered concentration, motility and morphology at 3 months [tsperm-koyuncu2011].",
+    "days": [
+     28,
+     84
+    ]
+   },
+   "after_stopping": {
+    "text": "Not reported; sexual function recovered after stopping paroxetine [tsperm-tanrikut2010].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Daily medication; no schedule data."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown. Never stop or switch an antidepressant without your prescriber: untreated depression also lowers fertility.",
+     "text": "The 4-week onset suggests effects on late spermatids or stored sperm [tsperm-tanrikut2010]; allowing one cycle after a planned change is the cautious choice (extrapolated)."
+    },
+    "egg": {
+     "start_by_days": 0,
+     "late_start": "No lead time is needed for the egg: SSRI-only use before a first IVF cycle was not linked to pregnancy or live birth [tegg-cesta2016].",
+     "text": "SSRIs act on mood, not on oocyte growth; first-trimester exposure was not linked to cardiac defects after adjustment [tegg-huybrechts2014]. Stopping near conception was followed by relapse in 68% vs 26% who continued [tegg-cohen2006], so any change should be planned well ahead; fluoxetine with its metabolite takes weeks to wash out (half-lives 2-4 and 7-15 days) [tegg-preskorn1997]. A contrary review argues SSRIs carry pregnancy risks without fertility benefit [tegg-domar2013]."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "The strongest case-control signal comes from a paper under a 2023 Expression of Concern [tsperm-safarinejad2008]; the prospective evidence is one 35-man study [tsperm-tanrikut2010] and one 25-man study [tsperm-koyuncu2011].",
+   "refs": [
+    "tsperm-tanrikut2010",
+    "tsperm-koyuncu2011",
+    "tsperm-safarinejad2008",
+    "tegg-cesta2016",
+    "tegg-cohen2006",
+    "tegg-domar2013",
+    "tegg-huybrechts2014",
+    "tegg-preskorn1997"
+   ]
+  },
+  {
+   "factor": "sulfasalazine-methotrexate-sperm",
+   "shape": "build",
+   "summary": "Sulfasalazine damages late-maturing sperm and the damage reverses about 2-3 months after switching drugs. Low-dose methotrexate in the 90 days before conception was not linked to birth defects.",
+   "onset": {
+    "text": "Gross semen abnormalities in men on 2-4 g/day for more than 2 months [tsperm-toovey1981].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Semen improved after more than 2 months off the drug [tsperm-toovey1981]; pregnancies followed at a median of 2.5 months [tsperm-omorain1984].",
+    "days": [
+     60,
+     75
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Daily drug; not applicable."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Switching 2-4 weeks before is too late for full recovery.",
+     "text": "The sulfapyridine part acts late in sperm maturation [tsperm-omorain1984], so recovery takes about 2-3 months; paternal methotrexate within 90 days was not linked to malformations [tsperm-eck2017]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tsperm-toovey1981",
+    "tsperm-omorain1984",
+    "tsperm-eck2017"
+   ]
+  },
+  {
+   "factor": "testosterone-anabolic-steroids",
+   "shape": "lasting",
+   "summary": "Outside testosterone switches off the brain's signal to the testes and sperm counts fall within weeks, mainly because sperm stop being released. Recovery after stopping takes a median of about 3.4 months after contraceptive doses and over a year after steroid abuse.",
+   "onset": {
+    "text": "Sperm counts fell to 10% of baseline in about 24 days on 200 mg testosterone enanthate weekly [tsperm-mclachlan2002]; most men were azoospermic or severely oligozoospermic by 6 months [tsperm-who1995].",
+    "days": [
+     24,
+     180
+    ]
+   },
+   "full": {
+    "text": "Suppression to under 3 million/mL in 96-98% of men within 6 months [tsperm-who1995].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Median 3.4 months to 20 million/mL; 67% recovered by 6 months, 90% by 12 and 100% by 24 [tsperm-liu2006]; after anabolic steroid abuse, sperm output took about 14 months on average [tsperm-shankara2020] and can take over a year [tsperm-rajmil2024].",
+    "days": [
+     103,
+     730
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Any regular use suppresses spermatogenesis; shorter-acting preparations and shorter use recovered faster [tsperm-liu2006]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 365,
+     "late_start": "Stopping 2-4 weeks before achieves nothing for that cycle; recovery takes months.",
+     "text": "Acts on spermatogonial maturation and spermiation [tsperm-mclachlan2002]; plan on 6-24 months after stopping [tsperm-liu2006, tsperm-shankara2020]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Contraceptive-trial data show full recovery within 24 months [tsperm-liu2006], whereas steroid abusers recover more slowly and sometimes incompletely, with residual small testes [tsperm-shankara2020, tsperm-rajmil2024].",
+   "refs": [
+    "tsperm-mclachlan2002",
+    "tsperm-who1995",
+    "tsperm-liu2006",
+    "tsperm-shankara2020",
+    "tsperm-rajmil2024"
+   ]
+  },
+  {
+   "factor": "tobacco-smoking",
+   "shape": "build",
+   "summary": "Quitting lowers whole-body oxidative stress within days to 4 weeks, but semen improves over months: clearly at 3 months and further at 6. Smokers carry about 9 points more sperm DNA fragmentation.",
+   "onset": {
+    "text": "Not timed for sperm; smokers average 9.2 points higher SDF [tsperm-szabo2023].",
+    "days": null
+   },
+   "full": {
+    "text": "Not timed; harms are larger in moderate and heavy smokers [tsperm-sharma2016].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Isoprostanes fell within days and plateaued about 4 weeks after quitting [tsperm-pilz2000]; semen improved at 3 months and further at 6 months [tsperm-ragheb2025].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Dose-dependent: heavier smoking, larger effect [tsperm-sharma2016]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 180,
+     "late_start": "Quitting 2-4 weeks before already lowers systemic oxidative stress [tsperm-pilz2000], which may help stored sperm, but semen gains were measured only at 3 and 6 months.",
+     "text": "Smoking affects all stages; semen improvement kept growing to 6 months after quitting [tsperm-ragheb2025]."
+    },
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Quitting 2-4 weeks before still removes smoke exposure from the final follicular phase and the early embryo, and active smoking at the time of ART carries the clearest penalty (live birth OR 0.54) [tegg-waylen2009]; it cannot undo earlier loss of follicles.",
+     "text": "Smoking acts across the whole follicle path: tobacco markers reach follicular fluid [tegg-benedict2011], and longer, heavier smoking speeds depletion of the follicle pool, raising early-menopause risk, which falls with time since quitting and reaches never-smoker levels after >10 years [tegg-zhu2018, tegg-whitcomb2018]. Stopping at least ~3 months before covers the 85-day growth path (extrapolated)."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; the only cessation time course is a 60-man uncontrolled study [tsperm-ragheb2025].",
+   "refs": [
+    "tsperm-szabo2023",
+    "tsperm-sharma2016",
+    "tsperm-pilz2000",
+    "tsperm-ragheb2025",
+    "tegg-benedict2011",
+    "tegg-waylen2009",
+    "tegg-whitcomb2018",
+    "tegg-zhu2018"
+   ]
+  },
+  {
+   "factor": "vaping",
+   "shape": "build",
+   "summary": "Daily e-cigarette users had lower sperm counts in one large study, but nothing is known about how quickly this appears or reverses.",
+   "onset": {
+    "text": "Not measured; daily users had 91 versus 147 million total sperm [tsperm-holmboe2020].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Daily use was the exposure studied [tsperm-holmboe2020]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "By analogy with smoking cessation, at least one spermatogenic cycle (extrapolated)."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "Users of e-cigarettes were often also smokers, and the authors note possible residual confounding [tsperm-holmboe2020].",
+   "refs": [
+    "tsperm-holmboe2020"
+   ]
+  },
+  {
+   "factor": "varicocele",
+   "shape": "slow-build",
+   "summary": "A clinical varicocele adds about 14 points of sperm DNA fragmentation and can keep worsening semen over years. Timing of repair is covered under varicocele repair.",
+   "onset": {
+    "text": "Not timed.",
+    "days": null
+   },
+   "full": {
+    "text": "Keeps worsening: initially normal semen deteriorated when re-tested 9-96 months later [tsperm-chehval1992].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not applicable; see the varicocele-repair record.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not applicable."
+   },
+   "basis": "measured",
+   "debate": "The evidence for progression is a 13-man series [tsperm-chehval1992]; the size of the SDF excess (+13.6 points) comes from pooled cross-sectional data [tsperm-szabo2023].",
+   "refs": [
+    "tsperm-chehval1992",
+    "tsperm-szabo2023"
+   ]
+  },
+  {
+   "factor": "varicocele-repair",
+   "shape": "build",
+   "summary": "After varicocele repair, sperm DNA fragmentation falls within 3 months and a little more by 6 months, with no further gain at 12 months. Motile counts improve mostly in the first 3-6 months.",
+   "onset": {
+    "text": "DFI 3.7 points lower within 3 months [tsperm-wang2024]; total motile count up at 3-6 months [tsperm-masterson2019].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "full": {
+    "text": "A further 1.5-point DFI fall by 6 months and no significant gain by 12 months [tsperm-wang2024]; no significant count gain after 3-6 months [tsperm-masterson2019]. Average total fall about 7 points [tsperm-liraneto2021].",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Not applicable; the repair is permanent unless the varicocele recurs.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "one-off",
+    "text": "One procedure."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 180,
+     "late_start": "Surgery 2-4 weeks before achieves nothing for that cycle.",
+     "text": "Repair must be followed by at least one full cycle; DFI keeps improving to about 6 months [tsperm-wang2024]."
+    }
+   },
+   "basis": "measured",
+   "debate": "A pooled analysis suggests 6 months is the best time to conceive or test after surgery [tsperm-wang2024], but it rests on 4 studies; count data from 33 men show most of the gain by 3-6 months [tsperm-masterson2019].",
+   "refs": [
+    "tsperm-wang2024",
+    "tsperm-masterson2019",
+    "tsperm-liraneto2021"
+   ]
+  }
+ ]
+}

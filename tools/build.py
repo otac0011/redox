@@ -119,6 +119,46 @@ def main():
         first = next((ln for ln in md.read_text(encoding="utf-8").splitlines() if ln.startswith("# ")), "# " + doc_id)
         notes.append({"id": doc_id, "title": first[2:].strip()})
 
+    # timing (research/TIMING-BRIEF.md): data/timing/<group>.json holds per-factor timing records,
+    # sperm/egg development windows and their references; research/deep-timing-<group>.md is its deep dive
+    timing, windows = {}, []
+    for tpath in sorted((DATA / "timing").glob("*.json")):
+        tdoc = json.loads(tpath.read_text(encoding="utf-8"))
+        doc_id = "deep-timing-" + tpath.stem
+        local = {}
+        for r in tdoc.get("references", []):
+            k = ref_key(r, doc_id)
+            local[r["id"]] = k
+            if k in references:
+                for fld, v in r.items():
+                    if v and fld != "id" and not references[k].get(fld):
+                        references[k][fld] = v
+            else:
+                references[k] = {fld: v for fld, v in r.items() if fld != "id"}
+        ref_index[doc_id] = local
+        md = ROOT / "research" / f"{doc_id}.md"
+        if md.exists() and not any(n["id"] == doc_id for n in notes):
+            first = next((ln for ln in md.read_text(encoding="utf-8").splitlines() if ln.startswith("# ")), "# " + doc_id)
+            notes.append({"id": doc_id, "title": first[2:].strip()})
+        for w in tdoc.get("windows", []):
+            w = dict(w, doc=doc_id)
+            w["refs"] = [local[i] for i in w.get("refs", []) if i in local or warn(f"{doc_id}: window {w['id']} cites unknown ref '{i}'")]
+            if not w.get("start_days", 0) > w.get("end_days", 0):
+                warn(f"{doc_id}: window {w['id']} start_days must exceed end_days")
+            windows.append(w)
+        for rec in tdoc.get("timing", []):
+            fid = factor_alias.get(rec["factor"], rec["factor"])
+            if fid in timing:
+                warn(f"{doc_id}: second timing record for '{fid}' (first from {timing[fid]['doc']})")
+                continue
+            rec = dict(rec, factor=fid, doc=doc_id)
+            rec["refs"] = [local[i] for i in rec.get("refs", []) if i in local or warn(f"{doc_id}: timing {fid} cites unknown ref '{i}'")]
+            for fld in ("onset", "full", "after_stopping"):
+                days = (rec.get(fld) or {}).get("days")
+                if days is not None and not (isinstance(days, list) and len(days) == 2 and 0 <= days[0] <= days[1]):
+                    warn(f"{doc_id}: timing {fid}.{fld}.days should be [low, high] or null, got {days}")
+            timing[fid] = rec
+
     tests_doc = load("tests.json", {"tests": [], "references": []})
     tlocal = {}
     for r in tests_doc.get("references", []):
@@ -167,6 +207,10 @@ def main():
             "pathways": pathways,
             "entries": [{k: v for k, v in e.items() if not k.startswith("_")} for e in entries],
         })
+        if fid in timing:
+            factors[-1]["timing"] = timing[fid]
+    for fid in set(timing) - set(groups):
+        warn(f"timing record for unknown factor '{fid}'")
 
     # group comparable key numbers so the compare chart can line them up across foods
     groups_re = [(r"^Total polyphenols, Folin", "Total polyphenols (Folin assay)"),
@@ -196,6 +240,13 @@ def main():
                         warn(f"{e['area']}/{f['id']}: [{m}] in {fld} is not a factor or reference id")
             if not e.get("refs"):
                 warn(f"{e['area']}/{f['id']}: no references")
+        t = f.get("timing")
+        if t:
+            texts = [t.get("summary"), t.get("debate")] + [(t.get(k) or {}).get("text") for k in ("onset", "full", "after_stopping", "frequency")]
+            texts += [c.get(k) for c in (t.get("conception") or {}).values() for k in ("text", "late_start")]
+            for m in re.findall(r"\[([a-z0-9][\w-]*)\]", " ".join(x for x in texts if x)):
+                if m not in ids and m not in ref_index.get(t["doc"], {}):
+                    warn(f"timing/{f['id']}: [{m}] is not a factor or reference id")
         for p in f["pathways"]:
             if p not in mechs:
                 warn(f"pathway '{p}' (used by {f['id']}) has no mechanism entry")
@@ -226,6 +277,7 @@ def main():
         "ref_index": ref_index,
         "guide": load("guide.json"),
         "tests": tests,
+        "windows": windows,
         "stack": load("stack.json"),
         "compare_presets": (load("compare.json", {}) or {}).get("presets", []),
         "compare_defaults": (load("compare.json", {}) or {}).get("defaults", []),

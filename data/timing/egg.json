@@ -1,0 +1,2842 @@
+{
+ "references": [
+  {
+   "id": "tegg-zhu2018",
+   "authors": "Zhu D, Chung HF, Pandeya N, et al.",
+   "year": 2018,
+   "title": "Relationships between intensity, duration, cumulative dose, and timing of smoking with age at menopause: A pooled analysis of individual data from 17 observational studies",
+   "journal": "PLoS Med",
+   "pmid": "30481189",
+   "doi": "10.1371/journal.pmed.1002704",
+   "type": "meta-analysis",
+   "n": "207,231 women (17 studies)",
+   "finding": "Current smokers had about twice the risk of premature and early menopause; risk rose with duration and pack-years and fell with time since quitting, reaching never-smoker levels after >10 years."
+  },
+  {
+   "id": "tegg-whitcomb2018",
+   "authors": "Whitcomb BW, Purdue-Smithe AC, Szegda KL, et al.",
+   "year": 2018,
+   "title": "Cigarette Smoking and Risk of Early Natural Menopause",
+   "journal": "Am J Epidemiol",
+   "pmid": "29020262",
+   "doi": "10.1093/aje/kwx292",
+   "type": "cohort",
+   "n": "116,429 women",
+   "finding": "Current smokers had higher risk of early menopause (HR 1.90), former smokers slightly higher (HR 1.10); light smokers who quit by 25 matched never-smokers."
+  },
+  {
+   "id": "tegg-benedict2011",
+   "authors": "Benedict MD, Missmer SA, Vitonis AF, et al.",
+   "year": 2011,
+   "title": "Cotinine concentrations in follicular fluid as a measure of secondhand tobacco smoke exposure in women undergoing in vitro fertilization: inter-matrix comparisons with urine and temporal variability",
+   "journal": "Chemosphere",
+   "pmid": "21397293",
+   "doi": "10.1016/j.chemosphere.2011.02.037",
+   "type": "cohort",
+   "n": null,
+   "finding": "Cotinine is measurable in follicular fluid of IVF patients and reflects tobacco smoke exposure reaching the follicle."
+  },
+  {
+   "id": "tegg-waylen2009",
+   "authors": "Waylen AL, Metwally M, Jones GL, et al.",
+   "year": 2009,
+   "title": "Effects of cigarette smoking upon clinical outcomes of assisted reproduction: a meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "18927070",
+   "doi": "10.1093/humupd/dmn046",
+   "type": "meta-analysis",
+   "n": "21 studies",
+   "finding": "Women smoking at the time of ART had lower odds of live birth per cycle (OR 0.54) and higher odds of miscarriage (OR 2.65)."
+  },
+  {
+   "id": "tegg-klonoffcohen2003",
+   "authors": "Klonoff-Cohen H, Lam-Kruglick P, Gonzalez C",
+   "year": 2003,
+   "title": "Effects of maternal and paternal alcohol consumption on the success rates of in vitro fertilization and gamete intrafallopian transfer",
+   "journal": "Fertil Steril",
+   "pmid": "12568842",
+   "doi": "10.1016/s0015-0282(02)04582-x",
+   "type": "cohort",
+   "n": "221 couples",
+   "finding": "Female drinking was linked to fewer eggs (per drink/day in the year before), higher risk of no pregnancy (month before) and miscarriage (week before) in IVF/GIFT."
+  },
+  {
+   "id": "tegg-mikkelsen2016",
+   "authors": "Mikkelsen EM, Riis AH, Wise LA, et al.",
+   "year": 2016,
+   "title": "Alcohol consumption and fecundability: prospective Danish cohort study",
+   "journal": "BMJ",
+   "pmid": "27581754",
+   "doi": "10.1136/bmj.i4262",
+   "type": "cohort",
+   "n": "6120 women",
+   "finding": "Fewer than 14 servings of alcohol per week showed no discernible effect on fecundability; binge drinking in the fertile window was not assessed."
+  },
+  {
+   "id": "tegg-sundermann2019",
+   "authors": "Sundermann AC, Zhao S, Young CL, et al.",
+   "year": 2019,
+   "title": "Alcohol Use in Pregnancy and Miscarriage: A Systematic Review and Meta-Analysis",
+   "journal": "Alcohol Clin Exp Res",
+   "pmid": "31194258",
+   "doi": "10.1111/acer.14124",
+   "type": "meta-analysis",
+   "n": "231,808 women",
+   "finding": "Any alcohol in pregnancy was associated with more miscarriage (OR 1.19), about 6% more per extra drink a week up to 5."
+  },
+  {
+   "id": "tegg-rossi2011",
+   "authors": "Rossi BV, Berry KF, Hornstein MD, et al.",
+   "year": 2011,
+   "title": "Effect of alcohol consumption on in vitro fertilization",
+   "journal": "Obstet Gynecol",
+   "pmid": "21173655",
+   "doi": "10.1097/AOG.0b013e31820090e1",
+   "type": "cohort",
+   "n": "2545 couples",
+   "finding": "Women drinking at least four drinks a week before IVF had 16% lower odds of live birth."
+  },
+  {
+   "id": "tegg-cesta2016",
+   "authors": "Cesta CE, Viktorin A, Olsson H, et al.",
+   "year": 2016,
+   "title": "Depression, anxiety, and antidepressant treatment in women: association with in vitro fertilization outcome",
+   "journal": "Fertil Steril",
+   "pmid": "26920258",
+   "doi": "10.1016/j.fertnstert.2016.01.036",
+   "type": "cohort",
+   "n": "23,557 women",
+   "finding": "SSRI-only prescriptions before a first IVF cycle were not associated with pregnancy or live birth; untreated depression/anxiety and non-SSRI antidepressants were."
+  },
+  {
+   "id": "tegg-huybrechts2014",
+   "authors": "Huybrechts KF, Palmsten K, Avorn J, et al.",
+   "year": 2014,
+   "title": "Antidepressant use in pregnancy and the risk of cardiac defects",
+   "journal": "N Engl J Med",
+   "pmid": "24941178",
+   "doi": "10.1056/NEJMoa1312828",
+   "type": "cohort",
+   "n": "949,504 pregnancies",
+   "finding": "First-trimester antidepressant use was not associated with cardiac defects after adjustment for depression and confounders (SSRI RR 1.06)."
+  },
+  {
+   "id": "tegg-cohen2006",
+   "authors": "Cohen LS, Altshuler LL, Harlow BL, et al.",
+   "year": 2006,
+   "title": "Relapse of major depression during pregnancy in women who maintain or discontinue antidepressant treatment",
+   "journal": "JAMA",
+   "pmid": "16449615",
+   "doi": "10.1001/jama.295.5.499",
+   "type": "cohort",
+   "n": "201 women",
+   "finding": "Relapse of major depression in pregnancy: 68% after discontinuing antidepressants near conception vs 26% when maintained."
+  },
+  {
+   "id": "tegg-domar2013",
+   "authors": "Domar AD, Moragianni VA, Ryley DA, et al.",
+   "year": 2013,
+   "title": "The risks of selective serotonin reuptake inhibitor use in infertile women: a review of the impact on fertility, pregnancy, neonatal health and beyond",
+   "journal": "Hum Reprod",
+   "pmid": "23117129",
+   "doi": "10.1093/humrep/des383",
+   "type": "review",
+   "n": null,
+   "finding": "Argues SSRI use in infertile women carries pregnancy risks without proven benefit and favours psychotherapy and exercise first."
+  },
+  {
+   "id": "tegg-preskorn1997",
+   "authors": "Preskorn SH",
+   "year": 1997,
+   "title": "Clinically relevant pharmacology of selective serotonin reuptake inhibitors. An overview with emphasis on pharmacokinetics and effects on oxidative drug metabolism",
+   "journal": "Clin Pharmacokinet",
+   "pmid": "9068931",
+   "doi": "10.2165/00003088-199700321-00003",
+   "type": "review",
+   "n": null,
+   "finding": "Most SSRIs have half-lives of about 1 day; fluoxetine 2-4 days and its metabolite norfluoxetine 7-15 days."
+  },
+  {
+   "id": "tegg-meirow2001",
+   "authors": "Meirow D, Epstein M, Lewis H, et al.",
+   "year": 2001,
+   "title": "Administration of cyclophosphamide at different stages of follicular maturation in mice: effects on reproductive performance and fetal malformations",
+   "journal": "Hum Reprod",
+   "pmid": "11278209",
+   "doi": "10.1093/humrep/16.4.632",
+   "type": "mechanistic",
+   "n": "mice",
+   "finding": "After cyclophosphamide, conceptions from follicles exposed at mature stages failed more often and malformations were >10-fold higher; malformation rates fell toward normal by 12 weeks after exposure."
+  },
+  {
+   "id": "tegg-balachandren2026",
+   "authors": "Balachandren N, Kastora SL, Anderson RA, et al.",
+   "year": 2026,
+   "title": "Assessing the reproductive lifespan of female cancer survivors using AMH: a meta-synthesis of longitudinal studies",
+   "journal": "Hum Reprod Update",
+   "pmid": "42497321",
+   "doi": "10.1093/humupd/dmag019",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "AMH fell 76% at 12 months after breast-cancer chemotherapy and recovered partly between 6 and 12-24 months; survivors who kept ovarian function then tracked age-matched controls."
+  },
+  {
+   "id": "tegg-mailliez2022",
+   "authors": "Mailliez A, Pigny P, Bogart E, et al.",
+   "year": 2022,
+   "title": "Is ovarian recovery after chemotherapy in young patients with early breast cancer influenced by controlled ovarian hyperstimulation for fertility preservation or tumor characteristics? Results of a prospective study in 126 patients",
+   "journal": "Int J Cancer",
+   "pmid": "35038360",
+   "doi": "10.1002/ijc.33933",
+   "type": "cohort",
+   "n": "126 women",
+   "finding": "After breast-cancer chemotherapy, 94% had amenorrhoea and 33% still had undetectable AMH 12 months after treatment, though most resumed menses."
+  },
+  {
+   "id": "tegg-hartnett2018",
+   "authors": "Hartnett KP, Mertens AC, Kramer MR, et al.",
+   "year": 2018,
+   "title": "Pregnancy after cancer: Does timing of conception affect infant health?",
+   "journal": "Cancer",
+   "pmid": "30403424",
+   "doi": "10.1002/cncr.31732",
+   "type": "cohort",
+   "n": null,
+   "finding": "Conceiving within 1 year of starting chemotherapy was linked to more preterm birth (RR 1.9; 2.4 with radiation); conceiving later was not."
+  },
+  {
+   "id": "tegg-signorello2010",
+   "authors": "Signorello LB, Mulvihill JJ, Green DM, et al.",
+   "year": 2010,
+   "title": "Stillbirth and neonatal death in relation to radiation exposure before conception: a retrospective cohort study",
+   "journal": "Lancet",
+   "pmid": "20655585",
+   "doi": "10.1016/S0140-6736(10)60752-0",
+   "type": "cohort",
+   "n": "1657 women survivors",
+   "finding": "Uterine/ovarian radiation >10 Gy (or >=1 Gy before menarche) raised stillbirth and neonatal death; alkylating chemotherapy did not."
+  },
+  {
+   "id": "tegg-oktay2018",
+   "authors": "Oktay K, Harvey BE, Partridge AH, et al.",
+   "year": 2018,
+   "title": "Fertility Preservation in Patients With Cancer: ASCO Clinical Practice Guideline Update",
+   "journal": "J Clin Oncol",
+   "pmid": "29620997",
+   "doi": "10.1200/JCO.2018.78.1914",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASCO: discuss fertility early; oocyte and embryo cryopreservation are standard before gonadotoxic treatment; GnRH agonists only as an adjunct."
+  },
+  {
+   "id": "tegg-gougeon1986",
+   "authors": "Gougeon A",
+   "year": 1986,
+   "title": "Dynamics of follicular growth in the human: a model from preliminary results",
+   "journal": "Hum Reprod",
+   "pmid": "3558758",
+   "doi": "10.1093/oxfordjournals.humrep.a136365",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Histology-based model: the ovulatory follicle comes from a pre-antral cohort that differentiated its theca about 85 days earlier, and is recruited from 2-5 mm follicles 15-20 days before ovulation."
+  },
+  {
+   "id": "tegg-gougeon2010",
+   "authors": "Gougeon A",
+   "year": 2010,
+   "title": "Human ovarian follicular development: from activation of resting follicles to preovulatory maturation",
+   "journal": "Ann Endocrinol (Paris)",
+   "pmid": "20362973",
+   "doi": "10.1016/j.ando.2010.02.021",
+   "type": "review",
+   "n": null,
+   "finding": "Several months are needed for a newly activated follicle to reach the preantral stage (0.15 mm), then about 70 more days to reach 2 mm, before FSH-dependent selection in the late luteal and follicular phase."
+  },
+  {
+   "id": "tegg-mcgee2000",
+   "authors": "McGee EA, Hsueh AJ",
+   "year": 2000,
+   "title": "Initial and cyclic recruitment of ovarian follicles",
+   "journal": "Endocr Rev",
+   "pmid": "10782364",
+   "doi": "10.1210/edrv.21.2.0394",
+   "type": "review",
+   "n": null,
+   "finding": "Defines initial recruitment (resting primordial follicles start growing, continuously and gonadotropin-independent) and cyclic recruitment (FSH rescues a cohort of antral follicles each cycle)."
+  },
+  {
+   "id": "tegg-baerwald2012",
+   "authors": "Baerwald AR, Adams GP, Pierson RA",
+   "year": 2012,
+   "title": "Ovarian antral folliculogenesis during the human menstrual cycle: a review",
+   "journal": "Hum Reprod Update",
+   "pmid": "22068695",
+   "doi": "10.1093/humupd/dmr039",
+   "type": "review",
+   "n": null,
+   "finding": "Review of >200 studies: two or three waves of antral follicles develop during the human cycle, and a single dominant follicle is usually selected in the mid-follicular phase."
+  },
+  {
+   "id": "tegg-erden2022",
+   "authors": "Erden M, Mumusoglu S, Polat M, et al.",
+   "year": 2022,
+   "title": "The LH surge and ovulation re-visited: a systematic review and meta-analysis and implications for true natural cycle frozen thawed embryo transfer",
+   "journal": "Hum Reprod Update",
+   "pmid": "35258085",
+   "doi": "10.1093/humupd/dmac012",
+   "type": "meta-analysis",
+   "n": "187 cycles",
+   "finding": "Mean interval from LH-surge onset to ovulation was 33.9 h (95% CI 30.8-37.0), with individual intervals from 22 to 56 h."
+  },
+  {
+   "id": "tegg-wilcox1995",
+   "authors": "Wilcox AJ, Weinberg CR, Baird DD",
+   "year": 1995,
+   "title": "Timing of sexual intercourse in relation to ovulation. Effects on the probability of conception, survival of the pregnancy, and sex of the baby",
+   "journal": "N Engl J Med",
+   "pmid": "7477165",
+   "doi": "10.1056/NEJM199512073332301",
+   "type": "cohort",
+   "n": "221 women, 625 cycles",
+   "finding": "Conception occurred only from intercourse in a six-day window ending on the day of ovulation; probability rose from 0.10 five days before to 0.33 on ovulation day."
+  },
+  {
+   "id": "tegg-wilcox1999",
+   "authors": "Wilcox AJ, Baird DD, Weinberg CR",
+   "year": 1999,
+   "title": "Time of implantation of the conceptus and loss of pregnancy",
+   "journal": "N Engl J Med",
+   "pmid": "10362823",
+   "doi": "10.1056/NEJM199906103402304",
+   "type": "cohort",
+   "n": "221 women",
+   "finding": "Implantation (first hCG) occurred 6-12 days after ovulation, 84% on days 8-10; early loss rose from 13% when implanting by day 9 to 82% after day 11."
+  },
+  {
+   "id": "tegg-steegerstheunissen2013",
+   "authors": "Steegers-Theunissen RP, Twigt J, Pestinger V, et al.",
+   "year": 2013,
+   "title": "The periconceptional period, reproduction and long-term health of offspring: the importance of one-carbon metabolism",
+   "journal": "Hum Reprod Update",
+   "pmid": "23959022",
+   "doi": "10.1093/humupd/dmt041",
+   "type": "review",
+   "n": null,
+   "finding": "Defines the periconception period as about 5-6 months spanning oocyte growth, fertilisation and embryo development to gestational week 10, during which one-carbon (folate/B12) metabolism and lifestyle shape fertility and offspring health."
+  },
+  {
+   "id": "tegg-fleming2018",
+   "authors": "Fleming TP, Watkins AJ, Velazquez MA, et al.",
+   "year": 2018,
+   "title": "Origins of lifetime health around the time of conception: causes and consequences",
+   "journal": "Lancet",
+   "pmid": "29673874",
+   "doi": "10.1016/S0140-6736(18)30312-X",
+   "type": "review",
+   "n": null,
+   "finding": "Lancet review: from gamete maturation to early embryo development, parental nutrition, obesity and ART can programme long-term offspring health; calls for preparation before conception."
+  },
+  {
+   "id": "tegg-copp2015",
+   "authors": "Copp AJ, Adzick NS, Chitty LS, et al.",
+   "year": 2015,
+   "title": "Spina bifida",
+   "journal": "Nat Rev Dis Primers",
+   "pmid": "27189655",
+   "doi": "10.1038/nrdp.2015.7",
+   "type": "review",
+   "n": null,
+   "finding": "Primer: human neural tube closure starts on day 22 after fertilisation and finishes at the posterior neuropore around day 26; periconceptional folic acid prevents a share of spina bifida."
+  },
+  {
+   "id": "tegg-jauniaux2000",
+   "authors": "Jauniaux E, Watson AL, Hempstock J, et al.",
+   "year": 2000,
+   "title": "Onset of maternal arterial blood flow and placental oxidative stress. A possible factor in human early pregnancy failure",
+   "journal": "Am J Pathol",
+   "pmid": "11106583",
+   "doi": "10.1016/S0002-9440(10)64849-3",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Placental oxygen tension rises from <20 mmHg at 8 weeks to >50 mmHg at 12 weeks of gestation as maternal arterial flow begins, with a burst of oxidative stress and up-regulated antioxidant enzymes."
+  },
+  {
+   "id": "tegg-burton2011",
+   "authors": "Burton GJ, Jauniaux E",
+   "year": 2011,
+   "title": "Oxidative stress",
+   "journal": "Best Pract Res Clin Obstet Gynaecol",
+   "pmid": "21130690",
+   "doi": "10.1016/j.bpobgyn.2010.10.016",
+   "type": "review",
+   "n": null,
+   "finding": "Review of reactive oxygen species in normal placental development and in miscarriage and pre-eclampsia."
+  },
+  {
+   "id": "tegg-wallace2010",
+   "authors": "Wallace WH, Kelsey TW",
+   "year": 2010,
+   "title": "Human ovarian reserve from conception to the menopause",
+   "journal": "PLoS One",
+   "pmid": "20111701",
+   "doi": "10.1371/journal.pone.0008772",
+   "type": "review",
+   "n": "325 ovaries (pooled histology)",
+   "finding": "Model of non-growing follicle numbers: by age 30 about 12%, and by 40 about 3%, of the maximum pre-birth pool remains; age explains 81% of the variance."
+  },
+  {
+   "id": "tegg-gruhn2019",
+   "authors": "Gruhn JR, Zielinska AP, Shukla V, et al.",
+   "year": 2019,
+   "title": "Chromosome errors in human eggs shape natural fertility over reproductive life span",
+   "journal": "Science",
+   "pmid": "31604276",
+   "doi": "10.1126/science.aav7321",
+   "type": "mechanistic",
+   "n": "oocytes from donors aged 9-43",
+   "finding": "Aneuploidy in human eggs follows a U-curve with age; cohesion loss at centromeres drives the rise in older women and explains the shape of natural fertility."
+  },
+  {
+   "id": "tegg-nagaoka2012",
+   "authors": "Nagaoka SI, Hassold TJ, Hunt PA",
+   "year": 2012,
+   "title": "Human aneuploidy: mechanisms and new insights into an age-old problem",
+   "journal": "Nat Rev Genet",
+   "pmid": "22705668",
+   "doi": "10.1038/nrg3245",
+   "type": "review",
+   "n": null,
+   "finding": "Aneuploidy arises almost always in the oocyte; the age-related increase reflects an interplay of features unique to oogenesis (decades-long meiotic arrest) and other factors."
+  },
+  {
+   "id": "tegg-maypanloup2016",
+   "authors": "May-Panloup P, Boucret L, Chao de la Barca JM, et al.",
+   "year": 2016,
+   "title": "Ovarian ageing: the role of mitochondria in oocytes and follicles",
+   "journal": "Hum Reprod Update",
+   "pmid": "27562289",
+   "doi": "10.1093/humupd/dmw028",
+   "type": "review",
+   "n": null,
+   "finding": "Mitochondrial biogenesis during oogenesis builds the large pool the embryo depends on; ageing impairs oocyte and granulosa-cell mitochondria."
+  },
+  {
+   "id": "tegg-valckx2012",
+   "authors": "Valckx SD, De Pauw I, De Neubourg D, et al.",
+   "year": 2012,
+   "title": "BMI-related metabolic composition of the follicular fluid of women undergoing assisted reproductive treatment and the consequences for oocyte and embryo quality",
+   "journal": "Hum Reprod",
+   "pmid": "23019302",
+   "doi": "10.1093/humrep/des350",
+   "type": "cohort",
+   "n": "106 women",
+   "finding": "Most serum metabolite differences between women were mirrored in follicular fluid, and some follicular fluid components were associated with oocyte quality."
+  },
+  {
+   "id": "tegg-robker2009",
+   "authors": "Robker RL, Akison LK, Bennett BD, et al.",
+   "year": 2009,
+   "title": "Obese women exhibit differences in ovarian metabolites, hormones, and gene expression compared with moderate-weight women",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "19223519",
+   "doi": "10.1210/jc.2008-2648",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Higher BMI was associated with more insulin, lactate, triglycerides and CRP and less SHBG in preovulatory follicular fluid."
+  },
+  {
+   "id": "tegg-reynolds2015",
+   "authors": "Reynolds KA, Boudoures AL, Chi MM, et al.",
+   "year": 2015,
+   "title": "Adverse effects of obesity and/or high-fat diet on oocyte quality and metabolism are not reversible with resumption of regular diet in mice",
+   "journal": "Reprod Fertil Dev",
+   "pmid": "25775080",
+   "doi": "10.1071/RD14251",
+   "type": "mechanistic",
+   "n": "mice",
+   "finding": "Mice fed a high-fat diet for 6 weeks then a control diet for 8 weeks normalised weight and glucose but kept abnormal oocyte spindles, low mitochondrial membrane potential and lipid accumulation."
+  },
+  {
+   "id": "tegg-xinyan2025",
+   "authors": "Xinyan C, Ting Y, Xi Z, et al.",
+   "year": 2025,
+   "title": "Exercise-diet intervention ameliorates but fails to fully reverse obesity-induced ovarian dysfunction: evidence spanning folliculogenesis to embryonic development",
+   "journal": "J Ovarian Res",
+   "pmid": "40707970",
+   "doi": "10.1186/s13048-025-01748-6",
+   "type": "mechanistic",
+   "n": "mice",
+   "finding": "In obese mice an exercise-diet intervention improved but did not fully reverse ovarian and oocyte defects (spindles, mitochondria)."
+  },
+  {
+   "id": "tegg-tamura2008",
+   "authors": "Tamura H, Takasaki A, Miwa I, et al.",
+   "year": 2008,
+   "title": "Oxidative stress impairs oocyte quality and melatonin protects oocytes from free radical damage and improves fertilization rate",
+   "journal": "J Pineal Res",
+   "pmid": "18339123",
+   "doi": "10.1111/j.1600-079X.2007.00524.x",
+   "type": "cohort",
+   "n": "115 + 18 IVF patients",
+   "finding": "Follicular 8-OHdG was higher with poor oocytes; melatonin 3 mg/day and/or vitamin E during the IVF cycle lowered follicular oxidative markers, and melatonin raised fertilisation versus the previous cycle (non-randomised)."
+  },
+  {
+   "id": "tegg-xu2018",
+   "authors": "Xu Y, Nisenblat V, Lu C, et al.",
+   "year": 2018,
+   "title": "Pretreatment with coenzyme Q10 improves ovarian response and embryo quality in low-prognosis young women with decreased ovarian reserve: a randomized controlled trial",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "29587861",
+   "doi": "10.1186/s12958-018-0343-0",
+   "type": "rct",
+   "n": "186 women",
+   "finding": "CoQ10 for 60 days before IVF in young poor-reserve women gave more oocytes and high-quality embryos; live birth trended higher but was not significant."
+  },
+  {
+   "id": "tegg-florou2020",
+   "authors": "Florou P, Anagnostis P, Theocharis P, et al.",
+   "year": 2020,
+   "title": "Does coenzyme Q(10) supplementation improve fertility outcomes in women undergoing assisted reproductive technology procedures? A systematic review and meta-analysis of randomized-controlled trials",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "32767206",
+   "doi": "10.1007/s10815-020-01906-3",
+   "type": "meta-analysis",
+   "n": "449 women, 5 RCTs",
+   "finding": "CoQ10 raised clinical pregnancy (OR 2.44) but not live birth (OR 1.67, NS) in ART."
+  },
+  {
+   "id": "tegg-bentov2014",
+   "authors": "Bentov Y, Hannam T, Jurisicova A, et al.",
+   "year": 2014,
+   "title": "Coenzyme Q10 Supplementation and Oocyte Aneuploidy in Women Undergoing IVF-ICSI Treatment",
+   "journal": "Clin Med Insights Reprod Health",
+   "pmid": "24987272",
+   "doi": "10.4137/CMRH.S14681",
+   "type": "rct",
+   "n": "39 randomised, 24 completed",
+   "finding": "CoQ10 600 mg vs placebo before IVF: aneuploidy 46.5% vs 62.8%, not significant; trial stopped early and underpowered."
+  },
+  {
+   "id": "tegg-benmeir2015",
+   "authors": "Ben-Meir A, Burstein E, Borrego-Alvarez A, et al.",
+   "year": 2015,
+   "title": "Coenzyme Q10 restores oocyte mitochondrial function and fertility during reproductive aging",
+   "journal": "Aging Cell",
+   "pmid": "26111777",
+   "doi": "10.1111/acel.12368",
+   "type": "mechanistic",
+   "n": "mice and human oocytes",
+   "finding": "CoQ10 supplementation reversed age-related decline in oocyte mitochondrial function and number in aged mice."
+  },
+  {
+   "id": "tegg-bertoldo2020",
+   "authors": "Bertoldo MJ, Listijono DR, Ho WJ, et al.",
+   "year": 2020,
+   "title": "NAD(+) Repletion Rescues Female Fertility during Reproductive Aging",
+   "journal": "Cell Rep",
+   "pmid": "32049001",
+   "doi": "10.1016/j.celrep.2020.01.058",
+   "type": "mechanistic",
+   "n": "mice",
+   "finding": "NAD+ repletion with NMN restored oocyte quality and fertility in aged mice."
+  },
+  {
+   "id": "tegg-naik2024",
+   "authors": "Naik S, Lepine S, Nagels HE, et al.",
+   "year": 2024,
+   "title": "Androgens (dehydroepiandrosterone or testosterone) for women undergoing assisted reproduction",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "38837771",
+   "doi": "10.1002/14651858.CD009749.pub3",
+   "type": "meta-analysis",
+   "n": "28 RCTs, ~3000 women",
+   "finding": "Cochrane: DHEA pre-treatment probably makes little or no difference to live birth (OR 1.30, 0.95-1.76); testosterone pre-treatment probably improves it (OR 2.53)."
+  },
+  {
+   "id": "tegg-wiser2010",
+   "authors": "Wiser A, Gonen O, Ghetler Y, et al.",
+   "year": 2010,
+   "title": "Addition of dehydroepiandrosterone (DHEA) for poor-responder patients before and during IVF treatment improves the pregnancy rate: a randomized prospective study",
+   "journal": "Hum Reprod",
+   "pmid": "20729538",
+   "doi": "10.1093/humrep/deq220",
+   "type": "rct",
+   "n": "33 women",
+   "finding": "DHEA 75 mg/day before and during IVF in poor responders: live birth 23.1% vs 4.0% (P=0.05); embryo quality improved between first and second cycles."
+  },
+  {
+   "id": "tegg-yeung2014",
+   "authors": "Yeung TW, Chai J, Li RH, et al.",
+   "year": 2014,
+   "title": "A randomized, controlled, pilot trial on the effect of dehydroepiandrosterone on ovarian response markers, ovarian response, and in vitro fertilization outcomes in poor responders",
+   "journal": "Fertil Steril",
+   "pmid": "24796766",
+   "doi": "10.1016/j.fertnstert.2014.03.044",
+   "type": "rct",
+   "n": "32 women",
+   "finding": "DHEA 25 mg three times daily for at least 12 weeks raised serum and follicular DHEA-S but did not change AFC, AMH, FSH, ovarian response or IVF outcome versus placebo."
+  },
+  {
+   "id": "tegg-gleicher2010",
+   "authors": "Gleicher N, Weghofer A, Barad DH",
+   "year": 2010,
+   "title": "Improvement in diminished ovarian reserve after dehydroepiandrosterone supplementation",
+   "journal": "Reprod Biomed Online",
+   "pmid": "20638339",
+   "doi": "10.1016/j.rbmo.2010.04.006",
+   "type": "cohort",
+   "n": "120 women",
+   "finding": "Uncontrolled: AMH rose about 60% over 30-120 days (mean 73) of DHEA, more with longer use and in women under 38."
+  },
+  {
+   "id": "tegg-barad2006",
+   "authors": "Barad D, Gleicher N",
+   "year": 2006,
+   "title": "Effect of dehydroepiandrosterone on oocyte and embryo yields, embryo grade and cell number in IVF",
+   "journal": "Hum Reprod",
+   "pmid": "16997936",
+   "doi": "10.1093/humrep/del254",
+   "type": "case-control",
+   "n": "25 women",
+   "finding": "Before-after IVF cycles around DHEA 75 mg/day for a mean 17.6 weeks: more fertilised oocytes and normal day-3 embryos."
+  },
+  {
+   "id": "tegg-polyzos2018",
+   "authors": "Polyzos NP, Davis SR, Drakopoulos P, et al.",
+   "year": 2018,
+   "title": "Testosterone for Poor Ovarian Responders: Lessons From Ovarian Physiology",
+   "journal": "Reprod Sci",
+   "pmid": "27489169",
+   "doi": "10.1177/1933719116660849",
+   "type": "review",
+   "n": null,
+   "finding": "Argues that androgens act mainly at early follicle stages, so the 5-21-day high-dose testosterone courses used in trials do not fit ovarian physiology."
+  },
+  {
+   "id": "tegg-kim2014",
+   "authors": "Kim CH, Ahn JW, Moon JW, et al.",
+   "year": 2014,
+   "title": "Ovarian Features after 2 Weeks, 3 Weeks and 4 Weeks Transdermal Testosterone Gel Treatment and Their Associated Effect on IVF Outcomes in Poor Responders",
+   "journal": "Dev Reprod",
+   "pmid": "25949183",
+   "doi": "10.12717/DR.2014.18.3.145",
+   "type": "rct",
+   "n": "120 women",
+   "finding": "Transdermal testosterone for 3-4 weeks (not 2) raised AFC and lowered FSH dose; live birth rose only with 4 weeks."
+  },
+  {
+   "id": "tegg-showell2018",
+   "authors": "Showell MG, Mackenzie-Proctor R, Jordan V, et al.",
+   "year": 2018,
+   "title": "Inositol for subfertile women with polycystic ovary syndrome",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "30570133",
+   "doi": "10.1002/14651858.CD012378.pub2",
+   "type": "meta-analysis",
+   "n": "13 trials, 1472 women",
+   "finding": "Cochrane: very low-quality evidence; uncertain whether myo-inositol improves live birth or clinical pregnancy in PCOS."
+  },
+  {
+   "id": "tegg-gerli2003",
+   "authors": "Gerli S, Mignosa M, Di Renzo GC",
+   "year": 2003,
+   "title": "Effects of inositol on ovarian function and metabolic factors in women with PCOS: a randomized double blind placebo-controlled trial",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "pmid": "15206484",
+   "doi": null,
+   "type": "rct",
+   "n": "283 women",
+   "finding": "Inositol 100 mg twice daily for 14 weeks in PCOS: E2 rose in the first week and first ovulation came sooner (23.6 vs 41.8 days); expression of concern issued in 2025."
+  },
+  {
+   "id": "tegg-gerli2007",
+   "authors": "Gerli S, Papaleo E, Ferrari A, et al.",
+   "year": 2007,
+   "title": "Randomized, double blind placebo-controlled trial: effects of myo-inositol on ovarian function and metabolic factors in women with PCOS",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "pmid": "18074942",
+   "doi": null,
+   "type": "rct",
+   "n": null,
+   "finding": "RETRACTED (2023): placebo-controlled myo-inositol PCOS trial; cited only to flag the retraction."
+  },
+  {
+   "id": "tegg-papaleo2025",
+   "authors": "Papaleo E, Unfer V, Baillargeon JP, et al.",
+   "year": 2025,
+   "title": "Retraction notice to \"Contribution of myo-inositol to reproduction\". [Eur. J. Obstet. Gynecol. Reprod. Biol. 147 (2009) 120-123]",
+   "journal": "Eur J Obstet Gynecol Reprod Biol",
+   "pmid": "40712462",
+   "doi": "10.1016/j.ejogrb.2025.114569",
+   "type": "review",
+   "n": null,
+   "finding": "Retraction notice (2025) for the 2009 review \"Contribution of myo-inositol to reproduction\"."
+  },
+  {
+   "id": "tegg-greff2023",
+   "authors": "Greff D, Juhász AE, Váncsa S, et al.",
+   "year": 2023,
+   "title": "Inositol is an effective and safe treatment in polycystic ovary syndrome: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "36703143",
+   "doi": "10.1186/s12958-023-01055-z",
+   "type": "meta-analysis",
+   "n": "26 RCTs, 1691 women",
+   "finding": "Inositols raised the chance of regular cycles (RR 1.79 vs placebo) and lowered androgens, non-inferior to metformin."
+  },
+  {
+   "id": "tegg-hu2020",
+   "authors": "Hu KL, Ye X, Wang S, et al.",
+   "year": 2020,
+   "title": "Melatonin Application in Assisted Reproductive Technology: A Systematic Review and Meta-Analysis of Randomized Trials",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "32292388",
+   "doi": "10.3389/fendo.2020.00160",
+   "type": "meta-analysis",
+   "n": "10 RCTs",
+   "finding": "Melatonin in ART raised clinical pregnancy but not live birth (OR 1.38, 0.78-2.46, 3 RCTs)."
+  },
+  {
+   "id": "tegg-fernando2017",
+   "authors": "Fernando S, Biggs SN, Horne RSC, et al.",
+   "year": 2017,
+   "title": "The impact of melatonin on the sleep patterns of women undergoing IVF: a double blind RCT",
+   "journal": "Hum Reprod Open",
+   "pmid": "30895239",
+   "doi": "10.1093/hropen/hox027",
+   "type": "rct",
+   "n": "116 women",
+   "finding": "Melatonin 2-8 mg twice daily from cycle day 2 to the day before retrieval (up to ~2 weeks) did not cause daytime sleepiness."
+  },
+  {
+   "id": "tegg-fernando2020",
+   "authors": "Fernando S, Wallace EM, Rombauts L, et al.",
+   "year": 2020,
+   "title": "The effect of melatonin on ultrasound markers of follicular development: A double-blind placebo-controlled randomised trial",
+   "journal": "Aust N Z J Obstet Gynaecol",
+   "pmid": "31583699",
+   "doi": "10.1111/ajo.13074",
+   "type": "rct",
+   "n": null,
+   "finding": "Melatonin given during stimulation did not change follicle number or ovarian vascular indices versus placebo."
+  },
+  {
+   "id": "tegg-harpsoe2015",
+   "authors": "Harpsøe NG, Andersen LP, Gögenur I, et al.",
+   "year": 2015,
+   "title": "Clinical pharmacokinetics of melatonin: a systematic review",
+   "journal": "Eur J Clin Pharmacol",
+   "pmid": "26008214",
+   "doi": "10.1007/s00228-015-1873-4",
+   "type": "review",
+   "n": null,
+   "finding": "Systematic review of melatonin pharmacokinetics: oral Tmax about 50 min, elimination half-life about 45 min, oral bioavailability 9-33%."
+  },
+  {
+   "id": "tegg-mutsaerts2016",
+   "authors": "Mutsaerts MA, van Oers AM, Groen H, et al.",
+   "year": 2016,
+   "title": "Randomized Trial of a Lifestyle Program in Obese Infertile Women",
+   "journal": "N Engl J Med",
+   "pmid": "27192672",
+   "doi": "10.1056/NEJMoa1505297",
+   "type": "rct",
+   "n": "577 women",
+   "finding": "LIFEstyle: 6 months of lifestyle intervention before fertility treatment (-4.4 kg) did not raise healthy term singleton births within 24 months (27.1% vs 35.2%)."
+  },
+  {
+   "id": "tegg-einarsson2017",
+   "authors": "Einarsson S, Bergh C, Friberg B, et al.",
+   "year": 2017,
+   "title": "Weight reduction intervention for obese infertile women prior to IVF: a randomized controlled trial",
+   "journal": "Hum Reprod",
+   "pmid": "28854592",
+   "doi": "10.1093/humrep/dex235",
+   "type": "rct",
+   "n": "317 women",
+   "finding": "12-week 880 kcal liquid diet plus 2-5 weeks stabilisation before IVF lost 9.4 kg but live birth was unchanged (29.6% vs 27.5%); spontaneous pregnancies were more common (10.5% vs 2.6%)."
+  },
+  {
+   "id": "tegg-legro2022",
+   "authors": "Legro RS, Hansen KR, Diamond MP, et al.",
+   "year": 2022,
+   "title": "Effects of preconception lifestyle intervention in infertile women with obesity: The FIT-PLESE randomized controlled trial",
+   "journal": "PLoS Med",
+   "pmid": "35041662",
+   "doi": "10.1371/journal.pmed.1003883",
+   "type": "rct",
+   "n": "379 women",
+   "finding": "FIT-PLESE: 16 weeks of intensive weight loss (-6.6%) before treatment did not raise healthy live birth vs exercise alone (12.2% vs 15.2%) but cut metabolic syndrome."
+  },
+  {
+   "id": "tegg-legro2015",
+   "authors": "Legro RS, Dodson WC, Kris-Etherton PM, et al.",
+   "year": 2015,
+   "title": "Randomized Controlled Trial of Preconception Interventions in Infertile Women With Polycystic Ovary Syndrome",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "26401593",
+   "doi": "10.1210/jc.2015-2778",
+   "type": "rct",
+   "n": "149 women",
+   "finding": "In obese PCOS, 16 weeks of preconception lifestyle (-6.2%) or combined treatment raised cumulative ovulation (60-67% vs 46% with OCP alone)."
+  },
+  {
+   "id": "tegg-legro2016",
+   "authors": "Legro RS, Dodson WC, Kunselman AR, et al.",
+   "year": 2016,
+   "title": "Benefit of Delayed Fertility Therapy With Preconception Weight Loss Over Immediate Therapy in Obese Women With PCOS",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "27172435",
+   "doi": "10.1210/jc.2016-1659",
+   "type": "rct",
+   "n": "329 women (two trials)",
+   "finding": "Delaying clomiphene for 16 weeks of weight loss in obese PCOS gave higher live birth (25% vs 10.2% with immediate treatment)."
+  },
+  {
+   "id": "tegg-sim2014",
+   "authors": "Sim KA, Dezarnaulds GM, Denyer GS, et al.",
+   "year": 2014,
+   "title": "Weight loss improves reproductive outcomes in obese women undergoing fertility treatment: a randomized controlled trial",
+   "journal": "Clin Obes",
+   "pmid": "25826729",
+   "doi": "10.1111/cob.12048",
+   "type": "rct",
+   "n": "49 women",
+   "finding": "A 12-week VLED-based weight-loss programme before fertility treatment: pregnancy 48% vs 14% and live birth 44% vs 14%."
+  },
+  {
+   "id": "tegg-best2017",
+   "authors": "Best D, Avenell A, Bhattacharya S",
+   "year": 2017,
+   "title": "How effective are weight-loss interventions for improving fertility in women and men who are overweight or obese? A systematic review and meta-analysis of the evidence",
+   "journal": "Hum Reprod Update",
+   "pmid": "28961722",
+   "doi": "10.1093/humupd/dmx027",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Weight-loss interventions in overweight/obese women raised pregnancy (RR 1.59) and ovulation."
+  },
+  {
+   "id": "tegg-kiddy1992",
+   "authors": "Kiddy DS, Hamilton-Fairley D, Bush A, et al.",
+   "year": 1992,
+   "title": "Improvement in endocrine and ovarian function during dietary treatment of obese women with polycystic ovary syndrome",
+   "journal": "Clin Endocrinol (Oxf)",
+   "pmid": "1559293",
+   "doi": "10.1111/j.1365-2265.1992.tb02909.x",
+   "type": "cohort",
+   "n": "24 women",
+   "finding": "In obese PCOS, >5% weight loss over 6-7 months raised SHBG, lowered insulin and free testosterone, and improved menstrual function or led to conception in 9 of 11."
+  },
+  {
+   "id": "tegg-sermondade2019",
+   "authors": "Sermondade N, Huberlant S, Bourhis-Lefebvre V, et al.",
+   "year": 2019,
+   "title": "Female obesity is negatively associated with live birth rate following IVF: a systematic review and meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "30941397",
+   "doi": "10.1093/humupd/dmz011",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Obesity (BMI >= 30) was associated with lower IVF live birth (RR 0.85, 0.82-0.87)."
+  },
+  {
+   "id": "tegg-salamun2018",
+   "authors": "Salamun V, Jensterle M, Janez A, et al.",
+   "year": 2018,
+   "title": "Liraglutide increases IVF pregnancy rates in obese PCOS women with poor response to first-line reproductive treatments: a pilot randomized study",
+   "journal": "Eur J Endocrinol",
+   "pmid": "29703793",
+   "doi": "10.1530/EJE-18-0175",
+   "type": "rct",
+   "n": "28 women",
+   "finding": "Obese PCOS: 12 weeks liraglutide + metformin then a 4-week drug-free gap before IVF gave higher pregnancy per transfer (85.7% vs 28.6%) than metformin alone."
+  },
+  {
+   "id": "tegg-cesta2024",
+   "authors": "Cesta CE, Rotem R, Bateman BT, et al.",
+   "year": 2024,
+   "title": "Safety of GLP-1 Receptor Agonists and Other Second-Line Antidiabetics in Early Pregnancy",
+   "journal": "JAMA Intern Med",
+   "pmid": "38079178",
+   "doi": "10.1001/jamainternmed.2023.6663",
+   "type": "cohort",
+   "n": ">51,000 T2D pregnancies",
+   "finding": "Periconceptional GLP-1 RA exposure (90 days before to end of first trimester) was not associated with more major malformations than insulin (aRR 0.95)."
+  },
+  {
+   "id": "tegg-hviid2026",
+   "authors": "Hviid KVR, Banasik K, Mortensen LH, et al.",
+   "year": 2026,
+   "title": "Periconceptional GLP-1 receptor agonist exposure and obstetric outcomes: a Danish nationwide cohort study",
+   "journal": "Hum Reprod Open",
+   "pmid": "41852577",
+   "doi": "10.1093/hropen/hoag015",
+   "type": "cohort",
+   "n": "756,636 pregnancies (529 exposed)",
+   "finding": "Periconceptional GLP-1 RA exposure was linked to preterm birth only in women with diabetes, not in weight-management users."
+  },
+  {
+   "id": "tegg-ozbek2026",
+   "authors": "Ozbek L, Shah E, Al-Shiab R, et al.",
+   "year": 2026,
+   "title": "Safety of GLP-1 and Dual GLP-1/GIP Receptor Agonists in Preconception, Pregnancy, and Lactation: A Systematic Review of Maternal, Fetal, and Neonatal Outcomes",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "41885132",
+   "doi": "10.1111/dom.70699",
+   "type": "review",
+   "n": "36 studies",
+   "finding": "Systematic review: preconception or early-pregnancy GLP-1 exposure was not consistently linked to malformations or other harms; data on continued use are limited."
+  },
+  {
+   "id": "tegg-wilding2022",
+   "authors": "Wilding JPH, Batterham RL, Davies M, et al.",
+   "year": 2022,
+   "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "35441470",
+   "doi": "10.1111/dom.14725",
+   "type": "rct",
+   "n": "327 participants",
+   "finding": "STEP 1 extension: one year after stopping semaglutide 2.4 mg, people regained two-thirds of the 17.3% weight lost and cardiometabolic gains reverted."
+  },
+  {
+   "id": "tegg-yland2020",
+   "authors": "Yland JJ, Bresnick KA, Hatch EE, et al.",
+   "year": 2020,
+   "title": "Pregravid contraceptive use and fecundability: prospective cohort study",
+   "journal": "BMJ",
+   "pmid": "33177047",
+   "doi": "10.1136/bmj.m3966",
+   "type": "cohort",
+   "n": "17,954 women",
+   "finding": "Return of normal fertility after stopping: injectables 5-8 cycles, patch 4, pill or ring 3, IUDs and implant 2; years of use did not matter."
+  },
+  {
+   "id": "tegg-girum2018",
+   "authors": "Girum T, Wasie A",
+   "year": 2018,
+   "title": "Return of fertility after discontinuation of contraception: a systematic review and meta-analysis",
+   "journal": "Contracept Reprod Med",
+   "pmid": "30062044",
+   "doi": "10.1186/s40834-018-0064-y",
+   "type": "meta-analysis",
+   "n": "22 studies, 14,884 women",
+   "finding": "About 83% of women conceived within 12 months of stopping contraception, regardless of type or duration."
+  },
+  {
+   "id": "tegg-landersoe2020",
+   "authors": "Landersoe SK, Birch Petersen K, Sørensen AL, et al.",
+   "year": 2020,
+   "title": "Ovarian reserve markers after discontinuing long-term use of combined oral contraceptives",
+   "journal": "Reprod Biomed Online",
+   "pmid": "31831368",
+   "doi": "10.1016/j.rbmo.2019.10.004",
+   "type": "cohort",
+   "n": "68 women",
+   "finding": "After stopping long-term combined pills, AMH rose 53% and AFC 41%, plateauing by 2 months."
+  },
+  {
+   "id": "tegg-hariton2021",
+   "authors": "Hariton E, Shirazi TN, Douglas NC, et al.",
+   "year": 2021,
+   "title": "Anti-Müllerian hormone levels among contraceptive users: evidence from a cross-sectional cohort of 27,125 individuals",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "34126087",
+   "doi": "10.1016/j.ajog.2021.06.052",
+   "type": "cross-sectional",
+   "n": "27,125 women",
+   "finding": "AMH was about 24% lower on the combined pill, 22% lower on the ring, 23% on the implant and 7% on the hormonal IUD than in non-users (data from a direct-to-consumer testing company)."
+  },
+  {
+   "id": "tegg-steiner2017",
+   "authors": "Steiner AZ, Pritchard D, Stanczyk FZ, et al.",
+   "year": 2017,
+   "title": "Association Between Biomarkers of Ovarian Reserve and Infertility Among Older Women of Reproductive Age",
+   "journal": "JAMA",
+   "pmid": "29049585",
+   "doi": "10.1001/jama.2017.14588",
+   "type": "cohort",
+   "n": "750 women",
+   "finding": "Low AMH did not predict lower natural conception by 6 or 12 cycles (84% vs 75% at 12 cycles)."
+  },
+  {
+   "id": "tegg-li2018",
+   "authors": "Li Y, Fletcher T, Mucs D, et al.",
+   "year": 2018,
+   "title": "Half-lives of PFOS, PFHxS and PFOA after end of exposure to contaminated drinking water",
+   "journal": "Occup Environ Med",
+   "pmid": "29133598",
+   "doi": "10.1136/oemed-2017-104651",
+   "type": "cohort",
+   "n": "106 people",
+   "finding": "After exposure ended, serum half-lives were 5.3 years (PFHxS), 3.4 years (PFOS) and 2.7 years (PFOA); women eliminated PFHxS and PFOS faster."
+  },
+  {
+   "id": "tegg-wong2014",
+   "authors": "Wong F, MacLeod M, Mueller JF, et al.",
+   "year": 2014,
+   "title": "Enhanced elimination of perfluorooctane sulfonic acid by menstruating women: evidence from population-based pharmacokinetic modeling",
+   "journal": "Environ Sci Technol",
+   "pmid": "24943117",
+   "doi": "10.1021/es500796y",
+   "type": "mechanistic",
+   "n": "NHANES modelling",
+   "finding": "Modelled PFOS half-life was 4.7 years in men and 4.0 years in women; menstruation explains about 30% of the sex difference."
+  },
+  {
+   "id": "tegg-gasiorowski2022",
+   "authors": "Gasiorowski R, Forbes MK, Silver G, et al.",
+   "year": 2022,
+   "title": "Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial",
+   "journal": "JAMA Netw Open",
+   "pmid": "35394514",
+   "doi": "10.1001/jamanetworkopen.2022.6257",
+   "type": "rct",
+   "n": "285 firefighters",
+   "finding": "Plasma donation every 6 weeks for 12 months lowered serum PFOS by 2.9 ng/mL versus no change with observation."
+  },
+  {
+   "id": "tegg-hong2022",
+   "authors": "Hong A, Zhuang L, Cui W, et al.",
+   "year": 2022,
+   "title": "Per- and polyfluoroalkyl substances (PFAS) exposure in women seeking in vitro fertilization-embryo transfer treatment (IVF-ET) in China: Blood-follicular transfer and associations with IVF-ET outcomes",
+   "journal": "Sci Total Environ",
+   "pmid": "35636536",
+   "doi": "10.1016/j.scitotenv.2022.156323",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "PFAS cross into follicular fluid with blood-to-follicle ratios of 0.65-0.92; no clear link with IVF outcomes."
+  },
+  {
+   "id": "tegg-fei2009",
+   "authors": "Fei C, McLaughlin JK, Lipworth L, et al.",
+   "year": 2009,
+   "title": "Maternal levels of perfluorinated chemicals and subfecundity",
+   "journal": "Hum Reprod",
+   "pmid": "19176540",
+   "doi": "10.1093/humrep/den490",
+   "type": "cohort",
+   "n": "1240 women",
+   "finding": "Higher PFOS/PFOA measured in early pregnancy were associated with longer time to pregnancy."
+  },
+  {
+   "id": "tegg-whitworth2012",
+   "authors": "Whitworth KW, Haug LS, Baird DD, et al.",
+   "year": 2012,
+   "title": "Perfluorinated compounds and subfecundity in pregnant women",
+   "journal": "Epidemiology",
+   "pmid": "22081060",
+   "doi": "10.1097/EDE.0b013e31823b5031",
+   "type": "case-control",
+   "n": "910 women",
+   "finding": "PFAS-subfecundity links appeared only in parous women, consistent with reverse causation (body burden rebuilds with time since last pregnancy/lactation)."
+  },
+  {
+   "id": "tegg-cohen2023",
+   "authors": "Cohen NJ, Yao M, Midya V, et al.",
+   "year": 2023,
+   "title": "Exposure to perfluoroalkyl substances and women's fertility outcomes in a Singaporean population-based preconception cohort",
+   "journal": "Sci Total Environ",
+   "pmid": "36801327",
+   "doi": "10.1016/j.scitotenv.2023.162267",
+   "type": "case-control",
+   "n": "382 women",
+   "finding": "Preconception plasma PFAS were associated with 5-10% lower fecundability per quartile."
+  },
+  {
+   "id": "tegg-mills2018",
+   "authors": "Mills JL, Buck Louis GM, Kannan K, et al.",
+   "year": 2018,
+   "title": "Delayed conception in women with low-urinary iodine concentrations: a population-based prospective cohort study",
+   "journal": "Hum Reprod",
+   "pmid": "29340704",
+   "doi": "10.1093/humrep/dex379",
+   "type": "cohort",
+   "n": "501 women",
+   "finding": "Moderate-to-severe iodine deficiency was associated with 46% lower fecundability per cycle."
+  },
+  {
+   "id": "tegg-moleti2011",
+   "authors": "Moleti M, Di Bella B, Giorgianni G, et al.",
+   "year": 2011,
+   "title": "Maternal thyroid function in different conditions of iodine nutrition in pregnant women exposed to mild-moderate iodine deficiency: an observational study",
+   "journal": "Clin Endocrinol (Oxf)",
+   "pmid": "21521276",
+   "doi": "10.1111/j.1365-2265.2011.04007.x",
+   "type": "cohort",
+   "n": "433 women",
+   "finding": "Women using iodised salt for >2 years before pregnancy had fewer low-FT4 values and no TSH rise, whereas starting 150 ug iodine in early pregnancy raised TSH; authors advise starting months before conception."
+  },
+  {
+   "id": "tegg-dineva2020",
+   "authors": "Dineva M, Fishpool H, Rayman MP, et al.",
+   "year": 2020,
+   "title": "Systematic review and meta-analysis of the effects of iodine supplementation on thyroid function and child neurodevelopment in mildly-to-moderately iodine-deficient pregnant women",
+   "journal": "Am J Clin Nutr",
+   "pmid": "32320029",
+   "doi": "10.1093/ajcn/nqaa071",
+   "type": "meta-analysis",
+   "n": "37 studies",
+   "finding": "Insufficient good-quality evidence that iodine supplementation in mildly deficient pregnancy improves thyroid function or child cognition; preconception iodine stores should be considered."
+  },
+  {
+   "id": "tegg-knutti1982",
+   "authors": "Knutti R, Rothweiler H, Schlatter C",
+   "year": 1982,
+   "title": "The effect of pregnancy on the pharmacokinetics of caffeine",
+   "journal": "Arch Toxicol Suppl",
+   "pmid": "6954898",
+   "doi": "10.1007/978-3-642-68511-8_33",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Caffeine half-life rose from about 3 h in non-pregnant women to 10.5 h in the last 4 weeks of pregnancy, with the increase starting early in pregnancy."
+  },
+  {
+   "id": "tegg-abernethy1985",
+   "authors": "Abernethy DR, Todd EL",
+   "year": 1985,
+   "title": "Impairment of caffeine clearance by chronic use of low-dose oestrogen-containing oral contraceptives",
+   "journal": "Eur J Clin Pharmacol",
+   "pmid": "4029248",
+   "doi": "10.1007/BF00544361",
+   "type": "mechanistic",
+   "n": "18 women",
+   "finding": "Chronic low-dose oral contraceptive use prolonged caffeine half-life from 5.4 to 7.9 h."
+  },
+  {
+   "id": "tegg-hahn2015",
+   "authors": "Hahn KA, Wise LA, Rothman KJ, et al.",
+   "year": 2015,
+   "title": "Caffeine and caffeinated beverage consumption and risk of spontaneous abortion",
+   "journal": "Hum Reprod",
+   "pmid": "25788567",
+   "doi": "10.1093/humrep/dev063",
+   "type": "cohort",
+   "n": "5132 women",
+   "finding": "Preconception caffeine was not associated with miscarriage (HR 1.09 for >=300 vs <100 mg/day); early-pregnancy intake of 100-299 mg/day was (HR ~1.5-1.6)."
+  },
+  {
+   "id": "tegg-bucklouis2016",
+   "authors": "Buck Louis GM, Sapra KJ, Schisterman EF, et al.",
+   "year": 2016,
+   "title": "Lifestyle and pregnancy loss in a contemporary cohort of women recruited before conception: The LIFE Study",
+   "journal": "Fertil Steril",
+   "pmid": "27016456",
+   "doi": "10.1016/j.fertnstert.2016.03.009",
+   "type": "cohort",
+   "n": "344 couples",
+   "finding": "More than two caffeinated drinks a day before conception, by either partner, was associated with pregnancy loss (aHR ~1.7)."
+  },
+  {
+   "id": "tegg-chen2016",
+   "authors": "Chen LW, Wu Y, Neelakantan N, et al.",
+   "year": 2016,
+   "title": "Maternal caffeine intake during pregnancy and risk of pregnancy loss: a categorical and dose-response meta-analysis of prospective studies",
+   "journal": "Public Health Nutr",
+   "pmid": "26329421",
+   "doi": "10.1017/S1368980015002463",
+   "type": "meta-analysis",
+   "n": "130,456 participants",
+   "finding": "Each 100 mg/day of caffeine in pregnancy was associated with 7% higher pregnancy loss; residual confounding by pregnancy symptoms possible."
+  },
+  {
+   "id": "tegg-leviton2002",
+   "authors": "Leviton A, Cowan L",
+   "year": 2002,
+   "title": "A review of the literature relating caffeine consumption by women to their risk of reproductive hazards",
+   "journal": "Food Chem Toxicol",
+   "pmid": "12204391",
+   "doi": "10.1016/s0278-6915(02)00092-3",
+   "type": "review",
+   "n": null,
+   "finding": "Argues the caffeine-miscarriage link may reflect the Stein-Susser effect (nausea from a healthy pregnancy lowers caffeine intake) and confounding by smoking."
+  },
+  {
+   "id": "tegg-abadia2017",
+   "authors": "Abadia L, Chiu YH, Williams PL, et al.",
+   "year": 2017,
+   "title": "The association between pre-treatment maternal alcohol and caffeine intake and outcomes of assisted reproduction in a prospectively followed cohort",
+   "journal": "Hum Reprod",
+   "pmid": "28854726",
+   "doi": "10.1093/humrep/dex237",
+   "type": "cohort",
+   "n": "300 women",
+   "finding": "Caffeine in the year before ART was not related to live birth (46% at <50 mg/day vs 40% at >300 mg/day, P trend 0.34)."
+  },
+  {
+   "id": "tegg-stoffel2017",
+   "authors": "Stoffel NU, Cercamondi CI, Brittenham G, et al.",
+   "year": 2017,
+   "title": "Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials",
+   "journal": "Lancet Haematol",
+   "pmid": "29032957",
+   "doi": "10.1016/S2352-3026(17)30182-5",
+   "type": "rct",
+   "n": "60 iron-depleted women",
+   "finding": "Alternate-day iron gave higher fractional (21.8% vs 16.3%) and total absorption than consecutive days; split twice-daily dosing gave no gain and raised hepcidin."
+  },
+  {
+   "id": "tegg-vonsiebenthal2023",
+   "authors": "von Siebenthal HK, Gessler S, Vallelian F, et al.",
+   "year": 2023,
+   "title": "Alternate day versus consecutive day oral iron supplementation in iron-depleted women: a randomized double-blind placebo-controlled study",
+   "journal": "EClinicalMedicine",
+   "pmid": "38021373",
+   "doi": "10.1016/j.eclinm.2023.102286",
+   "type": "rct",
+   "n": "150 women",
+   "finding": "At equal total dose, alternate-day iron for 6 months matched daily iron for 3 months on ferritin, caused fewer GI side effects and less iron deficiency at 6 months (3.0% vs 11.4%)."
+  },
+  {
+   "id": "tegg-chavarro2006",
+   "authors": "Chavarro JE, Rich-Edwards JW, Rosner BA, et al.",
+   "year": 2006,
+   "title": "Iron intake and risk of ovulatory infertility",
+   "journal": "Obstet Gynecol",
+   "pmid": "17077236",
+   "doi": "10.1097/01.AOG.0000238333.37423.ab",
+   "type": "cohort",
+   "n": "18,555 women",
+   "finding": "Iron supplement users had less ovulatory infertility (Nurses Health Study II)."
+  },
+  {
+   "id": "tegg-hahn2019",
+   "authors": "Hahn KA, Wesselink AK, Wise LA, et al.",
+   "year": 2019,
+   "title": "Iron Consumption Is Not Consistently Associated with Fecundability among North American and Danish Pregnancy Planners",
+   "journal": "J Nutr",
+   "pmid": "31152673",
+   "doi": "10.1093/jn/nxz094",
+   "type": "cohort",
+   "n": "4662 women",
+   "finding": "Iron intake was not consistently associated with fecundability, except possibly in women at risk of deficiency."
+  },
+  {
+   "id": "tegg-uspstf2023",
+   "authors": "US Preventive Services Task Force, Barry MJ, Nicholson WK, et al.",
+   "year": 2023,
+   "title": "Folic Acid Supplementation to Prevent Neural Tube Defects: US Preventive Services Task Force Reaffirmation Recommendation Statement",
+   "journal": "JAMA",
+   "pmid": "37526713",
+   "doi": "10.1001/jama.2023.12876",
+   "type": "guideline",
+   "n": null,
+   "finding": "USPSTF A recommendation: everyone planning or able to become pregnant should take 0.4-0.8 mg folic acid daily."
+  },
+  {
+   "id": "tegg-hao2008",
+   "authors": "Hao L, Yang QH, Li Z, et al.",
+   "year": 2008,
+   "title": "Folate status and homocysteine response to folic acid doses and withdrawal among young Chinese women in a large-scale randomized double-blind trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "18689382",
+   "doi": "10.1093/ajcn/88.2.448",
+   "type": "rct",
+   "n": "1108 women",
+   "finding": "Plasma folate plateaued at 3 months of daily folic acid; split vs single doses did not differ; 4 mg weekly raised plasma folate far less than 0.4 mg daily (142% vs 259%); levels fell fast after stopping."
+  },
+  {
+   "id": "tegg-crider2019",
+   "authors": "Crider KS, Devine O, Qi YP, et al.",
+   "year": 2019,
+   "title": "Systematic Review and Bayesian Meta-analysis of the Dose-response Relationship between Folic Acid Intake and Changes in Blood Folate Concentrations",
+   "journal": "Nutrients",
+   "pmid": "30609688",
+   "doi": "10.3390/nu11010071",
+   "type": "meta-analysis",
+   "n": "108 articles",
+   "finding": "RBC folate took a median 36 weeks (27-52) to reach steady state on 375-570 ug/day folic acid, rising 1.78-fold."
+  },
+  {
+   "id": "tegg-dong2023",
+   "authors": "Dong J, Yin LL, Deng XD, et al.",
+   "year": 2023,
+   "title": "Initiation and duration of folic acid supplementation in preventing congenital malformations",
+   "journal": "BMC Med",
+   "pmid": "37545008",
+   "doi": "10.1186/s12916-023-03000-8",
+   "type": "cohort",
+   "n": "17,713 women",
+   "finding": "Lowest malformation risk with folic acid started about 1.5 months (1.1-1.9) before conception and taken for about 4 months; heart defects needed earlier start (2.2 months)."
+  },
+  {
+   "id": "tegg-gaskins2014",
+   "authors": "Gaskins AJ, Afeiche MC, Wright DL, et al.",
+   "year": 2014,
+   "title": "Dietary folate and reproductive success among women undergoing assisted reproduction",
+   "journal": "Obstet Gynecol",
+   "pmid": "25198264",
+   "doi": "10.1097/AOG.0000000000000477",
+   "type": "cohort",
+   "n": "232 women",
+   "finding": "Supplemental folate >800 ug/day was associated with 20 percentage points higher IVF live birth than <400 ug/day."
+  },
+  {
+   "id": "tegg-cueto2016",
+   "authors": "Cueto HT, Riis AH, Hatch EE, et al.",
+   "year": 2016,
+   "title": "Folic acid supplementation and fecundability: a Danish prospective cohort study",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "26081493",
+   "doi": "10.1038/ejcn.2015.94",
+   "type": "cohort",
+   "n": "3895 women",
+   "finding": "Folic acid supplement use was associated with 15% higher fecundability (FR 1.15)."
+  },
+  {
+   "id": "tegg-gaskins2019",
+   "authors": "Gaskins AJ, Nassan FL, Chiu YH, et al.",
+   "year": 2019,
+   "title": "Dietary patterns and outcomes of assisted reproduction",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "30742825",
+   "doi": "10.1016/j.ajog.2019.02.004",
+   "type": "cohort",
+   "n": "357 women",
+   "finding": "Higher adherence to a profertility diet in the year before ART was associated with higher live birth (+28 percentage points top vs bottom quartile)."
+  },
+  {
+   "id": "tegg-kermack2020",
+   "authors": "Kermack AJ, Lowen P, Wellstead SJ, et al.",
+   "year": 2020,
+   "title": "Effect of a 6-week \"Mediterranean\" dietary intervention on in vitro human embryo development: the Preconception Dietary Supplements in Assisted Reproduction double-blinded randomized controlled trial",
+   "journal": "Fertil Steril",
+   "pmid": "31870562",
+   "doi": "10.1016/j.fertnstert.2019.09.041",
+   "type": "rct",
+   "n": "111 couples",
+   "finding": "A 6-week omega-3/vitamin D/olive-oil dietary intervention before IVF accelerated later embryo cleavage and improved day-3 KIDScore (no live-birth outcome)."
+  },
+  {
+   "id": "tegg-georgiou2019",
+   "authors": "Georgiou EX, Melo P, Baker PE, et al.",
+   "year": 2019,
+   "title": "Long-term GnRH agonist therapy before in vitro fertilisation (IVF) for improving fertility outcomes in women with endometriosis",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "31747470",
+   "doi": "10.1002/14651858.CD013240.pub2",
+   "type": "meta-analysis",
+   "n": "8 RCTs, 640 women",
+   "finding": "Cochrane: uncertain whether 3-6 months of GnRH agonist before IVF in endometriosis affects live birth (very low-quality evidence), reversing the earlier positive review."
+  },
+  {
+   "id": "tegg-michaeli2022",
+   "authors": "Michaeli J, Dior UP, Fainaru O, et al.",
+   "year": 2022,
+   "title": "Long-term pituitary down-regulation pretreatment for endometriosis - chronicles of guidelines and recommendations",
+   "journal": "Reprod Biomed Online",
+   "pmid": "36151012",
+   "doi": "10.1016/j.rbmo.2022.08.095",
+   "type": "review",
+   "n": null,
+   "finding": "Traces how guidelines endorsed then (ESHRE 2022) withdrew the recommendation for long-term pituitary down-regulation before IVF in endometriosis."
+  },
+  {
+   "id": "tegg-murdock2025",
+   "authors": "Murdock C, Murdock C, Sanchez-Ramos L, et al.",
+   "year": 2025,
+   "title": "The Impact of Laparoscopic Cystectomy for Ovarian Endometrioma on Anti-Müllerian Hormone Levels: A Systematic Review and Meta-Analysis",
+   "journal": "Gynecol Obstet Invest",
+   "pmid": "40179834",
+   "doi": "10.1159/000545230",
+   "type": "meta-analysis",
+   "n": "30 studies",
+   "finding": "AMH fell after endometrioma cystectomy at short, medium and long-term follow-up (long-term -2.1 ng/mL), with no recovery over time."
+  },
+  {
+   "id": "tegg-hamdan2015",
+   "authors": "Hamdan M, Dunselman G, Li TC, et al.",
+   "year": 2015,
+   "title": "The impact of endometrioma on IVF/ICSI outcomes: a systematic review and meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "26168799",
+   "doi": "10.1093/humupd/dmv035",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Surgery for endometrioma before IVF did not change live birth (OR 0.90) or oocyte number versus no surgery."
+  },
+  {
+   "id": "tegg-acog2014",
+   "authors": "American College of Obstetricians and Gynecologists Committee on Gynecologic Practice and Practice Committee",
+   "year": 2014,
+   "title": "Female age-related fertility decline. Committee Opinion No. 589",
+   "journal": "Fertil Steril",
+   "pmid": "24559617",
+   "doi": "10.1016/j.fertnstert.2013.12.032",
+   "type": "guideline",
+   "n": null,
+   "finding": "ACOG/ASRM: fecundity falls gradually from about age 32 and faster after 37."
+  },
+  {
+   "id": "tegg-franasiak2014",
+   "authors": "Franasiak JM, Forman EJ, Hong KH, et al.",
+   "year": 2014,
+   "title": "The nature of aneuploidy with increasing age of the female partner: a review of 15,169 consecutive trophectoderm biopsies evaluated with comprehensive chromosomal screening",
+   "journal": "Fertil Steril",
+   "pmid": "24355045",
+   "doi": "10.1016/j.fertnstert.2013.11.004",
+   "type": "cohort",
+   "n": "15,169 biopsies",
+   "finding": "Embryo aneuploidy rose steadily after 26; the share of women with no euploid embryo was 2-6% at 26-37, 33% at 42 and 53% at 44."
+  },
+  {
+   "id": "tegg-cobo2016",
+   "authors": "Cobo A, García-Velasco JA, Coello A, et al.",
+   "year": 2016,
+   "title": "Oocyte vitrification as an efficient option for elective fertility preservation",
+   "journal": "Fertil Steril",
+   "pmid": "26688429",
+   "doi": "10.1016/j.fertnstert.2015.11.027",
+   "type": "cohort",
+   "n": "1468 women",
+   "finding": "Elective egg freezing: live birth per patient 50% at <=35 vs 22.9% at >=36; at least 8-10 mature eggs needed."
+  },
+  {
+   "id": "tegg-cobo2024",
+   "authors": "Cobo A, Coello A, De Los Santos MJ, et al.",
+   "year": 2024,
+   "title": "Embryo long-term storage does not affect assisted reproductive technologies outcome: analysis of 58,001 vitrified blastocysts over 11 years",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "38527601",
+   "doi": "10.1016/j.ajog.2024.03.033",
+   "type": "cohort",
+   "n": "58,001 blastocysts",
+   "finding": "Storage time of vitrified blastocysts (up to 11 years) was not associated with live birth after adjustment."
+  },
+  {
+   "id": "tegg-zhang2021",
+   "authors": "Zhang X, Wu S, Hao G, et al.",
+   "year": 2021,
+   "title": "Prolonged Cryopreservation Negatively Affects Embryo Transfer Outcomes Following the Elective Freeze-All Strategy: A Multicenter Retrospective Study",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "34630326",
+   "doi": "10.3389/fendo.2021.709648",
+   "type": "cohort",
+   "n": null,
+   "finding": "Multicentre retrospective study: longer cryostorage of vitrified embryos was associated with lower pregnancy and live birth."
+  },
+  {
+   "id": "tegg-loucks2003",
+   "authors": "Loucks AB, Thuma JR",
+   "year": 2003,
+   "title": "Luteinizing hormone pulsatility is disrupted at a threshold of energy availability in regularly menstruating women",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "12519869",
+   "doi": "10.1210/jc.2002-020369",
+   "type": "rct",
+   "n": "29 women",
+   "finding": "Five days of energy availability below 30 kcal/kg lean mass in the early follicular phase disrupted LH pulsatility."
+  },
+  {
+   "id": "tegg-olson1995",
+   "authors": "Olson BR, Cartledge T, Sebring N, et al.",
+   "year": 1995,
+   "title": "Short-term fasting affects luteinizing hormone secretory dynamics but not reproductive function in normal-weight sedentary women",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "7714088",
+   "doi": "10.1210/jcem.80.4.7714088",
+   "type": "rct",
+   "n": "12 women",
+   "finding": "A 3-day mid-follicular fast in normal-weight women altered LH secretion but not follicle development or ovulation."
+  },
+  {
+   "id": "tegg-alvero1998",
+   "authors": "Alvero R, Kimzey L, Sebring N, et al.",
+   "year": 1998,
+   "title": "Effects of fasting on neuroendocrine function and follicle development in lean women",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "9435419",
+   "doi": "10.1210/jcem.83.1.4512",
+   "type": "cohort",
+   "n": "lean women, 7 fasted cycles",
+   "finding": "A 72-h fast in lean women cut LH pulses by 19%, made 2 of 7 cycles anovulatory and lengthened the follicular phase by ~1 day."
+  },
+  {
+   "id": "tegg-li2021",
+   "authors": "Li C, Xing C, Zhang J, et al.",
+   "year": 2021,
+   "title": "Eight-hour time-restricted feeding improves endocrine and metabolic profiles in women with anovulatory polycystic ovary syndrome",
+   "journal": "J Transl Med",
+   "pmid": "33849562",
+   "doi": "10.1186/s12967-021-02817-2",
+   "type": "cohort",
+   "n": "15 women",
+   "finding": "Five weeks of 8-hour time-restricted eating in anovulatory PCOS lowered weight and free androgen index and raised SHBG (uncontrolled)."
+  },
+  {
+   "id": "tegg-ranneh2025",
+   "authors": "Ranneh Y, Hamsho M, Shkorfu W, et al.",
+   "year": 2025,
+   "title": "Effect of Intermittent Fasting on Anthropometric Measurements, Metabolic Profile, and Hormones in Women with Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis",
+   "journal": "Nutrients",
+   "pmid": "40806019",
+   "doi": "10.3390/nu17152436",
+   "type": "meta-analysis",
+   "n": "5 studies",
+   "finding": "Intermittent fasting in PCOS lowered weight (-4.25 kg) and free androgen index and raised SHBG."
+  },
+  {
+   "id": "tegg-poston2006",
+   "authors": "Poston L, Briley AL, Seed PT, et al.",
+   "year": 2006,
+   "title": "Vitamin C and vitamin E in pregnant women at risk for pre-eclampsia (VIP trial): randomised placebo-controlled trial",
+   "journal": "Lancet",
+   "pmid": "16616557",
+   "doi": "10.1016/S0140-6736(06)68433-X",
+   "type": "rct",
+   "n": "2410 women",
+   "finding": "VIP: vitamin C 1000 mg + E 400 IU from the second trimester did not reduce pre-eclampsia and increased low birthweight."
+  },
+  {
+   "id": "tegg-roberts2010",
+   "authors": "Roberts JM, Myatt L, Spong CY, et al.",
+   "year": 2010,
+   "title": "Vitamins C and E to prevent complications of pregnancy-associated hypertension",
+   "journal": "N Engl J Med",
+   "pmid": "20375405",
+   "doi": "10.1056/NEJMoa0908056",
+   "type": "rct",
+   "n": "10,154 women",
+   "finding": "Vitamin C + E started at 9-16 weeks of pregnancy did not reduce pregnancy-associated hypertension complications."
+  },
+  {
+   "id": "tegg-rumbold2015",
+   "authors": "Rumbold A, Ota E, Hori H, et al.",
+   "year": 2015,
+   "title": "Vitamin E supplementation in pregnancy",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "26343254",
+   "doi": "10.1002/14651858.CD004069.pub3",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Cochrane: vitamin E (mostly with C) in pregnancy does not prevent pre-eclampsia and may raise term prelabour rupture of membranes."
+  },
+  {
+   "id": "tegg-rolnik2017",
+   "authors": "Rolnik DL, Wright D, Poon LC, et al.",
+   "year": 2017,
+   "title": "Aspirin versus Placebo in Pregnancies at High Risk for Preterm Preeclampsia",
+   "journal": "N Engl J Med",
+   "pmid": "28657417",
+   "doi": "10.1056/NEJMoa1704559",
+   "type": "rct",
+   "n": "1776 women",
+   "finding": "ASPRE: aspirin 150 mg/day from 11-14 to 36 weeks cut preterm pre-eclampsia from 4.3% to 1.6%."
+  },
+  {
+   "id": "tegg-roberge2017",
+   "authors": "Roberge S, Nicolaides K, Demers S, et al.",
+   "year": 2017,
+   "title": "The role of aspirin dose on the prevention of preeclampsia and fetal growth restriction: systematic review and meta-analysis",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "27640943",
+   "doi": "10.1016/j.ajog.2016.09.076",
+   "type": "meta-analysis",
+   "n": "45 RCTs, 20,909 women",
+   "finding": "Aspirin started at <=16 weeks reduced pre-eclampsia (RR 0.57) with a dose-response; started after 16 weeks the effect was small (RR 0.81)."
+  },
+  {
+   "id": "tegg-meher2017",
+   "authors": "Meher S, Duley L, Hunter K, et al.",
+   "year": 2017,
+   "title": "Antiplatelet therapy before or after 16 weeks' gestation for preventing preeclampsia: an individual participant data meta-analysis",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "27810551",
+   "doi": "10.1016/j.ajog.2016.10.016",
+   "type": "meta-analysis",
+   "n": "32,217 women (IPD)",
+   "finding": "Individual-participant data: antiplatelet effect was the same whether started before or after 16 weeks (RR 0.90 both)."
+  },
+  {
+   "id": "tegg-schisterman2014",
+   "authors": "Schisterman EF, Silver RM, Lesher LL, et al.",
+   "year": 2014,
+   "title": "Preconception low-dose aspirin and pregnancy outcomes: results from the EAGeR randomised trial",
+   "journal": "Lancet",
+   "pmid": "24702835",
+   "doi": "10.1016/S0140-6736(14)60157-4",
+   "type": "rct",
+   "n": "1228 women",
+   "finding": "EAGeR: preconception aspirin 81 mg did not raise live birth overall (58% vs 53%, NS) in women with prior loss."
+  },
+  {
+   "id": "tegg-naimi2021",
+   "authors": "Naimi AI, Perkins NJ, Sjaarda LA, et al.",
+   "year": 2021,
+   "title": "The Effect of Preconception-Initiated Low-Dose Aspirin on Human Chorionic Gonadotropin-Detected Pregnancy, Pregnancy Loss, and Live Birth : Per Protocol Analysis of a Randomized Trial",
+   "journal": "Ann Intern Med",
+   "pmid": "33493011",
+   "doi": "10.7326/M20-0469",
+   "type": "rct",
+   "n": "1228 women (per-protocol)",
+   "finding": "Per-protocol EAGeR: taking preconception aspirin on at least 4-5 of 7 days was linked to 15 more live births per 100 women; post-conception initiation reduced the effect."
+  },
+  {
+   "id": "tegg-lensen2019",
+   "authors": "Lensen S, Osavlyuk D, Armstrong S, et al.",
+   "year": 2019,
+   "title": "A Randomized Trial of Endometrial Scratching before In Vitro Fertilization",
+   "journal": "N Engl J Med",
+   "pmid": "30673547",
+   "doi": "10.1056/NEJMoa1808737",
+   "type": "rct",
+   "n": "1364 women",
+   "finding": "PIP: scratch between day 3 of the preceding cycle and day 3 of the transfer cycle gave identical live birth (26.1% vs 26.1%)."
+  },
+  {
+   "id": "tegg-perera2026",
+   "authors": "Perera AK, Gan J, Afroz A, et al.",
+   "year": 2026,
+   "title": "Endometrial injury in women undergoing in vitro fertilisation (IVF)",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "42138348",
+   "doi": "10.1002/14651858.CD009517.pub5",
+   "type": "meta-analysis",
+   "n": "8 studies, 4402 women (live birth)",
+   "finding": "Cochrane 2026: endometrial injury, mostly in the luteal phase of the cycle before IVF, has an unclear effect on live birth (OR 1.12, 0.98-1.28)."
+  },
+  {
+   "id": "tegg-vanhoogenhuijze2023",
+   "authors": "van Hoogenhuijze NE, Lahoz Casarramona G, Lensen S, et al.",
+   "year": 2023,
+   "title": "Endometrial scratching in women undergoing IVF/ICSI: an individual participant data meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "37336552",
+   "doi": "10.1093/humupd/dmad014",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "IPD meta-analysis found higher live birth with scratching (OR 1.29, 1.02-1.64)."
+  },
+  {
+   "id": "tegg-aktoz2024",
+   "authors": "Aktoz F",
+   "year": 2024,
+   "title": "The role of endometrial scratching in IVF/ICSI: a critical appraisal of individual participant data meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "38908019",
+   "doi": "10.1093/humupd/dmae016",
+   "type": "review",
+   "n": null,
+   "finding": "Critical appraisal of the scratching IPD meta-analysis, questioning its positive conclusion."
+  },
+  {
+   "id": "tegg-norman2019",
+   "authors": "Norman RJ, Alvino H, Hull LM, et al.",
+   "year": 2019,
+   "title": "Human growth hormone for poor responders: a randomized placebo-controlled trial provides no evidence for improved live birth rate",
+   "journal": "Reprod Biomed Online",
+   "pmid": "30954433",
+   "doi": "10.1016/j.rbmo.2019.02.003",
+   "type": "rct",
+   "n": null,
+   "finding": "LIGHT: growth hormone from the start of stimulation in poor responders gave live birth 14.5% vs 13.7% with placebo."
+  },
+  {
+   "id": "tegg-mourad2025",
+   "authors": "Mourad A, Jamal W, Hemmings R, et al.",
+   "year": 2025,
+   "title": "Empirical use of growth hormone in IVF is useless: the largest randomized controlled trial",
+   "journal": "Hum Reprod",
+   "pmid": "39673334",
+   "doi": "10.1093/humrep/deae251",
+   "type": "rct",
+   "n": "288 women",
+   "finding": "Growth hormone 2.5 mg daily from day 1 of stimulation to retrieval did not improve oocytes, embryos or pregnancy in normal responders."
+  },
+  {
+   "id": "tegg-sood2021",
+   "authors": "Sood A, Mohiyiddeen G, Ahmad G, et al.",
+   "year": 2021,
+   "title": "Growth hormone for in vitro fertilisation (IVF)",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "34808697",
+   "doi": "10.1002/14651858.CD000099.pub4",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Cochrane: growth hormone in poor responders may raise live birth but evidence is very low certainty."
+  },
+  {
+   "id": "tegg-barrenetxea2024",
+   "authors": "Barrenetxea G, Celis R, Barrenetxea J, et al.",
+   "year": 2024,
+   "title": "Intraovarian platelet-rich plasma injection and IVF outcomes in patients with poor ovarian response: a double-blind randomized controlled trial",
+   "journal": "Hum Reprod",
+   "pmid": "38423539",
+   "doi": "10.1093/humrep/deae038",
+   "type": "rct",
+   "n": "60 women",
+   "finding": "Intraovarian PRP at the first of three consecutive stimulations: slightly more mature oocytes cumulatively (10.5 vs 8.9), significant only at the third retrieval, with no gain in euploid blastocysts."
+  },
+  {
+   "id": "tegg-herlihy2024",
+   "authors": "Herlihy NS, Cakiroglu Y, Whitehead C, et al.",
+   "year": 2024,
+   "title": "Effect of intraovarian platelet-rich plasma injection on IVF outcomes in women with poor ovarian response: the PROVA randomized controlled trial",
+   "journal": "Hum Reprod",
+   "pmid": "38725194",
+   "doi": "10.1093/humrep/deae093",
+   "type": "rct",
+   "n": "83 women",
+   "finding": "PROVA: intraovarian PRP did not change mature oocytes, euploid blastocysts, AMH or AFC."
+  },
+  {
+   "id": "tegg-showell2020",
+   "authors": "Showell MG, Mackenzie-Proctor R, Jordan V, et al.",
+   "year": 2020,
+   "title": "Antioxidants for female subfertility",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "32851663",
+   "doi": "10.1002/14651858.CD007807.pub4",
+   "type": "meta-analysis",
+   "n": "63 trials",
+   "finding": "Cochrane: low- to very-low-quality evidence that antioxidants help subfertile women; seven included trials later retracted."
+  },
+  {
+   "id": "tegg-murri2013",
+   "authors": "Murri M, Luque-Ramírez M, Insenser M, et al.",
+   "year": 2013,
+   "title": "Circulating markers of oxidative stress and polycystic ovary syndrome (PCOS): a systematic review and meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "23303572",
+   "doi": "10.1093/humupd/dms059",
+   "type": "meta-analysis",
+   "n": "68 studies",
+   "finding": "PCOS: malondialdehyde 47% higher and glutathione 50% lower than controls."
+  },
+  {
+   "id": "tegg-fda-wegovy2021",
+   "authors": "US Food and Drug Administration; Novo Nordisk",
+   "year": 2021,
+   "title": "WEGOVY (semaglutide) injection, prescribing information (revised 06/2021)",
+   "journal": "FDA label",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/215256s000lbl.pdf",
+   "type": "guideline",
+   "n": null,
+   "finding": "Semaglutide half-life is about 1 week and it stays in the circulation 5-7 weeks after the last dose; discontinue at least 2 months before a planned pregnancy."
+  },
+  {
+   "id": "tegg-fda-zepbound2023",
+   "authors": "US Food and Drug Administration; Eli Lilly",
+   "year": 2023,
+   "title": "ZEPBOUND (tirzepatide) injection, prescribing information (revised 11/2023)",
+   "journal": "FDA label",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217806s000lbl.pdf",
+   "type": "guideline",
+   "n": null,
+   "finding": "Tirzepatide half-life is about 5 days with steady state after 4 weeks; oral contraceptive users need non-oral or barrier back-up for 4 weeks after starting and after each dose increase; stop when pregnancy is recognised."
+  }
+ ],
+ "windows": [
+  {
+   "id": "egg-primordial-activation",
+   "scope": "egg",
+   "name": "Primordial follicle activation and early (primary) growth",
+   "start_days": 200,
+   "end_days": 90,
+   "what": "A resting follicle, part of a pool fixed before birth, starts to grow; it takes several months to reach the preantral stage (0.15 mm) [tegg-gougeon2010, tegg-mcgee2000]. The oocyte has been arrested in meiosis since fetal life and now enlarges and builds its large mitochondrial pool [tegg-maypanloup2016]. The 200-day start is an extrapolated lower bound from \"several months\"; the exact human duration has not been measured.",
+   "sensitive_to": "Mostly age: the pool shrinks to ~12% of its peak by 30 and ~3% by 40 [tegg-wallace2010], and chromosome cohesion, set in fetal life, decays with age [tegg-nagaoka2012, tegg-gruhn2019]. Androgens act mainly at these early stages, which is one argument for long (months) rather than short androgen courses [tegg-polyzos2018]. Chemotherapy hits growing follicles here, and smoking speeds depletion of the pool [tegg-zhu2018]. No preconception intervention has been shown in humans to change this stage within a planning horizon.",
+   "refs": [
+    "tegg-gougeon2010",
+    "tegg-mcgee2000",
+    "tegg-maypanloup2016",
+    "tegg-wallace2010",
+    "tegg-nagaoka2012",
+    "tegg-gruhn2019",
+    "tegg-polyzos2018",
+    "tegg-zhu2018"
+   ]
+  },
+  {
+   "id": "egg-preantral-to-antral",
+   "scope": "egg",
+   "name": "Preantral to small antral growth (the ~85-day path)",
+   "start_days": 90,
+   "end_days": 20,
+   "what": "The ovulatory follicle comes from a preantral cohort that formed its theca about 85 days before ovulation [tegg-gougeon1986]; it needs about 70 days to grow from 0.15 mm to 2 mm [tegg-gougeon2010]. Growth is slow and gonadotropin-independent at first; the oocyte reaches near full size and finishes stocking mitochondria and maternal RNA [tegg-maypanloup2016].",
+   "sensitive_to": "This is the stage that pre-treatment trials of 2-4 months aim at: CoQ10 for 60 days [tegg-xu2018], DHEA for 12-17 weeks [tegg-yeung2014, tegg-barad2006], weight loss for 12-24 weeks [tegg-einarsson2017, tegg-legro2015]. In mice, oocyte spindle and mitochondrial defects from a high-fat diet persisted 8 weeks after diet reversal [tegg-reynolds2015]. Human evidence that this stage is more sensitive than the last two weeks is indirect.",
+   "refs": [
+    "tegg-gougeon1986",
+    "tegg-gougeon2010",
+    "tegg-maypanloup2016",
+    "tegg-xu2018",
+    "tegg-yeung2014",
+    "tegg-barad2006",
+    "tegg-einarsson2017",
+    "tegg-legro2015",
+    "tegg-reynolds2015"
+   ]
+  },
+  {
+   "id": "egg-antral-recruitment-selection",
+   "scope": "egg",
+   "name": "Antral recruitment, selection and dominance (the last cycle)",
+   "start_days": 20,
+   "end_days": 2,
+   "what": "At the end of the previous luteal phase, 15-20 days before ovulation, the next ovulatory follicle is recruited from 2-5 mm follicles [tegg-gougeon1986]; follicles grow in waves and one becomes dominant by mid-follicular phase [tegg-baerwald2012]. IVF stimulation acts in this window (about 11-12 days of FSH [tegg-mourad2025]). The follicular fluid bathing the oocyte is built now.",
+   "sensitive_to": "Follicular fluid mirrors current blood metabolites, insulin, lipids and CRP [tegg-valckx2012, tegg-robker2009]. Deep energy deficit disrupts LH pulses within 3-5 days and can make a cycle anovulatory [tegg-loucks2003, tegg-alvero1998]. Melatonin or vitamin E taken during the cycle lowered follicular oxidative-damage markers [tegg-tamura2008]. Alcohol in the month before IVF was linked to failure [tegg-klonoffcohen2003]; PFAS and cotinine reach the follicle [tegg-hong2022, tegg-benedict2011].",
+   "refs": [
+    "tegg-gougeon1986",
+    "tegg-baerwald2012",
+    "tegg-mourad2025",
+    "tegg-valckx2012",
+    "tegg-robker2009",
+    "tegg-loucks2003",
+    "tegg-alvero1998",
+    "tegg-tamura2008",
+    "tegg-klonoffcohen2003",
+    "tegg-hong2022",
+    "tegg-benedict2011"
+   ]
+  },
+  {
+   "id": "egg-lh-surge-meiotic-resumption",
+   "scope": "egg",
+   "name": "LH surge, meiotic resumption and final oocyte maturation",
+   "start_days": 2.3,
+   "end_days": 0,
+   "what": "The LH surge (or the IVF trigger) restarts meiosis: the nuclear envelope breaks down, the first spindle forms and half the chromosomes are expelled in the first polar body. Ovulation follows on average 34 h after surge onset (range 22-56 h) [tegg-erden2022].",
+   "sensitive_to": "Chromosome segregation errors rise with age because cohesion has decayed over decades [tegg-gruhn2019, tegg-franasiak2014]; nothing done in the last days repairs that. Oxidative stress blocks maturation in vitro (mouse oocytes with H2O2) and melatonin protected them [tegg-tamura2008], but no human trial isolates this 1-2 day window.",
+   "refs": [
+    "tegg-erden2022",
+    "tegg-gruhn2019",
+    "tegg-franasiak2014",
+    "tegg-tamura2008"
+   ]
+  },
+  {
+   "id": "egg-fertilisation-implantation",
+   "scope": "egg",
+   "name": "Fertilisation, early cleavage and implantation",
+   "start_days": 0,
+   "end_days": -12,
+   "what": "Conception needs intercourse in the 6 days ending on ovulation day [tegg-wilcox1995]. The embryo runs on the oocyte's stored mitochondria and RNA, then implants 6-12 days after ovulation, mostly on days 8-10 [tegg-wilcox1999].",
+   "sensitive_to": "Late implantation predicts loss (13% if by day 9, 82% after day 11) [tegg-wilcox1999]. A 6-week dietary change before IVF altered embryo cleavage timing [tegg-kermack2020]. One-carbon (folate/B12) status shapes the large epigenetic reprogramming of this period [tegg-steegerstheunissen2013]. Early-pregnancy caffeine and alcohol relate to miscarriage [tegg-hahn2015, tegg-sundermann2019].",
+   "refs": [
+    "tegg-wilcox1995",
+    "tegg-wilcox1999",
+    "tegg-kermack2020",
+    "tegg-steegerstheunissen2013",
+    "tegg-hahn2015",
+    "tegg-sundermann2019"
+   ]
+  },
+  {
+   "id": "egg-neural-tube-closure",
+   "scope": "egg",
+   "name": "Neural tube closure",
+   "start_days": -21,
+   "end_days": -28,
+   "what": "Neural tube closure starts on day 22 after fertilisation and finishes at the posterior neuropore around day 26 [tegg-copp2015], usually before a period is missed by much more than a week.",
+   "sensitive_to": "Folate status must already be adequate: RBC folate takes a median 36 weeks to reach steady state on 400 ug/day [tegg-crider2019], and the lowest malformation risk was seen when folic acid started about 1.5 months before conception [tegg-dong2023]; hence USPSTF advice to take it daily whenever pregnancy is possible [tegg-uspstf2023].",
+   "refs": [
+    "tegg-copp2015",
+    "tegg-crider2019",
+    "tegg-dong2023",
+    "tegg-uspstf2023"
+   ]
+  },
+  {
+   "id": "egg-embryonic-period-placental-oxygen",
+   "scope": "egg",
+   "name": "Embryonic organogenesis and the first-trimester placental oxygen transition",
+   "start_days": -14,
+   "end_days": -70,
+   "what": "Organs form through gestational week 10 (about 8 weeks after conception) [tegg-steegerstheunissen2013]. Placental oxygen tension rises from <20 mmHg at 8 weeks to >50 mmHg at 12 weeks of gestation as maternal blood flow starts, with a physiological burst of oxidative stress [tegg-jauniaux2000, tegg-burton2011].",
+   "sensitive_to": "Teratogens and drugs (GLP-1 agonists, chemotherapy) and maternal metabolism [tegg-cesta2024, tegg-fleming2018]. Antioxidant vitamins started at 9-16 weeks did not prevent pre-eclampsia [tegg-roberts2010]; aspirin works when started by 11-16 weeks [tegg-rolnik2017, tegg-roberge2017].",
+   "refs": [
+    "tegg-steegerstheunissen2013",
+    "tegg-jauniaux2000",
+    "tegg-burton2011",
+    "tegg-cesta2024",
+    "tegg-fleming2018",
+    "tegg-roberts2010",
+    "tegg-rolnik2017",
+    "tegg-roberge2017"
+   ]
+  },
+  {
+   "id": "egg-periconception-period",
+   "scope": "egg",
+   "name": "The periconception period (umbrella window)",
+   "start_days": 110,
+   "end_days": -56,
+   "what": "Steegers-Theunissen and colleagues define periconception as a 5-6 month span from oocyte growth through fertilisation to gestational week 10 [tegg-steegerstheunissen2013]; 110 days before ovulation is the midpoint of that definition once the 56 days after conception are subtracted.",
+   "sensitive_to": "Parental nutrition, obesity, smoking, alcohol and one-carbon metabolism, with effects on fertility, miscarriage and long-term offspring health [tegg-steegerstheunissen2013, tegg-fleming2018].",
+   "refs": [
+    "tegg-steegerstheunissen2013",
+    "tegg-fleming2018"
+   ]
+  }
+ ],
+ "timing": [
+  {
+   "factor": "amh-ovarian-reserve-egg",
+   "shape": "none",
+   "summary": "AMH mirrors the current pool of small antral follicles, so one blood test on any cycle day is enough. The main timing trap is hormonal contraception, which lowers AMH by about a quarter; values settle within 2 months of stopping the pill.",
+   "onset": {
+    "text": "Not applicable: AMH is a snapshot of the current antral pool, not a treatment.",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "After stopping long-term combined pills, AMH rose 53% and AFC 41%, plateauing by 2 months [tegg-landersoe2020].",
+    "days": [
+     56,
+     60
+    ]
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Repeating AMH rarely adds anything: a low value predicts fewer eggs at IVF but not lower natural conception over 6-12 cycles [tegg-steiner2017]."
+   },
+   "basis": "measured",
+   "debate": "A large direct-to-consumer cross-sectional dataset found AMH about 24% lower on the pill, ring and implant but only 7% lower on the hormonal IUD [tegg-hariton2021]; the prospective washout study puts the true suppression closer to 35% (53% rise after stopping) [tegg-landersoe2020]. Both agree that results on hormonal contraception underestimate reserve; they differ on size.",
+   "refs": [
+    "tegg-landersoe2020",
+    "tegg-hariton2021",
+    "tegg-steiner2017"
+   ]
+  },
+  {
+   "factor": "antioxidants-preeclampsia-egg",
+   "shape": "window",
+   "summary": "Vitamins C and E were tested to prevent pre-eclampsia starting either at 9-16 weeks or in the second trimester; neither start time worked. The placenta goes through a natural oxidative burst at 8-12 weeks, which some argued the trials missed, but the earlier-start trial was also null.",
+   "onset": {
+    "text": "Trials started at 9-16 weeks [tegg-roberts2010] or in the second trimester [tegg-poston2006]; no benefit appeared at either start.",
+    "days": null
+   },
+   "full": {
+    "text": "No benefit at any point to delivery.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not applicable (no benefit to persist).",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "High-dose vitamin C 1000 mg + E 400 IU daily is not recommended in pregnancy; the VIP trial found more low birthweight [tegg-poston2006, tegg-rumbold2015]."
+   },
+   "basis": "measured",
+   "debate": "The oxidative-stress model of pre-eclampsia places the key event at the onset of maternal placental blood flow (8-12 weeks) [tegg-jauniaux2000, tegg-burton2011], which led to the argument that antioxidants started in the second trimester were too late; however, starting at 9-16 weeks in 10,154 women was also null [tegg-roberts2010].",
+   "refs": [
+    "tegg-roberts2010",
+    "tegg-poston2006",
+    "tegg-rumbold2015",
+    "tegg-jauniaux2000",
+    "tegg-burton2011"
+   ]
+  },
+  {
+   "factor": "aspirin-preeclampsia-egg",
+   "shape": "window",
+   "summary": "Low-dose aspirin is a pregnancy-window drug: started at 11-14 weeks and taken nightly to 36 weeks it cut preterm pre-eclampsia by about 60% in high-risk women. Whether it must start before 16 weeks is disputed; starting before conception did not raise live birth overall.",
+   "onset": {
+    "text": "Started at 11-14 weeks of gestation in ASPRE [tegg-rolnik2017].",
+    "days": null
+   },
+   "full": {
+    "text": "Protection applies to the pregnancy while it is taken; ASPRE continued to 36 weeks [tegg-rolnik2017].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Antiplatelet effect wears off over days after stopping (platelet turnover); not studied as an outcome.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily; in the preconception EAGeR trial, benefit in per-protocol analysis needed at least 4-5 of 7 days [tegg-naimi2021]."
+   },
+   "basis": "measured",
+   "debate": "A trial-level meta-analysis found aspirin started at <=16 weeks cut pre-eclampsia far more than later starts (RR 0.57 vs 0.81) [tegg-roberge2017]; an individual-participant meta-analysis of 32,217 women found no difference by start time (RR 0.90 both) [tegg-meher2017]. Preconception aspirin did not raise live birth overall in EAGeR [tegg-schisterman2014], though per-protocol reanalysis suggested benefit with adherence [tegg-naimi2021].",
+   "refs": [
+    "tegg-rolnik2017",
+    "tegg-roberge2017",
+    "tegg-meher2017",
+    "tegg-schisterman2014",
+    "tegg-naimi2021"
+   ]
+  },
+  {
+   "factor": "caffeine-fertility",
+   "shape": "acute",
+   "summary": "Caffeine clears within a day (half-life about 3 h, about 8 h on the pill, up to 10 h late in pregnancy), so its effect is about current intake. What matters for the egg side is keeping intake moderate around conception and in early pregnancy; evidence that preconception intake matters is mixed.",
+   "onset": {
+    "text": "Blood levels peak within about an hour of a dose; half-life about 3 h in non-pregnant women [tegg-knutti1982] and 7.9 h on oral contraceptives [tegg-abernethy1985].",
+    "days": [
+     0.04,
+     0.33
+    ]
+   },
+   "full": {
+    "text": "Steady state with daily intake within 1-2 days (about five half-lives; extrapolated).",
+    "days": [
+     0.6,
+     2
+    ]
+   },
+   "after_stopping": {
+    "text": "Cleared within 1-2 days of stopping; slower in pregnancy as half-life lengthens toward 10.5 h [tegg-knutti1982].",
+    "days": [
+     0.6,
+     2.2
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "It is the daily total that matters: early-pregnancy intake of 100-299 mg/day was linked to miscarriage [tegg-hahn2015], with about 7% higher risk per 100 mg/day [tegg-chen2016]."
+   },
+   "basis": "measured",
+   "debate": "Hahn and colleagues found preconception caffeine unrelated to miscarriage but early-pregnancy intake related [tegg-hahn2015], whereas the LIFE study linked more than two caffeinated drinks a day before conception, by either partner, to pregnancy loss [tegg-bucklouis2016]. Leviton argued the miscarriage link reflects nausea of healthy pregnancies reducing coffee intake [tegg-leviton2002]; the dose-response meta-analysis acknowledged possible residual confounding [tegg-chen2016].",
+   "refs": [
+    "tegg-knutti1982",
+    "tegg-abernethy1985",
+    "tegg-hahn2015",
+    "tegg-chen2016",
+    "tegg-abadia2017",
+    "tegg-bucklouis2016",
+    "tegg-leviton2002"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 7,
+     "late_start": "Cutting down even in the cycle of conception reaches full effect within a day or two, because caffeine does not accumulate.",
+     "text": "Caffeine acts on the conceptus and early pregnancy rather than on oocyte growth: intake in the year before IVF was not linked to live birth [tegg-abadia2017], and preconception intake was not linked to miscarriage in one cohort [tegg-hahn2015]."
+    }
+   }
+  },
+  {
+   "factor": "dhea",
+   "shape": "build",
+   "summary": "DHEA raises blood and follicular DHEA-S within weeks, but any effect on the ovary would have to act on follicles still months from ovulation. Uncontrolled data show AMH climbing with 1-4 months of use, while the one 12-week placebo-controlled trial and the Cochrane review found no real gain.",
+   "onset": {
+    "text": "Serum and follicular DHEA-S rise on treatment [tegg-yeung2014]; uncontrolled AMH gains appear over 30-120 days [tegg-gleicher2010].",
+    "days": [
+     30,
+     120
+    ]
+   },
+   "full": {
+    "text": "Uncontrolled series used a mean 17.6 weeks [tegg-barad2006]; no plateau measured in a controlled trial.",
+    "days": [
+     84,
+     125
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials used 25 mg three times daily or 75 mg once daily [tegg-yeung2014, tegg-wiser2010]; no schedule comparison exists."
+   },
+   "basis": "measured",
+   "debate": "Gleicher and Barad report AMH and embryo gains that grow with months of use [tegg-gleicher2010, tegg-barad2006], and one small RCT reported higher live birth [tegg-wiser2010]; a placebo-controlled 12-week trial found nothing [tegg-yeung2014] and Cochrane 2024 finds little or no live-birth difference [tegg-naik2024]. For androgens generally, Polyzos argues short courses miss the early follicle stages where androgens act [tegg-polyzos2018], while a small RCT found 3-4 weeks of testosterone gel better than 2 [tegg-kim2014].",
+   "refs": [
+    "tegg-yeung2014",
+    "tegg-gleicher2010",
+    "tegg-barad2006",
+    "tegg-wiser2010",
+    "tegg-naik2024",
+    "tegg-polyzos2018",
+    "tegg-kim2014"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 84,
+     "late_start": "A course started 2-4 weeks before stimulation can only reach follicles already in the antral stage; no trial shows this helps.",
+     "text": "If used, start at least 12 weeks before stimulation, the duration of the main placebo-controlled trial [tegg-yeung2014], so that exposure covers the preantral-to-antral path; even then the expected benefit is small or none [tegg-naik2024]."
+    }
+   }
+  },
+  {
+   "factor": "egg-freezing-egg",
+   "shape": "lasting",
+   "summary": "Freezing stops the egg's clock: what counts is the age at freezing and the number of mature eggs, not how long they stay in storage. Results fall sharply when eggs are frozen at 36 or older.",
+   "onset": {
+    "text": "One stimulation cycle; several may be needed to bank 8-10 mature eggs [tegg-cobo2016].",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Stored vitrified material keeps for years: in 58,001 blastocysts, storage up to 11 years did not affect live birth [tegg-cobo2024].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "one-off",
+    "text": "One or more stimulation cycles, ideally before 36: live birth per patient was 50% at <=35 vs 22.9% at >=36 [tegg-cobo2016]."
+   },
+   "basis": "measured",
+   "debate": "A large single-group analysis found no effect of storage time on vitrified blastocysts [tegg-cobo2024]; a multicentre retrospective study found lower pregnancy with longer storage [tegg-zhang2021]. Both concern embryos; storage-time data for eggs are thinner.",
+   "refs": [
+    "tegg-cobo2016",
+    "tegg-cobo2024",
+    "tegg-zhang2021"
+   ]
+  },
+  {
+   "factor": "endometrial-scratch-egg",
+   "shape": "window",
+   "summary": "The scratch is timed to the cycle before embryo transfer, on the theory that tissue repair makes the lining more receptive in the next cycle. The largest trial, which scratched anywhere from the previous cycle to day 3 of the transfer cycle, found identical live birth.",
+   "onset": {
+    "text": "Done between day 3 of the preceding cycle and day 3 of the transfer cycle [tegg-lensen2019]; most trials used the luteal phase of the previous cycle [tegg-perera2026].",
+    "days": null
+   },
+   "full": {
+    "text": "The hypothesised effect is confined to the next cycle; never measured directly.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "one-off",
+    "text": "Single procedure per IVF attempt."
+   },
+   "basis": "measured",
+   "debate": "An individual-participant meta-analysis found higher live birth (OR 1.29) [tegg-vanhoogenhuijze2023], challenged in a critical appraisal [tegg-aktoz2024]; the 1364-woman PIP trial found 26.1% vs 26.1% [tegg-lensen2019] and Cochrane 2026 calls the effect unclear [tegg-perera2026].",
+   "refs": [
+    "tegg-lensen2019",
+    "tegg-perera2026",
+    "tegg-vanhoogenhuijze2023",
+    "tegg-aktoz2024"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 30,
+     "late_start": "Not applicable; it targets the endometrium, not the egg.",
+     "text": "Acts on the endometrium in the transfer cycle, not on the oocyte [tegg-perera2026]."
+    }
+   }
+  },
+  {
+   "factor": "endometriosis",
+   "shape": "lasting",
+   "summary": "Endometriosis acts over years, and its main timing decisions are about treatment before IVF. Surgery on endometriomas lowers AMH and it does not recover; three to six months of GnRH-agonist suppression before IVF, once standard, is no longer supported.",
+   "onset": {
+    "text": "Not applicable (chronic condition).",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "AMH loss after endometrioma cystectomy persisted at long-term follow-up with no recovery over time [tegg-murdock2025].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not a dosing question."
+   },
+   "basis": "measured",
+   "debate": "Older guidance endorsed 3-6 months of pituitary down-regulation before IVF; the 2019 Cochrane update found very low-quality evidence and could not confirm benefit, and ESHRE 2022 reversed the recommendation [tegg-georgiou2019, tegg-michaeli2022]. Some clinicians argue subgroups may still benefit [tegg-michaeli2022].",
+   "refs": [
+    "tegg-murdock2025",
+    "tegg-hamdan2015",
+    "tegg-georgiou2019",
+    "tegg-michaeli2022"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": null,
+     "late_start": "Surgery before IVF did not change live birth or egg numbers [tegg-hamdan2015], so there is no lead time to gain by operating first.",
+     "text": "Long-term (3-6 month) GnRH agonist before IVF has uncertain effect on live birth [tegg-georgiou2019], and guidelines have withdrawn the recommendation [tegg-michaeli2022]."
+    }
+   }
+  },
+  {
+   "factor": "excess-adiposity",
+   "shape": "lasting",
+   "summary": "Excess fat shapes the follicle's environment continuously: follicular fluid mirrors blood insulin, lipids and CRP. In mice, oocyte damage outlasted 8 weeks of diet reversal; in women, 3-6 months of pre-IVF weight loss did not raise live birth, though it restored ovulation in PCOS.",
+   "onset": {
+    "text": "Builds over years of excess fat; not measured as an onset.",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "In mice, spindle and mitochondrial defects persisted after 8 weeks of normal diet despite normal weight and glucose [tegg-reynolds2015]; partial recovery with diet plus exercise [tegg-xinyan2025]. Human recovery time unknown.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not a dosing question; see weight-loss."
+   },
+   "basis": "extrapolated",
+   "debate": "Whether oocyte effects of obesity reverse is contested: mouse studies show persistence after diet reversal [tegg-reynolds2015, tegg-xinyan2025], while human trials of preconception weight loss show improved ovulation and natural conception [tegg-best2017] but no IVF live-birth gain [tegg-einarsson2017, tegg-mutsaerts2016].",
+   "refs": [
+    "tegg-reynolds2015",
+    "tegg-xinyan2025",
+    "tegg-valckx2012",
+    "tegg-sermondade2019",
+    "tegg-robker2009",
+    "tegg-legro2015",
+    "tegg-best2017",
+    "tegg-einarsson2017",
+    "tegg-mutsaerts2016"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 112,
+     "late_start": "Follicular fluid tracks current blood chemistry [tegg-valckx2012], so metabolic gains in the final month can still reach the follicle environment, but mouse data suggest earlier damage to oocytes is not undone quickly.",
+     "text": "Obesity lowers IVF live birth (RR 0.85) [tegg-sermondade2019] and alters preovulatory follicular fluid [tegg-robker2009]; 16 weeks is the duration of the PCOS trials in which weight loss improved ovulation and live birth [tegg-legro2015]."
+    }
+   }
+  },
+  {
+   "factor": "fasting-egg",
+   "shape": "acute",
+   "summary": "Deep energy deficit acts on the hypothalamus within days: LH pulses slow and a cycle can become anovulatory, but the effect is limited to the cycle in which it happens. Milder intermittent fasting in PCOS works through weight and androgens over 5-8 weeks.",
+   "onset": {
+    "text": "LH pulsatility disrupted after 5 days below 30 kcal/kg lean mass [tegg-loucks2003]; a 72-h fast cut LH pulses 19% in lean women [tegg-alvero1998].",
+    "days": [
+     3,
+     5
+    ]
+   },
+   "full": {
+    "text": "PCOS: weight, free androgen index and SHBG improved over 5 weeks of time-restricted eating [tegg-li2021] and in trials pooled by [tegg-ranneh2025].",
+    "days": [
+     35,
+     35
+    ]
+   },
+   "after_stopping": {
+    "text": "LH changes reverse after refeeding; in normal-weight women a 3-day fast did not change ovulation [tegg-olson1995]. Effects confined to the affected cycle (extrapolated).",
+    "days": [
+     1,
+     28
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Avoid multi-day fasts or very low energy availability in the 2-3 weeks before ovulation or egg retrieval, especially if lean [tegg-alvero1998]. No trial compared fasting schedules for fertility."
+   },
+   "basis": "measured",
+   "debate": "Normal-weight women tolerated a 3-day mid-follicular fast without ovulation changes [tegg-olson1995], whereas lean women had anovulation in 2 of 7 fasted cycles [tegg-alvero1998]; body fat appears to set the threshold.",
+   "refs": [
+    "tegg-loucks2003",
+    "tegg-alvero1998",
+    "tegg-li2021",
+    "tegg-ranneh2025",
+    "tegg-olson1995"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 20,
+     "late_start": "Stopping a deep fast restores LH pulses within days, so the next cycle is usually unaffected.",
+     "text": "The sensitive window is the follicular phase of the conception or IVF cycle, when LH pulses drive the dominant follicle [tegg-alvero1998, tegg-loucks2003]."
+    }
+   }
+  },
+  {
+   "factor": "female-antioxidant-supplements",
+   "shape": "build",
+   "summary": "No trial has measured how long antioxidant supplements take to act on the egg. Taken during the IVF cycle they lower oxidative markers in follicular fluid, but live-birth evidence is weak and partly retracted.",
+   "onset": {
+    "text": "Follicular oxidative-damage markers fell when melatonin or vitamin E was taken during the treatment cycle [tegg-tamura2008]; exact duration not reported.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured; covering the ~85-day preantral-to-ovulatory path is an extrapolation [tegg-gougeon1986].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "No trial compared schedules."
+   },
+   "basis": "extrapolated",
+   "debate": "Cochrane finds low- to very-low-quality evidence; seven included trials were later retracted, although editors judged the conclusions unchanged [tegg-showell2020].",
+   "refs": [
+    "tegg-tamura2008",
+    "tegg-gougeon1986",
+    "tegg-showell2020"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Starting in the cycle of IVF can still change follicular fluid [tegg-tamura2008], but not the earlier growth of the oocyte.",
+     "text": "Extrapolated from follicle growth time [tegg-gougeon1986]; the Cochrane review finds only low-quality evidence of benefit [tegg-showell2020]."
+    }
+   }
+  },
+  {
+   "factor": "folic-acid",
+   "shape": "build",
+   "summary": "Plasma folate rises within weeks and plateaus at 3 months, but red-cell folate, the marker linked to neural tube protection, takes a median 36 weeks to reach steady state. The neural tube closes 22-26 days after fertilisation, so folic acid must be on board before conception, ideally months before.",
+   "onset": {
+    "text": "Plasma folate rises within the first month [tegg-hao2008].",
+    "days": [
+     7,
+     30
+    ]
+   },
+   "full": {
+    "text": "Plasma folate plateaus at 3 months [tegg-hao2008]; RBC folate steady state median 36 weeks (27-52) [tegg-crider2019].",
+    "days": [
+     189,
+     364
+    ]
+   },
+   "after_stopping": {
+    "text": "Blood folate falls rapidly within 3 months of stopping, faster after higher doses [tegg-hao2008].",
+    "days": [
+     30,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily: single and split doses gave the same blood levels, but 4 mg once weekly raised plasma folate far less than 0.4 mg daily (142% vs 259%) [tegg-hao2008]."
+   },
+   "basis": "measured",
+   "debate": "Agreement that folic acid must start before conception [tegg-uspstf2023]; the optimal lead time differs by outcome, about 1.1 months for non-cardiac malformations versus 2.2 months for heart defects [tegg-dong2023], while red-cell kinetics argue for longer [tegg-crider2019]. Fertility associations (fecundability, IVF) are observational [tegg-cueto2016, tegg-gaskins2014].",
+   "refs": [
+    "tegg-hao2008",
+    "tegg-crider2019",
+    "tegg-dong2023",
+    "tegg-gaskins2014",
+    "tegg-uspstf2023",
+    "tegg-cueto2016",
+    "tegg-copp2015"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Starting 2-4 weeks before conception still raises plasma folate before the neural tube closes, but RBC folate will be far from steady state [tegg-crider2019].",
+     "text": "The lowest malformation risk was with folic acid started about 1.5 months (1.1-1.9) before conception and continued about 4 months [tegg-dong2023]; IVF live birth was higher with >800 ug/day supplemental folate [tegg-gaskins2014]."
+    }
+   }
+  },
+  {
+   "factor": "glp1-agonists",
+   "shape": "build",
+   "summary": "GLP-1 drugs act over months on weight, and the weight comes back after stopping. Semaglutide has a one-week half-life and lingers 5-7 weeks, so the label says stop at least 2 months before trying to conceive; tirzepatide also cuts oral-contraceptive levels for 4 weeks after each dose step.",
+   "onset": {
+    "text": "Weight falls progressively through the 16-week dose escalation and beyond [tegg-wilding2022]; onset not reported separately.",
+    "days": null
+   },
+   "full": {
+    "text": "Weight loss continued to week 68 in STEP 1 (17.3%) [tegg-wilding2022].",
+    "days": [
+     420,
+     476
+    ]
+   },
+   "after_stopping": {
+    "text": "Semaglutide stays in circulation 5-7 weeks after the last dose [tegg-fda-wegovy2021]; two-thirds of lost weight returned within a year [tegg-wilding2022].",
+    "days": [
+     35,
+     365
+    ]
+   },
+   "frequency": {
+    "advice": "weekly",
+    "text": "Once-weekly injection; tirzepatide reaches steady state after 4 weeks [tegg-fda-zepbound2023]."
+   },
+   "basis": "measured",
+   "debate": "The washout rule rests on animal data and pharmacokinetics; large cohorts found no rise in malformations after periconceptional exposure (aRR 0.95 vs insulin) [tegg-cesta2024] and no consistent harm signal [tegg-ozbek2026], and preterm-birth links were confined to women with diabetes [tegg-hviid2026]. Fertility benefit beyond weight loss is unproven; the positive pilot had 28 women [tegg-salamun2018].",
+   "refs": [
+    "tegg-wilding2022",
+    "tegg-fda-wegovy2021",
+    "tegg-fda-zepbound2023",
+    "tegg-salamun2018",
+    "tegg-cesta2024",
+    "tegg-ozbek2026",
+    "tegg-hviid2026"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 60,
+     "late_start": "Stopping 2-4 weeks before conception leaves meaningful drug in circulation into early pregnancy (half-life about 1 week) [tegg-fda-wegovy2021].",
+     "text": "Stop semaglutide at least 2 months before a planned pregnancy [tegg-fda-wegovy2021]; a pilot IVF trial used 12 weeks of liraglutide followed by a 4-week drug-free gap [tegg-salamun2018]."
+    }
+   }
+  },
+  {
+   "factor": "growth-hormone-ivf-egg",
+   "shape": "none",
+   "summary": "Growth hormone is given only during the stimulation cycle, so it acts on the antral window of one cycle. Neither the poor-responder placebo trial nor a larger trial in normal responders found a live-birth gain.",
+   "onset": {
+    "text": "Started on day 1 of stimulation and continued to retrieval [tegg-mourad2025, tegg-norman2019].",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily injections during stimulation in trials [tegg-mourad2025]."
+   },
+   "basis": "measured",
+   "debate": "Cochrane pooling suggests more live births in poor responders but at very low certainty [tegg-sood2021], against null placebo-controlled trials [tegg-norman2019, tegg-mourad2025]; whether longer pretreatment would help has not been tested in a large trial.",
+   "refs": [
+    "tegg-mourad2025",
+    "tegg-norman2019",
+    "tegg-sood2021"
+   ]
+  },
+  {
+   "factor": "hormonal-contraception-egg",
+   "shape": "build",
+   "summary": "Hormonal contraception pauses ovulation without using up eggs, and fertility returns within a few cycles of stopping. The delay is about 2 cycles for IUDs and implants, 3 for the pill or ring, 4 for the patch and 5-8 for injectables; years of use do not matter.",
+   "onset": {
+    "text": "Not applicable (contraceptive effect starts within the first cycle).",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Normal fertility returns after about 2 cycles (IUD, implant) to 3 (pill, ring), 4 (patch) and 5-8 cycles (injectable) [tegg-yland2020]; AMH normalises within 2 months of stopping the pill [tegg-landersoe2020].",
+    "days": [
+     56,
+     224
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not a dosing question."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; studies agree on a short delay, with injectables the outlier [tegg-yland2020, tegg-girum2018].",
+   "refs": [
+    "tegg-yland2020",
+    "tegg-landersoe2020",
+    "tegg-girum2018"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Conceiving in the first cycles after stopping is common and not harmful; about 83% conceive within 12 months [tegg-girum2018].",
+     "text": "Stop pill, ring or patch about 3 cycles, and injectables 5-8 cycles, before the time you hope to conceive to avoid the expected delay [tegg-yland2020]; duration of prior use does not matter [tegg-girum2018]."
+    }
+   }
+  },
+  {
+   "factor": "iodine-status",
+   "shape": "build",
+   "summary": "The thyroid stores iodine, so status reflects months of intake, and a sudden increase in early pregnancy can transiently raise TSH. Women who had used iodised salt for years before pregnancy had better thyroid function than those who started supplements in early pregnancy.",
+   "onset": {
+    "text": "Not measured as an onset.",
+    "days": null
+   },
+   "full": {
+    "text": "Thyroid stores build over months (not precisely measured); long-term iodised salt users (>2 years) fared best [tegg-moleti2011].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily intake; no schedule comparison."
+   },
+   "basis": "extrapolated",
+   "debate": "A systematic review found insufficient evidence that iodine supplementation in mildly deficient pregnancy helps thyroid function or child cognition, and called for trials accounting for preconception stores [tegg-dineva2020]; observational data favour early, long-term intake [tegg-moleti2011, tegg-mills2018].",
+   "refs": [
+    "tegg-moleti2011",
+    "tegg-mills2018",
+    "tegg-dineva2020"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Starting 150 ug iodine only in early pregnancy reduced low-FT4 but raised TSH, possibly a \"stunning\" effect of the abrupt change [tegg-moleti2011].",
+     "text": "Moderate-to-severe iodine deficiency was linked to 46% lower fecundability [tegg-mills2018]; the 90-day lead is extrapolated from the advice to start \"several months\" before conception [tegg-moleti2011]."
+    }
+   }
+  },
+  {
+   "factor": "iron-egg",
+   "shape": "build",
+   "summary": "Correcting iron deficiency takes about 3 months of supplements to rebuild ferritin, and stores drain again over months after stopping. Alternate-day dosing absorbs better per dose and causes fewer side effects than daily dosing.",
+   "onset": {
+    "text": "Absorption is immediate; each dose raises hepcidin for about a day, lowering absorption of the next [tegg-stoffel2017].",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "full": {
+    "text": "Median ferritin about 44 ug/L after 90 days of daily 100 mg iron in iron-depleted women [tegg-vonsiebenthal2023].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Iron deficiency re-emerged in about 11% within 3 months of stopping daily iron [tegg-vonsiebenthal2023].",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "few-per-week",
+    "text": "Alternate days: 22% vs 16% fractional absorption [tegg-stoffel2017], same ferritin at equal total dose with fewer GI side effects [tegg-vonsiebenthal2023]; splitting into twice-daily doses gave no gain [tegg-stoffel2017]."
+   },
+   "basis": "measured",
+   "debate": "Nurses Health Study II linked iron supplements to less ovulatory infertility [tegg-chavarro2006], but two newer cohorts found no consistent link except in women prone to deficiency [tegg-hahn2019].",
+   "refs": [
+    "tegg-stoffel2017",
+    "tegg-vonsiebenthal2023",
+    "tegg-hahn2019",
+    "tegg-chavarro2006"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Starting a month before still raises iron, but ferritin will not be fully restored.",
+     "text": "Repletion takes about 3 months [tegg-vonsiebenthal2023]; correcting deficiency, not adding extra iron, is what links to fertility [tegg-hahn2019]."
+    }
+   }
+  },
+  {
+   "factor": "maternal-age",
+   "shape": "slow-build",
+   "summary": "Egg ageing builds over decades and nothing reverses it: the follicle pool shrinks and chromosome cohesion, laid down before birth, decays. Embryo aneuploidy rises steadily after the mid-20s and fecundity falls faster after 37.",
+   "onset": {
+    "text": "Aneuploidy rises predictably after about 26 [tegg-franasiak2014]; fecundity falls from about 32 [tegg-acog2014].",
+    "days": null
+   },
+   "full": {
+    "text": "Keeps growing: the share of women with no euploid embryo was 2-6% at 26-37, 33% at 42 and 53% at 44 [tegg-franasiak2014].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Irreversible; only egg freezing at a younger age stops the clock.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not a dosing question."
+   },
+   "basis": "measured",
+   "debate": "Mouse studies report reversal of age-related oocyte decline with CoQ10 [tegg-benmeir2015] or NAD+ precursors [tegg-bertoldo2020]; human trials have not shown equivalent effects (CoQ10 aneuploidy trial underpowered [tegg-bentov2014]). Aneuploidy also follows a U-curve, higher in the youngest [tegg-gruhn2019].",
+   "refs": [
+    "tegg-franasiak2014",
+    "tegg-acog2014",
+    "tegg-cobo2016",
+    "tegg-wallace2010",
+    "tegg-benmeir2015",
+    "tegg-bertoldo2020",
+    "tegg-bentov2014",
+    "tegg-gruhn2019"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": null,
+     "late_start": "No intervention shown in humans to reverse it.",
+     "text": "The relevant clock is age at retrieval or freezing [tegg-cobo2016]; by 40 only about 3% of the original follicle pool remains [tegg-wallace2010]."
+    }
+   }
+  },
+  {
+   "factor": "melatonin",
+   "shape": "acute",
+   "summary": "Melatonin is gone from blood within hours (half-life about 45 min), but IVF trials gave it nightly through the stimulation cycle, when it lowered follicular oxidative markers. Effects on egg numbers and live birth are unproven.",
+   "onset": {
+    "text": "Peak about 50 min after an oral dose [tegg-harpsoe2015]; follicular oxidative markers lower within the treatment cycle [tegg-tamura2008].",
+    "days": [
+     0.03,
+     0.04
+    ]
+   },
+   "full": {
+    "text": "Within one stimulation cycle (about 2 weeks) in trials [tegg-fernando2017].",
+    "days": [
+     10,
+     14
+    ]
+   },
+   "after_stopping": {
+    "text": "Half-life about 45 min, so cleared within hours [tegg-harpsoe2015].",
+    "days": [
+     0.1,
+     0.3
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Nightly or twice daily (MIART used twice daily) from cycle day 2 to the day before retrieval [tegg-fernando2017]; no schedule comparison."
+   },
+   "basis": "measured",
+   "debate": "A meta-analysis found higher clinical pregnancy but not live birth [tegg-hu2020]; the placebo-controlled dose trial saw no change in follicle numbers [tegg-fernando2020], and the follicular-fluid study was not randomised [tegg-tamura2008].",
+   "refs": [
+    "tegg-harpsoe2015",
+    "tegg-tamura2008",
+    "tegg-fernando2017",
+    "tegg-hu2020",
+    "tegg-fernando2020"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 14,
+     "late_start": "Starting at the beginning of the stimulation cycle matches the trials.",
+     "text": "Trials started in the early follicular phase or previous cycle and stopped at retrieval [tegg-fernando2017, tegg-tamura2008]."
+    }
+   }
+  },
+  {
+   "factor": "myo-inositol",
+   "shape": "build",
+   "summary": "In PCOS, inositol trials report a rise in estradiol within the first week and earlier first ovulation, with cycle regularity improving over about 3 months. Much of the early trial literature has since been retracted or flagged.",
+   "onset": {
+    "text": "E2 rose in the first week; first ovulation at 23.6 vs 41.8 days on placebo [tegg-gerli2003] (trial now under an expression of concern).",
+    "days": [
+     7,
+     24
+    ]
+   },
+   "full": {
+    "text": "Trials typically ran about 14 weeks [tegg-gerli2003].",
+    "days": [
+     84,
+     98
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Usually twice daily; no schedule comparison."
+   },
+   "basis": "extrapolated",
+   "debate": "A 2023 meta-analysis of 26 RCTs found more regular cycles (RR 1.79) [tegg-greff2023], but Cochrane rates the evidence very low quality [tegg-showell2018]; a key placebo trial was retracted in 2023 [tegg-gerli2007], a 2009 review retracted in 2025 [tegg-papaleo2025], and the 2003 trial carries a 2025 expression of concern [tegg-gerli2003].",
+   "refs": [
+    "tegg-gerli2003",
+    "tegg-showell2018",
+    "tegg-greff2023",
+    "tegg-gerli2007",
+    "tegg-papaleo2025"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Ovulatory effects in PCOS may start within weeks [tegg-gerli2003], but evidence for egg quality is very low quality [tegg-showell2018].",
+     "text": "Extrapolated from trial durations and the follicle growth path; live-birth benefit is unproven [tegg-showell2018]."
+    }
+   }
+  },
+  {
+   "factor": "pcos",
+   "shape": "build",
+   "summary": "In PCOS the fixable part is mostly ovulation, and it responds to weight loss over months: about 5% loss over 6-7 months restored menstrual function in most women, and 16 weeks of lifestyle change before ovulation induction raised ovulation and live birth.",
+   "onset": {
+    "text": "SHBG and insulin improve as weight falls [tegg-kiddy1992].",
+    "days": null
+   },
+   "full": {
+    "text": "Ovulation gains after 16 weeks of preconception weight loss [tegg-legro2015]; menstrual recovery over 6-7 months [tegg-kiddy1992].",
+    "days": [
+     112,
+     210
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured; follows weight regain.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily diet and activity; see weight-loss."
+   },
+   "basis": "measured",
+   "debate": "Weight loss before treatment helped anovulatory obese PCOS [tegg-legro2015, tegg-legro2016], but not unselected obese infertile women or IVF [tegg-mutsaerts2016, tegg-einarsson2017]; oral-contraceptive pretreatment worsened metabolic syndrome without gain [tegg-legro2015]. Systemic oxidative stress in PCOS is documented [tegg-murri2013] but not shown to change on a time course.",
+   "refs": [
+    "tegg-kiddy1992",
+    "tegg-legro2015",
+    "tegg-legro2016",
+    "tegg-mutsaerts2016",
+    "tegg-einarsson2017",
+    "tegg-murri2013"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 112,
+     "late_start": "Ovulation induction itself works within a cycle, so a late start loses the weight-loss benefit but not treatment.",
+     "text": "Delaying clomiphene 16 weeks for weight loss raised live birth from 10% to 25% in obese PCOS [tegg-legro2016]."
+    }
+   }
+  },
+  {
+   "factor": "pfas-egg",
+   "shape": "lasting",
+   "summary": "PFAS stay in the body for years (half-lives 2.7-5.3 years) and reach follicular fluid at 65-92% of blood levels. Cutting exposure before pregnancy barely changes the body burden in the time frame of a conception attempt.",
+   "onset": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "full": {
+    "text": "Body burden reflects years of exposure.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Half-lives after exposure ended: PFOA 2.7 y, PFOS 3.4 y, PFHxS 5.3 y [tegg-li2018]; menstruation adds an elimination route in women [tegg-wong2014].",
+    "days": [
+     985,
+     1935
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Exposure reduction is ongoing; regular plasma donation every 6 weeks for a year lowered PFOS modestly (-2.9 ng/mL) [tegg-gasiorowski2022]."
+   },
+   "basis": "measured",
+   "debate": "Early cohorts linked PFAS to longer time to pregnancy [tegg-fei2009], but the association appeared only in parous women, consistent with reverse causation [tegg-whitworth2012]; a preconception cohort measuring PFAS before pregnancy still found lower fecundability [tegg-cohen2023].",
+   "refs": [
+    "tegg-li2018",
+    "tegg-wong2014",
+    "tegg-gasiorowski2022",
+    "tegg-hong2022",
+    "tegg-cohen2023",
+    "tegg-fei2009",
+    "tegg-whitworth2012"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": null,
+     "late_start": "Reducing exposure in the months before conception changes blood levels only slightly because of multi-year half-lives [tegg-li2018].",
+     "text": "PFAS cross into follicular fluid (ratio 0.65-0.92) [tegg-hong2022]; preconception levels were linked to 5-10% lower fecundability per quartile [tegg-cohen2023]."
+    }
+   }
+  },
+  {
+   "factor": "profertility-diet",
+   "shape": "build",
+   "summary": "Diet changes reach the embryo surprisingly fast: six weeks of a Mediterranean-style supplement before IVF changed embryo cleavage timing. The cohort linking a profertility diet to live birth measured diet over the year before treatment.",
+   "onset": {
+    "text": "Embryo cleavage changes after 6 weeks [tegg-kermack2020].",
+    "days": [
+     42,
+     42
+    ]
+   },
+   "full": {
+    "text": "Not measured; folate components need months [tegg-crider2019].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily pattern; no schedule comparison."
+   },
+   "basis": "extrapolated",
+   "debate": "The live-birth association is observational [tegg-gaskins2019]; the only RCT measured embryo morphokinetics, a surrogate [tegg-kermack2020].",
+   "refs": [
+    "tegg-kermack2020",
+    "tegg-crider2019",
+    "tegg-gaskins2019"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Six weeks was enough to change embryo kinetics [tegg-kermack2020], though not shown to change live birth.",
+     "text": "Diet in the year before ART was linked to live birth [tegg-gaskins2019]; 90 days is extrapolated from the follicle growth path."
+    }
+   }
+  },
+  {
+   "factor": "prp-ovarian-egg",
+   "shape": "none",
+   "summary": "Ovarian PRP is promoted with the claim that it wakes dormant follicles, which would take months to show. A trial that followed three retrievals after injection found at most one or two more eggs and no more chromosomally normal embryos.",
+   "onset": {
+    "text": "Effect, if any, appeared only by the third consecutive retrieval [tegg-barrenetxea2024].",
+    "days": null
+   },
+   "full": {
+    "text": "Not established.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "one-off",
+    "text": "Single injection in trials."
+   },
+   "basis": "measured",
+   "debate": "One RCT reported slightly more mature eggs cumulatively over three retrievals [tegg-barrenetxea2024]; the PROVA RCT found no change in eggs, euploid blastocysts, AMH or AFC [tegg-herlihy2024].",
+   "refs": [
+    "tegg-barrenetxea2024",
+    "tegg-herlihy2024"
+   ]
+  },
+  {
+   "factor": "weight-loss",
+   "shape": "slow-build",
+   "summary": "Weight loss keeps paying off over months for ovulation and natural conception, but trials of 3-6 months of weight loss before IVF did not raise live birth, partly because the delay costs time. The clearest benefit is in anovulatory PCOS.",
+   "onset": {
+    "text": "Metabolic markers change within weeks (not measured as an onset); ovulation gains were measured after 16 weeks [tegg-legro2015].",
+    "days": null
+   },
+   "full": {
+    "text": "Keeps growing with more loss; trials ran 12 weeks to 6 months [tegg-einarsson2017, tegg-mutsaerts2016].",
+    "days": [
+     84,
+     182
+    ]
+   },
+   "after_stopping": {
+    "text": "Benefits fade with weight regain (not measured for fertility).",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily diet and activity."
+   },
+   "basis": "measured",
+   "debate": "A small RCT found 44% vs 14% live birth after 12 weeks [tegg-sim2014] and a meta-analysis found higher pregnancy (RR 1.59) [tegg-best2017], whereas three large trials of 12 weeks to 6 months found no IVF or treatment live-birth gain [tegg-einarsson2017, tegg-mutsaerts2016, tegg-legro2022].",
+   "refs": [
+    "tegg-legro2015",
+    "tegg-legro2016",
+    "tegg-legro2022",
+    "tegg-einarsson2017",
+    "tegg-mutsaerts2016",
+    "tegg-sim2014",
+    "tegg-best2017"
+   ],
+   "conception": {
+    "egg": {
+     "start_by_days": 112,
+     "late_start": "A 12-week programme still raised natural conception [tegg-einarsson2017] and pregnancy in a small trial [tegg-sim2014], but delaying IVF to lose weight did not raise live birth [tegg-mutsaerts2016].",
+     "text": "16 weeks of weight loss improved ovulation and live birth in obese PCOS [tegg-legro2015, tegg-legro2016]; in unexplained infertility it did not [tegg-legro2022]."
+    }
+   }
+  }
+ ]
+}

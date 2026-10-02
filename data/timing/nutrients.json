@@ -1,0 +1,3559 @@
+{
+ "references": [
+  {
+   "id": "tnut-flock2013",
+   "authors": "Flock MR, Skulas-Ray AC, Harris WS, et al.",
+   "year": 2013,
+   "title": "Determinants of erythrocyte omega-3 fatty acid content in response to fish oil supplementation: a dose-response randomized controlled trial.",
+   "journal": "J Am Heart Assoc",
+   "pmid": "24252845",
+   "doi": "10.1161/JAHA.113.000513",
+   "type": "rct",
+   "n": "115 adults",
+   "finding": "Over about 5 months of 0-1800 mg/day EPA+DHA the omega-3 index rose in a dose-dependent way; dose per kg body weight explained about 70% of the response."
+  },
+  {
+   "id": "tnut-katan1997",
+   "authors": "Katan MB, Deslypere JP, van Birgelen AP, et al.",
+   "year": 1997,
+   "title": "Kinetics of the incorporation of dietary fatty acids into serum cholesteryl esters, erythrocyte membranes, and adipose tissue: an 18-month controlled study.",
+   "journal": "J Lipid Res",
+   "pmid": "9374124",
+   "doi": null,
+   "type": "rct",
+   "n": "58 men",
+   "finding": "Fish-oil EPA plateaued in serum cholesteryl esters after 4-8 weeks (half-life 4.8 days), in red cells with a half-life of 28 days and steady state after about 180 days, and in adipose tissue was still rising at 12 months."
+  },
+  {
+   "id": "tnut-browning2012",
+   "authors": "Browning LM, Walker CG, Mander AP, et al.",
+   "year": 2012,
+   "title": "Incorporation of eicosapentaenoic and docosahexaenoic acids into lipid pools when given as supplements providing doses equivalent to typical intakes of oily fish.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "22932281",
+   "doi": "10.3945/ajcn.112.041343",
+   "type": "rct",
+   "n": "204 adults",
+   "finding": "EPA/DHA given as if oily fish were eaten 1, 2 or 4 times a week produced dose responses; time to maximal incorporation ranged from days (plasma phosphatidylcholine) to months (mononuclear cells) to more than 12 months (adipose)."
+  },
+  {
+   "id": "tnut-cao2006",
+   "authors": "Cao J, Schwichtenberg KA, Hanson NQ, et al.",
+   "year": 2006,
+   "title": "Incorporation and clearance of omega-3 fatty acids in erythrocyte membranes and plasma phospholipids.",
+   "journal": "Clin Chem",
+   "pmid": "17053155",
+   "doi": "10.1373/clinchem.2006.072322",
+   "type": "rct",
+   "n": "20 adults",
+   "finding": "8 weeks of fish oil (2.2 g/day EPA+DHA) raised red-cell EPA 300% and DHA 42% (omega-3 index 7.8%); the index stayed relatively high 4 weeks after stopping, while plasma levels fell faster."
+  },
+  {
+   "id": "tnut-patterson2015",
+   "authors": "Patterson AC, Chalil A, Aristizabal Henao JJ, et al.",
+   "year": 2015,
+   "title": "Omega-3 polyunsaturated fatty acid blood biomarkers increase linearly in men and women after tightly controlled intakes of 0.25, 0.5, and 1 g/d of EPA + DHA.",
+   "journal": "Nutr Res",
+   "pmid": "26500082",
+   "doi": "10.1016/j.nutres.2015.09.016",
+   "type": "cohort",
+   "n": "20 adults",
+   "finding": "Blood EPA+DHA rose linearly with 0.25, 0.5 and 1 g/day given in successive 4-week periods."
+  },
+  {
+   "id": "tnut-conquer2000",
+   "authors": "Conquer JA, Martin JB, Tummon I, et al.",
+   "year": 2000,
+   "title": "Effect of DHA supplementation on DHA status and sperm motility in asthenozoospermic males.",
+   "journal": "Lipids",
+   "pmid": "10757545",
+   "doi": "10.1007/BF02664764",
+   "type": "rct",
+   "n": "28 men",
+   "finding": "Three months of 400-800 mg/day DHA raised serum DHA 71-131% but did not change sperm phospholipid DHA or motility in asthenozoospermic men."
+  },
+  {
+   "id": "tnut-martinezsoto2016",
+   "authors": "Martínez-Soto JC, Domingo JC, Cordobilla B, et al.",
+   "year": 2016,
+   "title": "Dietary supplementation with docosahexaenoic acid (DHA) improves seminal antioxidant status and decreases sperm DNA fragmentation.",
+   "journal": "Syst Biol Reprod Med",
+   "pmid": "27792396",
+   "doi": "10.1080/19396368.2016.1246623",
+   "type": "rct",
+   "n": "57 men analysed",
+   "finding": "1.5 g/day DHA for 10 weeks raised seminal-plasma DHA, improved seminal antioxidant status and lowered sperm DNA fragmentation, without changing sperm membrane lipids."
+  },
+  {
+   "id": "tnut-jensen2020",
+   "authors": "Jensen TK, Priskorn L, Holmboe SA, et al.",
+   "year": 2020,
+   "title": "Associations of Fish Oil Supplement Use With Testicular Function in Young Men.",
+   "journal": "JAMA Netw Open",
+   "pmid": "31951274",
+   "doi": "10.1001/jamanetworkopen.2019.19462",
+   "type": "cross-sectional",
+   "n": "1679 young men",
+   "finding": "Fish-oil use on 60 or more of the previous 90 days was associated with larger testes and semen volume and lower FSH/LH; use on fewer days showed weaker associations."
+  },
+  {
+   "id": "tnut-chiu2018",
+   "authors": "Chiu YH, Karmon AE, Gaskins AJ, et al.",
+   "year": 2018,
+   "title": "Serum omega-3 fatty acids and treatment outcomes among women undergoing assisted reproduction.",
+   "journal": "Hum Reprod",
+   "pmid": "29136189",
+   "doi": "10.1093/humrep/dex335",
+   "type": "cohort",
+   "n": "100 women, 136 ART cycles",
+   "finding": "Each 1% higher serum long-chain omega-3 (measured on stimulation days 3-9) was associated with an 8% higher probability of live birth after ART."
+  },
+  {
+   "id": "tnut-ottestad2012",
+   "authors": "Ottestad I, Vogt G, Retterstøl K, et al.",
+   "year": 2012,
+   "title": "Oxidised fish oil does not influence established markers of oxidative stress in healthy human subjects: a randomised controlled trial.",
+   "journal": "Br J Nutr",
+   "pmid": "22136711",
+   "doi": "10.1017/S0007114511005484",
+   "type": "rct",
+   "n": "54 adults",
+   "finding": "8 g/day of oxidised or fresh fish oil for 3 and 7 weeks did not change isoprostanes, HNE/HHE or CRP; plasma EPA+DHA rose equally in both fish-oil groups."
+  },
+  {
+   "id": "tnut-jones2008",
+   "authors": "Jones G",
+   "year": 2008,
+   "title": "Pharmacokinetics of vitamin D toxicity.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "18689406",
+   "doi": "10.1093/ajcn/88.2.582S",
+   "type": "review",
+   "n": null,
+   "finding": "Vitamin D itself has a body half-life of about 2 months (adipose storage), circulating 25(OH)D3 about 15 days, and 1,25(OH)2D about 15 hours."
+  },
+  {
+   "id": "tnut-jones2014",
+   "authors": "Jones KS, Assar S, Harnpanich D, et al.",
+   "year": 2014,
+   "title": "25(OH)D2 half-life is shorter than 25(OH)D3 half-life and is influenced by DBP concentration and genotype.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "24885631",
+   "doi": "10.1210/jc.2014-1714",
+   "type": "mechanistic",
+   "n": "36 men",
+   "finding": "Stable-isotope tracer: plasma 25(OH)D3 half-life 15.1 days and 25(OH)D2 13.9 days, longer with higher vitamin D binding protein."
+  },
+  {
+   "id": "tnut-heaney2003",
+   "authors": "Heaney RP, Davies KM, Chen TC, et al.",
+   "year": 2003,
+   "title": "Human serum 25-hydroxycholecalciferol response to extended oral dosing with cholecalciferol.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "12499343",
+   "doi": "10.1093/ajcn/77.1.204",
+   "type": "rct",
+   "n": "67 men",
+   "finding": "Over about 20 winter weeks of 0-250 ug/day cholecalciferol, equilibrium 25(OH)D rose about 0.7 nmol/L per ug/day; tissue stores from summer sun supplied about 80 ug/day."
+  },
+  {
+   "id": "tnut-ishshalom2008",
+   "authors": "Ish-Shalom S, Segal E, Salganik T, et al.",
+   "year": 2008,
+   "title": "Comparison of daily, weekly, and monthly vitamin D3 in ethanol dosing protocols for two months in elderly hip fracture patients.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "18544622",
+   "doi": "10.1210/jc.2008-0241",
+   "type": "rct",
+   "n": "48 women",
+   "finding": "1500 IU daily, 10,500 IU weekly or 45,000 IU every 28 days gave similar 25(OH)D after 2 months; all rose by day 7, but only the monthly dose spiked 25(OH)D and 1,25(OH)2D the next day."
+  },
+  {
+   "id": "tnut-sanders2010",
+   "authors": "Sanders KM, Stuart AL, Williamson EJ, et al.",
+   "year": 2010,
+   "title": "Annual high-dose oral vitamin D and falls and fractures in older women: a randomized controlled trial.",
+   "journal": "JAMA",
+   "pmid": "20460620",
+   "doi": "10.1001/jama.2010.594",
+   "type": "rct",
+   "n": "2256 women aged 70+",
+   "finding": "A single annual 500,000 IU oral dose raised falls (RR 1.15) and fractures (RR 1.26); falls were most increased in the first 3 months after dosing (RR 1.31); 25(OH)D was about 120 nmol/L at 1 month, 90 at 3 months and still above placebo at 12 months."
+  },
+  {
+   "id": "tnut-bischoff2016",
+   "authors": "Bischoff-Ferrari HA, Dawson-Hughes B, Orav EJ, et al.",
+   "year": 2016,
+   "title": "Monthly High-Dose Vitamin D Treatment for the Prevention of Functional Decline: A Randomized Clinical Trial.",
+   "journal": "JAMA Intern Med",
+   "pmid": "26747333",
+   "doi": "10.1001/jamainternmed.2015.7148",
+   "type": "rct",
+   "n": "200 adults aged 70+",
+   "finding": "Monthly 60,000 IU, or 24,000 IU plus calcifediol, reached higher 25(OH)D than 24,000 IU but did not improve leg function and increased falls (67% vs 48%)."
+  },
+  {
+   "id": "tnut-martineau2017",
+   "authors": "Martineau AR, Jolliffe DA, Hooper RL, et al.",
+   "year": 2017,
+   "title": "Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis of individual participant data.",
+   "journal": "BMJ",
+   "pmid": "28202713",
+   "doi": "10.1136/bmj.i6583",
+   "type": "meta-analysis",
+   "n": "10,933 participants (25 RCTs)",
+   "finding": "Vitamin D cut acute respiratory infections overall (OR 0.88); protection was seen with daily or weekly dosing (OR 0.81) but not when bolus doses were given (OR 0.97)."
+  },
+  {
+   "id": "tnut-jolliffe2021",
+   "authors": "Jolliffe DA, Camargo CA Jr, Sluyter JD, et al.",
+   "year": 2021,
+   "title": "Vitamin D supplementation to prevent acute respiratory infections: a systematic review and meta-analysis of aggregate data from randomised controlled trials.",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "33798465",
+   "doi": "10.1016/S2213-8587(21)00051-6",
+   "type": "meta-analysis",
+   "n": "48,488 participants (43 RCTs)",
+   "finding": "Small overall protection against respiratory infection (OR 0.92); daily dosing was protective (OR 0.78) but the formal test for interaction by dosing frequency was not significant."
+  },
+  {
+   "id": "tnut-jolliffe2025",
+   "authors": "Jolliffe DA, Camargo CA Jr, Sluyter JD, et al.",
+   "year": 2025,
+   "title": "Vitamin D supplementation to prevent acute respiratory infections: systematic review and meta-analysis of stratified aggregate data.",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "39993397",
+   "doi": "10.1016/S2213-8587(24)00348-6",
+   "type": "meta-analysis",
+   "n": "61,589 participants",
+   "finding": "After adding new large trials the overall effect on respiratory infection was no longer significant (OR 0.94) and there was no effect modification by dosing frequency."
+  },
+  {
+   "id": "tnut-hollis2013",
+   "authors": "Hollis BW, Wagner CL",
+   "year": 2013,
+   "title": "Clinical review: The role of the parent compound vitamin D with respect to metabolism and function: Why clinical dose intervals can affect clinical outcomes.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "24106283",
+   "doi": "10.1210/jc.2013-2653",
+   "type": "review",
+   "n": null,
+   "finding": "Argues that parent vitamin D has a short circulating half-life and acts as tissue substrate, so daily dosing giving stable levels may work better than large intermittent doses."
+  },
+  {
+   "id": "tnut-keum2022",
+   "authors": "Keum N, Chen QY, Lee DH, et al.",
+   "year": 2022,
+   "title": "Vitamin D supplementation and total cancer incidence and mortality by daily vs. infrequent large-bolus dosing strategies: a meta-analysis of randomised controlled trials.",
+   "journal": "Br J Cancer",
+   "pmid": "35676320",
+   "doi": "10.1038/s41416-022-01850-2",
+   "type": "meta-analysis",
+   "n": "12 RCTs (incidence), 6 RCTs (mortality)",
+   "finding": "Daily vitamin D reduced total cancer mortality (SRR 0.87), whereas infrequent large-bolus dosing did not."
+  },
+  {
+   "id": "tnut-neale2022",
+   "authors": "Neale RE, Baxter C, Romero BD, et al.",
+   "year": 2022,
+   "title": "The D-Health Trial: a randomised controlled trial of the effect of vitamin D on mortality.",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "35026158",
+   "doi": "10.1016/S2213-8587(21)00345-4",
+   "type": "rct",
+   "n": "21,315 adults aged 60-84",
+   "finding": "Monthly 60,000 IU for 5 years did not reduce mortality (HR 1.04); excluding the first 2 years, cancer mortality was numerically higher (HR 1.24)."
+  },
+  {
+   "id": "tnut-thompson2023",
+   "authors": "Thompson B, Waterhouse M, English DR, et al.",
+   "year": 2023,
+   "title": "Vitamin D supplementation and major cardiovascular events: D-Health randomised controlled trial.",
+   "journal": "BMJ",
+   "pmid": "37380191",
+   "doi": "10.1136/bmj-2023-075230",
+   "type": "rct",
+   "n": "21,315 adults aged 60-84",
+   "finding": "Monthly 60,000 IU for up to 5 years gave a borderline reduction in major cardiovascular events (HR 0.91, 0.81-1.01) and fewer myocardial infarctions (HR 0.81)."
+  },
+  {
+   "id": "tnut-manson2019",
+   "authors": "Manson JE, Cook NR, Lee IM, et al.",
+   "year": 2019,
+   "title": "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease.",
+   "journal": "N Engl J Med",
+   "pmid": "30415629",
+   "doi": "10.1056/NEJMoa1809944",
+   "type": "rct",
+   "n": "25,871 adults",
+   "finding": "Daily 2000 IU vitamin D3 for a median 5.3 years did not lower invasive cancer or major cardiovascular events (VITAL)."
+  },
+  {
+   "id": "tnut-blombergjensen2018",
+   "authors": "Blomberg Jensen M, Lawaetz JG, Petersen JH, et al.",
+   "year": 2018,
+   "title": "Effects of Vitamin D Supplementation on Semen Quality, Reproductive Hormones, and Live Birth Rate: A Randomized Clinical Trial.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "29126319",
+   "doi": "10.1210/jc.2017-01656",
+   "type": "rct",
+   "n": "330 infertile men",
+   "finding": "A 300,000 IU loading dose then 1400 IU/day plus calcium for 150 days raised vitamin D but did not improve semen quality; live birth rose in an oligozoospermic subgroup."
+  },
+  {
+   "id": "tnut-chu2018",
+   "authors": "Chu J, Gallos I, Tobias A, et al.",
+   "year": 2018,
+   "title": "Vitamin D and assisted reproductive treatment outcome: a systematic review and meta-analysis.",
+   "journal": "Hum Reprod",
+   "pmid": "29149263",
+   "doi": "10.1093/humrep/dex326",
+   "type": "meta-analysis",
+   "n": "2700 women (11 cohorts)",
+   "finding": "Women replete in vitamin D had higher live birth after ART than deficient or insufficient women (OR 1.33)."
+  },
+  {
+   "id": "tnut-bhagavan2006",
+   "authors": "Bhagavan HN, Chopra RK",
+   "year": 2006,
+   "title": "Coenzyme Q10: absorption, tissue uptake, metabolism and pharmacokinetics.",
+   "journal": "Free Radic Res",
+   "pmid": "16551570",
+   "doi": "10.1080/10715760600617843",
+   "type": "review",
+   "n": null,
+   "finding": "Oral CoQ10 is absorbed slowly; Tmax about 6 h and elimination half-life about 33 h; large doses reach all tissues in animals."
+  },
+  {
+   "id": "tnut-tomono1986",
+   "authors": "Tomono Y, Hasegawa J, Seki T, et al.",
+   "year": 1986,
+   "title": "Pharmacokinetic study of deuterium-labelled coenzyme Q10 in man.",
+   "journal": "Int J Clin Pharmacol Ther Toxicol",
+   "pmid": "3781673",
+   "doi": null,
+   "type": "mechanistic",
+   "n": "16 men",
+   "finding": "Deuterium-labelled CoQ10 peaked at 6.5 h with a second peak at 24 h (liver/VLDL redistribution) and a terminal half-life of 33 h."
+  },
+  {
+   "id": "tnut-martucci2019",
+   "authors": "Martucci A, Reurean-Pintilei D, Manole A",
+   "year": 2019,
+   "title": "Bioavailability and Sustained Plasma Concentrations of CoQ10 in Healthy Volunteers by a Novel Oral Timed-Release Preparation.",
+   "journal": "Nutrients",
+   "pmid": "30823449",
+   "doi": "10.3390/nu11030527",
+   "type": "mechanistic",
+   "n": "24 adults",
+   "finding": "With 100 mg once or twice daily, plasma CoQ10 rose for about 7 days and then stayed high through 4 weeks of dosing."
+  },
+  {
+   "id": "tnut-ikematsu2006",
+   "authors": "Ikematsu H, Nakamura K, Harashima S, et al.",
+   "year": 2006,
+   "title": "Safety assessment of coenzyme Q10 (Kaneka Q10) in healthy subjects: a double-blind, randomized, placebo-controlled trial.",
+   "journal": "Regul Toxicol Pharmacol",
+   "pmid": "16431002",
+   "doi": "10.1016/j.yrtph.2005.12.002",
+   "type": "rct",
+   "n": "88 adults",
+   "finding": "300-900 mg/day for 4 weeks was safe; plasma CoQ10 measured 8 months after stopping was back to pre-treatment levels."
+  },
+  {
+   "id": "tnut-balercia2009",
+   "authors": "Balercia G, Buldreghini E, Vignini A, et al.",
+   "year": 2009,
+   "title": "Coenzyme Q10 treatment in infertile men with idiopathic asthenozoospermia: a placebo-controlled, double-blind randomized trial.",
+   "journal": "Fertil Steril",
+   "pmid": "18395716",
+   "doi": "10.1016/j.fertnstert.2008.02.119",
+   "type": "rct",
+   "n": "60 men (55 completed)",
+   "finding": "200 mg/day CoQ10 for 6 months (with 3 months follow-up) raised CoQ10 and ubiquinol in seminal plasma and sperm cells and improved motility, most in men with low baseline levels."
+  },
+  {
+   "id": "tnut-xu2018",
+   "authors": "Xu Y, Nisenblat V, Lu C, et al.",
+   "year": 2018,
+   "title": "Pretreatment with coenzyme Q10 improves ovarian response and embryo quality in low-prognosis young women with decreased ovarian reserve: a randomized controlled trial.",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "29587861",
+   "doi": "10.1186/s12958-018-0343-0",
+   "type": "rct",
+   "n": "186 women (169 analysed)",
+   "finding": "CoQ10 for 60 days before IVF-ICSI in young poor responders increased oocytes retrieved and high-quality embryos; pregnancy and live birth were not significantly higher."
+  },
+  {
+   "id": "tnut-levine1996",
+   "authors": "Levine M, Conry-Cantilena C, Wang Y, et al.",
+   "year": 1996,
+   "title": "Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "8623000",
+   "doi": "10.1073/pnas.93.8.3704",
+   "type": "cohort",
+   "n": "7 men",
+   "finding": "Inpatient depletion-repletion over 4-6 months: plasma vitamin C rose steeply between 30 and 100 mg/day, white cells saturated at 100 mg, plasma at 1000 mg; bioavailability fell for single doses of 500 mg or more."
+  },
+  {
+   "id": "tnut-levine2001",
+   "authors": "Levine M, Wang Y, Padayatty SJ, et al.",
+   "year": 2001,
+   "title": "A new recommended dietary allowance of vitamin C for healthy young women.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "11504949",
+   "doi": "10.1073/pnas.171318198",
+   "type": "cohort",
+   "n": "healthy young women",
+   "finding": "Women hospitalised about 186 days on 30-2500 mg/day: plasma and cells saturated at 400 mg/day and F2-isoprostanes did not change at any dose."
+  },
+  {
+   "id": "tnut-padayatty2004",
+   "authors": "Padayatty SJ, Sun H, Wang Y, et al.",
+   "year": 2004,
+   "title": "Vitamin C pharmacokinetics: implications for oral and intravenous use.",
+   "journal": "Ann Intern Med",
+   "pmid": "15068981",
+   "doi": "10.7326/0003-4819-140-7-200404060-00010",
+   "type": "mechanistic",
+   "n": "17 adults",
+   "finding": "Oral vitamin C produces tightly controlled plasma levels (1.25 g orally peaked at 135 umol/L vs 885 umol/L intravenously)."
+  },
+  {
+   "id": "tnut-kallner1979",
+   "authors": "Kallner A, Hartmann D, Hornig D",
+   "year": 1979,
+   "title": "Steady-state turnover and body pool of ascorbic acid in man.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "420145",
+   "doi": "10.1093/ajcn/32.3.530",
+   "type": "mechanistic",
+   "n": "healthy non-smoking men",
+   "finding": "Radiolabel study: the half-life of ascorbic acid shortened as intake rose, and the body pool reached about 20 mg/kg at about 100 mg/day."
+  },
+  {
+   "id": "tnut-leonard2005",
+   "authors": "Leonard SW, Paterson E, Atkinson JK, et al.",
+   "year": 2005,
+   "title": "Studies in humans using deuterium-labeled alpha- and gamma-tocopherols demonstrate faster plasma gamma-tocopherol disappearance and greater gamma-metabolite production.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "15749381",
+   "doi": "10.1016/j.freeradbiomed.2004.12.001",
+   "type": "mechanistic",
+   "n": "14 adults",
+   "finding": "Deuterium-labelled tocopherols: plasma alpha-tocopherol half-life 57 h vs 13 h for gamma-tocopherol."
+  },
+  {
+   "id": "tnut-burton1998",
+   "authors": "Burton GW, Traber MG, Acuff RV, et al.",
+   "year": 1998,
+   "title": "Human plasma and tissue alpha-tocopherol concentrations in response to supplementation with deuterated natural and synthetic vitamin E.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "9537614",
+   "doi": "10.1093/ajcn/67.4.669",
+   "type": "mechanistic",
+   "n": "22 surgical patients plus volunteers",
+   "finding": "Labelled vitamin E made up a smaller share of tissue than plasma vitamin E after up to 41 days of dosing; after 361-615 days tissue and plasma shares were similar."
+  },
+  {
+   "id": "tnut-handelman1994",
+   "authors": "Handelman GJ, Epstein WL, Peerson J, et al.",
+   "year": 1994,
+   "title": "Human adipose alpha-tocopherol and gamma-tocopherol kinetics during and after 1 y of alpha-tocopherol supplementation.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "8172086",
+   "doi": "10.1093/ajcn/59.5.1025",
+   "type": "mechanistic",
+   "n": "4 adults",
+   "finding": "Adipose alpha/gamma-tocopherol ratio rose through 1 year of 800 mg/day and fell only gradually over the following year; at least 2 years needed to reach a new steady state."
+  },
+  {
+   "id": "tnut-klein2011",
+   "authors": "Klein EA, Thompson IM Jr, Tangen CM, et al.",
+   "year": 2011,
+   "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT).",
+   "journal": "JAMA",
+   "pmid": "21990298",
+   "doi": "10.1001/jama.2011.1437",
+   "type": "rct",
+   "n": "34,887 men",
+   "finding": "With extended follow-up, 400 IU/day vitamin E increased prostate cancer (HR 1.17) in SELECT."
+  },
+  {
+   "id": "tnut-burri2001",
+   "authors": "Burri BJ, Neidlinger TR, Clifford AJ",
+   "year": 2001,
+   "title": "Serum carotenoid depletion follows first-order kinetics in healthy adult women fed naturally low carotenoid diets.",
+   "journal": "J Nutr",
+   "pmid": "11481400",
+   "doi": "10.1093/jn/131.8.2096",
+   "type": "rct",
+   "n": "19 women",
+   "finding": "On low-carotenoid diets serum carotenoids fell by first-order kinetics with half-lives of 76 days (lutein), 37-45 days (beta-carotene, alpha-carotene, cryptoxanthin, zeaxanthin) and 26 days (lycopene)."
+  },
+  {
+   "id": "tnut-jahns2014",
+   "authors": "Jahns L, Johnson LK, Mayne ST, et al.",
+   "year": 2014,
+   "title": "Skin and plasma carotenoid response to a provided intervention diet high in vegetables and fruit: uptake and depletion kinetics.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "25008856",
+   "doi": "10.3945/ajcn.114.086900",
+   "type": "cohort",
+   "n": "29 adults",
+   "finding": "Skin and plasma carotenoids rose more than 200% after 8 weeks of a high vegetable-fruit diet; plasma returned to baseline about 3 weeks into a low-carotenoid phase, skin only about 10 weeks after the high phase ended."
+  },
+  {
+   "id": "tnut-cohn2004",
+   "authors": "Cohn W, Thürmann P, Tenter U, et al.",
+   "year": 2004,
+   "title": "Comparative multiple dose plasma kinetics of lycopene administered in tomato juice, tomato soup or lycopene tablets.",
+   "journal": "Eur J Nutr",
+   "pmid": "15309451",
+   "doi": "10.1007/s00394-004-0476-0",
+   "type": "rct",
+   "n": "18 adults",
+   "finding": "20 mg/day lycopene for 8 days raised plasma lycopene; effective half-lives were about 5 days (all-E) and 9 days (5-Z)."
+  },
+  {
+   "id": "tnut-diwadkar2003",
+   "authors": "Diwadkar-Navsariwala V, Novotny JA, Gustin DM, et al.",
+   "year": 2003,
+   "title": "A physiological pharmacokinetic model describing the disposition of lycopene in healthy men.",
+   "journal": "J Lipid Res",
+   "pmid": "12867539",
+   "doi": "10.1194/jlr.M300130-JLR200",
+   "type": "mechanistic",
+   "n": "25 men",
+   "finding": "Single lycopene doses of 10-120 mg were absorbed to a similar absolute amount (about 4.7 mg), suggesting saturable absorption; slow-turnover tissues acted as a slowly depleting reservoir."
+  },
+  {
+   "id": "tnut-williams2020",
+   "authors": "Williams EA, Parker M, Robinson A, et al.",
+   "year": 2020,
+   "title": "A randomized placebo-controlled trial to investigate the effect of lactolycopene on semen quality in healthy males.",
+   "journal": "Eur J Nutr",
+   "pmid": "31591650",
+   "doi": "10.1007/s00394-019-02091-5",
+   "type": "rct",
+   "n": "60 men",
+   "finding": "14 mg/day lactolycopene for 12 weeks raised plasma lycopene and improved fast motility and morphology but missed the primary endpoint (motile concentration)."
+  },
+  {
+   "id": "tnut-virtamo2003",
+   "authors": "Virtamo J, Pietinen P, Huttunen JK, et al.",
+   "year": 2003,
+   "title": "Incidence of cancer and mortality following alpha-tocopherol and beta-carotene supplementation: a postintervention follow-up.",
+   "journal": "JAMA",
+   "pmid": "12876090",
+   "doi": "10.1001/jama.290.4.476",
+   "type": "rct",
+   "n": "25,563 men (post-trial follow-up)",
+   "finding": "In ATBC the excess lung cancer and mortality from beta-carotene was no longer evident 4-6 years after supplementation stopped."
+  },
+  {
+   "id": "tnut-goodman2004",
+   "authors": "Goodman GE, Thornquist MD, Balmes J, et al.",
+   "year": 2004,
+   "title": "The Beta-Carotene and Retinol Efficacy Trial: incidence of lung cancer and cardiovascular disease mortality during 6-year follow-up after stopping beta-carotene and retinol supplements.",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "15572756",
+   "doi": "10.1093/jnci/djh320",
+   "type": "rct",
+   "n": "18,314 participants (post-trial follow-up)",
+   "finding": "In CARET the excess lung cancer and all-cause mortality persisted (RR 1.12 and 1.08, no longer significant) through 6 years after stopping, while excess cardiovascular mortality returned to 1.0 rapidly."
+  },
+  {
+   "id": "tnut-hurst2010",
+   "authors": "Hurst R, Armah CN, Dainty JR, et al.",
+   "year": 2010,
+   "title": "Establishing optimal selenium status: results of a randomized, double-blind, placebo-controlled trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20181815",
+   "doi": "10.3945/ajcn.2009.28169",
+   "type": "rct",
+   "n": "119 adults",
+   "finding": "Plasma selenium reached steady state by 10 weeks on 50-200 ug/day selenium yeast; selenoprotein P was maximised with about 50 ug/day added to a 55 ug/day diet."
+  },
+  {
+   "id": "tnut-xia2010",
+   "authors": "Xia Y, Hill KE, Li P, et al.",
+   "year": 2010,
+   "title": "Optimization of selenoprotein P and other plasma selenium biomarkers for the assessment of the selenium nutritional requirement: a placebo-controlled, double-blind study of selenomethionine supplementation in selenium-deficient Chinese subjects.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20573787",
+   "doi": "10.3945/ajcn.2010.29642",
+   "type": "rct",
+   "n": "98 low-selenium adults",
+   "finding": "Over 40 weeks of selenomethionine, selenoprotein P was optimised by about 49 ug/day total intake; plasma selenium itself never plateaued."
+  },
+  {
+   "id": "tnut-burk2006",
+   "authors": "Burk RF, Norsworthy BK, Hill KE, et al.",
+   "year": 2006,
+   "title": "Effects of chemical form of selenium on plasma biomarkers in a high-dose human supplementation trial.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "16614127",
+   "doi": "10.1158/1055-9965.EPI-05-0950",
+   "type": "rct",
+   "n": "selenium-replete adults (10 groups)",
+   "finding": "Selenomethionine and selenium yeast raised plasma selenium dose-dependently over 16 weeks while selenite did not; selenoprotein P and GPx did not respond in replete people."
+  },
+  {
+   "id": "tnut-scott1998",
+   "authors": "Scott R, MacPherson A, Yates RW, et al.",
+   "year": 1998,
+   "title": "The effect of oral selenium supplementation on human sperm motility.",
+   "journal": "Br J Urol",
+   "pmid": "9698665",
+   "doi": "10.1046/j.1464-410x.1998.00683.x",
+   "type": "rct",
+   "n": "69 men",
+   "finding": "Three months of selenium raised plasma selenium and sperm motility in subfertile Scottish men with low selenium status; 11% achieved paternity vs none on placebo."
+  },
+  {
+   "id": "tnut-fischer1984",
+   "authors": "Fischer PW, Giroux A, L'Abbé MR",
+   "year": 1984,
+   "title": "Effect of zinc supplementation on copper status in adult man.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "6486080",
+   "doi": "10.1093/ajcn/40.4.743",
+   "type": "cohort",
+   "n": "healthy men",
+   "finding": "50 mg/day zinc for 6 weeks raised plasma zinc and lowered red-cell Cu,Zn-SOD, significantly by week 6."
+  },
+  {
+   "id": "tnut-schisterman2020",
+   "authors": "Schisterman EF, Sjaarda LA, Clemons T, et al.",
+   "year": 2020,
+   "title": "Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial.",
+   "journal": "JAMA",
+   "pmid": "31910279",
+   "doi": "10.1001/jama.2019.18714",
+   "type": "rct",
+   "n": "2370 couples",
+   "finding": "5 mg folic acid plus 30 mg zinc daily for 6 months in men did not improve semen quality or live birth and slightly raised sperm DNA fragmentation (29.7% vs 27.2%)."
+  },
+  {
+   "id": "tnut-lowe2009",
+   "authors": "Lowe NM, Fekete K, Decsi T",
+   "year": 2009,
+   "title": "Methods of assessment of zinc status in humans: a systematic review.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "19420098",
+   "doi": "10.3945/ajcn.2009.27230G",
+   "type": "meta-analysis",
+   "n": "46 publications",
+   "finding": "Plasma, urinary and hair zinc respond to changes in zinc intake; cell zinc measures do not."
+  },
+  {
+   "id": "tnut-hao2008",
+   "authors": "Hao L, Yang QH, Li Z, et al.",
+   "year": 2008,
+   "title": "Folate status and homocysteine response to folic acid doses and withdrawal among young Chinese women in a large-scale randomized double-blind trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "18689382",
+   "doi": "10.1093/ajcn/88.2.448",
+   "type": "rct",
+   "n": "1108 women",
+   "finding": "Plasma folate plateaued about 3 months into daily folic acid; single vs split daily doses did not matter; after stopping, blood folate fell rapidly over 3 months (faster after higher doses)."
+  },
+  {
+   "id": "tnut-daly1997",
+   "authors": "Daly S, Mills JL, Molloy AM, et al.",
+   "year": 1997,
+   "title": "Minimum effective dose of folic acid for food fortification to prevent neural-tube defects.",
+   "journal": "Lancet",
+   "pmid": "9400511",
+   "doi": "10.1016/S0140-6736(97)07247-4",
+   "type": "rct",
+   "n": "121 women",
+   "finding": "Six months of 100, 200 or 400 ug/day extra folic acid raised red-cell folate by a median 67, 130 and 200 ug/L."
+  },
+  {
+   "id": "tnut-crider2014",
+   "authors": "Crider KS, Devine O, Hao L, et al.",
+   "year": 2014,
+   "title": "Population red blood cell folate concentrations for prevention of neural tube defects: Bayesian model.",
+   "journal": "BMJ",
+   "pmid": "25073783",
+   "doi": "10.1136/bmj.g4554",
+   "type": "cohort",
+   "n": "247,831 women plus 1194 trial participants",
+   "finding": "Neural tube defect risk fell as red-cell folate at neural tube closure (day 28 of gestation) rose, levelling off above about 1000 nmol/L."
+  },
+  {
+   "id": "tnut-gaskins2015",
+   "authors": "Gaskins AJ, Chiu YH, Williams PL, et al.",
+   "year": 2015,
+   "title": "Association between serum folate and vitamin B-12 and outcomes of assisted reproductive technologies.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "26354529",
+   "doi": "10.3945/ajcn.115.112185",
+   "type": "cohort",
+   "n": "100 women, 154 ART cycles",
+   "finding": "Women with serum folate and B12 above the median before ART had about 26 percentage points higher live birth."
+  },
+  {
+   "id": "tnut-smith2010",
+   "authors": "Smith AD, Smith SM, de Jager CA, et al.",
+   "year": 2010,
+   "title": "Homocysteine-lowering by B vitamins slows the rate of accelerated brain atrophy in mild cognitive impairment: a randomized controlled trial.",
+   "journal": "PLoS One",
+   "pmid": "20838622",
+   "doi": "10.1371/journal.pone.0012244",
+   "type": "rct",
+   "n": "271 adults with MCI",
+   "finding": "Folic acid 0.8 mg + B12 0.5 mg + B6 20 mg daily for 24 months slowed brain atrophy (0.76% vs 1.08% per year), most in those with homocysteine above 13 umol/L."
+  },
+  {
+   "id": "tnut-moretti2015",
+   "authors": "Moretti D, Goede JS, Zeder C, et al.",
+   "year": 2015,
+   "title": "Oral iron supplements increase hepcidin and decrease iron absorption from daily or twice-daily doses in iron-depleted young women.",
+   "journal": "Blood",
+   "pmid": "26289639",
+   "doi": "10.1182/blood-2015-05-642223",
+   "type": "rct",
+   "n": "54 iron-depleted women",
+   "finding": "Doses of 60 mg iron or more raised hepcidin 24 h later and cut absorption of the next day's dose by 35-45%; twice-daily dosing added little."
+  },
+  {
+   "id": "tnut-stoffel2017",
+   "authors": "Stoffel NU, Cercamondi CI, Brittenham G, et al.",
+   "year": 2017,
+   "title": "Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials.",
+   "journal": "Lancet Haematol",
+   "pmid": "29032957",
+   "doi": "10.1016/S2352-3026(17)30182-5",
+   "type": "rct",
+   "n": "60 iron-depleted women",
+   "finding": "Alternate-day 60 mg iron gave higher fractional and total absorption than the same number of consecutive-day doses; splitting 120 mg into two doses did not help and raised hepcidin."
+  },
+  {
+   "id": "tnut-stoffel2020",
+   "authors": "Stoffel NU, Zeder C, Brittenham GM, et al.",
+   "year": 2020,
+   "title": "Iron absorption from supplements is greater with alternate day than with consecutive day dosing in iron-deficient anemic women.",
+   "journal": "Haematologica",
+   "pmid": "31413088",
+   "doi": "10.3324/haematol.2019.220830",
+   "type": "cohort",
+   "n": "19 women with iron-deficiency anaemia",
+   "finding": "Even in anaemia, 100-200 mg iron raised hepcidin for 24 h; absorption on alternate days was 40-50% higher than on the second consecutive day."
+  },
+  {
+   "id": "tnut-vonsiebenthal2023",
+   "authors": "von Siebenthal HK, Gessler S, Vallelian F, et al.",
+   "year": 2023,
+   "title": "Alternate day versus consecutive day oral iron supplementation in iron-depleted women: a randomized double-blind placebo-controlled study.",
+   "journal": "EClinicalMedicine",
+   "pmid": "38021373",
+   "doi": "10.1016/j.eclinm.2023.102286",
+   "type": "rct",
+   "n": "150 iron-depleted women",
+   "finding": "At equal total doses, alternate-day 100 mg iron over 180 days gave the same ferritin as daily dosing over 90 days, fewer gut side effects and less iron deficiency at 6 months (3.0% vs 11.4%)."
+  },
+  {
+   "id": "tnut-pasupathy2023",
+   "authors": "Pasupathy E, Kandasamy R, Thomas K, et al.",
+   "year": 2023,
+   "title": "Alternate day versus daily oral iron for treatment of iron deficiency anemia: a randomized controlled trial.",
+   "journal": "Sci Rep",
+   "pmid": "36725875",
+   "doi": "10.1038/s41598-023-29034-9",
+   "type": "rct",
+   "n": "200 anaemic adults",
+   "finding": "120 mg iron on alternate days and 60 mg daily raised haemoglobin similarly over 8 weeks."
+  },
+  {
+   "id": "tnut-dhanvijay2025",
+   "authors": "Dhanvijay AD, Patidar V, Singh J, et al.",
+   "year": 2025,
+   "title": "Efficacy of daily versus alternate day oral iron supplementation for management of anaemia among general population: a systematic review and meta-analysis.",
+   "journal": "BMC Pharmacol Toxicol",
+   "pmid": "40841680",
+   "doi": "10.1186/s40360-025-00984-2",
+   "type": "meta-analysis",
+   "n": "1014 participants (11 RCTs)",
+   "finding": "Daily and alternate-day oral iron were comparably effective for anaemia (Hb MD 0.28 g/dL favouring daily, not significant), with alternate-day somewhat better tolerated; very low certainty."
+  },
+  {
+   "id": "tnut-vaucher2012",
+   "authors": "Vaucher P, Druais PL, Waldvogel S, et al.",
+   "year": 2012,
+   "title": "Effect of iron supplementation on fatigue in nonanemic menstruating women with low ferritin: a randomized controlled trial.",
+   "journal": "CMAJ",
+   "pmid": "22777991",
+   "doi": "10.1503/cmaj.110950",
+   "type": "rct",
+   "n": "198 women",
+   "finding": "80 mg/day iron for 12 weeks in fatigued non-anaemic women with ferritin below 50 ug/L reduced fatigue (48% vs 29%) and raised ferritin by 11.4 ug/L; authors suggest checking blood markers at 6 weeks."
+  },
+  {
+   "id": "tnut-kiss2015",
+   "authors": "Kiss JE, Brambilla D, Glynn SA, et al.",
+   "year": 2015,
+   "title": "Oral iron supplementation after blood donation: a randomized clinical trial.",
+   "journal": "JAMA",
+   "pmid": "25668261",
+   "doi": "10.1001/jama.2015.119",
+   "type": "rct",
+   "n": "215 blood donors",
+   "finding": "After one donation, 37.5 mg/day iron cut time to 80% haemoglobin recovery to about 32 days (vs 78-158 without); without iron 67% had not recovered iron stores by 168 days."
+  },
+  {
+   "id": "tnut-mast2020",
+   "authors": "Mast AE, Szabo A, Stone M, et al.",
+   "year": 2020,
+   "title": "The benefits of iron supplementation following blood donation vary with baseline iron status.",
+   "journal": "Am J Hematol",
+   "pmid": "32243609",
+   "doi": "10.1002/ajh.25800",
+   "type": "rct",
+   "n": "193 blood donors",
+   "finding": "Iron supplements sped recovery mainly when ferritin was below 50 ng/mL; full recovery from donation took more than 100 days even with iron."
+  },
+  {
+   "id": "tnut-lund1999",
+   "authors": "Lund EK, Wharf SG, Fairweather-Tait SJ, et al.",
+   "year": 1999,
+   "title": "Oral ferrous sulfate supplements increase the free radical-generating capacity of feces from healthy volunteers.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "9989688",
+   "doi": "10.1093/ajcn/69.2.250",
+   "type": "cohort",
+   "n": "18 adults",
+   "finding": "19 mg/day ferrous sulfate for 2 weeks raised faecal free iron and faecal free-radical generation (about 40%); faecal iron returned to baseline within 2 weeks of stopping."
+  },
+  {
+   "id": "tnut-jaeggi2015",
+   "authors": "Jaeggi T, Kortman GA, Moretti D, et al.",
+   "year": 2015,
+   "title": "Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation in Kenyan infants.",
+   "journal": "Gut",
+   "pmid": "25143342",
+   "doi": "10.1136/gutjnl-2014-307720",
+   "type": "rct",
+   "n": "115 infants",
+   "finding": "Iron-containing micronutrient powders for 4 months shifted the infant gut microbiome toward enterobacteria and pathogens and raised faecal calprotectin."
+  },
+  {
+   "id": "tnut-zacharski2007",
+   "authors": "Zacharski LR, Chow BK, Howes PS, et al.",
+   "year": 2007,
+   "title": "Reduction of iron stores and cardiovascular outcomes in patients with peripheral arterial disease: a randomized controlled trial.",
+   "journal": "JAMA",
+   "pmid": "17299195",
+   "doi": "10.1001/jama.297.6.603",
+   "type": "rct",
+   "n": "1277 patients with PAD",
+   "finding": "Reducing iron stores by phlebotomy every 6 months for several years did not significantly reduce mortality or cardiovascular events."
+  },
+  {
+   "id": "tnut-zhang2016",
+   "authors": "Zhang X, Li Y, Del Gobbo LC, et al.",
+   "year": 2016,
+   "title": "Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of Randomized Double-Blind Placebo-Controlled Trials.",
+   "journal": "Hypertension",
+   "pmid": "27402922",
+   "doi": "10.1161/HYPERTENSIONAHA.116.07664",
+   "type": "meta-analysis",
+   "n": "2028 participants (34 RCTs)",
+   "finding": "Magnesium (median 368 mg/day, median 3 months) lowered BP by about 2/1.8 mmHg; 300 mg/day or 1 month was enough to raise serum magnesium and lower BP."
+  },
+  {
+   "id": "tnut-nielsen2010",
+   "authors": "Nielsen FH, Johnson LK, Zeng H",
+   "year": 2010,
+   "title": "Magnesium supplementation improves indicators of low magnesium status and inflammatory stress in adults older than 51 years with poor quality sleep.",
+   "journal": "Magnes Res",
+   "pmid": "21199787",
+   "doi": "10.1684/mrh.2010.0220",
+   "type": "rct",
+   "n": "100 adults aged 51+",
+   "finding": "320 mg/day magnesium for 7 weeks raised serum magnesium only in those who started deficient and lowered CRP only in those with CRP above 3 mg/L."
+  },
+  {
+   "id": "tnut-sekhar2011",
+   "authors": "Sekhar RV, Patel SG, Guthikonda AP, et al.",
+   "year": 2011,
+   "title": "Deficient synthesis of glutathione underlies oxidative stress in aging and can be corrected by dietary cysteine and glycine supplementation.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "21795440",
+   "doi": "10.3945/ajcn.110.003483",
+   "type": "cohort",
+   "n": "16 adults (8 elderly)",
+   "finding": "Two weeks of cysteine (as NAC) plus glycine raised red-cell glutathione 95% and lowered oxidative stress in older adults to young-adult levels."
+  },
+  {
+   "id": "tnut-kumar2021",
+   "authors": "Kumar P, Liu C, Hsu JW, et al.",
+   "year": 2021,
+   "title": "Glycine and N-acetylcysteine (GlyNAC) supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction, inflammation, insulin resistance, endothelial dysfunction, genotoxicity, muscle strength, and cognition: Results of a pilot clinical trial.",
+   "journal": "Clin Transl Med",
+   "pmid": "33783984",
+   "doi": "10.1002/ctm2.372",
+   "type": "cohort",
+   "n": "16 adults (8 older)",
+   "finding": "Open-label GlyNAC for 24 weeks improved glutathione, oxidative stress and function in older adults; benefits declined 12 weeks after stopping."
+  },
+  {
+   "id": "tnut-kumar2023",
+   "authors": "Kumar P, Liu C, Suliburk J, et al.",
+   "year": 2023,
+   "title": "Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial.",
+   "journal": "J Gerontol A Biol Sci Med Sci",
+   "pmid": "35975308",
+   "doi": "10.1093/gerona/glac135",
+   "type": "rct",
+   "n": "36 adults",
+   "finding": "GlyNAC for 16 weeks (measured at 2 and 16 weeks) improved glutathione deficiency, oxidative stress and physical function vs alanine placebo in older adults."
+  },
+  {
+   "id": "tnut-lizzo2022",
+   "authors": "Lizzo G, Migliavacca E, Lamers D, et al.",
+   "year": 2022,
+   "title": "A Randomized Controlled Clinical Trial in Healthy Older Adults to Determine Efficacy of Glycine and N-Acetylcysteine Supplementation on Glutathione Redox Status and Oxidative Damage.",
+   "journal": "Front Aging",
+   "pmid": "35821844",
+   "doi": "10.3389/fragi.2022.852569",
+   "type": "rct",
+   "n": "114 older adults",
+   "finding": "2.4-7.2 g/day GlyNAC for 2 weeks did not raise glutathione or GSH:GSSG overall; post hoc, people with high oxidative stress and low glutathione rose."
+  },
+  {
+   "id": "tnut-paschalis2018",
+   "authors": "Paschalis V, Theodorou AA, Margaritelis NV, et al.",
+   "year": 2018,
+   "title": "N-acetylcysteine supplementation increases exercise performance and reduces oxidative stress only in individuals with low levels of glutathione.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "29233792",
+   "doi": "10.1016/j.freeradbiomed.2017.12.007",
+   "type": "rct",
+   "n": "36 adults",
+   "finding": "NAC 600 mg twice daily for 30 days restored glutathione, lowered oxidative stress and improved performance only in people with low baseline glutathione."
+  },
+  {
+   "id": "tnut-holdiness1991",
+   "authors": "Holdiness MR",
+   "year": 1991,
+   "title": "Clinical pharmacokinetics of N-acetylcysteine.",
+   "journal": "Clin Pharmacokinet",
+   "pmid": "2029805",
+   "doi": "10.2165/00003088-199120020-00004",
+   "type": "review",
+   "n": null,
+   "finding": "Oral NAC peaks in plasma within 1-2 h and has a terminal half-life of about 6 h."
+  },
+  {
+   "id": "tnut-jannatifar2019",
+   "authors": "Jannatifar R, Parivar K, Roodbari NH, et al.",
+   "year": 2019,
+   "title": "Effects of N-acetyl-cysteine supplementation on sperm quality, chromatin integrity and level of oxidative stress in infertile men.",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "30771790",
+   "doi": "10.1186/s12958-019-0468-9",
+   "type": "cohort",
+   "n": "50 infertile men",
+   "finding": "Uncontrolled before-after study: NAC 600 mg/day for 3 months improved sperm count, motility, DNA fragmentation and protamination."
+  },
+  {
+   "id": "tnut-bannai2012",
+   "authors": "Bannai M, Kawai N, Ono K, et al.",
+   "year": 2012,
+   "title": "The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers.",
+   "journal": "Front Neurol",
+   "pmid": "22529837",
+   "doi": "10.3389/fneur.2012.00061",
+   "type": "rct",
+   "n": "healthy sleep-restricted volunteers",
+   "finding": "3 g glycine before bed during 3 nights of sleep restriction reduced next-day fatigue and improved psychomotor vigilance."
+  },
+  {
+   "id": "tnut-richie2015",
+   "authors": "Richie JP Jr, Nichenametla S, Neidig W, et al.",
+   "year": 2015,
+   "title": "Randomized controlled trial of oral glutathione supplementation on body stores of glutathione.",
+   "journal": "Eur J Nutr",
+   "pmid": "24791752",
+   "doi": "10.1007/s00394-014-0706-z",
+   "type": "rct",
+   "n": "54 adults",
+   "finding": "Oral glutathione 250-1000 mg/day raised blood glutathione at 1, 3 and 6 months (30-35% at 6 months on the high dose); levels returned to baseline after a 1-month washout."
+  },
+  {
+   "id": "tnut-allen2011",
+   "authors": "Allen J, Bradley RD",
+   "year": 2011,
+   "title": "Effects of oral glutathione supplementation on systemic oxidative stress biomarkers in human volunteers.",
+   "journal": "J Altern Complement Med",
+   "pmid": "21875351",
+   "doi": "10.1089/acm.2010.0716",
+   "type": "rct",
+   "n": "40 adults",
+   "finding": "Oral glutathione 1 g/day for 4 weeks did not change glutathione status or oxidative-stress markers."
+  },
+  {
+   "id": "tnut-hong2005",
+   "authors": "Hong SY, Gil HW, Yang JO, et al.",
+   "year": 2005,
+   "title": "Pharmacokinetics of glutathione and its metabolites in normal subjects.",
+   "journal": "J Korean Med Sci",
+   "pmid": "16224142",
+   "doi": "10.3346/jkms.2005.20.5.721",
+   "type": "mechanistic",
+   "n": "healthy volunteers",
+   "finding": "Kinetic modelling after IV glutathione suggested redosing every 205-427 minutes to keep its cysteine and methionine metabolites above target levels."
+  },
+  {
+   "id": "tnut-hultman1996",
+   "authors": "Hultman E, Söderlund K, Timmons JA, et al.",
+   "year": 1996,
+   "title": "Muscle creatine loading in men.",
+   "journal": "J Appl Physiol (1985)",
+   "pmid": "8828669",
+   "doi": "10.1152/jappl.1996.81.1.232",
+   "type": "cohort",
+   "n": "31 men",
+   "finding": "20 g/day for 6 days raised muscle creatine about 20%, as did 3 g/day over 28 days; after stopping, muscle creatine was back to baseline by 30 days."
+  },
+  {
+   "id": "tnut-harris1992",
+   "authors": "Harris RC, Söderlund K, Hultman E",
+   "year": 1992,
+   "title": "Elevation of creatine in resting and exercised muscle of normal subjects by creatine supplementation.",
+   "journal": "Clin Sci (Lond)",
+   "pmid": "1327657",
+   "doi": "10.1042/cs0830367",
+   "type": "cohort",
+   "n": "17 adults",
+   "finding": "Creatine uptake into muscle was greatest in the first 2 days of high-dose supplementation and largest in people with low starting levels."
+  },
+  {
+   "id": "tnut-ghandforoush2010",
+   "authors": "Ghandforoush-Sattari M, Mashayekhi S, Krishna CV, et al.",
+   "year": 2010,
+   "title": "Pharmacokinetics of oral taurine in healthy volunteers.",
+   "journal": "J Amino Acids",
+   "pmid": "22331997",
+   "doi": "10.4061/2010/346237",
+   "type": "mechanistic",
+   "n": "8 men",
+   "finding": "4 g oral taurine peaked in plasma at 1.5 h with an elimination half-life of about 1 h."
+  },
+  {
+   "id": "tnut-galloway2008",
+   "authors": "Galloway SD, Talanian JL, Shoveller AK, et al.",
+   "year": 2008,
+   "title": "Seven days of oral taurine supplementation does not increase muscle taurine content or alter substrate metabolism during prolonged exercise in humans.",
+   "journal": "J Appl Physiol (1985)",
+   "pmid": "18583380",
+   "doi": "10.1152/japplphysiol.90525.2008",
+   "type": "cohort",
+   "n": "15 men",
+   "finding": "5 g/day taurine for 7 days produced large plasma peaks but did not raise muscle taurine content."
+  },
+  {
+   "id": "tnut-sun2016",
+   "authors": "Sun Q, Wang B, Li Y, et al.",
+   "year": 2016,
+   "title": "Taurine Supplementation Lowers Blood Pressure and Improves Vascular Function in Prehypertension: Randomized, Double-Blind, Placebo-Controlled Study.",
+   "journal": "Hypertension",
+   "pmid": "26781281",
+   "doi": "10.1161/HYPERTENSIONAHA.115.06624",
+   "type": "rct",
+   "n": "120 adults with prehypertension",
+   "finding": "1.6 g/day taurine for 12 weeks lowered clinic BP by 7.2/4.7 vs 2.6/1.3 mmHg on placebo."
+  },
+  {
+   "id": "tnut-rebouche2004",
+   "authors": "Rebouche CJ",
+   "year": 2004,
+   "title": "Kinetics, pharmacokinetics, and regulation of L-carnitine and acetyl-L-carnitine metabolism.",
+   "journal": "Ann N Y Acad Sci",
+   "pmid": "15591001",
+   "doi": "10.1196/annals.1320.003",
+   "type": "review",
+   "n": null,
+   "finding": "Oral L-carnitine supplements are 14-18% bioavailable; whole-body carnitine turnover is 38-119 h, mostly in a large slow muscle pool, and high plasma levels are cleared rapidly by the kidney."
+  },
+  {
+   "id": "tnut-wall2011",
+   "authors": "Wall BT, Stephens FB, Constantin-Teodosiu D, et al.",
+   "year": 2011,
+   "title": "Chronic oral ingestion of L-carnitine and carbohydrate increases muscle carnitine content and alters muscle fuel metabolism during exercise in humans.",
+   "journal": "J Physiol",
+   "pmid": "21224234",
+   "doi": "10.1113/jphysiol.2010.201343",
+   "type": "rct",
+   "n": "14 men",
+   "finding": "2 g L-carnitine plus 80 g carbohydrate twice daily raised muscle carnitine 21%, with all significant effects seen only after 24 weeks."
+  },
+  {
+   "id": "tnut-lenzi2003",
+   "authors": "Lenzi A, Lombardo F, Sgrò P, et al.",
+   "year": 2003,
+   "title": "Use of carnitine therapy in selected cases of male factor infertility: a double-blind crossover trial.",
+   "journal": "Fertil Steril",
+   "pmid": "12568837",
+   "doi": "10.1016/s0015-0282(02)04679-4",
+   "type": "rct",
+   "n": "100 men (86 completed)",
+   "finding": "Crossover with 2-month washout and 2-month treatment periods: L-carnitine 2 g/day improved sperm concentration and motility more than placebo."
+  },
+  {
+   "id": "tnut-lenzi2004",
+   "authors": "Lenzi A, Sgrò P, Salacone P, et al.",
+   "year": 2004,
+   "title": "A placebo-controlled double-blind randomized trial of the use of combined l-carnitine and l-acetyl-carnitine treatment in men with asthenozoospermia.",
+   "journal": "Fertil Steril",
+   "pmid": "15193480",
+   "doi": "10.1016/j.fertnstert.2003.10.034",
+   "type": "rct",
+   "n": "60 men (56 completed)",
+   "finding": "L-carnitine 2 g plus acetyl-L-carnitine 1 g daily for 6 months improved sperm motility, most in men with the lowest baseline values."
+  },
+  {
+   "id": "tnut-baguet2009",
+   "authors": "Baguet A, Reyngoudt H, Pottier A, et al.",
+   "year": 2009,
+   "title": "Carnosine loading and washout in human skeletal muscles.",
+   "journal": "J Appl Physiol (1985)",
+   "pmid": "19131472",
+   "doi": "10.1152/japplphysiol.91357.2008",
+   "type": "cohort",
+   "n": "15 men",
+   "finding": "After 5-6 weeks of beta-alanine, muscle carnosine fell only 2-4% per week, returning to baseline in 6-15 weeks."
+  },
+  {
+   "id": "tnut-airhart2017",
+   "authors": "Airhart SE, Shireman LM, Risler LJ, et al.",
+   "year": 2017,
+   "title": "An open-label, non-randomized study of the pharmacokinetics of the nutritional supplement nicotinamide riboside (NR) and its effects on blood NAD+ levels in healthy volunteers.",
+   "journal": "PLoS One",
+   "pmid": "29211728",
+   "doi": "10.1371/journal.pone.0186459",
+   "type": "mechanistic",
+   "n": "8 adults",
+   "finding": "NR titrated to 1000 mg twice daily doubled whole-blood NAD+ by day 9."
+  },
+  {
+   "id": "tnut-trammell2016",
+   "authors": "Trammell SA, Schmidt MS, Weidemann BJ, et al.",
+   "year": 2016,
+   "title": "Nicotinamide riboside is uniquely and orally bioavailable in mice and humans.",
+   "journal": "Nat Commun",
+   "pmid": "27721479",
+   "doi": "10.1038/ncomms12948",
+   "type": "mechanistic",
+   "n": "healthy adults",
+   "finding": "Single 100-1000 mg NR doses raised the blood NAD+ metabolome dose-dependently within hours."
+  },
+  {
+   "id": "tnut-martens2018",
+   "authors": "Martens CR, Denman BA, Mazzo MR, et al.",
+   "year": 2018,
+   "title": "Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD(+) in healthy middle-aged and older adults.",
+   "journal": "Nat Commun",
+   "pmid": "29599478",
+   "doi": "10.1038/s41467-018-03421-7",
+   "type": "rct",
+   "n": "healthy middle-aged and older adults",
+   "finding": "In a 2 x 6-week crossover, NR 1000 mg/day was well tolerated and raised NAD+ metabolism."
+  },
+  {
+   "id": "tnut-yoshino2021",
+   "authors": "Yoshino M, Yoshino J, Kayser BD, et al.",
+   "year": 2021,
+   "title": "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women.",
+   "journal": "Science",
+   "pmid": "33888596",
+   "doi": "10.1126/science.abe9985",
+   "type": "rct",
+   "n": "postmenopausal women with prediabetes",
+   "finding": "NMN 250 mg/day for 10 weeks raised muscle insulin sensitivity and signalling vs placebo."
+  },
+  {
+   "id": "tnut-irie2020",
+   "authors": "Irie J, Inagaki E, Fujita M, et al.",
+   "year": 2020,
+   "title": "Effect of oral administration of nicotinamide mononucleotide on clinical parameters and nicotinamide metabolite levels in healthy Japanese men.",
+   "journal": "Endocr J",
+   "pmid": "31685720",
+   "doi": "10.1507/endocrj.EJ19-0313",
+   "type": "mechanistic",
+   "n": "10 men",
+   "finding": "Single 100-500 mg NMN doses were safe and raised NAD+ breakdown products in plasma within 5 hours."
+  },
+  {
+   "id": "tnut-andreux2019",
+   "authors": "Andreux PA, Blanco-Bose W, Ryu D, et al.",
+   "year": 2019,
+   "title": "The mitophagy activator urolithin A is safe and induces a molecular signature of improved mitochondrial and cellular health in humans.",
+   "journal": "Nat Metab",
+   "pmid": "32694802",
+   "doi": "10.1038/s42255-019-0073-4",
+   "type": "rct",
+   "n": "healthy sedentary elderly",
+   "finding": "Single and 4-week doses of urolithin A were safe and bioavailable; 500-1000 mg for 4 weeks changed plasma acylcarnitines and muscle mitochondrial gene expression."
+  },
+  {
+   "id": "tnut-liu2022",
+   "authors": "Liu S, D'Amico D, Shankland E, et al.",
+   "year": 2022,
+   "title": "Effect of Urolithin A Supplementation on Muscle Endurance and Mitochondrial Health in Older Adults: A Randomized Clinical Trial.",
+   "journal": "JAMA Netw Open",
+   "pmid": "35050355",
+   "doi": "10.1001/jamanetworkopen.2021.44279",
+   "type": "rct",
+   "n": "66 older adults",
+   "finding": "1000 mg/day urolithin A improved hand and leg muscle endurance at 2 months and lowered acylcarnitines and CRP at 4 months, but not 6-minute walk or ATP production."
+  },
+  {
+   "id": "tnut-singh2022",
+   "authors": "Singh A, D'Amico D, Andreux PA, et al.",
+   "year": 2022,
+   "title": "Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults.",
+   "journal": "Cell Rep Med",
+   "pmid": "35584623",
+   "doi": "10.1016/j.xcrm.2022.100633",
+   "type": "rct",
+   "n": "middle-aged adults",
+   "finding": "Urolithin A for 4 months improved muscle strength (~12%) but not peak power output, the primary endpoint."
+  },
+  {
+   "id": "tnut-whitfield2025",
+   "authors": "Whitfield J, McKay AKA, Tee N, et al.",
+   "year": 2025,
+   "title": "Evaluating the Impact of Urolithin A Supplementation on Running Performance, Recovery, and Mitochondrial Biomarkers in Highly Trained Male Distance Runners.",
+   "journal": "Sports Med",
+   "pmid": "40839339",
+   "doi": "10.1007/s40279-025-02292-5",
+   "type": "rct",
+   "n": "42 trained runners",
+   "finding": "1000 mg/day urolithin A for 4 weeks did not improve running performance but lowered perceived exertion and creatine kinase."
+  },
+  {
+   "id": "tnut-schwarz2022",
+   "authors": "Schwarz C, Benson GS, Horn N, et al.",
+   "year": 2022,
+   "title": "Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial.",
+   "journal": "JAMA Netw Open",
+   "pmid": "35616942",
+   "doi": "10.1001/jamanetworkopen.2022.13875",
+   "type": "rct",
+   "n": "100 older adults",
+   "finding": "0.9 mg/day spermidine from wheat germ for 12 months did not change memory or biomarkers."
+  },
+  {
+   "id": "tnut-senekowitsch2023",
+   "authors": "Senekowitsch S, Wietkamp E, Grimm M, et al.",
+   "year": 2023,
+   "title": "High-Dose Spermidine Supplementation Does Not Increase Spermidine Levels in Blood Plasma and Saliva of Healthy Adults: A Randomized Placebo-Controlled Pharmacokinetic and Metabolomic Study.",
+   "journal": "Nutrients",
+   "pmid": "37111071",
+   "doi": "10.3390/nu15081852",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "15 mg/day spermidine for 5 days raised plasma spermine but not spermidine."
+  },
+  {
+   "id": "tnut-rossman2018",
+   "authors": "Rossman MJ, Santos-Parker JR, Steward CAC, et al.",
+   "year": 2018,
+   "title": "Chronic Supplementation With a Mitochondrial Antioxidant (MitoQ) Improves Vascular Function in Healthy Older Adults.",
+   "journal": "Hypertension",
+   "pmid": "29661838",
+   "doi": "10.1161/HYPERTENSIONAHA.117.10787",
+   "type": "rct",
+   "n": "20 older adults",
+   "finding": "MitoQ 20 mg/day for 6 weeks raised flow-mediated dilation 42% vs placebo in a crossover trial."
+  },
+  {
+   "id": "tnut-hickson2019",
+   "authors": "Hickson LJ, Langhi Prata LGP, Bobart SA, et al.",
+   "year": 2019,
+   "title": "Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease.",
+   "journal": "EBioMedicine",
+   "pmid": "31542391",
+   "doi": "10.1016/j.ebiom.2019.08.069",
+   "type": "cohort",
+   "n": "9 adults with diabetic kidney disease",
+   "finding": "Three days of dasatinib plus quercetin reduced adipose and skin senescent cells and circulating SASP factors measured 11 days later; the drugs have elimination half-lives under 11 h ('hit and run')."
+  },
+  {
+   "id": "tnut-justice2019",
+   "authors": "Justice JN, Nambiar AM, Tchkonia T, et al.",
+   "year": 2019,
+   "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study.",
+   "journal": "EBioMedicine",
+   "pmid": "30616998",
+   "doi": "10.1016/j.ebiom.2018.12.052",
+   "type": "cohort",
+   "n": "14 adults with IPF",
+   "finding": "Intermittent dasatinib plus quercetin (3 days a week for 3 weeks) was feasible and improved physical function in an open-label pilot."
+  },
+  {
+   "id": "tnut-kirkland2020",
+   "authors": "Kirkland JL, Tchkonia T",
+   "year": 2020,
+   "title": "Senolytic drugs: from discovery to translation.",
+   "journal": "J Intern Med",
+   "pmid": "32686219",
+   "doi": "10.1111/joim.13141",
+   "type": "review",
+   "n": null,
+   "finding": "Because senescent cells take weeks to reaccumulate, senolytics can be given intermittently ('hit and run'); it is too early to use them outside trials."
+  },
+  {
+   "id": "tnut-farr2024",
+   "authors": "Farr JN, Atkinson EJ, Achenbach SJ, et al.",
+   "year": 2024,
+   "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial.",
+   "journal": "Nat Med",
+   "pmid": "38956196",
+   "doi": "10.1038/s41591-024-03096-2",
+   "type": "rct",
+   "n": "60 postmenopausal women",
+   "finding": "Intermittent dasatinib plus quercetin did not change the bone-resorption marker at 20 weeks; the formation marker P1NP rose at 2 and 4 weeks but not at 20 weeks."
+  },
+  {
+   "id": "tnut-yousefzadeh2018",
+   "authors": "Yousefzadeh MJ, Zhu Y, McGowan SJ, et al.",
+   "year": 2018,
+   "title": "Fisetin is a senotherapeutic that extends health and lifespan.",
+   "journal": "EBioMedicine",
+   "pmid": "30279143",
+   "doi": "10.1016/j.ebiom.2018.09.015",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Acute or intermittent fisetin reduced senescence markers in mice and extended median and maximum lifespan when started late in life."
+  },
+  {
+   "id": "tnut-harrison2024",
+   "authors": "Harrison DE, Strong R, Reifsnyder P, et al.",
+   "year": 2024,
+   "title": "Astaxanthin and meclizine extend lifespan in UM-HET3 male mice; fisetin, SG1002 (hydrogen sulfide donor), dimethyl fumarate, mycophenolic acid, and 4-phenylbutyrate do not significantly affect lifespan in either sex at the doses and schedules used.",
+   "journal": "Geroscience",
+   "pmid": "38041783",
+   "doi": "10.1007/s11357-023-01011-0",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In the NIA Interventions Testing Program, fisetin did not extend mouse lifespan at the dose and schedule tested; astaxanthin extended male median lifespan 12%."
+  },
+  {
+   "id": "tnut-egert2008",
+   "authors": "Egert S, Wolffram S, Bosy-Westphal A, et al.",
+   "year": 2008,
+   "title": "Daily quercetin supplementation dose-dependently increases plasma quercetin concentrations in healthy humans.",
+   "journal": "J Nutr",
+   "pmid": "18716159",
+   "doi": "10.1093/jn/138.9.1615",
+   "type": "rct",
+   "n": "35 adults",
+   "finding": "50-150 mg/day quercetin for 2 weeks raised fasting plasma quercetin dose-dependently (up to 570%) without changing oxidative or inflammatory markers."
+  },
+  {
+   "id": "tnut-graefe2001",
+   "authors": "Graefe EU, Wittig J, Mueller S, et al.",
+   "year": 2001,
+   "title": "Pharmacokinetics and bioavailability of quercetin glycosides in humans.",
+   "journal": "J Clin Pharmacol",
+   "pmid": "11361045",
+   "doi": "10.1177/00912700122010366",
+   "type": "rct",
+   "n": "12 adults",
+   "finding": "Quercetin glucosides peaked in plasma at about 0.7 h (rutin 4-7 h) and had a terminal half-life of about 11 h."
+  },
+  {
+   "id": "tnut-serban2016",
+   "authors": "Serban MC, Sahebkar A, Zanchetti A, et al.",
+   "year": 2016,
+   "title": "Effects of Quercetin on Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "journal": "J Am Heart Assoc",
+   "pmid": "27405810",
+   "doi": "10.1161/JAHA.115.002713",
+   "type": "meta-analysis",
+   "n": "587 participants (7 RCTs)",
+   "finding": "Quercetin lowered systolic/diastolic BP by about 3/2.6 mmHg, with effects at 500 mg/day or more."
+  },
+  {
+   "id": "tnut-krishnakumar2022",
+   "authors": "Krishnakumar IM, Jaja-Chimedza A, Joseph A, et al.",
+   "year": 2022,
+   "title": "Enhanced bioavailability and pharmacokinetics of a novel hybrid-hydrogel formulation of fisetin orally administered in healthy individuals: a randomised double-blinded comparative crossover study.",
+   "journal": "J Nutr Sci",
+   "pmid": "36304817",
+   "doi": "10.1017/jns.2022.72",
+   "type": "rct",
+   "n": "15 adults",
+   "finding": "Unformulated 1000 mg fisetin gave very low plasma levels over 12 h; a hydrogel formulation raised exposure about 27-fold."
+  },
+  {
+   "id": "tnut-peter2000",
+   "authors": "Peter C, Hongwan D, Küpfer A, et al.",
+   "year": 2000,
+   "title": "Pharmacokinetics and organ distribution of intravenous and oral methylene blue.",
+   "journal": "Eur J Clin Pharmacol",
+   "pmid": "10952480",
+   "doi": "10.1007/s002280000124",
+   "type": "mechanistic",
+   "n": "7 adults",
+   "finding": "Methylene blue has a terminal blood half-life of about 5 h after IV dosing; oral dosing gave much lower blood exposure."
+  },
+  {
+   "id": "tnut-rodriguez2016",
+   "authors": "Rodriguez P, Zhou W, Barrett DW, et al.",
+   "year": 2016,
+   "title": "Multimodal Randomized Functional MR Imaging of the Effects of Methylene Blue in the Human Brain.",
+   "journal": "Radiology",
+   "pmid": "27351678",
+   "doi": "10.1148/radiol.2016152893",
+   "type": "rct",
+   "n": "26 adults",
+   "finding": "Low-dose oral methylene blue changed task-related fMRI responses and improved memory retrieval 1 hour after dosing."
+  },
+  {
+   "id": "tnut-shimouchi2009",
+   "authors": "Shimouchi A, Nose K, Yamaguchi M, et al.",
+   "year": 2009,
+   "title": "Breath hydrogen produced by ingestion of commercial hydrogen water and milk.",
+   "journal": "Biomark Insights",
+   "pmid": "19652760",
+   "doi": "10.4137/bmi.s2209",
+   "type": "mechanistic",
+   "n": "5 adults",
+   "finding": "Hydrogen water raised breath hydrogen to a peak 10-15 minutes after drinking, then it rapidly fell back to baseline."
+  },
+  {
+   "id": "tnut-cheah2017",
+   "authors": "Cheah IK, Tang RM, Yew TS, et al.",
+   "year": 2017,
+   "title": "Administration of Pure Ergothioneine to Healthy Human Subjects: Uptake, Metabolism, and Effects on Biomarkers of Oxidative Damage and Inflammation.",
+   "journal": "Antioxid Redox Signal",
+   "pmid": "27488221",
+   "doi": "10.1089/ars.2016.6778",
+   "type": "mechanistic",
+   "n": "healthy volunteers",
+   "finding": "Oral ergothioneine was avidly absorbed and retained, with under 4% excreted in urine; oxidative-damage markers trended down but mostly not significantly."
+  },
+  {
+   "id": "tnut-odeberg2003",
+   "authors": "Mercke Odeberg J, Lignell A, Pettersson A, et al.",
+   "year": 2003,
+   "title": "Oral bioavailability of the antioxidant astaxanthin in humans is enhanced by incorporation of lipid based formulations.",
+   "journal": "Eur J Pharm Sci",
+   "pmid": "12885395",
+   "doi": "10.1016/s0928-0987(03)00135-0",
+   "type": "mechanistic",
+   "n": "32 men",
+   "finding": "A single 40 mg astaxanthin dose had an elimination half-life of about 16 h; lipid formulations raised bioavailability 1.7-3.7-fold."
+  },
+  {
+   "id": "tnut-breithaupt1999",
+   "authors": "Breithaupt-Grögler K, Niebch G, Schneider E, et al.",
+   "year": 1999,
+   "title": "Dose-proportionality of oral thioctic acid--coincidence of assessments via pooled plasma and individual data.",
+   "journal": "Eur J Pharm Sci",
+   "pmid": "10072479",
+   "doi": "10.1016/s0928-0987(98)00061-x",
+   "type": "mechanistic",
+   "n": "healthy volunteers",
+   "finding": "Oral alpha-lipoic acid (50-600 mg) peaked at 0.5-1 h and declined steeply with a half-life of about 0.5 h."
+  },
+  {
+   "id": "tnut-ziegler2006",
+   "authors": "Ziegler D, Ametov A, Barinov A, et al.",
+   "year": 2006,
+   "title": "Oral treatment with alpha-lipoic acid improves symptomatic diabetic polyneuropathy: the SYDNEY 2 trial.",
+   "journal": "Diabetes Care",
+   "pmid": "17065669",
+   "doi": "10.2337/dc06-1216",
+   "type": "rct",
+   "n": "181 adults with diabetes",
+   "finding": "600-1800 mg/day oral alpha-lipoic acid for 5 weeks reduced neuropathy symptom scores by about half vs 32% on placebo."
+  },
+  {
+   "id": "tnut-ziegler2011",
+   "authors": "Ziegler D, Low PA, Litchy WJ, et al.",
+   "year": 2011,
+   "title": "Efficacy and safety of antioxidant treatment with α-lipoic acid over 4 years in diabetic polyneuropathy: the NATHAN 1 trial.",
+   "journal": "Diabetes Care",
+   "pmid": "21775755",
+   "doi": "10.2337/dc11-0503",
+   "type": "rct",
+   "n": "460 adults with diabetes",
+   "finding": "600 mg/day alpha-lipoic acid for 4 years did not change the primary neuropathy composite; serious adverse events were more frequent (38% vs 28%)."
+  },
+  {
+   "id": "tnut-hoey2009",
+   "authors": "Hoey L, McNulty H, Strain JJ",
+   "year": 2009,
+   "title": "Studies of biomarker responses to intervention with riboflavin: a systematic review.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "19403631",
+   "doi": "10.3945/ajcn.2009.27230B",
+   "type": "meta-analysis",
+   "n": "18 supplementation studies",
+   "finding": "EGRac and glutathione reductase activity respond to changes in riboflavin intake."
+  },
+  {
+   "id": "tnut-wilson2013",
+   "authors": "Wilson CP, McNulty H, Ward M, et al.",
+   "year": 2013,
+   "title": "Blood pressure in treated hypertensive individuals with the MTHFR 677TT genotype is responsive to intervention with riboflavin: findings of a targeted randomized trial.",
+   "journal": "Hypertension",
+   "pmid": "23608654",
+   "doi": "10.1161/HYPERTENSIONAHA.111.01047",
+   "type": "rct",
+   "n": "91 adults with MTHFR 677TT",
+   "finding": "1.6 mg/day riboflavin for 16 weeks improved riboflavin status and lowered systolic BP by 5.6 mmHg."
+  },
+  {
+   "id": "tnut-chen2015",
+   "authors": "Chen AC, Martin AJ, Choy B, et al.",
+   "year": 2015,
+   "title": "A Phase 3 Randomized Trial of Nicotinamide for Skin-Cancer Chemoprevention.",
+   "journal": "N Engl J Med",
+   "pmid": "26488693",
+   "doi": "10.1056/NEJMoa1506197",
+   "type": "rct",
+   "n": "386 adults",
+   "finding": "Nicotinamide 500 mg twice daily cut new non-melanoma skin cancers 23% over 12 months; actinic keratoses were lower from 3 months; no benefit remained after stopping."
+  },
+  {
+   "id": "tnut-allen2023",
+   "authors": "Allen NC, Martin AJ, Snaidr VA, et al.",
+   "year": 2023,
+   "title": "Nicotinamide for Skin-Cancer Chemoprevention in Transplant Recipients.",
+   "journal": "N Engl J Med",
+   "pmid": "36856616",
+   "doi": "10.1056/NEJMoa2203086",
+   "type": "rct",
+   "n": "158 transplant recipients",
+   "finding": "Nicotinamide 500 mg twice daily for 12 months did not reduce keratinocyte cancers in immunosuppressed organ-transplant recipients."
+  },
+  {
+   "id": "tnut-harris2013",
+   "authors": "Harris CB, Chowanadisai W, Mishchuk DO, et al.",
+   "year": 2013,
+   "title": "Dietary pyrroloquinoline quinone (PQQ) alters indicators of inflammation and mitochondrial-related metabolism in human subjects.",
+   "journal": "J Nutr Biochem",
+   "pmid": "24231099",
+   "doi": "10.1016/j.jnutbio.2013.07.008",
+   "type": "cohort",
+   "n": "10 adults",
+   "finding": "PQQ was measured in plasma over 48 h after a single dose; after about 76 h of daily PQQ, CRP and IL-6 fell."
+  },
+  {
+   "id": "tnut-ristow2009",
+   "authors": "Ristow M, Zarse K, Oberbach A, et al.",
+   "year": 2009,
+   "title": "Antioxidants prevent health-promoting effects of physical exercise in humans.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "19433800",
+   "doi": "10.1073/pnas.0903485106",
+   "type": "cohort",
+   "n": "39 young men",
+   "finding": "1000 mg vitamin C plus 400 IU vitamin E daily during 4 weeks of training blocked the training-induced rise in insulin sensitivity and antioxidant gene expression."
+  },
+  {
+   "id": "tnut-bjelakovic2012",
+   "authors": "Bjelakovic G, Nikolova D, Gluud LL, et al.",
+   "year": 2012,
+   "title": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "22419320",
+   "doi": "10.1002/14651858.CD007176.pub2",
+   "type": "meta-analysis",
+   "n": "296,707 participants (78 RCTs)",
+   "finding": "Antioxidant supplements (median 2 years, range 28 days to 12 years) did not reduce mortality and slightly raised it in low-bias trials (RR 1.04)."
+  },
+  {
+   "id": "tnut-menezo2007",
+   "authors": "Ménézo YJ, Hazout A, Panteix G, et al.",
+   "year": 2007,
+   "title": "Antioxidants to reduce sperm DNA fragmentation: an unexpected adverse effect.",
+   "journal": "Reprod Biomed Online",
+   "pmid": "17425820",
+   "doi": "10.1016/s1472-6483(10)60887-5",
+   "type": "cohort",
+   "n": "infertile men",
+   "finding": "90 days of antioxidant vitamins with zinc and selenium lowered sperm DNA fragmentation 19% but raised sperm decondensation 23%."
+  },
+  {
+   "id": "tnut-greco2005",
+   "authors": "Greco E, Iacobelli M, Rienzi L, et al.",
+   "year": 2005,
+   "title": "Reduction of the incidence of sperm DNA fragmentation by oral antioxidant treatment.",
+   "journal": "J Androl",
+   "pmid": "15867002",
+   "doi": "10.2164/jandrol.04146",
+   "type": "rct",
+   "n": "64 men",
+   "finding": "1 g vitamin C plus 1 g vitamin E daily for 2 months reduced sperm DNA fragmentation (22% to 9%) vs no change on placebo."
+  },
+  {
+   "id": "tnut-bairati2005",
+   "authors": "Bairati I, Meyer F, Gélinas M, et al.",
+   "year": 2005,
+   "title": "A randomized trial of antioxidant vitamins to prevent second primary cancers in head and neck cancer patients.",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "15812073",
+   "doi": "10.1093/jnci/dji095",
+   "type": "rct",
+   "n": "540 head and neck cancer patients",
+   "finding": "Alpha-tocopherol 400 IU/day from the start of radiotherapy for 3 years raised second primary cancers during supplementation (HR 2.88) but not after it stopped (HR 0.41)."
+  },
+  {
+   "id": "tnut-ambrosone2020",
+   "authors": "Ambrosone CB, Zirpoli GR, Hutson AD, et al.",
+   "year": 2020,
+   "title": "Dietary Supplement Use During Chemotherapy and Survival Outcomes of Patients With Breast Cancer Enrolled in a Cooperative Group Clinical Trial (SWOG S0221).",
+   "journal": "J Clin Oncol",
+   "pmid": "31855498",
+   "doi": "10.1200/JCO.19.01203",
+   "type": "cohort",
+   "n": "1134 women with breast cancer",
+   "finding": "Antioxidant supplement use both before and during chemotherapy was associated with more recurrence (adjusted HR 1.41, borderline)."
+  },
+  {
+   "id": "tnut-imai2008",
+   "authors": "Imai H, Kotegawa T, Tsutsumi K, et al.",
+   "year": 2008,
+   "title": "The recovery time-course of CYP3A after induction by St John's wort administration.",
+   "journal": "Br J Clin Pharmacol",
+   "pmid": "18294328",
+   "doi": "10.1111/j.1365-2125.2008.03120.x",
+   "type": "mechanistic",
+   "n": "12 men",
+   "finding": "After 14 days of St John's wort, CYP3A activity recovered with a half-life of about 46 h and was back to baseline about 7 days after stopping."
+  },
+  {
+   "id": "tnut-hall2003",
+   "authors": "Hall SD, Wang Z, Huang SM, et al.",
+   "year": 2003,
+   "title": "The interaction between St John's wort and an oral contraceptive.",
+   "journal": "Clin Pharmacol Ther",
+   "pmid": "14663455",
+   "doi": "10.1016/j.clpt.2003.08.009",
+   "type": "cohort",
+   "n": "12 women",
+   "finding": "St John's wort for two cycles sped oral-contraceptive metabolism and caused breakthrough bleeding in 7 of 12 women (vs 2 of 12)."
+  },
+  {
+   "id": "tnut-heller1963",
+   "authors": "HELLER CG, CLERMONT Y",
+   "year": 1963,
+   "title": "Spermatogenesis in man: an estimate of its duration.",
+   "journal": "Science",
+   "pmid": "13953583",
+   "doi": "10.1126/science.140.3563.184",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Tritiated-thymidine labelling in human testes estimated one seminiferous cycle at 16 days and the whole of spermatogenesis at about 64 days."
+  },
+  {
+   "id": "tnut-misell2006",
+   "authors": "Misell LM, Holochwost D, Boban D, et al.",
+   "year": 2006,
+   "title": "A stable isotope-mass spectrometric method for measuring human spermatogenesis kinetics in vivo.",
+   "journal": "J Urol",
+   "pmid": "16406920",
+   "doi": "10.1016/S0022-5347(05)00053-4",
+   "type": "mechanistic",
+   "n": "11 men",
+   "finding": "Heavy-water labelling: newly made sperm appeared in the ejaculate after a mean 64 +/- 8 days (range 42-76)."
+  },
+  {
+   "id": "tnut-gougeon1986",
+   "authors": "Gougeon A",
+   "year": 1986,
+   "title": "Dynamics of follicular growth in the human: a model from preliminary results.",
+   "journal": "Hum Reprod",
+   "pmid": "3558758",
+   "doi": "10.1093/oxfordjournals.humrep.a136365",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The ovulatory follicle originates from a cohort that differentiates about 85 days before ovulation; it is selected 15-20 days before ovulation."
+  },
+  {
+   "id": "tnut-gaziano2012",
+   "authors": "Gaziano JM, Sesso HD, Christen WG, et al.",
+   "year": 2012,
+   "title": "Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial.",
+   "journal": "JAMA",
+   "pmid": "23162860",
+   "doi": "10.1001/jama.2012.14641",
+   "type": "rct",
+   "n": "14,641 men",
+   "finding": "A daily multivitamin modestly reduced total cancer (HR 0.92) over a median 11.2 years (PHS II)."
+  },
+  {
+   "id": "tnut-easl2022",
+   "authors": "European Association for the Study of the Liver",
+   "year": 2022,
+   "title": "EASL Clinical Practice Guidelines on haemochromatosis.",
+   "journal": "J Hepatol",
+   "pmid": "35662478",
+   "doi": "10.1016/j.jhep.2022.03.033",
+   "type": "guideline",
+   "n": null,
+   "finding": "Phlebotomy targets in HFE haemochromatosis: ferritin below 50 ug/L during induction and below 100 ug/L during lifelong maintenance."
+  },
+  {
+   "id": "tnut-ods2025b12",
+   "authors": "NIH Office of Dietary Supplements",
+   "year": 2025,
+   "title": "Vitamin B12: Fact Sheet for Health Professionals (updated July 2, 2025)",
+   "journal": "National Institutes of Health",
+   "pmid": null,
+   "doi": null,
+   "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+   "type": "guideline",
+   "n": null,
+   "finding": "The body stores about 1-5 mg of B12 (1000-2000 times daily intake), so deficiency symptoms can take several years to appear; B-vitamin trials of 1-2 years did not improve cognition."
+  }
+ ],
+ "windows": [],
+ "timing": [
+  {
+   "factor": "alpha-lipoic-acid",
+   "shape": "build",
+   "summary": "Alpha-lipoic acid is in and out of the blood within a few hours, yet daily dosing eased neuropathy symptoms within 5 weeks. Four years of daily use did not change the main nerve-damage endpoint, so the benefit is symptomatic and lasts only while it is taken.",
+   "onset": {
+    "text": "Blood levels peak 0.5-1 h after a dose and halve every ~0.5 h [tnut-breithaupt1999]; symptom scores were clearly lower at the 5-week assessment [tnut-ziegler2006].",
+    "days": [
+     0.02,
+     35
+    ]
+   },
+   "full": {
+    "text": "Symptom relief was established by 5 weeks; no further structural nerve benefit appeared over 4 years [tnut-ziegler2011].",
+    "days": [
+     35,
+     35
+    ]
+   },
+   "after_stopping": {
+    "text": "Blood levels are gone within hours; how long symptom relief persists after stopping was not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials used one 600 mg dose a day, which gave the best benefit-to-side-effect balance despite the very short half-life [tnut-ziegler2006]; no trial compared intermittent schedules."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; the disagreement is about whether 4 years of use helps nerves at all [tnut-ziegler2011] versus short-term symptom relief [tnut-ziegler2006].",
+   "refs": [
+    "tnut-breithaupt1999",
+    "tnut-ziegler2006",
+    "tnut-ziegler2011"
+   ]
+  },
+  {
+   "factor": "antioxidants-during-cancer-treatment",
+   "shape": "window",
+   "summary": "The worry is a time window: antioxidants taken while radiotherapy or chemotherapy is working. In the clearest trial, excess second cancers appeared only while vitamin E was being taken and not after it stopped.",
+   "onset": {
+    "text": "Excess second primary cancers appeared during the supplementation period (radiotherapy plus 3 years; HR 2.88) [tnut-bairati2005]; exact onset in days not reported.",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable; the harm signal was confined to the supplementation period [tnut-bairati2005].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "After supplementation stopped the rate of second cancers was not higher (HR 0.41) and 8-year cancer-free proportions were similar [tnut-bairati2005].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Avoid high-dose antioxidant supplements from before treatment starts until it ends unless the oncology team agrees; use both before and during chemotherapy was linked to more recurrence [tnut-ambrosone2020]."
+   },
+   "basis": "measured",
+   "debate": "Timing is unsettled: the randomised trial saw harm only during supplementation [tnut-bairati2005], while the observational chemotherapy study could not separate use before treatment from use during it [tnut-ambrosone2020].",
+   "refs": [
+    "tnut-bairati2005",
+    "tnut-ambrosone2020"
+   ]
+  },
+  {
+   "factor": "astaxanthin",
+   "shape": "build",
+   "summary": "Astaxanthin has a blood half-life of about 16 hours, so daily intake reaches a steady blood level within a few days. How long tissue levels or any benefit take to build or fade has not been measured in humans.",
+   "onset": {
+    "text": "Plasma levels rise within hours of a dose (half-life ~16 h) [tnut-odeberg2003].",
+    "days": [
+     0.1,
+     1
+    ]
+   },
+   "full": {
+    "text": "Extrapolated: a steady plasma level after about 3-4 days of daily intake (5 half-lives); fertility trials ran 6-12 weeks without time-course data.",
+    "days": [
+     3,
+     4
+    ]
+   },
+   "after_stopping": {
+    "text": "Extrapolated: plasma falls to near baseline within about 3-4 days; tissue persistence not measured.",
+    "days": [
+     3,
+     4
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The 16-hour half-life favours daily intake with a fatty meal (lipid formulations raised absorption 1.7-3.7-fold) [tnut-odeberg2003]; no schedule comparisons exist."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured; a start 2-4 weeks before would only reach sperm in their final maturation.",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; with plasma at steady state in days, the lead time is set by sperm development, not loading (extrapolated)."
+    },
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Not measured; small trials started 6-12 weeks before stimulation.",
+     "text": "Extrapolated: the ovulatory follicle's cohort starts differentiating about 85 days before ovulation [tnut-gougeon1986], so starting about 3 months ahead covers the growing follicle."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-odeberg2003",
+    "tnut-misell2006",
+    "tnut-heller1963",
+    "tnut-gougeon1986"
+   ]
+  },
+  {
+   "factor": "b-vitamins-cognition",
+   "shape": "slow-build",
+   "summary": "Folic acid lowers homocysteine over weeks, but the brain-atrophy benefit seen in people with mild cognitive impairment and high homocysteine was measured over 2 years. Folate status falls back within months of stopping, while B12 stores last years.",
+   "onset": {
+    "text": "Plasma folate rises from the first month and plateaus at about 3 months of daily folic acid [tnut-hao2008].",
+    "days": [
+     30,
+     90
+    ]
+   },
+   "full": {
+    "text": "Slower brain atrophy was measured after 24 months (0.76% vs 1.08% per year) [tnut-smith2010].",
+    "days": [
+     730,
+     730
+    ]
+   },
+   "after_stopping": {
+    "text": "Blood folate fell rapidly over 3 months after stopping [tnut-hao2008]; B12 stores (1-5 mg) take years to run down [tnut-ods2025b12]; persistence of the brain effect not measured.",
+    "days": [
+     30,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials used daily doses; splitting a daily folic acid dose made no difference to blood folate [tnut-hao2008]."
+   },
+   "basis": "measured",
+   "debate": "The 2-year atrophy benefit in high-homocysteine MCI [tnut-smith2010] contrasts with trials of 1-2 years (and up to 5-10 years) showing no cognitive benefit in broader groups [tnut-ods2025b12]; it is unknown whether longer treatment or earlier timing would matter.",
+   "refs": [
+    "tnut-hao2008",
+    "tnut-smith2010",
+    "tnut-ods2025b12"
+   ]
+  },
+  {
+   "factor": "beta-carotene-supplement",
+   "shape": "lasting",
+   "summary": "Beta-carotene has a plasma half-life of about 5 weeks and its harm in smokers outlasted the pills. In one trial the excess faded within 4-6 years of stopping; in the other, excess lung cancer persisted for at least 6 years.",
+   "onset": {
+    "text": "Plasma beta-carotene builds with a half-life of about 37 days [tnut-burri2001]; excess lung cancer emerged during 5-8 years of supplementation in trials [tnut-virtamo2003, tnut-goodman2004].",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable (harm); trial exposures were 4-8 years.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "ATBC: excess risk gone 4-6 years after stopping [tnut-virtamo2003]; CARET: lung cancer and mortality RR stayed above 1 for 6 years, while cardiovascular excess faded quickly [tnut-goodman2004].",
+    "days": [
+     1460,
+     2190
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "No schedule makes high-dose beta-carotene pills safe for smokers or asbestos-exposed people [tnut-goodman2004]."
+   },
+   "basis": "measured",
+   "debate": "ATBC found the excess faded within 4-6 years of stopping [tnut-virtamo2003], whereas CARET found lung-cancer and mortality excess persisting through 6 years, especially in women [tnut-goodman2004].",
+   "refs": [
+    "tnut-burri2001",
+    "tnut-virtamo2003",
+    "tnut-goodman2004"
+   ]
+  },
+  {
+   "factor": "blood-donation",
+   "shape": "lasting",
+   "summary": "One whole-blood donation removes iron at once, and without iron tablets most donors had not rebuilt their iron stores 6 months later. With a small daily iron dose, haemoglobin recovered in about a month and stores in about 2.5 months.",
+   "onset": {
+    "text": "Iron stores drop on the day of donation; haemoglobin falls about 1.3-1.4 g/dL [tnut-kiss2015].",
+    "days": [
+     0.04,
+     1
+    ]
+   },
+   "full": {
+    "text": "Not applicable; the iron loss is immediate.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Without iron, 80% haemoglobin recovery took 78-158 days and 67% had not restored iron stores by 168 days; with 37.5 mg/day iron, stores recovered in a median 76 days [tnut-kiss2015]; full recovery took over 100 days even with iron [tnut-mast2020].",
+    "days": [
+     76,
+     168
+    ]
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Data suggest intervals of at least 3-6 months without iron, or iron supplements for frequent donors with ferritin below about 50 ng/mL [tnut-kiss2015, tnut-mast2020]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; the trials show the US 8-week minimum interval is too short for many donors to recover without iron [tnut-kiss2015].",
+   "refs": [
+    "tnut-kiss2015",
+    "tnut-mast2020"
+   ]
+  },
+  {
+   "factor": "carnosine",
+   "shape": "build",
+   "summary": "Carnosine stored in muscle is very stable: after loading (via beta-alanine) it fell only 2-4% a week. Time courses for oral carnosine or anserine themselves have not been measured.",
+   "onset": {
+    "text": "Not measured for oral carnosine; beta-alanine raised muscle carnosine over 5-6 weeks [tnut-baguet2009].",
+    "days": null
+   },
+   "full": {
+    "text": "Extrapolated from beta-alanine loading: weeks to months [tnut-baguet2009].",
+    "days": [
+     35,
+     42
+    ]
+   },
+   "after_stopping": {
+    "text": "Muscle carnosine returned to baseline 6-15 weeks after stopping beta-alanine [tnut-baguet2009]; extrapolated to carnosine supplements.",
+    "days": [
+     42,
+     105
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "No schedule data; the slow muscle washout suggests occasional missed days matter little (extrapolated) [tnut-baguet2009]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-baguet2009"
+   ]
+  },
+  {
+   "factor": "carrots-carotenoids",
+   "shape": "build",
+   "summary": "Blood and skin carotenoids build over weeks and fade over weeks to months, because plasma half-lives are 4-11 weeks. Eating carotenoid-rich vegetables most days keeps levels high; no single day matters much.",
+   "onset": {
+    "text": "Plasma carotenoids rise within days of higher intake (lycopene dosing for 8 days) [tnut-cohn2004].",
+    "days": [
+     1,
+     8
+    ]
+   },
+   "full": {
+    "text": "Plasma and skin carotenoids were up more than 200% after 8 weeks of a high vegetable-fruit diet [tnut-jahns2014]; half-lives of 26-76 days imply a full plateau takes about 3-6 months (extrapolated) [tnut-burri2001].",
+    "days": [
+     56,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Plasma fell back to baseline within about 3 weeks of a low-carotenoid diet and skin within about 10 weeks [tnut-jahns2014]; depletion half-lives 26-76 days [tnut-burri2001].",
+    "days": [
+     21,
+     76
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Long half-lives mean intake averaged over weeks counts, not daily timing; eat with some fat (extrapolated) [tnut-burri2001]."
+   },
+   "basis": "measured",
+   "debate": "Short dosing studies give lycopene half-lives of about 5-9 days [tnut-cohn2004], whereas long depletion studies give about 26 days [tnut-burri2001], reflecting a fast plasma pool and a slow tissue reservoir.",
+   "refs": [
+    "tnut-cohn2004",
+    "tnut-jahns2014",
+    "tnut-burri2001"
+   ]
+  },
+  {
+   "factor": "coq10",
+   "shape": "build",
+   "summary": "CoQ10 has a plasma half-life of about 33 hours, so blood levels plateau within about a week of daily dosing and fall back over a similar period. Fertility benefits were measured after 2-6 months because sperm and follicles take that long to develop.",
+   "onset": {
+    "text": "Plasma CoQ10 peaks 6-7 h after a dose, with a second peak at 24 h [tnut-tomono1986].",
+    "days": [
+     0.25,
+     1
+    ]
+   },
+   "full": {
+    "text": "Plasma rose for about 7 days and then stayed level [tnut-martucci2019]; seminal and sperm CoQ10 were raised at 6 months [tnut-balercia2009].",
+    "days": [
+     7,
+     7
+    ]
+   },
+   "after_stopping": {
+    "text": "Extrapolated from the 33 h half-life: plasma near baseline in about a week; it was fully back by 8 months, the only time measured [tnut-ikematsu2006, tnut-bhagavan2006].",
+    "days": [
+     7,
+     10
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "A 33-hour half-life suits once-daily dosing with fat; the IVF trial split 600 mg into three doses [tnut-xu2018], but no trial compared schedules."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured; plasma loads in a week, but only late-stage sperm would be exposed.",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; the 6-month trial raised CoQ10 inside sperm cells [tnut-balercia2009]."
+    },
+    "egg": {
+     "start_by_days": 60,
+     "late_start": "Not measured; shorter pretreatment has not been tested.",
+     "text": "The positive IVF trial gave CoQ10 for 60 days before stimulation [tnut-xu2018]; the ovulatory follicle's cohort starts differentiating about 85 days before ovulation [tnut-gougeon1986], so 2-3 months is the evidence-based lead time."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; trials simply chose 2-6 months.",
+   "refs": [
+    "tnut-tomono1986",
+    "tnut-martucci2019",
+    "tnut-balercia2009",
+    "tnut-ikematsu2006",
+    "tnut-bhagavan2006",
+    "tnut-xu2018",
+    "tnut-misell2006",
+    "tnut-heller1963",
+    "tnut-gougeon1986"
+   ]
+  },
+  {
+   "factor": "creatine",
+   "shape": "build",
+   "summary": "Muscle creatine can be filled in about 6 days with a 20 g/day loading phase or in about 4 weeks at 3 g/day, reaching the same level. After stopping, muscle stores drift back to baseline over about a month.",
+   "onset": {
+    "text": "Muscle uptake is fastest in the first 2 days of high-dose loading [tnut-harris1992].",
+    "days": [
+     2,
+     6
+    ]
+   },
+   "full": {
+    "text": "About 20% higher muscle creatine after 6 days at 20 g/day or 28 days at 3 g/day [tnut-hultman1996].",
+    "days": [
+     6,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "Muscle creatine declined gradually and was back to baseline by 30 days [tnut-hultman1996].",
+    "days": [
+     14,
+     30
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Loading is optional; 3 g/day reaches the same level in about 4 weeks and 2 g/day maintains it [tnut-hultman1996]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-harris1992",
+    "tnut-hultman1996"
+   ]
+  },
+  {
+   "factor": "ergothioneine",
+   "shape": "lasting",
+   "summary": "Ergothioneine is actively absorbed and held on to by the body, with less than 4% lost in urine. Exact build-up and wash-out times were not reported in the verified abstract.",
+   "onset": {
+    "text": "Plasma and whole-blood levels rose significantly after oral dosing [tnut-cheah2017]; exact timing not given in the abstract.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured in verified data; low urinary loss suggests slow clearance (extrapolated) [tnut-cheah2017].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "few-per-week",
+    "text": "Extrapolated: strong retention suggests regular mushroom intake a few times a week maintains levels; no schedule trials."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-cheah2017"
+   ]
+  },
+  {
+   "factor": "fisetin",
+   "shape": "lasting",
+   "summary": "Fisetin is promoted for 'hit-and-run' senolytic dosing: a few days of high doses to kill senescent cells, which then take weeks to reaccumulate. This schedule worked in one mouse study, failed in the NIA lifespan test, and is untested in published human outcome trials.",
+   "onset": {
+    "text": "In humans, unformulated fisetin gives very low plasma levels over 12 h [tnut-krishnakumar2022]; senolytic effects in humans not measured.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured in humans.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "The hypothesised benefit would persist for weeks because senescent cells reaccumulate slowly [tnut-kirkland2020]; not shown for fisetin in humans.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Mouse studies used acute or intermittent courses [tnut-yousefzadeh2018]; the NIA program found no lifespan gain with its schedule [tnut-harrison2024]; no human schedule is established."
+   },
+   "basis": "unknown",
+   "debate": "Intermittent fisetin extended mouse lifespan in one lab [tnut-yousefzadeh2018] but not in the multi-site NIA Interventions Testing Program at the dose and schedule used [tnut-harrison2024].",
+   "refs": [
+    "tnut-krishnakumar2022",
+    "tnut-kirkland2020",
+    "tnut-yousefzadeh2018",
+    "tnut-harrison2024"
+   ]
+  },
+  {
+   "factor": "fish-oil-oxidation",
+   "shape": "none",
+   "summary": "Taking heavily oxidised fish oil for 7 weeks did not raise oxidative-stress markers in healthy people. Oxidation is a storage problem of the product, not a dosing-time question.",
+   "onset": {
+    "text": "Plasma EPA+DHA rose equally with fresh and oxidised oil by 3-7 weeks; no oxidative-stress change at 3 or 7 weeks [tnut-ottestad2012].",
+    "days": [
+     21,
+     49
+    ]
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No schedule question; buy fresh product and store it cool and closed."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-ottestad2012"
+   ]
+  },
+  {
+   "factor": "folate-zinc",
+   "shape": "none",
+   "summary": "Six months of folic acid plus zinc did nothing for semen or live birth and slightly raised sperm DNA fragmentation. With no benefit, timing only matters for stopping.",
+   "onset": {
+    "text": "Semen was assessed at 6 months; no improvement, DNA fragmentation 2.4 points higher [tnut-schisterman2020].",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not recommended for male fertility at any schedule [tnut-schisterman2020]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "No benefit to gain.",
+     "text": "If taken, stopping about one sperm-development cycle before trying would clear any effect on sperm DNA (extrapolated); Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-schisterman2020",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "glycine",
+   "shape": "acute",
+   "summary": "Glycine is taken about an hour before bed and its measured effect is on the next day's fatigue. Nothing suggests it builds up or carries over.",
+   "onset": {
+    "text": "3 g at bedtime reduced fatigue the next day during 3 nights of sleep restriction [tnut-bannai2012].",
+    "days": [
+     0.5,
+     1
+    ]
+   },
+   "full": {
+    "text": "Effect present from the first nights [tnut-bannai2012].",
+    "days": [
+     1,
+     3
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured; extrapolated to wear off within a day.",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Used on the nights it is needed; no evidence that daily use builds benefit [tnut-bannai2012]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-bannai2012"
+   ]
+  },
+  {
+   "factor": "glynac",
+   "shape": "build",
+   "summary": "In older adults with low glutathione, GlyNAC restored red-cell glutathione within 2 weeks and wider markers over 16-24 weeks; benefits had faded 12 weeks after stopping. In a larger trial of healthy older adults, 2 weeks raised glutathione only in those who started low.",
+   "onset": {
+    "text": "Red-cell glutathione up 95% after 2 weeks in glutathione-deficient older adults [tnut-sekhar2011].",
+    "days": [
+     14,
+     14
+    ]
+   },
+   "full": {
+    "text": "Wider improvements were reported at 16 and 24 weeks [tnut-kumar2023, tnut-kumar2021].",
+    "days": [
+     112,
+     168
+    ]
+   },
+   "after_stopping": {
+    "text": "Benefits had declined at the check 12 weeks after stopping (earlier points not measured) [tnut-kumar2021].",
+    "days": [
+     84,
+     84
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "All trials dosed daily; no intermittent schedules tested."
+   },
+   "basis": "measured",
+   "debate": "One group found glutathione restored within 2 weeks [tnut-sekhar2011] and broad benefits at 16 weeks [tnut-kumar2023], but an industry RCT found no rise after 2 weeks except in people with high oxidative stress and low baseline glutathione [tnut-lizzo2022].",
+   "refs": [
+    "tnut-sekhar2011",
+    "tnut-kumar2023",
+    "tnut-kumar2021",
+    "tnut-lizzo2022"
+   ]
+  },
+  {
+   "factor": "hfe-hemochromatosis",
+   "shape": "lasting",
+   "summary": "Iron overload in HFE haemochromatosis builds over decades and is reversed by repeated blood removal over months, followed by lifelong maintenance. Stopping maintenance lets iron build up again.",
+   "onset": {
+    "text": "Iron loading accumulates over years to decades; not timed in the verified sources.",
+    "days": null
+   },
+   "full": {
+    "text": "Treatment target: ferritin below 50 ug/L in the induction phase, then below 100 ug/L [tnut-easl2022]; months of phlebotomy are needed (extrapolated from donation data) [tnut-kiss2015].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Maintenance is lifelong because loading resumes [tnut-easl2022]; re-accumulation speed not measured here.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Phlebotomy frequency is set clinically to reach and keep ferritin targets [tnut-easl2022]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-easl2022",
+    "tnut-kiss2015"
+   ]
+  },
+  {
+   "factor": "high-dose-antioxidant-cocktail",
+   "shape": "build",
+   "summary": "High-dose antioxidants blunted training adaptations within 4 weeks, and the small mortality excess comes from trials lasting years. In sperm, a 90-day course lowered DNA breaks but loosened chromatin.",
+   "onset": {
+    "text": "Vitamin C 1 g plus E 400 IU blocked exercise-induced insulin-sensitivity gains over 4 weeks [tnut-ristow2009].",
+    "days": [
+     28,
+     28
+    ]
+   },
+   "full": {
+    "text": "Mortality signal from trials of median 2 years (28 days to 12 years) [tnut-bjelakovic2012].",
+    "days": [
+     730,
+     1095
+    ]
+   },
+   "after_stopping": {
+    "text": "For beta-carotene and vitamin E the excess faded 4-6 years after stopping in ATBC [tnut-virtamo2003].",
+    "days": [
+     1460,
+     2190
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "No schedule is shown to be safe or useful; avoid megadoses around training [tnut-ristow2009, tnut-bjelakovic2012]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured.",
+     "text": "A 90-day course raised sperm decondensation 23% [tnut-menezo2007]; to clear it, stop about one sperm-development cycle before trying (extrapolated) [tnut-misell2006]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-ristow2009",
+    "tnut-bjelakovic2012",
+    "tnut-virtamo2003",
+    "tnut-menezo2007",
+    "tnut-misell2006"
+   ]
+  },
+  {
+   "factor": "hydrogen-water",
+   "shape": "acute",
+   "summary": "Hydrogen from hydrogen-rich water shows up in breath within minutes and is gone soon after. Any effect would have to come from repeated brief exposures.",
+   "onset": {
+    "text": "Breath hydrogen peaks 10-15 minutes after drinking [tnut-shimouchi2009].",
+    "days": [
+     0.007,
+     0.01
+    ]
+   },
+   "full": {
+    "text": "Peak at 10-15 minutes [tnut-shimouchi2009].",
+    "days": [
+     0.007,
+     0.01
+    ]
+   },
+   "after_stopping": {
+    "text": "Breath hydrogen fell rapidly back to baseline; the small area under the curve (2-9 ppm-hours) implies roughly an hour (extrapolated) [tnut-shimouchi2009].",
+    "days": [
+     0.01,
+     0.05
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not recommended; exposure is brief whatever the schedule [tnut-shimouchi2009]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-shimouchi2009"
+   ]
+  },
+  {
+   "factor": "iron-deficiency",
+   "shape": "build",
+   "summary": "Oral iron raises haemoglobin within weeks, but refilling ferritin stores takes about 3 months. Each dose raises hepcidin for about 24 hours, so alternate-day dosing absorbs better per dose with fewer side effects, though clinical trials show similar end results.",
+   "onset": {
+    "text": "With iron, 80% haemoglobin recovery took about 32 days after blood loss [tnut-kiss2015]; hepcidin rises within 24 h of a dose [tnut-moretti2015].",
+    "days": [
+     30,
+     34
+    ]
+   },
+   "full": {
+    "text": "Ferritin rose 11 ug/L and fatigue fell after 12 weeks of 80 mg/day [tnut-vaucher2012]; 90 days daily or 180 days alternate-day gave ferritin ~44 ug/L [tnut-vonsiebenthal2023].",
+    "days": [
+     84,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "If losses continue, deficiency returns: after 90 days of daily iron then placebo, 11.4% were iron-deficient at 6 months vs 3.0% with alternate-day dosing spread over 6 months [tnut-vonsiebenthal2023].",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "few-per-week",
+    "text": "Single morning doses on alternate days absorb 40-50% better per dose [tnut-stoffel2017, tnut-stoffel2020] and cause fewer gut effects at equal total dose [tnut-vonsiebenthal2023]; split twice-daily dosing adds nothing [tnut-moretti2015]."
+   },
+   "basis": "measured",
+   "debate": "Isotope studies favour alternate-day dosing [tnut-stoffel2017, tnut-stoffel2020], but clinical trials and a meta-analysis found similar haemoglobin and ferritin with daily dosing, with a non-significant edge to daily for haemoglobin [tnut-pasupathy2023, tnut-dhanvijay2025, tnut-vonsiebenthal2023].",
+   "refs": [
+    "tnut-kiss2015",
+    "tnut-moretti2015",
+    "tnut-vaucher2012",
+    "tnut-vonsiebenthal2023",
+    "tnut-stoffel2017",
+    "tnut-stoffel2020",
+    "tnut-pasupathy2023",
+    "tnut-dhanvijay2025"
+   ]
+  },
+  {
+   "factor": "iron-excess",
+   "shape": "acute",
+   "summary": "Unneeded iron pills mostly pass into the colon, where they raise free-radical generation within 2 weeks; this gut effect clears within about 2 weeks of stopping. Body iron stores, by contrast, build and fall over months to years.",
+   "onset": {
+    "text": "19 mg/day raised faecal free iron and radical generation during 2 weeks [tnut-lund1999].",
+    "days": [
+     1,
+     14
+    ]
+   },
+   "full": {
+    "text": "Infant microbiome shifts were seen over 4 months of iron-fortified powders [tnut-jaeggi2015].",
+    "days": [
+     14,
+     120
+    ]
+   },
+   "after_stopping": {
+    "text": "Faecal iron returned to baseline within 2 weeks of stopping [tnut-lund1999].",
+    "days": [
+     1,
+     14
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Without documented deficiency, avoid routine iron; when needed, alternate-day dosing lowers unabsorbed iron per dose (extrapolated) [tnut-stoffel2017]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-lund1999",
+    "tnut-jaeggi2015",
+    "tnut-stoffel2017"
+   ]
+  },
+  {
+   "factor": "iron-status-ferritin",
+   "shape": "lasting",
+   "summary": "Iron stores change slowly: removed iron takes months to replace, and lowering stores by phlebotomy takes repeated sessions. Disease associations with high ferritin reflect years of exposure, and a multi-year phlebotomy trial was null.",
+   "onset": {
+    "text": "Stores fall immediately with blood removal; disease links accrue over years (not timed here).",
+    "days": null
+   },
+   "full": {
+    "text": "Phlebotomy every 6 months for several years did not reduce mortality or cardiovascular events [tnut-zacharski2007].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Without iron, stores remained below baseline 168 days after a single donation in most donors [tnut-kiss2015].",
+    "days": [
+     76,
+     168
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No validated schedule for lowering ferritin in people without haemochromatosis [tnut-zacharski2007]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-zacharski2007",
+    "tnut-kiss2015"
+   ]
+  },
+  {
+   "factor": "iv-glutathione",
+   "shape": "build",
+   "summary": "Intravenous glutathione gives only a brief spike; modelling suggested redosing every 3-7 hours to keep its breakdown products up. Oral glutathione raised blood stores slowly over 1-6 months in one trial, but levels returned to baseline within a month of stopping, and a 4-week trial saw nothing.",
+   "onset": {
+    "text": "Oral: blood glutathione up at the first check, 1 month [tnut-richie2015]; 4 weeks of 1 g/day showed no change in another trial [tnut-allen2011].",
+    "days": [
+     30,
+     30
+    ]
+   },
+   "full": {
+    "text": "Still rising at 6 months (30-35% on 1 g/day) [tnut-richie2015].",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Oral: back to baseline by a 1-month washout [tnut-richie2015]. IV: modelling suggested redosing every 3.4-7 h to sustain metabolites [tnut-hong2005].",
+    "days": [
+     0.15,
+     30
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Not recommended; IV effects are too brief to matter and oral effects need continuous daily use [tnut-richie2015, tnut-hong2005]."
+   },
+   "basis": "measured",
+   "debate": "A 6-month trial found oral glutathione raised body stores [tnut-richie2015], whereas a 4-week trial found no change [tnut-allen2011]; duration may explain the difference.",
+   "refs": [
+    "tnut-richie2015",
+    "tnut-allen2011",
+    "tnut-hong2005"
+   ]
+  },
+  {
+   "factor": "l-carnitine",
+   "shape": "build",
+   "summary": "Carnitine supplements are poorly absorbed and quickly cleared from blood, but muscle carnitine rose only after 24 weeks of daily intake with carbohydrate. Sperm motility gains appeared after 2-6 months.",
+   "onset": {
+    "text": "Sperm motility improved after 2-month treatment periods in a crossover trial [tnut-lenzi2003].",
+    "days": [
+     60,
+     60
+    ]
+   },
+   "full": {
+    "text": "Muscle carnitine up 21% only after 24 weeks [tnut-wall2011]; sperm trials ran 6 months [tnut-lenzi2004].",
+    "days": [
+     168,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Plasma excess is cleared quickly by the kidney (body turnover 38-119 h) [tnut-rebouche2004]; tissue and sperm persistence not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials dosed daily; rapid renal clearance of high plasma levels argues against large infrequent doses (extrapolated) [tnut-rebouche2004]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Two months of treatment already improved motility in a crossover trial [tnut-lenzi2003].",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; trials used 2-6 months [tnut-lenzi2003, tnut-lenzi2004]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-lenzi2003",
+    "tnut-wall2011",
+    "tnut-lenzi2004",
+    "tnut-rebouche2004",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "magnesium-status",
+   "shape": "build",
+   "summary": "About 300 mg/day for a month was enough to raise serum magnesium and lower blood pressure slightly in pooled trials. Serum levels rose mainly in people who started low.",
+   "onset": {
+    "text": "1 month at 300 mg/day was sufficient to raise serum magnesium and lower BP [tnut-zhang2016].",
+    "days": [
+     30,
+     30
+    ]
+   },
+   "full": {
+    "text": "Median trial duration 3 months; 7 weeks lowered CRP only in those with high CRP [tnut-zhang2016, tnut-nielsen2010].",
+    "days": [
+     49,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials dosed daily; no schedule comparisons [tnut-zhang2016]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-zhang2016",
+    "tnut-nielsen2010"
+   ]
+  },
+  {
+   "factor": "methylene-blue",
+   "shape": "acute",
+   "summary": "Methylene blue acts within an hour and has a blood half-life of about 5 hours, so it is largely cleared within a day. Interaction risk with serotonergic drugs is a same-day issue.",
+   "onset": {
+    "text": "Brain fMRI and memory effects 1 hour after an oral dose [tnut-rodriguez2016].",
+    "days": [
+     0.04,
+     0.04
+    ]
+   },
+   "full": {
+    "text": "Same as onset.",
+    "days": [
+     0.04,
+     0.04
+    ]
+   },
+   "after_stopping": {
+    "text": "Terminal half-life about 5 h, so largely cleared in about a day (extrapolated) [tnut-peter2000].",
+    "days": [
+     1,
+     1.2
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "No proven anti-ageing schedule [tnut-peter2000]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-rodriguez2016",
+    "tnut-peter2000"
+   ]
+  },
+  {
+   "factor": "mitoq",
+   "shape": "build",
+   "summary": "MitoQ improved artery function after 6 weeks of daily use in older adults. Its human half-life and wash-out have not been published in verified sources.",
+   "onset": {
+    "text": "Not measured before 6 weeks; a large acute dose was used as a probe of mitochondrial ROS [tnut-rossman2018].",
+    "days": null
+   },
+   "full": {
+    "text": "Flow-mediated dilation 42% higher after 6 weeks [tnut-rossman2018].",
+    "days": [
+     42,
+     42
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trial used 20 mg once daily [tnut-rossman2018]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-rossman2018"
+   ]
+  },
+  {
+   "factor": "multivitamin-mineral",
+   "shape": "slow-build",
+   "summary": "A multivitamin mixes nutrients with very different clocks: vitamin C settles within weeks, folate in red cells takes months, and B12 stores last years. The outcome benefits seen (a small cancer reduction) took about a decade to show.",
+   "onset": {
+    "text": "Component dependent: plasma folate plateaus by about 3 months [tnut-hao2008]; red-cell folate keeps rising over 6 months [tnut-daly1997].",
+    "days": [
+     30,
+     90
+    ]
+   },
+   "full": {
+    "text": "Cancer reduction (HR 0.92) over a median 11.2 years [tnut-gaziano2012].",
+    "days": [
+     3650,
+     4100
+    ]
+   },
+   "after_stopping": {
+    "text": "Folate falls within months of stopping [tnut-hao2008]; B12 stores last years [tnut-ods2025b12].",
+    "days": [
+     30,
+     90
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily is the studied schedule; long half-life components tolerate missed days (extrapolated)."
+   },
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Starting even 1 month before still raises folate before the neural tube closes (day 28 after conception), but red-cell folate keeps rising for months [tnut-daly1997, tnut-crider2014].",
+     "text": "Folate protection depends on red-cell folate at neural tube closure [tnut-crider2014], which builds over months [tnut-daly1997, tnut-hao2008]."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-hao2008",
+    "tnut-daly1997",
+    "tnut-gaziano2012",
+    "tnut-ods2025b12",
+    "tnut-crider2014"
+   ]
+  },
+  {
+   "factor": "n-acetylcysteine",
+   "shape": "build",
+   "summary": "NAC peaks in blood within 1-2 hours and has a half-life of about 6 hours, but restoring glutathione in deficient people took about 30 days of twice-daily dosing. Sperm studies used 3 months.",
+   "onset": {
+    "text": "Plasma peak 1-2 h, half-life ~6 h [tnut-holdiness1991].",
+    "days": [
+     0.04,
+     0.1
+    ]
+   },
+   "full": {
+    "text": "30 days of 600 mg twice daily restored glutathione in low-glutathione people only [tnut-paschalis2018].",
+    "days": [
+     30,
+     30
+    ]
+   },
+   "after_stopping": {
+    "text": "Plasma NAC gone within about a day (extrapolated from 6 h half-life) [tnut-holdiness1991]; glutathione persistence not measured.",
+    "days": [
+     1,
+     1.5
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials split doses twice daily, which fits the 6-hour half-life (extrapolated) [tnut-paschalis2018, tnut-holdiness1991]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured.",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; the (uncontrolled) sperm study used 3 months [tnut-jannatifar2019]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-holdiness1991",
+    "tnut-paschalis2018",
+    "tnut-jannatifar2019",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "nicotinamide",
+   "shape": "build",
+   "summary": "Nicotinamide reduced actinic keratoses from the first 3-month check and skin cancers over 12 months in high-risk people. The protection stopped when the pills stopped.",
+   "onset": {
+    "text": "Actinic keratoses 11% lower at 3 months [tnut-chen2015].",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "full": {
+    "text": "20% fewer keratoses at 9 months; 23% fewer skin cancers over 12 months [tnut-chen2015].",
+    "days": [
+     270,
+     365
+    ]
+   },
+   "after_stopping": {
+    "text": "No benefit remained in the 6 months after stopping [tnut-chen2015]; exact speed of loss not reported.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "500 mg twice daily, continuously [tnut-chen2015]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; benefit did not appear at all in transplant recipients over 12 months [tnut-allen2023].",
+   "refs": [
+    "tnut-chen2015",
+    "tnut-allen2023"
+   ]
+  },
+  {
+   "factor": "nmn-nad",
+   "shape": "build",
+   "summary": "NR and NMN raise blood NAD+ metabolites within hours and roughly double blood NAD+ within about a week. Clinical effects, where seen at all, were measured after 6-10 weeks.",
+   "onset": {
+    "text": "Single NR or NMN doses raised NAD+ metabolites within hours [tnut-trammell2016, tnut-irie2020].",
+    "days": [
+     0.1,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "Blood NAD+ doubled by day 9 of NR [tnut-airhart2017]; muscle insulin sensitivity rose after 10 weeks of NMN [tnut-yoshino2021].",
+    "days": [
+     9,
+     70
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "All trials dosed daily; no intermittent comparisons [tnut-martens2018]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-trammell2016",
+    "tnut-irie2020",
+    "tnut-airhart2017",
+    "tnut-yoshino2021",
+    "tnut-martens2018"
+   ]
+  },
+  {
+   "factor": "omega3-fish",
+   "shape": "build",
+   "summary": "Omega-3s fill body pools at different speeds: plasma in days to weeks, red cells (the omega-3 index) over about 4-6 months, fat tissue over years. Because red cells integrate weeks of intake, doses taken 1-4 times a week still raise levels in proportion to the weekly total.",
+   "onset": {
+    "text": "Plasma EPA plateaus in 4-8 weeks (half-life 4.8 days) [tnut-katan1997]; plasma phosphatidylcholine responds within days [tnut-browning2012].",
+    "days": [
+     3,
+     56
+    ]
+   },
+   "full": {
+    "text": "Red-cell EPA half-life 28 days, steady state ~180 days [tnut-katan1997]; omega-3 index 7.8% after 8 weeks of 2.2 g/day [tnut-cao2006]; adipose still rising at 12 months [tnut-browning2012].",
+    "days": [
+     120,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Plasma falls within weeks; the red-cell index stayed relatively high 4 weeks after stopping [tnut-cao2006], and a 28-day half-life implies months to wash out (extrapolated) [tnut-katan1997].",
+    "days": [
+     28,
+     120
+    ]
+   },
+   "frequency": {
+    "advice": "weekly",
+    "text": "Doses mimicking fish meals 1, 2 or 4 times a week produced dose-dependent incorporation [tnut-browning2012]; total weekly intake and body weight drive the omega-3 index [tnut-flock2013, tnut-patterson2015]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Seminal-plasma DHA rose and DNA fragmentation fell within 10 weeks [tnut-martinezsoto2016].",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; 3 months of DHA did not change sperm membrane DHA [tnut-conquer2000], and associations with testicular function were seen with use on 60+ of 90 days [tnut-jensen2020]."
+    },
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Plasma levels rise within weeks, so a late start still lifts the serum levels linked to IVF success (extrapolated) [tnut-katan1997].",
+     "text": "Serum long-chain omega-3 on stimulation days 3-9 predicted live birth [tnut-chiu2018]; the ovulatory follicle's cohort starts differentiating about 85 days before ovulation [tnut-gougeon1986]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Three months of DHA did not reach sperm membranes [tnut-conquer2000], while 10 weeks lowered DNA fragmentation through seminal plasma without changing sperm lipids [tnut-martinezsoto2016]; it is unclear whether sperm benefit needs tissue loading at all.",
+   "refs": [
+    "tnut-katan1997",
+    "tnut-browning2012",
+    "tnut-cao2006",
+    "tnut-flock2013",
+    "tnut-patterson2015",
+    "tnut-martinezsoto2016",
+    "tnut-conquer2000",
+    "tnut-jensen2020",
+    "tnut-chiu2018",
+    "tnut-misell2006",
+    "tnut-heller1963",
+    "tnut-gougeon1986"
+   ]
+  },
+  {
+   "factor": "pqq",
+   "shape": "acute",
+   "summary": "In one tiny study PQQ appeared in plasma after a single dose, and 3 days of daily intake lowered inflammatory markers. Longer time courses are unknown.",
+   "onset": {
+    "text": "CRP and IL-6 lower after about 76 h of daily PQQ [tnut-harris2013].",
+    "days": [
+     3,
+     3
+    ]
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No schedule data beyond daily dosing for 3 days [tnut-harris2013]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-harris2013"
+   ]
+  },
+  {
+   "factor": "quercetin",
+   "shape": "acute",
+   "summary": "Quercetin peaks within hours and has a half-life of about 11 hours, so daily intake builds modestly higher fasting levels over days. As a senolytic it is given in short bursts ('hit and run'), but the first randomised trial of that schedule missed its main endpoint.",
+   "onset": {
+    "text": "Plasma peak about 0.7 h after quercetin glucosides (4-7 h after rutin) [tnut-graefe2001].",
+    "days": [
+     0.03,
+     0.3
+    ]
+   },
+   "full": {
+    "text": "Fasting plasma quercetin raised up to 570% after 2 weeks of daily intake [tnut-egert2008]; extrapolated steady state in 2-3 days.",
+    "days": [
+     2,
+     14
+    ]
+   },
+   "after_stopping": {
+    "text": "Extrapolated from the 11 h half-life: back to baseline within 2-3 days [tnut-graefe2001]; senolytic effects proposed to last weeks [tnut-kirkland2020].",
+    "days": [
+     2,
+     3
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "BP effects came from daily doses of 500 mg or more [tnut-serban2016]. Senolytic use is intermittent (3 days of dasatinib plus quercetin, effects 11 days later) [tnut-hickson2019, tnut-justice2019] and experimental."
+   },
+   "basis": "measured",
+   "debate": "Pilot studies and reviews support intermittent 'hit and run' senolytic dosing [tnut-hickson2019, tnut-kirkland2020], but a phase 2 RCT of intermittent dasatinib plus quercetin found no effect on bone resorption at 20 weeks, with a bone-formation rise only at 2-4 weeks [tnut-farr2024].",
+   "refs": [
+    "tnut-graefe2001",
+    "tnut-egert2008",
+    "tnut-kirkland2020",
+    "tnut-serban2016",
+    "tnut-hickson2019",
+    "tnut-justice2019",
+    "tnut-farr2024"
+   ]
+  },
+  {
+   "factor": "riboflavin",
+   "shape": "build",
+   "summary": "Riboflavin status markers respond to changes in intake, and in people with the MTHFR 677TT genotype a small daily dose lowered blood pressure within 16 weeks.",
+   "onset": {
+    "text": "EGRac responds to supplementation [tnut-hoey2009]; timing within the 16-week trial not reported [tnut-wilson2013].",
+    "days": null
+   },
+   "full": {
+    "text": "Systolic BP 5.6 mmHg lower at 16 weeks [tnut-wilson2013].",
+    "days": [
+     112,
+     112
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "1.6 mg/day was used [tnut-wilson2013]; no schedule comparisons."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-hoey2009",
+    "tnut-wilson2013"
+   ]
+  },
+  {
+   "factor": "selenium-supplement",
+   "shape": "build",
+   "summary": "Plasma selenium from selenium yeast reaches a steady state in about 10 weeks, while selenoprotein P in very low-selenium people kept adjusting for up to 40 weeks. Sperm benefit in low-selenium men was seen after 3 months.",
+   "onset": {
+    "text": "Plasma selenium rises over the first weeks with selenomethionine or yeast (measured every 4 weeks), not with selenite [tnut-burk2006]; significantly up by 10 weeks [tnut-hurst2010].",
+    "days": [
+     28,
+     70
+    ]
+   },
+   "full": {
+    "text": "Plasma steady state by 10 weeks [tnut-hurst2010]; selenoprotein P optimised at 40 weeks in deficient people [tnut-xia2010].",
+    "days": [
+     70,
+     280
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials dosed daily; Brazil nuts vary widely, so a nut or two most days is the usual food approach (no trial)."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured.",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; motility improved after 3 months in low-selenium men [tnut-scott1998], matching the ~10-week plasma plateau [tnut-hurst2010]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-burk2006",
+    "tnut-hurst2010",
+    "tnut-xia2010",
+    "tnut-scott1998",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "spermidine",
+   "shape": "none",
+   "summary": "Five days of high-dose spermidine did not raise blood spermidine (spermine rose instead), and 12 months of low-dose wheat-germ spermidine did not improve memory. No meaningful time course is established.",
+   "onset": {
+    "text": "Plasma spermine, not spermidine, rose within 5 days of 15 mg/day [tnut-senekowitsch2023].",
+    "days": [
+     5,
+     5
+    ]
+   },
+   "full": {
+    "text": "No memory effect after 12 months [tnut-schwarz2022].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No schedule supported [tnut-schwarz2022]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-senekowitsch2023",
+    "tnut-schwarz2022"
+   ]
+  },
+  {
+   "factor": "supplement-drug-interactions",
+   "shape": "acute",
+   "summary": "Enzyme-inducing herbs like St John's wort change drug levels within the first cycle of use, and the induction fades about a week after stopping.",
+   "onset": {
+    "text": "CYP3A induction after 14 days [tnut-imai2008]; breakthrough bleeding on the pill within the first cycles of St John's wort [tnut-hall2003].",
+    "days": [
+     7,
+     28
+    ]
+   },
+   "full": {
+    "text": "Induction established within 2 weeks [tnut-imai2008].",
+    "days": [
+     14,
+     14
+    ]
+   },
+   "after_stopping": {
+    "text": "CYP3A activity back to baseline about 7 days after stopping (recovery half-life 46 h) [tnut-imai2008].",
+    "days": [
+     7,
+     7
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Avoid the combination; allow about a week after stopping an inducer before relying on affected drugs [tnut-imai2008]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-imai2008",
+    "tnut-hall2003"
+   ]
+  },
+  {
+   "factor": "taurine",
+   "shape": "build",
+   "summary": "Taurine is cleared from plasma with a half-life of about an hour and a week of dosing did not raise muscle taurine, yet daily intake lowered blood pressure over 12 weeks.",
+   "onset": {
+    "text": "Plasma peaks at 1.5 h, half-life ~1 h [tnut-ghandforoush2010]; no muscle change after 7 days [tnut-galloway2008].",
+    "days": [
+     0.06,
+     0.1
+    ]
+   },
+   "full": {
+    "text": "BP lowered at 12 weeks (7.2 vs 2.6 mmHg systolic) [tnut-sun2016].",
+    "days": [
+     84,
+     84
+    ]
+   },
+   "after_stopping": {
+    "text": "Plasma back to baseline within hours; persistence of BP effect not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily dosing was used [tnut-sun2016]; the 1-hour half-life suggests split doses keep plasma higher (extrapolated) [tnut-galloway2008]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-ghandforoush2010",
+    "tnut-galloway2008",
+    "tnut-sun2016"
+   ]
+  },
+  {
+   "factor": "tomatoes-lycopene",
+   "shape": "build",
+   "summary": "Only a few milligrams of lycopene are absorbed per serving however much is eaten, so regular servings build up blood and tissue levels over weeks. Levels then fade over weeks; a sperm trial ran 12 weeks.",
+   "onset": {
+    "text": "Plasma lycopene rose within 8 days of 20 mg/day [tnut-cohn2004].",
+    "days": [
+     1,
+     8
+    ]
+   },
+   "full": {
+    "text": "Depletion half-life about 26 days implies a plateau after 2-4 months (extrapolated) [tnut-burri2001]; sperm effects at 12 weeks [tnut-williams2020].",
+    "days": [
+     56,
+     120
+    ]
+   },
+   "after_stopping": {
+    "text": "Effective half-life 5-9 days after short dosing [tnut-cohn2004] but about 26 days on longer depletion [tnut-burri2001].",
+    "days": [
+     5,
+     26
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Absorption saturates at about 4-6 mg per dose [tnut-diwadkar2003], so spreading cooked tomato over most days beats one large serving (extrapolated)."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured.",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; the RCT ran 12 weeks [tnut-williams2020]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Short dosing studies give lycopene half-lives of 5-9 days [tnut-cohn2004], long depletion studies about 26 days [tnut-burri2001]; both are true for different body pools.",
+   "refs": [
+    "tnut-cohn2004",
+    "tnut-burri2001",
+    "tnut-williams2020",
+    "tnut-diwadkar2003",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "urolithin-a",
+   "shape": "build",
+   "summary": "Urolithin A shifted blood and muscle mitochondrial markers within 4 weeks, muscle endurance by 2 months and strength by 4 months in company-funded trials. Four weeks did nothing for trained runners' performance.",
+   "onset": {
+    "text": "Plasma acylcarnitines and muscle gene expression changed after 4 weeks [tnut-andreux2019].",
+    "days": [
+     28,
+     28
+    ]
+   },
+   "full": {
+    "text": "Muscle endurance at 2 months [tnut-liu2022]; strength (~12%) at 4 months [tnut-singh2022].",
+    "days": [
+     60,
+     120
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "All trials dosed daily [tnut-liu2022, tnut-singh2022]."
+   },
+   "basis": "measured",
+   "debate": "Benefits in older and middle-aged adults at 2-4 months [tnut-liu2022, tnut-singh2022] contrast with no performance gain after 4 weeks in trained runners [tnut-whitfield2025].",
+   "refs": [
+    "tnut-andreux2019",
+    "tnut-liu2022",
+    "tnut-singh2022",
+    "tnut-whitfield2025"
+   ]
+  },
+  {
+   "factor": "vitamin-b12-folate-status",
+   "shape": "lasting",
+   "summary": "Folate status responds within months: plasma folate plateaus at about 3 months, red-cell folate keeps rising for 6 months, and both fall within months of stopping. B12 is stored in milligram amounts, so deficiency takes years to develop.",
+   "onset": {
+    "text": "Plasma folate up within 1 month, plateau at 3 months [tnut-hao2008].",
+    "days": [
+     30,
+     90
+    ]
+   },
+   "full": {
+    "text": "Red-cell folate still rising at 6 months [tnut-daly1997].",
+    "days": [
+     90,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Blood folate fell rapidly over 3 months [tnut-hao2008]; B12 deficiency symptoms can take several years [tnut-ods2025b12].",
+    "days": [
+     30,
+     1095
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Single vs split daily folic acid made no difference [tnut-hao2008]; B12 stores tolerate gaps, but vegans need a reliable regular source [tnut-ods2025b12]."
+   },
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "One month before conception still raises folate before neural tube closure at day 28, but red-cell folate keeps rising for months [tnut-daly1997].",
+     "text": "Neural tube risk depends on red-cell folate at day 28 of pregnancy [tnut-crider2014]; serum folate and B12 before IVF were linked to live birth [tnut-gaskins2015]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-hao2008",
+    "tnut-daly1997",
+    "tnut-ods2025b12",
+    "tnut-crider2014",
+    "tnut-gaskins2015"
+   ]
+  },
+  {
+   "factor": "vitamin-c-e-combined",
+   "shape": "build",
+   "summary": "Vitamin C saturates blood within weeks and vitamin E has a plasma half-life of about 2.4 days, so both reach steady blood levels quickly. A 2-month course lowered sperm DNA fragmentation, which is shorter than a full sperm cycle.",
+   "onset": {
+    "text": "Vitamin E plasma half-life 57 h [tnut-leonard2005]; steady plasma levels within about 10 days (extrapolated).",
+    "days": [
+     2,
+     10
+    ]
+   },
+   "full": {
+    "text": "Sperm DNA fragmentation fell from 22% to 9% after 2 months [tnut-greco2005].",
+    "days": [
+     60,
+     60
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured for sperm; plasma vitamin E falls over days (extrapolated) [tnut-leonard2005].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials dosed daily [tnut-greco2005]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 60,
+     "late_start": "Not measured.",
+     "text": "A 2-month course was enough in one trial [tnut-greco2005], suggesting protection of late-stage sperm; Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-leonard2005",
+    "tnut-greco2005",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "vitamin-c-foods",
+   "shape": "build",
+   "summary": "Plasma vitamin C is tightly regulated: it rises steeply between 30 and 100 mg/day and saturates at about 400-1000 mg/day, with excess excreted. The body pool fills at about 100 mg/day, and turnover slows when intake is low.",
+   "onset": {
+    "text": "Not timed in verified abstracts; plasma rises the same day after a dose.",
+    "days": null
+   },
+   "full": {
+    "text": "Extrapolated: inpatient depletion-repletion studies stepped through seven doses over 4-6 months, implying steady state within a few weeks at each dose [tnut-levine1996, tnut-levine2001].",
+    "days": [
+     7,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "Half-life lengthens as intake falls [tnut-kallner1979], so plasma drops quickly from saturation but the remaining pool is conserved; exact times not in verified abstracts.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Water-soluble with saturable absorption: daily food sources keep tissues saturated [tnut-levine1996]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-levine1996",
+    "tnut-levine2001",
+    "tnut-kallner1979"
+   ]
+  },
+  {
+   "factor": "vitamin-c-status",
+   "shape": "build",
+   "summary": "Plasma vitamin C is tightly regulated: it rises steeply between 30 and 100 mg/day and saturates at about 400-1000 mg/day, with excess excreted. The body pool fills at about 100 mg/day, and turnover slows when intake is low.",
+   "onset": {
+    "text": "Not timed in verified abstracts.",
+    "days": null
+   },
+   "full": {
+    "text": "Extrapolated: steady state within a few weeks at each dose step [tnut-levine1996, tnut-levine2001]; pool of about 20 mg/kg reached at about 100 mg/day [tnut-kallner1979].",
+    "days": [
+     7,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "Half-life is longer at low intake [tnut-kallner1979]; exact depletion times not in verified abstracts.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily intake of about 100-200 mg from food keeps cells saturated [tnut-levine1996, tnut-levine2001]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-levine1996",
+    "tnut-levine2001",
+    "tnut-kallner1979"
+   ]
+  },
+  {
+   "factor": "vitamin-c-supplement",
+   "shape": "acute",
+   "summary": "Oral vitamin C cannot push plasma much above about 200 umol/L because absorption falls and excretion rises above about 500 mg per dose. Above that, extra vitamin C is mostly excreted.",
+   "onset": {
+    "text": "Plasma peaks within hours of a dose (1.25 g gave 135 umol/L) [tnut-padayatty2004].",
+    "days": null
+   },
+   "full": {
+    "text": "Plasma saturates at about 400-1000 mg/day [tnut-levine1996, tnut-levine2001].",
+    "days": [
+     7,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "Excess above saturation is excreted; return to food-level steady state not timed in verified abstracts.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "If used, split doses absorb better than one large dose because bioavailability falls above 500 mg (extrapolated) [tnut-levine1996]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-padayatty2004",
+    "tnut-levine1996",
+    "tnut-levine2001"
+   ]
+  },
+  {
+   "factor": "vitamin-d",
+   "shape": "lasting",
+   "summary": "Blood 25(OH)D has a half-life of about 2 weeks, so daily or weekly doses reach a new steady level in about 2-3 months, while fat stores keep levels up long after a large dose. Large intermittent boluses spike levels and were linked to more falls and less benefit than daily dosing in several trials.",
+   "onset": {
+    "text": "25(OH)D rose by day 7 with daily, weekly or monthly dosing [tnut-ishshalom2008].",
+    "days": [
+     7,
+     7
+    ]
+   },
+   "full": {
+    "text": "Extrapolated from a 15-day half-life: about 75 days to steady state [tnut-jones2014]; daily, weekly and monthly dosing converged at 2 months [tnut-ishshalom2008]; winter trial ran 20 weeks [tnut-heaney2003].",
+    "days": [
+     60,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "25(OH)D3 half-life about 15 days [tnut-jones2014], but stored vitamin D (body half-life ~2 months) [tnut-jones2008] kept 25(OH)D above placebo 12 months after a 500,000 IU dose [tnut-sanders2010].",
+    "days": [
+     15,
+     365
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Daily or weekly doses are preferred: bolus doses gave no respiratory protection [tnut-martineau2017] and no cancer-mortality benefit [tnut-keum2022], and an annual 500,000 IU dose raised falls, most in the first 3 months [tnut-sanders2010]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "A loading dose raises 25(OH)D within days, but semen did not improve even after 150 days [tnut-blombergjensen2018].",
+     "text": "Correcting deficiency did not improve semen quality [tnut-blombergjensen2018]; Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]."
+    },
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "A clinician-supervised loading dose can correct deficiency within weeks (extrapolated) [tnut-ishshalom2008].",
+     "text": "Vitamin D-replete women had more IVF live births [tnut-chu2018]; reaching steady state takes about 2-3 months [tnut-jones2014]."
+    }
+   },
+   "basis": "measured",
+   "debate": "Several trials and meta-analyses favour daily dosing over boluses [tnut-martineau2017, tnut-keum2022, tnut-sanders2010, tnut-bischoff2016, tnut-hollis2013], but a short trial found equal blood levels across schedules [tnut-ishshalom2008], the 2025 meta-analysis found no effect modification by frequency [tnut-jolliffe2025, tnut-jolliffe2021], monthly dosing borderline reduced cardiovascular events [tnut-thompson2023], and daily 2000 IU was null in VITAL [tnut-manson2019] while monthly dosing in D-Health showed a cancer-mortality signal [tnut-neale2022].",
+   "refs": [
+    "tnut-ishshalom2008",
+    "tnut-jones2014",
+    "tnut-heaney2003",
+    "tnut-jones2008",
+    "tnut-sanders2010",
+    "tnut-martineau2017",
+    "tnut-keum2022",
+    "tnut-blombergjensen2018",
+    "tnut-chu2018",
+    "tnut-bischoff2016",
+    "tnut-hollis2013",
+    "tnut-jolliffe2025",
+    "tnut-jolliffe2021",
+    "tnut-thompson2023",
+    "tnut-manson2019",
+    "tnut-neale2022",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  },
+  {
+   "factor": "vitamin-e-supplement",
+   "shape": "lasting",
+   "summary": "Plasma vitamin E turns over in days (half-life about 2.4 days), but tissues lag for months and fat stores take 2 years or more to reach a new steady state. Harm signals also played out over years.",
+   "onset": {
+    "text": "Plasma half-life 57 h, so plasma levels shift within a week [tnut-leonard2005].",
+    "days": [
+     2,
+     10
+    ]
+   },
+   "full": {
+    "text": "Tissues lagged plasma after 41 days and matched it only after about a year [tnut-burton1998]; adipose needed 2 years or more [tnut-handelman1994].",
+    "days": [
+     365,
+     730
+    ]
+   },
+   "after_stopping": {
+    "text": "Adipose ratio fell only gradually over a year after stopping [tnut-handelman1994]; in a radiotherapy trial, excess second cancers did not persist after supplementation ended [tnut-bairati2005].",
+    "days": [
+     365,
+     730
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "No supplemental schedule shows benefit; prostate-cancer excess emerged with longer follow-up in SELECT [tnut-klein2011]."
+   },
+   "basis": "measured",
+   "debate": "In SELECT the prostate-cancer excess became clearer with longer follow-up [tnut-klein2011], whereas in a radiotherapy trial the second-cancer excess was limited to the supplementation period [tnut-bairati2005].",
+   "refs": [
+    "tnut-leonard2005",
+    "tnut-burton1998",
+    "tnut-handelman1994",
+    "tnut-bairati2005",
+    "tnut-klein2011"
+   ]
+  },
+  {
+   "factor": "zinc-status",
+   "shape": "build",
+   "summary": "Plasma zinc responds to intake within weeks, and 50 mg/day already lowered a copper-dependent enzyme by 6 weeks. Sperm effects need a full sperm cycle, and the largest trial found none after 6 months.",
+   "onset": {
+    "text": "Measured at 2, 4 and 6 weeks of 50 mg/day: plasma zinc rose and red-cell SOD fell, significantly by week 6 [tnut-fischer1984]; plasma zinc tracks intake [tnut-lowe2009].",
+    "days": [
+     14,
+     42
+    ]
+   },
+   "full": {
+    "text": "Semen unchanged after 6 months of 30 mg/day with folic acid [tnut-schisterman2020].",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Zinc is not stored in a large reserve, so regular dietary intake is the norm; high-dose supplements risk copper depletion within weeks [tnut-fischer1984]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Not measured.",
+     "text": "Sperm take about 64 days to form (42-76 days in a labelling study) plus epididymal transit [tnut-misell2006, tnut-heller1963]; the 6-month trial found no benefit in mostly replete men [tnut-schisterman2020]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tnut-fischer1984",
+    "tnut-lowe2009",
+    "tnut-schisterman2020",
+    "tnut-misell2006",
+    "tnut-heller1963"
+   ]
+  }
+ ]
+}

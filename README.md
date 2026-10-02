@@ -10,10 +10,11 @@ Private beta on GitHub Pages behind a simple passphrase. This is obscurity only:
 - **Factor pages:** a "How much?" box (effective dose, studied range, upper limits, time to effect), mechanism, interactions and redundancy, caveats, key numbers, and the papers, with PubMed links.
 - **Compare:** foods, habits, or supplements side by side (e.g. blackberries vs eggplant skin vs coffee vs broccoli sprouts).
 - **Mechanisms:** factors grouped by pathway (Nrf2, mitochondrial ROS, NOX, iron/Fenton, glycation, …), which is the right frame for "if I already do X, does Y still add anything?"
+- **Timeline:** set the days until conception or egg retrieval to see which stage of development the sperm or egg is in, which changes are still in time for their full effect, and what a late start still achieves. Factor pages show when an effect starts, when it peaks, how long it lasts after stopping, and how often it's needed.
 - **My plan:** a short questionnaire that produces a prioritized, personalized list. Answers stay in the browser.
 - **Stack check:** list supplements and medications and get flags for evidence of harm, overlapping mechanisms, and conflicts with training, conception, pregnancy, smoking, blood thinners, cancer treatment, or G6PD deficiency (rules in `data/stack.json`).
 - **Tests:** which lab and genetic tests actually guide decisions, how to read them, and which to skip.
-- **Read:** long-form research notes for each area, plus 14 deep dives (sulforaphane, curcumin, isothiocyanates & polyphenols, fasting, ketosis, exercise, longevity supplements & aging theory, iron & micronutrients, medications, testing, microplastics & PFAS, IVF add-ons, skin & brain, cooking & circadian timing).
+- **Read:** long-form research notes for each area, plus 14 deep dives (sulforaphane, curcumin, isothiocyanates & polyphenols, fasting, ketosis, exercise, longevity supplements & aging theory, iron & micronutrients, medications, testing, microplastics & PFAS, IVF add-ons, skin & brain, cooking & circadian timing), plus six timing deep dives (sperm, egg, nutrients, foods & Nrf2, exercise/fasting/sleep, and what lasts).
 - **Where the evidence is contested:** factor pages and deep dives cite published disagreement on both sides.
 
 ## Evidence policy
@@ -32,12 +33,15 @@ data/compare.json               compare presets
 data/stack.json                 stack-checker contexts and rules
 data/tests.json                 lab/genetic test guidance
 data/notes/<deep-dive>.json     full reference lists for research/deep-*.md
+data/timing/<group>.json        timing records, sperm/egg windows and refs (research/TIMING-BRIEF.md)
 research/<area>.md              long-form notes; research/SCHEMA.md defines the data format
 tools/build.py                  data/*.json -> assets/data.json (+ consistency warnings)
 tools/verify_refs.py            re-verify every citation against PubMed / Crossref
 tools/apply_patch.py            merge a research patch (factors, refs, mechanisms, tests, notes)
+tools/apply_timing.py           validate and add a timing research file
 tools/set_passphrase.py         change the passphrase
 research/BRIEF.md               instructions given to research agents
+research/TIMING-BRIEF.md        instructions for the timing research
 ```
 
 ## Working on it

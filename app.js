@@ -220,6 +220,167 @@
     </a>`;
   }
 
+  // ---------- timing ----------
+  const SHAPE_LABEL = { acute: "Fast on, fast off", build: "Builds over weeks", "slow-build": "Keeps growing for months to years", lasting: "Outlasts the exposure", window: "Depends on when", none: "No time pattern" };
+  const FREQ_LABEL = { daily: "Daily", "most-days": "Most days", "few-per-week": "A few times a week", weekly: "Weekly", occasional: "Now and then", "one-off": "Once", avoid: "Avoid", "n/a": "Not applicable" };
+  const BASIS_LABEL = { measured: "Measured in people", extrapolated: "Extrapolated from biology", unknown: "Not measured" };
+  // one unit for both ends of a range, picked by the upper end
+  function durRange(days) {
+    if (!Array.isArray(days)) return "";
+    const [lo, hi] = days;
+    const units = [[1, 24, "hour"], [14, 1, "day"], [90, 1 / 7, "week"], [730, 1 / 30.4, "month"], [Infinity, 1 / 365, "year"]];
+    const [, k, name] = units.find(([lim]) => hi < lim);
+    const r = (x) => { const v = x * k; return v < 0.75 && v > 0 ? "<1" : String(v >= 10 ? Math.round(v) : Math.round(v * 2) / 2); };
+    const a = r(lo), b = r(hi);
+    if (a === "<1" && lo > 0 && b !== "<1") return `${durRange([lo, lo])} to ${b} ${name}${b === "1" ? "" : "s"}`;
+    return a === b ? `${b} ${name}${b === "1" || b === "<1" ? "" : "s"}` : `${a}–${b} ${name}s`;
+  }
+  const durOne = (d) => durRange([d, d]);
+  // log time axis from 1 hour to 10 years, as % across a track
+  const T_MIN = 1 / 24, T_MAX = 3650;
+  const tx = (d) => Math.max(0, Math.min(100, (Math.log10(Math.max(d, T_MIN)) - Math.log10(T_MIN)) / (Math.log10(T_MAX) - Math.log10(T_MIN)) * 100));
+  const T_TICKS = [[1 / 24, "1 h"], [1, "1 d"], [7, "1 wk"], [30.4, "1 mo"], [91, "3 mo"], [365, "1 yr"], [1825, "5 yr"]];
+  function tbar(days, cls, title, fade) {
+    if (!Array.isArray(days)) return "";
+    const a = tx(days[0]), b = tx(days[1]);
+    const w = Math.max(b - a, 1.6);
+    return `<i class="tbar ${cls}${fade ? " fade" : ""}" style="left:${Math.min(a, 100 - w).toFixed(1)}%;width:${w.toFixed(1)}%" title="${esc(title)}"></i>`;
+  }
+  function timeStrip(t, harm) {
+    const on = (t.onset || {}).days, full = (t.full || {}).days, off = (t.after_stopping || {}).days;
+    if (!on && !full && !off) return "";
+    const tone = harm ? "harm" : "help";
+    return `<div class="tstrip ${tone}">
+      <div class="trow"><span class="tlabel">${harm ? "While exposed" : "From starting"}</span><div class="ttrack">${tbar(on, "onset", "First effect: " + durRange(on))}${tbar(full, "full", "Full effect: " + durRange(full), t.shape === "slow-build")}${!on && !full ? '<span class="tnone">not measured</span>' : ""}</div></div>
+      <div class="trow"><span class="tlabel">After stopping</span><div class="ttrack">${off ? tbar(off, "after", "Lasts after stopping: " + durRange(off)) : '<span class="tnone">not measured</span>'}</div></div>
+      <div class="trow axis"><span class="tlabel"></span><div class="ttrack">${T_TICKS.map(([d, l]) => `<span style="left:${tx(d).toFixed(1)}%">${l}</span>`).join("")}</div></div>
+    </div>
+    <p class="muted small tlegend"><i class="key onset"></i>first effect <i class="key full"></i>full effect <i class="key after"></i>${harm ? "recovery" : "lasts"} after stopping · time on a log scale</p>`;
+  }
+  function timingCard(f) {
+    const t = f.timing;
+    if (!t) return "";
+    const harm = f.direction === "harmful";
+    const cite = (s) => citeLinks(linkify(s || ""), t.doc);
+    const row = (k, part) => part && (part.text || part.days) ? `<dt>${k}</dt><dd>${part.days ? `<b>${durRange(part.days)}.</b> ` : ""}${cite(part.text)}</dd>` : "";
+    const fr = t.frequency || {};
+    const conc = Object.entries(t.conception || {}).filter(([s]) => s === "sperm" || s === "egg").map(([s, c]) =>
+      `<dt>${s === "sperm" ? "For sperm" : "For eggs"}</dt><dd>${c.start_by_days ? `<b>${harm ? "Avoid it for at least" : "Start at least"} ${durOne(c.start_by_days)} before.</b> ` : ""}${cite(c.text)}${c.late_start ? `<br><span class="muted">Starting later: ${cite(c.late_start)}</span>` : ""}</dd>`).join("");
+    return `<section class="card entry timing">
+      <div class="entry-title"><h2>Timing</h2><span class="chip shape-${esc(t.shape)}">${esc(SHAPE_LABEL[t.shape] || t.shape)}</span>${fr.advice && fr.advice !== "n/a" ? `<span class="chip">${esc(FREQ_LABEL[fr.advice] || fr.advice)}</span>` : ""}<span class="chip basis-${esc(t.basis)}">${esc(BASIS_LABEL[t.basis] || t.basis)}</span></div>
+      ${t.summary ? `<p class="headline">${cite(t.summary)}</p>` : ""}
+      ${timeStrip(t, harm)}
+      <dl class="dose">${row(harm ? "Harm appears" : "First effect", t.onset)}${row(harm ? "Full harm" : "Full effect", t.full)}${row(harm ? "Recovery after stopping" : "After stopping", t.after_stopping)}${fr.text ? `<dt>How often</dt><dd>${cite(fr.text)}</dd>` : ""}${conc}</dl>
+      ${t.debate ? `<div class="section-label">Where the timing evidence is contested</div><p class="debate">${cite(t.debate)}</p>` : ""}
+      <p class="small"><a href="#/read/${esc(t.doc)}">Timing deep dive →</a> · <a href="#/timeline">Conception timeline →</a></p>
+      ${(t.refs || []).length ? `<details><summary class="section-label" style="cursor:pointer">Timing references (${t.refs.length})</summary><ul class="refs">${t.refs.map(refHTML).join("")}</ul></details>` : ""}
+    </section>`;
+  }
+
+  // The conception countdown: development windows and what is still in time.
+  function viewTimeline(params) {
+    const scope = params.get("scope") === "egg" ? "egg" : params.get("scope") === "sperm" ? "sperm" : store.get("redox.tscope", "sperm");
+    const days = Math.max(0, Math.min(365, parseInt(params.get("days") ?? store.get("redox.tdays", 90), 10) || 0));
+    return `<h1>Timeline</h1>
+      <p class="lede">What to start when, how fast things work, how long they last, and how often they're needed. Set how far away conception (or egg retrieval) is to see which stage of development the sperm or egg is in now, and which changes can still reach it.</p>
+      <div class="card tl-controls">
+        <div class="tabs" role="group" aria-label="Sperm or egg">${["sperm", "egg"].map((s) => `<button class="${s === scope ? "active" : ""}" data-tscope="${s}">${s === "sperm" ? "Sperm" : "Egg"}</button>`).join("")}</div>
+        <label class="tl-days"><span>Days until ${scope === "egg" ? "ovulation or egg retrieval" : "conception or sample"}</span>
+          <input type="range" id="tl-days" min="0" max="365" step="1" value="${days}" aria-label="Days until conception">
+          <output id="tl-out"></output></label>
+      </div>
+      <div id="tl-body"></div>
+      <h2>What the timing research found</h2>
+      <div class="tl-lessons">
+        <div class="card"><h3>A month out beats two weeks</h3><p>Sperm take about 64 days (42–76) to form, then sit in storage. A fever or heat 2–5 weeks before shows up as DNA damage; in the last 1–2 weeks only storage-stage levers remain (short abstinence, removing heat, quitting smoking). An egg's follicle grows for about 85 days; follicular fluid tracks the current cycle, but the egg itself is shaped over ~3 months. <a href="#/read/deep-timing-sperm">Sperm</a> · <a href="#/read/deep-timing-egg">Egg</a></p></div>
+        <div class="card"><h3>Pulses fade in days</h3><p>Sulforaphane is gone from blood in hours, but the enzymes it switches on keep working for about 1–3 days and are back to baseline after ~5 days off. Daily doses stack, with no tolerance over 12 weeks: most days is the evidence-based rhythm. Cocoa, berries and nitrate-rich greens act for hours, so they need to be regular. <a href="#/read/deep-timing-food">Foods &amp; Nrf2</a></p></div>
+        <div class="card"><h3>Stores tolerate gaps</h3><p>Omega-3 builds in red cells over ~4–6 months, so 1–4 fish meals a week work like daily doses. Vitamin D has a ~2-week half-life; daily, weekly and monthly doses give the same blood level, though big yearly boluses look worse. Folate in red cells takes ~8 months to plateau and needs daily intake. <a href="#/read/deep-timing-nutrients">Nutrients</a></p></div>
+        <div class="card"><h3>Fitness builds slowly, fades faster</h3><p>One session improves insulin sensitivity for ~48 h; VO2max rises over 3–12+ weeks; recent gains are lost after ~4 weeks off. Two sessions a week at the same intensity hold it. Fitness held for years tracks 30–44% lower mortality. Sleep and light effects appear and reverse within days. <a href="#/read/deep-timing-body">Exercise, fasting &amp; sleep</a></p></div>
+        <div class="card"><h3>Some things last for years</h3><p>BPA clears in hours, PFAS take 3–5 years to halve, cadmium and bone lead decades. Habits can outlast themselves too: daily sunscreen kept skin cancer lower for years after the trial, and blood-sugar control kept paying off 10–24 years later. <a href="#/read/deep-timing-legacy">What lasts</a></p></div>
+      </div>
+      <div id="tl-rhythm"></div>`;
+  }
+  function timelineBody(scope, days) {
+    const ws = (D.windows || []).filter((w) => w.scope === scope).sort((a, b) => b.start_days - a.start_days);
+    const lo = Math.min(0, ...ws.map((w) => w.end_days)), hi = Math.max(days, ...ws.filter((w) => w.start_days <= 400).map((w) => w.start_days), 30);
+    const x = (d) => ((hi - Math.max(lo, Math.min(hi, d))) / (hi - lo) * 100).toFixed(1);
+    const cur = ws.filter((w) => w.start_days >= days && w.end_days <= days);
+    // a window spanning conception that contains another window is an umbrella (the periconception period)
+    const umbrella = (w, list) => w.start_days > 0 && w.end_days < 0 && list.some((o) => o !== w && o.start_days <= w.start_days && o.end_days >= w.end_days);
+    const now = cur.filter((w) => !umbrella(w, cur));
+    const ahead = ws.filter((w) => w.start_days < days && !umbrella(w, ws));
+    const cite = (s, w) => citeLinks(linkify(s || ""), w.doc);
+    const gantt = ws.length ? `<div class="gantt">
+        ${ws.map((w) => {
+          const state = w.end_days > days ? "past" : w.start_days < days ? "ahead" : "now";
+          const clipped = w.start_days > hi;
+          return `<details class="grow ${state}"><summary><span class="gname">${esc(w.name)}</span><span class="gtrack"><i style="left:${x(Math.min(w.start_days, hi))}%;width:${(x(w.end_days) - x(Math.min(w.start_days, hi))).toFixed(1)}%" class="${clipped ? "clipped" : ""}"></i><b class="gmark" style="left:${x(days)}%"></b></span></summary>
+            <div class="gdetail"><p class="small muted">${w.start_days > 0 ? durOne(w.start_days) : "after"} → ${w.end_days > 0 ? durOne(w.end_days) + " before" : w.end_days < 0 ? durOne(-w.end_days) + " after" : "the day"}</p><p>${cite(w.what, w)}</p>${w.sensitive_to ? `<p><b>Sensitive to:</b> ${cite(w.sensitive_to, w)}</p>` : ""}${(w.refs || []).length ? `<details><summary class="section-label" style="cursor:pointer">References (${w.refs.length})</summary><ul class="refs">${w.refs.map(refHTML).join("")}</ul></details>` : ""}</div></details>`;
+        }).join("")}
+        <div class="gaxis"><span class="gname"></span><span class="gtrack"><b class="gmark now" style="left:${x(days)}%"><em>now</em></b>${[hi, Math.round(hi * 2 / 3), Math.round(hi / 3), 0].map((d) => `<span style="left:${x(d)}%">${d ? durOne(d) : scope === "egg" ? "ovulation" : "conception"}</span>`).join("")}${lo < 0 ? `<span style="left:${x(lo)}%">+${durOne(-lo)}</span>` : ""}</span></div>
+      </div>
+      <p class="tl-now">${now.length ? `Right now, the ${scope === "egg" ? "egg that would be released" : "sperm that would be used"} ${days ? `in ${durOne(days)}` : "today"} ${now.length > 1 ? "is in these stages" : "is in this stage"}: <b>${now.map((w) => esc(w.name)).join("</b>, <b>")}</b>. ${ahead.length ? `Still ahead: ${ahead.map((w) => esc(w.name)).join(", ")}. ` : ""}${scope === "egg" ? "Stages already completed can't be changed for this egg; eggs for later cycles are at earlier stages now." : "Stages already completed can't be changed for this batch of sperm; later batches start fresh."}` : `This is before the stages shown here begin.`}</p>` : `<p class="muted">Development windows will appear once the timing research is merged.</p>`;
+
+    const fs = D.factors.filter((f) => f.timing && f.timing.conception && f.timing.conception[scope]);
+    const rank = (a, b) => score(b, scope) - score(a, scope) || a.name.localeCompare(b.name);
+    const item = (f) => {
+      const c = f.timing.conception[scope], harm = dirFor(f, scope) === "harmful";
+      const late = c.start_by_days && days < c.start_by_days;
+      return `<li class="tl-item ${harm ? "harm" : "help"}"><div class="tl-head">${dots(impactOf(f, scope), dirFor(f, scope))} ${fLink(f.id)}
+        ${c.start_by_days ? `<span class="chip ${late ? "late" : "intime"}">${harm ? "avoid" : "start"} ≥ ${durOne(c.start_by_days)} before</span>` : ""}</div>
+        ${late && c.late_start ? `<p class="small">${harm ? "Stopping now" : "Starting now"}: ${citeLinks(linkify(c.late_start), f.timing.doc)}</p>` : `<p class="small muted">${citeLinks(linkify(c.text || f.timing.summary || ""), f.timing.doc)}</p>`}</li>`;
+    };
+    const graded = fs.filter((f) => impactOf(f, scope) > 0);
+    const group = (title, list, note) => list.length ? `<h3>${title} <span class="muted small">(${list.length})</span></h3>${note ? `<p class="muted small">${note}</p>` : ""}<ul class="tl-list">${list.sort(rank).map(item).join("")}</ul>` : "";
+    const lead = (f) => f.timing.conception[scope].start_by_days;
+    const inTime = graded.filter((f) => lead(f) && days >= lead(f));
+    const lateList = graded.filter((f) => lead(f) && days < lead(f));
+    const noLead = graded.filter((f) => !lead(f));
+    return `${gantt}
+      <section class="card entry"><h2>${days ? `With ${durOne(days)} to go` : "On the day"}</h2>
+        <p class="muted small">Factors with ${scope === "egg" ? "an egg" : "a sperm"} effect, ranked by impact × evidence. The lead time is how long before conception the research says to start a helpful change, or stop a harmful one, to get its full effect.</p>
+        ${group("Still in time for the full effect", inTime)}
+        ${group("Too late for the full effect", lateList, "What starting (or stopping) now still achieves.")}
+        ${group("No lead time", noLead, "Acts on the day or the cycle itself, or no lead time has been shown to help.")}
+        ${!fs.length ? `<p class="muted">No timing records yet.</p>` : ""}
+      </section>`;
+  }
+  function timelineRhythm() {
+    const fs = D.factors.filter((f) => f.timing);
+    if (!fs.length) return "";
+    const best = (f) => Math.max(...SCOPES.map((s) => score(f, s.id)));
+    const order = ["daily", "most-days", "few-per-week", "weekly", "occasional", "one-off", "avoid"];
+    const by = (pred) => fs.filter(pred).sort((a, b) => best(b) - best(a));
+    const chips = (list) => `<div class="related">${list.map((f) => `<a class="chip dir-${dirFor(f)}" href="#/factor/${encodeURIComponent(f.id)}" title="${esc(f.timing.summary || "")}">${esc(f.name)}</a>`).join("")}</div>`;
+    const freq = order.map((k) => [k, by((f) => (f.timing.frequency || {}).advice === k)]).filter(([, l]) => l.length);
+    const shapes = ["acute", "build", "slow-build", "lasting"].map((k) => [k, by((f) => f.timing.shape === k)]).filter(([, l]) => l.length);
+    return `<section class="card entry"><h2>How often?</h2><p class="muted small">What the evidence says about schedule. Effects that fade within a day or two need to be regular; effects built on body stores or tissue turnover tolerate gaps.</p>
+        ${freq.map(([k, l]) => `<div class="section-label">${esc(FREQ_LABEL[k])} <span class="muted">(${l.length})</span></div>${chips(l)}`).join("")}</section>
+      <section class="card entry"><h2>How fast, and how long?</h2>
+        ${shapes.map(([k, l]) => `<div class="section-label">${esc(SHAPE_LABEL[k])} <span class="muted">(${l.length})</span></div>${chips(l)}`).join("")}</section>`;
+  }
+  function bindTimeline(params) {
+    let scope = params.get("scope") === "egg" ? "egg" : params.get("scope") === "sperm" ? "sperm" : store.get("redox.tscope", "sperm");
+    const slider = $("#tl-days");
+    const draw = () => {
+      const days = parseInt(slider.value, 10);
+      $("#tl-out").textContent = days === 0 ? "today" : `${days} days · ${durOne(days)}`;
+      $("#tl-body").innerHTML = timelineBody(scope, days);
+      store.set("redox.tdays", days);
+      store.set("redox.tscope", scope);
+      history.replaceState(null, "", `#/timeline?scope=${scope}&days=${days}`);
+    };
+    slider.addEventListener("input", draw);
+    document.querySelectorAll("[data-tscope]").forEach((b) => b.addEventListener("click", () => {
+      scope = b.dataset.tscope;
+      document.querySelectorAll("[data-tscope]").forEach((x) => x.classList.toggle("active", x === b));
+      $(".tl-days span").textContent = `Days until ${scope === "egg" ? "ovulation or egg retrieval" : "conception or sample"}`;
+      draw();
+    }));
+    $("#tl-rhythm").innerHTML = timelineRhythm();
+    draw();
+  }
+
   const AREA_LABEL = () => Object.fromEntries(D.areas.map((a) => [a.id, a.title]));
   function viewFactor(id) {
     const f = byId.get(id);
@@ -263,6 +424,7 @@
         <div class="card" style="padding:12px 16px"><div class="impact-table">${impacts}</div>
           <p style="margin:10px 0 0"><button class="btn small ${inCmp ? "secondary" : ""}" id="cmp-btn">${inCmp ? "✓ In compare" : "+ Add to compare"}</button></p></div>
       </div>
+      ${timingCard(f)}
       ${entries}
       ${related.length ? `<section class="card entry"><h2>Works through the same pathways</h2><p class="muted small">If you already cover a pathway well, more inputs to the same pathway may add less. See the mechanism pages for what's known about saturation.</p><div class="related">${related.map((g) => `<a class="chip dir-${dirFor(g)}" href="#/factor/${encodeURIComponent(g.id)}">${esc(g.name)}</a>`).join("")}</div></section>` : ""}
     `;
@@ -625,6 +787,7 @@
       case "mechanisms": html = viewMechanisms(); break;
       case "mechanism": html = viewMechanism(arg); setActiveNav("mechanisms"); break;
       case "plan": html = viewPlan(); bind = bindPlan; break;
+      case "timeline": html = viewTimeline(params); bind = () => bindTimeline(params); break;
       case "read": html = await viewRead(arg); break;
       case "tests": html = viewTests(params); break;
       case "stack": html = viewStack(); bind = bindStack; break;
@@ -637,6 +800,7 @@
   let lastPath = "";
   window.addEventListener("hashchange", () => {
     const p = parseHash().parts.join("/");
+    if (!D) return; // data still loading; main() routes when it arrives
     route().then(() => { if (p !== lastPath) window.scrollTo(0, 0); lastPath = p; });
   });
 

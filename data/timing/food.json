@@ -1,0 +1,2957 @@
+{
+ "references": [
+  {
+   "id": "tfood-ye2002",
+   "authors": "Ye L, Dinkova-Kostova AT, Wade KL, et al.",
+   "year": 2002,
+   "title": "Quantitative determination of dithiocarbamates in human plasma, serum, erythrocytes and urine: pharmacokinetics of broccoli sprout isothiocyanates in humans",
+   "journal": "Clin Chim Acta",
+   "pmid": "11750273",
+   "doi": "10.1016/s0009-8981(01)00727-6",
+   "type": "cohort",
+   "n": "4 adults",
+   "finding": "After ~200 µmol broccoli-sprout isothiocyanates, plasma levels peaked at about 1 h (0.9-2.3 µM) and fell with a half-life of 1.77 h; 58% of the dose was in urine by 8 h."
+  },
+  {
+   "id": "tfood-vermeulen2008",
+   "authors": "Vermeulen M, Klöpping-Ketelaars IW, van den Berg R, et al.",
+   "year": 2008,
+   "title": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli",
+   "journal": "J Agric Food Chem",
+   "pmid": "18950181",
+   "doi": "10.1021/jf801989e",
+   "type": "rct",
+   "n": "8 men (crossover)",
+   "finding": "Raw broccoli gave 37% sulforaphane bioavailability with a plasma peak at 1.6 h; cooked broccoli gave 3.4% with a peak at 6 h; excretion half-lives were 2.4-2.6 h."
+  },
+  {
+   "id": "tfood-shapiro2001",
+   "authors": "Shapiro TA, Fahey JW, Wade KL, et al.",
+   "year": 2001,
+   "title": "Chemoprotective glucosinolates and isothiocyanates of broccoli sprouts: metabolism and excretion in humans",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "11352861",
+   "doi": null,
+   "type": "cohort",
+   "n": "healthy volunteers (crossover)",
+   "finding": "Isothiocyanate excretion was linear from 25 to 200 µmol and varied only 9% across four repeated 50 µmol doses; chewing raised excretion vs swallowing whole."
+  },
+  {
+   "id": "tfood-egner2011",
+   "authors": "Egner PA, Chen JG, Wang JB, et al.",
+   "year": 2011,
+   "title": "Bioavailability of Sulforaphane from two broccoli sprout beverages: results of a short-term, cross-over clinical trial in Qidong, China",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21372038",
+   "doi": "10.1158/1940-6207.CAPR-10-0296",
+   "type": "rct",
+   "n": "50 adults (crossover)",
+   "finding": "A sulforaphane-rich beverage gave ~70% bioavailability as a bolus; a glucoraphanin-rich beverage gave ~5% with slower elimination that approached steady-state exposure."
+  },
+  {
+   "id": "tfood-egner2014",
+   "authors": "Egner PA, Chen JG, Zarth AT, et al.",
+   "year": 2014,
+   "title": "Rapid and sustainable detoxication of airborne pollutants by broccoli sprout beverage: results of a randomized clinical trial in China",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "24913818",
+   "doi": "10.1158/1940-6207.CAPR-14-0103",
+   "type": "rct",
+   "n": "291 adults",
+   "finding": "Daily broccoli sprout beverage (600 µmol glucoraphanin + 40 µmol sulforaphane) raised benzene mercapturic acid excretion 61% from day 1, sustained for 12 weeks; bioavailability did not decline."
+  },
+  {
+   "id": "tfood-chen2019",
+   "authors": "Chen JG, Johnson J, Egner P, et al.",
+   "year": 2019,
+   "title": "Dose-dependent detoxication of the airborne pollutant benzene in a randomized trial of broccoli sprout beverage in Qidong, China",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31268126",
+   "doi": "10.1093/ajcn/nqz122",
+   "type": "rct",
+   "n": "170 adults",
+   "finding": "Over 10 days, only the full-dose beverage (~25 µmol/day urinary sulforaphane metabolites) raised benzene detoxication (+63%); half and one-fifth doses did not."
+  },
+  {
+   "id": "tfood-kensler2012",
+   "authors": "Kensler TW, Ng D, Carmella SG, et al.",
+   "year": 2012,
+   "title": "Modulation of the metabolism of airborne pollutants by glucoraphanin-rich and sulforaphane-rich broccoli sprout beverages in Qidong, China",
+   "journal": "Carcinogenesis",
+   "pmid": "22045030",
+   "doi": "10.1093/carcin/bgr229",
+   "type": "rct",
+   "n": "50 adults (crossover)",
+   "finding": "Seven days of sulforaphane- or glucoraphanin-rich beverage raised pollutant mercapturic acids 20-50%; after a 5-day washout, biomarkers were back to pre-treatment levels (no carryover)."
+  },
+  {
+   "id": "tfood-kensler2005",
+   "authors": "Kensler TW, Chen JG, Egner PA, et al.",
+   "year": 2005,
+   "title": "Effects of glucosinolate-rich broccoli sprouts on urinary levels of aflatoxin-DNA adducts and phenanthrene tetraols in a randomized clinical trial in He Zuo township, Qidong, People's Republic of China",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "16284385",
+   "doi": "10.1158/1055-9965.EPI-05-0368",
+   "type": "rct",
+   "n": "200 adults",
+   "finding": "Nightly glucoraphanin infusion for 2 weeks did not change aflatoxin-DNA adducts overall, but people who excreted more sulforaphane metabolites had fewer adducts."
+  },
+  {
+   "id": "tfood-riedl2009",
+   "authors": "Riedl MA, Saxon A, Diaz-Sanchez D",
+   "year": 2009,
+   "title": "Oral sulforaphane increases Phase II antioxidant enzymes in the human upper airway",
+   "journal": "Clin Immunol",
+   "pmid": "19028145",
+   "doi": "10.1016/j.clim.2008.10.007",
+   "type": "cohort",
+   "n": "healthy volunteers (dose escalation)",
+   "finding": "Broccoli sprout homogenate once daily for 3 days raised nasal-cell NQO1, HO-1, GSTM1 and GSTP1 mRNA dose-dependently (about 2-3-fold at 200 g); alfalfa sprouts did nothing."
+  },
+  {
+   "id": "tfood-heber2014",
+   "authors": "Heber D, Li Z, Garcia-Lloret M, et al.",
+   "year": 2014,
+   "title": "Sulforaphane-rich broccoli sprout extract attenuates nasal allergic response to diesel exhaust particles",
+   "journal": "Food Funct",
+   "pmid": "24287881",
+   "doi": "10.1039/c3fo60277j",
+   "type": "cohort",
+   "n": "29 adults",
+   "finding": "Four days of 100 µmol/day sulforaphane cut the nasal white-cell response to a diesel exhaust particle challenge by 54%."
+  },
+  {
+   "id": "tfood-atwell2015",
+   "authors": "Atwell LL, Hsu A, Wong CP, et al.",
+   "year": 2015,
+   "title": "Absorption and chemopreventive targets of sulforaphane in humans following consumption of broccoli sprouts or a myrosinase-treated broccoli sprout extract",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "25522265",
+   "doi": "10.1002/mnfr.201400674",
+   "type": "rct",
+   "n": "healthy adults (crossover)",
+   "finding": "200 µmol/day as one dose or two 100 µmol doses 12 h apart: split dosing kept plasma levels higher later in the day, but HO-1, HDAC activity and p21 in blood cells showed no dose response."
+  },
+  {
+   "id": "tfood-dinkovakostova2007",
+   "authors": "Dinkova-Kostova AT, Fahey JW, Wade KL, et al.",
+   "year": 2007,
+   "title": "Induction of the phase 2 response in mouse and human skin by sulforaphane-containing broccoli sprout extracts",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "17416783",
+   "doi": "10.1158/1055-9965.EPI-06-0934",
+   "type": "cohort",
+   "n": "healthy volunteers (topical) plus mice",
+   "finding": "Topical sulforaphane raised human skin NQO1 activity 1.5-fold after one dose and 4.5-fold after three doses 24 h apart, showing that induced enzyme carries over and stacks between daily doses."
+  },
+  {
+   "id": "tfood-talalay2007",
+   "authors": "Talalay P, Fahey JW, Healy ZR, et al.",
+   "year": 2007,
+   "title": "Sulforaphane mobilizes cellular defenses that protect skin against damage by UV radiation",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "17956979",
+   "doi": "10.1073/pnas.0708710104",
+   "type": "cohort",
+   "n": "6 adults (topical)",
+   "finding": "Three daily topical sulforaphane doses cut UV erythema by 37.7%; in one subject protection was 32% at 48 h and 10% at 72 h after the last dose, attributed to long-lived induced proteins."
+  },
+  {
+   "id": "tfood-gao2001",
+   "authors": "Gao X, Dinkova-Kostova AT, Talalay P",
+   "year": 2001,
+   "title": "Powerful and prolonged protection of human retinal pigment epithelial cells, keratinocytes, and mouse leukemia cells against oxidative damage: the indirect antioxidant effects of sulforaphane",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "11752465",
+   "doi": "10.1073/pnas.261572998",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In human cells, a 24 h sulforaphane exposure gave protection against oxidants that kept rising for 24-48 h after removal and returned to control levels over the following days, tracking NQO1 and glutathione."
+  },
+  {
+   "id": "tfood-siegel2001",
+   "authors": "Siegel D, Anwar A, Winski SL, et al.",
+   "year": 2001,
+   "title": "Rapid polyubiquitination and proteasomal degradation of a mutant form of NAD(P)H:quinone oxidoreductase 1",
+   "journal": "Mol Pharmacol",
+   "pmid": "11160862",
+   "doi": "10.1124/mol.59.2.263",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Wild-type NQO1 protein had a half-life over 18 h in cells (the common NQO1*2 variant was degraded in 1.2 h)."
+  },
+  {
+   "id": "tfood-kobayashi2004",
+   "authors": "Kobayashi A, Kang MI, Okawa H, et al.",
+   "year": 2004,
+   "title": "Oxidative stress sensor Keap1 functions as an adaptor for Cul3-based E3 ligase to regulate proteasomal degradation of Nrf2",
+   "journal": "Mol Cell Biol",
+   "pmid": "15282312",
+   "doi": "10.1128/MCB.24.16.7130-7139.2004",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Nrf2 protein has a half-life under 20 minutes because KEAP1 targets it for proteasomal degradation."
+  },
+  {
+   "id": "tfood-lee2007",
+   "authors": "Lee OH, Jain AK, Papusha V, et al.",
+   "year": 2007,
+   "title": "An auto-regulatory loop between stress sensors INrf2 and Nrf2 controls their cellular abundance",
+   "journal": "J Biol Chem",
+   "pmid": "17925401",
+   "doi": "10.1074/jbc.M706517200",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Nrf2 induces transcription of its own inhibitor KEAP1, a negative feedback loop that limits the size and duration of the response."
+  },
+  {
+   "id": "tfood-wakabayashi2003",
+   "authors": "Wakabayashi N, Itoh K, Wakabayashi J, et al.",
+   "year": 2003,
+   "title": "Keap1-null mutation leads to postnatal lethality due to constitutive Nrf2 activation",
+   "journal": "Nat Genet",
+   "pmid": "14517554",
+   "doi": "10.1038/ng1248",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Mice lacking KEAP1, with permanently active Nrf2, died after birth from hyperkeratosis of the esophagus and forestomach."
+  },
+  {
+   "id": "tfood-xu2016",
+   "authors": "Xu Z, Wang S, Ji H, et al.",
+   "year": 2016,
+   "title": "Broccoli sprout extract prevents diabetic cardiomyopathy via Nrf2 activation in db/db T2DM mice",
+   "journal": "Sci Rep",
+   "pmid": "27457280",
+   "doi": "10.1038/srep30252",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Broccoli sprout extract or sulforaphane by gavage every other day for 3 months prevented diabetic cardiomyopathy in mice via Nrf2."
+  },
+  {
+   "id": "tfood-myzak2007",
+   "authors": "Myzak MC, Tong P, Dashwood WM, et al.",
+   "year": 2007,
+   "title": "Sulforaphane retards the growth of human PC-3 xenografts and inhibits HDAC activity in human subjects",
+   "journal": "Exp Biol Med (Maywood)",
+   "pmid": "17259330",
+   "doi": null,
+   "type": "cohort",
+   "n": "human volunteers plus mice",
+   "finding": "A single 68 g serving of broccoli sprouts inhibited HDAC activity in human blood cells at 3 and 6 h."
+  },
+  {
+   "id": "tfood-sedlak2018",
+   "authors": "Sedlak TW, Nucifora LG, Koga M, et al.",
+   "year": 2018,
+   "title": "Sulforaphane Augments Glutathione and Influences Brain Metabolites in Human Subjects: A Clinical Pilot Study",
+   "journal": "Mol Neuropsychiatry",
+   "pmid": "29888232",
+   "doi": "10.1159/000487639",
+   "type": "cohort",
+   "n": "healthy adults (pilot)",
+   "finding": "Seven days of daily oral sulforaphane raised blood glutathione in healthy volunteers."
+  },
+  {
+   "id": "tfood-doss2016",
+   "authors": "Doss JF, Jonassaint JC, Garrett ME, et al.",
+   "year": 2016,
+   "title": "Phase 1 Study of a Sulforaphane-Containing Broccoli Sprout Homogenate for Sickle Cell Disease",
+   "journal": "PLoS One",
+   "pmid": "27071063",
+   "doi": "10.1371/journal.pone.0152895",
+   "type": "cohort",
+   "n": "adults with sickle cell disease (phase 1)",
+   "finding": "Escalating broccoli sprout homogenate raised whole-blood HMOX1 mRNA on the last day of treatment."
+  },
+  {
+   "id": "tfood-bauman2016",
+   "authors": "Bauman JE, Zang Y, Sen M, et al.",
+   "year": 2016,
+   "title": "Prevention of Carcinogen-Induced Oral Cancer by Sulforaphane",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "27339168",
+   "doi": "10.1158/1940-6207.CAPR-15-0290",
+   "type": "mechanistic",
+   "n": "10 volunteers (pilot)",
+   "finding": "Sulforaphane induced NQO1 and GCLC in mucosal cells; in a pilot, buccal NQO1 mRNA rose 2-fold or more in 3-6 of 6-9 people depending on beverage."
+  },
+  {
+   "id": "tfood-ribeiro2024",
+   "authors": "Ribeiro M, Alvarenga L, Coutinho-Wolino KS, et al.",
+   "year": 2024,
+   "title": "Sulforaphane upregulates the mRNA expression of NRF2 and NQO1 in non-dialysis patients with chronic kidney disease",
+   "journal": "Free Radic Biol Med",
+   "pmid": "38772511",
+   "doi": "10.1016/j.freeradbiomed.2024.05.034",
+   "type": "rct",
+   "n": "non-dialysis CKD patients",
+   "finding": "400 µg/day sulforaphane for 1 month raised blood NRF2 and NQO1 mRNA."
+  },
+  {
+   "id": "tfood-singh2014",
+   "authors": "Singh K, Connors SL, Macklin EA, et al.",
+   "year": 2014,
+   "title": "Sulforaphane treatment of autism spectrum disorder (ASD)",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25313065",
+   "doi": "10.1073/pnas.1416940111",
+   "type": "rct",
+   "n": "44 young men with autism",
+   "finding": "50-150 µmol/day sulforaphane for 18 weeks improved behaviour scores; during 4 weeks off treatment scores rose back toward baseline."
+  },
+  {
+   "id": "tfood-yanaka2009",
+   "authors": "Yanaka A, Fahey JW, Fukumoto A, et al.",
+   "year": 2009,
+   "title": "Dietary sulforaphane-rich broccoli sprouts reduce colonization and attenuate gastritis in Helicobacter pylori-infected mice and humans",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "19349290",
+   "doi": "10.1158/1940-6207.CAPR-08-0192",
+   "type": "rct",
+   "n": "48 adults with H. pylori",
+   "finding": "70 g/day broccoli sprouts for 8 weeks lowered H. pylori and gastritis markers; values returned to baseline 2 months after stopping."
+  },
+  {
+   "id": "tfood-traka2019",
+   "authors": "Traka MH, Melchini A, Coode-Bate J, et al.",
+   "year": 2019,
+   "title": "Transcriptional changes in prostate of men on active surveillance after a 12-mo glucoraphanin-rich broccoli intervention-results from the Effect of Sulforaphane on prostate CAncer PrEvention (ESCAPE) randomized controlled trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "30982861",
+   "doi": "10.1093/ajcn/nqz012",
+   "type": "rct",
+   "n": "49 men on active surveillance",
+   "finding": "A weekly portion of high-glucoraphanin broccoli soup for 12 months dose-dependently attenuated cancer-linked gene-expression changes in prostate tissue."
+  },
+  {
+   "id": "tfood-armah2015",
+   "authors": "Armah CN, Derdemezis C, Traka MH, et al.",
+   "year": 2015,
+   "title": "Diet rich in high glucoraphanin broccoli reduces plasma LDL cholesterol: Evidence from randomised controlled trials",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "25851421",
+   "doi": "10.1002/mnfr.201400863",
+   "type": "rct",
+   "n": "130 adults",
+   "finding": "400 g/week of high-glucoraphanin broccoli for 12 weeks lowered LDL cholesterol 5-7%."
+  },
+  {
+   "id": "tfood-fahey2015",
+   "authors": "Fahey JW, Holtzclaw WD, Wehage SL, et al.",
+   "year": 2015,
+   "title": "Sulforaphane Bioavailability from Glucoraphanin-Rich Broccoli: Control by Active Endogenous Myrosinase",
+   "journal": "PLoS One",
+   "pmid": "26524341",
+   "doi": "10.1371/journal.pone.0140963",
+   "type": "cohort",
+   "n": "healthy volunteers",
+   "finding": "Sprouts or seeds with active myrosinase gave 3-4-fold more sulforaphane than glucoraphanin without the enzyme."
+  },
+  {
+   "id": "tfood-okunade2018",
+   "authors": "Okunade O, Niranjan K, Ghawi SK, et al.",
+   "year": 2018,
+   "title": "Supplementation of the Diet by Exogenous Myrosinase via Mustard Seeds to Increase the Bioavailability of Sulforaphane in Healthy Human Subjects after the Consumption of Cooked Broccoli",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29806738",
+   "doi": "10.1002/mnfr.201700980",
+   "type": "rct",
+   "n": "12 adults (crossover)",
+   "finding": "Adding 1 g brown mustard powder to 200 g cooked broccoli raised 24 h urinary sulforaphane metabolites about 4.5-fold."
+  },
+  {
+   "id": "tfood-navarro2014",
+   "authors": "Navarro SL, Schwarz Y, Song X, et al.",
+   "year": 2014,
+   "title": "Cruciferous vegetables have variable effects on biomarkers of systemic inflammation in a randomized controlled trial in healthy young adults",
+   "journal": "J Nutr",
+   "pmid": "25165394",
+   "doi": "10.3945/jn.114.197434",
+   "type": "rct",
+   "n": "63 adults (crossover feeding)",
+   "finding": "Fourteen days of a double-dose crucifer diet lowered serum IL-6 19%; CRP and TNF did not change."
+  },
+  {
+   "id": "tfood-hecht1995",
+   "authors": "Hecht SS, Chung FL, Richie JP Jr, et al.",
+   "year": 1995,
+   "title": "Effects of watercress consumption on metabolism of a tobacco-specific lung carcinogen in smokers",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "8634661",
+   "doi": null,
+   "type": "cohort",
+   "n": "11 smokers",
+   "finding": "Watercress at each meal for 3 days raised detoxified NNK metabolites by 33.5% on days 2-3; levels returned to near baseline 1-2 weeks later."
+  },
+  {
+   "id": "tfood-gill2007",
+   "authors": "Gill CI, Haldar S, Boyd LA, et al.",
+   "year": 2007,
+   "title": "Watercress supplementation in diet reduces lymphocyte DNA damage and alters blood antioxidant status in healthy adults",
+   "journal": "Am J Clin Nutr",
+   "pmid": "17284750",
+   "doi": "10.1093/ajcn/85.2.504",
+   "type": "rct",
+   "n": "60 adults (crossover)",
+   "finding": "85 g/day raw watercress for 8 weeks cut lymphocyte DNA damage 17% and oxidative purine damage 24%."
+  },
+  {
+   "id": "tfood-michnovicz1997",
+   "authors": "Michnovicz JJ, Adlercreutz H, Bradlow HL",
+   "year": 1997,
+   "title": "Changes in levels of urinary estrogen metabolites after oral indole-3-carbinol treatment in humans",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "9168187",
+   "doi": "10.1093/jnci/89.10.718",
+   "type": "cohort",
+   "n": "7 men, 10 women",
+   "finding": "Oral I3C (6-7 mg/kg/day) shifted urinary estrogen metabolites toward 2-hydroxylation after 1 week in men and 2 months in women."
+  },
+  {
+   "id": "tfood-bell2000",
+   "authors": "Bell MC, Crowley-Nowick P, Bradlow HL, et al.",
+   "year": 2000,
+   "title": "Placebo-controlled trial of indole-3-carbinol in the treatment of CIN",
+   "journal": "Gynecol Oncol",
+   "pmid": "10926790",
+   "doi": "10.1006/gyno.2000.5847",
+   "type": "rct",
+   "n": "30 women with CIN II-III",
+   "finding": "I3C 200-400 mg/day for 12 weeks regressed CIN in 8 of 17 vs 0 of 10 on placebo."
+  },
+  {
+   "id": "tfood-leone2018",
+   "authors": "Leone A, Bertoli S, Di Lello S, et al.",
+   "year": 2018,
+   "title": "Effect of Moringa oleifera Leaf Powder on Postprandial Blood Glucose Response: In Vivo Study on Saharawi People Living in Refugee Camps",
+   "journal": "Nutrients",
+   "pmid": "30322091",
+   "doi": "10.3390/nu10101494",
+   "type": "rct",
+   "n": "17 diabetics, 10 healthy (crossover)",
+   "finding": "Adding 20 g moringa leaf powder to a meal lowered post-meal glucose increments at 90-150 min in diabetics only."
+  },
+  {
+   "id": "tfood-nouchi2023",
+   "authors": "Nouchi R, Kawata NYS, Saito T, et al.",
+   "year": 2023,
+   "title": "Benefits of Wasabi Supplements with 6-MSITC (6-Methylsulfinyl Hexyl Isothiocyanate) on Memory Functioning in Healthy Adults Aged 60 Years and Older: Evidence from a Double-Blinded Randomized Controlled Trial",
+   "journal": "Nutrients",
+   "pmid": "37960261",
+   "doi": "10.3390/nu15214608",
+   "type": "rct",
+   "n": "72 older adults",
+   "finding": "A wasabi 6-MSITC supplement for 12 weeks improved working and episodic memory."
+  },
+  {
+   "id": "tfood-manach2005",
+   "authors": "Manach C, Williamson G, Morand C, et al.",
+   "year": 2005,
+   "title": "Bioavailability and bioefficacy of polyphenols in humans. I. Review of 97 bioavailability studies",
+   "journal": "Am J Clin Nutr",
+   "pmid": "15640486",
+   "doi": "10.1093/ajcn/81.1.230S",
+   "type": "review",
+   "n": null,
+   "finding": "Across 97 studies, polyphenol metabolites reach only 0-4 µmol/L in plasma after 50 mg; most peak within hours and are cleared quickly, with large differences between compounds."
+  },
+  {
+   "id": "tfood-heiss2007",
+   "authors": "Heiss C, Finis D, Kleinbongard P, et al.",
+   "year": 2007,
+   "title": "Sustained increase in flow-mediated dilation after daily intake of high-flavanol cocoa drink over 1 week",
+   "journal": "J Cardiovasc Pharmacol",
+   "pmid": "17312446",
+   "doi": "10.1097/FJC.0b013e31802d0001",
+   "type": "cohort",
+   "n": "6 smokers",
+   "finding": "Single doses of high-flavanol cocoa raised FMD with a peak at 2 h; with daily intake, fasting FMD rose stepwise on days 3, 5 and 8 and returned to baseline after a 1-week washout."
+  },
+  {
+   "id": "tfood-balzer2008",
+   "authors": "Balzer J, Rassaf T, Heiss C, et al.",
+   "year": 2008,
+   "title": "Sustained benefits in vascular function through flavanol-containing cocoa in medicated diabetic patients a double-masked, randomized, controlled trial",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "18510961",
+   "doi": "10.1016/j.jacc.2008.01.059",
+   "type": "rct",
+   "n": "41 medicated diabetics",
+   "finding": "Thrice-daily flavanol cocoa for 30 days raised fasting FMD 30% and acute post-dose FMD rises persisted with no tachyphylaxis."
+  },
+  {
+   "id": "tfood-heiss2010",
+   "authors": "Heiss C, Jahn S, Taylor M, et al.",
+   "year": 2010,
+   "title": "Improvement of endothelial function with dietary flavanols is associated with mobilization of circulating angiogenic cells in patients with coronary artery disease",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "20620742",
+   "doi": "10.1016/j.jacc.2010.03.039",
+   "type": "rct",
+   "n": "16 CAD patients (crossover)",
+   "finding": "High-flavanol cocoa twice daily for 30 days improved FMD 47% and lowered systolic BP 4.2 mmHg vs low-flavanol."
+  },
+  {
+   "id": "tfood-schroeter2006",
+   "authors": "Schroeter H, Heiss C, Balzer J, et al.",
+   "year": 2006,
+   "title": "(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "16418281",
+   "doi": "10.1073/pnas.0510168103",
+   "type": "cohort",
+   "n": "healthy men",
+   "finding": "Cocoa flavanols, specifically epicatechin, acutely raised NO species and FMD within hours of ingestion."
+  },
+  {
+   "id": "tfood-sesso2022",
+   "authors": "Sesso HD, Manson JE, Aragaki AK, et al.",
+   "year": 2022,
+   "title": "Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "35294962",
+   "doi": "10.1093/ajcn/nqac055",
+   "type": "rct",
+   "n": "21,442 older adults",
+   "finding": "Cocoa extract (500 mg flavanols/day) for a median 3.6 years did not significantly cut total CVD events (HR 0.90, 0.78-1.02); CVD death HR 0.73; per-protocol HR 0.85."
+  },
+  {
+   "id": "tfood-ottaviani2025",
+   "authors": "Ottaviani JI, Schroeter H, Bier DM, et al.",
+   "year": 2025,
+   "title": "The overlooked impact of background diet and adherence in nutrition trials",
+   "journal": "Food Funct",
+   "pmid": "40568979",
+   "doi": "10.1039/d5fo01134e",
+   "type": "rct",
+   "n": "COSMOS biomarker subcohort",
+   "finding": "In COSMOS, about a third of the cocoa group did not reach expected flavanol biomarker levels and 20% of the placebo group had high background intake; biomarker-based analyses gave larger effects (major CVD HR 0.48)."
+  },
+  {
+   "id": "tfood-mcdermott2020",
+   "authors": "McDermott MM, Criqui MH, Domanchuk K, et al.",
+   "year": 2020,
+   "title": "Cocoa to Improve Walking Performance in Older People With Peripheral Artery Disease: The COCOA-PAD Pilot Randomized Clinical Trial",
+   "journal": "Circ Res",
+   "pmid": "32078436",
+   "doi": "10.1161/CIRCRESAHA.119.315600",
+   "type": "rct",
+   "n": "44 people with PAD",
+   "finding": "Daily cocoa for 6 months improved 6-minute walk by 42.6 m when tested 2.5 h after a dose but only 18 m (not significant) at 24 h."
+  },
+  {
+   "id": "tfood-sun2019",
+   "authors": "Sun Y, Zimmermann D, De Castro CA, et al.",
+   "year": 2019,
+   "title": "Dose-response relationship between cocoa flavanols and human endothelial function: a systematic review and meta-analysis of randomized trials",
+   "journal": "Food Funct",
+   "pmid": "31524216",
+   "doi": "10.1039/c9fo01747j",
+   "type": "meta-analysis",
+   "n": "15 articles, 18 arms",
+   "finding": "Cocoa flavanols improved FMD by 1.17%, with an inverted-U dose response peaking near 710 mg/day; most trials had high risk of bias."
+  },
+  {
+   "id": "tfood-rodriguezmateos2013",
+   "authors": "Rodriguez-Mateos A, Rendeiro C, Bergillos-Meca T, et al.",
+   "year": 2013,
+   "title": "Intake and time dependence of blueberry flavonoid-induced improvements in vascular function: a randomized, controlled, double-blind, crossover intervention study with mechanistic insights into biological activity",
+   "journal": "Am J Clin Nutr",
+   "pmid": "24004888",
+   "doi": "10.3945/ajcn.113.066639",
+   "type": "rct",
+   "n": "21 healthy men (crossover)",
+   "finding": "Blueberry polyphenols raised FMD biphasically at 1-2 h and 6 h after intake, tracking plasma metabolites; effects plateaued above ~766 mg polyphenols."
+  },
+  {
+   "id": "tfood-curtis2019",
+   "authors": "Curtis PJ, van der Velpen V, Berends L, et al.",
+   "year": 2019,
+   "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31136659",
+   "doi": "10.1093/ajcn/nqy380",
+   "type": "rct",
+   "n": "115 adults with metabolic syndrome",
+   "finding": "One cup (150 g) of blueberries daily for 6 months gave sustained improvements in FMD, arterial stiffness and HDL; half a cup did nothing."
+  },
+  {
+   "id": "tfood-czank2013",
+   "authors": "Czank C, Cassidy A, Zhang Q, et al.",
+   "year": 2013,
+   "title": "Human metabolism and elimination of the anthocyanin, cyanidin-3-glucoside: a (13)C-tracer study",
+   "journal": "Am J Clin Nutr",
+   "pmid": "23604435",
+   "doi": "10.3945/ajcn.112.049247",
+   "type": "cohort",
+   "n": "8 men",
+   "finding": "13C-labelled cyanidin-3-glucoside metabolites stayed in the circulation up to 48 h, with half-lives of 12-52 h; relative bioavailability ~12%."
+  },
+  {
+   "id": "tfood-lee2002",
+   "authors": "Lee MJ, Maliakal P, Chen L, et al.",
+   "year": 2002,
+   "title": "Pharmacokinetics of tea catechins after ingestion of green tea and (-)-epigallocatechin-3-gallate by humans: formation of different metabolites and individual variability",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "12376503",
+   "doi": null,
+   "type": "cohort",
+   "n": "8 adults",
+   "finding": "After green tea, EGCG, EGC and EC peaked at 1.3-1.6 h with half-lives of 3.4, 1.7 and 2.0 h; over 90% of urinary EGC/EC was excreted within 8 h."
+  },
+  {
+   "id": "tfood-chow2003",
+   "authors": "Chow HH, Cai Y, Hakim IA, et al.",
+   "year": 2003,
+   "title": "Pharmacokinetics and safety of green tea polyphenols after multiple-dose administration of epigallocatechin gallate and polyphenon E in healthy individuals",
+   "journal": "Clin Cancer Res",
+   "pmid": "12960117",
+   "doi": null,
+   "type": "rct",
+   "n": "40 adults",
+   "finding": "Four weeks of 800 mg EGCG once daily raised the EGCG area under the curve by over 60%; 400 mg twice daily did not change kinetics."
+  },
+  {
+   "id": "tfood-efsa2018",
+   "authors": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS), Younes M, Aggett P, et al.",
+   "year": 2018,
+   "title": "Scientific opinion on the safety of green tea catechins",
+   "journal": "EFSA J",
+   "pmid": "32625874",
+   "doi": "10.2903/j.efsa.2018.5239",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA concluded that 800 mg EGCG/day or more from supplements raises serum transaminases in trials; brewed tea is generally safe, with rare idiosyncratic liver injury."
+  },
+  {
+   "id": "tfood-yu2017",
+   "authors": "Yu Z, Samavat H, Dostal AM, et al.",
+   "year": 2017,
+   "title": "Effect of Green Tea Supplements on Liver Enzyme Elevation: Results from a Randomized Intervention Study in the United States",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "28765194",
+   "doi": "10.1158/1940-6207.CAPR-17-0160",
+   "type": "rct",
+   "n": "1,021 women",
+   "finding": "Green tea extract (~843 mg EGCG/day) for 12 months raised ALT; liver function abnormalities had a median onset of 106 days (56-365), ALT normalized a mean 32 days after stopping and rose again on rechallenge."
+  },
+  {
+   "id": "tfood-hakim2003",
+   "authors": "Hakim IA, Harris RB, Brown S, et al.",
+   "year": 2003,
+   "title": "Effect of increased tea consumption on oxidative DNA damage among smokers: a randomized controlled study",
+   "journal": "J Nutr",
+   "pmid": "14519830",
+   "doi": "10.1093/jn/133.10.3303S",
+   "type": "rct",
+   "n": "143 heavy smokers",
+   "finding": "Four cups/day of decaffeinated green tea for 4 months cut urinary 8-OHdG 31%; black tea had no effect."
+  },
+  {
+   "id": "tfood-grassi2009",
+   "authors": "Grassi D, Mulder TP, Draijer R, et al.",
+   "year": 2009,
+   "title": "Black tea consumption dose-dependently improves flow-mediated dilation in healthy males",
+   "journal": "J Hypertens",
+   "pmid": "19516176",
+   "doi": "10.1097/HJH.0b013e328326066c",
+   "type": "rct",
+   "n": "19 healthy men (crossover)",
+   "finding": "One-week periods of black tea (100-800 mg flavonoids/day) dose-dependently raised FMD from 7.8% to 10.3%."
+  },
+  {
+   "id": "tfood-hodgson2013",
+   "authors": "Hodgson JM, Woodman RJ, Puddey IB, et al.",
+   "year": 2013,
+   "title": "Short-term effects of polyphenol-rich black tea on blood pressure in men and women",
+   "journal": "Food Funct",
+   "pmid": "23038021",
+   "doi": "10.1039/c2fo30186e",
+   "type": "rct",
+   "n": "111 adults",
+   "finding": "One day of polyphenol-rich black tea did not change 24 h blood pressure, whereas the same group had earlier found lower BP after 6 months of regular intake."
+  },
+  {
+   "id": "tfood-stalmach2009",
+   "authors": "Stalmach A, Mullen W, Barron D, et al.",
+   "year": 2009,
+   "title": "Metabolite profiling of hydroxycinnamate derivatives in plasma and urine after the ingestion of coffee by humans: identification of biomarkers of coffee consumption",
+   "journal": "Drug Metab Dispos",
+   "pmid": "19460943",
+   "doi": "10.1124/dmd.109.028019",
+   "type": "cohort",
+   "n": "healthy adults",
+   "finding": "After coffee, some chlorogenic acid metabolites peaked within 1 h (small intestine) and others after 4 h (colonic); 29% of intake was excreted in 24 h."
+  },
+  {
+   "id": "tfood-bakuradze2016",
+   "authors": "Bakuradze T, Lang R, Hofmann T, et al.",
+   "year": 2016,
+   "title": "Coffee consumption rapidly reduces background DNA strand breaks in healthy humans: Results of a short-term repeated uptake intervention study",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "26632023",
+   "doi": "10.1002/mnfr.201500668",
+   "type": "cohort",
+   "n": "healthy men",
+   "finding": "Coffee (200 mL every 2 h) reduced background DNA strand breaks within 2 h of the first cup, falling by about one third over 8 h."
+  },
+  {
+   "id": "tfood-bakuradze2015",
+   "authors": "Bakuradze T, Lang R, Hofmann T, et al.",
+   "year": 2015,
+   "title": "Consumption of a dark roast coffee decreases the level of spontaneous DNA strand breaks: a randomized controlled trial",
+   "journal": "Eur J Nutr",
+   "pmid": "24740588",
+   "doi": "10.1007/s00394-014-0696-x",
+   "type": "rct",
+   "n": "84 healthy men",
+   "finding": "750 mL/day dark-roast coffee for 4 weeks lowered spontaneous DNA strand breaks by 27% vs water."
+  },
+  {
+   "id": "tfood-shi1993",
+   "authors": "Shi J, Benowitz NL, Denaro CP, et al.",
+   "year": 1993,
+   "title": "Pharmacokinetic-pharmacodynamic modeling of caffeine: tolerance to pressor effects",
+   "journal": "Clin Pharmacol Ther",
+   "pmid": "8422743",
+   "doi": "10.1038/clpt.1993.3",
+   "type": "cohort",
+   "n": "small group of adults",
+   "finding": "Tolerance to the blood-pressure-raising effect of caffeine develops and regresses with a half-life of about 1 h and can blunt the effect by over 90%; habitual drinkers regain the response after brief abstinence."
+  },
+  {
+   "id": "tfood-mirocasas2003",
+   "authors": "Miro-Casas E, Covas MI, Farre M, et al.",
+   "year": 2003,
+   "title": "Hydroxytyrosol disposition in humans",
+   "journal": "Clin Chem",
+   "pmid": "12765992",
+   "doi": "10.1373/49.6.945",
+   "type": "cohort",
+   "n": "healthy adults",
+   "finding": "After 25 mL virgin olive oil, plasma hydroxytyrosol peaked at 32 min (3-O-methyl form at 53 min) with a half-life of 2.43 h; ~98% circulated as conjugates."
+  },
+  {
+   "id": "tfood-covas2006",
+   "authors": "Covas MI, Nyyssönen K, Poulsen HE, et al.",
+   "year": 2006,
+   "title": "The effect of polyphenols in olive oil on heart disease risk factors: a randomized trial",
+   "journal": "Ann Intern Med",
+   "pmid": "16954359",
+   "doi": "10.7326/0003-4819-145-5-200609050-00006",
+   "type": "rct",
+   "n": "200 healthy men (crossover)",
+   "finding": "In 3-week periods with 2-week washouts, 25 mL/day olive oil raised HDL and lowered oxidized LDL in proportion to phenolic content."
+  },
+  {
+   "id": "tfood-fito2007",
+   "authors": "Fitó M, Guxens M, Corella D, et al.",
+   "year": 2007,
+   "title": "Effect of a traditional Mediterranean diet on lipoprotein oxidation: a randomized controlled trial",
+   "journal": "Arch Intern Med",
+   "pmid": "17563030",
+   "doi": "10.1001/archinte.167.11.1195",
+   "type": "rct",
+   "n": "372 high-risk adults",
+   "finding": "After 3 months of a Mediterranean diet with virgin olive oil or nuts, oxidized LDL fell (-10.6 and -7.3 U/L) vs no change on a low-fat diet."
+  },
+  {
+   "id": "tfood-estruch2018",
+   "authors": "Estruch R, Ros E, Salas-Salvadó J, et al.",
+   "year": 2018,
+   "title": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts",
+   "journal": "N Engl J Med",
+   "pmid": "29897866",
+   "doi": "10.1056/NEJMoa1800389",
+   "type": "rct",
+   "n": "7,447 high-risk adults",
+   "finding": "Republished PREDIMED: over a median 4.8 years, Mediterranean diet with EVOO (HR 0.69) or nuts (HR 0.72) cut major cardiovascular events vs a low-fat control."
+  },
+  {
+   "id": "tfood-agarwal2019",
+   "authors": "Agarwal A, Ioannidis JPA",
+   "year": 2019,
+   "title": "PREDIMED trial of Mediterranean diet: retracted, republished, still trusted?",
+   "journal": "BMJ",
+   "pmid": "30733217",
+   "doi": "10.1136/bmj.l341",
+   "type": "review",
+   "n": null,
+   "finding": "Critical analysis of the retraction and republication of PREDIMED after randomization irregularities, questioning how much its revised estimates can be trusted."
+  },
+  {
+   "id": "tfood-vareed2008",
+   "authors": "Vareed SK, Kakarala M, Ruffin MT, et al.",
+   "year": 2008,
+   "title": "Pharmacokinetics of curcumin conjugate metabolites in healthy human subjects",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "18559556",
+   "doi": "10.1158/1055-9965.EPI-07-2693",
+   "type": "rct",
+   "n": "12 healthy adults",
+   "finding": "After 10-12 g curcumin, free curcumin was nearly undetectable; conjugates peaked at 3.3 h with a half-life of 6.8 h."
+  },
+  {
+   "id": "tfood-cheng2019",
+   "authors": "Cheng D, Li W, Wang L, et al.",
+   "year": 2019,
+   "title": "Pharmacokinetics, Pharmacodynamics, and PKPD Modeling of Curcumin in Regulating Antioxidant and Epigenetic Gene Expression in Healthy Human Volunteers",
+   "journal": "Mol Pharm",
+   "pmid": "30860383",
+   "doi": "10.1021/acs.molpharmaceut.8b01246",
+   "type": "cohort",
+   "n": "12 healthy adults",
+   "finding": "After a single 4 g curcumin dose, leukocyte NRF2, HO-1 and NQO1 mRNA peaked at about 4-6 h; curcumin glucuronide peaked near 2.7 h."
+  },
+  {
+   "id": "tfood-kocher2016",
+   "authors": "Kocher A, Bohnert L, Schiborr C, et al.",
+   "year": 2016,
+   "title": "Highly bioavailable micellar curcuminoids accumulate in blood, are safe and do not reduce blood lipids and inflammation markers in moderately hyperlipidemic individuals",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "26909743",
+   "doi": "10.1002/mnfr.201501034",
+   "type": "rct",
+   "n": "adults with mild hyperlipidemia (crossover)",
+   "finding": "Micellar curcuminoids (98 mg with each main meal) reached fasting plasma levels of 49 nmol/L within 3 weeks but did not change lipids or inflammation over 6 weeks."
+  },
+  {
+   "id": "tfood-halegoua2023",
+   "authors": "Halegoua-DeMarzio D, Navarro V, Ahmad J, et al.",
+   "year": 2023,
+   "title": "Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN]",
+   "journal": "Am J Med",
+   "pmid": "36252717",
+   "doi": "10.1016/j.amjmed.2022.09.026",
+   "type": "cohort",
+   "n": "10 cases",
+   "finding": "Turmeric-associated liver injury in the US DILIN network was hepatocellular, linked to HLA-B*35:01, with a latency of 1 to 4 months."
+  },
+  {
+   "id": "tfood-alizadeh2018",
+   "authors": "Alizadeh F, Javadi M, Karami AA, et al.",
+   "year": 2018,
+   "title": "Curcumin nanomicelle improves semen parameters, oxidative stress, inflammatory biomarkers, and reproductive hormones in infertile men: A randomized clinical trial",
+   "journal": "Phytother Res",
+   "pmid": "29193350",
+   "doi": "10.1002/ptr.5998",
+   "type": "rct",
+   "n": "60 infertile men",
+   "finding": "80 mg/day nanomicelle curcumin for 10 weeks improved sperm count, concentration and motility and lowered MDA, CRP and TNF-alpha."
+  },
+  {
+   "id": "tfood-abdelazeem2022",
+   "authors": "Abdelazeem B, Abbas KS, Shehata J, et al.",
+   "year": 2022,
+   "title": "The effects of curcumin as dietary supplement for patients with polycystic ovary syndrome: An updated systematic review and meta-analysis of randomized clinical trials",
+   "journal": "Phytother Res",
+   "pmid": "34517426",
+   "doi": "10.1002/ptr.7274",
+   "type": "meta-analysis",
+   "n": "5 RCTs, 296 women with PCOS",
+   "finding": "Curcumin improved fasting glucose (-3.7 mg/dL), insulin and HOMA-IR in PCOS, without effects on sex hormones or weight."
+  },
+  {
+   "id": "tfood-walle2004",
+   "authors": "Walle T, Hsieh F, DeLegge MH, et al.",
+   "year": 2004,
+   "title": "High absorption but very low bioavailability of oral resveratrol in humans",
+   "journal": "Drug Metab Dispos",
+   "pmid": "15333514",
+   "doi": "10.1124/dmd.104.000885",
+   "type": "cohort",
+   "n": "6 adults",
+   "finding": "Oral resveratrol was at least 70% absorbed, but only trace unchanged resveratrol reached plasma; total metabolites had a plasma half-life of 9.2 h."
+  },
+  {
+   "id": "tfood-gliemann2013",
+   "authors": "Gliemann L, Schmidt JF, Olesen J, et al.",
+   "year": 2013,
+   "title": "Resveratrol blunts the positive effects of exercise training on cardiovascular health in aged men",
+   "journal": "J Physiol",
+   "pmid": "23878368",
+   "doi": "10.1113/jphysiol.2013.258061",
+   "type": "rct",
+   "n": "27 older men",
+   "finding": "250 mg/day resveratrol during 8 weeks of training blunted the gain in VO2max by 45% and abolished training effects on blood pressure and lipids."
+  },
+  {
+   "id": "tfood-ochiai2019",
+   "authors": "Ochiai A, Kuroda K, Ikemoto Y, et al.",
+   "year": 2019,
+   "title": "Influence of resveratrol supplementation on IVF-embryo transfer cycle outcomes",
+   "journal": "Reprod Biomed Online",
+   "pmid": "31160243",
+   "doi": "10.1016/j.rbmo.2019.03.205",
+   "type": "cohort",
+   "n": "3,060 women (retrospective)",
+   "finding": "Continuous 200 mg/day resveratrol during embryo transfer cycles was associated with lower clinical pregnancy (OR 0.54) and more miscarriage (OR 2.60)."
+  },
+  {
+   "id": "tfood-setchell2001",
+   "authors": "Setchell KD, Brown NM, Desai P, et al.",
+   "year": 2001,
+   "title": "Bioavailability of pure isoflavones in healthy humans and analysis of commercial soy isoflavone supplements",
+   "journal": "J Nutr",
+   "pmid": "11285356",
+   "doi": "10.1093/jn/131.4.1362S",
+   "type": "cohort",
+   "n": "19 women",
+   "finding": "Genistein and daidzein aglycones peaked at 5-7 h and their glycosides at about 9 h after a single dose."
+  },
+  {
+   "id": "tfood-frankenfeld2005",
+   "authors": "Frankenfeld CL, Atkinson C, Thomas WK, et al.",
+   "year": 2005,
+   "title": "High concordance of daidzein-metabolizing phenotypes in individuals measured 1 to 3 years apart",
+   "journal": "Br J Nutr",
+   "pmid": "16351761",
+   "doi": "10.1079/bjn20051565",
+   "type": "cohort",
+   "n": "92 adults",
+   "finding": "Equol-producer status was concordant in 82% of people measured 1-3 years apart."
+  },
+  {
+   "id": "tfood-vanegas2015",
+   "authors": "Vanegas JC, Afeiche MC, Gaskins AJ, et al.",
+   "year": 2015,
+   "title": "Soy food intake and treatment outcomes of women undergoing assisted reproductive technology",
+   "journal": "Fertil Steril",
+   "pmid": "25577465",
+   "doi": "10.1016/j.fertnstert.2014.12.104",
+   "type": "cohort",
+   "n": "315 women, 520 ART cycles",
+   "finding": "Higher habitual soy isoflavone intake was associated with higher live birth in ART (OR ~1.8 at 2.6-28 mg/day)."
+  },
+  {
+   "id": "tfood-kuijsten2005",
+   "authors": "Kuijsten A, Arts IC, Vree TB, et al.",
+   "year": 2005,
+   "title": "Pharmacokinetics of enterolignans in healthy men and women consuming a single dose of secoisolariciresinol diglucoside",
+   "journal": "J Nutr",
+   "pmid": "15795437",
+   "doi": "10.1093/jn/135.4.795",
+   "type": "cohort",
+   "n": "12 adults",
+   "finding": "After flax lignan (SDG), enterolactone peaked at about 20 h with a half-life of 12.6 h and mean residence time of 36 h; enterolignans accumulate with intake 2-3 times a day."
+  },
+  {
+   "id": "tfood-rodriguezleyva2013",
+   "authors": "Rodriguez-Leyva D, Weighell W, Edel AL, et al.",
+   "year": 2013,
+   "title": "Potent antihypertensive action of dietary flaxseed in hypertensive patients",
+   "journal": "Hypertension",
+   "pmid": "24126178",
+   "doi": "10.1161/HYPERTENSIONAHA.113.02094",
+   "type": "rct",
+   "n": "110 patients with PAD",
+   "finding": "30 g/day milled flaxseed for 6 months lowered systolic BP ~10 mmHg and diastolic ~7 mmHg vs placebo (15 mmHg systolic in hypertensives)."
+  },
+  {
+   "id": "tfood-seeram2008",
+   "authors": "Seeram NP, Zhang Y, McKeever R, et al.",
+   "year": 2008,
+   "title": "Pomegranate juice and extracts provide similar levels of plasma and urinary ellagitannin metabolites in human subjects",
+   "journal": "J Med Food",
+   "pmid": "18598186",
+   "doi": "10.1089/jmf.2007.650",
+   "type": "cohort",
+   "n": "16 adults (crossover)",
+   "finding": "Pomegranate juice ellagic acid peaked in plasma at about 0.65 h; extracts gave similar exposure with a later peak; urolithin A glucuronide appeared in urine."
+  },
+  {
+   "id": "tfood-tomasbarberan2014",
+   "authors": "Tomás-Barberán FA, García-Villalba R, González-Sarrías A, et al.",
+   "year": 2014,
+   "title": "Ellagic acid metabolism by human gut microbiota: consistent observation of three urolithin phenotypes in intervention trials, independent of food source, age, and health status",
+   "journal": "J Agric Food Chem",
+   "pmid": "24976365",
+   "doi": "10.1021/jf5024615",
+   "type": "review",
+   "n": null,
+   "finding": "People fall into three stable urolithin metabotypes (A, B, and non-producers) depending on gut microbiota, independent of food source."
+  },
+  {
+   "id": "tfood-davidson2009",
+   "authors": "Davidson MH, Maki KC, Dicklin MR, et al.",
+   "year": 2009,
+   "title": "Effects of consumption of pomegranate juice on carotid intima-media thickness in men and women at moderate risk for coronary heart disease",
+   "journal": "Am J Cardiol",
+   "pmid": "19766760",
+   "doi": "10.1016/j.amjcard.2009.05.037",
+   "type": "rct",
+   "n": "289 adults",
+   "finding": "240 mL/day pomegranate juice for up to 18 months did not slow overall carotid intima-media thickness progression."
+  },
+  {
+   "id": "tfood-manach2003",
+   "authors": "Manach C, Morand C, Gil-Izquierdo A, et al.",
+   "year": 2003,
+   "title": "Bioavailability in humans of the flavanones hesperidin and narirutin after the ingestion of two doses of orange juice",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "12571654",
+   "doi": "10.1038/sj.ejcn.1601547",
+   "type": "cohort",
+   "n": "5 adults",
+   "finding": "Orange juice flavanone metabolites appeared at 3 h, peaked at 5-7 h and returned to baseline by 24 h."
+  },
+  {
+   "id": "tfood-morand2011",
+   "authors": "Morand C, Dubray C, Milenkovic D, et al.",
+   "year": 2011,
+   "title": "Hesperidin contributes to the vascular protective effects of orange juice: a randomized crossover study in healthy volunteers",
+   "journal": "Am J Clin Nutr",
+   "pmid": "21068346",
+   "doi": "10.3945/ajcn.110.004945",
+   "type": "rct",
+   "n": "24 men (crossover)",
+   "finding": "500 mL/day orange juice or hesperidin for 4 weeks lowered diastolic BP; microvascular reactivity improved only post-meal at peak hesperetin, not fasting."
+  },
+  {
+   "id": "tfood-webb2008",
+   "authors": "Webb AJ, Patel N, Loukogeorgakis S, et al.",
+   "year": 2008,
+   "title": "Acute blood pressure lowering, vasoprotective, and antiplatelet properties of dietary nitrate via bioconversion to nitrite",
+   "journal": "Hypertension",
+   "pmid": "18250365",
+   "doi": "10.1161/HYPERTENSIONAHA.107.103523",
+   "type": "rct",
+   "n": "healthy volunteers (crossover)",
+   "finding": "After 500 mL beetroot juice, blood pressure fell most at 2.5-3 h (about -10/-8 mmHg), with a smaller reduction still present at 24 h."
+  },
+  {
+   "id": "tfood-kapil2015",
+   "authors": "Kapil V, Khambata RS, Robertson A, et al.",
+   "year": 2015,
+   "title": "Dietary nitrate provides sustained blood pressure lowering in hypertensive patients: a randomized, phase 2, double-blind, placebo-controlled study",
+   "journal": "Hypertension",
+   "pmid": "25421976",
+   "doi": "10.1161/HYPERTENSIONAHA.114.04675",
+   "type": "rct",
+   "n": "68 hypertensive adults",
+   "finding": "Daily dietary nitrate for 4 weeks lowered home BP within 1 week, sustained with no tachyphylaxis (clinic -7.7/-2.4 mmHg); BP began returning to baseline in a 2-week washout."
+  },
+  {
+   "id": "tfood-siervo2013",
+   "authors": "Siervo M, Lara J, Ogbonmwan I, et al.",
+   "year": 2013,
+   "title": "Inorganic nitrate and beetroot juice supplementation reduces blood pressure in adults: a systematic review and meta-analysis",
+   "journal": "J Nutr",
+   "pmid": "23596162",
+   "doi": "10.3945/jn.112.170233",
+   "type": "meta-analysis",
+   "n": "16 crossover trials, 254 participants",
+   "finding": "Inorganic nitrate or beetroot juice lowered systolic BP by 4.4 mmHg in trials lasting 2 h to 15 days."
+  },
+  {
+   "id": "tfood-ried2016",
+   "authors": "Ried K",
+   "year": 2016,
+   "title": "Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and Review",
+   "journal": "J Nutr",
+   "pmid": "26764326",
+   "doi": "10.3945/jn.114.202192",
+   "type": "meta-analysis",
+   "n": "20 trials, 970 participants",
+   "finding": "Garlic supplements lowered BP (-8.7/-6.1 mmHg in hypertensives); lipid lowering needed more than 2 months of intake."
+  },
+  {
+   "id": "tfood-middelkamphup2004",
+   "authors": "Middelkamp-Hup MA, Pathak MA, Parrado C, et al.",
+   "year": 2004,
+   "title": "Oral Polypodium leucotomos extract decreases ultraviolet-induced damage of human skin",
+   "journal": "J Am Acad Dermatol",
+   "pmid": "15583582",
+   "doi": "10.1016/j.jaad.2004.06.027",
+   "type": "cohort",
+   "n": "9 adults",
+   "finding": "A single oral dose of Polypodium leucotomos (7.5 mg/kg) before UV reduced erythema, sunburn cells and DNA dimers at 24 h."
+  },
+  {
+   "id": "tfood-hyland2019",
+   "authors": "Hyland C, Bradman A, Gerona R, et al.",
+   "year": 2019,
+   "title": "Organic diet intervention significantly reduces urinary pesticide levels in U.S. children and adults",
+   "journal": "Environ Res",
+   "pmid": "30765100",
+   "doi": "10.1016/j.envres.2019.01.024",
+   "type": "cohort",
+   "n": "16 adults and children",
+   "finding": "Switching to an organic diet cut urinary pesticide metabolites by up to 95% within the short intervention period."
+  },
+  {
+   "id": "tfood-gonzalez2023",
+   "authors": "González N, Pàmies C, Martinez P, et al.",
+   "year": 2023,
+   "title": "Effects of an organic diet intervention on the levels of organophosphorus metabolites in an adult cohort",
+   "journal": "Food Res Int",
+   "pmid": "37803657",
+   "doi": "10.1016/j.foodres.2023.113354",
+   "type": "rct",
+   "n": "adult cohort",
+   "finding": "Urinary dialkyl phosphate pesticide metabolites fell significantly between day 1 and day 6 of an organic diet."
+  },
+  {
+   "id": "tfood-li2010",
+   "authors": "Li Z, Henning SM, Zhang Y, et al.",
+   "year": 2010,
+   "title": "Antioxidant-rich spice added to hamburger meat during cooking results in reduced meat, plasma, and urine malondialdehyde concentrations",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20335545",
+   "doi": "10.3945/ajcn.2009.28526",
+   "type": "rct",
+   "n": "11 adults (crossover)",
+   "finding": "A spice blend cooked into hamburger cut meat MDA 71% and lowered urinary MDA 49% after the meal."
+  },
+  {
+   "id": "tfood-thompson1999",
+   "authors": "Thompson HJ, Heimendinger J, Haegele A, et al.",
+   "year": 1999,
+   "title": "Effect of increased vegetable and fruit consumption on markers of oxidative cellular damage",
+   "journal": "Carcinogenesis",
+   "pmid": "10590217",
+   "doi": "10.1093/carcin/20.12.2261",
+   "type": "cohort",
+   "n": "28 women",
+   "finding": "Raising fruit and vegetables from 5.8 to 12 servings/day for 14 days lowered lymphocyte and urinary 8-OHdG and urinary isoprostanes."
+  },
+  {
+   "id": "tfood-moller2003",
+   "authors": "Møller P, Vogel U, Pedersen A, et al.",
+   "year": 2003,
+   "title": "No effect of 600 grams fruit and vegetables per day on oxidative DNA damage and repair in healthy nonsmokers",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "14578137",
+   "doi": null,
+   "type": "rct",
+   "n": "43 adults",
+   "finding": "600 g/day fruit and vegetables for 24 days did not change oxidative DNA damage in healthy nonsmokers."
+  },
+  {
+   "id": "tfood-aune2017",
+   "authors": "Aune D, Giovannucci E, Boffetta P, et al.",
+   "year": 2017,
+   "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies",
+   "journal": "Int J Epidemiol",
+   "pmid": "28338764",
+   "doi": "10.1093/ije/dyw319",
+   "type": "meta-analysis",
+   "n": "95 cohort studies",
+   "finding": "Fruit and vegetable intake was associated with lower CVD, cancer and mortality, with risk falling up to ~800 g/day."
+  },
+  {
+   "id": "tfood-chiu2015",
+   "authors": "Chiu YH, Afeiche MC, Gaskins AJ, et al.",
+   "year": 2015,
+   "title": "Fruit and vegetable intake and their pesticide residues in relation to semen quality among men from a fertility clinic",
+   "journal": "Hum Reprod",
+   "pmid": "25824023",
+   "doi": "10.1093/humrep/dev064",
+   "type": "cohort",
+   "n": "155 men, 338 semen samples",
+   "finding": "High-pesticide-residue produce intake was associated with lower sperm count (-49%) and fewer normal forms over semen samples collected up to 18 months after diet assessment."
+  },
+  {
+   "id": "tfood-luk2025",
+   "authors": "Luk HY, Jiwan NC, Appell CR, et al.",
+   "year": 2025,
+   "title": "Passive dehydration increases oxidative stress and mTOR signalling pathway activation in young men following resistance exercise",
+   "journal": "J Physiol",
+   "pmid": "40500991",
+   "doi": "10.1113/JP288434",
+   "type": "rct",
+   "n": "11 trained men (crossover)",
+   "finding": "24 h of fluid restriction before resistance exercise raised muscle H2O2 and stress signalling vs euhydration."
+  },
+  {
+   "id": "tfood-noda2000",
+   "authors": "Noda Y, Kneyuki T, Igarashi K, et al.",
+   "year": 2000,
+   "title": "Antioxidant activity of nasunin, an anthocyanin in eggplant peels",
+   "journal": "Toxicology",
+   "pmid": "10962130",
+   "doi": "10.1016/s0300-483x(00)00202-x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Nasunin from eggplant skin scavenged superoxide and chelated iron in test-tube assays."
+  },
+  {
+   "id": "tfood-appel1997",
+   "authors": "Appel LJ, Moore TJ, Obarzanek E, et al.",
+   "year": 1997,
+   "title": "A clinical trial of the effects of dietary patterns on blood pressure. DASH Collaborative Research Group",
+   "journal": "N Engl J Med",
+   "pmid": "9099655",
+   "doi": "10.1056/NEJM199704173361601",
+   "type": "rct",
+   "n": "459 adults",
+   "finding": "Over 8 weeks of controlled feeding, the DASH combination diet lowered BP 5.5/3.0 mmHg vs control (11.4/5.5 in hypertensives)."
+  },
+  {
+   "id": "tfood-conlin2000",
+   "authors": "Conlin PR, Chow D, Miller ER 3rd, et al.",
+   "year": 2000,
+   "title": "The effect of dietary patterns on blood pressure control in hypertensive patients: results from the Dietary Approaches to Stop Hypertension (DASH) trial",
+   "journal": "Am J Hypertens",
+   "pmid": "10981543",
+   "doi": "10.1016/s0895-7061(99)00284-8",
+   "type": "rct",
+   "n": "133 hypertensive adults",
+   "finding": "DASH lowered systolic BP 11.4 mmHg; BP changes were evident within 2 weeks of starting the feeding."
+  },
+  {
+   "id": "tfood-juraschek2017",
+   "authors": "Juraschek SP, Woodward M, Sacks FM, et al.",
+   "year": 2017,
+   "title": "Time Course of Change in Blood Pressure From Sodium Reduction and the DASH Diet",
+   "journal": "Hypertension",
+   "pmid": "28993451",
+   "doi": "10.1161/HYPERTENSIONAHA.117.10017",
+   "type": "rct",
+   "n": "412 adults",
+   "finding": "In DASH-Sodium, DASH lowered systolic BP 4.4 mmHg vs control within 1 week, with no further fall after that; sodium reduction kept lowering BP through 4 weeks."
+  },
+  {
+   "id": "tfood-barnes2023",
+   "authors": "Barnes LL, Dhana K, Liu X, et al.",
+   "year": 2023,
+   "title": "Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons",
+   "journal": "N Engl J Med",
+   "pmid": "37466280",
+   "doi": "10.1056/NEJMoa2302368",
+   "type": "rct",
+   "n": "604 older adults",
+   "finding": "The MIND diet with mild calorie restriction did not improve cognition or brain MRI over 3 years vs a control diet with the same restriction."
+  },
+  {
+   "id": "tfood-morris2015",
+   "authors": "Morris MC, Tangney CC, Wang Y, et al.",
+   "year": 2015,
+   "title": "MIND diet slows cognitive decline with aging",
+   "journal": "Alzheimers Dement",
+   "pmid": "26086182",
+   "doi": "10.1016/j.jalz.2015.04.011",
+   "type": "cohort",
+   "n": "960 older adults",
+   "finding": "Higher MIND diet scores were associated with slower cognitive decline over 4.7 years, equivalent to 7.5 years younger."
+  },
+  {
+   "id": "tfood-david2014",
+   "authors": "David LA, Maurice CF, Carmody RN, et al.",
+   "year": 2014,
+   "title": "Diet rapidly and reproducibly alters the human gut microbiome",
+   "journal": "Nature",
+   "pmid": "24336217",
+   "doi": "10.1038/nature12820",
+   "type": "cohort",
+   "n": "healthy adults (crossover feeding)",
+   "finding": "Animal- or plant-based diets shifted gut microbiota within 1 day of reaching the gut, and the community reverted 2 days after the diet ended."
+  },
+  {
+   "id": "tfood-wu2011",
+   "authors": "Wu GD, Chen J, Hoffmann C, et al.",
+   "year": 2011,
+   "title": "Linking long-term dietary patterns with gut microbial enterotypes",
+   "journal": "Science",
+   "pmid": "21885731",
+   "doi": "10.1126/science.1208344",
+   "type": "rct",
+   "n": "98 adults + 10 in feeding study",
+   "finding": "Gut microbiome composition changed within 24 h of a high-fat/low-fiber or low-fat/high-fiber diet, but enterotype stayed stable over 10 days; enterotypes tracked long-term diet."
+  },
+  {
+   "id": "tfood-wastyk2021",
+   "authors": "Wastyk HC, Fragiadakis GK, Perelman D, et al.",
+   "year": 2021,
+   "title": "Gut-microbiota-targeted diets modulate human immune status",
+   "journal": "Cell",
+   "pmid": "34256014",
+   "doi": "10.1016/j.cell.2021.06.019",
+   "type": "rct",
+   "n": "36 adults",
+   "finding": "A 17-week high-fiber diet raised microbial fiber-degrading enzymes with person-specific immune responses; fermented foods steadily raised diversity and lowered inflammatory markers."
+  },
+  {
+   "id": "tfood-sonnenburg2016",
+   "authors": "Sonnenburg ED, Smits SA, Tikhonov M, et al.",
+   "year": 2016,
+   "title": "Diet-induced extinctions in the gut microbiota compound over generations",
+   "journal": "Nature",
+   "pmid": "26762459",
+   "doi": "10.1038/nature16504",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In humanized mice, low-fiber diets caused microbiota changes that were reversible within one generation, but over several generations taxa were lost and did not return with fiber alone."
+  },
+  {
+   "id": "tfood-roager2019",
+   "authors": "Roager HM, Vogt JK, Kristensen M, et al.",
+   "year": 2019,
+   "title": "Whole grain-rich diet reduces body weight and systemic low-grade inflammation without inducing major changes of the gut microbiome: a randomised cross-over trial",
+   "journal": "Gut",
+   "pmid": "29097438",
+   "doi": "10.1136/gutjnl-2017-314786",
+   "type": "rct",
+   "n": "60 adults (crossover)",
+   "finding": "An 8-week whole-grain diet lowered weight, IL-6 and CRP vs refined grain but did not change insulin sensitivity or cause major gut microbiome shifts."
+  },
+  {
+   "id": "tfood-aune2016",
+   "authors": "Aune D, Keum N, Giovannucci E, et al.",
+   "year": 2016,
+   "title": "Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies",
+   "journal": "BMJ",
+   "pmid": "27301975",
+   "doi": "10.1136/bmj.i2716",
+   "type": "meta-analysis",
+   "n": "45 cohort studies",
+   "finding": "Each 90 g/day of whole grain was associated with 19% lower CHD and 17% lower all-cause mortality, with benefits up to ~210-225 g/day."
+  },
+  {
+   "id": "tfood-jenkins2012",
+   "authors": "Jenkins DJ, Kendall CW, Augustin LS, et al.",
+   "year": 2012,
+   "title": "Effect of legumes as part of a low glycemic index diet on glycemic control and cardiovascular risk factors in type 2 diabetes mellitus: a randomized controlled trial",
+   "journal": "Arch Intern Med",
+   "pmid": "23089999",
+   "doi": "10.1001/2013.jamainternmed.70",
+   "type": "rct",
+   "n": "121 adults with type 2 diabetes",
+   "finding": "A low-GI diet with at least 1 cup/day of legumes for 3 months lowered HbA1c 0.5% and systolic BP more than a wheat-fiber diet."
+  },
+  {
+   "id": "tfood-robbins2012",
+   "authors": "Robbins WA, Xun L, FitzGerald LZ, et al.",
+   "year": 2012,
+   "title": "Walnuts improve semen quality in men consuming a Western-style diet: randomized control dietary intervention trial",
+   "journal": "Biol Reprod",
+   "pmid": "22895856",
+   "doi": "10.1095/biolreprod.112.101634",
+   "type": "rct",
+   "n": "117 young men",
+   "finding": "Adding 75 g/day walnuts for 12 weeks improved sperm vitality, motility and morphology vs avoiding tree nuts."
+  },
+  {
+   "id": "tfood-salashuetos2018",
+   "authors": "Salas-Huetos A, Moraleda R, Giardina S, et al.",
+   "year": 2018,
+   "title": "Effect of nut consumption on semen quality and functionality in healthy men consuming a Western-style diet: a randomized controlled trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "30475967",
+   "doi": "10.1093/ajcn/nqy181",
+   "type": "rct",
+   "n": "119 young men",
+   "finding": "Adding 60 g/day mixed nuts for 14 weeks improved sperm count, vitality, motility and morphology and lowered sperm DNA fragmentation."
+  },
+  {
+   "id": "tfood-karayiannis2018",
+   "authors": "Karayiannis D, Kontogianni MD, Mendorou C, et al.",
+   "year": 2018,
+   "title": "Adherence to the Mediterranean diet and IVF success rate among non-obese women attempting fertility",
+   "journal": "Hum Reprod",
+   "pmid": "29390148",
+   "doi": "10.1093/humrep/dey003",
+   "type": "cohort",
+   "n": "244 women (IVF)",
+   "finding": "Women under 35 in the lowest third of Mediterranean diet adherence before IVF had lower clinical pregnancy and live birth (RR 0.32 for live birth)."
+  },
+  {
+   "id": "tfood-kermack2020",
+   "authors": "Kermack AJ, Lowen P, Wellstead SJ, et al.",
+   "year": 2020,
+   "title": "Effect of a 6-week \"Mediterranean\" dietary intervention on in vitro human embryo development: the Preconception Dietary Supplements in Assisted Reproduction double-blinded randomized controlled trial",
+   "journal": "Fertil Steril",
+   "pmid": "31870562",
+   "doi": "10.1016/j.fertnstert.2019.09.041",
+   "type": "rct",
+   "n": "111 couples (IVF)",
+   "finding": "Six weeks of an omega-3, vitamin D and olive oil intervention before IVF accelerated later embryo cleavage and improved day-3 embryo scores, without changing the primary endpoint."
+  },
+  {
+   "id": "tfood-montano2022",
+   "authors": "Montano L, Ceretti E, Donato F, et al.",
+   "year": 2022,
+   "title": "Effects of a Lifestyle Change Intervention on Semen Quality in Healthy Young Men Living in Highly Polluted Areas in Italy: The FASt Randomized Controlled Trial",
+   "journal": "Eur Urol Focus",
+   "pmid": "33579652",
+   "doi": "10.1016/j.euf.2021.01.017",
+   "type": "rct",
+   "n": "263 young men",
+   "finding": "A 4-month Mediterranean diet plus exercise program raised sperm concentration, motility, normal morphology and semen antioxidant capacity vs control."
+  },
+  {
+   "id": "tfood-misell2006",
+   "authors": "Misell LM, Holochwost D, Boban D, et al.",
+   "year": 2006,
+   "title": "A stable isotope-mass spectrometric method for measuring human spermatogenesis kinetics in vivo",
+   "journal": "J Urol",
+   "pmid": "16406920",
+   "doi": "10.1016/S0022-5347(05)00053-4",
+   "type": "cohort",
+   "n": "11 men",
+   "finding": "Deuterium-labelled sperm first appeared in ejaculate after a mean 64 days (range 42-76), placing spermatogenesis plus transit at about 2-2.5 months."
+  },
+  {
+   "id": "tfood-amann2008",
+   "authors": "Amann RP",
+   "year": 2008,
+   "title": "The cycle of the seminiferous epithelium in humans: a need to revisit?",
+   "journal": "J Androl",
+   "pmid": "18497337",
+   "doi": "10.2164/jandrol.107.004655",
+   "type": "review",
+   "n": null,
+   "finding": "The 1960s estimate of human spermatogenesis duration (~74 days) rests on weak data and may be off by about 6 days."
+  },
+  {
+   "id": "tfood-gougeon2010",
+   "authors": "Gougeon A",
+   "year": 2010,
+   "title": "Human ovarian follicular development: from activation of resting follicles to preovulatory maturation",
+   "journal": "Ann Endocrinol (Paris)",
+   "pmid": "20362973",
+   "doi": "10.1016/j.ando.2010.02.021",
+   "type": "review",
+   "n": null,
+   "finding": "A human follicle needs several months to reach the preantral stage and about 70 more days to reach 2 mm, before final selection and ovulation."
+  }
+ ],
+ "windows": [],
+ "timing": [
+  {
+   "factor": "broccoli-sprouts",
+   "shape": "acute",
+   "summary": "Each serving gives a short sulforaphane pulse (plasma half-life about 2 h), but the enzymes it switches on are long-lived proteins, so the protective effect lasts roughly 1-3 days and then fades. Detox effects appear on day 1 of daily dosing and hold for 12 weeks without tolerance, and they are gone within about 5 days of stopping.",
+   "onset": {
+    "text": "Plasma sulforaphane peaks about 1 h after a dose [tfood-ye2002]; benzene detoxication was already up 61% on day 1 [tfood-egner2014], and nasal NQO1/HO-1/GST mRNA rose 2-3-fold after 3 daily doses [tfood-riedl2009].",
+    "days": [
+     0.04,
+     3
+    ]
+   },
+   "full": {
+    "text": "Detox biomarkers reach their full effect within the first day and stay flat for 12 weeks [tfood-egner2014]; induced skin NQO1 keeps stacking over the first few daily doses (1.5-fold after one, 4.5-fold after three) [tfood-dinkovakostova2007]. Clinical endpoints in trials were read at 8-18 weeks [tfood-yanaka2009, tfood-singh2014].",
+    "days": [
+     1,
+     7
+    ]
+   },
+   "after_stopping": {
+    "text": "The drug itself is mostly excreted within 8-24 h [tfood-ye2002]. Protection in human skin was 32% at 48 h and 10% at 72 h after the last dose [tfood-talalay2007], and pollutant-detox biomarkers were back to baseline after a 5-day washout [tfood-kensler2012]. Clinical gains reversed over 4-8 weeks off treatment [tfood-singh2014, tfood-yanaka2009].",
+    "days": [
+     2,
+     5
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Every positive human trial dosed daily, and daily dosing showed no tolerance over 12 weeks [tfood-egner2014]. Because induced enzymes persist 1-3 days (NQO1 protein half-life over 18 h [tfood-siegel2001]; protection decays over 2-3 days [tfood-talalay2007, tfood-gao2001]), every other day probably keeps much but not all of the effect; no human trial has compared schedules, and every-other-day dosing worked in mice [tfood-xu2016]. Splitting the same daily amount into two doses raised plasma exposure but not blood-cell markers [tfood-atwell2015]."
+   },
+   "basis": "measured",
+   "debate": "How long the effect lasts is contested by method: cell and skin studies show enzyme-mediated protection persisting for days [tfood-gao2001, tfood-talalay2007], while the Qidong crossover found no carryover after 5 days [tfood-kensler2012]. Nrf2 induces its own inhibitor KEAP1, which predicts damping with constant stimulation [tfood-lee2007], yet 12 weeks of daily dosing showed no attenuation [tfood-egner2014]. Some argue for blending glucoraphanin and sulforaphane to get both a peak and steady exposure [tfood-egner2011], but split dosing changed no blood-cell marker [tfood-atwell2015].",
+   "refs": [
+    "tfood-ye2002",
+    "tfood-egner2014",
+    "tfood-riedl2009",
+    "tfood-dinkovakostova2007",
+    "tfood-yanaka2009",
+    "tfood-singh2014",
+    "tfood-talalay2007",
+    "tfood-kensler2012",
+    "tfood-siegel2001",
+    "tfood-gao2001",
+    "tfood-xu2016",
+    "tfood-atwell2015",
+    "tfood-lee2007",
+    "tfood-egner2011"
+   ]
+  },
+  {
+   "factor": "broccoli-seed-powder",
+   "shape": "acute",
+   "summary": "With active myrosinase, seed powder behaves like sprouts: a sulforaphane pulse within hours that is cleared in about a day, with downstream enzyme effects lasting a few days. Without the enzyme, conversion depends on gut bacteria and is slower, lower and more drawn out.",
+   "onset": {
+    "text": "Sulforaphane from seeds or sprouts with active enzyme appears within hours and is 3-4 times more bioavailable than glucoraphanin without enzyme [tfood-fahey2015]; enzyme induction follows within a day (extrapolated from sprout data [tfood-egner2014]).",
+    "days": [
+     0.04,
+     1
+    ]
+   },
+   "full": {
+    "text": "No time course with seed powder itself; sprout and beverage trials reached their full detox effect within a day [tfood-egner2014].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Sulforaphane is cleared within about a day [tfood-ye2002]; enzyme-mediated protection fades over 2-5 days by analogy with sprout data [tfood-talalay2007, tfood-kensler2012].",
+    "days": [
+     2,
+     5
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Preformed sulforaphane gives a bolus, while glucoraphanin without enzyme gives a slower, steadier exposure [tfood-egner2011]. No trial has compared daily with intermittent seed powder; daily is what was tested in sprout and extract trials."
+   },
+   "basis": "extrapolated",
+   "debate": "Whether a steady low exposure (glucoraphanin converted by gut bacteria) or a sharp peak (preformed sulforaphane) is better is unresolved; Egner et al. propose blends [tfood-egner2011], while the greater, more consistent delivery with active enzyme [tfood-fahey2015] favours the bolus form.",
+   "refs": [
+    "tfood-fahey2015",
+    "tfood-egner2014",
+    "tfood-ye2002",
+    "tfood-talalay2007",
+    "tfood-kensler2012",
+    "tfood-egner2011"
+   ]
+  },
+  {
+   "factor": "sulforaphane-supplements",
+   "shape": "acute",
+   "summary": "Each capsule is a pulse cleared within a day, but blood glutathione and Nrf2-target mRNA rise within days to weeks of daily use. Clinical effects in trials took 4-18 weeks to show and faded within weeks of stopping.",
+   "onset": {
+    "text": "Blood-cell HMOX1, NQO1 and glutathione rose within 7 days to 1 month of daily dosing [tfood-sedlak2018, tfood-doss2016, tfood-ribeiro2024]; nasal inflammation to diesel particles fell after 4 days [tfood-heber2014].",
+    "days": [
+     1,
+     30
+    ]
+   },
+   "full": {
+    "text": "Behavioural effects in autism were measured at 18 weeks [tfood-singh2014]; no trial mapped when biomarkers plateau beyond the first days of dosing.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Autism behaviour scores rose back toward baseline during 4 weeks off sulforaphane [tfood-singh2014]; detox biomarkers lose the effect within 5 days [tfood-kensler2012].",
+    "days": [
+     5,
+     28
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Trials dosed daily; one or two doses a day gave the same blood-cell marker response [tfood-atwell2015]. Every-other-day dosing is untested in humans (it worked in mice [tfood-xu2016])."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown: no human data. Because Nrf2 induction appears within a day, a late start could in theory protect sperm already maturing, but this is untested.",
+     "text": "No human sperm trial exists. Sperm take about 64 days (range 42-76) from labelled precursor to ejaculate [tfood-misell2006], and the classic ~74-day estimate is uncertain by about a week [tfood-amann2008], so a diet change needs roughly 2.5-3 months to reach every stage of the sperm in a given ejaculate."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Unknown: no human data on eggs or IVF.",
+     "text": "No human egg or IVF trial exists. A follicle grows for several months before ovulation, including about 70 days from the preantral stage to 2 mm [tfood-gougeon2010], so anything acting on the growing follicle needs roughly 3-4 months to cover the whole final growth phase."
+    }
+   },
+   "basis": "measured",
+   "debate": "Lasting benefit is questioned: autism gains reverted within weeks of stopping [tfood-singh2014], and Nrf2 feedback could limit long-term activation [tfood-lee2007], although 12 weeks of daily dosing showed no tolerance [tfood-egner2014]. Permanent maximal Nrf2 activation is harmful in mice [tfood-wakabayashi2003], an argument against chasing constant high exposure.",
+   "refs": [
+    "tfood-sedlak2018",
+    "tfood-doss2016",
+    "tfood-ribeiro2024",
+    "tfood-heber2014",
+    "tfood-singh2014",
+    "tfood-kensler2012",
+    "tfood-atwell2015",
+    "tfood-xu2016",
+    "tfood-misell2006",
+    "tfood-amann2008",
+    "tfood-gougeon2010",
+    "tfood-lee2007",
+    "tfood-egner2014",
+    "tfood-wakabayashi2003"
+   ]
+  },
+  {
+   "factor": "broccoli-mature",
+   "shape": "build",
+   "summary": "A raw broccoli meal gives a sulforaphane peak at about 1.6 h (cooked: about 6 h) that is cleared within a day. Yet trials using broccoli only a few times a week (400 g per week, or one soup portion weekly) still lowered LDL over 12 weeks and changed prostate gene expression over a year.",
+   "onset": {
+    "text": "Plasma sulforaphane peaks 1.6 h after raw and 6 h after cooked broccoli, with excretion half-lives of 2.4-2.6 h [tfood-vermeulen2008].",
+    "days": [
+     0.04,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "LDL fell 5-7% after 12 weeks of 400 g/week high-glucoraphanin broccoli [tfood-armah2015]; prostate gene-expression changes were attenuated over 12 months of weekly soup [tfood-traka2019]. Earlier time points were not measured.",
+    "days": [
+     84,
+     365
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured for LDL or gene expression; the sulforaphane itself is cleared within a day [tfood-vermeulen2008].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "few-per-week",
+    "text": "The two outcome trials used broccoli a few times a week (400 g/week) or weekly [tfood-armah2015, tfood-traka2019], so daily intake is not required for these effects; no trial compared schedules."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-vermeulen2008",
+    "tfood-armah2015",
+    "tfood-traka2019"
+   ]
+  },
+  {
+   "factor": "cruciferous-other",
+   "shape": "build",
+   "summary": "Isothiocyanates from kale, cabbage and Brussels sprouts are short-lived like sulforaphane, but a 14-day controlled crucifer diet lowered IL-6. What happens after stopping was not measured.",
+   "onset": {
+    "text": "Serum IL-6 was 19% lower after 14 days of a double-dose crucifer diet; earlier time points were not measured [tfood-navarro2014].",
+    "days": [
+     14,
+     14
+    ]
+   },
+   "full": {
+    "text": "Not measured beyond 14 days in feeding trials.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; isothiocyanates are cleared within a day [tfood-ye2002].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "The feeding trial gave crucifers daily [tfood-navarro2014]; schedule comparisons do not exist."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-navarro2014",
+    "tfood-ye2002"
+   ]
+  },
+  {
+   "factor": "mustard-seed-myrosinase",
+   "shape": "acute",
+   "summary": "Mustard powder works within the same meal: it restores the enzyme that cooking destroys and raised sulforaphane output from cooked broccoli about 4.5-fold over the next 24 h. It has no effect of its own beyond that meal.",
+   "onset": {
+    "text": "Same meal: sulforaphane metabolites in 24 h urine rose about 4.5-fold [tfood-okunade2018].",
+    "days": [
+     0.04,
+     1
+    ]
+   },
+   "full": {
+    "text": "Complete within the 24 h after the meal [tfood-okunade2018].",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "after_stopping": {
+    "text": "No carryover beyond the meal it is added to.",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Add it to each cooked crucifer meal; it only affects that meal [tfood-okunade2018]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-okunade2018"
+   ]
+  },
+  {
+   "factor": "watercress-peitc",
+   "shape": "build",
+   "summary": "Watercress shifted a tobacco carcinogen toward detoxification within 2-3 days, and the effect was gone 1-2 weeks after stopping. A drop in DNA damage was seen after 8 weeks of daily intake.",
+   "onset": {
+    "text": "Detoxified NNK metabolites rose 33.5% on days 2-3 of eating watercress at each meal [tfood-hecht1995].",
+    "days": [
+     2,
+     3
+    ]
+   },
+   "full": {
+    "text": "Lymphocyte DNA damage was 17% lower after 8 weeks of 85 g/day (the only time point) [tfood-gill2007].",
+    "days": [
+     56,
+     56
+    ]
+   },
+   "after_stopping": {
+    "text": "NNK detox metabolites were back near baseline 1-2 weeks after stopping [tfood-hecht1995].",
+    "days": [
+     7,
+     14
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Both trials used daily or every-meal intake [tfood-hecht1995, tfood-gill2007]; the detox effect fades within a week or two, so regular intake is needed to keep it."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-hecht1995",
+    "tfood-gill2007"
+   ]
+  },
+  {
+   "factor": "wasabi-horseradish-itc",
+   "shape": "build",
+   "summary": "The only human outcome trial gave a wasabi isothiocyanate supplement daily for 12 weeks and measured memory only at the end. When effects start and how long they last are unknown.",
+   "onset": {
+    "text": "Not measured; memory improved at the single 12-week assessment [tfood-nouchi2023].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured beyond 12 weeks [tfood-nouchi2023].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The trial used a daily supplement [tfood-nouchi2023]; no schedule data."
+   },
+   "basis": "unknown",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-nouchi2023"
+   ]
+  },
+  {
+   "factor": "moringa",
+   "shape": "acute",
+   "summary": "Moringa leaf powder blunted the blood-glucose rise of the meal it was eaten with, in people with diabetes. Longer-term effects are unproven, so there is no known build-up or persistence.",
+   "onset": {
+    "text": "Lower post-meal glucose increments at 90-150 min with 20 g leaf powder in the meal [tfood-leone2018].",
+    "days": [
+     0.06,
+     0.1
+    ]
+   },
+   "full": {
+    "text": "Not measured beyond the single meal.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; the measured effect is confined to that meal.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Acts per meal [tfood-leone2018]; chronic benefit unproven."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-leone2018"
+   ]
+  },
+  {
+   "factor": "indole-3-carbinol-dim",
+   "shape": "build",
+   "summary": "I3C shifts estrogen metabolism toward 2-hydroxylation within a week, through enzyme induction. The one lesion-regression trial ran 12 weeks; persistence after stopping was not measured.",
+   "onset": {
+    "text": "Urinary estrogen metabolites shifted after 1 week in men (and at 2 months in women) [tfood-michnovicz1997].",
+    "days": [
+     7,
+     7
+    ]
+   },
+   "full": {
+    "text": "CIN regression was assessed at 12 weeks [tfood-bell2000].",
+    "days": [
+     84,
+     84
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials dosed daily [tfood-michnovicz1997, tfood-bell2000]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-michnovicz1997",
+    "tfood-bell2000"
+   ]
+  },
+  {
+   "factor": "green-tea",
+   "shape": "build",
+   "summary": "Tea catechins peak 1-2 h after a cup and are mostly gone within 8 h, so each cup is a short pulse. Lower oxidative DNA damage in smokers was seen after 4 months of 4 cups a day.",
+   "onset": {
+    "text": "Catechins peak at 1.3-1.6 h with half-lives of 1.7-3.4 h; over 90% of urinary EGC/EC is excreted within 8 h [tfood-lee2002].",
+    "days": [
+     0.04,
+     0.33
+    ]
+   },
+   "full": {
+    "text": "Urinary 8-OHdG was 31% lower after 4 months of 4 cups/day in heavy smokers [tfood-hakim2003].",
+    "days": [
+     120,
+     120
+    ]
+   },
+   "after_stopping": {
+    "text": "Catechins clear within a day [tfood-lee2002]; persistence of the DNA-damage effect was not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Because catechins clear within hours [tfood-lee2002], benefits seen in trials came from several cups every day [tfood-hakim2003]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-lee2002",
+    "tfood-hakim2003"
+   ]
+  },
+  {
+   "factor": "green-tea-extract",
+   "shape": "build",
+   "summary": "High-dose extract (about 800 mg EGCG a day) raises liver enzymes after a median of about 3.5 months, and the liver recovers about a month after stopping. Once-daily bolus dosing makes exposure climb over the first weeks.",
+   "onset": {
+    "text": "Liver-function abnormalities appeared a median 106 days (range 56-365) after starting ~843 mg EGCG/day [tfood-yu2017]; EFSA links ≥800 mg/day to transaminase rises [tfood-efsa2018].",
+    "days": [
+     56,
+     365
+    ]
+   },
+   "full": {
+    "text": "EGCG exposure (AUC) rose over 60% after 4 weeks of once-daily 800 mg, but not with 400 mg twice daily [tfood-chow2003].",
+    "days": [
+     28,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "ALT returned to normal a mean 32 days (13-92) after stopping, and rose again in most women who restarted [tfood-yu2017].",
+    "days": [
+     13,
+     92
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Avoid high-dose extracts; if used, a split dose avoids the exposure build-up seen with a single daily bolus [tfood-chow2003]."
+   },
+   "basis": "measured",
+   "debate": "EFSA sets the transaminase threshold at 800 mg EGCG/day from supplements [tfood-efsa2018], but idiosyncratic injury has a different, unpredictable timing that a dose threshold does not capture.",
+   "refs": [
+    "tfood-yu2017",
+    "tfood-efsa2018",
+    "tfood-chow2003"
+   ]
+  },
+  {
+   "factor": "black-tea",
+   "shape": "build",
+   "summary": "Black tea improved flow-mediated dilation within a week of daily drinking, but a single day of tea did not lower 24 h blood pressure. The blood-pressure benefit that the same group saw needed months of regular intake.",
+   "onset": {
+    "text": "FMD was higher after 1-week periods of twice-daily black tea, even at 100 mg flavonoids/day [tfood-grassi2009].",
+    "days": [
+     7,
+     7
+    ]
+   },
+   "full": {
+    "text": "One day of tea did not change 24 h BP, whereas 6 months of regular intake did [tfood-hodgson2013].",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Benefits came from daily drinking [tfood-grassi2009, tfood-hodgson2013]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-grassi2009",
+    "tfood-hodgson2013"
+   ]
+  },
+  {
+   "factor": "coffee",
+   "shape": "acute",
+   "summary": "Coffee lowered background DNA strand breaks within 2 h of the first cup, and four weeks of 3-4 cups a day held a 27% reduction. Chlorogenic acid metabolites arrive in two waves (about 1 h and after 4 h) and clear within a day, so the effect depends on regular intake.",
+   "onset": {
+    "text": "DNA strand breaks fell within 2 h of the first cup [tfood-bakuradze2016]; chlorogenic acid metabolites peak within 1 h and again after 4 h [tfood-stalmach2009].",
+    "days": [
+     0.04,
+     0.33
+    ]
+   },
+   "full": {
+    "text": "A cumulative reduction of about a third over 8 h of repeated cups [tfood-bakuradze2016]; 27% lower than water after 4 weeks [tfood-bakuradze2015].",
+    "days": [
+     0.33,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured for DNA damage. Caffeine's blood-pressure tolerance regresses within hours of abstinence [tfood-shi1993].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Benefit was shown with cups spread through the day, every day [tfood-bakuradze2016, tfood-bakuradze2015]. Tolerance to caffeine's pressor effect builds and fades within hours, so regular drinkers see little blood-pressure rise while occasional drinkers see more [tfood-shi1993]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-bakuradze2016",
+    "tfood-stalmach2009",
+    "tfood-bakuradze2015",
+    "tfood-shi1993"
+   ]
+  },
+  {
+   "factor": "cocoa-flavanols",
+   "shape": "acute",
+   "summary": "Each flavanol dose improves artery function within 2 h, and daily intake also raises the fasting baseline within 3-8 days, without tolerance over 30 days. The gain is gone a week after stopping, and in a 6-month trial walking improved much more 2.5 h after a dose than 24 h after.",
+   "onset": {
+    "text": "FMD peaks about 2 h after a dose [tfood-heiss2007, tfood-schroeter2006].",
+    "days": [
+     0.04,
+     0.08
+    ]
+   },
+   "full": {
+    "text": "Fasting FMD rose on days 3, 5 and 8 of daily intake [tfood-heiss2007]; 30 days of thrice-daily cocoa kept both the raised baseline and the post-dose rises, with no tachyphylaxis [tfood-balzer2008].",
+    "days": [
+     3,
+     30
+    ]
+   },
+   "after_stopping": {
+    "text": "Fasting FMD was back to baseline after a 1-week cocoa-free washout [tfood-heiss2007]; in PAD, the walking gain was 42.6 m at 2.5 h but only 18 m at 24 h after the last dose [tfood-mcdermott2020].",
+    "days": [
+     1,
+     7
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The effect is largely dose-timed: trials used one to three doses a day [tfood-heiss2010, tfood-balzer2008], and benefit faded by 24 h [tfood-mcdermott2020]. In COSMOS a third of the cocoa group did not reach expected biomarker levels, and adherence-based analyses showed larger effects [tfood-ottaviani2025]."
+   },
+   "basis": "measured",
+   "debate": "Short trials show reliable vascular effects [tfood-sun2019], but the 3.6-year COSMOS trial missed its primary endpoint (HR 0.90) [tfood-sesso2022]; a biomarker re-analysis by investigators including industry-affiliated authors argues poor adherence and background flavanol intake hid a larger effect [tfood-ottaviani2025].",
+   "refs": [
+    "tfood-heiss2007",
+    "tfood-schroeter2006",
+    "tfood-balzer2008",
+    "tfood-mcdermott2020",
+    "tfood-heiss2010",
+    "tfood-ottaviani2025",
+    "tfood-sun2019",
+    "tfood-sesso2022"
+   ]
+  },
+  {
+   "factor": "blueberries",
+   "shape": "acute",
+   "summary": "Blueberries improve artery function in two waves, at 1-2 h and 6 h, as phenolic metabolites circulate; some metabolites stay in blood up to 48 h. A cup a day for 6 months kept a sustained improvement, while half a cup did nothing.",
+   "onset": {
+    "text": "FMD rose at 1-2 h and again at 6 h after blueberry polyphenols [tfood-rodriguezmateos2013].",
+    "days": [
+     0.04,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "Sustained FMD and arterial-stiffness improvements after 6 months of 150 g/day [tfood-curtis2019]; intermediate time points not reported.",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Anthocyanin metabolites persist up to 48 h, with half-lives of 12-52 h [tfood-czank2013]; vascular persistence after stopping was not measured.",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The positive 6-month trial used a cup every day [tfood-curtis2019]; metabolites clear within about 2 days [tfood-czank2013]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-rodriguezmateos2013",
+    "tfood-curtis2019",
+    "tfood-czank2013"
+   ]
+  },
+  {
+   "factor": "blackberries",
+   "shape": "acute",
+   "summary": "No timing study exists for blackberries themselves. By analogy with other anthocyanin berries, effects should come within hours of eating and fade within about 2 days.",
+   "onset": {
+    "text": "Extrapolated from blueberries: vascular effects at 1-2 h and 6 h [tfood-rodriguezmateos2013].",
+    "days": [
+     0.04,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "Not measured for blackberries.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Extrapolated: anthocyanin metabolites clear within about 48 h [tfood-czank2013].",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Extrapolated from berry trials that used daily intake [tfood-curtis2019]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-rodriguezmateos2013",
+    "tfood-czank2013",
+    "tfood-curtis2019"
+   ]
+  },
+  {
+   "factor": "berries-other",
+   "shape": "acute",
+   "summary": "Berry anthocyanins act on blood vessels within hours and their metabolites linger in blood for up to 2 days. Lipid and blood-pressure effects in trials took weeks of regular intake.",
+   "onset": {
+    "text": "Vascular effects at 1-2 h and 6 h after berry polyphenols [tfood-rodriguezmateos2013].",
+    "days": [
+     0.04,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "Sustained vascular and HDL effects needed daily intake over months in the longest berry trial [tfood-curtis2019].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Anthocyanin metabolites persist up to 48 h [tfood-czank2013].",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Effects track recent intake; daily or near-daily servings were used in trials [tfood-curtis2019]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-rodriguezmateos2013",
+    "tfood-curtis2019",
+    "tfood-czank2013"
+   ]
+  },
+  {
+   "factor": "pomegranate",
+   "shape": "acute",
+   "summary": "Ellagic acid from pomegranate peaks in blood within about an hour and then gut bacteria turn it into urolithins, which only some people make. An 18-month trial found no effect on carotid thickening, so there is no proven benefit to time.",
+   "onset": {
+    "text": "Plasma ellagic acid peaks at about 0.65 h after juice [tfood-seeram2008]; urolithin production depends on a person's stable gut metabotype [tfood-tomasbarberan2014].",
+    "days": [
+     0.02,
+     0.1
+    ]
+   },
+   "full": {
+    "text": "No overall effect on carotid intima-media progression after up to 18 months of 240 mL/day [tfood-davidson2009].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No outcome benefit has been shown, so there is no evidence-based schedule [tfood-davidson2009]."
+   },
+   "basis": "measured",
+   "debate": "The null 18-month trial [tfood-davidson2009] contrasts with exploratory benefit in people with high oxidative stress in the same trial; metabotype differences [tfood-tomasbarberan2014] may explain inconsistent responses.",
+   "refs": [
+    "tfood-seeram2008",
+    "tfood-tomasbarberan2014",
+    "tfood-davidson2009"
+   ]
+  },
+  {
+   "factor": "citrus-hesperidin",
+   "shape": "build",
+   "summary": "Hesperidin needs gut bacteria to free it, so blood levels peak late (5-7 h) and are gone by 24 h. Microvascular function improved only at that peak, while diastolic blood pressure was lower after 4 weeks of daily orange juice or hesperidin.",
+   "onset": {
+    "text": "Flavanone metabolites appear at 3 h, peak at 5-7 h [tfood-manach2003]; microvascular reactivity improved at the hesperetin peak [tfood-morand2011].",
+    "days": [
+     0.125,
+     0.3
+    ]
+   },
+   "full": {
+    "text": "Diastolic BP was lower after 4 weeks of 500 mL/day orange juice or hesperidin [tfood-morand2011].",
+    "days": [
+     28,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "Flavanones return to baseline within 24 h [tfood-manach2003]; BP persistence not measured.",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Fasting microvascular function did not improve, only post-dose function did [tfood-morand2011], so the effect depends on regular intake."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-manach2003",
+    "tfood-morand2011"
+   ]
+  },
+  {
+   "factor": "extra-virgin-olive-oil",
+   "shape": "build",
+   "summary": "Olive oil phenols peak in blood within an hour and have a half-life of about 2.5 h, but daily use lowered oxidized LDL within 3 weeks. Cardiovascular-event benefit in PREDIMED accrued over about 5 years.",
+   "onset": {
+    "text": "Hydroxytyrosol peaks 32-53 min after 25 mL virgin olive oil, half-life 2.43 h [tfood-mirocasas2003].",
+    "days": [
+     0.02,
+     0.1
+    ]
+   },
+   "full": {
+    "text": "Oxidized LDL and HDL changed within 3-week periods in proportion to phenol content [tfood-covas2006]; oxidized LDL fell at 3 months in PREDIMED [tfood-fito2007]; CVD events were lower over a median 4.8 years [tfood-estruch2018].",
+    "days": [
+     21,
+     1750
+    ]
+   },
+   "after_stopping": {
+    "text": "Not directly measured; EUROLIVE assumed reversal within its 2-week washouts [tfood-covas2006].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Phenols clear within hours [tfood-mirocasas2003]; trials used 25 mL every day [tfood-covas2006]."
+   },
+   "basis": "measured",
+   "debate": "PREDIMED's long-term benefit is debated after its 2013 report was retracted and republished because of randomization problems [tfood-agarwal2019, tfood-estruch2018].",
+   "refs": [
+    "tfood-mirocasas2003",
+    "tfood-covas2006",
+    "tfood-fito2007",
+    "tfood-estruch2018",
+    "tfood-agarwal2019"
+   ]
+  },
+  {
+   "factor": "flaxseed-lignans",
+   "shape": "build",
+   "summary": "Flax lignans are turned into enterolactone by gut bacteria; it peaks about 20 h after eating and has a half-life of about 13 h, so it accumulates with daily intake. Blood pressure was about 10 mmHg lower after 6 months of 30 g a day.",
+   "onset": {
+    "text": "Enterolignans appear in plasma 8-10 h after intake and enterolactone peaks at about 20 h [tfood-kuijsten2005].",
+    "days": [
+     0.33,
+     1
+    ]
+   },
+   "full": {
+    "text": "Systolic BP was about 10 mmHg lower after 6 months of 30 g/day milled flax (earlier time points not reported in the abstract) [tfood-rodriguezleyva2013].",
+    "days": [
+     180,
+     180
+    ]
+   },
+   "after_stopping": {
+    "text": "Enterolactone mean residence time is about 36 h and most is excreted within 3 days [tfood-kuijsten2005]; BP persistence not measured.",
+    "days": [
+     2,
+     3
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Enterolignans reach steady state with intake 2-3 times a day [tfood-kuijsten2005]; the BP trial used daily flax [tfood-rodriguezleyva2013]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-kuijsten2005",
+    "tfood-rodriguezleyva2013"
+   ]
+  },
+  {
+   "factor": "soy",
+   "shape": "none",
+   "summary": "Soy isoflavones peak in blood 5-9 h after eating and clear within about a day. Whether a person makes equol is a stable trait over years, and the fertility association concerns habitual intake rather than timed use.",
+   "onset": {
+    "text": "Genistein and daidzein peak 5-9 h after a dose [tfood-setchell2001].",
+    "days": [
+     0.2,
+     0.4
+    ]
+   },
+   "full": {
+    "text": "Not applicable; no timed outcome trial in this group.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Isoflavones clear within about a day (extrapolated from their kinetics [tfood-setchell2001]); equol-producer status was concordant in 82% of people 1-3 years apart [tfood-frankenfeld2005].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Associations are with habitual intake [tfood-vanegas2015]."
+   },
+   "conception": {
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Unknown; the association is with habitual diet, not a timed start.",
+     "text": "Higher habitual soy isoflavone intake was linked to higher ART live birth [tfood-vanegas2015]; if causal, it would act over follicle growth (extrapolated). A follicle grows for several months before ovulation, including about 70 days from the preantral stage to 2 mm [tfood-gougeon2010], so anything acting on the growing follicle needs roughly 3-4 months to cover the whole final growth phase."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-setchell2001",
+    "tfood-frankenfeld2005",
+    "tfood-vanegas2015",
+    "tfood-gougeon2010"
+   ]
+  },
+  {
+   "factor": "red-wine-resveratrol",
+   "shape": "none",
+   "summary": "Resveratrol is well absorbed but almost all is conjugated at once; only metabolites circulate, with a half-life of about 9 h. A glass of wine supplies far too little for any timed effect.",
+   "onset": {
+    "text": "Metabolites peak within hours of a 25 mg dose; unchanged resveratrol is only a trace [tfood-walle2004].",
+    "days": null
+   },
+   "full": {
+    "text": "Not applicable.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Metabolites have a plasma half-life of 9.2 h, so they clear within about 2 days [tfood-walle2004].",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No antioxidant reason to drink on any schedule [tfood-walle2004]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-walle2004"
+   ]
+  },
+  {
+   "factor": "resveratrol-pterostilbene-supplements",
+   "shape": "build",
+   "summary": "Resveratrol metabolites clear within about 2 days, but daily use during 8 weeks of training blunted fitness and blood-pressure gains. Continuous use during embryo-transfer cycles was linked to lower pregnancy rates.",
+   "onset": {
+    "text": "Training blunting was measured after 8 weeks of 250 mg/day [tfood-gliemann2013].",
+    "days": [
+     56,
+     56
+    ]
+   },
+   "full": {
+    "text": "Not measured beyond 8 weeks [tfood-gliemann2013].",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Metabolite half-life 9.2 h [tfood-walle2004], so drug exposure ends within about 2 days; recovery of training response not measured.",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Avoid during training blocks [tfood-gliemann2013] and during IVF embryo transfer [tfood-ochiai2019]."
+   },
+   "conception": {
+    "egg": {
+     "start_by_days": 30,
+     "late_start": "Stopping before the embryo-transfer cycle starts is what matters; the drug clears within about 2 days [tfood-walle2004].",
+     "text": "Harm was linked to use during embryo transfer cycles (OR 0.54 for pregnancy) [tfood-ochiai2019], i.e. at the endometrium and implantation, so stop before that cycle (extrapolated)."
+    }
+   },
+   "basis": "measured",
+   "debate": "No head-to-head timing debate found; the training-blunting result rests on one 27-man, 8-week trial [tfood-gliemann2013] and the IVF harm on a retrospective study only [tfood-ochiai2019], so neither the onset nor the safe stopping interval is well defined.",
+   "refs": [
+    "tfood-gliemann2013",
+    "tfood-walle2004",
+    "tfood-ochiai2019"
+   ]
+  },
+  {
+   "factor": "turmeric-curcumin",
+   "shape": "acute",
+   "summary": "Culinary or capsule curcumin barely reaches blood as free curcumin; its conjugates peak at about 3 h with a half-life of about 7 h. Leukocyte Nrf2-target mRNA peaked 4-6 h after a large single dose, so any effect is short-lived.",
+   "onset": {
+    "text": "Conjugates peak at about 3 h [tfood-vareed2008]; leukocyte NRF2, HO-1 and NQO1 mRNA peaked 4-6 h after 4 g curcumin [tfood-cheng2019].",
+    "days": [
+     0.1,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "No long-term human outcome data for culinary turmeric.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Conjugate half-life about 6.8 h [tfood-vareed2008], so exposure ends within about 2 days.",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No outcome-based schedule exists for culinary use."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-vareed2008",
+    "tfood-cheng2019"
+   ]
+  },
+  {
+   "factor": "curcumin-supplements",
+   "shape": "build",
+   "summary": "Enhanced-absorption curcumin builds a measurable fasting blood level within 3 weeks of taking it with each meal. Semen changes were seen after 10 weeks; liver injury, when it happens, appears 1-4 months in.",
+   "onset": {
+    "text": "Fasting plasma curcuminoids reached 49 nmol/L within 3 weeks of micellar dosing with meals [tfood-kocher2016]; Nrf2-target mRNA in leukocytes peaks 4-6 h after a dose [tfood-cheng2019].",
+    "days": [
+     0.2,
+     21
+    ]
+   },
+   "full": {
+    "text": "Semen and inflammation changes at 10 weeks [tfood-alizadeh2018]; lipid and inflammation markers did not change by 6 weeks in hyperlipidemia [tfood-kocher2016].",
+    "days": [
+     70,
+     70
+    ]
+   },
+   "after_stopping": {
+    "text": "Conjugate half-life about 7 h [tfood-vareed2008]; clinical persistence not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials dosed daily, often with each meal [tfood-kocher2016, tfood-alizadeh2018]. Liver injury linked to turmeric products had a latency of 1-4 months [tfood-halegoua2023]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown; the trial measured only at 10 weeks.",
+     "text": "The single RCT ran 10 weeks, about one spermatogenic cycle [tfood-alizadeh2018]. Sperm take about 64 days (range 42-76) from labelled precursor to ejaculate [tfood-misell2006], and the classic ~74-day estimate is uncertain by about a week [tfood-amann2008], so a diet change needs roughly 2.5-3 months to reach every stage of the sperm in a given ejaculate."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Unknown; PCOS trials measured metabolic markers, not eggs.",
+     "text": "PCOS trials improved glucose and insulin [tfood-abdelazeem2022]; no egg or IVF outcome data. A follicle grows for several months before ovulation, including about 70 days from the preantral stage to 2 mm [tfood-gougeon2010], so anything acting on the growing follicle needs roughly 3-4 months to cover the whole final growth phase."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-kocher2016",
+    "tfood-cheng2019",
+    "tfood-alizadeh2018",
+    "tfood-vareed2008",
+    "tfood-halegoua2023",
+    "tfood-abdelazeem2022",
+    "tfood-misell2006",
+    "tfood-amann2008",
+    "tfood-gougeon2010"
+   ]
+  },
+  {
+   "factor": "isolated-polyphenol-supplements",
+   "shape": "acute",
+   "summary": "Most polyphenols peak in blood within a few hours at low micromolar levels and are cleared within a day, so any capsule effect is pulsatile. A few gut-derived metabolites (lignans, anthocyanin breakdown products) last 1-2 days.",
+   "onset": {
+    "text": "Plasma metabolites peak within hours at 0-4 µmol/L [tfood-manach2005].",
+    "days": [
+     0.04,
+     0.4
+    ]
+   },
+   "full": {
+    "text": "Not applicable; no outcome benefit established.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Most clear within a day; some colonic metabolites persist 1-2 days [tfood-manach2005, tfood-czank2013, tfood-kuijsten2005].",
+    "days": [
+     0.5,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No outcome-based schedule exists [tfood-manach2005]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-manach2005",
+    "tfood-czank2013",
+    "tfood-kuijsten2005"
+   ]
+  },
+  {
+   "factor": "garlic-alliums",
+   "shape": "build",
+   "summary": "Garlic supplements lower blood pressure in trials lasting weeks, and cholesterol effects needed more than 2 months. Persistence after stopping is not known.",
+   "onset": {
+    "text": "BP lowering in trials of a few weeks or more [tfood-ried2016].",
+    "days": null
+   },
+   "full": {
+    "text": "Cholesterol lowering required more than 2 months of intake [tfood-ried2016].",
+    "days": [
+     60,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Trials gave garlic daily [tfood-ried2016]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-ried2016"
+   ]
+  },
+  {
+   "factor": "herbs-spices",
+   "shape": "acute",
+   "summary": "Spices act mostly in the pan: they cut oxidation products formed while cooking and lowered the eaters' urinary MDA after that meal. There is no build-up or carryover.",
+   "onset": {
+    "text": "Same meal: meat MDA -71% and urinary MDA -49% after a spiced burger [tfood-li2010].",
+    "days": [
+     0.04,
+     1
+    ]
+   },
+   "full": {
+    "text": "Complete within the meal [tfood-li2010].",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "after_stopping": {
+    "text": "No carryover beyond the meal.",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Use with each meal that needs it, especially grilled or fried meat [tfood-li2010]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-li2010"
+   ]
+  },
+  {
+   "factor": "leafy-greens",
+   "shape": "acute",
+   "summary": "Nitrate from leafy greens lowers blood pressure within 2.5-3 h, with some effect left at 24 h, and daily intake lowered home blood pressure within a week with no tolerance over 4 weeks. Blood pressure drifts back up within 2 weeks of stopping.",
+   "onset": {
+    "text": "Peak BP fall at 2.5-3 h after a nitrate load (about -10/-8 mmHg) [tfood-webb2008].",
+    "days": [
+     0.1,
+     0.125
+    ]
+   },
+   "full": {
+    "text": "Home BP fell within 1 week of daily nitrate and stayed down for 4 weeks without tachyphylaxis [tfood-kapil2015].",
+    "days": [
+     7,
+     28
+    ]
+   },
+   "after_stopping": {
+    "text": "About 6 mmHg systolic still lower at 24 h after a single dose [tfood-webb2008]; BP started returning toward baseline during a 2-week washout [tfood-kapil2015].",
+    "days": [
+     1,
+     14
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Effects peak hours after intake and fade over a day or so [tfood-webb2008]; daily intake held the reduction [tfood-kapil2015]. Pooled short trials show about -4.4 mmHg systolic [tfood-siervo2013]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-webb2008",
+    "tfood-kapil2015",
+    "tfood-siervo2013"
+   ]
+  },
+  {
+   "factor": "high-fruit-vegetable-intake",
+   "shape": "build",
+   "summary": "Doubling produce intake lowered oxidative DNA and lipid damage markers within 2 weeks in one trial, but 600 g a day for 24 days did nothing in healthy nonsmokers. Disease benefits in cohorts reflect years of intake.",
+   "onset": {
+    "text": "Lymphocyte and urinary 8-OHdG and urinary isoprostanes fell after 14 days at 12 servings/day [tfood-thompson1999].",
+    "days": [
+     14,
+     14
+    ]
+   },
+   "full": {
+    "text": "Mortality associations reflect long-term intake up to ~800 g/day [tfood-aune2017]; no trial mapped the plateau.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; 24 days of complete produce depletion did not raise oxidative DNA damage either [tfood-moller2003].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Benefits are associated with habitual daily intake [tfood-aune2017]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown.",
+     "text": "High-pesticide-residue produce was associated with lower sperm count in semen collected up to 18 months after diet assessment [tfood-chiu2015]. Sperm take about 64 days (range 42-76) from labelled precursor to ejaculate [tfood-misell2006], and the classic ~74-day estimate is uncertain by about a week [tfood-amann2008], so a diet change needs roughly 2.5-3 months to reach every stage of the sperm in a given ejaculate."
+    }
+   },
+   "basis": "measured",
+   "debate": "Short-term trials disagree: 14 days of doubled produce lowered oxidative markers [tfood-thompson1999], while 24 days of 600 g/day did not [tfood-moller2003].",
+   "refs": [
+    "tfood-thompson1999",
+    "tfood-aune2017",
+    "tfood-moller2003",
+    "tfood-chiu2015",
+    "tfood-misell2006",
+    "tfood-amann2008"
+   ]
+  },
+  {
+   "factor": "hydration",
+   "shape": "acute",
+   "summary": "Dehydration is an acute state: 24 h of fluid restriction raised muscle H2O2 during exercise. Rehydrating should reverse it within hours, though that was not measured.",
+   "onset": {
+    "text": "Raised muscle H2O2 and stress signalling after 24 h of fluid restriction [tfood-luk2025].",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; recovery with rehydration is expected within hours to a day (extrapolated).",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Drink to thirst every day; dehydration effects are acute [tfood-luk2025]."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-luk2025"
+   ]
+  },
+  {
+   "factor": "eggplant",
+   "shape": "none",
+   "summary": "There are no human data on eggplant and oxidative stress, so nothing is known about timing. The only evidence is test-tube antioxidant activity of nasunin.",
+   "onset": {
+    "text": "Not measured in humans [tfood-noda2000].",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "No human evidence to base a schedule on."
+   },
+   "basis": "unknown",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-noda2000"
+   ]
+  },
+  {
+   "factor": "organic-food",
+   "shape": "acute",
+   "summary": "Urinary pesticide metabolites fall within days of switching to organic food, because most current pesticides clear quickly. They would rise again within days of switching back; health effects, if any, would take years.",
+   "onset": {
+    "text": "Pesticide metabolites fell significantly between day 1 and day 6 of an organic diet [tfood-gonzalez2023], by up to 95% in a family study [tfood-hyland2019].",
+    "days": [
+     1,
+     6
+    ]
+   },
+   "full": {
+    "text": "Reached within the first week [tfood-gonzalez2023, tfood-hyland2019].",
+    "days": [
+     6,
+     7
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured; given the fast fall, levels would be expected to return within days of resuming conventional food (extrapolated).",
+    "days": null
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Exposure tracks recent meals, so the reduction lasts only while the diet lasts [tfood-hyland2019]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-gonzalez2023",
+    "tfood-hyland2019"
+   ]
+  },
+  {
+   "factor": "polypodium-leucotomos",
+   "shape": "acute",
+   "summary": "A single oral dose taken before sun exposure reduced sunburn and DNA damage measured the next day. Nothing is known about daily use or how long protection lasts.",
+   "onset": {
+    "text": "A single 7.5 mg/kg dose before UV reduced erythema, sunburn cells and DNA dimers at 24 h [tfood-middelkamphup2004].",
+    "days": [
+     0.04,
+     1
+    ]
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Taken before planned sun exposure in the key study [tfood-middelkamphup2004]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-middelkamphup2004"
+   ]
+  },
+  {
+   "factor": "dietary-fiber-microbiome",
+   "shape": "acute",
+   "summary": "The gut microbiome shifts within a day of a diet change and snaps back within about 2 days of returning to the old diet, while a person's basic enterotype stays put. Over generations, fiber deprivation can permanently lose microbes in mice.",
+   "onset": {
+    "text": "Community composition changed within 24 h [tfood-wu2011] and within 1 day of the new food reaching the gut [tfood-david2014].",
+    "days": [
+     1,
+     1
+    ]
+   },
+   "full": {
+    "text": "Fiber-degrading capacity rose over a 17-week high-fiber diet, with person-specific responses [tfood-wastyk2021].",
+    "days": [
+     7,
+     119
+    ]
+   },
+   "after_stopping": {
+    "text": "The microbiota reverted to its original structure 2 days after a short diet ended [tfood-david2014]; in mice, losses reversed within one generation but became permanent over several [tfood-sonnenburg2016].",
+    "days": [
+     2,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Because the community follows the last few days of food [tfood-david2014], fiber needs to be eaten every day to keep fiber-feeding microbes active."
+   },
+   "basis": "measured",
+   "debate": "Short feeding studies show fast, reversible change [tfood-david2014, tfood-wu2011], whereas a mouse study shows cumulative, irreversible loss over generations [tfood-sonnenburg2016]; an 8-week whole-grain trial produced no major microbiome change at all [tfood-roager2019].",
+   "refs": [
+    "tfood-wu2011",
+    "tfood-david2014",
+    "tfood-wastyk2021",
+    "tfood-sonnenburg2016",
+    "tfood-roager2019"
+   ]
+  },
+  {
+   "factor": "whole-grains",
+   "shape": "build",
+   "summary": "Eight weeks of whole grains lowered IL-6, CRP and body weight without major microbiome change. Lower heart disease and mortality in cohorts reflect years of habitual intake.",
+   "onset": {
+    "text": "IL-6 and CRP lower after 8 weeks (only time point) [tfood-roager2019].",
+    "days": [
+     56,
+     56
+    ]
+   },
+   "full": {
+    "text": "Cohort benefits reflect long-term intake [tfood-aune2016]; plateau not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; the crossover used a washout of at least 6 weeks [tfood-roager2019].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Associations are with daily servings (90 g/day = 3 servings) [tfood-aune2016]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-roager2019",
+    "tfood-aune2016"
+   ]
+  },
+  {
+   "factor": "legumes",
+   "shape": "build",
+   "summary": "A cup of legumes a day as part of a low-GI diet lowered HbA1c by 0.5% and systolic pressure over 3 months. HbA1c itself integrates about 3 months of glucose, so this is roughly the earliest it can fully show.",
+   "onset": {
+    "text": "Not measured before the 3-month endpoint [tfood-jenkins2012].",
+    "days": null
+   },
+   "full": {
+    "text": "HbA1c -0.5% at 3 months [tfood-jenkins2012]; HbA1c reflects about 3 months of glucose exposure (extrapolated from red-cell lifespan).",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The trial asked for at least 1 cup a day [tfood-jenkins2012]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-jenkins2012"
+   ]
+  },
+  {
+   "factor": "walnuts-nuts",
+   "shape": "build",
+   "summary": "Nuts lowered oxidized LDL within 3 months and improved sperm quality, including DNA fragmentation, after 12-14 weeks, about one full sperm cycle. Long-term cardiovascular benefit in PREDIMED accrued over about 5 years.",
+   "onset": {
+    "text": "Oxidized LDL fell after 3 months on a Mediterranean diet with 30 g/day nuts [tfood-fito2007].",
+    "days": [
+     90,
+     90
+    ]
+   },
+   "full": {
+    "text": "Sperm vitality, motility and morphology improved after 12 weeks of 75 g/day walnuts [tfood-robbins2012], and count plus DNA fragmentation after 14 weeks of 60 g/day nuts [tfood-salashuetos2018]; CVD events lower over a median 4.8 years [tfood-estruch2018].",
+    "days": [
+     84,
+     1750
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "All trials used a daily handful or more [tfood-robbins2012, tfood-salashuetos2018]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown: the trials measured only at the end (12-14 weeks), so how much a 2-4 week start helps was not tested.",
+     "text": "Effects were measured after 12-14 weeks, matching one spermatogenic cycle [tfood-robbins2012, tfood-salashuetos2018]. Sperm take about 64 days (range 42-76) from labelled precursor to ejaculate [tfood-misell2006], and the classic ~74-day estimate is uncertain by about a week [tfood-amann2008], so a diet change needs roughly 2.5-3 months to reach every stage of the sperm in a given ejaculate."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-fito2007",
+    "tfood-robbins2012",
+    "tfood-salashuetos2018",
+    "tfood-estruch2018",
+    "tfood-misell2006",
+    "tfood-amann2008"
+   ]
+  },
+  {
+   "factor": "dash-diet",
+   "shape": "acute",
+   "summary": "DASH lowers blood pressure within a week, and most of the effect is there by then, unlike salt reduction, which keeps working for at least 4 weeks. How fast blood pressure rises again after stopping was not measured.",
+   "onset": {
+    "text": "Systolic BP 4.4 mmHg lower than control after 1 week [tfood-juraschek2017]; changes evident within 2 weeks in hypertensives [tfood-conlin2000].",
+    "days": [
+     7,
+     14
+    ]
+   },
+   "full": {
+    "text": "No further fall after week 1 in DASH-Sodium [tfood-juraschek2017]; effect held through 8 weeks of feeding [tfood-appel1997].",
+    "days": [
+     7,
+     56
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured in the feeding trials.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The effect comes from the current diet [tfood-juraschek2017], so it lasts only as long as the eating pattern does."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "tfood-juraschek2017",
+    "tfood-conlin2000",
+    "tfood-appel1997"
+   ]
+  },
+  {
+   "factor": "mediterranean-diet",
+   "shape": "slow-build",
+   "summary": "Lipid oxidation improves within 3 months and semen quality within 4 months, while lower cardiovascular events took years. Six weeks of a Mediterranean-style supplement before IVF already changed embryo development.",
+   "onset": {
+    "text": "Oxidized LDL -10.6 U/L at 3 months [tfood-fito2007]; embryo cleavage changes after 6 weeks of a Mediterranean-type intervention before IVF [tfood-kermack2020].",
+    "days": [
+     42,
+     90
+    ]
+   },
+   "full": {
+    "text": "Major CVD events lower over a median 4.8 years (HR 0.69-0.72) [tfood-estruch2018].",
+    "days": [
+     365,
+     1750
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "A whole daily eating pattern; effects in trials came from sustained adherence [tfood-estruch2018]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown; the trial measured only after 4 months.",
+     "text": "A 4-month Mediterranean diet plus exercise program improved sperm concentration, motility and morphology [tfood-montano2022]. Sperm take about 64 days (range 42-76) from labelled precursor to ejaculate [tfood-misell2006], and the classic ~74-day estimate is uncertain by about a week [tfood-amann2008], so a diet change needs roughly 2.5-3 months to reach every stage of the sperm in a given ejaculate."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Six weeks of an omega-3, vitamin D and olive oil intervention changed embryo cleavage timing [tfood-kermack2020], so a late start may still help.",
+     "text": "Lower adherence before IVF was linked to lower live birth in women under 35 [tfood-karayiannis2018]. A follicle grows for several months before ovulation, including about 70 days from the preantral stage to 2 mm [tfood-gougeon2010], so anything acting on the growing follicle needs roughly 3-4 months to cover the whole final growth phase."
+    }
+   },
+   "basis": "measured",
+   "debate": "PREDIMED's timing of benefit and overall trustworthiness are disputed after its retraction and republication [tfood-agarwal2019, tfood-estruch2018].",
+   "refs": [
+    "tfood-fito2007",
+    "tfood-kermack2020",
+    "tfood-estruch2018",
+    "tfood-montano2022",
+    "tfood-karayiannis2018",
+    "tfood-agarwal2019",
+    "tfood-misell2006",
+    "tfood-amann2008",
+    "tfood-gougeon2010"
+   ]
+  },
+  {
+   "factor": "mind-diet",
+   "shape": "slow-build",
+   "summary": "Cognitive effects of diet are expected to build over years: the cohort link appeared over about 5 years of follow-up. The 3-year randomized trial found no difference against a calorie-matched control.",
+   "onset": {
+    "text": "No difference after 3 years in the randomized trial [tfood-barnes2023].",
+    "days": null
+   },
+   "full": {
+    "text": "Cohort association over an average 4.7 years [tfood-morris2015].",
+    "days": [
+     1095,
+     1720
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "A whole daily eating pattern [tfood-morris2015]."
+   },
+   "basis": "measured",
+   "debate": "Cohort data suggest slower decline over 4.7 years [tfood-morris2015], but the 3-year trial was null [tfood-barnes2023]; whether 3 years was too short or the cohort link was confounded is unresolved.",
+   "refs": [
+    "tfood-barnes2023",
+    "tfood-morris2015"
+   ]
+  }
+ ]
+}
