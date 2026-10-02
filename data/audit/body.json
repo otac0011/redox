@@ -1,0 +1,2266 @@
+{
+ "references": [
+  {
+   "id": "abody-stockwell2016",
+   "authors": "Stockwell T, Zhao J, Panwar S, et al.",
+   "year": 2016,
+   "title": "Do \"Moderate\" Drinkers Have Reduced Mortality Risk? A Systematic Review and Meta-Analysis of Alcohol Consumption and All-Cause Mortality.",
+   "journal": "J Stud Alcohol Drugs",
+   "pmid": "26997174",
+   "doi": "10.15288/jsad.2016.77.185",
+   "type": "meta-analysis",
+   "n": "87 cohort studies",
+   "finding": "Unadjusted data reproduced the J-curve (low-volume RR 0.86), but after adjusting for abstainer biases and study quality low-volume drinkers had no mortality benefit (RR 0.97, 95% CI 0.88-1.07); former drinkers had raised risk (RR 1.22)."
+  },
+  {
+   "id": "abody-zhao2023",
+   "authors": "Zhao J, Stockwell T, Naimi T, et al.",
+   "year": 2023,
+   "title": "Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses.",
+   "journal": "JAMA Netw Open",
+   "pmid": "37000449",
+   "doi": "10.1001/jamanetworkopen.2023.6185",
+   "type": "meta-analysis",
+   "n": "107 cohorts, 4.8 million participants",
+   "finding": "Versus lifetime non-drinkers, occasional (RR 0.96) and low-volume drinkers (1.3-24 g/day, RR 0.93) had no significant mortality reduction; risk rose at 45-64 g/day (RR 1.19) and 65+ g/day (RR 1.35)."
+  },
+  {
+   "id": "abody-millwood2019",
+   "authors": "Millwood IY, Walters RG, Mei XW, et al.",
+   "year": 2019,
+   "title": "Conventional and genetic evidence on alcohol and vascular disease aetiology: a prospective study of 500 000 men and women in China.",
+   "journal": "Lancet",
+   "pmid": "30955975",
+   "doi": "10.1016/S0140-6736(18)31772-0",
+   "type": "cohort",
+   "n": "512,715 Chinese adults (China Kadoorie Biobank)",
+   "finding": "Self-reported drinking showed U-shaped associations with stroke and MI, but genotype-predicted intake showed no U-shape: stroke risk rose log-linearly (ischaemic RR 1.27, haemorrhagic 1.58 per 280 g/week); MI was not associated."
+  },
+  {
+   "id": "abody-holmes2014",
+   "authors": "Holmes MV, Dale CE, Zuccolo L, et al.",
+   "year": 2014,
+   "title": "Association between alcohol and cardiovascular disease: Mendelian randomisation analysis based on individual participant data.",
+   "journal": "BMJ",
+   "pmid": "25011450",
+   "doi": "10.1136/bmj.g4164",
+   "type": "meta-analysis",
+   "n": "Individual-participant data from studies with ADH1B genotype",
+   "finding": "Carriers of the ADH1B variant drank 17% less alcohol and had lower blood pressure, BMI and coronary heart disease odds (OR 0.90), across all drinking categories, suggesting less alcohol is better even for light drinkers."
+  },
+  {
+   "id": "abody-biddinger2022",
+   "authors": "Biddinger KJ, Emdin CA, Haas ME, et al.",
+   "year": 2022,
+   "title": "Association of Habitual Alcohol Intake With Risk of Cardiovascular Disease.",
+   "journal": "JAMA Netw Open",
+   "pmid": "35333364",
+   "doi": "10.1001/jamanetworkopen.2022.3849",
+   "type": "cohort",
+   "n": "371,463 UK Biobank participants",
+   "finding": "Light-moderate drinkers had healthier lifestyles, and adjusting for them attenuated apparent cardioprotection; genetically predicted higher intake raised hypertension (1.3-fold) and coronary disease (1.4-fold) per SD, with steeply rising risk at heavier intake."
+  },
+  {
+   "id": "abody-kassaw2024",
+   "authors": "Kassaw NA, Zhou A, Mulugeta A, et al.",
+   "year": 2024,
+   "title": "Alcohol consumption and the risk of all-cause and cause-specific mortality-a linear and nonlinear Mendelian randomization study.",
+   "journal": "Int J Epidemiol",
+   "pmid": "38508868",
+   "doi": "10.1093/ije/dyae046",
+   "type": "cohort",
+   "n": "UK Biobank participants (20,834 deaths)",
+   "finding": "Conventional analysis was J-shaped, but Mendelian randomization showed a linear rise in mortality with genetically predicted intake (OR 1.27 per unit for all-cause mortality) and no protective dip."
+  },
+  {
+   "id": "abody-anderson2023",
+   "authors": "Anderson BO, Berdzuli N, Ilbawi A, et al.",
+   "year": 2023,
+   "title": "Health and cancer risks associated with low levels of alcohol consumption.",
+   "journal": "Lancet Public Health",
+   "pmid": "36603913",
+   "doi": "10.1016/S2468-2667(22)00317-6",
+   "type": "review",
+   "n": null,
+   "finding": "WHO staff commentary: no safe amount of alcohol for cancer and health can be established; in the EU in 2017 light-to-moderate drinking (<20 g/day) caused about 23,000 new cancers, about half of them breast cancers."
+  },
+  {
+   "id": "abody-gbd2022",
+   "authors": "GBD 2020 Alcohol Collaborators",
+   "year": 2022,
+   "title": "Population-level risks of alcohol consumption by amount, geography, age, sex, and year: a systematic analysis for the Global Burden of Disease Study 2020.",
+   "journal": "Lancet",
+   "pmid": "35843246",
+   "doi": "10.1016/S0140-6736(22)00847-9",
+   "type": "meta-analysis",
+   "n": "Global Burden of Disease 2020 analysis, 204 countries",
+   "finding": "The theoretical minimum-risk intake was 0 to 0.6 drinks/day for ages 15-39, while for people 40+ the burden-weighted curve remained J-shaped in all regions (minimum-risk 0.1-1.9 drinks/day)."
+  },
+  {
+   "id": "abody-nasem2025",
+   "authors": "National Academies of Sciences, Engineering, and Medicine; Health and Medicine Division; Food and Nutrition Board; Committee on Review of Evidence on Alcohol and Health, Stone KB, Calonge BN",
+   "year": 2025,
+   "title": "Review of Evidence on Alcohol and Health.",
+   "journal": "National Academies Press",
+   "pmid": "40393408",
+   "doi": "10.17226/28582",
+   "type": "guideline",
+   "n": null,
+   "finding": "US National Academies committee review, commissioned for the Dietary Guidelines, of moderate alcohol intake and eight health outcomes including all-cause mortality, cancer and cardiovascular disease; it offers no dietary recommendations."
+  },
+  {
+   "id": "abody-wood2018",
+   "authors": "Wood AM, Kaptoge S, Butterworth AS, et al.",
+   "year": 2018,
+   "title": "Risk thresholds for alcohol consumption: combined analysis of individual-participant data for 599 912 current drinkers in 83 prospective studies.",
+   "journal": "Lancet",
+   "pmid": "29676281",
+   "doi": "10.1016/S0140-6736(18)30134-X",
+   "type": "cohort",
+   "n": "599,912 current drinkers in 83 prospective studies",
+   "finding": "Individual-participant analysis in current drinkers in which all-cause mortality was lowest at about 100 g alcohol/week or less and rose above it."
+  },
+  {
+   "id": "abody-burgess2023",
+   "authors": "Burgess S",
+   "year": 2023,
+   "title": "Violation of the Constant Genetic Effect Assumption Can Result in Biased Estimates for Non-Linear Mendelian Randomization.",
+   "journal": "Hum Hered",
+   "pmid": "37651993",
+   "doi": "10.1159/000531659",
+   "type": "review",
+   "n": null,
+   "finding": "Methods paper showing that violation of the 'constant genetic effect' assumption can badly bias non-linear Mendelian randomization estimates from the residual method."
+  },
+  {
+   "id": "abody-hamilton2024",
+   "authors": "Hamilton FW, Hughes DA, Spiller W, et al.",
+   "year": 2024,
+   "title": "Non-linear Mendelian randomization: detection of biases using negative controls with a focus on BMI, Vitamin D and LDL cholesterol.",
+   "journal": "Eur J Epidemiol",
+   "pmid": "38789826",
+   "doi": "10.1007/s10654-024-01113-9",
+   "type": "review",
+   "n": null,
+   "finding": "Negative-control analyses found clearly biased non-linear MR estimates for BMI, vitamin D and LDL with both the residual and doubly-ranked methods; the doubly-ranked method failed to reproduce the trial-proven LDL-MI shape."
+  },
+  {
+   "id": "abody-burgess2024",
+   "authors": "Burgess S, Sun YQ, Zhou A, et al.",
+   "year": 2024,
+   "title": "Body mass index and all-cause mortality in HUNT and UK biobank studies: revised non-linear Mendelian randomisation analyses.",
+   "journal": "BMJ Open",
+   "pmid": "38749693",
+   "doi": "10.1136/bmjopen-2023-081399",
+   "type": "cohort",
+   "n": "56,150 HUNT and 366,385 UK Biobank participants",
+   "finding": "Revised non-linear MR (correcting an earlier J-shape built on a violated assumption) showed clear harm from higher BMI above 25 kg/m2; evidence that low BMI is harmful was weak and confined to BMI below 20."
+  },
+  {
+   "id": "abody-sun2019",
+   "authors": "Sun YQ, Burgess S, Staley JR, et al.",
+   "year": 2019,
+   "title": "Body mass index and all cause mortality in HUNT and UK Biobank studies: linear and non-linear mendelian randomisation analyses.",
+   "journal": "BMJ",
+   "pmid": "30957776",
+   "doi": "10.1136/bmj.l1042",
+   "type": "cohort",
+   "n": "HUNT and UK Biobank",
+   "finding": "Original residual-method non-linear MR reporting a J-shaped BMI-mortality relation with a nadir near 25 kg/m2; later reanalysed because its key assumption was violated."
+  },
+  {
+   "id": "abody-gbmc2016",
+   "authors": "Global BMI Mortality Collaboration, Di Angelantonio E, Bhupathiraju ShN, et al.",
+   "year": 2016,
+   "title": "Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents.",
+   "journal": "Lancet",
+   "pmid": "27423262",
+   "doi": "10.1016/S0140-6736(16)30175-1",
+   "type": "meta-analysis",
+   "n": "10.6 million participants in 239 prospective studies",
+   "finding": "Among 3.95 million never-smokers without chronic disease who survived 5 years, mortality was lowest at BMI 20-25 and rose log-linearly above 25 (HR 1.45 for BMI 30-35, 2.76 for 40-60), removing the apparent 'overweight paradox'."
+  },
+  {
+   "id": "abody-horita2023",
+   "authors": "Horita N, Kato S, Utsunomiya D",
+   "year": 2023,
+   "title": "Collider bias and the obesity paradox.",
+   "journal": "Nutr Rev",
+   "pmid": "36106800",
+   "doi": "10.1093/nutrit/nuac077",
+   "type": "review",
+   "n": null,
+   "finding": "Commentary arguing collider bias is one of the most plausible explanations for 'obesity paradoxes' and that meta-analyses inherit the bias."
+  },
+  {
+   "id": "abody-venkatesh2022",
+   "authors": "Venkatesh SS, Ferreira T, Benonisdottir S, et al.",
+   "year": 2022,
+   "title": "Obesity and risk of female reproductive conditions: A Mendelian randomisation study.",
+   "journal": "PLoS Med",
+   "pmid": "35104295",
+   "doi": "10.1371/journal.pmed.1003679",
+   "type": "cohort",
+   "n": "up to 257,193 women (UK Biobank and GWAS)",
+   "finding": "Mendelian randomization: genetically higher BMI and waist-hip ratio raised risk of PCOS, heavy menstrual bleeding, fibroids and pre-eclampsia; visceral fat mass was implicated."
+  },
+  {
+   "id": "abody-lookahead2013",
+   "authors": "Look AHEAD Research Group, Wing RR, Bolin P, et al.",
+   "year": 2013,
+   "title": "Cardiovascular effects of intensive lifestyle intervention in type 2 diabetes.",
+   "journal": "N Engl J Med",
+   "pmid": "23796131",
+   "doi": "10.1056/NEJMoa1212914",
+   "type": "rct",
+   "n": "5145 adults with type 2 diabetes and overweight",
+   "finding": "An intensive lifestyle weight-loss programme (8.6% vs 0.7% loss at 1 year) did not reduce cardiovascular events over 9.6 years (HR 0.95, 0.83-1.09)."
+  },
+  {
+   "id": "abody-lincoff2023",
+   "authors": "Lincoff AM, Brown-Frandsen K, Colhoun HM, et al.",
+   "year": 2023,
+   "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes.",
+   "journal": "N Engl J Med",
+   "pmid": "37952131",
+   "doi": "10.1056/NEJMoa2307563",
+   "type": "rct",
+   "n": "17,604 adults with CVD and overweight/obesity without diabetes",
+   "finding": "Semaglutide 2.4 mg weekly cut major cardiovascular events by 20% (6.5% vs 8.0%; HR 0.80) over ~40 months; 16.6% vs 8.2% stopped for adverse events."
+  },
+  {
+   "id": "abody-carlsson2020",
+   "authors": "Carlsson LMS, Sjöholm K, Jacobson P, et al.",
+   "year": 2020,
+   "title": "Life Expectancy after Bariatric Surgery in the Swedish Obese Subjects Study.",
+   "journal": "N Engl J Med",
+   "pmid": "33053284",
+   "doi": "10.1056/NEJMoa2002449",
+   "type": "cohort",
+   "n": "2007 surgery patients vs 2040 matched controls",
+   "finding": "In the prospective controlled Swedish Obese Subjects study, bariatric surgery lowered mortality (HR 0.77) and added about 3 years of life, though life expectancy stayed 5.5 years below the general population."
+  },
+  {
+   "id": "abody-sermondade2019",
+   "authors": "Sermondade N, Huberlant S, Bourhis-Lefebvre V, et al.",
+   "year": 2019,
+   "title": "Female obesity is negatively associated with live birth rate following IVF: a systematic review and meta-analysis.",
+   "journal": "Hum Reprod Update",
+   "pmid": "30941397",
+   "doi": "10.1093/humupd/dmz011",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Female obesity was associated with lower IVF live birth rates (RR 0.85)."
+  },
+  {
+   "id": "abody-mutsaerts2016",
+   "authors": "Mutsaerts MA, van Oers AM, Groen H, et al.",
+   "year": 2016,
+   "title": "Randomized Trial of a Lifestyle Program in Obese Infertile Women.",
+   "journal": "N Engl J Med",
+   "pmid": "27192672",
+   "doi": "10.1056/NEJMoa1505297",
+   "type": "rct",
+   "n": null,
+   "finding": "A 6-month lifestyle programme before fertility treatment did not raise healthy term singleton births compared with prompt treatment."
+  },
+  {
+   "id": "abody-einarsson2017",
+   "authors": "Einarsson S, Bergh C, Friberg B, et al.",
+   "year": 2017,
+   "title": "Weight reduction intervention for obese infertile women prior to IVF: a randomized controlled trial.",
+   "journal": "Hum Reprod",
+   "pmid": "28854592",
+   "doi": "10.1093/humrep/dex235",
+   "type": "rct",
+   "n": "317 obese women",
+   "finding": "Weight reduction before IVF did not improve live birth from IVF, although it increased spontaneous conceptions."
+  },
+  {
+   "id": "abody-kujala1998",
+   "authors": "Kujala UM, Kaprio J, Sarna S, et al.",
+   "year": 1998,
+   "title": "Relationship of leisure-time physical activity and mortality: the Finnish twin cohort.",
+   "journal": "JAMA",
+   "pmid": "9466636",
+   "doi": "10.1001/jama.279.6.440",
+   "type": "cohort",
+   "n": "15,902 Finnish twins",
+   "finding": "Exercise was associated with lower mortality (HR 0.57 for conditioning exercisers), and the association persisted within twin pairs discordant for death (OR 0.44)."
+  },
+  {
+   "id": "abody-karvinen2015",
+   "authors": "Karvinen S, Waller K, Silvennoinen M, et al.",
+   "year": 2015,
+   "title": "Physical activity in adulthood: genes and mortality.",
+   "journal": "Sci Rep",
+   "pmid": "26666586",
+   "doi": "10.1038/srep18259",
+   "type": "cohort",
+   "n": "Finnish twins plus rats bred for fitness",
+   "finding": "The same genetic factors influenced activity, fitness and mortality; monozygotic twin pairs discordant for activity showed no mortality difference, and in rats bred for intrinsic fitness exercise did not extend life, suggesting genetic pleiotropy."
+  },
+  {
+   "id": "abody-kankaanpaa2025",
+   "authors": "Kankaanpää A, Tolvanen A, Joensuu L, et al.",
+   "year": 2025,
+   "title": "The associations of long-term physical activity in adulthood with later biological ageing and all-cause mortality - a prospective twin study.",
+   "journal": "Eur J Epidemiol",
+   "pmid": "39821867",
+   "doi": "10.1007/s10654-024-01200-x",
+   "type": "cohort",
+   "n": "Finnish twin cohort",
+   "finding": "Active classes had at most 7% lower mortality, only in the short term, and associations weakened after accounting for familial factors and prevalent disease, pointing to genetic confounding and reverse causation."
+  },
+  {
+   "id": "abody-sabia2017",
+   "authors": "Sabia S, Dugravot A, Dartigues JF, et al.",
+   "year": 2017,
+   "title": "Physical activity, cognitive decline, and risk of dementia: 28 year follow-up of Whitehall II cohort study.",
+   "journal": "BMJ",
+   "pmid": "28642251",
+   "doi": "10.1136/bmj.j2709",
+   "type": "cohort",
+   "n": "10,308 Whitehall II civil servants",
+   "finding": "Physical activity did not predict dementia over 27 years, but activity began to decline up to 9 years before diagnosis, illustrating how prodromal disease produces reverse causation."
+  },
+  {
+   "id": "abody-bahls2021",
+   "authors": "Bahls M, Leitzmann MF, Karch A, et al.",
+   "year": 2021,
+   "title": "Physical activity, sedentary behavior and risk of coronary artery disease, myocardial infarction and ischemic stroke: a two-sample Mendelian randomization study.",
+   "journal": "Clin Res Cardiol",
+   "pmid": "33774696",
+   "doi": "10.1007/s00392-021-01846-7",
+   "type": "cohort",
+   "n": "Two-sample MR with 42,096 CAD cases",
+   "finding": "Genetically predicted self-reported or accelerometer-measured activity and sedentary behaviour were not associated with coronary disease, MI or ischaemic stroke."
+  },
+  {
+   "id": "abody-han2026",
+   "authors": "Han M, Qu Y, Zeng M, et al.",
+   "year": 2026,
+   "title": "Associations of physical activity and sedentary behaviors with mortality: An observational analysis and Mendelian randomization study.",
+   "journal": "Geriatr Nurs",
+   "pmid": "41579440",
+   "doi": "10.1016/j.gerinurse.2026.103834",
+   "type": "cohort",
+   "n": null,
+   "finding": "Observationally, higher activity predicted lower and more sitting/TV higher mortality, but two-sample MR did not support causal effects of activity or sedentary behaviour on mortality."
+  },
+  {
+   "id": "abody-zhao2024",
+   "authors": "Zhao J, Ke Z, Huang R, et al.",
+   "year": 2024,
+   "title": "Physical activity and the risk of developing 8 age-related diseases: epidemiological and Mendelian randomization studies.",
+   "journal": "Eur Rev Aging Phys Act",
+   "pmid": "39294593",
+   "doi": "10.1186/s11556-024-00359-2",
+   "type": "cohort",
+   "n": "CARDIA cohort plus two-sample MR",
+   "finding": "MR supported genetically higher vigorous activity lowering risk of angina, hypertension and type 2 diabetes."
+  },
+  {
+   "id": "abody-stensvold2020",
+   "authors": "Stensvold D, Viken H, Steinshamn SL, et al.",
+   "year": 2020,
+   "title": "Effect of exercise training for five years on all cause mortality in older adults-the Generation 100 study: randomised controlled trial.",
+   "journal": "BMJ",
+   "pmid": "33028588",
+   "doi": "10.1136/bmj.m3485",
+   "type": "rct",
+   "n": "1567 older adults (70-77 years)",
+   "finding": "Five years of supervised training did not significantly reduce all-cause mortality versus guideline advice (controls were also active); HIIT vs control HR 0.63 was not significant."
+  },
+  {
+   "id": "abody-ballin2021",
+   "authors": "Ballin M, Nordström P",
+   "year": 2021,
+   "title": "Does exercise prevent major non-communicable diseases and premature mortality? A critical review based on results from randomized controlled trials.",
+   "journal": "J Intern Med",
+   "pmid": "34242442",
+   "doi": "10.1111/joim.13353",
+   "type": "review",
+   "n": "RCTs with ~50,000 participants",
+   "finding": "Critical review: in RCTs exercise did not reduce all-cause mortality or incident CVD in older adults or people with chronic conditions, though combined with diet it prevented type 2 diabetes."
+  },
+  {
+   "id": "abody-arem2015",
+   "authors": "Arem H, Moore SC, Patel A, et al.",
+   "year": 2015,
+   "title": "Leisure time physical activity and mortality: a detailed pooled analysis of the dose-response relationship.",
+   "journal": "JAMA Intern Med",
+   "pmid": "25844730",
+   "doi": "10.1001/jamainternmed.2015.0533",
+   "type": "cohort",
+   "n": "Pooled US National Cancer Institute cohorts",
+   "finding": "Leisure activity of 1-2x the guideline minimum was associated with 31% lower mortality, with a plateau at 3-5x and no excess harm at 10x."
+  },
+  {
+   "id": "abody-kjaergaard2025",
+   "authors": "Kjaergaard AD, Ellervik C, Jessen N, et al.",
+   "year": 2025,
+   "title": "Cardiorespiratory Fitness, Body Composition, Diabetes, and Longevity: A 2-Sample Mendelian Randomization Study.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "38864459",
+   "doi": "10.1210/clinem/dgae393",
+   "type": "cohort",
+   "n": "Two-sample MR",
+   "finding": "Genetically predicted VO2max was not causally associated with longevity, whereas activity, lean mass and lower fat raised VO2max."
+  },
+  {
+   "id": "abody-mandsager2018",
+   "authors": "Mandsager K, Harb S, Cremer P, et al.",
+   "year": 2018,
+   "title": "Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing.",
+   "journal": "JAMA Netw Open",
+   "pmid": "30646252",
+   "doi": "10.1001/jamanetworkopen.2018.3605",
+   "type": "cohort",
+   "n": "122,007 treadmill-tested patients",
+   "finding": "Higher measured cardiorespiratory fitness was associated with lower long-term mortality with no upper limit."
+  },
+  {
+   "id": "abody-rahmati2025",
+   "authors": "Rahmati M, Lee H, Lee H, et al.",
+   "year": 2025,
+   "title": "Associations Between Exercise Training, Physical Activity, Sedentary Behaviour and Mortality: An Umbrella Review of Meta-Analyses.",
+   "journal": "J Cachexia Sarcopenia Muscle",
+   "pmid": "40042073",
+   "doi": "10.1002/jcsm.13772",
+   "type": "review",
+   "n": null,
+   "finding": "Umbrella review grading the evidence linking exercise training, activity and sedentary behaviour to mortality; several associations, including resistance training and sedentary time, rated weak or suggestive."
+  },
+  {
+   "id": "abody-vandevegte2020",
+   "authors": "van de Vegte YJ, Said MA, Rienstra M, et al.",
+   "year": 2020,
+   "title": "Genome-wide association studies and Mendelian randomization analyses for leisure sedentary behaviours.",
+   "journal": "Nat Commun",
+   "pmid": "32317632",
+   "doi": "10.1038/s41467-020-15553-w",
+   "type": "cohort",
+   "n": "UK Biobank GWAS plus two-sample MR",
+   "finding": "Genetically predicted 1.5 h/day more leisure TV watching raised coronary artery disease risk (OR 1.44), partly independent of education and BMI."
+  },
+  {
+   "id": "abody-ekelund2019",
+   "authors": "Ekelund U, Tarp J, Steene-Johannessen J, et al.",
+   "year": 2019,
+   "title": "Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysis.",
+   "journal": "BMJ",
+   "pmid": "31434697",
+   "doi": "10.1136/bmj.l4570",
+   "type": "meta-analysis",
+   "n": "8 accelerometer cohorts",
+   "finding": "The most sedentary quarter had about 2.6 times the mortality of the least sedentary in device-measured data."
+  },
+  {
+   "id": "abody-koemel2026",
+   "authors": "Koemel NA, Ahmadi MN, Biswas RK, et al.",
+   "year": 2026,
+   "title": "Vigorous intermittent lifestyle physical activity (VILPA) and mortality risk among US adults: a wearables-based national cohort study.",
+   "journal": "Int J Behav Nutr Phys Act",
+   "pmid": "41612409",
+   "doi": "10.1186/s12966-026-01876-2",
+   "type": "cohort",
+   "n": "US NHANES wearables cohort",
+   "finding": "VILPA was associated with lower mortality, but after excluding people with prevalent heart disease or cancer most confidence intervals crossed 1."
+  },
+  {
+   "id": "abody-stamatakis2022",
+   "authors": "Stamatakis E, Ahmadi MN, Gill JMR, et al.",
+   "year": 2022,
+   "title": "Association of wearable device-measured vigorous intermittent lifestyle physical activity with mortality.",
+   "journal": "Nat Med",
+   "pmid": "36482104",
+   "doi": "10.1038/s41591-022-02100-x",
+   "type": "cohort",
+   "n": "Non-exercising UK Biobank adults with wrist accelerometers",
+   "finding": "Three 1-2 minute bouts of vigorous lifestyle activity a day were associated with 38-40% lower mortality."
+  },
+  {
+   "id": "abody-wise2012",
+   "authors": "Wise LA, Rothman KJ, Mikkelsen EM, et al.",
+   "year": 2012,
+   "title": "A prospective cohort study of physical activity and time to pregnancy.",
+   "journal": "Fertil Steril",
+   "pmid": "22425198",
+   "doi": "10.1016/j.fertnstert.2012.02.025",
+   "type": "cohort",
+   "n": "Danish women planning pregnancy",
+   "finding": "Moderate activity was associated with slightly higher fecundability, while 5+ h/week vigorous activity was associated with lower fecundability in lean women."
+  },
+  {
+   "id": "abody-gudmundsdottir2009",
+   "authors": "Gudmundsdottir SL, Flanders WD, Augestad LB",
+   "year": 2009,
+   "title": "Physical activity and fertility in women: the North-Trøndelag Health Study.",
+   "journal": "Hum Reprod",
+   "pmid": "19801570",
+   "doi": "10.1093/humrep/dep337",
+   "type": "cohort",
+   "n": "3887 Norwegian women",
+   "finding": "Exercising most days or to exhaustion was associated with higher odds of later fertility problems."
+  },
+  {
+   "id": "abody-mountjoy2023",
+   "authors": "Mountjoy M, Ackerman KE, Bailey DM, et al.",
+   "year": 2023,
+   "title": "2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs).",
+   "journal": "Br J Sports Med",
+   "pmid": "37752011",
+   "doi": "10.1136/bjsports-2023-106994",
+   "type": "guideline",
+   "n": null,
+   "finding": "IOC 2023 consensus statement on Relative Energy Deficiency in Sport, describing low energy availability as a cause of menstrual and reproductive dysfunction."
+  },
+  {
+   "id": "abody-reynolds2016",
+   "authors": "Reynolds AN, Mann JI, Williams S, et al.",
+   "year": 2016,
+   "title": "Advice to walk after meals is more effective for lowering postprandial glycaemia in type 2 diabetes mellitus than advice that does not specify timing: a randomised crossover study.",
+   "journal": "Diabetologia",
+   "pmid": "27747394",
+   "doi": "10.1007/s00125-016-4085-2",
+   "type": "rct",
+   "n": "41 adults with type 2 diabetes (crossover)",
+   "finding": "Walking after each meal lowered post-meal glucose 12% more than one daily walk of the same total time."
+  },
+  {
+   "id": "abody-schnohr2015",
+   "authors": "Schnohr P, O'Keefe JH, Marott JL, et al.",
+   "year": 2015,
+   "title": "Dose of jogging and long-term mortality: the Copenhagen City Heart Study.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "25660917",
+   "doi": "10.1016/j.jacc.2014.11.023",
+   "type": "cohort",
+   "n": "Copenhagen City Heart Study joggers",
+   "finding": "Light and moderate joggers had lower mortality than sedentary non-joggers; strenuous joggers' estimate (HR 1.97) was very imprecise (95% CI 0.48-8.14)."
+  },
+  {
+   "id": "abody-cappuccio2010",
+   "authors": "Cappuccio FP, D'Elia L, Strazzullo P, et al.",
+   "year": 2010,
+   "title": "Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies.",
+   "journal": "Sleep",
+   "pmid": "20469800",
+   "doi": "10.1093/sleep/33.5.585",
+   "type": "meta-analysis",
+   "n": "1,382,999 participants in 16 studies",
+   "finding": "Both short sleep (RR 1.12) and long sleep (RR 1.30) predicted death, with significant heterogeneity for long sleep."
+  },
+  {
+   "id": "abody-daghlas2019",
+   "authors": "Daghlas I, Dashti HS, Lane J, et al.",
+   "year": 2019,
+   "title": "Sleep Duration and Myocardial Infarction.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "31488267",
+   "doi": "10.1016/j.jacc.2019.07.022",
+   "type": "cohort",
+   "n": "461,347 UK Biobank participants plus MR",
+   "finding": "Short (<6 h) and long (>9 h) sleep predicted MI, but MR supported a causal effect only for short sleep (HR 1.19-1.21)."
+  },
+  {
+   "id": "abody-tasali2022",
+   "authors": "Tasali E, Wroblewski K, Kahn E, et al.",
+   "year": 2022,
+   "title": "Effect of Sleep Extension on Objectively Assessed Energy Intake Among Adults With Overweight in Real-life Settings: A Randomized Clinical Trial.",
+   "journal": "JAMA Intern Med",
+   "pmid": "35129580",
+   "doi": "10.1001/jamainternmed.2021.8098",
+   "type": "rct",
+   "n": "80 adults with overweight who habitually curtailed sleep",
+   "finding": "Extending sleep by about 1.2 h/night cut energy intake by 270 kcal/day, producing negative energy balance."
+  },
+  {
+   "id": "abody-yadegarfar2008",
+   "authors": "Yadegarfar G, McNamee R",
+   "year": 2008,
+   "title": "Shift work, confounding and death from ischaemic heart disease.",
+   "journal": "Occup Environ Med",
+   "pmid": "17478574",
+   "doi": "10.1136/oem.2006.030627",
+   "type": "cohort",
+   "n": "Nested case-control in a UK industrial cohort",
+   "finding": "Shift workers were more often in lower social classes; after adjusting for pre-employment risk and social class, shift work was not associated with ischaemic heart disease death (OR 1.04)."
+  },
+  {
+   "id": "abody-richmond2019",
+   "authors": "Richmond RC, Anderson EL, Dashti HS, et al.",
+   "year": 2019,
+   "title": "Investigating causal relations between sleep traits and risk of breast cancer in women: mendelian randomisation study.",
+   "journal": "BMJ",
+   "pmid": "31243001",
+   "doi": "10.1136/bmj.l2327",
+   "type": "cohort",
+   "n": "UK Biobank and BCAC MR",
+   "finding": "MR supported a protective effect of morning chronotype on breast cancer (OR 0.88 per category) and a harmful effect of longer sleep."
+  },
+  {
+   "id": "abody-travis2016",
+   "authors": "Travis RC, Balkwill A, Fensom GK, et al.",
+   "year": 2016,
+   "title": "Night Shift Work and Breast Cancer Incidence: Three Prospective Studies and Meta-analysis of Published Studies.",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "27758828",
+   "doi": "10.1093/jnci/djw169",
+   "type": "meta-analysis",
+   "n": "10 prospective studies",
+   "finding": "Night shift work, including 20-30+ years, was not associated with breast cancer incidence (RR 0.99)."
+  },
+  {
+   "id": "abody-torquati2018",
+   "authors": "Torquati L, Mielke GI, Brown WJ, et al.",
+   "year": 2018,
+   "title": "Shift work and the risk of cardiovascular disease. A systematic review and meta-analysis including dose-response relationship.",
+   "journal": "Scand J Work Environ Health",
+   "pmid": "29247501",
+   "doi": "10.5271/sjweh.3700",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Shift work was associated with a 17% higher risk of cardiovascular events, rising with years of exposure after the first 5."
+  },
+  {
+   "id": "abody-windred2024",
+   "authors": "Windred DP, Burns AC, Lane JM, et al.",
+   "year": 2024,
+   "title": "Brighter nights and darker days predict higher mortality risk: A prospective analysis of personal light exposure in >88,000 individuals.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "39405349",
+   "doi": "10.1073/pnas.2405924121",
+   "type": "cohort",
+   "n": "88,905 UK Biobank wearers",
+   "finding": "Brighter nights and darker days predicted higher mortality, independent of measured confounders."
+  },
+  {
+   "id": "abody-windred2025",
+   "authors": "Windred DP, Burns AC, Rutter MK, et al.",
+   "year": 2025,
+   "title": "Light Exposure at Night and Cardiovascular Disease Incidence.",
+   "journal": "JAMA Netw Open",
+   "pmid": "41129148",
+   "doi": "10.1001/jamanetworkopen.2025.39031",
+   "type": "cohort",
+   "n": "88,905 UK Biobank wearers",
+   "finding": "The brightest-night decile had higher incident coronary disease (aHR 1.32), MI (1.47), heart failure (1.56), AF (1.32) and stroke (1.28) after adjustment including socioeconomic status and polygenic risk."
+  },
+  {
+   "id": "abody-laukkanen2015",
+   "authors": "Laukkanen T, Khan H, Zaccardi F, et al.",
+   "year": 2015,
+   "title": "Association between sauna bathing and fatal cardiovascular and all-cause mortality events.",
+   "journal": "JAMA Intern Med",
+   "pmid": "25705824",
+   "doi": "10.1001/jamainternmed.2014.8187",
+   "type": "cohort",
+   "n": "2315 Finnish men (KIHD)",
+   "finding": "Frequent sauna bathing was associated with lower fatal cardiovascular and all-cause mortality in the Kuopio cohort."
+  },
+  {
+   "id": "abody-kunutsor2022",
+   "authors": "Kunutsor SK, Jae SY, Laukkanen JA",
+   "year": 2022,
+   "title": "Frequent sauna bathing offsets the increased risk of death due to low socioeconomic status: A prospective cohort study of middle-aged and older men.",
+   "journal": "Exp Gerontol",
+   "pmid": "35908583",
+   "doi": "10.1016/j.exger.2022.111906",
+   "type": "cohort",
+   "n": "KIHD Finnish men",
+   "finding": "In the same cohort, high vs low sauna frequency was associated with 14% lower all-cause mortality (HR 0.86) after multivariable adjustment, and appeared to offset the extra risk of low socioeconomic status."
+  },
+  {
+   "id": "abody-hussain2018",
+   "authors": "Hussain J, Cohen M",
+   "year": 2018,
+   "title": "Clinical Effects of Regular Dry Sauna Bathing: A Systematic Review.",
+   "journal": "Evid Based Complement Alternat Med",
+   "pmid": "29849692",
+   "doi": "10.1155/2018/1857413",
+   "type": "review",
+   "n": "40 studies, 3855 participants",
+   "finding": "Systematic review: only 13 of 40 sauna studies were RCTs and most were small (n<40); reported benefits were heterogeneous."
+  },
+  {
+   "id": "abody-garolla2013",
+   "authors": "Garolla A, Torino M, Sartini B, et al.",
+   "year": 2013,
+   "title": "Seminal and molecular evidence that sauna exposure affects human spermatogenesis.",
+   "journal": "Hum Reprod",
+   "pmid": "23411620",
+   "doi": "10.1093/humrep/det020",
+   "type": "rct",
+   "n": "10 normozoospermic men",
+   "finding": "Sauna exposure 2x15 min/week at 80-90 C for 3 months impaired spermatogenesis reversibly."
+  },
+  {
+   "id": "abody-cain2025",
+   "authors": "Cain T, Brinsley J, Bennett H, et al.",
+   "year": 2025,
+   "title": "Effects of cold-water immersion on health and wellbeing: A systematic review and meta-analysis.",
+   "journal": "PLoS One",
+   "pmid": "39879231",
+   "doi": "10.1371/journal.pone.0317615",
+   "type": "meta-analysis",
+   "n": "11 studies, 3177 participants",
+   "finding": "Cold-water immersion produced an acute inflammatory response, a reduction in stress only at 12 h, and no significant immune effects; longer-term benefits came mainly from narrative synthesis."
+  },
+  {
+   "id": "abody-buijze2016",
+   "authors": "Buijze GA, Sierevelt IN, van der Heijden BC, et al.",
+   "year": 2016,
+   "title": "The Effect of Cold Showering on Health and Work: A Randomized Controlled Trial.",
+   "journal": "PLoS One",
+   "pmid": "27631616",
+   "doi": "10.1371/journal.pone.0161749",
+   "type": "rct",
+   "n": "3018 Dutch adults",
+   "finding": "A routine hot-to-cold shower for 30-90 s cut self-reported sickness absence by 29% but did not reduce illness days."
+  },
+  {
+   "id": "abody-goyal2014",
+   "authors": "Goyal M, Singh S, Sibinga EM, et al.",
+   "year": 2014,
+   "title": "Meditation programs for psychological stress and well-being: a systematic review and meta-analysis.",
+   "journal": "JAMA Intern Med",
+   "pmid": "24395196",
+   "doi": "10.1001/jamainternmed.2013.13018",
+   "type": "meta-analysis",
+   "n": "47 trials, 3515 participants",
+   "finding": "Mindfulness programs gave small-to-moderate improvements in anxiety, depression and pain, and were not better than active treatments such as exercise or drugs."
+  },
+  {
+   "id": "abody-galante2023",
+   "authors": "Galante J, Friedrich C, Collaboration of Mindfulness Trials (CoMinT) 3, et al.",
+   "year": 2023,
+   "title": "Individual participant data systematic review and meta-analysis of randomised controlled trials assessing adult mindfulness-based programmes for mental health promotion in non-clinical settings.",
+   "journal": "Nat Ment Health",
+   "pmid": "37867573",
+   "doi": "10.1038/s44220-023-00081-5",
+   "type": "meta-analysis",
+   "n": "13 trials, 2371 participants (IPD)",
+   "finding": "Group mindfulness programmes reduced psychological distress versus passive controls (SMD -0.32) in community volunteers."
+  },
+  {
+   "id": "abody-howard2021",
+   "authors": "Howard JP, Wood FA, Finegold JA, et al.",
+   "year": 2021,
+   "title": "Side Effect Patterns in a Crossover Trial of Statin, Placebo, and No Treatment.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "34531021",
+   "doi": "10.1016/j.jacc.2021.07.022",
+   "type": "rct",
+   "n": "60 patients (SAMSON crossover)",
+   "finding": "Symptom scores were similar on statin (16.3) and placebo (15.4) months versus 8.0 with no tablet; 90% of statin symptom burden was nocebo."
+  },
+  {
+   "id": "abody-herrett2021",
+   "authors": "Herrett E, Williamson E, Brack K, et al.",
+   "year": 2021,
+   "title": "Statin treatment and muscle symptoms: series of randomised, placebo controlled n-of-1 trials.",
+   "journal": "BMJ",
+   "pmid": "33627334",
+   "doi": "10.1136/bmj.n135",
+   "type": "rct",
+   "n": "200 patients (151 analysed), n-of-1 trials",
+   "finding": "In people who had stopped statins for muscle symptoms, atorvastatin 20 mg produced no more muscle symptoms than placebo; two thirds intended to restart."
+  },
+  {
+   "id": "abody-ctt2022",
+   "authors": "Cholesterol Treatment Trialists' Collaboration",
+   "year": 2022,
+   "title": "Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials.",
+   "journal": "Lancet",
+   "pmid": "36049498",
+   "doi": "10.1016/S0140-6736(22)01545-8",
+   "type": "meta-analysis",
+   "n": "19 double-blind statin trials",
+   "finding": "Statins caused only a small excess of muscle symptoms, mainly in year 1; over 90% of reported symptoms on statins were not due to the drug."
+  },
+  {
+   "id": "abody-suissa2012",
+   "authors": "Suissa S, Azoulay L",
+   "year": 2012,
+   "title": "Metformin and the risk of cancer: time-related biases in observational studies.",
+   "journal": "Diabetes Care",
+   "pmid": "23173135",
+   "doi": "10.2337/dc12-0788",
+   "type": "review",
+   "n": null,
+   "finding": "Thirteen observational studies of metformin and cancer had immortal time bias and others time-window bias, producing illusory 20-94% risk reductions; studies avoiding these biases found no effect."
+  },
+  {
+   "id": "abody-bannister2014",
+   "authors": "Bannister CA, Holden SE, Jenkins-Jones S, et al.",
+   "year": 2014,
+   "title": "Can people with type 2 diabetes live longer than those without? A comparison of mortality in people initiated with metformin or sulphonylurea monotherapy and matched, non-diabetic controls.",
+   "journal": "Diabetes Obes Metab",
+   "pmid": "25041462",
+   "doi": "10.1111/dom.12354",
+   "type": "cohort",
+   "n": "UK primary care, metformin vs matched non-diabetic controls",
+   "finding": "Reported longer survival in metformin-treated diabetes patients than in matched non-diabetic controls."
+  },
+  {
+   "id": "abody-keys2022",
+   "authors": "Keys MT, Thinggaard M, Larsen LA, et al.",
+   "year": 2022,
+   "title": "Reassessing the evidence of a survival advantage in Type 2 diabetes treated with metformin compared with controls without diabetes: a retrospective cohort study.",
+   "journal": "Int J Epidemiol",
+   "pmid": "36287641",
+   "doi": "10.1093/ije/dyac200",
+   "type": "cohort",
+   "n": "Danish registry and twin data",
+   "finding": "Reassessment found metformin-treated diabetes patients had higher, not lower, mortality than non-diabetic controls, including discordant twins."
+  },
+  {
+   "id": "abody-shadyab2025",
+   "authors": "Shadyab AH, Espeland MA, Odegaard AO, et al.",
+   "year": 2025,
+   "title": "Comparative Effectiveness of Metformin Versus Sulfonylureas on Exceptional Longevity in Women With Type 2 Diabetes: Target Trial Emulation.",
+   "journal": "J Gerontol A Biol Sci Med Sci",
+   "pmid": "40388602",
+   "doi": "10.1093/gerona/glaf095",
+   "type": "cohort",
+   "n": "438 matched women with type 2 diabetes",
+   "finding": "Target trial emulation: metformin initiation versus sulfonylurea was associated with 30% lower risk of death before age 90 (HR 0.70); authors note residual confounding prevents causal inference."
+  },
+  {
+   "id": "abody-ahlqvist2024",
+   "authors": "Ahlqvist VH, Sjöqvist H, Dalman C, et al.",
+   "year": 2024,
+   "title": "Acetaminophen Use During Pregnancy and Children's Risk of Autism, ADHD, and Intellectual Disability.",
+   "journal": "JAMA",
+   "pmid": "38592388",
+   "doi": "10.1001/jama.2024.3172",
+   "type": "cohort",
+   "n": "2.48 million Swedish children",
+   "finding": "Prenatal acetaminophen was weakly associated with autism and ADHD in the whole population, but sibling-control analyses showed no association (autism HR 0.98)."
+  },
+  {
+   "id": "abody-sheikh2025",
+   "authors": "Sheikh J, Allotey J, Sobhy S, et al.",
+   "year": 2025,
+   "title": "Maternal paracetamol (acetaminophen) use during pregnancy and risk of autism spectrum disorder and attention deficit/hyperactivity disorder in offspring: umbrella review of systematic reviews.",
+   "journal": "BMJ",
+   "pmid": "41207796",
+   "doi": "10.1136/bmj-2025-088141",
+   "type": "review",
+   "n": "9 systematic reviews (40 studies)",
+   "finding": "Umbrella review: confidence in reviews reporting a paracetamol-autism/ADHD link was low to critically low; in sibling-controlled studies the associations disappeared."
+  },
+  {
+   "id": "abody-tayebihillali2026",
+   "authors": "Tayebi-Hillali H, Blanco-Suárez M, Rivas-Mundiña B, et al.",
+   "year": 2026,
+   "title": "Prenatal exposure to paracetamol and the risk of autism and attention-deficit/hyperactivity disorder: An umbrella review and meta-meta-analysis.",
+   "journal": "Dev Med Child Neurol",
+   "pmid": "42773841",
+   "doi": "10.1111/dmcn.70512",
+   "type": "review",
+   "n": "7 meta-analyses, >3 million participants",
+   "finding": "Unrestricted pooling showed small associations (autism RR 1.17, ADHD 1.29) that attenuated toward null when restricted to higher-quality studies, consistent with residual confounding."
+  },
+  {
+   "id": "abody-prada2025",
+   "authors": "Prada D, Ritz B, Bauer AZ, et al.",
+   "year": 2025,
+   "title": "Evaluation of the evidence on acetaminophen use and neurodevelopmental disorders using the Navigation Guide methodology.",
+   "journal": "Environ Health",
+   "pmid": "40804730",
+   "doi": "10.1186/s12940-025-01208-0",
+   "type": "review",
+   "n": "46 studies",
+   "finding": "Navigation Guide review judged the evidence consistent with an association between prenatal acetaminophen and neurodevelopmental disorders and urged precaution."
+  },
+  {
+   "id": "abody-moayyedi2019",
+   "authors": "Moayyedi P, Eikelboom JW, Bosch J, et al.",
+   "year": 2019,
+   "title": "Safety of Proton Pump Inhibitors Based on a Large, Multi-Year, Randomized Trial of Patients Receiving Rivaroxaban or Aspirin.",
+   "journal": "Gastroenterology",
+   "pmid": "31152740",
+   "doi": "10.1053/j.gastro.2019.05.056",
+   "type": "rct",
+   "n": "17,598 patients (COMPASS)",
+   "finding": "Pantoprazole for ~3 years caused no excess of the harms attributed to PPIs in observational studies except possibly enteric infection (OR 1.33)."
+  },
+  {
+   "id": "abody-lam2013",
+   "authors": "Lam JR, Schneider JL, Zhao W, et al.",
+   "year": 2013,
+   "title": "Proton pump inhibitor and histamine 2 receptor antagonist use and vitamin B12 deficiency.",
+   "journal": "JAMA",
+   "pmid": "24327038",
+   "doi": "10.1001/jama.2013.280490",
+   "type": "case-control",
+   "n": null,
+   "finding": "Two or more years of PPI supply was associated with B12 deficiency (OR 1.65)."
+  },
+  {
+   "id": "abody-xie2024",
+   "authors": "Xie K, Li J, Tang C, et al.",
+   "year": 2024,
+   "title": "Association between proton pump inhibitors and dementia risk: a Mendelian randomization study.",
+   "journal": "Sci Rep",
+   "pmid": "39562663",
+   "doi": "10.1038/s41598-024-79821-1",
+   "type": "cohort",
+   "n": "Two-sample MR",
+   "finding": "No robust causal association between genetically proxied PPI use and dementia after false-discovery correction."
+  },
+  {
+   "id": "abody-li2018",
+   "authors": "Li DK, Ferber JR, Odouli R, et al.",
+   "year": 2018,
+   "title": "Use of nonsteroidal antiinflammatory drugs during pregnancy and the risk of miscarriage.",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "29890124",
+   "doi": "10.1016/j.ajog.2018.06.002",
+   "type": "cohort",
+   "n": "1097 pregnant women",
+   "finding": "Periconceptional NSAID use was associated with miscarriage (aHR 1.89)."
+  },
+  {
+   "id": "abody-daniel2014",
+   "authors": "Daniel S, Koren G, Lunenfeld E, et al.",
+   "year": 2014,
+   "title": "Fetal exposure to nonsteroidal anti-inflammatory drugs and spontaneous abortions.",
+   "journal": "CMAJ",
+   "pmid": "24491470",
+   "doi": "10.1503/cmaj.130605",
+   "type": "cohort",
+   "n": "65,457 pregnancies",
+   "finding": "NSAID exposure was not an independent risk factor for spontaneous abortion (non-selective COX inhibitors aHR 1.10, 0.99-1.22), with no dose-response."
+  },
+  {
+   "id": "abody-daniel2015a",
+   "authors": "Daniel S, Koren G, Lunenfeld E, et al.",
+   "year": 2015,
+   "title": "Immortal time bias in drug safety cohort studies: spontaneous abortion following nonsteroidal antiinflammatory drug exposure.",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "25265406",
+   "doi": "10.1016/j.ajog.2014.09.028",
+   "type": "cohort",
+   "n": null,
+   "finding": "Treating NSAID exposure as fixed rather than time-varying produced immortal time bias that materially changed miscarriage hazard ratios."
+  },
+  {
+   "id": "abody-daniel2015b",
+   "authors": "Daniel S, Koren G, Lunenfeld E, et al.",
+   "year": 2015,
+   "title": "NSAIDs and spontaneous abortions - true effect or an indication bias?",
+   "journal": "Br J Clin Pharmacol",
+   "pmid": "25858169",
+   "doi": "10.1111/bcp.12653",
+   "type": "cohort",
+   "n": null,
+   "finding": "NSAID dispensing rose sharply in the days before a miscarriage (pain from the miscarriage itself); excluding those days removed the association, indicating protopathic/indication bias."
+  },
+  {
+   "id": "abody-chen2024",
+   "authors": "Chen X, Yang Y, Chen L, et al.",
+   "year": 2024,
+   "title": "Pregnancy outcomes and birth defects in offspring following Non-steroidal anti-inflammatory drugs exposure during pregnancy: A systematic review and meta-analysis.",
+   "journal": "Reprod Toxicol",
+   "pmid": "38423229",
+   "doi": "10.1016/j.reprotox.2024.108561",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "NSAID use in pregnancy was not significantly associated with miscarriage (OR 1.20) but was modestly associated with birth defects (OR 1.19)."
+  },
+  {
+   "id": "abody-tanrikut2010",
+   "authors": "Tanrikut C, Feldman AS, Altemus M, et al.",
+   "year": 2010,
+   "title": "Adverse effect of paroxetine on sperm.",
+   "journal": "Fertil Steril",
+   "pmid": "19515367",
+   "doi": "10.1016/j.fertnstert.2009.04.039",
+   "type": "rct",
+   "n": "35 healthy men (single arm)",
+   "finding": "Four weeks of paroxetine raised sperm DNA fragmentation from 13.8% to 30.3% without changing standard semen parameters."
+  },
+  {
+   "id": "abody-yland2022",
+   "authors": "Yland JJ, McKinnon CJ, Hatch EE, et al.",
+   "year": 2022,
+   "title": "A Prospective Study of Male Depression, Psychotropic Medication Use, and Fecundability.",
+   "journal": "Am J Mens Health",
+   "pmid": "35144505",
+   "doi": "10.1177/15579883221075520",
+   "type": "cohort",
+   "n": "North American preconception cohort men",
+   "finding": "Male depressive symptoms, more than psychotropic medication, explained a weak reduction in couple fecundability."
+  },
+  {
+   "id": "abody-wilding2021",
+   "authors": "Wilding JPH, Batterham RL, Calanna S, et al.",
+   "year": 2021,
+   "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity.",
+   "journal": "N Engl J Med",
+   "pmid": "33567185",
+   "doi": "10.1056/NEJMoa2032183",
+   "type": "rct",
+   "n": "Adults with overweight or obesity (STEP 1)",
+   "finding": "Semaglutide 2.4 mg weekly produced 14.9% mean weight loss over 68 weeks."
+  },
+  {
+   "id": "abody-larsson2022",
+   "authors": "Larsson SC, Burgess S",
+   "year": 2022,
+   "title": "Appraising the causal role of smoking in multiple diseases: A systematic review and meta-analysis of Mendelian randomization studies.",
+   "journal": "EBioMedicine",
+   "pmid": "35816897",
+   "doi": "10.1016/j.ebiom.2022.104154",
+   "type": "meta-analysis",
+   "n": "29 published and 123 new MR analyses",
+   "finding": "Genetic liability to smoking caused a wide range of diseases including 13 circulatory diseases, type 2 diabetes, periodontitis, PCOS and multiple cancers."
+  },
+  {
+   "id": "abody-morrow1995",
+   "authors": "Morrow JD, Frei B, Longmire AW, et al.",
+   "year": 1995,
+   "title": "Increase in circulating products of lipid peroxidation (F2-isoprostanes) in smokers. Smoking as a cause of oxidative damage.",
+   "journal": "N Engl J Med",
+   "pmid": "7700313",
+   "doi": "10.1056/NEJM199505043321804",
+   "type": "cross-sectional",
+   "n": "smokers vs non-smokers",
+   "finding": "Smokers had roughly double the circulating F2-isoprostanes of non-smokers, falling after abstinence."
+  },
+  {
+   "id": "abody-goniewicz2018",
+   "authors": "Goniewicz ML, Smith DM, Edwards KC, et al.",
+   "year": 2018,
+   "title": "Comparison of Nicotine and Toxicant Exposure in Users of Electronic Cigarettes and Combustible Cigarettes.",
+   "journal": "JAMA Netw Open",
+   "pmid": "30646298",
+   "doi": "10.1001/jamanetworkopen.2018.5937",
+   "type": "cross-sectional",
+   "n": "5105 PATH participants",
+   "finding": "Exclusive vapers had 10-98% lower toxicant biomarkers than smokers but higher than never users; dual users had the highest exposure."
+  },
+  {
+   "id": "abody-berlowitz2022",
+   "authors": "Berlowitz JB, Xie W, Harlow AF, et al.",
+   "year": 2022,
+   "title": "E-Cigarette Use and Risk of Cardiovascular Disease: A Longitudinal Analysis of the PATH Study (2013-2019).",
+   "journal": "Circulation",
+   "pmid": "35514292",
+   "doi": "10.1161/CIRCULATIONAHA.121.057369",
+   "type": "cohort",
+   "n": "PATH Study adults, 2013-2019",
+   "finding": "Exclusive e-cigarette use was not associated with incident CVD (HR 1.00, 0.69-1.45), whereas exclusive smoking (1.53) and dual use (1.54) were; few events among vapers limited precision."
+  },
+  {
+   "id": "abody-bhatta2019",
+   "authors": "Bhatta DN, Glantz SA",
+   "year": 2019,
+   "title": "Electronic Cigarette Use and Myocardial Infarction Among Adults in the US Population Assessment of Tobacco and Health.",
+   "journal": "J Am Heart Assoc",
+   "pmid": "31165662",
+   "doi": "10.1161/JAHA.119.012317",
+   "type": "cross-sectional",
+   "n": "PATH Wave 1 adults",
+   "finding": "RETRACTED (2020): reported e-cigarette use associated with having had a myocardial infarction; the journal retracted it because the authors did not show whether infarctions occurred before or after vaping began, so the conclusion was judged unreliable.",
+   "retracted": true
+  },
+  {
+   "id": "abody-lindson2025",
+   "authors": "Lindson N, Livingstone-Banks J, Butler AR, et al.",
+   "year": 2025,
+   "title": "Electronic cigarettes for smoking cessation.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "41212103",
+   "doi": "10.1002/14651858.CD010216.pub10",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Cochrane: nicotine e-cigarettes increase quit rates compared with nicotine replacement therapy (RR 1.55, high certainty)."
+  },
+  {
+   "id": "abody-carnevale2016",
+   "authors": "Carnevale R, Sciarretta S, Violi F, et al.",
+   "year": 2016,
+   "title": "Acute Impact of Tobacco vs Electronic Cigarette Smoking on Oxidative Stress and Vascular Function.",
+   "journal": "Chest",
+   "pmid": "27108682",
+   "doi": "10.1016/j.chest.2016.04.012",
+   "type": "rct",
+   "n": "40 healthy adults (crossover)",
+   "finding": "A single e-cigarette session acutely raised oxidative-stress markers and impaired flow-mediated dilation, less than a tobacco cigarette."
+  },
+  {
+   "id": "abody-belladelli2021",
+   "authors": "Belladelli F, Del Giudice F, Kasman A, et al.",
+   "year": 2021,
+   "title": "The association between cannabis use and testicular function in men: A systematic review and meta-analysis.",
+   "journal": "Andrology",
+   "pmid": "33251770",
+   "doi": "10.1111/andr.12953",
+   "type": "meta-analysis",
+   "n": "9 studies, 4014 men with semen data",
+   "finding": "Cannabis use was not significantly associated with abnormal semen parameters (RR 1.16, 0.84-1.60) or testosterone; FSH slightly lower."
+  },
+  {
+   "id": "abody-belladelli2023",
+   "authors": "Belladelli F, Chen T, Basran S, et al.",
+   "year": 2023,
+   "title": "The Association between Monthly, Yearly, and Lifetime Cannabis Use, and Semen Parameters in Asian-American Men.",
+   "journal": "World J Mens Health",
+   "pmid": "36047080",
+   "doi": "10.5534/wjmh.220106",
+   "type": "cross-sectional",
+   "n": "112 Asian-American men",
+   "finding": "Recent cannabis use was linked to slightly worse morphology and motility, but there was no consistent association with semen quality."
+  },
+  {
+   "id": "abody-zufferey2024",
+   "authors": "Zufferey F, Buitrago E, Rahban R, et al.",
+   "year": 2024,
+   "title": "Gonadotropin axis and semen quality in young Swiss men after cannabis consumption: Effect of chronicity and modulation by cannabidiol.",
+   "journal": "Andrology",
+   "pmid": "37042163",
+   "doi": "10.1111/andr.13440",
+   "type": "cross-sectional",
+   "n": "Young Swiss men",
+   "finding": "Cannabis users had higher androgens and, apparently, better progressive motility, which was explained by shorter abstinence time rather than cannabis."
+  },
+  {
+   "id": "abody-verhaeghe2020",
+   "authors": "Verhaeghe F, Di Pizio P, Bichara C, et al.",
+   "year": 2020,
+   "title": "Cannabis consumption might exert deleterious effects on sperm nuclear quality in infertile men.",
+   "journal": "Reprod Biomed Online",
+   "pmid": "32001159",
+   "doi": "10.1016/j.rbmo.2019.11.002",
+   "type": "cohort",
+   "n": "54 infertile men",
+   "finding": "Regular cannabis users had more sperm DNA fragmentation and chromatin abnormalities in a small exploratory study."
+  },
+  {
+   "id": "abody-lindqvist2014",
+   "authors": "Lindqvist PG, Epstein E, Landin-Olsson M, et al.",
+   "year": 2014,
+   "title": "Avoidance of sun exposure is a risk factor for all-cause mortality: results from the Melanoma in Southern Sweden cohort.",
+   "journal": "J Intern Med",
+   "pmid": "24697969",
+   "doi": "10.1111/joim.12251",
+   "type": "cohort",
+   "n": "29,518 Swedish women",
+   "finding": "Women who avoided sun had about twice the mortality of the most sun-exposed, an observational finding the authors used to question restrictive sun advice."
+  },
+  {
+   "id": "abody-green2011",
+   "authors": "Green AC, Williams GM, Logan V, et al.",
+   "year": 2011,
+   "title": "Reduced melanoma after regular sunscreen use: randomized trial follow-up.",
+   "journal": "J Clin Oncol",
+   "pmid": "21135266",
+   "doi": "10.1200/JCO.2010.28.7078",
+   "type": "rct",
+   "n": "Nambour community trial participants (Australia)",
+   "finding": "Ten years after the trial, daily sunscreen users had half as many melanomas (HR 0.50) as discretionary users."
+  },
+  {
+   "id": "abody-rueegg2019",
+   "authors": "Rueegg CS, Stenehjem JS, Egger M, et al.",
+   "year": 2019,
+   "title": "Challenges in assessing the sunscreen-melanoma association.",
+   "journal": "Int J Cancer",
+   "pmid": "30447006",
+   "doi": "10.1002/ijc.31997",
+   "type": "meta-analysis",
+   "n": "21,069 melanoma cases in 28 studies",
+   "finding": "Across 28 studies, adjusting for sun exposure, sunburns and phenotype systematically moved sunscreen-melanoma estimates toward lower risk in users; the one RCT showed protection."
+  },
+  {
+   "id": "abody-silva2018",
+   "authors": "Silva ESD, Tavares R, Paulitsch FDS, et al.",
+   "year": 2018,
+   "title": "Use of sunscreen and risk of melanoma and non-melanoma skin cancer: a systematic review and meta-analysis.",
+   "journal": "Eur J Dermatol",
+   "pmid": "29620003",
+   "doi": "10.1684/ejd.2018.3251",
+   "type": "meta-analysis",
+   "n": "mostly case-control studies",
+   "finding": "Pooled observational studies found no association between sunscreen use and melanoma (OR 1.10)."
+  },
+  {
+   "id": "abody-holmes2011",
+   "authors": "Holmes MV, Newcombe P, Hubacek JA, et al.",
+   "year": 2011,
+   "title": "Effect modification by population dietary folate on the association between MTHFR genotype, homocysteine, and stroke risk: a meta-analysis of genetic studies and randomised trials.",
+   "journal": "Lancet",
+   "pmid": "21803414",
+   "doi": "10.1016/S0140-6736(11)60872-6",
+   "type": "meta-analysis",
+   "n": "genetic studies and randomised trials",
+   "finding": "MTHFR-homocysteine effects and stroke associations were large only in low-folate regions; trials in folate-replete regions matched genetic predictions of no benefit."
+  },
+  {
+   "id": "abody-ccgc2011",
+   "authors": "C Reactive Protein Coronary Heart Disease Genetics Collaboration (CCGC), Wensley F, Gao P, et al.",
+   "year": 2011,
+   "title": "Association between C reactive protein and coronary heart disease: mendelian randomisation analysis based on individual participant data.",
+   "journal": "BMJ",
+   "pmid": "21325005",
+   "doi": "10.1136/bmj.d548",
+   "type": "meta-analysis",
+   "n": "47 studies, individual participant data",
+   "finding": "Genetically raised CRP was not associated with coronary heart disease (RR 1.00), unlike measured CRP (RR 1.33), so CRP itself is unlikely to be causal."
+  },
+  {
+   "id": "abody-il6r2012",
+   "authors": "Interleukin-6 Receptor Mendelian Randomisation Analysis (IL6R MR) Consortium, Swerdlow DI, Holmes MV, et al.",
+   "year": 2012,
+   "title": "The interleukin-6 receptor as a target for prevention of coronary heart disease: a mendelian randomisation analysis.",
+   "journal": "Lancet",
+   "pmid": "22421340",
+   "doi": "10.1016/S0140-6736(12)60110-X",
+   "type": "meta-analysis",
+   "n": "up to 133,449 individuals",
+   "finding": "An IL6R variant mimicking IL-6 receptor blockade lowered CRP and coronary heart disease odds (OR 0.95 per allele), supporting a causal role for IL-6 signalling."
+  },
+  {
+   "id": "abody-ridker2017",
+   "authors": "Ridker PM, Everett BM, Thuren T, et al.",
+   "year": 2017,
+   "title": "Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease.",
+   "journal": "N Engl J Med",
+   "pmid": "28845751",
+   "doi": "10.1056/NEJMoa1707914",
+   "type": "rct",
+   "n": "10,061 patients after MI (CANTOS)",
+   "finding": "IL-1-beta blockade with canakinumab 150 mg lowered recurrent cardiovascular events by 15% (HR 0.85) without lowering lipids."
+  },
+  {
+   "id": "abody-nidorf2020",
+   "authors": "Nidorf SM, Fiolet ATL, Mosterd A, et al.",
+   "year": 2020,
+   "title": "Colchicine in Patients with Chronic Coronary Disease.",
+   "journal": "N Engl J Med",
+   "pmid": "32865380",
+   "doi": "10.1056/NEJMoa2021372",
+   "type": "rct",
+   "n": "5522 patients with chronic coronary disease",
+   "finding": "Low-dose colchicine cut cardiovascular events by 31% (HR 0.69), with a non-significant rise in non-cardiovascular death."
+  },
+  {
+   "id": "abody-jolly2025",
+   "authors": "Jolly SS, d'Entremont MA, Lee SF, et al.",
+   "year": 2025,
+   "title": "Colchicine in Acute Myocardial Infarction.",
+   "journal": "N Engl J Med",
+   "pmid": "39555823",
+   "doi": "10.1056/NEJMoa2405922",
+   "type": "rct",
+   "n": "7062 patients after acute MI (CLEAR)",
+   "finding": "Colchicine started soon after MI lowered CRP but did not reduce cardiovascular events over 3 years (HR 0.99)."
+  },
+  {
+   "id": "abody-kobylecki2015",
+   "authors": "Kobylecki CJ, Afzal S, Davey Smith G, et al.",
+   "year": 2015,
+   "title": "Genetically high plasma vitamin C, intake of fruit and vegetables, and risk of ischemic heart disease and all-cause mortality: a Mendelian randomization study.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "25948669",
+   "doi": "10.3945/ajcn.114.104497",
+   "type": "cohort",
+   "n": "Copenhagen general population studies",
+   "finding": "Fruit and vegetable intake predicted lower IHD and mortality; genetically 25% higher plasma vitamin C gave non-significant estimates (IHD OR 0.90, mortality 0.88)."
+  },
+  {
+   "id": "abody-zheng2021",
+   "authors": "Zheng JS, Luan J, Sofianopoulou E, et al.",
+   "year": 2021,
+   "title": "Plasma Vitamin C and Type 2 Diabetes: Genome-Wide Association Study and Mendelian Randomization Analysis in European Populations.",
+   "journal": "Diabetes Care",
+   "pmid": "33203707",
+   "doi": "10.2337/dc20-1328",
+   "type": "cohort",
+   "n": "EPIC cohorts plus GWAS",
+   "finding": "Measured plasma vitamin C was inversely associated with type 2 diabetes (HR 0.88 per SD), but genetically predicted vitamin C was not (1.03)."
+  },
+  {
+   "id": "abody-larsson2018",
+   "authors": "Larsson SC, Burgess S, Michaëlsson K",
+   "year": 2018,
+   "title": "Serum magnesium levels and risk of coronary artery disease: Mendelian randomisation study.",
+   "journal": "BMC Med",
+   "pmid": "29769070",
+   "doi": "10.1186/s12916-018-1065-z",
+   "type": "cohort",
+   "n": "Two-sample MR",
+   "finding": "Genetically higher serum magnesium (per 0.1 mmol/L) was associated with lower coronary artery disease risk (OR 0.88)."
+  },
+  {
+   "id": "abody-gill2017",
+   "authors": "Gill D, Del Greco M F, Walker AP, et al.",
+   "year": 2017,
+   "title": "The Effect of Iron Status on Risk of Coronary Artery Disease: A Mendelian Randomization Study-Brief Report.",
+   "journal": "Arterioscler Thromb Vasc Biol",
+   "pmid": "28684612",
+   "doi": "10.1161/ATVBAHA.117.309757",
+   "type": "cohort",
+   "n": "Two-sample MR",
+   "finding": "Genetically higher iron status was associated with slightly lower coronary artery disease risk."
+  },
+  {
+   "id": "abody-vaucher2012",
+   "authors": "Vaucher P, Druais PL, Waldvogel S, et al.",
+   "year": 2012,
+   "title": "Effect of iron supplementation on fatigue in nonanemic menstruating women with low ferritin: a randomized controlled trial.",
+   "journal": "CMAJ",
+   "pmid": "22777991",
+   "doi": "10.1503/cmaj.110950",
+   "type": "rct",
+   "n": "198 non-anaemic menstruating women",
+   "finding": "Iron (80 mg/day for 12 weeks) reduced fatigue more than placebo in women with ferritin below 50 ug/L."
+  },
+  {
+   "id": "abody-pasricha2021",
+   "authors": "Pasricha SR, Tye-Din J, Muckenthaler MU, et al.",
+   "year": 2021,
+   "title": "Iron deficiency.",
+   "journal": "Lancet",
+   "pmid": "33285139",
+   "doi": "10.1016/S0140-6736(20)32594-0",
+   "type": "review",
+   "n": null,
+   "finding": "Lancet seminar: iron deficiency is a leading global cause of disability, with or without anaemia."
+  },
+  {
+   "id": "abody-ullum2015",
+   "authors": "Ullum H, Rostgaard K, Kamper-Jørgensen M, et al.",
+   "year": 2015,
+   "title": "Blood donation and blood donor mortality after adjustment for a healthy donor effect.",
+   "journal": "Transfusion",
+   "pmid": "26098293",
+   "doi": "10.1111/trf.13205",
+   "type": "cohort",
+   "n": "1,182,495 Scandinavian donors",
+   "finding": "Each extra annual donation was associated with 18.6% lower mortality crude, shrinking to 7.5% after adjustment for the healthy donor effect."
+  },
+  {
+   "id": "abody-brodersen2023",
+   "authors": "Brodersen T, Rostgaard K, Lau CJ, et al.",
+   "year": 2023,
+   "title": "The healthy donor effect and survey participation, becoming a donor and donor career.",
+   "journal": "Transfusion",
+   "pmid": "36479702",
+   "doi": "10.1111/trf.17190",
+   "type": "cohort",
+   "n": null,
+   "finding": "Donors were more likely to answer health surveys and becoming and remaining a donor tracked better self-reported health and lifestyle, a mechanism of the healthy donor effect."
+  },
+  {
+   "id": "abody-rahman2025",
+   "authors": "Rahman MM, Karki S, Hayen A",
+   "year": 2025,
+   "title": "A target trial emulation to estimate the effect of blood donation on mortality among blood donors in Australia.",
+   "journal": "Vox Sang",
+   "pmid": "41088737",
+   "doi": "10.1111/vox.70118",
+   "type": "cohort",
+   "n": "121,967 Australians (60 emulated trials)",
+   "finding": "Crude donor mortality was lower (HR 0.57), but after adjusting for all baseline covariates donation had no effect on mortality (HR 1.0)."
+  },
+  {
+   "id": "abody-monnier2006",
+   "authors": "Monnier L, Mas E, Ginet C, et al.",
+   "year": 2006,
+   "title": "Activation of oxidative stress by acute glucose fluctuations compared with sustained chronic hyperglycemia in patients with type 2 diabetes.",
+   "journal": "JAMA",
+   "pmid": "16609090",
+   "doi": "10.1001/jama.295.14.1681",
+   "type": "case-control",
+   "n": "21 type 2 diabetes patients and 21 controls",
+   "finding": "Urinary 8-iso-PGF2a correlated with glucose variability (MAGE, r=0.86) rather than HbA1c."
+  },
+  {
+   "id": "abody-wentholt2008",
+   "authors": "Wentholt IM, Kulik W, Michels RP, et al.",
+   "year": 2008,
+   "title": "Glucose fluctuations and activation of oxidative stress in patients with type 1 diabetes.",
+   "journal": "Diabetologia",
+   "pmid": "17994218",
+   "doi": "10.1007/s00125-007-0842-6",
+   "type": "cross-sectional",
+   "n": "type 1 diabetes patients and controls",
+   "finding": "No relationship between glucose variability (MODD, MAGE, CONGA) and urinary 8-iso-PGF2a in type 1 diabetes, although patients had higher isoprostanes than controls."
+  },
+  {
+   "id": "abody-siegelaar2011",
+   "authors": "Siegelaar SE, Barwari T, Kulik W, et al.",
+   "year": 2011,
+   "title": "No relevant relationship between glucose variability and oxidative stress in well-regulated type 2 diabetes patients.",
+   "journal": "J Diabetes Sci Technol",
+   "pmid": "21303629",
+   "doi": "10.1177/193229681100500112",
+   "type": "cross-sectional",
+   "n": "well-controlled type 2 diabetes patients",
+   "finding": "No relevant relationship between glucose variability and urinary 8-iso-PGF2a."
+  },
+  {
+   "id": "abody-accord2008",
+   "authors": "Action to Control Cardiovascular Risk in Diabetes Study Group, Gerstein HC, Miller ME, et al.",
+   "year": 2008,
+   "title": "Effects of intensive glucose lowering in type 2 diabetes.",
+   "journal": "N Engl J Med",
+   "pmid": "18539917",
+   "doi": "10.1056/NEJMoa0802743",
+   "type": "rct",
+   "n": "10,251 adults with type 2 diabetes (ACCORD)",
+   "finding": "Targeting HbA1c below 6.0% did not significantly reduce major cardiovascular events (HR 0.90) and increased mortality (HR 1.22)."
+  },
+  {
+   "id": "abody-hosseini2023",
+   "authors": "Hosseini H, Homayouni-Tabrizi M, Amiri H, et al.",
+   "year": 2023,
+   "title": "The effect of continuous positive airway pressure on total antioxidant capacity in obstructive sleep apnea: a systematic review and meta-analysis.",
+   "journal": "Sleep Breath",
+   "pmid": "36322225",
+   "doi": "10.1007/s11325-022-02733-9",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "CPAP increased total antioxidant capacity in obstructive sleep apnoea."
+  },
+  {
+   "id": "abody-mcevoy2016",
+   "authors": "McEvoy RD, Antic NA, Heeley E, et al.",
+   "year": 2016,
+   "title": "CPAP for Prevention of Cardiovascular Events in Obstructive Sleep Apnea.",
+   "journal": "N Engl J Med",
+   "pmid": "27571048",
+   "doi": "10.1056/NEJMoa1606599",
+   "type": "rct",
+   "n": "2717 adults with OSA and CVD (SAVE)",
+   "finding": "CPAP (mean 3.3 h/night) did not prevent cardiovascular events (HR 1.10) but improved sleepiness, mood and quality of life."
+  },
+  {
+   "id": "abody-sanchezdelatorre2023",
+   "authors": "Sánchez-de-la-Torre M, Gracia-Lavedan E, Benitez ID, et al.",
+   "year": 2023,
+   "title": "Adherence to CPAP Treatment and the Risk of Recurrent Cardiovascular Events: A Meta-Analysis.",
+   "journal": "JAMA",
+   "pmid": "37787793",
+   "doi": "10.1001/jama.2023.17465",
+   "type": "meta-analysis",
+   "n": "4186 participants, 3 RCTs (IPD)",
+   "finding": "CPAP did not reduce recurrent cardiovascular events overall (HR 1.01); good adherence was associated with lower risk (HR 0.69) in an on-treatment analysis."
+  },
+  {
+   "id": "abody-liu2014",
+   "authors": "Liu Z, Liu Y, Song Y, et al.",
+   "year": 2014,
+   "title": "Systemic oxidative stress biomarkers in chronic periodontitis: a meta-analysis.",
+   "journal": "Dis Markers",
+   "pmid": "25477703",
+   "doi": "10.1155/2014/931083",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Chronic periodontitis was associated with lower systemic antioxidant capacity and higher MDA."
+  },
+  {
+   "id": "abody-engebretson2013",
+   "authors": "Engebretson SP, Hyman LG, Michalowicz BS, et al.",
+   "year": 2013,
+   "title": "The effect of nonsurgical periodontal therapy on hemoglobin A1c levels in persons with type 2 diabetes and chronic periodontitis: a randomized clinical trial.",
+   "journal": "JAMA",
+   "pmid": "24346989",
+   "doi": "10.1001/jama.2013.282431",
+   "type": "rct",
+   "n": "514 adults with type 2 diabetes and periodontitis",
+   "finding": "Non-surgical periodontal therapy improved gums but did not lower HbA1c at 6 months; the trial stopped for futility."
+  },
+  {
+   "id": "abody-daiuto2018",
+   "authors": "D'Aiuto F, Gkranias N, Bhowruth D, et al.",
+   "year": 2018,
+   "title": "Systemic effects of periodontitis treatment in patients with type 2 diabetes: a 12 month, single-centre, investigator-masked, randomised trial.",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "30472992",
+   "doi": "10.1016/S2213-8587(18)30038-X",
+   "type": "rct",
+   "n": "264 adults with type 2 diabetes and periodontitis",
+   "finding": "Intensive periodontal treatment lowered HbA1c by 0.6% versus control treatment at 12 months."
+  },
+  {
+   "id": "abody-liu2019",
+   "authors": "Liu W, Cao Y, Dong L, et al.",
+   "year": 2019,
+   "title": "Periodontal therapy for primary or secondary prevention of cardiovascular disease in people with periodontitis.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "31887786",
+   "doi": "10.1002/14651858.CD009197.pub4",
+   "type": "meta-analysis",
+   "n": "2 RCTs",
+   "finding": "Cochrane: evidence is insufficient (very low certainty) to know whether periodontal therapy prevents cardiovascular disease."
+  },
+  {
+   "id": "abody-boivin2011",
+   "authors": "Boivin J, Griffiths E, Venetis CA",
+   "year": 2011,
+   "title": "Emotional distress in infertile women and failure of assisted reproductive technologies: meta-analysis of prospective psychosocial studies.",
+   "journal": "BMJ",
+   "pmid": "21345903",
+   "doi": "10.1136/bmj.d223",
+   "type": "meta-analysis",
+   "n": "3583 women in 14 studies",
+   "finding": "Pre-treatment emotional distress was not associated with IVF pregnancy (SMD -0.04)."
+  },
+  {
+   "id": "abody-purewal2018",
+   "authors": "Purewal S, Chapman SCE, van den Akker OBA",
+   "year": 2018,
+   "title": "Depression and state anxiety scores during assisted reproductive treatment are associated with outcome: a meta-analysis.",
+   "journal": "Reprod Biomed Online",
+   "pmid": "29622404",
+   "doi": "10.1016/j.rbmo.2018.03.010",
+   "type": "meta-analysis",
+   "n": "11 studies, 2202 patients",
+   "finding": "Women who conceived had lower depression and state-anxiety scores during treatment (SMD about -0.3), but changes from baseline did not predict outcome."
+  },
+  {
+   "id": "abody-lynch2014",
+   "authors": "Lynch CD, Sundaram R, Maisog JM, et al.",
+   "year": 2014,
+   "title": "Preconception stress increases the risk of infertility: results from a couple-based prospective cohort study--the LIFE study.",
+   "journal": "Hum Reprod",
+   "pmid": "24664130",
+   "doi": "10.1093/humrep/deu032",
+   "type": "cohort",
+   "n": "501 US couples (LIFE study)",
+   "finding": "High salivary alpha-amylase was associated with lower fecundability."
+  },
+  {
+   "id": "abody-meagher1999",
+   "authors": "Meagher EA, Barry OP, Burke A, et al.",
+   "year": 1999,
+   "title": "Alcohol-induced generation of lipid peroxidation products in humans.",
+   "journal": "J Clin Invest",
+   "pmid": "10491416",
+   "doi": "10.1172/JCI5584",
+   "type": "rct",
+   "n": "healthy volunteers",
+   "finding": "Acute alcohol raised urinary isoprostanes dose-dependently."
+  }
+ ],
+ "audit": [
+  {
+   "factor": "alcohol",
+   "verdict": "strengthened",
+   "claim": "Alcohol raises lipid-peroxidation markers with no antioxidant benefit, observational J-curves are confounded, and less is better (at most ~100 g/week if drinking).",
+   "biases": "The classic J-curve compares drinkers with 'abstainers' that include sick quitters and former heavy drinkers (reverse causation), and light drinkers have healthier lifestyles and higher socioeconomic status (residual confounding) [abody-stockwell2016, abody-biddinger2022].",
+   "newer_evidence": "Meta-analyses that separate lifetime abstainers and adjust for former-drinker bias find no mortality benefit of low-volume drinking (2016: RR 0.97 [abody-stockwell2016]; 2023, 107 cohorts: RR 0.93, not significant, with harm from 45 g/day [abody-zhao2023]). Mendelian randomization removes the U-shape: in 512,715 Chinese adults genotype-predicted intake raised stroke log-linearly [abody-millwood2019]; ADH1B carriers who drink less have less coronary disease [abody-holmes2014]; UK Biobank MR shows rising cardiovascular risk [abody-biddinger2022] and a linear rise in mortality [abody-kassaw2024]. WHO staff state no safe level for cancer can be set [abody-anderson2023]. On the other side, GBD 2020 still models a J-shaped burden curve for people over 40 (minimum risk 0.1-1.9 drinks/day) [abody-gbd2022], and a 2025 US National Academies review for the Dietary Guidelines re-examined moderate drinking and mortality [abody-nasem2025] (its graded conclusions could not be retrieved in this session). Caveat: non-linear MR methods used in some of these papers are themselves biased under common conditions [abody-burgess2023, abody-hamilton2024], so the cleanest genetic evidence is the linear and the China Kadoorie analyses.",
+   "bottom_line": "There is no good evidence that light drinking protects health: less is better. The ~100 g/week figure is a ceiling for current drinkers, not a safe dose.",
+   "site_change": {
+    "note": "Lifestyle and diet entries have debate: None; add a debate citing the abstainer-bias meta-analyses and MR studies on one side and GBD 2020's J-shaped curve for over-40s on the other. Clarify that the ~100 g/week threshold [Wood 2018] was derived in current drinkers only."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-stockwell2016",
+    "abody-zhao2023",
+    "abody-millwood2019",
+    "abody-holmes2014",
+    "abody-biddinger2022",
+    "abody-kassaw2024",
+    "abody-anderson2023",
+    "abody-gbd2022",
+    "abody-nasem2025",
+    "abody-burgess2023",
+    "abody-hamilton2024",
+    "abody-wood2018",
+    "abody-meagher1999"
+   ]
+  },
+  {
+   "factor": "aerobic-exercise-moderate",
+   "verdict": "weakened",
+   "claim": "Going from no activity to 150-300 min/week is associated with roughly 30-37% lower mortality, with most gain in the first 7,000-8,000 steps/day.",
+   "biases": "Healthy-user and reverse causation: people with preclinical disease move less (activity fell up to 9 years before a dementia diagnosis [abody-sabia2017]); genetic confounding: the same genes influence activity, fitness and survival [abody-karvinen2015].",
+   "newer_evidence": "The 1998 Finnish twin study found the association persisted within twin pairs (OR 0.44) [abody-kujala1998], but later analyses of the same twin resource found no mortality difference in activity-discordant identical twins [abody-karvinen2015] and at most 7% lower mortality that faded after accounting for familial factors and prevalent disease (2025) [abody-kankaanpaa2025]. MR studies are null for coronary disease, stroke and mortality [abody-bahls2021, abody-han2026], though one MR supports vigorous activity lowering hypertension and type 2 diabetes [abody-zhao2024]. The only long-term RCT in older adults (Generation 100) found no significant mortality reduction, with an active control group [abody-stensvold2020], and RCTs of ~50,000 people show no mortality or CVD reduction [abody-ballin2021]. Cohort dose-response remains strong [abody-arem2015].",
+   "bottom_line": "Exercise clearly improves fitness, blood pressure and glucose, but the 30-37% mortality figure is an upper bound; the causal effect on death is probably smaller and its size is unknown.",
+   "site_change": {
+    "impact": {
+     "general": 4
+    },
+    "headline": "Moving from no activity to 150-300 min/week is associated with 30-37% lower mortality in cohorts, but twin, genetic and trial data suggest much of that gap reflects genes and pre-existing illness; the benefits on fitness, blood pressure and glucose are proven in trials.",
+    "note": "Add Karvinen 2015, Sabia 2017 and the MR studies to the debate; the sperm entry's debate field is None and could cite the null PRESTO male-activity study."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-sabia2017",
+    "abody-karvinen2015",
+    "abody-kujala1998",
+    "abody-kankaanpaa2025",
+    "abody-bahls2021",
+    "abody-han2026",
+    "abody-zhao2024",
+    "abody-stensvold2020",
+    "abody-ballin2021",
+    "abody-arem2015"
+   ]
+  },
+  {
+   "factor": "cardiorespiratory-fitness",
+   "verdict": "weakened",
+   "claim": "Each 1-MET higher VO2max is associated with 11-17% lower mortality with no upper limit, though genetic analyses question causality.",
+   "biases": "Fitness is partly heritable and lowered by undiagnosed disease and fat mass, so measured fitness marks health as well as training (genetic confounding, reverse causation) [abody-karvinen2015].",
+   "newer_evidence": "Large treadmill cohorts continue to show strong graded associations [abody-mandsager2018]. Against a large causal effect: genes shared between fitness and survival [abody-karvinen2015], a 2025 two-sample MR finding genetically predicted VO2max not causal for longevity [abody-kjaergaard2025], and no significant mortality reduction in the Generation 100 training trial [abody-stensvold2020].",
+   "bottom_line": "Fitness is an excellent risk marker; how much raising your own VO2max extends life is uncertain.",
+   "site_change": {
+    "note": "Add Karvinen 2015 (shared genetics of fitness, activity and mortality) to the skeptic side of the debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-karvinen2015",
+    "abody-mandsager2018",
+    "abody-kjaergaard2025",
+    "abody-stensvold2020"
+   ]
+  },
+  {
+   "factor": "exercise-snacks",
+   "verdict": "weakened",
+   "claim": "Three 1-2 minute vigorous bouts a day are associated with 38-40% lower mortality; the cohort data may overstate the benefit.",
+   "biases": "Reverse causation: people who can climb stairs fast are healthier; UK Biobank volunteers are healthier than average.",
+   "newer_evidence": "The UK Biobank estimate [abody-stamatakis2022] was replicated in US NHANES wearables data, but confidence intervals mostly crossed 1 once people with heart disease or cancer were excluded (2026) [abody-koemel2026].",
+   "bottom_line": "Short vigorous bursts raise fitness modestly in small trials; the large mortality reduction seen in cohorts is probably inflated.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-stamatakis2022",
+    "abody-koemel2026"
+   ]
+  },
+  {
+   "factor": "hiit-vigorous-exercise",
+   "verdict": "holds",
+   "claim": "Intervals raise VO2max and mitochondria more per minute than steady exercise; hard mortality data for HIIT are thin.",
+   "biases": "Mostly RCT physiology, so confounding is not the main issue; small, short trials and unmatched energy expenditure are.",
+   "newer_evidence": "Generation 100 found a non-significant mortality advantage for HIIT over control (HR 0.63) [abody-stensvold2020], consistent with a possible but unproven benefit.",
+   "bottom_line": "The physiological benefits rest on trials and hold; a mortality benefit specific to HIIT remains unproven.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-stensvold2020"
+   ]
+  },
+  {
+   "factor": "post-meal-walking",
+   "verdict": "holds",
+   "claim": "A 10-15 minute walk after meals lowers post-meal glucose more than one daily walk; oxidative benefits are inferred.",
+   "biases": "Randomised crossover trials, so confounding is minimal; small samples and short duration are the limits.",
+   "newer_evidence": "The key randomised crossover showed 12% lower post-meal glucose with after-meal walks [abody-reynolds2016]; no newer trial overturns it.",
+   "bottom_line": "Holds for glucose; long-term outcome and oxidative-stress effects are untested.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-reynolds2016"
+   ]
+  },
+  {
+   "factor": "sedentary-time",
+   "verdict": "unclear",
+   "claim": "The most sedentary quarter has about 2.6x the mortality of the least sedentary, and breaking up sitting lowers glucose; direct oxidative evidence is weak.",
+   "biases": "Sitting time travels with low activity, poor health, obesity and lower education (confounding and reverse causation).",
+   "newer_evidence": "Device-measured cohorts show steep gradients [abody-ekelund2019], but an umbrella review rates the sedentary-mortality evidence weak [abody-rahmati2025]. Mendelian randomization disagrees: genetically predicted TV watching raised coronary disease (OR 1.44 per 1.5 h) [abody-vandevegte2020], whereas other MR analyses found no effect of sedentary behaviour on CAD, stroke or mortality [abody-bahls2021, abody-han2026]. TV-watching genetics overlap heavily with education and BMI [abody-vandevegte2020].",
+   "bottom_line": "Long sitting is a robust marker of risk; whether sitting itself causes harm independent of low activity is still unsettled. The glucose benefit of breaking up sitting is trial-based and holds.",
+   "site_change": {
+    "note": "Add the conflicting MR results (van de Vegte 2020 positive for TV and CAD; Bahls 2021 and Han 2026 null) to the debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-ekelund2019",
+    "abody-rahmati2025",
+    "abody-vandevegte2020",
+    "abody-bahls2021",
+    "abody-han2026"
+   ]
+  },
+  {
+   "factor": "resistance-training",
+   "verdict": "holds",
+   "claim": "Muscle-strengthening is associated with 10-27% lower mortality; strength and function gains are proven by RCTs; mortality benefit is observational.",
+   "biases": "Self-reported, observational mortality data with healthy-user bias.",
+   "newer_evidence": "An umbrella review rates resistance-training mortality evidence only suggestive [abody-rahmati2025]; trial evidence for strength and function stands.",
+   "bottom_line": "Holds as written: strength gains are causal, the mortality number is not established.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-rahmati2025"
+   ]
+  },
+  {
+   "factor": "overtraining-ultraendurance",
+   "verdict": "holds",
+   "claim": "Extreme volumes spike oxidative markers and raise coronary calcium and AF, yet very active people still have the lowest mortality.",
+   "biases": "Athletes self-select; coronary studies are cross-sectional; the 'extreme exercise J-curve' rests on tiny groups.",
+   "newer_evidence": "The Copenhagen strenuous-jogger estimate (HR 1.97) had a 95% CI of 0.48-8.14 [abody-schnohr2015], while pooled cohorts show no excess mortality even at 10x the guideline [abody-arem2015].",
+   "bottom_line": "Extreme training volumes spike oxidative markers and may raise coronary calcium and atrial fibrillation, but pooled cohorts show no excess mortality even at ten times the guideline amount.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-schnohr2015",
+    "abody-arem2015"
+   ]
+  },
+  {
+   "factor": "vigorous-exercise-low-energy",
+   "verdict": "holds",
+   "claim": "In lean women, 5+ h/week of vigorous exercise is associated with about 32% lower monthly chance of conception.",
+   "biases": "Self-reported activity; possible confounding by low energy availability and underlying menstrual disorders; single cohorts.",
+   "newer_evidence": "No newer causal study was found; the evidence remains the Danish and Norwegian cohorts [abody-wise2012, abody-gudmundsdottir2009], with the 2023 IOC consensus describing low energy availability as a cause of reproductive dysfunction [abody-mountjoy2023].",
+   "bottom_line": "Reasonable but limited; the mechanism (energy deficiency) is better established than the exercise-hours threshold.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-wise2012",
+    "abody-gudmundsdottir2009",
+    "abody-mountjoy2023"
+   ]
+  },
+  {
+   "factor": "short-sleep",
+   "verdict": "strengthened",
+   "claim": "Cutting sleep raises oxidative stress in small human studies; short and long sleep are both linked to lower sperm counts.",
+   "biases": "Long sleep is a classic marker of illness (reverse causation), so U-shaped curves overstate harm from long sleep; short sleep is confounded by shift work, depression and SES.",
+   "newer_evidence": "Meta-analysis shows both short (RR 1.12) and long sleep (RR 1.30) predict death [abody-cappuccio2010]. MR supports a causal effect of short sleep on MI (HR about 1.2) but not of long sleep [abody-daghlas2019]. A 2022 RCT found that extending sleep by 1.2 h/night cut energy intake by 270 kcal/day [abody-tasali2022].",
+   "bottom_line": "Short sleep is now supported as a cause of cardiometabolic harm by genetic and trial evidence; the long-sleep half of the U-curve is probably mostly a marker of illness.",
+   "site_change": {
+    "note": "Add Daghlas 2019 MR and the Tasali 2022 sleep-extension RCT to the lifestyle entry (debate is None). In the sperm entry, note that the long-sleep association is likely reverse causation."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-cappuccio2010",
+    "abody-daghlas2019",
+    "abody-tasali2022"
+   ]
+  },
+  {
+   "factor": "shift-work-circadian",
+   "verdict": "unclear",
+   "claim": "Shift work is linked to about 17% more cardiovascular events and ~10% more diabetes; lab misalignment raises glucose and blood pressure within days.",
+   "biases": "Shift workers are more often in lower social classes and smoke more (residual confounding), and the healthy-worker survivor effect keeps the most resilient on nights.",
+   "newer_evidence": "Meta-analysis supports a 17% CVD excess [abody-torquati2018], but in a cohort that adjusted for pre-employment risk and social class the IHD association disappeared (OR 1.04) [abody-yadegarfar2008]. For breast cancer, 10 prospective studies were null [abody-travis2016], while MR suggests morning chronotype protects [abody-richmond2019], implicating the body clock rather than shift work per se.",
+   "bottom_line": "The laboratory misalignment effects are real; the size of the long-term disease excess in shift workers is uncertain and partly social.",
+   "site_change": {
+    "note": "Add Yadegarfar 2008 (social-class confounding) to the debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-torquati2018",
+    "abody-yadegarfar2008",
+    "abody-travis2016",
+    "abody-richmond2019"
+   ]
+  },
+  {
+   "factor": "evening-light-exposure",
+   "verdict": "holds",
+   "claim": "Evening room light suppresses and delays melatonin; light while sleeping is linked to weight gain, diabetes and insulin resistance, but outcome links are observational.",
+   "biases": "Bright nights travel with urban living, poor sleep, shift work and illness (confounding, reverse causation).",
+   "newer_evidence": "A 2025 UK Biobank analysis of 88,905 sensor wearers linked the brightest nights to more coronary disease (aHR 1.32), heart failure and AF, robust to adjustment for SES and polygenic risk [abody-windred2025], extending the 2024 mortality analysis [abody-windred2024]; both are from the same group and remain observational.",
+   "bottom_line": "The melatonin physiology is trial-based; links to disease have grown but are still observational.",
+   "site_change": {
+    "note": "Add Windred 2025 (CVD outcomes) to the debate as further observational support."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-windred2025",
+    "abody-windred2024"
+   ]
+  },
+  {
+   "factor": "morning-light",
+   "verdict": "holds",
+   "claim": "Bright daytime light anchors the clock; UK Biobank brightest days were linked to 17-34% lower mortality, but these links are observational.",
+   "biases": "Reverse causation (sick people go outside less) and confounding by outdoor activity.",
+   "newer_evidence": "No new causal data; the main outcome study remains observational [abody-windred2024].",
+   "bottom_line": "Holds as worded.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-windred2024"
+   ]
+  },
+  {
+   "factor": "sauna",
+   "verdict": "weakened",
+   "claim": "Frequent sauna use is linked to lower cardiovascular death in Finnish cohorts, while sauna clearly impairs sperm reversibly.",
+   "biases": "Nearly all outcome data come from one Finnish cohort (KIHD, 2315 men) analysed for many outcomes by one group; frequent bathers are fitter, wealthier and healthier (healthy-user bias, residual confounding by SES), and multiplicity inflates chance findings.",
+   "newer_evidence": "The 2015 KIHD paper reported large mortality reductions [abody-laukkanen2015]; a 2022 re-analysis of the same cohort found a much smaller adjusted all-cause benefit (HR 0.86) and noted interaction with SES [abody-kunutsor2022]. A systematic review found only 13 of 40 sauna studies randomised and most under 40 people [abody-hussain2018]. The sperm harm is interventional and holds [abody-garolla2013].",
+   "bottom_line": "Sauna may modestly help vascular function, but cardiovascular-mortality claims rest on one cohort and are likely inflated; the sperm warning stands.",
+   "site_change": {
+    "note": "In the lifestyle entry, state that the cohort evidence is a single Finnish cohort and that a later adjusted analysis gave HR 0.86 for all-cause mortality; the entry's debate field is None."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-laukkanen2015",
+    "abody-kunutsor2022",
+    "abody-hussain2018",
+    "abody-garolla2013"
+   ]
+  },
+  {
+   "factor": "cold-water-immersion",
+   "verdict": "holds",
+   "claim": "Winter swimmers show higher antioxidant enzymes, but human evidence for health benefits is small and inconsistent.",
+   "biases": "Self-selected healthy winter swimmers; unblinded trials with expectancy effects.",
+   "newer_evidence": "A 2025 meta-analysis of 11 studies found an acute inflammatory response and a transient stress reduction at 12 h only [abody-cain2025]; the largest RCT cut self-reported sickness absence by 29% but not illness days [abody-buijze2016].",
+   "bottom_line": "Holds: benefits are modest, short-lived or self-reported.",
+   "site_change": {
+    "note": "Could add Cain 2025 and Buijze 2016 as the best controlled evidence."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-cain2025",
+    "abody-buijze2016"
+   ]
+  },
+  {
+   "factor": "meditation-yoga",
+   "verdict": "holds",
+   "claim": "Mind-body practices modestly lower cortisol and blood pressure; oxidative-damage evidence is weak.",
+   "biases": "Unblinded trials, expectancy and volunteer effects; passive controls inflate effects.",
+   "newer_evidence": "Meditation programmes give small-to-moderate improvements in anxiety and depression but are no better than active treatments [abody-goyal2014]; an IPD meta-analysis found distress fell (SMD -0.32) versus passive controls [abody-galante2023].",
+   "bottom_line": "Holds; psychological benefits are real but modest, oxidative claims remain unproven.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-goyal2014",
+    "abody-galante2023"
+   ]
+  },
+  {
+   "factor": "psychological-stress",
+   "verdict": "unclear",
+   "claim": "Stress is linked to oxidative markers with uncertain causality; for eggs, a meta-analysis found pre-treatment distress did not affect IVF pregnancy.",
+   "biases": "Reverse causation (infertility and failed cycles cause distress) and confounding by health behaviours.",
+   "newer_evidence": "The 2011 meta-analysis found pre-treatment distress unrelated to IVF pregnancy [abody-boivin2011], whereas a 2018 meta-analysis found lower depression and anxiety scores during treatment in women who conceived (SMD about -0.3), though changes from baseline did not predict outcome [abody-purewal2018]. Salivary alpha-amylase predicted lower fecundability in one cohort [abody-lynch2014].",
+   "bottom_line": "Stress before treatment does not appear to doom IVF; scores measured during treatment may partly reflect how the cycle is going.",
+   "site_change": {
+    "note": "Egg entry debate is None: add Purewal 2018 against Boivin 2011, with the reverse-causation caveat."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-boivin2011",
+    "abody-purewal2018",
+    "abody-lynch2014"
+   ]
+  },
+  {
+   "factor": "sleep-apnea",
+   "verdict": "holds",
+   "claim": "Night-time hypoxia-reoxygenation acts like ischaemia-reperfusion; CPAP raised total antioxidant capacity in a meta-analysis.",
+   "biases": "Marker studies are uncontrolled; adherence analyses suffer healthy-adherer bias.",
+   "newer_evidence": "The TAC finding stands [abody-hosseini2023], but in RCTs CPAP did not prevent cardiovascular events (SAVE, HR 1.10) [abody-mcevoy2016]; an IPD meta-analysis was null overall (HR 1.01), with benefit only in good adherers in an on-treatment analysis [abody-sanchezdelatorre2023].",
+   "bottom_line": "CPAP improves sleepiness, mood and some markers, but it has not been shown to prevent heart attacks or strokes in randomised trials.",
+   "site_change": {
+    "note": "Add the SAVE trial and the 2023 IPD meta-analysis so readers do not infer CPAP prevents cardiovascular events."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-hosseini2023",
+    "abody-mcevoy2016",
+    "abody-sanchezdelatorre2023"
+   ]
+  },
+  {
+   "factor": "excess-adiposity",
+   "verdict": "strengthened",
+   "claim": "Fat mass tracks systemic oxidative stress, obesity lowers male fertility and is associated with about 15% lower IVF live birth.",
+   "biases": "The 'obesity paradox' arises from smoking, illness-related weight loss (reverse causation) and collider bias [abody-horita2023]; fertility associations are confounded by PCOS and metabolic disease.",
+   "newer_evidence": "Among 3.95 million never-smokers free of disease, mortality was lowest at BMI 20-25 and rose log-linearly above 25 [abody-gbmc2016]. The 2019 non-linear MR J-curve [abody-sun2019] was revised in 2024 because its method's assumption failed; the reanalysis showed clear harm above BMI 25 and weak evidence of harm below 20 [abody-burgess2024], although non-linear MR remains error-prone [abody-hamilton2024]. MR supports genetically higher BMI and waist-hip ratio causing PCOS and other reproductive conditions [abody-venkatesh2022]. The IVF association holds [abody-sermondade2019].",
+   "bottom_line": "Excess fat is a cause, not just a marker, of disease and reproductive disorders; the obesity paradox is largely an artefact.",
+   "site_change": {
+    "note": "Debate fields are None in all three entries; add the obesity-paradox/collider-bias debate and the Burgess 2024 correction of the BMI non-linear MR."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-horita2023",
+    "abody-gbmc2016",
+    "abody-sun2019",
+    "abody-burgess2024",
+    "abody-hamilton2024",
+    "abody-venkatesh2022",
+    "abody-sermondade2019"
+   ]
+  },
+  {
+   "factor": "weight-loss",
+   "verdict": "holds",
+   "claim": "Losing excess fat cuts F2-isoprostanes; in women, weight-loss programmes raise natural conception but do not improve IVF live birth.",
+   "biases": "Observational weight loss mixes intentional loss with illness-driven loss (reverse causation), so trials are needed.",
+   "newer_evidence": "Look AHEAD's lifestyle weight loss did not reduce cardiovascular events (HR 0.95) [abody-lookahead2013]; bariatric surgery in the controlled SOS study lowered mortality (HR 0.77) [abody-carlsson2020]; semaglutide cut major cardiovascular events 20% in SELECT [abody-lincoff2023]. Fertility RCTs confirm no IVF live-birth gain [abody-mutsaerts2016, abody-einarsson2017].",
+   "bottom_line": "Large, sustained weight loss improves hard outcomes; modest lifestyle loss improves risk factors but has not cut heart events in a trial.",
+   "site_change": {
+    "note": "Lifestyle entry debate is None; add Look AHEAD (null for CV events) against SOS and SELECT."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-lookahead2013",
+    "abody-carlsson2020",
+    "abody-lincoff2023",
+    "abody-mutsaerts2016",
+    "abody-einarsson2017"
+   ]
+  },
+  {
+   "factor": "glp1-agonists",
+   "verdict": "strengthened",
+   "claim": "Semaglutide and tirzepatide cut weight by 15-21% and lower CRP and MDA, with lean-mass loss unless resistance training is added.",
+   "biases": "RCT evidence; main concerns are industry funding and surrogate outcomes for the redox claims.",
+   "newer_evidence": "Beyond weight [abody-wilding2021], SELECT (17,604 people with CVD and overweight, no diabetes) showed 20% fewer major cardiovascular events (HR 0.80), with twice as many stopping for adverse events (16.6% vs 8.2%) [abody-lincoff2023].",
+   "bottom_line": "The case for GLP-1 drugs now includes hard cardiovascular outcomes, not only weight and markers; the MDA evidence remains thin.",
+   "site_change": {
+    "headline": "Semaglutide and tirzepatide cut body weight by about 15-21% in 68-72-week trials, semaglutide cut major cardiovascular events by 20% in people with heart disease and overweight (SELECT), and they lower CRP, but roughly a quarter to a third of weight lost is lean mass unless resistance training is added."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-wilding2021",
+    "abody-lincoff2023"
+   ]
+  },
+  {
+   "factor": "glycemic-control",
+   "verdict": "weakened",
+   "claim": "In type 2 diabetes urinary 8-iso-PGF2a tracked glucose variability (r = 0.86) rather than HbA1c, so reducing spikes is a meaningful lever.",
+   "biases": "The headline rests on 21 patients (small-study and selection effects); later studies with continuous glucose monitoring did not replicate it.",
+   "newer_evidence": "No relationship between glucose variability and urinary isoprostanes was found in type 1 diabetes (2008) [abody-wentholt2008] or in well-controlled type 2 diabetes (2011) [abody-siegelaar2011], although diabetes itself raised isoprostanes. On outcomes, targeting HbA1c below 6.0% in ACCORD increased mortality (HR 1.22) [abody-accord2008], so 'normal range' targets need individualising.",
+   "bottom_line": "High glucose and diabetes are harmful, but the specific claim that glucose swings drive oxidative stress more than average glucose rests on one small study that failed to replicate.",
+   "site_change": {
+    "headline": "Diabetes raises urinary isoprostanes and hyperglycaemia drives mitochondrial superoxide and AGEs; a much-cited small study tied isoprostanes to glucose swings (r = 0.86, 21 patients), but larger CGM studies in type 1 and type 2 diabetes found no such link.",
+    "note": "Add Wentholt 2008 and Siegelaar 2011 to caveats/debate (both entries have debate: None); qualify 'keep glucose in the normal range' with ACCORD's excess mortality from intensive targets in high-risk diabetes."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-monnier2006",
+    "abody-wentholt2008",
+    "abody-siegelaar2011",
+    "abody-accord2008"
+   ]
+  },
+  {
+   "factor": "chronic-inflammation",
+   "verdict": "strengthened",
+   "claim": "Activated immune cells are a major oxidant source and persistent inflammation keeps oxidative stress high; treat the source.",
+   "biases": "CRP associations with heart disease were confounded; CRP is a marker, not a cause.",
+   "newer_evidence": "Genetically raised CRP does not raise coronary risk [abody-ccgc2011], but the IL-6 receptor pathway is causal by MR [abody-il6r2012], and trials confirm that blocking inflammation lowers events: canakinumab (HR 0.85) [abody-ridker2017] and colchicine in chronic coronary disease (HR 0.69) [abody-nidorf2020]. Colchicine started after acute MI did not help (HR 0.99) [abody-jolly2025].",
+   "bottom_line": "Inflammation is a proven cause of cardiovascular events, though not every anti-inflammatory works in every setting, and CRP is a marker rather than a target.",
+   "site_change": {
+    "evidence": "strong",
+    "note": "Debate is None; add that IL-1/IL-6 pathway trials and MR establish causality while CRP itself is not causal, and that the CLEAR trial was null after MI."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-ccgc2011",
+    "abody-il6r2012",
+    "abody-ridker2017",
+    "abody-nidorf2020",
+    "abody-jolly2025"
+   ]
+  },
+  {
+   "factor": "periodontal-disease",
+   "verdict": "unclear",
+   "claim": "Periodontitis is associated with lower antioxidant capacity and higher MDA, and treatment lowers oxidative markers.",
+   "biases": "Smoking, diabetes and SES drive both gum disease and systemic disease (confounding); smoking causes periodontitis by MR [abody-larsson2022].",
+   "newer_evidence": "The marker association stands [abody-liu2014]. Systemic-outcome trials conflict: periodontal therapy did not lower HbA1c in a 514-person RCT [abody-engebretson2013] but lowered it by 0.6% in a 264-person 12-month RCT [abody-daiuto2018]; Cochrane found insufficient evidence on cardiovascular prevention [abody-liu2019].",
+   "bottom_line": "Treating gum disease is worthwhile for the mouth; systemic benefits remain unproven.",
+   "site_change": {
+    "note": "Debate is None; add the conflicting diabetes trials and the Cochrane CVD review."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-liu2014",
+    "abody-larsson2022",
+    "abody-engebretson2013",
+    "abody-daiuto2018",
+    "abody-liu2019"
+   ]
+  },
+  {
+   "factor": "tobacco-smoking",
+   "verdict": "holds",
+   "claim": "Smoking roughly doubles F2-isoprostanes and is the largest lifestyle lever for oxidative stress, sperm and eggs.",
+   "biases": "Fertility data are observational, but dose-response, cessation reversal and genetic evidence argue against confounding.",
+   "newer_evidence": "Isoprostane doubling is long established [abody-morrow1995]; a 2022 meta-analysis of MR studies confirms smoking causes a wide range of diseases, including type 2 diabetes, periodontitis and PCOS [abody-larsson2022].",
+   "bottom_line": "Holds; genetic evidence strengthens causality.",
+   "site_change": {
+    "note": "Debate fields are None; can cite the MR meta-analysis as causal support."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-morrow1995",
+    "abody-larsson2022"
+   ]
+  },
+  {
+   "factor": "vaping",
+   "verdict": "holds",
+   "claim": "Vaping causes less oxidative stress than smoking but more than nothing; dual use is worse than smoking alone.",
+   "biases": "Most vapers are current or former smokers, so cohort harms attributed to vaping are confounded by smoking history and timing (reverse causation).",
+   "newer_evidence": "Biomarkers: exclusive vapers have 10-98% lower toxicant exposure than smokers but more than never users, and dual users the most [abody-goniewicz2018]; acute vaping raises oxidative markers [abody-carnevale2016]. Outcomes: in PATH, exclusive vaping was not associated with incident CVD (HR 1.00) while smoking and dual use were (about 1.5) [abody-berlowitz2022]. A 2019 paper linking vaping to heart attacks was retracted in 2020 because it never established whether the infarctions came before or after vaping started [abody-bhatta2019]. Cochrane finds e-cigarettes help smokers quit better than NRT [abody-lindson2025].",
+   "bottom_line": "Holds: vaping is not harmless but much less toxic than smoking; quitting both is best.",
+   "site_change": {
+    "note": "Debate is None; add the retracted Bhatta 2019 MI study as a cautionary example, PATH outcome data, and the Cochrane cessation review."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-goniewicz2018",
+    "abody-carnevale2016",
+    "abody-berlowitz2022",
+    "abody-bhatta2019",
+    "abody-lindson2025"
+   ]
+  },
+  {
+   "factor": "cannabis",
+   "verdict": "unclear",
+   "claim": "Regular cannabis use is associated with more sperm DNA fragmentation and chromosome abnormalities in small studies.",
+   "biases": "Confounding by tobacco co-use, alcohol and lifestyle; differences in abstinence time before sampling; small clinic samples.",
+   "newer_evidence": "The cited study is small and exploratory [abody-verhaeghe2020]. A meta-analysis of 9 studies found no significant association with abnormal semen (RR 1.16, 0.84-1.60) or testosterone [abody-belladelli2021]; newer cross-sectional studies found inconsistent associations [abody-belladelli2023] and apparent motility differences explained by abstinence time [abody-zufferey2024].",
+   "bottom_line": "Human evidence that cannabis damages sperm is weak and inconsistent; stopping before conception is a reasonable precaution, not a proven fix.",
+   "site_change": {
+    "impact": {
+     "sperm": 1
+    },
+    "note": "Debate is None; add the 2021 meta-analysis (null) and confounding by abstinence time and tobacco."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-verhaeghe2020",
+    "abody-belladelli2021",
+    "abody-belladelli2023",
+    "abody-zufferey2024"
+   ]
+  },
+  {
+   "factor": "statins",
+   "verdict": "strengthened",
+   "claim": "Statins lower oxidized LDL and CRP; only about 1 in 15 muscle complaints on statins is caused by the drug.",
+   "biases": "Observational and open-label studies attribute nocebo symptoms to the drug.",
+   "newer_evidence": "Blinded trials confirm the nocebo explanation: in SAMSON, symptoms on placebo were 90% of those on statin [abody-howard2021]; StatinWISE n-of-1 trials found no excess muscle symptoms with atorvastatin in people who had quit for muscle pain [abody-herrett2021]; the CTT individual-data meta-analysis agrees [abody-ctt2022].",
+   "bottom_line": "Most statin muscle symptoms are not caused by the drug; supervised re-challenge is usually successful.",
+   "site_change": {
+    "note": "Add SAMSON and StatinWISE to the debate on muscle symptoms."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-howard2021",
+    "abody-herrett2021",
+    "abody-ctt2022"
+   ]
+  },
+  {
+   "factor": "metformin",
+   "verdict": "holds",
+   "claim": "Metformin blunts some training gains and lowers B12; it is not an anti-ageing supplement, and the UK survival advantage was not reproduced.",
+   "biases": "Immortal-time and time-window biases created illusory benefits in metformin cohorts [abody-suissa2012]; comparisons with non-diabetic controls are prone to selection and informative censoring.",
+   "newer_evidence": "The Bannister survival advantage [abody-bannister2014] reversed in Danish registry and twin data [abody-keys2022]. A 2025 target-trial emulation found metformin users more likely than sulfonylurea users to reach age 90 (HR 0.70), but against an active comparator that may itself be harmful and with acknowledged residual confounding [abody-shadyab2025].",
+   "bottom_line": "Holds: there is still no randomised evidence that metformin slows ageing in people without diabetes.",
+   "site_change": {
+    "note": "Add Suissa 2012 (time-related biases) as the classic explanation for metformin's observational halo, and Shadyab 2025 as new but non-randomised support."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-suissa2012",
+    "abody-bannister2014",
+    "abody-keys2022",
+    "abody-shadyab2025"
+   ]
+  },
+  {
+   "factor": "acetaminophen",
+   "verdict": "holds",
+   "claim": "Acetaminophen is detoxified by glutathione and 4 g/day raises ALT; the prenatal autism/ADHD association shrinks to nothing in sibling comparisons.",
+   "biases": "Confounding by maternal fever, infection, pain and familial (genetic) factors; exposure misclassification.",
+   "newer_evidence": "The Swedish sibling analysis found no association (autism HR 0.98) [abody-ahlqvist2024]. A 2025 BMJ umbrella review rated the reviews reporting a link as low to critically low quality and noted associations vanish in sibling-controlled studies [abody-sheikh2025]; a 2026 meta-meta-analysis found small associations that attenuated toward null in higher-quality studies [abody-tayebihillali2026]. A 2025 Navigation Guide review still urged precaution [abody-prada2025].",
+   "bottom_line": "The best-controlled evidence does not support a causal link to autism or ADHD; use when indicated at the lowest effective dose.",
+   "site_change": {
+    "note": "Add Sheikh 2025 (BMJ umbrella review) and Tayebi-Hillali 2026 to the pregnancy debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-ahlqvist2024",
+    "abody-sheikh2025",
+    "abody-tayebihillali2026",
+    "abody-prada2025"
+   ]
+  },
+  {
+   "factor": "nsaids",
+   "verdict": "weakened",
+   "claim": "Daily high-dose ibuprofen blunts muscle growth in the young; continuous periovulatory NSAIDs can block follicle rupture, and NSAIDs around conception were linked to miscarriage (aHR 1.89).",
+   "biases": "Miscarriage studies are vulnerable to protopathic bias (NSAIDs taken for the pain of an impending miscarriage), immortal-time bias and confounding by indication.",
+   "newer_evidence": "The Kaiser cohort reported aHR 1.89 [abody-li2018], but a 65,457-pregnancy Israeli cohort found no independent association (aHR 1.10) [abody-daniel2014]; the same group showed that fixed-exposure analyses create immortal-time bias [abody-daniel2015a] and that NSAID dispensing spikes in the days before a miscarriage, with the association disappearing when those days are excluded [abody-daniel2015b]. A 2024 meta-analysis found the miscarriage association non-significant (OR 1.20) [abody-chen2024].",
+   "bottom_line": "The muscle and ovulation findings stand as limited evidence; the miscarriage signal is probably largely bias.",
+   "site_change": {
+    "note": "Egg entry: add Daniel 2014/2015 and describe the aHR 1.89 as likely inflated by protopathic bias rather than headline it unqualified."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-li2018",
+    "abody-daniel2014",
+    "abody-daniel2015a",
+    "abody-daniel2015b",
+    "abody-chen2024"
+   ]
+  },
+  {
+   "factor": "ppi-acid-suppressants",
+   "verdict": "holds",
+   "claim": "Long-term PPIs are linked to B12, iron and magnesium deficiency in observational data, but the COMPASS RCT found no excess harm except gut infections.",
+   "biases": "Confounding by indication and illness in observational studies.",
+   "newer_evidence": "COMPASS (17,598) remains the key trial [abody-moayyedi2019]; the B12 case-control association [abody-lam2013] persists. For dementia, a frequently publicised harm, MR found no robust causal effect [abody-xie2024].",
+   "bottom_line": "Holds: nutrient monitoring on long-term use is sensible; most feared harms are not supported by the trial.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-moayyedi2019",
+    "abody-lam2013",
+    "abody-xie2024"
+   ]
+  },
+  {
+   "factor": "ssris",
+   "verdict": "unclear",
+   "claim": "Four weeks of paroxetine doubled sperm DNA fragmentation in 35 men; in women, depression rather than medication explains lower fecundability.",
+   "biases": "Uncontrolled single-arm designs; confounding by underlying depression.",
+   "newer_evidence": "The paroxetine study remains small and uncontrolled [abody-tanrikut2010]; in a preconception cohort, male depression rather than medication explained most of a weak fecundability association [abody-yland2022]. No newer controlled trial was found.",
+   "bottom_line": "A plausible but unconfirmed sperm DNA effect; no evidence of lower live birth.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-tanrikut2010",
+    "abody-yland2022"
+   ]
+  },
+  {
+   "factor": "blood-donation",
+   "verdict": "holds",
+   "claim": "Donors live longer mostly because of the healthy-donor effect; donation is not a proven health intervention.",
+   "biases": "Healthy-donor selection and retention.",
+   "newer_evidence": "A 2025 target-trial emulation in 121,967 Australians found crude donor mortality lower (HR 0.57) but no effect after full adjustment (HR 1.0) [abody-rahman2025]; Danish data show donors are healthier and more engaged from the start [abody-brodersen2023], consistent with the earlier Scandinavian analysis [abody-ullum2015].",
+   "bottom_line": "Holds and is strengthened: donation does not lower mortality once selection is handled.",
+   "site_change": {
+    "note": "Add Rahman 2025 target-trial emulation (HR 1.0) to the debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-rahman2025",
+    "abody-brodersen2023",
+    "abody-ullum2015"
+   ]
+  },
+  {
+   "factor": "iron-status-ferritin",
+   "verdict": "holds",
+   "claim": "Ferritin predicts diabetes and MR supports a causal diabetes link, but the iron-heart hypothesis failed.",
+   "biases": "Ferritin is an acute-phase reactant (confounding by inflammation and fatty liver).",
+   "newer_evidence": "MR indicating higher iron slightly lowers coronary risk [abody-gill2017]; no new trial has changed this.",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-gill2017"
+   ]
+  },
+  {
+   "factor": "iron-deficiency",
+   "verdict": "holds",
+   "claim": "Iron deficiency causes fatigue even without anaemia, and iron reduced fatigue in an RCT.",
+   "biases": "RCT-based; deficiency harms are not seriously confounded.",
+   "newer_evidence": "The fatigue RCT [abody-vaucher2012] and the 2021 Lancet seminar [abody-pasricha2021] stand.",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-vaucher2012",
+    "abody-pasricha2021"
+   ]
+  },
+  {
+   "factor": "magnesium-status",
+   "verdict": "holds",
+   "claim": "Many adults eat below requirement; supplements modestly lower CRP; 'magnesium crisis' claims overreach.",
+   "biases": "Serum magnesium is a poor marker and low intake travels with poor diet (confounding).",
+   "newer_evidence": "MR found genetically higher serum magnesium associated with lower coronary disease (OR 0.88 per 0.1 mmol/L) [abody-larsson2018], modest support for a causal role, but no outcome trial exists.",
+   "bottom_line": "Holds; correcting low intake is reasonable, the cardiovascular benefit of supplements is unproven.",
+   "site_change": {
+    "note": "Add Larsson 2018 MR to the debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-larsson2018"
+   ]
+  },
+  {
+   "factor": "vitamin-b12-folate-status",
+   "verdict": "holds",
+   "claim": "Correcting deficiency is essential and folic acid cut stroke in unfortified China, but homocysteine lowering did not prevent heart attacks.",
+   "biases": "Homocysteine associations were confounded and genetic studies showed effect modification by population folate.",
+   "newer_evidence": "MTHFR effects on homocysteine and stroke were large only in low-folate Asia, and trials in folate-replete regions matched the genetic prediction of no benefit [abody-holmes2011].",
+   "bottom_line": "Holds: benefit depends on baseline folate status.",
+   "site_change": {
+    "note": "Add Holmes 2011 to the debate as the genetic explanation for the null Western trials."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-holmes2011"
+   ]
+  },
+  {
+   "factor": "vitamin-c-status",
+   "verdict": "holds",
+   "claim": "Plasma vitamin C plateaus at ~200 mg/day; once saturated, more vitamin C does not lower F2-isoprostanes; 'more is better' rests on observational data.",
+   "biases": "Plasma vitamin C is a marker of fruit and vegetable intake, smoking and SES (confounding).",
+   "newer_evidence": "Measured plasma vitamin C predicted lower diabetes risk but genetically predicted vitamin C did not (HR 1.03) [abody-zheng2021]; genetic estimates for heart disease and mortality were non-significant [abody-kobylecki2015].",
+   "bottom_line": "Holds and is strengthened: high plasma vitamin C mostly marks a healthy diet.",
+   "site_change": {
+    "note": "Add the MR studies to the debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-zheng2021",
+    "abody-kobylecki2015"
+   ]
+  },
+  {
+   "factor": "sunscreen",
+   "verdict": "holds",
+   "claim": "In the Nambour RCT daily sunscreen reduced photoaging and squamous-cell cancer and was followed by half as many melanomas.",
+   "biases": "Observational null results are confounded by sun-seeking, fair-skinned people using more sunscreen.",
+   "newer_evidence": "The RCT follow-up (melanoma HR 0.50) [abody-green2011] and the bias analysis showing adjustment moves estimates toward protection [abody-rueegg2019] outweigh the unadjusted null meta-analysis [abody-silva2018].",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "abody-green2011",
+    "abody-rueegg2019",
+    "abody-silva2018"
+   ]
+  },
+  {
+   "factor": "uv-sun-exposure",
+   "verdict": "holds",
+   "claim": "Chronic unprotected UV drives photoaging and skin cancer; sunscreen use is unlikely to compromise vitamin D.",
+   "biases": "Claims that sun avoidance shortens life come from cohorts where healthier, more active people spend more time outdoors (healthy-user, reverse causation).",
+   "newer_evidence": "A Swedish cohort reported twice the mortality in sun avoiders [abody-lindqvist2014]; this observational finding is often cited against sun protection but cannot separate sun from health and activity.",
+   "bottom_line": "Holds; avoid burning, and test vitamin D rather than seek UV.",
+   "site_change": {
+    "note": "Debate could mention Lindqvist 2014 as the main contrary claim and its confounding."
+   },
+   "as_of": 2026,
+   "refs": [
+    "abody-lindqvist2014"
+   ]
+  }
+ ]
+}

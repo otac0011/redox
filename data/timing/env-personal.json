@@ -1,0 +1,788 @@
+{
+ "references": [
+  {
+   "id": "epc-aamir2025",
+   "authors": "Aamir AB, Latif R, Sorath F, et al.",
+   "year": 2025,
+   "title": "Acute kidney injury induced by topical hair straightening products: A systematic review.",
+   "journal": "World J Nephrol",
+   "pmid": "41479821",
+   "doi": "10.5527/wjn.v14.i4.112796",
+   "type": "review",
+   "n": "36 patients in published reports",
+   "finding": "Systematic review of acute kidney injury after hair straightening (formaldehyde, glycolic and glyoxylic acid products): median onset 2 days, 6 needed dialysis, all recovered."
+  },
+  {
+   "id": "epc-aiello2007",
+   "authors": "Aiello AE, Larson EL, Levy SB",
+   "year": 2007,
+   "title": "Consumer antibacterial soaps: effective or just risky?",
+   "journal": "Clin Infect Dis",
+   "pmid": "17683018",
+   "doi": "10.1086/519255",
+   "type": "review",
+   "n": "27 studies",
+   "finding": "Systematic review: consumer soaps with 0.1-0.45% triclosan were no more effective than plain soap at preventing infectious symptoms or reducing hand bacteria; lab data showed cross-resistance to antibiotics."
+  },
+  {
+   "id": "epc-allmyr2009",
+   "authors": "Allmyr M, Panagiotidis G, Sparve E, et al.",
+   "year": 2009,
+   "title": "Human exposure to triclosan via toothpaste does not change CYP3A4 activity or plasma concentrations of thyroid hormones.",
+   "journal": "Basic Clin Pharmacol Toxicol",
+   "pmid": "19686543",
+   "doi": "10.1111/j.1742-7843.2009.00455.x",
+   "type": "cohort",
+   "n": "12 adults, 14 days",
+   "finding": "Triclosan toothpaste raised plasma triclosan from 0.009-0.81 to 26-296 ng/g without changing CYP3A4 activity or thyroid hormones."
+  },
+  {
+   "id": "epc-bertrand2023",
+   "authors": "Bertrand KA, Delp L, Coogan PF, et al.",
+   "year": 2023,
+   "title": "Hair relaxer use and risk of uterine cancer in the Black Women's Health Study.",
+   "journal": "Environ Res",
+   "pmid": "37821068",
+   "doi": "10.1016/j.envres.2023.117228",
+   "type": "cohort",
+   "n": "44,798 Black women (BWHS)",
+   "finding": "Heavy hair-relaxer use was not associated with uterine cancer overall (HR 1.18, CI 0.81-1.71), but in postmenopausal women heavy and 20+ year use went with HRs of 1.64-1.71."
+  },
+  {
+   "id": "epc-chang2022",
+   "authors": "Chang CJ, O'Brien KM, Keil AP, et al.",
+   "year": 2022,
+   "title": "Use of Straighteners and Other Hair Products and Incident Uterine Cancer.",
+   "journal": "J Natl Cancer Inst",
+   "pmid": "36245087",
+   "doi": "10.1093/jnci/djac165",
+   "type": "cohort",
+   "n": "33,947 women (Sister Study)",
+   "finding": "Straightener use in the prior 12 months was associated with higher uterine cancer incidence (HR 1.80), 2.55 with more than 4 uses a year; dyes and perms were not associated."
+  },
+  {
+   "id": "epc-dewalque2015",
+   "authors": "Dewalque L, Pirard C, Vandepaer S, et al.",
+   "year": 2015,
+   "title": "Temporal variability of urinary concentrations of phthalate metabolites, parabens and benzophenone-3 in a Belgian adult population.",
+   "journal": "Environ Res",
+   "pmid": "26233661",
+   "doi": "10.1016/j.envres.2015.07.015",
+   "type": "cohort",
+   "n": "32 adults, 11 spot urines each over 4 months",
+   "finding": "A single spot urine reasonably represented 4-month exposure for parabens, benzophenone-3 and monoethyl phthalate, but not for DEHP metabolites."
+  },
+  {
+   "id": "epc-estill2021",
+   "authors": "Estill CF, Mayer A, Slone J, et al.",
+   "year": 2021,
+   "title": "Assessment of triphenyl phosphate (TPhP) exposure to nail salon workers by air, hand wipe, and urine analysis.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "33035739",
+   "doi": "10.1016/j.ijheh.2020.113630",
+   "type": "cross-sectional",
+   "n": "12 nail salon technicians",
+   "finding": "Post-shift urinary DPHP (1.35 vs 0.84 ug/g creatinine pre-shift) and hand-wipe TPHP rose over the workday and correlated, pointing to dermal uptake in technicians."
+  },
+  {
+   "id": "epc-gonzalez2006",
+   "authors": "Gonzalez H, Farbrot A, Larkö O, et al.",
+   "year": 2006,
+   "title": "Percutaneous absorption of the sunscreen benzophenone-3 after repeated whole-body applications, with and without ultraviolet irradiation.",
+   "journal": "Br J Dermatol",
+   "pmid": "16433806",
+   "doi": "10.1111/j.1365-2133.2005.07007.x",
+   "type": "mechanistic",
+   "n": "25 volunteers, 5 days of twice-daily application",
+   "finding": "Volunteers excreted 1.2-8.7% of applied BP-3 in urine and were still excreting it 5 days after the last application; UV exposure did not change absorption."
+  },
+  {
+   "id": "epc-gougeon1986",
+   "authors": "Gougeon A",
+   "year": 1986,
+   "title": "Dynamics of follicular growth in the human: a model from preliminary results.",
+   "journal": "Hum Reprod",
+   "pmid": "3558758",
+   "doi": "10.1093/oxfordjournals.humrep.a136365",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The ovulatory follicle derives from a cohort of pre-antral follicles that began differentiating about 85 days earlier; final recruitment occurs 15-20 days before ovulation."
+  },
+  {
+   "id": "epc-harley2016",
+   "authors": "Harley KG, Kogut K, Madrigal DS, et al.",
+   "year": 2016,
+   "title": "Reducing Phthalate, Paraben, and Phenol Exposure from Personal Care Products in Adolescent Girls: Findings from the HERMOSA Intervention Study.",
+   "journal": "Environ Health Perspect",
+   "pmid": "26947464",
+   "doi": "10.1289/ehp.1510514",
+   "type": "cohort",
+   "n": "100 Latina adolescent girls, pre-post",
+   "finding": "Three days of products labelled free of phthalates, parabens, triclosan and BP-3 lowered urinary MEP 27%, methylparaben 44%, propylparaben 45%, triclosan 36% and BP-3 36%; ethyl- and butylparaben unexpectedly rose."
+  },
+  {
+   "id": "epc-heller1963",
+   "authors": "HELLER CG, CLERMONT Y",
+   "year": 1963,
+   "title": "Spermatogenesis in man: an estimate of its duration.",
+   "journal": "Science",
+   "pmid": "13953583",
+   "doi": "10.1126/science.140.3563.184",
+   "type": "mechanistic",
+   "n": "men given tritiated thymidine",
+   "finding": "One seminiferous epithelial cycle lasts about 16 days and spermatogenesis about 64 days."
+  },
+  {
+   "id": "epc-huang2021",
+   "authors": "Huang K, Zhang X, Wang B, et al.",
+   "year": 2021,
+   "title": "Accurate assessment of parabens exposure in healthy Chinese female adults: Findings from a multi-pathway exposure assessment coupled with intervention study.",
+   "journal": "Environ Res",
+   "pmid": "33249036",
+   "doi": "10.1016/j.envres.2020.110540",
+   "type": "cohort",
+   "n": "10 women, 18-day controlled-use study",
+   "finding": "Personal-care products supplied over 99% of paraben exposure; unadjusted spot-urine intraclass correlations were poor (0.13-0.30) and improved only after kinetic modelling."
+  },
+  {
+   "id": "epc-hutter2010",
+   "authors": "Hutter HP, Wallner P, Hartl W, et al.",
+   "year": 2010,
+   "title": "Higher blood concentrations of synthetic musks in women above fifty years than in younger women.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "20056483",
+   "doi": "10.1016/j.ijheh.2009.12.002",
+   "type": "cross-sectional",
+   "n": "53 women over 50",
+   "finding": "Older women had higher plasma synthetic musks than younger women; galaxolide tracked frequent use of perfume, deodorant and shampoo."
+  },
+  {
+   "id": "epc-janjua2008",
+   "authors": "Janjua NR, Kongshoj B, Andersson AM, et al.",
+   "year": 2008,
+   "title": "Sunscreens in human plasma and urine after repeated whole-body topical application.",
+   "journal": "J Eur Acad Dermatol Venereol",
+   "pmid": "18221342",
+   "doi": "10.1111/j.1468-3083.2007.02492.x",
+   "type": "cohort",
+   "n": "32 volunteers, 4 days whole-body application",
+   "finding": "BP-3, 4-MBC and OMC appeared in plasma 1-2 h after first application; some 96-h plasma levels exceeded 24-h levels, suggesting accumulation."
+  },
+  {
+   "id": "epc-jovanovic2026",
+   "authors": "Jovanovic N, Bright F, Thomsen C, et al.",
+   "year": 2026,
+   "title": "Levers to decrease exposure to harmful chemicals: the case of Personal Care Products and cosmetics.",
+   "journal": "Environ Int",
+   "pmid": "42001662",
+   "doi": "10.1016/j.envint.2026.110243",
+   "type": "cohort",
+   "n": "103 women aged 18-30, 5-day intervention",
+   "finding": "Refraining from usual personal-care products for 5 days lowered urinary phenoxyacetic acid 64%, BPA 39%, methylparaben 30% and MEP 22%, but several chemicals remained detectable; authors argue regulation would be more efficient and fairer."
+  },
+  {
+   "id": "epc-kang2025",
+   "authors": "Kang H, Kim S, Lee H, et al.",
+   "year": 2025,
+   "title": "Parabens, bisphenols, and other environmental phenols exposure from cosmetics use in Korean adolescent girls: Findings from a 2-day intervention study.",
+   "journal": "Environ Res",
+   "pmid": "40451416",
+   "doi": "10.1016/j.envres.2025.122039",
+   "type": "cohort",
+   "n": "74 Korean adolescent girls, 2-day restriction",
+   "finding": "A 2-day cosmetics restriction did not lower chemical levels overall; excluding non-users at baseline, BPA fell 33% and benzophenones 12-23%."
+  },
+  {
+   "id": "epc-kim2021",
+   "authors": "Kim JH, Kwak JM, Kang H",
+   "year": 2021,
+   "title": "Web-based behavioral intervention to reduce exposure to phthalate metabolites, bisphenol A, triclosan, and parabens in mothers with young children: A randomized controlled trial.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "34186503",
+   "doi": "10.1016/j.ijheh.2021.113798",
+   "type": "rct",
+   "n": "51 mothers of young children",
+   "finding": "A web-based behavioural intervention lowered urinary MEHP, MEOHP, BPA, methylparaben and propylparaben versus written information (decreases of 4-28% after one month)."
+  },
+  {
+   "id": "epc-li2018",
+   "authors": "Li Y, Fletcher T, Mucs D, et al.",
+   "year": 2018,
+   "title": "Half-lives of PFOS, PFHxS and PFOA after end of exposure to contaminated drinking water.",
+   "journal": "Occup Environ Med",
+   "pmid": "29133598",
+   "doi": "10.1136/oemed-2017-104651",
+   "type": "cohort",
+   "n": "106 residents of Ronneby, Sweden",
+   "finding": "After contaminated water was replaced, serum PFAS half-lives were 5.3 years for PFHxS, 3.4 for PFOS and 2.7 for PFOA."
+  },
+  {
+   "id": "epc-matta2019",
+   "authors": "Matta MK, Zusterzeel R, Pilli NR, et al.",
+   "year": 2019,
+   "title": "Effect of Sunscreen Application Under Maximal Use Conditions on Plasma Concentration of Sunscreen Active Ingredients: A Randomized Clinical Trial.",
+   "journal": "JAMA",
+   "pmid": "31058986",
+   "doi": "10.1001/jama.2019.5586",
+   "type": "rct",
+   "n": "24 healthy volunteers",
+   "finding": "Under maximal use (4 applications/day for 4 days), avobenzone, oxybenzone, octocrylene and ecamsule exceeded FDA's 0.5 ng/mL threshold on day 1; oxybenzone reached 169-210 ng/mL."
+  },
+  {
+   "id": "epc-matta2020",
+   "authors": "Matta MK, Florian J, Zusterzeel R, et al.",
+   "year": 2020,
+   "title": "Effect of Sunscreen Application on Plasma Concentration of Sunscreen Active Ingredients: A Randomized Clinical Trial.",
+   "journal": "JAMA",
+   "pmid": "31961417",
+   "doi": "10.1001/jama.2019.20747",
+   "type": "rct",
+   "n": "48 healthy volunteers",
+   "finding": "All six tested filters exceeded 0.5 ng/mL after a single application; oxybenzone peaked at 258 ng/mL (lotion) and homosalate at up to 23 ng/mL; authors say people should not stop using sunscreen."
+  },
+  {
+   "id": "epc-meeker2011",
+   "authors": "Meeker JD, Yang T, Ye X, et al.",
+   "year": 2011,
+   "title": "Urinary concentrations of parabens and serum hormone levels, semen quality parameters, and sperm DNA damage.",
+   "journal": "Environ Health Perspect",
+   "pmid": "20876036",
+   "doi": "10.1289/ehp.1002238",
+   "type": "cross-sectional",
+   "n": "190 men from an infertility clinic",
+   "finding": "Methyl- and propylparaben were not associated with hormones, semen quality or sperm DNA damage; butylparaben categories tracked higher sperm DNA damage (p-trend 0.03)."
+  },
+  {
+   "id": "epc-mendelsohn2016",
+   "authors": "Mendelsohn E, Hagopian A, Hoffman K, et al.",
+   "year": 2016,
+   "title": "Nail polish as a source of exposure to triphenyl phosphate.",
+   "journal": "Environ Int",
+   "pmid": "26485058",
+   "doi": "10.1016/j.envint.2015.10.005",
+   "type": "cohort",
+   "n": "26 women, 411 urine samples",
+   "finding": "Painting nails with a polish containing 0.97% triphenyl phosphate raised its urinary metabolite DPHP about 7-fold 10-14 h later; gloves blocked most uptake, showing the route is dermal."
+  },
+  {
+   "id": "epc-mohammed2019",
+   "authors": "Mohammed YH, Holmes A, Haridass IN, et al.",
+   "year": 2019,
+   "title": "Support for the Safe Use of Zinc Oxide Nanoparticle Sunscreens: Lack of Skin Penetration or Cellular Toxicity after Repeated Application in Volunteers.",
+   "journal": "J Invest Dermatol",
+   "pmid": "30448212",
+   "doi": "10.1016/j.jid.2018.08.024",
+   "type": "rct",
+   "n": "human volunteers, 5 days of repeated application",
+   "finding": "Zinc oxide nanoparticle sunscreen stayed on the skin surface and in furrows and did not penetrate or harm the viable epidermis."
+  },
+  {
+   "id": "epc-moos2016",
+   "authors": "Moos RK, Angerer J, Dierkes G, et al.",
+   "year": 2016,
+   "title": "Metabolism and elimination of methyl, iso- and n-butyl paraben in human urine after single oral dosage.",
+   "journal": "Arch Toxicol",
+   "pmid": "26608183",
+   "doi": "10.1007/s00204-015-1636-0",
+   "type": "mechanistic",
+   "n": "human volunteers, single oral doses",
+   "finding": "After oral dosing, 80-85% of the captured paraben metabolites were excreted in urine within 24 h; parent methylparaben made up 17% of the dose, butylparabens 6-7%."
+  },
+  {
+   "id": "epc-nassan2017",
+   "authors": "Nassan FL, Coull BA, Gaskins AJ, et al.",
+   "year": 2017,
+   "title": "Personal Care Product Use in Men and Urinary Concentrations of Select Phthalate Metabolites and Parabens: Results from the Environment And Reproductive Health (EARTH) Study.",
+   "journal": "Environ Health Perspect",
+   "pmid": "28886595",
+   "doi": "10.1289/EHP1374",
+   "type": "cohort",
+   "n": "400 men, 1,037 urine samples",
+   "finding": "Cologne/perfume and deodorant use raised urinary monoethyl phthalate by 83% and 74%; sunscreen and hand/body lotion raised urinary parabens by 66-156% and 79-147%, with the largest effects for use within 6 h of urine collection."
+  },
+  {
+   "id": "epc-pierce2011",
+   "authors": "Pierce JS, Abelmann A, Spicer LJ, et al.",
+   "year": 2011,
+   "title": "Characterization of formaldehyde exposure resulting from the use of four professional hair straightening products.",
+   "journal": "J Occup Environ Hyg",
+   "pmid": "22035353",
+   "doi": "10.1080/15459624.2011.626259",
+   "type": "mechanistic",
+   "n": "simulated salon treatments with 4 products",
+   "finding": "Keratin smoothing treatments produced airborne formaldehyde up to 1.19 ppm during application; even a product labelled formaldehyde-free released formaldehyde-releasing chemicals; estimated exposures can meet or exceed occupational limits."
+  },
+  {
+   "id": "epc-rehfeld2016",
+   "authors": "Rehfeld A, Dissing S, Skakkebæk NE",
+   "year": 2016,
+   "title": "Chemical UV Filters Mimic the Effect of Progesterone on Ca(2+) Signaling in Human Sperm Cells.",
+   "journal": "Endocrinology",
+   "pmid": "27583790",
+   "doi": "10.1210/en.2016-1473",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "13 of 29 UV filters induced calcium signals in human sperm in vitro, nine by activating the CatSper channel like progesterone, some at nanomolar levels and additively in mixtures."
+  },
+  {
+   "id": "epc-samarasinghe2018",
+   "authors": "Samarasinghe SVAC, Krishnan K, Naidu R, et al.",
+   "year": 2018,
+   "title": "Parabens generate reactive oxygen species in human spermatozoa.",
+   "journal": "Andrology",
+   "pmid": "29722171",
+   "doi": "10.1111/andr.12499",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In vitro, parabens raised mitochondrial and cytosolic ROS in human sperm and reduced motility and viability in a chain-length-dependent way; methylparaben at clinically used concentrations raised ROS and oxidative DNA adducts but not DNA fragmentation."
+  },
+  {
+   "id": "epc-sandborgh2006",
+   "authors": "Sandborgh-Englund G, Adolfsson-Erici M, Odham G, et al.",
+   "year": 2006,
+   "title": "Pharmacokinetics of triclosan following oral ingestion in humans.",
+   "journal": "J Toxicol Environ Health A",
+   "pmid": "16952905",
+   "doi": "10.1080/15287390600631706",
+   "type": "mechanistic",
+   "n": "10 healthy volunteers",
+   "finding": "After 4 mg oral triclosan, plasma levels peaked within 1-3 h, the terminal plasma half-life was 21 h, and most was excreted within 24 h."
+  },
+  {
+   "id": "epc-shen2023",
+   "authors": "Shen X, Zhan M, Wang Y, et al.",
+   "year": 2023,
+   "title": "Exposure to parabens and semen quality in reproductive-aged men.",
+   "journal": "Ecotoxicol Environ Saf",
+   "pmid": "37688867",
+   "doi": "10.1016/j.ecoenv.2023.115453",
+   "type": "cross-sectional",
+   "n": "795 men from preconception couples",
+   "finding": "A paraben mixture was associated with lower sperm concentration, total count and progressive motility; butylparaben and methylparaben were the main contributors."
+  },
+  {
+   "id": "epc-shin2023",
+   "authors": "Shin MY, Choi JW, Lee S, et al.",
+   "year": 2023,
+   "title": "Pharmacokinetics of transdermal methyl-, ethyl-, and propylparaben in humans following single dermal administration.",
+   "journal": "Chemosphere",
+   "pmid": "36220432",
+   "doi": "10.1016/j.chemosphere.2022.136689",
+   "type": "mechanistic",
+   "n": "5 male volunteers",
+   "finding": "After a single whole-arm dermal application of labelled methyl-, ethyl- and propylparaben, terminal half-lives were 9.3-12.2 h, longer than after oral intake, with a larger share of unconjugated (active) paraben in blood."
+  },
+  {
+   "id": "epc-singh2019",
+   "authors": "Singh J, Mumford SL, Pollack AZ, et al.",
+   "year": 2019,
+   "title": "Tampon use, environmental chemicals and oxidative stress in the BioCycle study.",
+   "journal": "Environ Health",
+   "pmid": "30744632",
+   "doi": "10.1186/s12940-019-0452-z",
+   "type": "cohort",
+   "n": "259 regularly menstruating women (BioCycle)",
+   "finding": "Tampon users had non-significantly higher blood mercury (25%) and urinary isoprostane (about 5%) than non-users; no association with inflammation markers."
+  },
+  {
+   "id": "epc-smith2012",
+   "authors": "Smith KW, Braun JM, Williams PL, et al.",
+   "year": 2012,
+   "title": "Predictors and variability of urinary paraben concentrations in men and women, including before and during pregnancy.",
+   "journal": "Environ Health Perspect",
+   "pmid": "22721761",
+   "doi": "10.1289/ehp.1104614",
+   "type": "cohort",
+   "n": "fertility-clinic men and women with repeated urine samples",
+   "finding": "Intraclass correlations for methyl- and propylparaben were 0.42-0.54, so a single urine sample reasonably ranked exposure over several months; concentrations were 3.8 times higher in African American participants."
+  },
+  {
+   "id": "epc-wise2012",
+   "authors": "Wise LA, Palmer JR, Reich D, et al.",
+   "year": 2012,
+   "title": "Hair relaxer use and risk of uterine leiomyomata in African-American women.",
+   "journal": "Am J Epidemiol",
+   "pmid": "22234483",
+   "doi": "10.1093/aje/kwr351",
+   "type": "cohort",
+   "n": "23,580 premenopausal Black women",
+   "finding": "Ever use of hair relaxers was associated with 17% higher incidence of uterine fibroids, with trends for frequency, duration and number of scalp burns."
+  },
+  {
+   "id": "epc-wise2023",
+   "authors": "Wise LA, Wang TR, Ncube CN, et al.",
+   "year": 2023,
+   "title": "Use of Chemical Hair Straighteners and Fecundability in a North American Preconception Cohort.",
+   "journal": "Am J Epidemiol",
+   "pmid": "37005071",
+   "doi": "10.1093/aje/kwad079",
+   "type": "cohort",
+   "n": "11,274 women (PRESTO preconception cohort)",
+   "finding": "Hair relaxer use was associated with slightly lower fecundability (current FR 0.81, CI 0.64-1.03; former 0.89, CI 0.81-0.98; 10+ years 0.71), with non-monotonic patterns."
+  }
+ ],
+ "windows": [],
+ "timing": [
+  {
+   "factor": "parabens",
+   "shape": "acute",
+   "summary": "Parabens are short-lived: urine levels track product use within hours and fall within a few days of switching. Levels stay fairly stable over months only because people keep the same product habits.",
+   "onset": {
+    "text": "Use of lotion or sunscreen within 6 h of urine collection strongly raised urinary parabens [epc-nassan2017]; dermal absorption peaks over several hours [epc-shin2023].",
+    "days": [
+     0.04,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "With daily use levels reach a steady state within a day or two, given a dermal half-life of about 9-12 h [epc-shin2023] (extrapolated).",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "after_stopping": {
+    "text": "80-85% of an oral dose is excreted within 24 h [epc-moos2016]; switching to paraben-free products cut methylparaben 30-45% within 3-5 days [epc-harley2016, epc-jovanovic2026].",
+    "days": [
+     1,
+     5
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Every application adds a new pulse, so exposure depends on how often leave-on products are used; habits are stable enough that one urine sample ranks exposure moderately well over months [epc-smith2012]."
+   },
+   "basis": "measured",
+   "debate": "Whether one spot urine captures long-term exposure is disputed: moderate reliability in clinic cohorts [epc-smith2012, epc-dewalque2015] versus poor reliability in a small controlled-use study [epc-huang2021].",
+   "refs": [
+    "epc-nassan2017",
+    "epc-shin2023",
+    "epc-moos2016",
+    "epc-harley2016",
+    "epc-jovanovic2026",
+    "epc-smith2012",
+    "epc-dewalque2015",
+    "epc-huang2021",
+    "epc-samarasinghe2018",
+    "epc-heller1963",
+    "epc-meeker2011",
+    "epc-shen2023",
+    "epc-gougeon1986"
+   ],
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Switching 2-4 weeks before still removes parabens from semen and from any sample collected with a lubricant for IVF or IUI, which is where direct-contact effects are shown.",
+     "text": "Spermatogenesis takes about 64 days plus epididymal transit [epc-heller1963], so a chemical that affected developing sperm would need roughly 2-3 months off exposure before a full cohort of unexposed sperm is ejaculated."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Switching 2-4 weeks before still lowers exposure during the final, rapid growth of the dominant follicle and in early pregnancy.",
+     "text": "The ovulated follicle began its final growth phase about 85 days earlier and is recruited 15-20 days before ovulation [epc-gougeon1986], so a follicle-level effect would need about 3 months off exposure to clear."
+    }
+   }
+  },
+  {
+   "factor": "triclosan-triclocarban",
+   "shape": "acute",
+   "summary": "Triclosan has a plasma half-life of about a day, so personal levels fall within days of switching products. Population levels fell after the 2016-2017 FDA rule removed it from consumer washes.",
+   "onset": {
+    "text": "Plasma triclosan peaked 1-3 h after an oral dose [epc-sandborgh2006]; toothpaste use raised plasma levels markedly within 14 days [epc-allmyr2009].",
+    "days": [
+     0.04,
+     0.13
+    ]
+   },
+   "full": {
+    "text": "Steady state with daily use within a few days, given a 21-h half-life [epc-sandborgh2006] (extrapolated).",
+    "days": [
+     2,
+     4
+    ]
+   },
+   "after_stopping": {
+    "text": "Most of a dose is excreted within 24 h and 24-83% within 4 days [epc-sandborgh2006]; labelled-free products cut urinary triclosan 36% in 3 days [epc-harley2016].",
+    "days": [
+     1,
+     4
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Exposure tracks daily product use; there is no benefit of antibacterial soap over plain soap at any frequency [epc-aiello2007]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "epc-sandborgh2006",
+    "epc-allmyr2009",
+    "epc-harley2016",
+    "epc-aiello2007",
+    "epc-heller1963",
+    "epc-gougeon1986"
+   ],
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Stopping late still lowers exposure of sperm in the final maturation stages; benefit is unproven either way.",
+     "text": "Spermatogenesis takes about 64 days plus epididymal transit [epc-heller1963], so a chemical that affected developing sperm would need roughly 2-3 months off exposure before a full cohort of unexposed sperm is ejaculated."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Stopping late still lowers exposure during final follicle growth and early pregnancy.",
+     "text": "The ovulated follicle began its final growth phase about 85 days earlier and is recruited 15-20 days before ovulation [epc-gougeon1986], so a follicle-level effect would need about 3 months off exposure to clear."
+    }
+   }
+  },
+  {
+   "factor": "uv-filters",
+   "shape": "build",
+   "summary": "Organic UV filters reach the blood within hours of the first application and build up with repeated daily use; oxybenzone is still excreted days after the last application. Exposure is seasonal and tied to how much skin is covered.",
+   "onset": {
+    "text": "BP-3, 4-MBC and OMC appeared in plasma 1-2 h after the first application [epc-janjua2008]; all six FDA-tested filters exceeded 0.5 ng/mL on day 1 [epc-matta2020].",
+    "days": [
+     0.04,
+     1
+    ]
+   },
+   "full": {
+    "text": "Plasma levels kept rising over 4 days of repeated application, with some 96-h levels above 24-h levels [epc-janjua2008, epc-matta2019].",
+    "days": [
+     3,
+     4
+    ]
+   },
+   "after_stopping": {
+    "text": "BP-3 was still being excreted in urine 5 days after the last of 5 days of use [epc-gonzalez2006]; full washout time is not well defined.",
+    "days": [
+     5,
+     5
+    ]
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Daily sunscreen is beneficial for skin (see the sunscreen factor); filter exposure scales with applications and body area, so mineral products and clothing reduce it without giving up protection [epc-mohammed2019]."
+   },
+   "basis": "measured",
+   "debate": "Whether persistence after stopping reflects tissue accumulation is unsettled: 96-h levels exceeded 24-h levels in one study [epc-janjua2008], and BP-3 excretion continued for 5 days in another [epc-gonzalez2006].",
+   "refs": [
+    "epc-janjua2008",
+    "epc-matta2020",
+    "epc-matta2019",
+    "epc-gonzalez2006",
+    "epc-mohammed2019",
+    "epc-rehfeld2016",
+    "epc-heller1963"
+   ],
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Switching to mineral sunscreen a few weeks before still lowers filter levels in semen around conception, relevant to the in-vitro CatSper effect.",
+     "text": "Spermatogenesis takes about 64 days plus epididymal transit [epc-heller1963], so a chemical that affected developing sperm would need roughly 2-3 months off exposure before a full cohort of unexposed sperm is ejaculated."
+    }
+   }
+  },
+  {
+   "factor": "fragrance-musks",
+   "shape": "build",
+   "summary": "The phthalate part of fragrance (diethyl phthalate) clears within days, but lipophilic synthetic musks accumulate in blood and fat, and levels were higher in older women. Musk half-lives in people have not been measured well.",
+   "onset": {
+    "text": "Urinary MEP rose sharply with cologne or perfume use within 6 h of collection [epc-nassan2017].",
+    "days": [
+     0.04,
+     0.25
+    ]
+   },
+   "full": {
+    "text": "Musks keep accumulating with long-term use; older women had higher plasma musks than younger women [epc-hutter2010]. Time course not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "MEP fell 22-27% within 3-5 days of switching products [epc-harley2016, epc-jovanovic2026]; musk washout not measured.",
+    "days": [
+     3,
+     5
+    ]
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Less frequent and less skin-area use of fragranced leave-on products lowers both MEP and musk exposure; no schedule has been tested."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "epc-nassan2017",
+    "epc-hutter2010",
+    "epc-harley2016",
+    "epc-jovanovic2026"
+   ]
+  },
+  {
+   "factor": "hair-dyes-relaxers",
+   "shape": "lasting",
+   "summary": "Acute harms (formaldehyde irritation, glyoxylic-acid kidney injury) appear within days of a treatment, while cancer and fertility associations reflect years of use. How long risk persists after stopping is not known; former relaxer users still had slightly lower fecundability.",
+   "onset": {
+    "text": "Acute kidney injury after glyoxylic-acid straightening appeared at a median of 2 days [epc-aamir2025]; airborne formaldehyde peaks during the treatment itself [epc-pierce2011].",
+    "days": [
+     0.01,
+     2
+    ]
+   },
+   "full": {
+    "text": "Cancer associations relate to frequent use over years (20+ years in postmenopausal women [epc-bertrand2023]); not a defined plateau.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; former relaxer users had fecundability ratio 0.89 versus never users [epc-wise2023], so any effect may outlast use.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Uterine cancer risk was highest with more than 4 straightener uses a year [epc-chang2022]; fewer treatments and no scalp burns are the practical levers [epc-wise2012]."
+   },
+   "conception": {
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Stopping late avoids acute formaldehyde and chemical exposure in early pregnancy, but whether it restores fecundability is unknown.",
+     "text": "No study measured how fecundability changes after stopping; former users still showed slightly lower fecundability [epc-wise2023]. The 100 days follows the follicle growth period [epc-gougeon1986] (extrapolated)."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "epc-aamir2025",
+    "epc-pierce2011",
+    "epc-bertrand2023",
+    "epc-wise2023",
+    "epc-chang2022",
+    "epc-wise2012",
+    "epc-gougeon1986"
+   ]
+  },
+  {
+   "factor": "nail-products-solvents",
+   "shape": "acute",
+   "summary": "Polish chemicals are absorbed through the skin around the nails and peak in urine within half a day. Workplace solvent exposure repeats every shift; UV-lamp DNA damage in cells is permanent once mutations form.",
+   "onset": {
+    "text": "Urinary DPHP rose about 7-fold 10-14 h after nail painting [epc-mendelsohn2016]; technicians' urinary DPHP rose across a work shift [epc-estill2021].",
+    "days": [
+     0.4,
+     0.6
+    ]
+   },
+   "full": {
+    "text": "Peak at 10-14 h after a single application [epc-mendelsohn2016].",
+    "days": [
+     0.4,
+     0.6
+    ]
+   },
+   "after_stopping": {
+    "text": "Return to baseline not precisely measured; urine was followed for about 24 h in the glove substudy [epc-mendelsohn2016].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Each manicure is a short pulse; frequent painting or gel sessions and daily salon work multiply exposure. No schedule studies exist."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "epc-mendelsohn2016",
+    "epc-estill2021"
+   ]
+  },
+  {
+   "factor": "menstrual-products",
+   "shape": "none",
+   "summary": "No study has measured how body levels of metals or other chemicals change with tampon use or after switching products. Timing is unknown.",
+   "onset": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Not measured; the only biomarker study compared users and non-users cross-sectionally [epc-singh2019].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Change tampons as directed and use the lowest absorbency needed; no evidence on chemical exposure by frequency."
+   },
+   "basis": "unknown",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "epc-singh2019"
+   ]
+  },
+  {
+   "factor": "pfas-personal-care",
+   "shape": "lasting",
+   "summary": "Long-chain PFAS stay in the blood for years, so removing a cosmetic or floss source lowers body levels only slowly. Short-chain PFAS clear faster but their dermal contribution is modelled, not measured.",
+   "onset": {
+    "text": "Not measured for cosmetics or floss.",
+    "days": null
+   },
+   "full": {
+    "text": "Not measured; with half-lives of years, levels approach steady state over many years of use (extrapolated from [epc-li2018]).",
+    "days": null
+   },
+   "after_stopping": {
+    "text": "Serum half-lives after a source is removed were 2.7 years (PFOA), 3.4 (PFOS) and 5.3 (PFHxS) [epc-li2018].",
+    "days": [
+     986,
+     1935
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Because PFAS accumulate, cumulative use matters more than frequency; non-PTFE floss removes the floss source entirely."
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "epc-li2018"
+   ]
+  },
+  {
+   "factor": "clean-beauty-labels",
+   "shape": "acute",
+   "summary": "Switching to products free of specific short-lived chemicals lowers their urine levels within 2-5 days, and the reduction lasts as long as the habit does. It does not change persistent chemicals.",
+   "onset": {
+    "text": "Reductions of 22-45% in MEP, parabens, triclosan and BP-3 after 3-5 days [epc-harley2016, epc-jovanovic2026]; no reduction in 2 days among low users [epc-kang2025].",
+    "days": [
+     2,
+     5
+    ]
+   },
+   "full": {
+    "text": "A web-based programme sustained reductions over 1 month [epc-kim2021].",
+    "days": [
+     3,
+     30
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured directly; given half-lives of hours to a day, levels return within days of resuming old products (extrapolated from [epc-shin2023, epc-sandborgh2006]).",
+    "days": null
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "The benefit lasts only while the low-exposure products are used every day."
+   },
+   "basis": "measured",
+   "debate": "Whether short switches work for everyone is contested: large drops in Latina teenagers and French young women [epc-harley2016, epc-jovanovic2026] versus no overall change in Korean girls who used few products [epc-kang2025].",
+   "refs": [
+    "epc-harley2016",
+    "epc-jovanovic2026",
+    "epc-kang2025",
+    "epc-kim2021",
+    "epc-shin2023",
+    "epc-sandborgh2006"
+   ]
+  }
+ ]
+}

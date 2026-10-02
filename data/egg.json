@@ -501,7 +501,7 @@
     "general": 1
    },
    "evidence": "moderate",
-   "headline": "Moderate caffeine (under ~200 mg/day) shows little or no effect on conceiving or IVF success; the clearer risk is miscarriage once pregnant, rising about 7% per 100 mg/day.",
+   "headline": "Moderate caffeine shows little or no effect on conceiving; cohort studies link high intake in pregnancy to miscarriage (about 7% per 100 mg/day), but this is likely partly confounded by pregnancy nausea, and two Mendelian randomization studies found no causal effect of coffee on miscarriage.",
    "dose": {
     "effective": "Keep under 200 mg/day (about 1-2 cups of brewed coffee) while trying and in pregnancy.",
     "studied_range": "<50 to >700 mg/day.",
@@ -554,10 +554,10 @@
    ],
    "direction": "harmful",
    "impact": {
-    "egg": 2,
+    "egg": 1,
     "general": 4
    },
-   "evidence": "limited",
+   "evidence": "moderate",
    "headline": "Higher traffic-related NO2 exposure is associated with lower AMH and lower IVF live birth (e.g. OR 0.76 per 0.01 ppm after embryo transfer); effect sizes per person are modest and hard to separate from other urban factors.",
    "dose": {
     "effective": "Reduce exposure where practical: avoid exercising beside heavy traffic, use HEPA filtration indoors on high-pollution days.",
@@ -592,84 +592,6 @@
     "legro2010",
     "lamarca2020",
     "gaskins2019air"
-   ]
-  },
-  {
-   "id": "egg-phthalates",
-   "name": "Phthalates (DEHP and related plasticizers)",
-   "kind": "environment",
-   "scopes": [
-    "egg",
-    "sperm"
-   ],
-   "direction": "harmful",
-   "impact": {
-    "egg": 2,
-    "sperm": 2
-   },
-   "evidence": "limited",
-   "headline": "In the EARTH IVF cohort, women in the top quartile of urinary DEHP metabolites had fewer eggs and about 19 percentage points lower live birth per cycle than the bottom quartile.",
-   "dose": {
-    "effective": "Lower exposure: eat more fresh, less ultra-processed and packaged food; avoid heating food in plastic; choose fragrance-free personal-care products.",
-    "studied_range": "Quartiles of urinary phthalate metabolites (spot urine samples).",
-    "too_much": "No established threshold; risk scaled with quartile.",
-    "timeframe": "Urinary levels vary day to day, reflecting recent exposure; follicles develop over ~3 months, so reduce exposure across that window.",
-    "notes": "Single EARTH cohort with 256 women; replication is limited."
-   },
-   "mechanism": "Anti-androgenic and endocrine-disrupting effects on granulosa-cell steroidogenesis; animal studies show follicular oxidative stress and atresia.",
-   "pathways": [
-    "endocrine"
-   ],
-   "interactions": "Often co-occurs with [egg-bpa] exposure from packaged food.",
-   "caveats": "Urine levels fluctuate day to day, so single samples misclassify exposure; confounding by diet quality is possible.",
-   "key_numbers": [
-    {
-     "label": "Live birth difference, top vs bottom DEHP quartile",
-     "value": -19,
-     "unit": "percentage points",
-     "source": "hauser2016"
-    }
-   ],
-   "refs": [
-    "hauser2016"
-   ]
-  },
-  {
-   "id": "egg-bpa",
-   "name": "Bisphenol A (BPA)",
-   "kind": "environment",
-   "scopes": [
-    "egg"
-   ],
-   "direction": "harmful",
-   "impact": {
-    "egg": 1
-   },
-   "evidence": "limited",
-   "headline": "Each log-unit increase in urinary BPA was associated with 12% fewer eggs retrieved in IVF; BPA causes egg aneuploidy in animals, but human outcome data are small and inconsistent.",
-   "dose": {
-    "effective": "Reduce exposure: fewer canned foods, avoid polycarbonate containers and heating food in plastic, minimise thermal-paper receipts.",
-    "studied_range": "Urinary BPA < 0.4 to 25.5 ug/L.",
-    "too_much": null,
-    "timeframe": "Reduce exposure across the ~3-month follicle-growth window.",
-    "notes": "Human data come from small IVF cohorts at one clinic."
-   },
-   "mechanism": "Estrogen-receptor activity; in animals disrupts meiotic spindle formation and steroidogenesis and increases oxidative stress.",
-   "pathways": [
-    "endocrine"
-   ],
-   "interactions": "[egg-phthalates] come from similar sources.",
-   "caveats": "Small cohorts (84 women); human evidence is not strong enough to quantify live-birth effects.",
-   "key_numbers": [
-    {
-     "label": "Oocytes retrieved per log-unit urinary BPA",
-     "value": -12,
-     "unit": "%",
-     "source": "moklin2010"
-    }
-   ],
-   "refs": [
-    "moklin2010"
    ]
   },
   {
@@ -1076,26 +998,26 @@
     "egg",
     "general"
    ],
-   "direction": "mixed",
+   "direction": "neutral",
    "impact": {
     "egg": 1,
     "general": 2
    },
-   "evidence": "limited",
-   "headline": "Vitamin D-replete women had about 33% higher odds of IVF live birth than deficient women, but RCTs of supplementation in deficient women improved only chemical pregnancy, not clinical pregnancy.",
+   "evidence": "moderate",
+   "headline": "Low vitamin D is linked to poorer IVF results in cohort studies, but randomized trials in deficient women (630 and 876 women) found supplementation did not raise pregnancy or live birth (52% vs 50%), so the link is probably confounding by overall health.",
    "dose": {
-    "effective": "Test 25(OH)D and correct deficiency with a clinician; there is no evidence that extra vitamin D helps women who are already replete.",
-    "studied_range": "Observational: replete vs deficient/insufficient 25(OH)D; 5 RCTs of supplementation in deficient women.",
+    "effective": "Correct a known deficiency for general health; it is not an IVF treatment. Randomized trials in deficient women found no gain in pregnancy or live birth, and the Endocrine Society (2024) advises against routine 25(OH)D testing in healthy adults.",
+    "studied_range": "Observational: replete vs deficient 25(OH)D. RCTs: a single 600,000 IU dose in 630 deficient women; 4000 IU/day in 876 women with PCOS.",
     "too_much": "Avoid unsupervised megadoses.",
-    "timeframe": "Correct deficiency before IVF or trying, within the 3-month preparation window.",
-    "notes": "Benefit, if any, is limited to correcting deficiency."
+    "timeframe": "Not applicable for IVF outcomes; see the Timing card for how fast blood levels change.",
+    "notes": "The cohort link most likely reflects overall health (confounding)."
    },
    "mechanism": "Vitamin D receptors are present in granulosa cells and endometrium; vitamin D influences AMH signalling and immune tolerance.",
    "pathways": [
     "endocrine"
    ],
    "interactions": "Part of [egg-profertility-diet].",
-   "caveats": "Observational links are confounded by overall health, BMI and outdoor activity; RCT evidence is small.",
+   "caveats": "Observational links are confounded by overall health, BMI and outdoor activity, and the randomized trials did not confirm them.",
    "key_numbers": [
     {
      "label": "IVF live birth, replete vs deficient",
@@ -2436,8 +2358,8 @@
    "impact": {
     "egg": 1
    },
-   "evidence": "moderate",
-   "headline": "The one add-on with a plausible live-birth gain: Cochrane finds about 21% higher live birth (RR 1.21; ~33% to 37-44%) but also 45% more multiple pregnancies, so ESHRE recommends it only with single embryo transfer; HFEA rates it amber.",
+   "evidence": "limited",
+   "headline": "Cochrane 2020 found about 21% more live births with hyaluronan transfer medium, but a 2026 meta-analysis found no significant gain (RR 1.14; 1.06 in low-bias trials); HFEA rates it amber and it raises twins if more than one embryo is transferred.",
    "dose": {
     "effective": "Hyaluronan 0.5 mg/mL in the transfer medium, with single embryo transfer.",
     "studied_range": "0.5 mg/mL ('functional') vs 0-0.125 mg/mL controls.",
@@ -2645,8 +2567,8 @@
    "impact": {
     "egg": 0
    },
-   "evidence": "limited",
-   "headline": "Cochrane found a live-birth benefit only for day-3 (cleavage-stage) transfers with at least 500 IU and no evidence for blastocyst transfer, today's norm; ESHRE does not recommend it.",
+   "evidence": "moderate",
+   "headline": "An individual-patient-data meta-analysis of the 7 trustworthy RCTs (2244 women, 2026) found no effect on live birth (OR 0.99); the earlier 'benefit' came only from trials that failed integrity checks.",
    "dose": {
     "effective": "Not recommended. The only positive subgroup used >=500 IU before cleavage-stage transfer.",
     "studied_range": "100-1000 IU urinary or recombinant hCG infused minutes to days before transfer.",
@@ -2686,7 +2608,7 @@
     "egg": 2
    },
    "evidence": "moderate",
-   "headline": "No good evidence that 'immune' testing or treatment helps IVF: HFEA rates IVIG and steroids red (no proven benefit plus real risks such as thrombosis, infection and preterm birth) and intralipids grey; ESHRE recommends against all of them.",
+   "headline": "No good evidence that 'immune' tests or treatments help IVF: a 715-woman RCT found prednisone did not raise live birth and increased early loss and preterm birth; HFEA rates IVIG and steroids red and intralipids grey.",
    "dose": {
     "effective": "Not recommended outside research or a diagnosed autoimmune disease treated for its own sake.",
     "studied_range": "IVIG 0.2-0.5 g/kg infusions; intralipid 20% infusions; prednisolone/dexamethasone around implantation.",
@@ -3279,6 +3201,338 @@
     "nut-carlomagno2026",
     "nut-khambalia2016",
     "nut-iom2001"
+   ]
+  },
+  {
+   "id": "flame-retardants-egg",
+   "name": "Flame retardants and IVF / female fertility",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "In 211 IVF patients, the highest quartile of urinary organophosphate flame-retardant metabolites went with 38% lower live birth per cycle, but this has not been independently replicated, and PBDE findings in IVF point in opposite directions.",
+   "dose": {
+    "effective": "Hand-washing before eating and after handling electronics, wet cleaning and HEPA vacuuming lowered urinary OPFR metabolites within a week; avoid sitting on or handling crumbling pre-2014 foam.",
+    "studied_range": "Summed urinary OPFR metabolites (BDCIPP, DPHP, ip-PPP) in EARTH, 2005-2015; serum and follicular PBDEs in 65-215 IVF patients.",
+    "too_much": null,
+    "timeframe": "OPFRs: body levels fall within days, so the weeks of stimulation and transfer are modifiable. PBDEs: years.",
+    "notes": "OPFR urinary metabolites vary by season and day; one or two samples per cycle were used."
+   },
+   "mechanism": "Animal and cell data suggest endocrine disruption and impaired embryo development; human mechanisms in the ovary are unstudied.",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "See [flame-retardants]; co-exposure with [plastics-chemicals] and [pfas] in dust.",
+   "caveats": "Single academic clinic; many outcomes tested; exposure measured in urine during treatment. The small Taiwanese AMH study [eia-lien2025] had very wide confidence intervals.",
+   "debate": "OPFRs: a large EARTH association with lower fertilization, implantation, pregnancy and live birth [eia-carignan2017] versus no replication so far and only small cross-sectional AMH data [eia-lien2025]. PBDEs: longer time to pregnancy in one cohort [eia-harley2010] disputed in a letter [eia-goodman2010]; follicular BDE-153 linked to failed implantation [eia-johnson2012] versus serum BDE-153 linked to higher implantation and live birth in a larger cohort [eia-ingle2020].",
+   "key_numbers": [
+    {
+     "label": "Live birth, highest vs lowest OPFR quartile",
+     "value": -38,
+     "unit": "%",
+     "source": "eia-carignan2017"
+    }
+   ],
+   "refs": [
+    "eia-carignan2017",
+    "eia-lien2025",
+    "eia-harley2010",
+    "eia-goodman2010",
+    "eia-johnson2012",
+    "eia-ingle2020",
+    "eia-gibson2019"
+   ]
+  },
+  {
+   "id": "occupational-solvents-egg",
+   "name": "Occupational solvents, disinfectants and formaldehyde: miscarriage and fertility",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "Women exposed to organic solvents or formaldehyde at work had about 25-75% higher miscarriage risk in older, mostly retrospective studies (formaldehyde RR 1.76); a prospective nurse cohort found no miscarriage excess with high-level disinfectants, and time-to-pregnancy data for solvents are equivocal.",
+   "dose": {
+    "effective": "When trying to conceive and in early pregnancy, avoid high-exposure tasks (dry-cleaning machine operation, solvent-based painting and printing, histology/anatomy labs with formaldehyde, endoscope disinfection) or use closed systems, local exhaust and proper respirators; ask occupational health for an exposure assessment.",
+    "studied_range": "Dry-cleaning operators (perchloroethylene), laboratory and pharmaceutical workers, nurses using sterilizing agents, formaldehyde-exposed workers.",
+    "too_much": "Dry-cleaning operators: 17.1% miscarriage vs 10.9% unexposed; formaldehyde-exposed women RR 1.76.",
+    "timeframe": "The periconception and first-trimester weeks; exposure in the 3 months before conception was included in the dry-cleaning study.",
+    "notes": "The female-relevant signal is mostly miscarriage, not egg quality per se; no IVF data."
+   },
+   "mechanism": "Solvents and formaldehyde raise lipid peroxidation and are genotoxic in animal studies; perchloroethylene-exposed women had higher MDA and altered cytokines [eia-li2024pce].",
+   "pathways": [
+    "lipid-peroxidation",
+    "dna-repair"
+   ],
+   "interactions": "See [occupational-solvents] and [cleaning-products].",
+   "caveats": "Self-reported exposure and outcome, recall bias in retrospective designs (women with a miscarriage recall exposures more), healthy-worker effects, and co-exposure to shift work and lifting.",
+   "debate": "Meta-analyses found a non-significant solvent-miscarriage trend (OR 1.25) with more malformations (OR 1.64) [eia-mcmartin1998] and higher miscarriage with formaldehyde (RR 1.76) while warning about recall and selection bias [eia-duong2011]; dry-cleaning operators [eia-doyle1997] and solvent-exposed lab workers [eia-attarchi2012] had more miscarriage. For disinfectants, a retrospective nurse study found 2-fold late miscarriage [eia-lawson2012] but a prospective one found none (HR 0.84) [eia-ding2021]. Time-to-pregnancy evidence for solvents is equivocal [eia-snijder2012].",
+   "key_numbers": [
+    {
+     "label": "Spontaneous abortion, formaldehyde-exposed women",
+     "value": 1.76,
+     "unit": "RR",
+     "source": "eia-duong2011"
+    },
+    {
+     "label": "Spontaneous abortion, solvent-exposed women",
+     "value": 1.25,
+     "unit": "OR (NS)",
+     "source": "eia-mcmartin1998"
+    }
+   ],
+   "refs": [
+    "eia-mcmartin1998",
+    "eia-duong2011",
+    "eia-doyle1997",
+    "eia-attarchi2012",
+    "eia-lawson2012",
+    "eia-ding2021",
+    "eia-snijder2012",
+    "eia-li2024pce"
+   ]
+  },
+  {
+   "id": "parabens-egg",
+   "name": "Parabens, female fertility and IVF",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "In IVF (EARTH, 245 women) urinary parabens were unrelated to egg counts, embryo quality or live birth; in a 501-couple preconception cohort women's top-quartile methylparaben went with 34% lower fecundability, but continuous models were null and another cohort found butylparaben with higher fecundability.",
+   "dose": {
+    "effective": "Use paraben-free leave-on products (lotion, sunscreen, makeup) in the months before conception or IVF; a 3-5 day switch lowers urine levels 30-45%.",
+    "studied_range": "Urinary parabens in 143-511 women in IVF or preconception studies.",
+    "too_much": "No human threshold; women in the top quartile of methylparaben had fecundability odds ratio 0.66 in one cohort.",
+    "timeframe": "Exposure falls within days; the final growth of a follicle takes about 3 months.",
+    "notes": "Paraben levels are 25-45% lower in pregnancy than before it [epc-smith2012]."
+   },
+   "mechanism": "Weak estrogenic activity and oxidative stress in experimental ovarian models; follicular-fluid parabens are measurable [epc-dimitriadis2025].",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "See [parabens]; co-exposure with phthalates and BPA ([plastics-chemicals]).",
+   "caveats": "Findings are quartile-specific and non-monotonic (e.g. only the third propylparaben quartile with lower antral follicle count [epc-jurewicz2020]); multiple chemicals and outcomes tested.",
+   "debate": "Null: IVF outcomes in EARTH [epc-minguez2016], mixtures overall [epc-minguez2019], follicular-fluid parabens [epc-dimitriadis2025]. Suggestive harm: top-quartile methyl- and ethylparaben and lower fecundability [epc-smarr2017]; a systematic review found preliminary support for female paraben exposure and longer time to pregnancy [epc-hipwell2019]. Opposite: with pooled daily urines, higher butylparaben went with higher fecundability [epc-rosenvollmar2023].",
+   "key_numbers": [
+    {
+     "label": "Fecundability, women's top vs bottom methylparaben quartile",
+     "value": 0.66,
+     "unit": "FOR",
+     "source": "epc-smarr2017"
+    },
+    {
+     "label": "IVF women with no paraben-outcome association",
+     "value": 245,
+     "unit": "women",
+     "source": "epc-minguez2016"
+    }
+   ],
+   "refs": [
+    "epc-minguez2016",
+    "epc-minguez2019",
+    "epc-smarr2017",
+    "epc-rosenvollmar2023",
+    "epc-jurewicz2020",
+    "epc-dimitriadis2025",
+    "epc-hipwell2019",
+    "epc-smith2012"
+   ]
+  },
+  {
+   "id": "triclosan-egg",
+   "name": "Triclosan, ovarian reserve and fecundability",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "Two fertility-clinic studies found higher urinary triclosan with fewer antral follicles (about 4% fewer with higher triclosan in Boston), and a Canadian pregnancy cohort linked the top quartile to 16% lower fecundability; but a systematic review found little overall link with time to pregnancy, and one preconception cohort found the opposite direction.",
+   "dose": {
+    "effective": "Avoid triclosan-containing products (check toothpaste, deodorant, cosmetics); use plain soap.",
+    "studied_range": "Urinary triclosan in 109-2,001 women.",
+    "too_much": "Top quartile (over 72 ng/mL in a post-conception urine) had fecundability odds ratio 0.84.",
+    "timeframe": "Triclosan clears within days; antral follicle count reflects follicles growing over the previous months.",
+    "notes": "US exposure has fallen since 2017."
+   },
+   "mechanism": "Thyroid and estrogen-pathway disruption in animals; human mechanism unknown.",
+   "pathways": [
+    "endocrine"
+   ],
+   "interactions": "See [triclosan-triclocarban].",
+   "caveats": "Antral follicle count is a marker of ovarian reserve, not of egg quality or live birth. The Canadian cohort measured triclosan once, after conception.",
+   "debate": "Harm: lower antral follicle count in Boston [epc-minguez2017] and Poland [epc-jurewicz2019]; lower fecundability in MIREC [epc-velez2015]. Null or opposite: little to no indication for time to pregnancy in a systematic review [epc-hipwell2019]; higher fecundability with higher triclosan using pooled daily urines [epc-rosenvollmar2023].",
+   "key_numbers": [
+    {
+     "label": "Fecundability, top triclosan quartile",
+     "value": 0.84,
+     "unit": "FOR",
+     "source": "epc-velez2015"
+    },
+    {
+     "label": "Antral follicle count change with higher triclosan",
+     "value": -4,
+     "unit": "%",
+     "source": "epc-minguez2017"
+    }
+   ],
+   "refs": [
+    "epc-minguez2017",
+    "epc-jurewicz2019",
+    "epc-velez2015",
+    "epc-hipwell2019",
+    "epc-rosenvollmar2023"
+   ]
+  },
+  {
+   "id": "phthalates-egg",
+   "name": "Phthalates, egg yield, IVF and pregnancy",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "In the Boston EARTH IVF cohort (256 women), the top quartile of urinary DEHP metabolites had fewer eggs and 19 percentage points lower live birth per cycle, but an Israeli IVF cohort confirmed fewer eggs without any drop in live birth, and the clearest pregnancy signal is modestly more preterm birth.",
+   "dose": {
+    "effective": "Same steps as [phthalates]: fresh, minimally packaged food, less fast and ultra-processed food, glass or steel for hot food, fragrance-free personal care. Keep it up through the roughly 3-month window before egg retrieval or conception and through pregnancy.",
+    "studied_range": "Quartiles of urinary metabolites from one or two spot samples per IVF cycle.",
+    "too_much": "No established threshold. EFSA group TDI 50 ug/kg/day (DEHP equivalents).",
+    "timeframe": "Urine changes within days, but the follicle that ovulates grows for about 85 days, so lower exposure across about 3 months; pregnancy associations involve exposure across gestation.",
+    "notes": "IVF associations come from two clinic cohorts; general-population time-to-pregnancy studies point in opposite directions."
+   },
+   "mechanism": "In mice, the replacement DEHTP altered follicle counts, follicle growth and ovarian gene expression at low doses, and DEHP metabolites tracked fewer oocytes in two IVF cohorts; in pregnancy, urinary phthalates track 8-isoprostane, which statistically mediated about half of the DEHP-preterm association.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Usually co-exposed with [bisphenols-egg]; paternal DEHP also predicted IVF failure ([phthalates-sperm]). Diet quality ([profertility-diet]) confounds.",
+   "caveats": "Clinic populations (selection into IVF), one or two spot urines per cycle, 11 metabolites x many endpoints, and residual confounding by diet and BMI. Pregnancy-loss estimates were imprecise.",
+   "debate": "IVF: DEHP linked to fewer oocytes and 19-point lower live birth [ept-hauser2016] and to biochemical pregnancy loss (top quartile RR 3.4, CI 0.97-11.7) [ept-messerlian2016], but in a second IVF cohort DEHP predicted fewer oocytes and embryos with no effect on implantation, pregnancy or live birth, and DINCH showed nothing [ept-machtinger2018]. Ovarian reserve: a phthalate-plus-DINCH mixture went with 8.6% lower antral follicle count [ept-jiang2024], and a 2026 meta-analysis reported lower AFC (SMD -0.38) [ept-majdi2026], though its very narrow confidence intervals despite high heterogeneity invite caution. Fecundity: one cohort found phthalates lengthened time to pregnancy [ept-charifson2024], another that several phthalate metabolites shortened it while a DINCH metabolite lengthened it [ept-blaauwendraad2025]. Preterm birth: moderate pooled evidence [ept-welch2022, ept-radke2019, ept-buckley2026], with disagreement over which trimester matters [ept-friedman2025, ept-yland2022].",
+   "key_numbers": [
+    {
+     "label": "Live birth per cycle, top vs bottom DEHP quartile (EARTH)",
+     "value": -19,
+     "unit": "percentage points",
+     "source": "ept-hauser2016"
+    },
+    {
+     "label": "Lower antral follicle count with phthalate+DINCH mixture",
+     "value": 8.6,
+     "unit": "%",
+     "source": "ept-jiang2024"
+    },
+    {
+     "label": "Preterm-birth odds per IQR MiBP in pregnancy",
+     "value": 1.16,
+     "unit": "OR",
+     "source": "ept-welch2022"
+    }
+   ],
+   "refs": [
+    "ept-potts2025",
+    "ept-hauser2016",
+    "ept-messerlian2016",
+    "ept-machtinger2018",
+    "ept-jiang2024",
+    "ept-majdi2026",
+    "ept-charifson2024",
+    "ept-blaauwendraad2025",
+    "ept-welch2022",
+    "ept-radke2019",
+    "ept-buckley2026",
+    "ept-friedman2025",
+    "ept-yland2022",
+    "ept-ferguson2017",
+    "ept-gougeon1986",
+    "ept-efsa2019"
+   ]
+  },
+  {
+   "id": "bisphenols-egg",
+   "name": "Bisphenols and egg quality / IVF",
+   "kind": "environment",
+   "scopes": [
+    "egg"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "egg": 1
+   },
+   "evidence": "limited",
+   "headline": "BPA disrupts the meiotic spindle of mouse eggs and of human eggs matured in a dish, and an early study of 84 IVF patients found 12% fewer eggs per log unit of urinary BPA, but the larger follow-up of the same clinic (256 women, 375 cycles) found no link with egg yield, embryo quality or live birth; a 2025 meta-analysis links BPA to lower fertilization rates only.",
+   "dose": {
+    "effective": "Same steps as [bisphenols]: avoid canned food and drinks and polycarbonate, minimise receipts (not after hand sanitizer), fresh food. The mouse data point to the final weeks of egg growth as most sensitive, so keep it up through the cycle of retrieval or conception.",
+    "studied_range": "Urinary BPA geometric means about 1.5-2.5 ug/L in IVF cohorts; in-vitro oocyte studies used 20 ng/mL to 20 ug/mL.",
+    "too_much": "No human threshold established; EFSA TDI 0.2 ng/kg/day (2023).",
+    "timeframe": "Urinary BPA falls within a day of removing a source; follicle growth spans about 85 days, with recruitment of the ovulatory follicle 15-20 days before ovulation.",
+    "notes": "BPS, BPF and BPAF show similar oocyte effects in animal and in-vitro studies, with little human data."
+   },
+   "mechanism": "Estrogen-receptor activity and interference with microtubules: in mice, low-dose BPA during the final stages of oocyte growth caused meiotic aneuploidy; in discarded human oocytes BPA reduced maturation and disturbed spindles and chromosome alignment dose-dependently; in IVF patients higher BPA went with lower peak estradiol in one cohort.",
+   "pathways": [
+    "endocrine",
+    "mitochondrial",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Co-exposed with [phthalates-egg]. In one IVF cohort, BPA associations with live birth appeared only in women eating no soy ([soy]), an unreplicated effect-modification finding.",
+   "caveats": "Small single-clinic cohorts, one or two spot urines per cycle (BPA ICC about 0.1), many endpoints. The aneuploidy data are from mice, and a second mouse study did not reproduce them; in-vitro oocytes were ones that had already failed to mature.",
+   "debate": "For: fewer oocytes and lower peak estradiol with BPA in 84 women [ept-moklin2010]; a trend to more implantation failure (top quartile OR 2.11, CI 0.84-5.31) [ept-ehrlich2012]; lower fertilization rates and fewer good embryos in a 2025 meta-analysis [ept-yuan2025]; lower AMH and clinical pregnancy in a 2026 meta-analysis [ept-majdi2026]; 11 of 21 human studies in a scoping review linked BPA to lower follicle counts or oocyte yield [ept-peters2024]; dose-dependent spindle damage in human oocytes in vitro [ept-machtinger2013] and aneuploidy in mice [ept-hunt2003]. Against: the expanded EARTH cohort found no association with any IVF outcome [ept-minguezalarcon2015]; the 2025 meta-analysis found no link with pregnancy or implantation [ept-yuan2025]; a mouse study with single, 7-day and 7-week dosing found no oocyte aneuploidy [ept-pacchierotti2008]; the soy-modification finding [ept-chavarro2016] is a subgroup result.",
+   "key_numbers": [
+    {
+     "label": "Fewer oocytes per log-unit urinary BPA (84 women)",
+     "value": 12,
+     "unit": "%",
+     "source": "ept-moklin2010"
+    },
+    {
+     "label": "Women in the larger null follow-up cohort",
+     "value": 256,
+     "unit": "women",
+     "source": "ept-minguezalarcon2015"
+    },
+    {
+     "label": "Implantation-failure odds, top vs bottom BPA quartile",
+     "value": 2.11,
+     "unit": "OR (0.84-5.31)",
+     "source": "ept-ehrlich2012"
+    }
+   ],
+   "refs": [
+    "ept-moklin2010",
+    "ept-ehrlich2012",
+    "ept-minguezalarcon2015",
+    "ept-chavarro2016",
+    "ept-yuan2025",
+    "ept-majdi2026",
+    "ept-peters2024",
+    "ept-machtinger2013",
+    "ept-hunt2003",
+    "ept-pacchierotti2008",
+    "ept-braun2012",
+    "ept-gougeon1986",
+    "ept-efsa2023"
    ]
   }
  ],
@@ -6446,6 +6700,642 @@
    "type": "mechanistic",
    "n": null,
    "finding": "Iron-overloaded follicular fluid from women with endometriosis triggered granulosa-cell ferroptosis and impaired oocyte maturation in mouse models; vitamin E and deferoxamine helped."
+  },
+  {
+   "id": "eia-attarchi2012",
+   "authors": "Attarchi MS, Ashouri M, Labbafinejad Y, et al.",
+   "year": 2012,
+   "title": "Assessment of time to pregnancy and spontaneous abortion status following occupational exposure to organic solvents mixture.",
+   "journal": "Int Arch Occup Environ Health",
+   "pmid": "21681482",
+   "doi": "10.1007/s00420-011-0666-z",
+   "type": "cross-sectional",
+   "n": "Pharmaceutical-plant women",
+   "finding": "Laboratory workers exposed to mixed organic solvents had more spontaneous abortions (10.7% vs 2.9%) and longer time to pregnancy than unexposed packing workers."
+  },
+  {
+   "id": "eia-carignan2017",
+   "authors": "Carignan CC, Mínguez-Alarcón L, Butt CM, et al.",
+   "year": 2017,
+   "title": "Urinary Concentrations of Organophosphate Flame Retardant Metabolites and Pregnancy Outcomes among Women Undergoing in Vitro Fertilization.",
+   "journal": "Environ Health Perspect",
+   "pmid": "28858831",
+   "doi": "10.1289/EHP1021",
+   "type": "cohort",
+   "n": "211 women (EARTH IVF cohort)",
+   "finding": "Women in the highest vs lowest quartile of summed urinary organophosphate flame retardant metabolites had 10% lower fertilization, 31% lower implantation, 41% lower clinical pregnancy and 38% lower live birth proportions per IVF cycle."
+  },
+  {
+   "id": "eia-ding2021",
+   "authors": "Ding M, Lawson C, Johnson C, et al.",
+   "year": 2021,
+   "title": "Occupational exposure to high-level disinfectants and risk of miscarriage among nurses.",
+   "journal": "Occup Environ Med",
+   "pmid": "34039757",
+   "doi": "10.1136/oemed-2020-107297",
+   "type": "cohort",
+   "n": "2,579 nurses, 3,974 pregnancies (NHS3)",
+   "finding": "Prospectively, occupational high-level disinfectant use was not associated with miscarriage (HR 0.84), except in pregnancies within 12 months of baseline use (HR 1.78)."
+  },
+  {
+   "id": "eia-doyle1997",
+   "authors": "Doyle P, Roman E, Beral V, et al.",
+   "year": 1997,
+   "title": "Spontaneous abortion in dry cleaning workers potentially exposed to perchloroethylene.",
+   "journal": "Occup Environ Med",
+   "pmid": "9470891",
+   "doi": "10.1136/oem.54.12.848",
+   "type": "cohort",
+   "n": "7,305 women (UK dry cleaning/laundry)",
+   "finding": "Spontaneous abortion was more common in dry-cleaning machine operators (17.1%) than in non-operators (11.6%) and unexposed pregnancies (10.9%)."
+  },
+  {
+   "id": "eia-duong2011",
+   "authors": "Duong A, Steinmaus C, McHale CM, et al.",
+   "year": 2011,
+   "title": "Reproductive and developmental toxicity of formaldehyde: a systematic review.",
+   "journal": "Mutat Res",
+   "pmid": "21787879",
+   "doi": "10.1016/j.mrrev.2011.07.003",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Formaldehyde-exposed women (mostly occupational, retrospective studies) had higher spontaneous abortion risk (RR 1.76, 95% CI 1.20-2.59); recall bias, selection bias and confounding could not be excluded."
+  },
+  {
+   "id": "eia-gibson2019",
+   "authors": "Gibson EA, Stapleton HM, Calero L, et al.",
+   "year": 2019,
+   "title": "Flame retardant exposure assessment: findings from a behavioral intervention study.",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "29950671",
+   "doi": "10.1038/s41370-018-0049-6",
+   "type": "rct",
+   "n": "32 mothers",
+   "finding": "One week of instructed house cleaning or hand-washing (then both) lowered some urinary flame-retardant metabolites and, in women with above-median baseline exposure, some hand-wipe levels, by about half in some cases."
+  },
+  {
+   "id": "eia-goodman2010",
+   "authors": "Goodman JE, Biesemeier JA, Johnson GT, et al.",
+   "year": 2010,
+   "title": "Fecundability and serum PBDE concentrations in women.",
+   "journal": "Environ Health Perspect",
+   "pmid": "20682476",
+   "doi": "10.1289/ehp.1002283",
+   "type": "review",
+   "n": null,
+   "finding": "Letter (with author reply) disputing the CHAMACOS PBDE-fecundability analysis."
+  },
+  {
+   "id": "eia-harley2010",
+   "authors": "Harley KG, Marks AR, Chevrier J, et al.",
+   "year": 2010,
+   "title": "PBDE concentrations in women's serum and fecundability.",
+   "journal": "Environ Health Perspect",
+   "pmid": "20103495",
+   "doi": "10.1289/ehp.0901450",
+   "type": "cohort",
+   "n": "223 pregnant women (CHAMACOS)",
+   "finding": "Higher serum PBDEs were associated with longer time to pregnancy (fecundability OR 0.5-0.7 for BDE-100, BDE-153 and the sum of four congeners), with no link to menstrual cycle characteristics."
+  },
+  {
+   "id": "eia-ingle2020",
+   "authors": "Ingle ME, Mínguez-Alarcón L, Carignan CC, et al.",
+   "year": 2020,
+   "title": "Exploring reproductive associations of serum polybrominated diphenyl ether and hydroxylated brominated diphenyl ether concentrations among women undergoing in vitro fertilization.",
+   "journal": "Hum Reprod",
+   "pmid": "32424407",
+   "doi": "10.1093/humrep/deaa063",
+   "type": "cohort",
+   "n": "215 women, 330 IVF cycles (EARTH)",
+   "finding": "Contrary to earlier reports, an interquartile rise in serum BDE-153 was associated with higher implantation (RR 1.26), clinical pregnancy (1.32) and live birth (1.34); PBDE levels fell up to 80% between 2005 and 2016 recruits."
+  },
+  {
+   "id": "eia-johnson2012",
+   "authors": "Johnson PI, Altshul L, Cramer DW, et al.",
+   "year": 2012,
+   "title": "Serum and follicular fluid concentrations of polybrominated diphenyl ethers and in-vitro fertilization outcome.",
+   "journal": "Environ Int",
+   "pmid": "22572111",
+   "doi": "10.1016/j.envint.2012.04.004",
+   "type": "cohort",
+   "n": "65 women (IVF)",
+   "finding": "Detectable BDE-153 in follicular fluid was associated with failed embryo implantation (adjusted OR 10.0, 95% CI 1.9-52); serum correlated only moderately with follicular fluid levels."
+  },
+  {
+   "id": "eia-lawson2012",
+   "authors": "Lawson CC, Rocheleau CM, Whelan EA, et al.",
+   "year": 2012,
+   "title": "Occupational exposures among nurses and risk of spontaneous abortion.",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "22304790",
+   "doi": "10.1016/j.ajog.2011.12.030",
+   "type": "cohort",
+   "n": "7,482 nurses (NHS II, retrospective)",
+   "finding": "Self-reported exposure to sterilizing agents/disinfectants was associated with a 2-fold risk of late (12-20 week) spontaneous abortion; antineoplastic drugs with a 2-fold risk overall."
+  },
+  {
+   "id": "eia-li2024pce",
+   "authors": "Li C, Li X, Zhang Z",
+   "year": 2024,
+   "title": "Oxidative stress and pro-inflammatory cytokines following perchloroethylene exposure in young female dry-cleaning workers.",
+   "journal": "Work",
+   "pmid": "37781844",
+   "doi": "10.3233/WOR-230080",
+   "type": "cross-sectional",
+   "n": "38 exposed, 38 control women",
+   "finding": "Young female dry-cleaning workers with high plasma perchloroethylene had higher MDA, SOD and catalase and altered cytokines compared with controls."
+  },
+  {
+   "id": "eia-lien2025",
+   "authors": "Lien HT, Ou YC, Cheng YH, et al.",
+   "year": 2025,
+   "title": "Association between ovarian reserve and organophosphate flame retardants in women of childbearing age.",
+   "journal": "Taiwan J Obstet Gynecol",
+   "pmid": "40368522",
+   "doi": "10.1016/j.tjog.2024.11.012",
+   "type": "cross-sectional",
+   "n": "99 women (Taiwan)",
+   "finding": "Higher urinary BDCPP and DPHP predicted membership of a low-AMH (<1.5 ng/mL) subgroup, with wide confidence intervals."
+  },
+  {
+   "id": "eia-mcmartin1998",
+   "authors": "McMartin KI, Chu M, Kopecky E, et al.",
+   "year": 1998,
+   "title": "Pregnancy outcome following maternal organic solvent exposure: a meta-analysis of epidemiologic studies.",
+   "journal": "Am J Ind Med",
+   "pmid": "9698999",
+   "doi": "10.1002/(sici)1097-0274(199809)34:3<288::aid-ajim12>3.0.co;2-q",
+   "type": "meta-analysis",
+   "n": "5 studies per outcome",
+   "finding": "Maternal occupational organic solvent exposure was associated with major malformations (OR 1.64) and a non-significant trend for spontaneous abortion (OR 1.25, 95% CI 0.99-1.58)."
+  },
+  {
+   "id": "eia-snijder2012",
+   "authors": "Snijder CA, te Velde E, Roeleveld N, et al.",
+   "year": 2012,
+   "title": "Occupational exposure to chemical substances and time to pregnancy: a systematic review.",
+   "journal": "Hum Reprod Update",
+   "pmid": "22431564",
+   "doi": "10.1093/humupd/dms005",
+   "type": "review",
+   "n": "49 studies",
+   "finding": "Occupational lead and pesticides showed strong indications of longer time to pregnancy; evidence for organic solvents and other metals was equivocal."
+  },
+  {
+   "id": "epc-dimitriadis2025",
+   "authors": "Dimitriadis I, Souter I, Williams PL, et al.",
+   "year": 2025,
+   "title": "Phenol biomarker concentrations in human ovarian follicular fluid and the associations with in-vitro fertilization outcomes.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "40617121",
+   "doi": "10.1016/j.ijheh.2025.114617",
+   "type": "cohort",
+   "n": "143 women undergoing IVF",
+   "finding": "Most follicular-fluid phenols, including parabens and BP-3, were not related to IVF outcomes or pregnancy; scattered associations (propylparaben and endometrial thickness, BP-3 and mature oocytes) did not translate into pregnancy differences."
+  },
+  {
+   "id": "epc-hipwell2019",
+   "authors": "Hipwell AE, Kahn LG, Factor-Litvak P, et al.",
+   "year": 2019,
+   "title": "Exposure to non-persistent chemicals in consumer products and fecundability: a systematic review.",
+   "journal": "Hum Reprod Update",
+   "pmid": "30307509",
+   "doi": "10.1093/humupd/dmy032",
+   "type": "review",
+   "n": "15 papers from 12 studies",
+   "finding": "Systematic review: preliminary support for female paraben and glycol ether exposure and male benzophenone exposure with longer time to pregnancy; little to no indication for BPA, triclosan or triclocarban; heterogeneity precluded meta-analysis."
+  },
+  {
+   "id": "epc-jurewicz2019",
+   "authors": "Jurewicz J, Wielgomas B, Radwan M, et al.",
+   "year": 2019,
+   "title": "Triclosan exposure and ovarian reserve.",
+   "journal": "Reprod Toxicol",
+   "pmid": "31377340",
+   "doi": "10.1016/j.reprotox.2019.07.086",
+   "type": "cross-sectional",
+   "n": "511 women from a fertility clinic",
+   "finding": "Urinary triclosan was associated with lower antral follicle count but not with AMH, FSH or estradiol."
+  },
+  {
+   "id": "epc-jurewicz2020",
+   "authors": "Jurewicz J, Radwan M, Wielgomas B, et al.",
+   "year": 2020,
+   "title": "Parameters of ovarian reserve in relation to urinary concentrations of parabens.",
+   "journal": "Environ Health",
+   "pmid": "32122340",
+   "doi": "10.1186/s12940-020-00580-3",
+   "type": "cross-sectional",
+   "n": "511 women from a fertility clinic",
+   "finding": "Only propylparaben in the third quartile was associated with lower antral follicle count and estradiol and higher FSH; methyl-, ethyl-, butyl- and isobutylparaben were not associated with ovarian reserve."
+  },
+  {
+   "id": "epc-minguez2016",
+   "authors": "Mínguez-Alarcón L, Chiu YH, Messerlian C, et al.",
+   "year": 2016,
+   "title": "Urinary paraben concentrations and in vitro fertilization outcomes among women from a fertility clinic.",
+   "journal": "Fertil Steril",
+   "pmid": "26654974",
+   "doi": "10.1016/j.fertnstert.2015.11.021",
+   "type": "cohort",
+   "n": "245 women, 356 IVF cycles",
+   "finding": "Urinary methyl-, propyl- and butylparaben were not associated with oocyte counts, embryo quality, fertilization, implantation, clinical pregnancy or live birth."
+  },
+  {
+   "id": "epc-minguez2017",
+   "authors": "Mínguez-Alarcón L, Christou G, Messerlian C, et al.",
+   "year": 2017,
+   "title": "Urinary triclosan concentrations and diminished ovarian reserve among women undergoing treatment in a fertility clinic.",
+   "journal": "Fertil Steril",
+   "pmid": "28583664",
+   "doi": "10.1016/j.fertnstert.2017.05.020",
+   "type": "cohort",
+   "n": "109 women, 225 samples",
+   "finding": "Urinary triclosan was inversely associated with antral follicle count (-4%, CI -7 to -1%; about 2-3 fewer follicles above the median in leaner and younger women)."
+  },
+  {
+   "id": "epc-minguez2019",
+   "authors": "Mínguez-Alarcón L, Messerlian C, Bellavia A, et al.",
+   "year": 2019,
+   "title": "Urinary concentrations of bisphenol A, parabens and phthalate metabolite mixtures in relation to reproductive success among women undergoing in vitro fertilization.",
+   "journal": "Environ Int",
+   "pmid": "30826614",
+   "doi": "10.1016/j.envint.2019.02.025",
+   "type": "cohort",
+   "n": "420 women, 648 IVF cycles",
+   "finding": "No overall association between mixtures of BPA, parabens and phthalates and IVF success; a DEHP-dominated cluster tracked lower live birth only in the earlier, higher-exposure years."
+  },
+  {
+   "id": "epc-rosenvollmar2023",
+   "authors": "Rosen Vollmar AK, Weinberg CR, Baird DD, et al.",
+   "year": 2023,
+   "title": "Urinary phenol concentrations and fecundability and early pregnancy loss.",
+   "journal": "Hum Reprod",
+   "pmid": "36346334",
+   "doi": "10.1093/humrep/deac230",
+   "type": "cohort",
+   "n": "221 women, 706 cycles, pooled daily urine",
+   "finding": "Using pooled first-morning urines, higher butylparaben and triclosan were associated with higher, not lower, fecundability; 2,5-dichlorophenol was associated with early pregnancy loss."
+  },
+  {
+   "id": "epc-smarr2017",
+   "authors": "Smarr MM, Sundaram R, Honda M, et al.",
+   "year": 2017,
+   "title": "Urinary Concentrations of Parabens and Other Antimicrobial Chemicals and Their Association with Couples' Fecundity.",
+   "journal": "Environ Health Perspect",
+   "pmid": "27286252",
+   "doi": "10.1289/EHP189",
+   "type": "cohort",
+   "n": "501 couples (LIFE study)",
+   "finding": "Women's top-quartile urinary methylparaben was associated with 34% lower fecundability (FOR 0.66) and ethylparaben showed a similar trend, but no associations appeared when concentrations were modelled continuously."
+  },
+  {
+   "id": "epc-smith2012",
+   "authors": "Smith KW, Braun JM, Williams PL, et al.",
+   "year": 2012,
+   "title": "Predictors and variability of urinary paraben concentrations in men and women, including before and during pregnancy.",
+   "journal": "Environ Health Perspect",
+   "pmid": "22721761",
+   "doi": "10.1289/ehp.1104614",
+   "type": "cohort",
+   "n": "fertility-clinic men and women with repeated urine samples",
+   "finding": "Intraclass correlations for methyl- and propylparaben were 0.42-0.54, so a single urine sample reasonably ranked exposure over several months; concentrations were 3.8 times higher in African American participants."
+  },
+  {
+   "id": "epc-velez2015",
+   "authors": "Vélez MP, Arbuckle TE, Fraser WD",
+   "year": 2015,
+   "title": "Female exposure to phenols and phthalates and time to pregnancy: the Maternal-Infant Research on Environmental Chemicals (MIREC) Study.",
+   "journal": "Fertil Steril",
+   "pmid": "25681860",
+   "doi": "10.1016/j.fertnstert.2015.01.005",
+   "type": "cohort",
+   "n": "2,001 pregnant women (MIREC)",
+   "finding": "Women in the top triclosan quartile had lower fecundability (FOR 0.84) on a single post-conception urine; BPA was not associated and some phthalates pointed to shorter time to pregnancy."
+  },
+  {
+   "id": "ept-blaauwendraad2025",
+   "authors": "Blaauwendraad SM, Boxem AJ, Gaillard R, et al.",
+   "year": 2025,
+   "title": "Periconception bisphenol and phthalate concentrations in women and men, time to pregnancy, and risk of miscarriage",
+   "journal": "Environ Res",
+   "pmid": "40311909",
+   "doi": "10.1016/j.envres.2025.121712",
+   "type": "cohort",
+   "n": "938 preconception and 1,366 pregnant women, 1,202 men (Generation R Next)",
+   "finding": "Preconception BPS and a DINCH metabolite (mCOCH) in women were linked to longer time to pregnancy, but several phthalate metabolites were linked to shorter time to pregnancy; authors call results hypothesis-generating."
+  },
+  {
+   "id": "ept-braun2012",
+   "authors": "Braun JM, Smith KW, Williams PL, et al.",
+   "year": 2012,
+   "title": "Variability of urinary phthalate metabolite and bisphenol A concentrations before and during pregnancy",
+   "journal": "Environ Health Perspect",
+   "pmid": "22262702",
+   "doi": "10.1289/ehp.1104139",
+   "type": "cohort",
+   "n": "137 women, 1,001 urine samples (Boston fertility clinic)",
+   "finding": "During pregnancy ICCs were 0.50 for MEP, 0.45 for MBP, 0.25 for MBzP, 0.12 for BPA and 0.08 for sum-DEHP; one spot sample adequately classified MEP and MBP but not DEHP or BPA."
+  },
+  {
+   "id": "ept-buckley2026",
+   "authors": "Buckley JP, Pacyga DC, Xun X, et al.",
+   "year": 2026,
+   "title": "Gestational Exposure to 10 Classes of Priority Chemicals and Birth Outcomes in the ECHO Cohort",
+   "journal": "JAMA Netw Open",
+   "pmid": "42307947",
+   "doi": "10.1001/jamanetworkopen.2026.18883",
+   "type": "cohort",
+   "n": "5,318 mother-child pairs (ECHO)",
+   "finding": "Among 113 analytes in 10 chemical classes, several phthalates and alternative plasticizers were linked to slightly shorter gestation; summed DiNP metabolites: 0.6 days shorter, preterm birth OR 1.16 per IQR."
+  },
+  {
+   "id": "ept-charifson2024",
+   "authors": "Charifson M, Seok E, Wang Y, et al.",
+   "year": 2024,
+   "title": "Evaluating associations of bisphenol and phthalate exposure with time to pregnancy and subfecundity in a New York City pregnancy cohort",
+   "journal": "Environ Pollut",
+   "pmid": "38830524",
+   "doi": "10.1016/j.envpol.2024.124281",
+   "type": "cohort",
+   "n": "pregnancy cohort, New York",
+   "finding": "First-trimester total bisphenols and some phthalate groups were linked to longer retrospective time to pregnancy and higher odds of subfecundity."
+  },
+  {
+   "id": "ept-chavarro2016",
+   "authors": "Chavarro JE, Mínguez-Alarcón L, Chiu YH, et al.",
+   "year": 2016,
+   "title": "Soy Intake Modifies the Relation Between Urinary Bisphenol A Concentrations and Pregnancy Outcomes Among Women Undergoing Assisted Reproduction",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "26815879",
+   "doi": "10.1210/jc.2015-3473",
+   "type": "cohort",
+   "n": "239 women, 347 IVF cycles (EARTH)",
+   "finding": "Soy intake modified the BPA association: among women eating no soy, live birth fell from 54% to 17% across BPA quartiles; no association among soy consumers."
+  },
+  {
+   "id": "ept-efsa2019",
+   "authors": "EFSA Panel on Food Contact Materials, Enzymes and Processing Aids (CEP), Silano V, Barat Baviera JM, et al.",
+   "year": 2019,
+   "title": "Update of the risk assessment of di-butylphthalate (DBP), butyl-benzyl-phthalate (BBP), bis(2-ethylhexyl)phthalate (DEHP), di-isononylphthalate (DINP) and di-isodecylphthalate (DIDP) for use in food contact materials",
+   "journal": "EFSA J",
+   "pmid": "32626195",
+   "doi": "10.2903/j.efsa.2019.5838",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA set a group TDI of 50 ug/kg bw/day (as DEHP equivalents) for DBP, BBP, DEHP and DINP based on reduced fetal testosterone; aggregated dietary exposure was 0.9-7.2 (mean) to 1.6-11.7 (high) ug/kg/day, up to 23% of the group TDI; assessment called temporary."
+  },
+  {
+   "id": "ept-efsa2023",
+   "authors": "EFSA Panel on Food Contact Materials, Enzymes and Processing Aids (CEP), Lambré C, Barat Baviera JM, et al.",
+   "year": 2023,
+   "title": "Re-evaluation of the risks to public health related to the presence of bisphenol A (BPA) in foodstuffs",
+   "journal": "EFSA J",
+   "pmid": "37089179",
+   "doi": "10.2903/j.efsa.2023.6857",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA lowered the BPA tolerable daily intake from 4 ug/kg to 0.2 ng/kg body weight per day (20,000-fold) based on Th17 immune effects in mice and concluded average and high dietary exposure exceed it by two to three orders of magnitude."
+  },
+  {
+   "id": "ept-ehrlich2012",
+   "authors": "Ehrlich S, Williams PL, Missmer SA, et al.",
+   "year": 2012,
+   "title": "Urinary bisphenol A concentrations and implantation failure among women undergoing in vitro fertilization",
+   "journal": "Environ Health Perspect",
+   "pmid": "22484414",
+   "doi": "10.1289/ehp.1104307",
+   "type": "cohort",
+   "n": "137 women, 180 IVF cycles (Boston)",
+   "finding": "Implantation failure odds rose across BPA quartiles (top quartile OR 2.11, 0.84-5.31; p-trend 0.06)."
+  },
+  {
+   "id": "ept-ferguson2017",
+   "authors": "Ferguson KK, Chen YH, VanderWeele TJ, et al.",
+   "year": 2017,
+   "title": "Mediation of the Relationship between Maternal Phthalate Exposure and Preterm Birth by Oxidative Stress with Repeated Measurements across Pregnancy",
+   "journal": "Environ Health Perspect",
+   "pmid": "27352406",
+   "doi": "10.1289/EHP282",
+   "type": "case-control",
+   "n": "482 pregnant women (130 preterm cases, 352 controls; LIFECODES)",
+   "finding": "Counterfactual mediation analysis: 8-isoprostane mediated an estimated 47-60% of the association between the DEHP metabolite MECPP and preterm birth (total OR 1.48-1.67)."
+  },
+  {
+   "id": "ept-friedman2025",
+   "authors": "Friedman A, Welch BM, Keil AP, et al.",
+   "year": 2025,
+   "title": "Periods of susceptibility for associations between phthalate exposure and preterm birth: Results from a pooled analysis of 16 US cohorts",
+   "journal": "Environ Int",
+   "pmid": "40132438",
+   "doi": "10.1016/j.envint.2025.109392",
+   "type": "cohort",
+   "n": "6,045 pregnancies (16 pooled US cohorts)",
+   "finding": "In the same pooled data, DEHP-metabolite associations with preterm birth were strongest for first- and second-trimester exposure (MEHP OR 1.15 and 1.11 per IQR) and null in the third trimester."
+  },
+  {
+   "id": "ept-gougeon1986",
+   "authors": "Gougeon A",
+   "year": 1986,
+   "title": "Dynamics of follicular growth in the human: a model from preliminary results",
+   "journal": "Hum Reprod",
+   "pmid": "3558758",
+   "doi": "10.1093/oxfordjournals.humrep.a136365",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The human ovulatory follicle begins its final growth about 85 days before ovulation; the dominant follicle is recruited 15-20 days before ovulation."
+  },
+  {
+   "id": "ept-hauser2016",
+   "authors": "Hauser R, Gaskins AJ, Souter I, et al.",
+   "year": 2016,
+   "title": "Urinary Phthalate Metabolite Concentrations and Reproductive Outcomes among Women Undergoing in Vitro Fertilization: Results from the EARTH Study",
+   "journal": "Environ Health Perspect",
+   "pmid": "26545148",
+   "doi": "10.1289/ehp.1509760",
+   "type": "cohort",
+   "n": "256 women undergoing IVF (EARTH)",
+   "finding": "Women in the top vs bottom quartile of urinary DEHP metabolites had fewer and fewer mature oocytes and 19 percentage points lower clinical pregnancy and live birth per cycle."
+  },
+  {
+   "id": "ept-hunt2003",
+   "authors": "Hunt PA, Koehler KE, Susiarjo M, et al.",
+   "year": 2003,
+   "title": "Bisphenol a exposure causes meiotic aneuploidy in the female mouse",
+   "journal": "Curr Biol",
+   "pmid": "12676084",
+   "doi": "10.1016/s0960-9822(03)00189-1",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Accidental and then deliberate low-dose BPA exposure during the final stages of oocyte growth caused dose-dependent meiotic aneuploidy in female mice."
+  },
+  {
+   "id": "ept-jiang2024",
+   "authors": "Jiang Y, Xu Y, Xiao S, et al.",
+   "year": 2024,
+   "title": "Phthalate and DINCH exposure and ovarian reserve markers among women seeking infertility care",
+   "journal": "Sci Total Environ",
+   "pmid": "38575009",
+   "doi": "10.1016/j.scitotenv.2024.172185",
+   "type": "cross-sectional",
+   "n": "657 women seeking infertility care (China)",
+   "finding": "Most conventional phthalate metabolites were inversely associated with antral follicle count, DINCH metabolites with higher FSH; the phthalate+DINCH mixture went with 8.6% lower AFC."
+  },
+  {
+   "id": "ept-machtinger2013",
+   "authors": "Machtinger R, Combelles CM, Missmer SA, et al.",
+   "year": 2013,
+   "title": "Bisphenol-A and human oocyte maturation in vitro",
+   "journal": "Hum Reprod",
+   "pmid": "23904465",
+   "doi": "10.1093/humrep/det312",
+   "type": "mechanistic",
+   "n": "352 discarded oocytes from 121 IVF patients",
+   "finding": "Sibling human oocytes cultured with BPA (20 ng/mL to 20 ug/mL) showed dose-dependent falls in maturation to metaphase II and more abnormal spindles and chromosome misalignment."
+  },
+  {
+   "id": "ept-machtinger2018",
+   "authors": "Machtinger R, Gaskins AJ, Racowsky C, et al.",
+   "year": 2018,
+   "title": "Urinary concentrations of biomarkers of phthalates and phthalate alternatives and IVF outcomes",
+   "journal": "Environ Int",
+   "pmid": "29161633",
+   "doi": "10.1016/j.envint.2017.11.011",
+   "type": "cohort",
+   "n": "136 women undergoing IVF (Israel)",
+   "finding": "Higher DEHP metabolites were linked to fewer total, mature and fertilized oocytes and top-quality embryos, but no phthalate metabolite was linked to implantation, clinical pregnancy or live birth; DINCH metabolites showed no associations."
+  },
+  {
+   "id": "ept-majdi2026",
+   "authors": "Majdi L, Tizro G, Salehpour S, et al.",
+   "year": 2026,
+   "title": "Association between Particulate Matter (PM₂.₅), Nitrogen Dioxide (NO₂), Bisphenol A (BPA), and Phthalates and Infertility Outcomes: A Systematic Review and Meta-Analysis",
+   "journal": "Reprod Sci",
+   "pmid": "41649762",
+   "doi": "10.1007/s43032-026-02055-1",
+   "type": "meta-analysis",
+   "n": "38 studies (n=55,620)",
+   "finding": "Pooled ART studies: BPA associated with lower AMH (SMD -0.42) and clinical pregnancy (OR 0.83, 95% CI 0.81-0.85), phthalates with lower antral follicle count (SMD -0.38); no effect on time to pregnancy; heterogeneity 58-85%."
+  },
+  {
+   "id": "ept-messerlian2016",
+   "authors": "Messerlian C, Wylie BJ, Mínguez-Alarcón L, et al.",
+   "year": 2016,
+   "title": "Urinary Concentrations of Phthalate Metabolites and Pregnancy Loss Among Women Conceiving with Medically Assisted Reproduction",
+   "journal": "Epidemiology",
+   "pmid": "27299194",
+   "doi": "10.1097/EDE.0000000000000525",
+   "type": "cohort",
+   "n": "256 women, 303 pregnancies after assisted reproduction (EARTH)",
+   "finding": "Biochemical pregnancy loss rose across sum-DEHP quartiles (top quartile RR 3.4, 0.97-11.7; p-trend 0.04); other phthalates were not associated; estimates imprecise."
+  },
+  {
+   "id": "ept-minguezalarcon2015",
+   "authors": "Mínguez-Alarcón L, Gaskins AJ, Chiu YH, et al.",
+   "year": 2015,
+   "title": "Urinary bisphenol A concentrations and association with in vitro fertilization outcomes among women from a fertility clinic",
+   "journal": "Hum Reprod",
+   "pmid": "26209788",
+   "doi": "10.1093/humrep/dev183",
+   "type": "cohort",
+   "n": "256 women, 375 IVF cycles (EARTH)",
+   "finding": "In the expanded Boston cohort, urinary BPA was not associated with peak estradiol, fertilization, embryo quality, implantation, clinical pregnancy or live birth."
+  },
+  {
+   "id": "ept-moklin2010",
+   "authors": "Mok-Lin E, Ehrlich S, Williams PL, et al.",
+   "year": 2010,
+   "title": "Urinary bisphenol A concentrations and ovarian response among women undergoing IVF",
+   "journal": "Int J Androl",
+   "pmid": "20002217",
+   "doi": "10.1111/j.1365-2605.2009.01014.x",
+   "type": "cohort",
+   "n": "84 women, 112 IVF cycles (Boston)",
+   "finding": "Each log-unit increase in urinary BPA was associated with 12% fewer oocytes retrieved and 213 pg/mL lower peak estradiol."
+  },
+  {
+   "id": "ept-pacchierotti2008",
+   "authors": "Pacchierotti F, Ranaldi R, Eichenlaub-Ritter U, et al.",
+   "year": 2008,
+   "title": "Evaluation of aneugenic effects of bisphenol A in somatic and germ cells of the mouse",
+   "journal": "Mutat Res",
+   "pmid": "18083607",
+   "doi": "10.1016/j.mrgentox.2007.10.009",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Single, 7-day or 7-week oral BPA exposure did not induce hyperploidy or polyploidy in mouse oocytes or zygotes; only prematurely separated chromatids after chronic exposure, without effect on segregation."
+  },
+  {
+   "id": "ept-peters2024",
+   "authors": "Peters AE, Ford EA, Roman SD, et al.",
+   "year": 2024,
+   "title": "Impact of Bisphenol A and its alternatives on oocyte health: a scoping review",
+   "journal": "Hum Reprod Update",
+   "pmid": "39277428",
+   "doi": "10.1093/humupd/dmae025",
+   "type": "review",
+   "n": "107 studies",
+   "finding": "Scoping review: nearly all in vitro and animal studies of BPA and its alternatives (BPS, BPF, BPAF and others) found adverse oocyte effects, often below 'safe' levels; 11 of 21 human observational studies linked higher urinary BPA to lower antral follicle count or oocyte yield."
+  },
+  {
+   "id": "ept-potts2025",
+   "authors": "Potts C, Harbolic A, Murphy M, et al.",
+   "year": 2025,
+   "title": "A common phthalate replacement disrupts ovarian function in young adult mice",
+   "journal": "Reprod Toxicol",
+   "pmid": "39549769",
+   "doi": "10.1016/j.reprotox.2024.108748",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In young adult mice, 10 days of oral DEHTP (from 10 ug/kg) altered ovarian follicle counts and gene expression, and DEHTP/MEHTP slowed follicle growth in vitro."
+  },
+  {
+   "id": "ept-radke2019",
+   "authors": "Radke EG, Glenn BS, Braun JM, et al.",
+   "year": 2019,
+   "title": "Phthalate exposure and female reproductive and developmental outcomes: a systematic review of the human epidemiological evidence",
+   "journal": "Environ Int",
+   "pmid": "31351310",
+   "doi": "10.1016/j.envint.2019.02.003",
+   "type": "review",
+   "n": null,
+   "finding": "EPA systematic review: moderate evidence linking DEHP, DBP and DEP to preterm birth; slight or indeterminate evidence for time to pregnancy, puberty and spontaneous abortion."
+  },
+  {
+   "id": "ept-welch2022",
+   "authors": "Welch BM, Keil AP, Buckley JP, et al.",
+   "year": 2022,
+   "title": "Associations Between Prenatal Urinary Biomarkers of Phthalate Exposure and Preterm Birth: A Pooled Study of 16 US Cohorts",
+   "journal": "JAMA Pediatr",
+   "pmid": "35816333",
+   "doi": "10.1001/jamapediatrics.2022.2252",
+   "type": "cohort",
+   "n": "6,045 pregnancies (16 pooled US cohorts)",
+   "finding": "Each interquartile-range rise in urinary MBP, MiBP, MECPP or MCPP across pregnancy was linked to 12-16% higher odds of preterm birth; modelled 30% and 50% cuts in the phthalate mixture would prevent about 6 and 11 preterm births per 1,000 live births."
+  },
+  {
+   "id": "ept-yland2022",
+   "authors": "Yland JJ, Zhang Y, Williams PL, et al.",
+   "year": 2022,
+   "title": "Phthalate and DINCH urinary concentrations across pregnancy and risk of preterm birth",
+   "journal": "Environ Pollut",
+   "pmid": "34763012",
+   "doi": "10.1016/j.envpol.2021.118476",
+   "type": "cohort",
+   "n": "386 women (EARTH fertility cohort)",
+   "finding": "Mean pregnancy sum-DEHP was imprecisely linked to preterm birth (RR 1.21, 0.84-1.72 per ln unit), with the clearest signal in the third trimester (RR 1.51); detection of a DINCH metabolite also appeared positively related to preterm birth."
+  },
+  {
+   "id": "ept-yuan2025",
+   "authors": "Yuan M, Chai J, Song J, et al.",
+   "year": 2025,
+   "title": "Association of bisphenol A exposure with in vitro fertilization outcomes: A meta-analysis and systematic review",
+   "journal": "Reprod Toxicol",
+   "pmid": "41005444",
+   "doi": "10.1016/j.reprotox.2025.109071",
+   "type": "meta-analysis",
+   "n": "14 studies",
+   "finding": "Higher BPA was associated with lower normal fertilization rates and fewer high-quality embryos in IVF/ICSI, but not with clinical pregnancy, blastocyst formation or implantation."
   }
  ]
 }

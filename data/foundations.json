@@ -74,7 +74,7 @@
     "general": 2
    },
    "evidence": "strong",
-   "headline": "No cardiovascular or cancer benefit in more than 100,000 trial participants. 400 IU/day raised prostate cancer by 17%, hemorrhagic stroke by 22-74% and heart failure by 13%, and high doses slightly raise mortality.",
+   "headline": "No cardiovascular or cancer benefit in more than 100,000 trial participants; 400 IU/day raised prostate cancer by 17% and haemorrhagic stroke by 22%; meta-analyses disagree on whether high doses slightly raise overall mortality.",
    "dose": {
     "effective": "No supplemental dose has shown an outcome benefit; get vitamin E from food (nuts, seeds, plant oils).",
     "studied_range": "50 mg/day (ATBC) to 400 IU/day (HOPE, SELECT) or 600 IU every other day (WHS); 200-3,200 IU in biomarker studies",
@@ -653,7 +653,7 @@
     "general": 4
    },
    "evidence": "moderate",
-   "headline": "In type 2 diabetes, urinary 8-iso-PGF2α tracked glucose variability (r = 0.86) and post-meal glucose, not HbA1c. Hyperglycaemia drives mitochondrial superoxide and AGE formation.",
+   "headline": "Diabetes raises urinary isoprostanes and hyperglycaemia drives mitochondrial superoxide and AGEs; a much-cited small study tied isoprostanes to glucose swings (r = 0.86, 21 patients), but larger CGM studies in type 1 and type 2 diabetes found no such link.",
    "dose": {
     "effective": "Limit post-meal glucose excursions and keep glucose in the normal range (see food and lifestyle areas).",
     "studied_range": null,
@@ -747,7 +747,7 @@
    "impact": {
     "general": 3
    },
-   "evidence": "moderate",
+   "evidence": "strong",
    "headline": "Activated neutrophils and macrophages are a major regulated source of oxidants, and ROS and NF-kB amplify each other, so persistent inflammation keeps oxidative stress high.",
    "dose": {
     "effective": "Treat the source (adiposity, smoking, infection, autoimmune or periodontal disease).",
@@ -1271,8 +1271,8 @@
     "general": 2,
     "egg": 2
    },
-   "evidence": "moderate",
-   "headline": "Even mild iodine deficiency matters around conception: women with very low urinary iodine took longer to conceive (46% lower fecundability per cycle), and children of mildly deficient UK mothers had higher odds of low verbal IQ (OR 1.58); but excess iodine can also tip the thyroid into dysfunction.",
+   "evidence": "limited",
+   "headline": "Mild iodine deficiency is linked in cohorts to slower conception and lower child verbal IQ, but a randomised trial of iodine in mildly deficient pregnant women found no IQ benefit; avoid deficiency rather than supplement high.",
    "dose": {
     "effective": "RDA 150 ug/day (220 pregnancy, 290 lactation). Iodised salt, dairy, eggs and seafood are main sources. The American Thyroid Association recommends a 150 ug/day iodine supplement (as potassium iodide) before and during pregnancy and lactation.",
     "studied_range": "Observational urinary iodine:creatinine ratios (<50 to >150 ug/g).",

@@ -19,9 +19,9 @@
     "egg-psychological-stress": "psychological-stress",
     "sauna-hot-baths": "sauna",
     "egg-heavy-metals": "heavy-metals",
-    "phthalates-bpa": "plastics-chemicals",
-    "egg-phthalates": "plastics-chemicals",
-    "egg-bpa": "plastics-chemicals",
+    "phthalates-bpa": "phthalates",
+    "egg-phthalates": "phthalates",
+    "egg-bpa": "bisphenols",
     "hyperglycemia-glucose-swings": "glycemic-control",
     "egg-diabetes-insulin-resistance": "glycemic-control",
     "sugary-drinks-sperm": "refined-sugar-high-glycemic",
@@ -88,7 +88,24 @@
     "ketogenic-diet-egg": "ketogenic-diet",
     "ketogenic-diet-sperm": "ketogenic-diet",
     "ssri-sperm": "ssris",
-    "ssri-egg": "ssris"
+    "ssri-egg": "ssris",
+    "plastics-chemicals": "phthalates",
+    "phthalates-sperm": "phthalates",
+    "phthalates-egg": "phthalates",
+    "bisphenols-sperm": "bisphenols",
+    "bisphenols-egg": "bisphenols",
+    "flame-retardants-sperm": "flame-retardants",
+    "flame-retardants-egg": "flame-retardants",
+    "occupational-solvents-sperm": "occupational-solvents",
+    "occupational-solvents-egg": "occupational-solvents",
+    "parabens-sperm": "parabens",
+    "parabens-egg": "parabens",
+    "triclosan-sperm": "triclosan-triclocarban",
+    "triclosan-egg": "triclosan-triclocarban",
+    "uv-filters-sperm": "uv-filters",
+    "glyphosate-sperm": "glyphosate",
+    "pyrethroids-sperm": "pyrethroids",
+    "disinfection-byproducts-sperm": "disinfection-byproducts"
   },
   "mechanisms": {},
   "names": {
@@ -101,7 +118,6 @@
     "psychological-stress": "Psychological stress",
     "sauna": "Sauna, hot tubs & hot baths",
     "heavy-metals": "Heavy metals (lead, cadmium, mercury, arsenic)",
-    "plastics-chemicals": "Plastics chemicals (phthalates, BPA)",
     "glycemic-control": "High blood sugar & insulin resistance",
     "refined-sugar-high-glycemic": "Refined sugar, sugary drinks & high-GI meals",
     "aerobic-exercise-moderate": "Moderate aerobic exercise",
@@ -142,7 +158,6 @@
     "ssris": "medical"
   },
   "same_area_ok": [
-    "tobacco-smoking",
-    "plastics-chemicals"
+    "tobacco-smoking"
   ]
 }

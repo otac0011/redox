@@ -159,6 +159,37 @@ def main():
                     warn(f"{doc_id}: timing {fid}.{fld}.days should be [low, high] or null, got {days}")
             timing[fid] = rec
 
+    # audits (research/AUDIT-BRIEF.md): data/audit/<group>.json holds per-factor reviews of
+    # confounding and newer evidence; research/deep-audit-<group>.md is its deep dive
+    audits = {}
+    for apath in sorted((DATA / "audit").glob("*.json")):
+        adoc = json.loads(apath.read_text(encoding="utf-8"))
+        doc_id = "deep-audit-" + apath.stem
+        local = {}
+        for r in adoc.get("references", []):
+            k = ref_key(r, doc_id)
+            local[r["id"]] = k
+            if k in references:
+                for fld, v in r.items():
+                    if v and fld != "id" and not references[k].get(fld):
+                        references[k][fld] = v
+            else:
+                references[k] = {fld: v for fld, v in r.items() if fld != "id"}
+        ref_index[doc_id] = local
+        md = ROOT / "research" / f"{doc_id}.md"
+        if md.exists() and not any(n["id"] == doc_id for n in notes):
+            first = next((ln for ln in md.read_text(encoding="utf-8").splitlines() if ln.startswith("# ")), "# " + doc_id)
+            notes.append({"id": doc_id, "title": first[2:].strip()})
+        for rec in adoc.get("audit", []):
+            fid = factor_alias.get(rec["factor"], rec["factor"])
+            if fid in audits:
+                warn(f"{doc_id}: second audit record for '{fid}' (first from {audits[fid]['doc']})")
+                continue
+            rec = {k: v for k, v in rec.items() if k != "site_change"}
+            rec.update(factor=fid, doc=doc_id)
+            rec["refs"] = [local[i] for i in rec.get("refs", []) if i in local or warn(f"{doc_id}: audit {fid} cites unknown ref '{i}'")]
+            audits[fid] = rec
+
     tests_doc = load("tests.json", {"tests": [], "references": []})
     tlocal = {}
     for r in tests_doc.get("references", []):
@@ -209,8 +240,12 @@ def main():
         })
         if fid in timing:
             factors[-1]["timing"] = timing[fid]
+        if fid in audits:
+            factors[-1]["audit"] = audits[fid]
     for fid in set(timing) - set(groups):
         warn(f"timing record for unknown factor '{fid}'")
+    for fid in set(audits) - set(groups):
+        warn(f"audit record for unknown factor '{fid}'")
 
     # group comparable key numbers so the compare chart can line them up across foods
     groups_re = [(r"^Total polyphenols, Folin", "Total polyphenols (Folin assay)"),

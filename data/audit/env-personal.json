@@ -1,0 +1,163 @@
+{
+ "references": [
+  {
+   "id": "epc-agarwal2008",
+   "authors": "Agarwal A, Deepinder F, Cocuzza M, et al.",
+   "year": 2008,
+   "title": "Effect of vaginal lubricants on sperm motility and chromatin integrity: a prospective comparative study.",
+   "journal": "Fertil Steril",
+   "pmid": "17509584",
+   "doi": "10.1016/j.fertnstert.2007.02.050",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In vitro, FemGlide, Replens and Astroglide reduced progressive motility and FemGlide and K-Y Jelly raised DNA fragmentation; Pre-Seed did not differ from culture medium."
+  },
+  {
+   "id": "epc-agarwal2013",
+   "authors": "Agarwal A, Malvezzi H, Sharma R",
+   "year": 2013,
+   "title": "Effect of an isotonic lubricant on sperm collection and sperm quality.",
+   "journal": "Fertil Steril",
+   "pmid": "23490168",
+   "doi": "10.1016/j.fertnstert.2013.01.116",
+   "type": "rct",
+   "n": "22 men",
+   "finding": "Using Pre-Seed during masturbation for semen collection did not change motility, viability, ROS, antioxidant capacity or DNA damage."
+  },
+  {
+   "id": "epc-bond2025",
+   "authors": "Bond JC, Heaton B, White KO, et al.",
+   "year": 2025,
+   "title": "Female sexual function and distress and time-to-pregnancy in a prospective preconception cohort.",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "39374749",
+   "doi": "10.1016/j.ajog.2024.09.117",
+   "type": "cohort",
+   "n": "2,500 women (PRESTO)",
+   "finding": "Sexual distress (FR 0.82) and frequently painful intercourse (FR 0.81) were associated with longer time to pregnancy; lower function in the lubrication domain also tracked delayed conception in exploratory analyses."
+  },
+  {
+   "id": "epc-gumerova2024",
+   "authors": "Gumerova E, Rimmer MP, Gellatly SA",
+   "year": 2024,
+   "title": "Do sperm and lubricants gel well with each other? A systematic review.",
+   "journal": "Hum Fertil (Camb)",
+   "pmid": "38044638",
+   "doi": "10.1080/14647273.2023.2285349",
+   "type": "review",
+   "n": "24 studies",
+   "finding": "Systematic review: only 2 of 24 studies were in vivo; evidence insufficient for a sperm-safe lubricant guideline."
+  },
+  {
+   "id": "epc-markram2022",
+   "authors": "Markram J, Griessel L, Girdler-Brown B, et al.",
+   "year": 2022,
+   "title": "Sperm-friendly lubricant: Fact or fiction.",
+   "journal": "Int J Gynaecol Obstet",
+   "pmid": "35318650",
+   "doi": "10.1002/ijgo.14136",
+   "type": "mechanistic",
+   "n": "60 semen samples",
+   "finding": "All lubricants tested, including Pre-Seed and Yes Baby, reduced forward progression versus untreated controls; only egg white did not."
+  },
+  {
+   "id": "epc-mcinerney2018",
+   "authors": "McInerney KA, Hahn KA, Hatch EE, et al.",
+   "year": 2018,
+   "title": "Lubricant use during intercourse and time to pregnancy: a prospective cohort study.",
+   "journal": "BJOG",
+   "pmid": "29543376",
+   "doi": "10.1111/1471-0528.15218",
+   "type": "cohort",
+   "n": "6,467 women",
+   "finding": "No lubricant type reduced fecundability: water-based FR 1.02, 'fertility-friendly' 1.01, oil-based 1.23, silicone 1.27."
+  },
+  {
+   "id": "epc-mesen2014",
+   "authors": "Mesen TB, Steiner AZ",
+   "year": 2014,
+   "title": "Effect of vaginal lubricants on natural fertility.",
+   "journal": "Curr Opin Obstet Gynecol",
+   "pmid": "24717914",
+   "doi": "10.1097/GCO.0000000000000066",
+   "type": "review",
+   "n": null,
+   "finding": "Review: in vitro sperm toxicity of lubricants does not translate into lower natural fertility in available cohort data; a randomized trial is lacking."
+  },
+  {
+   "id": "epc-molin2024",
+   "authors": "Molin EAD, Leite GAA, Lazzari VM",
+   "year": 2024,
+   "title": "A systematic review focused on lubricant use and sperm quality: Improving human reproductive success by informing lubricants toxicity.",
+   "journal": "J Appl Toxicol",
+   "pmid": "38295779",
+   "doi": "10.1002/jat.4582",
+   "type": "review",
+   "n": "20 studies",
+   "finding": "Systematic review: K-Y, Replens and Astroglide impair motility and chromatin in vitro; osmolality and pH drive toxicity and many products exceed the WHO 380 mOsm/kg recommendation; Pre-Seed generally shows minimal harm."
+  },
+  {
+   "id": "epc-pradit2025",
+   "authors": "Pradit L, Somsak P, Piromlertamorn W, et al.",
+   "year": 2025,
+   "title": "The effects of coital lubricants on sperm motility and vitality.",
+   "journal": "JBRA Assist Reprod",
+   "pmid": "40080784",
+   "doi": "10.5935/1518-0557.20240113",
+   "type": "mechanistic",
+   "n": "20 normozoospermic donors",
+   "finding": "At 10% in vaginal-fluid simulant, all lubricants lowered motility immediately after mixing; Pre-Seed later matched controls, while Durex and K-Y were worst."
+  },
+  {
+   "id": "epc-steiner2012",
+   "authors": "Steiner AZ, Long DL, Tanner C, et al.",
+   "year": 2012,
+   "title": "Effect of vaginal lubricants on natural fertility.",
+   "journal": "Obstet Gynecol",
+   "pmid": "22914390",
+   "doi": "10.1097/AOG.0b013e31825b87ae",
+   "type": "cohort",
+   "n": "296 women",
+   "finding": "Lubricant use in the fertile window did not lower fecundability (FR 1.05, CI 0.59-1.85)."
+  },
+  {
+   "id": "epc-tomlinson2023",
+   "authors": "Tomlinson J, Pooley K, Tomlinson M",
+   "year": 2023,
+   "title": "Sperm toxicity testing on lubricant gels: should we be recommending 'fertility-friendly' specialist products?",
+   "journal": "Hum Fertil (Camb)",
+   "pmid": "35369832",
+   "doi": "10.1080/14647273.2022.2053214",
+   "type": "mechanistic",
+   "n": "12 donor samples",
+   "finding": "All gels, including 'sperm-friendly' ones, reduced motility at 1-2 h; pleasure gels and saliva were worst."
+  }
+ ],
+ "audit": [
+  {
+   "factor": "lubricants-sperm",
+   "verdict": "holds",
+   "claim": "Many lubricants (K-Y, Astroglide, olive oil, saliva) impair sperm motility and some raise DNA fragmentation in vitro, isotonic 'sperm-friendly' gels such as Pre-Seed do not, yet lubricant use did not lower fecundability in two cohorts (6,467 and 296 women).",
+   "biases": "Measurement error: lubricant type was self-reported and not tied to specific acts [epc-mcinerney2018, epc-steiner2012]. Confounding by indication: women who need lubricant may have vaginal dryness or painful sex, which itself predicted longer time to pregnancy [epc-bond2025]; this would bias toward finding harm, so the null cohort results are reassuring rather than masking harm. Lab-to-life gap: in vitro tests mix 5-12.5% lubricant with sperm for minutes to hours, unlike intercourse [epc-mesen2014]. Reverse causation is unlikely. No industry-funded cohort was identified, but 'sperm-friendly' claims rest largely on lab tests of commercial products.",
+   "newer_evidence": "No new cohort or randomized trial since 2018. Two 2024 systematic reviews agree the lab harm is real and driven by osmolality and pH (many products exceed WHO's 380 mOsm/kg) but that only 2 of 24 studies were in vivo and evidence is insufficient for a guideline [epc-gumerova2024, epc-molin2024]. Newer lab studies complicate the 'sperm-friendly' label: Pre-Seed matched controls only after initial loss of motility [epc-pradit2025], all commercial gels including Pre-Seed reduced forward progression and only egg white did not [epc-markram2022], and 'sperm-safe' gels still cut motility at 1-2 h though less than pleasure gels [epc-tomlinson2023]. Older positive data for Pre-Seed stand [epc-agarwal2008, epc-agarwal2013].",
+   "bottom_line": "For natural conception, using lubricant does not appear to reduce the chance of pregnancy, and avoiding it if sex is painful may do more harm than good. For semen collected for testing, IUI or IVF, use none or a clinic-approved isotonic product; even 'fertility-friendly' gels are not perfectly neutral in the lab.",
+   "site_change": {
+    "note": "Add that newer lab studies found 'fertility-friendly' gels, including Pre-Seed, still reduce motility somewhat (Markram 2022, Tomlinson 2023, Pradit 2025), and that painful intercourse and poor lubrication themselves predicted longer time to pregnancy (Bond 2025), so lubricant use should not be discouraged for natural conception."
+   },
+   "as_of": 2026,
+   "refs": [
+    "epc-mcinerney2018",
+    "epc-steiner2012",
+    "epc-bond2025",
+    "epc-mesen2014",
+    "epc-gumerova2024",
+    "epc-molin2024",
+    "epc-pradit2025",
+    "epc-markram2022",
+    "epc-tomlinson2023",
+    "epc-agarwal2008",
+    "epc-agarwal2013"
+   ]
+  }
+ ]
+}

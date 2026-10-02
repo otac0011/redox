@@ -1,0 +1,506 @@
+{
+ "references": [
+  {
+   "id": "ept-braun2012",
+   "authors": "Braun JM, Smith KW, Williams PL, et al.",
+   "year": 2012,
+   "title": "Variability of urinary phthalate metabolite and bisphenol A concentrations before and during pregnancy",
+   "journal": "Environ Health Perspect",
+   "pmid": "22262702",
+   "doi": "10.1289/ehp.1104139",
+   "type": "cohort",
+   "n": "137 women, 1,001 urine samples (Boston fertility clinic)",
+   "finding": "During pregnancy ICCs were 0.50 for MEP, 0.45 for MBP, 0.25 for MBzP, 0.12 for BPA and 0.08 for sum-DEHP; one spot sample adequately classified MEP and MBP but not DEHP or BPA."
+  },
+  {
+   "id": "ept-carwile2011",
+   "authors": "Carwile JL, Ye X, Zhou X, et al.",
+   "year": 2011,
+   "title": "Canned soup consumption and urinary bisphenol A: a randomized crossover trial",
+   "journal": "JAMA",
+   "pmid": "22110104",
+   "doi": "10.1001/jama.2011.1721",
+   "type": "rct",
+   "n": "75 adults (crossover)",
+   "finding": "One serving of canned soup a day for 5 days raised specific-gravity-adjusted urinary BPA to 20.8 ug/L vs 1.1 ug/L after fresh soup."
+  },
+  {
+   "id": "ept-castellini2022",
+   "authors": "Castellini C, Muselli M, Parisi A, et al.",
+   "year": 2022,
+   "title": "Association between urinary bisphenol A concentrations and semen quality: A meta-analytic study",
+   "journal": "Biochem Pharmacol",
+   "pmid": "34968490",
+   "doi": "10.1016/j.bcp.2021.114896",
+   "type": "meta-analysis",
+   "n": "9 studies, 2,399 men",
+   "finding": "Urinary BPA was only weakly associated with lower sperm motility, and the association disappeared after correction for publication bias; authors judge the link clinically negligible, if any."
+  },
+  {
+   "id": "ept-ehrlich2014",
+   "authors": "Ehrlich S, Calafat AM, Humblet O, et al.",
+   "year": 2014,
+   "title": "Handling of thermal receipts as a source of exposure to bisphenol A",
+   "journal": "JAMA",
+   "pmid": "24570250",
+   "doi": "10.1001/jama.2013.283735",
+   "type": "rct",
+   "n": "24 adults (crossover simulation)",
+   "finding": "Handling thermal receipts for 2 h without gloves raised urinary BPA from 1.8 to 5.8 ug/L, peaking at 8-12 h; nitrile gloves prevented a significant rise."
+  },
+  {
+   "id": "ept-friedman2025",
+   "authors": "Friedman A, Welch BM, Keil AP, et al.",
+   "year": 2025,
+   "title": "Periods of susceptibility for associations between phthalate exposure and preterm birth: Results from a pooled analysis of 16 US cohorts",
+   "journal": "Environ Int",
+   "pmid": "40132438",
+   "doi": "10.1016/j.envint.2025.109392",
+   "type": "cohort",
+   "n": "6,045 pregnancies (16 pooled US cohorts)",
+   "finding": "In the same pooled data, DEHP-metabolite associations with preterm birth were strongest for first- and second-trimester exposure (MEHP OR 1.15 and 1.11 per IQR) and null in the third trimester."
+  },
+  {
+   "id": "ept-genardwalton2025",
+   "authors": "Génard-Walton M, Warembourg C, Williams PL, et al.",
+   "year": 2025,
+   "title": "Using mixture and exposome methods to assess the associations and interactions of chemical biomarkers with semen parameters",
+   "journal": "Environ Int",
+   "pmid": "40472759",
+   "doi": "10.1016/j.envint.2025.109568",
+   "type": "cross-sectional",
+   "n": "420 men (EARTH)",
+   "finding": "Across four mixture/exposome models of 24 biomarkers (BPA, parabens, triclosan, 17 phthalate metabolites, hair mercury), the consistent signals were mercury (positive) and triclosan (negative); the overall mixture had small, imprecise associations with semen parameters."
+  },
+  {
+   "id": "ept-goldstone2015",
+   "authors": "Goldstone AE, Chen Z, Perry MJ, et al.",
+   "year": 2015,
+   "title": "Urinary bisphenol A and semen quality, the LIFE Study",
+   "journal": "Reprod Toxicol",
+   "pmid": "25462789",
+   "doi": "10.1016/j.reprotox.2014.11.003",
+   "type": "cohort",
+   "n": "418 men (LIFE Study, Michigan and Texas)",
+   "finding": "In a general-population preconception cohort, urinary BPA was not associated with 34 of 35 semen measures; the only significant finding was less sperm DNA fragmentation with higher BPA."
+  },
+  {
+   "id": "ept-gougeon1986",
+   "authors": "Gougeon A",
+   "year": 1986,
+   "title": "Dynamics of follicular growth in the human: a model from preliminary results",
+   "journal": "Hum Reprod",
+   "pmid": "3558758",
+   "doi": "10.1093/oxfordjournals.humrep.a136365",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The human ovulatory follicle begins its final growth about 85 days before ovulation; the dominant follicle is recruited 15-20 days before ovulation."
+  },
+  {
+   "id": "ept-harley2016",
+   "authors": "Harley KG, Kogut K, Madrigal DS, et al.",
+   "year": 2016,
+   "title": "Reducing Phthalate, Paraben, and Phenol Exposure from Personal Care Products in Adolescent Girls: Findings from the HERMOSA Intervention Study",
+   "journal": "Environ Health Perspect",
+   "pmid": "26947464",
+   "doi": "10.1289/ehp.1510514",
+   "type": "cohort",
+   "n": "100 Latina adolescent girls (HERMOSA)",
+   "finding": "Three days of personal-care products free of phthalates, parabens, triclosan and BP-3 lowered urinary MEP by 27% and methyl/propyl paraben by about 44-45%; MnBP and MiBP did not change."
+  },
+  {
+   "id": "ept-harray2026",
+   "authors": "Harray AJ, Lucas AD, Herrmann SE, et al.",
+   "year": 2026,
+   "title": "Low-plastic diet and urinary levels of plastic-associated phthalates and bisphenols: the randomized controlled PERTH Trial",
+   "journal": "Nat Med",
+   "pmid": "42014506",
+   "doi": "10.1038/s41591-026-04324-7",
+   "type": "rct",
+   "n": "60 adults (7-day RCT) plus 211-person cohort (PERTH, Australia)",
+   "finding": "A 7-day diet of food sourced to minimize plastic contact, with plastic-free kitchenware and personal-care products, cut urinary MnBP by 37.5%, MBzP by 53.5% and BPA by 59.7% vs no intervention; personal-care swaps alone lowered MnBP; Minderoo-funded."
+  },
+  {
+   "id": "ept-hauser2016",
+   "authors": "Hauser R, Gaskins AJ, Souter I, et al.",
+   "year": 2016,
+   "title": "Urinary Phthalate Metabolite Concentrations and Reproductive Outcomes among Women Undergoing in Vitro Fertilization: Results from the EARTH Study",
+   "journal": "Environ Health Perspect",
+   "pmid": "26545148",
+   "doi": "10.1289/ehp.1509760",
+   "type": "cohort",
+   "n": "256 women undergoing IVF (EARTH)",
+   "finding": "Women in the top vs bottom quartile of urinary DEHP metabolites had fewer and fewer mature oocytes and 19 percentage points lower clinical pregnancy and live birth per cycle."
+  },
+  {
+   "id": "ept-heller1963",
+   "authors": "HELLER CG, CLERMONT Y",
+   "year": 1963,
+   "title": "Spermatogenesis in man: an estimate of its duration",
+   "journal": "Science",
+   "pmid": "13953583",
+   "doi": "10.1126/science.140.3563.184",
+   "type": "mechanistic",
+   "n": "testicular biopsies after tritiated thymidine",
+   "finding": "One cycle of the human seminiferous epithelium lasts about 16 days and complete spermatogenesis about 64 days."
+  },
+  {
+   "id": "ept-hormann2014",
+   "authors": "Hormann AM, Vom Saal FS, Nagel SC, et al.",
+   "year": 2014,
+   "title": "Holding thermal receipt paper and eating food after using hand sanitizer results in high serum bioactive and urine total levels of bisphenol A (BPA)",
+   "journal": "PLoS One",
+   "pmid": "25337790",
+   "doi": "10.1371/journal.pone.0110509",
+   "type": "rct",
+   "n": "volunteers (experimental)",
+   "finding": "Holding thermal receipt paper right after using a hand sanitizer with penetration enhancers, then eating fries by hand, raised serum unconjugated BPA to about 7 ng/mL within 90 min."
+  },
+  {
+   "id": "ept-hunt2003",
+   "authors": "Hunt PA, Koehler KE, Susiarjo M, et al.",
+   "year": 2003,
+   "title": "Bisphenol a exposure causes meiotic aneuploidy in the female mouse",
+   "journal": "Curr Biol",
+   "pmid": "12676084",
+   "doi": "10.1016/s0960-9822(03)00189-1",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Accidental and then deliberate low-dose BPA exposure during the final stages of oocyte growth caused dose-dependent meiotic aneuploidy in female mice."
+  },
+  {
+   "id": "ept-johns2015",
+   "authors": "Johns LE, Cooper GS, Galizia A, et al.",
+   "year": 2015,
+   "title": "Exposure assessment issues in epidemiology studies of phthalates",
+   "journal": "Environ Int",
+   "pmid": "26313703",
+   "doi": "10.1016/j.envint.2015.08.005",
+   "type": "review",
+   "n": null,
+   "finding": "Phthalate metabolite half-lives are 3-18 h; intraclass correlations of repeated urine samples are about 0.3-0.6 for DEP, DBP, DiBP and BBzP metabolites and 0.1-0.3 for DEHP, DiNP and DiDP; US and German exposures to DEP, BBzP, DBP and DEHP declined after 2001."
+  },
+  {
+   "id": "ept-koch2004",
+   "authors": "Koch HM, Bolt HM, Angerer J",
+   "year": 2004,
+   "title": "Di(2-ethylhexyl)phthalate (DEHP) metabolites in human urine and serum after a single oral dose of deuterium-labelled DEHP",
+   "journal": "Arch Toxicol",
+   "pmid": "14576974",
+   "doi": "10.1007/s00204-003-0522-3",
+   "type": "mechanistic",
+   "n": "1 male volunteer",
+   "finding": "After a labelled DEHP dose, urinary metabolites peaked at 2-4 h; first-phase excretion half-lives were about 2 h and second-phase 5-10 h."
+  },
+  {
+   "id": "ept-lessmann2016",
+   "authors": "Lessmann F, Schütze A, Weiss T, et al.",
+   "year": 2016,
+   "title": "Metabolism and urinary excretion kinetics of di(2-ethylhexyl) terephthalate (DEHTP) in three male volunteers after oral dosage",
+   "journal": "Arch Toxicol",
+   "pmid": "27116293",
+   "doi": "10.1007/s00204-016-1715-x",
+   "type": "mechanistic",
+   "n": "3 male volunteers",
+   "finding": "After an oral DEHTP dose about 16% was recovered as specific metabolites, 95% of it within the first 24 h; 5cx-MEPTP was the main biomarker."
+  },
+  {
+   "id": "ept-machtinger2018",
+   "authors": "Machtinger R, Gaskins AJ, Racowsky C, et al.",
+   "year": 2018,
+   "title": "Urinary concentrations of biomarkers of phthalates and phthalate alternatives and IVF outcomes",
+   "journal": "Environ Int",
+   "pmid": "29161633",
+   "doi": "10.1016/j.envint.2017.11.011",
+   "type": "cohort",
+   "n": "136 women undergoing IVF (Israel)",
+   "finding": "Higher DEHP metabolites were linked to fewer total, mature and fertilized oocytes and top-quality embryos, but no phthalate metabolite was linked to implantation, clinical pregnancy or live birth; DINCH metabolites showed no associations."
+  },
+  {
+   "id": "ept-minguezalarcon2015",
+   "authors": "Mínguez-Alarcón L, Gaskins AJ, Chiu YH, et al.",
+   "year": 2015,
+   "title": "Urinary bisphenol A concentrations and association with in vitro fertilization outcomes among women from a fertility clinic",
+   "journal": "Hum Reprod",
+   "pmid": "26209788",
+   "doi": "10.1093/humrep/dev183",
+   "type": "cohort",
+   "n": "256 women, 375 IVF cycles (EARTH)",
+   "finding": "In the expanded Boston cohort, urinary BPA was not associated with peak estradiol, fertilization, embryo quality, implantation, clinical pregnancy or live birth."
+  },
+  {
+   "id": "ept-moklin2010",
+   "authors": "Mok-Lin E, Ehrlich S, Williams PL, et al.",
+   "year": 2010,
+   "title": "Urinary bisphenol A concentrations and ovarian response among women undergoing IVF",
+   "journal": "Int J Androl",
+   "pmid": "20002217",
+   "doi": "10.1111/j.1365-2605.2009.01014.x",
+   "type": "cohort",
+   "n": "84 women, 112 IVF cycles (Boston)",
+   "finding": "Each log-unit increase in urinary BPA was associated with 12% fewer oocytes retrieved and 213 pg/mL lower peak estradiol."
+  },
+  {
+   "id": "ept-oh2018",
+   "authors": "Oh J, Choi JW, Ahn YA, et al.",
+   "year": 2018,
+   "title": "Pharmacokinetics of bisphenol S in humans after single oral administration",
+   "journal": "Environ Int",
+   "pmid": "29272776",
+   "doi": "10.1016/j.envint.2017.11.020",
+   "type": "mechanistic",
+   "n": "7 adults",
+   "finding": "Oral BPS was absorbed within about 1 h and excreted with a terminal half-life under 7 h (6.8 h)."
+  },
+  {
+   "id": "ept-pacchierotti2008",
+   "authors": "Pacchierotti F, Ranaldi R, Eichenlaub-Ritter U, et al.",
+   "year": 2008,
+   "title": "Evaluation of aneugenic effects of bisphenol A in somatic and germ cells of the mouse",
+   "journal": "Mutat Res",
+   "pmid": "18083607",
+   "doi": "10.1016/j.mrgentox.2007.10.009",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Single, 7-day or 7-week oral BPA exposure did not induce hyperploidy or polyploidy in mouse oocytes or zygotes; only prematurely separated chromatids after chronic exposure, without effect on segregation."
+  },
+  {
+   "id": "ept-peng2019",
+   "authors": "Peng CY, Tsai EM, Kao TH, et al.",
+   "year": 2019,
+   "title": "Canned food intake and urinary bisphenol a concentrations: a randomized crossover intervention study",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "31352597",
+   "doi": "10.1007/s11356-019-05534-y",
+   "type": "rct",
+   "n": "20 volunteers (crossover)",
+   "finding": "A canned-food meal raised urinary BPA by up to 206% at 4 h, returning to baseline by 24 h."
+  },
+  {
+   "id": "ept-rudel2011",
+   "authors": "Rudel RA, Gray JM, Engel CL, et al.",
+   "year": 2011,
+   "title": "Food packaging and bisphenol A and bis(2-ethyhexyl) phthalate exposure: findings from a dietary intervention",
+   "journal": "Environ Health Perspect",
+   "pmid": "21450549",
+   "doi": "10.1289/ehp.1003170",
+   "type": "cohort",
+   "n": "20 people in 5 families",
+   "finding": "Three days of fresh, unpackaged food cut urinary BPA by 66% and DEHP metabolites by 53-56% (geometric means)."
+  },
+  {
+   "id": "ept-sathyanarayana2013",
+   "authors": "Sathyanarayana S, Alcedo G, Saelens BE, et al.",
+   "year": 2013,
+   "title": "Unexpected results in a randomized dietary trial to reduce phthalate and bisphenol A exposures",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "23443238",
+   "doi": "10.1038/jes.2013.9",
+   "type": "rct",
+   "n": "10 families (40 people)",
+   "finding": "A 5-day catered 'low-exposure' diet unexpectedly raised urinary DEHP metabolites (to an estimated intake above EPA and EFSA limits for children) because ingredients such as ground coriander and milk were contaminated."
+  },
+  {
+   "id": "ept-stahlhut2009",
+   "authors": "Stahlhut RW, Welshons WV, Swan SH",
+   "year": 2009,
+   "title": "Bisphenol A data in NHANES suggest longer than expected half-life, substantial nonfood exposure, or both",
+   "journal": "Environ Health Perspect",
+   "pmid": "19479022",
+   "doi": "10.1289/ehp.0800376",
+   "type": "cross-sectional",
+   "n": "1,469 adults (NHANES 2003-2004)",
+   "finding": "Urinary BPA barely fell with longer fasting (population-based half-life 43 h), suggesting substantial non-food exposure, storage, or both."
+  },
+  {
+   "id": "ept-teeguarden2011",
+   "authors": "Teeguarden JG, Calafat AM, Ye X, et al.",
+   "year": 2011,
+   "title": "Twenty-four hour human urine and serum profiles of bisphenol a during high-dietary exposure",
+   "journal": "Toxicol Sci",
+   "pmid": "21705716",
+   "doi": "10.1093/toxsci/kfr160",
+   "type": "mechanistic",
+   "n": "20 adults",
+   "finding": "During three high-BPA meals, urinary total BPA peaked about 2.75 h after a meal; serum BPA was detectable only at exposures well above the US 95th percentile."
+  },
+  {
+   "id": "ept-thayer2015",
+   "authors": "Thayer KA, Doerge DR, Hunt D, et al.",
+   "year": 2015,
+   "title": "Pharmacokinetics of bisphenol A in humans following a single oral administration",
+   "journal": "Environ Int",
+   "pmid": "26115537",
+   "doi": "10.1016/j.envint.2015.06.008",
+   "type": "mechanistic",
+   "n": "14 adults (6 men, 8 women)",
+   "finding": "After an oral dose of deuterated BPA, unconjugated BPA peaked at 1.3 h and the terminal half-life of total and unconjugated BPA was about 6.2-6.4 h."
+  },
+  {
+   "id": "ept-vernet2019",
+   "authors": "Vernet C, Philippat C, Agier L, et al.",
+   "year": 2019,
+   "title": "An Empirical Validation of the Within-subject Biospecimens Pooling Approach to Minimize Exposure Misclassification in Biomarker-based Studies",
+   "journal": "Epidemiology",
+   "pmid": "31373935",
+   "doi": "10.1097/EDE.0000000000001056",
+   "type": "cohort",
+   "n": "16 pregnant women (all voids, several weeks) plus simulation",
+   "finding": "One spot urine sample produced 69% attenuation bias in a BPA dose-response; about 18 samples were needed to bring bias down to 10%."
+  },
+  {
+   "id": "ept-wangh2023",
+   "authors": "Wang H, He H, Wei Y, et al.",
+   "year": 2023,
+   "title": "Do phthalates and their metabolites cause poor semen quality? A systematic review and meta-analysis of epidemiological studies on risk of decline in sperm quality",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "36504299",
+   "doi": "10.1007/s11356-022-24215-x",
+   "type": "meta-analysis",
+   "n": "12 studies",
+   "finding": "Urinary MBP (pooled OR 2.19) and MBzP (OR 1.88) and semen DEHP (r -0.23) were associated with low sperm concentration; no significant links with motility or morphology or for MEP and other metabolites."
+  },
+  {
+   "id": "ept-yland2022",
+   "authors": "Yland JJ, Zhang Y, Williams PL, et al.",
+   "year": 2022,
+   "title": "Phthalate and DINCH urinary concentrations across pregnancy and risk of preterm birth",
+   "journal": "Environ Pollut",
+   "pmid": "34763012",
+   "doi": "10.1016/j.envpol.2021.118476",
+   "type": "cohort",
+   "n": "386 women (EARTH fertility cohort)",
+   "finding": "Mean pregnancy sum-DEHP was imprecisely linked to preterm birth (RR 1.21, 0.84-1.72 per ln unit), with the clearest signal in the third trimester (RR 1.51); detection of a DINCH metabolite also appeared positively related to preterm birth."
+  }
+ ],
+ "windows": [],
+ "timing": [
+  {
+   "factor": "phthalates",
+   "shape": "acute",
+   "summary": "Phthalates are cleared in hours, so urine reflects roughly the last day and a change of food or toiletries shows up within 3-7 days [ept-koch2004, ept-rudel2011, ept-harray2026]. The flip side is that the benefit lasts only while the change is kept up, and a single urine sample says little about the previous months [ept-johns2015].",
+   "onset": {
+    "text": "After a DEHP dose, urinary metabolites peak at 2-4 hours [ept-koch2004]. Reductions are equally fast: 3 days of fresh food cut DEHP metabolites 53-56% [ept-rudel2011], 3 days of fragrance-free products cut MEP 27% [ept-harley2016], and 7 days of low-plastic food cut MnBP 37.5% and MBzP 53.5% [ept-harray2026].",
+    "days": [
+     0.08,
+     3
+    ]
+   },
+   "full": {
+    "text": "Urine reaches its new level within about 3-7 days of a sustained change [ept-rudel2011, ept-harray2026]; nothing builds beyond that.",
+    "days": [
+     3,
+     7
+    ]
+   },
+   "after_stopping": {
+    "text": "Metabolite half-lives are about 2 hours in a first phase and 5-10 hours in a second phase for DEHP [ept-koch2004], 3-18 hours across phthalates [ept-johns2015]; DEHTP is 95% excreted within 24 hours [ept-lessmann2016]. Levels return to the old baseline within a day or two of going back to the old habits.",
+    "days": [
+     1,
+     3
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Because exposure is cleared in hours, avoidance protects only on the days it is practised; there is no carry-over [ept-johns2015]. Even careful diets can be undone by contaminated ingredients [ept-sathyanarayana2013]."
+   },
+   "basis": "measured",
+   "debate": "Kinetics are not disputed, but their meaning for health studies is: because a spot urine has an ICC of only 0.08-0.3 for DEHP [ept-braun2012, ept-johns2015], studies of long-term outcomes are badly misclassified, and the pooled preterm-birth data put the sensitive window in early pregnancy [ept-friedman2025] while a fertility cohort found it in late pregnancy [ept-yland2022].",
+   "refs": [
+    "ept-koch2004",
+    "ept-rudel2011",
+    "ept-harley2016",
+    "ept-harray2026",
+    "ept-johns2015",
+    "ept-lessmann2016",
+    "ept-sathyanarayana2013",
+    "ept-braun2012",
+    "ept-friedman2025",
+    "ept-yland2022",
+    "ept-heller1963",
+    "ept-wangh2023",
+    "ept-genardwalton2025",
+    "ept-gougeon1986",
+    "ept-hauser2016",
+    "ept-machtinger2018"
+   ],
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Starting 2-4 weeks before still lowers exposure within days [ept-rudel2011], but covers only the last stages of sperm maturation; no trial shows any semen benefit at any lead time.",
+     "text": "The 64-day spermatogenic cycle plus epididymal transit sets the lead time [ept-heller1963], not the chemistry, which clears in a day [ept-koch2004]."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "Starting in the last 2-4 weeks still lowers exposure during dominant-follicle selection and the treatment cycle, which is when the IVF studies measured it [ept-hauser2016]; it cannot cover earlier follicle growth.",
+     "text": "Lead time follows the ~85-day follicle growth period [ept-gougeon1986]; for pregnancy, pooled data point to the first and second trimesters for DEHP [ept-friedman2025]."
+    }
+   }
+  },
+  {
+   "factor": "bisphenols",
+   "shape": "acute",
+   "summary": "BPA and BPS have half-lives of about 6-7 hours [ept-thayer2015, ept-oh2018], so a canned meal shows up within hours and is gone in a day [ept-peng2019]. Receipts are slower: skin uptake peaks 8-12 hours after handling and is still raised at 24 hours [ept-ehrlich2014].",
+   "onset": {
+    "text": "Urinary BPA peaks about 2.75-4 hours after a BPA-containing meal [ept-teeguarden2011, ept-peng2019] and 8-12 hours after handling receipts [ept-ehrlich2014]. A fresh-food diet cut urinary BPA 66% in 3 days [ept-rudel2011] and a low-plastic diet 60% in 7 days [ept-harray2026].",
+    "days": [
+     0.1,
+     3
+    ]
+   },
+   "full": {
+    "text": "The new level is reached within about 1-7 days [ept-rudel2011, ept-harray2026].",
+    "days": [
+     1,
+     7
+    ]
+   },
+   "after_stopping": {
+    "text": "Terminal half-life of unconjugated BPA about 6.2 hours [ept-thayer2015], BPS 6.8 hours [ept-oh2018]; canned-meal BPA was back to baseline by 24 hours [ept-peng2019].",
+    "days": [
+     1,
+     2
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Every canned or plastic-packaged meal re-exposes you [ept-carwile2011, ept-peng2019]; avoidance works only while maintained. Because one urine sample captures a single day, about 18 samples were needed to rank a person's average BPA exposure well [ept-vernet2019]."
+   },
+   "basis": "measured",
+   "debate": "Dosing studies give a half-life of about 6 hours [ept-thayer2015, ept-teeguarden2011], but NHANES urinary BPA barely fell with fasting, implying an apparent population half-life of 43 hours from non-food sources or storage [ept-stahlhut2009]; dermal routes (receipts, especially after hand sanitizer) are slower than oral ones [ept-ehrlich2014, ept-hormann2014].",
+   "refs": [
+    "ept-thayer2015",
+    "ept-oh2018",
+    "ept-peng2019",
+    "ept-teeguarden2011",
+    "ept-ehrlich2014",
+    "ept-hormann2014",
+    "ept-rudel2011",
+    "ept-harray2026",
+    "ept-carwile2011",
+    "ept-vernet2019",
+    "ept-stahlhut2009",
+    "ept-heller1963",
+    "ept-castellini2022",
+    "ept-goldstone2015",
+    "ept-hunt2003",
+    "ept-pacchierotti2008",
+    "ept-moklin2010",
+    "ept-minguezalarcon2015",
+    "ept-gougeon1986"
+   ],
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "A late start lowers current exposure within days but covers only the final maturation of sperm already in production.",
+     "text": "Lead time set by the 64-day cycle plus epididymal transit [ept-heller1963]; semen associations themselves are inconsistent [ept-castellini2022, ept-goldstone2015]."
+    },
+    "egg": {
+     "start_by_days": 100,
+     "late_start": "If the mouse data apply, the final 2-4 weeks (dominant follicle and meiotic resumption) are the most important to cover, so a late start is not wasted [ept-hunt2003, ept-gougeon1986].",
+     "text": "About 85 days of follicle growth set the full lead time [ept-gougeon1986]; the meiotic window is the last part of it [ept-hunt2003]."
+    }
+   }
+  }
+ ]
+}

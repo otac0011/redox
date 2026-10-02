@@ -1,0 +1,2129 @@
+{
+ "references": [
+  {
+   "id": "afert-bordewijk2020a",
+   "authors": "Bordewijk EM, Wang R, Askie LM, et al.",
+   "year": 2020,
+   "title": "Data integrity of 35 randomised controlled trials in women' health",
+   "journal": "Eur J Obstet Gynecol Reprod Biol",
+   "pmid": "32381348",
+   "doi": "10.1016/j.ejogrb.2020.04.016",
+   "type": "review",
+   "n": "35 RCTs",
+   "finding": "Of 35 women's-health RCTs published 2006-2016 by two authors from one institute, 26 shared many similar baseline and outcome values, and baseline distributions were unlikely to reflect proper randomisation."
+  },
+  {
+   "id": "afert-bordewijk2020b",
+   "authors": "Bordewijk EM, Wang R, van Wely M, et al.",
+   "year": 2020,
+   "title": "To share or not to share data: how valid are trials evaluating first-line ovulation induction for polycystic ovary syndrome?",
+   "journal": "Hum Reprod Update",
+   "pmid": "32935841",
+   "doi": "10.1093/humupd/dmaa031",
+   "type": "meta-analysis",
+   "n": "45 RCTs, 8697 women",
+   "finding": "In PCOS ovulation-induction trials, RCTs that did not share individual data had more risk of bias (75% vs 24% not low risk), no adequate registration, more statistical problems and different pooled effects than trials that shared data."
+  },
+  {
+   "id": "afert-li2020",
+   "authors": "Li W, van Wely M, Gurrin L, et al.",
+   "year": 2020,
+   "title": "Integrity of randomized controlled trials: challenges and solutions",
+   "journal": "Fertil Steril",
+   "pmid": "32387277",
+   "doi": "10.1016/j.fertnstert.2020.04.018",
+   "type": "review",
+   "n": null,
+   "finding": "Review from the Monash group: compromised RCT integrity undermines systematic reviews; data can be checked via summary statistics and individual participant data, and reviewers should account for problematic trials."
+  },
+  {
+   "id": "afert-mol2024",
+   "authors": "Mol BW, Bordewijk EM, Rogozińska E, et al.",
+   "year": 2024,
+   "title": "Data integrity of 14 randomised controlled trials",
+   "journal": "Eur J Obstet Gynecol Reprod Biol",
+   "pmid": "38735122",
+   "doi": "10.1016/j.ejogrb.2024.05.007",
+   "type": "review",
+   "n": "14 RCTs, 1405 participants",
+   "finding": "Integrity check of 14 RCTs by one Egyptian author (2004-2019): duplicated baseline tables, plagiarism and baseline p-values implying non-random allocation; unretracted trials should not inform practice until investigated."
+  },
+  {
+   "id": "afert-carlisle2021",
+   "authors": "Carlisle JB",
+   "year": 2021,
+   "title": "False individual patient data and zombie randomised controlled trials submitted to Anaesthesia",
+   "journal": "Anaesthesia",
+   "pmid": "33040331",
+   "doi": "10.1111/anae.15263",
+   "type": "cross-sectional",
+   "n": "526 submitted RCTs",
+   "finding": "Of 526 RCTs submitted to Anaesthesia, 14% had false data and 8% were 'zombie' trials; when individual patient data were requested, 44% had false data and 26% were zombies."
+  },
+  {
+   "id": "afert-wilkinson2025",
+   "authors": "Wilkinson J, Heal C, Antoniou GA, et al.",
+   "year": 2025,
+   "title": "Assessing the feasibility and impact of clinical trial trustworthiness checks via an application to Cochrane Reviews: Stage 2 of the INSPECT-SR project",
+   "journal": "J Clin Epidemiol",
+   "pmid": "40349737",
+   "doi": "10.1016/j.jclinepi.2025.111824",
+   "type": "review",
+   "n": "95 RCTs in 50 Cochrane reviews",
+   "finding": "Applying 72 trustworthiness checks to RCTs in 50 Cochrane reviews raised some or serious concerns about authenticity for 25% and 6% of trials; removing them left 22% of meta-analyses empty, and concerns were unrelated to Risk-of-Bias or GRADE ratings."
+  },
+  {
+   "id": "afert-zou2026",
+   "authors": "Zou H, Abdallah KS, Wirleitner B, et al.",
+   "year": 2026,
+   "title": "Intrauterine human chorionic gonadotropin administration before embryo transfer (IHABT): an individual participant data meta-analysis of randomized controlled trials",
+   "journal": "Hum Reprod Update",
+   "pmid": "41990228",
+   "doi": "10.1093/humupd/dmag009",
+   "type": "meta-analysis",
+   "n": "7 RCTs with IPD, 2244 women (28 RCTs found)",
+   "finding": "IPD meta-analysis: intrauterine hCG before embryo transfer did not improve live birth (OR 0.99, 0.83-1.19); all 7 IPD trials passed trustworthiness checks, none of the trials without IPD did, and those untrustworthy trials produced the apparent benefit."
+  },
+  {
+   "id": "afert-papaleo2009",
+   "authors": "Papaleo E, Unfer V, Baillargeon JP, et al.",
+   "year": 2009,
+   "title": "RETRACTED: Myo-inositol may improve oocyte quality in intracytoplasmic sperm injection cycles. A prospective, controlled, randomized trial",
+   "journal": "Fertil Steril",
+   "pmid": "18462730",
+   "doi": "10.1016/j.fertnstert.2008.01.088",
+   "type": "rct",
+   "n": null,
+   "finding": "RETRACTED (2025) myo-inositol ICSI trial; retracted at the request of the ASRM Publications Committee after an undisclosed conflict of interest with the supplement maker was reported. Cited only to flag it."
+  },
+  {
+   "id": "afert-papaleo2009ret",
+   "authors": "",
+   "year": 2025,
+   "title": "Retraction notice to 'Myo-inositol may improve oocyte quality in intracytoplasmic sperm injection cycles. A prospective, controlled, randomized trial' [Fertility and Sterility 91 (2009) 1750-1754]",
+   "journal": "Fertil Steril",
+   "pmid": "39971415",
+   "doi": "10.1016/j.fertnstert.2025.01.028",
+   "type": "review",
+   "n": null,
+   "finding": "Retraction notice (Fertil Steril 2025) for Papaleo 2009 myo-inositol RCT."
+  },
+  {
+   "id": "afert-pacchiarotti2016",
+   "authors": "Pacchiarotti A, Carlomagno G, Antonini G, et al.",
+   "year": 2016,
+   "title": "Effect of myo-inositol and melatonin versus myo-inositol, in a randomized controlled trial, for improving in vitro fertilization of patients with polycystic ovarian syndrome",
+   "journal": "Gynecol Endocrinol",
+   "pmid": "26507336",
+   "doi": "10.3109/09513590.2015.1101444",
+   "type": "rct",
+   "n": "526 women",
+   "finding": "RETRACTED myo-inositol plus melatonin IVF RCT in PCOS (already flagged on the site). Cited only to flag it."
+  },
+  {
+   "id": "afert-kotb2016",
+   "authors": "Kotb MM, Hassan AM, AwadAllah AM",
+   "year": 2016,
+   "title": "Does dehydroepiandrosterone improve pregnancy rate in women undergoing IVF/ICSI with expected poor ovarian response according to the Bologna criteria? A randomized controlled trial",
+   "journal": "Eur J Obstet Gynecol Reprod Biol",
+   "pmid": "26963897",
+   "doi": "10.1016/j.ejogrb.2016.02.009",
+   "type": "rct",
+   "n": "140 women",
+   "finding": "RETRACTED (2026) Egyptian RCT of DHEA in poor responders undergoing IVF/ICSI. Cited only to flag it."
+  },
+  {
+   "id": "afert-kotb2016ret",
+   "authors": "Kotb MMM, Hassan AMA, AwadAllah AMA",
+   "year": 2026,
+   "title": "Retraction notice to \"Does Dehydroepiandrosterone improve pregnancy rate in women undergoing IVF/ICSI with expected poor ovarian response according to the Bologna criteria? A randomized controlled trial\" [Eur. J. Obstet. Gynecol. Reprod. Biol. 200 (2016) 11-15]",
+   "journal": "Eur J Obstet Gynecol Reprod Biol",
+   "pmid": "41785717",
+   "doi": "10.1016/j.ejogrb.2026.115008",
+   "type": "review",
+   "n": null,
+   "finding": "Retraction notice (Eur J Obstet Gynecol Reprod Biol 2026) for the Kotb 2016 DHEA RCT."
+  },
+  {
+   "id": "afert-elprince2020",
+   "authors": "Elprince M, Kishk EA, Metawie OM, et al.",
+   "year": 2020,
+   "title": "Ovarian stimulation after dehydroepiandrosterone supplementation in poor ovarian reserve: a randomized clinical trial",
+   "journal": "Arch Gynecol Obstet",
+   "pmid": "32451660",
+   "doi": "10.1007/s00404-020-05603-5",
+   "type": "rct",
+   "n": "50 women",
+   "finding": "RETRACTED (2024) RCT of DHEA before ovarian stimulation in poor ovarian reserve. Cited only to flag it."
+  },
+  {
+   "id": "afert-elrefaeey2014",
+   "authors": "El Refaeey A, Selem A, Badawy A",
+   "year": 2014,
+   "title": "Combined coenzyme Q10 and clomiphene citrate for ovulation induction in clomiphene-citrate-resistant polycystic ovary syndrome",
+   "journal": "Reprod Biomed Online",
+   "pmid": "24813752",
+   "doi": "10.1016/j.rbmo.2014.03.011",
+   "type": "rct",
+   "n": "101 women",
+   "finding": "RETRACTED (2023, after an expression of concern) RCT of CoQ10 plus clomiphene in clomiphene-resistant PCOS. Cited only to flag it."
+  },
+  {
+   "id": "afert-elsharkwy2019",
+   "authors": "El Sharkwy IA, Abd El Aziz WM",
+   "year": 2019,
+   "title": "Randomized controlled trial of N-acetylcysteine versus l-carnitine among women with clomiphene-citrate-resistant polycystic ovary syndrome",
+   "journal": "Int J Gynaecol Obstet",
+   "pmid": "31273783",
+   "doi": "10.1002/ijgo.12902",
+   "type": "rct",
+   "n": null,
+   "finding": "RETRACTED RCT of N-acetylcysteine vs L-carnitine in clomiphene-resistant PCOS; it was the only source for two outcomes in the Cochrane female-antioxidant review. Cited only to flag it."
+  },
+  {
+   "id": "afert-maged2018",
+   "authors": "Maged AM, Rashwan H, AbdelAziz S, et al.",
+   "year": 2018,
+   "title": "Randomized controlled trial of the effect of endometrial injury on implantation and clinical pregnancy rates during the first ICSI cycle",
+   "journal": "Int J Gynaecol Obstet",
+   "pmid": "29048754",
+   "doi": "10.1002/ijgo.12355",
+   "type": "rct",
+   "n": "300 women",
+   "finding": "RETRACTED (2024) Egyptian RCT reporting higher implantation and pregnancy with endometrial injury before first ICSI. Cited only to flag it."
+  },
+  {
+   "id": "afert-helmy2017",
+   "authors": "Helmy MEE, Maher MA, Elkhouly NI, et al.",
+   "year": 2017,
+   "title": "A randomized trial of local endometrial injury during ovulation induction cycles",
+   "journal": "Int J Gynaecol Obstet",
+   "pmid": "28397981",
+   "doi": "10.1002/ijgo.12178",
+   "type": "rct",
+   "n": null,
+   "finding": "RETRACTED (2024) Egyptian RCT of endometrial injury during clomiphene ovulation-induction cycles. Cited only to flag it."
+  },
+  {
+   "id": "afert-deligny2025",
+   "authors": "de Ligny WR, de Bruin JP, Smits RM, et al.",
+   "year": 2025,
+   "title": "Antioxidant Treatment and the Chance to Conceive in Men Seeking Fertility Care: The SUMMER Randomized Clinical Trial",
+   "journal": "JAMA Netw Open",
+   "pmid": "40996763",
+   "doi": "10.1001/jamanetworkopen.2025.32405",
+   "type": "rct",
+   "n": "1171 men",
+   "finding": "SUMMER (21 Dutch centres): 6 months of an antioxidant/B-vitamin supplement vs placebo did not raise ongoing pregnancy (33.8% vs 37.5%; aOR 0.85, 0.66-1.09); in the 4-6 month window it was lower (15.5% vs 21.5%); no effect on semen or SDF."
+  },
+  {
+   "id": "afert-schisterman2020",
+   "authors": "Schisterman EF, Sjaarda LA, Clemons T, et al.",
+   "year": 2020,
+   "title": "Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial",
+   "journal": "JAMA",
+   "pmid": "31910279",
+   "doi": "10.1001/jama.2019.18714",
+   "type": "rct",
+   "n": "2370 men",
+   "finding": "FAZST: folic acid 5 mg plus zinc 30 mg in male partners did not change live birth (34% vs 35%) or semen quality, and slightly raised DNA fragmentation (29.7% vs 27.2%)."
+  },
+  {
+   "id": "afert-steiner2020",
+   "authors": "Steiner AZ, Hansen KR, Barnhart KT, et al.",
+   "year": 2020,
+   "title": "The effect of antioxidants on male factor infertility: the Males, Antioxidants, and Infertility (MOXI) randomized clinical trial",
+   "journal": "Fertil Steril",
+   "pmid": "32111479",
+   "doi": "10.1016/j.fertnstert.2019.11.008",
+   "type": "rct",
+   "n": "174 men",
+   "finding": "MOXI: a 7-ingredient antioxidant did not improve semen parameters or DNA fragmentation at 3 months; cumulative live birth 15% vs 24% with placebo (not significant)."
+  },
+  {
+   "id": "afert-deligny2022",
+   "authors": "de Ligny W, Smits RM, Mackenzie-Proctor R, et al.",
+   "year": 2022,
+   "title": "Antioxidants for male subfertility",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "35506389",
+   "doi": "10.1002/14651858.CD007411.pub5",
+   "type": "meta-analysis",
+   "n": "90 RCTs",
+   "finding": "Cochrane 2022: antioxidants for male subfertility may raise live birth but the evidence is very low certainty and driven by small trials at high risk of bias."
+  },
+  {
+   "id": "afert-agarwal2023",
+   "authors": "Agarwal A, Cannarella R, Saleh R, et al.",
+   "year": 2023,
+   "title": "Impact of Antioxidant Therapy on Natural Pregnancy Outcomes and Semen Parameters in Infertile Men: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "journal": "World J Mens Health",
+   "pmid": "36102104",
+   "doi": "10.5534/wjmh.220067",
+   "type": "meta-analysis",
+   "n": "45 RCTs, 4332 men",
+   "finding": "Meta-analysis by Agarwal's group: antioxidants associated with higher spontaneous pregnancy and better semen parameters, but no effect on live birth (4 studies) or SDF (3 studies)."
+  },
+  {
+   "id": "afert-szabo2025",
+   "authors": "Szabó A, Váncsa S, Hegyi P, et al.",
+   "year": 2025,
+   "title": "Assessing the efficacy of varicocelectomy, antioxidants, FSH treatment, and lifestyle modifications on sperm DNA fragmentation: a systematic review and meta-analysis",
+   "journal": "Sci Rep",
+   "pmid": "40128318",
+   "doi": "10.1038/s41598-025-93267-z",
+   "type": "meta-analysis",
+   "n": "86 studies, >8000 men",
+   "finding": "SDF fell 6.7 points 3 months after varicocelectomy (12.4 at 6 months), about 4.3 points with antioxidants, 6.7 with FSH and 3.2 with lifestyle change; authors judged antioxidants 'questionable'."
+  },
+  {
+   "id": "afert-melhem2026",
+   "authors": "Melhem SJ, Melhem M, Haddad R, et al.",
+   "year": 2026,
+   "title": "Pharmacologic and Nutritional Therapies in Idiopathic Male Infertility: A Systematic Review and Meta-Analysis",
+   "journal": "Andrology",
+   "pmid": "42206761",
+   "doi": "10.1111/andr.70266",
+   "type": "meta-analysis",
+   "n": "41 RCTs, 3615 men",
+   "finding": "Antioxidants were associated with higher sperm concentration and motility in idiopathic infertility, but certainty was very low, heterogeneity >80% and prediction intervals crossed zero; live-birth data lacking."
+  },
+  {
+   "id": "afert-szabo2023",
+   "authors": "Szabó A, Váncsa S, Hegyi P, et al.",
+   "year": 2023,
+   "title": "Lifestyle-, environmental-, and additional health factors associated with an increased sperm DNA fragmentation: a systematic review and meta-analysis",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "36653793",
+   "doi": "10.1186/s12958-023-01054-0",
+   "type": "meta-analysis",
+   "n": "190 studies",
+   "finding": "SDF risk factors: varicocele +13.6 points, smoking +9.2, age over 50 +12.6; Chlamydia and HPV effects negligible; abstinence period showed no significant SDF difference."
+  },
+  {
+   "id": "afert-esteves2017",
+   "authors": "Esteves SC, Roque M, Bradley CK, et al.",
+   "year": 2017,
+   "title": "Reproductive outcomes of testicular versus ejaculated sperm for intracytoplasmic sperm injection among men with high levels of DNA fragmentation in semen: systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "28865546",
+   "doi": "10.1016/j.fertnstert.2017.06.018",
+   "type": "meta-analysis",
+   "n": "5 studies (143 men) paired SDF; 4 studies (507 cycles)",
+   "finding": "Testicular sperm had about 25 points lower SDF than ejaculated sperm, and Testi-ICSI was associated with higher pregnancy and live birth in men with high SDF (non-randomised data)."
+  },
+  {
+   "id": "afert-khoo2024",
+   "authors": "Khoo CC, Cayetano-Alcaraz AA, Rashid R, et al.",
+   "year": 2024,
+   "title": "Does Testicular Sperm Improve Intracytoplasmic Sperm Injection Outcomes for Nonazoospermic Infertile Men with Elevated Sperm DNA Fragmentation? A Systematic Review and Meta-analysis",
+   "journal": "Eur Urol Focus",
+   "pmid": "37709593",
+   "doi": "10.1016/j.euf.2023.08.008",
+   "type": "meta-analysis",
+   "n": "9 studies, >536 men",
+   "finding": "Testicular sperm associated with higher pregnancy (OR 2.51) and live birth (OR 2.59, SCSA studies) in high-SDF men, but evidence quality was too low to recommend it outside trials."
+  },
+  {
+   "id": "afert-hozyen2022",
+   "authors": "Hozyen M, Hasanen E, Elqusi K, et al.",
+   "year": 2022,
+   "title": "Reproductive Outcomes of Different Sperm Selection Techniques for ICSI Patients with Abnormal Sperm DNA Fragmentation: a Randomized Controlled Trial",
+   "journal": "Reprod Sci",
+   "pmid": "34076869",
+   "doi": "10.1007/s43032-021-00642-y",
+   "type": "rct",
+   "n": "302 couples",
+   "finding": "Egyptian 4-arm RCT in high-SDF ICSI: testicular sperm gave lower cleavage, blastulation and top-blastocyst rates than ejaculated-sperm methods; PICSI and MACS had the highest ongoing pregnancy."
+  },
+  {
+   "id": "afert-mantravadi2024",
+   "authors": "Mantravadi KC, Rao D",
+   "year": 2024,
+   "title": "In cases with raised sperm DNA fragmentation, can sperm selection by magnetic-activated cell sorting or testicular sperm aspiration help improve reproductive outcomes?",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "38700621",
+   "doi": "10.1007/s10815-024-03128-3",
+   "type": "rct",
+   "n": null,
+   "finding": "Small Indian RCT in high-SDF couples with failed IVF: TESA and MACS gave similar live birth; no ejaculated-sperm control arm."
+  },
+  {
+   "id": "afert-romano2023",
+   "authors": "Romano M, Cirillo F, Spadaro D, et al.",
+   "year": 2023,
+   "title": "High sperm DNA fragmentation: do we have robust evidence to support antioxidants and testicular sperm extraction to improve fertility outcomes? a narrative review",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "37867514",
+   "doi": "10.3389/fendo.2023.1150951",
+   "type": "review",
+   "n": null,
+   "finding": "Narrative review: evidence for antioxidants or testicular sperm in high SDF is non-conclusive because of small samples and risk of bias."
+  },
+  {
+   "id": "afert-hfea2026sdf",
+   "authors": "Human Fertilisation and Embryology Authority (HFEA)",
+   "year": 2026,
+   "title": "Sperm DNA fragmentation: treatment add-on rating",
+   "journal": "HFEA website",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/sperm-dna-fragmentation/",
+   "type": "guideline",
+   "n": null,
+   "finding": "HFEA (page updated 24 Sep 2026): after SDF testing, antioxidants and sperm selection rated grey; TESE/TESA with ICSI rated RED for male-factor infertility (insufficient evidence plus procedural risk)."
+  },
+  {
+   "id": "afert-persad2021",
+   "authors": "Persad E, O'Loughlin CA, Kaur S, et al.",
+   "year": 2021,
+   "title": "Surgical or radiological treatment for varicoceles in subfertile men",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "33890288",
+   "doi": "10.1002/14651858.CD000479.pub6",
+   "type": "meta-analysis",
+   "n": "48 studies, 5384 men",
+   "finding": "Cochrane 2021: uncertain whether varicocele treatment improves live birth (2 studies, RR 2.27, 0.19-26.6); treatment may improve pregnancy."
+  },
+  {
+   "id": "afert-palani2025",
+   "authors": "Palani A, Cannarella R, Saleh R, et al.",
+   "year": 2025,
+   "title": "Impact of Varicocele Repair on Assisted Reproductive Technique Outcomes in Infertile Men: A Systematic Review and Meta-Analysis",
+   "journal": "World J Mens Health",
+   "pmid": "39344117",
+   "doi": "10.5534/wjmh.240132",
+   "type": "meta-analysis",
+   "n": "9 observational studies",
+   "finding": "Men who had varicocele repair before ICSI had higher fertilisation, clinical pregnancy (OR 1.38) and live birth (OR 2.07) than unrepaired men; all studies observational."
+  },
+  {
+   "id": "afert-murugesu2022",
+   "authors": "Murugesu S, Kasaven LS, Petrie A, et al.",
+   "year": 2022,
+   "title": "Does advanced paternal age affect outcomes following assisted reproductive technology? A systematic review and meta-analysis",
+   "journal": "Reprod Biomed Online",
+   "pmid": "35690546",
+   "doi": "10.1016/j.rbmo.2022.03.031",
+   "type": "meta-analysis",
+   "n": "28 studies, 32,484 cycles",
+   "finding": "Paternal age under 40 associated with higher clinical pregnancy and live birth in autologous IVF; under 50 with lower miscarriage and more blastocysts in donor-egg cycles where maternal age is controlled."
+  },
+  {
+   "id": "afert-begon2023",
+   "authors": "Begon E, Lefebvre T, Arbo E, et al.",
+   "year": 2023,
+   "title": "Does paternal age affect the live birth rate in donor oocyte cycles? A systematic review and meta-analysis",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "36652117",
+   "doi": "10.1007/s10815-023-02714-1",
+   "type": "meta-analysis",
+   "n": "11 studies, 10,527 donor-egg cycles",
+   "finding": "In egg-donation cycles live birth fell slightly but linearly with paternal age, with no threshold."
+  },
+  {
+   "id": "afert-kong2012",
+   "authors": "Kong A, Frigge ML, Masson G, et al.",
+   "year": 2012,
+   "title": "Rate of de novo mutations and the importance of father's age to disease risk",
+   "journal": "Nature",
+   "pmid": "22914163",
+   "doi": "10.1038/nature11396",
+   "type": "cohort",
+   "n": "78 parent-offspring trios",
+   "finding": "De novo mutations rise by about two per year of father's age (doubling about every 16.5 years); father's age explains most variation in de novo mutation counts."
+  },
+  {
+   "id": "afert-donofrio2014",
+   "authors": "D'Onofrio BM, Rickert ME, Frans E, et al.",
+   "year": 2014,
+   "title": "Paternal age at childbearing and offspring psychiatric and academic morbidity",
+   "journal": "JAMA Psychiatry",
+   "pmid": "24577047",
+   "doi": "10.1001/jamapsychiatry.2013.4525",
+   "type": "cohort",
+   "n": "2,615,081 Swedes",
+   "finding": "Sibling- and cousin-comparison designs found paternal-age associations with autism, psychosis, bipolar disorder and academic problems as large or larger than population estimates, consistent with a causal mutation pathway."
+  },
+  {
+   "id": "afert-khandwala2018",
+   "authors": "Khandwala YS, Baker VL, Shaw GM, et al.",
+   "year": 2018,
+   "title": "Association of paternal age with perinatal outcomes between 2007 and 2016 in the United States: population based cohort study",
+   "journal": "BMJ",
+   "pmid": "30381468",
+   "doi": "10.1136/bmj.k4372",
+   "type": "cohort",
+   "n": "US births 2007-2016",
+   "finding": "Fathers 45+ had 14% higher odds of preterm birth and partners 34% higher odds of gestational diabetes after adjustment for maternal age; population impact modest."
+  },
+  {
+   "id": "afert-levine2023",
+   "authors": "Levine H, Jørgensen N, Martino-Andrade A, et al.",
+   "year": 2023,
+   "title": "Temporal trends in sperm count: a systematic review and meta-regression analysis of samples collected globally in the 20th and 21st centuries",
+   "journal": "Hum Reprod Update",
+   "pmid": "36377604",
+   "doi": "10.1093/humupd/dmac035",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Updated global meta-regression: mean sperm concentration among unselected men fell 51.6% between 1973 and 2018, with the decline appearing to steepen in recent decades."
+  },
+  {
+   "id": "afert-boulicault2022",
+   "authors": "Boulicault M, Perret M, Galka J, et al.",
+   "year": 2022,
+   "title": "The future of sperm: a biovariability framework for understanding global sperm count trends",
+   "journal": "Hum Fertil (Camb)",
+   "pmid": "33969777",
+   "doi": "10.1080/14647273.2021.1917778",
+   "type": "review",
+   "n": null,
+   "finding": "Critique of the sperm-count-decline hypothesis: proposes that sperm count varies widely and non-pathologically, and that trends need ecological and life-history interpretation rather than a decline narrative."
+  },
+  {
+   "id": "afert-steiner2017",
+   "authors": "Steiner AZ, Pritchard D, Stanczyk FZ, et al.",
+   "year": 2017,
+   "title": "Association Between Biomarkers of Ovarian Reserve and Infertility Among Older Women of Reproductive Age",
+   "journal": "JAMA",
+   "pmid": "29049585",
+   "doi": "10.1001/jama.2017.14588",
+   "type": "cohort",
+   "n": "750 women aged 30-44",
+   "finding": "Low AMH (<0.7 ng/mL) was not associated with lower probability of conceiving by 6 or 12 cycles (84% vs 75% by 12 cycles)."
+  },
+  {
+   "id": "afert-harris2023",
+   "authors": "Harris BS, Jukic AM, Truong T, et al.",
+   "year": 2023,
+   "title": "Markers of ovarian reserve as predictors of future fertility",
+   "journal": "Fertil Steril",
+   "pmid": "36460524",
+   "doi": "10.1016/j.fertnstert.2022.10.014",
+   "type": "cohort",
+   "n": "Time to Conceive follow-up",
+   "finding": "Diminished ovarian reserve (AMH <0.7 or FSH >=10) was not associated with lower future live birth, infertility or fecundability."
+  },
+  {
+   "id": "afert-nelson2024",
+   "authors": "Nelson SM, Shaw M, Ewing BJ, et al.",
+   "year": 2024,
+   "title": "Antimüllerian hormone levels are associated with time to pregnancy in a cohort study of 3,150 women",
+   "journal": "Fertil Steril",
+   "pmid": "38964587",
+   "doi": "10.1016/j.fertnstert.2024.06.024",
+   "type": "cohort",
+   "n": "3150 women",
+   "finding": "In the largest TTP cohort (buyers of a commercial hormone test), AMH <1 ng/mL was associated with modestly lower conception (adjHR 0.77, 0.64-0.94); peak per-cycle probability 11% vs 14%."
+  },
+  {
+   "id": "afert-peigne2023",
+   "authors": "Peigné M, Bernard V, Dijols L, et al.",
+   "year": 2023,
+   "title": "Using serum anti-Müllerian hormone levels to predict the chance of live birth after spontaneous or assisted conception: a systematic review and meta-analysis",
+   "journal": "Hum Reprod",
+   "pmid": "37475164",
+   "doi": "10.1093/humrep/dead147",
+   "type": "meta-analysis",
+   "n": "32 studies",
+   "finding": "AMH relates non-linearly to cumulative live birth after IVF/ICSI, with no threshold below which live birth is impossible; data lacking for natural conception."
+  },
+  {
+   "id": "afert-hirsch2024",
+   "authors": "Hirsch A, Hirsh Raccah B, Rotem R, et al.",
+   "year": 2024,
+   "title": "Planned oocyte cryopreservation: a systematic review and meta-regression analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "38654466",
+   "doi": "10.1093/humupd/dmae009",
+   "type": "meta-analysis",
+   "n": "10 studies, 8750 women",
+   "finding": "Planned egg freezing: 11% returned to use eggs; live birth per returning patient 28% overall, 52% if frozen at 35 or younger and 19% at 40+."
+  },
+  {
+   "id": "afert-kirubarajan2024",
+   "authors": "Kirubarajan A, Patel P, Thangavelu N, et al.",
+   "year": 2024,
+   "title": "Return rates and pregnancy outcomes after oocyte preservation for planned fertility delay: a systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "38964588",
+   "doi": "10.1016/j.fertnstert.2024.06.025",
+   "type": "meta-analysis",
+   "n": "27 studies, 13,724 patients",
+   "finding": "Return rate after planned egg freezing 10.8% (median 7-year follow-up); live birth in 28.9% of those who thawed eggs."
+  },
+  {
+   "id": "afert-cascante2024",
+   "authors": "Cascante SD, Grifo JA, Licciardi F, et al.",
+   "year": 2024,
+   "title": "The effects of age, mature oocyte number, and cycle number on cumulative live birth rates after planned oocyte cryopreservation",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "38955888",
+   "doi": "10.1007/s10815-024-03175-w",
+   "type": "cohort",
+   "n": "731 patients who thawed eggs",
+   "finding": "Cumulative live birth 43% overall and >70% with >=20 mature eggs frozen before 38; age and number of eggs, not number of cycles, predicted success."
+  },
+  {
+   "id": "afert-hfea2026",
+   "authors": "Human Fertilisation and Embryology Authority (HFEA)",
+   "year": 2026,
+   "title": "Treatment add-ons with limited evidence (HFEA add-ons rating list)",
+   "journal": "HFEA website",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/",
+   "type": "guideline",
+   "n": null,
+   "finding": "HFEA add-on ratings for 'chances of having a baby' (page reviewed 28 Sep 2026): yellow for endometrial scratching, hyaluronate transfer medium, elective freeze-all; grey for assisted hatching, androgens, intralipids, IMSI, intrauterine culture, microbiome testing, SDF; black for time-lapse and PICSI; red for endometrial receptivity testing, IVIG, steroids, PRP and PGT-A. No green."
+  },
+  {
+   "id": "afert-eshre2023",
+   "authors": "ESHRE Add-ons working group, Lundin K, Bentzen JG, et al.",
+   "year": 2023,
+   "title": "Good practice recommendations on add-ons in reproductive medicine†",
+   "journal": "Hum Reprod",
+   "pmid": "37747409",
+   "doi": "10.1093/humrep/dead184",
+   "type": "guideline",
+   "n": null,
+   "finding": "ESHRE 2023: 42 recommendations on add-ons; none based on high-quality evidence and only four on moderate-quality evidence."
+  },
+  {
+   "id": "afert-yan2021",
+   "authors": "Yan J, Qin Y, Zhao H, et al.",
+   "year": 2021,
+   "title": "Live Birth with or without Preimplantation Genetic Testing for Aneuploidy",
+   "journal": "N Engl J Med",
+   "pmid": "34818479",
+   "doi": "10.1056/NEJMoa2103613",
+   "type": "rct",
+   "n": "1212 women",
+   "finding": "Among women with >=3 good blastocysts, cumulative live birth was 77.2% with PGT-A vs 81.8% with conventional IVF (non-inferiority of conventional IVF shown)."
+  },
+  {
+   "id": "afert-lin2025",
+   "authors": "Lin X, Wu D, Zhang C, et al.",
+   "year": 2025,
+   "title": "Preimplantation genetic testing for aneuploidy versus no genetic testing in couples undergoing intracytoplasmic sperm injection for severe male infertility: multicentre, open label, randomised controlled trial",
+   "journal": "BMJ",
+   "pmid": "41436190",
+   "doi": "10.1136/bmj-2025-084050",
+   "type": "rct",
+   "n": "450 couples",
+   "finding": "BMJ RCT in severe male factor ICSI: PGT-A did not change cumulative live birth (60.4% vs 60.9%) but lowered pregnancy loss after first transfer (5.8% vs 19.1%)."
+  },
+  {
+   "id": "afert-asrm2024pgta",
+   "authors": "Practice Committees of the American Society for Reproductive Medicine and the Society for Assisted Reproductive Technology. Electronic address: asrm@asrm.org",
+   "year": 2024,
+   "title": "The use of preimplantation genetic testing for aneuploidy: a committee opinion",
+   "journal": "Fertil Steril",
+   "pmid": "38762806",
+   "doi": "10.1016/j.fertnstert.2024.04.013",
+   "type": "guideline",
+   "n": null,
+   "finding": "ASRM 2024: value of PGT-A as routine screening for all IVF patients has not been demonstrated; multicentre RCTs found similar outcomes; miscarriage benefit unclear."
+  },
+  {
+   "id": "afert-mumusoglu2025",
+   "authors": "Mumusoglu S, Telek SB, Ata B",
+   "year": 2025,
+   "title": "Preimplantation genetic testing for aneuploidy in unexplained recurrent pregnancy loss: a systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "39151684",
+   "doi": "10.1016/j.fertnstert.2024.08.326",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "In unexplained recurrent pregnancy loss, low-quality evidence suggests PGT-A lowers pregnancy loss and raises live birth per transfer and per patient; RCTs needed."
+  },
+  {
+   "id": "afert-beebeejaun2025",
+   "authors": "Beebeejaun Y, Bakalova D, Mania A, et al.",
+   "year": 2025,
+   "title": "Preimplantation Genetic Testing for Aneuploidy Versus Morphological Selection in Women Aged 35-42: Results of a Pilot Randomized Controlled Trial",
+   "journal": "J Clin Med",
+   "pmid": "40725861",
+   "doi": "10.3390/jcm14145166",
+   "type": "rct",
+   "n": "100 women",
+   "finding": "Pilot RCT in women 35-42: PGT-A vs morphology gave cumulative live birth 72% vs 52% after up to three single transfers (not significant; feasibility trial)."
+  },
+  {
+   "id": "afert-heymann2020",
+   "authors": "Heymann D, Vidal L, Or Y, et al.",
+   "year": 2020,
+   "title": "Hyaluronic acid in embryo transfer media for assisted reproductive technologies",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "32876946",
+   "doi": "10.1002/14651858.CD007421.pub4",
+   "type": "meta-analysis",
+   "n": "26 studies, 6704 participants",
+   "finding": "Cochrane 2020: hyaluronan (0.5 mg/mL) transfer medium probably raises live birth (RR 1.21, moderate certainty); miscarriage benefit not seen in low-risk-of-bias trials."
+  },
+  {
+   "id": "afert-rocha2026",
+   "authors": "Rocha RM, Andrade MCR, Barcelos IDES, et al.",
+   "year": 2026,
+   "title": "Hyaluronic Acid Enriched Medium for Embryo Transfer: A Systematic Review and Meta-analysis",
+   "journal": "JBRA Assist Reprod",
+   "pmid": "42330177",
+   "doi": "10.5935/1518-0557.20260012",
+   "type": "meta-analysis",
+   "n": "24 RCTs (11 with live birth, 4063 women)",
+   "finding": "Hyaluronan-enriched transfer medium: live birth RR 1.14 (0.99-1.31, NS), 1.06 (0.85-1.31) after excluding high-risk-of-bias trials; certainty very low."
+  },
+  {
+   "id": "afert-arian2023",
+   "authors": "Arian SE, Hessami K, Khatibi A, et al.",
+   "year": 2023,
+   "title": "Endometrial receptivity array before frozen embryo transfer cycles: a systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "36414088",
+   "doi": "10.1016/j.fertnstert.2022.11.012",
+   "type": "meta-analysis",
+   "n": "8 studies, 2784 patients",
+   "finding": "ERA before frozen transfer did not change live birth or ongoing pregnancy (OR 1.38, 0.79-2.41)."
+  },
+  {
+   "id": "afert-wilkinson2024",
+   "authors": "Wilkinson J, Stocking K",
+   "year": 2024,
+   "title": "Some common, fatal flaws in systematic reviews of observational studies",
+   "journal": "Fertil Steril",
+   "pmid": "38309515",
+   "doi": "10.1016/j.fertnstert.2024.01.034",
+   "type": "review",
+   "n": null,
+   "finding": "Uses ERA systematic reviews as an example of common fatal flaws in meta-analyses of observational studies (critical appraisal and pooling errors)."
+  },
+  {
+   "id": "afert-doyle2022",
+   "authors": "Doyle N, Jahandideh S, Hill MJ, et al.",
+   "year": 2022,
+   "title": "Effect of Timing by Endometrial Receptivity Testing vs Standard Timing of Frozen Embryo Transfer on Live Birth in Patients Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
+   "journal": "JAMA",
+   "pmid": "36472596",
+   "doi": "10.1001/jama.2022.20438",
+   "type": "rct",
+   "n": "767 patients",
+   "finding": "Receptivity-timed vs standard frozen euploid transfer: live birth 58.5% vs 61.9% (RR 0.95, NS)."
+  },
+  {
+   "id": "afert-sun2023",
+   "authors": "Sun Y, Cui L, Lu Y, et al.",
+   "year": 2023,
+   "title": "Prednisone vs Placebo and Live Birth in Patients With Recurrent Implantation Failure Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
+   "journal": "JAMA",
+   "pmid": "37129654",
+   "doi": "10.1001/jama.2023.5302",
+   "type": "rct",
+   "n": "715 women",
+   "finding": "JAMA RCT in recurrent implantation failure: prednisone did not improve live birth (37.8% vs 38.8%) and increased biochemical loss (17.3% vs 9.9%) and preterm delivery (11.8% vs 5.5%)."
+  },
+  {
+   "id": "afert-boomsma2022",
+   "authors": "Boomsma CM, Kamath MS, Keay SD, et al.",
+   "year": 2022,
+   "title": "Peri-implantation glucocorticoid administration for assisted reproductive technology cycles",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "35771604",
+   "doi": "10.1002/14651858.CD005996.pub4",
+   "type": "meta-analysis",
+   "n": "16 RCTs",
+   "finding": "Cochrane 2022: uncertain whether peri-implantation glucocorticoids improve live birth (OR 1.37, 0.69-2.71; very low certainty)."
+  },
+  {
+   "id": "afert-dang2021",
+   "authors": "Dang VQ, Vuong LN, Luu TM, et al.",
+   "year": 2021,
+   "title": "Intracytoplasmic sperm injection versus conventional in-vitro fertilisation in couples with infertility in whom the male partner has normal total sperm count and motility: an open-label, randomised controlled trial",
+   "journal": "Lancet",
+   "pmid": "33894833",
+   "doi": "10.1016/S0140-6736(21)00535-3",
+   "type": "rct",
+   "n": "1064 couples",
+   "finding": "With normal semen, ICSI vs conventional IVF: live birth 35% vs 31% (RR 1.11, NS); fertilisation failure 5% vs 6%."
+  },
+  {
+   "id": "afert-fancsovits2023",
+   "authors": "Fancsovits P, Lehner A, Kaszas Z, et al.",
+   "year": 2023,
+   "title": "Intracytoplasmic sperm injection does not improve the outcome of IVF treatments in patients with advanced maternal age or low oocyte number: A randomized controlled trial",
+   "journal": "J Gynecol Obstet Hum Reprod",
+   "pmid": "37348787",
+   "doi": "10.1016/j.jogoh.2023.102625",
+   "type": "rct",
+   "n": "336 cycles",
+   "finding": "In women >=40 and/or with <=4 oocytes (non-severe male factor), ICSI gave lower fertilisation (53% vs 62%) and no better live birth than conventional IVF; worse with both age and few eggs."
+  },
+  {
+   "id": "afert-naik2024",
+   "authors": "Naik S, Lepine S, Nagels HE, et al.",
+   "year": 2024,
+   "title": "Androgens (dehydroepiandrosterone or testosterone) for women undergoing assisted reproduction",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "38837771",
+   "doi": "10.1002/14651858.CD009749.pub3",
+   "type": "meta-analysis",
+   "n": "28 RCTs",
+   "finding": "Cochrane 2024: DHEA probably makes little or no difference to live birth (OR 1.30, 0.95-1.76, moderate certainty); testosterone likely improves it (OR 2.53)."
+  },
+  {
+   "id": "afert-conforti2025",
+   "authors": "Conforti A, Carbone L, Di Girolamo R, et al.",
+   "year": 2025,
+   "title": "Therapeutic management in women with a diminished ovarian reserve: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Fertil Steril",
+   "pmid": "39332623",
+   "doi": "10.1016/j.fertnstert.2024.09.038",
+   "type": "meta-analysis",
+   "n": "38 RCTs",
+   "finding": "In POSEIDON-defined diminished ovarian reserve, testosterone was the only adjuvant associated with higher live birth (OR 2.19)."
+  },
+  {
+   "id": "afert-etrusco2025",
+   "authors": "Etrusco A, Agrifoglio V, Castillo Farfán JC, et al.",
+   "year": 2025,
+   "title": "Effectiveness of hormone add-on strategies in ovarian stimulation for women with poor ovarian response: a systematic review and network meta-analysis of randomized controlled trials",
+   "journal": "J Assist Reprod Genet",
+   "pmid": "41136866",
+   "doi": "10.1007/s10815-025-03633-z",
+   "type": "meta-analysis",
+   "n": "22 RCTs, 4131 women",
+   "finding": "Network meta-analysis of hormonal add-ons in poor responders: no significant live-birth differences among add-ons (very low evidence); growth hormone ranked best for oocyte numbers."
+  },
+  {
+   "id": "afert-sood2021",
+   "authors": "Sood A, Mohiyiddeen G, Ahmad G, et al.",
+   "year": 2021,
+   "title": "Growth hormone for in vitro fertilisation (IVF)",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "34808697",
+   "doi": "10.1002/14651858.CD000099.pub4",
+   "type": "meta-analysis",
+   "n": "16 RCTs",
+   "finding": "Cochrane 2021: growth hormone slightly increases oocytes and pregnancy in poor responders; effect on live birth uncertain (low to very low certainty)."
+  },
+  {
+   "id": "afert-norman2019",
+   "authors": "Norman RJ, Alvino H, Hull LM, et al.",
+   "year": 2019,
+   "title": "Human growth hormone for poor responders: a randomized placebo-controlled trial provides no evidence for improved live birth rate",
+   "journal": "Reprod Biomed Online",
+   "pmid": "30954433",
+   "doi": "10.1016/j.rbmo.2019.02.003",
+   "type": "rct",
+   "n": "113 women",
+   "finding": "LIGHT: growth hormone vs placebo in poor responders, live birth 14.5% vs 13.7%; stopped short of planned size."
+  },
+  {
+   "id": "afert-craciunas2018",
+   "authors": "Craciunas L, Tsampras N, Raine-Fenning N, et al.",
+   "year": 2018,
+   "title": "Intrauterine administration of human chorionic gonadotropin (hCG) for subfertile women undergoing assisted reproduction",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "30341915",
+   "doi": "10.1002/14651858.CD011537.pub3",
+   "type": "meta-analysis",
+   "n": "17 RCTs, 4751 women",
+   "finding": "Cochrane 2018: intrauterine hCG >=500 IU before cleavage-stage transfer improved live birth (moderate quality); no evidence for blastocyst transfer; most trials at high risk of bias."
+  },
+  {
+   "id": "afert-perera2026",
+   "authors": "Perera AK, Gan J, Afroz A, et al.",
+   "year": 2026,
+   "title": "Endometrial injury in women undergoing in vitro fertilisation (IVF)",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "42138348",
+   "doi": "10.1002/14651858.CD009517.pub5",
+   "type": "meta-analysis",
+   "n": "22 studies, 7194 women",
+   "finding": "Cochrane 2026, restricted to low-risk-of-bias trials: effect of endometrial injury on live birth unclear (OR 1.12, 0.98-1.28)."
+  },
+  {
+   "id": "afert-lensen2019",
+   "authors": "Lensen S, Osavlyuk D, Armstrong S, et al.",
+   "year": 2019,
+   "title": "A Randomized Trial of Endometrial Scratching before In Vitro Fertilization",
+   "journal": "N Engl J Med",
+   "pmid": "30673547",
+   "doi": "10.1056/NEJMoa1808737",
+   "type": "rct",
+   "n": "1364 women",
+   "finding": "PIP trial: live birth 26.1% with and without endometrial scratching."
+  },
+  {
+   "id": "afert-bhide2024",
+   "authors": "Bhide P, Chan DYL, Lanz D, et al.",
+   "year": 2024,
+   "title": "Clinical effectiveness and safety of time-lapse imaging systems for embryo incubation and selection in in-vitro fertilisation treatment (TILT): a multicentre, three-parallel-group, double-blind, randomised controlled trial",
+   "journal": "Lancet",
+   "pmid": "39033010",
+   "doi": "10.1016/S0140-6736(24)00816-X",
+   "type": "rct",
+   "n": "1575 women",
+   "finding": "TILT: live birth 33.7% time-lapse, 36.6% undisturbed culture, 33.0% standard care; no significant differences."
+  },
+  {
+   "id": "afert-lacey2021",
+   "authors": "Lacey L, Hassan S, Franik S, et al.",
+   "year": 2021,
+   "title": "Assisted hatching on assisted conception (in vitro fertilisation (IVF) and intracytoplasmic sperm injection (ICSI))",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "33730422",
+   "doi": "10.1002/14651858.CD001894.pub6",
+   "type": "meta-analysis",
+   "n": "39 RCTs",
+   "finding": "Cochrane 2021: assisted hatching has uncertain effect on live birth (OR 1.09, 0.92-1.29) and may raise multiple pregnancy."
+  },
+  {
+   "id": "afert-vaidakis2024",
+   "authors": "Vaidakis D, Papapanou M, Siristatidis CS",
+   "year": 2024,
+   "title": "Autologous platelet-rich plasma for assisted reproduction",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "38682756",
+   "doi": "10.1002/14651858.CD013875.pub2",
+   "type": "meta-analysis",
+   "n": "12 RCTs, 1069 women",
+   "finding": "Cochrane 2024: effect of intrauterine or intraovarian PRP uncertain; only one trial at low risk of bias, which showed no clear live-birth effect (OR 1.10, 0.38-3.14)."
+  },
+  {
+   "id": "afert-herlihy2024",
+   "authors": "Herlihy NS, Cakiroglu Y, Whitehead C, et al.",
+   "year": 2024,
+   "title": "Effect of intraovarian platelet-rich plasma injection on IVF outcomes in women with poor ovarian response: the PROVA randomized controlled trial",
+   "journal": "Hum Reprod",
+   "pmid": "38725194",
+   "doi": "10.1093/humrep/deae093",
+   "type": "rct",
+   "n": null,
+   "finding": "PROVA RCT: intraovarian PRP did not improve mature oocyte yield or other IVF outcomes in poor responders under 38."
+  },
+  {
+   "id": "afert-miller2019",
+   "authors": "Miller D, Pavitt S, Sharma V, et al.",
+   "year": 2019,
+   "title": "Physiological, hyaluronan-selected intracytoplasmic sperm injection for infertility treatment (HABSelect): a parallel, two-group, randomised trial",
+   "journal": "Lancet",
+   "pmid": "30712901",
+   "doi": "10.1016/S0140-6736(18)32989-1",
+   "type": "rct",
+   "n": "2772 couples",
+   "finding": "HABSelect: PICSI vs ICSI term live birth 27.4% vs 25.2% (NS)."
+  },
+  {
+   "id": "afert-garg2026",
+   "authors": "Garg A, Nakhla O, Steeper M, et al.",
+   "year": 2026,
+   "title": "Advanced sperm selection techniques for assisted reproduction",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "42227305",
+   "doi": "10.1002/14651858.CD010461.pub4",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Cochrane 2026: hyaluronan-selected ICSI may make little or no difference to live birth (RR 1.09) and probably slightly reduces miscarriage (RR 0.59); other selection methods very low certainty."
+  },
+  {
+   "id": "afert-showell2020",
+   "authors": "Showell MG, Mackenzie-Proctor R, Jordan V, et al.",
+   "year": 2020,
+   "title": "Antioxidants for female subfertility",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "32851663",
+   "doi": "10.1002/14651858.CD007807.pub4",
+   "type": "meta-analysis",
+   "n": "63 RCTs",
+   "finding": "Cochrane 2020 female antioxidants; March 2026 editorial note: 7 included trials retracted and 2 under expression of concern; editors judged their removal does not meaningfully change conclusions, but the El Sharkwy 2019 head-to-head data disappear."
+  },
+  {
+   "id": "afert-showell2018",
+   "authors": "Showell MG, Mackenzie-Proctor R, Jordan V, et al.",
+   "year": 2018,
+   "title": "Inositol for subfertile women with polycystic ovary syndrome",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "30570133",
+   "doi": "10.1002/14651858.CD012378.pub2",
+   "type": "meta-analysis",
+   "n": "13 RCTs, 1472 women",
+   "finding": "Cochrane 2018: uncertain whether myo-inositol improves live birth in PCOS IVF (OR 2.42, 0.75-7.83); apparent miscarriage reduction driven by one trial with an unusually high control miscarriage rate."
+  },
+  {
+   "id": "afert-zhang2025",
+   "authors": "Zhang J, Zhang H, Zhou W, et al.",
+   "year": 2025,
+   "title": "Effect of myo-inositol supplementation in mixed ovarian response IVF cohort: a systematic review and meta-analysis",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "40190407",
+   "doi": "10.3389/fendo.2025.1520362",
+   "type": "meta-analysis",
+   "n": "11 studies, 981 participants",
+   "finding": "Myo-inositol associated with higher MII oocyte rate in PCOS IVF but not in poor responders; surrogate outcomes."
+  },
+  {
+   "id": "afert-hu2020",
+   "authors": "Hu KL, Ye X, Wang S, et al.",
+   "year": 2020,
+   "title": "Melatonin Application in Assisted Reproductive Technology: A Systematic Review and Meta-Analysis of Randomized Trials",
+   "journal": "Front Endocrinol (Lausanne)",
+   "pmid": "32292388",
+   "doi": "10.3389/fendo.2020.00160",
+   "type": "meta-analysis",
+   "n": "10 RCTs",
+   "finding": "Melatonin in ART raised clinical pregnancy (OR 1.43) but not live birth (OR 1.38, 0.78-2.46; 3 RCTs, power 0.34); low-quality evidence."
+  },
+  {
+   "id": "afert-chen2016",
+   "authors": "Chen LW, Wu Y, Neelakantan N, et al.",
+   "year": 2016,
+   "title": "Maternal caffeine intake during pregnancy and risk of pregnancy loss: a categorical and dose-response meta-analysis of prospective studies",
+   "journal": "Public Health Nutr",
+   "pmid": "26329421",
+   "doi": "10.1017/S1368980015002463",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Prospective studies: each 100 mg/day caffeine associated with 7% higher pregnancy loss; authors note possible publication bias and incomplete adjustment for smoking and pregnancy symptoms."
+  },
+  {
+   "id": "afert-lyngso2017",
+   "authors": "Lyngsø J, Ramlau-Hansen CH, Bay B, et al.",
+   "year": 2017,
+   "title": "Association between coffee or caffeine consumption and fecundity and fertility: a systematic review and dose-response meta-analysis",
+   "journal": "Clin Epidemiol",
+   "pmid": "29276412",
+   "doi": "10.2147/CLEP.S146496",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Caffeine 300 mg/day associated with RR 1.37 for spontaneous abortion; little if any association with fecundability or fertility-treatment outcomes."
+  },
+  {
+   "id": "afert-giannelli2003",
+   "authors": "Giannelli M, Doyle P, Roman E, et al.",
+   "year": 2003,
+   "title": "The effect of caffeine consumption and nausea on the risk of miscarriage",
+   "journal": "Paediatr Perinat Epidemiol",
+   "pmid": "14629312",
+   "doi": "10.1046/j.1365-3016.2003.00523.x",
+   "type": "case-control",
+   "n": "474 women",
+   "finding": "UK case-control: >300 mg/day caffeine in pregnancy roughly doubled miscarriage odds after adjusting for nausea; nausea itself was strongly protective; pre-pregnancy caffeine not associated."
+  },
+  {
+   "id": "afert-yuan2021",
+   "authors": "Yuan S, Liu J, Larsson SC",
+   "year": 2021,
+   "title": "Smoking, alcohol and coffee consumption and pregnancy loss: a Mendelian randomization investigation",
+   "journal": "Fertil Steril",
+   "pmid": "34187701",
+   "doi": "10.1016/j.fertnstert.2021.05.103",
+   "type": "cohort",
+   "n": "UK Biobank 60,565 cases + FinnGen",
+   "finding": "Mendelian randomization: genetically predicted smoking raised pregnancy loss (OR 1.31) but genetically predicted coffee consumption did not (OR 0.96, 0.87-1.06)."
+  },
+  {
+   "id": "afert-britonunes2023",
+   "authors": "Brito Nunes C, Huang P, Wang G, et al.",
+   "year": 2023,
+   "title": "Mendelian randomization study of maternal coffee consumption and its influence on birthweight, stillbirth, miscarriage, gestational age and pre-term birth",
+   "journal": "Int J Epidemiol",
+   "pmid": "35679582",
+   "doi": "10.1093/ije/dyac121",
+   "type": "meta-analysis",
+   "n": "~50,000 miscarriage cases",
+   "finding": "Two-sample MR and genetic-risk-score analyses found no effect of coffee consumption on miscarriage, stillbirth or preterm birth."
+  },
+  {
+   "id": "afert-wootton2023",
+   "authors": "Wootton RE, Lawn RB, Magnus MC, et al.",
+   "year": 2023,
+   "title": "Associations between health behaviours, fertility and reproductive outcomes: triangulation of evidence in the Norwegian Mother, Father and Child Cohort Study (MoBa)",
+   "journal": "BMC Med",
+   "pmid": "37013617",
+   "doi": "10.1186/s12916-023-02831-9",
+   "type": "cohort",
+   "n": "84,075 women, 68,002 men (MoBa)",
+   "finding": "Triangulating regression with MR for alcohol, caffeine, BMI and smoking: only smoking and BMI showed consistent effects on time to conception."
+  },
+  {
+   "id": "afert-mutsaerts2016",
+   "authors": "Mutsaerts MA, van Oers AM, Groen H, et al.",
+   "year": 2016,
+   "title": "Randomized Trial of a Lifestyle Program in Obese Infertile Women",
+   "journal": "N Engl J Med",
+   "pmid": "27192672",
+   "doi": "10.1056/NEJMoa1505297",
+   "type": "rct",
+   "n": "577 women",
+   "finding": "LIFEstyle (NEJM): 6-month lifestyle programme before fertility treatment in obese women did not increase healthy term vaginal birth (27.1% vs 35.2%)."
+  },
+  {
+   "id": "afert-legro2022",
+   "authors": "Legro RS, Hansen KR, Diamond MP, et al.",
+   "year": 2022,
+   "title": "Effects of preconception lifestyle intervention in infertile women with obesity: The FIT-PLESE randomized controlled trial",
+   "journal": "PLoS Med",
+   "pmid": "35041662",
+   "doi": "10.1371/journal.pmed.1003883",
+   "type": "rct",
+   "n": "379 women",
+   "finding": "FIT-PLESE: intensive weight loss (-6.6%) before treatment did not raise healthy live birth vs exercise alone (12.2% vs 15.2%) despite metabolic gains."
+  },
+  {
+   "id": "afert-caldwell2024",
+   "authors": "Caldwell AE, Gorczyca AM, Bradford AP, et al.",
+   "year": 2024,
+   "title": "Effectiveness of preconception weight loss interventions on fertility in women: a systematic review and meta-analysis",
+   "journal": "Fertil Steril",
+   "pmid": "38408693",
+   "doi": "10.1016/j.fertnstert.2024.02.038",
+   "type": "meta-analysis",
+   "n": "13 RCTs for live birth (3329 women)",
+   "finding": "Preconception weight-loss interventions raised pregnancy (RR 1.24) but not live birth (RR 1.19, 0.97-1.45)."
+  },
+  {
+   "id": "afert-legro2016",
+   "authors": "Legro RS, Dodson WC, Kunselman AR, et al.",
+   "year": 2016,
+   "title": "Benefit of Delayed Fertility Therapy With Preconception Weight Loss Over Immediate Therapy in Obese Women With PCOS",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "27172435",
+   "doi": "10.1210/jc.2016-1659",
+   "type": "rct",
+   "n": "329 women (two RCTs)",
+   "finding": "Secondary cross-trial comparison in obese PCOS: lifestyle weight loss before clomiphene gave higher ovulation and live birth (25% vs 10%) than immediate clomiphene; not a within-trial randomised comparison."
+  },
+  {
+   "id": "afert-czeizel1994",
+   "authors": "Czeizel AE, Dudás I, Métneki J",
+   "year": 1994,
+   "title": "Pregnancy outcomes in a randomised controlled trial of periconceptional multivitamin supplementation. Final report",
+   "journal": "Arch Gynecol Obstet",
+   "pmid": "7979565",
+   "doi": "10.1007/BF02390940",
+   "type": "rct",
+   "n": "5502 pregnancies",
+   "finding": "Hungarian RCT: periconceptional multivitamin with 0.8 mg folic acid increased cumulative conceptions and multiple births, with no other effect on pregnancy outcomes."
+  },
+  {
+   "id": "afert-uspstf2023",
+   "authors": "US Preventive Services Task Force, Barry MJ, Nicholson WK, et al.",
+   "year": 2023,
+   "title": "Folic Acid Supplementation to Prevent Neural Tube Defects: US Preventive Services Task Force Reaffirmation Recommendation Statement",
+   "journal": "JAMA",
+   "pmid": "37526713",
+   "doi": "10.1001/jama.2023.12876",
+   "type": "guideline",
+   "n": null,
+   "finding": "USPSTF 2023: high certainty that 0.4-0.8 mg/day folic acid prevents neural tube defects (A recommendation)."
+  },
+  {
+   "id": "afert-gaskins2014",
+   "authors": "Gaskins AJ, Afeiche MC, Wright DL, et al.",
+   "year": 2014,
+   "title": "Dietary folate and reproductive success among women undergoing assisted reproduction",
+   "journal": "Obstet Gynecol",
+   "pmid": "25198264",
+   "doi": "10.1097/AOG.0000000000000477",
+   "type": "cohort",
+   "n": "232 women",
+   "finding": "EARTH: supplemental folate >800 ug/day associated with 20 points higher IVF live birth than <400 ug/day."
+  },
+  {
+   "id": "afert-bath2013",
+   "authors": "Bath SC, Steer CD, Golding J, et al.",
+   "year": 2013,
+   "title": "Effect of inadequate iodine status in UK pregnant women on cognitive outcomes in their children: results from the Avon Longitudinal Study of Parents and Children (ALSPAC)",
+   "journal": "Lancet",
+   "pmid": "23706508",
+   "doi": "10.1016/S0140-6736(13)60436-5",
+   "type": "cohort",
+   "n": "ALSPAC mothers",
+   "finding": "Children of mothers with iodine:creatinine <150 ug/g had higher odds of low verbal IQ (OR 1.58)."
+  },
+  {
+   "id": "afert-mills2018",
+   "authors": "Mills JL, Buck Louis GM, Kannan K, et al.",
+   "year": 2018,
+   "title": "Delayed conception in women with low-urinary iodine concentrations: a population-based prospective cohort study",
+   "journal": "Hum Reprod",
+   "pmid": "29340704",
+   "doi": "10.1093/humrep/dex379",
+   "type": "cohort",
+   "n": "501 women",
+   "finding": "LIFE Study: women with iodine:creatinine <50 ug/g had 46% lower fecundability (FOR 0.54, 0.31-0.94) from a single urine sample; residual confounding possible and replication needed."
+  },
+  {
+   "id": "afert-levie2019",
+   "authors": "Levie D, Korevaar TIM, Bath SC, et al.",
+   "year": 2019,
+   "title": "Association of Maternal Iodine Status With Child IQ: A Meta-Analysis of Individual Participant Data",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "30920622",
+   "doi": "10.1210/jc.2018-02559",
+   "type": "meta-analysis",
+   "n": "6180 mother-child pairs",
+   "finding": "IPD of 3 cohorts: UI/Creat <150 ug/g not significantly associated with lower verbal (-0.6) or nonverbal IQ; curvilinear association with verbal IQ only, limited to the first 14 weeks."
+  },
+  {
+   "id": "afert-gowachirapant2017",
+   "authors": "Gowachirapant S, Jaiswal N, Melse-Boonstra A, et al.",
+   "year": 2017,
+   "title": "Effect of iodine supplementation in pregnant women on child neurodevelopment: a randomised, double-blind, placebo-controlled trial",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "29030199",
+   "doi": "10.1016/S2213-8587(17)30332-7",
+   "type": "rct",
+   "n": "832 pregnant women",
+   "finding": "200 ug/day iodine in mildly deficient pregnant women (India, Thailand) did not improve child IQ or executive function at 5-6 years."
+  },
+  {
+   "id": "afert-dineva2020",
+   "authors": "Dineva M, Fishpool H, Rayman MP, et al.",
+   "year": 2020,
+   "title": "Systematic review and meta-analysis of the effects of iodine supplementation on thyroid function and child neurodevelopment in mildly-to-moderately iodine-deficient pregnant women",
+   "journal": "Am J Clin Nutr",
+   "pmid": "32320029",
+   "doi": "10.1093/ajcn/nqaa071",
+   "type": "meta-analysis",
+   "n": "37 publications (10 RCTs)",
+   "finding": "Iodine supplementation in mild-to-moderate deficiency: no effect on child cognition in pooled RCTs; insufficient evidence to support current supplementation recommendations."
+  },
+  {
+   "id": "afert-gaskins2019",
+   "authors": "Gaskins AJ, Nassan FL, Chiu YH, et al.",
+   "year": 2019,
+   "title": "Dietary patterns and outcomes of assisted reproduction",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "30742825",
+   "doi": "10.1016/j.ajog.2019.02.004",
+   "type": "cohort",
+   "n": "357 women",
+   "finding": "EARTH: profertility diet score associated with 53% higher odds of live birth per SD; Mediterranean diet benefit plateaued above the second quartile."
+  },
+  {
+   "id": "afert-winter2023",
+   "authors": "Winter HG, Rolnik DL, Mol BWJ, et al.",
+   "year": 2023,
+   "title": "Can Dietary Patterns Impact Fertility Outcomes? A Systematic Review and Meta-Analysis",
+   "journal": "Nutrients",
+   "pmid": "37299551",
+   "doi": "10.3390/nu15112589",
+   "type": "meta-analysis",
+   "n": "11 studies",
+   "finding": "Mediterranean adherence linked to better ART outcomes after excluding high-risk studies (2 studies); healthy-diet patterns too heterogeneous to pool."
+  },
+  {
+   "id": "afert-kellow2022",
+   "authors": "Kellow NJ, Le Cerf J, Horta F, et al.",
+   "year": 2022,
+   "title": "The Effect of Dietary Patterns on Clinical Pregnancy and Live Birth Outcomes in Men and Women Receiving Assisted Reproductive Technologies: A Systematic Review and Meta-Analysis",
+   "journal": "Adv Nutr",
+   "pmid": "35293975",
+   "doi": "10.1093/advances/nmac023",
+   "type": "meta-analysis",
+   "n": "13 studies, 3638 participants",
+   "finding": "All diet-pattern studies in ART had moderate-high risk of bias; Mediterranean and profertility diets associated with live birth in individual studies."
+  },
+  {
+   "id": "afert-du2024",
+   "authors": "Du C, Li Y, Yin C, et al.",
+   "year": 2024,
+   "title": "Association of abstinence time with semen quality and fertility outcomes: a systematic review and dose-response meta-analysis",
+   "journal": "Andrology",
+   "pmid": "38197853",
+   "doi": "10.1111/andr.13583",
+   "type": "meta-analysis",
+   "n": "85 studies",
+   "finding": "Short vs long abstinence lowered volume and count and slightly lowered DFI in healthy men (-2.4 points)."
+  },
+  {
+   "id": "afert-barbagallo2023",
+   "authors": "Barbagallo F, Cannarella R, Crafa A, et al.",
+   "year": 2023,
+   "title": "The Impact of a Very Short Abstinence Period on Assisted Reproductive Technique Outcomes: A Systematic Review and Meta-Analysis",
+   "journal": "Antioxidants (Basel)",
+   "pmid": "36979001",
+   "doi": "10.3390/antiox12030752",
+   "type": "meta-analysis",
+   "n": "7 studies",
+   "finding": "A second ejaculate within 4 hours was associated with higher implantation, clinical pregnancy and live birth in ART."
+  },
+  {
+   "id": "afert-sergerie2007",
+   "authors": "Sergerie M, Mieusset R, Croute F, et al.",
+   "year": 2007,
+   "title": "High risk of temporary alteration of semen parameters after recent acute febrile illness",
+   "journal": "Fertil Steril",
+   "pmid": "17434502",
+   "doi": "10.1016/j.fertnstert.2006.12.045",
+   "type": "cross-sectional",
+   "n": "1 man (case report)",
+   "finding": "After 2 days of 39-40 C fever, SCSA DFI rose 24-36% at days 15-37 and returned toward baseline by day 79."
+  },
+  {
+   "id": "afert-cannarella2024",
+   "authors": "Cannarella R, Marino M, Crafa A, et al.",
+   "year": 2024,
+   "title": "Impact of COVID-19 on testicular function: a systematic review and meta-analysis",
+   "journal": "Endocrine",
+   "pmid": "38345682",
+   "doi": "10.1007/s12020-024-03705-7",
+   "type": "meta-analysis",
+   "n": "16 studies, 1250 patients",
+   "finding": "Active or recent COVID-19 associated with lower sperm concentration, count and motility and altered hormones; mostly short-term follow-up."
+  },
+  {
+   "id": "afert-minguez2018",
+   "authors": "Mínguez-Alarcón L, Gaskins AJ, Chiu YH, et al.",
+   "year": 2018,
+   "title": "Type of underwear worn and markers of testicular function among men attending a fertility center",
+   "journal": "Hum Reprod",
+   "pmid": "30102388",
+   "doi": "10.1093/humrep/dey259",
+   "type": "cross-sectional",
+   "n": "656 men",
+   "finding": "Fertility-clinic men mostly wearing boxers had 25% higher sperm concentration and 14% lower FSH; differences attenuated after adjusting for FSH (cross-sectional)."
+  },
+  {
+   "id": "afert-gallegos2008",
+   "authors": "Gallegos G, Ramos B, Santiso R, et al.",
+   "year": 2008,
+   "title": "Sperm DNA fragmentation in infertile men with genitourinary infection by Chlamydia trachomatis and Mycoplasma",
+   "journal": "Fertil Steril",
+   "pmid": "17953955",
+   "doi": "10.1016/j.fertnstert.2007.06.035",
+   "type": "cohort",
+   "n": null,
+   "finding": "Men with Chlamydia/Mycoplasma infection had SDF 35% vs 11% in fertile controls; SDF fell from 37.7% to 24.2% after ~3.8 months of antibiotics (no untreated control)."
+  },
+  {
+   "id": "afert-yanushpolsky1995",
+   "authors": "Yanushpolsky EH, Politch JA, Hill JA, et al.",
+   "year": 1995,
+   "title": "Antibiotic therapy and leukocytospermia: a prospective, randomized, controlled study",
+   "journal": "Fertil Steril",
+   "pmid": "7805903",
+   "doi": null,
+   "type": "rct",
+   "n": "41 men",
+   "finding": "Leukocytospermia often resolved spontaneously; doxycycline or co-trimoxazole were no better than no treatment."
+  },
+  {
+   "id": "afert-chavarro2006",
+   "authors": "Chavarro JE, Rich-Edwards JW, Rosner BA, et al.",
+   "year": 2006,
+   "title": "Iron intake and risk of ovulatory infertility",
+   "journal": "Obstet Gynecol",
+   "pmid": "17077236",
+   "doi": "10.1097/01.AOG.0000238333.37423.ab",
+   "type": "cohort",
+   "n": "Nurses' Health Study II",
+   "finding": "Iron supplement users had lower ovulatory infertility (RR 0.60)."
+  },
+  {
+   "id": "afert-hahn2019",
+   "authors": "Hahn KA, Wesselink AK, Wise LA, et al.",
+   "year": 2019,
+   "title": "Iron Consumption Is Not Consistently Associated with Fecundability among North American and Danish Pregnancy Planners",
+   "journal": "J Nutr",
+   "pmid": "31152673",
+   "doi": "10.1093/jn/nxz094",
+   "type": "cohort",
+   "n": "4662 women (PRESTO, Snart Foraeldre)",
+   "finding": "Iron intake not consistently associated with fecundability; some benefit among women at risk of deficiency."
+  },
+  {
+   "id": "afert-guo2024",
+   "authors": "Guo L, Yin S, Wei H, et al.",
+   "year": 2024,
+   "title": "No evidence of genetic causation between iron and infertility: a Mendelian randomization study",
+   "journal": "Front Nutr",
+   "pmid": "39104757",
+   "doi": "10.3389/fnut.2024.1390618",
+   "type": "cohort",
+   "n": "GWAS summary data",
+   "finding": "Mendelian randomization found no causal effect of serum iron, ferritin, transferrin saturation or TIBC on male or female infertility."
+  },
+  {
+   "id": "afert-tulenheimo2025",
+   "authors": "Tulenheimo-Silfvast A, Ruokolainen-Pursiainen L, Simberg N",
+   "year": 2025,
+   "title": "Association between iron deficiency and fertility",
+   "journal": "Acta Obstet Gynecol Scand",
+   "pmid": "39817704",
+   "doi": "10.1111/aogs.15046",
+   "type": "cohort",
+   "n": "292 women",
+   "finding": "Uncontrolled before-after clinic study: after IV iron for deficiency, live birth rose (51% vs 26% before); confounded by time and ongoing treatment."
+  },
+  {
+   "id": "afert-hamdan2015",
+   "authors": "Hamdan M, Dunselman G, Li TC, et al.",
+   "year": 2015,
+   "title": "The impact of endometrioma on IVF/ICSI outcomes: a systematic review and meta-analysis",
+   "journal": "Hum Reprod Update",
+   "pmid": "26168799",
+   "doi": "10.1093/humupd/dmv035",
+   "type": "meta-analysis",
+   "n": "33 studies",
+   "finding": "Endometrioma: similar IVF live birth (OR 0.98) but fewer oocytes and more cancellations; surgery before IVF did not improve live birth (OR 0.90)."
+  },
+  {
+   "id": "afert-alshehre2021",
+   "authors": "Alshehre SM, Narice BF, Fenwick MA, et al.",
+   "year": 2021,
+   "title": "The impact of endometrioma on in vitro fertilisation/intra-cytoplasmic injection IVF/ICSI reproductive outcomes: a systematic review and meta-analysis",
+   "journal": "Arch Gynecol Obstet",
+   "pmid": "32979078",
+   "doi": "10.1007/s00404-020-05796-9",
+   "type": "meta-analysis",
+   "n": "8 studies",
+   "finding": "Endometrioma reduced oocytes and MII oocytes retrieved but not live birth or clinical pregnancy after IVF/ICSI."
+  },
+  {
+   "id": "afert-rolnik2017",
+   "authors": "Rolnik DL, Wright D, Poon LC, et al.",
+   "year": 2017,
+   "title": "Aspirin versus Placebo in Pregnancies at High Risk for Preterm Preeclampsia",
+   "journal": "N Engl J Med",
+   "pmid": "28657417",
+   "doi": "10.1056/NEJMoa1704559",
+   "type": "rct",
+   "n": "1620 women",
+   "finding": "ASPRE: aspirin 150 mg nightly cut preterm pre-eclampsia from 4.3% to 1.6% (OR 0.38)."
+  },
+  {
+   "id": "afert-duley2019",
+   "authors": "Duley L, Meher S, Hunter KE, et al.",
+   "year": 2019,
+   "title": "Antiplatelet agents for preventing pre-eclampsia and its complications",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "31684684",
+   "doi": "10.1002/14651858.CD004659.pub3",
+   "type": "meta-analysis",
+   "n": "77 trials, 40,249 women",
+   "finding": "Cochrane IPD-based review: low-dose aspirin gives small-to-moderate reductions in pre-eclampsia, preterm birth and fetal/neonatal death."
+  },
+  {
+   "id": "afert-condeagudelo2011",
+   "authors": "Conde-Agudelo A, Romero R, Kusanovic JP, et al.",
+   "year": 2011,
+   "title": "Supplementation with vitamins C and E during pregnancy for the prevention of preeclampsia and other adverse maternal and perinatal outcomes: a systematic review and metaanalysis",
+   "journal": "Am J Obstet Gynecol",
+   "pmid": "21529757",
+   "doi": "10.1016/j.ajog.2011.02.020",
+   "type": "meta-analysis",
+   "n": "9 trials, 19,810 women",
+   "finding": "Vitamins C and E did not prevent pre-eclampsia (RR 1.00) and increased gestational hypertension and premature rupture of membranes."
+  },
+  {
+   "id": "afert-franasiak2014",
+   "authors": "Franasiak JM, Forman EJ, Hong KH, et al.",
+   "year": 2014,
+   "title": "The nature of aneuploidy with increasing age of the female partner: a review of 15,169 consecutive trophectoderm biopsies evaluated with comprehensive chromosomal screening",
+   "journal": "Fertil Steril",
+   "pmid": "24355045",
+   "doi": "10.1016/j.fertnstert.2013.11.004",
+   "type": "cohort",
+   "n": "15,169 biopsies",
+   "finding": "No-euploid-embryo rate 2-6% at ages 26-37, 33% at 42 and 53% at 44."
+  },
+  {
+   "id": "afert-gruhn2019",
+   "authors": "Gruhn JR, Zielinska AP, Shukla V, et al.",
+   "year": 2019,
+   "title": "Chromosome errors in human eggs shape natural fertility over reproductive life span",
+   "journal": "Science",
+   "pmid": "31604276",
+   "doi": "10.1126/science.aav7321",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Egg aneuploidy follows a U-curve across ages 9-43, explained by age-specific chromosome segregation errors."
+  }
+ ],
+ "audit": [
+  {
+   "factor": "male-antioxidant-combination",
+   "verdict": "strengthened",
+   "claim": "Combination 'male fertility' antioxidants have at best weak, biased evidence; the best RCT (MOXI) found no gain in semen, DNA fragmentation or live birth.",
+   "biases": "Small single-centre trials at high risk of bias, surrogate outcomes (semen parameters, seminal MDA) instead of live birth, industry-made products, and research-integrity problems in the trial base: Cochrane's apparent live-birth gain disappears when high-risk-of-bias trials are removed [afert-deligny2022], and trustworthiness checks of Cochrane-included RCTs flag about a quarter for authenticity concerns that Risk-of-Bias tools do not catch [afert-wilkinson2025]. Positive meta-analyses come from groups with long-standing advocacy for antioxidant therapy and mostly report pregnancy rather than live birth [afert-agarwal2023].",
+   "newer_evidence": "Two large placebo-controlled trials have since reported. FAZST (2020, 2370 men): folic acid plus zinc did not change live birth (34% vs 35%) or semen quality and slightly raised DNA fragmentation [afert-schisterman2020]. SUMMER (2025, 1171 men, 21 Dutch centres): 6 months of an antioxidant/B-vitamin product did not raise ongoing pregnancy (33.8% vs 37.5%) and pregnancy was lower in the 4-6 month window when any effect should appear (15.5% vs 21.5%) [afert-deligny2025]. These confirm MOXI (live birth 15% vs 24%) [afert-steiner2020]. On the other side, a 2023 meta-analysis of 45 RCTs reports higher spontaneous pregnancy but no live-birth or SDF effect [afert-agarwal2023]; 2025-2026 meta-analyses find small SDF falls (about 4 points) and better semen numbers but at very low certainty with prediction intervals crossing zero [afert-szabo2025, afert-melhem2026]. HFEA rates antioxidants after SDF testing grey [afert-hfea2026sdf].",
+   "bottom_line": "The three largest, best-run trials (MOXI, FAZST, SUMMER) all found no live-birth benefit from male supplements, and two hinted at harm. Treat them as unproven and not worth paying for to improve fertility.",
+   "site_change": {
+    "impact": {
+     "sperm": 0
+    },
+    "evidence": "moderate",
+    "headline": "Three large placebo-controlled RCTs (MOXI 2020, FAZST 2020 with 2370 men, SUMMER 2025 with 1171 men) found no gain in live birth or pregnancy from male antioxidant/vitamin supplements; SUMMER saw fewer pregnancies in months 4-6 (15.5% vs 21.5%).",
+    "note": "Direction should be 'neutral' (or 'mixed' only for surrogate semen markers). Fill the empty debate field with Agarwal 2023 / Szabo 2025 vs MOXI, FAZST and SUMMER. Note that FAZST raised DFI slightly (29.7% vs 27.2%)."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-deligny2022",
+    "afert-wilkinson2025",
+    "afert-agarwal2023",
+    "afert-schisterman2020",
+    "afert-deligny2025",
+    "afert-steiner2020",
+    "afert-szabo2025",
+    "afert-melhem2026",
+    "afert-hfea2026sdf"
+   ]
+  },
+  {
+   "factor": "testicular-sperm-icsi",
+   "verdict": "weakened",
+   "claim": "Testicular sperm carry about 25 points less DNA fragmentation, and pooled studies show higher pregnancy and live birth with ICSI in men with high ejaculated SDF.",
+   "biases": "Confounding by indication and selection: the pooled data are non-randomised comparisons in couples chosen after failed cycles, often from the same centres that promote the technique, and with regression to the mean in SDF [afert-esteves2017, afert-khoo2024]. Lower SDF in the sample is a surrogate; testicular sperm may carry more aneuploidy.",
+   "newer_evidence": "A 2024 meta-analysis of 9 studies (>536 men) found higher pregnancy (OR 2.51) and live birth (OR 2.59) but judged the evidence too weak to recommend outside trials [afert-khoo2024]. The only multi-arm RCT that included a testicular arm (Hozyen 2022, 302 couples) found testicular sperm gave lower cleavage, blastulation and top-blastocyst rates, with PICSI and MACS ejaculated-sperm arms doing best [afert-hozyen2022]. A small RCT found TESA and MACS similar but lacked an untreated control [afert-mantravadi2024]. Reviews call the evidence non-conclusive [afert-romano2023]. The HFEA now rates TESE/TESA with ICSI after SDF testing RED (insufficient evidence plus surgical risk) [afert-hfea2026sdf].",
+   "bottom_line": "Testicular sperm do have less fragmented DNA, but whether that means more babies is unproven; the one randomised comparison did not favour it and the UK regulator rates it red. It is a last-resort option for selected couples, ideally within a trial.",
+   "site_change": {
+    "impact": {
+     "sperm": 2
+    },
+    "evidence": "limited",
+    "headline": "Testicular sperm have about 25 points less DNA fragmentation, and non-randomised studies report more live births with ICSI, but the only randomised comparison did not favour it and the HFEA rates it red; consider only after other causes are fixed.",
+    "note": "Add the HFEA red rating (Sep 2026) and the Hozyen 2022 RCT to debate; the current debate field says 'None'."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-esteves2017",
+    "afert-khoo2024",
+    "afert-hozyen2022",
+    "afert-mantravadi2024",
+    "afert-romano2023",
+    "afert-hfea2026sdf"
+   ]
+  },
+  {
+   "factor": "varicocele",
+   "verdict": "holds",
+   "claim": "A palpable varicocele is the largest common driver of high SDF, adding roughly 10-14 points.",
+   "biases": "Cross-sectional comparisons in men attending infertility clinics (selection into care: men with varicocele and normal fertility are rarely tested); detection depends on examination; varicocele correlates with age and duration.",
+   "newer_evidence": "The 2023 risk-factor meta-analysis of 190 studies confirmed varicocele as the largest SDF association (+13.6 points) [afert-szabo2023]. Before-after data show SDF falls after repair (about 6.7 points at 3 months, 12.4 at 6 months), with a dose-response by grade, which supports causation [afert-szabo2025].",
+   "bottom_line": "The varicocele-SDF link holds and repair lowers SDF, which supports a causal role; the open question is how much that changes live birth (see varicocele-repair).",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-szabo2023",
+    "afert-szabo2025"
+   ]
+  },
+  {
+   "factor": "varicocele-repair",
+   "verdict": "holds",
+   "claim": "Repairing a clinical varicocele lowers SDF by about 7 points, more when SDF starts high; pregnancy benefit less certain.",
+   "biases": "SDF studies are before-after without untreated controls (regression to the mean, since men are selected for high SDF); ART-outcome studies compare men who chose repair with men who did not (confounding by indication, healthy-user).",
+   "newer_evidence": "A 2025 meta-analysis of 86 studies found SDF fell 6.7 points at 3 months and 12.4 at 6 months after varicocelectomy, larger in grade II-III [afert-szabo2025]. A 2025 meta-analysis of 9 observational studies linked repair before ICSI with higher live birth (OR 2.07) [afert-palani2025], but Cochrane 2021 remains uncertain about live birth from randomised data (RR 2.27, 0.19-26.6) [afert-persad2021].",
+   "bottom_line": "The SDF drop is consistent; a live-birth gain is plausible but still rests mostly on non-randomised data.",
+   "site_change": {
+    "note": "Cite Szabo 2025 (SDF -6.7 at 3 months, -12.4 at 6 months) and Palani 2025 (observational ICSI live birth OR 2.07) in debate, alongside Cochrane's uncertainty; debate field currently 'None'."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-szabo2025",
+    "afert-palani2025",
+    "afert-persad2021"
+   ]
+  },
+  {
+   "factor": "paternal-age",
+   "verdict": "holds",
+   "claim": "SDF rises with age with a clear jump after 50 (+12.6 points), alongside more new mutations in offspring.",
+   "biases": "Older fathers differ in health, weight, varicocele duration and partner age (residual confounding by maternal age in IVF data); offspring-outcome associations can reflect parental psychiatric traits that delay parenthood.",
+   "newer_evidence": "Designs that control for confounding support a real effect. De novo mutations rise by about two per year of paternal age [afert-kong2012]. Swedish sibling comparisons (2.6 million births) found paternal-age associations with autism, psychosis and bipolar disorder as large as or larger than population estimates [afert-donofrio2014]. In donor-egg cycles, where egg age is fixed, live birth falls slightly and linearly with paternal age [afert-begon2023]; a 2022 meta-analysis of 32,484 cycles links paternal age over 40-50 to lower live birth and more miscarriage [afert-murugesu2022]. US birth data show 14% higher odds of preterm birth for fathers 45+ after adjusting for maternal age, with a modest population impact [afert-khandwala2018].",
+   "bottom_line": "Male age matters, with effects that are real but small for any single child; it adds to, and is much smaller than, the effect of female age.",
+   "site_change": {
+    "note": "Debate field says 'None': add the donor-egg (Begon 2023) and sibling-comparison (D'Onofrio 2014) evidence that supports causation, and that absolute risks stay small."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-kong2012",
+    "afert-donofrio2014",
+    "afert-begon2023",
+    "afert-murugesu2022",
+    "afert-khandwala2018"
+   ]
+  },
+  {
+   "factor": "maternal-age",
+   "verdict": "holds",
+   "claim": "Female age is the dominant driver of egg quality; women with no euploid embryo rise from 2-6% (26-37) to 33% at 42 and 53% at 44.",
+   "biases": "Embryo-biopsy data come from IVF patients (selection), but the age gradient is replicated in egg chromosome studies from a wide age range, so confounding is not a plausible explanation.",
+   "newer_evidence": "The trophectoderm-biopsy numbers are as stated [afert-franasiak2014], and direct study of egg chromosome segregation shows an age U-curve driven by cohesion loss [afert-gruhn2019].",
+   "bottom_line": "Nothing newer challenges this; age remains the single biggest factor in egg quality.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-franasiak2014",
+    "afert-gruhn2019"
+   ]
+  },
+  {
+   "factor": "amh-ovarian-reserve-egg",
+   "verdict": "holds",
+   "claim": "AMH and antral follicle count predict IVF egg yield but not natural fertility or egg quality.",
+   "biases": "Cohort studies are small for a modest effect (imprecision); the largest cohort was recruited from buyers of a commercial hormone test with self-reported pregnancy (selection, measurement error) and was run with company involvement [afert-nelson2024].",
+   "newer_evidence": "Follow-up of the Time to Conceive cohort (2023) found low AMH or high FSH unrelated to future live birth, infertility or fecundability [afert-harris2023], extending the 2017 null result [afert-steiner2017]. A 2024 cohort of 3150 women found a modest association (adjusted HR 0.77 for AMH <1 ng/mL; peak per-cycle conception 11% vs 14%) [afert-nelson2024]. A 2023 meta-analysis found AMH relates to cumulative IVF live birth without a threshold, and lacks data for natural conception [afert-peigne2023].",
+   "bottom_line": "A low AMH may slightly lower monthly chances, but most women with low AMH still conceive; it is not a fertility test.",
+   "site_change": {
+    "note": "Add Nelson 2024 (modest association, commercial cohort) and Harris 2023 (null, long follow-up) to the debate so readers see both sides."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-harris2023",
+    "afert-steiner2017",
+    "afert-nelson2024",
+    "afert-peigne2023"
+   ]
+  },
+  {
+   "factor": "egg-freezing-egg",
+   "verdict": "holds",
+   "claim": "Egg freezing works best young and with 10-15 eggs (~85% cumulative live birth at 35 or under), but only 9-38% of women return to use eggs.",
+   "biases": "Outcome data come from the minority who return (selection: returners differ in age and prognosis), single-centre series from leading clinics (the 85% figure), and models extrapolated from fresh IVF.",
+   "newer_evidence": "Two 2024 meta-analyses give pooled figures: about 11% of women return (median 7-year follow-up) and live birth per returning woman is about 28-29% [afert-hirsch2024, afert-kirubarajan2024]; 52% if eggs were frozen at 35 or younger and 19% at 40+ [afert-hirsch2024]. A large US clinic cohort found 43% cumulative live birth overall and over 70% only with 20+ mature eggs frozen before 38; extra freezing cycles did not independently help beyond the egg count [afert-cascante2024].",
+   "bottom_line": "The age and egg-number message holds, but pooled per-woman success is lower than the best single-clinic figures: roughly half at 35 or younger and one in five at 40+.",
+   "site_change": {
+    "note": "Alongside the 85% single-centre figure, give the pooled per-woman live birth (28% overall, 52% at <=35, 19% at >=40) and pooled return rate (~11%)."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-hirsch2024",
+    "afert-kirubarajan2024",
+    "afert-cascante2024"
+   ]
+  },
+  {
+   "factor": "ivf-addons-egg",
+   "verdict": "holds",
+   "claim": "Most IVF add-ons do not raise live birth; HFEA gives no green rating for having a baby and ESHRE recommends little.",
+   "biases": "Add-on evidence is dominated by small trials, per-transfer reporting, industry funding and trustworthiness problems: in the intrauterine hCG field every trial that would not share data failed integrity checks and only those trials showed benefit [afert-zou2026]; similar patterns were found in PCOS trials [afert-bordewijk2020b].",
+   "newer_evidence": "The HFEA list reviewed 28 Sep 2026 still has no green rating for live birth (yellow for scratch, embryo glue and freeze-all; red for ERA, IVIG, steroids, PRP and PGT-A; black for time-lapse and PICSI) [afert-hfea2026]. ESHRE notes none of its 42 add-on recommendations rests on high-quality evidence [afert-eshre2023]. New RCTs since 2023 (prednisone, PGT-A in male factor, IPD of intrauterine hCG) were all null for live birth [afert-sun2023, afert-lin2025, afert-zou2026].",
+   "bottom_line": "The overview holds and has been reinforced by newer trials.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-zou2026",
+    "afert-bordewijk2020b",
+    "afert-hfea2026",
+    "afert-eshre2023",
+    "afert-sun2023",
+    "afert-lin2025"
+   ]
+  },
+  {
+   "factor": "pgt-a-egg",
+   "verdict": "strengthened",
+   "claim": "PGT-A does not raise live birth per woman and can lower it, while reducing miscarriage per transfer; HFEA red for live birth.",
+   "biases": "Per-transfer reporting (denominator selection) inflates apparent benefit; post hoc age subgroups; company-run studies on mosaic embryos.",
+   "newer_evidence": "A 2025 BMJ RCT in 450 couples with severe male factor found identical cumulative live birth (60.4% vs 60.9%) with fewer pregnancy losses (5.8% vs 19.1% after first transfer) [afert-lin2025], matching the 2021 NEJM trial (77.2% vs 81.8%) [afert-yan2021]. ASRM's 2024 committee opinion says routine PGT-A's value has not been demonstrated [afert-asrm2024pgta]. Supporters point to low-quality data in unexplained recurrent pregnancy loss suggesting more live births per patient [afert-mumusoglu2025] and a pilot RCT in women 35-42 with a non-significant cumulative gain (72% vs 52%, n=100) [afert-beebeejaun2025].",
+   "bottom_line": "Newer RCTs keep finding the same thing: fewer miscarriages, not more babies. A properly powered trial in older women and recurrent loss is still missing.",
+   "site_change": {
+    "note": "Add Lin 2025 BMJ RCT and the ASRM 2024 committee opinion; mention the open question for recurrent pregnancy loss (Mumusoglu 2025)."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-lin2025",
+    "afert-yan2021",
+    "afert-asrm2024pgta",
+    "afert-mumusoglu2025",
+    "afert-beebeejaun2025"
+   ]
+  },
+  {
+   "factor": "embryo-glue-egg",
+   "verdict": "weakened",
+   "claim": "Hyaluronan transfer medium is the one add-on with a plausible live-birth gain (Cochrane RR 1.21), so ESHRE recommends it with single embryo transfer; HFEA amber.",
+   "biases": "Many older, small, industry-linked trials at high risk of bias; the benefit shrinks in low-risk-of-bias analyses [afert-heymann2020].",
+   "newer_evidence": "A 2026 meta-analysis of 24 RCTs found live birth RR 1.14 (0.99-1.31, not significant), shrinking to 1.06 (0.85-1.31) when high-risk-of-bias trials were excluded, and rated certainty very low [afert-rocha2026]. Cochrane 2020 still reports RR 1.21 at moderate certainty [afert-heymann2020]. The HFEA keeps it yellow/amber (unclear) [afert-hfea2026].",
+   "bottom_line": "Any gain is small and uncertain; it is cheap and probably harmless with single-embryo transfer, but not proven.",
+   "site_change": {
+    "evidence": "limited",
+    "headline": "Cochrane 2020 found about 21% more live births with hyaluronan transfer medium, but a 2026 meta-analysis found no significant gain (RR 1.14; 1.06 in low-bias trials); HFEA rates it amber and it raises twins if more than one embryo is transferred."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-heymann2020",
+    "afert-rocha2026",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "endometrial-scratch-egg",
+   "verdict": "holds",
+   "claim": "PIP found identical live birth; Cochrane 2026 calls the effect unclear (OR 1.12); several trials have had integrity questions.",
+   "biases": "Early positive trials were small and some came from groups whose work has since been retracted: two Egyptian scratch RCTs were retracted in 2024 [afert-maged2018, afert-helmy2017], within a wider pattern of integrity problems in women's-health trials from single institutes [afert-bordewijk2020a, afert-mol2024].",
+   "newer_evidence": "Cochrane 2026 restricted its primary analysis to low-risk-of-bias trials and found an unclear effect (OR 1.12, 0.98-1.28) [afert-perera2026]; the 1364-woman PIP trial found 26.1% live birth in both arms [afert-lensen2019]. HFEA yellow [afert-hfea2026].",
+   "bottom_line": "At best a small benefit, judged now on trustworthy trials only.",
+   "site_change": {
+    "note": "Name the retracted trials (Maged 2018, Helmy 2017; retracted 2024) so readers know which early positive results to discount."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-maged2018",
+    "afert-helmy2017",
+    "afert-bordewijk2020a",
+    "afert-mol2024",
+    "afert-perera2026",
+    "afert-lensen2019",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "endometrial-receptivity-egg",
+   "verdict": "holds",
+   "claim": "Receptivity-timed transfer gave no benefit in a 767-patient JAMA RCT; HFEA red, ESHRE not recommended.",
+   "biases": "The positive evidence is developer-run (per-protocol analysis with ~50% dropout) and observational meta-analyses with methodological errors [afert-wilkinson2024].",
+   "newer_evidence": "A 2023 meta-analysis of 8 studies found no live-birth difference (OR 1.38, 0.79-2.41) [afert-arian2023]; methodologists used ERA reviews as a case study of fatal flaws in observational meta-analyses [afert-wilkinson2024]. The JAMA RCT result stands (58.5% vs 61.9%) [afert-doyle2022]; HFEA red [afert-hfea2026].",
+   "bottom_line": "No newer evidence supports receptivity testing.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-wilkinson2024",
+    "afert-arian2023",
+    "afert-doyle2022",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "time-lapse-egg",
+   "verdict": "holds",
+   "claim": "TILT and SelecTIMO found no live-birth gain from time-lapse; HFEA black.",
+   "biases": "Earlier positive data were small or industry-sponsored; the large trials are independent and double-blind.",
+   "newer_evidence": "TILT (2024): live birth 33.7% time-lapse, 36.6% undisturbed culture, 33.0% standard [afert-bhide2024]. HFEA black [afert-hfea2026].",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-bhide2024",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "assisted-hatching-egg",
+   "verdict": "holds",
+   "claim": "Assisted hatching made no clear live-birth difference (OR 1.09) and may raise multiples; HFEA grey.",
+   "biases": "Low-quality trials with publication bias.",
+   "newer_evidence": "Cochrane 2021 conclusion unchanged [afert-lacey2021]; HFEA grey as of Sep 2026 [afert-hfea2026].",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-lacey2021",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "icsi-non-male-factor-sperm",
+   "verdict": "strengthened",
+   "claim": "With normal semen, ICSI does not beat conventional IVF; reserve ICSI for male factor, prior fertilisation failure, PGT cycles or very few eggs.",
+   "biases": "Registry comparisons are confounded by indication; clinicians' belief that ICSI prevents total fertilisation failure drives use in poor-prognosis groups without trial support.",
+   "newer_evidence": "The Dang 2021 Lancet RCT stands (live birth 35% vs 31%, NS) [afert-dang2021]. A 2023 RCT in exactly the 'very few eggs / older women' group (age >=40 and/or <=4 oocytes, 336 cycles) found ICSI gave lower fertilisation (53% vs 62%) and no better live birth, and clearly worse results when both applied [afert-fancsovits2023].",
+   "bottom_line": "ICSI for normal sperm adds cost without benefit, including for older women and low egg numbers.",
+   "site_change": {
+    "note": "Remove 'very few eggs' (and advanced age) from the list of reasons to use ICSI, or flag that an RCT (Fancsovits 2023) found no benefit there."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-dang2021",
+    "afert-fancsovits2023"
+   ]
+  },
+  {
+   "factor": "immune-addons-egg",
+   "verdict": "strengthened",
+   "claim": "No good evidence that immune testing or treatments help IVF; HFEA red for IVIG and steroids, grey for intralipids.",
+   "biases": "Positive data come from small or mixed-design studies (IVIG meta-analysis pooling case-control studies; a single 102-woman intralipid RCT).",
+   "newer_evidence": "A 715-woman JAMA RCT (2023) in recurrent implantation failure found prednisone did not raise live birth (37.8% vs 38.8%) and increased biochemical pregnancy loss (17.3% vs 9.9%) and preterm delivery (11.8% vs 5.5%) [afert-sun2023]. Cochrane remains uncertain for glucocorticoids (OR 1.37, 0.69-2.71) [afert-boomsma2022]. HFEA red for IVIG and steroids [afert-hfea2026].",
+   "bottom_line": "The best trial of steroids found no benefit and signals of harm: avoid immune add-ons outside a trial.",
+   "site_change": {
+    "headline": "No good evidence that 'immune' tests or treatments help IVF: a 715-woman RCT found prednisone did not raise live birth and increased early loss and preterm birth; HFEA rates IVIG and steroids red and intralipids grey.",
+    "note": "Add Sun 2023 (JAMA) to refs and debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-sun2023",
+    "afert-boomsma2022",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "intrauterine-hcg-egg",
+   "verdict": "strengthened",
+   "claim": "Cochrane found a live-birth benefit only for day-3 transfers with >=500 IU and no evidence for blastocyst transfer; ESHRE does not recommend it.",
+   "biases": "The Cochrane subgroup benefit came from trials later found untrustworthy: in a 2026 IPD meta-analysis none of the trials that did not provide individual data met trustworthiness criteria, and those trials alone produced the positive effect [afert-zou2026]. This is a textbook example of research-integrity bias inflating a meta-analysis [afert-li2020].",
+   "newer_evidence": "IPD meta-analysis (2026) of 7 trustworthy RCTs, 2244 women: live birth OR 0.99 (0.83-1.19), clinical pregnancy OR 1.04; untrustworthy non-IPD trials showed OR 1.87 for pregnancy (P for interaction 0.005) [afert-zou2026]. Cochrane 2018 had rated the cleavage-stage subgroup moderate quality [afert-craciunas2018].",
+   "bottom_line": "Intrauterine hCG does not work; the apparent benefit came from unreliable trials.",
+   "site_change": {
+    "evidence": "moderate",
+    "headline": "An individual-patient-data meta-analysis of the 7 trustworthy RCTs (2244 women, 2026) found no effect on live birth (OR 0.99); the earlier 'benefit' came only from trials that failed integrity checks.",
+    "note": "Replace the Cochrane 2018 subgroup framing as the lead finding."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-zou2026",
+    "afert-li2020",
+    "afert-craciunas2018"
+   ]
+  },
+  {
+   "factor": "growth-hormone-ivf-egg",
+   "verdict": "holds",
+   "claim": "Growth hormone adds about 1.4 eggs in poor responders; Cochrane suggests more live births at very low certainty; LIGHT was null; ESHRE does not recommend it.",
+   "biases": "Small heterogeneous trials, mostly unblinded and from single centres; oocyte number is a surrogate.",
+   "newer_evidence": "A 2025 network meta-analysis of 22 RCTs (4131 poor responders) found no live-birth differences among hormonal add-ons, with GH ranked best only for oocyte numbers [afert-etrusco2025]. Cochrane 2021 and LIGHT stand [afert-sood2021, afert-norman2019].",
+   "bottom_line": "More eggs, no proven extra babies.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-etrusco2025",
+    "afert-sood2021",
+    "afert-norman2019"
+   ]
+  },
+  {
+   "factor": "dhea",
+   "verdict": "holds",
+   "claim": "Cochrane 2024 (moderate certainty): DHEA probably makes little or no difference to live birth in poor responders; testosterone looks more promising.",
+   "biases": "Research-integrity problems in the trial base: two DHEA RCTs in poor responders have been retracted, Elprince 2020 (retracted 2024) and Kotb 2016 (140 women, retracted 2026) [afert-elprince2020, afert-kotb2016, afert-kotb2016ret]; pooled estimates published before 2026 may contain such trials. Early small trials overstated benefit.",
+   "newer_evidence": "Cochrane 2024 (28 RCTs): DHEA OR 1.30 (0.95-1.76); testosterone OR 2.53 [afert-naik2024]. A 2025 meta-analysis restricted to POSEIDON-defined low reserve found testosterone the only adjuvant linked to higher live birth (OR 2.19) [afert-conforti2025], while a 2025 network meta-analysis found no significant live-birth differences among hormonal add-ons [afert-etrusco2025]. HFEA rates androgens grey [afert-hfea2026].",
+   "bottom_line": "DHEA does not reliably help; the testosterone signal is real enough to test properly but not established.",
+   "site_change": {
+    "note": "Debate field says 'None': add the retractions (Kotb 2016, Elprince 2020) and the testosterone-vs-DHEA contrast with HFEA grey."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-elprince2020",
+    "afert-kotb2016",
+    "afert-kotb2016ret",
+    "afert-naik2024",
+    "afert-conforti2025",
+    "afert-etrusco2025",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "myo-inositol",
+   "verdict": "weakened",
+   "claim": "Widely used in PCOS, but Cochrane rates the evidence very low and cannot show a live-birth benefit; one myo-inositol plus melatonin RCT was retracted in 2026.",
+   "biases": "Industry links and integrity: a second key trial, Papaleo 2009 (myo-inositol and oocyte quality in ICSI), was retracted in 2025 at the request of the ASRM Publications Committee for an undisclosed conflict of interest with the supplement maker [afert-papaleo2009, afert-papaleo2009ret], alongside the retracted Pacchiarotti 2016 trial [afert-pacchiarotti2016]. PCOS fertility trials that did not share data were more often at high risk of bias and gave different pooled results [afert-bordewijk2020b]. Cochrane's apparent miscarriage reduction rested on one trial with an unusually high control miscarriage rate [afert-showell2018].",
+   "newer_evidence": "A 2025 meta-analysis reports higher mature-egg rates in PCOS IVF but no data strong enough for live birth [afert-zhang2025]; Cochrane's live-birth estimate remains OR 2.42 (0.75-7.83) [afert-showell2018].",
+   "bottom_line": "There is still no reliable evidence that myo-inositol raises live birth, and two influential trials are now retracted.",
+   "site_change": {
+    "note": "Say 'two retractions' (Papaleo 2009 retracted 2025 for undisclosed COI; Pacchiarotti 2016) and cite the PCOS trial-integrity paper; debate field is 'None'."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-papaleo2009",
+    "afert-papaleo2009ret",
+    "afert-pacchiarotti2016",
+    "afert-bordewijk2020b",
+    "afert-showell2018",
+    "afert-zhang2025"
+   ]
+  },
+  {
+   "factor": "female-antioxidant-supplements",
+   "verdict": "holds",
+   "claim": "Cochrane (63 trials) found only low to very low quality evidence; several included trials since retracted; ESHRE does not recommend antioxidants in IVF.",
+   "biases": "Integrity: Cochrane's March 2026 editorial note lists 7 retracted and 2 'expression of concern' trials in the review; editors judge the main conclusion unchanged but the N-acetylcysteine vs L-carnitine comparison loses all data once El Sharkwy 2019 is removed [afert-showell2020, afert-elsharkwy2019]. Other retracted antioxidant fertility trials include CoQ10 with clomiphene in PCOS [afert-elrefaeey2014]. Trials are small, unregistered and use surrogate outcomes.",
+   "newer_evidence": "No large trustworthy RCT has since shown a live-birth gain. Cochrane-wide trustworthiness work shows such problems are common and are missed by Risk-of-Bias tools [afert-wilkinson2025].",
+   "bottom_line": "Be cautious: once retracted trials are removed, the evidence is weaker than the headline odds ratio suggests.",
+   "site_change": {
+    "note": "Debate field says 'None': add the 2026 editorial-note details and name El Sharkwy 2019 and El Refaeey 2014 as retracted."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-showell2020",
+    "afert-elsharkwy2019",
+    "afert-elrefaeey2014",
+    "afert-wilkinson2025"
+   ]
+  },
+  {
+   "factor": "melatonin",
+   "verdict": "holds",
+   "claim": "In IVF RCTs melatonin raised clinical pregnancy (OR 1.43) and egg counts in low-quality data but not live birth.",
+   "biases": "Small heterogeneous trials; a widely cited myo-inositol plus melatonin trial is retracted [afert-pacchiarotti2016]; live birth was reported by only 3 trials with low power [afert-hu2020].",
+   "newer_evidence": "No large live-birth RCT has appeared; the 2020 meta-analysis is still the main synthesis (live birth OR 1.38, 0.78-2.46, power 0.34) [afert-hu2020].",
+   "bottom_line": "Unproven for egg quality or live birth.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-pacchiarotti2016",
+    "afert-hu2020"
+   ]
+  },
+  {
+   "factor": "caffeine-fertility",
+   "verdict": "weakened",
+   "claim": "Moderate caffeine has little effect on conceiving; the clearer risk is miscarriage once pregnant, rising about 7% per 100 mg/day.",
+   "biases": "Reverse causation and confounding by the pregnancy signal: healthy pregnancies cause more nausea and food aversion, so women with viable pregnancies drink less coffee; smoking is a further confounder, and the source meta-analysis flags incomplete adjustment for both and possible publication bias [afert-chen2016]. One case-control study found the association survived adjustment for nausea [afert-giannelli2003].",
+   "newer_evidence": "Mendelian randomization, which avoids the nausea problem, found no effect of genetically predicted coffee drinking on pregnancy loss in UK Biobank and FinnGen (OR 0.96, 0.87-1.06), while the same method did detect harm from smoking (OR 1.31) [afert-yuan2021]; a 2023 MR and genetic-risk-score study likewise found no effect on miscarriage, stillbirth or preterm birth [afert-britonunes2023]. In the Norwegian MoBa cohort, triangulation with MR found consistent effects on time to conception only for smoking and BMI [afert-wootton2023]. Caveat: the MR instruments index habitual coffee intake in the general population, not caffeine dose in early pregnancy.",
+   "bottom_line": "Caffeine probably does little to fertility, and the miscarriage link may be largely confounded by pregnancy nausea; staying under about 200 mg/day in pregnancy remains a reasonable precaution, but the risk figure should not be read as causal.",
+   "site_change": {
+    "headline": "Moderate caffeine shows little or no effect on conceiving; cohort studies link high intake in pregnancy to miscarriage (about 7% per 100 mg/day), but this is likely partly confounded by pregnancy nausea, and two Mendelian randomization studies found no causal effect of coffee on miscarriage.",
+    "note": "Fill the empty debate fields with Chen 2016 / Giannelli 2003 vs Yuan 2021 / Brito Nunes 2023."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-chen2016",
+    "afert-giannelli2003",
+    "afert-yuan2021",
+    "afert-britonunes2023",
+    "afert-wootton2023"
+   ]
+  },
+  {
+   "factor": "pcos",
+   "verdict": "holds",
+   "claim": "PCOS carries systemic oxidative stress; fertility problems are mainly ovulatory; lifestyle RCTs in PCOS have not reported live birth.",
+   "biases": "Oxidative markers are cross-sectional and confounded by obesity and insulin resistance; weight-loss advice rests partly on observational data.",
+   "newer_evidence": "In obese women with PCOS, a secondary cross-trial comparison of two RCTs found lifestyle weight loss before clomiphene gave higher live birth (25% vs 10%) than immediate clomiphene [afert-legro2016]. In obese infertile women generally, the large LIFEstyle (NEJM 2016) and FIT-PLESE (2022) RCTs found no live-birth gain from preconception weight loss [afert-mutsaerts2016, afert-legro2022], and a 2024 meta-analysis found more pregnancies but not more live births (RR 1.19, 0.97-1.45) [afert-caldwell2024]. MR in MoBa supports a causal effect of higher BMI on longer time to conception [afert-wootton2023].",
+   "bottom_line": "Weight loss helps ovulation in PCOS, but randomised evidence that delaying treatment to lose weight raises live birth is weak outside PCOS-specific data.",
+   "site_change": {
+    "note": "The caveat 'Lifestyle RCTs in PCOS have not reported live birth' should mention Legro 2016 (live birth 25% vs 10%, non-randomised cross-trial comparison) and the null LIFEstyle and FIT-PLESE trials in obese infertile women."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-legro2016",
+    "afert-mutsaerts2016",
+    "afert-legro2022",
+    "afert-caldwell2024",
+    "afert-wootton2023"
+   ]
+  },
+  {
+   "factor": "folic-acid",
+   "verdict": "holds",
+   "claim": "Folic acid 400-800 ug/day prevents neural tube defects and is consistently associated with better fertility (15% higher fecundability, +20 points IVF live birth at >800 ug/day).",
+   "biases": "Fertility associations are observational and prone to healthy-user bias (supplement users plan pregnancies and have healthier habits).",
+   "newer_evidence": "The neural-tube benefit is RCT-proven and reaffirmed by USPSTF 2023 [afert-uspstf2023]. The only randomised fertility data come from the Hungarian periconceptional multivitamin trial (0.8 mg folic acid), which found more conceptions and more multiple births [afert-czeizel1994]. The EARTH IVF association remains a single cohort [afert-gaskins2014]. In men, folic acid plus zinc did not improve live birth (FAZST) [afert-schisterman2020].",
+   "bottom_line": "Take it for neural tube protection; any fertility gain is plausible but not proven and should not be presented as established.",
+   "site_change": {
+    "note": "Add Czeizel 1994 as the one randomised fertility signal and FAZST as the null male trial; label the 15%/20-point figures as observational."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-uspstf2023",
+    "afert-czeizel1994",
+    "afert-gaskins2014",
+    "afert-schisterman2020"
+   ]
+  },
+  {
+   "factor": "iodine-status",
+   "verdict": "weakened",
+   "claim": "Even mild iodine deficiency matters around conception: very low urinary iodine cut fecundability 46%, and mildly deficient UK mothers' children had higher odds of low verbal IQ (OR 1.58).",
+   "biases": "Measurement error (single spot urine for a nutrient that varies day to day, acknowledged by the authors) and residual confounding [afert-mills2018, afert-bath2013].",
+   "newer_evidence": "The only adequately powered RCT in mildly deficient pregnant women (832 women, 2017) found 200 ug/day iodine did not improve child IQ or executive function [afert-gowachirapant2017]; a 2020 meta-analysis found no cognitive effect in pooled RCTs and insufficient evidence for supplementation recommendations [afert-dineva2020]. A 2019 IPD meta-analysis of 6180 mother-child pairs found UI/Creat <150 ug/g not significantly linked to IQ, with a curvilinear verbal-IQ association limited to the first trimester [afert-levie2019]. The fecundability finding has not been replicated [afert-mills2018].",
+   "bottom_line": "Avoiding real deficiency is sensible (iodised salt, dairy, a prenatal with iodine), but trials have not shown that topping up mild deficiency improves children's IQ, and the fertility link is a single study.",
+   "site_change": {
+    "evidence": "limited",
+    "headline": "Mild iodine deficiency is linked in cohorts to slower conception and lower child verbal IQ, but a randomised trial of iodine in mildly deficient pregnant women found no IQ benefit; avoid deficiency rather than supplement high.",
+    "note": "Add Gowachirapant 2017, Dineva 2020 and Levie 2019 to debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-mills2018",
+    "afert-bath2013",
+    "afert-gowachirapant2017",
+    "afert-dineva2020",
+    "afert-levie2019"
+   ]
+  },
+  {
+   "factor": "profertility-diet",
+   "verdict": "unclear",
+   "claim": "The EARTH 'profertility' diet was associated with 53% higher odds of IVF live birth per SD.",
+   "biases": "Score derived and tested in the same single cohort (overfitting), food-frequency measurement error, and healthy-user confounding among fertility-clinic patients.",
+   "newer_evidence": "No independent replication of the profertility score has appeared. Meta-analyses of diet patterns in ART find all studies at moderate-high risk of bias, with Mediterranean and profertility patterns each associated with live birth in individual studies [afert-kellow2022, afert-winter2023]; in EARTH itself the Mediterranean benefit plateaued above the second quartile [afert-gaskins2019].",
+   "bottom_line": "A healthy diet is reasonable, but no specific 'fertility diet' has been shown to cause more live births.",
+   "site_change": {
+    "note": "Add Kellow 2022 and Winter 2023 meta-analyses to debate (field currently 'None')."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-gaskins2019",
+    "afert-kellow2022",
+    "afert-winter2023"
+   ]
+  },
+  {
+   "factor": "short-abstinence",
+   "verdict": "holds",
+   "claim": "Ejaculating every 1-2 days keeps SDF lower; a second sample 3 hours later cut SDF from 35% to 24%.",
+   "biases": "Most data are within-man before-after comparisons (regression to the mean when men are selected for high SDF) and small ART studies.",
+   "newer_evidence": "A 2024 dose-response meta-analysis of 85 studies found short abstinence lowered DFI modestly in healthy men (-2.4 points) [afert-du2024], and a 2023 meta-analysis linked a second ejaculate within 4 hours to higher ART live birth [afert-barbagallo2023]. The 2023 risk-factor meta-analysis found no significant SDF difference by abstinence period [afert-szabo2023].",
+   "bottom_line": "Short abstinence is cheap and probably helpful, with small average effects.",
+   "site_change": {
+    "note": "Debate field says 'None': add Szabo 2023 (no abstinence effect) vs Du 2024 and Barbagallo 2023."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-du2024",
+    "afert-barbagallo2023",
+    "afert-szabo2023"
+   ]
+  },
+  {
+   "factor": "febrile-illness",
+   "verdict": "holds",
+   "claim": "A fever of 39-40 C for 2 days can raise DNA fragmentation and cut sperm count for 2-3 months before recovering.",
+   "biases": "Evidence is case reports and observational illness studies (the illness, medicines and weight loss travel with the fever).",
+   "newer_evidence": "The original case data stand [afert-sergerie2007]; a 2024 meta-analysis of COVID-19 found lower sperm concentration, count and motility during or soon after infection, mostly short-term [afert-cannarella2024].",
+   "bottom_line": "Holds; plan semen tests or ART about 3 months after a high fever where possible.",
+   "site_change": {
+    "note": "Add the COVID-19 meta-analysis to debate/refs."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-sergerie2007",
+    "afert-cannarella2024"
+   ]
+  },
+  {
+   "factor": "everyday-scrotal-heat",
+   "verdict": "holds",
+   "claim": "Everyday heat raises scrotal temperature 1-3 C; boxer wearers have about 25% higher sperm concentration; SDF data thin.",
+   "biases": "Cross-sectional fertility-clinic data; underwear choice correlates with body size and lifestyle; self-report.",
+   "newer_evidence": "The underwear study itself found differences attenuated after adjustment for FSH, suggesting a compensatory pathway rather than pure confounding [afert-minguez2018]; no trial of changing underwear or laptop use has reported.",
+   "bottom_line": "Low-cost advice with plausible physiology; effect on fertility unproven.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-minguez2018"
+   ]
+  },
+  {
+   "factor": "genital-tract-infection",
+   "verdict": "weakened",
+   "claim": "Active infection and white cells in semen raise ROS and SDF; treating a proven infection can lower SDF by about a third.",
+   "biases": "The 'one third' fall comes from an uncontrolled before-after study [afert-gallegos2008]: men are selected for high SDF and abnormal tests, so some fall is expected from regression to the mean and spontaneous resolution.",
+   "newer_evidence": "The only RCT of antibiotics for leukocytospermia found frequent spontaneous resolution and no benefit of doxycycline or co-trimoxazole over no treatment [afert-yanushpolsky1995]. The 2023 SDF meta-analysis found Chlamydia and HPV effects on SDF negligible overall [afert-szabo2023].",
+   "bottom_line": "Treat a confirmed infection for its own sake, but do not expect a reliable SDF drop; leukocytes alone often clear without antibiotics.",
+   "site_change": {
+    "impact": {
+     "sperm": 2
+    },
+    "headline": "Active infection and white cells in semen are linked to higher ROS and SDF; one uncontrolled study saw SDF fall by a third after antibiotics, but the only RCT found leukocytospermia often resolves without them.",
+    "note": "Add Yanushpolsky 1995 RCT."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-gallegos2008",
+    "afert-yanushpolsky1995",
+    "afert-szabo2023"
+   ]
+  },
+  {
+   "factor": "iron-egg",
+   "verdict": "holds",
+   "claim": "Iron supplements were linked to less ovulatory infertility in NHS II, but newer cohorts found no consistent link; correct deficiency, extra iron does not help.",
+   "biases": "Healthy-user bias among supplement takers; self-reported intake.",
+   "newer_evidence": "Mendelian randomization found no causal effect of iron markers on infertility [afert-guo2024]. A Finnish before-after study reported more live births after IV iron in deficient women, but without a control group it is confounded by time and continued treatment [afert-tulenheimo2025]. Earlier cohorts as cited [afert-chavarro2006, afert-hahn2019].",
+   "bottom_line": "Correct iron deficiency, but don't take extra iron if your stores are normal.",
+   "site_change": {
+    "note": "Add Guo 2024 MR (null) and Tulenheimo-Silfvast 2025 (uncontrolled) to debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-guo2024",
+    "afert-tulenheimo2025",
+    "afert-chavarro2006",
+    "afert-hahn2019"
+   ]
+  },
+  {
+   "factor": "endometriosis",
+   "verdict": "holds",
+   "claim": "Endometriosis is pro-oxidant and linked to fewer eggs, but women with endometrioma have similar IVF live birth (OR 0.98); surgery before IVF did not help.",
+   "biases": "Mostly retrospective comparisons; egg-quality claims rest on small biological studies.",
+   "newer_evidence": "A 2021 meta-analysis again found fewer oocytes but similar live birth with endometrioma [afert-alshehre2021], consistent with the 2015 review [afert-hamdan2015].",
+   "bottom_line": "Holds.",
+   "site_change": {
+    "note": "Debate field says 'None'; add Alshehre 2021 as confirmation."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-alshehre2021",
+    "afert-hamdan2015"
+   ]
+  },
+  {
+   "factor": "antioxidants-preeclampsia-egg",
+   "verdict": "holds",
+   "claim": "Large RCTs found vitamin C 1000 mg + E 400 IU did not prevent pre-eclampsia and raised some harms.",
+   "biases": "Not applicable; the claim rests on large RCTs.",
+   "newer_evidence": "Meta-analysis of 9 trials (19,810 women) confirms RR 1.00 for pre-eclampsia with more gestational hypertension and membrane rupture [afert-condeagudelo2011].",
+   "bottom_line": "Holds: a textbook case of RCTs overturning the antioxidant hypothesis.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-condeagudelo2011"
+   ]
+  },
+  {
+   "factor": "aspirin-preeclampsia-egg",
+   "verdict": "holds",
+   "claim": "In high-risk pregnancies aspirin 150 mg nightly cut preterm pre-eclampsia from 4.3% to 1.6%; USPSTF recommends 81 mg.",
+   "biases": "Not applicable; RCT and IPD evidence.",
+   "newer_evidence": "ASPRE and the Cochrane IPD-based review stand [afert-rolnik2017, afert-duley2019]; the 75 vs 150 mg dose question remains under trial.",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-rolnik2017",
+    "afert-duley2019"
+   ]
+  },
+  {
+   "factor": "prp-intrauterine-egg",
+   "verdict": "holds",
+   "claim": "Pooled small trials suggest benefit but the only low-risk trial was null; HFEA red.",
+   "biases": "High-risk-of-bias trials drive the pooled effect.",
+   "newer_evidence": "Cochrane 2024 and HFEA as cited [afert-vaidakis2024, afert-hfea2026].",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-vaidakis2024",
+    "afert-hfea2026"
+   ]
+  },
+  {
+   "factor": "prp-ovarian-egg",
+   "verdict": "holds",
+   "claim": "Two RCTs in poor responders found no gain in euploid embryos; HFEA red.",
+   "biases": "Supporting data are uncontrolled case series.",
+   "newer_evidence": "PROVA RCT null [afert-herlihy2024]; Cochrane very low certainty [afert-vaidakis2024].",
+   "bottom_line": "Holds.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "afert-herlihy2024",
+    "afert-vaidakis2024"
+   ]
+  },
+  {
+   "factor": "sperm-selection-icsi-sperm",
+   "verdict": "holds",
+   "claim": "Selecting 'better' sperm lowers SDF in the dish but has not raised live birth; HFEA PICSI black, SDF-guided selection grey.",
+   "biases": "Small single-centre positive trials; surrogate outcome (DFI of prepared sample).",
+   "newer_evidence": "Cochrane 2026: hyaluronan selection may make little difference to live birth (RR 1.09) and probably reduces miscarriage [afert-garg2026]; HABSelect null [afert-miller2019]. On the other side, an Egyptian 4-arm RCT in high-SDF couples reported higher ongoing pregnancy with PICSI and MACS than density-gradient preparation [afert-hozyen2022].",
+   "bottom_line": "Holds.",
+   "site_change": {
+    "note": "Hozyen 2022 could be added as the main positive RCT in high-SDF couples (single centre)."
+   },
+   "as_of": 2026,
+   "refs": [
+    "afert-garg2026",
+    "afert-miller2019",
+    "afert-hozyen2022"
+   ]
+  }
+ ]
+}

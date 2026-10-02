@@ -734,10 +734,10 @@
    ],
    "direction": "beneficial",
    "impact": {
-    "general": 3
+    "general": 2
    },
    "evidence": "moderate",
-   "headline": "The biggest single polyphenol (chlorogenic acid) source in many Western diets; RCTs at 3-4 cups/day cut background DNA strand breaks by about a quarter and urinary 8-iso-PGF2alpha by ~15%, and cohorts show the lowest mortality at 3-4 cups/day.",
+   "headline": "The biggest single polyphenol (chlorogenic acid) source in many Western diets; small RCTs at 3-4 cups/day lowered DNA strand breaks and isoprostanes, and cohorts link 3-4 cups/day with ~15% lower mortality, though Mendelian randomization studies do not confirm that the mortality benefit is causal.",
    "dose": {
     "effective": "3-4 cups (about 750 mL) per day of paper-filtered coffee.",
     "studied_range": "200-800 mL/day, from 8 hours to 4 weeks in intervention trials.",
@@ -1071,8 +1071,8 @@
    "impact": {
     "general": 4
    },
-   "evidence": "strong",
-   "headline": "In the 200-man EUROLIVE RCT, oxidized LDL fell linearly with olive-oil phenolic content at 25 mL/day; EU law authorises an LDL-protection claim for oils supplying 5 mg hydroxytyrosol and derivatives per 20 g, and PREDIMED's EVOO arm cut major CVD events by ~30%.",
+   "evidence": "moderate",
+   "headline": "In the 200-man EUROLIVE RCT, oxidized LDL fell with olive-oil phenolic content at 25 mL/day, and the EU authorises an LDL-protection claim at 5 mg hydroxytyrosol per 20 g; PREDIMED's Mediterranean diet with EVOO cut major CVD events by ~30%, but that trial tested the whole diet, not the oil alone.",
    "dose": {
     "effective": "20-25 g (about 2 tablespoons) per day of a high-phenolic EVOO meeting >= 5 mg hydroxytyrosol + derivatives per 20 g.",
     "studied_range": "25 mL/day for 3 weeks (EUROLIVE); ~1 L/week per household in PREDIMED for years.",
@@ -1264,7 +1264,7 @@
    "impact": {
     "general": 2
    },
-   "evidence": "moderate",
+   "evidence": "limited",
    "headline": "Each 90 g/day (3 servings) of whole grain is associated with ~19% lower CHD and 17% lower all-cause mortality; the oxidative-stress link is indirect, through lower glycemic spikes and fermentable fiber.",
    "dose": {
     "effective": "3 servings (90 g) per day or more; associations continued up to ~210-225 g/day.",
@@ -1421,7 +1421,7 @@
     "general": 2
    },
    "evidence": "moderate",
-   "headline": "Nitrate-rich greens and beetroot lower systolic blood pressure by ~4 mmHg in short trials, and greens are the main dietary source of lutein; green leafy vegetables are among the produce most consistently linked to lower CVD and mortality.",
+   "headline": "Nitrate-rich greens and beetroot lower systolic blood pressure in short trials (about 4 mmHg in a 2013 meta-analysis; a 2023 meta-analysis found 2.4 mmHg in healthy people and no clear effect in hypertension [adiet-zhang2023]), and greens are the main dietary source of lutein; green leafy vegetables are among the produce most consistently linked to lower CVD and mortality.",
    "dose": {
     "effective": "1-2 cups raw or 1/2-1 cup cooked daily.",
     "studied_range": "Nitrate trials: 2 h to 15 days, dose-dependent BP effect.",
@@ -1444,6 +1444,12 @@
      "source": "siervo2013"
     },
     {
+     "label": "Systolic BP change with dietary nitrate, healthy adults (2023 meta-analysis)",
+     "value": -2.4,
+     "unit": "mmHg",
+     "source": "adiet-zhang2023"
+    },
+    {
      "label": "Lutein + zeaxanthin, raw spinach",
      "value": 12.2,
      "unit": "mg/100 g",
@@ -1461,7 +1467,8 @@
     "aune2017",
     "usdafdc",
     "phenolexplorer",
-    "rodriguezmateos2015"
+    "rodriguezmateos2015",
+    "adiet-zhang2023"
    ]
   },
   {
@@ -1929,8 +1936,8 @@
    "impact": {
     "general": 3
    },
-   "evidence": "strong",
-   "headline": "IARC classifies processed meat as carcinogenic (Group 1) and red meat as probably carcinogenic (2A); heme iron catalyses lipid peroxidation and N-nitroso compound formation in the gut, with fecal N-nitroso compounds rising linearly with red-meat intake.",
+   "evidence": "moderate",
+   "headline": "IARC classifies processed meat as carcinogenic (Group 1) and red meat as probably carcinogenic (2A); independent 2022-2025 reviews find the processed-meat link consistent but modest (at least ~7% higher colorectal cancer risk) and the unprocessed-red-meat link weak, with heme-driven lipid peroxidation and N-nitroso formation as the likely mechanism.",
    "dose": {
     "effective": "Keep processed meat rare and red meat to a few modest portions per week.",
     "studied_range": "0-420 g/day red meat in controlled feeding (dose-response for fecal N-nitroso compounds); white meat at 420-600 g/day had no effect.",
@@ -2351,8 +2358,8 @@
    "impact": {
     "general": 3
    },
-   "evidence": "limited",
-   "headline": "In obese hypertensive adults DASH lowered blood pressure by ~8/7 mmHg, raised plasma antioxidant capacity and prevented the F2-isoprostane rise during an experimental lipid infusion.",
+   "evidence": "moderate",
+   "headline": "Across 30 RCTs DASH lowers blood pressure by about 3/2.5 mmHg (more with high salt intake and in younger people); one small study also showed less lipid-induced F2-isoprostane rise, and no trial has yet measured heart attacks or strokes.",
    "dose": {
     "effective": "8-10 servings/day of fruit and vegetables, low-fat dairy, whole grains, nuts and legumes, low sodium and sweets.",
     "studied_range": "4 weeks per diet in a 24-person crossover study.",
@@ -2391,9 +2398,9 @@
     "general": 3
    },
    "evidence": "moderate",
-   "headline": "Doubling produce from 5.8 to 12 servings/day for 2 weeks reduced lymphocyte 8-OHdG and urinary isoprostanes, but another controlled trial found 600 g/day had no effect on oxidative DNA damage in healthy non-smokers; cohorts show lower mortality up to ~800 g/day.",
+   "headline": "Doubling produce from 5.8 to 12 servings/day for 2 weeks reduced lymphocyte 8-OHdG and urinary isoprostanes, but another controlled trial found 600 g/day had no effect on oxidative DNA damage in healthy non-smokers; cohorts show lower mortality with more produce, but a 2021 analysis of 26 cohorts found the benefit levels off at about 5 servings/day [adiet-wang2021] (an earlier meta-analysis put the plateau near 800 g/day).",
    "dose": {
-    "effective": "At least 5 servings (400-500 g)/day, ideally up to ~800 g, from diverse botanical families.",
+    "effective": "At least 5 servings (400-500 g)/day from diverse botanical families; benefit above ~5 servings is uncertain.",
     "studied_range": "600 g/day for 24 days; 12 servings/day for 14 days.",
     "too_much": null,
     "timeframe": "Weeks.",
@@ -2425,7 +2432,8 @@
    "refs": [
     "thompson1999",
     "moller2003",
-    "aune2017"
+    "aune2017",
+    "adiet-wang2021"
    ]
   },
   {
@@ -3215,7 +3223,7 @@
     "general": 2
    },
    "evidence": "limited",
-   "headline": "30 g/day of milled flaxseed for 6 months lowered systolic blood pressure by about 10 mmHg (15 mmHg in hypertensives) in a 110-patient RCT, one of the largest blood-pressure effects of any food; lignans and ALA both appear to contribute.",
+   "headline": "30 g/day milled flaxseed lowered systolic BP by about 10 mmHg in a 110-patient RCT, but across 33 trials the average fall is about 3 mmHg, larger in hypertension and with longer use; lignans and ALA both appear to contribute.",
    "dose": {
     "effective": "30 g/day milled flaxseed (roughly 3-4 tablespoons).",
     "studied_range": "30 g/day in foods for 6 months.",
@@ -4425,6 +4433,402 @@
     "kcc-peters2025",
     "kcc-sutton2018",
     "kcc-morris2015"
+   ]
+  },
+  {
+   "id": "washing-produce",
+   "name": "Washing and peeling produce to remove pesticide residues",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Tap-water washing removes roughly 40% of fruit pesticide residues on average and a baking-soda soak removes surface residues better, but systemic pesticides that have entered the peel or flesh stay; peeling removes most residues (and some nutrients), and no study has shown that washing changes urinary pesticide levels or health.",
+   "dose": {
+    "effective": "Rinse produce under running water while rubbing for about 30 s; for firm fruit like apples, soak 12-15 min in 1% baking soda (about 1 teaspoon per 500 mL water) and rinse. Peel high-residue items when the peel adds little. Discard outer leaves of leafy vegetables.",
+    "studied_range": "Laboratory processing studies on fruit and vegetables; 1% sodium bicarbonate soak on apples.",
+    "too_much": "Do not wash produce with soap, detergent or bleach; residues of these are not food-safe and a 2-min bleach wash did not remove surface residues from apples.",
+    "timeframe": "Immediate (per meal).",
+    "notes": "Peeling removes fibre, vitamins and polyphenols concentrated in the skin. Most EU-sampled foods are within legal residue limits, and eating more produce matters more than its residue level."
+   },
+   "mechanism": "Physical removal and, for some pesticides, alkaline hydrolysis by baking soda; residues inside the plant (systemic pesticides such as neonicotinoids and glyphosate) cannot be reached.",
+   "pathways": [],
+   "interactions": "Complements [organic-food] for lowering [organophosphates] and [pyrethroids] intake; does little for [glyphosate] and [neonicotinoids]. Never trade away [high-fruit-vegetable-intake].",
+   "caveats": "Evidence is from laboratory spiking studies, often with residues applied at high concentrations shortly before testing; real residues may be older and more penetrated. No human biomonitoring trial of washing exists.",
+   "debate": "Washing helps: a meta-analysis gives a tap-water processing factor of 0.59 [efw-liang2014], and baking soda removed surface residues fully on apples [efw-yang2017]. Limits: residues that penetrated the peel were not removed [efw-yang2017], reviews conclude washing gives only partial reduction while peeling and cooking remove more [efw-chung2018, efw-chauhan2014], and EU monitoring finds residue risk already very low for most consumers [efw-efsa2025].",
+   "key_numbers": [
+    {
+     "label": "Residue left after tap-water washing (fruit)",
+     "value": 59,
+     "unit": "%",
+     "source": "efw-liang2014"
+    },
+    {
+     "label": "Residue left after peeling (fruit)",
+     "value": 11,
+     "unit": "%",
+     "source": "efw-liang2014"
+    },
+    {
+     "label": "Thiabendazole penetrated into apple (unwashable)",
+     "value": 20,
+     "unit": "%",
+     "source": "efw-yang2017"
+    },
+    {
+     "label": "EU random samples over legal limit, 2023",
+     "value": 1.0,
+     "unit": "%",
+     "source": "efw-efsa2025"
+    }
+   ],
+   "refs": [
+    "efw-liang2014",
+    "efw-yang2017",
+    "efw-chung2018",
+    "efw-chauhan2014",
+    "efw-efsa2025"
+   ]
+  },
+  {
+   "id": "arsenic-rice",
+   "name": "Inorganic arsenic in rice and rice products",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Rice is the main dietary source of inorganic arsenic (urinary arsenic rises 14% per quarter cup in children; infant rice cereal tripled infant urinary arsenic), and cooking in excess water or parboiling then absorbing removes 45-73%, but eating rice was not linked to cardiovascular disease in large US cohorts.",
+   "dose": {
+    "effective": "Rinse rice, then either cook it like pasta in 6-10 parts water and drain (about 45% less inorganic arsenic) or parboil 5 min in fresh water, drain, and finish with absorption (54% less in brown, 73% in white). Vary grains (oats, barley, quinoa, buckwheat) rather than relying on rice; limit rice cakes, rice milk and rice cereal for infants and toddlers; basmati and jasmine tend to be lower.",
+    "studied_range": "Usual rice intake from <1 to >5 servings a week; rice with 100-300 ug/kg arsenic.",
+    "too_much": "EFSA reference point 0.06 ug/kg body weight per day (margin of exposure 0.4-2 for European adults = concern). Genotoxic effects were seen with staple rice >200 ug/kg arsenic in West Bengal.",
+    "timeframe": "Urinary arsenic reflects the last few days of intake; cancer risk is lifetime.",
+    "notes": "Brown rice has more arsenic than white (in the bran) but also more fibre and minerals; excess-water cooking loses some potassium, magnesium and B vitamins. Cooking with arsenic-contaminated water adds arsenic."
+   },
+   "mechanism": "Paddy rice takes up arsenite from flooded soil via silicon transporters. Inorganic arsenic depletes glutathione, generates ROS during methylation and impairs DNA repair; high-arsenic rice eaters had more urothelial micronuclei [efw-banerjee2013].",
+   "pathways": [
+    "glutathione",
+    "dna-repair"
+   ],
+   "interactions": "Adds to [arsenic-drinking-water]. Brown rice vs white trades fibre ([whole-grains]) against arsenic. Gluten-free diets often rely heavily on rice.",
+   "caveats": "Urinary arsenic includes organic arsenic from seafood unless speciated. No cohort has linked usual rice intake to a hard outcome; cancer risk estimates are extrapolated from drinking-water studies.",
+   "debate": "Exposure is clear [efw-davis2012, efw-wei2014, efw-karagas2016, efw-mantha2017] and EFSA judges European exposure a health concern [efw-efsa2024]. Outcome data are reassuring so far: no CVD increase with >=5 servings a week in US cohorts [efw-muraki2015], though genotoxic markers rose with high-arsenic staple rice in India [efw-banerjee2013]. Brown rice: higher arsenic [efw-scott2025] versus higher nutrients [efw-menon2021].",
+   "key_numbers": [
+    {
+     "label": "Urinary arsenic rise per 1/4 cup rice (children)",
+     "value": 14.2,
+     "unit": "%",
+     "source": "efw-davis2012"
+    },
+    {
+     "label": "Inorganic As removed: high-water cooking",
+     "value": 45,
+     "unit": "%",
+     "source": "efw-raab2009"
+    },
+    {
+     "label": "Inorganic As removed: parboil + absorb (white rice)",
+     "value": 73,
+     "unit": "%",
+     "source": "efw-menon2021"
+    },
+    {
+     "label": "Inorganic As removed: parboil + absorb (brown rice)",
+     "value": 54,
+     "unit": "%",
+     "source": "efw-menon2021"
+    }
+   ],
+   "refs": [
+    "efw-davis2012",
+    "efw-wei2014",
+    "efw-karagas2016",
+    "efw-mantha2017",
+    "efw-efsa2024",
+    "efw-muraki2015",
+    "efw-banerjee2013",
+    "efw-raab2009",
+    "efw-menon2021",
+    "efw-menon2024",
+    "efw-mwale2018",
+    "efw-scott2025"
+   ]
+  },
+  {
+   "id": "cocoa-heavy-metals",
+   "name": "Cadmium and lead in cocoa and dark chocolate",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Cadmium and lead rise with cocoa content: 43% of 72 US dark chocolate and cocoa products exceeded California's lead limit and 35% the cadmium limit per serving (97% were below FDA's lead reference level), and organic products were higher; no study has measured health effects from chocolate itself.",
+   "dose": {
+    "effective": "Treat dark chocolate as an occasional food (about one serving, 20-30 g, a day at most), rotate brands, prefer brands that publish heavy-metal testing, and be more careful with high-cocoa products for children and in pregnancy. West African cocoa tends to be lower in cadmium than some Latin American cocoa.",
+    "studied_range": "Cadmium 0.004-3.15 mg/kg and lead up to 0.38 mg/kg in US products.",
+    "too_much": "EFSA cadmium tolerable weekly intake 2.5 ug/kg body weight; California Prop 65 MADLs 0.5 ug/day lead and 4.1 ug/day cadmium; FDA lead reference 8.8 ug/day for women of childbearing age, 2.2 ug/day for children.",
+    "timeframe": "Lead in blood has a mean life of about a month; cadmium accumulates in kidney with a half-time of decades.",
+    "notes": "Cadmium comes mainly from soil, lead mostly from contamination after harvest (drying, shipping, processing)."
+   },
+   "mechanism": "Cadmium binds thiols, displaces zinc in antioxidant enzymes, depletes glutathione and promotes lipid peroxidation; it accumulates in kidney and is linked to cardiovascular disease and sperm DNA damage in observational studies [efw-peana2022, efw-chowdhury2018, efw-branch2021].",
+   "pathways": [
+    "glutathione",
+    "lipid-peroxidation",
+    "endothelial"
+   ],
+   "interactions": "Weigh against the flavanol benefits in [cocoa-flavanols]. Smoking ([tobacco-smoking]) is a far bigger cadmium source than chocolate. Other dietary metals: [lead-spices], [arsenic-rice]; overall burden [heavy-metals].",
+   "caveats": "All data are product concentrations, not human biomarkers or outcomes; Prop 65 limits are very conservative. Product testing is sporadic and varies by batch.",
+   "debate": "Concern: a substantial share of products exceed Prop 65 per serving [efw-hands2024], cadmium rises with cocoa percentage [efw-abt2018], and cadmium has a 30-year kidney half-time [efw-elinder1976]. Context: medians were below even conservative limits and 97% were below FDA's lead reference [efw-hands2024]; FDA scientists frame it as a mitigation issue still being studied [efw-abt2020]; no study links chocolate intake to metal-related disease.",
+   "key_numbers": [
+    {
+     "label": "Products over Prop 65 lead limit per serving",
+     "value": 43,
+     "unit": "%",
+     "source": "efw-hands2024"
+    },
+    {
+     "label": "Products over Prop 65 cadmium limit per serving",
+     "value": 35,
+     "unit": "%",
+     "source": "efw-hands2024"
+    },
+    {
+     "label": "Max cadmium in US cocoa products",
+     "value": 3.15,
+     "unit": "mg/kg",
+     "source": "efw-abt2018"
+    },
+    {
+     "label": "EFSA cadmium TWI",
+     "value": 2.5,
+     "unit": "ug/kg bw/week",
+     "source": "efw-efsa2011"
+    }
+   ],
+   "refs": [
+    "efw-hands2024",
+    "efw-abt2018",
+    "efw-abt2020",
+    "efw-rankin2005",
+    "efw-efsa2011",
+    "efw-elinder1976",
+    "efw-peana2022",
+    "efw-chowdhury2018",
+    "efw-branch2021",
+    "efw-flannery2022"
+   ]
+  },
+  {
+   "id": "lead-spices",
+   "name": "Lead in spices (turmeric, cinnamon, imported spices)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "Lead chromate is added to some turmeric and was found in ground cinnamon that poisoned at least 566 people (mostly toddlers) via applesauce pouches in 2023; over 30% of spices collected in New York City lead investigations exceeded 2 ppm, and enforcement in Bangladesh cut adulterated turmeric from 47% to 0%.",
+   "dose": {
+    "effective": "Buy spices from established brands sold in regulated markets rather than bulk or unlabelled spices brought from abroad; be wary of unusually bright yellow turmeric; check recall notices; if a child has raised blood lead, ask about spices, remedies and cosmetics.",
+    "studied_range": "Spice lead from undetectable to >1,000 ug/g; outbreak cases median blood lead 7.2 ug/dL.",
+    "too_much": "FDA interim reference levels: 2.2 ug/day lead for children, 8.8 ug/day for women of childbearing age; CDC child reference value 3.5 ug/dL.",
+    "timeframe": "Blood lead falls with a mean life of about a month after the source is removed; bone lead persists for years.",
+    "notes": "Turmeric supplements are another possible source; buy products with third-party testing."
+   },
+   "mechanism": "Lead chromate adds both lead (glutathione depletion, enzyme inhibition, neurotoxicity) and hexavalent chromium (an oxidant and carcinogen).",
+   "pathways": [
+    "glutathione",
+    "dna-repair"
+   ],
+   "interactions": "Affects [turmeric-curcumin] and [herbs-spices] users; other lead sources are [lead-drinking-water] and [metal-cookware]; see [heavy-metals].",
+   "caveats": "Evidence is from surveillance, case series and market testing; the frequency of contamination in mainstream Western supermarket spices is low but not well quantified.",
+   "debate": "Little scientific disagreement: the harm is documented in outbreaks [efw-troeschel2025, efw-cataldo2026] and market surveys [efw-hore2019, efw-forsyth2024], and enforcement worked [efw-forsyth2023]. The open question is how often regulated-market spices are contaminated; surveillance relies on case-driven sampling [efw-porterfield2024].",
+   "key_numbers": [
+    {
+     "label": "Cases in 2023 cinnamon-applesauce event",
+     "value": 566,
+     "unit": "people",
+     "source": "efw-troeschel2025"
+    },
+    {
+     "label": "NYC investigation spices >2 ppm lead",
+     "value": 30,
+     "unit": "%",
+     "source": "efw-hore2019"
+    },
+    {
+     "label": "Bangladesh market turmeric with lead, before vs after enforcement",
+     "value": 47,
+     "unit": "% (to 0%)",
+     "source": "efw-forsyth2023"
+    }
+   ],
+   "refs": [
+    "efw-troeschel2025",
+    "efw-cataldo2026",
+    "efw-hore2019",
+    "efw-forsyth2024",
+    "efw-forsyth2023",
+    "efw-forsyth2019",
+    "efw-porterfield2024",
+    "efw-flannery2022",
+    "efw-ruckart2021"
+   ]
+  },
+  {
+   "id": "mercury-fish",
+   "name": "Methylmercury in fish",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "moderate",
+   "headline": "Methylmercury from large predatory fish can harm the developing brain at high intake (Faroe Islands), but in fish-eating populations the omega-3 and nutrient benefits outweigh it: children of mothers eating more than 340 g seafood a week did better, and mercury was not linked to cardiovascular disease in US cohorts.",
+   "dose": {
+    "effective": "Eat 2-3 servings (about 225-340 g) of fish a week, choosing low-mercury species (salmon, sardines, anchovies, herring, trout, pollock, shrimp); limit shark, swordfish, king mackerel, bigeye tuna, marlin and tilefish, especially in pregnancy and for children; check local advisories for freshwater fish you catch.",
+    "studied_range": "Maternal hair mercury about 0.1-10 ug/g; Seychelles mothers ate fish about 12 meals a week (mean hair 6.9 ppm).",
+    "too_much": "Deficits in Faroese children were seen even below 10 ug/g maternal hair mercury (where pilot whale was a source). Hair mercury >=2 ug/g was linked to MI in Finnish men eating freshwater fish.",
+    "timeframe": "Methylmercury blood half-life about 80 days; brain sensitivity is in pregnancy and early childhood.",
+    "notes": "Selenium in ocean fish may offset some mercury toxicity. Locally caught freshwater fish can be higher than commercial ocean fish; follow local advisories."
+   },
+   "mechanism": "Methylmercury binds selenium and thiols, inhibits selenoenzymes (glutathione peroxidase, thioredoxin reductase) and promotes lipid peroxidation; Finnish men with high hair mercury had more antibodies to oxidised LDL [efw-salonen1995].",
+   "pathways": [
+    "glutathione",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Balance against [omega3-fish]. Follicular-fluid mercury and IVF are covered in [heavy-metals]. Selenium status ([selenium-supplement]) may modify toxicity.",
+   "caveats": "Fish intake confounds every mercury study: in a Polish clinic higher hair mercury went with better sperm concentration, likely because of fish nutrients [efw-minguezalarcon2018]. The Faroese exposure included pilot whale, which also carries PCBs.",
+   "debate": "Neurodevelopment: deficits in Faroese children [efw-grandjean1997] versus no consistent deficit in the high-fish Seychelles [efw-myers2003] and benefits with >340 g seafood a week in ALSPAC [efw-hibbeln2007, efw-golding2022]. Cardiovascular: higher MI risk with high hair mercury in Finland [efw-salonen1995] versus no association in two US cohorts [efw-mozaffarian2011] or NHANES [efw-sun2021]. Fertility: infertile couples had higher blood mercury [efw-choy2002] and predatory-fish eaters had fewer normal sperm [efw-ai2019], but hair mercury was unrelated to IVF outcomes [efw-wright2015] and positively related to sperm counts [efw-minguezalarcon2018]. A risk-benefit review concludes benefits exceed risks when high-mercury species are limited [efw-mozaffarian2006].",
+   "key_numbers": [
+    {
+     "label": "Weekly seafood above which ALSPAC children did better",
+     "value": 340,
+     "unit": "g/week",
+     "source": "efw-hibbeln2007"
+    },
+    {
+     "label": "Methylmercury half-life in blood",
+     "value": 80,
+     "unit": "days",
+     "source": "efw-jo2015"
+    },
+    {
+     "label": "CHD RR, top vs bottom toenail mercury (US)",
+     "value": 0.85,
+     "unit": "RR",
+     "source": "efw-mozaffarian2011"
+    },
+    {
+     "label": "Coronary death reduction with 1-2 fish servings/week",
+     "value": 36,
+     "unit": "%",
+     "source": "efw-mozaffarian2006"
+    }
+   ],
+   "refs": [
+    "efw-mozaffarian2006",
+    "efw-hibbeln2007",
+    "efw-golding2022",
+    "efw-grandjean1997",
+    "efw-myers2003",
+    "efw-salonen1995",
+    "efw-mozaffarian2011",
+    "efw-sun2021",
+    "efw-choy2002",
+    "efw-ai2019",
+    "efw-wright2015",
+    "efw-minguezalarcon2018",
+    "efw-butts2020",
+    "efw-jo2015"
+   ]
+  },
+  {
+   "id": "aflatoxin-mycotoxins",
+   "name": "Aflatoxin and other mycotoxins",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "moderate",
+   "headline": "Aflatoxin from mouldy maize and peanuts causes an estimated 5-28% of liver cancers worldwide, multiplying hepatitis B risk, mostly in Africa and Asia; in Europe exposure is low but EFSA still flags concern, and children commonly carry several mycotoxins (deoxynivalenol above its tolerable intake in about a third of UK child samples).",
+   "dose": {
+    "effective": "Discard nuts, grains, dried fruit and spices that look or smell mouldy, shrivelled or discoloured; store them cool and dry and buy from reputable sources; get vaccinated against hepatitis B. In a trial in a high-exposure region, chlorophyllin 100 mg with each meal cut aflatoxin-DNA adducts by 55%.",
+    "studied_range": "High-exposure Chinese and African populations; European dietary exposure from peanuts, tree nuts, maize and dried figs.",
+    "too_much": "Aflatoxin B1 is a genotoxic carcinogen with no safe threshold; EFSA found margins of exposure of 29-5,000 (below 10,000 = concern).",
+    "timeframe": "Albumin adducts reflect the previous 2-3 months; urinary DNA adducts the last days; liver cancer risk accumulates over decades.",
+    "notes": "Exposure is highest where maize and peanuts are staples and storage is poor; in Europe and North America regulatory limits keep average intake low."
+   },
+   "mechanism": "Aflatoxin B1 is activated by CYP enzymes to an epoxide that forms DNA adducts (TP53 codon 249 mutations) and generates ROS; detoxification depends on glutathione S-transferases, which Nrf2 activators such as sulforaphane induce.",
+   "pathways": [
+    "dna-repair",
+    "glutathione",
+    "nrf2"
+   ],
+   "interactions": "Sulforaphane from [broccoli-sprouts] tracked lower aflatoxin adducts in Qidong [efw-kensler2005]. Hepatitis B and alcohol multiply liver risk.",
+   "caveats": "Most outcome data come from high-exposure, high-hepatitis-B regions and do not translate directly to Western diets. Male-fertility data are a single 1994 Nigerian case-control study.",
+   "debate": "Liver cancer burden is well supported [efw-liu2010, efw-liu2012], and EFSA flags concern even in Europe [efw-efsa2020]. Growth: observational links with child stunting were not confirmed in a cluster RCT where aflatoxin-tested maize lowered exposure but not stunting [efw-hoffmann2018]. Reproduction: aflatoxin was found in semen of 40% of infertile vs 8% of fertile Nigerian men [efw-ibeh1994, efw-shuaib2010], unreplicated. Mycotoxin mixtures correlated with oxidative stress markers in a cross-sectional study [efw-aljaal2021].",
+   "key_numbers": [
+    {
+     "label": "Global liver cancers attributable to aflatoxin",
+     "value": 28.2,
+     "unit": "% (upper estimate; lower 4.6%)",
+     "source": "efw-liu2010"
+    },
+    {
+     "label": "Liver cancer OR, aflatoxin + hepatitis B",
+     "value": 73,
+     "unit": "OR",
+     "source": "efw-liu2012"
+    },
+    {
+     "label": "Aflatoxin-DNA adduct reduction with chlorophyllin",
+     "value": 55,
+     "unit": "%",
+     "source": "efw-egner2001"
+    },
+    {
+     "label": "UK child samples over DON tolerable intake",
+     "value": 34.2,
+     "unit": "%",
+     "source": "efw-charusalaipong2024"
+    }
+   ],
+   "refs": [
+    "efw-liu2010",
+    "efw-liu2012",
+    "efw-efsa2020",
+    "efw-egner2001",
+    "efw-kensler2005",
+    "efw-hoffmann2018",
+    "efw-ibeh1994",
+    "efw-shuaib2010",
+    "efw-charusalaipong2024",
+    "efw-heyndrickx2015",
+    "efw-aljaal2021"
    ]
   }
  ],
@@ -11811,6 +12215,750 @@
    "type": "meta-analysis",
    "n": "9 RCTs",
    "finding": "In energy-reduced diets, shifting intake earlier gave 1.23 kg more weight loss and improvements in HOMA-IR, fasting glucose and LDL."
+  },
+  {
+   "id": "adiet-zhang2023",
+   "authors": "Zhang Y, Zhang H, An W, et al.",
+   "year": 2023,
+   "title": "Regulatory effect of dietary nitrate on blood pressure: a meta-analysis of randomized controlled trials",
+   "journal": "Food Funct",
+   "pmid": "36740972",
+   "doi": "10.1039/d2fo03140j",
+   "type": "meta-analysis",
+   "n": "19 articles",
+   "finding": "Dietary nitrate lowered systolic BP by 2.4 mmHg in healthy people but did not lower office or 24-h BP in hypertensive patients."
+  },
+  {
+   "id": "adiet-wang2021",
+   "authors": "Wang DD, Li Y, Bhupathiraju SN, et al.",
+   "year": 2021,
+   "title": "Fruit and Vegetable Intake and Mortality: Results From 2 Prospective Cohort Studies of US Men and Women and a Meta-Analysis of 26 Cohort Studies",
+   "journal": "Circulation",
+   "pmid": "33641343",
+   "doi": "10.1161/CIRCULATIONAHA.120.048996",
+   "type": "meta-analysis",
+   "n": "2 US cohorts (108,735) + 26 cohorts (1.9 million)",
+   "finding": "Fruit and vegetable intake was associated with lower mortality up to about 5 servings/day (HR 0.87 vs 2 servings), with no further reduction above that; starchy vegetables, juices and potatoes were not associated with benefit."
+  },
+  {
+   "id": "efw-abt2018",
+   "authors": "Abt E, Fong Sam J, Gray P, et al.",
+   "year": 2018,
+   "title": "Cadmium and lead in cocoa powder and chocolate products in the US Market.",
+   "journal": "Food Addit Contam Part B Surveill",
+   "pmid": "29310543",
+   "doi": "10.1080/19393210.2017.1420700",
+   "type": "database",
+   "n": "US retail cocoa products",
+   "finding": "Cadmium (0.004-3.15 mg/kg) and lead (up to 0.38 mg/kg) rose with % cocoa solids; cadmium was higher in products from Latin America than Africa."
+  },
+  {
+   "id": "efw-abt2020",
+   "authors": "Abt E, Robin LP",
+   "year": 2020,
+   "title": "Perspective on Cadmium and Lead in Cocoa and Chocolate.",
+   "journal": "J Agric Food Chem",
+   "pmid": "32293881",
+   "doi": "10.1021/acs.jafc.9b08295",
+   "type": "review",
+   "n": null,
+   "finding": "Perspective from FDA scientists: cadmium in cocoa comes mainly from soil (high in parts of Latin America), lead from post-harvest contamination; mitigation methods are still being developed."
+  },
+  {
+   "id": "efw-ai2019",
+   "authors": "Ai CE, Li CJ, Tsou MC, et al.",
+   "year": 2019,
+   "title": "Blood and seminal plasma mercury levels and predatory fish intake in relation to low semen quality.",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "31077049",
+   "doi": "10.1007/s11356-019-04592-6",
+   "type": "cross-sectional",
+   "n": "Taiwanese men",
+   "finding": "Predatory fish intake and higher blood mercury were associated with fewer morphologically normal sperm."
+  },
+  {
+   "id": "efw-aljaal2021",
+   "authors": "Al-Jaal B, Latiff A, Salama S, et al.",
+   "year": 2021,
+   "title": "Analysis of Multiple Mycotoxins in the Qatari Population and Their Relation to Markers of Oxidative Stress.",
+   "journal": "Toxins (Basel)",
+   "pmid": "33917988",
+   "doi": "10.3390/toxins13040267",
+   "type": "cross-sectional",
+   "n": "Qatari adults",
+   "finding": "Mycotoxins were detected in 37% of serum samples and their presence correlated with oxidative stress markers."
+  },
+  {
+   "id": "efw-banerjee2013",
+   "authors": "Banerjee M, Banerjee N, Bhattacharjee P, et al.",
+   "year": 2013,
+   "title": "High arsenic in rice is associated with elevated genotoxic effects in humans.",
+   "journal": "Sci Rep",
+   "pmid": "23873074",
+   "doi": "10.1038/srep02195",
+   "type": "cross-sectional",
+   "n": ">400 adults in West Bengal",
+   "finding": "Eating cooked rice with >200 ug/kg arsenic as a staple was associated with more micronuclei in urothelial cells, a marker of genetic damage, in people with safe drinking water."
+  },
+  {
+   "id": "efw-branch2021",
+   "authors": "Branch FM, Perry MJ, Chen Z, et al.",
+   "year": 2021,
+   "title": "Metal(loid)s and human semen quality: The LIFE Study.",
+   "journal": "Reprod Toxicol",
+   "pmid": "34637914",
+   "doi": "10.1016/j.reprotox.2021.10.006",
+   "type": "cohort",
+   "n": "US LIFE study men",
+   "finding": "Among many metal-semen associations in both directions, cadmium was associated with more sperm DNA fragmentation."
+  },
+  {
+   "id": "efw-butts2020",
+   "authors": "Butts CD, Bloom MS, McGough A, et al.",
+   "year": 2020,
+   "title": "Seafood consumption is associated with higher follicular fluid arsenic (As) and mercury (Hg) concentrations in women undergoing in vitro fertilization (IVF).",
+   "journal": "Environ Res",
+   "pmid": "32554271",
+   "doi": "10.1016/j.envres.2020.109753",
+   "type": "cross-sectional",
+   "n": "women undergoing IVF",
+   "finding": "Higher seafood intake was associated with higher follicular fluid mercury and arsenic."
+  },
+  {
+   "id": "efw-cataldo2026",
+   "authors": "Cataldo N, Weed BD, Lewis K, et al.",
+   "year": 2026,
+   "title": "International Investigation of Lead and Chromium Contamination in Imported Apple Puree.",
+   "journal": "J Environ Health",
+   "pmid": "42516822",
+   "doi": "10.70387/001c.164879",
+   "type": "review",
+   "n": null,
+   "finding": "FDA/CDC investigation: lead chromate in ground cinnamon from an Ecuadorian processor contaminated apple-cinnamon puree pouches at 100-600 times FDA's action level."
+  },
+  {
+   "id": "efw-charusalaipong2024",
+   "authors": "Charusalaipong P, Gordon MJ, Cantlay L, et al.",
+   "year": 2024,
+   "title": "Frequent Dietary Multi-Mycotoxin Exposure in UK Children and Its Association with Dietary Intake.",
+   "journal": "Toxins (Basel)",
+   "pmid": "38922145",
+   "doi": "10.3390/toxins16060251",
+   "type": "cross-sectional",
+   "n": "UK children",
+   "finding": "UK children were frequently exposed to several mycotoxins at once; deoxynivalenol exceeded its tolerable daily intake in 34% of samples."
+  },
+  {
+   "id": "efw-chauhan2014",
+   "authors": "Chauhan R, Kumari B, Rana MK",
+   "year": 2014,
+   "title": "Effect of fruit and vegetable processing on reduction of synthetic pyrethroid residues.",
+   "journal": "Rev Environ Contam Toxicol",
+   "pmid": "24515811",
+   "doi": "10.1007/978-3-319-03777-6_5",
+   "type": "review",
+   "n": null,
+   "finding": "Peeling removed 60-100% of pyrethroid residues, juicing 70-100%, cooking 75-98%, washing with tap water only 10-70%, and detergent or saline washes 34-60%."
+  },
+  {
+   "id": "efw-chowdhury2018",
+   "authors": "Chowdhury R, Ramond A, O'Keeffe LM, et al.",
+   "year": 2018,
+   "title": "Environmental toxic metal contaminants and risk of cardiovascular disease: systematic review and meta-analysis.",
+   "journal": "BMJ",
+   "pmid": "30158148",
+   "doi": "10.1136/bmj.k3310",
+   "type": "meta-analysis",
+   "n": "37 studies, 348,259 people",
+   "finding": "Top vs bottom thirds of arsenic, lead and cadmium were associated with 30%, 43% and 33% higher cardiovascular disease risk, with linear dose-response; mercury was not associated."
+  },
+  {
+   "id": "efw-choy2002",
+   "authors": "Choy CM, Lam CW, Cheung LT, et al.",
+   "year": 2002,
+   "title": "Infertility, blood mercury concentrations and dietary seafood consumption: a case-control study.",
+   "journal": "BJOG",
+   "pmid": "12387464",
+   "doi": "10.1111/j.1471-0528.2002.02084.x",
+   "type": "case-control",
+   "n": "Hong Kong couples",
+   "finding": "Infertile couples had higher blood mercury than fertile couples, and higher mercury tracked seafood intake."
+  },
+  {
+   "id": "efw-chung2018",
+   "authors": "Chung SW",
+   "year": 2018,
+   "title": "How effective are common household preparations on removing pesticide residues from fruit and vegetables? A review.",
+   "journal": "J Sci Food Agric",
+   "pmid": "29222908",
+   "doi": "10.1002/jsfa.8821",
+   "type": "review",
+   "n": null,
+   "finding": "Washing and soaking produce gives only partial residue reduction; peeling, chemical-bath soaking and blanching remove residues more effectively, depending on the pesticide's properties."
+  },
+  {
+   "id": "efw-davis2012",
+   "authors": "Davis MA, Mackenzie TA, Cottingham KL, et al.",
+   "year": 2012,
+   "title": "Rice consumption and urinary arsenic concentrations in U.S. children.",
+   "journal": "Environ Health Perspect",
+   "pmid": "23008276",
+   "doi": "10.1289/ehp.1205014",
+   "type": "cross-sectional",
+   "n": "US children, NHANES",
+   "finding": "Each extra quarter cup of cooked rice was associated with 14.2% higher total urinary arsenic in children who had not eaten seafood."
+  },
+  {
+   "id": "efw-efsa2011",
+   "authors": "EFSA Panel on Contaminants in the Food Chain (CONTAM)",
+   "year": 2011,
+   "title": "Statement on tolerable weekly intake for cadmium.",
+   "journal": "EFSA J",
+   "pmid": "42006064",
+   "doi": "10.2903/j.efsa.2011.1975",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA maintained a tolerable weekly intake for cadmium of 2.5 ug/kg body weight, based on kidney effects."
+  },
+  {
+   "id": "efw-efsa2020",
+   "authors": "EFSA Panel on Contaminants in the Food Chain (CONTAM), Schrenk D, Bignami M, et al.",
+   "year": 2020,
+   "title": "Risk assessment of aflatoxins in food.",
+   "journal": "EFSA J",
+   "pmid": "32874256",
+   "doi": "10.2903/j.efsa.2020.6040",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA 2020: margins of exposure for aflatoxin B1 in Europe were 5,000 to 29, below the 10,000 threshold, which raises a health concern."
+  },
+  {
+   "id": "efw-efsa2024",
+   "authors": "EFSA Panel on Contaminants in the Food Chain (CONTAM), Schrenk D, Bignami M, et al.",
+   "year": 2024,
+   "title": "Update of the risk assessment of inorganic arsenic in food.",
+   "journal": "EFSA J",
+   "pmid": "38239496",
+   "doi": "10.2903/j.efsa.2024.8488",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA 2024: inorganic arsenic is a genotoxic carcinogen; using a reference point of 0.06 ug/kg bw/day (skin cancer), margins of exposure for European adults are 0.4-2, which raises a health concern."
+  },
+  {
+   "id": "efw-efsa2025",
+   "authors": "European Food Safety Authority (EFSA), Carrasco Cabrera L, Di Piazza G, et al.",
+   "year": 2025,
+   "title": "The 2023 European Union report on pesticide residues in food.",
+   "journal": "EFSA J",
+   "pmid": "40371318",
+   "doi": "10.2903/j.efsa.2025.9398",
+   "type": "database",
+   "n": "146,039 food samples",
+   "finding": "In 2023 EU monitoring, 1.0% of randomly sampled foods (2.0% of risk-based samples) exceeded legal residue limits, and estimated acute and chronic dietary risk was very low for most population groups."
+  },
+  {
+   "id": "efw-egner2001",
+   "authors": "Egner PA, Wang JB, Zhu YR, et al.",
+   "year": 2001,
+   "title": "Chlorophyllin intervention reduces aflatoxin-DNA adducts in individuals at high risk for liver cancer.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "11724948",
+   "doi": "10.1073/pnas.251536898",
+   "type": "rct",
+   "n": "180 adults in Qidong",
+   "finding": "Chlorophyllin 100 mg three times daily for 4 months lowered urinary aflatoxin-DNA adducts by 55% vs placebo."
+  },
+  {
+   "id": "efw-elinder1976",
+   "authors": "Elinder CG, Lind B, Kjellström T, et al.",
+   "year": 1976,
+   "title": "Cadmium in kidney cortex, liver, and pancreas from Swedish autopsies. Estimation of biological half time in kidney cortex, considering calorie intake and smoking habits.",
+   "journal": "Arch Environ Health",
+   "pmid": "999342",
+   "doi": "10.1080/00039896.1976.10667239",
+   "type": "cross-sectional",
+   "n": "292 Swedish autopsies",
+   "finding": "The biological half-time of cadmium in kidney cortex in non-smokers was estimated at about 30 years; smokers accumulated more."
+  },
+  {
+   "id": "efw-flannery2022",
+   "authors": "Flannery BM, Middleton KB",
+   "year": 2022,
+   "title": "Updated interim reference levels for dietary lead to support FDA's Closer to Zero action plan.",
+   "journal": "Regul Toxicol Pharmacol",
+   "pmid": "35690180",
+   "doi": "10.1016/j.yrtph.2022.105202",
+   "type": "guideline",
+   "n": null,
+   "finding": "FDA updated its interim reference levels for dietary lead to 2.2 ug/day for children and 8.8 ug/day for women of childbearing age."
+  },
+  {
+   "id": "efw-forsyth2019",
+   "authors": "Forsyth JE, Nurunnahar S, Islam SS, et al.",
+   "year": 2019,
+   "title": "Turmeric means \"yellow\" in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh.",
+   "journal": "Environ Res",
+   "pmid": "31550596",
+   "doi": "10.1016/j.envres.2019.108722",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Lead chromate pigment was added to turmeric roots during polishing in Bangladesh to brighten colour."
+  },
+  {
+   "id": "efw-forsyth2023",
+   "authors": "Forsyth JE, Baker M, Nurunnahar S, et al.",
+   "year": 2023,
+   "title": "Food safety policy enforcement and associated actions reduce lead chromate adulteration in turmeric across Bangladesh.",
+   "journal": "Environ Res",
+   "pmid": "37286126",
+   "doi": "10.1016/j.envres.2023.116328",
+   "type": "cohort",
+   "n": "Bangladesh markets and 15 exposed people",
+   "finding": "After enforcement and media campaigns, market turmeric with detectable lead fell from 47% to 0% and blood lead in exposed people dropped a median 30%."
+  },
+  {
+   "id": "efw-forsyth2024",
+   "authors": "Forsyth JE, Mistree D, Nash E, et al.",
+   "year": 2024,
+   "title": "Evidence of turmeric adulteration with lead chromate across South Asia.",
+   "journal": "Sci Total Environ",
+   "pmid": "39053552",
+   "doi": "10.1016/j.scitotenv.2024.175003",
+   "type": "cross-sectional",
+   "n": "356 turmeric samples, South Asia",
+   "finding": "14% of turmeric samples had >2 ug/g lead; those >=18 ug/g had lead:chromium near 1:1, consistent with lead chromate adulteration, reaching >1,000 ug/g in parts of India and Pakistan."
+  },
+  {
+   "id": "efw-golding2022",
+   "authors": "Golding J, Taylor C, Iles-Caven Y, et al.",
+   "year": 2022,
+   "title": "The benefits of fish intake: Results concerning prenatal mercury exposure and child outcomes from the ALSPAC prebirth cohort.",
+   "journal": "Neurotoxicology",
+   "pmid": "35504404",
+   "doi": "10.1016/j.neuro.2022.04.012",
+   "type": "review",
+   "n": null,
+   "finding": "In ALSPAC, prenatal mercury was associated with beneficial outcomes in fish-eating mothers, attributed to fish nutrients."
+  },
+  {
+   "id": "efw-grandjean1997",
+   "authors": "Grandjean P, Weihe P, White RF, et al.",
+   "year": 1997,
+   "title": "Cognitive deficit in 7-year-old children with prenatal exposure to methylmercury.",
+   "journal": "Neurotoxicol Teratol",
+   "pmid": "9392777",
+   "doi": "10.1016/s0892-0362(97)00097-4",
+   "type": "cohort",
+   "n": "Faroese children",
+   "finding": "Prenatal methylmercury (mostly from pilot whale) was associated with deficits in language, attention and memory at age 7, even below 10 ug/g maternal hair."
+  },
+  {
+   "id": "efw-hands2024",
+   "authors": "Hands JM, Anderson ML, Cooperman T, et al.",
+   "year": 2024,
+   "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA.",
+   "journal": "Front Nutr",
+   "pmid": "39144282",
+   "doi": "10.3389/fnut.2024.1366231",
+   "type": "database",
+   "n": "72 US cocoa products 2014-2022",
+   "finding": "43% of products exceeded California's Prop 65 daily lead limit and 35% the cadmium limit per serving, 97% were below FDA's lead reference level, and organic products had higher cadmium and lead."
+  },
+  {
+   "id": "efw-heyndrickx2015",
+   "authors": "Heyndrickx E, Sioen I, Huybrechts B, et al.",
+   "year": 2015,
+   "title": "Human biomonitoring of multiple mycotoxins in the Belgian population: Results of the BIOMYCO study.",
+   "journal": "Environ Int",
+   "pmid": "26233555",
+   "doi": "10.1016/j.envint.2015.06.011",
+   "type": "cross-sectional",
+   "n": "Belgian adults and children",
+   "finding": "Deoxynivalenol, ochratoxin A and citrinin were widely detected in urine; 16-69% possibly exceeded the DON tolerable daily intake."
+  },
+  {
+   "id": "efw-hibbeln2007",
+   "authors": "Hibbeln JR, Davis JM, Steer C, et al.",
+   "year": 2007,
+   "title": "Maternal seafood consumption in pregnancy and neurodevelopmental outcomes in childhood (ALSPAC study): an observational cohort study.",
+   "journal": "Lancet",
+   "pmid": "17307104",
+   "doi": "10.1016/S0140-6736(07)60277-3",
+   "type": "cohort",
+   "n": "11,875 pregnant women (ALSPAC)",
+   "finding": "Children of mothers eating <340 g seafood a week in pregnancy had higher risk of suboptimal verbal IQ and development than those eating more."
+  },
+  {
+   "id": "efw-hoffmann2018",
+   "authors": "Hoffmann V, Jones K, Leroy JL",
+   "year": 2018,
+   "title": "The impact of reducing dietary aflatoxin exposure on child linear growth: a cluster randomised controlled trial in Kenya.",
+   "journal": "BMJ Glob Health",
+   "pmid": "30588341",
+   "doi": "10.1136/bmjgh-2018-000983",
+   "type": "rct",
+   "n": "Kenyan villages, cluster RCT",
+   "finding": "Providing aflatoxin-tested maize lowered children's serum aflatoxin-albumin adducts but did not improve linear growth or stunting at endline."
+  },
+  {
+   "id": "efw-hore2019",
+   "authors": "Hore P, Alex-Oni K, Sedlar S, et al.",
+   "year": 2019,
+   "title": "A Spoonful of Lead: A 10-Year Look at Spices as a Potential Source of Lead Exposure.",
+   "journal": "J Public Health Manag Pract",
+   "pmid": "30507772",
+   "doi": "10.1097/PHH.0000000000000876",
+   "type": "cross-sectional",
+   "n": "1,496 spice samples",
+   "finding": "Of spices collected in New York City lead investigations, over half had detectable lead and over 30% had >2 ppm; spices bought abroad (Georgia, Bangladesh, Pakistan, Nepal, Morocco) were highest."
+  },
+  {
+   "id": "efw-ibeh1994",
+   "authors": "Ibeh IN, Uraih N, Ogonar JI",
+   "year": 1994,
+   "title": "Dietary exposure to aflatoxin in human male infertility in Benin City, Nigeria.",
+   "journal": "Int J Fertil Menopausal Stud",
+   "pmid": "7951403",
+   "doi": null,
+   "type": "case-control",
+   "n": "100 Nigerian men",
+   "finding": "Aflatoxins were found in semen of 40% of infertile and 8% of fertile men, and infertile men with aflatoxin had more abnormal sperm."
+  },
+  {
+   "id": "efw-jo2015",
+   "authors": "Jo S, Woo HD, Kwon HJ, et al.",
+   "year": 2015,
+   "title": "Estimation of the Biological Half-Life of Methylmercury Using a Population Toxicokinetic Model.",
+   "journal": "Int J Environ Res Public Health",
+   "pmid": "26264017",
+   "doi": "10.3390/ijerph120809054",
+   "type": "mechanistic",
+   "n": "Japanese adults, population model",
+   "finding": "The population half-life of methylmercury in blood was about 80 days."
+  },
+  {
+   "id": "efw-karagas2016",
+   "authors": "Karagas MR, Punshon T, Sayarath V, et al.",
+   "year": 2016,
+   "title": "Association of Rice and Rice-Product Consumption With Arsenic Exposure Early in Life.",
+   "journal": "JAMA Pediatr",
+   "pmid": "27111102",
+   "doi": "10.1001/jamapediatrics.2016.0120",
+   "type": "cohort",
+   "n": "New Hampshire infants",
+   "finding": "Infants eating rice cereal had urinary arsenic of 9.5 ug/L vs 2.9 ug/L in those eating no rice; rice snacks contained 5-201 ng/g inorganic arsenic."
+  },
+  {
+   "id": "efw-kensler2005",
+   "authors": "Kensler TW, Chen JG, Egner PA, et al.",
+   "year": 2005,
+   "title": "Effects of glucosinolate-rich broccoli sprouts on urinary levels of aflatoxin-DNA adducts and phenanthrene tetraols in a randomized clinical trial in He Zuo township, Qidong, People's Republic of China.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "16284385",
+   "doi": "10.1158/1055-9965.EPI-05-0368",
+   "type": "rct",
+   "n": "adults in Qidong",
+   "finding": "Broccoli sprout glucosinolates did not change aflatoxin-DNA adducts overall, but higher sulforaphane-metabolite excretion tracked lower adducts."
+  },
+  {
+   "id": "efw-liang2014",
+   "authors": "Liang Y, Liu Y, Ding Y, et al.",
+   "year": 2014,
+   "title": "Meta-analysis of food processing on pesticide residues in fruits.",
+   "journal": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess",
+   "pmid": "25005864",
+   "doi": "10.1080/19440049.2014.942708",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Across studies of fruit, tap-water washing left 59% of residues (processing factor 0.59), boiling 0.71, while peeling (0.11) and juicing (0.14) removed most; oven drying could concentrate residues."
+  },
+  {
+   "id": "efw-liu2010",
+   "authors": "Liu Y, Wu F",
+   "year": 2010,
+   "title": "Global burden of aflatoxin-induced hepatocellular carcinoma: a risk assessment.",
+   "journal": "Environ Health Perspect",
+   "pmid": "20172840",
+   "doi": "10.1289/ehp.0901388",
+   "type": "review",
+   "n": null,
+   "finding": "Aflatoxin may cause 4.6-28.2% of global liver cancer (25,200-155,000 cases a year), mostly in sub-Saharan Africa, Southeast Asia and China where hepatitis B is common."
+  },
+  {
+   "id": "efw-liu2012",
+   "authors": "Liu Y, Chang CC, Marsh GM, et al.",
+   "year": 2012,
+   "title": "Population attributable risk of aflatoxin-related liver cancer: systematic review and meta-analysis.",
+   "journal": "Eur J Cancer",
+   "pmid": "22405700",
+   "doi": "10.1016/j.ejca.2012.02.009",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Aflatoxin and hepatitis B multiply liver cancer risk (combined OR 73 vs 11 for HBV alone and 6.4 for aflatoxin alone)."
+  },
+  {
+   "id": "efw-mantha2017",
+   "authors": "Mantha M, Yeary E, Trent J, et al.",
+   "year": 2017,
+   "title": "Estimating Inorganic Arsenic Exposure from U.S. Rice and Total Water Intakes.",
+   "journal": "Environ Health Perspect",
+   "pmid": "28572075",
+   "doi": "10.1289/EHP418",
+   "type": "database",
+   "n": "US population model",
+   "finding": "A mean Asian/Pacific/Tribal US rice eater gets as much inorganic arsenic from rice as someone drinking 1.5 L/day of water with several ug/L arsenic."
+  },
+  {
+   "id": "efw-menon2021",
+   "authors": "Menon M, Dong W, Chen X, et al.",
+   "year": 2021,
+   "title": "Improved rice cooking approach to maximise arsenic removal while preserving nutrient elements.",
+   "journal": "Sci Total Environ",
+   "pmid": "33153748",
+   "doi": "10.1016/j.scitotenv.2020.143341",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Parboiling rice in fresh water for 5 min, draining, then cooking by absorption removed 54% (brown) and 73% (white) of inorganic arsenic while keeping most zinc and other nutrients."
+  },
+  {
+   "id": "efw-menon2024",
+   "authors": "Menon M, Nicholls A, Smalley A, et al.",
+   "year": 2024,
+   "title": "A comparison of the effects of two cooking methods on arsenic species and nutrient elements in rice.",
+   "journal": "Sci Total Environ",
+   "pmid": "38176556",
+   "doi": "10.1016/j.scitotenv.2023.169653",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Excess-water and parboil-absorb cooking both removed inorganic arsenic (about 50% vs 39% in parboiled rice); cooking with arsenic-contaminated water raised rice arsenic."
+  },
+  {
+   "id": "efw-minguezalarcon2018",
+   "authors": "Mínguez-Alarcón L, Afeiche MC, Williams PL, et al.",
+   "year": 2018,
+   "title": "Hair mercury (Hg) levels, fish consumption and semen parameters among men attending a fertility center.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "29102416",
+   "doi": "10.1016/j.ijheh.2017.10.014",
+   "type": "cross-sectional",
+   "n": "Polish clinic men",
+   "finding": "Men in the top hair-mercury quartile had 50% higher sperm concentration than the bottom quartile, stronger in high fish eaters, i.e. confounded by fish benefits."
+  },
+  {
+   "id": "efw-mozaffarian2006",
+   "authors": "Mozaffarian D, Rimm EB",
+   "year": 2006,
+   "title": "Fish intake, contaminants, and human health: evaluating the risks and the benefits.",
+   "journal": "JAMA",
+   "pmid": "17047219",
+   "doi": "10.1001/jama.296.15.1885",
+   "type": "review",
+   "n": null,
+   "finding": "Modest fish intake (1-2 servings/week) lowers coronary death by 36%; women of childbearing age should eat 2 servings/week while limiting a few high-mercury species; benefits exceed risks."
+  },
+  {
+   "id": "efw-mozaffarian2011",
+   "authors": "Mozaffarian D, Shi P, Morris JS, et al.",
+   "year": 2011,
+   "title": "Mercury exposure and risk of cardiovascular disease in two U.S. cohorts.",
+   "journal": "N Engl J Med",
+   "pmid": "21428767",
+   "doi": "10.1056/NEJMoa1006876",
+   "type": "case-control",
+   "n": "3,427 cases and matched controls from two US cohorts",
+   "finding": "Toenail mercury was not associated with coronary heart disease, stroke or total CVD (RR top vs bottom quintile 0.85)."
+  },
+  {
+   "id": "efw-muraki2015",
+   "authors": "Muraki I, Wu H, Imamura F, et al.",
+   "year": 2015,
+   "title": "Rice consumption and risk of cardiovascular disease: results from a pooled analysis of 3 U.S. cohorts.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "25527760",
+   "doi": "10.3945/ajcn.114.087551",
+   "type": "cohort",
+   "n": "3 US cohorts (NHS, NHS II, HPFS)",
+   "finding": "Eating >=5 servings a week of white or brown rice was not associated with cardiovascular disease (HR 0.98 and 1.01)."
+  },
+  {
+   "id": "efw-mwale2018",
+   "authors": "Mwale T, Rahman MM, Mondal D",
+   "year": 2018,
+   "title": "Risk and Benefit of Different Cooking Methods on Essential Elements and Arsenic in Rice.",
+   "journal": "Int J Environ Res Public Health",
+   "pmid": "29882885",
+   "doi": "10.3390/ijerph15061056",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "High-water (1:6) cooking lowered arsenic but also cut potassium (50%), magnesium (22%), selenium (12%), iron (8%) and zinc (8%)."
+  },
+  {
+   "id": "efw-myers2003",
+   "authors": "Myers GJ, Davidson PW, Cox C, et al.",
+   "year": 2003,
+   "title": "Prenatal methylmercury exposure from ocean fish consumption in the Seychelles child development study.",
+   "journal": "Lancet",
+   "pmid": "12767734",
+   "doi": "10.1016/S0140-6736(03)13371-5",
+   "type": "cohort",
+   "n": "Seychelles children",
+   "finding": "At mean prenatal hair mercury of 6.9 ppm from ocean fish, there was no consistent neurodevelopmental deficit at age 9."
+  },
+  {
+   "id": "efw-peana2022",
+   "authors": "Peana M, Pelucelli A, Chasapis CT, et al.",
+   "year": 2022,
+   "title": "Biological Effects of Human Exposure to Environmental Cadmium.",
+   "journal": "Biomolecules",
+   "pmid": "36671421",
+   "doi": "10.3390/biom13010036",
+   "type": "review",
+   "n": null,
+   "finding": "Review of cadmium toxicity: carcinogenic mechanisms include oxidative stress with inhibition of antioxidant enzymes, lipid peroxidation and interference with DNA repair."
+  },
+  {
+   "id": "efw-porterfield2024",
+   "authors": "Porterfield K, Hore P, Whittaker SG, et al.",
+   "year": 2024,
+   "title": "A Snapshot of Lead in Consumer Products Across Four US Jurisdictions.",
+   "journal": "Environ Health Perspect",
+   "pmid": "39012763",
+   "doi": "10.1289/EHP14336",
+   "type": "review",
+   "n": null,
+   "finding": "Lead-containing consumer products (spices, cosmetics, remedies) found by four US health departments, often brought by travellers, put immigrant communities at higher risk."
+  },
+  {
+   "id": "efw-raab2009",
+   "authors": "Raab A, Baskaran C, Feldmann J, et al.",
+   "year": 2009,
+   "title": "Cooking rice in a high water to rice ratio reduces inorganic arsenic content.",
+   "journal": "J Environ Monit",
+   "pmid": "19137137",
+   "doi": "10.1039/b816906c",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Rinsing removed about 10% of arsenic; cooking in a high water-to-rice ratio (draining excess) removed about 45% of inorganic arsenic; low-water absorption cooking removed none."
+  },
+  {
+   "id": "efw-rankin2005",
+   "authors": "Rankin CW, Nriagu JO, Aggarwal JK, et al.",
+   "year": 2005,
+   "title": "Lead contamination in cocoa and cocoa products: isotopic evidence of global contamination.",
+   "journal": "Environ Health Perspect",
+   "pmid": "16203244",
+   "doi": "10.1289/ehp.8009",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Lead isotopes showed cocoa beans are low in lead and shells adsorb lead during fermentation and sun-drying; most lead in finished products comes from shipping and processing."
+  },
+  {
+   "id": "efw-ruckart2021",
+   "authors": "Ruckart PZ, Jones RL, Courtney JG, et al.",
+   "year": 2021,
+   "title": "Update of the Blood Lead Reference Value - United States, 2021.",
+   "journal": "MMWR Morb Mortal Wkly Rep",
+   "pmid": "34710078",
+   "doi": "10.15585/mmwr.mm7043a4",
+   "type": "guideline",
+   "n": null,
+   "finding": "CDC lowered its childhood blood lead reference value from 5 to 3.5 ug/dL in 2021."
+  },
+  {
+   "id": "efw-salonen1995",
+   "authors": "Salonen JT, Seppänen K, Nyyssönen K, et al.",
+   "year": 1995,
+   "title": "Intake of mercury from fish, lipid peroxidation, and the risk of myocardial infarction and coronary, cardiovascular, and any death in eastern Finnish men.",
+   "journal": "Circulation",
+   "pmid": "7828289",
+   "doi": "10.1161/01.cir.91.3.645",
+   "type": "cohort",
+   "n": "1,833 Finnish men",
+   "finding": "Hair mercury >=2 ug/g (from freshwater fish) was associated with 2.0-fold MI and 2.9-fold cardiovascular death risk and with antibodies to oxidised LDL."
+  },
+  {
+   "id": "efw-scott2025",
+   "authors": "Scott CK, Wu F",
+   "year": 2025,
+   "title": "Arsenic content and exposure in brown rice compared to white rice in the United States.",
+   "journal": "Risk Anal",
+   "pmid": "40018851",
+   "doi": "10.1111/risa.70008",
+   "type": "review",
+   "n": null,
+   "finding": "Brown rice carries more total and inorganic arsenic than white rice; regular brown-rice eaters, especially young children, have higher estimated exposure, but no acute risk was indicated."
+  },
+  {
+   "id": "efw-shuaib2010",
+   "authors": "Shuaib FM, Ehiri J, Abdullahi A, et al.",
+   "year": 2010,
+   "title": "Reproductive health effects of aflatoxins: a review of the literature.",
+   "journal": "Reprod Toxicol",
+   "pmid": "20045048",
+   "doi": "10.1016/j.reprotox.2009.12.005",
+   "type": "review",
+   "n": null,
+   "finding": "Review of aflatoxin reproductive effects: one study found aflatoxin in semen of 40% of infertile vs 8% of fertile men; several linked aflatoxin to low birth weight."
+  },
+  {
+   "id": "efw-sun2021",
+   "authors": "Sun Y, Liu B, Rong S, et al.",
+   "year": 2021,
+   "title": "Association of Seafood Consumption and Mercury Exposure With Cardiovascular and All-Cause Mortality Among US Adults.",
+   "journal": "JAMA Netw Open",
+   "pmid": "34842923",
+   "doi": "10.1001/jamanetworkopen.2021.36367",
+   "type": "cohort",
+   "n": "NHANES adults",
+   "finding": "Neither seafood intake nor blood mercury was associated with all-cause or cardiovascular mortality."
+  },
+  {
+   "id": "efw-troeschel2025",
+   "authors": "Troeschel AN, Buser MC, Winquist A, et al.",
+   "year": 2025,
+   "title": "Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce - United States, November 2023-April 2024.",
+   "journal": "MMWR Morb Mortal Wkly Rep",
+   "pmid": "40273027",
+   "doi": "10.15585/mmwr.mm7414a2",
+   "type": "cross-sectional",
+   "n": "566 cases",
+   "finding": "The 2023 cinnamon-applesauce pouch event produced 566 reported cases in 44 states (55% under 2 years), median maximum blood lead 7.2 ug/dL (up to 39.3)."
+  },
+  {
+   "id": "efw-wei2014",
+   "authors": "Wei Y, Zhu J, Nguyen A",
+   "year": 2014,
+   "title": "Rice consumption and urinary concentrations of arsenic in US adults.",
+   "journal": "Int J Environ Health Res",
+   "pmid": "24236891",
+   "doi": "10.1080/09603123.2013.857393",
+   "type": "cross-sectional",
+   "n": "US adults, NHANES",
+   "finding": "Eating rice more than twice a week was associated with higher urinary total arsenic (OR 1.51) and DMA (OR 2.24)."
+  },
+  {
+   "id": "efw-wright2015",
+   "authors": "Wright DL, Afeiche MC, Ehrlich S, et al.",
+   "year": 2015,
+   "title": "Hair mercury concentrations and in vitro fertilization (IVF) outcomes among women from a fertility clinic.",
+   "journal": "Reprod Toxicol",
+   "pmid": "25601638",
+   "doi": "10.1016/j.reprotox.2015.01.003",
+   "type": "cohort",
+   "n": "women in an IVF clinic, 229 cycles",
+   "finding": "Hair mercury (median 0.62 ppm; 33% above 1 ppm) tracked fish intake but was not related to oocyte yield, embryo quality, clinical pregnancy or live birth."
+  },
+  {
+   "id": "efw-yang2017",
+   "authors": "Yang T, Doherty J, Zhao B, et al.",
+   "year": 2017,
+   "title": "Effectiveness of Commercial and Homemade Washing Agents in Removing Pesticide Residues on and in Apples.",
+   "journal": "J Agric Food Chem",
+   "pmid": "29067814",
+   "doi": "10.1021/acs.jafc.7b03118",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "On apples, a 1% baking-soda (10 mg/mL) wash removed surface thiabendazole and phosmet in 12-15 min, better than tap water or bleach, but 20% of thiabendazole and 4.4% of phosmet had penetrated the peel and could not be washed off; peeling removed more."
   }
  ]
 }

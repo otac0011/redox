@@ -354,3 +354,12 @@ select { padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border)
 .tl-lessons p { margin: 0; font-size: .9rem; color: var(--muted); }
 .card.entry > h2:first-child { margin-top: 0; }
 .chips a.chip, .related .chip { white-space: normal; max-width: 100%; }
+
+/* ---------- audit ---------- */
+.chip.verdict-holds, .chip.verdict-strengthened { background: var(--good-soft); color: var(--good); }
+.chip.verdict-weakened { background: var(--mixed-soft); color: var(--mixed); }
+.chip.verdict-overturned { background: var(--bad-soft); color: var(--bad); }
+.chip.verdict-unclear { background: var(--neutral-soft); color: var(--neutral); }
+.audit-weakened { border-left: 4px solid var(--mixed); }
+.audit-overturned { border-left: 4px solid var(--bad); }
+.audit-unclear { border-left: 4px solid var(--neutral); }

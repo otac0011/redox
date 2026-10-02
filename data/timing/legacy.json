@@ -2261,63 +2261,6 @@
    ]
   },
   {
-   "factor": "plastics-chemicals",
-   "shape": "acute",
-   "summary": "BPA and phthalates are the opposite of PFAS: they are cleared in hours, so urine reflects the last day or two of exposure and a change in packaging shows up within 3 days [tleg-thayer2015, tleg-rudel2011]. That also means the benefit disappears the moment you go back to canned and packaged food, and that a single spot urine sample is a poor guide to the previous month [tleg-dewalque2015].",
-   "onset": {
-    "text": "A canned meal raises urinary BPA by up to 206% with a peak at about 4 hours [tleg-peng2019, tleg-teeguarden2011]; DEHP metabolites appear in urine within 2-4 hours of a dose [tleg-koch2004]. Reductions are just as fast: 3 days of fresh unpackaged food cut urinary BPA 66% and DEHP metabolites 53-56% [tleg-rudel2011].",
-    "days": [
-     0.17,
-     3
-    ]
-   },
-   "full": {
-    "text": "There is nothing to build: urinary levels reach their new level within about 3 days of changing diet or personal-care products [tleg-rudel2011, tleg-harley2016].",
-    "days": [
-     3,
-     7
-    ]
-   },
-   "after_stopping": {
-    "text": "Back to baseline within about a day of the exposure: serum half-life of unconjugated BPA is about 6 hours and over 90% is excreted within 24 hours [tleg-thayer2015], and canned-meal BPA is back to baseline by 24 hours [tleg-peng2019]. Five days of canned soup raised urinary BPA about 12-fold, with no carry-over [tleg-carwile2011].",
-    "days": [
-     1,
-     3
-    ]
-   },
-   "frequency": {
-    "advice": "daily",
-    "text": "Because the half-life is hours, avoidance only works while it is maintained - every canned or plastic-packaged meal re-exposes you [tleg-carwile2011, tleg-peng2019]. There is no benefit to intermittent avoidance beyond the days on which it happens, and one randomized 'low-exposure' catered diet raised DEHP metabolites 25-fold because the ingredients themselves were contaminated [tleg-sathyanarayana2013]."
-   },
-   "conception": {
-    "sperm": {
-     "start_by_days": 90,
-     "late_start": "Starting 2-4 weeks before conception does lower current exposure within days [tleg-rudel2011], but sperm being ejaculated now were formed over the preceding 2-3 months, so the late start covers only the final maturation stages.",
-     "text": "Urinary biomarkers respond in days [tleg-rudel2011], so the binding constraint is the 74-90 day spermatogenic cycle, not chemical kinetics. No trial has shown that lowering exposure improves semen measures."
-    },
-    "egg": {
-     "start_by_days": 100,
-     "late_start": "A late start still removes exposure during the periovulatory days and early embryo period, which is when BPA's animal aneuploidy effects are described; it cannot cover the earlier months of follicle growth.",
-     "text": "Women in the top quartile of urinary DEHP metabolites had fewer oocytes and about 19 percentage points lower live birth per IVF cycle [tleg-hauser2016]. Because exposure is cleared in a day, lowering it has to be continuous across the roughly 3-4 month window of antral follicle growth."
-    }
-   },
-   "basis": "measured",
-   "debate": "Whether BPA really clears as fast as the dosing studies imply is disputed: NHANES urinary BPA did not fall with longer fasting, suggesting substantial non-food exposure or storage in body compartments and a population half-life of about 43 hours [tleg-stahlhut2009], while controlled dosing gives about 6 hours [tleg-thayer2015, tleg-teeguarden2011]. The practical value of avoidance is also contested: one intervention reduced exposure as intended [tleg-rudel2011, tleg-harley2016] and another backfired badly [tleg-sathyanarayana2013], and no trial has measured a health outcome.",
-   "refs": [
-    "tleg-thayer2015",
-    "tleg-koch2004",
-    "tleg-rudel2011",
-    "tleg-sathyanarayana2013",
-    "tleg-harley2016",
-    "tleg-carwile2011",
-    "tleg-peng2019",
-    "tleg-stahlhut2009",
-    "tleg-teeguarden2011",
-    "tleg-dewalque2015",
-    "tleg-hauser2016"
-   ]
-  },
-  {
    "factor": "pesticides",
    "shape": "acute",
    "summary": "Dietary pesticide biomarkers collapse within a day or two of switching to organic food and return just as fast when you switch back [tleg-lu2006, tleg-oates2014]. Any effect on sperm, in contrast, is governed by the 74-90 day spermatogenic cycle, and the one longitudinal study across a spraying season found no short-term change in semen quality [tleg-larsen1998].",

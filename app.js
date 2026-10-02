@@ -215,9 +215,56 @@
     return `<a class="card fcard" href="#/factor/${encodeURIComponent(f.id)}">
       <div class="row"><h3>${esc(f.name)}</h3>${dirChip(f.direction)}</div>
       <p>${esc(e.headline || "")}</p>
-      <div class="row"><div class="chips">${kindChip(f.kind)}${evChip(f.evidence)}</div></div>
+      <div class="row"><div class="chips">${kindChip(f.kind)}${evChip(f.evidence)}${f.audit && f.audit.verdict !== "holds" ? verdictChip(f.audit.verdict) : ""}</div></div>
       <div class="scope-row">${SCOPES.filter((s) => impactOf(f, s.id) > 0).map((s) => `<span>${esc(s.short)} ${dots(impactOf(f, s.id), dirFor(f, s.id))}</span>`).join("")}</div>
     </a>`;
+  }
+
+  // ---------- audit: confounding and newer evidence ----------
+  const VERDICT_LABEL = { holds: "Holds up", strengthened: "Strengthened", weakened: "Weakened", overturned: "Overturned", unclear: "Contested" };
+  const VERDICT_NOTE = {
+    holds: "Newer and better-designed studies support this.",
+    strengthened: "Newer causal evidence supports this more strongly than before.",
+    weakened: "Likely partly confounded, or smaller than older studies suggested.",
+    overturned: "The best current evidence contradicts the older finding.",
+    unclear: "Credible newer evidence points both ways.",
+  };
+  const verdictChip = (v) => `<span class="chip verdict-${esc(v)}" title="${esc(VERDICT_NOTE[v] || "")}">${esc(VERDICT_LABEL[v] || v)}</span>`;
+  function auditCard(f) {
+    const a = f.audit;
+    if (!a) return "";
+    const cite = (s) => citeLinks(linkify(s || ""), a.doc);
+    return `<section class="card entry audit audit-${esc(a.verdict)}">
+      <div class="entry-title"><h2>Newer evidence &amp; confounding</h2>${verdictChip(a.verdict)}${a.as_of ? `<span class="chip">Reviewed ${esc(a.as_of)}</span>` : ""}</div>
+      ${a.claim ? `<p class="muted small">Claim checked: ${cite(a.claim)}</p>` : ""}
+      ${a.bottom_line ? `<p class="headline">${cite(a.bottom_line)}</p>` : ""}
+      <details${a.verdict === "holds" ? "" : " open"}><summary class="section-label" style="cursor:pointer">Why</summary>
+        ${a.biases ? `<div class="section-label">What could confound it</div><p>${cite(a.biases)}</p>` : ""}
+        ${a.newer_evidence ? `<div class="section-label">What newer studies found</div><p>${cite(a.newer_evidence)}</p>` : ""}
+      </details>
+      <p class="small"><a href="#/read/${esc(a.doc)}">Audit deep dive →</a> · <a href="#/updates">All updates →</a></p>
+      ${(a.refs || []).length ? `<details><summary class="section-label" style="cursor:pointer">Audit references (${a.refs.length})</summary><ul class="refs">${a.refs.map(refHTML).join("")}</ul></details>` : ""}
+    </section>`;
+  }
+  function viewUpdates(params) {
+    const fs = D.factors.filter((f) => f.audit);
+    const best = (f) => Math.max(...SCOPES.map((s) => score(f, s.id)));
+    const order = ["overturned", "weakened", "unclear", "strengthened", "holds"];
+    const counts = order.map((v) => [v, fs.filter((f) => f.audit.verdict === v).length]);
+    const docs = (D.notes || []).filter((n) => n.id.startsWith("deep-audit-") || n.id.startsWith("deep-env-"));
+    const sec = (v) => {
+      const list = fs.filter((f) => f.audit.verdict === v).sort((a, b) => best(b) - best(a));
+      if (!list.length) return "";
+      const items = list.map((f) => `<li class="tl-item"><div class="tl-head">${fLink(f.id)} ${verdictChip(v)}</div><p class="small">${citeLinks(linkify(f.audit.bottom_line || ""), f.audit.doc)}</p></li>`).join("");
+      return `<section class="card entry"><h2>${esc(VERDICT_LABEL[v])} <span class="muted small">(${list.length})</span></h2><p class="muted small">${esc(VERDICT_NOTE[v])}</p>
+        ${v === "holds" ? `<details><summary class="section-label" style="cursor:pointer">Show all</summary><ul class="tl-list">${items}</ul></details>` : `<ul class="tl-list">${items}</ul>`}</section>`;
+    };
+    return `<h1>Evidence updates</h1>
+      <p class="lede">Each factor's main claim was re-checked against newer and better-designed research: Mendelian randomization, sibling comparisons, randomized trials that tested cohort findings, reanalyses, retractions and updated guidelines. Here is what moved.</p>
+      <div class="chips" style="margin:14px 0">${counts.filter(([, n]) => n).map(([v, n]) => `${verdictChip(v).replace("</span>", ` · ${n}</span>`)}`).join("")}</div>
+      ${!fs.length ? `<p class="muted">The audit hasn't been merged yet.</p>` : ""}
+      ${order.map(sec).join("")}
+      ${docs.length ? `<h2>Read the audits</h2><div class="grid">${docs.map((n) => `<a class="card fcard" href="#/read/${n.id}"><h3>${esc(n.title)}</h3></a>`).join("")}</div>` : ""}`;
   }
 
   // ---------- timing ----------
@@ -295,7 +342,7 @@
         <div class="card"><h3>A month out beats two weeks</h3><p>Sperm take about 64 days (42–76) to form, then sit in storage. A fever or heat 2–5 weeks before shows up as DNA damage; in the last 1–2 weeks only storage-stage levers remain (short abstinence, removing heat, quitting smoking). An egg's follicle grows for about 85 days; follicular fluid tracks the current cycle, but the egg itself is shaped over ~3 months. <a href="#/read/deep-timing-sperm">Sperm</a> · <a href="#/read/deep-timing-egg">Egg</a></p></div>
         <div class="card"><h3>Pulses fade in days</h3><p>Sulforaphane is gone from blood in hours, but the enzymes it switches on keep working for about 1–3 days and are back to baseline after ~5 days off. Daily doses stack, with no tolerance over 12 weeks: most days is the evidence-based rhythm. Cocoa, berries and nitrate-rich greens act for hours, so they need to be regular. <a href="#/read/deep-timing-food">Foods &amp; Nrf2</a></p></div>
         <div class="card"><h3>Stores tolerate gaps</h3><p>Omega-3 builds in red cells over ~4–6 months, so 1–4 fish meals a week work like daily doses. Vitamin D has a ~2-week half-life; daily, weekly and monthly doses give the same blood level, though big yearly boluses look worse. Folate in red cells takes ~8 months to plateau and needs daily intake. <a href="#/read/deep-timing-nutrients">Nutrients</a></p></div>
-        <div class="card"><h3>Fitness builds slowly, fades faster</h3><p>One session improves insulin sensitivity for ~48 h; VO2max rises over 3–12+ weeks; recent gains are lost after ~4 weeks off. Two sessions a week at the same intensity hold it. Fitness held for years tracks 30–44% lower mortality. Sleep and light effects appear and reverse within days. <a href="#/read/deep-timing-body">Exercise, fasting &amp; sleep</a></p></div>
+        <div class="card"><h3>Fitness builds slowly, fades faster</h3><p>One session improves insulin sensitivity for ~48 h; VO2max rises over 3–12+ weeks; recent gains are lost after ~4 weeks off. Two sessions a week at the same intensity hold it. Fitness held for years tracks 30–44% lower mortality in cohorts, though twin and genetic studies suggest part of that gap is genes and pre-existing illness. Sleep and light effects appear and reverse within days. <a href="#/read/deep-timing-body">Exercise, fasting &amp; sleep</a></p></div>
         <div class="card"><h3>Some things last for years</h3><p>BPA clears in hours, PFAS take 3–5 years to halve, cadmium and bone lead decades. Habits can outlast themselves too: daily sunscreen kept skin cancer lower for years after the trial, and blood-sugar control kept paying off 10–24 years later. <a href="#/read/deep-timing-legacy">What lasts</a></p></div>
       </div>
       <div id="tl-rhythm"></div>`;
@@ -330,7 +377,7 @@
         ${c.start_by_days ? `<span class="chip ${late ? "late" : "intime"}">${harm ? "avoid" : "start"} ≥ ${durOne(c.start_by_days)} before</span>` : ""}</div>
         ${late && c.late_start ? `<p class="small">${harm ? "Stopping now" : "Starting now"}: ${citeLinks(linkify(c.late_start), f.timing.doc)}</p>` : `<p class="small muted">${citeLinks(linkify(c.text || f.timing.summary || ""), f.timing.doc)}</p>`}</li>`;
     };
-    const graded = fs.filter((f) => impactOf(f, scope) > 0);
+    const graded = fs.filter((f) => impactOf(f, scope) > 0 && dirFor(f, scope) !== "neutral"); // "no clear effect" has no lead time worth planning
     const group = (title, list, note) => list.length ? `<h3>${title} <span class="muted small">(${list.length})</span></h3>${note ? `<p class="muted small">${note}</p>` : ""}<ul class="tl-list">${list.sort(rank).map(item).join("")}</ul>` : "";
     const lead = (f) => f.timing.conception[scope].start_by_days;
     const inTime = graded.filter((f) => lead(f) && days >= lead(f));
@@ -424,6 +471,7 @@
         <div class="card" style="padding:12px 16px"><div class="impact-table">${impacts}</div>
           <p style="margin:10px 0 0"><button class="btn small ${inCmp ? "secondary" : ""}" id="cmp-btn">${inCmp ? "✓ In compare" : "+ Add to compare"}</button></p></div>
       </div>
+      ${auditCard(f)}
       ${timingCard(f)}
       ${entries}
       ${related.length ? `<section class="card entry"><h2>Works through the same pathways</h2><p class="muted small">If you already cover a pathway well, more inputs to the same pathway may add less. See the mechanism pages for what's known about saturation.</p><div class="related">${related.map((g) => `<a class="chip dir-${dirFor(g)}" href="#/factor/${encodeURIComponent(g.id)}">${esc(g.name)}</a>`).join("")}</div></section>` : ""}
@@ -787,6 +835,7 @@
       case "mechanisms": html = viewMechanisms(); break;
       case "mechanism": html = viewMechanism(arg); setActiveNav("mechanisms"); break;
       case "plan": html = viewPlan(); bind = bindPlan; break;
+      case "updates": html = viewUpdates(params); break;
       case "timeline": html = viewTimeline(params); bind = () => bindTimeline(params); break;
       case "read": html = await viewRead(arg); break;
       case "tests": html = viewTests(params); break;

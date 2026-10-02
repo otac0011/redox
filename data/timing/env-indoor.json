@@ -1,0 +1,847 @@
+{
+ "references": [
+  {
+   "id": "eia-carignan2017",
+   "authors": "Carignan CC, Mínguez-Alarcón L, Butt CM, et al.",
+   "year": 2017,
+   "title": "Urinary Concentrations of Organophosphate Flame Retardant Metabolites and Pregnancy Outcomes among Women Undergoing in Vitro Fertilization.",
+   "journal": "Environ Health Perspect",
+   "pmid": "28858831",
+   "doi": "10.1289/EHP1021",
+   "type": "cohort",
+   "n": "211 women (EARTH IVF cohort)",
+   "finding": "Women in the highest vs lowest quartile of summed urinary organophosphate flame retardant metabolites had 10% lower fertilization, 31% lower implantation, 41% lower clinical pregnancy and 38% lower live birth proportions per IVF cycle."
+  },
+  {
+   "id": "eia-ingle2018",
+   "authors": "Ingle ME, Mínguez-Alarcón L, Carignan CC, et al.",
+   "year": 2018,
+   "title": "The association between urinary concentrations of phosphorous-containing flame retardant metabolites and semen parameters among men from a fertility clinic.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "29739653",
+   "doi": "10.1016/j.ijheh.2018.05.001",
+   "type": "cohort",
+   "n": "220 men, 269 semen samples (EARTH)",
+   "finding": "Associations between urinary OPFR metabolites and semen parameters were weak and inconsistent; BDCIPP was about 2-fold higher in summer samples."
+  },
+  {
+   "id": "eia-gibson2019",
+   "authors": "Gibson EA, Stapleton HM, Calero L, et al.",
+   "year": 2019,
+   "title": "Flame retardant exposure assessment: findings from a behavioral intervention study.",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "29950671",
+   "doi": "10.1038/s41370-018-0049-6",
+   "type": "rct",
+   "n": "32 mothers",
+   "finding": "One week of instructed house cleaning or hand-washing (then both) lowered some urinary flame-retardant metabolites and, in women with above-median baseline exposure, some hand-wipe levels, by about half in some cases."
+  },
+  {
+   "id": "eia-rodgers2021",
+   "authors": "Rodgers KM, Bennett D, Moran R, et al.",
+   "year": 2021,
+   "title": "Do flame retardant concentrations change in dust after older upholstered furniture is replaced?",
+   "journal": "Environ Int",
+   "pmid": "33770624",
+   "doi": "10.1016/j.envint.2021.106513",
+   "type": "cohort",
+   "n": "California homes replacing pre-2014 upholstered furniture",
+   "finding": "Replacing older upholstered furniture, or only its foam, with TB117-2013 products lowered dust PBDEs and chlorinated and aryl organophosphate flame retardants in nearly all homes over 6-18 months."
+  },
+  {
+   "id": "eia-ingle2020",
+   "authors": "Ingle ME, Mínguez-Alarcón L, Carignan CC, et al.",
+   "year": 2020,
+   "title": "Exploring reproductive associations of serum polybrominated diphenyl ether and hydroxylated brominated diphenyl ether concentrations among women undergoing in vitro fertilization.",
+   "journal": "Hum Reprod",
+   "pmid": "32424407",
+   "doi": "10.1093/humrep/deaa063",
+   "type": "cohort",
+   "n": "215 women, 330 IVF cycles (EARTH)",
+   "finding": "Contrary to earlier reports, an interquartile rise in serum BDE-153 was associated with higher implantation (RR 1.26), clinical pregnancy (1.32) and live birth (1.34); PBDE levels fell up to 80% between 2005 and 2016 recruits."
+  },
+  {
+   "id": "eia-hoffman2015",
+   "authors": "Hoffman K, Garantziotis S, Birnbaum LS, et al.",
+   "year": 2015,
+   "title": "Monitoring indoor exposure to organophosphate flame retardants: hand wipes and house dust.",
+   "journal": "Environ Health Perspect",
+   "pmid": "25343780",
+   "doi": "10.1289/ehp.1408669",
+   "type": "cross-sectional",
+   "n": "53 adults",
+   "finding": "Hand-wipe (not dust) TPHP and TDCIPP predicted their urinary metabolites (top vs bottom hand-wipe TPHP: DPHP 2.4-fold); urinary BDCIPP and DPHP were moderately to strongly reliable over 5 days (ICC 0.81 and 0.51)."
+  },
+  {
+   "id": "eia-sjodin2020",
+   "authors": "Sjödin A, Mueller JF, Jones R, et al.",
+   "year": 2020,
+   "title": "Serum elimination half-lives adjusted for ongoing exposure of tri-to hexabrominated diphenyl ethers: Determined in persons moving from North America to Australia.",
+   "journal": "Chemosphere",
+   "pmid": "32004881",
+   "doi": "10.1016/j.chemosphere.2020.125905",
+   "type": "cohort",
+   "n": "50 (27 movers, 23 local controls)",
+   "finding": "In a person moving from North America to lower-exposure Australia, serum elimination half-lives were about 0.9 (BDE-28), 1.2 (BDE-47), 1.0 (BDE-99), 2.2 (BDE-100) and 4.1 years (BDE-153)."
+  },
+  {
+   "id": "eia-kashtan2023",
+   "authors": "Kashtan YS, Nicholson M, Finnegan C, et al.",
+   "year": 2023,
+   "title": "Gas and Propane Combustion from Stoves Emits Benzene and Increases Indoor Air Pollution.",
+   "journal": "Environ Sci Technol",
+   "pmid": "37319002",
+   "doi": "10.1021/acs.est.2c09289",
+   "type": "cross-sectional",
+   "n": "87 homes",
+   "finding": "Gas and propane burners and ovens emitted 2.8-6.5 ug benzene per minute, 10-25 times more than electric coil or radiant stoves; induction and the food itself emitted none, and benzene spread to bedrooms."
+  },
+  {
+   "id": "eia-lebel2022",
+   "authors": "Lebel ED, Finnegan CJ, Ouyang Z, et al.",
+   "year": 2022,
+   "title": "Methane and NO(x) Emissions from Natural Gas Stoves, Cooktops, and Ovens in Residential Homes.",
+   "journal": "Environ Sci Technol",
+   "pmid": "35081712",
+   "doi": "10.1021/acs.est.1c04707",
+   "type": "cross-sectional",
+   "n": "53 homes (NOx in 32)",
+   "finding": "Gas stoves leak 0.8-1.3% of their gas as unburned methane (three-quarters while off); NOx emissions scale with gas burned, and without a working hood a small kitchen can exceed the 1-h US NO2 standard (100 ppb) within minutes."
+  },
+  {
+   "id": "eia-sehgal2026",
+   "authors": "Sehgal AR, Schuellerman P, Dolata J, et al.",
+   "year": 2026,
+   "title": "Asthma Control Before and After Changing Gas Stoves to Electric Stoves.",
+   "journal": "J Allergy Clin Immunol Pract",
+   "pmid": "42398761",
+   "doi": "10.1016/j.jaip.2026.06.039",
+   "type": "cohort",
+   "n": "85 adults with poorly controlled asthma",
+   "finding": "Uncontrolled before-after study: after gas stoves were replaced with electric ones, indoor NO2 fell from 21.0 to 6.3 ppb and Asthma Control Questionnaire scores improved from 2.6 to 1.5 within 2-3 months."
+  },
+  {
+   "id": "eia-paulin2014",
+   "authors": "Paulin LM, Diette GB, Scott M, et al.",
+   "year": 2014,
+   "title": "Home interventions are effective at decreasing indoor nitrogen dioxide concentrations.",
+   "journal": "Indoor Air",
+   "pmid": "24329966",
+   "doi": "10.1111/ina.12085",
+   "type": "rct",
+   "n": "Homes with unvented gas stoves (3-arm)",
+   "finding": "Replacing the gas stove with electric cut median kitchen NO2 by 51% at 3 months; HEPA-plus-carbon purifiers cut it 27% immediately (20% at 3 months); a new range hood did not significantly lower NO2."
+  },
+  {
+   "id": "eia-pilotto2004",
+   "authors": "Pilotto LS, Nitschke M, Smith BJ, et al.",
+   "year": 2004,
+   "title": "Randomized controlled trial of unflued gas heater replacement on respiratory health of asthmatic schoolchildren.",
+   "journal": "Int J Epidemiol",
+   "pmid": "15075170",
+   "doi": "10.1093/ije/dyh018",
+   "type": "rct",
+   "n": "118 asthmatic children, 18 schools",
+   "finding": "Replacing unflued gas heaters in schools lowered classroom NO2 (15.5 vs 47.0 ppb) and cut daytime and night-time asthma symptoms (RR about 0.3-0.45), without changing lung function."
+  },
+  {
+   "id": "eia-howdenchapman2008",
+   "authors": "Howden-Chapman P, Pierse N, Nicholls S, et al.",
+   "year": 2008,
+   "title": "Effects of improved home heating on asthma in community dwelling children: randomised controlled trial.",
+   "journal": "BMJ",
+   "pmid": "18812366",
+   "doi": "10.1136/bmj.a1411",
+   "type": "rct",
+   "n": "409 children with asthma",
+   "finding": "Installing non-polluting, more effective heaters lowered NO2 and reduced school absence, doctor visits, sleep disturbed by wheezing and night cough, but did not significantly improve lung function."
+  },
+  {
+   "id": "eia-howdenchapman2007",
+   "authors": "Howden-Chapman P, Matheson A, Crane J, et al.",
+   "year": 2007,
+   "title": "Effect of insulating existing houses on health inequality: cluster randomised study in the community.",
+   "journal": "BMJ",
+   "pmid": "17324975",
+   "doi": "10.1136/bmj.39070.573032.80",
+   "type": "rct",
+   "n": "1,350 households, 4,407 people",
+   "finding": "Retrofitting insulation made homes warmer and drier (RH -2.3%) and halved reports of poor self-rated health, reduced wheeze (OR 0.57) and days off school and work."
+  },
+  {
+   "id": "eia-qian2021",
+   "authors": "Qian X, Wan Y, Wang A, et al.",
+   "year": 2021,
+   "title": "Urinary metabolites of multiple volatile organic compounds among general population in Wuhan, central China: Inter-day reproducibility, seasonal difference, and their associations with oxidative stress biomarkers.",
+   "journal": "Environ Pollut",
+   "pmid": "34426205",
+   "doi": "10.1016/j.envpol.2021.117913",
+   "type": "cohort",
+   "n": "128 adults, 406 urine samples",
+   "finding": "After false-discovery adjustment, 16 urinary VOC metabolites were positively associated with urinary 8-OHdG and 8-OHG and four with HNE-mercapturic acid."
+  },
+  {
+   "id": "eia-yamaguchi2006",
+   "authors": "Yamaguchi T, Nakajima D, Ezoe Y, et al.",
+   "year": 2006,
+   "title": "Measurement of volatile organic compounds (VOCs) in new residential buildings and VOCs behavior over time.",
+   "journal": "J UOEH",
+   "pmid": "16541737",
+   "doi": "10.7888/juoeh.28.13",
+   "type": "cohort",
+   "n": "2 new dwellings, monthly for 1 year",
+   "finding": "VOCs such as toluene, hexane, MEK and pinene were highest at first occupancy of new homes and declined over the following year."
+  },
+  {
+   "id": "eia-svanes2018",
+   "authors": "Svanes Ø, Bertelsen RJ, Lygre SHL, et al.",
+   "year": 2018,
+   "title": "Cleaning at Home and at Work in Relation to Lung Function Decline and Airway Obstruction.",
+   "journal": "Am J Respir Crit Care Med",
+   "pmid": "29451393",
+   "doi": "10.1164/rccm.201706-1311OC",
+   "type": "cohort",
+   "n": "6,235 adults (ECRHS, 20 years)",
+   "finding": "Women who cleaned at home (FEV1 decline -22.1 vs -18.5 mL/yr) or worked as cleaners (-22.4 mL/yr) lost lung function faster, with sprays and other agents both implicated; no association in men."
+  },
+  {
+   "id": "eia-zock2007",
+   "authors": "Zock JP, Plana E, Jarvis D, et al.",
+   "year": 2007,
+   "title": "The use of household cleaning sprays and adult asthma: an international longitudinal study.",
+   "journal": "Am J Respir Crit Care Med",
+   "pmid": "17585104",
+   "doi": "10.1164/rccm.200612-1793OC",
+   "type": "cohort",
+   "n": "3,503 adults (ECRHS)",
+   "finding": "Weekly use of household cleaning sprays was associated with new asthma symptoms or medication (RR 1.49) and wheeze (RR 1.39), with a dose-response; glass, furniture and air-freshener sprays drove the risk."
+  },
+  {
+   "id": "eia-pachecodasilva2026",
+   "authors": "Pacheco Da Silva E, Varraso R, Fezeu LK, et al.",
+   "year": 2026,
+   "title": "Longitudinal Associations Between Household Use of \"Green\" Cleaning Products and Asthma Symptoms.",
+   "journal": "J Allergy Clin Immunol Pract",
+   "pmid": "41038314",
+   "doi": "10.1016/j.jaip.2025.09.027",
+   "type": "cohort",
+   "n": "30,012 adults (NutriNet-Sante)",
+   "finding": "Persistent use of irritant/sprayed cleaning products was associated with more asthma symptoms and incidence over 2 years; \"green\" product use was also associated with asthma symptoms."
+  },
+  {
+   "id": "eia-ding2021",
+   "authors": "Ding M, Lawson C, Johnson C, et al.",
+   "year": 2021,
+   "title": "Occupational exposure to high-level disinfectants and risk of miscarriage among nurses.",
+   "journal": "Occup Environ Med",
+   "pmid": "34039757",
+   "doi": "10.1136/oemed-2020-107297",
+   "type": "cohort",
+   "n": "2,579 nurses, 3,974 pregnancies (NHS3)",
+   "finding": "Prospectively, occupational high-level disinfectant use was not associated with miscarriage (HR 0.84), except in pregnancies within 12 months of baseline use (HR 1.78)."
+  },
+  {
+   "id": "eia-nussbaumerstreit2020",
+   "authors": "Nussbaumer-Streit B, Mayr V, Dobrescu AI, et al.",
+   "year": 2020,
+   "title": "Household interventions for secondary prevention of domestic lead exposure in children.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "33022752",
+   "doi": "10.1002/14651858.CD006047.pub6",
+   "type": "meta-analysis",
+   "n": "17 trials, 3,282 children",
+   "finding": "Cochrane: household education and dust-control interventions did not lower children's blood lead (education MD -0.03 log units; environmental interventions also no clear effect)."
+  },
+  {
+   "id": "eia-morgan2004",
+   "authors": "Morgan WJ, Crain EF, Gruchalla RS, et al.",
+   "year": 2004,
+   "title": "Results of a home-based environmental intervention among urban children with asthma.",
+   "journal": "N Engl J Med",
+   "pmid": "15356304",
+   "doi": "10.1056/NEJMoa032097",
+   "type": "rct",
+   "n": "937 inner-city children with atopic asthma",
+   "finding": "A tailored, home-based programme targeting allergens and tobacco smoke reduced symptom days (3.39 vs 4.20 per 2 weeks) during and for a year after the intervention, with falls in dust-mite and cockroach allergen."
+  },
+  {
+   "id": "eia-cherry2008",
+   "authors": "Cherry N, Moore H, McNamee R, et al.",
+   "year": 2008,
+   "title": "Occupation and male infertility: glycol ethers and other exposures.",
+   "journal": "Occup Environ Med",
+   "pmid": "18417551",
+   "doi": "10.1136/oem.2007.035824",
+   "type": "case-control",
+   "n": "2,118 employed men (14 UK clinics)",
+   "finding": "High glycol ether exposure in the 3 months before the clinic visit was associated with low motile sperm count (adjusted OR 2.25, 95% CI 1.08-4.69); moderate exposure OR 1.46 (0.93-2.28)."
+  },
+  {
+   "id": "eia-doyle1997",
+   "authors": "Doyle P, Roman E, Beral V, et al.",
+   "year": 1997,
+   "title": "Spontaneous abortion in dry cleaning workers potentially exposed to perchloroethylene.",
+   "journal": "Occup Environ Med",
+   "pmid": "9470891",
+   "doi": "10.1136/oem.54.12.848",
+   "type": "cohort",
+   "n": "7,305 women (UK dry cleaning/laundry)",
+   "finding": "Spontaneous abortion was more common in dry-cleaning machine operators (17.1%) than in non-operators (11.6%) and unexposed pregnancies (10.9%)."
+  },
+  {
+   "id": "eia-li2024pce",
+   "authors": "Li C, Li X, Zhang Z",
+   "year": 2024,
+   "title": "Oxidative stress and pro-inflammatory cytokines following perchloroethylene exposure in young female dry-cleaning workers.",
+   "journal": "Work",
+   "pmid": "37781844",
+   "doi": "10.3233/WOR-230080",
+   "type": "cross-sectional",
+   "n": "38 exposed, 38 control women",
+   "finding": "Young female dry-cleaning workers with high plasma perchloroethylene had higher MDA, SOD and catalase and altered cytokines compared with controls."
+  },
+  {
+   "id": "eia-moro2010",
+   "authors": "Moro AM, Charão M, Brucker N, et al.",
+   "year": 2010,
+   "title": "Effects of low-level exposure to xenobiotics present in paints on oxidative stress in workers.",
+   "journal": "Sci Total Environ",
+   "pmid": "20655097",
+   "doi": "10.1016/j.scitotenv.2010.06.058",
+   "type": "cross-sectional",
+   "n": "Industrial painters vs controls",
+   "finding": "Painters with solvent biomarkers below exposure limits had higher MDA and antioxidant enzyme activities and lower thiols and ALA-D than unexposed controls."
+  },
+  {
+   "id": "eia-quansah2012",
+   "authors": "Quansah R, Jaakkola MS, Hugg TT, et al.",
+   "year": 2012,
+   "title": "Residential dampness and molds and the risk of developing asthma: a systematic review and meta-analysis.",
+   "journal": "PLoS One",
+   "pmid": "23144822",
+   "doi": "10.1371/journal.pone.0047526",
+   "type": "meta-analysis",
+   "n": "16 cohort/incident case-control studies",
+   "finding": "Dampness and mould were associated with new-onset asthma (summary estimates 1.27-1.48), strongest for mould odour (1.73)."
+  },
+  {
+   "id": "eia-sauni2015",
+   "authors": "Sauni R, Verbeek JH, Uitti J, et al.",
+   "year": 2015,
+   "title": "Remediating buildings damaged by dampness and mould for preventing or reducing respiratory tract symptoms, infections and asthma.",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "25715323",
+   "doi": "10.1002/14651858.CD007897.pub3",
+   "type": "meta-analysis",
+   "n": "12 studies, 8,028 participants",
+   "finding": "Cochrane: repairing mould-damaged houses and offices reduced wheeze (OR 0.64) and respiratory infections in adults (moderate to very low quality); school remediation evidence was inconsistent."
+  },
+  {
+   "id": "eia-darby2005",
+   "authors": "Darby S, Hill D, Auvinen A, et al.",
+   "year": 2005,
+   "title": "Radon in homes and risk of lung cancer: collaborative analysis of individual data from 13 European case-control studies.",
+   "journal": "BMJ",
+   "pmid": "15613366",
+   "doi": "10.1136/bmj.38308.477650.63",
+   "type": "case-control",
+   "n": "7,148 cases, 14,208 controls (13 European studies)",
+   "finding": "Lung cancer risk rose 16% per 100 Bq/m3 of usual radon (linear, no threshold); absolute risk to age 75 at 0/100/400 Bq/m3 was 0.4/0.5/0.7% for never-smokers and 10/12/16% for smokers."
+  },
+  {
+   "id": "eia-krewski2005",
+   "authors": "Krewski D, Lubin JH, Zielinski JM, et al.",
+   "year": 2005,
+   "title": "Residential radon and risk of lung cancer: a combined analysis of 7 North American case-control studies.",
+   "journal": "Epidemiology",
+   "pmid": "15703527",
+   "doi": "10.1097/01.ede.0000152522.80261.e3",
+   "type": "case-control",
+   "n": "3,662 cases, 4,966 controls (7 North American studies)",
+   "finding": "Odds of lung cancer were 1.11 at 100 Bq/m3, consistent with extrapolation from miner data, and higher with more accurate dosimetry."
+  },
+  {
+   "id": "eia-cohen1995",
+   "authors": "Cohen BL",
+   "year": 1995,
+   "title": "Test of the linear-no threshold theory of radiation carcinogenesis for inhaled radon decay products.",
+   "journal": "Health Phys",
+   "pmid": "7814250",
+   "doi": "10.1097/00004032-199502000-00002",
+   "type": "cross-sectional",
+   "n": "1,601 US counties (ecological)",
+   "finding": "County lung cancer mortality fell with average home radon, which the author interpreted as failure of the linear no-threshold model."
+  },
+  {
+   "id": "eia-puskin2003",
+   "authors": "Puskin JS",
+   "year": 2003,
+   "title": "Smoking as a confounder in ecologic correlations of cancer mortality rates with average county radon levels.",
+   "journal": "Health Phys",
+   "pmid": "12705451",
+   "doi": "10.1097/00004032-200304000-00012",
+   "type": "cross-sectional",
+   "n": "US counties (ecological)",
+   "finding": "Smoking-related cancers showed the same negative county-radon correlation while non-smoking cancers did not, indicating that confounding by smoking explains the ecological finding."
+  },
+  {
+   "id": "eia-groveskirkby2008",
+   "authors": "Groves-Kirkby CJ, Denman AR, Phillips PS, et al.",
+   "year": 2008,
+   "title": "Domestic radon remediation of UK dwellings by Sub-Slab Depressurisation: evidence for a baseline contribution from constructional materials.",
+   "journal": "Environ Int",
+   "pmid": "18001835",
+   "doi": "10.1016/j.envint.2007.09.012",
+   "type": "cohort",
+   "n": "170 UK homes",
+   "finding": "Sub-slab depressurisation brought all homes below 200 Bq/m3, with mitigation factors below 0.2 (over 80% reduction) in more than 75% of homes."
+  },
+  {
+   "id": "eia-satish2012",
+   "authors": "Satish U, Mendell MJ, Shekhar K, et al.",
+   "year": 2012,
+   "title": "Is CO2 an indoor pollutant? Direct effects of low-to-moderate CO2 concentrations on human decision-making performance.",
+   "journal": "Environ Health Perspect",
+   "pmid": "23008272",
+   "doi": "10.1289/ehp.1104789",
+   "type": "rct",
+   "n": "22 adults",
+   "finding": "Pure CO2 at 1,000 and 2,500 ppm (vs 600 ppm) reduced decision-making scores on six and seven of nine scales in 2.5-h blinded sessions."
+  },
+  {
+   "id": "eia-zhang2017",
+   "authors": "Zhang X, Wargocki P, Lian Z, et al.",
+   "year": 2017,
+   "title": "Effects of exposure to carbon dioxide and bioeffluents on perceived air quality, self-assessed acute health symptoms, and cognitive performance.",
+   "journal": "Indoor Air",
+   "pmid": "26825447",
+   "doi": "10.1111/ina.12284",
+   "type": "rct",
+   "n": "25 subjects",
+   "finding": "Adding pure CO2 up to 3,000 ppm had no effect on cognition or symptoms, but reduced ventilation (bioeffluents with CO2 at 3,000 ppm) increased headache, fatigue and sleepiness and slowed some tasks."
+  },
+  {
+   "id": "eia-stromtejsen2016",
+   "authors": "Strøm-Tejsen P, Zukowska D, Wargocki P, et al.",
+   "year": 2016,
+   "title": "The effects of bedroom air quality on sleep and next-day performance.",
+   "journal": "Indoor Air",
+   "pmid": "26452168",
+   "doi": "10.1111/ina.12254",
+   "type": "rct",
+   "n": "30 students (two crossover experiments)",
+   "finding": "Lowering bedroom CO2 from about 2,400-2,600 ppm to 660-835 ppm by ventilation improved actigraphic sleep quality, next-day sleepiness and a logical-thinking test."
+  },
+  {
+   "id": "eia-scully2019",
+   "authors": "Scully RR, Basner M, Nasrini J, et al.",
+   "year": 2019,
+   "title": "Effects of acute exposures to carbon dioxide on decision making and cognition in astronaut-like subjects.",
+   "journal": "NPJ Microgravity",
+   "pmid": "31240239",
+   "doi": "10.1038/s41526-019-0071-6",
+   "type": "rct",
+   "n": "22 astronaut-like subjects",
+   "finding": "Acute CO2 at 600-5,000 ppm showed no clear dose-response on decision-making or cognition, conflicting with earlier chamber studies."
+  },
+  {
+   "id": "eia-heller1964",
+   "authors": "HELLER CH, CLERMONT Y",
+   "year": 1964,
+   "title": "KINETICS OF THE GERMINAL EPITHELIUM IN MAN.",
+   "journal": "Recent Prog Horm Res",
+   "pmid": "14285045",
+   "doi": null,
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Classic tritiated-thymidine study of human spermatogenesis kinetics, the basis for the roughly 64-74-day duration of sperm production."
+  },
+  {
+   "id": "eia-gougeon1986",
+   "authors": "Gougeon A",
+   "year": 1986,
+   "title": "Dynamics of follicular growth in the human: a model from preliminary results.",
+   "journal": "Hum Reprod",
+   "pmid": "3558758",
+   "doi": "10.1093/oxfordjournals.humrep.a136365",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "The ovulatory follicle originates from a cohort that began its final growth about 85 days earlier and is recruited 15-20 days before ovulation."
+  },
+  {
+   "id": "eia-whoradonfs",
+   "authors": "World Health Organization",
+   "year": 2023,
+   "title": "Radon and health (fact sheet)",
+   "journal": "WHO",
+   "pmid": null,
+   "doi": null,
+   "type": "guideline",
+   "n": null,
+   "finding": "WHO recommends a national reference level of 100 Bq/m3 (not above 300 Bq/m3 where that is unachievable); radon causes 3-14% of lung cancers and risk rises about 16% per 100 Bq/m3.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/radon-and-health"
+  }
+ ],
+ "windows": [],
+ "timing": [
+  {
+   "factor": "flame-retardants",
+   "shape": "lasting",
+   "summary": "Two very different clocks: organophosphate replacements leave the body within days, so their urine levels respond within a week to hand-washing and cleaning [eia-gibson2019], while old PBDEs have serum half-lives of about 1-4 years [eia-sjodin2020]. Swapping out old foam lowers house-dust levels over 6-18 months [eia-rodgers2021].",
+   "onset": {
+    "text": "Urinary OPFR metabolites track hand-wipe contact on the same days (moderate to high 5-day reliability, ICC 0.51-0.81) [eia-hoffman2015].",
+    "days": [
+     0.5,
+     2
+    ]
+   },
+   "full": {
+    "text": "Body PBDE burden reflects years of dust exposure; it fell up to 80% across a decade after the 2004 phase-out in an IVF cohort [eia-ingle2020].",
+    "days": [
+     365,
+     3650
+    ]
+   },
+   "after_stopping": {
+    "text": "OPFR metabolites fell within one week of instructed cleaning or hand-washing [eia-gibson2019]; PBDEs halve only every 0.9-4.1 years depending on congener [eia-sjodin2020].",
+    "days": [
+     3,
+     1500
+    ]
+   },
+   "frequency": {
+    "advice": "most-days",
+    "text": "Because OPFR exposure is continuous and clears quickly, the behaviours (hand-washing before meals, regular wet cleaning) need to be habitual; one big clean-up does not last [eia-gibson2019]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Cutting OPFR intake works within days, so even 2-4 weeks of hand-washing and cleaning lowers exposure during spermiogenesis, but whether that changes semen quality is unknown.",
+     "text": "Spermatogenesis takes roughly 64-74 days plus epididymal transit [eia-heller1964], so a change acts fully on sperm ejaculated about 3 months later. PBDE body stores cannot be lowered on that timescale [eia-sjodin2020]."
+    },
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "OPFR levels respond within a week [eia-gibson2019], so exposure during stimulation and transfer, where the EARTH association was measured [eia-carignan2017], is still modifiable.",
+     "text": "The ovulatory follicle begins its final growth about 85 days before ovulation [eia-gougeon1986]. The OPFR-IVF association used urine collected during the treatment cycle [eia-carignan2017]."
+    }
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; the uncertainty is whether the exposures matter at all for fertility [eia-ingle2018, eia-ingle2020].",
+   "refs": [
+    "eia-gibson2019",
+    "eia-sjodin2020",
+    "eia-rodgers2021",
+    "eia-hoffman2015",
+    "eia-ingle2020",
+    "eia-heller1964",
+    "eia-gougeon1986",
+    "eia-carignan2017",
+    "eia-ingle2018"
+   ]
+  },
+  {
+   "factor": "gas-stoves",
+   "shape": "acute",
+   "summary": "NO2 peaks within minutes of lighting a burner [eia-lebel2022] and benzene lingers in bedrooms for hours after the stove is off [eia-kashtan2023]. Replacing the stove lowers indoor NO2 at once and kept it 51% lower at 3 months [eia-paulin2014]; asthma control improved over 2-3 months [eia-sehgal2026].",
+   "onset": {
+    "text": "Kitchens without ventilation can exceed the 1-h NO2 standard within a few minutes of cooking [eia-lebel2022].",
+    "days": [
+     0.003,
+     0.1
+    ]
+   },
+   "full": {
+    "text": "Asthma control and NO2 were reassessed 2-3 months after electric stoves were installed [eia-sehgal2026]; removing unflued school heaters reduced symptoms within one 12-week winter [eia-pilotto2004].",
+    "days": [
+     14,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Benzene stayed elevated for hours after the stove was turned off [eia-kashtan2023]; nothing accumulates in the body, so the exposure ends with the source.",
+    "days": [
+     0.1,
+     1
+    ]
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Dose follows each cooking session; extraction must run every time and continue for a while afterwards because benzene lingers [eia-kashtan2023]. A non-venting hood did not lower NO2 [eia-paulin2014]."
+   },
+   "basis": "measured",
+   "debate": "The before-after stove-swap timing has no control group, so seasonal change could explain part of the 2-3-month improvement [eia-sehgal2026]; randomized heater-removal trials support a within-winter effect [eia-pilotto2004, eia-howdenchapman2008].",
+   "refs": [
+    "eia-lebel2022",
+    "eia-kashtan2023",
+    "eia-paulin2014",
+    "eia-sehgal2026",
+    "eia-pilotto2004",
+    "eia-howdenchapman2008"
+   ]
+  },
+  {
+   "factor": "vocs-formaldehyde",
+   "shape": "build",
+   "summary": "Indoor VOCs and formaldehyde follow their sources: concentrations fall within hours of ventilating, while emissions from new building materials decline over the first months to a year [eia-yamaguchi2006]. The health effects studied (asthma, oxidative markers) reflect ongoing exposure.",
+   "onset": {
+    "text": "Urinary VOC metabolites and oxidative DNA markers co-vary over days in repeated samples [eia-qian2021].",
+    "days": [
+     0.5,
+     3
+    ]
+   },
+   "full": {
+    "text": "New-home VOC concentrations were highest at first occupancy and declined over a year of monthly sampling [eia-yamaguchi2006].",
+    "days": [
+     30,
+     365
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured for health outcomes; airborne levels fall within hours of removing the source or ventilating, and VOCs are metabolized within hours to days.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Avoid frequent fragranced sprays, candles and incense; ventilate continuously for the first months after new furniture, flooring or paint [eia-yamaguchi2006]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "eia-yamaguchi2006",
+    "eia-qian2021"
+   ]
+  },
+  {
+   "factor": "cleaning-products",
+   "shape": "slow-build",
+   "summary": "The respiratory harm of cleaning sprays accumulates slowly: new asthma over the multi-year ECRHS follow-up [eia-zock2007] and faster lung-function decline over 20 years [eia-svanes2018]. Whether stopping reverses it has not been measured.",
+   "onset": {
+    "text": "Two-year changes in spray and irritant use tracked asthma symptom incidence and deterioration in NutriNet-Sante [eia-pachecodasilva2026]; ECRHS counted new asthma over its multi-year follow-up [eia-zock2007].",
+    "days": [
+     365,
+     730
+    ]
+   },
+   "full": {
+    "text": "Accelerated FEV1 decline was measured across 20 years [eia-svanes2018].",
+    "days": [
+     3650,
+     7300
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "occasional",
+    "text": "Risk rose with frequency: weekly sprays RR 1.49, sprays on 4+ days a week RR 2.11 for diagnosed asthma [eia-zock2007]. Use disinfectants occasionally, for specific need."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "eia-zock2007",
+    "eia-svanes2018",
+    "eia-pachecodasilva2026"
+   ]
+  },
+  {
+   "factor": "house-dust",
+   "shape": "acute",
+   "summary": "Dust-control and hand-washing lower short-lived chemical biomarkers within a week [eia-gibson2019], and replacing old foam lowers dust flame retardants over 6-18 months [eia-rodgers2021]. A tailored allergen programme kept asthma symptoms lower for a year after it ended [eia-morgan2004].",
+   "onset": {
+    "text": "Urinary flame-retardant metabolites fell after one week of cleaning or hand-washing [eia-gibson2019].",
+    "days": [
+     3,
+     7
+    ]
+   },
+   "full": {
+    "text": "Dust flame retardants fell 6-18 months after furniture or foam replacement [eia-rodgers2021]; asthma symptom days were lower during the intervention year [eia-morgan2004].",
+    "days": [
+     180,
+     540
+    ]
+   },
+   "after_stopping": {
+    "text": "Symptom benefit persisted through the year after a tailored home intervention [eia-morgan2004]; for short-lived chemicals, exposure presumably returns within days of stopping (not measured).",
+    "days": [
+     1,
+     365
+    ]
+   },
+   "frequency": {
+    "advice": "weekly",
+    "text": "Wet cleaning weekly and hand-washing before every meal; the trial combined both for a week [eia-gibson2019]."
+   },
+   "basis": "measured",
+   "debate": "Whether dust control changes blood lead at all is contested: education and dust control did not lower blood lead in Cochrane-reviewed trials [eia-nussbaumerstreit2020].",
+   "refs": [
+    "eia-gibson2019",
+    "eia-rodgers2021",
+    "eia-morgan2004",
+    "eia-nussbaumerstreit2020"
+   ]
+  },
+  {
+   "factor": "occupational-solvents",
+   "shape": "build",
+   "summary": "Oxidative markers in exposed workers reflect current exposure [eia-moro2010, eia-li2024pce]; reproductive effects map to the 3 months of sperm production and the periconception weeks.",
+   "onset": {
+    "text": "Not measured as a time course; cross-sectional studies compare current workers [eia-moro2010].",
+    "days": null
+   },
+   "full": {
+    "text": "Extrapolated for sperm: one spermatogenic cycle [eia-heller1964].",
+    "days": [
+     64,
+     90
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured.",
+    "days": null
+   },
+   "frequency": {
+    "advice": "avoid",
+    "text": "Minimise every work shift; exposure assessment in the key study covered the 3 months before the clinic visit [eia-cherry2008]."
+   },
+   "conception": {
+    "sperm": {
+     "start_by_days": 90,
+     "late_start": "Unknown; later stages may still benefit, but no study measured recovery.",
+     "text": "Spermatogenesis takes roughly 64-74 days plus epididymal transit [eia-heller1964], so a change acts fully on sperm ejaculated about 3 months later. The case-referent exposure window was the 3 months before the visit [eia-cherry2008]."
+    },
+    "egg": {
+     "start_by_days": 90,
+     "late_start": "Avoiding exposure in early pregnancy remains important because the miscarriage signal concerns the first trimester [eia-doyle1997].",
+     "text": "Exposure during pregnancy or the 3 months before conception was counted in the dry-cleaning study [eia-doyle1997]."
+    }
+   },
+   "basis": "extrapolated",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "eia-moro2010",
+    "eia-li2024pce",
+    "eia-heller1964",
+    "eia-cherry2008",
+    "eia-doyle1997",
+    "eia-ding2021",
+    "eia-gougeon1986"
+   ]
+  },
+  {
+   "factor": "damp-mould",
+   "shape": "build",
+   "summary": "Living with damp is linked to new asthma over years [eia-quansah2012]; repairing damage and insulating improved wheeze and respiratory symptoms within a winter or two in remediation and insulation trials [eia-sauni2015, eia-howdenchapman2007].",
+   "onset": {
+    "text": "New-onset asthma accrued over the follow-up of cohort studies [eia-quansah2012].",
+    "days": [
+     180,
+     3650
+    ]
+   },
+   "full": {
+    "text": "Insulation reduced wheeze and days off school over one winter [eia-howdenchapman2007]; remediation studies measured symptoms months to years later [eia-sauni2015].",
+    "days": [
+     90,
+     730
+    ]
+   },
+   "after_stopping": {
+    "text": "Not measured precisely; symptoms improved after remediation in before-after studies [eia-sauni2015].",
+    "days": null
+   },
+   "frequency": {
+    "advice": "n/a",
+    "text": "Fix the building; ongoing humidity control and ventilation keep it fixed."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found.",
+   "refs": [
+    "eia-quansah2012",
+    "eia-sauni2015",
+    "eia-howdenchapman2007"
+   ]
+  },
+  {
+   "factor": "radon",
+   "shape": "lasting",
+   "summary": "Radon acts on a decades-long clock: lung cancer risk reflects home exposure 5-34 years earlier [eia-darby2005]. Mitigation lowers indoor radon within days of installing a sub-slab system [eia-groveskirkby2008], but past exposure keeps contributing risk for years.",
+   "onset": {
+    "text": "Risk was estimated from radon in homes lived in 5-34 years before diagnosis [eia-darby2005].",
+    "days": [
+     1825,
+     12410
+    ]
+   },
+   "full": {
+    "text": "Risk keeps rising with cumulative exposure over decades [eia-darby2005, eia-krewski2005].",
+    "days": [
+     3650,
+     12410
+    ]
+   },
+   "after_stopping": {
+    "text": "Extrapolated: excess risk from past exposure fades over decades, not months, since the relevant window extends to 34 years back [eia-darby2005]. Indoor radon itself drops by more than 80% after sub-slab depressurisation in most homes [eia-groveskirkby2008].",
+    "days": [
+     1825,
+     12410
+    ]
+   },
+   "frequency": {
+    "advice": "one-off",
+    "text": "Test once for at least 3 months (retest after renovations); mitigation is a one-off installation that runs continuously [eia-whoradonfs]."
+   },
+   "basis": "measured",
+   "debate": "No substantive published debate on timing found; the dispute is about low-dose risk [eia-cohen1995, eia-puskin2003].",
+   "refs": [
+    "eia-darby2005",
+    "eia-krewski2005",
+    "eia-groveskirkby2008",
+    "eia-whoradonfs",
+    "eia-cohen1995",
+    "eia-puskin2003"
+   ]
+  },
+  {
+   "factor": "ventilation-co2",
+   "shape": "acute",
+   "summary": "Ventilation changes air within hours; in bedroom trials sleep and next-day performance improved within a week of lower CO2 [eia-stromtejsen2016]. Effects vanish when ventilation drops again.",
+   "onset": {
+    "text": "Chamber effects on symptoms and some tasks appeared within a 4-h exposure to reduced ventilation [eia-zhang2017].",
+    "days": [
+     0.1,
+     1
+    ]
+   },
+   "full": {
+    "text": "Sleep quality improved within each 1-week ventilation condition [eia-stromtejsen2016].",
+    "days": [
+     1,
+     7
+    ]
+   },
+   "after_stopping": {
+    "text": "Air quality reverts within hours; no lasting effect expected.",
+    "days": [
+     0.1,
+     1
+    ]
+   },
+   "frequency": {
+    "advice": "daily",
+    "text": "Ventilate every night and while cooking or showering; the benefit follows current air quality [eia-stromtejsen2016]."
+   },
+   "basis": "measured",
+   "debate": "Whether CO2 itself acts within hours is disputed: effects at 1,000 ppm in one chamber study [eia-satish2012] versus none for pure CO2 up to 3,000-5,000 ppm in others [eia-zhang2017, eia-scully2019].",
+   "refs": [
+    "eia-stromtejsen2016",
+    "eia-zhang2017",
+    "eia-satish2012",
+    "eia-scully2019"
+   ]
+  }
+ ]
+}

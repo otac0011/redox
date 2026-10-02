@@ -1,0 +1,2850 @@
+{
+ "references": [
+  {
+   "id": "adiet-nordestgaard2016",
+   "authors": "Nordestgaard AT, Nordestgaard BG",
+   "year": 2016,
+   "title": "Coffee intake, cardiovascular disease and all-cause mortality: observational and Mendelian randomization analyses in 95 000-223 000 individuals",
+   "journal": "Int J Epidemiol",
+   "pmid": "28031317",
+   "doi": "10.1093/ije/dyw325",
+   "type": "cohort",
+   "n": "95,366 Danes observational; up to 223,414 in genetic analyses",
+   "finding": "Coffee intake showed U-shaped observational associations with CVD and mortality, but genetic variants that raise coffee intake by 42% were not associated with ischaemic heart disease, CVD mortality or all-cause mortality (Mendelian randomization), while an ApoE positive control worked."
+  },
+  {
+   "id": "adiet-nordestgaard2022",
+   "authors": "Nordestgaard AT",
+   "year": 2022,
+   "title": "Causal relationship from coffee consumption to diseases and mortality: a review of observational and Mendelian randomization studies including cardiometabolic diseases, cancer, gallstones and other diseases",
+   "journal": "Eur J Nutr",
+   "pmid": "34319429",
+   "doi": "10.1007/s00394-021-02650-9",
+   "type": "review",
+   "n": null,
+   "finding": "Review of observational and Mendelian randomization studies: lower mortality and cardiometabolic disease with high coffee intake in cohorts (HR 0.85-0.90) is not supported as causal by MR; MR supports only a lower gallstone risk and suggests higher colorectal cancer risk."
+  },
+  {
+   "id": "adiet-kim2019",
+   "authors": "Kim Y, Je Y, Giovannucci E",
+   "year": 2019,
+   "title": "Coffee consumption and all-cause and cause-specific mortality: a meta-analysis by potential modifiers",
+   "journal": "Eur J Epidemiol",
+   "pmid": "31055709",
+   "doi": "10.1007/s10654-019-00524-3",
+   "type": "meta-analysis",
+   "n": "40 studies, 3,852,651 participants",
+   "finding": "Non-linear inverse association of coffee with mortality, lowest at 3.5 cups/day (RR 0.85); the association persisted in strata by smoking status, age, weight, alcohol and caffeine content."
+  },
+  {
+   "id": "adiet-zhou2019",
+   "authors": "Zhou A, Hyppönen E",
+   "year": 2019,
+   "title": "Long-term coffee consumption, caffeine metabolism genetics, and risk of cardiovascular disease: a prospective analysis of up to 347,077 individuals and 8368 cases",
+   "journal": "Am J Clin Nutr",
+   "pmid": "30838377",
+   "doi": "10.1093/ajcn/nqy297",
+   "type": "cohort",
+   "n": "347,077 UK Biobank participants",
+   "finding": "Coffee-CVD association was non-linear: compared with 1-2 cups/day, CVD odds were 11% higher in non-drinkers, 7% higher in decaf drinkers and 22% higher above 6 cups/day; CYP1A2 caffeine-metabolism genotype did not modify risk."
+  },
+  {
+   "id": "adiet-liu2022",
+   "authors": "Liu D, Li ZH, Shen D, et al.",
+   "year": 2022,
+   "title": "Association of Sugar-Sweetened, Artificially Sweetened, and Unsweetened Coffee Consumption With All-Cause and Cause-Specific Mortality : A Large Prospective Cohort Study",
+   "journal": "Ann Intern Med",
+   "pmid": "35635846",
+   "doi": "10.7326/M21-2977",
+   "type": "cohort",
+   "n": "171,616 UK Biobank participants",
+   "finding": "Unsweetened and moderately sugar-sweetened coffee were associated with about 16-31% lower mortality versus non-drinkers in a U-shaped pattern, including decaffeinated and instant coffee; a single baseline measure."
+  },
+  {
+   "id": "adiet-marcus2023",
+   "authors": "Marcus GM, Rosenthal DG, Nah G, et al.",
+   "year": 2023,
+   "title": "Acute Effects of Coffee Consumption on Health among Ambulatory Adults",
+   "journal": "N Engl J Med",
+   "pmid": "36947466",
+   "doi": "10.1056/NEJMoa2204737",
+   "type": "rct",
+   "n": "100 adults (randomized n-of-1 crossover)",
+   "finding": "Randomly assigned coffee days did not significantly raise premature atrial contractions (RR 1.09) but increased premature ventricular contractions (RR 1.51) and daily steps (+1,058) and reduced nightly sleep (-36 min) versus caffeine-avoidance days."
+  },
+  {
+   "id": "adiet-poole2017",
+   "authors": "Poole R, Kennedy OJ, Roderick P, et al.",
+   "year": 2017,
+   "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes",
+   "journal": "BMJ",
+   "pmid": "29167102",
+   "doi": "10.1136/bmj.j5024",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Umbrella review: coffee was more often associated with benefit than harm, with the largest relative risk reductions at 3-4 cups/day; almost all evidence was observational and graded low quality."
+  },
+  {
+   "id": "adiet-bakuradze2015",
+   "authors": "Bakuradze T, Lang R, Hofmann T, et al.",
+   "year": 2015,
+   "title": "Consumption of a dark roast coffee decreases the level of spontaneous DNA strand breaks: a randomized controlled trial",
+   "journal": "Eur J Nutr",
+   "pmid": "24740588",
+   "doi": "10.1007/s00394-014-0696-x",
+   "type": "rct",
+   "n": null,
+   "finding": "Four weeks of 750 mL/day dark-roast coffee lowered spontaneous DNA strand breaks in blood cells versus water."
+  },
+  {
+   "id": "adiet-cole2020",
+   "authors": "Cole JB, Florez JC, Hirschhorn JN",
+   "year": 2020,
+   "title": "Comprehensive genomic analysis of dietary habits in UK Biobank identifies hundreds of genetic associations",
+   "journal": "Nat Commun",
+   "pmid": "32193382",
+   "doi": "10.1038/s41467-020-15193-0",
+   "type": "cohort",
+   "n": "UK Biobank genome-wide analysis",
+   "finding": "GWAS of 85 food-frequency items found 814 loci, many tied to taste, smell and education; MR suggested the top 'healthy' pattern (wholemeal vs white bread) is driven by education-correlated factors and is not strongly causal for coronary disease or diabetes."
+  },
+  {
+   "id": "adiet-inouechoi2022",
+   "authors": "Inoue-Choi M, Ramirez Y, Cornelis MC, et al.",
+   "year": 2022,
+   "title": "Tea Consumption and All-Cause and Cause-Specific Mortality in the UK Biobank : A Prospective Cohort Study",
+   "journal": "Ann Intern Med",
+   "pmid": "36037472",
+   "doi": "10.7326/M22-0041",
+   "type": "cohort",
+   "n": null,
+   "finding": "Drinking 2 or more cups of (mostly black) tea a day was associated with modestly lower all-cause mortality; observational, single baseline report."
+  },
+  {
+   "id": "adiet-hakim2003",
+   "authors": "Hakim IA, Harris RB, Brown S, et al.",
+   "year": 2003,
+   "title": "Effect of increased tea consumption on oxidative DNA damage among smokers: a randomized controlled study",
+   "journal": "J Nutr",
+   "pmid": "14519830",
+   "doi": "10.1093/jn/133.10.3303S",
+   "type": "rct",
+   "n": null,
+   "finding": "Four months of 4 cups/day decaffeinated green tea lowered urinary 8-OHdG in smokers; black tea had no effect."
+  },
+  {
+   "id": "adiet-lagou2025",
+   "authors": "Lagou V, Greyling A, Ferruzzi MG, et al.",
+   "year": 2025,
+   "title": "Impact of flavan-3-ols on blood pressure and endothelial function in diverse populations: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Eur J Prev Cardiol",
+   "pmid": "40126033",
+   "doi": "10.1093/eurjpc/zwaf173",
+   "type": "meta-analysis",
+   "n": "145 RCTs",
+   "finding": "Flavan-3-ol interventions (cocoa, tea, apple, grape) lowered office blood pressure (about -2.8 mmHg systolic) and improved flow-mediated dilation."
+  },
+  {
+   "id": "adiet-johnston2019",
+   "authors": "Johnston BC, Zeraatkar D, Han MA, et al.",
+   "year": 2019,
+   "title": "Unprocessed Red Meat and Processed Meat Consumption: Dietary Guideline Recommendations From the Nutritional Recommendations (NutriRECS) Consortium",
+   "journal": "Ann Intern Med",
+   "pmid": "31569235",
+   "doi": "10.7326/M19-1621",
+   "type": "guideline",
+   "n": null,
+   "finding": "NutriRECS panel issued a weak recommendation that adults continue current unprocessed red and processed meat intake, judging the evidence of harm to be of low certainty and the absolute effects small; the article was later corrected."
+  },
+  {
+   "id": "adiet-zeraatkar2019",
+   "authors": "Zeraatkar D, Han MA, Guyatt GH, et al.",
+   "year": 2019,
+   "title": "Red and Processed Meat Consumption and Risk for All-Cause Mortality and Cardiometabolic Outcomes: A Systematic Review and Meta-analysis of Cohort Studies",
+   "journal": "Ann Intern Med",
+   "pmid": "31569213",
+   "doi": "10.7326/M19-0655",
+   "type": "meta-analysis",
+   "n": "55 cohorts, >4 million participants",
+   "finding": "Low-certainty evidence that cutting red or processed meat by 3 servings/week is associated with very small reductions in mortality, cardiovascular disease and type 2 diabetes."
+  },
+  {
+   "id": "adiet-qian2020",
+   "authors": "Qian F, Riddle MC, Wylie-Rosett J, et al.",
+   "year": 2020,
+   "title": "Red and Processed Meats and Health Risks: How Strong Is the Evidence?",
+   "journal": "Diabetes Care",
+   "pmid": "31959642",
+   "doi": "10.2337/dci19-0063",
+   "type": "review",
+   "n": null,
+   "finding": "Critique of NutriRECS: GRADE criteria designed for drug trials are inappropriate for diet; under NutriGRADE the evidence linking red/processed meat to type 2 diabetes is high quality and to mortality moderate; replacement foods matter."
+  },
+  {
+   "id": "adiet-lescinsky2022",
+   "authors": "Lescinsky H, Afshin A, Ashbaugh C, et al.",
+   "year": 2022,
+   "title": "Health effects associated with consumption of unprocessed red meat: a Burden of Proof study",
+   "journal": "Nat Med",
+   "pmid": "36216940",
+   "doi": "10.1038/s41591-022-01968-z",
+   "type": "meta-analysis",
+   "n": "systematic review, 6 outcomes",
+   "finding": "Burden of Proof analysis found only weak evidence linking unprocessed red meat with colorectal cancer, breast cancer, type 2 diabetes and ischaemic heart disease, and no evidence for stroke; the lowest-risk intake range spanned 0-200 g/day once heterogeneity was included."
+  },
+  {
+   "id": "adiet-haile2025",
+   "authors": "Haile D, Harding KL, McLaughlin SA, et al.",
+   "year": 2025,
+   "title": "Health effects associated with consumption of processed meat, sugar-sweetened beverages and trans fatty acids: a Burden of Proof study",
+   "journal": "Nat Med",
+   "pmid": "40588677",
+   "doi": "10.1038/s41591-025-03775-8",
+   "type": "meta-analysis",
+   "n": "systematic review and meta-regression",
+   "finding": "Burden of Proof: processed meat was conservatively associated with at least 11% higher type 2 diabetes and 7% higher colorectal cancer risk, SSBs with at least 8% higher diabetes risk, and trans fat with at least 3% higher IHD risk; all rated two stars (weak or inconsistent evidence)."
+  },
+  {
+   "id": "adiet-alshaar2020",
+   "authors": "Al-Shaar L, Satija A, Wang DD, et al.",
+   "year": 2020,
+   "title": "Red meat intake and risk of coronary heart disease among US men: prospective cohort study",
+   "journal": "BMJ",
+   "pmid": "33268459",
+   "doi": "10.1136/bmj.m4141",
+   "type": "cohort",
+   "n": "43,272 US men",
+   "finding": "Each daily serving of red meat was associated with 11-15% higher CHD risk; substituting nuts, legumes or soy for red meat was associated with 13-17% lower CHD risk."
+  },
+  {
+   "id": "adiet-bouvard2015",
+   "authors": "Bouvard V, Loomis D, Guyton KZ, et al.",
+   "year": 2015,
+   "title": "Carcinogenicity of consumption of red and processed meat",
+   "journal": "Lancet Oncol",
+   "pmid": "26514947",
+   "doi": "10.1016/S1470-2045(15)00444-1",
+   "type": "guideline",
+   "n": null,
+   "finding": "IARC classified processed meat as carcinogenic to humans (Group 1) and red meat as probably carcinogenic (Group 2A), mainly for colorectal cancer; about 18% higher risk per 50 g/day processed meat."
+  },
+  {
+   "id": "adiet-bastide2011",
+   "authors": "Bastide NM, Pierre FH, Corpet DE",
+   "year": 2011,
+   "title": "Heme iron from meat and risk of colorectal cancer: a meta-analysis and a review of the mechanisms involved",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21209396",
+   "doi": "10.1158/1940-6207.CAPR-10-0113",
+   "type": "meta-analysis",
+   "n": "566,607 individuals, 4,734 cases",
+   "finding": "Highest versus lowest haem iron intake was associated with an 18% higher colon cancer risk; reviews lipid peroxidation and N-nitroso mechanisms."
+  },
+  {
+   "id": "adiet-afeiche2014a",
+   "authors": "Afeiche MC, Gaskins AJ, Williams PL, et al.",
+   "year": 2014,
+   "title": "Processed meat intake is unfavorably and fish intake favorably associated with semen quality indicators among men attending a fertility clinic",
+   "journal": "J Nutr",
+   "pmid": "24850626",
+   "doi": "10.3945/jn.113.190173",
+   "type": "cohort",
+   "n": "155 men at a fertility clinic",
+   "finding": "Processed meat intake was associated with fewer morphologically normal sperm and fish intake with higher counts."
+  },
+  {
+   "id": "adiet-afeiche2014b",
+   "authors": "Afeiche MC, Williams PL, Gaskins AJ, et al.",
+   "year": 2014,
+   "title": "Meat intake and reproductive parameters among young men",
+   "journal": "Epidemiology",
+   "pmid": "24681577",
+   "doi": "10.1097/EDE.0000000000000092",
+   "type": "cross-sectional",
+   "n": "189 young men",
+   "finding": "Processed meat intake was inversely associated with total sperm count; unprocessed red meat showed no association."
+  },
+  {
+   "id": "adiet-liu2022b",
+   "authors": "Liu YS, Zhang YX, Wang XB, et al.",
+   "year": 2022,
+   "title": "Associations between Meat and Vegetable Intake, Cooking Methods, and Asthenozoospermia: A Hospital-Based Case-Control Study in China",
+   "journal": "Nutrients",
+   "pmid": "35565922",
+   "doi": "10.3390/nu14091956",
+   "type": "case-control",
+   "n": "552 cases, 585 controls",
+   "finding": "Higher unprocessed meat and vegetable intake, and some cooking methods, were associated with lower odds of asthenozoospermia."
+  },
+  {
+   "id": "adiet-ioannidis2018",
+   "authors": "Ioannidis JPA",
+   "year": 2018,
+   "title": "The Challenge of Reforming Nutritional Epidemiologic Research",
+   "journal": "JAMA",
+   "pmid": "30422271",
+   "doi": "10.1001/jama.2018.11025",
+   "type": "review",
+   "n": null,
+   "finding": "Viewpoint arguing that nutritional epidemiology relies on unreliable self-report, finds implausibly large effects and needs radical reform."
+  },
+  {
+   "id": "adiet-satija2015",
+   "authors": "Satija A, Yu E, Willett WC, et al.",
+   "year": 2015,
+   "title": "Understanding nutritional epidemiology and its role in policy",
+   "journal": "Adv Nutr",
+   "pmid": "25593140",
+   "doi": "10.3945/an.114.007492",
+   "type": "review",
+   "n": null,
+   "finding": "Defends nutritional epidemiology: criticisms often misapply the drug-trial paradigm; diet is a complex, long-term exposure that cohorts with repeated measures and biomarkers can study."
+  },
+  {
+   "id": "adiet-schoenfeld2013",
+   "authors": "Schoenfeld JD, Ioannidis JP",
+   "year": 2013,
+   "title": "Is everything we eat associated with cancer? A systematic cookbook review",
+   "journal": "Am J Clin Nutr",
+   "pmid": "23193004",
+   "doi": "10.3945/ajcn.112.047142",
+   "type": "meta-analysis",
+   "n": "50 ingredients, 264 single-study estimates",
+   "finding": "Of 50 random cookbook ingredients, 80% had studies linking them to cancer risk; single studies reported implausibly large effects that shrank to a median RR of 0.96 in meta-analyses."
+  },
+  {
+   "id": "adiet-trepanowski2018",
+   "authors": "Trepanowski JF, Ioannidis JPA",
+   "year": 2018,
+   "title": "Perspective: Limiting Dependence on Nonrandomized Studies and Improving Randomized Trials in Human Nutrition Research: Why and How",
+   "journal": "Adv Nutr",
+   "pmid": "30032218",
+   "doi": "10.1093/advances/nmy014",
+   "type": "review",
+   "n": null,
+   "finding": "Argues tiny effect sizes, massive confounding and measurement error make observational nutrition research unreliable and calls for large, long, streamlined randomized trials."
+  },
+  {
+   "id": "adiet-ramsden2010",
+   "authors": "Ramsden CE, Hibbeln JR, Majchrzak SF, et al.",
+   "year": 2010,
+   "title": "n-6 fatty acid-specific and mixed polyunsaturate dietary interventions have different effects on CHD risk: a meta-analysis of randomised controlled trials",
+   "journal": "Br J Nutr",
+   "pmid": "21118617",
+   "doi": "10.1017/S0007114510004010",
+   "type": "meta-analysis",
+   "n": "8 RCT datasets",
+   "finding": "Trials that raised linoleic acid specifically (n-6 only) showed a non-significant 13% higher risk of MI or CHD death, versus 22% lower risk in mixed n-3/n-6 trials; trans fat displacement confounded older trials."
+  },
+  {
+   "id": "adiet-ramsden2013",
+   "authors": "Ramsden CE, Zamora D, Leelarthaepin B, et al.",
+   "year": 2013,
+   "title": "Use of dietary linoleic acid for secondary prevention of coronary heart disease and death: evaluation of recovered data from the Sydney Diet Heart Study and updated meta-analysis",
+   "journal": "BMJ",
+   "pmid": "23386268",
+   "doi": "10.1136/bmj.e8707",
+   "type": "rct",
+   "n": "458 men after coronary event",
+   "finding": "Recovered Sydney Diet Heart data: replacing saturated fat with safflower oil (linoleic acid) increased all-cause death (HR 1.62), CVD and CHD death."
+  },
+  {
+   "id": "adiet-ramsden2016",
+   "authors": "Ramsden CE, Zamora D, Majchrzak-Hong S, et al.",
+   "year": 2016,
+   "title": "Re-evaluation of the traditional diet-heart hypothesis: analysis of recovered data from Minnesota Coronary Experiment (1968-73)",
+   "journal": "BMJ",
+   "pmid": "27071971",
+   "doi": "10.1136/bmj.i1246",
+   "type": "rct",
+   "n": null,
+   "finding": "Recovered Minnesota Coronary Experiment data: linoleic-acid-rich diet lowered cholesterol 13.8% but gave no mortality benefit, and each 30 mg/dL fall in cholesterol was associated with 22% higher death risk."
+  },
+  {
+   "id": "adiet-hooper2018",
+   "authors": "Hooper L, Al-Khudairy L, Abdelhamid AS, et al.",
+   "year": 2018,
+   "title": "Omega-6 fats for the primary and secondary prevention of cardiovascular disease",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "30488422",
+   "doi": "10.1002/14651858.CD011094.pub4",
+   "type": "meta-analysis",
+   "n": "19 RCTs, 6,461 participants",
+   "finding": "Cochrane: increasing omega-6 fats probably makes little or no difference to all-cause mortality (RR 1.00) or CVD events (RR 0.97); low- to very-low-quality evidence."
+  },
+  {
+   "id": "adiet-hooper2020",
+   "authors": "Hooper L, Martin N, Jimoh OF, et al.",
+   "year": 2020,
+   "title": "Reduction in saturated fat intake for cardiovascular disease",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "32827219",
+   "doi": "10.1002/14651858.CD011737.pub3",
+   "type": "meta-analysis",
+   "n": "15 RCTs, 56,675 participants",
+   "finding": "Cochrane: reducing saturated fat for at least 2 years lowered combined cardiovascular events by about 17%, with benefit greater when replaced by polyunsaturated fat."
+  },
+  {
+   "id": "adiet-li2020",
+   "authors": "Li J, Guasch-Ferré M, Li Y, et al.",
+   "year": 2020,
+   "title": "Dietary intake and biomarkers of linoleic acid and mortality: systematic review and meta-analysis of prospective cohort studies",
+   "journal": "Am J Clin Nutr",
+   "pmid": "32020162",
+   "doi": "10.1093/ajcn/nqz349",
+   "type": "meta-analysis",
+   "n": "44 cohorts, 811,069 participants",
+   "finding": "Highest versus lowest linoleic acid intake was associated with 13% lower total and CVD mortality; each SD of tissue/blood LA with 9-11% lower mortality."
+  },
+  {
+   "id": "adiet-marklund2019",
+   "authors": "Marklund M, Wu JHY, Imamura F, et al.",
+   "year": 2019,
+   "title": "Biomarkers of Dietary Omega-6 Fatty Acids and Incident Cardiovascular Disease and Mortality",
+   "journal": "Circulation",
+   "pmid": "30971107",
+   "doi": "10.1161/CIRCULATIONAHA.118.038908",
+   "type": "cohort",
+   "n": "68,659 participants",
+   "finding": "Higher blood linoleic acid was associated with lower total CVD, CVD mortality and ischaemic stroke; arachidonic acid was neutral."
+  },
+  {
+   "id": "adiet-wu2017",
+   "authors": "Wu JHY, Marklund M, Imamura F, et al.",
+   "year": 2017,
+   "title": "Omega-6 fatty acid biomarkers and incident type 2 diabetes: pooled analysis of individual-level data for 39 740 adults from 20 prospective cohort studies",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "29032079",
+   "doi": "10.1016/S2213-8587(17)30307-8",
+   "type": "cohort",
+   "n": "20 cohorts, 39,740 adults (FORCE pooled)",
+   "finding": "Higher linoleic acid biomarkers were associated with 35% lower risk of type 2 diabetes per interquintile range; arachidonic acid was neutral."
+  },
+  {
+   "id": "adiet-borges2022",
+   "authors": "Borges MC, Haycock PC, Zheng J, et al.",
+   "year": 2022,
+   "title": "Role of circulating polyunsaturated fatty acids on cardiovascular diseases risk: analysis using Mendelian randomization and fatty acid genetic association data from over 114,000 UK Biobank participants",
+   "journal": "BMC Med",
+   "pmid": "35692035",
+   "doi": "10.1186/s12916-022-02399-w",
+   "type": "cohort",
+   "n": "GWAS of 114,999 UK Biobank participants + MR",
+   "finding": "Mendelian randomization did not support a protective effect of genetically higher circulating linoleic acid or omega-3 on cardiovascular disease; estimates for LA were inconsistent and pleiotropy via lipoproteins (FADS locus) is a likely bias."
+  },
+  {
+   "id": "adiet-yuan2019",
+   "authors": "Yuan S, Bäck M, Bruzelius M, et al.",
+   "year": 2019,
+   "title": "Plasma Phospholipid Fatty Acids, FADS1 and Risk of 15 Cardiovascular Diseases: A Mendelian Randomisation Study",
+   "journal": "Nutrients",
+   "pmid": "31817859",
+   "doi": "10.3390/nu11123001",
+   "type": "cohort",
+   "n": "consortia summary data",
+   "finding": "MR: genetically higher plasma linoleic, alpha-linolenic and oleic acid were associated with lower large-artery stroke and venous thromboembolism, but signals were driven by the pleiotropic FADS1 locus."
+  },
+  {
+   "id": "adiet-zhang2024",
+   "authors": "Zhang Y, Sun Y, Yu Q, et al.",
+   "year": 2024,
+   "title": "Higher ratio of plasma omega-6/omega-3 fatty acids is associated with greater risk of all-cause, cancer, and cardiovascular mortality: A population-based cohort study in UK Biobank",
+   "journal": "Elife",
+   "pmid": "38578269",
+   "doi": "10.7554/eLife.90132",
+   "type": "cohort",
+   "n": "85,425 UK Biobank participants",
+   "finding": "Higher plasma omega-6/omega-3 ratio was associated with higher mortality, but both plasma omega-6 and omega-3 levels were individually associated with lower all-cause, cancer and CVD mortality."
+  },
+  {
+   "id": "adiet-sacks2017",
+   "authors": "Sacks FM, Lichtenstein AH, Wu JHY, et al.",
+   "year": 2017,
+   "title": "Dietary Fats and Cardiovascular Disease: A Presidential Advisory From the American Heart Association",
+   "journal": "Circulation",
+   "pmid": "28620111",
+   "doi": "10.1161/CIR.0000000000000510",
+   "type": "guideline",
+   "n": null,
+   "finding": "AHA advisory: replacing saturated fat with polyunsaturated vegetable oil lowers CVD by about 30% in core trials; criticises Sydney (trans-fat margarine) and Minnesota (short, high turnover) trials."
+  },
+  {
+   "id": "adiet-estruch2018",
+   "authors": "Estruch R, Ros E, Salas-Salvadó J, et al.",
+   "year": 2018,
+   "title": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts",
+   "journal": "N Engl J Med",
+   "pmid": "29897866",
+   "doi": "10.1056/NEJMoa1800389",
+   "type": "rct",
+   "n": "7,447 high-risk adults",
+   "finding": "Republished PREDIMED: Mediterranean diet with EVOO (HR 0.69) or nuts (HR 0.72) reduced major CVD events versus low-fat advice; results similar after excluding 1,588 participants with protocol deviations."
+  },
+  {
+   "id": "adiet-estruch2018r",
+   "authors": "Estruch R, Ros E, Salas-Salvadó J, et al.",
+   "year": 2018,
+   "title": "Retraction and Republication: Primary Prevention of Cardiovascular Disease with a Mediterranean Diet. N Engl J Med 2013;368:1279-90",
+   "journal": "N Engl J Med",
+   "pmid": "29897867",
+   "doi": "10.1056/NEJMc1806491",
+   "type": "guideline",
+   "n": null,
+   "finding": "NEJM retraction and republication notice for the 2013 PREDIMED report after non-random allocation of household members and at two of 11 sites."
+  },
+  {
+   "id": "adiet-agarwal2019",
+   "authors": "Agarwal A, Ioannidis JPA",
+   "year": 2019,
+   "title": "PREDIMED trial of Mediterranean diet: retracted, republished, still trusted?",
+   "journal": "BMJ",
+   "pmid": "30733217",
+   "doi": "10.1136/bmj.l341",
+   "type": "review",
+   "n": null,
+   "finding": "BMJ analysis questioning whether the retracted and republished PREDIMED trial should still be trusted as randomized evidence."
+  },
+  {
+   "id": "adiet-delgadolista2022",
+   "authors": "Delgado-Lista J, Alcala-Diaz JF, Torres-Peña JD, et al.",
+   "year": 2022,
+   "title": "Long-term secondary prevention of cardiovascular disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial",
+   "journal": "Lancet",
+   "pmid": "35525255",
+   "doi": "10.1016/S0140-6736(22)00122-2",
+   "type": "rct",
+   "n": "1,002 patients with coronary heart disease",
+   "finding": "CORDIOPREV: over 7 years a Mediterranean diet reduced major cardiovascular events versus a low-fat diet (adjusted HR about 0.72-0.75), mainly in men."
+  },
+  {
+   "id": "adiet-delorgeril1999",
+   "authors": "de Lorgeril M, Salen P, Martin JL, et al.",
+   "year": 1999,
+   "title": "Mediterranean diet, traditional risk factors, and the rate of cardiovascular complications after myocardial infarction: final report of the Lyon Diet Heart Study",
+   "journal": "Circulation",
+   "pmid": "9989963",
+   "doi": "10.1161/01.cir.99.6.779",
+   "type": "rct",
+   "n": "605 post-MI patients",
+   "finding": "Lyon Diet Heart Study final report: Mediterranean-type diet reduced cardiac death and non-fatal MI (14 vs 44 events) over 46 months."
+  },
+  {
+   "id": "adiet-rees2019",
+   "authors": "Rees K, Takeda A, Martin N, et al.",
+   "year": 2019,
+   "title": "Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "30864165",
+   "doi": "10.1002/14651858.CD009825.pub3",
+   "type": "meta-analysis",
+   "n": "30 RCTs, 12,461 participants",
+   "finding": "Cochrane: low-quality evidence of little or no effect of PREDIMED on CVD mortality or total mortality but fewer strokes; Lyon trial suggested benefit; two trials excluded for data-reliability concerns; overall uncertainty remains."
+  },
+  {
+   "id": "adiet-singh2002",
+   "authors": "Singh RB, Dubnov G, Niaz MA, et al.",
+   "year": 2002,
+   "title": "Effect of an Indo-Mediterranean diet on progression of coronary artery disease in high risk patients (Indo-Mediterranean Diet Heart Study): a randomised single-blind trial",
+   "journal": "Lancet",
+   "pmid": "12433513",
+   "doi": "10.1016/S0140-6736(02)11472-3",
+   "type": "rct",
+   "n": "1,000 patients",
+   "finding": "Indo-Mediterranean Diet Heart Study reported large cardiac benefits; PubMed links a 2005 Lancet expression of concern about the data."
+  },
+  {
+   "id": "adiet-guaschferre2022",
+   "authors": "Guasch-Ferré M, Li Y, Willett WC, et al.",
+   "year": 2022,
+   "title": "Consumption of Olive Oil and Risk of Total and Cause-Specific Mortality Among U.S. Adults",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "35027106",
+   "doi": "10.1016/j.jacc.2021.10.041",
+   "type": "cohort",
+   "n": "92,383 US adults",
+   "finding": "Olive oil >7 g/day was associated with 19% lower total mortality versus rarely, but not when compared with other vegetable oils combined."
+  },
+  {
+   "id": "adiet-covas2006",
+   "authors": "Covas MI, Nyyssönen K, Poulsen HE, et al.",
+   "year": 2006,
+   "title": "The effect of polyphenols in olive oil on heart disease risk factors: a randomized trial",
+   "journal": "Ann Intern Med",
+   "pmid": "16954359",
+   "doi": "10.7326/0003-4819-145-5-200609050-00006",
+   "type": "rct",
+   "n": null,
+   "finding": "EUROLIVE: olive oils with higher phenolic content raised HDL and lowered oxidized LDL in a dose-dependent way at 25 mL/day."
+  },
+  {
+   "id": "adiet-sarapis2022",
+   "authors": "Sarapis K, George ES, Marx W, et al.",
+   "year": 2022,
+   "title": "Extra virgin olive oil high in polyphenols improves antioxidant status in adults: a double-blind, randomized, controlled, cross-over study (OLIVAUS)",
+   "journal": "Eur J Nutr",
+   "pmid": "34716791",
+   "doi": "10.1007/s00394-021-02712-y",
+   "type": "rct",
+   "n": "50 adults (crossover)",
+   "finding": "OLIVAUS: high- vs low-polyphenol EVOO for 3 weeks improved antioxidant status, with modest and partly within-arm effects on oxidized LDL."
+  },
+  {
+   "id": "adiet-caruso2020",
+   "authors": "Caruso P, Caputo M, Cirillo P, et al.",
+   "year": 2020,
+   "title": "Effects of Mediterranean diet on semen parameters in healthy young adults: a randomized controlled trial",
+   "journal": "Minerva Endocrinol",
+   "pmid": "33478205",
+   "doi": "10.23736/S0391-1977.20.03362-3",
+   "type": "rct",
+   "n": "160 healthy young men",
+   "finding": "Six months of Mediterranean diet versus low-fat diet modestly increased sperm concentration and total count; other parameters unchanged."
+  },
+  {
+   "id": "adiet-ghasemi2025",
+   "authors": "Ghasemi A, Jaladat AM, Sharifi MH, et al.",
+   "year": 2025,
+   "title": "The effects of mediterranean and Persian diet on sexual function and semen parameters quality among infertile men: a randomized controlled trial",
+   "journal": "Sci Rep",
+   "pmid": "40593139",
+   "doi": "10.1038/s41598-025-98985-y",
+   "type": "rct",
+   "n": "159 men with oligoasthenospermia",
+   "finding": "Two months of a Mediterranean diet improved sperm count, motility and morphology versus control in a single-blind Iranian trial."
+  },
+  {
+   "id": "adiet-agarwalr2025",
+   "authors": "Agarwal R, Salas-Salvadó J, Davila-Cordova E, et al.",
+   "year": 2025,
+   "title": "Mediterranean Diet, Semen Quality, and Medically Assisted Reproductive Outcomes in the Male Population: A Systematic Review and Meta-Analysis",
+   "journal": "Adv Nutr",
+   "pmid": "40419219",
+   "doi": "10.1016/j.advnut.2025.100454",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Meta-analysis (mostly observational) linking higher Mediterranean-diet adherence to better sperm count and motility; heterogeneity high."
+  },
+  {
+   "id": "adiet-muffone2023",
+   "authors": "Muffone ARMC, de Oliveira Lübke PDP, Rabito EI",
+   "year": 2023,
+   "title": "Mediterranean diet and infertility: a systematic review with meta-analysis of cohort studies",
+   "journal": "Nutr Rev",
+   "pmid": "36346903",
+   "doi": "10.1093/nutrit/nuac087",
+   "type": "meta-analysis",
+   "n": "cohort studies",
+   "finding": "Meta-analysis of cohorts found the evidence linking Mediterranean diet with fertility outcomes insufficient for clinical recommendations."
+  },
+  {
+   "id": "adiet-karayiannis2018",
+   "authors": "Karayiannis D, Kontogianni MD, Mendorou C, et al.",
+   "year": 2018,
+   "title": "Adherence to the Mediterranean diet and IVF success rate among non-obese women attempting fertility",
+   "journal": "Hum Reprod",
+   "pmid": "29390148",
+   "doi": "10.1093/humrep/dey003",
+   "type": "cohort",
+   "n": null,
+   "finding": "Lowest vs highest Mediterranean-diet adherence associated with lower clinical pregnancy and live birth in women under 35."
+  },
+  {
+   "id": "adiet-barnes2023",
+   "authors": "Barnes LL, Dhana K, Liu X, et al.",
+   "year": 2023,
+   "title": "Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons",
+   "journal": "N Engl J Med",
+   "pmid": "37466280",
+   "doi": "10.1056/NEJMoa2302368",
+   "type": "rct",
+   "n": null,
+   "finding": "MIND diet vs control diet with mild calorie restriction for 3 years gave no significant difference in cognition or brain MRI."
+  },
+  {
+   "id": "adiet-wang2021",
+   "authors": "Wang DD, Li Y, Bhupathiraju SN, et al.",
+   "year": 2021,
+   "title": "Fruit and Vegetable Intake and Mortality: Results From 2 Prospective Cohort Studies of US Men and Women and a Meta-Analysis of 26 Cohort Studies",
+   "journal": "Circulation",
+   "pmid": "33641343",
+   "doi": "10.1161/CIRCULATIONAHA.120.048996",
+   "type": "meta-analysis",
+   "n": "2 US cohorts (108,735) + 26 cohorts (1.9 million)",
+   "finding": "Fruit and vegetable intake was associated with lower mortality up to about 5 servings/day (HR 0.87 vs 2 servings), with no further reduction above that; starchy vegetables, juices and potatoes were not associated with benefit."
+  },
+  {
+   "id": "adiet-aune2017",
+   "authors": "Aune D, Giovannucci E, Boffetta P, et al.",
+   "year": 2017,
+   "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies",
+   "journal": "Int J Epidemiol",
+   "pmid": "28338764",
+   "doi": "10.1093/ije/dyw319",
+   "type": "meta-analysis",
+   "n": "95 cohort studies",
+   "finding": "Fruit and vegetable intake associated with lower CVD and mortality, down to about 800 g/day."
+  },
+  {
+   "id": "adiet-moller2003",
+   "authors": "Møller P, Vogel U, Pedersen A, et al.",
+   "year": 2003,
+   "title": "No effect of 600 grams fruit and vegetables per day on oxidative DNA damage and repair in healthy nonsmokers",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "14578137",
+   "doi": null,
+   "type": "rct",
+   "n": null,
+   "finding": "600 g/day fruit and vegetables for 24 days did not change oxidative DNA damage or repair."
+  },
+  {
+   "id": "adiet-chiu2016",
+   "authors": "Chiu YH, Gaskins AJ, Williams PL, et al.",
+   "year": 2016,
+   "title": "Intake of Fruits and Vegetables with Low-to-Moderate Pesticide Residues Is Positively Associated with Semen-Quality Parameters among Young Healthy Men",
+   "journal": "J Nutr",
+   "pmid": "27075904",
+   "doi": "10.3945/jn.115.226563",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Low-to-moderate pesticide-residue produce was associated with higher sperm count; total produce intake was not."
+  },
+  {
+   "id": "adiet-kelly2017",
+   "authors": "Kelly SA, Hartley L, Loveman E, et al.",
+   "year": 2017,
+   "title": "Whole grain cereals for the primary or secondary prevention of cardiovascular disease",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "28836672",
+   "doi": "10.1002/14651858.CD005051.pub3",
+   "type": "meta-analysis",
+   "n": "9 RCTs, 1,414 participants",
+   "finding": "Cochrane: no RCT reported cardiovascular events; trials of up to 16 weeks found no difference in total cholesterol and insufficient evidence on blood pressure; low-quality evidence and partial cereal-industry funding."
+  },
+  {
+   "id": "adiet-aune2016",
+   "authors": "Aune D, Keum N, Giovannucci E, et al.",
+   "year": 2016,
+   "title": "Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies",
+   "journal": "BMJ",
+   "pmid": "27301975",
+   "doi": "10.1136/bmj.i2716",
+   "type": "meta-analysis",
+   "n": "45 cohort studies",
+   "finding": "Each 90 g/day of whole grain was associated with 19% lower CHD and 17% lower all-cause mortality."
+  },
+  {
+   "id": "adiet-reynolds2019",
+   "authors": "Reynolds A, Mann J, Cummings J, et al.",
+   "year": 2019,
+   "title": "Carbohydrate quality and human health: a series of systematic reviews and meta-analyses",
+   "journal": "Lancet",
+   "pmid": "30638909",
+   "doi": "10.1016/S0140-6736(18)31809-9",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Fibre intakes of 25-29 g/day were associated with 15-30% lower mortality and cardiometabolic disease; trials showed lower body weight, blood pressure and cholesterol with higher fibre."
+  },
+  {
+   "id": "adiet-zargarzadeh2023",
+   "authors": "Zargarzadeh N, Mousavi SM, Santos HO, et al.",
+   "year": 2023,
+   "title": "Legume Consumption and Risk of All-Cause and Cause-Specific Mortality: A Systematic Review and Dose-Response Meta-Analysis of Prospective Studies",
+   "journal": "Adv Nutr",
+   "pmid": "36811595",
+   "doi": "10.1016/j.advnut.2022.10.009",
+   "type": "meta-analysis",
+   "n": "32 cohorts, 1.14 million participants",
+   "finding": "Higher legume intake was associated with 6% lower all-cause mortality and lower stroke mortality but not CVD, CHD or cancer mortality; low-to-moderate certainty."
+  },
+  {
+   "id": "adiet-reed2021",
+   "authors": "Reed KE, Camargo J, Hamilton-Reeves J, et al.",
+   "year": 2021,
+   "title": "Neither soy nor isoflavone intake affects male reproductive hormones: An expanded and updated meta-analysis of clinical studies",
+   "journal": "Reprod Toxicol",
+   "pmid": "33383165",
+   "doi": "10.1016/j.reprotox.2020.12.019",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Neither soy nor isoflavone intake affected testosterone, free testosterone, estradiol or oestrone in men."
+  },
+  {
+   "id": "adiet-vanegas2015",
+   "authors": "Vanegas JC, Afeiche MC, Gaskins AJ, et al.",
+   "year": 2015,
+   "title": "Soy food intake and treatment outcomes of women undergoing assisted reproductive technology",
+   "journal": "Fertil Steril",
+   "pmid": "25577465",
+   "doi": "10.1016/j.fertnstert.2014.12.104",
+   "type": "cohort",
+   "n": null,
+   "finding": "Higher soy isoflavone intake was associated with higher live birth rates in a fertility-clinic cohort."
+  },
+  {
+   "id": "adiet-seidelmann2018",
+   "authors": "Seidelmann SB, Claggett B, Cheng S, et al.",
+   "year": 2018,
+   "title": "Dietary carbohydrate intake and mortality: a prospective cohort study and meta-analysis",
+   "journal": "Lancet Public Health",
+   "pmid": "30122560",
+   "doi": "10.1016/S2468-2667(18)30135-X",
+   "type": "meta-analysis",
+   "n": "ARIC cohort 15,428 + meta of 432,179",
+   "finding": "U-shaped association of carbohydrate intake with mortality (lowest at 50-55% energy); replacing carbohydrate with animal fat/protein was associated with higher mortality (HR 1.18) and with plant sources lower mortality (HR 0.82)."
+  },
+  {
+   "id": "adiet-shan2020",
+   "authors": "Shan Z, Guo Y, Hu FB, et al.",
+   "year": 2020,
+   "title": "Association of Low-Carbohydrate and Low-Fat Diets With Mortality Among US Adults",
+   "journal": "JAMA Intern Med",
+   "pmid": "31961383",
+   "doi": "10.1001/jamainternmed.2019.6980",
+   "type": "cohort",
+   "n": "NHANES 1999-2014 adults",
+   "finding": "Healthy (plant-based) low-carbohydrate and low-fat diet scores were associated with lower mortality; unhealthy versions with higher mortality."
+  },
+  {
+   "id": "adiet-gardner2018",
+   "authors": "Gardner CD, Trepanowski JF, Del Gobbo LC, et al.",
+   "year": 2018,
+   "title": "Effect of Low-Fat vs Low-Carbohydrate Diet on 12-Month Weight Loss in Overweight Adults and the Association With Genotype Pattern or Insulin Secretion: The DIETFITS Randomized Clinical Trial",
+   "journal": "JAMA",
+   "pmid": "29466592",
+   "doi": "10.1001/jama.2018.0245",
+   "type": "rct",
+   "n": null,
+   "finding": "DIETFITS: healthy low-fat and healthy low-carbohydrate diets produced similar 12-month weight loss."
+  },
+  {
+   "id": "adiet-sotomota2024",
+   "authors": "Soto-Mota A, Flores-Jurado Y, Norwitz NG, et al.",
+   "year": 2024,
+   "title": "Increased low-density lipoprotein cholesterol on a low-carbohydrate diet in adults with normal but not high body weight: A meta-analysis",
+   "journal": "Am J Clin Nutr",
+   "pmid": "38237807",
+   "doi": "10.1016/j.ajcnut.2024.01.009",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "LDL cholesterol rose on low-carbohydrate diets in people with lower BMI and fell in people with high BMI."
+  },
+  {
+   "id": "adiet-hall2021",
+   "authors": "Hall KD, Guo J, Courville AB, et al.",
+   "year": 2021,
+   "title": "Effect of a plant-based, low-fat diet versus an animal-based, ketogenic diet on ad libitum energy intake",
+   "journal": "Nat Med",
+   "pmid": "33479499",
+   "doi": "10.1038/s41591-020-01209-1",
+   "type": "rct",
+   "n": "20 inpatients (crossover)",
+   "finding": "People ate about 690 kcal/day more on an animal-based ketogenic diet than on a plant-based low-fat diet."
+  },
+  {
+   "id": "adiet-liu2022c",
+   "authors": "Liu D, Huang Y, Huang C, et al.",
+   "year": 2022,
+   "title": "Calorie Restriction with or without Time-Restricted Eating in Weight Loss",
+   "journal": "N Engl J Med",
+   "pmid": "35443107",
+   "doi": "10.1056/NEJMoa2114833",
+   "type": "rct",
+   "n": "139 adults with obesity",
+   "finding": "Adding 8-hour time-restricted eating to calorie restriction gave no significant extra weight loss at 12 months."
+  },
+  {
+   "id": "adiet-peters2025",
+   "authors": "Peters B, Schwarz J, Schuppelius B, et al.",
+   "year": 2025,
+   "title": "Intended isocaloric time-restricted eating shifts circadian clocks but does not improve cardiometabolic health in women with overweight",
+   "journal": "Sci Transl Med",
+   "pmid": "41160666",
+   "doi": "10.1126/scitranslmed.adv6787",
+   "type": "rct",
+   "n": "31 women with overweight",
+   "finding": "Intended isocaloric early or late time-restricted eating shifted circadian clocks but did not improve insulin sensitivity or cardiometabolic markers."
+  },
+  {
+   "id": "adiet-templeman2021",
+   "authors": "Templeman I, Smith HA, Chowdhury E, et al.",
+   "year": 2021,
+   "title": "A randomized controlled trial to isolate the effects of fasting and energy restriction on weight loss and metabolic health in lean adults",
+   "journal": "Sci Transl Med",
+   "pmid": "34135111",
+   "doi": "10.1126/scitranslmed.abd8034",
+   "type": "rct",
+   "n": null,
+   "finding": "Alternate-day fasting without energy deficit had no metabolic benefit; with a deficit it lost less fat than daily calorie restriction."
+  },
+  {
+   "id": "adiet-allaf2021",
+   "authors": "Allaf M, Elghazaly H, Mohamed OG, et al.",
+   "year": 2021,
+   "title": "Intermittent fasting for the prevention of cardiovascular disease",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "33512717",
+   "doi": "10.1002/14651858.CD013496.pub2",
+   "type": "meta-analysis",
+   "n": "18 studies, 1,125 participants",
+   "finding": "Cochrane: intermittent fasting beat no intervention for weight loss but differed little from continuous calorie restriction."
+  },
+  {
+   "id": "adiet-semnaniazad2025",
+   "authors": "Semnani-Azad Z, Khan TA, Chiavaroli L, et al.",
+   "year": 2025,
+   "title": "Intermittent fasting strategies and their effects on body weight and other cardiometabolic risk factors: systematic review and network meta-analysis of randomised clinical trials",
+   "journal": "BMJ",
+   "pmid": "40533200",
+   "doi": "10.1136/bmj-2024-082007",
+   "type": "meta-analysis",
+   "n": "99 RCTs, 6,582 adults",
+   "finding": "Network meta-analysis: intermittent fasting and continuous restriction gave similar weight and cardiometabolic changes; alternate-day fasting had a small edge."
+  },
+  {
+   "id": "adiet-hamsho2025",
+   "authors": "Hamsho M, Shkorfu W, Ranneh Y, et al.",
+   "year": 2025,
+   "title": "Is isocaloric intermittent fasting superior to calorie restriction? A systematic review and meta-analysis of RCTs",
+   "journal": "Nutr Metab Cardiovasc Dis",
+   "pmid": "39732588",
+   "doi": "10.1016/j.numecd.2024.103805",
+   "type": "meta-analysis",
+   "n": "20 RCTs",
+   "finding": "Isocaloric intermittent fasting was not superior to calorie restriction overall; some fat-mass and insulin differences, with more hunger and fatigue on IF."
+  },
+  {
+   "id": "adiet-trepanowski2017",
+   "authors": "Trepanowski JF, Kroeger CM, Barnosky A, et al.",
+   "year": 2017,
+   "title": "Effect of Alternate-Day Fasting on Weight Loss, Weight Maintenance, and Cardioprotection Among Metabolically Healthy Obese Adults: A Randomized Clinical Trial",
+   "journal": "JAMA Intern Med",
+   "pmid": "28459931",
+   "doi": "10.1001/jamainternmed.2017.0936",
+   "type": "rct",
+   "n": null,
+   "finding": "Alternate-day fasting produced similar weight loss to daily calorie restriction at 1 year with higher dropout."
+  },
+  {
+   "id": "adiet-chen2025",
+   "authors": "Chen M, Xu L, Van Horn L, et al.",
+   "year": 2025,
+   "title": "Association of eating duration less than 8 h with all-cause, cardiovascular, and cancer mortality",
+   "journal": "Diabetes Metab Syndr",
+   "pmid": "40849219",
+   "doi": "10.1016/j.dsx.2025.103278",
+   "type": "cohort",
+   "n": "19,831 NHANES adults",
+   "finding": "Eating duration under 8 h (from two 24-h recalls) was associated with higher CVD mortality (HR 2.35) but not all-cause mortality, which did not survive sensitivity analyses; authors flag residual confounding."
+  },
+  {
+   "id": "adiet-lin2023",
+   "authors": "Lin S, Cienfuegos S, Ezpeleta M, et al.",
+   "year": 2023,
+   "title": "Time-Restricted Eating Without Calorie Counting for Weight Loss in a Racially Diverse Population : A Randomized Controlled Trial",
+   "journal": "Ann Intern Med",
+   "pmid": "37364268",
+   "doi": "10.7326/M23-0052",
+   "type": "rct",
+   "n": "90 adults with obesity",
+   "finding": "8-hour time-restricted eating without calorie counting gave weight loss similar to calorie counting over 12 months."
+  },
+  {
+   "id": "adiet-manoogian2024",
+   "authors": "Manoogian ENC, Wilkinson MJ, O'Neal M, et al.",
+   "year": 2024,
+   "title": "Time-Restricted Eating in Adults With Metabolic Syndrome : A Randomized Controlled Trial",
+   "journal": "Ann Intern Med",
+   "pmid": "39348690",
+   "doi": "10.7326/M24-0859",
+   "type": "rct",
+   "n": "108 adults with metabolic syndrome",
+   "finding": "Adding time-restricted eating to standard care gave only a small HbA1c reduction (-0.10%)."
+  },
+  {
+   "id": "adiet-sundfor2018",
+   "authors": "Sundfør TM, Svendsen M, Tonstad S",
+   "year": 2018,
+   "title": "Effect of intermittent versus continuous energy restriction on weight loss, maintenance and cardiometabolic risk: A randomized 1-year trial",
+   "journal": "Nutr Metab Cardiovasc Dis",
+   "pmid": "29778565",
+   "doi": "10.1016/j.numecd.2018.03.009",
+   "type": "rct",
+   "n": "112 adults with obesity",
+   "finding": "Intermittent (2 days/week) and continuous energy restriction gave similar weight loss and cardiometabolic changes at 1 year."
+  },
+  {
+   "id": "adiet-harvie2011",
+   "authors": "Harvie MN, Pegington M, Mattson MP, et al.",
+   "year": 2011,
+   "title": "The effects of intermittent or continuous energy restriction on weight loss and metabolic disease risk markers: a randomized trial in young overweight women",
+   "journal": "Int J Obes (Lond)",
+   "pmid": "20921964",
+   "doi": "10.1038/ijo.2010.171",
+   "type": "rct",
+   "n": null,
+   "finding": "5:2-style intermittent restriction gave weight loss similar to continuous restriction at 6 months."
+  },
+  {
+   "id": "adiet-wei2017",
+   "authors": "Wei M, Brandhorst S, Shelehchi M, et al.",
+   "year": 2017,
+   "title": "Fasting-mimicking diet and markers/risk factors for aging, diabetes, cancer, and cardiovascular disease",
+   "journal": "Sci Transl Med",
+   "pmid": "28202779",
+   "doi": "10.1126/scitranslmed.aai8700",
+   "type": "rct",
+   "n": "71 completed three cycles",
+   "finding": "Three monthly 5-day fasting-mimicking cycles lowered weight, blood pressure and IGF-1 versus usual diet."
+  },
+  {
+   "id": "adiet-brandhorst2024",
+   "authors": "Brandhorst S, Levine ME, Wei M, et al.",
+   "year": 2024,
+   "title": "Fasting-mimicking diet causes hepatic and blood markers changes indicating reduced biological age and disease risk",
+   "journal": "Nat Commun",
+   "pmid": "38378685",
+   "doi": "10.1038/s41467-024-45260-9",
+   "type": "rct",
+   "n": "secondary analysis of FMD trials",
+   "finding": "Fasting-mimicking cycles were associated with lower estimated biological age in exploratory analyses."
+  },
+  {
+   "id": "adiet-laurens2021",
+   "authors": "Laurens C, Grundler F, Damiot A, et al.",
+   "year": 2021,
+   "title": "Is muscle and protein loss relevant in long-term fasting in healthy men? A prospective trial on physiological adaptations",
+   "journal": "J Cachexia Sarcopenia Muscle",
+   "pmid": "34668663",
+   "doi": "10.1002/jcsm.12766",
+   "type": "cohort",
+   "n": null,
+   "finding": "A 10-day fast caused weight loss of which much was lean tissue, with recovery after refeeding."
+  },
+  {
+   "id": "adiet-wilhelmidetoledo2019",
+   "authors": "Wilhelmi de Toledo F, Grundler F, Bergouignan A, et al.",
+   "year": 2019,
+   "title": "Safety, health improvement and well-being during a 4 to 21-day fasting period in an observational study including 1422 subjects",
+   "journal": "PLoS One",
+   "pmid": "30601864",
+   "doi": "10.1371/journal.pone.0209353",
+   "type": "cohort",
+   "n": "1,422 clinic patients",
+   "finding": "Uncontrolled observational data from a fasting clinic reported weight loss and well-being during 4-21-day fasts."
+  },
+  {
+   "id": "adiet-ilyasova2018",
+   "authors": "Il'yasova D, Fontana L, Bhapkar M, et al.",
+   "year": 2018,
+   "title": "Effects of 2 years of caloric restriction on oxidative status assessed by urinary F2-isoprostanes: The CALERIE 2 randomized clinical trial",
+   "journal": "Aging Cell",
+   "pmid": "29424490",
+   "doi": "10.1111/acel.12719",
+   "type": "rct",
+   "n": null,
+   "finding": "Two years of calorie restriction lowered urinary F2-isoprostanes."
+  },
+  {
+   "id": "adiet-kraus2019",
+   "authors": "Kraus WE, Bhapkar M, Huffman KM, et al.",
+   "year": 2019,
+   "title": "2 years of calorie restriction and cardiometabolic risk (CALERIE): exploratory outcomes of a multicentre, phase 2, randomised controlled trial",
+   "journal": "Lancet Diabetes Endocrinol",
+   "pmid": "31303390",
+   "doi": "10.1016/S2213-8587(19)30151-2",
+   "type": "rct",
+   "n": "218 non-obese adults",
+   "finding": "CALERIE: 11.9% achieved calorie restriction for 2 years improved LDL, blood pressure, CRP and insulin sensitivity."
+  },
+  {
+   "id": "adiet-waziry2023",
+   "authors": "Waziry R, Ryan CP, Corcoran DL, et al.",
+   "year": 2023,
+   "title": "Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial",
+   "journal": "Nat Aging",
+   "pmid": "37118425",
+   "doi": "10.1038/s43587-022-00357-y",
+   "type": "rct",
+   "n": null,
+   "finding": "Calorie restriction slowed the DunedinPACE pace-of-aging measure modestly, without effects on other epigenetic clocks."
+  },
+  {
+   "id": "adiet-samochabonet2012",
+   "authors": "Samocha-Bonet D, Campbell LV, Mori TA, et al.",
+   "year": 2012,
+   "title": "Overfeeding reduces insulin sensitivity and increases oxidative stress, without altering markers of mitochondrial content and function in humans",
+   "journal": "PLoS One",
+   "pmid": "22586466",
+   "doi": "10.1371/journal.pone.0036320",
+   "type": "rct",
+   "n": null,
+   "finding": "28 days of overfeeding (~1,000 kcal/day surplus) raised oxidative stress markers and reduced insulin sensitivity."
+  },
+  {
+   "id": "adiet-boden2015",
+   "authors": "Boden G, Homko C, Barrero CA, et al.",
+   "year": 2015,
+   "title": "Excessive caloric intake acutely causes oxidative stress, GLUT4 carbonylation, and insulin resistance in healthy men",
+   "journal": "Sci Transl Med",
+   "pmid": "26355033",
+   "doi": "10.1126/scitranslmed.aac4765",
+   "type": "rct",
+   "n": null,
+   "finding": "About 6,000 kcal/day for one week caused systemic oxidative stress and insulin resistance within days."
+  },
+  {
+   "id": "adiet-garaulet2022",
+   "authors": "Garaulet M, Lopez-Minguez J, Dashti HS, et al.",
+   "year": 2022,
+   "title": "Interplay of Dinner Timing and MTNR1B Type 2 Diabetes Risk Variant on Glucose Tolerance and Insulin Secretion: A Randomized Crossover Trial",
+   "journal": "Diabetes Care",
+   "pmid": "35015083",
+   "doi": "10.2337/dc21-1314",
+   "type": "rct",
+   "n": null,
+   "finding": "A late dinner impaired glucose tolerance, especially in MTNR1B risk-allele carriers."
+  },
+  {
+   "id": "adiet-ruddickcollins2022",
+   "authors": "Ruddick-Collins LC, Morgan PJ, Fyfe CL, et al.",
+   "year": 2022,
+   "title": "Timing of daily calorie loading affects appetite and hunger responses without changes in energy metabolism in healthy subjects with obesity",
+   "journal": "Cell Metab",
+   "pmid": "36087576",
+   "doi": "10.1016/j.cmet.2022.08.001",
+   "type": "rct",
+   "n": "30 adults with obesity (crossover)",
+   "finding": "Morning-loaded versus evening-loaded calories gave no difference in energy expenditure or weight loss but lower hunger."
+  },
+  {
+   "id": "adiet-young2023",
+   "authors": "Young IE, Poobalan A, Steinbeck K, et al.",
+   "year": 2023,
+   "title": "Distribution of energy intake across the day and weight loss: A systematic review and meta-analysis",
+   "journal": "Obes Rev",
+   "pmid": "36530130",
+   "doi": "10.1111/obr.13537",
+   "type": "meta-analysis",
+   "n": "9 RCTs",
+   "finding": "Front-loading energy intake earlier in the day was associated with modestly greater weight loss (~1.2 kg)."
+  },
+  {
+   "id": "adiet-sesso2022",
+   "authors": "Sesso HD, Manson JE, Aragaki AK, et al.",
+   "year": 2022,
+   "title": "Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "35294962",
+   "doi": "10.1093/ajcn/nqac055",
+   "type": "rct",
+   "n": null,
+   "finding": "COSMOS: 500 mg/day cocoa flavanols did not significantly reduce total CVD events (HR 0.90); CVD death was a secondary outcome (HR 0.73)."
+  },
+  {
+   "id": "adiet-li2025",
+   "authors": "Li S, Hamaya R, Zhu H, et al.",
+   "year": 2025,
+   "title": "Effects of 2-year cocoa extract supplementation on inflammaging biomarkers in older US adults: findings from the COcoa Supplement and Multivitamin Outcomes Study randomised clinical trial",
+   "journal": "Age Ageing",
+   "pmid": "40966617",
+   "doi": "10.1093/ageing/afaf269",
+   "type": "rct",
+   "n": "598 COSMOS participants",
+   "finding": "Cocoa extract lowered hsCRP by 8.4% per year relative to placebo over 2 years; other inflammatory markers were unchanged except a rise in IFN-gamma."
+  },
+  {
+   "id": "adiet-hooper2012",
+   "authors": "Hooper L, Kay C, Abdelhamid A, et al.",
+   "year": 2012,
+   "title": "Effects of chocolate, cocoa, and flavan-3-ols on cardiovascular health: a systematic review and meta-analysis of randomized trials",
+   "journal": "Am J Clin Nutr",
+   "pmid": "22301923",
+   "doi": "10.3945/ajcn.111.023457",
+   "type": "meta-analysis",
+   "n": "42 RCTs, 1,297 participants",
+   "finding": "Cocoa and flavan-3-ols improved flow-mediated dilation and modestly lowered blood pressure and insulin resistance in short trials."
+  },
+  {
+   "id": "adiet-vyas2024",
+   "authors": "Vyas CM, Manson JE, Sesso HD, et al.",
+   "year": 2024,
+   "title": "Effect of cocoa extract supplementation on cognitive function: results from the clinic subcohort of the COSMOS trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "38070683",
+   "doi": "10.1016/j.ajcnut.2023.10.031",
+   "type": "rct",
+   "n": "573 COSMOS clinic participants",
+   "finding": "Two years of cocoa extract did not improve global cognition versus placebo."
+  },
+  {
+   "id": "adiet-curtis2019",
+   "authors": "Curtis PJ, van der Velpen V, Berends L, et al.",
+   "year": 2019,
+   "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "31136659",
+   "doi": "10.1093/ajcn/nqy380",
+   "type": "rct",
+   "n": null,
+   "finding": "One cup/day of blueberries for 6 months improved endothelial function and lipids; half a cup did not."
+  },
+  {
+   "id": "adiet-he2026",
+   "authors": "He Y, Yang J, Zhang S, et al.",
+   "year": 2026,
+   "title": "Blueberry consumption enhances vascular function but not cognitive abilities in healthy individuals: a systematic review and meta-analysis",
+   "journal": "Nutr Res",
+   "pmid": "41974068",
+   "doi": "10.1016/j.nutres.2026.03.007",
+   "type": "meta-analysis",
+   "n": "14 RCTs, 632 healthy participants",
+   "finding": "Blueberries improved flow-mediated dilation by 1.11 percentage points but did not change blood pressure, executive function or mood in healthy people."
+  },
+  {
+   "id": "adiet-huang2016",
+   "authors": "Huang H, Chen G, Liao D, et al.",
+   "year": 2016,
+   "title": "Effects of Berries Consumption on Cardiovascular Risk Factors: A Meta-analysis with Trial Sequential Analysis of Randomized Controlled Trials",
+   "journal": "Sci Rep",
+   "pmid": "27006201",
+   "doi": "10.1038/srep23625",
+   "type": "meta-analysis",
+   "n": "22 RCTs, 1,251 participants",
+   "finding": "Berries lowered LDL (-0.21 mmol/L), systolic BP (-2.7 mmHg), fasting glucose and TNF-alpha, with heterogeneous trials."
+  },
+  {
+   "id": "adiet-fairliejones2017",
+   "authors": "Fairlie-Jones L, Davison K, Fromentin E, et al.",
+   "year": 2017,
+   "title": "The Effect of Anthocyanin-Rich Foods or Extracts on Vascular Function in Adults: A Systematic Review and Meta-Analysis of Randomised Controlled Trials",
+   "journal": "Nutrients",
+   "pmid": "28825651",
+   "doi": "10.3390/nu9080908",
+   "type": "meta-analysis",
+   "n": "24 studies",
+   "finding": "Anthocyanin-rich foods or extracts improved flow-mediated dilation in pooled RCTs."
+  },
+  {
+   "id": "adiet-solverson2018",
+   "authors": "Solverson PM, Rumpler WV, Leger JL, et al.",
+   "year": 2018,
+   "title": "Blackberry Feeding Increases Fat Oxidation and Improves Insulin Sensitivity in Overweight and Obese Males",
+   "journal": "Nutrients",
+   "pmid": "30096878",
+   "doi": "10.3390/nu10081048",
+   "type": "rct",
+   "n": null,
+   "finding": "600 g/day blackberries increased fat oxidation and insulin sensitivity in a controlled feeding study."
+  },
+  {
+   "id": "adiet-abdelhamid2020",
+   "authors": "Abdelhamid AS, Brown TJ, Brainard JS, et al.",
+   "year": 2020,
+   "title": "Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "32114706",
+   "doi": "10.1002/14651858.CD003177.pub5",
+   "type": "meta-analysis",
+   "n": "86 RCTs, 162,796 participants",
+   "finding": "Cochrane: increasing long-chain omega-3 has little or no effect on all-cause mortality or CV events; slight reduction in CHD events (low certainty); triglycerides fall ~15%."
+  },
+  {
+   "id": "adiet-manson2019",
+   "authors": "Manson JE, Cook NR, Lee IM, et al.",
+   "year": 2019,
+   "title": "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer",
+   "journal": "N Engl J Med",
+   "pmid": "30415637",
+   "doi": "10.1056/NEJMoa1811403",
+   "type": "rct",
+   "n": "25,871 adults",
+   "finding": "VITAL: 1 g/day marine omega-3 did not reduce major cardiovascular events (HR 0.92) or invasive cancer."
+  },
+  {
+   "id": "adiet-gencer2021",
+   "authors": "Gencer B, Djousse L, Al-Ramady OT, et al.",
+   "year": 2021,
+   "title": "Effect of Long-Term Marine ɷ-3 Fatty Acids Supplementation on the Risk of Atrial Fibrillation in Randomized Controlled Trials of Cardiovascular Outcomes: A Systematic Review and Meta-Analysis",
+   "journal": "Circulation",
+   "pmid": "34612056",
+   "doi": "10.1161/CIRCULATIONAHA.121.055654",
+   "type": "meta-analysis",
+   "n": "7 RCTs, 81,210 patients",
+   "finding": "Marine omega-3 supplements increased atrial fibrillation risk by 25%, more at doses above 1 g/day (HR 1.49)."
+  },
+  {
+   "id": "adiet-chen2024",
+   "authors": "Chen G, Qian ZM, Zhang J, et al.",
+   "year": 2024,
+   "title": "Regular use of fish oil supplements and course of cardiovascular diseases: prospective cohort study",
+   "journal": "BMJ Med",
+   "pmid": "38800667",
+   "doi": "10.1136/bmjmed-2022-000451",
+   "type": "cohort",
+   "n": "415,737 UK Biobank participants",
+   "finding": "Regular fish-oil supplement use was associated with higher risk of incident atrial fibrillation (HR 1.13) and possibly stroke (HR 1.05) in people without CVD, but with better outcomes in people with existing CVD."
+  },
+  {
+   "id": "adiet-mozaffarian2006",
+   "authors": "Mozaffarian D, Rimm EB",
+   "year": 2006,
+   "title": "Fish intake, contaminants, and human health: evaluating the risks and the benefits",
+   "journal": "JAMA",
+   "pmid": "17047219",
+   "doi": "10.1001/jama.296.15.1885",
+   "type": "review",
+   "n": null,
+   "finding": "Fish at 1-2 servings/week was associated with 36% lower coronary death; methylmercury may modestly blunt benefits and matters for neurodevelopment, so very high consumers should limit high-mercury species."
+  },
+  {
+   "id": "adiet-martinezsoto2016",
+   "authors": "Martínez-Soto JC, Domingo JC, Cordobilla B, et al.",
+   "year": 2016,
+   "title": "Dietary supplementation with docosahexaenoic acid (DHA) improves seminal antioxidant status and decreases sperm DNA fragmentation",
+   "journal": "Syst Biol Reprod Med",
+   "pmid": "27792396",
+   "doi": "10.1080/19396368.2016.1246623",
+   "type": "rct",
+   "n": "57 infertile men",
+   "finding": "1.5 g/day DHA for 10 weeks improved seminal antioxidant status and lowered sperm DNA fragmentation."
+  },
+  {
+   "id": "adiet-salashuetos2018",
+   "authors": "Salas-Huetos A, Rosique-Esteban N, Becerra-Tomás N, et al.",
+   "year": 2018,
+   "title": "The Effect of Nutrients and Dietary Supplements on Sperm Quality Parameters: A Systematic Review and Meta-Analysis of Randomized Clinical Trials",
+   "journal": "Adv Nutr",
+   "pmid": "30462179",
+   "doi": "10.1093/advances/nmy057",
+   "type": "meta-analysis",
+   "n": "28 RCTs (15 in meta-analysis)",
+   "finding": "Omega-3 supplementation was among supplements associated with higher sperm concentration, count and motility in pooled small RCTs."
+  },
+  {
+   "id": "adiet-chiu2018",
+   "authors": "Chiu YH, Karmon AE, Gaskins AJ, et al.",
+   "year": 2018,
+   "title": "Serum omega-3 fatty acids and treatment outcomes among women undergoing assisted reproduction",
+   "journal": "Hum Reprod",
+   "pmid": "29136189",
+   "doi": "10.1093/humrep/dex335",
+   "type": "cohort",
+   "n": null,
+   "finding": "Higher serum long-chain omega-3 was associated with higher probability of live birth."
+  },
+  {
+   "id": "adiet-guaschferre2018",
+   "authors": "Guasch-Ferré M, Li J, Hu FB, et al.",
+   "year": 2018,
+   "title": "Effects of walnut consumption on blood lipids and other cardiovascular risk factors: an updated meta-analysis and systematic review of controlled trials",
+   "journal": "Am J Clin Nutr",
+   "pmid": "29931130",
+   "doi": "10.1093/ajcn/nqy091",
+   "type": "meta-analysis",
+   "n": "26 trials, 1,059 participants",
+   "finding": "Walnut-enriched diets lowered total and LDL cholesterol, apoB and triglycerides without weight gain."
+  },
+  {
+   "id": "adiet-salashuetos2018b",
+   "authors": "Salas-Huetos A, Moraleda R, Giardina S, et al.",
+   "year": 2018,
+   "title": "Effect of nut consumption on semen quality and functionality in healthy men consuming a Western-style diet: a randomized controlled trial",
+   "journal": "Am J Clin Nutr",
+   "pmid": "30475967",
+   "doi": "10.1093/ajcn/nqy181",
+   "type": "rct",
+   "n": null,
+   "finding": "FERTINUTS: 60 g/day mixed nuts for 14 weeks improved sperm vitality, motility and morphology and lowered DNA fragmentation."
+  },
+  {
+   "id": "adiet-robbins2012",
+   "authors": "Robbins WA, Xun L, FitzGerald LZ, et al.",
+   "year": 2012,
+   "title": "Walnuts improve semen quality in men consuming a Western-style diet: randomized control dietary intervention trial",
+   "journal": "Biol Reprod",
+   "pmid": "22895856",
+   "doi": "10.1095/biolreprod.112.101634",
+   "type": "rct",
+   "n": null,
+   "finding": "75 g/day walnuts for 12 weeks improved sperm vitality, motility and morphology."
+  },
+  {
+   "id": "adiet-cardoso2024",
+   "authors": "Cardoso BR, Fratezzi I, Kellow NJ",
+   "year": 2024,
+   "title": "Nut Consumption and Fertility: a Systematic Review and Meta-Analysis",
+   "journal": "Adv Nutr",
+   "pmid": "37977328",
+   "doi": "10.1016/j.advnut.2023.100153",
+   "type": "meta-analysis",
+   "n": "4 studies, 875 participants (2 RCTs)",
+   "finding": "Pooling 2 RCTs in 223 healthy men, at least 60 g/day nuts improved sperm motility, vitality and morphology but not concentration; observational studies found no links with ART outcomes."
+  },
+  {
+   "id": "adiet-filippou2020",
+   "authors": "Filippou CD, Tsioufis CP, Thomopoulos CG, et al.",
+   "year": 2020,
+   "title": "Dietary Approaches to Stop Hypertension (DASH) Diet and Blood Pressure Reduction in Adults with and without Hypertension: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "journal": "Adv Nutr",
+   "pmid": "32330233",
+   "doi": "10.1093/advances/nmaa041",
+   "type": "meta-analysis",
+   "n": "30 RCTs, 5,545 participants",
+   "finding": "DASH lowered systolic BP by 3.2 mmHg and diastolic by 2.5 mmHg versus control diets, in people with and without hypertension; moderate-quality evidence."
+  },
+  {
+   "id": "adiet-bensaaud2025",
+   "authors": "Bensaaud A, Seery S, Gibson I, et al.",
+   "year": 2025,
+   "title": "Dietary Approaches to Stop Hypertension (DASH) for the primary and secondary prevention of cardiovascular diseases",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "40326569",
+   "doi": "10.1002/14651858.CD013729.pub2",
+   "type": "meta-analysis",
+   "n": "5 RCTs, 1,397 participants",
+   "finding": "Cochrane 2025: no trial had enough events to show whether DASH prevents myocardial infarction, stroke or death; evidence on clinical outcomes is very sparse."
+  },
+  {
+   "id": "adiet-lopes2003",
+   "authors": "Lopes HF, Martin KL, Nashar K, et al.",
+   "year": 2003,
+   "title": "DASH diet lowers blood pressure and lipid-induced oxidative stress in obesity",
+   "journal": "Hypertension",
+   "pmid": "12623938",
+   "doi": "10.1161/01.HYP.0000053450.19998.11",
+   "type": "rct",
+   "n": null,
+   "finding": "DASH lowered BP and blunted lipid-infusion-induced F2-isoprostane rise."
+  },
+  {
+   "id": "adiet-rodriguezleyva2013",
+   "authors": "Rodriguez-Leyva D, Weighell W, Edel AL, et al.",
+   "year": 2013,
+   "title": "Potent antihypertensive action of dietary flaxseed in hypertensive patients",
+   "journal": "Hypertension",
+   "pmid": "24126178",
+   "doi": "10.1161/HYPERTENSIONAHA.113.02094",
+   "type": "rct",
+   "n": null,
+   "finding": "30 g/day milled flaxseed for 6 months lowered systolic BP by about 10 mmHg (15 mmHg in hypertensives)."
+  },
+  {
+   "id": "adiet-li2023",
+   "authors": "Li L, Li H, Gao Y, et al.",
+   "year": 2023,
+   "title": "Effect of flaxseed supplementation on blood pressure: a systematic review, and dose-response meta-analysis of randomized clinical trials",
+   "journal": "Food Funct",
+   "pmid": "36622248",
+   "doi": "10.1039/d2fo02566c",
+   "type": "meta-analysis",
+   "n": "33 trials, 2,427 participants",
+   "finding": "Flaxseed lowered systolic BP by 3.2 mmHg and diastolic by 2.6 mmHg on average, with very high heterogeneity (I2 >90%); larger effects at >=30 g/day, >20 weeks and in hypertension."
+  },
+  {
+   "id": "adiet-siervo2013",
+   "authors": "Siervo M, Lara J, Ogbonmwan I, et al.",
+   "year": 2013,
+   "title": "Inorganic nitrate and beetroot juice supplementation reduces blood pressure in adults: a systematic review and meta-analysis",
+   "journal": "J Nutr",
+   "pmid": "23596162",
+   "doi": "10.3945/jn.112.170233",
+   "type": "meta-analysis",
+   "n": "254 participants",
+   "finding": "Inorganic nitrate and beetroot juice lowered systolic BP by about 4.4 mmHg in short trials."
+  },
+  {
+   "id": "adiet-zhang2023",
+   "authors": "Zhang Y, Zhang H, An W, et al.",
+   "year": 2023,
+   "title": "Regulatory effect of dietary nitrate on blood pressure: a meta-analysis of randomized controlled trials",
+   "journal": "Food Funct",
+   "pmid": "36740972",
+   "doi": "10.1039/d2fo03140j",
+   "type": "meta-analysis",
+   "n": "19 articles",
+   "finding": "Dietary nitrate lowered systolic BP by 2.4 mmHg in healthy people but did not lower office or 24-h BP in hypertensive patients."
+  },
+  {
+   "id": "adiet-brandt2017",
+   "authors": "Brandt EJ, Myerson R, Perraillon MC, et al.",
+   "year": 2017,
+   "title": "Hospital Admissions for Myocardial Infarction and Stroke Before and After the Trans-Fatty Acid Restrictions in New York",
+   "journal": "JAMA Cardiol",
+   "pmid": "28403435",
+   "doi": "10.1001/jamacardio.2017.0491",
+   "type": "cohort",
+   "n": "New York State counties, 2002-2013",
+   "finding": "Natural experiment: counties restricting trans fat saw a 6.2% additional decline in MI plus stroke admissions three or more years after restriction, versus similar counties without restrictions."
+  },
+  {
+   "id": "adiet-mozaffarian2006b",
+   "authors": "Mozaffarian D, Katan MB, Ascherio A, et al.",
+   "year": 2006,
+   "title": "Trans fatty acids and cardiovascular disease",
+   "journal": "N Engl J Med",
+   "pmid": "16611951",
+   "doi": "10.1056/NEJMra054035",
+   "type": "review",
+   "n": null,
+   "finding": "Industrial trans fat raises LDL, lowers HDL, promotes inflammation and endothelial dysfunction, and has the highest CHD risk per calorie of any fat."
+  },
+  {
+   "id": "adiet-huang2023",
+   "authors": "Huang Y, Chen Z, Chen B, et al.",
+   "year": 2023,
+   "title": "Dietary sugar consumption and health: umbrella review",
+   "journal": "BMJ",
+   "pmid": "37019448",
+   "doi": "10.1136/bmj-2022-071609",
+   "type": "review",
+   "n": "73 meta-analyses",
+   "finding": "Umbrella review: high sugar intake associated with many adverse outcomes; strongest (moderate quality) for body weight and ectopic fat; most other evidence low quality."
+  },
+  {
+   "id": "adiet-mohanty2000",
+   "authors": "Mohanty P, Hamouda W, Garg R, et al.",
+   "year": 2000,
+   "title": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "10946914",
+   "doi": "10.1210/jcem.85.8.6854",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "A 75 g glucose drink increased leukocyte ROS generation for hours."
+  },
+  {
+   "id": "adiet-chiu2014",
+   "authors": "Chiu YH, Afeiche MC, Gaskins AJ, et al.",
+   "year": 2014,
+   "title": "Sugar-sweetened beverage intake in relation to semen quality and reproductive hormone levels in young men",
+   "journal": "Hum Reprod",
+   "pmid": "24812311",
+   "doi": "10.1093/humrep/deu102",
+   "type": "cross-sectional",
+   "n": null,
+   "finding": "Higher sugar-sweetened beverage intake was associated with lower progressive motility, only in lean men."
+  },
+  {
+   "id": "adiet-joseph2024",
+   "authors": "Joseph MD, Koenig MR, Kuriyama AS, et al.",
+   "year": 2024,
+   "title": "A preconception cohort study of sugar-sweetened beverage consumption and semen quality",
+   "journal": "Andrology",
+   "pmid": "38450974",
+   "doi": "10.1111/andr.13615",
+   "type": "cohort",
+   "n": "690 men (PRESTO)",
+   "finding": "Seven or more SSBs per week was associated with about 22% lower sperm concentration and total count versus none, using at-home semen kits."
+  },
+  {
+   "id": "adiet-meldgaard2022",
+   "authors": "Meldgaard M, Brix N, Gaml-Sørensen A, et al.",
+   "year": 2022,
+   "title": "Consumption of Sugar-Sweetened or Artificially Sweetened Beverages and Semen Quality in Young Men: A Cross-Sectional Study",
+   "journal": "Int J Environ Res Public Health",
+   "pmid": "35055501",
+   "doi": "10.3390/ijerph19020682",
+   "type": "cross-sectional",
+   "n": "1,047 young Danish men",
+   "finding": "Sugar-sweetened or artificially sweetened beverage consumption was not strongly associated with semen volume, concentration, count or motility."
+  },
+  {
+   "id": "adiet-hatch2018",
+   "authors": "Hatch EE, Wesselink AK, Hahn KA, et al.",
+   "year": 2018,
+   "title": "Intake of Sugar-sweetened Beverages and Fecundability in a North American Preconception Cohort",
+   "journal": "Epidemiology",
+   "pmid": "29384791",
+   "doi": "10.1097/EDE.0000000000000812",
+   "type": "cohort",
+   "n": "3,828 women and 1,045 male partners",
+   "finding": "Seven or more SSBs per week by either partner was associated with about 20% lower fecundability."
+  },
+  {
+   "id": "adiet-biddinger2022",
+   "authors": "Biddinger KJ, Emdin CA, Haas ME, et al.",
+   "year": 2022,
+   "title": "Association of Habitual Alcohol Intake With Risk of Cardiovascular Disease",
+   "journal": "JAMA Netw Open",
+   "pmid": "35333364",
+   "doi": "10.1001/jamanetworkopen.2022.3849",
+   "type": "cohort",
+   "n": "371,463 UK Biobank participants",
+   "finding": "Apparent benefit of light drinking was explained by healthier lifestyles of light drinkers; linear and non-linear MR showed alcohol raised hypertension and coronary disease risk at all levels, steeply at higher intakes."
+  },
+  {
+   "id": "adiet-zhao2023",
+   "authors": "Zhao J, Stockwell T, Naimi T, et al.",
+   "year": 2023,
+   "title": "Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses",
+   "journal": "JAMA Netw Open",
+   "pmid": "37000449",
+   "doi": "10.1001/jamanetworkopen.2023.6185",
+   "type": "meta-analysis",
+   "n": "107 cohorts, 4.8 million participants",
+   "finding": "After adjusting for former-drinker and other biases, low-volume drinking was not associated with lower all-cause mortality versus lifetime non-drinkers; risk rose from about 45 g/day (lower thresholds in women)."
+  },
+  {
+   "id": "adiet-semba2014",
+   "authors": "Semba RD, Ferrucci L, Bartali B, et al.",
+   "year": 2014,
+   "title": "Resveratrol levels and all-cause mortality in older community-dwelling adults",
+   "journal": "JAMA Intern Med",
+   "pmid": "24819981",
+   "doi": "10.1001/jamainternmed.2014.1582",
+   "type": "cohort",
+   "n": null,
+   "finding": "Urinary resveratrol metabolites did not predict mortality, inflammation, cancer or CVD."
+  },
+  {
+   "id": "adiet-walle2004",
+   "authors": "Walle T, Hsieh F, DeLegge MH, et al.",
+   "year": 2004,
+   "title": "High absorption but very low bioavailability of oral resveratrol in humans",
+   "journal": "Drug Metab Dispos",
+   "pmid": "15333514",
+   "doi": "10.1124/dmd.104.000885",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Oral resveratrol is well absorbed but extensively conjugated, so free plasma levels are minimal."
+  },
+  {
+   "id": "adiet-meagher1999",
+   "authors": "Meagher EA, Barry OP, Burke A, et al.",
+   "year": 1999,
+   "title": "Alcohol-induced generation of lipid peroxidation products in humans",
+   "journal": "J Clin Invest",
+   "pmid": "10491416",
+   "doi": "10.1172/JCI5584",
+   "type": "rct",
+   "n": null,
+   "finding": "Alcohol dose-dependently raised urinary isoprostanes (lipid peroxidation)."
+  },
+  {
+   "id": "adiet-egner2014",
+   "authors": "Egner PA, Chen JG, Zarth AT, et al.",
+   "year": 2014,
+   "title": "Rapid and sustainable detoxication of airborne pollutants by broccoli sprout beverage: results of a randomized clinical trial in China",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "24913818",
+   "doi": "10.1158/1940-6207.CAPR-14-0103",
+   "type": "rct",
+   "n": null,
+   "finding": "A broccoli sprout beverage increased excretion of benzene and acrolein metabolites (detoxication) over 12 weeks."
+  },
+  {
+   "id": "adiet-singh2014",
+   "authors": "Singh K, Connors SL, Macklin EA, et al.",
+   "year": 2014,
+   "title": "Sulforaphane treatment of autism spectrum disorder (ASD)",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "25313065",
+   "doi": "10.1073/pnas.1416940111",
+   "type": "rct",
+   "n": "44 young men with autism",
+   "finding": "Small 18-week trial reported large behavioural improvement with sulforaphane (50-150 umol/day) versus placebo."
+  },
+  {
+   "id": "adiet-zimmerman2021",
+   "authors": "Zimmerman AW, Singh K, Connors SL, et al.",
+   "year": 2021,
+   "title": "Randomized controlled trial of sulforaphane and metabolite discovery in children with Autism Spectrum Disorder",
+   "journal": "Mol Autism",
+   "pmid": "34034808",
+   "doi": "10.1186/s13229-021-00447-5",
+   "type": "rct",
+   "n": "57 children with autism",
+   "finding": "Sulforaphane did not significantly improve the primary autism outcome versus placebo at 7 or 15 weeks; some secondary caregiver ratings improved."
+  },
+  {
+   "id": "adiet-magner2023",
+   "authors": "Magner M, Thorová K, Župová V, et al.",
+   "year": 2023,
+   "title": "Sulforaphane Treatment in Children with Autism: A Prospective Randomized Double-Blind Study",
+   "journal": "Nutrients",
+   "pmid": "36771424",
+   "doi": "10.3390/nu15030718",
+   "type": "rct",
+   "n": "40 children with autism",
+   "finding": "Sulforaphane produced no significant behavioural improvement versus placebo over 36 weeks."
+  },
+  {
+   "id": "adiet-ou2024",
+   "authors": "Ou J, Smith RC, Tobe RH, et al.",
+   "year": 2024,
+   "title": "Efficacy of Sulforaphane in Treatment of Children with Autism Spectrum Disorder: A Randomized Double-Blind Placebo-Controlled Multi-center Trial",
+   "journal": "J Autism Dev Disord",
+   "pmid": "36427174",
+   "doi": "10.1007/s10803-022-05784-9",
+   "type": "rct",
+   "n": "108 children with autism",
+   "finding": "Caregiver-rated scales did not improve with sulforaphane versus placebo, while clinician ratings did; authors call results inconsistent."
+  },
+  {
+   "id": "adiet-ribeiro2024",
+   "authors": "Ribeiro M, Cardozo LF, Paiva BR, et al.",
+   "year": 2024,
+   "title": "Sulforaphane Supplementation Did Not Modulate NRF2 and NF-kB mRNA Expressions in Hemodialysis Patients",
+   "journal": "J Ren Nutr",
+   "pmid": "37619675",
+   "doi": "10.1053/j.jrn.2023.08.008",
+   "type": "rct",
+   "n": "30 hemodialysis patients (crossover)",
+   "finding": "150 umol/day sulforaphane for 2 months did not change NRF2 or NF-kB expression, inflammatory markers or malondialdehyde."
+  },
+  {
+   "id": "adiet-wise2016",
+   "authors": "Wise RA, Holbrook JT, Criner G, et al.",
+   "year": 2016,
+   "title": "Lack of Effect of Oral Sulforaphane Administration on Nrf2 Expression in COPD: A Randomized, Double-Blind, Placebo Controlled Trial",
+   "journal": "PLoS One",
+   "pmid": "27832073",
+   "doi": "10.1371/journal.pone.0163716",
+   "type": "rct",
+   "n": "89 COPD patients",
+   "finding": "Oral sulforaphane for 4 weeks did not raise Nrf2 target gene expression or improve lung oxidative-stress markers."
+  },
+  {
+   "id": "adiet-houghton2016",
+   "authors": "Houghton CA, Fassett RG, Coombes JS",
+   "year": 2016,
+   "title": "Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician's Expectation Be Matched by the Reality?",
+   "journal": "Oxid Med Cell Longev",
+   "pmid": "26881038",
+   "doi": "10.1155/2016/7857186",
+   "type": "review",
+   "n": null,
+   "finding": "Review weighing whether clinical expectations for sulforaphane and other Nrf2 activators are matched by human data."
+  },
+  {
+   "id": "adiet-armah2015",
+   "authors": "Armah CN, Derdemezis C, Traka MH, et al.",
+   "year": 2015,
+   "title": "Diet rich in high glucoraphanin broccoli reduces plasma LDL cholesterol: Evidence from randomised controlled trials",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "25851421",
+   "doi": "10.1002/mnfr.201400863",
+   "type": "rct",
+   "n": null,
+   "finding": "High-glucoraphanin broccoli (400 g/week) lowered LDL cholesterol by 5-7%."
+  },
+  {
+   "id": "adiet-dwibedi2025",
+   "authors": "Dwibedi C, Axelsson AS, Abrahamsson B, et al.",
+   "year": 2025,
+   "title": "Effect of broccoli sprout extract and baseline gut microbiota on fasting blood glucose in prediabetes: a randomized, placebo-controlled trial",
+   "journal": "Nat Microbiol",
+   "pmid": "39929977",
+   "doi": "10.1038/s41564-025-01932-w",
+   "type": "rct",
+   "n": "74 adults with prediabetes",
+   "finding": "Broccoli sprout extract for 12 weeks missed its prespecified primary outcome (fasting glucose fell 0.2 vs a targeted 0.3 mmol/L); larger effects in exploratory responder subgroups with a particular gut microbiota."
+  },
+  {
+   "id": "adiet-zhang2011",
+   "authors": "Zhang X, Shu XO, Xiang YB, et al.",
+   "year": 2011,
+   "title": "Cruciferous vegetable consumption is associated with a reduced risk of total and cardiovascular disease mortality",
+   "journal": "Am J Clin Nutr",
+   "pmid": "21593509",
+   "doi": "10.3945/ajcn.110.009340",
+   "type": "cohort",
+   "n": null,
+   "finding": "Top versus bottom quintile of crucifer intake was associated with 22% lower total mortality."
+  },
+  {
+   "id": "adiet-li2022",
+   "authors": "Li YZ, Yang ZY, Gong TT, et al.",
+   "year": 2022,
+   "title": "Cruciferous vegetable consumption and multiple health outcomes: an umbrella review of 41 systematic reviews and meta-analyses of 303 observational studies",
+   "journal": "Food Funct",
+   "pmid": "35352732",
+   "doi": "10.1039/d1fo03094a",
+   "type": "review",
+   "n": null,
+   "finding": "Umbrella review: inverse associations of crucifers with cancers and mortality were mostly weak or suggestive."
+  },
+  {
+   "id": "adiet-navarro2014",
+   "authors": "Navarro SL, Schwarz Y, Song X, et al.",
+   "year": 2014,
+   "title": "Cruciferous vegetables have variable effects on biomarkers of systemic inflammation in a randomized controlled trial in healthy young adults",
+   "journal": "J Nutr",
+   "pmid": "25165394",
+   "doi": "10.3945/jn.114.197434",
+   "type": "rct",
+   "n": null,
+   "finding": "A crucifer-rich diet lowered IL-6 by 19% but other inflammation markers changed inconsistently."
+  },
+  {
+   "id": "adiet-omenn1996",
+   "authors": "Omenn GS, Goodman GE, Thornquist MD, et al.",
+   "year": 1996,
+   "title": "Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease",
+   "journal": "N Engl J Med",
+   "pmid": "8602180",
+   "doi": "10.1056/NEJM199605023341802",
+   "type": "rct",
+   "n": null,
+   "finding": "CARET: beta-carotene plus vitamin A increased lung cancer (RR 1.28) and mortality."
+  },
+  {
+   "id": "adiet-bjelakovic2012",
+   "authors": "Bjelakovic G, Nikolova D, Gluud LL, et al.",
+   "year": 2012,
+   "title": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases",
+   "journal": "Cochrane Database Syst Rev",
+   "pmid": "22419320",
+   "doi": "10.1002/14651858.CD007176.pub2",
+   "type": "meta-analysis",
+   "n": "78 RCTs, 296,707 participants",
+   "finding": "Cochrane: beta-carotene and vitamin E supplements increased mortality; vitamin C had no significant effect."
+  },
+  {
+   "id": "adiet-levine1996",
+   "authors": "Levine M, Conry-Cantilena C, Wang Y, et al.",
+   "year": 1996,
+   "title": "Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "8623000",
+   "doi": "10.1073/pnas.93.8.3704",
+   "type": "rct",
+   "n": null,
+   "finding": "Plasma vitamin C plateaued near 200 mg/day intake."
+  },
+  {
+   "id": "adiet-morand2011",
+   "authors": "Morand C, Dubray C, Milenkovic D, et al.",
+   "year": 2011,
+   "title": "Hesperidin contributes to the vascular protective effects of orange juice: a randomized crossover study in healthy volunteers",
+   "journal": "Am J Clin Nutr",
+   "pmid": "21068346",
+   "doi": "10.3945/ajcn.110.004945",
+   "type": "rct",
+   "n": null,
+   "finding": "Orange juice and hesperidin lowered diastolic BP and improved post-meal microvascular reactivity."
+  },
+  {
+   "id": "adiet-heidari2025",
+   "authors": "Heidari Z, Farahmandpour F, Bazyar H, et al.",
+   "year": 2025,
+   "title": "Effects of Hesperidin Supplementation on Cardiometabolic Markers: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+   "journal": "Nutr Rev",
+   "pmid": "39038797",
+   "doi": "10.1093/nutrit/nuae084",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Hesperidin supplements had modest effects on lipids, glucose and systolic BP, mostly above 500 mg/day."
+  },
+  {
+   "id": "adiet-cheng2017",
+   "authors": "Cheng HM, Koutsidis G, Lodge JK, et al.",
+   "year": 2017,
+   "title": "Tomato and lycopene supplementation and cardiovascular risk factors: A systematic review and meta-analysis",
+   "journal": "Atherosclerosis",
+   "pmid": "28129549",
+   "doi": "10.1016/j.atherosclerosis.2017.01.009",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Tomato products lowered LDL and IL-6 and improved FMD; lycopene supplements lowered systolic BP."
+  },
+  {
+   "id": "adiet-williams2020",
+   "authors": "Williams EA, Parker M, Robinson A, et al.",
+   "year": 2020,
+   "title": "A randomized placebo-controlled trial to investigate the effect of lactolycopene on semen quality in healthy males",
+   "journal": "Eur J Nutr",
+   "pmid": "31591650",
+   "doi": "10.1007/s00394-019-02091-5",
+   "type": "rct",
+   "n": null,
+   "finding": "14 mg/day lycopene improved fast motility and morphology but missed its primary endpoint."
+  },
+  {
+   "id": "adiet-ried2016",
+   "authors": "Ried K",
+   "year": 2016,
+   "title": "Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and Review",
+   "journal": "J Nutr",
+   "pmid": "26764326",
+   "doi": "10.3945/jn.114.202192",
+   "type": "meta-analysis",
+   "n": "20 trials",
+   "finding": "Garlic supplements lowered BP in hypertensives by about 8.7/6.1 mmHg."
+  },
+  {
+   "id": "adiet-askari2021",
+   "authors": "Askari M, Mozaffari H, Darooghegi Mofrad M, et al.",
+   "year": 2021,
+   "title": "Effects of garlic supplementation on oxidative stress and antioxidative capacity biomarkers: A systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Phytother Res",
+   "pmid": "33484037",
+   "doi": "10.1002/ptr.7021",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Garlic supplementation lowered MDA and raised total antioxidant capacity; trials small and heterogeneous."
+  },
+  {
+   "id": "adiet-davidson2009",
+   "authors": "Davidson MH, Maki KC, Dicklin MR, et al.",
+   "year": 2009,
+   "title": "Effects of consumption of pomegranate juice on carotid intima-media thickness in men and women at moderate risk for coronary heart disease",
+   "journal": "Am J Cardiol",
+   "pmid": "19766760",
+   "doi": "10.1016/j.amjcard.2009.05.037",
+   "type": "rct",
+   "n": null,
+   "finding": "18 months of pomegranate juice did not slow carotid intima-media thickness progression overall."
+  },
+  {
+   "id": "adiet-sahebkar2016",
+   "authors": "Sahebkar A, Simental-Mendía LE, Giorgini P, et al.",
+   "year": 2016,
+   "title": "Lipid profile changes after pomegranate consumption: A systematic review and meta-analysis of randomized controlled trials",
+   "journal": "Phytomedicine",
+   "pmid": "26857863",
+   "doi": "10.1016/j.phymed.2015.12.014",
+   "type": "meta-analysis",
+   "n": "12 RCTs, 545 participants",
+   "finding": "Pomegranate consumption had no significant effect on blood lipids."
+  },
+  {
+   "id": "adiet-gill2007",
+   "authors": "Gill CI, Haldar S, Boyd LA, et al.",
+   "year": 2007,
+   "title": "Watercress supplementation in diet reduces lymphocyte DNA damage and alters blood antioxidant status in healthy adults",
+   "journal": "Am J Clin Nutr",
+   "pmid": "17284750",
+   "doi": "10.1093/ajcn/85.2.504",
+   "type": "rct",
+   "n": "60 healthy adults (crossover)",
+   "finding": "85 g/day raw watercress for 8 weeks lowered lymphocyte DNA damage."
+  },
+  {
+   "id": "adiet-yuan2016",
+   "authors": "Yuan JM, Stepanov I, Murphy SE, et al.",
+   "year": 2016,
+   "title": "Clinical Trial of 2-Phenethyl Isothiocyanate as an Inhibitor of Metabolic Activation of a Tobacco-Specific Lung Carcinogen in Cigarette Smokers",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "26951845",
+   "doi": "10.1158/1940-6207.CAPR-15-0380",
+   "type": "rct",
+   "n": null,
+   "finding": "40 mg/day PEITC modestly reduced metabolic activation of a tobacco lung carcinogen (7.7%)."
+  },
+  {
+   "id": "adiet-crisan2025",
+   "authors": "Crișan D, Gavrilaș L, Păltinean R, et al.",
+   "year": 2025,
+   "title": "Effects of Moringa oleifera Lam. Supplementation on Cardiometabolic Outcomes: A Meta-Analysis of Randomized Controlled Trials with GRADE Assessment",
+   "journal": "Nutrients",
+   "pmid": "41305552",
+   "doi": "10.3390/nu17223501",
+   "type": "meta-analysis",
+   "n": "9 RCTs, 649 participants",
+   "finding": "Moringa supplementation had no consistent effect on glucose, lipids or weight (very low certainty)."
+  },
+  {
+   "id": "adiet-mahale2018",
+   "authors": "Mahale J, Singh R, Howells LM, et al.",
+   "year": 2018,
+   "title": "Detection of Plasma Curcuminoids from Dietary Intake of Turmeric-Containing Food in Human Volunteers",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "29943914",
+   "doi": "10.1002/mnfr.201800267",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Turmeric-containing meals produced only low nanomolar plasma curcumin conjugates."
+  },
+  {
+   "id": "adiet-yu2017",
+   "authors": "Yu Z, Samavat H, Dostal AM, et al.",
+   "year": 2017,
+   "title": "Effect of Green Tea Supplements on Liver Enzyme Elevation: Results from a Randomized Intervention Study in the United States",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "28765194",
+   "doi": "10.1158/1940-6207.CAPR-17-0160",
+   "type": "rct",
+   "n": "1,021 women",
+   "finding": "High-dose green tea extract for 12 months caused moderate or worse liver-function abnormalities in 5.1% of women (OR 7.0 vs placebo), with rechallenge confirming causality."
+  },
+  {
+   "id": "adiet-arsenaki2026",
+   "authors": "Arsenaki E, Stathi D, Triantafyllidis KK, et al.",
+   "year": 2026,
+   "title": "The effects of ketogenic diet on polycystic ovary syndrome: A systematic review and meta-analysis",
+   "journal": "Clin Nutr",
+   "pmid": "41483483",
+   "doi": "10.1016/j.clnu.2025.11.019",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Ketogenic diets in PCOS reduced weight (~5 kg vs other diets), LH and insulin resistance; heterogeneity high."
+  },
+  {
+   "id": "adiet-furini2023",
+   "authors": "Furini C, Spaggiari G, Simoni M, et al.",
+   "year": 2023,
+   "title": "Ketogenic state improves testosterone serum levels-results from a systematic review and meta-analysis",
+   "journal": "Endocrine",
+   "pmid": "36149528",
+   "doi": "10.1007/s12020-022-03195-5",
+   "type": "meta-analysis",
+   "n": "7 studies, 230 men",
+   "finding": "Ketogenic diets raised testosterone in men with obesity, mainly very-low-calorie versions and in proportion to weight loss."
+  }
+ ],
+ "audit": [
+  {
+   "factor": "coffee",
+   "verdict": "weakened",
+   "claim": "Paper-filtered coffee at 3-4 cups/day lowers DNA strand breaks and isoprostanes in RCTs, and cohorts show the lowest mortality at 3-4 cups/day.",
+   "biases": "The mortality curve rests on cohorts, where non-drinkers include people who stopped for health reasons (reverse causation, 'sick quitters') and coffee tracks smoking and socioeconomic status (residual confounding) [adiet-poole2017]. The DNA strand-break trials are small, short and partly industry-linked [adiet-bakuradze2015].",
+   "newer_evidence": "Kim 2019 found the inverse association held within never-smokers and other strata, which argues against simple smoking confounding [adiet-kim2019]. But Mendelian randomization using caffeine-intake variants found no genetic link with ischaemic heart disease or mortality (2016) [adiet-nordestgaard2016], and a 2022 review of all coffee MR studies found no support for causal protection against mortality, heart disease, stroke, diabetes or obesity, only for gallstones [adiet-nordestgaard2022]. UK Biobank shows a U/J shape, with higher CVD risk above 6 cups/day and in non-drinkers [adiet-zhou2019], and similar U-shaped mortality associations for decaf, instant and lightly sweetened coffee [adiet-liu2022], a pattern consistent with healthy-user effects as well as with non-caffeine compounds. Coffee MR has its own problem: caffeine-metabolism variants change how much people drink but also how fast they clear it, so null MR is not decisive. The 2023 CRAVE randomized n-of-1 trial found no rise in atrial ectopy but more ventricular ectopy and less sleep on coffee days [adiet-marcus2023].",
+   "bottom_line": "Coffee up to about 3-4 cups a day is safe for most adults and may be mildly beneficial, but the 15-17% lower mortality in cohorts is probably partly confounded and is not confirmed by genetic studies.",
+   "site_change": {
+    "impact": {
+     "general": 2
+    },
+    "headline": "The biggest single polyphenol (chlorogenic acid) source in many Western diets; small RCTs at 3-4 cups/day lowered DNA strand breaks and isoprostanes, and cohorts link 3-4 cups/day with ~15% lower mortality, though Mendelian randomization studies do not confirm that the mortality benefit is causal.",
+    "note": "Add the MR evidence and the J-shape (risk rises above ~6 cups/day) to caveats; fill the empty debate field with [adiet-kim2019] vs [adiet-nordestgaard2022]."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-bakuradze2015",
+    "adiet-kim2019",
+    "adiet-liu2022",
+    "adiet-marcus2023",
+    "adiet-nordestgaard2016",
+    "adiet-nordestgaard2022",
+    "adiet-poole2017",
+    "adiet-zhou2019"
+   ]
+  },
+  {
+   "factor": "black-tea",
+   "verdict": "holds",
+   "claim": "Black tea showed no oxidative-DNA benefit in a smoker RCT, while UK Biobank links 2+ cups/day with 9-13% lower mortality.",
+   "biases": "The mortality figure is from a single baseline questionnaire in a health-conscious volunteer cohort (healthy-user bias, residual confounding) [adiet-inouechoi2022]. Diet-intake genetic instruments partly capture education and taste, so tea MR studies are weak [adiet-cole2020].",
+   "newer_evidence": "No trial has tested black tea on hard outcomes. Pooled RCTs of flavan-3-ol foods show a small blood-pressure effect (about -2.8 mmHg), mostly from cocoa and green tea [adiet-lagou2025]. The only oxidative-damage RCT remains null for black tea [adiet-hakim2003].",
+   "bottom_line": "Black tea is harmless; its link with lower mortality may be confounded, so 'neutral' is the fair rating.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-cole2020",
+    "adiet-hakim2003",
+    "adiet-inouechoi2022",
+    "adiet-lagou2025"
+   ]
+  },
+  {
+   "factor": "green-tea",
+   "verdict": "holds",
+   "claim": "Four cups/day of green tea cut urinary 8-OHdG by 31% in heavy smokers and flavan-3-ol foods lower blood pressure slightly, but evidence in healthy non-smokers is weak.",
+   "biases": "The headline trial is in heavy smokers with high baseline damage; generalising to non-smokers risks overstatement [adiet-hakim2003]. Cohort tea associations are prone to healthy-user confounding and genetic instruments for tea are weak [adiet-cole2020].",
+   "newer_evidence": "A 2025 meta-analysis of 145 RCTs confirms a small blood-pressure and FMD effect of flavan-3-ols [adiet-lagou2025]. The 12-month Minnesota Green Tea Trial showed liver-enzyme rises with high-dose extract, underlining that extracts are a different exposure from brewed tea [adiet-yu2017].",
+   "bottom_line": "Brewed green tea is safe and has small vascular benefits; claims of broad antioxidant protection in healthy people remain unproven.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-cole2020",
+    "adiet-hakim2003",
+    "adiet-lagou2025",
+    "adiet-yu2017"
+   ]
+  },
+  {
+   "factor": "processed-red-meat",
+   "verdict": "weakened",
+   "claim": "IARC classes processed meat as carcinogenic and red meat as probably carcinogenic, with heme-driven lipid peroxidation and N-nitroso formation; evidence rated strong.",
+   "biases": "Cohort associations come from food-frequency questionnaires and heavy meat eaters differ in smoking, obesity, alcohol and fibre intake (residual confounding, measurement error) [adiet-zeraatkar2019, adiet-ioannidis2018]. IARC classifies how certain a hazard is, not how large it is [adiet-bouvard2015].",
+   "newer_evidence": "NutriRECS (2019) rated the evidence low certainty and advised people to continue current intake [adiet-johnston2019, adiet-zeraatkar2019]; nutrition epidemiologists replied that GRADE is unsuited to diet and that substitution matters [adiet-qian2020]. Substitution analyses suggest replacing red meat with nuts, legumes or soy is associated with 13-17% lower CHD risk [adiet-alshaar2020]. The independent Burden of Proof analyses found only weak evidence for unprocessed red meat (2022) [adiet-lescinsky2022], and for processed meat a conservative minimum of 11% higher diabetes and 7% higher colorectal cancer risk, rated two stars (2025) [adiet-haile2025]. Mechanistic support (haem iron) is unchanged [adiet-bastide2011].",
+   "bottom_line": "Processed meat probably raises colorectal cancer and diabetes risk modestly; for unprocessed red meat the case is weak and depends on what replaces it. 'Strong' overstates how certain and how large the effect is.",
+   "site_change": {
+    "evidence": "moderate",
+    "headline": "IARC classifies processed meat as carcinogenic (Group 1) and red meat as probably carcinogenic (2A); independent 2022-2025 reviews find the processed-meat link consistent but modest (at least ~7% higher colorectal cancer risk) and the unprocessed-red-meat link weak, with heme-driven lipid peroxidation and N-nitroso formation as the likely mechanism.",
+    "note": "Fill the empty debate field: NutriRECS [adiet-johnston2019] vs [adiet-qian2020]; add Burden of Proof results [adiet-lescinsky2022, adiet-haile2025]."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-alshaar2020",
+    "adiet-bastide2011",
+    "adiet-bouvard2015",
+    "adiet-haile2025",
+    "adiet-ioannidis2018",
+    "adiet-johnston2019",
+    "adiet-lescinsky2022",
+    "adiet-qian2020",
+    "adiet-zeraatkar2019"
+   ]
+  },
+  {
+   "factor": "processed-meat",
+   "verdict": "holds",
+   "claim": "Processed meat is the meat signal for sperm: high intake is linked to fewer normal-form sperm and lower counts; observational only.",
+   "biases": "Two small US studies with food-frequency questionnaires; confounding by overall diet, BMI and abstinence time is plausible [adiet-afeiche2014a, adiet-afeiche2014b].",
+   "newer_evidence": "No randomized or genetic study of meat and semen quality was found. The general-health evidence on processed meat is consistent but modest [adiet-haile2025].",
+   "bottom_line": "A reasonable, low-cost precaution, correctly labelled limited and observational.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-afeiche2014a",
+    "adiet-afeiche2014b",
+    "adiet-haile2025"
+   ]
+  },
+  {
+   "factor": "unprocessed-red-meat",
+   "verdict": "holds",
+   "claim": "Unprocessed red meat is not linked to worse semen quality.",
+   "biases": "Absence of association in small observational studies, with recall bias in the case-control study [adiet-afeiche2014b, adiet-liu2022b].",
+   "newer_evidence": "Nothing newer on semen. For general health, the 2022 Burden of Proof review rated unprocessed red meat's links with disease as weak [adiet-lescinsky2022].",
+   "bottom_line": "A neutral rating fits: the evidence for harm from unprocessed red meat is weak.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-afeiche2014b",
+    "adiet-lescinsky2022",
+    "adiet-liu2022b"
+   ]
+  },
+  {
+   "factor": "seed-oils-linoleic-acid",
+   "verdict": "holds",
+   "claim": "The 'toxic seed oil' claim is not supported; higher linoleic acid intake and blood levels are linked to lower mortality, though omega-6 trials are mixed.",
+   "biases": "Cohort intake data are confounded by overall diet, but blood/adipose LA biomarkers reduce reliance on questionnaires [adiet-li2020, adiet-marklund2019]. On the other side, the trials suggesting harm are old, small, and in the Sydney case used a trans-fat-containing margarine [adiet-sacks2017].",
+   "newer_evidence": "Biomarker pooling (FORCE) links higher LA with lower CVD [adiet-marklund2019] and 35% lower type 2 diabetes per interquintile range [adiet-wu2017]; UK Biobank shows lower mortality with higher plasma omega-6 [adiet-zhang2024]. Mendelian randomization is less supportive: the largest MR study (2022) found no protective effect of genetically higher LA on CVD and warns of FADS-locus pleiotropy [adiet-borges2022]; another found benefit only for stroke and VTE, driven by FADS1 [adiet-yuan2019]. Ramsden's 2010 trial meta-analysis showed n-6-specific trials gave no benefit (RR 1.13) while mixed n-3/n-6 trials did [adiet-ramsden2010], consistent with the recovered Sydney and Minnesota data [adiet-ramsden2013, adiet-ramsden2016] and Cochrane's null omega-6 result [adiet-hooper2018]. Cochrane 2020 supports replacing saturated fat [adiet-hooper2020].",
+   "bottom_line": "Seed oils are not toxic and replacing butter or lard with them is reasonable; whether extra linoleic acid itself prevents heart disease is unproven by trials and genetics.",
+   "site_change": {
+    "note": "Add [adiet-ramsden2010] and the Mendelian randomization results [adiet-borges2022] to the debate field; the 'beneficial' direction is fair for replacing saturated fat, not for adding LA on top."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-borges2022",
+    "adiet-hooper2018",
+    "adiet-hooper2020",
+    "adiet-li2020",
+    "adiet-marklund2019",
+    "adiet-ramsden2010",
+    "adiet-ramsden2013",
+    "adiet-ramsden2016",
+    "adiet-sacks2017",
+    "adiet-wu2017",
+    "adiet-yuan2019",
+    "adiet-zhang2024"
+   ]
+  },
+  {
+   "factor": "trans-fats",
+   "verdict": "strengthened",
+   "claim": "Industrial trans fats raise LDL, lower HDL, promote inflammation and carry the highest coronary risk per gram of any fat.",
+   "biases": "Much of the original evidence was cohort-based, open to confounding by fast-food diets [adiet-mozaffarian2006b].",
+   "newer_evidence": "A natural experiment in New York State showed counties that restricted trans fat had a 6.2% extra drop in MI and stroke admissions versus comparable counties (2017) [adiet-brandt2017], a design that sidesteps individual confounding. The 2025 Burden of Proof review rated the dose-response evidence two stars, with at least 3% higher IHD risk across usual intakes [adiet-haile2025].",
+   "bottom_line": "The harm is about as well established as any diet finding; most countries have now removed most industrial trans fat, so the practical risk is lower than before.",
+   "site_change": {
+    "note": "Cite the New York natural experiment [adiet-brandt2017] in caveats or debate."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-brandt2017",
+    "adiet-haile2025",
+    "adiet-mozaffarian2006b"
+   ]
+  },
+  {
+   "factor": "mediterranean-diet",
+   "verdict": "holds",
+   "claim": "PREDIMED cut major CVD events by ~30%; sub-studies found less oxidative damage; for sperm and IVF the data are observational.",
+   "biases": "PREDIMED was retracted and republished in 2018 after non-random allocation of household members and at some sites [adiet-estruch2018r]; critics question whether it can still be treated as a randomized trial [adiet-agarwal2019]. The control group got low-fat advice rather than a true low-fat diet, and free EVOO or nuts. Fertility associations are cohort and cross-sectional (healthy-user bias) [adiet-muffone2023].",
+   "newer_evidence": "Republished PREDIMED results held after excluding 1,588 irregular participants [adiet-estruch2018]. Cochrane (2019) judged evidence low quality for mortality, found fewer strokes, and excluded two secondary-prevention trials for data-reliability concerns [adiet-rees2019]; separately, the Indo-Mediterranean Diet Heart Study carries a 2005 Lancet expression of concern [adiet-singh2002]. CORDIOPREV (2022), a 7-year RCT in 1,002 coronary patients, found ~25-28% fewer cardiovascular events than with a low-fat diet [adiet-delgadolista2022], adding to the Lyon trial [adiet-delorgeril1999]. For sperm, two small RCTs (2020, 2025) found modest improvements in count [adiet-caruso2020, adiet-ghasemi2025]; for IVF outcomes no RCT exists and a 2023 meta-analysis called the evidence insufficient [adiet-muffone2023].",
+   "bottom_line": "The Mediterranean diet remains the best-supported dietary pattern for heart disease, with two independent trials besides PREDIMED; effect sizes are uncertain and the fertility claims remain mostly observational.",
+   "site_change": {
+    "note": "Add CORDIOPREV [adiet-delgadolista2022] and the Agarwal/Ioannidis critique [adiet-agarwal2019] to the debate field; sperm entry can cite the two small RCTs [adiet-caruso2020, adiet-ghasemi2025]."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-agarwal2019",
+    "adiet-caruso2020",
+    "adiet-delgadolista2022",
+    "adiet-delorgeril1999",
+    "adiet-estruch2018",
+    "adiet-estruch2018r",
+    "adiet-ghasemi2025",
+    "adiet-muffone2023",
+    "adiet-rees2019",
+    "adiet-singh2002"
+   ]
+  },
+  {
+   "factor": "extra-virgin-olive-oil",
+   "verdict": "weakened",
+   "claim": "High-phenolic EVOO lowers oxidized LDL (EUROLIVE), carries an EU health claim, and PREDIMED's EVOO arm cut major CVD events by ~30%; evidence rated strong.",
+   "biases": "PREDIMED tested a whole Mediterranean diet plus free oil against low-fat advice, so it cannot isolate EVOO, and its randomization problems weaken it [adiet-estruch2018, adiet-agarwal2019]. Olive-oil cohorts are subject to healthy-user and socioeconomic confounding; in US cohorts olive oil was no better than other vegetable oils combined [adiet-guaschferre2022].",
+   "newer_evidence": "EUROLIVE's surrogate result (oxidized LDL falling with phenol content) still stands [adiet-covas2006]; the 2022 OLIVAUS crossover found smaller, partly within-arm effects [adiet-sarapis2022]. Cochrane rated the PREDIMED-type evidence low quality for mortality [adiet-rees2019]. No trial has compared high- vs low-phenolic oil on clinical events.",
+   "bottom_line": "EVOO is a good default fat with a real but modest effect on LDL oxidation; the 30% event reduction belongs to the whole PREDIMED diet, not to the oil alone.",
+   "site_change": {
+    "evidence": "moderate",
+    "headline": "In the 200-man EUROLIVE RCT, oxidized LDL fell with olive-oil phenolic content at 25 mL/day, and the EU authorises an LDL-protection claim at 5 mg hydroxytyrosol per 20 g; PREDIMED's Mediterranean diet with EVOO cut major CVD events by ~30%, but that trial tested the whole diet, not the oil alone.",
+    "note": null
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-agarwal2019",
+    "adiet-covas2006",
+    "adiet-estruch2018",
+    "adiet-guaschferre2022",
+    "adiet-rees2019",
+    "adiet-sarapis2022"
+   ]
+  },
+  {
+   "factor": "walnuts-nuts",
+   "verdict": "holds",
+   "claim": "A handful of nuts a day lowers LDL and apoB, PREDIMED's nut arm cut CVD events by ~28%, and 60-75 g/day nuts improved sperm quality in two RCTs.",
+   "biases": "PREDIMED caveats apply [adiet-agarwal2019]; nut trials are often nut-industry funded, including FERTINUTS [adiet-salashuetos2018b].",
+   "newer_evidence": "Lipid lowering is consistent across 26 walnut trials [adiet-guaschferre2018]. A 2024 meta-analysis pooled the two sperm RCTs (223 men) and confirmed better motility, vitality and morphology, but found no link with ART outcomes in observational studies [adiet-cardoso2024, adiet-robbins2012].",
+   "bottom_line": "Nuts reliably improve blood lipids and probably sperm parameters in healthy men; fertility outcomes are untested.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-agarwal2019",
+    "adiet-cardoso2024",
+    "adiet-guaschferre2018",
+    "adiet-robbins2012",
+    "adiet-salashuetos2018b"
+   ]
+  },
+  {
+   "factor": "mind-diet",
+   "verdict": "holds",
+   "claim": "Cohorts linked MIND adherence to 53% lower Alzheimer risk, but the 3-year MIND RCT was null.",
+   "biases": "Reverse causation and food-questionnaire error apply; this is a textbook case of a cohort finding not replicated by a trial [adiet-barnes2023].",
+   "newer_evidence": "The 2023 NEJM MIND trial was null for cognition and MRI [adiet-barnes2023]. Diet MR is weak because food-intake genetics track education [adiet-cole2020].",
+   "bottom_line": "The cohort association should not be read as causal: the 3-year trial was null.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-barnes2023",
+    "adiet-cole2020"
+   ]
+  },
+  {
+   "factor": "dash-diet",
+   "verdict": "strengthened",
+   "claim": "DASH lowered BP ~8/7 mmHg and blunted lipid-induced F2-isoprostane rise in one small study; evidence rated limited.",
+   "biases": "The oxidative-stress claim rests on a single 2003 study [adiet-lopes2003]; the blood-pressure effect is randomized and replicated.",
+   "newer_evidence": "A 2020 meta-analysis of 30 RCTs (5,545 people) found DASH lowered BP by 3.2/2.5 mmHg, moderate-quality evidence [adiet-filippou2020]. The 2025 Cochrane review found too few trials with events to say whether DASH prevents heart attack or stroke [adiet-bensaaud2025].",
+   "bottom_line": "DASH is a proven blood-pressure diet (moderate evidence), though the average effect is smaller than the 8 mmHg in the cited study and hard-outcome trials are lacking.",
+   "site_change": {
+    "evidence": "moderate",
+    "headline": "Across 30 RCTs DASH lowers blood pressure by about 3/2.5 mmHg (more with high salt intake and in younger people); one small study also showed less lipid-induced F2-isoprostane rise, and no trial has yet measured heart attacks or strokes.",
+    "note": "The -8.1 mmHg figure is from one obese hypertensive group and is about 2.5x the pooled effect."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-bensaaud2025",
+    "adiet-filippou2020",
+    "adiet-lopes2003"
+   ]
+  },
+  {
+   "factor": "high-fruit-vegetable-intake",
+   "verdict": "weakened",
+   "claim": "Doubling produce lowered some oxidative markers but another trial was null; cohorts show lower mortality up to ~800 g/day; low-pesticide produce linked to higher sperm counts.",
+   "biases": "Produce intake marks wealth, education, non-smoking and exercise (healthy-user, residual confounding); FFQ measurement error is large [adiet-trepanowski2018, adiet-satija2015]. The sperm finding depends on a pesticide-residue classification in one cross-sectional study [adiet-chiu2016].",
+   "newer_evidence": "The largest dose-response analysis (2021, 1.9 million people) found mortality benefit plateaued at about 5 servings/day (~400 g), with no extra benefit above that and none from starchy vegetables or juice [adiet-wang2021], lower than the ~800 g in the 2017 analysis [adiet-aune2017]. The oxidative-marker trials remain split [adiet-moller2003].",
+   "bottom_line": "Eating about 5 servings a day is well supported; benefits beyond that are uncertain and some of the cohort association is likely confounding.",
+   "site_change": {
+    "note": "Change 'cohorts show lower mortality up to ~800 g/day' to note the 2021 analysis plateau at ~5 servings/day [adiet-wang2021]; dose 'ideally up to ~800 g' should say benefit beyond ~5 servings is uncertain."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-aune2017",
+    "adiet-chiu2016",
+    "adiet-moller2003",
+    "adiet-satija2015",
+    "adiet-trepanowski2018",
+    "adiet-wang2021"
+   ]
+  },
+  {
+   "factor": "whole-grains",
+   "verdict": "weakened",
+   "claim": "Each 90 g/day whole grain is associated with ~19% lower CHD and 17% lower mortality; evidence rated moderate.",
+   "biases": "Whole-grain eaters are more educated and health-conscious; a UK Biobank genetic analysis suggested the wholemeal-vs-white-bread pattern is driven by education-linked factors and is not strongly causal for heart disease or diabetes [adiet-cole2020].",
+   "newer_evidence": "Cochrane (2017) found no RCT with cardiovascular outcomes, and trials up to 16 weeks showed no difference in total cholesterol and insufficient evidence on blood pressure, with partial cereal-industry funding [adiet-kelly2017]. The cohort association itself is consistent [adiet-aune2016], and the Lancet carbohydrate-quality reviews found trial support for higher fibre more than for whole grain per se [adiet-reynolds2019].",
+   "bottom_line": "Whole grains are a sensible choice over refined grains, but the size of the mortality benefit is uncertain and may be partly confounded.",
+   "site_change": {
+    "evidence": "limited",
+    "note": "Add [adiet-kelly2017] to caveats: no RCT on events and no clear lipid effect in trials."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-aune2016",
+    "adiet-cole2020",
+    "adiet-kelly2017",
+    "adiet-reynolds2019"
+   ]
+  },
+  {
+   "factor": "dietary-fiber-microbiome",
+   "verdict": "holds",
+   "claim": "25-29 g/day fibre is linked to 15-30% lower mortality and cardiometabolic disease; most polyphenols need gut bacteria.",
+   "biases": "Observational mortality data share the healthy-user problem [adiet-satija2015].",
+   "newer_evidence": "The Lancet series combined cohorts with trials showing that higher fibre lowers weight, blood pressure and cholesterol, giving the association a causal pathway [adiet-reynolds2019].",
+   "bottom_line": "Well supported; the link from the microbiome to oxidative stress remains the weak part.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-reynolds2019",
+    "adiet-satija2015"
+   ]
+  },
+  {
+   "factor": "legumes",
+   "verdict": "holds",
+   "claim": "Legumes help glycaemic control and fibre intake; direct oxidative data are scarce.",
+   "biases": "Mortality associations are observational [adiet-zargarzadeh2023].",
+   "newer_evidence": "A 2023 meta-analysis of 32 cohorts found 6% lower all-cause mortality and lower stroke mortality with higher legume intake, but no association with CVD or cancer mortality; low-to-moderate certainty [adiet-zargarzadeh2023]. Substituting legumes, nuts or soy for red meat was associated with lower CHD [adiet-alshaar2020].",
+   "bottom_line": "Modest and consistent but small benefits.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-alshaar2020",
+    "adiet-zargarzadeh2023"
+   ]
+  },
+  {
+   "factor": "soy",
+   "verdict": "holds",
+   "claim": "Soy does not change male hormones; equol production varies; soy intake linked to higher ART live birth in one cohort.",
+   "biases": "The ART association is from one fertility-clinic cohort (residual confounding by diet pattern) [adiet-vanegas2015].",
+   "newer_evidence": "The 2021 meta-analysis of clinical studies remains the best evidence that soy does not lower testosterone [adiet-reed2021]. No newer trial on fertility outcomes was found.",
+   "bottom_line": "Neutral is the right reading.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-reed2021",
+    "adiet-vanegas2015"
+   ]
+  },
+  {
+   "factor": "ketogenic-diet",
+   "verdict": "holds",
+   "claim": "Keto is proven for epilepsy and improves HbA1c, triglycerides and CRP short-term; LDL can rise in lean people; animal-based patterns link to higher mortality.",
+   "biases": "The low-carb mortality data are cohort-based and confounded by what replaces carbohydrate [adiet-seidelmann2018].",
+   "newer_evidence": "Meta-analysis confirms LDL rises in lower-BMI people [adiet-sotomota2024]; an inpatient trial showed higher energy intake on animal-based keto [adiet-hall2021]. Seidelmann (2018) found a U-shaped carbohydrate-mortality curve, higher mortality when carbohydrate was replaced by animal fat and protein, lower when replaced by plant sources [adiet-seidelmann2018]. The PCOS and testosterone effects track weight loss [adiet-arsenaki2026, adiet-furini2023]. The 2026 KETO-CTA paper was retracted.",
+   "bottom_line": "Keto works for epilepsy and improves HbA1c and triglycerides short-term; LDL can rise, especially in lean people, and replacing carbohydrate with animal rather than plant fat and protein tracks higher mortality.",
+   "site_change": {
+    "note": "Cite [adiet-seidelmann2018] alongside Shan 2020 for the animal-vs-plant mortality contrast."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-arsenaki2026",
+    "adiet-furini2023",
+    "adiet-hall2021",
+    "adiet-seidelmann2018",
+    "adiet-sotomota2024"
+   ]
+  },
+  {
+   "factor": "low-carb-diet",
+   "verdict": "holds",
+   "claim": "Moderate low-carb lowers HbA1c, triglycerides and CRP, matches low-fat for weight at 12 months, and plant-based versions are linked to lower mortality.",
+   "biases": "Mortality data are observational; questionnaire-based diet scores mix food quality with carbohydrate amount [adiet-shan2020].",
+   "newer_evidence": "DIETFITS showed equal weight loss for healthy low-fat and low-carb [adiet-gardner2018]; the ARIC/meta-analysis U-shape with plant vs animal substitution shows that the source of the replacement fat and protein matters [adiet-seidelmann2018].",
+   "bottom_line": "Accurate as written.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-gardner2018",
+    "adiet-seidelmann2018",
+    "adiet-shan2020"
+   ]
+  },
+  {
+   "factor": "intermittent-fasting",
+   "verdict": "holds",
+   "claim": "Intermittent fasting works mainly by reducing calories; it matches calorie restriction and shows no fasting-specific oxidative benefit.",
+   "biases": "Early positive findings came from uncontrolled or tiny studies; calorie-matched designs remove confounding by energy deficit [adiet-templeman2021].",
+   "newer_evidence": "A 2025 BMJ network meta-analysis of 99 RCTs [adiet-semnaniazad2025] and a 2025 meta-analysis of 20 isocaloric RCTs [adiet-hamsho2025] found IF not superior to continuous restriction, with more hunger. Calorie-matched TRE (Liu 2022, Peters 2025) added nothing [adiet-liu2022c, adiet-peters2025]; Cochrane agrees [adiet-allaf2021].",
+   "bottom_line": "Confirmed: fasting schedules are a way to eat less, not a separate antioxidant intervention.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-allaf2021",
+    "adiet-hamsho2025",
+    "adiet-liu2022c",
+    "adiet-peters2025",
+    "adiet-semnaniazad2025",
+    "adiet-templeman2021"
+   ]
+  },
+  {
+   "factor": "time-restricted-eating",
+   "verdict": "holds",
+   "claim": "An 8-10 h window cuts intake and gives weight loss similar to calorie counting; it adds little when calories are matched; the NHANES 'HR 2.35' finding is heavily confounded.",
+   "biases": "The 2024 AHA abstract, published 2025, used two 24-h dietary recalls, the all-cause association did not survive sensitivity analyses, and the authors themselves flag residual confounding; reverse causation (illness, food insecurity, skipped meals) is plausible [adiet-chen2025].",
+   "newer_evidence": "Randomized trials: TRE plus calorie restriction was no better than calorie restriction (2022) [adiet-liu2022c]; TRE without counting matched counting (2023) [adiet-lin2023]; in metabolic syndrome only -0.10% HbA1c (2024) [adiet-manoogian2024]; isocaloric TRE did not improve cardiometabolic health (2025) [adiet-peters2025].",
+   "bottom_line": "The newest trials show eating windows work mainly through eating less; the NHANES '91% higher heart death' claim should be discounted.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-chen2025",
+    "adiet-lin2023",
+    "adiet-liu2022c",
+    "adiet-manoogian2024",
+    "adiet-peters2025"
+   ]
+  },
+  {
+   "factor": "alternate-day-fasting",
+   "verdict": "holds",
+   "claim": "ADF gives the same 1-year weight loss as daily restriction with more dropouts; calorie-matched ADF did not lower oxidative stress markers.",
+   "biases": "The early oxidative-stress result came from an uncontrolled 10-person study.",
+   "newer_evidence": "Trepanowski 2017 and Templeman 2021 stand [adiet-trepanowski2017, adiet-templeman2021]; the 2025 network meta-analysis found only a small ADF edge [adiet-semnaniazad2025].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-semnaniazad2025",
+    "adiet-templeman2021",
+    "adiet-trepanowski2017"
+   ]
+  },
+  {
+   "factor": "five-two-diet",
+   "verdict": "holds",
+   "claim": "5:2 matches continuous restriction for weight loss with more hunger and hypoglycaemia on glucose-lowering drugs.",
+   "biases": "None beyond small, short trials.",
+   "newer_evidence": "One-year trials and meta-analyses agree [adiet-harvie2011, adiet-sundfor2018, adiet-semnaniazad2025].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-harvie2011",
+    "adiet-semnaniazad2025",
+    "adiet-sundfor2018"
+   ]
+  },
+  {
+   "factor": "fasting-mimicking-diet",
+   "verdict": "holds",
+   "claim": "One 100-person trial showed lower weight, BP and IGF-1; the developer has a commercial interest.",
+   "biases": "Single research group with a commercial product; biological-age result exploratory [adiet-wei2017, adiet-brandhorst2024].",
+   "newer_evidence": "No independent replication found in this search.",
+   "bottom_line": "Accurate; the conflict-of-interest caveat is the key point.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-brandhorst2024",
+    "adiet-wei2017"
+   ]
+  },
+  {
+   "factor": "prolonged-fasting",
+   "verdict": "holds",
+   "claim": "Multi-day fasts lowered TBARS in uncontrolled cohorts, but much of the weight lost is lean tissue and no controlled trial shows lasting benefit.",
+   "biases": "Clinic-run uncontrolled cohorts (selection, no comparator) [adiet-wilhelmidetoledo2019].",
+   "newer_evidence": "Controlled physiology work confirms large lean-tissue loss [adiet-laurens2021]; no RCT found.",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-laurens2021",
+    "adiet-wilhelmidetoledo2019"
+   ]
+  },
+  {
+   "factor": "calorie-restriction",
+   "verdict": "holds",
+   "claim": "In CALERIE, ~12% calorie restriction for 2 years lowered F2-isoprostanes, LDL, BP, CRP and insulin resistance, with some bone and lean loss.",
+   "biases": "Randomized; main limits are adherence and generalisability to lean young adults.",
+   "newer_evidence": "CALERIE secondary analyses confirm isoprostane falls [adiet-ilyasova2018], cardiometabolic gains [adiet-kraus2019] and only a small effect on one epigenetic pace-of-aging measure [adiet-waziry2023].",
+   "bottom_line": "One of the best-supported claims in the group.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-ilyasova2018",
+    "adiet-kraus2019",
+    "adiet-waziry2023"
+   ]
+  },
+  {
+   "factor": "overfeeding",
+   "verdict": "holds",
+   "claim": "Experimental overfeeding raises isoprostanes and carbonyls within days to weeks.",
+   "biases": "Small, short experiments; but they are experiments, so confounding is not the issue [adiet-samochabonet2012, adiet-boden2015].",
+   "newer_evidence": "No contradicting work found.",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-boden2015",
+    "adiet-samochabonet2012"
+   ]
+  },
+  {
+   "factor": "late-eating",
+   "verdict": "holds",
+   "claim": "Late carbohydrate loads worsen glucose tolerance (more in MTNR1B carriers); weight-loss timing trials are mixed; no oxidative data.",
+   "biases": "Cohort findings on late eaters are confounded by sleep, chronotype and shift work.",
+   "newer_evidence": "Both sides: the acute crossover trial [adiet-garaulet2022] and front-loading meta-analysis [adiet-young2023] versus a null controlled crossover [adiet-ruddickcollins2022] and isocaloric early vs late TRE [adiet-peters2025].",
+   "bottom_line": "Accurate and current.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-garaulet2022",
+    "adiet-peters2025",
+    "adiet-ruddickcollins2022",
+    "adiet-young2023"
+   ]
+  },
+  {
+   "factor": "cocoa-flavanols",
+   "verdict": "holds",
+   "claim": "Cocoa flavanols improve FMD and lower BP; in COSMOS 500 mg/day did not significantly reduce total CVD events or cognition overall.",
+   "biases": "Many vascular trials are short and cocoa-industry funded; COSMOS's CVD-death benefit is a secondary outcome [adiet-sesso2022].",
+   "newer_evidence": "COSMOS ancillary work (2025) found an 8.4%/year relative fall in hsCRP but no change in IL-6 or TNF-alpha [adiet-li2025]; COSMOS-Clinic cognition was null [adiet-vyas2024]. Vascular benefits remain consistent in pooled RCTs [adiet-hooper2012, adiet-lagou2025].",
+   "bottom_line": "Strong for vascular function and blood pressure; unproven for heart attacks, strokes or cognition.",
+   "site_change": {
+    "note": "Optionally add the 2025 COSMOS hsCRP result [adiet-li2025]; keep 'strong' tied to the vascular endpoints only."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-hooper2012",
+    "adiet-lagou2025",
+    "adiet-li2025",
+    "adiet-sesso2022",
+    "adiet-vyas2024"
+   ]
+  },
+  {
+   "factor": "blueberries",
+   "verdict": "holds",
+   "claim": "One cup a day improved endothelial function over 6 months; small trials show oxidative-marker and cognitive benefits.",
+   "biases": "Small trials, often industry-funded, with many outcomes (multiplicity) [adiet-curtis2019].",
+   "newer_evidence": "A 2026 meta-analysis of 14 RCTs in healthy people confirmed better FMD (+1.11 points) but found no effect on blood pressure, executive function or mood [adiet-he2026].",
+   "bottom_line": "Vascular benefit holds; the cognitive claims should be presented as unconfirmed.",
+   "site_change": {
+    "note": "Caveat 'Cognitive trials are positive but small' should add that a 2026 meta-analysis found no cognitive effect in healthy people [adiet-he2026]."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-curtis2019",
+    "adiet-he2026"
+   ]
+  },
+  {
+   "factor": "berries-other",
+   "verdict": "holds",
+   "claim": "Pooled berry RCTs show small improvements in LDL, BP, glucose and TNF-alpha; anthocyanin foods improve FMD.",
+   "biases": "Heterogeneous small trials [adiet-huang2016].",
+   "newer_evidence": "No newer contrary synthesis found; blueberry-specific 2026 data support FMD but not BP [adiet-he2026, adiet-fairliejones2017].",
+   "bottom_line": "Accurate and appropriately modest.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-fairliejones2017",
+    "adiet-he2026",
+    "adiet-huang2016"
+   ]
+  },
+  {
+   "factor": "blackberries",
+   "verdict": "holds",
+   "claim": "Polyphenol-rich, but only one feeding trial, on metabolism not oxidative stress.",
+   "biases": "Inference by analogy.",
+   "newer_evidence": "Nothing newer found beyond the feeding study [adiet-solverson2018].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-solverson2018"
+   ]
+  },
+  {
+   "factor": "pomegranate",
+   "verdict": "holds",
+   "claim": "A famous 10-patient study was not replicated by an 18-month RCT and lipids are unchanged in meta-analysis.",
+   "biases": "Industry-funded small early studies.",
+   "newer_evidence": "Davidson 2009 and a 12-RCT lipid meta-analysis remain the best evidence [adiet-davidson2009, adiet-sahebkar2016].",
+   "bottom_line": "A small positive study was overturned by a larger trial.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-davidson2009",
+    "adiet-sahebkar2016"
+   ]
+  },
+  {
+   "factor": "red-wine-resveratrol",
+   "verdict": "strengthened",
+   "claim": "Red wine has negligible resveratrol, resveratrol is poorly bioavailable, and alcohol raises lipid peroxidation; no antioxidant reason to drink.",
+   "biases": "The old 'French paradox' and J-curve rested on cohorts where 'non-drinkers' include sick former drinkers (abstainer bias) and light drinkers are healthier [adiet-zhao2023].",
+   "newer_evidence": "A 2023 meta-analysis of 107 cohorts correcting for former-drinker bias found no mortality benefit from low-volume drinking [adiet-zhao2023]. Linear and non-linear Mendelian randomization in UK Biobank found alcohol raised hypertension and coronary risk at all intakes, and that light drinkers' apparent benefit was explained by healthier lifestyles [adiet-biddinger2022]. Resveratrol metabolites did not predict mortality [adiet-semba2014].",
+   "bottom_line": "Treating red wine as a harm is better supported now than before: the apparent protection was mostly abstainer bias.",
+   "site_change": {
+    "note": "Add [adiet-zhao2023] and [adiet-biddinger2022] to debate: the protective J-curve is largely abstainer bias and healthy-drinker confounding."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-biddinger2022",
+    "adiet-semba2014",
+    "adiet-zhao2023"
+   ]
+  },
+  {
+   "factor": "omega3-fish",
+   "verdict": "holds",
+   "claim": "Fish oil does not raise oxidative markers; long-chain omega-3 slightly reduces CHD; fish eaters have better sperm counts and a DHA RCT lowered SDF; serum omega-3 linked to IVF live birth.",
+   "biases": "Fish-eater associations are confounded by wealth and overall diet; fish also carries methylmercury, which may blunt cardiovascular benefit [adiet-mozaffarian2006]. Sperm and egg data are small trials and cohorts [adiet-martinezsoto2016, adiet-chiu2018].",
+   "newer_evidence": "VITAL (2019): 1 g/day omega-3 did not reduce major CVD events [adiet-manson2019]. Supplement trials raise atrial fibrillation risk by 25%, more above 1 g/day [adiet-gencer2021], echoed in UK Biobank fish-oil users without CVD [adiet-chen2024]. Cochrane remains low-certainty for CHD [adiet-abdelhamid2020]. A meta-analysis of small RCTs supports omega-3 for sperm count and motility [adiet-salashuetos2018].",
+   "bottom_line": "Eating oily fish once or twice a week is reasonable; high-dose supplements bring a small atrial-fibrillation risk and no clear heart benefit in healthy people.",
+   "site_change": {
+    "note": "Add the atrial fibrillation signal [adiet-gencer2021] to 'too_much' for supplements above ~1 g/day; the sperm entry's 'above ~3 g/day raises bleeding risk' should also mention AF."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-abdelhamid2020",
+    "adiet-chen2024",
+    "adiet-chiu2018",
+    "adiet-gencer2021",
+    "adiet-manson2019",
+    "adiet-martinezsoto2016",
+    "adiet-mozaffarian2006",
+    "adiet-salashuetos2018"
+   ]
+  },
+  {
+   "factor": "refined-sugar-high-glycemic",
+   "verdict": "holds",
+   "claim": "A glucose load transiently raises leukocyte ROS; sugary drinks linked to ~10 points lower motility in young men.",
+   "biases": "The ROS data are acute mechanistic studies [adiet-mohanty2000]; the semen link is cross-sectional with a single sample [adiet-chiu2014].",
+   "newer_evidence": "A 2023 umbrella review found many harmful associations, the strongest (moderate quality) for weight gain and ectopic fat [adiet-huang2023]; Burden of Proof rated SSB-diabetes evidence two stars [adiet-haile2025]. For sperm, results conflict: a 2024 preconception cohort found ~22% lower concentration with 7+ SSBs/week [adiet-joseph2024], while 1,047 Danish young men showed no strong association [adiet-meldgaard2022]; SSBs were linked to lower fecundability in both partners [adiet-hatch2018].",
+   "bottom_line": "Limiting sugary drinks is well supported for general health; the semen effect is plausible but inconsistent.",
+   "site_change": {
+    "note": "Sperm entry debate: add [adiet-joseph2024] (supports) and [adiet-meldgaard2022] (null)."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-chiu2014",
+    "adiet-haile2025",
+    "adiet-hatch2018",
+    "adiet-huang2023",
+    "adiet-joseph2024",
+    "adiet-meldgaard2022",
+    "adiet-mohanty2000"
+   ]
+  },
+  {
+   "factor": "flaxseed-lignans",
+   "verdict": "weakened",
+   "claim": "30 g/day milled flaxseed lowered systolic BP by ~10 mmHg (15 in hypertensives), one of the largest BP effects of any food.",
+   "biases": "A single trial in peripheral artery disease patients; large effects in single small trials tend to shrink [adiet-rodriguezleyva2013, adiet-schoenfeld2013].",
+   "newer_evidence": "A 2023 meta-analysis of 33 trials (2,427 people) found an average -3.2/-2.6 mmHg, with very high heterogeneity; effects were larger at >=30 g/day, >20 weeks and in hypertension [adiet-li2023].",
+   "bottom_line": "Flaxseed probably lowers blood pressure a little (about 3 mmHg on average); the 10-15 mmHg figure is the best case from one trial.",
+   "site_change": {
+    "headline": "30 g/day milled flaxseed lowered systolic BP by about 10 mmHg in a 110-patient RCT, but across 33 trials the average fall is about 3 mmHg, larger in hypertension and with longer use; lignans and ALA both appear to contribute.",
+    "note": null
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-li2023",
+    "adiet-rodriguezleyva2013",
+    "adiet-schoenfeld2013"
+   ]
+  },
+  {
+   "factor": "leafy-greens",
+   "verdict": "weakened",
+   "claim": "Nitrate-rich greens and beetroot lower systolic BP by ~4 mmHg in short trials.",
+   "biases": "Short, small trials (7-30 people each in the 2013 meta-analysis) [adiet-siervo2013].",
+   "newer_evidence": "A 2023 meta-analysis found -2.4 mmHg systolic in healthy people and no significant fall in hypertensive patients, including 24-h ambulatory BP [adiet-zhang2023].",
+   "bottom_line": "Nitrate's blood-pressure effect is smaller than early trials suggested and may not hold in people with hypertension; greens remain a good food.",
+   "site_change": {
+    "note": "Replace the -4.4 mmHg key number with a range noting the 2023 result (-2.4 mmHg in normotensives, null in hypertensives) [adiet-zhang2023]."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-siervo2013",
+    "adiet-zhang2023"
+   ]
+  },
+  {
+   "factor": "broccoli-sprouts",
+   "verdict": "holds",
+   "claim": "Sprouts reliably deliver sulforaphane and raised benzene detoxication ~60% in RCTs, but proof of lower oxidative damage or clinical benefit in healthy people is thin.",
+   "biases": "Small trials, many from a few groups; a pattern of striking small positive trials followed by null replications [adiet-houghton2016].",
+   "newer_evidence": "The Qidong detoxication trials hold [adiet-egner2014]. Elsewhere sulforaphane's record is mixed: the 2014 autism trial (44 men) [adiet-singh2014] was not replicated on primary outcomes in 2021, 2023 or a 108-child 2024 trial [adiet-zimmerman2021, adiet-magner2023, adiet-ou2024]; 150 umol/day did nothing to Nrf2, inflammation or MDA in haemodialysis [adiet-ribeiro2024]; COPD was null [adiet-wise2016]; a 2025 prediabetes trial of sprout extract missed its primary endpoint [adiet-dwibedi2025].",
+   "bottom_line": "Sprouts are a sound way to get sulforaphane, but clinical benefits are unproven and several replications have failed.",
+   "site_change": {
+    "note": "Fill the empty debate field with the failed-replication series [adiet-singh2014] vs [adiet-zimmerman2021, adiet-magner2023, adiet-ou2024] and [adiet-ribeiro2024]."
+   },
+   "as_of": 2026,
+   "refs": [
+    "adiet-dwibedi2025",
+    "adiet-egner2014",
+    "adiet-houghton2016",
+    "adiet-magner2023",
+    "adiet-ou2024",
+    "adiet-ribeiro2024",
+    "adiet-singh2014",
+    "adiet-wise2016",
+    "adiet-zimmerman2021"
+   ]
+  },
+  {
+   "factor": "broccoli-seed-powder",
+   "verdict": "holds",
+   "claim": "Seed powder with active myrosinase converts 30-40% to sulforaphane but outcome trials are scarce.",
+   "biases": "Pharmacokinetic studies only; products vary.",
+   "newer_evidence": "Concentrated sulforaphane trials at 150 umol/day failed to change Nrf2 or oxidative markers in haemodialysis [adiet-ribeiro2024] and a broccoli sprout extract trial in prediabetes missed its primary endpoint, with benefit confined to exploratory responder subgroups [adiet-dwibedi2025].",
+   "bottom_line": "Accurate; outcome benefit is unproven.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-dwibedi2025",
+    "adiet-ribeiro2024"
+   ]
+  },
+  {
+   "factor": "broccoli-mature",
+   "verdict": "holds",
+   "claim": "Raw broccoli gives far more sulforaphane than cooked; high-glucoraphanin broccoli lowered LDL 5-7% in two RCTs.",
+   "biases": "LDL trials by one group using a commercial variety [adiet-armah2015].",
+   "newer_evidence": "No contradicting trials found; crucifer mortality associations remain weak-to-suggestive in umbrella review [adiet-li2022].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-armah2015",
+    "adiet-li2022"
+   ]
+  },
+  {
+   "factor": "cruciferous-other",
+   "verdict": "holds",
+   "claim": "Top-fifth crucifer intake is linked to ~22% lower mortality; a feeding trial lowered IL-6 19%.",
+   "biases": "The 22% figure is from Shanghai cohorts, observational [adiet-zhang2011]; the feeding trial's other markers were inconsistent [adiet-navarro2014].",
+   "newer_evidence": "Umbrella review rates most crucifer associations weak or suggestive [adiet-li2022].",
+   "bottom_line": "The associations are observational; treat them as plausible, not proven.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-li2022",
+    "adiet-navarro2014",
+    "adiet-zhang2011"
+   ]
+  },
+  {
+   "factor": "watercress-peitc",
+   "verdict": "holds",
+   "claim": "85 g/day watercress cut lymphocyte DNA damage 17% in 60 adults; PEITC modestly shifted carcinogen metabolism in smokers.",
+   "biases": "Small trials; single-centre.",
+   "newer_evidence": "No replication found [adiet-gill2007, adiet-yuan2016].",
+   "bottom_line": "Accurate and appropriately limited.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-gill2007",
+    "adiet-yuan2016"
+   ]
+  },
+  {
+   "factor": "moringa",
+   "verdict": "holds",
+   "claim": "Moringa showed an acute glucose effect but a 2025 meta-analysis found no consistent cardiometabolic effect.",
+   "biases": "Small heterogeneous trials.",
+   "newer_evidence": "The 2025 meta-analysis remains the latest [adiet-crisan2025].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-crisan2025"
+   ]
+  },
+  {
+   "factor": "carrots-carotenoids",
+   "verdict": "holds",
+   "claim": "Carotenoid foods are linked to less oxidative damage, but beta-carotene pills raised lung cancer and mortality in smokers.",
+   "biases": "The food associations are observational; the supplement result is the classic case where randomized trials overturned cohort-based expectations [adiet-omenn1996].",
+   "newer_evidence": "Cochrane confirms beta-carotene supplements increase mortality [adiet-bjelakovic2012].",
+   "bottom_line": "Accurate; a model antioxidant-paradox entry.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-bjelakovic2012",
+    "adiet-omenn1996"
+   ]
+  },
+  {
+   "factor": "vitamin-c-foods",
+   "verdict": "holds",
+   "claim": "Plasma vitamin C saturates near 200 mg/day from food; high-dose pills show no mortality benefit.",
+   "biases": "None material; depletion-repletion pharmacokinetics are experimental [adiet-levine1996].",
+   "newer_evidence": "Cochrane supplement data unchanged [adiet-bjelakovic2012].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-bjelakovic2012",
+    "adiet-levine1996"
+   ]
+  },
+  {
+   "factor": "citrus-hesperidin",
+   "verdict": "holds",
+   "claim": "500 mg/day hesperidin or orange juice lowered diastolic BP in small crossover trials; meta-analysis shows modest effects.",
+   "biases": "Small, short, partly industry-linked trials.",
+   "newer_evidence": "The 2025 meta-analysis is current [adiet-heidari2025, adiet-morand2011].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-heidari2025",
+    "adiet-morand2011"
+   ]
+  },
+  {
+   "factor": "tomatoes-lycopene",
+   "verdict": "holds",
+   "claim": "Lycopene is more bioavailable from cooked paste; tomato interventions lower LDL and IL-6; one lycopene trial missed its semen primary endpoint.",
+   "biases": "Short trials; the sperm trial was underpowered [adiet-williams2020].",
+   "newer_evidence": "No newer contrary synthesis found [adiet-cheng2017].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-cheng2017",
+    "adiet-williams2020"
+   ]
+  },
+  {
+   "factor": "garlic-alliums",
+   "verdict": "holds",
+   "claim": "Garlic supplements lower BP in hypertensives; oxidative-marker meta-analysis is weak.",
+   "biases": "Small heterogeneous trials with implausibly large effect sizes on oxidative markers [adiet-askari2021].",
+   "newer_evidence": "No newer contrary synthesis found [adiet-ried2016].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-askari2021",
+    "adiet-ried2016"
+   ]
+  },
+  {
+   "factor": "turmeric-curcumin",
+   "verdict": "holds",
+   "claim": "Culinary turmeric produces only nanomolar curcumin conjugates in blood; no systemic antioxidant effect shown.",
+   "biases": "Population 'curry eater' associations are confounded.",
+   "newer_evidence": "Pharmacokinetic data remain decisive [adiet-mahale2018].",
+   "bottom_line": "Accurate.",
+   "site_change": {},
+   "as_of": 2026,
+   "refs": [
+    "adiet-mahale2018"
+   ]
+  }
+ ]
+}

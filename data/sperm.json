@@ -152,10 +152,10 @@
    ],
    "direction": "harmful",
    "impact": {
-    "sperm": 3
+    "sperm": 2
    },
    "evidence": "limited",
-   "headline": "Active infection (e.g. Chlamydia, Mycoplasma) and white cells in semen raise ROS and SDF; treating a proven infection can lower SDF by about a third.",
+   "headline": "Active infection and white cells in semen are linked to higher ROS and SDF; one uncontrolled study saw SDF fall by a third after antibiotics, but the only RCT found leukocytospermia often resolves without them.",
    "dose": {
     "effective": "Leukocytospermia is defined as >=1 million white cells/mL; even 0.2-1 million/mL has been linked to higher ROS and SDF.",
     "studied_range": "Antibiotic courses guided by culture/PCR; follow-up about 4 months.",
@@ -236,12 +236,12 @@
    "scopes": [
     "sperm"
    ],
-   "direction": "beneficial",
+   "direction": "mixed",
    "impact": {
-    "sperm": 3
+    "sperm": 2
    },
    "evidence": "limited",
-   "headline": "Sperm taken directly from the testis have about 25 percentage points less DNA fragmentation than ejaculated sperm, and pooled studies show higher pregnancy and live birth with ICSI.",
+   "headline": "Testicular sperm have about 25 points less DNA fragmentation, and non-randomised studies report more live births with ICSI, but the only randomised comparison did not favour it and the HFEA rates it red; consider only after other causes are fixed.",
    "dose": {
     "effective": "Testicular sperm aspiration/extraction (TESA/TESE) for ICSI in non-azoospermic men with confirmed high SDF, usually after failed IVF/ICSI or recurrent miscarriage.",
     "studied_range": "5 studies with paired SDF (143 men); 4 studies, 507 cycles with clinical outcomes.",
@@ -618,7 +618,7 @@
    ],
    "direction": "harmful",
    "impact": {
-    "sperm": 2
+    "sperm": 1
    },
    "evidence": "limited",
    "headline": "Regular cannabis use is associated with more sperm DNA fragmentation and chromosome abnormalities in small studies.",
@@ -682,46 +682,6 @@
    "refs": [
     "rubes2005",
     "szabo2023"
-   ]
-  },
-  {
-   "id": "phthalates-bpa",
-   "name": "Endocrine disruptors: phthalates and bisphenol A",
-   "kind": "environment",
-   "scopes": [
-    "sperm"
-   ],
-   "direction": "harmful",
-   "impact": {
-    "sperm": 1
-   },
-   "evidence": "limited",
-   "headline": "Higher urinary phthalate and BPA levels are linked to more sperm DNA damage (about 10-18% more Comet damage per interquartile rise).",
-   "dose": {
-    "effective": "Practical reduction: avoid heating food in plastic, prefer glass/steel containers, eat less ultra-processed and canned food, choose fragrance-free personal care products.",
-    "studied_range": "General-population urinary levels (median BPA 1.3 ng/mL).",
-    "too_much": null,
-    "timeframe": "Urinary levels fall within days; any sperm effect would take ~3 months.",
-    "notes": "No intervention trial shows that lowering exposure improves SDF."
-   },
-   "mechanism": "Anti-androgenic and estrogenic receptor effects plus induction of oxidative stress in germ cells.",
-   "pathways": [
-    "endocrine",
-    "mitochondrial"
-   ],
-   "interactions": "Exposure falls naturally with a less processed diet ([mediterranean-diet-sperm]).",
-   "caveats": "Single-centre cross-sectional studies with spot urine samples; inconsistent replication.",
-   "key_numbers": [
-    {
-     "label": "Comet tail DNA rise per IQR BPA",
-     "value": 10,
-     "unit": "%",
-     "source": "meeker2010"
-    }
-   ],
-   "refs": [
-    "hauser2007",
-    "meeker2010"
    ]
   },
   {
@@ -1358,12 +1318,12 @@
    "scopes": [
     "sperm"
    ],
-   "direction": "mixed",
+   "direction": "neutral",
    "impact": {
     "sperm": 1
    },
    "evidence": "moderate",
-   "headline": "Cochrane finds possible benefit only from small, biased trials; the best-designed RCT (MOXI) showed no improvement in semen, DNA fragmentation or live birth.",
+   "headline": "Three large placebo-controlled RCTs (MOXI 2020, FAZST 2020 with 2370 men, SUMMER 2025 with 1171 men) found no gain in live birth or pregnancy from male antioxidant/vitamin supplements; SUMMER saw fewer pregnancies in months 4-6 (15.5% vs 21.5%).",
    "dose": {
     "effective": "No dose has proven benefit for live birth. If used, choose a modest-dose product (roughly vitamin C 500 mg, vitamin E 400 IU, selenium 100-200 ug, zinc 15-25 mg, folate 400-1000 ug, CoQ10 100-200 mg, L-carnitine 1-2 g) for 3 months, not stacked products.",
     "studied_range": "MOXI: vitamin C 500 mg, vitamin E 400 mg, selenium 0.2 mg, L-carnitine 1000 mg, zinc 20 mg, folic acid 1000 ug, lycopene 10 mg daily for 3-6 months. Cochrane: 20 different antioxidants in 90 RCTs.",
@@ -1664,7 +1624,7 @@
    "scopes": [
     "sperm"
    ],
-   "direction": "mixed",
+   "direction": "neutral",
    "impact": {
     "sperm": 1
    },
@@ -2661,6 +2621,548 @@
     "nut-ammar2019",
     "nut-pilling2019",
     "nut-dixon2012"
+   ]
+  },
+  {
+   "id": "flame-retardants-sperm",
+   "name": "Flame retardants and semen quality",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Higher dust TPHP went with 19% lower sperm concentration in 50 clinic men and PBDEs with lower motility in small studies, but the largest US fertility-clinic cohort found only weak, inconsistent links, and no study shows a sperm DNA-fragmentation effect.",
+   "dose": {
+    "effective": "Hand-washing before meals and wet cleaning lowered flame-retardant metabolites within a week; replace old foam furniture when practical.",
+    "studied_range": "Urinary OPFR metabolites in 220 EARTH men; dust TPHP and TDCPP in 50 men; serum PBDEs in 52-153 men.",
+    "too_much": null,
+    "timeframe": "Exposure during the roughly 74 days of spermatogenesis is what counts; OPFR body levels fall within days, PBDEs over years.",
+    "notes": "Strong co-exposure with phthalates and organophosphate pesticides; the one large Chinese \"OPE\" signal was driven by pesticide metabolites."
+   },
+   "mechanism": "Thyroid and androgen disruption and Sertoli-cell oxidative stress in animals; in young men BDE-47 tracked motility but not sperm chromatin damage [eia-albert2018].",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "See [flame-retardants]; overlaps with [plastics-chemicals] and [pesticides].",
+   "caveats": "Small samples, single urine samples, multiple metabolites and outcomes, and clinic populations. Paternal OPFRs were linked to fewer fertilized eggs and top-quality embryos in IVF, but not to live birth after adjusting for the female partner [eia-carignan2018].",
+   "debate": "Positive associations in small studies [eia-meeker2010, eia-abdelouahab2011, eia-yu2018] and a large Chinese clinic study [eia-li2023ope] versus weak and inconsistent results in 220 EARTH men [eia-ingle2018] and a 796-donor study where the mixture signal came from pesticide, not flame-retardant, metabolites [eia-tang2025]; borderline associations without DNA damage in healthy young men [eia-albert2018, eia-siddique2022].",
+   "key_numbers": [
+    {
+     "label": "Sperm concentration per IQR dust TPHP",
+     "value": -19,
+     "unit": "%",
+     "source": "eia-meeker2010"
+    }
+   ],
+   "refs": [
+    "eia-meeker2010",
+    "eia-abdelouahab2011",
+    "eia-yu2018",
+    "eia-li2023ope",
+    "eia-ingle2018",
+    "eia-tang2025",
+    "eia-albert2018",
+    "eia-siddique2022",
+    "eia-carignan2018",
+    "eia-gibson2019"
+   ]
+  },
+  {
+   "id": "occupational-solvents-sperm",
+   "name": "Occupational solvents and sperm (glycol ethers, paints, formaldehyde)",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 2
+   },
+   "evidence": "limited",
+   "headline": "Men with high glycol ether or solvent exposure at work had 2-4 times the odds of low motile sperm count, and formaldehyde-exposed workers had lower motility; effects are sizeable for exposed workers but rest on case-referent and cross-sectional studies.",
+   "dose": {
+    "effective": "For about 3 months before trying to conceive, minimise exposure at work: local exhaust ventilation, respirator with organic-vapour cartridges, impermeable gloves, substitution of water-based products; ask for task reassignment if exposure is high.",
+    "studied_range": "Glycol ether exposure rated moderate/high by hygienists; shipyard painters 2-ethoxyethanol TWA mean 9.9 mg/m3; formaldehyde exposure index in Chinese factory workers.",
+    "too_much": "High glycol ether exposure: adjusted OR 2.25 for low motile count; high solvent exposure OR 2.9-3.8.",
+    "timeframe": "Sperm reflect roughly the last 74 days of exposure; the case-referent window was the 3 months before the clinic visit.",
+    "notes": "Hobby use (occasional painting, varnishing) in a ventilated space is far below the occupational exposures studied."
+   },
+   "mechanism": "Alkoxyacetic acid metabolites of glycol ethers kill pachytene spermatocytes; solvents and formaldehyde raise lipid peroxidation, the main oxidative injury to sperm membranes.",
+   "pathways": [
+    "lipid-peroxidation",
+    "endocrine"
+   ],
+   "interactions": "See [occupational-solvents]. Adds to heat ([everyday-scrotal-heat]) and smoking, which travel with manual work.",
+   "caveats": "Job-based exposure assessment; confounding by heat, smoking and alcohol (adjustment reduced the glycol ether OR from 2.54 to 2.25). The most toxic glycol ethers have been restricted.",
+   "debate": "Two independent case-referent series (Canada, UK) found dose-related associations [eia-cherry2001, eia-cherry2008] and painters had more oligospermia [eia-welch1988], but in the Canadian replication series moderate exposure showed no effect (OR 1.01) [eia-cherry2001], and the time-to-pregnancy literature for solvents is equivocal [eia-snijder2012]. Formaldehyde-motility findings come from two Chinese occupational studies with exposure indices [eia-wang2015fa, eia-lv2022] and await replication.",
+   "key_numbers": [
+    {
+     "label": "Low motile count, high glycol ether exposure",
+     "value": 2.25,
+     "unit": "OR",
+     "source": "eia-cherry2008"
+    },
+    {
+     "label": "Low motile count, high solvent exposure (Montreal)",
+     "value": 3.83,
+     "unit": "OR",
+     "source": "eia-cherry2001"
+    }
+   ],
+   "refs": [
+    "eia-cherry2001",
+    "eia-cherry2008",
+    "eia-welch1988",
+    "eia-snijder2012",
+    "eia-wang2015fa",
+    "eia-lv2022",
+    "eia-moro2010"
+   ]
+  },
+  {
+   "id": "parabens-sperm",
+   "name": "Parabens and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Studies of urinary parabens and semen disagree: the Boston clinic study (190 men) and a Japanese study found no link with semen quality, while a 795-man Chinese study and smaller Polish and Chinese studies reported lower count or motility or more DNA damage; no study shows that cutting parabens improves sperm.",
+   "dose": {
+    "effective": "Use paraben-free leave-on products, especially sunscreen and body lotion (their use within 6 h raised men's urinary parabens 66-156% and 79-147%). For semen collected for testing, IUI or IVF, avoid paraben-preserved lubricants ([lubricants-sperm]).",
+    "studied_range": "Single or duplicate spot urines in men from fertility clinics and preconception cohorts (n = 42-795).",
+    "too_much": "No human threshold. In vitro, methylparaben at concentrations used in clinical products and lubricants cut motility and raised ROS and oxidative DNA adducts.",
+    "timeframe": "Exposure clears within days; any effect on sperm would need about one spermatogenic cycle (roughly 2-3 months) to show.",
+    "notes": "Butylparaben, the most potent and least common paraben, carries most of the positive findings."
+   },
+   "mechanism": "Parabens raise mitochondrial ROS and oxidative DNA adducts in human sperm in vitro, more with longer chains [epc-samarasinghe2018]; they are weakly estrogenic and anti-androgenic.",
+   "pathways": [
+    "mitochondrial",
+    "endocrine",
+    "dna-repair"
+   ],
+   "interactions": "Co-exposure with phthalates and BPA ([plastics-chemicals]); see [parabens] for sources and [lubricants-sperm].",
+   "caveats": "All human studies are cross-sectional or clinic-based, many on single urines, with mixtures of correlated chemicals and many semen endpoints tested (multiple-testing risk). Positive findings cluster in mixture models and for butylparaben, which is detected in only a minority of samples.",
+   "debate": "Null: no association with semen quality in 190 Boston men (butylparaben only with DNA damage) [epc-meeker2011], 42 Japanese men [epc-nishihama2017], or Spanish young men's DNA fragmentation [epc-kiwitt2024]; paternal parabens were not linked to IVF fertilization or live birth [epc-dodge2015]. Positive: lower motility and more abnormal forms and DNA stainability in 315 Polish men [epc-jurewicz2017], lower count and motility with a paraben mixture in 795 Chinese men [epc-shen2023], and butylparaben with comet-assay DNA damage [epc-li2026]. No meta-analysis exists.",
+   "key_numbers": [
+    {
+     "label": "Largest semen study (paraben mixture, lower count/motility)",
+     "value": 795,
+     "unit": "men",
+     "source": "epc-shen2023"
+    },
+    {
+     "label": "Rise in men's urinary parabens with sunscreen use",
+     "value": 156,
+     "unit": "% (upper)",
+     "source": "epc-nassan2017"
+    }
+   ],
+   "refs": [
+    "epc-meeker2011",
+    "epc-jurewicz2017",
+    "epc-nishihama2017",
+    "epc-shen2023",
+    "epc-li2026",
+    "epc-kiwitt2024",
+    "epc-dodge2015",
+    "epc-samarasinghe2018",
+    "epc-nassan2017",
+    "epc-smith2012"
+   ]
+  },
+  {
+   "id": "triclosan-sperm",
+   "name": "Triclosan and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "A 2024 meta-analysis of 5 small case-control and cross-sectional studies linked triclosan to lower sperm concentration and motility (high heterogeneity); the larger Boston study found only about 1 percentage point fewer normal-shaped sperm without dose-response, and a 443-couple Shanghai cohort linked higher male triclosan to 23% lower fecundability.",
+   "dose": {
+    "effective": "Use plain soap and triclosan-free toothpaste, deodorant and cosmetics; most US consumer washes have been triclosan-free since 2017.",
+    "studied_range": "Urinary or seminal-plasma triclosan in 262-471 men; one preconception cohort of 443 couples.",
+    "too_much": "No human threshold.",
+    "timeframe": "Triclosan clears in about 1-4 days; sperm effects, if any, would take a spermatogenic cycle.",
+    "notes": "Exposure in the US has fallen since the FDA rule, so older studies reflect higher exposure."
+   },
+   "mechanism": "Endocrine disruption (androgen and thyroid pathways) and oxidative stress in animal and in vitro testis models.",
+   "pathways": [
+    "endocrine",
+    "mitochondrial"
+   ],
+   "interactions": "See [triclosan-triclocarban] for sources; co-exposure with [parabens].",
+   "caveats": "Small, mainly clinic-based, cross-sectional studies with single urines; pooled estimates are dominated by heterogeneity.",
+   "debate": "Positive: meta-analysis SMD -0.42 for concentration and -1.30 for motility [epc-adegbola2024]; modest motility links in 471 men [epc-zhu2016]; lower fecundability with male triclosan [epc-zhu2022]. Weak or null: limited (none or modest) effects in 406 men [epc-yuan2022]; only slightly lower morphology without dose-response in 262 Boston men [epc-nassan2019]; a systematic review found little to no indication that triclosan affects time to pregnancy [epc-hipwell2019].",
+   "key_numbers": [
+    {
+     "label": "Sperm concentration, pooled SMD",
+     "value": -0.42,
+     "unit": "SMD",
+     "source": "epc-adegbola2024"
+    },
+    {
+     "label": "Fecundability with higher male triclosan",
+     "value": 0.77,
+     "unit": "FOR",
+     "source": "epc-zhu2022"
+    }
+   ],
+   "refs": [
+    "epc-adegbola2024",
+    "epc-zhu2016",
+    "epc-yuan2022",
+    "epc-nassan2019",
+    "epc-zhu2022",
+    "epc-hipwell2019"
+   ]
+  },
+  {
+   "id": "uv-filters-sperm",
+   "name": "Sunscreen UV filters and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Mostly null: in the US LIFE study men's urinary BP-2 (not the main sunscreen filter BP-3) went with 31% lower couple fecundability and some poorer semen measures, while Spanish and Danish studies found no semen links overall; several filters trigger sperm calcium signalling in a dish.",
+   "dose": {
+    "effective": "Keep using sunscreen; if trying to conceive, prefer mineral (zinc oxide or titanium dioxide) sunscreen and protective clothing to reduce absorbed filters.",
+    "studied_range": "Urinary benzophenones in 413-501 men (LIFE), young men in Spain and Denmark.",
+    "too_much": "No human threshold. In vitro calcium effects began at nanomolar to micromolar concentrations for some filters.",
+    "timeframe": "BP-3 is excreted over about 5 days after use; sperm effects, if any, would take a spermatogenic cycle.",
+    "notes": "The filters most linked to semen findings (BP-2, BP-8, 4-hydroxybenzophenone) are not the main ones in modern sunscreens."
+   },
+   "mechanism": "Thirteen of 29 UV filters induced calcium influx in human sperm, nine via CatSper, mimicking progesterone and potentially disturbing timing of hyperactivation and the acrosome reaction [epc-rehfeld2016]; benzophenones are weakly estrogenic and anti-androgenic.",
+   "pathways": [
+    "endocrine",
+    "redox-signaling"
+   ],
+   "interactions": "Weigh against the [sunscreen] benefit; see [uv-filters].",
+   "caveats": "Many semen endpoints and several filters were tested per study, so isolated hits are expected by chance. Associations appeared only in men with skin-barrier (filaggrin) mutations in one study [epc-joensen2018].",
+   "debate": "Positive: male BP-2 and 4OH-BP with lower fecundability [epc-buck2014]; BP-2 and BP-8 with a few of 35 semen endpoints [epc-buck2015]; a 2025 review sees a benzophenone-sperm signal [epc-jaskulak2025]. Null or opposite: no semen associations for any BP filter in Spanish young men, only small FSH shifts [epc-adoamnei2018]; 4OH-BP with slightly lower DNA fragmentation [epc-kiwitt2024]; associations limited to filaggrin-mutation carriers [epc-joensen2018]. A systematic review called the male benzophenone-TTP link preliminary [epc-hipwell2019].",
+   "key_numbers": [
+    {
+     "label": "Couple fecundability, male BP-2",
+     "value": 0.69,
+     "unit": "FOR",
+     "source": "epc-buck2014"
+    },
+    {
+     "label": "UV filters inducing sperm calcium signals in vitro",
+     "value": 13,
+     "unit": "of 29",
+     "source": "epc-rehfeld2016"
+    }
+   ],
+   "refs": [
+    "epc-buck2014",
+    "epc-buck2015",
+    "epc-adoamnei2018",
+    "epc-joensen2018",
+    "epc-kiwitt2024",
+    "epc-rehfeld2016",
+    "epc-jaskulak2025",
+    "epc-hipwell2019"
+   ]
+  },
+  {
+   "id": "phthalates-sperm",
+   "name": "Phthalates and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Men with higher urinary DBP and BBzP metabolites (MBP, MBzP) have roughly twice the odds of low sperm concentration in pooled data, and DEP and DEHP metabolites tracked 14-18% more Comet sperm DNA damage in one Boston clinic, but nearly all of it comes from single spot urines in fertility-clinic men, motility and morphology links are null in meta-analysis, and no trial shows that lowering exposure improves semen.",
+   "dose": {
+    "effective": "Same steps as [phthalates]: fresh rather than fast or ultra-processed food, glass or steel for hot food, fragrance-free toiletries and aftershave, and phthalate-free formulations of long-term enteric-coated medicines (with a pharmacist). Start about 3 months before trying to conceive.",
+    "studied_range": "General-population and fertility-clinic urinary levels; single spot urine in most studies, repeated samples in a 1,034-man Chinese cohort.",
+    "too_much": "No semen threshold established. EFSA group TDI 50 ug/kg/day (DEHP equivalents) is set on fetal testosterone, not adult sperm.",
+    "timeframe": "Urine falls within 1-3 days; any change in sperm would need roughly one spermatogenic cycle (about 64 days plus epididymal transit, so about 3 months).",
+    "notes": "No intervention study has measured semen or sperm DNA fragmentation."
+   },
+   "mechanism": "Phthalate monoesters are Sertoli- and Leydig-cell toxicants in rodents and lower testosterone; in men from subfertile couples, every urinary phthalate metabolite tracked oxidative-stress markers (8-OHdG, 8-isoPGF2a, HNE-MA), and 8-isoPGF2a suggestively mediated about 12% of the MBP-sperm concentration association. Comet-assay damage is consistent with oxidative DNA breaks but was not measured alongside oxidative markers.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation",
+    "dna-repair"
+   ],
+   "interactions": "Shares sources with [bisphenols-sperm] and [microplastics-sperm]; men with higher exposure also tend to eat more processed food, so [profertility-diet] confounds. Paternal DEHP was also linked to lower IVF live birth in couples (see [phthalates-egg]).",
+   "caveats": "Cross-sectional fertility-clinic samples (selection into IVF clinics), one urine per man for metabolites with ICC 0.1-0.6, many metabolite-by-endpoint tests, and confounding by diet and BMI. The MEHP-DNA-damage finding appeared only after statistically adjusting for its own oxidative metabolite MEHHP, a modelling choice. Sperm DNA damage was measured with the neutral Comet assay, not the clinical SCSA/TUNEL tests.",
+   "debate": "For: an EPA systematic review rated evidence 'robust' for DEHP and DBP and male reproductive outcomes (AGD, semen, testosterone) [ept-radke2018]; clinic studies found dose-response links of MBP with low concentration [ept-hauser2006] and of MEP and MEHP with Comet DNA damage [ept-duty2003, ept-hauser2007]; a 2026 systematic review graded certainty low to moderate [ept-dhar2026]; oxidative stress may partly mediate [ept-liu2019]. Against or narrower: a meta-analysis found only MBP, MBzP and semen DEHP associated with concentration and nothing for motility or morphology [ept-wangh2023]; in 420 EARTH men a mixture analysis of 24 chemicals found the consistent signals were mercury and triclosan, not phthalates [ept-genardwalton2025]. Paternal exposure and couple outcomes: a few paternal metabolites predicted lower implantation and live birth but most did not [ept-dodge2015]; a paternal DEHP factor predicted IVF failure (HR 1.41) [ept-minguezalarcon2021].",
+   "key_numbers": [
+    {
+     "label": "Pooled OR, low sperm concentration, high vs low MBP",
+     "value": 2.19,
+     "unit": "OR",
+     "source": "ept-wangh2023"
+    },
+    {
+     "label": "More Comet extent per IQR MEHP (after MEHHP adjustment)",
+     "value": 17.3,
+     "unit": "%",
+     "source": "ept-hauser2007"
+    },
+    {
+     "label": "IVF failure hazard per IQR paternal DEHP factor",
+     "value": 1.41,
+     "unit": "HR",
+     "source": "ept-minguezalarcon2021"
+    }
+   ],
+   "refs": [
+    "ept-radke2018",
+    "ept-hauser2006",
+    "ept-duty2003",
+    "ept-hauser2007",
+    "ept-dhar2026",
+    "ept-liu2019",
+    "ept-wangh2023",
+    "ept-genardwalton2025",
+    "ept-dodge2015",
+    "ept-minguezalarcon2021",
+    "ept-johns2015",
+    "ept-heller1963",
+    "ept-efsa2019"
+   ]
+  },
+  {
+   "id": "bisphenols-sperm",
+   "name": "Bisphenols (BPA, BPS) and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Pooled studies find at most a slight link between urinary BPA and lower sperm concentration and count, and a motility link vanished after publication-bias correction; a 190-man clinic study tied BPA to 10% more Comet DNA damage, but a 418-man population cohort found higher BPA with slightly less DNA fragmentation, so the DNA-damage claim is unconfirmed.",
+   "dose": {
+    "effective": "Same steps as [bisphenols]: fewer canned foods and drinks, no old polycarbonate bottles, decline or briefly handle receipts (not after hand sanitizer), fresh food. Start about 3 months before trying to conceive.",
+    "studied_range": "Urinary BPA medians about 0.5-1.9 ug/L in general-population and clinic studies; much higher in Chinese BPA factory workers.",
+    "too_much": "No semen threshold established. Germany's BfR based its proposed BPA TDI (1,000-fold above EFSA's 0.2 ng/kg/day) on sperm-count declines after adult exposure.",
+    "timeframe": "Urinary BPA turns over within a day; any sperm effect would need about one spermatogenic cycle (roughly 3 months).",
+    "notes": "Clear harm is seen mainly at occupational exposures; at everyday levels results are inconsistent."
+   },
+   "mechanism": "Estrogenic and anti-androgenic activity (higher SHBG and estradiol, lower bioactive androgens in pooled data), with oxidative stress proposed but not measured in the semen studies cited here.",
+   "pathways": [
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Co-exposed with [phthalates-sperm]; BPS associations were concentrated in overweight men ([excess-adiposity]).",
+   "caveats": "Single spot urines for a chemical with a 6-hour half-life (ICC about 0.1-0.2), clinic populations, many endpoints, and possible publication bias.",
+   "debate": "For: men with workplace exposure had 3-4 times the risk of low concentration and count, persisting at environmental levels [ept-li2011]; in a clinic, an IQR rise in BPA went with 23% lower concentration and 10% more Comet DNA damage [ept-meeker2010]; a 2024 meta-analysis found small falls in concentration and count [ept-lu2024]; detectable BPS went with lower concentration, mainly in overweight men [ept-ghayda2019]. Against: a meta-analysis of 2,399 men found only a weak motility link that disappeared after publication-bias correction and called it clinically negligible [ept-castellini2022]; in the population-based LIFE study the only finding among 35 semen measures was less DNA fragmentation with higher BPA [ept-goldstone2015]; in 158 young Spanish men there was no overall link with DNA fragmentation [ept-kiwittcardenas2021]. Regulators split on whether adult sperm effects should set the safe dose [ept-kortenkamp2024].",
+   "key_numbers": [
+    {
+     "label": "More Comet tail DNA per IQR urinary BPA (clinic)",
+     "value": 10,
+     "unit": "%",
+     "source": "ept-meeker2010"
+    },
+    {
+     "label": "Men in the population cohort finding no adverse SDF link",
+     "value": 418,
+     "unit": "men",
+     "source": "ept-goldstone2015"
+    },
+    {
+     "label": "Sperm concentration, detectable vs undetectable BPS",
+     "value": 30.7,
+     "unit": "million/mL (vs 38.3)",
+     "source": "ept-ghayda2019"
+    }
+   ],
+   "refs": [
+    "ept-li2011",
+    "ept-meeker2010",
+    "ept-lu2024",
+    "ept-ghayda2019",
+    "ept-castellini2022",
+    "ept-goldstone2015",
+    "ept-kiwittcardenas2021",
+    "ept-kortenkamp2024",
+    "ept-braun2012",
+    "ept-heller1963"
+   ]
+  },
+  {
+   "id": "glyphosate-sperm",
+   "name": "Glyphosate and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Glyphosate has been measured in seminal plasma at about four times blood levels, where it tracked 8-OHdG and MDA in 128 infertile French men, but no study links typical dietary glyphosate to semen quality, and in vitro it cut motility only at concentrations far above real exposure.",
+   "dose": {
+    "effective": "No sperm-specific intervention has been tested. Practical steps are the general ones in [glyphosate]: gloves and long sleeves when spraying, and organic grains and legumes if you want to cut dietary intake.",
+    "studied_range": "Seminal plasma glyphosate in infertile men (French cohort); 0.36 mg/L in vitro.",
+    "too_much": "Not defined for sperm. Occupational spraying without protection gives the highest exposure.",
+    "timeframe": "Glyphosate clears from urine within days, but any effect on sperm would take at least one round of spermatogenesis (about 64 days, plus epididymal transit) to appear or reverse [efw-heller1963].",
+    "notes": "Most animal reproductive studies use formulations with surfactants, which are more toxic than glyphosate itself."
+   },
+   "mechanism": "In vitro and in animals, glyphosate-based herbicides damage sperm membranes (largely via surfactants), lower testosterone production in Leydig cells and raise testicular ROS. In men, seminal glyphosate tracked seminal 8-OHdG and men with detectable glyphosate had higher total oxidant status and MDA [efw-vasseur2024].",
+   "pathways": [
+    "lipid-peroxidation",
+    "dna-repair",
+    "endocrine"
+   ],
+   "interactions": "General exposure data and reduction steps: [glyphosate]. Often co-occurs with other pesticides in farm work ([pesticides], [organophosphates]).",
+   "caveats": "One cross-sectional study of infertile men without a fertile comparison group or adjustment for other pesticides; ELISA-based oxidative markers. The in vitro study used 0.36 mg/L, far above environmental levels, and found no DNA-fragmentation effect [efw-anifandis2018].",
+   "debate": "Pro-harm: glyphosate concentrates in seminal plasma and tracks oxidative DNA damage there [efw-vasseur2024]; NHANES urinary glyphosate was cross-sectionally associated with lower sex steroids and AMH [efw-wu2025]. Against: in vitro, glyphosate lowered motility only at high concentrations and did not raise DNA fragmentation [efw-anifandis2018]; EFSA and ECHA concluded glyphosate is not a reproductive toxicant [efw-efsa2023].",
+   "key_numbers": [
+    {
+     "label": "Seminal vs blood plasma glyphosate",
+     "value": 4,
+     "unit": "fold",
+     "source": "efw-vasseur2024"
+    },
+    {
+     "label": "Infertile men studied",
+     "value": 128,
+     "unit": "men",
+     "source": "efw-vasseur2024"
+    }
+   ],
+   "refs": [
+    "efw-vasseur2024",
+    "efw-anifandis2018",
+    "efw-wu2025",
+    "efw-efsa2023",
+    "efw-heller1963"
+   ]
+  },
+  {
+   "id": "pyrethroids-sperm",
+   "name": "Pyrethroid insecticides and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Cross-sectional clinic studies link urinary pyrethroid metabolites to lower sperm concentration and more sperm DNA damage, but meta-analyses of 12 cross-sectional studies are inconsistent (lower motility overall; concentration lower in Poland but higher in the US).",
+   "dose": {
+    "effective": "No intervention tested on sperm. Use the exposure steps in [pyrethroids]: peel or cook produce, choose organic for high-residue items, and limit indoor insecticide, flea-treatment and treated-clothing use.",
+    "studied_range": "Urinary 3-PBA and DCCA metabolites in clinic men (n = 207-240 per study).",
+    "too_much": "Not defined.",
+    "timeframe": "Metabolites clear within a day; any sperm effect would follow the ~64-day course of spermatogenesis [efw-heller1963].",
+    "notes": "Studies used a single urine sample against a semen sample that reflects about 3 months of exposure."
+   },
+   "mechanism": "Pyrethroids show anti-androgenic and oxidative effects in rodent testes. In men, 3-PBA tracked sperm DNA fragmentation (beta 0.27) [efw-ji2011] and comet-assay DNA damage [efw-meeker2008].",
+   "pathways": [
+    "endocrine",
+    "dna-repair",
+    "lipid-peroxidation"
+   ],
+   "interactions": "General exposure: [pyrethroids]. Often studied together with [organophosphates]; occupational data in [pesticides].",
+   "caveats": "All studies are cross-sectional with one urine sample and poor exposure reliability [efw-lin2021]; small clinic samples; publication bias untested.",
+   "debate": "Positive studies found lower concentration and more sperm DNA damage [efw-meeker2008, efw-ji2011]. Meta-analyses disagree: one found pyrethroids linked only to fewer normal-morphology sperm [efw-giulioni2021], another to lower motility with region-dependent, sometimes opposite, effects on concentration [efw-akhigbe2024].",
+   "key_numbers": [
+    {
+     "label": "Normal morphology difference, pyrethroid-exposed",
+     "value": -7.6,
+     "unit": "percentage points",
+     "source": "efw-giulioni2021"
+    },
+    {
+     "label": "Studies in 2024 meta-analysis (all cross-sectional)",
+     "value": 12,
+     "unit": "studies",
+     "source": "efw-akhigbe2024"
+    }
+   ],
+   "refs": [
+    "efw-meeker2008",
+    "efw-ji2011",
+    "efw-giulioni2021",
+    "efw-akhigbe2024",
+    "efw-lin2021",
+    "efw-heller1963"
+   ]
+  },
+  {
+   "id": "disinfection-byproducts-sperm",
+   "name": "Chlorination by-products and sperm",
+   "kind": "environment",
+   "scopes": [
+    "sperm"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "sperm": 1
+   },
+   "evidence": "limited",
+   "headline": "Chinese studies measuring blood trihalomethanes found lower sperm count and concentration (including repeated-measure data in 1,199 men), but the largest study using tap-water levels (642 cases, 926 referents in England and Wales) found no link (OR 1.01 per 10 ug/L).",
+   "dose": {
+    "effective": "No sperm-specific intervention tested. If your water is high in THMs, a carbon-filter pitcher or under-sink filter for drinking and shorter, ventilated showers lower exposure ([disinfection-byproducts]).",
+    "studied_range": "Blood THMs in Chinese men; tap-water THM 0-100 ug/L in UK and US studies.",
+    "too_much": "Not defined; associations appeared within regulatory ranges.",
+    "timeframe": "Blood THMs fall within hours; sperm effects would take at least ~64 days (one round of spermatogenesis) to change [efw-heller1963].",
+    "notes": "Blood THM reflects only the last few hours of showering and drinking."
+   },
+   "mechanism": "Brominated THMs and haloacetic acids produce oxidative stress and lower testosterone in animal studies; GST genotypes modify metabolism.",
+   "pathways": [
+    "glutathione",
+    "endocrine",
+    "lipid-peroxidation"
+   ],
+   "interactions": "General exposure and reduction: [disinfection-byproducts].",
+   "caveats": "Positive studies come largely from one Wuhan research group; blood THM is a snapshot; many THM species and semen endpoints were tested.",
+   "debate": "Harm: blood THMs tracked lower sperm count in 1,199 donors [efw-chen2020] and in other Wuhan samples [efw-zeng2014, efw-zeng2013]; an early US study found fewer normal-morphology sperm with high ingestion [efw-fenster2003]. No harm: the England and Wales case-referent study found none [efw-iszatt2013].",
+   "key_numbers": [
+    {
+     "label": "Semen-quality OR per 10 ug/L THM (England and Wales)",
+     "value": 1.01,
+     "unit": "OR",
+     "source": "efw-iszatt2013"
+    },
+    {
+     "label": "Men with blood THM and repeated semen data (Wuhan)",
+     "value": 1199,
+     "unit": "men",
+     "source": "efw-chen2020"
+    }
+   ],
+   "refs": [
+    "efw-chen2020",
+    "efw-zeng2014",
+    "efw-zeng2013",
+    "efw-fenster2003",
+    "efw-iszatt2013",
+    "efw-heller1963"
    ]
   }
  ],
@@ -5405,6 +5907,918 @@
    "type": "cohort",
    "n": "451,243 UK Biobank participants (2890 C282Y homozygotes)",
    "finding": "HFE C282Y homozygosity (1 in 156) was associated with liver disease, arthritis and diabetes; diagnosed haemochromatosis in 21.7% of homozygous men and 9.8% of women."
+  },
+  {
+   "id": "eia-abdelouahab2011",
+   "authors": "Abdelouahab N, Ainmelk Y, Takser L",
+   "year": 2011,
+   "title": "Polybrominated diphenyl ethers and sperm quality.",
+   "journal": "Reprod Toxicol",
+   "pmid": "21338668",
+   "doi": "10.1016/j.reprotox.2011.02.005",
+   "type": "cross-sectional",
+   "n": "52 men (fertility clinic)",
+   "finding": "Serum BDE-47, BDE-100 and summed PBDEs were negatively related to sperm motility and thyroxine, with no relation to other semen parameters."
+  },
+  {
+   "id": "eia-albert2018",
+   "authors": "Albert O, Huang JY, Aleksa K, et al.",
+   "year": 2018,
+   "title": "Exposure to polybrominated diphenyl ethers and phthalates in healthy men living in the greater Montreal area: A study of hormonal balance and semen quality.",
+   "journal": "Environ Int",
+   "pmid": "29684825",
+   "doi": "10.1016/j.envint.2018.04.012",
+   "type": "cross-sectional",
+   "n": "153 healthy young men (Montreal)",
+   "finding": "Each 10-fold rise in BDE-47 was associated with borderline lower sperm concentration (-19.7%) and motility (-25.5%) but not with sperm chromatin damage (HT-COMET)."
+  },
+  {
+   "id": "eia-carignan2018",
+   "authors": "Carignan CC, Mínguez-Alarcón L, Williams PL, et al.",
+   "year": 2018,
+   "title": "Paternal urinary concentrations of organophosphate flame retardant metabolites, fertility measures, and pregnancy outcomes among couples undergoing in vitro fertilization.",
+   "journal": "Environ Int",
+   "pmid": "29241080",
+   "doi": "10.1016/j.envint.2017.12.005",
+   "type": "cohort",
+   "n": "201 couples (EARTH)",
+   "finding": "Paternal urinary OPFR metabolites were linked to a 12% lower fertilization proportion (2nd vs 1st quartile) and fewer best-quality embryos, but not consistently to implantation, pregnancy or live birth after adjusting for the female partner."
+  },
+  {
+   "id": "eia-cherry2001",
+   "authors": "Cherry N, Labrèche F, Collins J, et al.",
+   "year": 2001,
+   "title": "Occupational exposure to solvents and male infertility.",
+   "journal": "Occup Environ Med",
+   "pmid": "11555684",
+   "doi": "10.1136/oem.58.10.635",
+   "type": "case-control",
+   "n": "656 + 574 manual workers (Canada)",
+   "finding": "High solvent exposure was associated with motile sperm <12 million/mL (OR 3.83 in Montreal, 2.90 in a replication series); moderate exposure replicated in only one series."
+  },
+  {
+   "id": "eia-cherry2008",
+   "authors": "Cherry N, Moore H, McNamee R, et al.",
+   "year": 2008,
+   "title": "Occupation and male infertility: glycol ethers and other exposures.",
+   "journal": "Occup Environ Med",
+   "pmid": "18417551",
+   "doi": "10.1136/oem.2007.035824",
+   "type": "case-control",
+   "n": "2,118 employed men (14 UK clinics)",
+   "finding": "High glycol ether exposure in the 3 months before the clinic visit was associated with low motile sperm count (adjusted OR 2.25, 95% CI 1.08-4.69); moderate exposure OR 1.46 (0.93-2.28)."
+  },
+  {
+   "id": "eia-gibson2019",
+   "authors": "Gibson EA, Stapleton HM, Calero L, et al.",
+   "year": 2019,
+   "title": "Flame retardant exposure assessment: findings from a behavioral intervention study.",
+   "journal": "J Expo Sci Environ Epidemiol",
+   "pmid": "29950671",
+   "doi": "10.1038/s41370-018-0049-6",
+   "type": "rct",
+   "n": "32 mothers",
+   "finding": "One week of instructed house cleaning or hand-washing (then both) lowered some urinary flame-retardant metabolites and, in women with above-median baseline exposure, some hand-wipe levels, by about half in some cases."
+  },
+  {
+   "id": "eia-ingle2018",
+   "authors": "Ingle ME, Mínguez-Alarcón L, Carignan CC, et al.",
+   "year": 2018,
+   "title": "The association between urinary concentrations of phosphorous-containing flame retardant metabolites and semen parameters among men from a fertility clinic.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "29739653",
+   "doi": "10.1016/j.ijheh.2018.05.001",
+   "type": "cohort",
+   "n": "220 men, 269 semen samples (EARTH)",
+   "finding": "Associations between urinary OPFR metabolites and semen parameters were weak and inconsistent; BDCIPP was about 2-fold higher in summer samples."
+  },
+  {
+   "id": "eia-li2023ope",
+   "authors": "Li Y, Luo D, Zhao X, et al.",
+   "year": 2023,
+   "title": "Urinary concentrations of organophosphate esters in relation to semen quality: A cross-sectional study.",
+   "journal": "Sci Total Environ",
+   "pmid": "36581274",
+   "doi": "10.1016/j.scitotenv.2022.161202",
+   "type": "cross-sectional",
+   "n": "1,015 men (infertility clinic, China)",
+   "finding": "Higher urinary DPHP and BMPP were associated with below-reference sperm count and OPE mixtures with lower motility and normal morphology."
+  },
+  {
+   "id": "eia-lv2022",
+   "authors": "Lv MQ, Wang HX, Yang YQ, et al.",
+   "year": 2022,
+   "title": "Semen Quality Following Long-term Occupational Exposure to Formaldehyde in China.",
+   "journal": "JAMA Netw Open",
+   "pmid": "36069982",
+   "doi": "10.1001/jamanetworkopen.2022.30359",
+   "type": "cohort",
+   "n": "205 men (124 exposed)",
+   "finding": "Long-term occupational formaldehyde exposure index was associated with lower total and progressive sperm motility and velocity."
+  },
+  {
+   "id": "eia-meeker2010",
+   "authors": "Meeker JD, Stapleton HM",
+   "year": 2010,
+   "title": "House dust concentrations of organophosphate flame retardants in relation to hormone levels and semen quality parameters.",
+   "journal": "Environ Health Perspect",
+   "pmid": "20194068",
+   "doi": "10.1289/ehp.0901332",
+   "type": "cross-sectional",
+   "n": "50 men (infertility clinic)",
+   "finding": "An interquartile rise in house-dust TPHP was associated with 19% lower sperm concentration and 10% higher prolactin; TDCPP with 3% lower free T4 and 17% higher prolactin."
+  },
+  {
+   "id": "eia-moro2010",
+   "authors": "Moro AM, Charão M, Brucker N, et al.",
+   "year": 2010,
+   "title": "Effects of low-level exposure to xenobiotics present in paints on oxidative stress in workers.",
+   "journal": "Sci Total Environ",
+   "pmid": "20655097",
+   "doi": "10.1016/j.scitotenv.2010.06.058",
+   "type": "cross-sectional",
+   "n": "Industrial painters vs controls",
+   "finding": "Painters with solvent biomarkers below exposure limits had higher MDA and antioxidant enzyme activities and lower thiols and ALA-D than unexposed controls."
+  },
+  {
+   "id": "eia-siddique2022",
+   "authors": "Siddique S, Farhat I, Kubwabo C, et al.",
+   "year": 2022,
+   "title": "Exposure of men living in the greater Montreal area to organophosphate esters: Association with hormonal balance and semen quality.",
+   "journal": "Environ Int",
+   "pmid": "35839669",
+   "doi": "10.1016/j.envint.2022.107402",
+   "type": "cross-sectional",
+   "n": "117 young men (Montreal)",
+   "finding": "Urinary OPE metabolites were nearly universally detected; a few were associated with hormone changes (e.g. TCIPP with lower testosterone) and some semen parameters."
+  },
+  {
+   "id": "eia-snijder2012",
+   "authors": "Snijder CA, te Velde E, Roeleveld N, et al.",
+   "year": 2012,
+   "title": "Occupational exposure to chemical substances and time to pregnancy: a systematic review.",
+   "journal": "Hum Reprod Update",
+   "pmid": "22431564",
+   "doi": "10.1093/humupd/dms005",
+   "type": "review",
+   "n": "49 studies",
+   "finding": "Occupational lead and pesticides showed strong indications of longer time to pregnancy; evidence for organic solvents and other metals was equivocal."
+  },
+  {
+   "id": "eia-tang2025",
+   "authors": "Tang W, Liu X, Cao Y, et al.",
+   "year": 2025,
+   "title": "Exposure to individual organophosphate esters and their mixture in relation to semen quality in Chinese men.",
+   "journal": "Environ Int",
+   "pmid": "41205372",
+   "doi": "10.1016/j.envint.2025.109907",
+   "type": "cross-sectional",
+   "n": "796 sperm donors",
+   "finding": "An organophosphate ester mixture was associated with lower progressive motility, but the signal was driven by organophosphate pesticide metabolites (DMTP), not flame-retardant metabolites."
+  },
+  {
+   "id": "eia-wang2015fa",
+   "authors": "Wang HX, Li HC, Lv MQ, et al.",
+   "year": 2015,
+   "title": "Associations between occupation exposure to Formaldehyde and semen quality, a primary study.",
+   "journal": "Sci Rep",
+   "pmid": "26515386",
+   "doi": "10.1038/srep15874",
+   "type": "cross-sectional",
+   "n": "114 exposed, 76 referent men",
+   "finding": "Occupational formaldehyde exposure was associated with lower total and progressive sperm motility, with higher odds of abnormal motility at low and high exposure."
+  },
+  {
+   "id": "eia-welch1988",
+   "authors": "Welch LS, Schrader SM, Turner TW, et al.",
+   "year": 1988,
+   "title": "Effects of exposure to ethylene glycol ethers on shipyard painters: II. Male reproduction.",
+   "journal": "Am J Ind Med",
+   "pmid": "3228067",
+   "doi": "10.1002/ajim.4700140503",
+   "type": "cross-sectional",
+   "n": "73 painters, 40 controls",
+   "finding": "Shipyard painters exposed to 2-ethoxyethanol and 2-methoxyethanol had more oligospermia and azoospermia and lower sperm counts."
+  },
+  {
+   "id": "eia-yu2018",
+   "authors": "Yu YJ, Lin BG, Liang WB, et al.",
+   "year": 2018,
+   "title": "Associations between PBDEs exposure from house dust and human semen quality at an e-waste areas in South China-A pilot study.",
+   "journal": "Chemosphere",
+   "pmid": "29421738",
+   "doi": "10.1016/j.chemosphere.2018.01.150",
+   "type": "cross-sectional",
+   "n": "Residents near e-waste sites (pilot)",
+   "finding": "Dust and semen PBDE levels correlated, and BDE-47/BDE-100 were negatively associated with sperm concentration, count and motility in an e-waste area."
+  },
+  {
+   "id": "epc-adegbola2024",
+   "authors": "Adegbola CA, Akhigbe TM, Adeogun AE, et al.",
+   "year": 2024,
+   "title": "A systematic review and meta-analysis of the impact of triclosan exposure on human semen quality.",
+   "journal": "Front Toxicol",
+   "pmid": "39483697",
+   "doi": "10.3389/ftox.2024.1469340",
+   "type": "meta-analysis",
+   "n": "5 studies (case-control and cross-sectional)",
+   "finding": "Pooled triclosan exposure was associated with lower sperm concentration (SMD -0.42) and total motility (SMD -1.30), with high heterogeneity."
+  },
+  {
+   "id": "epc-adoamnei2018",
+   "authors": "Adoamnei E, Mendiola J, Moñino-García M, et al.",
+   "year": 2018,
+   "title": "Urinary concentrations of benzophenone-type ultra violet light filters and reproductive parameters in young men.",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "29449081",
+   "doi": "10.1016/j.ijheh.2018.02.002",
+   "type": "cross-sectional",
+   "n": "young men from Murcia, Spain",
+   "finding": "Urinary BP-1 and BP-3 were weakly associated with higher FSH, but no BP-type filter was associated with any semen parameter; effects judged small and of unclear significance."
+  },
+  {
+   "id": "epc-buck2014",
+   "authors": "Buck Louis GM, Kannan K, Sapra KJ, et al.",
+   "year": 2014,
+   "title": "Urinary concentrations of benzophenone-type ultraviolet radiation filters and couples' fecundity.",
+   "journal": "Am J Epidemiol",
+   "pmid": "25395025",
+   "doi": "10.1093/aje/kwu285",
+   "type": "cohort",
+   "n": "501 couples (LIFE study)",
+   "finding": "Men's urinary BP-2 (FOR 0.69) and 4-hydroxybenzophenone (FOR 0.74) were associated with lower couple fecundability; women's concentrations were not."
+  },
+  {
+   "id": "epc-buck2015",
+   "authors": "Buck Louis GM, Chen Z, Kim S, et al.",
+   "year": 2015,
+   "title": "Urinary concentrations of benzophenone-type ultraviolet light filters and semen quality.",
+   "journal": "Fertil Steril",
+   "pmid": "26253817",
+   "doi": "10.1016/j.fertnstert.2015.07.1129",
+   "type": "cohort",
+   "n": "413 men (LIFE study)",
+   "finding": "Among 35 semen endpoints, BP-2 was associated with lower concentration and some motility measures and BP-8 with two others; BP-1, BP-3 and 4OH-BP were not associated."
+  },
+  {
+   "id": "epc-dodge2015",
+   "authors": "Dodge LE, Williams PL, Williams MA, et al.",
+   "year": 2015,
+   "title": "Paternal Urinary Concentrations of Parabens and Other Phenols in Relation to Reproductive Outcomes among Couples from a Fertility Clinic.",
+   "journal": "Environ Health Perspect",
+   "pmid": "25767892",
+   "doi": "10.1289/ehp.1408605",
+   "type": "cohort",
+   "n": "218 couples, 211 IVF and 195 IUI cycles",
+   "finding": "Paternal urinary parabens and phenols were not associated with fertilization or live birth after IVF; an isolated second-quartile methylparaben association with lower IUI live birth lacked a dose-response."
+  },
+  {
+   "id": "epc-hipwell2019",
+   "authors": "Hipwell AE, Kahn LG, Factor-Litvak P, et al.",
+   "year": 2019,
+   "title": "Exposure to non-persistent chemicals in consumer products and fecundability: a systematic review.",
+   "journal": "Hum Reprod Update",
+   "pmid": "30307509",
+   "doi": "10.1093/humupd/dmy032",
+   "type": "review",
+   "n": "15 papers from 12 studies",
+   "finding": "Systematic review: preliminary support for female paraben and glycol ether exposure and male benzophenone exposure with longer time to pregnancy; little to no indication for BPA, triclosan or triclocarban; heterogeneity precluded meta-analysis."
+  },
+  {
+   "id": "epc-jaskulak2025",
+   "authors": "Jaskulak M, Cinkusz M, Franchuk K, et al.",
+   "year": 2025,
+   "title": "Endocrine and Reproductive Health Considerations of Sunscreen UV Filters: Insights from a Comprehensive Review 2014-2024.",
+   "journal": "Curr Environ Health Rep",
+   "pmid": "40751801",
+   "doi": "10.1007/s40572-025-00492-9",
+   "type": "review",
+   "n": null,
+   "finding": "Review of 2014-2024 human evidence: benzophenones associated with poorer sperm quality in some studies, weaker findings for ovarian reserve, mixed prenatal results; stresses balancing endocrine concerns with photoprotection."
+  },
+  {
+   "id": "epc-joensen2018",
+   "authors": "Joensen UN, Jørgensen N, Thyssen JP, et al.",
+   "year": 2018,
+   "title": "Urinary excretion of phenols, parabens and benzophenones in young men: Associations to reproductive hormones and semen quality are modified by mutations in the Filaggrin gene.",
+   "journal": "Environ Int",
+   "pmid": "30245359",
+   "doi": "10.1016/j.envint.2018.09.020",
+   "type": "cross-sectional",
+   "n": "65 filaggrin-mutation carriers and 130 non-carriers",
+   "finding": "Associations of BPA and benzophenones with reproductive hormones and semen quality appeared only in men with filaggrin skin-barrier mutations; parabens were not associated with any outcome."
+  },
+  {
+   "id": "epc-jurewicz2017",
+   "authors": "Jurewicz J, Radwan M, Wielgomas B, et al.",
+   "year": 2017,
+   "title": "Human Semen Quality, Sperm DNA Damage, and the Level of Reproductive Hormones in Relation to Urinary Concentrations of Parabens.",
+   "journal": "J Occup Environ Med",
+   "pmid": "28692609",
+   "doi": "10.1097/JOM.0000000000001106",
+   "type": "cross-sectional",
+   "n": "315 men from an infertility clinic",
+   "finding": "Urinary parabens were associated with more abnormal morphology, higher DNA stainability, lower motility and lower testosterone."
+  },
+  {
+   "id": "epc-kiwitt2024",
+   "authors": "Kiwitt-Cárdenas J, Arense-Gonzalo JJ, Adoamnei E, et al.",
+   "year": 2024,
+   "title": "Urinary concentrations of bisphenol A, parabens and benzophenone-type ultra violet light filters in relation to sperm DNA fragmentation in young men: A chemical mixtures approach.",
+   "journal": "Sci Total Environ",
+   "pmid": "38103620",
+   "doi": "10.1016/j.scitotenv.2023.169314",
+   "type": "cross-sectional",
+   "n": "young men from Murcia, Spain",
+   "finding": "In mixture models, urinary 4-hydroxybenzophenone was associated with slightly lower sperm DNA fragmentation (about -5%); parabens, BPA and other filters were not associated."
+  },
+  {
+   "id": "epc-li2026",
+   "authors": "Li XT, Miao Y, Zhang M, et al.",
+   "year": 2026,
+   "title": "Associations of paraben exposures measured by repeated urinary biomarkers with sperm DNA damage and apoptosis.",
+   "journal": "Environ Res",
+   "pmid": "41429296",
+   "doi": "10.1016/j.envres.2025.123603",
+   "type": "cross-sectional",
+   "n": "Chinese men from an infertility clinic, 2 urine samples each",
+   "finding": "Butylparaben was associated with longer comet tail length and tail moment (sperm DNA damage), more so in overweight and younger men."
+  },
+  {
+   "id": "epc-meeker2011",
+   "authors": "Meeker JD, Yang T, Ye X, et al.",
+   "year": 2011,
+   "title": "Urinary concentrations of parabens and serum hormone levels, semen quality parameters, and sperm DNA damage.",
+   "journal": "Environ Health Perspect",
+   "pmid": "20876036",
+   "doi": "10.1289/ehp.1002238",
+   "type": "cross-sectional",
+   "n": "190 men from an infertility clinic",
+   "finding": "Methyl- and propylparaben were not associated with hormones, semen quality or sperm DNA damage; butylparaben categories tracked higher sperm DNA damage (p-trend 0.03)."
+  },
+  {
+   "id": "epc-nassan2017",
+   "authors": "Nassan FL, Coull BA, Gaskins AJ, et al.",
+   "year": 2017,
+   "title": "Personal Care Product Use in Men and Urinary Concentrations of Select Phthalate Metabolites and Parabens: Results from the Environment And Reproductive Health (EARTH) Study.",
+   "journal": "Environ Health Perspect",
+   "pmid": "28886595",
+   "doi": "10.1289/EHP1374",
+   "type": "cohort",
+   "n": "400 men, 1,037 urine samples",
+   "finding": "Cologne/perfume and deodorant use raised urinary monoethyl phthalate by 83% and 74%; sunscreen and hand/body lotion raised urinary parabens by 66-156% and 79-147%, with the largest effects for use within 6 h of urine collection."
+  },
+  {
+   "id": "epc-nassan2019",
+   "authors": "Nassan FL, Mínguez-Alarcón L, Williams PL, et al.",
+   "year": 2019,
+   "title": "Urinary triclosan concentrations and semen quality among men from a fertility clinic.",
+   "journal": "Environ Res",
+   "pmid": "31421444",
+   "doi": "10.1016/j.envres.2019.108633",
+   "type": "cohort",
+   "n": "262 men from a fertility clinic",
+   "finding": "Detectable urinary triclosan was associated with about 1 percentage point fewer morphologically normal sperm, without a dose-response, mainly before 2013 when exposure was higher."
+  },
+  {
+   "id": "epc-nishihama2017",
+   "authors": "Nishihama Y, Toshima H, Yoshinaga J, et al.",
+   "year": 2017,
+   "title": "Paraben exposure and semen quality of Japanese male partners of subfertile couples.",
+   "journal": "Environ Health Prev Med",
+   "pmid": "29165110",
+   "doi": "10.1186/s12199-017-0618-7",
+   "type": "cross-sectional",
+   "n": "42 male partners of subfertile couples",
+   "finding": "No association between urinary parabens and semen volume, concentration or motility."
+  },
+  {
+   "id": "epc-rehfeld2016",
+   "authors": "Rehfeld A, Dissing S, Skakkebæk NE",
+   "year": 2016,
+   "title": "Chemical UV Filters Mimic the Effect of Progesterone on Ca(2+) Signaling in Human Sperm Cells.",
+   "journal": "Endocrinology",
+   "pmid": "27583790",
+   "doi": "10.1210/en.2016-1473",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "13 of 29 UV filters induced calcium signals in human sperm in vitro, nine by activating the CatSper channel like progesterone, some at nanomolar levels and additively in mixtures."
+  },
+  {
+   "id": "epc-samarasinghe2018",
+   "authors": "Samarasinghe SVAC, Krishnan K, Naidu R, et al.",
+   "year": 2018,
+   "title": "Parabens generate reactive oxygen species in human spermatozoa.",
+   "journal": "Andrology",
+   "pmid": "29722171",
+   "doi": "10.1111/andr.12499",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In vitro, parabens raised mitochondrial and cytosolic ROS in human sperm and reduced motility and viability in a chain-length-dependent way; methylparaben at clinically used concentrations raised ROS and oxidative DNA adducts but not DNA fragmentation."
+  },
+  {
+   "id": "epc-shen2023",
+   "authors": "Shen X, Zhan M, Wang Y, et al.",
+   "year": 2023,
+   "title": "Exposure to parabens and semen quality in reproductive-aged men.",
+   "journal": "Ecotoxicol Environ Saf",
+   "pmid": "37688867",
+   "doi": "10.1016/j.ecoenv.2023.115453",
+   "type": "cross-sectional",
+   "n": "795 men from preconception couples",
+   "finding": "A paraben mixture was associated with lower sperm concentration, total count and progressive motility; butylparaben and methylparaben were the main contributors."
+  },
+  {
+   "id": "epc-smith2012",
+   "authors": "Smith KW, Braun JM, Williams PL, et al.",
+   "year": 2012,
+   "title": "Predictors and variability of urinary paraben concentrations in men and women, including before and during pregnancy.",
+   "journal": "Environ Health Perspect",
+   "pmid": "22721761",
+   "doi": "10.1289/ehp.1104614",
+   "type": "cohort",
+   "n": "fertility-clinic men and women with repeated urine samples",
+   "finding": "Intraclass correlations for methyl- and propylparaben were 0.42-0.54, so a single urine sample reasonably ranked exposure over several months; concentrations were 3.8 times higher in African American participants."
+  },
+  {
+   "id": "epc-yuan2022",
+   "authors": "Yuan G, Ma Y, Zeng Y, et al.",
+   "year": 2022,
+   "title": "Associations between low-dose triclosan exposure and semen quality in a Chinese population.",
+   "journal": "Environ Pollut",
+   "pmid": "35101560",
+   "doi": "10.1016/j.envpol.2022.118926",
+   "type": "cross-sectional",
+   "n": "406 men from a reproductive clinic",
+   "finding": "Low-level triclosan had limited (none or modest) associations with semen quality and was not associated with abnormal count or motility."
+  },
+  {
+   "id": "epc-zhu2016",
+   "authors": "Zhu W, Zhang H, Tong C, et al.",
+   "year": 2016,
+   "title": "Environmental Exposure to Triclosan and Semen Quality.",
+   "journal": "Int J Environ Res Public Health",
+   "pmid": "26901211",
+   "doi": "10.3390/ijerph13020224",
+   "type": "cross-sectional",
+   "n": "471 men",
+   "finding": "Triclosan was modestly associated with fewer forward-moving sperm and, in the lowest tertile, lower morphology, concentration and count."
+  },
+  {
+   "id": "epc-zhu2022",
+   "authors": "Zhu W, Xie C, Zhao S, et al.",
+   "year": 2022,
+   "title": "Environmental Exposure to Triclosan and Male Fecundity: A Prospective Study in China.",
+   "journal": "Front Public Health",
+   "pmid": "35480573",
+   "doi": "10.3389/fpubh.2022.814927",
+   "type": "cohort",
+   "n": "443 couples planning pregnancy",
+   "finding": "Higher male urinary triclosan was associated with lower fecundability (FOR 0.77) and higher infertility risk (OR 1.6)."
+  },
+  {
+   "id": "ept-braun2012",
+   "authors": "Braun JM, Smith KW, Williams PL, et al.",
+   "year": 2012,
+   "title": "Variability of urinary phthalate metabolite and bisphenol A concentrations before and during pregnancy",
+   "journal": "Environ Health Perspect",
+   "pmid": "22262702",
+   "doi": "10.1289/ehp.1104139",
+   "type": "cohort",
+   "n": "137 women, 1,001 urine samples (Boston fertility clinic)",
+   "finding": "During pregnancy ICCs were 0.50 for MEP, 0.45 for MBP, 0.25 for MBzP, 0.12 for BPA and 0.08 for sum-DEHP; one spot sample adequately classified MEP and MBP but not DEHP or BPA."
+  },
+  {
+   "id": "ept-castellini2022",
+   "authors": "Castellini C, Muselli M, Parisi A, et al.",
+   "year": 2022,
+   "title": "Association between urinary bisphenol A concentrations and semen quality: A meta-analytic study",
+   "journal": "Biochem Pharmacol",
+   "pmid": "34968490",
+   "doi": "10.1016/j.bcp.2021.114896",
+   "type": "meta-analysis",
+   "n": "9 studies, 2,399 men",
+   "finding": "Urinary BPA was only weakly associated with lower sperm motility, and the association disappeared after correction for publication bias; authors judge the link clinically negligible, if any."
+  },
+  {
+   "id": "ept-dhar2026",
+   "authors": "Dhar S, Tomar A, N A, et al.",
+   "year": 2026,
+   "title": "Phthalates as the silent saboteurs of male fertility via changes in semen quality: a systematic review",
+   "journal": "Reprod Biol Endocrinol",
+   "pmid": "41803857",
+   "doi": "10.1186/s12958-026-01541-0",
+   "type": "review",
+   "n": "38 studies",
+   "finding": "Systematic review without meta-analysis: MEHP, DEHP and DBP associated with lower sperm concentration and morphology; certainty of evidence low to moderate because studies are observational and heterogeneous."
+  },
+  {
+   "id": "ept-dodge2015",
+   "authors": "Dodge LE, Williams PL, Williams MA, et al.",
+   "year": 2015,
+   "title": "Associations between paternal urinary phthalate metabolite concentrations and reproductive outcomes among couples seeking fertility treatment",
+   "journal": "Reprod Toxicol",
+   "pmid": "26456810",
+   "doi": "10.1016/j.reprotox.2015.09.007",
+   "type": "cohort",
+   "n": "218 couples (EARTH)",
+   "finding": "Paternal MCPP and MCOP were associated with lower implantation and IVF live birth, but most paternal phthalate metabolites were not associated with outcomes."
+  },
+  {
+   "id": "ept-duty2003",
+   "authors": "Duty SM, Singh NP, Silva MJ, et al.",
+   "year": 2003,
+   "title": "The relationship between environmental exposures to phthalates and DNA damage in human sperm using the neutral comet assay",
+   "journal": "Environ Health Perspect",
+   "pmid": "12842768",
+   "doi": "10.1289/ehp.5756",
+   "type": "cross-sectional",
+   "n": "168 men (Massachusetts)",
+   "finding": "An IQR rise in MEP was associated with 3.6 um greater Comet extent in sperm; other metabolites were not clearly associated."
+  },
+  {
+   "id": "ept-efsa2019",
+   "authors": "EFSA Panel on Food Contact Materials, Enzymes and Processing Aids (CEP), Silano V, Barat Baviera JM, et al.",
+   "year": 2019,
+   "title": "Update of the risk assessment of di-butylphthalate (DBP), butyl-benzyl-phthalate (BBP), bis(2-ethylhexyl)phthalate (DEHP), di-isononylphthalate (DINP) and di-isodecylphthalate (DIDP) for use in food contact materials",
+   "journal": "EFSA J",
+   "pmid": "32626195",
+   "doi": "10.2903/j.efsa.2019.5838",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA set a group TDI of 50 ug/kg bw/day (as DEHP equivalents) for DBP, BBP, DEHP and DINP based on reduced fetal testosterone; aggregated dietary exposure was 0.9-7.2 (mean) to 1.6-11.7 (high) ug/kg/day, up to 23% of the group TDI; assessment called temporary."
+  },
+  {
+   "id": "ept-genardwalton2025",
+   "authors": "Génard-Walton M, Warembourg C, Williams PL, et al.",
+   "year": 2025,
+   "title": "Using mixture and exposome methods to assess the associations and interactions of chemical biomarkers with semen parameters",
+   "journal": "Environ Int",
+   "pmid": "40472759",
+   "doi": "10.1016/j.envint.2025.109568",
+   "type": "cross-sectional",
+   "n": "420 men (EARTH)",
+   "finding": "Across four mixture/exposome models of 24 biomarkers (BPA, parabens, triclosan, 17 phthalate metabolites, hair mercury), the consistent signals were mercury (positive) and triclosan (negative); the overall mixture had small, imprecise associations with semen parameters."
+  },
+  {
+   "id": "ept-ghayda2019",
+   "authors": "Ghayda RA, Williams PL, Chavarro JE, et al.",
+   "year": 2019,
+   "title": "Urinary bisphenol S concentrations: Potential predictors of and associations with semen quality parameters among men attending a fertility center",
+   "journal": "Environ Int",
+   "pmid": "31376593",
+   "doi": "10.1016/j.envint.2019.105050",
+   "type": "cross-sectional",
+   "n": "158 men, 338 samples (EARTH)",
+   "finding": "Men with detectable BPS had lower sperm concentration (30.7 vs 38.3 million/mL) and semen volume, mostly among overweight men; BPS tracked fabric softener, paint and recent beef and cheese intake."
+  },
+  {
+   "id": "ept-goldstone2015",
+   "authors": "Goldstone AE, Chen Z, Perry MJ, et al.",
+   "year": 2015,
+   "title": "Urinary bisphenol A and semen quality, the LIFE Study",
+   "journal": "Reprod Toxicol",
+   "pmid": "25462789",
+   "doi": "10.1016/j.reprotox.2014.11.003",
+   "type": "cohort",
+   "n": "418 men (LIFE Study, Michigan and Texas)",
+   "finding": "In a general-population preconception cohort, urinary BPA was not associated with 34 of 35 semen measures; the only significant finding was less sperm DNA fragmentation with higher BPA."
+  },
+  {
+   "id": "ept-hauser2006",
+   "authors": "Hauser R, Meeker JD, Duty S, et al.",
+   "year": 2006,
+   "title": "Altered semen quality in relation to urinary concentrations of phthalate monoester and oxidative metabolites",
+   "journal": "Epidemiology",
+   "pmid": "17003688",
+   "doi": "10.1097/01.ede.0000235996.89953.d7",
+   "type": "cross-sectional",
+   "n": "463 male partners of subfertile couples",
+   "finding": "Dose-response links of MBP with low sperm concentration (OR 3.3 top quartile) and motility; suggestive links for MBzP; single spot urine."
+  },
+  {
+   "id": "ept-hauser2007",
+   "authors": "Hauser R, Meeker JD, Singh NP, et al.",
+   "year": 2007,
+   "title": "DNA damage in human sperm is related to urinary levels of phthalate monoester and oxidative metabolites",
+   "journal": "Hum Reprod",
+   "pmid": "17090632",
+   "doi": "10.1093/humrep/del428",
+   "type": "cross-sectional",
+   "n": "379 men from an infertility clinic",
+   "finding": "MEP was associated with more neutral-Comet sperm DNA damage; MEHP was associated only after adjusting for the oxidative metabolite MEHHP (Comet extent +17.3%, tail % +17.5% per IQR)."
+  },
+  {
+   "id": "ept-heller1963",
+   "authors": "HELLER CG, CLERMONT Y",
+   "year": 1963,
+   "title": "Spermatogenesis in man: an estimate of its duration",
+   "journal": "Science",
+   "pmid": "13953583",
+   "doi": "10.1126/science.140.3563.184",
+   "type": "mechanistic",
+   "n": "testicular biopsies after tritiated thymidine",
+   "finding": "One cycle of the human seminiferous epithelium lasts about 16 days and complete spermatogenesis about 64 days."
+  },
+  {
+   "id": "ept-johns2015",
+   "authors": "Johns LE, Cooper GS, Galizia A, et al.",
+   "year": 2015,
+   "title": "Exposure assessment issues in epidemiology studies of phthalates",
+   "journal": "Environ Int",
+   "pmid": "26313703",
+   "doi": "10.1016/j.envint.2015.08.005",
+   "type": "review",
+   "n": null,
+   "finding": "Phthalate metabolite half-lives are 3-18 h; intraclass correlations of repeated urine samples are about 0.3-0.6 for DEP, DBP, DiBP and BBzP metabolites and 0.1-0.3 for DEHP, DiNP and DiDP; US and German exposures to DEP, BBzP, DBP and DEHP declined after 2001."
+  },
+  {
+   "id": "ept-kiwittcardenas2021",
+   "authors": "Kiwitt-Cárdenas J, Adoamnei E, Arense-Gonzalo JJ, et al.",
+   "year": 2021,
+   "title": "Associations between urinary concentrations of bisphenol A and sperm DNA fragmentation in young men",
+   "journal": "Environ Res",
+   "pmid": "34004170",
+   "doi": "10.1016/j.envres.2021.111289",
+   "type": "cross-sectional",
+   "n": "158 young men (Spain)",
+   "finding": "No association between urinary BPA and sperm DNA fragmentation overall; a positive association only in the subgroup with SDF above 30%."
+  },
+  {
+   "id": "ept-kortenkamp2024",
+   "authors": "Kortenkamp A, Martin O, Iacovidou E, et al.",
+   "year": 2024,
+   "title": "Drivers of divergent assessments of bisphenol-A hazards to semen quality by various European agencies, regulators and scientists",
+   "journal": "Int J Hyg Environ Health",
+   "pmid": "37976583",
+   "doi": "10.1016/j.ijheh.2023.114293",
+   "type": "review",
+   "n": null,
+   "finding": "Analysis of why EFSA and the German BfR diverge: BfR proposed an alternative TDI 1,000-fold higher than EFSA's, based on adult sperm-count effects, and rejected the immunotoxicity endpoint; both agencies discounted gestational-exposure studies."
+  },
+  {
+   "id": "ept-li2011",
+   "authors": "Li DK, Zhou Z, Miao M, et al.",
+   "year": 2011,
+   "title": "Urine bisphenol-A (BPA) level in relation to semen quality",
+   "journal": "Fertil Steril",
+   "pmid": "21035116",
+   "doi": "10.1016/j.fertnstert.2010.09.026",
+   "type": "cohort",
+   "n": "218 men with and without occupational BPA exposure (China)",
+   "finding": "Men with detectable urinary BPA had more than three times the risk of low sperm concentration and vitality and more than four times the risk of low count; associations persisted at environmental levels."
+  },
+  {
+   "id": "ept-liu2019",
+   "authors": "Liu C, Duan P, Chen YJ, et al.",
+   "year": 2019,
+   "title": "Mediation of the relationship between phthalate exposure and semen quality by oxidative stress among 1034 reproductive-aged Chinese men",
+   "journal": "Environ Res",
+   "pmid": "31629946",
+   "doi": "10.1016/j.envres.2019.108778",
+   "type": "cross-sectional",
+   "n": "1,034 men from subfertile couples (China)",
+   "finding": "Every phthalate metabolite rose with urinary 8-OHdG, 8-isoPGF2a and HNE-MA; 8-isoPGF2a suggestively mediated 12% of the MBP-sperm concentration link and 8-OHdG 32% of the MEP-morphology link (p<0.10)."
+  },
+  {
+   "id": "ept-lu2024",
+   "authors": "Lü L, Liu Y, Yang Y, et al.",
+   "year": 2024,
+   "title": "Bisphenol A Exposure Interferes with Reproductive Hormones and Decreases Sperm Counts: A Systematic Review and Meta-Analysis of Epidemiological Studies",
+   "journal": "Toxics",
+   "pmid": "38668517",
+   "doi": "10.3390/toxics12040294",
+   "type": "meta-analysis",
+   "n": "18 studies",
+   "finding": "Urinary BPA was associated with slightly lower sperm concentration and total count and with higher SHBG and estradiol, but not robustly with below-reference semen quality."
+  },
+  {
+   "id": "ept-meeker2010",
+   "authors": "Meeker JD, Ehrlich S, Toth TL, et al.",
+   "year": 2010,
+   "title": "Semen quality and sperm DNA damage in relation to urinary bisphenol A among men from an infertility clinic",
+   "journal": "Reprod Toxicol",
+   "pmid": "20656017",
+   "doi": "10.1016/j.reprotox.2010.07.005",
+   "type": "cross-sectional",
+   "n": "190 men from an infertility clinic",
+   "finding": "An IQR rise in urinary BPA was linked to 23% lower sperm concentration, 13% lower normal morphology and 10% more Comet tail DNA."
+  },
+  {
+   "id": "ept-minguezalarcon2021",
+   "authors": "Mínguez-Alarcón L, Bellavia A, Gaskins AJ, et al.",
+   "year": 2021,
+   "title": "Paternal mixtures of urinary concentrations of phthalate metabolites, bisphenol A and parabens in relation to pregnancy outcomes among couples attending a fertility center",
+   "journal": "Environ Int",
+   "pmid": "33069985",
+   "doi": "10.1016/j.envint.2020.106171",
+   "type": "cohort",
+   "n": "210 couples, 300 IVF cycles (EARTH)",
+   "finding": "A paternal DEHP-metabolite factor was linked to a higher probability of failing to reach live birth (HR 1.41 per IQR); the BPA/non-DEHP factor HR 1.24 (0.97-1.59) and parabens null."
+  },
+  {
+   "id": "ept-radke2018",
+   "authors": "Radke EG, Braun JM, Meeker JD, et al.",
+   "year": 2018,
+   "title": "Phthalate exposure and male reproductive outcomes: A systematic review of the human epidemiological evidence",
+   "journal": "Environ Int",
+   "pmid": "30336412",
+   "doi": "10.1016/j.envint.2018.07.029",
+   "type": "review",
+   "n": null,
+   "finding": "EPA systematic review: robust evidence linking DEHP and DBP to male reproductive outcomes (AGD, semen, testosterone), moderate for DINP and BBP, slight for DIBP and DEP."
+  },
+  {
+   "id": "ept-wangh2023",
+   "authors": "Wang H, He H, Wei Y, et al.",
+   "year": 2023,
+   "title": "Do phthalates and their metabolites cause poor semen quality? A systematic review and meta-analysis of epidemiological studies on risk of decline in sperm quality",
+   "journal": "Environ Sci Pollut Res Int",
+   "pmid": "36504299",
+   "doi": "10.1007/s11356-022-24215-x",
+   "type": "meta-analysis",
+   "n": "12 studies",
+   "finding": "Urinary MBP (pooled OR 2.19) and MBzP (OR 1.88) and semen DEHP (r -0.23) were associated with low sperm concentration; no significant links with motility or morphology or for MEP and other metabolites."
+  },
+  {
+   "id": "efw-akhigbe2024",
+   "authors": "Akhigbe RE, Oyedokun PA, Akhigbe TM, et al.",
+   "year": 2024,
+   "title": "Does pyrethroid exposure lower human semen quality? a systematic review and meta-analysis.",
+   "journal": "Front Toxicol",
+   "pmid": "38919453",
+   "doi": "10.3389/ftox.2024.1395010",
+   "type": "meta-analysis",
+   "n": "12 cross-sectional studies, 2,050 men",
+   "finding": "Pyrethroid exposure was associated with lower sperm motility, but results were inconsistent across regions (concentration lower in Poland, higher in the US) and all studies were cross-sectional."
+  },
+  {
+   "id": "efw-anifandis2018",
+   "authors": "Anifandis G, Katsanaki K, Lagodonti G, et al.",
+   "year": 2018,
+   "title": "The Effect of Glyphosate on Human Sperm Motility and Sperm DNA Fragmentation.",
+   "journal": "Int J Environ Res Public Health",
+   "pmid": "29848988",
+   "doi": "10.3390/ijerph15061117",
+   "type": "mechanistic",
+   "n": "30 men's semen samples",
+   "finding": "In vitro, glyphosate at 0.36 mg/L (far above environmental levels) reduced progressive sperm motility after 1 h but did not change sperm DNA fragmentation."
+  },
+  {
+   "id": "efw-chen2020",
+   "authors": "Chen YJ, Duan P, Meng TQ, et al.",
+   "year": 2020,
+   "title": "Associations of blood trihalomethanes with semen quality among 1199 healthy Chinese men screened as potential sperm donors.",
+   "journal": "Environ Int",
+   "pmid": "31783240",
+   "doi": "10.1016/j.envint.2019.105335",
+   "type": "cohort",
+   "n": "1,199 potential sperm donors",
+   "finding": "Blood chloroform, brominated and total trihalomethanes were inversely associated with sperm count in cross-sectional and repeated-measure analyses."
+  },
+  {
+   "id": "efw-efsa2023",
+   "authors": "European Food Safety Authority (EFSA), Álvarez F, Arena M, et al.",
+   "year": 2023,
+   "title": "Peer review of the pesticide risk assessment of the active substance glyphosate.",
+   "journal": "EFSA J",
+   "pmid": "37502013",
+   "doi": "10.2903/j.efsa.2023.8164",
+   "type": "guideline",
+   "n": null,
+   "finding": "EFSA's 2023 peer review of glyphosate identified no critical areas of concern for human or animal health; it relied on ECHA's conclusion that glyphosate does not meet the criteria for classification as carcinogenic, mutagenic or reprotoxic, while listing data gaps (an impurity, consumer dietary risk, formulation co-formulants)."
+  },
+  {
+   "id": "efw-fenster2003",
+   "authors": "Fenster L, Waller K, Windham G, et al.",
+   "year": 2003,
+   "title": "Trihalomethane levels in home tap water and semen quality.",
+   "journal": "Epidemiology",
+   "pmid": "14569179",
+   "doi": "10.1097/01.ede.0000077980.52697.01",
+   "type": "cohort",
+   "n": "California men",
+   "finding": "Ingesting more than about two glasses a day of water with 80 ug/L THM was associated with 7.1 percentage points fewer normal-morphology sperm; authors noted limited exposure assessment."
+  },
+  {
+   "id": "efw-giulioni2021",
+   "authors": "Giulioni C, Maurizi V, Scarcella S, et al.",
+   "year": 2021,
+   "title": "Do environmental and occupational exposure to pyrethroids and organophosphates affect human semen parameters? Results of a systematic review and meta-analysis.",
+   "journal": "Andrologia",
+   "pmid": "34410018",
+   "doi": "10.1111/and.14215",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Organophosphate exposure was associated with lower ejaculate volume, sperm count and concentration; pyrethroid exposure was associated only with fewer normal-morphology sperm (WMD -7.6%)."
+  },
+  {
+   "id": "efw-heller1963",
+   "authors": "HELLER CG, CLERMONT Y",
+   "year": 1963,
+   "title": "Spermatogenesis in man: an estimate of its duration.",
+   "journal": "Science",
+   "pmid": "13953583",
+   "doi": "10.1126/science.140.3563.184",
+   "type": "mechanistic",
+   "n": "men given tritiated thymidine",
+   "finding": "Labelling of germ cells showed one seminiferous cycle lasts 16 days and the whole of human spermatogenesis takes approximately 64 days."
+  },
+  {
+   "id": "efw-iszatt2013",
+   "authors": "Iszatt N, Nieuwenhuijsen MJ, Bennett J, et al.",
+   "year": 2013,
+   "title": "Chlorination by-products in tap water and semen quality in England and Wales.",
+   "journal": "Occup Environ Med",
+   "pmid": "23759536",
+   "doi": "10.1136/oemed-2012-101339",
+   "type": "case-control",
+   "n": "642 cases, 926 referents",
+   "finding": "In the largest study of public-water DBPs and semen, trihalomethane concentrations were not associated with poor semen quality (OR per 10 ug/L 1.01, 0.91-1.12)."
+  },
+  {
+   "id": "efw-ji2011",
+   "authors": "Ji G, Xia Y, Gu A, et al.",
+   "year": 2011,
+   "title": "Effects of non-occupational environmental exposure to pyrethroids on semen quality and sperm DNA integrity in Chinese men.",
+   "journal": "Reprod Toxicol",
+   "pmid": "20955780",
+   "doi": "10.1016/j.reprotox.2010.10.005",
+   "type": "cross-sectional",
+   "n": "240 Chinese clinic men",
+   "finding": "Urinary 3-PBA was inversely associated with sperm concentration and positively with sperm DNA fragmentation after adjustment."
+  },
+  {
+   "id": "efw-lin2021",
+   "authors": "Lin X, Pan W, Liu J",
+   "year": 2021,
+   "title": "Variability of urinary pyrethroid biomarkers in Chinese young-aged men and women over one year.",
+   "journal": "Environ Pollut",
+   "pmid": "33280923",
+   "doi": "10.1016/j.envpol.2020.116155",
+   "type": "cohort",
+   "n": "young Chinese adults, 1 year",
+   "finding": "3-PBA reproducibility in spot urine was poor (ICC <0.15); at least four samples 3 months apart were needed for a reliable estimate over a year."
+  },
+  {
+   "id": "efw-meeker2008",
+   "authors": "Meeker JD, Barr DB, Hauser R",
+   "year": 2008,
+   "title": "Human semen quality and sperm DNA damage in relation to urinary metabolites of pyrethroid insecticides.",
+   "journal": "Hum Reprod",
+   "pmid": "18579513",
+   "doi": "10.1093/humrep/den242",
+   "type": "cross-sectional",
+   "n": "207 Massachusetts clinic men",
+   "finding": "Urinary pyrethroid metabolites were associated with lower sperm concentration and motility and with more sperm DNA damage on the comet assay."
+  },
+  {
+   "id": "efw-vasseur2024",
+   "authors": "Vasseur C, Serra L, El Balkhi S, et al.",
+   "year": 2024,
+   "title": "Glyphosate presence in human sperm: First report and positive correlation with oxidative stress in an infertile French population.",
+   "journal": "Ecotoxicol Environ Saf",
+   "pmid": "38696871",
+   "doi": "10.1016/j.ecoenv.2024.116410",
+   "type": "cross-sectional",
+   "n": "128 infertile men",
+   "finding": "Glyphosate was detected in seminal plasma at about four times blood levels; seminal glyphosate tracked seminal 8-OHdG, and men with glyphosate had higher oxidant status and MDA."
+  },
+  {
+   "id": "efw-wu2025",
+   "authors": "Wu WY, Wang DS, Lin HC, et al.",
+   "year": 2025,
+   "title": "Urinary Glyphosate Concentrations and Serum Sex Hormones in a Nationally Representative U.S. Sample: NHANES 2017-2018.",
+   "journal": "Life (Basel)",
+   "pmid": "40724526",
+   "doi": "10.3390/life15071024",
+   "type": "cross-sectional",
+   "n": "1,532 NHANES participants",
+   "finding": "Higher urinary glyphosate was associated with lower AMH, androstenedione, oestrogens and progesterone and higher SHBG; the authors note the cross-sectional design precludes causal inference."
+  },
+  {
+   "id": "efw-zeng2013",
+   "authors": "Zeng Q, Li M, Xie SH, et al.",
+   "year": 2013,
+   "title": "Baseline blood trihalomethanes, semen parameters and serum total testosterone: a cross-sectional study in China.",
+   "journal": "Environ Int",
+   "pmid": "23454109",
+   "doi": "10.1016/j.envint.2013.01.016",
+   "type": "cross-sectional",
+   "n": "Chinese men",
+   "finding": "Moderate blood bromodichloromethane and dibromochloromethane levels were associated with lower sperm count and linearity, with suggestive trends for concentration and testosterone."
+  },
+  {
+   "id": "efw-zeng2014",
+   "authors": "Zeng Q, Chen YZ, Xu L, et al.",
+   "year": 2014,
+   "title": "Evaluation of exposure to trihalomethanes in tap water and semen quality: a prospective study in Wuhan, China.",
+   "journal": "Reprod Toxicol",
+   "pmid": "24632126",
+   "doi": "10.1016/j.reprotox.2014.03.005",
+   "type": "cohort",
+   "n": "324 men in Wuhan",
+   "finding": "THM uptake via drinking water was associated with decreasing trends in sperm concentration and count."
   }
  ]
 }
