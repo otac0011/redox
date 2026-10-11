@@ -7024,7 +7024,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Dry weight per cup corrected to ≈ 71 g (polyphenols 6 → 7 mg, same score); iron-source tag added. GL recomputed as GI × (carb − fibre) and compared with strict thresholds."
+   }
   },
   {
    "id": "chickpeas-canned",
@@ -7103,7 +7107,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 10 → 10.1 (GI 40, the mean of the two Atkinson canned entries, × 25.2 g available carb), which misses the strict ≤ 10 threshold: glycemic 10 → 9."
+   }
   },
   {
    "id": "lentils-brown-green",
@@ -7182,7 +7190,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 7 → 8 using the Atkinson Table 1 lentil GI of 32 (same points); dry weight ≈ 65 g per cup (polyphenols 8 → 7 mg, same score); no cooking loss applied because Phenol-Explorer's boiling retention for lentils is ≈ 1.1."
+   }
   },
   {
    "id": "lentils-red",
@@ -7266,7 +7278,11 @@
      "label": "USDA FoodData Central #172421 (lentils, cooked; selenium and choline proxy)",
      "url": "https://fdc.nal.usda.gov/food-details/172421/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Selenium null → 4.9 µg and choline null → 57 mg, from FDC cooked lentils (#172421) scaled to ≈ 175 g cooked; FDC lists red-lentil selenium as 0 and has no choline. Neither reaches a scoring threshold, so the scores are unchanged. Iron-source tag added."
+   }
   },
   {
    "id": "black-beans",
@@ -7349,7 +7365,11 @@
      "label": "Phenol-Explorer retention factors: black common bean, boiled",
      "url": "http://phenol-explorer.eu/food-processing/88/foods"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Polyphenols 45 → 33 mg using Phenol-Explorer boiling retention factors by class (anthocyanins ≈ 0.1, flavonols ≈ 0.3, proanthocyanidins ≈ 0.4, bound phenolic acids ≈ 1) and ≈ 67 g dry per cup; plants score unchanged at 3. Iron-source tag and retention source added."
+   }
   },
   {
    "id": "kidney-beans",
@@ -7432,7 +7452,11 @@
      "label": "Phenol-Explorer retention factors: common bean, boiled",
      "url": "http://phenol-explorer.eu/food-processing/85/foods"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Proanthocyanidin conversion confirmed: Phenol-Explorer 'Common bean [Others]' has 606 of 705 mg/100 g dry as proanthocyanidins. Rebuilt with boiling retention ≈ 0.4 for proanthocyanidins (the finder used 0.5), ≈ 0.3 for flavonol glycosides and ≈ 1 for bound phenolic acids, and ≈ 67 g dry per cup: 260 → 192 mg. Plants stays at 7, but the 150 mg line holds only if at least ≈ 30% of the proanthocyanidins survive."
+   }
   },
   {
    "id": "pinto-beans",
@@ -7515,7 +7539,11 @@
      "label": "Phenol-Explorer retention factors: common bean, boiled",
      "url": "http://phenol-explorer.eu/food-processing/85/foods"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Same proanthocyanidin rebuild as kidney beans: 250 → 200 mg (≈ 70 g dry per cup); plants stays at 7. GL 11.5 (GI 39) confirmed: +1. Iron-source tag added."
+   }
   },
   {
    "id": "navy-beans",
@@ -7594,7 +7622,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Polyphenols 50 → 48 mg (flavonol retention ≈ 0.3, bound phenolic acids ≈ 1). GL sits at 8.7–11 across the GI 31–39 entries; the finder's ≈ 10 (+2) is kept as the central value and flagged as borderline."
+   }
   },
   {
    "id": "edamame",
@@ -7673,7 +7705,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Polyphenols 112 → 70 mg: the finder added Phenol-Explorer's after-hydrolysis aglycones (27 mg/100 g) to the isoflavone glycosides (45 mg/100 g), which counts the same isoflavones twice. Plants 5 → 3. Iron-source tag added."
+   }
   },
   {
    "id": "split-peas",
@@ -7749,7 +7785,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Dry weight ≈ 64 g per cup (polyphenols 1.8 → 1.7 mg, same score)."
+   }
   },
   {
    "id": "fava-beans",
@@ -7827,7 +7867,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Polyphenols 20 → 14 mg (≈ 55 g dry per cup × flavan-3-ol boiling retention ≈ 0.5); same score. GL 19.1 (GI 79) confirmed: +1."
+   }
   },
   {
    "id": "peanuts",
@@ -7909,7 +7953,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. FDC #173806 confirmed (folate 97, zinc 2.77, selenium 9.3 per 100 g); no tree-nut sperm credit, as agreed."
+   }
   },
   {
    "id": "peanut-butter-natural",
@@ -7987,7 +8035,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. FDC #172470 confirmed."
+   }
   },
   {
    "id": "rolled-oats",
@@ -8068,7 +8120,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 12.7 (GI 55 × 23 g) confirmed. Zinc 1.46 mg sits just under the 1.5 threshold: 0, correctly."
+   }
   },
   {
    "id": "steel-cut-oats",
@@ -8144,7 +8200,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 12 (GI 52) confirmed."
+   }
   },
   {
    "id": "pearl-barley",
@@ -8219,7 +8279,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 9.6 (GI 25 × 38.3 g) confirmed: +2. The carbohydrate label changed to 'intact grain kernel (pearled, not a whole grain)'; it keeps +3 as an intact kernel. Judgement call flagged in the report."
+   }
   },
   {
    "id": "quinoa",
@@ -8295,7 +8359,11 @@
      "label": "Repo-Carrasco-Valencia et al. 2010, flavonoids in Andean grains (Food Chem 120:128)",
      "url": "https://doi.org/10.1016/j.foodchem.2009.09.087"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 18.1 (GI 53 × 34.2 g) confirmed; FDC choline 43 mg matches the ODS table."
+   }
   },
   {
    "id": "brown-rice",
@@ -8370,7 +8438,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 28 → 32 using the Atkinson 2008 Table 1 GI of 68 for boiled brown rice instead of a 50–68 midpoint; still 0 points. Arsenic watch-out and best_prep reworded to match [arsenic-rice]: about 45% less arsenic from excess-water cooking, about 54% less from parboiling in brown rice, and limit rice cakes, rice milk and rice cereal for infants and toddlers."
+   }
   },
   {
    "id": "white-rice",
@@ -8446,7 +8518,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 32 (GI 73) confirmed; arsenic watch-out reworded to match [arsenic-rice] (73% less with parboiling for white rice)."
+   }
   },
   {
    "id": "buckwheat",
@@ -8526,7 +8602,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 14 (GI 45–51) confirmed."
+   }
   },
   {
    "id": "whole-wheat-bread",
@@ -8602,7 +8682,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 8.7 (GI 74 × 11.7 g) confirmed; finished-bread Phenol-Explorer value kept, as agreed."
+   }
   },
   {
    "id": "white-bread",
@@ -8678,7 +8762,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Natural folate 25 µg/100 g re-derived from FDC total folate (111) and DFE (171); GL 9.8 (GI 75) confirmed: +2."
+   }
   },
   {
    "id": "whole-wheat-pasta",
@@ -8753,7 +8841,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Available carb is 36.7 g, not 33: GL 15 → 18 (GI 48, Atkinson Table 1), still +1. Selenium 50.8 µg confirmed (just over 50: +2)."
+   }
   },
   {
    "id": "white-pasta",
@@ -8829,7 +8921,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 19 → 19.96 (GI 49 × 40.7 g). This is just under 20, so under the strict threshold rule it still earns +1 and the score is unchanged; flagged as borderline."
+   }
   },
   {
    "id": "bulgur",
@@ -8906,7 +9002,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 12.3 (GI 48 × 25.7 g) confirmed."
+   }
   },
   {
    "id": "farro",
@@ -8952,11 +9052,11 @@
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; zinc 2.38 mg (+1); selenium not reported (0); folate 0 µg (0); vitamin C 0 mg (0); no omega-3 EPA/DHA or lycopene (0) = 2"
+     "why": "Base 1; zinc 2.38 mg (+1); selenium not reported (0); folate not reported by FDC (0); vitamin C 0 mg (0); no omega-3 EPA/DHA or lycopene (0) = 2"
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; folate 0 µg (0); iron 1.9 mg (0); choline not reported (0); no DHA, iodine or B12 (0) = 1"
+     "why": "Base 1; folate not reported by FDC (0); iron 1.9 mg (0); choline not reported (0); no DHA, iodine or B12 (0) = 1"
     }
    },
    "best_prep": "Simmer 25–30 min (whole farro needs longer and an overnight soak). Use in grain salads with beans, greens and lemon.",
@@ -8977,7 +9077,11 @@
      "label": "Phenol-Explorer: Hard wheat, whole grain flour",
      "url": "http://phenol-explorer.eu/contents/food/210"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Whole-grain profertility point removed, because the FDC entry used is pearled farro, which isn't a whole grain (consistent with pearl barley): egg 2 → 1; 'whole-grain' tag dropped and a watch-out note added. Carbohydrate label changed to intact pearled kernel (+3 kept)."
+   }
   },
   {
    "id": "millet",
@@ -9048,7 +9152,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 27.7 (GI 71) confirmed; zinc 1.58 mg is just over 1.5: +1."
+   }
   },
   {
    "id": "rye-bread-wholegrain",
@@ -9124,7 +9232,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Natural folate 34 µg/100 g re-derived from FDC total (93) and DFE (134); the Phenol-Explorer total includes alkylresorcinols, which Phenol-Explorer classes as polyphenols. GL 6.6 confirmed."
+   }
   },
   {
    "id": "popcorn-air-popped",
@@ -9202,7 +9314,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. GL 9.8 (GI 65 × 15.1 g) confirmed: +2."
+   }
   },
   {
    "id": "corn-tortillas",
@@ -9282,7 +9398,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Polyphenol estimate 40 → 33 mg: 52 g of tortilla holds ≈ 31 g dry corn, not 45 g; same score. GL 9.2 (GI 46) confirmed."
+   }
   },
   {
    "id": "walnuts",
@@ -9359,7 +9479,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Phenol-Explorer 515 + 67 mg/100 g confirmed: 163 mg/oz (7)."
+   }
   },
   {
    "id": "almonds",
@@ -9436,7 +9560,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Phenol-Explorer 193 mg/100 g confirmed."
+   }
   },
   {
    "id": "pecans",
@@ -9512,7 +9640,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Phenol-Explorer 511 mg/100 g → 143 mg/oz, just under 150: 5, correctly."
+   }
   },
   {
    "id": "pistachios",
@@ -9588,7 +9720,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Phenol-Explorer 246 mg/100 g → 69 mg/oz, under 75: 3, correctly."
+   }
   },
   {
    "id": "hazelnuts",
@@ -9665,7 +9801,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Phenol-Explorer 506 mg/100 g → 142 mg/oz: 5."
+   }
   },
   {
    "id": "brazil-nut",
@@ -9742,7 +9882,11 @@
      "label": "NIH ODS Selenium fact sheet (FDC values; UL 400 µg)",
      "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. FDC selenium 1920 µg/100 g matches the ODS table (544 µg/oz); watch-out confirmed."
+   }
   },
   {
    "id": "cashews",
@@ -9819,7 +9963,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. FDC #170571 confirmed; zinc 1.57 mg: +1."
+   }
   },
   {
    "id": "macadamia",
@@ -9903,7 +10051,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Polyphenol estimate 10 → 1.6 mg/oz. Only a Folin value exists, and pale skinless nuts give ≈ 5% of Folin by chromatography (cashew, Brazil nut). Plants 2 → 1."
+   }
   },
   {
    "id": "chia-seeds",
@@ -9980,7 +10132,11 @@
      "label": "Martínez-Cruz & Paredes-López 2014, chia phytochemicals by UHPLC (J Chromatogr A 1346:43)",
      "url": "https://doi.org/10.1016/j.chroma.2014.04.007"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. FDC #170554 confirmed; UHPLC estimate ≈ 1.7 mg/g checked against the cited paper's main compounds."
+   }
   },
   {
    "id": "flaxseed-ground",
@@ -10058,7 +10214,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Phenol-Explorer 957 mg/100 g → 134 mg (5) confirmed."
+   }
   },
   {
    "id": "hemp-seeds",
@@ -10127,7 +10287,11 @@
      "label": "USDA FoodData Central #170148 (SR Legacy/Foundation)",
      "url": "https://fdc.nal.usda.gov/food-details/170148/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Zinc 2.97 mg sits just under 3: +1, correctly; carb 2.6 g → glycemic null. The polyphenol estimate has no Phenol-Explorer basis (unverified)."
+   }
   },
   {
    "id": "pumpkin-seeds",
@@ -10200,7 +10364,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. FDC #170557 confirmed (zinc 2.14 mg/oz matches the ODS table). The polyphenol estimate has no Phenol-Explorer basis (unverified)."
+   }
   },
   {
    "id": "sunflower-seeds",
@@ -10277,7 +10445,11 @@
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Zinc 1.48 mg sits just under 1.5: 0, correctly. Selenium 22 µg: +1."
+   }
   },
   {
    "id": "tahini",
@@ -10354,8 +10526,16 @@
     {
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "Moazzami, Kamal-Eldin & Haese 2007, lignan contents in sesame seeds and products (Eur J Lipid Sci Technol 109:1022)",
+     "url": "https://doi.org/10.1002/ejlt.200700057"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nutrients re-pulled from FDC (portal search, same fdcId) and matched; Phenol-Explorer compound rows re-summed from the saved pages; all six scores re-derived under the rubric; serving, best_prep, watch-outs, tags and sources reviewed. Lignan conversion confirmed: Phenol-Explorer sesame meal has 777 mg/100 g by chromatography (sesamin 538, sesamolin 134, sesaminol 103) plus ≈ 92 mg/100 g of other after-hydrolysis lignans ≈ 870 mg/100 g, × 30 g ≈ 260 mg (7). Whole seeds range 405–1178 mg/100 g (Moazzami 2007); tahini needs ≥ 500 mg/100 g to stay at 7."
+   }
   },
   {
    "id": "salmon-atlantic-farmed",
