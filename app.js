@@ -904,7 +904,7 @@
     const list = foods.filter((f) => (!group || f.group === group) && (!q || (f.name + " " + (f.tags || []).join(" ")).toLowerCase().includes(q)))
       .sort((a, b) => foodScore(b, sort) - foodScore(a, sort) || a.name.localeCompare(b.name));
     const head = D.food_categories.map((c) => `<th class="${c.id === sort ? "sorted" : ""}"><a href="${link("sort", c.id === sort ? "" : c.id)}" title="${esc(c.name)}: ${esc(c.how)}">${esc(c.short)}</a></th>`).join("");
-    const rows = list.map((f) => `<tr><td class="fname"><a href="#/food/${encodeURIComponent(f.id)}">${esc(f.name)}</a><div class="small muted">${esc(f.serving)}</div></td>${D.food_categories.map((c) => heat(f.scores[c.id].score)).join("")}</tr>`).join("");
+    const rows = list.map((f) => `<tr><td class="fname"><a href="#/food/${encodeURIComponent(f.id)}">${esc(f.name)}</a>${f.check ? "" : ` <span class="pending-dot" title="Second check pending">●</span>`}<div class="small muted">${esc(f.serving)}</div></td>${D.food_categories.map((c) => heat(f.scores[c.id].score)).join("")}</tr>`).join("");
     const how = D.food_categories.map((c) => `<li><b>${esc(c.name)}</b> <span class="muted small">(${GROUP_LABEL[c.group]})</span>: ${esc(c.how)}</li>`).join("");
     return `<h1>Foods</h1>
       <p class="lede">${foods.length} single ingredients rated 1–10 per typical serving for oxidative stress and fertility. Click a column to sort, or a food for the reasoning and how best to eat it.</p>
@@ -916,7 +916,7 @@
         <div><div class="section-label">Group</div><div class="chips">${chips}</div></div>
         <label class="section-label">Search <input id="food-q" type="search" value="${esc(params.get("q") || "")}" placeholder="e.g. lentils"></label>
       </div>
-      <p class="small muted">${list.length} foods · sorted by ${sort ? esc(D.food_categories.find((c) => c.id === sort).name) : "average score"}${sort ? ` · <a href="${link("sort", "")}">sort by average</a>` : ""}</p>
+      <p class="small muted">${list.some((f) => !f.check) ? `<span class="pending-dot">●</span> = second check pending · ` : ""}${list.length} foods · sorted by ${sort ? esc(D.food_categories.find((c) => c.id === sort).name) : "average score"}${sort ? ` · <a href="${link("sort", "")}">sort by average</a>` : ""}</p>
       <div class="food-table-wrap"><table class="food-table"><thead><tr><th>Food</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
   }
   function bindFoods(params) {
@@ -943,6 +943,7 @@
     return `<div class="crumbs"><a href="#/foods">Foods</a> / <a href="#/foods?group=${esc(f.group)}">${esc(g.name)}</a></div>
       <h1>${esc(f.name)}</h1>
       <div class="chips"><span class="chip">Serving: ${esc(f.serving)}</span>${(f.tags || []).map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+      ${f.check ? "" : `<p class="small caveat" style="margin-top:10px">Preliminary: this food hasn't had its second check yet, so values and scores may still change.</p>`}
       <section class="card rbars full" style="margin-top:12px">
         <div class="entry-title"><h2>How it scores</h2><span class="small muted">per serving, 1–10 · tap a bar for the reasoning</span></div>
         ${bars}

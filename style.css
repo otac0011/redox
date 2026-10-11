@@ -422,3 +422,4 @@ table.nut td:last-child { text-align: right; font-variant-numeric: tabular-nums;
 .heat.h10 { background: color-mix(in srgb, var(--accent) 88%, var(--surface)); color: #fff; }
 @media (max-width: 560px) { .heat { width: 2.1rem; font-size: .85rem; } .food-table th { font-size: .62rem; letter-spacing: 0; } .food-table td.fname { min-width: 7rem; font-size: .9rem; } }
 .chip.pending { background: var(--mixed-soft); color: var(--mixed); }
+.pending-dot { color: var(--mixed); font-size: .7rem; vertical-align: middle; }
