@@ -6964,14 +6964,14 @@
     "b12_ug": 0,
     "vit_c_mg": 2.1,
     "iodine_ug": null,
-    "polyphenols_mg": 6,
+    "polyphenols_mg": 7,
     "lycopene_mg": 0,
     "gl": 9
    },
    "scores": {
     "plants": {
      "score": 2,
-     "why": "Polyphenols ≈ 6 mg/serving (Phenol-Explorer chickpea 9.5 mg/100 g dry, chromatography after hydrolysis; ≈ 65 g dry per cup) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
+     "why": "Polyphenols ≈ 7 mg/serving (Phenol-Explorer chickpea 9.5 mg/100 g dry, chromatography after hydrolysis (bound phenolic acids, which survive boiling); ≈ 71 g dry per cup) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
     },
     "nrf2": {
      "score": 1,
@@ -7004,6 +7004,7 @@
     "budget",
     "high-fibre",
     "high-folate",
+    "iron-source",
     "gluten-free"
    ],
    "sources": [
@@ -7048,7 +7049,7 @@
     "iodine_ug": null,
     "polyphenols_mg": 5,
     "lycopene_mg": 0,
-    "gl": 10
+    "gl": 10.1
    },
    "scores": {
     "plants": {
@@ -7064,8 +7065,8 @@
      "why": "Fat 3.75 g: base 3; mixed nut/seed/legume oil profile (+2); no EPA/DHA (0); sat fat 0.32 g, under 5 g (0) = 5"
     },
     "glycemic": {
-     "score": 10,
-     "why": "Fibre 9.58 g (+5); legume (+3); GL ≈ 10 (GI ≈ 38–42, ≈ 25 g available carb) (+2) = 10"
+     "score": 9,
+     "why": "Fibre 9.58 g (+5); legume (+3); GL ≈ 10.1 (GI ≈ 40, mean of the two Atkinson canned entries (38 and 42), × 25.2 g available carb; just over the 10 line) (+1) = 9"
     },
     "sperm": {
      "score": 1,
@@ -7125,14 +7126,14 @@
     "b12_ug": 0,
     "vit_c_mg": 3.0,
     "iodine_ug": null,
-    "polyphenols_mg": 8,
+    "polyphenols_mg": 7,
     "lycopene_mg": 0,
-    "gl": 7
+    "gl": 8
    },
    "scores": {
     "plants": {
      "score": 2,
-     "why": "Polyphenols ≈ 8 mg/serving (Phenol-Explorer whole lentils 10.4 mg/100 g dry, chromatography; ≈ 77 g dry per cup (Folin 3697 mg/100 g overstates)) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
+     "why": "Polyphenols ≈ 7 mg/serving (Phenol-Explorer whole lentils 10.4 mg/100 g dry, chromatography; ≈ 65 g dry per cup; no cooking loss applied (Phenol-Explorer boiling retention for lentils ≈ 1.1); Folin 3697 mg/100 g overstates) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
     },
     "nrf2": {
      "score": 1,
@@ -7144,7 +7145,7 @@
     },
     "glycemic": {
      "score": 10,
-     "why": "Fibre 15.6 g (+5); legume (+3); GL ≈ 7 (GI ≈ 30, ≈ 24 g available carb) (+2) = 10"
+     "why": "Fibre 15.6 g (+5); legume (+3); GL ≈ 8 (GI ≈ 32 (Atkinson 2008 Table 1), ≈ 24 g available carb) (+2) = 10"
     },
     "sperm": {
      "score": 3,
@@ -7197,10 +7198,10 @@
     "epa_dha_mg": 0,
     "ala_g": 0.17,
     "folate_ug_dfe": 135,
-    "choline_mg": null,
+    "choline_mg": 57,
     "iron_mg": 5.2,
     "zinc_mg": 2.52,
-    "selenium_ug": null,
+    "selenium_ug": 4.9,
     "b12_ug": 0,
     "vit_c_mg": 1.2,
     "iodine_ug": null,
@@ -7227,16 +7228,16 @@
     },
     "sperm": {
      "score": 3,
-     "why": "Base 1; zinc 2.52 mg (+1); selenium not reported (0); folate 135 µg DFE (+1); vitamin C 1.2 mg (0); no omega-3 EPA/DHA or lycopene (0) = 3"
+     "why": "Base 1; zinc 2.52 mg (+1); selenium 4.9 µg (0); folate 135 µg DFE (+1); vitamin C 1.2 mg (0); no omega-3 EPA/DHA or lycopene (0) = 3"
     },
     "egg": {
      "score": 4,
-     "why": "Base 1; folate 135 µg (+2); iron 5.2 mg (+1); choline not reported (0); no DHA, iodine or B12 (0) = 4"
+     "why": "Base 1; folate 135 µg (+2); iron 5.2 mg (+1); choline 57 mg (0); no DHA, iodine or B12 (0) = 4"
     }
    },
    "best_prep": "Simmer 15–20 min into dal or soup; no soaking. Add tomato, lemon or amchur for iron, and temper with garlic, ginger, cumin and turmeric with black pepper.",
    "watch_outs": [
-    "Values are from raw FDC data scaled to the dry amount; folate reduced ≈ 6% for cooking losses.",
+    "Values are from raw FDC data scaled to the dry amount; folate reduced ≈ 6% for cooking losses. FDC reports no selenium (listed as 0) or choline for red lentils, so those come from FDC cooked lentils (#172421) scaled to ≈ 175 g cooked.",
     "Can cause gas and bloating at first; build up portions over a few weeks."
    ],
    "tags": [
@@ -7244,6 +7245,7 @@
     "budget",
     "high-fibre",
     "high-folate",
+    "iron-source",
     "quick-cook",
     "gluten-free"
    ],
@@ -7259,6 +7261,10 @@
     {
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central #172421 (lentils, cooked; selenium and choline proxy)",
+     "url": "https://fdc.nal.usda.gov/food-details/172421/nutrients"
     }
    ]
   },
@@ -7283,14 +7289,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.0,
     "iodine_ug": null,
-    "polyphenols_mg": 45,
+    "polyphenols_mg": 33,
     "lycopene_mg": 0,
     "gl": 8
    },
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Polyphenols ≈ 45 mg/serving (Phenol-Explorer black common bean 102 mg/100 g dry (chromatography + after hydrolysis + proanthocyanidins), ≈ 75 g dry per cup, ≈ 40% lost to cooking water) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
+     "why": "Polyphenols ≈ 33 mg/serving (Phenol-Explorer black common bean 102 mg/100 g dry (chromatography + after hydrolysis + proanthocyanidins), scaled by Phenol-Explorer boiling retention factors (anthocyanins ≈ 0.1, flavonols ≈ 0.3, proanthocyanidins ≈ 0.4, bound phenolic acids ≈ 1) to ≈ 49 mg/100 g dry; ≈ 67 g dry per cup) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -7323,6 +7329,7 @@
     "budget",
     "high-fibre",
     "high-folate",
+    "iron-source",
     "gluten-free"
    ],
    "sources": [
@@ -7337,6 +7344,10 @@
     {
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "Phenol-Explorer retention factors: black common bean, boiled",
+     "url": "http://phenol-explorer.eu/food-processing/88/foods"
     }
    ]
   },
@@ -7361,14 +7372,14 @@
     "b12_ug": 0,
     "vit_c_mg": 2.1,
     "iodine_ug": null,
-    "polyphenols_mg": 260,
+    "polyphenols_mg": 192,
     "lycopene_mg": 0,
     "gl": 7
    },
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Polyphenols ≈ 260 mg/serving (Phenol-Explorer coloured common bean 705 mg/100 g dry, mostly proanthocyanidins by normal-phase HPLC; ≈ 74 g dry per cup, ≈ 50% lost in soaking and cooking) (7); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 7"
+     "why": "Polyphenols ≈ 192 mg/serving (Phenol-Explorer coloured common bean 705 mg/100 g dry, of which proanthocyanidins 606 (normal-phase HPLC); after boiling retention (proanthocyanidins ≈ 0.4, flavonol glycosides ≈ 0.3, bound phenolic acids ≈ 1) ≈ 284 mg/100 g dry; ≈ 67 g dry per cup. Stays ≥ 150 unless under ≈ 30% of the proanthocyanidins survive) (7); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 7"
     },
     "nrf2": {
      "score": 1,
@@ -7416,6 +7427,10 @@
     {
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "Phenol-Explorer retention factors: common bean, boiled",
+     "url": "http://phenol-explorer.eu/food-processing/85/foods"
     }
    ]
   },
@@ -7440,14 +7455,14 @@
     "b12_ug": 0,
     "vit_c_mg": 1.4,
     "iodine_ug": null,
-    "polyphenols_mg": 250,
+    "polyphenols_mg": 200,
     "lycopene_mg": 0,
     "gl": 11
    },
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Polyphenols ≈ 250 mg/serving (Phenol-Explorer coloured common bean 705 mg/100 g dry (mostly proanthocyanidins); ≈ 72 g dry per cup, ≈ 50% cooking loss) (7); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 7"
+     "why": "Polyphenols ≈ 200 mg/serving (Phenol-Explorer coloured common bean 705 mg/100 g dry (606 proanthocyanidins); after boiling retention (proanthocyanidins ≈ 0.4, flavonols ≈ 0.3, bound phenolic acids ≈ 1) ≈ 284 mg/100 g dry; ≈ 70 g dry per cup) (7); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 7"
     },
     "nrf2": {
      "score": 1,
@@ -7459,7 +7474,7 @@
     },
     "glycemic": {
      "score": 9,
-     "why": "Fibre 15.4 g (+5); legume (+3); GL ≈ 11 (GI ≈ 39, ≈ 29 g available carb) (+1) = 9"
+     "why": "Fibre 15.4 g (+5); legume (+3); GL ≈ 11 (GI ≈ 39 × 29.4 g available carb = 11.5) (+1) = 9"
     },
     "sperm": {
      "score": 3,
@@ -7480,6 +7495,7 @@
     "budget",
     "high-fibre",
     "high-folate",
+    "iron-source",
     "gluten-free"
    ],
    "sources": [
@@ -7494,6 +7510,10 @@
     {
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
      "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "Phenol-Explorer retention factors: common bean, boiled",
+     "url": "http://phenol-explorer.eu/food-processing/85/foods"
     }
    ]
   },
@@ -7518,14 +7538,14 @@
     "b12_ug": 0,
     "vit_c_mg": 1.6,
     "iodine_ug": null,
-    "polyphenols_mg": 50,
+    "polyphenols_mg": 48,
     "lycopene_mg": 0,
     "gl": 10
    },
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Polyphenols ≈ 50 mg/serving (Phenol-Explorer white common bean 103 mg/100 g dry (chromatography + after hydrolysis); ≈ 76 g dry per cup, ≈ 35% cooking loss) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
+     "why": "Polyphenols ≈ 48 mg/serving (Phenol-Explorer white common bean 103 mg/100 g dry (chromatography + after hydrolysis); after boiling retention (flavonol glycosides ≈ 0.3, bound phenolic acids ≈ 1) ≈ 63 mg/100 g dry; ≈ 76 g dry per cup) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -7537,7 +7557,7 @@
     },
     "glycemic": {
      "score": 10,
-     "why": "Fibre 19.1 g (+5); legume (+3); GL ≈ 10 (GI ≈ 31–39, ≈ 28 g available carb) (+2) = 10"
+     "why": "Fibre 19.1 g (+5); legume (+3); GL ≈ 10 (GI ≈ 31–39 × 28.2 g available carb = 8.7–11; ≈ 10 at GI 35, close to the line) (+2) = 10"
     },
     "sperm": {
      "score": 3,
@@ -7558,6 +7578,7 @@
     "budget",
     "high-fibre",
     "high-folate",
+    "iron-source",
     "gluten-free"
    ],
    "sources": [
@@ -7596,14 +7617,14 @@
     "b12_ug": 0,
     "vit_c_mg": 9.5,
     "iodine_ug": null,
-    "polyphenols_mg": 112,
+    "polyphenols_mg": 70,
     "lycopene_mg": 0,
     "gl": 1
    },
    "scores": {
     "plants": {
-     "score": 5,
-     "why": "Polyphenols ≈ 112 mg/serving (Phenol-Explorer edamame 72 mg/100 g, chromatography (mostly isoflavones)) (5); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 5"
+     "score": 3,
+     "why": "Polyphenols ≈ 70 mg/serving (Phenol-Explorer edamame 45 mg/100 g isoflavone glycosides by chromatography; the 27 mg/100 g after-hydrolysis aglycones are the same isoflavones measured again, so they are not added) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -7634,6 +7655,7 @@
    "tags": [
     "vegan",
     "high-folate",
+    "iron-source",
     "soy",
     "high-fibre",
     "gluten-free"
@@ -7674,14 +7696,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.8,
     "iodine_ug": null,
-    "polyphenols_mg": 1.8,
+    "polyphenols_mg": 1.7,
     "lycopene_mg": 0,
     "gl": 8
    },
    "scores": {
     "plants": {
      "score": 1,
-     "why": "Polyphenols ≈ 1.8 mg/serving (Phenol-Explorer dried pea, dehulled 2.6 mg/100 g dry × ≈ 70 g) (1); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 1"
+     "why": "Polyphenols ≈ 1.7 mg/serving (Phenol-Explorer dried pea, dehulled 2.6 mg/100 g dry × ≈ 64 g) (1); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -7750,14 +7772,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.5,
     "iodine_ug": null,
-    "polyphenols_mg": 20,
+    "polyphenols_mg": 14,
     "lycopene_mg": 0,
     "gl": 19
    },
    "scores": {
     "plants": {
      "score": 2,
-     "why": "Polyphenols ≈ 20 mg/serving (Phenol-Explorer broad bean, whole 49 mg/100 g dry × ≈ 68 g, ≈ 40% cooking loss) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
+     "why": "Polyphenols ≈ 14 mg/serving (Phenol-Explorer broad bean, whole 49 mg/100 g dry (flavan-3-ols) × ≈ 55 g dry per cup × boiling retention ≈ 0.5) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
     },
     "nrf2": {
      "score": 1,
@@ -8164,7 +8186,7 @@
     },
     "glycemic": {
      "score": 9,
-     "why": "Fibre 5.97 g (+4); intact or whole grain (+3); GL ≈ 10 (GI ≈ 25, ≈ 38 g available carb) (+2) = 9"
+     "why": "Fibre 5.97 g (+4); intact grain kernel (pearled, so not a whole grain) (+3); GL ≈ 10 (GI ≈ 25 × 38.3 g available carb = 9.6) (+2) = 9"
     },
     "sperm": {
      "score": 1,
@@ -8298,7 +8320,7 @@
     "iodine_ug": null,
     "polyphenols_mg": 19,
     "lycopene_mg": 0,
-    "gl": 28
+    "gl": 32
    },
    "scores": {
     "plants": {
@@ -8315,7 +8337,7 @@
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre 3.12 g (+3); intact or whole grain (+3); GL ≈ 28 (GI ≈ 50–68 gives GL 23–32; midpoint, ≈ 47 g available carb) (+0) = 6"
+     "why": "Fibre 3.12 g (+3); intact or whole grain (+3); GL ≈ 32 (GI ≈ 68 (Atkinson 2008 Table 1, boiled brown rice) × 46.8 g available carb) (+0) = 6"
     },
     "sperm": {
      "score": 1,
@@ -8326,9 +8348,9 @@
      "why": "Base 1; folate 18 µg (0); iron 1.1 mg (0); choline 18 mg (0); no DHA, iodine or B12 (0); profertility food type: whole grain [whole-grains] (+1) = 2"
     }
    },
-   "best_prep": "Cook like pasta in lots of water and drain, or parboil 5 min, drain and finish with fresh water; both cut arsenic. Cooling and reheating raises resistant starch. Serve with beans and vegetables to lower the meal's glycemic load. [whole-grains]",
+   "best_prep": "Rinse, then cook like pasta in lots of water and drain (about 45% less arsenic), or parboil 5 min, drain and finish in fresh water by absorption (about 54% less) [arsenic-rice]. Cooling and reheating raises resistant starch. Serve with beans and vegetables to lower the meal's glycemic load. [whole-grains]",
    "watch_outs": [
-    "Rice takes up inorganic arsenic from paddy water. Cook it in plenty of water (6–10 parts) and drain to remove roughly half, vary your grains, and don't use rice drinks or rice cakes as staples for infants and small children [arsenic-rice]. Brown rice carries more inorganic arsenic than white because it concentrates in the bran."
+    "Rice takes up inorganic arsenic from paddy water. Rinse it, then cook it like pasta in 6–10 parts water and drain (about 45% less inorganic arsenic), or parboil 5 min, drain, and finish in fresh water by absorption (about 54% less in brown rice, 73% in white). Vary your grains, and limit rice cakes, rice milk and rice cereal for infants and toddlers [arsenic-rice]. Brown rice carries more inorganic arsenic than white because it concentrates in the bran."
    ],
    "tags": [
     "vegan",
@@ -8403,7 +8425,7 @@
    },
    "best_prep": "Cook in excess water and drain to cut arsenic. Basmati and parboiled rice have lower GIs than jasmine or sticky rice; cooked-then-cooled rice has more resistant starch. Fill half the plate with vegetables or beans. [refined-sugar-high-glycemic]",
    "watch_outs": [
-    "Rice takes up inorganic arsenic from paddy water. Cook it in plenty of water (6–10 parts) and drain to remove roughly half, vary your grains, and don't use rice drinks or rice cakes as staples for infants and small children [arsenic-rice].",
+    "Rice takes up inorganic arsenic from paddy water. Rinse it, then cook it like pasta in 6–10 parts water and drain (about 45% less inorganic arsenic), or parboil 5 min, drain, and finish in fresh water by absorption (about 54% less in brown rice, 73% in white). Vary your grains, and limit rice cakes, rice milk and rice cereal for infants and toddlers [arsenic-rice].",
     "Natural folate only: US enriched rice adds folic acid, which isn't counted here."
    ],
    "tags": [
@@ -8681,7 +8703,7 @@
     "iodine_ug": null,
     "polyphenols_mg": 12,
     "lycopene_mg": 0,
-    "gl": 15
+    "gl": 18
    },
    "scores": {
     "plants": {
@@ -8698,7 +8720,7 @@
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre 5.46 g (+4); wholemeal flour product (+2); GL ≈ 15 (GI ≈ 37–48, ≈ 33 g available carb) (+1) = 7"
+     "why": "Fibre 5.46 g (+4); wholemeal flour product (+2); GL ≈ 18 (GI ≈ 48 (Atkinson 2008 Table 1, wholemeal spaghetti) × 36.7 g available carb) (+1) = 7"
     },
     "sperm": {
      "score": 4,
@@ -8756,7 +8778,7 @@
     "iodine_ug": null,
     "polyphenols_mg": 2.7,
     "lycopene_mg": 0,
-    "gl": 19
+    "gl": 19.96
    },
    "scores": {
     "plants": {
@@ -8773,7 +8795,7 @@
     },
     "glycemic": {
      "score": 3,
-     "why": "Fibre 2.52 g (+2); refined grain (+0); GL ≈ 19 (GI ≈ 46–49, ≈ 41 g available carb) (+1) = 3"
+     "why": "Fibre 2.52 g (+2); refined grain (+0); GL ≈ 19.96 (GI ≈ 49 (Atkinson 2008 Table 1, white spaghetti) × 40.7 g available carb; just under the 20 line, so the strict threshold isn't met) (+1) = 3"
     },
     "sperm": {
      "score": 2,
@@ -8918,7 +8940,7 @@
     },
     "nrf2": {
      "score": 1,
-     "why": "No Nrf2-anchor compounds (whole grain; not a crucifer, allium or listed spice) (1) = 1"
+     "why": "No Nrf2-anchor compounds (pearled grain; not a crucifer, allium or listed spice) (1) = 1"
     },
     "fats": {
      "score": null,
@@ -8926,25 +8948,25 @@
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre 4.39 g (+3); intact or whole grain (+3); GL ≈ 18 (no published GI; ≈ 45 assumed from intact-wheat values, ≈ 39 g available carb) (+1) = 7"
+     "why": "Fibre 4.39 g (+3); intact grain kernel (pearled, so not a whole grain) (+3); GL ≈ 18 (no published GI; ≈ 45 assumed from intact-wheat values, ≈ 39 g available carb) (+1) = 7"
     },
     "sperm": {
      "score": 2,
      "why": "Base 1; zinc 2.38 mg (+1); selenium not reported (0); folate 0 µg (0); vitamin C 0 mg (0); no omega-3 EPA/DHA or lycopene (0) = 2"
     },
     "egg": {
-     "score": 2,
-     "why": "Base 1; folate 0 µg (0); iron 1.9 mg (0); choline not reported (0); no DHA, iodine or B12 (0); profertility food type: whole grain [whole-grains] (+1) = 2"
+     "score": 1,
+     "why": "Base 1; folate 0 µg (0); iron 1.9 mg (0); choline not reported (0); no DHA, iodine or B12 (0) = 1"
     }
    },
    "best_prep": "Simmer 25–30 min (whole farro needs longer and an overnight soak). Use in grain salads with beans, greens and lemon.",
    "watch_outs": [
     "Contains gluten (coeliac disease, wheat allergy).",
-    "Energy and saturated fat are estimated: the FDC Foundation entry lists only some nutrients; folate, choline and selenium aren't reported."
+    "Energy and saturated fat are estimated: the FDC Foundation entry lists only some nutrients; folate, choline and selenium aren't reported.",
+    "The FDC entry is pearled farro, which isn't a whole grain; whole (unpearled) farro keeps the bran and would also earn the whole-grain profertility point."
    ],
    "tags": [
-    "vegan",
-    "whole-grain"
+    "vegan"
    ],
    "sources": [
     {
@@ -9203,14 +9225,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.0,
     "iodine_ug": null,
-    "polyphenols_mg": 40,
+    "polyphenols_mg": 33,
     "lycopene_mg": 0,
     "gl": 9
    },
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Polyphenols ≈ 40 mg/serving (no tortilla entry; estimated from Phenol-Explorer maize (whole grain 215, refined 278 mg/100 g after hydrolysis) × ≈ 45 g masa, discounted for pericarp loss in nixtamalisation) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
+     "why": "Polyphenols ≈ 33 mg/serving (no tortilla entry; estimated from Phenol-Explorer whole-grain maize 215 mg/100 g (mostly bound ferulic acid) × ≈ 31 g dry corn in 52 g of tortilla, halved for pericarp and ferulic-acid loss in nixtamalisation) (3); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -9804,7 +9826,7 @@
    "name": "Macadamia nuts",
    "group": "nuts-seeds",
    "serving": "1 oz (28 g, about 11 nuts)",
-   "highlight": "The most monounsaturated nut, but the highest in calories and low in polyphenols and minerals.",
+   "highlight": "The most monounsaturated nut, but the highest in calories and very low in polyphenols and minerals.",
    "nutrients": {
     "kcal": 201,
     "fiber_g": 2.4,
@@ -9820,14 +9842,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.3,
     "iodine_ug": null,
-    "polyphenols_mg": 10,
+    "polyphenols_mg": 1.6,
     "lycopene_mg": 0,
     "gl": 0
    },
    "scores": {
     "plants": {
-     "score": 2,
-     "why": "Polyphenols ≈ 10 mg/serving (Phenol-Explorer lists only a Folin value (126 mg/100 g = 35 mg/oz); chromatography total estimated ≈ 10 mg) (2); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 2"
+     "score": 1,
+     "why": "Polyphenols ≈ 1.6 mg/serving (Phenol-Explorer lists only a Folin value (126 mg/100 g); estimated from the other pale, skinless nuts, where chromatography gives ≈ 5% of Folin (cashew 10.5 of 233, Brazil nut 0.8 of 244 mg/100 g) and no proanthocyanidins are reported, so ≈ 6 mg/100 g) (1); no qualifying pigment or nitrate (0); not a counted fruit/veg serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -9868,6 +9890,14 @@
     {
      "label": "Phenol-Explorer: Macadamia nut",
      "url": "http://phenol-explorer.eu/contents/food/723"
+    },
+    {
+     "label": "Phenol-Explorer: Cashew nut, raw (relative used for the estimate)",
+     "url": "http://phenol-explorer.eu/contents/food/709"
+    },
+    {
+     "label": "Phenol-Explorer: Brazil nut (relative used for the estimate)",
+     "url": "http://phenol-explorer.eu/contents/food/708"
     },
     {
      "label": "International Tables of Glycemic Index (Atkinson et al. 2008)",
