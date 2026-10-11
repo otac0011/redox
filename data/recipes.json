@@ -3582,6 +3582,1200 @@
     "date": "2026-10-11",
     "summary": "Rating confirmed 4.56/102; ingredients and method match; 8 servings follows the panel. Plants 4→3: the spice blend is 7.75 tsp ÷ 8 = 0.97 tsp per serving, under the strict 1 tsp threshold. Produce recounted at 80 g per serving for raisins too (1.5 servings, still +2)."
    }
+  },
+  {
+   "id": "roasted-cauliflower-chickpea-tahini-bowl",
+   "title": "Roasted cauliflower and chickpeas with lemon tahini",
+   "summary": "A warm bowl of roasted cauliflower and red onion with paprika-crisped chickpeas, parsley and lemon-tahini dressing; it scores well on produce, fibre and crucifers, but the original has no turmeric and uses plain olive oil.",
+   "source": {
+    "title": "Roasted Cauliflower Salad",
+    "author": "Beth Moncel",
+    "site": "Budget Bytes",
+    "url": "https://www.budgetbytes.com/roasted-cauliflower-salad/",
+    "rating": 4.68,
+    "rating_count": 255,
+    "checked": "2026-10-11",
+    "note": "Closest well-rated match for 'turmeric-roasted cauliflower and chickpeas'. The turmeric versions found (Inquiring Chef 5/1, The Plant Based School 5/10) have too few ratings, so this one has no turmeric; see boosts."
+   },
+   "changes": "Metric units added; steps reworded. The original calls it a salad; it is served warm as a main-dish bowl here. The cauliflower weight (a medium head, about 590 g) is our estimate, since the original says only '1 head'.",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 50,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 374,
+    "fiber_g": 9.5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 2.9,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 150,
+    "choline_mg": 95,
+    "iron_mg": 4.8,
+    "zinc_mg": 2.1,
+    "selenium_ug": 10,
+    "b12_ug": 0,
+    "vit_c_mg": 74,
+    "fruit_veg_servings": 3.2
+   },
+   "scores": {
+    "plants": {
+     "score": 6,
+     "why": "Per serving (4): cauliflower ≈147 g, red onion ≈14 g, parsley ≈17 g, lemon juice 15 mL = ≈193 g = 2.4 servings, plus chickpeas ≈60 g = 0.75 pulse serving; total ≈3.2 (+4). Fresh parsley ≈4 tbsp per serving plus cumin and paprika (+1). Plant families: crucifer, allium, carrot family (parsley, cumin), legume, sesame, nightshade (cayenne, paprika), citrus, olive = 8 (+1). The oil is plain olive oil, not extra-virgin (0); red onion ≈14 g per serving is too little to count as an anthocyanin item (0). Total 4+1+1 = 6 [high-fruit-vegetable-intake] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1; cauliflower ≈147 g per serving, roasted (+3); garlic ½ clove and ⅛ onion per serving are under the allium thresholds (0); no turmeric (0). Total 1+3 = 4 [cruciferous-other]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; plain olive oil, not extra-virgin (0); tahini ⅓ cup ≈80 g ÷ 4 = 20 g sesame per serving (≥15 g, +1). Saturated fat ≈2.9 g. Total 2+1 = 3 [walnuts-nuts] [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 9,
+     "why": "Fibre ≈9–10 g (recipe panel 9.1 g; FDC: chickpeas 4.6, cauliflower 2.9, tahini 1.9, parsley and onion 0.8) (+4); chickpeas are the only starch (+2); no added sugar (+2); chickpea protein, tahini and lemon with the carbohydrate (+1). Total 4+2+2+1 = 9 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Cauliflower and onion roasted at 400 °F / 200 °C until browned at the edges (8); chickpeas crisped over medium heat for about 5 min, no worse (8). Score 8 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1; folate ≈150 µg (+1); ≈3.2 produce servings (+1). Zinc ≈2.1 mg (tahini 0.9, chickpeas 0.6, cauliflower 0.4, parsley 0.2) and selenium ≈10 µg are under the thresholds (0); no nuts ≥30 g and no tomato (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈150 µg (+2): cauliflower ≈63 after roasting losses, chickpeas ≈38, parsley ≈26, tahini ≈20, onion and lemon ≈5; plant iron ≈4.8 mg (tahini 1.8, chickpeas 1.1, parsley 1.0, cauliflower 0.6, spices 0.3) with vitamin C ≈74 mg (+1); choline ≈95 mg (0); no named iodine source (0); profertility: produce is the only component (0). Total 1+2+1 = 4 [folic-acid] [iron-egg]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Roasted vegetables",
+     "items": [
+      "1 head cauliflower (a medium head, about 1¼ lb / 590 g)",
+      "½ red onion",
+      "2 Tbsp (30 mL) olive oil",
+      "Salt and pepper, to taste"
+     ]
+    },
+    {
+     "group": "Lemon tahini dressing",
+     "items": [
+      "⅓ cup (80 g) tahini",
+      "⅓ cup (80 mL) water",
+      "¼ cup (60 mL) lemon juice",
+      "2 cloves garlic, minced",
+      "½ tsp cumin",
+      "¼ tsp cayenne",
+      "¼ tsp salt"
+     ]
+    },
+    {
+     "group": "Spiced chickpeas",
+     "items": [
+      "1 (15-oz / 425 g) can chickpeas",
+      "1 Tbsp (15 mL) olive oil",
+      "½ tsp smoked paprika",
+      "¼ tsp garlic powder",
+      "⅛ tsp cayenne",
+      "Salt and pepper, to taste"
+     ]
+    },
+    {
+     "group": "To finish",
+     "items": [
+      "½ bunch parsley (about 1½ cups loosely packed once chopped)"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 400 °F (200 °C). Break the cauliflower into small florets and slice the onion into ¼-inch (6 mm) strips. Spread both on a large baking sheet, add the 2 Tbsp oil and a little salt and pepper, and toss.",
+    "Roast for 20 minutes, stir, then roast 10–15 minutes more, until tender and browned at the edges. Let cool slightly.",
+    "While the vegetables roast, blend the tahini, water, lemon juice, garlic, cumin, cayenne and salt until smooth. Chill until serving.",
+    "Rinse and drain the chickpeas. Cook them in a skillet over medium heat with 1 Tbsp oil, the smoked paprika, garlic powder, cayenne, salt and pepper for about 5 minutes, until they sizzle and turn a little crisp.",
+    "Pull the parsley leaves off the stems and chop them roughly.",
+    "Combine the roasted vegetables, chickpeas and parsley in a bowl, pour on the dressing, toss, and serve warm or cold."
+   ],
+   "boosts": [
+    "Toss the cauliflower with 2 tsp ground turmeric and a few grinds of black pepper before roasting (½ tsp per serving, with oil and pepper): nrf2 +1 [turmeric-curcumin]",
+    "Use extra-virgin olive oil and drizzle 1 Tbsp more over the finished dish (4 Tbsp in all, 1 Tbsp per serving): plants +1 and fats +2 [extra-virgin-olive-oil]",
+    "Whisk ½ tsp mustard powder into the dressing: a raw myrosinase source added after cooking lifts the roasted cauliflower from +3 to +5 (nrf2 +2) [mustard-seed-myrosinase]",
+    "Use a whole red onion (¼ per serving): nrf2 +1 [garlic-alliums]",
+    "Serve over cooked quinoa or farro, or with whole-wheat pita, for a fuller dinner: whole grain plus ≥2 produce servings is a second profertility component (egg +1) [whole-grains] [profertility-diet]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: sesame (tahini)."
+   ]
+  },
+  {
+   "id": "ratatouille",
+   "title": "Ratatouille",
+   "summary": "Skillet ratatouille of skin-on eggplant, zucchini, peppers and tomatoes in 1½ tbsp extra-virgin olive oil per serving with basil and thyme; it tops the plant-polyphenol score but has little protein and no crucifers.",
+   "source": {
+    "title": "Ratatouille Recipe",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/ratatouille-recipe/",
+    "rating": 4.93,
+    "rating_count": 107,
+    "checked": "2026-10-11",
+    "note": "Chosen over Once Upon a Chef's ratatouille (4.92/254) because that one serves 8 side-dish portions (153 kcal); this one serves 4 dinner portions."
+   },
+   "changes": "Metric units added; steps reworded. The basil garnish is folded into the listed basil.",
+   "complexity": "medium",
+   "active_min": 45,
+   "total_min": 80,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 275,
+    "fiber_g": 7,
+    "added_sugar_g": 0.3,
+    "sat_fat_g": 3,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 85,
+    "choline_mg": 35,
+    "iron_mg": 1.3,
+    "zinc_mg": 0.8,
+    "selenium_ug": 1,
+    "b12_ug": 0,
+    "vit_c_mg": 55,
+    "fruit_veg_servings": 5.0
+   },
+   "scores": {
+    "plants": {
+     "score": 9,
+     "why": "Per serving (4): eggplant 113 g, zucchini 113 g, tomatoes 113 g, bell pepper ≈30 g, onion ≈28 g = ≈397 g = 5.0 servings (+5). EVOO 6 tbsp ÷ 4 = 1½ tbsp per serving (+1); fresh basil 1 tbsp plus thyme ½ tsp per serving (+1); eggplant ≈113 g cooked with its purple skin (anthocyanin, +1). The tomato is fresh tomato cooked down, under ½ cup per serving (0). Plant families: nightshade, gourd, allium, mint, olive = 5 (+1). Total 5+3+1 = 9 [high-fruit-vegetable-intake] [extra-virgin-olive-oil] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; no crucifers (0); ¼ onion per serving (+1); garlic ¾ clove per serving is under 1 (0); no turmeric (0). Total 1+1 = 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 2; EVOO is the only fat at 1½ tbsp per serving (+2). Saturated fat ≈3 g. Total 2+2 = 4 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈7 g (recipe panel; FDC: eggplant 3.4, tomato 1.4, zucchini 1.1, pepper 0.6, onion 0.5) (+3); no starch (+2); a pinch of sugar, ≈0 g per serving (+2); EVOO and vinegar with the vegetables (+1). Total 3+2+2+1 = 8 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Vegetables softened over medium (not medium-high) heat in EVOO without a browning step, then stewed together 10–15 min (10) [high-temperature-cooking] [cooking-oil-choice]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; ≈5 produce servings (+1). Fresh tomato ≈113 g per serving is under 1 cup and is not a ½-cup cooked tomato product (0); folate ≈85 µg (0); zinc ≈0.8 mg and selenium ≈1 µg (0). Total 1+1 = 2 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate ≈85 µg (+1): zucchini ≈24, eggplant ≈22, tomato ≈17, pepper ≈14, onion and herbs ≈8; iron ≈1.3 mg (0); choline ≈35 mg (0); no iodine source (0); produce is the only profertility component (0). Total 1+1 = 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 medium-large eggplant (1 lb / 450 g), cut into ½-inch (1.3 cm) pieces",
+      "Sea salt",
+      "6 tablespoons (90 mL) extra-virgin olive oil, plus more as needed",
+      "2 medium zucchini or yellow squash (1 lb / 450 g), cut into ½-inch (1.3 cm) pieces",
+      "1 medium yellow onion, chopped",
+      "1 red or yellow bell pepper, stemmed, seeded and cut into ½-inch (1.3 cm) pieces",
+      "3 garlic cloves, chopped",
+      "1 lb (450 g) tomatoes on the vine (3 to 5), cut into ½-inch (1.3 cm) pieces",
+      "Pinch red pepper flakes",
+      "Pinch cane sugar",
+      "1 tablespoon (15 mL) white wine vinegar",
+      "2 teaspoons chopped fresh thyme leaves",
+      "Freshly ground black pepper",
+      "¼ cup thinly sliced fresh basil leaves, plus more torn basil to serve"
+     ]
+    }
+   ],
+   "steps": [
+    "Toss the eggplant with ½ tsp salt in a colander and leave it to drain for 20 minutes, then pat it dry.",
+    "Warm 3 Tbsp of the oil in a large skillet over medium heat. Cook the eggplant 10–15 minutes, stirring now and then, until tender, then move it to a large bowl.",
+    "Add 1 Tbsp oil and the zucchini to the pan and cook 3–5 minutes, until just tender. Season with ¼ tsp salt and add it to the eggplant.",
+    "Add another 1 Tbsp oil, the onion and the bell pepper and cook 5 minutes. Stir in the garlic and ¼ tsp salt and cook about 10 minutes more, until very soft, adding a little oil if the pan gets dry.",
+    "Stir in the last 1 Tbsp oil, then the tomatoes, pepper flakes and sugar. Cook 8–10 minutes, until the tomatoes collapse.",
+    "Return the eggplant and zucchini with the vinegar, thyme, ¼ tsp salt and some pepper. Cook 10–15 minutes, stirring occasionally, until thick, then stir in the basil, adjust the seasoning and serve."
+   ],
+   "boosts": [
+    "Add 2 Tbsp tomato paste or a 14-oz (400 g) can of crushed tomatoes so each serving gets ≥½ cup cooked tomato: sperm +2 (plants is already near the cap) [tomatoes-lycopene]",
+    "Use 4 or 5 garlic cloves (≥1 per serving, with the ¼ onion): nrf2 +1 [garlic-alliums]",
+    "Serve with a big rocket (arugula) salad, about 2 cups (40 g) per person: raw crucifer 40–79 g gives nrf2 +2 [cruciferous-other]",
+    "Spoon it over farro or bulgur, or stir in a can of white beans, for protein and staying power: a whole grain adds a second profertility component (egg +1) [whole-grains] [legumes]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: none."
+   ]
+  },
+  {
+   "id": "ribollita-tuscan-kale-bean-soup",
+   "title": "Ribollita (Tuscan kale and white bean soup)",
+   "summary": "Tuscan bread soup of kale, cannellini beans, tomatoes and vegetables thickened with toasted ciabatta; it scores well for produce, lycopene and fibre, while the white bread and modest kale per bowl hold back glycemic and Nrf2.",
+   "source": {
+    "title": "Ribollita Recipe",
+    "author": "Suzy Karadsheh",
+    "site": "The Mediterranean Dish",
+    "url": "https://www.themediterraneandish.com/ribollita/",
+    "rating": 4.95,
+    "rating_count": 195,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded. The original yields '6 people (up to)'; scored for 6. The original gives no bread weight; a ≈400 g ciabatta loaf is assumed for nutrients. The 1 lb of kale is taken as the weight before stripping the stems (≈340 g of leaves).",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 60,
+   "servings": 6,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 440,
+    "fiber_g": 10.4,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.8,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 110,
+    "choline_mg": 40,
+    "iron_mg": 5.5,
+    "zinc_mg": 1.9,
+    "selenium_ug": 21,
+    "b12_ug": 0,
+    "vit_c_mg": 38,
+    "fruit_veg_servings": 4.15
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Per serving (6): canned tomatoes ≈132 g, kale ≈57 g, carrots ≈25 g, red onion ≈25 g, celery ≈13 g = ≈252 g = 3.15 servings, plus cannellini ≈80 g = 1 pulse serving; total ≈4.15 (+5). Canned tomato ≈132 g per serving, over ½ cup (+1). Kale ≈57 g raw cooks down to under ½ cup (0); measured EVOO is 3 tbsp ÷ 6 = 1½ tsp per serving, and the drizzles aren't measured (0); dried oregano ⅙ tsp per serving plus thyme sprigs is under 1 tsp (0); red onion ≈25 g per serving is too little to count (0). Plant families: allium, carrot family, nightshade, legume, crucifer, wheat, mint = 7 (+1). Total 5+1+1 = 7 [high-fruit-vegetable-intake] [tomatoes-lycopene]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; kale ≈57 g per serving, simmered: +3 halved = 1.5, rounded down to +1; garlic 6 cloves ÷ 6 = 1 clove per serving (+1); onion ⅙ per serving is under ¼ (0). Total 1+1+1 = 3 [cruciferous-other] [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at 1½ tsp per serving measured (≥1 tsp, +1). Saturated fat ≈1.8 g. Total 2+1 = 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈10.4 g from FDC: beans 3.9, kale 2.3, ciabatta (≈67 g) 1.6, tomatoes 1.3, carrot, onion and celery 1.3 (+4). The recipe panel shows 6.1 g, which looks too low for 80 g beans per bowl. Main starch is white ciabatta (0); no added sugar (+2); bean protein and EVOO with the bread (+1). Total 4+0+2+1 = 7 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 9,
+     "why": "Soup simmered (10); bread toasted until golden at 400 °F / 200 °C, treated like a roast at ≤ 220 °C (8). Midpoint 9 [high-temperature-cooking] [acrylamide]"
+    },
+    "sperm": {
+     "score": 5,
+     "why": "Base 1; canned tomato ≈132 g, over ½ cup cooked (+2); folate ≈110 µg (+1); ≈4.15 produce servings (+1). Zinc ≈1.9 mg and selenium ≈21 µg are under the thresholds (0); the wine simmers about 25 minutes, so it counts as cooked off (no penalty). Total 1+2+1+1 = 5 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈110 µg (+2): beans ≈45, kale ≈30, natural folate in the bread ≈15, tomatoes ≈11, other vegetables ≈10; plant iron ≈5.5 mg (beans 2.3, ciabatta ≈1.5, kale 0.9, tomatoes 0.8) with vitamin C ≈38 mg (+1); choline ≈40 mg (0); the Parmesan rind is removed and the grated cheese is optional, so no iodine source (0); profertility: produce only, since the bread is refined (0); wine cooked off (no penalty). Total 1+2+1 = 4 [folic-acid] [iron-egg]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 loaf ciabatta bread",
+      "Extra-virgin olive oil: 3 tablespoons (45 mL) for the pot, plus more for the bread and for drizzling",
+      "1 large red onion, chopped",
+      "2 celery stalks, chopped",
+      "2 to 3 carrots, peeled and chopped",
+      "Kosher salt",
+      "6 garlic cloves, finely chopped",
+      "28 oz (800 g) canned whole San Marzano tomatoes (or any whole canned tomatoes)",
+      "1 cup (240 mL) dry white wine",
+      "4 cups (950 mL) vegetable broth",
+      "2 (15-oz / 425 g) cans cannellini beans, drained and well rinsed",
+      "1-inch (2.5 cm) Parmesan rind",
+      "2 thyme sprigs",
+      "1 bay leaf",
+      "1 tsp dried oregano",
+      "½ tsp crushed red pepper flakes (optional)",
+      "1 lb (450 g) kale, thick stems and veins removed, chopped",
+      "Grated Parmesan cheese (optional)"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 400 °F (200 °C). Tear the bread into large chunks, toss them with a drizzle of olive oil on a sheet pan, spread them out, and bake about 10 minutes, until lightly golden.",
+    "Heat 3 Tbsp oil in a large pot over medium-high until shimmering. Add the onion, celery, carrots and a pinch of salt, turn the heat to medium, and cook, stirring often, until soft. Add the garlic for 30–60 seconds without letting it brown.",
+    "Pour in the tomatoes, wine and broth and cook a few minutes over medium heat, breaking up the tomatoes with a spoon.",
+    "In a food processor, purée about ½ cup (120 mL) of the tomato broth with 1 cup of the beans.",
+    "Add the Parmesan rind, thyme, bay leaf, oregano, pepper flakes and a pinch of salt to the pot and simmer over medium heat for about 20 minutes.",
+    "Stir in the whole beans, the bean purée and the kale, pushing the kale under the liquid. After a few minutes add half the toasted bread and simmer until the kale is tender and the bread has softened into the soup.",
+    "Take the pot off the heat and remove the rind, bay leaf and thyme stems. Serve topped with the remaining bread, a drizzle of olive oil and Parmesan if you like."
+   ],
+   "boosts": [
+    "Use a whole-grain country loaf instead of ciabatta: the main starch becomes whole grain (glycemic +2) and whole grain plus ≥2 produce servings adds a profertility component (egg +1) [whole-grains] [profertility-diet]",
+    "Measure the finishing oil: 2 tsp extra-virgin olive oil on each bowl (1 tbsp+ per serving in all): plants +1, fats +1 [extra-virgin-olive-oil]",
+    "Use 1½ lb (680 g) kale so each bowl gets ≥80 g of leaves: nrf2 +2; stirring ¼ tsp mustard powder into each bowl at the table adds +2 more [cruciferous-other] [mustard-seed-myrosinase]",
+    "Replace the wine with more broth if you want no alcohol at all [alcohol]"
+   ],
+   "watch_outs": [
+    "Pregnancy: the wine simmers about 25 minutes, which removes most but not all of the alcohol; swap in broth to avoid it entirely. Parmesan is a hard cheese and fine in pregnancy.",
+    "Allergens: gluten (ciabatta), dairy (Parmesan)."
+   ]
+  },
+  {
+   "id": "cabbage-soup-turmeric-ginger",
+   "title": "Cabbage soup with turmeric, ginger and lemon",
+   "summary": "A brothy Mediterranean cabbage and tomato soup spiced with turmeric, cumin and coriander and finished with raw parsley, ginger and lemon; it is rich in crucifers, produce and lycopene but light (about 130 kcal), so it needs bread or beans to be a full dinner.",
+   "source": {
+    "title": "Cabbage Soup",
+    "author": "Suzy Karadsheh",
+    "site": "The Mediterranean Dish",
+    "url": "https://www.themediterraneandish.com/cabbage-soup/",
+    "rating": 4.87,
+    "rating_count": 171,
+    "checked": "2026-10-11",
+    "note": "Swapped in for the Brussels sprouts dinner: no Brussels sprouts grain bowl or pasta with ≥4.5 stars from ≥100 ratings was found (best: Gimme Some Oven 4.89/27, The Healthy Maven 4.6/5)."
+   },
+   "changes": "Metric units added; steps reworded. The cabbage weight (a medium head, about 900 g before coring) is our estimate.",
+   "complexity": "medium",
+   "active_min": 20,
+   "total_min": 40,
+   "servings": 6,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 131,
+    "fiber_g": 7.2,
+    "added_sugar_g": 0,
+    "sat_fat_g": 0.8,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 85,
+    "choline_mg": 30,
+    "iron_mg": 2.6,
+    "zinc_mg": 0.7,
+    "selenium_ug": 1,
+    "b12_ug": 0,
+    "vit_c_mg": 55,
+    "fruit_veg_servings": 4.2
+   },
+   "scores": {
+    "plants": {
+     "score": 8,
+     "why": "Per serving (6): green cabbage ≈137 g (≈820 g cored), canned tomatoes ≈132 g, carrots ≈20 g, onion ≈18 g, celery ≈13 g, parsley ≈10 g, green onions ≈8 g = ≈338 g = 4.2 servings (+5). Fresh parsley ≈2½ tbsp plus ½ tsp ground spices per serving (+1); canned tomato ≈132 g, over ½ cup (+1). EVOO is 1 tsp per serving (0). Plant families: crucifer, allium, carrot family, nightshade, ginger, citrus, olive = 7 (+1). Total 5+2+1 = 8 [high-fruit-vegetable-intake] [herbs-spices] [tomatoes-lycopene]"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1; cabbage ≈137 g per serving, simmered 25–30 min (+3); garlic ½ clove, ⅙ onion and ½ green onion per serving are under the allium thresholds (0); turmeric ½ tsp ÷ 6 ≈ 1/12 tsp per serving is under ½ tsp (0). Total 1+3 = 4 [cruciferous-other]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at 2 tbsp ÷ 6 = 1 tsp per serving (+1). Saturated fat ≈0.8 g. Total 2+1 = 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈7 g (recipe panel 7.2 g; FDC: cabbage 3.4, tomatoes 1.3, other vegetables 1.6, spices 0.3) (+3); no starch (+2); no added sugar (+2); protein ≈4 g and fat ≈5 g per bowl are not a meaningful pairing (0). Total 3+2+2 = 7 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Aromatics and cabbage softened, then simmered (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 4,
+     "why": "Base 1; canned tomato ≈132 g, over ½ cup cooked (+2); ≈4.2 produce servings (+1). Folate ≈85 µg (0); zinc ≈0.7 mg and selenium ≈1 µg (0). Total 1+2+1 = 4 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate ≈85 µg (+1): cabbage ≈45 after simmering, parsley ≈15, tomatoes ≈11, other vegetables ≈14; iron ≈2.6 mg (0); choline ≈30 mg (0); no iodine source (0); produce only (0). Total 1+1 = 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tablespoons (30 mL) extra-virgin olive oil",
+      "1 medium yellow onion, chopped",
+      "3 garlic cloves, minced",
+      "1 medium head green cabbage (about 2 lb / 900 g), cored and chopped",
+      "2 celery sticks, chopped",
+      "2 carrots, sliced into thin rounds",
+      "Kosher salt",
+      "Black pepper",
+      "½ teaspoon ground turmeric",
+      "1 teaspoon ground cumin",
+      "1 teaspoon ground coriander",
+      "½ to 1 teaspoon Aleppo pepper (or red pepper flakes)",
+      "1 (28-oz / 800 g) can diced tomatoes",
+      "3 cups (720 mL) low-sodium vegetable broth",
+      "1 cup chopped parsley leaves (from about 1 bunch)",
+      "3 green onions, trimmed and sliced",
+      "1-inch (2.5 cm) piece fresh ginger, peeled and finely grated",
+      "1 large lemon, zested and juiced"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oil in a large lidded pot until shimmering. Add the onion and garlic and cook, stirring, until fragrant, lowering the heat if the garlic starts to darken.",
+    "Add the cabbage, celery, carrots and about ½–¾ tsp each of salt and pepper. Cook 5–7 minutes, partly covered, stirring now and then, until the cabbage wilts.",
+    "Sprinkle in the turmeric, cumin, coriander and Aleppo pepper and toss until the vegetables are coated.",
+    "Add the tomatoes with their juice and the broth. Boil for about 5 minutes, then turn to medium-low, set the lid slightly ajar, and simmer 20–25 minutes, until the vegetables are tender.",
+    "Turn off the heat and stir in the parsley, green onions, ginger, lemon zest and lemon juice. Serve."
+   ],
+   "boosts": [
+    "Top each bowl with a handful of raw shredded cabbage or sliced radish, or stir in ½ tsp mustard powder at the table: a raw myrosinase source lifts the cooked cabbage from +3 to +5 (nrf2 +2) [mustard-seed-myrosinase] [cruciferous-other]",
+    "Use 3 tsp turmeric (½ tsp per serving); the black pepper is already in: nrf2 +1 [turmeric-curcumin]",
+    "Add a drained can of chickpeas or white beans with the tomatoes to make it a fuller dinner: bean protein gives a meaningful pairing (glycemic +1) and folate rises past 100 µg (sperm +1, egg +1) [legumes]",
+    "Finish each bowl with 2 tsp extra-virgin olive oil (1 tbsp per serving in all): plants +1, fats +1 [extra-virgin-olive-oil]",
+    "Serve with whole-grain bread: whole grain plus ≥2 produce servings adds a profertility component (egg +1) [whole-grains] [profertility-diet]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: none (check the broth label)."
+   ]
+  },
+  {
+   "id": "orecchiette-broccoli-sauce",
+   "title": "Orecchiette with melted broccoli sauce",
+   "summary": "Orecchiette in a sauce of broccoli cooked down with garlic, shallot, lemon and pecorino; it gives a solid crucifer and garlic dose, but plain olive oil, white pasta and modest produce keep the other scores average.",
+   "source": {
+    "title": "Orecchiette Pasta Recipe",
+    "author": "Sylvia Fountaine",
+    "site": "Feasting at Home",
+    "url": "https://www.feastingathome.com/orecchiette-pasta-with-broccoli-sauce/",
+    "rating": 4.8,
+    "rating_count": 132,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded. The optional garnishes (extra pecorino, basil, pine nuts, breadcrumbs, capers, olives, truffle oil) are dropped. Scored with the anchovy paste; miso is the original's swap.",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 30,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian"
+   ],
+   "nutrients": {
+    "kcal": 375,
+    "fiber_g": 4.5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 2.4,
+    "epa_dha_mg": 15,
+    "folate_ug_dfe": 65,
+    "choline_mg": 35,
+    "iron_mg": 1.5,
+    "zinc_mg": 1.3,
+    "selenium_ug": 36,
+    "b12_ug": 0.1,
+    "vit_c_mg": 40,
+    "fruit_veg_servings": 1.3
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Per serving (4): broccoli 85 g, shallot ≈12 g, spinach ≈4 g = ≈101 g = 1.3 servings (+2). Chilli flakes and lemon zest are under 1 tsp (0); the oil is plain olive oil, not extra-virgin (0); a handful of spinach is under 1 cup raw per serving (0). Plant families: crucifer, allium, wheat, nightshade, amaranth (spinach), citrus, olive = 7 (+1). Total 2+1 = 3 [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 5,
+     "why": "Base 1; broccoli 12 oz ÷ 4 = 85 g per serving, steamed until very soft and then simmered ≈10 min (+3); garlic 6 cloves ÷ 4 = 1½ cloves per serving (+1); the shallot is under ¼ onion (0). Total 1+3+1 = 5 [broccoli-mature] [garlic-alliums]"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2; plain olive oil, not extra-virgin (0); 1 tsp anchovy paste gives ≈15 mg EPA+DHA per serving (0); no nuts (0). Saturated fat ≈2.4 g. Total 2 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 5,
+     "why": "Fibre ≈4.5 g: broccoli 2.2, pasta (57 g dry) 1.8, shallot 0.4 (+2); the recipe panel's 7.5 g assumes extra cheese and looks high. White pasta is refined (0); no added sugar (+2); olive oil and pecorino with the pasta (+1). Total 2+0+2+1 = 5 [whole-grains] [glycemic-control]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Broccoli steamed and simmered, pasta boiled; the shallot and garlic soften over medium heat for 3 minutes as the first step (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; selenium ≈36 µg from 57 g dry pasta (+1). Zinc ≈1.3 mg (0); folate ≈65 µg (0); ≈1.3 produce servings (0). Total 1+1 = 2 [selenium-supplement]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1; natural folate ≈65 µg (+1): broccoli ≈45 after cooking, pasta ≈10, spinach ≈8 (folic acid in enriched pasta not counted); iron ≈1.5 mg natural (0); choline ≈35 mg (0); pecorino (dairy) and anchovy (seafood) are named iodine sources (+1); B12 ≈0.1 µg (0); profertility: 6 g of pecorino per serving is too little to count as a dairy component (0). Total 1+1+1 = 3 [folic-acid] [iodine-status]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "12 ounces (340 g) broccoli florets, broken into small, even florets (about 6 cups packed)",
+      "8 ounces (225 g) short pasta: orecchiette, penne, rigatoni or similar",
+      "3 tablespoons (45 mL) olive oil",
+      "1 fat shallot, diced (or half a white or yellow onion)",
+      "6 garlic cloves, roughly chopped",
+      "Generous pinch chili flakes (Aleppo or Urfa biber are good here)",
+      "Generous pinch salt and pepper, more to taste",
+      "1 teaspoon anchovy paste (or white miso paste)",
+      "2 cups (480 mL) veggie broth or chicken broth",
+      "1–2 teaspoons lemon zest",
+      "¼ cup (25 g) freshly grated pecorino cheese",
+      "Small handful baby spinach (or arugula), chopped"
+     ]
+    }
+   ],
+   "steps": [
+    "Steam the broccoli florets until very soft and easily pierced with a fork, then chop them.",
+    "Boil the pasta in 8 cups (2 L) water with 1 Tbsp salt. Scoop out 1 cup (240 mL) of the cooking water before draining.",
+    "In a large pan over medium heat, cook the shallot, garlic and chili flakes in the oil for about 3 minutes, until fragrant and golden. Stir in the anchovy paste (or miso), then add the broccoli, salt, pepper and broth.",
+    "Bring to a gentle simmer and break the broccoli into tiny pieces with a spatula, adding liquid as needed, until it melts into a sauce.",
+    "Stir in the lemon zest and pecorino and simmer gently about 10 minutes, until the liquid is reduced by about half and the sauce is thick.",
+    "Add the spinach and blend until smooth with an immersion blender (or in a regular blender).",
+    "Toss the pasta in the sauce, loosening it with the saved pasta water. Adjust the salt, pepper and chili, and serve."
+   ],
+   "boosts": [
+    "Use whole-wheat orecchiette or penne: the starch becomes whole grain (glycemic +2) and fibre rises past 5 g (glycemic +1) [whole-grains]",
+    "Use extra-virgin olive oil (¾ tbsp per serving as written: fats +1), or 4 tbsp in all (1 tbsp per serving: plants +1, fats +2) [extra-virgin-olive-oil]",
+    "Stir ½ tsp mustard powder into the finished sauce, or steam a third of the broccoli for just 3–4 minutes and fold it in whole at the end: nrf2 +2 [mustard-seed-myrosinase] [broccoli-mature]",
+    "Use 1½ lb (680 g) broccoli: about 2 produce servings per bowl (plants +1, sperm +1) [high-fruit-vegetable-intake]",
+    "Top each bowl with 2 Tbsp toasted pine nuts or chopped walnuts (≈15 g): fats +1 [walnuts-nuts]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list; pecorino is a hard cheese and fine in pregnancy.",
+    "Allergens: gluten, dairy (pecorino), fish (anchovy paste; soy if you use miso instead)."
+   ]
+  },
+  {
+   "id": "sweet-potato-black-bean-tacos",
+   "title": "Sweet potato and black bean tacos",
+   "summary": "Corn tortillas filled with roasted sweet potatoes, cumin-mashed black beans and an avocado, cilantro and pepita dip; very high in fibre and produce with good zinc and folate, but no crucifers, since the original has no red cabbage.",
+   "source": {
+    "title": "Sweet Potato and Black Bean Tacos",
+    "author": "Kathryne Taylor",
+    "site": "Cookie and Kate",
+    "url": "https://cookieandkate.com/sweet-potato-black-bean-tacos/",
+    "rating": 4.9,
+    "rating_count": 116,
+    "checked": "2026-10-11",
+    "note": "The original has no red cabbage; a raw red-cabbage slaw is suggested in boosts."
+   },
+   "changes": "Metric units added; steps reworded. Suggested garnishes (pickled jalapeños, radishes or onions, hot sauce) are dropped. The feta has no amount in the original and is not counted in the nutrients.",
+   "complexity": "involved",
+   "active_min": 40,
+   "total_min": 60,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "gluten-free"
+   ],
+   "nutrients": {
+    "kcal": 726,
+    "fiber_g": 24,
+    "added_sugar_g": 0,
+    "sat_fat_g": 4.8,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 165,
+    "choline_mg": 90,
+    "iron_mg": 7,
+    "zinc_mg": 3.8,
+    "selenium_ug": 8,
+    "b12_ug": 0,
+    "vit_c_mg": 50,
+    "fruit_veg_servings": 4.8
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Per serving (4): sweet potato ≈200 g (2 lb peeled ≈800 g), avocado ≈68 g, onion ≈18 g, lime juice ≈8 g, cilantro ≈6 g, jalapeño ≈4 g = ≈304 g = 3.8 servings, plus black beans ≈129 g = 1 pulse serving; total ≈4.8 (+5). Fresh cilantro ≈¼ cup per serving plus cumin and chilli (+1). No extra-virgin olive oil (the oil is plain olive oil), no tomato, leafy greens or red cabbage (0). Plant families: morning glory (sweet potato), legume, laurel (avocado), gourd (pepitas), maize, carrot family, allium, nightshade = 8 (+1). Total 5+1+1 = 7 [high-fruit-vegetable-intake] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; no crucifers (0); ¼ of the onion per serving (+1); garlic ½ clove per serving is under 1 (0). Total 1+1 = 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; plain olive oil, not extra-virgin (0); pepitas ½ cup ≈64 g ÷ 4 = 16 g per serving (+1). Saturated fat ≈4.8 g (recipe panel). Total 2+1 = 3 [walnuts-nuts] [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 10,
+     "why": "Fibre ≈24 g (recipe panel; FDC: beans ≈9, sweet potato 6.6, avocado 4.6, tortillas 3.7, pepitas 1) (+5); corn tortillas and beans (+2); no added sugar (+2); bean protein, avocado and pepitas (+1). Total 5+2+2+1 = 10 [legumes] [whole-grains] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 7,
+     "why": "Sweet potatoes roasted at 425 °F / 220 °C (8), but they are starchy and roasted until caramelised at the edges (−1); the beans are simmered, which is gentler. Total 8−1 = 7 [acrylamide] [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 4,
+     "why": "Base 1; zinc ≈3.8 mg (pepitas 1.25, beans 0.85, sweet potato 0.65, tortillas 0.6, avocado 0.45) (+1); folate ≈165 µg (+1); ≈4.8 produce servings (+1). Pepitas 16 g are not ≥30 g of nuts (0); selenium ≈8 µg (0). Total 1+1+1+1 = 4 [zinc-status] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 6,
+     "why": "Base 1; folate ≈165 µg (+2): canned beans ≈77, avocado ≈55, sweet potato ≈12, pepitas ≈9, others ≈12; plant iron ≈7 mg (beans 2.5, sweet potato 1.4, pepitas 1.3, tortillas 0.8, cumin 0.7) with vitamin C ≈50 mg (+1); choline ≈90 mg (0); feta is named in the recipe, a dairy iodine source (+1); B12 ≈0 (0); profertility: whole grain (corn tortillas) + ≥2 produce servings (+1). Total 1+2+1+1+1 = 6 [folic-acid] [iron-egg] [profertility-diet]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Roasted sweet potatoes",
+     "items": [
+      "2 pounds (900 g) sweet potatoes (3 to 4 medium), peeled and cut into 1-inch (2.5 cm) chunks",
+      "2 tablespoons (30 mL) olive oil",
+      "¼ teaspoon cayenne pepper (omit if sensitive to spice)",
+      "¼ teaspoon fine salt"
+     ]
+    },
+    {
+     "group": "Black beans",
+     "items": [
+      "1 tablespoon (15 mL) olive oil",
+      "1 small yellow or white onion, finely chopped",
+      "Fine salt",
+      "2 teaspoons ground cumin",
+      "¼ teaspoon chili powder",
+      "2 cans black beans, rinsed and drained (or 3 cups / 515 g cooked black beans)",
+      "⅓ cup (80 mL) water",
+      "1 teaspoon sherry vinegar or lime juice",
+      "Freshly ground black pepper, to taste"
+     ]
+    },
+    {
+     "group": "Avocado-pepita dip",
+     "items": [
+      "2 avocados, pitted",
+      "1 cup lightly packed fresh cilantro (mostly leaves)",
+      "½ cup (64 g) pepitas",
+      "1 small jalapeño, seeded and roughly chopped, or ¼ teaspoon red pepper flakes",
+      "2 cloves garlic, roughly chopped",
+      "2 tablespoons (30 mL) lime juice (about 1 medium lime) or 1 tablespoon sherry vinegar",
+      "2 tablespoons (30 mL) water",
+      "½ teaspoon fine salt",
+      "Freshly ground black pepper, to taste"
+     ]
+    },
+    {
+     "group": "To serve",
+     "items": [
+      "8 to 10 small corn tortillas",
+      "Crumbled feta"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 425 °F (220 °C) and line a large rimmed baking sheet with parchment. Toss the sweet potatoes with the oil, cayenne and salt, spread them in one layer, and roast 30–40 minutes, turning halfway, until tender and browned at the edges.",
+    "Warm the oil in a large saucepan over medium heat and cook the onion with a pinch of salt for 5–8 minutes, until soft and translucent. Stir in the cumin and chili powder for 30 seconds.",
+    "Add the beans and water, cover, and simmer gently for 5 minutes. Uncover, mash at least half the beans, then take the pan off the heat and stir in the vinegar, salt and pepper. Keep covered.",
+    "Toast the pepitas in a dry skillet over medium heat for about 5 minutes, stirring, until fragrant and starting to pop.",
+    "Blend the avocado, cilantro, jalapeño, garlic, lime juice, water and salt until smooth. Add most of the pepitas, keeping a couple of tablespoons for topping, and pulse just until chopped.",
+    "Warm the tortillas in a hot skillet or over a low gas flame, flipping once, and keep them wrapped in a towel.",
+    "Spread beans on each tortilla, add sweet potatoes and a spoonful of dip, and finish with feta and the reserved pepitas."
+   ],
+   "boosts": [
+    "Top with a raw red-cabbage slaw, about 1 cup (90 g) shredded per person tossed with lime juice and salt: raw crucifer ≥80 g gives nrf2 +5, and red cabbage is an anthocyanin item (plants +1) [cruciferous-other]",
+    "Roast in extra-virgin olive oil (¾ tbsp per serving in all): fats +1 [extra-virgin-olive-oil]",
+    "Roast the sweet potatoes just until tender, not caramelised: cooking 7 → 8 [acrylamide]",
+    "Add 2 more garlic cloves to the beans (1 clove per serving with the ¼ onion): nrf2 +1 [garlic-alliums]"
+   ],
+   "watch_outs": [
+    "Pregnancy: use feta made from pasteurised milk.",
+    "Allergens: dairy (feta). Pepitas are seeds, not tree nuts. Corn tortillas are gluten-free, but check the label."
+   ]
+  },
+  {
+   "id": "greek-eggplant-chickpea-stew",
+   "title": "Greek-style eggplant and chickpea stew",
+   "summary": "Skin-on eggplant braised with chickpeas, tomatoes, garlic and warm spices in extra-virgin olive oil; it scores at the top for fibre and blood sugar and high for produce and lycopene, with Nrf2 limited to garlic.",
+   "source": {
+    "title": "Easy Greek-Style Eggplant Stew",
+    "author": "Suzy Karadsheh",
+    "site": "The Mediterranean Dish",
+    "url": "https://www.themediterraneandish.com/braised-eggplant-recipe-greek-style/",
+    "rating": 4.92,
+    "rating_count": 334,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded. The finishing EVOO drizzle and the parsley or mint garnish have no amounts in the original and are not counted.",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 80,
+   "servings": 6,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 280,
+    "fiber_g": 12.6,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.6,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 95,
+    "choline_mg": 50,
+    "iron_mg": 3.5,
+    "zinc_mg": 1.4,
+    "selenium_ug": 2,
+    "b12_ug": 0,
+    "vit_c_mg": 25,
+    "fruit_veg_servings": 4.75
+   },
+   "scores": {
+    "plants": {
+     "score": 8,
+     "why": "Per serving (6): eggplant ≈113 g, canned tomatoes ≈132 g, onion ≈25 g, green pepper ≈20 g, carrot ≈10 g = ≈300 g = 3.75 servings, plus chickpeas ≈84 g = 1 pulse serving; total ≈4.75 (+5). Canned tomato ≈132 g, over ½ cup (+1); eggplant cooked with its purple skin (+1). Measured EVOO is ¼ cup ÷ 6 = 2 tsp per serving and the finishing drizzle isn't measured (0); dried spices ≈4¾ tsp ÷ 6 ≈ 0.8 tsp per serving (0); parsley or mint is garnish only (0). Plant families: nightshade, allium, carrot family, legume, mint (oregano), laurel (bay, cinnamon), ginger (turmeric), olive = 8 (+1). Total 5+2+1 = 8 [high-fruit-vegetable-intake] [tomatoes-lycopene]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; no crucifers (0); garlic 6 large cloves ÷ 6 = 1 per serving (+1); onion ⅙ per serving is under ¼ (0); turmeric ½ tsp ÷ 6 ≈ 1/12 tsp per serving is under ½ tsp (0). Total 1+1 = 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at 2 tsp per serving measured (+1). Saturated fat ≈1.6 g. Total 2+1 = 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 10,
+     "why": "Fibre ≈12.6 g (recipe panel; FDC agrees, ≈12.5 g: chickpeas 6.4, eggplant 3.4, tomatoes 1.3, other vegetables and spices 1.4) (+5); chickpeas are the starch (+2); no added sugar (+2); chickpea protein and EVOO (+1). Total 5+2+2+1 = 10 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Vegetables softened 2–3 min, then boiled briefly and braised, covered, in the oven for 45 min (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 4,
+     "why": "Base 1; canned tomato ≈132 g, over ½ cup cooked (+2); ≈4.75 produce servings (+1). Folate ≈95 µg is just under 100 (0); zinc ≈1.4 mg and selenium ≈2 µg (0). Total 1+2+1 = 4 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate ≈95 µg (+1): canned chickpeas ≈54, eggplant ≈20, tomatoes ≈11, others ≈10; iron ≈3.5 mg (chickpeas 1.5, tomatoes 1.0, other vegetables 0.6, spices 0.4) is under 4 (0); choline ≈50 mg (0); no iodine source (0); produce only (0). Total 1+1 = 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1½ pounds (680 g) eggplant, cut into cubes",
+      "Kosher salt",
+      "¼ cup (60 mL) extra-virgin olive oil, plus more for drizzling",
+      "1 large yellow onion, chopped",
+      "1 green bell pepper, stem and seeds removed, diced",
+      "1 carrot, chopped",
+      "6 large garlic cloves, minced",
+      "2 dry bay leaves",
+      "1 to 1½ teaspoons sweet paprika (or smoked paprika)",
+      "1 teaspoon ground coriander",
+      "1 teaspoon dried oregano",
+      "¾ teaspoon ground cinnamon",
+      "½ teaspoon ground turmeric",
+      "½ teaspoon black pepper",
+      "1 (28-oz / 800 g) can chopped tomatoes",
+      "2 (15-oz / 425 g) cans chickpeas (keep the canning liquid)",
+      "Fresh parsley or mint, to garnish"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 400 °F (200 °C). Salt the eggplant cubes in a colander and leave them for about 20 minutes, then rinse and pat them very dry.",
+    "In a large oven-safe braiser or Dutch oven, heat the ¼ cup oil over medium-high until shimmering. Cook the onion, green pepper and carrot for 2–3 minutes, stirring.",
+    "Add the garlic, bay leaves, paprika, coriander, oregano, cinnamon, turmeric, black pepper and a little salt, and stir for 1 minute until fragrant.",
+    "Add the eggplant, tomatoes, chickpeas and their liquid, and stir.",
+    "Bring to a rolling boil and cook about 10 minutes, stirring often.",
+    "Cover and bake about 45 minutes, until the eggplant is very tender. Check once or twice and add ½ cup (120 mL) water at a time if it looks dry.",
+    "Drizzle generously with olive oil, scatter with parsley or mint, and serve hot or at room temperature."
+   ],
+   "boosts": [
+    "Measure the finishing drizzle: 1 tbsp extra-virgin olive oil per bowl: plants +1, fats +1 [extra-virgin-olive-oil]",
+    "Stir 2 tbsp chopped parsley or mint into each serving rather than a sprinkle: herbs ≥1 tbsp fresh (plants +1) [herbs-spices]",
+    "Use 3 tsp turmeric (½ tsp per serving); the black pepper and oil are already in: nrf2 +1 [turmeric-curcumin]",
+    "Use 2 onions (⅓ per serving) so alliums count twice with the 1 clove of garlic: nrf2 +1 [garlic-alliums]",
+    "Serve over bulgur or with whole-wheat pita: whole grain plus ≥2 produce servings adds a profertility component (egg +1) [whole-grains] [profertility-diet]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: none."
+   ]
+  },
+  {
+   "id": "palak-paneer",
+   "title": "Palak paneer (spinach with paneer)",
+   "summary": "Paneer cubes in a spiced, blended spinach, onion and tomato gravy; it provides folate and dairy, but the paneer's saturated fat floors the fat score, and only 55 g of spinach per serving keeps plants modest.",
+   "source": {
+    "title": "Palak Paneer Recipe (Spinach Paneer)",
+    "author": "Swasthi Shreekanth",
+    "site": "Swasthi's Recipes (Indian Healthy Recipes)",
+    "url": "https://www.indianhealthyrecipes.com/palak-paneer-recipe-easy-paneer-recipes-step-by-step-pics/",
+    "rating": 4.99,
+    "rating_count": 1537,
+    "checked": "2026-10-11"
+   },
+   "changes": "Steps reworded and condensed. The original serves '2 to 3'; scored for 2, the lower number, per the scoring conventions. Spinach is taken as 110 g, the middle of the 100–120 g range. The original's notes on substitutes are left out.",
+   "complexity": "medium",
+   "active_min": 30,
+   "total_min": 45,
+   "servings": 2,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "gluten-free"
+   ],
+   "nutrients": {
+    "kcal": 350,
+    "fiber_g": 4,
+    "added_sugar_g": 0,
+    "sat_fat_g": 12,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 108,
+    "choline_mg": 30,
+    "iron_mg": 2.8,
+    "zinc_mg": 2.7,
+    "selenium_ug": 9,
+    "b12_ug": 0.5,
+    "vit_c_mg": 27,
+    "fruit_veg_servings": 1.9
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Per serving (2): spinach ≈55 g, onion 45 g, tomato ≈45 g, green chillies ≈7 g = ≈152 g = 1.9 servings (+2). Spinach ≈55 g raw wilts to well under ½ cup cooked (0); dried spices ≈0.6 tsp per serving (0); tomato ¼ cup per serving (0); the oil is unspecified (0). Plant families: amaranth (spinach), allium, nightshade, ginger, cashew, legume (fenugreek) = 6 (+1). Total 2+1 = 3 [high-fruit-vegetable-intake] [leafy-greens]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; no crucifers (0); onion ½ small per serving (+1); ¾ tsp ginger-garlic paste is well under 1 garlic clove per serving (0); no turmeric (0). Total 1+1 = 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 2; neutral oil plus butter (0); cashews ≈7 g per serving (0); saturated fat ≈12 g per serving (recipe panel; the paneer alone gives ≈10 g) is over 10 g (−2). Total 2−2 = 0, floored at 1 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈4 g (recipe panel) (+2); no starch in the dish (+2); no added sugar (+2); paneer protein and fat (+1). Total 2+2+2+1 = 7 [glycemic-control]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Spinach wilted 3–4 min; onions softened to light golden as the first step of the gravy, which then simmers (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; folate ≈108 µg (+1). Zinc ≈2.7 mg (paneer 2.0, cashews 0.4, spinach 0.3) is just under 3 (0); selenium ≈9 µg (0); 1.9 produce servings is under 2 (0). Total 1+1 = 2 [zinc-status]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈108 µg (+2): spinach ≈80 after wilting, onion and tomato ≈16, paneer ≈8, cashews and fenugreek ≈4; iron ≈2.8 mg (0); choline ≈30 mg (0); paneer is dairy, an iodine source (+1); B12 ≈0.5 µg (0); profertility: dairy only, produce under 2 servings (0). Total 1+2+1 = 4 [folic-acid] [iodine-status]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "150 g (1¼ cups) paneer",
+      "3½ to 4 cups (100 to 120 g) palak (spinach)",
+      "2 tablespoons (30 mL) oil (or half oil and half butter)",
+      "2 green chilies, deseeded (a less spicy kind)",
+      "¾ cup (90 g, 1 small) onion, finely chopped",
+      "½ cup (1 small) tomato, deseeded and chopped or puréed",
+      "¾ teaspoon ginger-garlic paste",
+      "½ teaspoon salt, or to taste",
+      "8 to 10 cashews",
+      "½ to ¾ teaspoon garam masala",
+      "½ teaspoon kasuri methi (dried fenugreek leaves), optional",
+      "¼ cup (60 mL) water, to blend the spinach",
+      "¾ cup (180 mL) water, to cook the gravy",
+      "3 tablespoons (45 mL) cream (optional)"
+     ]
+    },
+    {
+     "group": "Whole spices (optional)",
+     "items": [
+      "⅛ teaspoon cumin seeds",
+      "2 green cardamoms",
+      "1-inch (2.5 cm) piece cinnamon",
+      "2 cloves"
+     ]
+    }
+   ],
+   "steps": [
+    "Pick the tender spinach leaves and discard the thick stems (keep them if using baby spinach). Rinse well several times and let them drain completely.",
+    "Heat ½ Tbsp oil in a pan and cook the green chilies, cashews and spinach for 3–4 minutes, until the leaves are fully wilted. (Or blanch the spinach for 2 minutes in hot salted water and cool it in ice water.) Let it cool, then blend with ¼ cup water to a smooth, thick purée.",
+    "In the same pan, melt 1 Tbsp butter with ½ Tbsp oil. Add the whole spices, if using, and when they sizzle add the onions and cook until translucent to light golden.",
+    "Stir in the ginger-garlic paste for 1–2 minutes, then add the tomatoes and salt and cook until soft and mushy. Add the garam masala and cook about 2 minutes more.",
+    "Pour in ¾ cup water, cover, and cook until the onions are completely soft, with a little liquid left in the pan.",
+    "Turn the heat to low, add the kasuri methi and the spinach purée, and cook 2–3 minutes, just until it bubbles, thinning with a little hot water if needed.",
+    "Stir in the paneer and turn off the heat. Top with cream if you like, and serve with roti, naan or rice."
+   ],
+   "boosts": [
+    "Double the spinach to about 240 g: roughly ½ cup cooked per serving (plants +1) and ≥2 produce servings (plants +1, sperm +1), with folate near 190 µg [leafy-greens]",
+    "Swap the paneer for firm tofu or chickpeas (a classic saag variation): saturated fat drops well under 10 g (fats +2), and tofu adds a soy profertility component [soy]",
+    "Add ½ tsp turmeric per serving with the onions: nrf2 +1 [turmeric-curcumin]",
+    "Serve with whole-wheat roti: whole grain plus dairy is two profertility components (egg +1) [whole-grains] [profertility-diet]"
+   ],
+   "watch_outs": [
+    "Pregnancy: use paneer made from pasteurised milk (shop paneer usually is; homemade paneer from boiled milk is fine).",
+    "Allergens: dairy (paneer, butter, optional cream), tree nuts (cashews)."
+   ]
+  },
+  {
+   "id": "aloo-gobi",
+   "title": "Aloo gobi (cauliflower and potato curry)",
+   "summary": "A dry North Indian curry of cauliflower and potatoes with ginger, garlic, tomato and plenty of ground spices; it brings crucifers, alliums and herbs and spices, but it is a light, side-sized portion with little folate, so serve it with dal and roti.",
+   "source": {
+    "title": "Aloo Gobi Recipe (Cauliflower Potato Curry)",
+    "author": "Swasthi Shreekanth",
+    "site": "Swasthi's Recipes (Indian Healthy Recipes)",
+    "url": "https://www.indianhealthyrecipes.com/aloo-gobi/",
+    "rating": 5,
+    "rating_count": 632,
+    "checked": "2026-10-11",
+    "note": "Swapped in for the mushroom and lentil bolognese: no version had ≥4.5 stars from ≥100 ratings (Minimalist Baker 4.96/44, Budget Bytes 4.57/46, Allrecipes 4.6/30, BBC Good Food 4.2/326)."
+   },
+   "changes": "Steps reworded and condensed. Where the original gives a range, the lower amount is used for scoring.",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 50,
+   "servings": 3,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 175,
+    "fiber_g": 5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 0.8,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 57,
+    "choline_mg": 25,
+    "iron_mg": 1.9,
+    "zinc_mg": 0.8,
+    "selenium_ug": 1,
+    "b12_ug": 0,
+    "vit_c_mg": 37,
+    "fruit_veg_servings": 1.85
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Per serving (3), lower end of each range: cauliflower 60 g, tomatoes ≈45 g, onion ≈40 g, green chilli ≈2 g, coriander leaves ≈1 g = ≈148 g = 1.85 servings; potatoes don't count (+2). Dried spices ≈6¾ tsp in all (including 1 tbsp kasuri methi) ÷ 3 ≈ 2¼ tsp per serving (+1). Fresh tomato cooked briefly, well under ½ cup (0); unspecified oil (0). Plant families: crucifer, nightshade, allium, ginger, carrot family (cumin, coriander), legume (fenugreek) = 6 (+1). Total 2+1+1 = 4 [herbs-spices] [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1; cauliflower 60 g per serving, pan-cooked: +3 halved = 1.5, rounded down to +1; garlic 3–4 cloves ÷ 3 ≥ 1 clove and ⅓ onion per serving (both, +2); turmeric ¼ tsp ÷ 3 ≈ 1/12 tsp per serving (0). Total 1+1+2 = 4 [cruciferous-other] [garlic-alliums] [turmeric-curcumin]"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2; unspecified cooking oil, 2–3 tbsp ÷ 3 (0); no nuts or seeds (0); saturated fat ≈0.8 g. Total 2 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Fibre ≈5 g (recipe panel) (+3); the main starch is potato, which is not whole grain or legume (0); no added sugar (+2); oil with the potato (+1). Total 3+0+2+1 = 6 [glycemic-control]"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Vegetables stir-fried briefly, then cooked covered over low-medium heat with splashes of water; tomatoes fried 2–4 min over medium-high at the end. The potatoes are softened, not crisped (8) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; folate ≈57 µg, zinc ≈0.8 mg, selenium ≈1 µg and 1.85 produce servings are all under the thresholds (0). Total 1 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate ≈57 µg (+1): cauliflower ≈27 after cooking, potato ≈11, onion ≈8, tomato ≈7, spices ≈4; iron ≈1.9 mg (0); choline ≈25 mg (0); no iodine source (0); produce under 2 servings (0). Total 1+1 = 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1½ cups (2 medium) potatoes, cubed ¾ inch (2 cm)",
+      "2 cups (180 g) cauliflower florets, cut to 1½ inch (4 cm)",
+      "¾ to 1 cup (1 medium) onion, finely chopped",
+      "¾ to 1 cup (2 medium) tomatoes, finely chopped (or ¼ cup tomato purée, or 2 tbsp tomato paste mixed with 3 tbsp water)",
+      "½ tablespoon (½ inch) ginger, peeled and minced or grated",
+      "½ tablespoon (3 to 4 cloves) garlic, minced or pressed",
+      "1 green chili, slit or chopped (optional)",
+      "2 tablespoons coriander leaves, finely chopped",
+      "½ to ¾ teaspoon salt",
+      "2 to 3 tablespoons (30 to 45 mL) oil",
+      "Lemon juice, to serve (optional)"
+     ]
+    },
+    {
+     "group": "Spices",
+     "items": [
+      "½ teaspoon cumin seeds",
+      "¾ to 1¼ teaspoons Kashmiri red chili powder",
+      "¼ teaspoon turmeric",
+      "1 teaspoon garam masala",
+      "¾ to 1 teaspoon coriander powder",
+      "½ to ¾ teaspoon roasted cumin powder",
+      "1 tablespoon kasuri methi (dried fenugreek leaves), optional",
+      "½ to 1 teaspoon amchur (dried mango powder), optional"
+     ]
+    }
+   ],
+   "steps": [
+    "Cut the cauliflower into 1½-inch (4 cm) florets, soak them in hot water for 3–4 minutes, then rinse and drain well.",
+    "Cube the potatoes to ¾ inch (2 cm) and keep them in a bowl of water until needed. Mince the ginger and garlic.",
+    "Heat the oil in a pan and add the cumin seeds. When they sizzle, add the ginger and garlic for 30 seconds, then the onions, and cook until translucent.",
+    "Add the drained potatoes and the green chili and stir-fry 2–3 minutes. Cover and cook over low-medium heat until half done, stirring now and then and adding a splash of water if needed.",
+    "Add the cauliflower and stir-fry about 3 minutes. Stir in the chili powder, turmeric, cumin powder, garam masala and coriander powder, then sprinkle 2–3 Tbsp water around the pan.",
+    "Cover and cook, stirring every few minutes, until both vegetables are almost tender. Add the salt and keep cooking on low until the potatoes are soft and the cauliflower is cooked but still slightly crisp.",
+    "Add the tomatoes and kasuri methi and cook over medium-high heat for 2–4 minutes, until the raw tomato smell is gone. Add amchur if using, top with coriander leaves and a squeeze of lemon, and serve with roti or rice."
+   ],
+   "boosts": [
+    "Double the cauliflower to 360 g (120 g per serving): crucifer points +1 → +3 (nrf2 +2) and ≥2 produce servings (plants +1) [cruciferous-other]",
+    "Then sprinkle ¼ tsp mustard powder over each serving off the heat: a raw myrosinase source lifts the cauliflower to +5 (nrf2 +2 more) [mustard-seed-myrosinase]",
+    "Use 1½ tsp turmeric (½ tsp per serving), cooked in the oil: nrf2 +1 [turmeric-curcumin]",
+    "Replace half the potatoes with a drained can of chickpeas: the main starch becomes legume (glycemic +2), and fibre, folate and iron rise [legumes]",
+    "Serve with whole-wheat roti and a bowl of dal for a complete dinner: whole grain counts as a profertility component, and the dal adds folate and iron [whole-grains] [legumes]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: none."
+   ]
+  },
+  {
+   "id": "mujadara",
+   "title": "Mujadara (lentils and brown rice with caramelised onions)",
+   "summary": "Brown lentils and brown basmati rice simmered with cumin and garlic, piled with deeply caramelised onions fried in extra-virgin olive oil; it scores top marks for fibre and blood sugar and is rich in folate, but it is low in vitamin C and has no crucifers.",
+   "source": {
+    "title": "Mujadara (Lentils and Rice with Caramelized Onions)",
+    "author": "Kathryne Taylor",
+    "site": "Cookie and Kate",
+    "url": "https://cookieandkate.com/mujaddara-recipe/",
+    "rating": 4.7,
+    "rating_count": 314,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded. The fibre estimate uses FDC values for cooked lentils, which are higher than the recipe's own panel (8.5 g).",
+   "complexity": "medium",
+   "active_min": 35,
+   "total_min": 60,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 471,
+    "fiber_g": 13,
+    "added_sugar_g": 0,
+    "sat_fat_g": 2.1,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 255,
+    "choline_mg": 50,
+    "iron_mg": 6,
+    "zinc_mg": 2.6,
+    "selenium_ug": 14,
+    "b12_ug": 0,
+    "vit_c_mg": 8,
+    "fruit_veg_servings": 2.3
+   },
+   "scores": {
+    "plants": {
+     "score": 6,
+     "why": "Per serving (4): onions ≈85 g (2 medium-large ≈340 g), green onions ≈12 g, cilantro or parsley ≈5–7 g = ≈102 g = 1.3 servings, plus lentils ≈124 g cooked = 1 pulse serving; total ≈2.3 (+3). EVOO ⅓ cup ÷ 4 = 1⅓ tbsp per serving; some stays in the pan, but the panel's 16 g fat per serving implies ≈1 tbsp is eaten (+1); fresh herbs 2 tbsp per serving plus ¾ tsp cumin (+1). Plant families: legume, grass (rice), allium, carrot family, laurel (bay), olive = 6 (+1). Total 3+2+1 = 6 [extra-virgin-olive-oil] [herbs-spices] [legumes]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; no crucifers (0); garlic 1 clove plus ½ onion per serving (both, +2). Total 1+2 = 3 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 2; EVOO is the main fat, ≈1 tbsp per serving eaten (+2). Saturated fat ≈2.1 g. Total 2+2 = 4 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 10,
+     "why": "Fibre ≈13 g from FDC: lentils 1 cup dry ≈2.5 cups cooked × 15.6 g ÷ 4 = 9.8 g, brown rice 1.6 g, onions and herbs 1.9 g (+5); brown rice and lentils (+2); no added sugar (+2); lentil protein and EVOO (+1). Total 5+2+2+1 = 10 [legumes] [whole-grains] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 9,
+     "why": "Rice and lentils simmered (10); the onion topping is fried in EVOO over medium-high heat for 20–30 min until deep brown and crisping, a separate component (8). Midpoint 9 [high-temperature-cooking] [cooking-oil-choice]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1; folate ≈255 µg (+1); ≈2.3 produce servings (+1). Zinc ≈2.6 mg (lentils 1.6, brown rice 0.9) and selenium ≈14 µg are under the thresholds (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 6,
+     "why": "Base 1; folate ≈255 µg (+3): lentils ≈224 (2.5 cups × 358 µg ÷ 4), onions, green onions and herbs ≈25, rice ≈9; plant iron ≈6 mg (lentils 4.1, cumin 1.0, rice 0.7) but vitamin C only ≈8 mg, under 25 (0); choline ≈50 mg (0); it is served with yogurt, a dairy iodine source named in the recipe (+1); profertility: whole grain (brown rice) + ≥2 produce servings (+1). Total 1+3+1+1 = 6 [folic-acid] [profertility-diet] [iodine-status]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "4 medium cloves garlic, smashed and peeled",
+      "2 bay leaves",
+      "1 tablespoon ground cumin",
+      "1¾ teaspoons fine sea salt, divided",
+      "Freshly ground black pepper",
+      "5 cups (1.2 L) water",
+      "1 cup (185 g) brown basmati rice (regular, not quick-cooking), rinsed and drained",
+      "1 cup (190 g) regular brown or green lentils, picked over, rinsed and drained",
+      "⅓ cup (80 mL) extra-virgin olive oil",
+      "2 medium-to-large yellow onions, halved and thinly sliced",
+      "½ cup thinly sliced green onions (from 1 bunch), divided",
+      "½ cup chopped fresh cilantro or flat-leaf parsley, divided"
+     ]
+    },
+    {
+     "group": "To serve",
+     "items": [
+      "Plain whole-milk or Greek yogurt",
+      "Spicy sauce (optional): shatta, zhoug, chili-garlic sauce or sriracha"
+     ]
+    }
+   ],
+   "steps": [
+    "Put the garlic, bay leaves, cumin, 1½ tsp of the salt, plenty of black pepper and the water in a Dutch oven or large pot and bring to a boil over medium-high heat.",
+    "Stir in the rice, lower the heat to medium, cover, and simmer for 10 minutes, stirring now and then.",
+    "Add the lentils and return to a simmer. Cover, turn to medium-low, and cook 20–23 minutes, until the rice and lentils are tender and the water is absorbed.",
+    "Meanwhile, heat the oil in a 12-inch (30 cm) skillet over medium-high until a slice of onion sizzles, then add all the onions and stir to coat.",
+    "Stir only every few minutes at first, then more often once the edges brown, lowering the heat if they colour before softening. Cook 20–30 minutes, until deeply browned and crisping. Lift them onto paper towels with a slotted spoon, spread them out, and sprinkle with the last ¼ tsp salt.",
+    "Drain any water left in the pot, lay a clean towel over the pot under the lid, and let the rice and lentils rest off the heat for 10 minutes.",
+    "Remove the bay leaves, mash the garlic into the grains with a fork, and fold in most of the green onions and herbs. Season to taste.",
+    "Spoon onto a platter, top with the onions and the remaining green onions and herbs, and serve warm or at room temperature with yogurt and chili sauce."
+   ],
+   "boosts": [
+    "Serve with a raw salad of rocket, shredded cabbage or radishes, ≥80 g per person: raw crucifer gives nrf2 +5 [cruciferous-other]",
+    "Add a salad with ½ red bell pepper per person, or plenty of lemon and parsley, for ≥25 mg vitamin C per serving: the lentil iron then counts (egg +1) [iron-egg]",
+    "Add 2 tsp turmeric (½ tsp per serving) to the cooking water with the black pepper: nrf2 +1 [turmeric-curcumin]",
+    "Top each plate with 2 tbsp toasted walnuts or pine nuts (≈15 g): fats +1 [walnuts-nuts]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list (use pasteurised yogurt, as nearly all shop yogurt is).",
+    "Allergens: dairy (yogurt, served on the side)."
+   ]
   }
  ]
 }
