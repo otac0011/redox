@@ -3597,8 +3597,8 @@
     "checked": "2026-10-11",
     "note": "Closest well-rated match for 'turmeric-roasted cauliflower and chickpeas'. The turmeric versions found (Inquiring Chef 5/1, The Plant Based School 5/10) have too few ratings, so this one has no turmeric; see boosts."
    },
-   "changes": "Metric units added; steps reworded. The original calls it a salad; it is served warm as a main-dish bowl here. The cauliflower weight (a medium head, about 590 g) is our estimate, since the original says only '1 head'.",
-   "complexity": "medium",
+   "changes": "Metric units added; steps reworded. The original calls it a salad; it is served warm as a main-dish bowl here. The cauliflower weight (a medium head, about 590 g, the USDA medium-head weight) is our estimate, since the original says only '1 head'. Lemon juice is not counted as a produce serving.",
+   "complexity": "involved",
    "active_min": 25,
    "total_min": 50,
    "servings": 4,
@@ -3613,23 +3613,23 @@
    ],
    "nutrients": {
     "kcal": 374,
-    "fiber_g": 9.5,
+    "fiber_g": 10,
     "added_sugar_g": 0,
     "sat_fat_g": 2.9,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 150,
+    "folate_ug_dfe": 155,
     "choline_mg": 95,
-    "iron_mg": 4.8,
+    "iron_mg": 5.0,
     "zinc_mg": 2.1,
     "selenium_ug": 10,
     "b12_ug": 0,
     "vit_c_mg": 74,
-    "fruit_veg_servings": 3.2
+    "fruit_veg_servings": 3.0
    },
    "scores": {
     "plants": {
      "score": 6,
-     "why": "Per serving (4): cauliflower ≈147 g, red onion ≈14 g, parsley ≈17 g, lemon juice 15 mL = ≈193 g = 2.4 servings, plus chickpeas ≈60 g = 0.75 pulse serving; total ≈3.2 (+4). Fresh parsley ≈4 tbsp per serving plus cumin and paprika (+1). Plant families: crucifer, allium, carrot family (parsley, cumin), legume, sesame, nightshade (cayenne, paprika), citrus, olive = 8 (+1). The oil is plain olive oil, not extra-virgin (0); red onion ≈14 g per serving is too little to count as an anthocyanin item (0). Total 4+1+1 = 6 [high-fruit-vegetable-intake] [herbs-spices]"
+     "why": "Per serving (4): cauliflower ≈147 g (USDA medium head 588 g), red onion ≈14 g, parsley ≈22 g (the original's 1½ cups chopped × 60 g/cup ÷ 4) = ≈183 g = 2.3 servings; lemon juice is not a fruit serving. Chickpeas ≈61 g drained = 0.75 pulse serving; total ≈3.05 (+4). This is right on the 3-serving line: a smaller head would drop it to +3, but the recipe panel's 30 g carbohydrate per serving implies a head of ≈600–700 g, so +4 stands. Fresh parsley ≈6 tbsp per serving plus cumin and paprika (+1). Plant families: crucifer, allium, carrot family (parsley, cumin), legume, sesame, nightshade (cayenne, paprika), citrus, olive = 8 (+1). The oil is plain olive oil, not extra-virgin (0); red onion ≈14 g per serving is too little to count as an anthocyanin item (0). Total 4+1+1 = 6 [high-fruit-vegetable-intake] [herbs-spices]"
     },
     "nrf2": {
      "score": 4,
@@ -3641,7 +3641,7 @@
     },
     "glycemic": {
      "score": 9,
-     "why": "Fibre ≈9–10 g (recipe panel 9.1 g; FDC: chickpeas 4.6, cauliflower 2.9, tahini 1.9, parsley and onion 0.8) (+4); chickpeas are the only starch (+2); no added sugar (+2); chickpea protein, tahini and lemon with the carbohydrate (+1). Total 4+2+2+1 = 9 [legumes] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈10 g (recipe panel 9.1 g; FDC: chickpeas 4.6, cauliflower 2.9, tahini 1.9, parsley 0.7, onion and spices 0.4) (+4); chickpeas are the only starch (+2); no added sugar (+2); chickpea protein, tahini and lemon with the carbohydrate (+1). Total 4+2+2+1 = 9 [legumes] [dietary-fiber-microbiome]"
     },
     "cooking": {
      "score": 8,
@@ -3649,11 +3649,11 @@
     },
     "sperm": {
      "score": 3,
-     "why": "Base 1; folate ≈150 µg (+1); ≈3.2 produce servings (+1). Zinc ≈2.1 mg (tahini 0.9, chickpeas 0.6, cauliflower 0.4, parsley 0.2) and selenium ≈10 µg are under the thresholds (0); no nuts ≥30 g and no tomato (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
+     "why": "Base 1; folate ≈150 µg (+1); ≈3.0 produce servings (+1). Zinc ≈2.1 mg (tahini 0.9, chickpeas 0.6, cauliflower 0.4, parsley 0.2) and selenium ≈10 µg are under the thresholds (0); no nuts ≥30 g and no tomato (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
     },
     "egg": {
      "score": 4,
-     "why": "Base 1; folate ≈150 µg (+2): cauliflower ≈63 after roasting losses, chickpeas ≈38, parsley ≈26, tahini ≈20, onion and lemon ≈5; plant iron ≈4.8 mg (tahini 1.8, chickpeas 1.1, parsley 1.0, cauliflower 0.6, spices 0.3) with vitamin C ≈74 mg (+1); choline ≈95 mg (0); no named iodine source (0); profertility: produce is the only component (0). Total 1+2+1 = 4 [folic-acid] [iron-egg]"
+     "why": "Base 1; folate ≈155 µg (+2): cauliflower ≈63 after roasting losses, chickpeas ≈39, parsley ≈33, tahini ≈20; plant iron ≈5 mg (tahini 1.8, parsley 1.4, chickpeas 1.1, cauliflower 0.6, spices 0.3) with vitamin C ≈74 mg (+1); choline ≈95 mg (0); no named iodine source (0); profertility: produce is the only component (0). Total 1+2+1 = 4 [folic-acid] [iron-egg]"
     }
    },
    "ingredients": [
@@ -3699,7 +3699,7 @@
    "steps": [
     "Heat the oven to 400 °F (200 °C). Break the cauliflower into small florets and slice the onion into ¼-inch (6 mm) strips. Spread both on a large baking sheet, add the 2 Tbsp oil and a little salt and pepper, and toss.",
     "Roast for 20 minutes, stir, then roast 10–15 minutes more, until tender and browned at the edges. Let cool slightly.",
-    "While the vegetables roast, blend the tahini, water, lemon juice, garlic, cumin, cayenne and salt until smooth. Chill until serving.",
+    "While the vegetables roast, put the tahini, lemon juice, water, garlic, spices and salt in a blender and whizz until smooth. Chill until serving.",
     "Rinse and drain the chickpeas. Cook them in a skillet over medium heat with 1 Tbsp oil, the smoked paprika, garlic powder, cayenne, salt and pepper for about 5 minutes, until they sizzle and turn a little crisp.",
     "Pull the parsley leaves off the stems and chop them roughly.",
     "Combine the roasted vegetables, chickpeas and parsley in a bowl, pour on the dressing, toss, and serve warm or cold."
@@ -3714,7 +3714,11 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
     "Allergens: sesame (tahini)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.68/255, ingredients and method confirmed. Scores unchanged, but produce is ≈3.0 servings, not 3.2, once lemon juice is dropped and parsley is taken from the original's 1½ cups; +4 holds on the panel-implied head size. Complexity medium → involved (three separate components: roasted tray, blended dressing, skillet chickpeas)."
+   }
   },
   {
    "id": "ratatouille",
@@ -3777,7 +3781,7 @@
     },
     "cooking": {
      "score": 10,
-     "why": "Vegetables softened over medium (not medium-high) heat in EVOO without a browning step, then stewed together 10–15 min (10) [high-temperature-cooking] [cooking-oil-choice]"
+     "why": "The eggplant (10–15 min) and zucchini (3–5 min) are cooked separately, but over medium heat until tender with no browning cue, which is gentler than the table's medium-high sauté row; everything is then stewed together 10–15 min (10). No harsher component, so no midpoint [high-temperature-cooking] [cooking-oil-choice]"
     },
     "sperm": {
      "score": 2,
@@ -3826,7 +3830,11 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
     "Allergens: none."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.93/107, ingredients and method confirmed. Cooking 10 kept: the original sautés the eggplant and zucchini separately but over medium heat until tender, not a high-heat browning step. All other scores re-derived and unchanged (produce ≈4.96 servings)."
+   }
   },
   {
    "id": "ribollita-tuscan-kale-bean-soup",
@@ -3841,7 +3849,7 @@
     "rating_count": 195,
     "checked": "2026-10-11"
    },
-   "changes": "Metric units added; steps reworded. The original yields '6 people (up to)'; scored for 6. The original gives no bread weight; a ≈400 g ciabatta loaf is assumed for nutrients. The 1 lb of kale is taken as the weight before stripping the stems (≈340 g of leaves).",
+   "changes": "Metric units added; steps reworded. The original yields '6 people (up to)'; scored for 6. The original gives no bread weight; a ≈400 g ciabatta loaf is assumed (fibre stays in the 8–11.9 g band for any loaf from 300 to 500 g). The 1 lb of kale is read as the weight before stripping the stems (≈340 g of leaves, ≈57 g per serving); even if the full 450 g were leaves, it is 75 g per serving, still in the 40–79 g band.",
    "complexity": "medium",
    "active_min": 25,
    "total_min": 60,
@@ -3940,7 +3948,11 @@
    "watch_outs": [
     "Pregnancy: the wine simmers about 25 minutes, which removes most but not all of the alcohol; swap in broth to avoid it entirely. Parmesan is a hard cheese and fine in pregnancy.",
     "Allergens: gluten (ciabatta), dairy (Parmesan)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.95/195, ingredients and method confirmed. Kale is 54–76 g per serving on any reading of '1 lb, stems removed', so the halved crucifer points (+1) hold; bread weight (300–500 g loaf) moves fibre only within 10.6–11.4 g (+4). Parmesan is optional, so no iodine point. All scores unchanged."
+   }
   },
   {
    "id": "cabbage-soup-turmeric-ginger",
@@ -4041,7 +4053,7 @@
     }
    ],
    "steps": [
-    "Heat the oil in a large lidded pot until shimmering. Add the onion and garlic and cook, stirring, until fragrant, lowering the heat if the garlic starts to darken.",
+    "Warm the oil in a large pot with a lid. When it shimmers, stir in the onion and garlic and cook just until fragrant, turning the heat down if the garlic starts to darken.",
     "Add the cabbage, celery, carrots and about ½–¾ tsp each of salt and pepper. Cook 5–7 minutes, partly covered, stirring now and then, until the cabbage wilts.",
     "Sprinkle in the turmeric, cumin, coriander and Aleppo pepper and toss until the vegetables are coated.",
     "Add the tomatoes with their juice and the broth. Boil for about 5 minutes, then turn to medium-low, set the lid slightly ajar, and simmer 20–25 minutes, until the vegetables are tender.",
@@ -4057,7 +4069,11 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
     "Allergens: none (check the broth label)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.87/171, ingredients and method confirmed. Re-scored from scratch: produce ≈4.0–4.2 servings, cabbage ≥120 g per serving on any core estimate, folate ≈90 µg after simmering. All scores unchanged."
+   }
   },
   {
    "id": "orecchiette-broccoli-sauce",
@@ -4086,7 +4102,7 @@
     "fiber_g": 4.5,
     "added_sugar_g": 0,
     "sat_fat_g": 2.4,
-    "epa_dha_mg": 15,
+    "epa_dha_mg": 28,
     "folate_ug_dfe": 65,
     "choline_mg": 35,
     "iron_mg": 1.5,
@@ -4107,7 +4123,7 @@
     },
     "fats": {
      "score": 2,
-     "why": "Base 2; plain olive oil, not extra-virgin (0); 1 tsp anchovy paste gives ≈15 mg EPA+DHA per serving (0); no nuts (0). Saturated fat ≈2.4 g. Total 2 [cooking-oil-choice]"
+     "why": "Base 2; plain olive oil, not extra-virgin (0); 1 tsp anchovy paste gives ≈28 mg EPA+DHA per serving (0); no nuts (0). Saturated fat ≈2.4 g. Total 2 [cooking-oil-choice]"
     },
     "glycemic": {
      "score": 5,
@@ -4162,9 +4178,13 @@
     "Top each bowl with 2 Tbsp toasted pine nuts or chopped walnuts (≈15 g): fats +1 [walnuts-nuts]"
    ],
    "watch_outs": [
-    "Pregnancy: nothing from the watch-out list; pecorino is a hard cheese and fine in pregnancy.",
+    "Pregnancy: pecorino is a hard cheese simmered into the sauce, so the risk is low; choose one made from pasteurised milk if you can.",
     "Allergens: gluten, dairy (pecorino), fish (anchovy paste; soy if you use miso instead)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.8/132, ingredients and method confirmed. All seven scores re-derived and unchanged; the pecorino (¼ cup, in the sauce) counts as a named iodine source. Anchovy EPA+DHA corrected to ≈28 mg (still 0 points); pregnancy note on pecorino softened to 'choose pasteurised'."
+   }
   },
   {
    "id": "sweet-potato-black-bean-tacos",
@@ -4197,12 +4217,12 @@
     "sat_fat_g": 4.8,
     "epa_dha_mg": 0,
     "folate_ug_dfe": 165,
-    "choline_mg": 90,
+    "choline_mg": 85,
     "iron_mg": 7,
     "zinc_mg": 3.8,
     "selenium_ug": 8,
     "b12_ug": 0,
-    "vit_c_mg": 50,
+    "vit_c_mg": 35,
     "fruit_veg_servings": 4.8
    },
    "scores": {
@@ -4231,8 +4251,8 @@
      "why": "Base 1; zinc ≈3.8 mg (pepitas 1.25, beans 0.85, sweet potato 0.65, tortillas 0.6, avocado 0.45) (+1); folate ≈165 µg (+1); ≈4.8 produce servings (+1). Pepitas 16 g are not ≥30 g of nuts (0); selenium ≈8 µg (0). Total 1+1+1+1 = 4 [zinc-status] [high-fruit-vegetable-intake]"
     },
     "egg": {
-     "score": 6,
-     "why": "Base 1; folate ≈165 µg (+2): canned beans ≈77, avocado ≈55, sweet potato ≈12, pepitas ≈9, others ≈12; plant iron ≈7 mg (beans 2.5, sweet potato 1.4, pepitas 1.3, tortillas 0.8, cumin 0.7) with vitamin C ≈50 mg (+1); choline ≈90 mg (0); feta is named in the recipe, a dairy iodine source (+1); B12 ≈0 (0); profertility: whole grain (corn tortillas) + ≥2 produce servings (+1). Total 1+2+1+1+1 = 6 [folic-acid] [iron-egg] [profertility-diet]"
+     "score": 5,
+     "why": "Base 1; folate ≈165 µg (+2): canned beans ≈77, avocado ≈55, sweet potato ≈12, pepitas ≈9, others ≈12; plant iron ≈7 mg (beans 2.5, sweet potato 1.1, pepitas 1.4, tortillas 0.7, cumin 0.7) with vitamin C ≈35 mg (+1); choline ≈85 mg (0); the feta has no amount and the original says to skip it for dairy-free, so it is not an iodine source (0); B12 ≈0 (0); profertility: whole grain (corn tortillas) + ≥2 produce servings (+1). Total 1+2+1+1 = 5 [folic-acid] [iron-egg] [profertility-diet]"
     }
    },
    "ingredients": [
@@ -4277,7 +4297,7 @@
      "group": "To serve",
      "items": [
       "8 to 10 small corn tortillas",
-      "Crumbled feta"
+      "Crumbled feta (no amount given; skip it for dairy-free)"
      ]
     }
    ],
@@ -4299,7 +4319,11 @@
    "watch_outs": [
     "Pregnancy: use feta made from pasteurised milk.",
     "Allergens: dairy (feta). Pepitas are seeds, not tree nuts. Corn tortillas are gluten-free, but check the label."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.9/116, ingredients and method confirmed. Egg 6→5: the feta has no amount and is optional in the original, so it no longer counts as an iodine source. Vitamin C revised to ≈35 mg (roasted sweet potato is low), still ≥25 mg."
+   }
   },
   {
    "id": "greek-eggplant-chickpea-stew",
@@ -4358,7 +4382,7 @@
     },
     "glycemic": {
      "score": 10,
-     "why": "Fibre ≈12.6 g (recipe panel; FDC agrees, ≈12.5 g: chickpeas 6.4, eggplant 3.4, tomatoes 1.3, other vegetables and spices 1.4) (+5); chickpeas are the starch (+2); no added sugar (+2); chickpea protein and EVOO (+1). Total 5+2+2+1 = 10 [legumes] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈12.6 g (recipe panel). FDC check, per serving: eggplant ≈105 g trimmed 3.2, chickpeas 2 cans with their liquid ≈6.3, canned tomatoes 1.3, onion, pepper, carrot and garlic 1.1, spices 0.6 = ≈12.5 g (plausible range 11.6–13.6 g depending on the chickpea and tomato values used). The panel agrees with FDC, so the panel figure is used: ≥12 g (+5); chickpeas are the starch (+2); no added sugar (+2); chickpea protein and EVOO (+1). Total 5+2+2+1 = 10 [legumes] [dietary-fiber-microbiome]"
     },
     "cooking": {
      "score": 10,
@@ -4399,8 +4423,8 @@
    ],
    "steps": [
     "Heat the oven to 400 °F (200 °C). Salt the eggplant cubes in a colander and leave them for about 20 minutes, then rinse and pat them very dry.",
-    "In a large oven-safe braiser or Dutch oven, heat the ¼ cup oil over medium-high until shimmering. Cook the onion, green pepper and carrot for 2–3 minutes, stirring.",
-    "Add the garlic, bay leaves, paprika, coriander, oregano, cinnamon, turmeric, black pepper and a little salt, and stir for 1 minute until fragrant.",
+    "Warm the ¼ cup oil over medium-high in a large Dutch oven or other oven-safe pot until it shimmers. Cook the onion, green pepper and carrot for 2–3 minutes, stirring.",
+    "Stir in the garlic, all the spices (bay leaves, paprika, coriander, oregano, cinnamon, turmeric and black pepper) and a little salt, and cook 1 minute until fragrant.",
     "Add the eggplant, tomatoes, chickpeas and their liquid, and stir.",
     "Bring to a rolling boil and cook about 10 minutes, stirring often.",
     "Cover and bake about 45 minutes, until the eggplant is very tender. Check once or twice and add ½ cup (120 mL) water at a time if it looks dry.",
@@ -4416,7 +4440,11 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
     "Allergens: none."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.92/334, ingredients and method confirmed. Fibre re-estimated from FDC at ≈12.5 g (range 11.6–13.6); the panel's 12.6 g agrees, so glycemic 10 stands, though it sits on the 12 g line. All other scores unchanged."
+   }
   },
   {
    "id": "palak-paneer",
@@ -4534,131 +4562,134 @@
    "watch_outs": [
     "Pregnancy: use paneer made from pasteurised milk (shop paneer usually is; homemade paneer from boiled milk is fine).",
     "Allergens: dairy (paneer, butter, optional cream), tree nuts (cashews)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.99/1,537, ingredients and method confirmed; scored for 2 servings, the lower end of '2 to 3'. All scores re-derived and unchanged. Zinc (≈2.7–3.1 mg) and folate (≈105–110 µg) are close to their lines; paneer composition is the main uncertainty."
+   }
   },
   {
-   "id": "aloo-gobi",
-   "title": "Aloo gobi (cauliflower and potato curry)",
-   "summary": "A dry North Indian curry of cauliflower and potatoes with ginger, garlic, tomato and plenty of ground spices; it brings crucifers, alliums and herbs and spices, but it is a light, side-sized portion with little folate, so serve it with dal and roti.",
+   "id": "cauliflower-chickpea-masala",
+   "title": "Cauliflower and chickpea masala",
+   "summary": "Cauliflower and chickpeas simmered in a garam-masala tomato sauce finished with a little cream; it scores well for produce, fibre and crucifers, but plain olive oil and the cream, the largest fat source, pull the fat score down.",
    "source": {
-    "title": "Aloo Gobi Recipe (Cauliflower Potato Curry)",
-    "author": "Swasthi Shreekanth",
-    "site": "Swasthi's Recipes (Indian Healthy Recipes)",
-    "url": "https://www.indianhealthyrecipes.com/aloo-gobi/",
-    "rating": 5,
-    "rating_count": 632,
+    "title": "Cauliflower and Chickpea Masala",
+    "author": "Beth Moncel",
+    "site": "Budget Bytes",
+    "url": "https://www.budgetbytes.com/easy-cauliflower-and-chickpea-masala/",
+    "rating": 4.81,
+    "rating_count": 203,
     "checked": "2026-10-11",
-    "note": "Swapped in for the mushroom and lentil bolognese: no version had ≥4.5 stars from ≥100 ratings (Minimalist Baker 4.96/44, Budget Bytes 4.57/46, Allrecipes 4.6/30, BBC Good Food 4.2/326)."
+    "note": "Replaced the aloo gobi at checking: that one was a side-sized curry (175 kcal) built on potato. This is a fuller legume-and-crucifer dinner; serve over rice or with bread."
    },
-   "changes": "Steps reworded and condensed. Where the original gives a range, the lower amount is used for scoring.",
+   "changes": "Metric units added; steps reworded. The original's note that fresh cauliflower works if blanched first is folded into the ingredient line.",
    "complexity": "medium",
    "active_min": 25,
-   "total_min": 50,
-   "servings": 3,
+   "total_min": 40,
+   "servings": 4,
    "meal": "dinner",
    "tags": [
     "vegetarian",
-    "vegan",
     "gluten-free",
-    "dairy-free",
     "budget"
    ],
    "nutrients": {
-    "kcal": 175,
-    "fiber_g": 5,
+    "kcal": 300,
+    "fiber_g": 9.8,
     "added_sugar_g": 0,
-    "sat_fat_g": 0.8,
+    "sat_fat_g": 5.7,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 57,
-    "choline_mg": 25,
-    "iron_mg": 1.9,
-    "zinc_mg": 0.8,
-    "selenium_ug": 1,
+    "folate_ug_dfe": 98,
+    "choline_mg": 70,
+    "iron_mg": 3.8,
+    "zinc_mg": 1.4,
+    "selenium_ug": 4,
     "b12_ug": 0,
-    "vit_c_mg": 37,
-    "fruit_veg_servings": 1.85
+    "vit_c_mg": 35,
+    "fruit_veg_servings": 3.5
    },
    "scores": {
     "plants": {
-     "score": 4,
-     "why": "Per serving (3), lower end of each range: cauliflower 60 g, tomatoes ≈45 g, onion ≈40 g, green chilli ≈2 g, coriander leaves ≈1 g = ≈148 g = 1.85 servings; potatoes don't count (+2). Dried spices ≈6¾ tsp in all (including 1 tbsp kasuri methi) ÷ 3 ≈ 2¼ tsp per serving (+1). Fresh tomato cooked briefly, well under ½ cup (0); unspecified oil (0). Plant families: crucifer, nightshade, allium, ginger, carrot family (cumin, coriander), legume (fenugreek) = 6 (+1). Total 2+1+1 = 4 [herbs-spices] [high-fruit-vegetable-intake]"
+     "score": 6,
+     "why": "Per serving (4): cauliflower 12 oz ÷ 4 = 85 g, tomato sauce 15 oz ÷ 4 = 106 g, onion ≈27 g = ≈218 g = 2.7 servings, plus chickpeas ≈62 g drained = 0.8 pulse serving; total ≈3.5 (+4). Dried spices ≈1.9 tsp per serving (garam masala 1½ tsp, plus cumin, turmeric, paprika and cayenne) (+1). The tomato sauce is ≈0.43 cup per serving, under ½ cup (0); plain olive oil, not extra-virgin (0). Plant families: crucifer, legume, nightshade, allium, ginger, carrot family (cumin), olive = 7 (+1). Total 4+1+1 = 6 [high-fruit-vegetable-intake] [herbs-spices]"
     },
     "nrf2": {
-     "score": 4,
-     "why": "Base 1; cauliflower 60 g per serving, pan-cooked: +3 halved = 1.5, rounded down to +1; garlic 3–4 cloves ÷ 3 ≥ 1 clove and ⅓ onion per serving (both, +2); turmeric ¼ tsp ÷ 3 ≈ 1/12 tsp per serving (0). Total 1+1+2 = 4 [cruciferous-other] [garlic-alliums] [turmeric-curcumin]"
+     "score": 5,
+     "why": "Base 1; cauliflower 85 g per serving, sautéed 5 min then simmered 15 min (+3); onion 1 ÷ 4 = ¼ per serving (+1); garlic ¾ clove per serving is under 1 (0); turmeric ⅛ tsp per serving is under ½ tsp (0). Total 1+3+1 = 5 [cruciferous-other] [garlic-alliums]"
     },
     "fats": {
-     "score": 2,
-     "why": "Base 2; unspecified cooking oil, 2–3 tbsp ÷ 3 (0); no nuts or seeds (0); saturated fat ≈0.8 g. Total 2 [cooking-oil-choice]"
+     "score": 1,
+     "why": "Base 2; plain olive oil, not extra-virgin (0); no nuts or fish (0). Heavy cream ⅓ cup gives ≈28 g fat against ≈27 g from the 2 Tbsp oil, so cream is the main fat (−2). Saturated fat ≈5.7 g per serving. Total 2−2 = 0, floored at 1 [cooking-oil-choice]"
     },
     "glycemic": {
-     "score": 6,
-     "why": "Fibre ≈5 g (recipe panel) (+3); the main starch is potato, which is not whole grain or legume (0); no added sugar (+2); oil with the potato (+1). Total 3+0+2+1 = 6 [glycemic-control]"
+     "score": 9,
+     "why": "Fibre ≈9.8 g (FDC: chickpeas 4.4, cauliflower 2.0, tomato sauce 1.6, garam masala and other spices 1.0, onion 0.5, ginger and garlic 0.1; recipe panel 10.5 g) (+4); chickpeas are the only starch (+2); no added sugar (+2); chickpea protein, oil and cream with the carbohydrate (+1). Total 4+2+2+1 = 9 [legumes] [dietary-fiber-microbiome]"
     },
     "cooking": {
-     "score": 8,
-     "why": "Vegetables stir-fried briefly, then cooked covered over low-medium heat with splashes of water; tomatoes fried 2–4 min over medium-high at the end. The potatoes are softened, not crisped (8) [high-temperature-cooking]"
+     "score": 10,
+     "why": "Aromatics softened over medium heat for 3 minutes, frozen cauliflower stirred in the pan about 5 minutes to thaw and coat, then everything simmered 15 minutes (10) [high-temperature-cooking]"
     },
     "sperm": {
-     "score": 1,
-     "why": "Base 1; folate ≈57 µg, zinc ≈0.8 mg, selenium ≈1 µg and 1.85 produce servings are all under the thresholds (0). Total 1 [high-fruit-vegetable-intake]"
+     "score": 2,
+     "why": "Base 1; ≈3.5 produce servings (+1). Folate ≈98 µg is just under 100 (0); tomato sauce ≈0.43 cup is under ½ cup (0); zinc ≈1.4 mg and selenium ≈4 µg (0). Total 1+1 = 2 [high-fruit-vegetable-intake]"
     },
     "egg": {
-     "score": 2,
-     "why": "Base 1; folate ≈57 µg (+1): cauliflower ≈27 after cooking, potato ≈11, onion ≈8, tomato ≈7, spices ≈4; iron ≈1.9 mg (0); choline ≈25 mg (0); no iodine source (0); produce under 2 servings (0). Total 1+1 = 2 [folic-acid]"
+     "score": 3,
+     "why": "Base 1; folate ≈98 µg (+1): chickpeas ≈43, cauliflower ≈40 after simmering, tomato sauce ≈10, onion ≈5; plant iron ≈3.8 mg (chickpeas 1.2, tomato sauce 1.0, spices 1.2, cauliflower 0.4) is under 4 (0); choline ≈70 mg (0); heavy cream is dairy listed with an amount, an iodine source (+1); B12 ≈0 (0); profertility: ≈1⅓ tbsp cream per serving is too little to count as a dairy component, so produce is the only one (0). Total 1+1+1 = 3 [folic-acid] [iodine-status]"
     }
    },
    "ingredients": [
     {
-     "group": null,
+     "group": "Masala spice mix",
      "items": [
-      "1½ cups (2 medium) potatoes, cubed ¾ inch (2 cm)",
-      "2 cups (180 g) cauliflower florets, cut to 1½ inch (4 cm)",
-      "¾ to 1 cup (1 medium) onion, finely chopped",
-      "¾ to 1 cup (2 medium) tomatoes, finely chopped (or ¼ cup tomato purée, or 2 tbsp tomato paste mixed with 3 tbsp water)",
-      "½ tablespoon (½ inch) ginger, peeled and minced or grated",
-      "½ tablespoon (3 to 4 cloves) garlic, minced or pressed",
-      "1 green chili, slit or chopped (optional)",
-      "2 tablespoons coriander leaves, finely chopped",
-      "½ to ¾ teaspoon salt",
-      "2 to 3 tablespoons (30 to 45 mL) oil",
-      "Lemon juice, to serve (optional)"
+      "2 Tbsp garam masala",
+      "½ tsp cumin",
+      "½ tsp turmeric",
+      "½ tsp smoked paprika",
+      "¼ tsp cayenne (adjust for heat)",
+      "½ tsp salt",
+      "Freshly cracked black pepper"
      ]
     },
     {
-     "group": "Spices",
+     "group": "Skillet",
      "items": [
-      "½ teaspoon cumin seeds",
-      "¾ to 1¼ teaspoons Kashmiri red chili powder",
-      "¼ teaspoon turmeric",
-      "1 teaspoon garam masala",
-      "¾ to 1 teaspoon coriander powder",
-      "½ to ¾ teaspoon roasted cumin powder",
-      "1 tablespoon kasuri methi (dried fenugreek leaves), optional",
-      "½ to 1 teaspoon amchur (dried mango powder), optional"
+      "1 yellow onion",
+      "3 cloves garlic",
+      "½ Tbsp grated fresh ginger",
+      "2 Tbsp (30 mL) olive oil",
+      "12 oz (340 g) frozen cauliflower florets (or fresh florets, blanched first)",
+      "1 (15-oz / 425 g) can chickpeas, drained",
+      "1 (15-oz / 425 g) can tomato sauce (plain puréed tomatoes; passata outside the US)",
+      "¼ cup (60 mL) water",
+      "⅓ cup (80 mL) heavy cream",
+      "Salt, to taste"
      ]
     }
    ],
    "steps": [
-    "Cut the cauliflower into 1½-inch (4 cm) florets, soak them in hot water for 3–4 minutes, then rinse and drain well.",
-    "Cube the potatoes to ¾ inch (2 cm) and keep them in a bowl of water until needed. Mince the ginger and garlic.",
-    "Heat the oil in a pan and add the cumin seeds. When they sizzle, add the ginger and garlic for 30 seconds, then the onions, and cook until translucent.",
-    "Add the drained potatoes and the green chili and stir-fry 2–3 minutes. Cover and cook over low-medium heat until half done, stirring now and then and adding a splash of water if needed.",
-    "Add the cauliflower and stir-fry about 3 minutes. Stir in the chili powder, turmeric, cumin powder, garam masala and coriander powder, then sprinkle 2–3 Tbsp water around the pan.",
-    "Cover and cook, stirring every few minutes, until both vegetables are almost tender. Add the salt and keep cooking on low until the potatoes are soft and the cauliflower is cooked but still slightly crisp.",
-    "Add the tomatoes and kasuri methi and cook over medium-high heat for 2–4 minutes, until the raw tomato smell is gone. Add amchur if using, top with coriander leaves and a squeeze of lemon, and serve with roti or rice."
+    "Stir together the garam masala, cumin, turmeric, smoked paprika, cayenne, ½ tsp salt and some black pepper in a small bowl.",
+    "Chop the onion finely, mince the garlic and grate the ginger. Soften them in the oil in a large skillet over medium heat for about 3 minutes, then add the spice mix and stir for 1 minute.",
+    "Add the frozen cauliflower and keep stirring for about 5 minutes, until it has thawed and is coated in spices.",
+    "Add the chickpeas, tomato sauce and ¼ cup (60 mL) water. Simmer over medium-low heat for about 15 minutes, stirring now and then and adding a spoonful or two of water if it gets too thick.",
+    "Turn off the heat, stir in the cream, and add salt to taste. Serve over rice or with bread."
    ],
    "boosts": [
-    "Double the cauliflower to 360 g (120 g per serving): crucifer points +1 → +3 (nrf2 +2) and ≥2 produce servings (plants +1) [cruciferous-other]",
-    "Then sprinkle ¼ tsp mustard powder over each serving off the heat: a raw myrosinase source lifts the cauliflower to +5 (nrf2 +2 more) [mustard-seed-myrosinase]",
-    "Use 1½ tsp turmeric (½ tsp per serving), cooked in the oil: nrf2 +1 [turmeric-curcumin]",
-    "Replace half the potatoes with a drained can of chickpeas: the main starch becomes legume (glycemic +2), and fibre, folate and iron rise [legumes]",
-    "Serve with whole-wheat roti and a bowl of dal for a complete dinner: whole grain counts as a profertility component, and the dal adds folate and iron [whole-grains] [legumes]"
+    "Use extra-virgin olive oil and halve the cream (about 3 Tbsp): the oil becomes the main fat, so the cream penalty goes and the EVOO (1½ tsp per serving) counts: fats 1 → 3 [extra-virgin-olive-oil] [cooking-oil-choice]",
+    "Add an 8-oz (225 g) can of tomato sauce (≈⅔ cup per serving in all): cooked tomato ≥½ cup gives plants +1 and sperm +2 [tomatoes-lycopene]",
+    "Raise the turmeric to 2 tsp (½ tsp per serving); the black pepper and oil are already in the mix: nrf2 +1 [turmeric-curcumin]",
+    "Sprinkle ¼ tsp mustard powder over each serving off the heat: a raw myrosinase source lifts the cooked cauliflower from +3 to +5 (nrf2 +2) [mustard-seed-myrosinase]",
+    "Use 4 garlic cloves (1 per serving, with the ¼ onion): nrf2 +1 [garlic-alliums]",
+    "Serve over brown rice or with whole-wheat roti: whole grain plus ≥2 produce servings adds a profertility component (egg +1) [whole-grains] [profertility-diet]"
    ],
    "watch_outs": [
-    "Pregnancy: nothing from the watch-out list.",
-    "Allergens: none."
-   ]
+    "Pregnancy: nothing from the watch-out list (shop heavy cream is pasteurised).",
+    "Allergens: dairy (cream). Check spice-blend and tomato-sauce labels if you need it gluten-free."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "New at checking: replaces the aloo gobi. Rating 4.81/203 confirmed on the Budget Bytes page and JSON-LD; ingredients, method and times taken from the original; scored from scratch."
+   }
   },
   {
    "id": "mujadara",
@@ -4673,7 +4704,7 @@
     "rating_count": 314,
     "checked": "2026-10-11"
    },
-   "changes": "Metric units added; steps reworded. The fibre estimate uses FDC values for cooked lentils, which are higher than the recipe's own panel (8.5 g).",
+   "changes": "Metric units added; steps reworded. Lentils: 1 cup dry (≈190 g) taken as ≈2.5 cups (≈480 g) cooked, about 124 g cooked per serving; fibre and folate use FDC values for cooked lentils (7.9 g fibre and 181 µg folate per 100 g), which put fibre at ≈13 g, above the recipe panel's 8.5 g. The yogurt is a serving suggestion with no amount, so it is not counted.",
    "complexity": "medium",
    "active_min": 35,
    "total_min": 60,
@@ -4687,23 +4718,23 @@
    ],
    "nutrients": {
     "kcal": 471,
-    "fiber_g": 13,
+    "fiber_g": 13.5,
     "added_sugar_g": 0,
     "sat_fat_g": 2.1,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 255,
-    "choline_mg": 50,
+    "folate_ug_dfe": 250,
+    "choline_mg": 55,
     "iron_mg": 6,
     "zinc_mg": 2.6,
     "selenium_ug": 14,
     "b12_ug": 0,
     "vit_c_mg": 8,
-    "fruit_veg_servings": 2.3
+    "fruit_veg_servings": 2.1
    },
    "scores": {
     "plants": {
      "score": 6,
-     "why": "Per serving (4): onions ≈85 g (2 medium-large ≈340 g), green onions ≈12 g, cilantro or parsley ≈5–7 g = ≈102 g = 1.3 servings, plus lentils ≈124 g cooked = 1 pulse serving; total ≈2.3 (+3). EVOO ⅓ cup ÷ 4 = 1⅓ tbsp per serving; some stays in the pan, but the panel's 16 g fat per serving implies ≈1 tbsp is eaten (+1); fresh herbs 2 tbsp per serving plus ¾ tsp cumin (+1). Plant families: legume, grass (rice), allium, carrot family, laurel (bay), olive = 6 (+1). Total 3+2+1 = 6 [extra-virgin-olive-oil] [herbs-spices] [legumes]"
+     "why": "Per serving (4): onions ≈72 g (2 medium-to-large ≈290 g: between USDA's 110 g medium and 150 g large, and what the panel's 4.7 g sugar per serving implies), green onions ≈12 g, cilantro ≈2 g = ≈87 g = 1.1 servings, plus lentils ≈124 g cooked = 1 pulse serving; total ≈2.1 (+3; borderline, since two 110 g onions would give 1.9). EVOO ⅓ cup ÷ 4 = 1⅓ tbsp per serving in the pan; the onions are lifted out with a slotted spoon, but the panel's 16.3 g fat per serving, less ≈2.2 g from the rice, lentils and cumin, leaves ≈14 g oil ≈1 tbsp eaten (+1); fresh herbs 2 tbsp per serving plus ¾ tsp cumin (+1). Plant families: legume, grass (rice), allium, carrot family, laurel (bay), olive = 6 (+1). Total 3+1+1+1 = 6 [extra-virgin-olive-oil] [herbs-spices] [legumes]"
     },
     "nrf2": {
      "score": 3,
@@ -4715,7 +4746,7 @@
     },
     "glycemic": {
      "score": 10,
-     "why": "Fibre ≈13 g from FDC: lentils 1 cup dry ≈2.5 cups cooked × 15.6 g ÷ 4 = 9.8 g, brown rice 1.6 g, onions and herbs 1.9 g (+5); brown rice and lentils (+2); no added sugar (+2); lentil protein and EVOO (+1). Total 5+2+2+1 = 10 [legumes] [whole-grains] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈13.5 g from FDC: lentils 1 cup dry ≈ 2.5 cups (≈480 g) cooked × 7.9 g/100 g ÷ 4 = 9.5 g, brown basmati rice ≈2.3 g, onions, green onions, herbs and cumin ≈1.7 g (+5). The recipe panel's 8.5 g matches FDC's raw-lentil value, which is inconsistent with its cooked value; using the cooked figure as the brief's reference does, fibre is ≥12 g. Brown rice and lentils (+2); no added sugar (+2); lentil protein and EVOO (+1). Total 5+2+2+1 = 10 [legumes] [whole-grains] [dietary-fiber-microbiome]"
     },
     "cooking": {
      "score": 9,
@@ -4723,11 +4754,11 @@
     },
     "sperm": {
      "score": 3,
-     "why": "Base 1; folate ≈255 µg (+1); ≈2.3 produce servings (+1). Zinc ≈2.6 mg (lentils 1.6, brown rice 0.9) and selenium ≈14 µg are under the thresholds (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
+     "why": "Base 1; folate ≈250 µg (+1); ≈2.1 produce servings (+1). Zinc ≈2.6 mg (lentils 1.5, brown rice 0.9, onions and cumin 0.2) and selenium ≈14 µg (rice 11, lentils 3) are under the thresholds (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
     },
     "egg": {
-     "score": 6,
-     "why": "Base 1; folate ≈255 µg (+3): lentils ≈224 (2.5 cups × 358 µg ÷ 4), onions, green onions and herbs ≈25, rice ≈9; plant iron ≈6 mg (lentils 4.1, cumin 1.0, rice 0.7) but vitamin C only ≈8 mg, under 25 (0); choline ≈50 mg (0); it is served with yogurt, a dairy iodine source named in the recipe (+1); profertility: whole grain (brown rice) + ≥2 produce servings (+1). Total 1+3+1+1 = 6 [folic-acid] [profertility-diet] [iodine-status]"
+     "score": 5,
+     "why": "Base 1; folate ≈250 µg (+3): lentils ≈217 (480 g × 181 µg/100 g ÷ 4), onions, green onions and herbs ≈23, rice ≈9; plant iron ≈6 mg (lentils 4.0, cumin 1.0, rice 0.7) but vitamin C only ≈8 mg, under 25 (0); choline ≈55 mg (0); the yogurt is a serving suggestion with no amount, so it is not counted as an iodine source (0); profertility: whole grain (brown rice) + ≥2 produce servings (+1). Total 1+3+1 = 5 [folic-acid] [profertility-diet]"
     }
    },
    "ingredients": [
@@ -4775,7 +4806,11 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list (use pasteurised yogurt, as nearly all shop yogurt is).",
     "Allergens: dairy (yogurt, served on the side)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.7/314, ingredients and method confirmed. Egg 6→5: the serving yogurt has no amount, so it is not an iodine source. Fibre ≈13.5 g from FDC cooked lentils (1 cup dry ≈ 480 g cooked) keeps glycemic 10; oil eaten ≈1 tbsp per serving (from the panel's fat) keeps fats 4 and the EVOO point; produce ≈2.1 servings (onions ≈290 g) is borderline but holds."
+   }
   },
   {
    "id": "turmeric-ginger-chicken-soup-kale",
