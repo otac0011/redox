@@ -52,7 +52,7 @@ Then add:
 
 **Animal foods, refined oils and sugars** score 1. Exception: EVOO (≈ 5 mg hydroxytyrosol and derivatives per 20 g in high-phenolic oil) scores by its phenolic content.
 
-If no Phenol-Explorer value exists, estimate from a close relative and say so in `why`.
+Floor 1, cap 10. If no Phenol-Explorer value exists, estimate from a close relative and say so in `why`.
 
 ## 2. Nrf2 and sulfur compounds (`nrf2`)
 Factors: [broccoli-sprouts] [broccoli-mature] [cruciferous-other] [mustard-seed-myrosinase] [watercress-peitc] [wasabi-horseradish-itc] [garlic-alliums] [turmeric-curcumin] [indole-3-carbinol-dim]
@@ -76,7 +76,7 @@ If a crucifer is usually eaten fully cooked (for example boiled cabbage), keep i
 ## 3. Fat quality (`fats`)
 Factors: [omega3-fish] [extra-virgin-olive-oil] [walnuts-nuts] [flaxseed-lignans] [seed-oils-linoleic-acid] [cooking-oil-choice] [trans-fats] [processed-red-meat] [fish-oil-oxidation]
 
-- **`null`** when the serving has < 3 g fat and no penalty applies.
+- **`null`** when the serving has < 3 g fat, < 100 mg EPA+DHA and no penalty applies. Lean fish rich in omega-3 (albacore, anchovies) are scored.
 - **Base:** 3.
 - **EPA + DHA per serving:**
 
@@ -103,7 +103,7 @@ Floor 1, cap 10.
 ## 4. Blood sugar and fibre (`glycemic`)
 Factors: [dietary-fiber-microbiome] [legumes] [whole-grains] [refined-sugar-high-glycemic] [glycemic-control]
 
-- **`null`** when the serving has < 3 g carbohydrate (meat, fish, eggs, oils, cheese, most herbs and spices).
+- **`null`** when the serving has < 3 g carbohydrate, or when its only carbohydrate is lactose or glycogen: meat, fish, shellfish, liver, eggs, oils, plain unsweetened dairy, most herbs and spices. These foods don't drive post-meal glucose spikes, so a low score would mislead.
 - **Base:** 0.
 - **Fibre per serving:**
 
@@ -138,6 +138,7 @@ Factors: [walnuts-nuts] [omega3-fish] [tomatoes-lycopene] [zinc-status] [seleniu
 - **Folate:** ≥ 100 µg DFE = +1.
 - **Vitamin C:** ≥ 50 mg = +1.
 - **Penalties:**
+  - FDA "choices to avoid" fish (methylmercury; see [mercury-fish] [heavy-metals]): −3
   - processed meat: −4
   - sugar-sweetened drink or ≥ 25 g added sugar: −2
   - alcohol: −3

@@ -2407,7 +2407,7 @@
   {
    "id": "sheet-pan-salmon-garlicky-kale",
    "title": "Sheet-pan salmon with garlicky kale",
-   "summary": "Spice-rubbed salmon roasted beside olive-oil kale on one pan; a full day's omega-3 and EVOO make it top-scoring for fats, though the small kale portion limits the crucifer points.",
+   "summary": "Spice-rubbed salmon roasted beside olive-oil kale on one pan. A full day's omega-3 and plenty of EVOO make it top-scoring for fats, though the small kale portion limits the crucifer, fibre and folate points.",
    "source": {
     "title": "Sheet Pan Blackened Salmon with Garlicky Kale",
     "author": "Jenn Segal",
@@ -2418,7 +2418,7 @@
     "checked": "2026-10-11",
     "note": "Uses Tuscan kale as the vegetable (a crucifer, in place of broccoli or asparagus). 'Blackened' here means a spice coating roasted at 400 °F, not charred."
    },
-   "changes": "Gram and mL conversions added; steps reworded and condensed.",
+   "changes": "Gram and mL conversions added; the original's medium-rare timing (10–12 min) is left out; steps reworded and condensed.",
    "complexity": "easy",
    "active_min": 15,
    "total_min": 30,
@@ -2431,47 +2431,47 @@
    ],
    "nutrients": {
     "kcal": 560,
-    "fiber_g": 3,
-    "added_sugar_g": 4,
-    "sat_fat_g": 8,
-    "epa_dha_mg": 3700,
-    "folate_ug_dfe": 120,
-    "choline_mg": 155,
+    "fiber_g": 2.7,
+    "added_sugar_g": 4.3,
+    "sat_fat_g": 7.5,
+    "epa_dha_mg": 3400,
+    "folate_ug_dfe": 85,
+    "choline_mg": 145,
     "iron_mg": 1.5,
     "zinc_mg": 0.9,
-    "selenium_ug": 70,
-    "b12_ug": 4.8,
+    "selenium_ug": 66,
+    "b12_ug": 4.5,
     "vit_c_mg": 45,
     "fruit_veg_servings": 0.7
    },
    "scores": {
     "plants": {
      "score": 5,
-     "why": "Kale 57 g raw/serving ≈ 0.7 veg servings (+1); EVOO 5 tbsp ÷ 4 = 1.25 tbsp/serving (+1); dried spices 4 tsp ÷ 4 = 1 tsp/serving (+1) [herbs-spices]; Tuscan kale ≈ 2.5 cups raw/serving (+1) [leafy-greens]; ≥4 plant families: crucifers, alliums, olive, nightshade, mint, citrus (+1) = 5 [extra-virgin-olive-oil]"
+     "why": "Kale 57 g raw/serving ≈ 0.7 veg servings (+1); EVOO 5 tbsp ÷ 4 = 1.25 tbsp/serving (+1) [extra-virgin-olive-oil]; dried spices (paprika, cayenne, garlic powder, mustard, oregano) 4 tsp ÷ 4 = 1 tsp/serving, which meets the 1 tsp threshold (+1) [herbs-spices]; 57 g torn Tuscan kale ≈ 2.5–3 cups raw/serving (+1) [leafy-greens]; ≥4 plant families: crucifers, alliums, olive, nightshades, mint, citrus (+1). 1 + 1 + 1 + 1 + 1 = 5"
     },
     "nrf2": {
-     "score": 3,
-     "why": "Base 1; kale 57 g/serving roasted is in the 40–79 g band: half of the cooked +3 = 1.5, rounded down to +1 [cruciferous-other]; ½ fresh clove + ¼ tsp garlic powder (≈2 clove-equivalents) per serving, counted conservatively at +1 [garlic-alliums]; ¼ tsp dry mustard/serving is cooked on the fish, so not a meaningful raw myrosinase source (0). 1 + 1 + 1 = 3"
+     "score": 4,
+     "why": "Base 1; kale 57 g/serving roasted is in the 40–79 g band: half of the cooked +3 = 1.5, rounded down to +1 [cruciferous-other]; ½ fresh clove + ¼ tsp garlic powder per serving, and at ⅛ tsp powder ≈ 1 clove that is ≈2.5 clove-equivalents, so ≥2 cloves (+2) [garlic-alliums]; ¼ tsp dry mustard/serving is baked onto the fish, so it isn't a meaningful raw myrosinase source (0). 1 + 1 + 2 = 4"
     },
     "fats": {
      "score": 10,
-     "why": "Base 2; ≈170 g cooked farmed salmon × 2.2 g/100 g ≈ 3,700 mg EPA+DHA (+6) [omega3-fish]; EVOO is the main fat at 1.25 tbsp/serving (+2) [extra-virgin-olive-oil]; sat fat 8 g, no penalty. 2 + 6 + 2 = 10"
+     "why": "Base 2; a 7-oz (198 g) raw fillet ≈ 160 g cooked × 2.15 g/100 g (farmed Atlantic) ≈ 3,400 mg EPA+DHA (+6) [omega3-fish]; EVOO is the main fat at 1.25 tbsp/serving (+2) [extra-virgin-olive-oil]; sat fat ≈7.5 g, no penalty. 2 + 6 + 2 = 10"
     },
     "glycemic": {
-     "score": 7,
-     "why": "Fibre ≈3 g (+2); no starch (+2); honey 1 tbsp ÷ 4 ≈ 4 g added sugar (+2); the honey sits on salmon, so protein and fat come with it (+1) = 7"
+     "score": 5,
+     "why": "Fibre ≈2.7 g (kale 2.3 g + spices 0.4 g; the panel rounds to 3 g), under 3 g (+1) [dietary-fiber-microbiome]; no starch (+2); honey 1 tbsp = 17 g sugar ÷ 4 = 4.3 g/serving, over 4 g (+1) [refined-sugar-high-glycemic]; the honey sits on the salmon, so protein and fat come with it (+1). 1 + 2 + 1 + 1 = 5"
     },
     "cooking": {
      "score": 8,
      "why": "Salmon baked at 400 °F (205 °C), in the 200–220 °C fish band = 8; kale roasted at ≤ 425 °F = 8. Score 8 [high-temperature-cooking]"
     },
     "sperm": {
-     "score": 6,
-     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈70 µg (+1) [selenium-supplement]; folate ≈120 µg (+1); zinc 0.9 mg (0); produce 0.7 servings (0). 1 + 3 + 1 + 1 = 6"
+     "score": 5,
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈66 µg (+1) [selenium-supplement]; folate ≈85 µg, under 100 (0); zinc 0.9 mg (0); produce 0.7 servings (0). 1 + 3 + 1 = 5"
     },
     "egg": {
-     "score": 8,
-     "why": "Base 1; natural food folate ≈120 µg from salmon and kale (+2); EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; choline ≈155 mg (+1, borderline: assumes 7-oz fillets); seafood iodine (+1) [iodine-status]; B12 ≈4.8 µg (+1); only one profertility component, seafood (0). 1 + 2 + 2 + 1 + 1 + 1 = 8"
+     "score": 6,
+     "why": "Base 1; natural food folate ≈85 µg (salmon ≈54 µg + roasted kale ≈28 µg) (+1); EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; choline ≈145 mg (160 g cooked × 90.5 mg/100 g), just under 150 (0; 8-oz fillets would reach it); seafood iodine (+1) [iodine-status]; B12 ≈4.5 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0). 1 + 1 + 2 + 1 + 1 = 6"
     }
    },
    "ingredients": [
@@ -2515,27 +2515,31 @@
     "Pregnancy: cook the salmon to 145 °F (63 °C) using the well-done timing (15–17 min). The recipe's medium and medium-rare options leave it undercooked.",
     "Mercury: salmon is a low-mercury FDA 'best choice'.",
     "Allergens: fish"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.9/117; ingredients and method match the original. Nrf2 3→4 (⅛ tsp garlic powder ≈ 1 clove gives ≈2.5 clove-equivalents). Glycemic 7→5 (FDC fibre ≈2.7 g; honey is 4.3 g sugar/serving). Sperm 6→5 and egg 8→6 (SR Legacy kale folate of 62 µg/100 g gives ≈85 µg folate; choline ≈145 mg)."
+   }
   },
   {
-   "id": "sardine-pasta-lemon-garlic-crumbs",
-   "title": "Lemony sardine pasta with garlic crumbs",
-   "summary": "A 30-minute pantry pasta of canned sardines, golden onion, lemon zest, parsley and capers under crisp garlic breadcrumbs; it gives solid omega-3 and selenium, but uses white pasta and has modest folate.",
+   "id": "sardine-pasta-breadcrumbs-capers",
+   "title": "Sardine pasta with bread crumbs and capers",
+   "summary": "Mark Bittman's pantry pasta of tinned sardines, soft onion, lemon zest, capers and parsley under toasted crumbs. It gives solid omega-3 and selenium, but white pasta and little produce hold it back.",
    "source": {
-    "title": "Sardine Pasta With Lemon & Garlic Crumbs",
-    "author": "My Gourmet Connection",
-    "site": "My Gourmet Connection",
-    "url": "https://www.mygourmetconnection.com/sicilian-pasta-sardines/",
-    "rating": 4.54,
-    "rating_count": 45,
+    "title": "Pasta With Sardines, Bread Crumbs and Capers",
+    "author": "Mark Bittman",
+    "site": "NYT Cooking",
+    "url": "https://cooking.nytimes.com/recipes/1013094-pasta-with-sardines-bread-crumbs-and-capers",
+    "rating": 5,
+    "rating_count": 2232,
     "checked": "2026-10-11",
-    "note": "This was the best-rated lemony sardine pasta that could be verified, but 45 ratings is below the 100-rating target. Higher-count versions on Allrecipes, NYT Cooking, Bon Appétit and BBC Good Food block automated fetching, so their ratings couldn't be confirmed."
+    "note": "Replaces the earlier My Gourmet Connection pick (4.54 from 45 ratings). NYT Cooking shows only a rounded average: 5 stars from 2,232 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
    },
-   "changes": "Gram and mL conversions added. The tin size isn't stated in the original, so a typical 3.75–4.4 oz (106–125 g) tin is assumed. Steps reworded.",
+   "changes": "Serves 4–6 in the original. The nutrition panel doesn't give a single serving count, so it's scored at 4. 'About ½ pound' of sardines is read as the two tins' net weight (≈170 g drained fish). Gram and mL conversions added; the extra parsley and crumbs for garnish are folded into the last step; steps reworded.",
    "complexity": "medium",
-   "active_min": 25,
-   "total_min": 30,
-   "servings": 2,
+   "active_min": 20,
+   "total_min": 20,
+   "servings": 4,
    "meal": "dinner",
    "tags": [
     "pescatarian",
@@ -2543,94 +2547,96 @@
     "budget"
    ],
    "nutrients": {
-    "kcal": 690,
-    "fiber_g": 5,
+    "kcal": 700,
+    "fiber_g": 5.2,
     "added_sugar_g": 0,
-    "sat_fat_g": 3,
-    "epa_dha_mg": 440,
-    "folate_ug_dfe": 55,
+    "sat_fat_g": 3.0,
+    "epa_dha_mg": 410,
+    "folate_ug_dfe": 45,
     "choline_mg": 55,
-    "iron_mg": 5.8,
-    "zinc_mg": 2.0,
-    "selenium_ug": 85,
-    "b12_ug": 4.0,
-    "vit_c_mg": 18,
-    "fruit_veg_servings": 1.1
+    "iron_mg": 6.0,
+    "zinc_mg": 2.4,
+    "selenium_ug": 96,
+    "b12_ug": 3.7,
+    "vit_c_mg": 13,
+    "fruit_veg_servings": 0.49
    },
    "scores": {
     "plants": {
-     "score": 5,
-     "why": "Onion 80 g + parsley 7.5 g/serving ≈ 1.1 veg servings (+2); EVOO 2 tbsp ÷ 2 = 1 tbsp/serving (+1) [extra-virgin-olive-oil]; parsley 2 tbsp fresh/serving (+1) [herbs-spices]; ≥4 plant families: wheat, alliums, olive, parsley, citrus, caper, chili (+1) = 5"
+     "score": 3,
+     "why": "Onion ≈27 g + parsley 7.5 g + capers ≈4 g ≈ 39 g/serving = 0.49 servings, just under 0.5 (0); EVOO ¼ cup ÷ 4 = 1 tbsp/serving (+1) [extra-virgin-olive-oil]; parsley ½ cup ÷ 4 = 2 tbsp fresh/serving (+1) [herbs-spices]; ≥4 plant families: wheat, allium, olive, parsley, caper, citrus (+1). 0 + 1 + 1 + 1 = 3"
     },
     "nrf2": {
-     "score": 3,
-     "why": "Base 1; 1 garlic clove plus ≈0.7 onion per serving, so both alliums count (+2) [garlic-alliums]; no crucifers. 1 + 2 = 3"
+     "score": 2,
+     "why": "Base 1; one onion ÷ 4 = ¼ onion/serving (+1) [garlic-alliums]; no garlic, crucifers or turmeric. 1 + 1 = 2"
     },
     "fats": {
      "score": 6,
-     "why": "Base 2; ≈45 g drained sardines/serving × ~1.0 g/100 g ≈ 440 mg EPA+DHA (+2) [omega3-fish]; EVOO is the main fat at ≥1 tbsp/serving (+2) [extra-virgin-olive-oil]. 2 + 2 + 2 = 6"
+     "why": "Base 2; two tins ≈ 170 g drained sardines ÷ 4 ≈ 42 g/serving × ~0.98 g/100 g ≈ 410 mg EPA+DHA (+2) [omega3-fish]; EVOO is the main fat at 1 tbsp/serving, plus the sardines' own olive oil (+2) [extra-virgin-olive-oil]; sat fat ≈3 g. 2 + 2 + 2 = 6"
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈5 g (+3; recipe panel also says 5 g); white spaghetti is a refined starch (0) [whole-grains]; no added sugar (+2); pasta comes with sardines and olive oil (+1) = 6"
+     "why": "Fibre ≈5.2 g (pasta 3.6 g plus crumbs, onion and parsley; the panel's 3.6 g at 6 servings is 5.4 g at 4) (+3) [dietary-fiber-microbiome]; white pasta is a refined starch (0) [whole-grains]; no added sugar (+2); the pasta comes with sardines and olive oil (+1). 3 + 0 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 8,
-     "why": "Onion sautéed and crumbs lightly toasted in olive oil over medium heat; sardines only warmed through; pasta boiled. Sauté at medium heat in a stable oil = 8 [cooking-oil-choice]"
+     "why": "Crumbs toasted golden and onion softened in olive oil over medium heat, sardines warmed through at medium-high for 2 minutes, pasta boiled. Sauté in a stable oil = 8 [cooking-oil-choice]"
     },
     "sperm": {
      "score": 4,
-     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; selenium ≈85 µg from sardines and pasta (+1) [selenium-supplement]; natural food folate ≈55 µg, ignoring pasta fortification (0); zinc ≈2 mg (0); produce 1.1 servings (0). 1 + 2 + 1 = 4"
+     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; selenium ≈96 µg, mostly from pasta and sardines (+1) [selenium-supplement]; zinc ≈2.4 mg (0); natural food folate ≈45 µg, ignoring pasta fortification (0); no tomato (0); produce 0.49 servings (0). 1 + 2 + 1 = 4"
     },
     "egg": {
-     "score": 5,
-     "why": "Base 1; natural food folate ≈55 µg from onion, parsley, pasta and sardines, ignoring folic acid in enriched pasta (+1); EPA+DHA 250–499 mg from low-mercury sardines (+1) [omega3-fish]; iron ≈5.8 mg is mostly plant iron with only ≈18 mg vitamin C (0); choline ≈55 mg (0); seafood iodine (+1) [iodine-status]; B12 ≈4 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0). 1 + 1 + 1 + 1 + 1 = 5"
+     "score": 4,
+     "why": "Base 1; natural food folate ≈45 µg, under 50 (0); EPA+DHA 250–499 mg from low-mercury sardines (+1) [omega3-fish]; iron ≈6 mg is mostly from enriched pasta, with only ≈13 mg vitamin C (0) [iron-egg]; choline ≈55 mg (0); seafood iodine (+1) [iodine-status]; B12 ≈3.7 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0). 1 + 1 + 1 + 1 = 4"
     }
    },
    "ingredients": [
     {
      "group": null,
      "items": [
-      "6 oz (170 g) spaghetti or linguine",
-      "1 tin sardines packed in extra-virgin olive oil (typically 3.75–4.4 oz / 106–125 g)",
-      "2 garlic cloves, minced",
-      "¾ cup fresh breadcrumbs or panko (about 35–40 g)",
-      "Salt and freshly ground black pepper",
-      "2 tbsp (30 mL) extra-virgin olive oil",
-      "1 cup (about 160 g) chopped sweet onion",
-      "Zest of ½ lemon",
-      "¼ cup (about 15 g) chopped fresh parsley",
-      "2 tbsp capers, drained (optional)",
-      "¼ tsp crushed red pepper (optional)",
-      "Lemon wedges, for serving"
+      "Salt",
+      "¼ cup (60 mL) extra-virgin olive oil, divided",
+      "½ cup bread crumbs, ideally made from stale bread (about 30–50 g)",
+      "1 onion, chopped (about 110 g)",
+      "Freshly ground black pepper",
+      "1 lb (454 g) long pasta, such as perciatelli",
+      "1 tsp grated lemon zest",
+      "2 tbsp drained capers",
+      "2 tins sardines packed in extra-virgin olive oil (about ½ lb / 225 g in total)",
+      "½ cup (30 g) chopped fresh parsley, plus a little more to finish"
      ]
     }
    ],
    "steps": [
-    "Bring a pot of salted water to the boil for the pasta.",
-    "Tip the oil from the sardine tin into a frying pan and set the fish aside. Warm the pan over medium heat and cook the garlic for about 1 minute, until fragrant.",
-    "Add the breadcrumbs, season lightly and stir for 2–4 minutes until crisp and lightly golden, then move them to a plate.",
-    "Add the 2 tbsp olive oil to the pan and cook the onion, lightly seasoned, for 5–7 minutes until soft and golden.",
-    "Add the sardines, break them into chunks and warm for about 2 minutes. Stir in the lemon zest, parsley, capers and chili, then take the pan off the heat and cover it.",
-    "Cook the pasta as the package directs, saving ½ cup (120 mL) of the cooking water, then drain it and add it to the pan.",
-    "Toss everything together, adding pasta water a spoonful or two at a time until it coats well. Add the crumbs, toss again and serve with lemon wedges."
+    "Bring a large pot of water to the boil and salt it well.",
+    "Warm 2 tbsp of the oil in a medium skillet over medium heat. Stir the crumbs in it often for up to 5 minutes, until golden and fragrant, then tip them onto a plate.",
+    "Add the rest of the oil and the onion to the skillet, season with salt and pepper, and cook about 5 minutes, stirring now and then, until soft.",
+    "Meanwhile boil the pasta until just tender. Drain it, keeping a cup of the cooking water.",
+    "Turn the skillet up to medium-high, add the lemon zest, capers and sardines, and stir for about 2 minutes until hot.",
+    "Add the pasta, parsley and most of the crumbs and toss, loosening with a splash of the saved water if it looks dry. Taste for seasoning and finish with the last crumbs and a little more parsley."
    ],
    "boosts": [
-    "Use whole-wheat spaghetti [whole-grains]",
+    "Use whole-wheat pasta [whole-grains]",
+    "Add a third tin of sardines to pass 500 mg EPA+DHA per serving (+2 fats, +1 sperm, +1 egg) [omega3-fish]",
+    "Cook 4 garlic cloves with the onion (≥1 clove per serving, so +1 Nrf2 alongside the onion) [garlic-alliums]",
     "Toss 80 g of rocket/arugula per serving into the hot pasta just before serving: a raw crucifer adds +5 Nrf2 [cruciferous-other]",
-    "Use two tins of sardines to push EPA+DHA past 500 mg per serving [omega3-fish]",
-    "Squeeze the lemon wedges over the pasta: the extra vitamin C helps absorb the pasta's plant iron [iron-egg]"
+    "Squeeze a lemon over the bowls: the vitamin C helps absorb the pasta's plant iron [iron-egg]"
    ],
    "watch_outs": [
     "Mercury: sardines are a low-mercury FDA 'best choice' and fine in pregnancy.",
-    "Salty: sardines and capers are high in sodium, so salt lightly.",
+    "Salty: sardines and capers are high in sodium, so salt the onion lightly.",
     "Allergens: fish, gluten"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Replaced the My Gourmet Connection recipe (4.54/45, below target) with Mark Bittman's NYT Cooking version (rounded 5 stars from 2,232 ratings): the same lemon, crumb, caper and sardine dish. Fetched the JSON-LD for ingredients and method, wrote new steps, and re-scored from FDC at 4 servings: 3/2/6/6/8/4/4."
+   }
   },
   {
    "id": "baked-fish-tacos-purple-cabbage",
    "title": "Baked fish tacos with purple cabbage",
-   "summary": "Spiced tilapia baked, not fried, and piled into corn tortillas with raw purple cabbage, avocado and a creamy lime sauce; it's high in fibre and produce but low in omega-3.",
+   "summary": "Spiced tilapia baked, not fried, and piled into corn tortillas with raw purple cabbage, avocado and a creamy lime sauce. It's high in fibre and whole grain, but low in omega-3, and the cheese-and-mayo toppings push saturated fat over the limit.",
    "source": {
     "title": "Fish Tacos Recipe with Best Fish Taco Sauce!",
     "author": "Natasha Kravchuk",
@@ -2639,9 +2645,9 @@
     "rating": 4.99,
     "rating_count": 2021,
     "checked": "2026-10-11",
-    "note": "Yield is 24 tacos; here 4 tacos count as one serving (6 servings)."
+    "note": "The original's yield is 24 tacos and its nutrition panel is per taco. One taco is too small for a main, so 4 tacos count as one serving (6 servings, about 4 oz / 113 g raw fish each)."
    },
-   "changes": "Gram and mL conversions added; the cabbage weight (≈350 g for ½ small head) is an estimate. Servings defined as 4 tacos each. Steps reworded.",
+   "changes": "Gram and mL conversions added; the cabbage weight (≈350 g for ½ small head) is an estimate. Servings defined as 4 tacos each, because a single taco is too small for a main. Steps reworded.",
    "complexity": "involved",
    "active_min": 30,
    "total_min": 55,
@@ -2652,36 +2658,36 @@
     "gluten-free"
    ],
    "nutrients": {
-    "kcal": 670,
-    "fiber_g": 11,
+    "kcal": 690,
+    "fiber_g": 10.5,
     "added_sugar_g": 0,
-    "sat_fat_g": 9,
-    "epa_dha_mg": 130,
-    "folate_ug_dfe": 62,
-    "choline_mg": 78,
+    "sat_fat_g": 10.7,
+    "epa_dha_mg": 125,
+    "folate_ug_dfe": 65,
+    "choline_mg": 85,
     "iron_mg": 2.8,
-    "zinc_mg": 2.1,
-    "selenium_ug": 62,
-    "b12_ug": 2.2,
-    "vit_c_mg": 40,
-    "fruit_veg_servings": 1.7
+    "zinc_mg": 2.6,
+    "selenium_ug": 59,
+    "b12_ug": 2.0,
+    "vit_c_mg": 43,
+    "fruit_veg_servings": 1.8
    },
    "scores": {
     "plants": {
      "score": 5,
-     "why": "Per serving: cabbage ≈53 g + avocado ≈45 g + tomato ≈21 g + red onion ≈9 g + cilantro ≈5 g ≈ 133 g = 1.7 servings (+2) [high-fruit-vegetable-intake]; cilantro ≈5 tbsp fresh/serving (+1) [herbs-spices]; red onion and purple cabbage are anthocyanin vegetables (+1); ≥4 plant families: crucifers, avocado, nightshades, alliums, cilantro/cumin, corn, citrus (+1) = 5"
+     "why": "Per serving: cabbage ≈58 g + avocado ≈45 g + tomato ≈21 g + red onion ≈10 g + cilantro ≈5 g + lime juice ≈5 g ≈ 144 g = 1.8 servings (+2) [high-fruit-vegetable-intake]; cilantro ≈5 tbsp fresh/serving (+1) [herbs-spices]; red onion and purple cabbage are anthocyanin vegetables (+1); ≥4 plant families: crucifers, avocado, nightshades, alliums, cilantro/cumin, corn, citrus (+1). 2 + 1 + 1 + 1 = 5"
     },
     "nrf2": {
      "score": 4,
-     "why": "Base 1; raw purple cabbage ≈53 g/serving is in the 40–79 g band: half of +5 = 2.5, rounded down to +2 [cruciferous-other]; garlic powder 1 tsp ÷ 6 ≈ 1.3 clove-equivalents/serving (+1) [garlic-alliums]. 1 + 2 + 1 = 4"
+     "why": "Base 1; raw purple cabbage ≈58 g/serving is in the 40–79 g band: half of +5 = 2.5, rounded down to +2 [cruciferous-other]; garlic powder 1 tsp ÷ 6 = ⅙ tsp/serving, and at ⅛ tsp ≈ 1 clove that's ≈1.3 clove-equivalents (+1) [garlic-alliums]. 1 + 2 + 1 = 4"
     },
     "fats": {
-     "score": 3,
-     "why": "Base 2; ≈97 g cooked tilapia × ~0.13 g/100 g ≈ 130 mg EPA+DHA (+1) [omega3-fish]; olive oil only ½ tsp/serving (0); sat fat ≈9 g from cotija, sour cream, mayo and butter is under 10 g, and butter isn't the main fat (no penalty). 2 + 1 = 3"
+     "score": 1,
+     "why": "Base 2; ≈91 g cooked tilapia (113 g raw) × ~0.135 g/100 g ≈ 125 mg EPA+DHA (+1) [omega3-fish]; olive oil only ½ tsp/serving (0); saturated fat ≈10.7 g/serving (cotija 3.6, sour cream 2.0, mayonnaise 1.4, butter 1.2, avocado 1.0, fish 0.9, tortillas and oil 0.7) is over 10 g (−2). 2 + 1 − 2 = 1"
     },
     "glycemic": {
-     "score": 7,
-     "why": "Fibre ≈11 g from corn tortillas, avocado and cabbage (+4; recipe panel 3 g/taco × 4 = 12 g) [dietary-fiber-microbiome]; the rubric scores tortillas as refined (0), though corn masa is arguably whole grain; no added sugar (+2); tortillas come with fish and avocado (+1) = 7"
+     "score": 9,
+     "why": "Fibre ≈10.5 g from corn tortillas (≈6 g), avocado, cabbage and toppings (+4; the panel's 3 g/taco × 4 = 12 g) [dietary-fiber-microbiome]; corn tortillas count as whole grain (+2) [whole-grains]; no added sugar (+2); tortillas come with fish and avocado (+1). 4 + 2 + 2 + 1 = 9"
     },
     "cooking": {
      "score": 8,
@@ -2689,11 +2695,11 @@
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; EPA+DHA ≈130 mg (0); selenium ≈62 µg from tilapia (+1) [selenium-supplement]; zinc ≈2.1 mg (0); folate ≈62 µg (0); fresh tomato under 1 cup (0); produce 1.7 servings (0). 1 + 1 = 2"
+     "why": "Base 1; EPA+DHA ≈125 mg (0); selenium ≈59 µg, mostly tilapia (+1) [selenium-supplement]; zinc ≈2.6 mg (0); folate ≈65 µg (0); fresh tomato under 1 cup (0); produce 1.8 servings (0). 1 + 1 = 2"
     },
     "egg": {
      "score": 5,
-     "why": "Base 1; natural food folate ≈62 µg, mostly from avocado and cabbage (+1); EPA+DHA under 250 mg (0); iron ≈2.8 mg (0); choline ≈78 mg (0); seafood and dairy iodine (+1) [iodine-status]; B12 ≈2.2 µg (+1); seafood + dairy = 2 different profertility components (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 = 5"
+     "why": "Base 1; natural food folate ≈65 µg, mostly from avocado and cabbage (+1); EPA+DHA under 250 mg (0); iron ≈2.8 mg (0); choline ≈85 mg (0); seafood and dairy iodine (+1) [iodine-status]; B12 ≈2.0 µg (+1); whole grain (corn tortillas) + seafood + dairy = 3 profertility components (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 = 5"
     }
    },
    "ingredients": [
@@ -2743,8 +2749,8 @@
    ],
    "boosts": [
     "Swap the tilapia for salmon or rainbow trout to lift EPA+DHA above 500 mg per serving [omega3-fish]",
+    "Use plain Greek yogurt in place of the sour cream and mayonnaise: saturated fat drops under 10 g and the −2 fat penalty goes [mediterranean-diet]",
     "Double the cabbage to over 80 g per serving to earn the full raw-crucifer +5 [cruciferous-other]",
-    "Use plain Greek yogurt in place of the sour cream and mayonnaise to cut saturated fat [mediterranean-diet]",
     "Skip the optional broil [high-temperature-cooking]"
    ],
    "watch_outs": [
@@ -2752,118 +2758,133 @@
     "Pregnancy: bake the fish until it flakes (145 °F / 63 °C).",
     "Mercury: tilapia is a low-mercury FDA 'best choice'.",
     "Allergens: fish, dairy, egg (mayonnaise)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.99/2,021; ingredients and method match. Kept 4 tacos per serving (≈113 g raw fish, a normal main portion). Fats 3→1: saturated fat is ≈10.7 g per serving, over the 10 g limit. Glycemic 7→9: corn tortillas now count as whole grain, which also counts toward the egg score's profertility components (egg stays 5)."
+   }
   },
   {
-   "id": "mussels-spicy-tomato-sauce",
-   "title": "Mussels in spicy tomato sauce",
-   "summary": "Mussels steamed in a garlicky, chili-spiked tomato and white-wine sauce in a hot oven. Mussels and tomato give it top-tier zinc, selenium, B12, omega-3 and lycopene, so it scores highest on fertility.",
+   "id": "pasta-mussels-tomato-sauce",
+   "title": "Linguine with mussels in tomato sauce",
+   "summary": "Mussels steamed open in white wine, then folded into a quick garlicky tomato sauce with linguine. It gives good omega-3, selenium and B12, but the small amount of tomato, white pasta and barely cooked wine keep the scores moderate.",
    "source": {
-    "title": "Steamed Mussels with Spicy Tomato Sauce",
-    "author": "America's Test Kitchen",
-    "site": "America's Test Kitchen",
-    "url": "https://www.americastestkitchen.com/recipes/12655-steamed-mussels-with-spicy-tomato-sauce",
-    "rating": 4.3,
-    "rating_count": 40,
+    "title": "Pasta With Mussels in Tomato Sauce",
+    "author": "Martha Rose Shulman",
+    "site": "NYT Cooking",
+    "url": "https://cooking.nytimes.com/recipes/1017313-pasta-with-mussels-in-tomato-sauce",
+    "rating": 5,
+    "rating_count": 877,
     "checked": "2026-10-11",
-    "note": "Test-kitchen recipe (ATK). Rated 4.34 by 40 members, below the 4.5 / 100-rating target. No mussels-in-tomato recipe with ≥100 ratings could be verified on sites that allow fetching. The recipe sits behind ATK's member paywall."
+    "note": "Replaces the earlier America's Test Kitchen pick (4.3 from 40). NYT Cooking shows only a rounded average: 5 stars from 877 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
    },
-   "changes": "Serves 4–6 in the original; scored at 4 main-course servings. Gram and mL conversions added; steps reworded.",
-   "complexity": "easy",
-   "active_min": 20,
-   "total_min": 45,
+   "changes": "Gram and mL conversions added; the shallot weight (≈40 g) is an estimate; steps reworded.",
+   "complexity": "medium",
+   "active_min": 35,
+   "total_min": 50,
    "servings": 4,
    "meal": "dinner",
    "tags": [
     "pescatarian",
-    "gluten-free",
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 330,
-    "fiber_g": 4,
-    "added_sugar_g": 0,
-    "sat_fat_g": 1.4,
-    "epa_dha_mg": 860,
-    "folate_ug_dfe": 112,
-    "choline_mg": 100,
-    "iron_mg": 10,
-    "zinc_mg": 3.3,
-    "selenium_ug": 100,
-    "b12_ug": 26,
-    "vit_c_mg": 34,
-    "fruit_veg_servings": 2.5
+    "kcal": 560,
+    "fiber_g": 4.4,
+    "added_sugar_g": 0.5,
+    "sat_fat_g": 1.6,
+    "epa_dha_mg": 390,
+    "folate_ug_dfe": 70,
+    "choline_mg": 80,
+    "iron_mg": 7.0,
+    "zinc_mg": 2.8,
+    "selenium_ug": 99,
+    "b12_ug": 12,
+    "vit_c_mg": 21,
+    "fruit_veg_servings": 1.5
    },
    "scores": {
     "plants": {
-     "score": 5,
-     "why": "Crushed tomatoes 794 g ÷ 4 ≈ 200 g/serving = 2.5 servings (+3) [high-fruit-vegetable-intake]; cooked tomato product ≥½ cup (+1) [tomatoes-lycopene]; EVOO only ¾ tsp/serving and parsley ½ tbsp/serving, both below thresholds (0); ≥4 plant families: nightshades, alliums, olive, parsley, grape (+1) = 5"
+     "score": 4,
+     "why": "Canned tomatoes 411 g ÷ 4 ≈ 103 g + shallot ≈10 g + parsley ≈4 g + garlic ≈2 g ≈ 119 g = 1.5 servings (+2) [high-fruit-vegetable-intake]; parsley ¼ cup ÷ 4 = 1 tbsp fresh plus thyme ½ tsp fresh per serving (+1) [herbs-spices]; tomato ≈103 g ≈ 0.43 cup, under ½ cup (0) [tomatoes-lycopene]; EVOO 2 tbsp ÷ 4 = 1.5 tsp, under 1 tbsp (0); ≥4 plant families: nightshades, alliums, olive, wheat, parsley, mint, grape (+1). 2 + 1 + 1 = 4"
     },
     "nrf2": {
      "score": 1,
-     "why": "Base 1; garlic 3 cloves ÷ 4 = 0.75 clove/serving, under the 1-clove threshold (0); no crucifers. = 1"
+     "why": "Base 1; garlic 3 cloves ÷ 4 = 0.75 clove/serving and shallot ≈10 g/serving, both under threshold (0) [garlic-alliums]; no crucifers. = 1"
     },
     "fats": {
-     "score": 6,
-     "why": "Base 2; ≈110 g cooked mussel meat/serving (≈25% yield from 4 lb in shell) × ~0.8 g/100 g ≈ 860 mg EPA+DHA (+4) [omega3-fish]; EVOO 1 tbsp ÷ 4 is under 1 tsp/serving (0). 2 + 4 = 6"
+     "score": 5,
+     "why": "Base 2; 2 lb mussels in shell ÷ 4 ≈ 227 g; at ≈22% cooked-meat yield that's ≈50 g meat × 0.78 g/100 g ≈ 390 mg EPA+DHA (+2; a 25% yield gives ≈445 mg, the same band) [omega3-fish]; EVOO is the main fat at 1.5 tsp/serving (+1) [extra-virgin-olive-oil]; sat fat ≈1.6 g. 2 + 2 + 1 = 5"
     },
     "glycemic": {
-     "score": 7,
-     "why": "Fibre ≈4 g from tomatoes (+2); no starch in the recipe, since bread is only a serving suggestion (+2); no added sugar (+2); tomato carbohydrate comes with mussel protein (+1) = 7"
+     "score": 5,
+     "why": "Fibre ≈4.4 g by FDC (pasta 2.7 g plus tomatoes, shallot and parsley); the panel's 5.4 g doesn't match FDC values (+2) [dietary-fiber-microbiome]; white linguine is a refined starch (0) [whole-grains]; only a pinch of sugar, under 4 g (+2); the pasta comes with mussels and olive oil (+1). 2 + 0 + 2 + 1 = 5"
     },
     "cooking": {
      "score": 10,
-     "why": "Mussels steamed in simmering sauce under foil; tomato paste cooked only until slightly darkened. Steam/simmer = 10"
+     "why": "Mussels steamed in wine, tomato sauce simmered, pasta boiled; the garlic only cooks until fragrant. Steam/simmer/boil = 10"
     },
     "sperm": {
-     "score": 10,
-     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; zinc ≈3.3 mg (+1) [zinc-status]; selenium ≈100 µg (+1); folate ≈112 µg (+1); produce 2.5 servings (+1). Wine simmers ≈21–24 min in total (1 min boil + 5 min reduce + 15–18 min covered in the oven), so ≥15 min and no penalty [alcohol]. 1 + 3 + 2 + 1 + 1 + 1 + 1 = 10"
+     "score": 3,
+     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; cooked tomato ≈0.43 cup, under ½ cup (0) [tomatoes-lycopene]; zinc ≈2.8 mg (mussels 1.3 + pasta 1.2 + other), under 3 (0); selenium ≈99 µg (+1) [selenium-supplement]; folate ≈70 µg (0); produce 1.5 servings (0). The wine boils only 2–4 min with the mussels, and the reserved liquid barely simmers in the sauce, so well under 15 min (−1) [alcohol]. 1 + 2 + 1 − 1 = 3"
     },
     "egg": {
-     "score": 9,
-     "why": "Base 1; folate ≈112 µg (+2); EPA+DHA ≥500 mg from low-mercury mussels (+2) [omega3-fish]; iron ≈10 mg, with ≈34 mg vitamin C covering the tomato's plant iron (+1) [iron-egg]; choline ≈100 mg (0); seafood iodine (+1); B12 ≈26 µg (+1); seafood + ≥2 produce servings = 2 different profertility components (+1). 1 + 2 + 2 + 1 + 1 + 1 + 1 = 9"
+     "score": 3,
+     "why": "Base 1; natural food folate ≈70 µg from mussels, tomatoes, pasta and parsley (+1); EPA+DHA 250–499 mg from low-mercury mussels (+1) [omega3-fish]; iron ≈7 mg, but mussels supply only ≈3.4 mg and vitamin C is ≈21 mg, so the plant-iron condition isn't met (0) [iron-egg]; choline ≈80 mg (0); seafood iodine (+1) [iodine-status]; B12 ≈12 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0); wine not cooked off (−2) [alcohol]. 1 + 1 + 1 + 1 + 1 − 2 = 3"
     }
    },
    "ingredients": [
     {
      "group": null,
      "items": [
-      "1 tbsp (15 mL) extra-virgin olive oil",
-      "1 tbsp (16 g) tomato paste",
-      "3 garlic cloves, minced",
-      "¾ tsp red pepper flakes",
-      "1 cup (240 mL) dry white wine",
-      "1 can (28 oz / 794 g) crushed tomatoes",
-      "¼ tsp salt",
-      "4 lb (1.8 kg) mussels, scrubbed and debearded",
-      "2 tbsp minced fresh parsley"
+      "1 can (14.5 oz / 411 g) chopped or whole tomatoes",
+      "3 fat garlic cloves: 1 crushed, 2 minced",
+      "1 shallot, chopped (about 40 g)",
+      "½ cup (120 mL) dry white wine",
+      "2 lb (900 g) mussels, rinsed, scrubbed and debearded",
+      "2 tbsp (30 mL) extra-virgin olive oil",
+      "¼ tsp red pepper flakes",
+      "2 tsp chopped fresh thyme, marjoram or both",
+      "Pinch of sugar",
+      "Salt",
+      "¾ lb (340 g) linguine or other pasta",
+      "¼ cup (15 g) chopped flat-leaf parsley"
      ]
     }
    ],
    "steps": [
-    "Throw out any mussels that smell bad, have cracked shells or won't close when tapped. Set a rack in the lowest position and heat the oven to 500 °F (260 °C).",
-    "In a large roasting pan over medium heat, stir the oil, tomato paste, garlic and pepper flakes for about 2 minutes, until fragrant and the paste has darkened a little.",
-    "Pour in the wine, bring it to the boil and let it reduce for about 1 minute. Add the tomatoes and salt, turn the heat to high and cook, stirring often, for about 5 minutes until slightly thickened.",
-    "Stir in the mussels, cover the pan tightly with foil and bake 15–18 minutes, until most shells have opened.",
-    "Discard any mussels that stayed closed, toss with the parsley and serve."
+    "Pulse the tomatoes and their juice a few times in a food processor to a coarse purée. Put a large pot of water on to boil for the pasta.",
+    "In a wide lidded pan, bring the wine to the boil with the shallot and the crushed garlic. Add the mussels, cover and cook 2–4 minutes, shaking the pan now and then.",
+    "Lift out the mussels with tongs as they open, covering the pan again and checking every minute until all have opened. Throw away any that stay shut.",
+    "When the mussels are cool enough to handle, take half of them out of their shells and leave the rest whole. If they taste gritty, rinse them quickly and drain.",
+    "Strain the pan juices through a sieve lined with cheesecloth and keep ½ cup (120 mL). Rinse and dry the pan.",
+    "Warm the oil in the pan over medium heat and stir the minced garlic and pepper flakes for 30–60 seconds, until fragrant. Add the tomatoes, herbs and sugar, raise the heat to medium-high and cook 5–10 minutes, stirring often, until a little thicker.",
+    "Stir in the reserved mussel liquid, bring it to a simmer and salt only if needed. Add all the mussels, cover and keep warm over the lowest heat.",
+    "Salt the boiling water and cook the linguine al dente. Drain it and toss in a warmed bowl with the sauce, mussels and parsley, then serve straight away."
    ],
    "boosts": [
-    "Use 4–6 garlic cloves (≥1 per serving) [garlic-alliums]",
-    "Finish each bowl with 1 tbsp extra-virgin olive oil [extra-virgin-olive-oil]",
-    "Scatter a generous handful of parsley or basil (≥1 tbsp per serving) [herbs-spices]",
-    "Serve with whole-grain bread to soak up the sauce [whole-grains]"
+    "Use a 28-oz (794 g) can of tomatoes for ≥½ cup cooked tomato per serving (+2 sperm, +1 plants) [tomatoes-lycopene]",
+    "Steam the mussels in water or low-sodium broth instead of wine (+1 sperm, +2 egg) [alcohol]",
+    "Use whole-wheat linguine (+2 glycemic) [whole-grains]",
+    "Use 4 or more garlic cloves (≥1 per serving) [garlic-alliums]",
+    "Drizzle 1½ tsp more extra-virgin olive oil per bowl, for 1 tbsp per serving [extra-virgin-olive-oil]",
+    "Serve with a rocket/arugula salad, at least 80 g per person [cruciferous-other]"
    ],
    "watch_outs": [
-    "Pregnancy: the sauce holds ¼ cup wine per serving. It cooks for about 20 minutes, which removes most but not all of the alcohol. Use low-sodium broth or clam juice instead for a fully alcohol-free version.",
-    "Pregnancy: eat only mussels that have opened fully during cooking, and discard any that stay closed.",
+    "Pregnancy: the ½ cup of wine (2 tbsp per serving) boils for only a few minutes with the mussels, so most of its alcohol stays in the reserved liquid. Steam the mussels in water, broth or clam juice instead.",
+    "Pregnancy: cook the mussels until their shells open fully and discard any that stay closed.",
     "Mercury: mussels are very low in mercury.",
-    "Allergens: shellfish (molluscs)"
-   ]
+    "Allergens: shellfish (molluscs), gluten"
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Replaced the ATK recipe (4.3/40, below target) with Martha Rose Shulman's NYT Cooking recipe (rounded 5 stars from 877 ratings). Fetched the JSON-LD for ingredients and method, wrote new steps, and scored from FDC at the panel's 4 servings: 4/1/5/5/10/3/3. The scores are lower than the ATK version because there's less tomato and the wine is barely cooked."
+   }
   },
   {
    "id": "cioppino-seafood-stew",
    "title": "Cioppino (San Francisco fish stew)",
-   "summary": "A wine-and-tomato seafood stew with baked fish, clams and shrimp. Omega-3, EVOO, lycopene, selenium and choline score high; the butter and long prep keep it from being a weeknight dish.",
+   "summary": "A wine-and-tomato seafood stew with baked fish, clams and shrimp. Omega-3, EVOO, lycopene, zinc and choline score high; the butter and long prep keep it from being a weeknight dish.",
    "source": {
     "title": "Cioppino (Fisherman's Stew)",
     "author": "Jenn Segal",
@@ -2884,32 +2905,32 @@
     "gluten-free"
    ],
    "nutrients": {
-    "kcal": 650,
+    "kcal": 680,
     "fiber_g": 4.8,
     "added_sugar_g": 2,
-    "sat_fat_g": 8,
-    "epa_dha_mg": 770,
-    "folate_ug_dfe": 73,
-    "choline_mg": 340,
-    "iron_mg": 4.4,
-    "zinc_mg": 4.1,
-    "selenium_ug": 150,
-    "b12_ug": 16,
-    "vit_c_mg": 22,
+    "sat_fat_g": 9.0,
+    "epa_dha_mg": 720,
+    "folate_ug_dfe": 80,
+    "choline_mg": 355,
+    "iron_mg": 5.0,
+    "zinc_mg": 4.5,
+    "selenium_ug": 127,
+    "b12_ug": 28,
+    "vit_c_mg": 25,
     "fruit_veg_servings": 2.8
    },
    "scores": {
     "plants": {
      "score": 6,
-     "why": "Crushed tomatoes ≈200 g + shallots ≈27 g/serving ≈ 2.8 servings (+3) [high-fruit-vegetable-intake]; EVOO 6 tbsp ÷ 4 = 1.5 tbsp/serving (+1) [extra-virgin-olive-oil]; cooked tomato ≥½ cup (+1) [tomatoes-lycopene]; thyme, oregano and chili together are under 1 tsp dried per serving (0); ≥4 plant families: nightshades, alliums, olive, mint, grape (+1) = 6"
+     "why": "Crushed tomatoes ≈200 g + shallots ≈27 g/serving ≈ 2.8 servings (+3) [high-fruit-vegetable-intake]; EVOO 6 tbsp ÷ 4 = 1.5 tbsp/serving (+1) [extra-virgin-olive-oil]; cooked tomato ≥½ cup (+1) [tomatoes-lycopene]; thyme, oregano and chili together come to about ½ tsp dried-equivalent per serving (0); ≥4 plant families: nightshades, alliums, olive, mint, grape (+1). 3 + 1 + 1 + 1 = 6"
     },
     "nrf2": {
-     "score": 2,
-     "why": "Base 1; shallots ⅔ cup ÷ 4 ≈ 27 g/serving ≈ ¼ onion (+1) [garlic-alliums]; garlic 0.75 clove/serving doesn't add a second allium point; no crucifers. 1 + 1 = 2"
+     "score": 1,
+     "why": "Base 1; shallots ⅔ cup ≈ 107 g ÷ 4 ≈ 26.7 g/serving, against ¼ of a medium (110 g) onion = 27.5 g, so 0.97 of the threshold (0) [garlic-alliums]; garlic 3 cloves ÷ 4 = 0.75 clove/serving (0); no crucifers. = 1"
     },
     "fats": {
      "score": 8,
-     "why": "Base 2; per serving ≈145 g cooked cod (≈290 mg) + ≈140 g shrimp (≈420 mg) + clams (≈60 mg) ≈ 770 mg EPA+DHA (+4) [omega3-fish]; EVOO is the main fat at 1.5 tbsp/serving (+2), with butter only ¾ tbsp; sat fat ≈8 g, no penalty. 2 + 4 + 2 = 8"
+     "why": "Base 2; per serving ≈145 g cooked cod (≈230 mg) + ≈140 g cooked shrimp (≈420 mg) + ≈25 g clam meat (≈70 mg) ≈ 720 mg EPA+DHA (+4) [omega3-fish]; EVOO is the main fat at 1.5 tbsp/serving, with butter at ¾ tbsp (+2) [extra-virgin-olive-oil]; sat fat ≈9 g, under 10 g. 2 + 4 + 2 = 8"
     },
     "glycemic": {
      "score": 7,
@@ -2921,11 +2942,11 @@
     },
     "sperm": {
      "score": 9,
-     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; zinc ≈4.1 mg (+1) [zinc-status]; selenium ≈150 µg (+1); folate ≈73 µg (0); produce 2.8 servings (+1). Wine boils 3–4 min, then simmers 25 min covered plus ≈11 min with the shellfish, so ≥15 min and no penalty [alcohol]. 1 + 3 + 2 + 1 + 1 + 1 = 9"
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; cooked tomato ≈200 g ≥ ½ cup (+2) [tomatoes-lycopene]; zinc ≈4.5 mg, mostly shrimp (+1) [zinc-status]; selenium ≈127 µg (+1) [selenium-supplement]; folate ≈80 µg (0); produce 2.8 servings (+1). Wine boils 3–4 min, then simmers 25 min covered plus ≈11 min with the shellfish, so ≥15 min and no penalty [alcohol]. 1 + 3 + 2 + 1 + 1 + 1 = 9"
     },
     "egg": {
      "score": 8,
-     "why": "Base 1; folate ≈73 µg (+1); EPA+DHA ≥500 mg from low-mercury cod, shrimp and clams (+2) [omega3-fish]; iron ≈4.4 mg is mostly plant iron with only ≈22 mg vitamin C (0); choline ≈340 mg from shrimp and fish (+1); seafood iodine (+1); B12 ≈16 µg (+1); seafood + ≥2 produce servings = 2 different components (+1). 1 + 1 + 2 + 1 + 1 + 1 + 1 = 8"
+     "why": "Base 1; folate ≈80 µg (+1); EPA+DHA ≥500 mg from low-mercury cod, shrimp and clams (+2) [omega3-fish]; iron ≈5 mg is mostly tomato (plant) iron, and vitamin C is only ≈25 mg before 35 minutes of simmering, so the 25 mg condition isn't clearly met (0) [iron-egg]; choline ≈355 mg, mostly shrimp and fish (+1); seafood iodine (+1) [iodine-status]; B12 ≈28 µg, mostly clams (+1); seafood + ≥2 produce servings = 2 profertility components (+1) [profertility-diet]. 1 + 1 + 2 + 1 + 1 + 1 + 1 = 8"
     }
    },
    "ingredients": [
@@ -2962,7 +2983,8 @@
     "Pour in the wine, turn the heat to high and boil 3–4 minutes until it has reduced by about half.",
     "Add the tomatoes, clam juice, sugar, 1 tsp salt, pepper flakes, oregano, thyme sprigs and the water. Bring to the boil, then cover and simmer gently for 25 minutes.",
     "While it simmers, toss the fish with the remaining 2 tbsp oil and ¾ tsp salt, spread it on the sheet and bake about 10 minutes until just cooked through (145 °F / 63 °C). Keep it covered and warm.",
-    "Remove the thyme sprigs, stir in the butter and add the clams. Return to a simmer, cover and cook about 6 minutes until most clams open. Add the shrimp and simmer, covered, about 5 minutes more until the shrimp are opaque and all the clams are open; discard any that stay shut. Stir in the chopped thyme and adjust the seasoning.",
+    "Remove the thyme sprigs, stir in the butter and add the clams. Bring back to a simmer, cover and cook about 6 minutes, until most of the clams have opened.",
+    "Stir in the shrimp, cover and simmer about 5 minutes more, until the shrimp are opaque (145 °F / 63 °C) and all the clams are open; throw away any that stay shut. Add the chopped thyme and adjust the seasoning.",
     "Divide the fish among bowls and ladle the stew, clams and shrimp over the top."
    ],
    "boosts": [
@@ -2974,9 +2996,13 @@
    "watch_outs": [
     "Pregnancy: the stew contains ¼ cup wine per serving. It simmers well over 15 minutes, so most of the alcohol cooks off, but not all; replace it with extra clam juice or broth for a fully alcohol-free version.",
     "Pregnancy: cook until the clams are fully open, the shrimp are opaque and the fish reaches 145 °F (63 °C).",
-    "Mercury: choose cod, salmon or snapper. Halibut is an FDA 'good choice', so eat it less often. Never substitute swordfish, king mackerel or other high-mercury fish.",
+    "Mercury: cod and salmon are FDA 'best choices'. Halibut and snapper are 'good choices', so eat them less often. Never substitute swordfish, king mackerel or other high-mercury fish.",
     "Allergens: fish, shellfish (crustaceans and molluscs), dairy (butter)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.88/136; ingredients and method match; scoring at 4 servings follows the site's nutrition panel. Nrf2 2→1: the shallots come to ≈26.7 g per serving, just under ¼ onion (27.5 g). Watch-out corrected: snapper is an FDA 'good choice', not a 'best choice'. B12 is ≈28 µg (16 before), and the long clam-and-shrimp step is split in two."
+   }
   },
   {
    "id": "baked-mackerel-saba-shioyaki",
@@ -3009,11 +3035,11 @@
     "sat_fat_g": 4.6,
     "epa_dha_mg": 1300,
     "folate_ug_dfe": 12,
-    "choline_mg": 80,
+    "choline_mg": 90,
     "iron_mg": 1.7,
     "zinc_mg": 1.0,
-    "selenium_ug": 57,
-    "b12_ug": 21,
+    "selenium_ug": 56,
+    "b12_ug": 20,
     "vit_c_mg": 9,
     "fruit_veg_servings": 0.4
    },
@@ -3028,7 +3054,7 @@
     },
     "fats": {
      "score": 7,
-     "why": "Base 2; 140 g raw fillet ≈ 110 g cooked × ~1.2 g/100 g (Atlantic mackerel) ≈ 1,300 mg EPA+DHA (+5) [omega3-fish]; no added fat; sat fat ≈4.6 g. 2 + 5 = 7"
+     "why": "Base 2; 140 g raw fillet ≈ 108 g cooked × ~1.2 g/100 g (FDC Atlantic mackerel, cooked) ≈ 1,300 mg EPA+DHA (+5) [omega3-fish]; no added fat; sat fat ≈4.5 g. Pacific chub mackerel (FDC 'Pacific and jack', ≈1.85 g/100 g) would give ≈2,000 mg (+6). 2 + 5 = 7"
     },
     "glycemic": {
      "score": 5,
@@ -3044,7 +3070,7 @@
     },
     "egg": {
      "score": 5,
-     "why": "Base 1; folate ≈12 µg (0); EPA+DHA ≥500 mg from low-mercury Atlantic or chub mackerel (+2) [omega3-fish] [mercury-fish]; iron ≈1.7 mg (0); choline ≈80 mg (0); seafood iodine (+1); B12 ≈21 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0). 1 + 2 + 1 + 1 = 5"
+     "why": "Base 1; folate ≈12 µg (0); EPA+DHA ≥500 mg from low-mercury Atlantic or chub mackerel (+2) [omega3-fish] [mercury-fish]; iron ≈1.7 mg (0); choline ≈90 mg (0); seafood iodine (+1); B12 ≈20 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (1 tsp of soy sauce isn't a soy food) (0). 1 + 2 + 1 + 1 = 5"
     }
    },
    "ingredients": [
@@ -3077,7 +3103,11 @@
     "Pregnancy: bake until the flesh flakes (145 °F / 63 °C).",
     "Alcohol: the sake is rubbed on and discarded before baking, so almost none remains; you can skip it.",
     "Allergens: fish, soy and gluten (soy sauce; use tamari for gluten-free)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.74/149; ingredients and method (baked at 425 °F) match. Scores unchanged. Using Atlantic EPA+DHA is the cautious choice: Norwegian Atlantic mackerel is widely sold as saba, and chub mackerel would raise fats to 8. Choline, selenium and B12 adjusted to FDC values."
+   }
   },
   {
    "id": "avgolemono-chicken-rice-soup",
@@ -3105,12 +3135,12 @@
     "kcal": 450,
     "fiber_g": 0.5,
     "added_sugar_g": 0,
-    "sat_fat_g": 9,
+    "sat_fat_g": 8.5,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 36,
-    "choline_mg": 225,
-    "iron_mg": 2.4,
-    "zinc_mg": 1.9,
+    "folate_ug_dfe": 44,
+    "choline_mg": 220,
+    "iron_mg": 4.1,
+    "zinc_mg": 2.2,
     "selenium_ug": 43,
     "b12_ug": 0.8,
     "vit_c_mg": 7,
@@ -3127,11 +3157,11 @@
     },
     "fats": {
      "score": 1,
-     "why": "Base 2; no omega-3, EVOO or nuts; heavy cream (½ cup ÷ 4 = 2 tbsp, ≈11 g fat/serving) is the main fat (−2); sat fat ≈9 g. 2 − 2 = 0, floored at 1"
+     "why": "Base 2; no omega-3, EVOO or nuts; heavy cream (½ cup ÷ 4 = 2 tbsp, ≈11 g fat/serving) is the main fat (−2); sat fat ≈8.5 g. 2 − 2 = 0, floored at 1"
     },
     "glycemic": {
      "score": 3,
-     "why": "Fibre ≈0.5 g (0); white rice is a refined starch (0) [whole-grains]; no added sugar (+2); rice comes with chicken and egg (+1) = 3"
+     "why": "Fibre ≈0.5 g (0); white rice is a refined starch (0) [whole-grains]; no added sugar (+2); rice comes with chicken and egg (+1). 0 + 0 + 2 + 1 = 3"
     },
     "cooking": {
      "score": 10,
@@ -3143,7 +3173,7 @@
     },
     "egg": {
      "score": 3,
-     "why": "Base 1; natural food folate ≈36 µg from eggs, lemon and chicken, ignoring folic acid in enriched rice (0); no omega-3 (0); iron ≈2.4 mg (0); choline ≈225 mg from eggs, yolks and chicken (+1); egg and dairy iodine (+1) [iodine-status]; B12 ≈0.8 µg (0); only one profertility component, dairy (0). 1 + 1 + 1 = 3"
+     "why": "Base 1; natural food folate ≈44 µg from eggs, lemon, broth and chicken, ignoring folic acid in enriched rice (0); no omega-3 (0); iron ≈4.1 mg counting enriched rice and broth, but it is mostly non-meat iron with only ≈7 mg vitamin C (0); choline ≈220 mg from eggs, yolks and chicken (+1); egg and dairy iodine (+1) [iodine-status]; B12 ≈0.8 µg (0); only one profertility component, dairy (0). 1 + 1 + 1 = 3"
     }
    },
    "ingredients": [
@@ -3182,7 +3212,11 @@
     "Pregnancy: the eggs are only cooked by the soup's heat. Make sure the soup returns to a gentle simmer (at least 160 °F / 71 °C) after the egg mixture goes in, and cook the chicken to 165 °F (74 °C).",
     "Check the broth label if you need it gluten-free.",
     "Allergens: egg, dairy (cream)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.86/149; ingredients and method match; scoring at 4 servings follows the site's nutrition panel. Scores unchanged. Nutrients re-estimated: folate ≈44 µg, iron ≈4.1 mg including enriched rice, still with too little vitamin C for the iron point."
+   }
   },
   {
    "id": "tandoori-chicken-yogurt-marinade",
@@ -3209,15 +3243,15 @@
    ],
    "nutrients": {
     "kcal": 350,
-    "fiber_g": 0.6,
+    "fiber_g": 0.9,
     "added_sugar_g": 0,
     "sat_fat_g": 6,
     "epa_dha_mg": 20,
     "folate_ug_dfe": 15,
     "choline_mg": 85,
     "iron_mg": 1.9,
-    "zinc_mg": 2.9,
-    "selenium_ug": 28,
+    "zinc_mg": 2.4,
+    "selenium_ug": 30,
     "b12_ug": 0.6,
     "vit_c_mg": 3,
     "fruit_veg_servings": 0
@@ -3237,15 +3271,15 @@
     },
     "glycemic": {
      "score": 5,
-     "why": "Fibre ≈0.6 g (0); no starch (+2); no added sugar (+2); trace carbohydrate comes with protein (+1) = 5"
+     "why": "Fibre ≈0.9 g, mostly from the spices (0); no starch (+2); no added sugar (+2); trace carbohydrate comes with protein (+1). 0 + 2 + 2 + 1 = 5"
     },
     "cooking": {
      "score": 6,
-     "why": "Poultry roasted at 470 °F (240 °C) then broiled 3–4 min to charred spots, cooked to well done = 4, raised to 6 by the ≥6-hour yogurt-lemon-spice marinade [marinating-meat] [high-temperature-cooking]. Heavier charring would drop it to 2"
+     "why": "Poultry roasted at 470 °F (240 °C), then broiled 3–4 min only until 'some' charred spots appear and cooked to well done = 4, raised to 6 by the ≥6-hour yogurt-lemon-spice marinade [marinating-meat] [high-temperature-cooking]. A few spots aren't 'charred or blackened meat' (2), though heavier charring would be"
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; ≈100 g cooked dark meat gives zinc ≈2.9 mg, just under 3 (0); selenium ≈28 µg (+1); folate ≈15 µg (0); no produce (0). 1 + 1 = 2"
+     "why": "Base 1; ≈100 g cooked thigh/leg meat gives zinc ≈2.4 mg with the yogurt and spices, under 3 (0); selenium ≈30 µg (+1) [selenium-supplement]; folate ≈15 µg (0); no produce (0). 1 + 1 = 2"
     },
     "egg": {
      "score": 2,
@@ -3294,10 +3328,15 @@
     "Choose avocado or mustard oil rather than grapeseed for the high-heat roast [cooking-oil-choice]"
    ],
    "watch_outs": [
-    "Pregnancy: cook to 165 °F (74 °C) at the bone.",
+    "Pregnancy: cook to 165 °F (74 °C) at the thickest part, next to the bone.",
+    "Food safety: leftover marinade has held raw chicken. Baste with it only while the chicken still has at least 10 minutes of cooking ahead (or use the chili-oil option), and never serve it as a sauce.",
     "High heat: broiling to char forms heterocyclic amines, so keep charred spots small.",
     "Allergens: dairy (yogurt; optional butter)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.99/619; ingredients and method match (the 470 °F roast and 3–4 min broil 'until some charred spots'). Kept cooking at 6: a few spots on yogurt-marinated chicken isn't charred meat. Scores unchanged. Added a food-safety watch-out about basting with raw-chicken marinade."
+   }
   },
   {
    "id": "beef-broccoli-stir-fry",
@@ -3323,27 +3362,27 @@
    ],
    "nutrients": {
     "kcal": 370,
-    "fiber_g": 3.5,
+    "fiber_g": 3.1,
     "added_sugar_g": 2,
     "sat_fat_g": 3.8,
     "epa_dha_mg": 20,
-    "folate_ug_dfe": 75,
-    "choline_mg": 100,
+    "folate_ug_dfe": 78,
+    "choline_mg": 115,
     "iron_mg": 3.0,
     "zinc_mg": 5.0,
     "selenium_ug": 29,
     "b12_ug": 2.2,
     "vit_c_mg": 110,
-    "fruit_veg_servings": 1.5
+    "fruit_veg_servings": 1.4
    },
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Broccoli ≈120 g/serving = 1.5 servings (+2); ginger, five-spice and pepper together are far below 1 tsp dried per serving (0); ≥4 plant families: crucifer, allium, ginger, soy, sesame, rice wine (+1) = 3"
+     "why": "Broccoli ≈113 g/serving (1 head ≈ 340 g ÷ 3) ≈ 1.4 servings (+2); ginger, five-spice and pepper together are far below 1 tsp dried per serving (0); ≥4 plant families: crucifer, allium, ginger, soy, grains (rice wine, cornstarch) (+1). 2 + 1 = 3"
     },
     "nrf2": {
      "score": 4,
-     "why": "Base 1; broccoli ≈120 g/serving (≥80 g), par-boiled 40 s–1 min and then simmered in the sauce: boiled or simmered counts as cooked, however short (+3) [broccoli-mature]; garlic 1 clove ÷ 3 servings (0). 1 + 3 = 4"
+     "why": "Base 1; broccoli ≈113 g/serving (≥80 g), par-boiled 40 s–1 min and then simmered in the sauce, counts as cooked, however short (+3) [broccoli-mature]; garlic 1 clove ÷ 3 servings (0). 1 + 3 = 4"
     },
     "fats": {
      "score": 2,
@@ -3351,7 +3390,7 @@
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre ≈3.5 g (+2; panel says 4.1 g); no starch in the recipe, since the suggested rice isn't part of it (+2); sugar 1 tsp ÷ 3 plus dark soy ≈ 2 g (+2); carbohydrate comes with beef (+1) = 7"
+     "why": "Fibre ≈3.1 g, mostly broccoli (+2; panel 4.1 g); no starch in the recipe, since the suggested rice isn't part of it (+2); sugar 1 tsp ÷ 3 plus dark soy ≈ 2 g (+2); carbohydrate comes with beef (+1). 2 + 2 + 2 + 1 = 7"
     },
     "cooking": {
      "score": 8,
@@ -3359,11 +3398,11 @@
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; ≈90 g cooked beef gives zinc ≈5 mg (+1, ≥3 but under 5.5) [zinc-status]; selenium ≈29 µg (+1); folate ≈75 µg (0); produce 1.5 servings (0); 1 tbsp Shaoxing wine simmers only about 1 min (−1) [alcohol]. 1 + 1 + 1 − 1 = 2"
+     "why": "Base 1; ≈90 g cooked beef gives zinc ≈5 mg (+1; ≥3 but under 5.5) [zinc-status]; selenium ≈29 µg (+1) [selenium-supplement]; folate ≈78 µg (0); produce 1.4 servings (0). The Shaoxing wine is in the sauce: 2 tbsp of it coats the beef for under 2 minutes of stir-frying, and the rest bubbles about 1 minute with the broccoli before the pan comes off the heat, so ≈2–3 minutes of heat in all (−1) [alcohol]. 1 + 1 + 1 − 1 = 2"
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; folate ≈75 µg (+1); iron ≈3 mg (0); choline ≈100 mg (0); no named iodine source (0); B12 ≈2.2 µg (+1); no profertility components (0); Shaoxing wine not cooked off (−2) [alcohol]. 1 + 1 + 1 − 2 = 1"
+     "why": "Base 1; folate ≈78 µg (+1); iron ≈3 mg (0); choline ≈115 mg (0); no named iodine source (0); B12 ≈2 µg (+1); no profertility components (0); Shaoxing wine heated only ≈2–3 min, so not cooked off (−2) [alcohol]. 1 + 1 + 1 − 2 = 1"
     }
    },
    "ingredients": [
@@ -3410,7 +3449,11 @@
    "watch_outs": [
     "Pregnancy: the 1 tbsp of Shaoxing wine is barely cooked. The amount per serving is tiny, but swap in broth to avoid it entirely. Cook the beef until no pink remains.",
     "Allergens: soy, gluten (soy sauce and Shaoxing wine contain wheat), sesame (optional sesame oil)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.92/118; ingredients and method match; scoring at 3 servings follows the panel. Confirmed the Shaoxing wine is heated only ≈2–3 minutes (part with the beef, the rest a 1-minute simmer), so the alcohol penalties stand. Scores unchanged; broccoli per serving set at ≈113 g."
+   }
   },
   {
    "id": "moroccan-chicken-chickpea-couscous",
@@ -3439,23 +3482,23 @@
    ],
    "nutrients": {
     "kcal": 330,
-    "fiber_g": 5.5,
+    "fiber_g": 5.4,
     "added_sugar_g": 0,
     "sat_fat_g": 1.2,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 46,
+    "folate_ug_dfe": 40,
     "choline_mg": 74,
     "iron_mg": 3.1,
     "zinc_mg": 1.5,
     "selenium_ug": 34,
     "b12_ug": 0.2,
     "vit_c_mg": 16,
-    "fruit_veg_servings": 1.8
+    "fruit_veg_servings": 1.5
    },
    "scores": {
     "plants": {
-     "score": 4,
-     "why": "Per serving: tomatoes ≈50 g + onion ≈19 g + kale ≈12 g + garlic ≈2 g ≈ 1.0 serving, plus raisins 10 g ≈ 0.33 and chickpeas 30 g ≈ 0.4 (legumes capped at 1 serving) ≈ 1.8 servings (+2); spice blend without salt ≈7.75 tsp ÷ 8 ≈ 1 tsp dried/serving (+1, borderline) [herbs-spices]; tomato (≈¼ cup) and kale (½ cup raw) are both under threshold (0); ≥4 plant families: wheat, legume, crucifer, nightshade, allium, grape, cumin/coriander, cinnamon, ginger (+1) = 4"
+     "score": 3,
+     "why": "Per serving: tomatoes ≈50 g + onion ≈19 g + kale ≈10 g + raisins ≈10 g + garlic ≈2 g ≈ 91 g = 1.1 servings, plus chickpeas 30 g ≈ 0.4 (legumes capped at 1) ≈ 1.5 servings (+2) [high-fruit-vegetable-intake]; spice blend without salt = 7.75 tsp ÷ 8 = 0.97 tsp dried/serving, under the strict 1 tsp threshold (0) [herbs-spices]; tomato (≈¼ cup) and kale (about ½ cup raw) are both under threshold (0); ≥4 plant families: wheat, legume, crucifer, nightshade, allium, grape, cumin/coriander, cinnamon, ginger (+1). 2 + 1 = 3"
     },
     "nrf2": {
      "score": 1,
@@ -3467,11 +3510,11 @@
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈5.5 g from chickpeas, couscous, raisins and veg (+3; the recipe panel claims 8 g) [legumes]; the main starch is refined pearl couscous, with chickpeas the smaller share (0) [whole-grains]; raisins are fruit, so no added sugar (+2); couscous comes with chicken and chickpeas (+1) = 6"
+     "why": "Fibre ≈5.4 g from chickpeas, couscous, spices, raisins and vegetables (+3; the panel says 8 g) [legumes]; the main starch is refined pearl couscous, with chickpeas the smaller share (0) [whole-grains]; raisins are fruit, so no added sugar (+2); couscous comes with chicken and chickpeas (+1). 3 + 0 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 10,
-     "why": "Oven-braised, covered then uncovered, at 375 °F = 10. The brief initial sear is the first step of the braise, not a separate component, so there's no midpoint"
+     "why": "Oven-braised, covered and then uncovered, at 375 °F = 10. The 2–3 min/side sear is the first step of the braise, and the chicken then braises for an hour, so it isn't a separate harsher component and there's no midpoint"
     },
     "sperm": {
      "score": 2,
@@ -3479,7 +3522,7 @@
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; natural food folate ≈46 µg: canned chickpeas ≈19 µg (≈105 µg per cup) plus kale and tomato (0); iron ≈3.1 mg (0); choline ≈74 mg (0); no named iodine source (0); B12 ≈0.2 µg (0); no profertility components (0). = 1"
+     "why": "Base 1; natural food folate ≈40 µg (canned chickpeas ≈14 µg plus kale, tomato and onion) (0); iron ≈3 mg (0); choline ≈74 mg (0); no named iodine source (0); B12 ≈0.2 µg (0); no profertility components (0). = 1"
     }
    },
    "ingredients": [
@@ -3524,6 +3567,7 @@
     "Cover with a lid or foil and bake 30 minutes, then uncover and bake 30 minutes more, until the couscous is tender and the chicken reaches 165 °F (74 °C)."
    ],
    "boosts": [
+    "Add ¼ tsp more of each spice to the blend (≥1 tsp per serving) [herbs-spices]",
     "Double the kale (8 cups) [leafy-greens]",
     "Add a second can of chickpeas [legumes]",
     "Use a 28-oz (794 g) can of tomatoes for ≥½ cup cooked tomato per serving [tomatoes-lycopene]",
@@ -3533,7 +3577,11 @@
    "watch_outs": [
     "Pregnancy: cook the chicken to 165 °F (74 °C).",
     "Allergens: gluten (pearl couscous is wheat)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.56/102; ingredients and method match; 8 servings follows the panel. Plants 4→3: the spice blend is 7.75 tsp ÷ 8 = 0.97 tsp per serving, under the strict 1 tsp threshold. Produce recounted at 80 g per serving for raisins too (1.5 servings, still +2)."
+   }
   }
  ]
 }

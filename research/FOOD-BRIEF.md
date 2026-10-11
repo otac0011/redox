@@ -65,3 +65,14 @@ For **every** food in the file you're given:
 4. Add `"check": {"date": "2026-10-11", "summary": "what you verified and changed"}`.
 
 Write the corrected file to the output path, plus a short markdown report listing each change as from→to with the reason.
+
+## Shared tools (added during the run)
+The scratchpad folder is `C:\Users\junkc\AppData\Local\Temp\claude\C--GIT\75460c61-ed8d-40d5-8646-8e783f8519d6\scratchpad`.
+
+- **`fdc_portal.py`:** keyless USDA FoodData Central lookup, using the same portal search the FDC website uses.
+  - Put one query per line in a text file. Prefix a line with `F:` to search Foundation foods instead of SR Legacy.
+  - Run `python -I fdc_portal.py queries.txt`.
+  - It prints per-100 g values (kcal, fat, carb, fibre, SFA, EPA, DHA, ALA, folate DFE, choline, Fe, Zn, Se, B12, vitamin C, vitamin A RAE, iodine) and writes `queries.txt.json`.
+  - Keep a pause between queries; the script already sleeps 0.6 s.
+  - Cite each food's FDC page as `https://fdc.nal.usda.gov/food-details/<fdcId>/nutrients`.
+- **`ods\*.html`:** saved NIH ODS fact sheets with their per-serving food tables (Folate, Choline, Zinc, Selenium, Iron, B12, Iodine, Vitamin C, Omega-3, Vitamin A), plus the FDA fish-advice page (`fda.html`). Parse them locally instead of re-fetching; the live site returns 403 to curl.
