@@ -4102,7 +4102,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "wild-blueberries",
@@ -4179,7 +4183,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "blackberries",
@@ -4202,14 +4210,14 @@
     "b12_ug": 0,
     "vit_c_mg": 30.2,
     "iodine_ug": null,
-    "polyphenols_mg": 392,
+    "polyphenols_mg": 390,
     "lycopene_mg": 0.0,
     "gl": 3
    },
    "scores": {
     "plants": {
      "score": 10,
-     "why": "Polyphenols ≈ 392 mg/serving: Phenol-Explorer chromatography sum 257 + normal-phase HPLC proanthocyanidins (dimers and larger) 16 = 272 mg/100 g (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
+     "why": "Polyphenols ≈ 390 mg/serving: Phenol-Explorer chromatography sum 257 + normal-phase HPLC proanthocyanidins (dimers and larger) 16 − 2 procyanidin dimers/trimers already in the chromatography sum = 271 mg/100 g (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
     },
     "nrf2": {
      "score": 1,
@@ -4252,7 +4260,11 @@
      "label": "USDA FoodData Central SR Legacy 173946: Blackberries, raw",
      "url": "https://fdc.nal.usda.gov/food-details/173946/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Removed 1.5 mg/100 g of double-counted procyanidins (392 → 390 mg); score unchanged."
+   }
   },
   {
    "id": "raspberries",
@@ -4262,7 +4274,7 @@
    "highlight": "The highest-fibre common fruit (8 g a cup) with ellagitannins and anthocyanins, and very low sugar.",
    "nutrients": {
     "kcal": 64,
-    "fiber_g": 8.0,
+    "fiber_g": 7.995,
     "carb_g": 14.6,
     "sat_fat_g": 0.02,
     "epa_dha_mg": 0,
@@ -4282,7 +4294,7 @@
    "scores": {
     "plants": {
      "score": 8,
-     "why": "Polyphenols ≈ 255 mg/serving: Phenol-Explorer chromatography sum 207 = 207 mg/100 g (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
+     "why": "Polyphenols ≈ 255 mg/serving: Phenol-Explorer chromatography sum 207 = 207 mg/100 g (no proanthocyanidin data, so possibly a slight undercount) (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
     },
     "nrf2": {
      "score": 1,
@@ -4324,7 +4336,11 @@
      "label": "USDA FoodData Central SR Legacy 167755: Raspberries, raw",
      "url": "https://fdc.nal.usda.gov/food-details/167755/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Fibre is 7.995 g, so +4 (strictly below 8), as already scored; the display no longer rounds it up to 8.0. Noted that there is no proanthocyanidin data (polyphenol 255 mg might be slightly low; adding a blackberry-like PAC would still stay under 300)."
+   }
   },
   {
    "id": "strawberries",
@@ -4347,14 +4363,14 @@
     "b12_ug": 0,
     "vit_c_mg": 89.4,
     "iodine_ug": null,
-    "polyphenols_mg": 362,
+    "polyphenols_mg": 359,
     "lycopene_mg": 0.0,
     "gl": 3
    },
    "scores": {
     "plants": {
      "score": 10,
-     "why": "Polyphenols ≈ 362 mg/serving: Phenol-Explorer chromatography sum 98 + normal-phase HPLC proanthocyanidins (dimers and larger) 141 = 238 mg/100 g (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
+     "why": "Polyphenols ≈ 359 mg/serving: Phenol-Explorer chromatography sum 98 + normal-phase HPLC proanthocyanidins (dimers and larger) 141 − 2 procyanidin dimers/trimers already in the chromatography sum = 236 mg/100 g (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
     },
     "nrf2": {
      "score": 1,
@@ -4400,7 +4416,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Removed 2.4 mg/100 g of double-counted procyanidins (362 → 359 mg). Still ≥ 300 at the 1-cup (152 g) serving; a ¾-cup serving would fall to 7."
+   }
   },
   {
    "id": "cranberries-fresh",
@@ -4423,14 +4443,14 @@
     "b12_ug": 0,
     "vit_c_mg": 14.0,
     "iodine_ug": null,
-    "polyphenols_mg": 554,
+    "polyphenols_mg": 505,
     "lycopene_mg": 0.0,
     "gl": 4
    },
    "scores": {
     "plants": {
      "score": 10,
-     "why": "Polyphenols ≈ 554 mg/serving: Phenol-Explorer chromatography sum 135 mg/100 g, which leaves out proanthocyanidins, plus ≈ 419 mg/100 g proanthocyanidins from the USDA proanthocyanidin database (Gu et al. 2004); the Phenol-Explorer Folin total of 315 mg/100 g also clears 300 (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
+     "why": "Polyphenols ≈ 505 mg/serving: Phenol-Explorer chromatography sum 135 mg/100 g minus 48 mg benzoic acid (not a polyphenol) = 87 mg/100 g, which leaves out proanthocyanidins, plus 419 mg/100 g proanthocyanidins from the USDA proanthocyanidin database (Gu et al. 2004) = 505 mg/100 g; the Phenol-Explorer Folin total of 315 mg/100 g also clears 300 (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
     },
     "nrf2": {
      "score": 1,
@@ -4476,7 +4496,11 @@
      "label": "Gu et al. 2004, concentrations of proanthocyanidins in common foods (J Nutr 134:613)",
      "url": "https://doi.org/10.1093/jn/134.3.613"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Polyphenols 554 → 505 mg/serving: took the 48 mg/100 g benzoic acid (not a polyphenol) out of the Phenol-Explorer sum; USDA proanthocyanidins (419 mg/100 g) confirmed. Score unchanged. Warfarin and oxalate watch-outs checked."
+   }
   },
   {
    "id": "black-currants",
@@ -4553,7 +4577,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. FDC has no fibre value; ≈ 5 g/100 g kept (literature AOAC values are 4–7 g/100 g, which would score +4 either way)."
+   }
   },
   {
    "id": "aronia",
@@ -4630,14 +4658,18 @@
      "label": "Kulling & Rawel 2008, Chokeberry (Aronia melanocarpa): a review (Planta Med 74:1625)",
      "url": "https://doi.org/10.1055/s-0028-1088306"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "no FDC SR entry; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No FDC entry; Kulling & Rawel nutrient estimates and Phenol-Explorer totals (chromatography plus NP-HPLC dimers and up, no overlap) confirmed."
+   }
   },
   {
    "id": "tart-cherries",
    "name": "Tart cherries (sour, Montmorency)",
    "group": "fruit",
    "serving": "1 cup pitted, raw or frozen unsweetened (155 g)",
-   "highlight": "Anthocyanin-rich and low in sugar; mostly eaten frozen, dried or as juice concentrate, and the dried ones are usually sugar-sweetened.",
+   "highlight": "Low in sugar, with chlorogenic acids, anthocyanins and flavonols; Montmorency, the usual US tart cherry, has fewer anthocyanins than dark sweet cherries. Mostly eaten frozen, dried or as juice concentrate, and the dried ones are usually sugar-sweetened.",
    "nutrients": {
     "kcal": 78,
     "fiber_g": 2.5,
@@ -4653,14 +4685,14 @@
     "b12_ug": 0,
     "vit_c_mg": 15.5,
     "iodine_ug": null,
-    "polyphenols_mg": 150,
+    "polyphenols_mg": 224,
     "lycopene_mg": 0.0,
     "gl": 4
    },
    "scores": {
     "plants": {
      "score": 8,
-     "why": "Polyphenols ≈ 150 mg/serving: Phenol-Explorer chromatography sum 97 = 97 mg/100 g (only 13 compounds; the Folin total is 352, so this is a cautious figure right at the 150 mg cut-off) (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
+     "why": "Polyphenols ≈ 224 mg/serving: Montmorency UPLC total 145 mg/100 g (anthocyanins 30, phenolic acids 73, flavan-3-ols 27, flavonols 14; Sokół-Łętowska et al. 2020, 21-cultivar mean 161). This replaces the Phenol-Explorer sour cherry chromatography sum of 97 mg/100 g, which has only anthocyanins and hydroxycinnamic acids (13 compounds, no flavonols or flavan-3-ols) (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
     },
     "nrf2": {
      "score": 1,
@@ -4691,6 +4723,10 @@
    ],
    "sources": [
     {
+     "label": "Sokół-Łętowska et al. 2020, chemical composition of 21 sour cherry cultivars incl. Montmorency, UPLC phenolics (Molecules 25:4587)",
+     "url": "https://doi.org/10.3390/molecules25194587"
+    },
+    {
      "label": "Phenol-Explorer: Sour cherry (polyphenol content)",
      "url": "http://phenol-explorer.eu/contents/food/47"
     },
@@ -4702,7 +4738,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Polyphenols 150 → 224 mg/serving: replaced the 13-compound Phenol-Explorer sum (97 mg/100 g, no flavonols or flavan-3-ols) with the Montmorency UPLC total of 145 mg/100 g (Sokół-Łętowska et al. 2020). Plants score stays 8, now clear of the 150 mg cut-off; 300 mg would need 194 mg/100 g, above Montmorency's measured value, so it stays below sweet cherries. Highlight corrected: Montmorency is not especially anthocyanin-rich."
+   }
   },
   {
    "id": "sweet-cherries",
@@ -4755,7 +4795,7 @@
      "why": "Base 1; natural folate 6 µg DFE (0); iron 0.5 mg (0); choline 8 mg (0); no DHA, iodine or B12; not a profertility food type; no penalties = 1"
     }
    },
-   "best_prep": "Eat them fresh in season or frozen out of season; the darker the cherry, the more anthocyanin.",
+   "best_prep": "Eat them fresh in season or frozen out of season; the darker the cherry, the more anthocyanin. The polyphenol figure is for dark red cherries; yellow-red types such as Rainier have much less.",
    "watch_outs": [
     "Rinse just before eating, under running water [washing-produce].",
     "Birch-pollen and stone-fruit (LTP) allergy can cause mouth itching."
@@ -4781,7 +4821,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Polyphenol total confirmed (Phenol-Explorer 274 mg/100 g, dark cultivars); best_prep now notes that Rainier-type cherries have much less."
+   }
   },
   {
    "id": "red-grapes",
@@ -4804,14 +4848,14 @@
     "b12_ug": 0,
     "vit_c_mg": 4.8,
     "iodine_ug": null,
-    "polyphenols_mg": 229,
+    "polyphenols_mg": 227,
     "lycopene_mg": 0.0,
     "gl": 15
    },
    "scores": {
     "plants": {
      "score": 8,
-     "why": "Polyphenols ≈ 229 mg/serving: Phenol-Explorer chromatography sum 91 + normal-phase HPLC proanthocyanidins (dimers and larger) 60 = 152 mg/100 g (Phenol-Explorer black grape) (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
+     "why": "Polyphenols ≈ 227 mg/serving: Phenol-Explorer chromatography sum 91 + normal-phase HPLC proanthocyanidins (dimers and larger) 60 − 2 procyanidin dimers/trimers already in the chromatography sum = 150 mg/100 g (Phenol-Explorer black grape) (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
     },
     "nrf2": {
      "score": 1,
@@ -4859,7 +4903,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Removed 1.6 mg/100 g of double-counted procyanidins (229 → 227 mg); score unchanged."
+   }
   },
   {
    "id": "pomegranate-arils",
@@ -4874,7 +4922,7 @@
     "sat_fat_g": 0.16,
     "epa_dha_mg": 0,
     "ala_g": 0.0,
-    "folate_ug_dfe": 50,
+    "folate_ug_dfe": 49.8,
     "choline_mg": 10.0,
     "iron_mg": 0.39,
     "zinc_mg": 0.46,
@@ -4882,14 +4930,14 @@
     "b12_ug": 0,
     "vit_c_mg": 13.4,
     "iodine_ug": null,
-    "polyphenols_mg": 86,
+    "polyphenols_mg": 72,
     "lycopene_mg": 0.0,
     "gl": 7
    },
    "scores": {
     "plants": {
-     "score": 6,
-     "why": "Polyphenols ≈ 86 mg/serving: Phenol-Explorer has only 1 mg/100 g of chromatography data for the whole fruit (6 compounds), so the pure-juice chromatography sum of 66 mg/100 g stands in (5); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 6"
+     "score": 4,
+     "why": "Polyphenols ≈ 72 mg/serving: no usable Phenol-Explorer value (whole fruit has 1 mg/100 g from 6 compounds; the pure-juice sum of 66 mg/100 mL is two-thirds punicalagin, which comes from the peel in commercial pressing). Aril juice of Wonderful, the main US variety, has ≈ 64 mg/100 mL by HPLC, nearly all anthocyanins, with punicalagin not detected (other varieties are lower); arils are ≈ 80% juice, so ≈ 55 mg/100 g including a little from the seeds. This is an estimate close to the 75 mg cut-off (3); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 4"
     },
     "nrf2": {
      "score": 1,
@@ -4920,7 +4968,11 @@
    ],
    "sources": [
     {
-     "label": "Phenol-Explorer: Pomegranate, pure juice (used as proxy) (polyphenol content)",
+     "label": "Balli et al. 2020, arils juice and peel decoction of fifteen pomegranate varieties: HPLC anthocyanins and ellagitannins (Antioxidants 9:238)",
+     "url": "https://doi.org/10.3390/antiox9030238"
+    },
+    {
+     "label": "Phenol-Explorer: Pomegranate, pure juice (polyphenol content)",
      "url": "http://phenol-explorer.eu/contents/food/191"
     },
     {
@@ -4930,8 +4982,16 @@
     {
      "label": "USDA FoodData Central SR Legacy 169134: Pomegranates, raw",
      "url": "https://fdc.nal.usda.gov/food-details/169134/nutrients"
+    },
+    {
+     "label": "Gil et al. 2000, antioxidant activity of pomegranate juice and its relationship with phenolic composition (J Agric Food Chem 48:4581)",
+     "url": "https://doi.org/10.1021/jf000404a"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Plants 6 → 4: the juice proxy (66 mg/100 mL, two-thirds punicalagin from the peel) overstated arils; Wonderful aril juice has ≈ 64 mg/100 mL of HPLC phenolics with no punicalagin, and arils are ≈ 80% juice, so ≈ 55 mg/100 g ≈ 72 mg/serving (3). Folate shown as 49.8 so it no longer looks like it meets the 50 µg cut-off."
+   }
   },
   {
    "id": "pomegranate-juice",
@@ -5002,7 +5062,11 @@
      "label": "USDA FoodData Central SR Legacy 167787: Pomegranate juice, bottled",
      "url": "https://fdc.nal.usda.gov/food-details/167787/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Confirmed as juice: −3 carb type and no counted-serving +1; plants 7 rests on the Phenol-Explorer pure-juice sum (mostly punicalagin), which fits commercial whole-fruit-pressed juice."
+   }
   },
   {
    "id": "orange",
@@ -5025,14 +5089,14 @@
     "b12_ug": 0,
     "vit_c_mg": 69.7,
     "iodine_ug": null,
-    "polyphenols_mg": 118,
+    "polyphenols_mg": 121,
     "lycopene_mg": 0.0,
     "gl": 5
    },
    "scores": {
     "plants": {
      "score": 6,
-     "why": "Polyphenols ≈ 118 mg/serving: Phenol-Explorer has only chromatography-after-hydrolysis data for the fruit: flavanone aglycones 45 mg/100 g ≈ 90 mg/100 g as hesperidin and narirutin glycosides (×2) (5); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 6"
+     "why": "Polyphenols ≈ 121 mg/serving: Phenol-Explorer has only chromatography-after-hydrolysis data for the fruit: hesperetin 33.6 × 2.02 (as hesperidin) + naringenin 11.2 × 2.13 (as narirutin) + lignans 0.3 = 92 mg/100 g, converted back to the glycosides that the other foods' chromatography values count (5); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 6"
     },
     "nrf2": {
      "score": 1,
@@ -5075,17 +5139,21 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Citrus conversion now uses molecular-weight factors (hesperidin 2.02, narirutin 2.13): 118 → 121 mg/serving, score unchanged."
+   }
   },
   {
    "id": "orange-juice",
    "name": "Orange juice (100%)",
    "group": "fruit",
    "serving": "1 cup (240 mL, 248 g)",
-   "highlight": "A cup gives 124 mg vitamin C, 74 µg folate and some hesperidin, but 21 g of free sugar and almost no fibre.",
+   "highlight": "A cup of fresh-squeezed juice gives 124 mg vitamin C (carton not-from-concentrate juice ≈ 75 mg), about 74 µg folate and some hesperidin, but 21 g of free sugar and almost no fibre.",
    "nutrients": {
     "kcal": 112,
-    "fiber_g": 0.5,
+    "fiber_g": 0.496,
     "carb_g": 25.8,
     "sat_fat_g": 0.06,
     "epa_dha_mg": 0,
@@ -5148,10 +5216,18 @@
      "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients"
     },
     {
+     "label": "USDA FoodData Central Foundation 2003597: Orange juice, no pulp, not fortified, not from concentrate, refrigerated",
+     "url": "https://fdc.nal.usda.gov/food-details/2003597/nutrients"
+    },
+    {
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Confirmed as juice: −3 carb type and no counted-serving +1. Highlight notes carton juice has ≈ 75 mg vitamin C a cup vs 124 mg fresh-squeezed (FDC Foundation 2003597); folate ≈ 29 µg/100 g in both, so scores unchanged."
+   }
   },
   {
    "id": "grapefruit",
@@ -5174,14 +5250,14 @@
     "b12_ug": 0,
     "vit_c_mg": 38.4,
     "iodine_ug": null,
-    "polyphenols_mg": 155,
+    "polyphenols_mg": 153,
     "lycopene_mg": 1.75,
     "gl": 3
    },
    "scores": {
     "plants": {
      "score": 8,
-     "why": "Polyphenols ≈ 155 mg/serving: Phenol-Explorer has only chromatography-after-hydrolysis data: flavanone aglycones 63 mg/100 g ≈ 130 mg/100 g as naringin and narirutin glycosides (×2) (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
+     "why": "Polyphenols ≈ 153 mg/serving: Phenol-Explorer has only chromatography-after-hydrolysis data: naringenin 53.0 × 2.13 (as naringin and narirutin) + hesperetin 1.5 × 2.02 + phenolic acids and others 8.6 = 124 mg/100 g; just over the 150 mg cut-off per serving (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
     },
     "nrf2": {
      "score": 1,
@@ -5206,7 +5282,7 @@
    },
    "best_prep": "Eat it in segments rather than juiced. Pink and red types add lycopene [tomatoes-lycopene]. If you take any regular medicine, check first (see the watch-out).",
    "watch_outs": [
-    "Grapefruit and its juice block the gut enzyme CYP3A4 for about 24 hours and can raise blood levels of many drugs, including some statins (simvastatin, lovastatin, atorvastatin), some calcium-channel blockers, ciclosporin and tacrolimus, some anti-arrhythmics and buspirone. Ask your pharmacist [supplement-drug-interactions]. Seville oranges and pomelos do the same."
+    "Grapefruit and its juice block the gut enzyme CYP3A4 for a day or more, so taking pills at a different time doesn't help. They raise blood levels of many drugs, including some statins (simvastatin, lovastatin, atorvastatin), felodipine and nifedipine, ciclosporin and tacrolimus, amiodarone and buspirone, and lower a few others (fexofenadine). Check each medicine with your pharmacist [supplement-drug-interactions]. Seville oranges and pomelos do the same; sweet oranges don't."
    ],
    "tags": [
     "vegan",
@@ -5229,7 +5305,11 @@
      "label": "FDA: Grapefruit juice and some drugs don't mix",
      "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Citrus conversion now uses molecular-weight factors (naringin/narirutin 2.13, hesperidin 2.02) on the aglycones instead of a flat ×2: 155 → 153 mg, still just in the 7 band. Drug-interaction watch-out tightened (CYP3A4 effect lasts a day or more, so spacing doses doesn't help; fexofenadine is lowered; sweet oranges are safe)."
+   }
   },
   {
    "id": "lemon",
@@ -5299,7 +5379,11 @@
      "label": "USDA FoodData Central SR Legacy 167747: Lemon juice, raw",
      "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Juice: no counted-serving +1; glycemic null (2 g carbohydrate)."
+   }
   },
   {
    "id": "kiwi",
@@ -5329,7 +5413,7 @@
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Polyphenols ≈ 12 mg/serving: Phenol-Explorer chromatography sum 1 + normal-phase HPLC proanthocyanidins (dimers and larger) 8 = 9 mg/100 g (the Folin total of 180 is inflated by vitamin C) (2); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 3"
+     "why": "Polyphenols ≈ 12 mg/serving: Phenol-Explorer chromatography sum 1 + normal-phase HPLC proanthocyanidins (dimers and larger) 8 = 8 mg/100 g (the Folin total of 180 is inflated by vitamin C) (2); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -5374,7 +5458,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Removed 0.25 mg/100 g of double-counted procyanidins; score unchanged."
+   }
   },
   {
    "id": "apple",
@@ -5397,14 +5485,14 @@
     "b12_ug": 0,
     "vit_c_mg": 8.4,
     "iodine_ug": null,
-    "polyphenols_mg": 287,
+    "polyphenols_mg": 261,
     "lycopene_mg": 0.0,
     "gl": 7
    },
    "scores": {
     "plants": {
      "score": 8,
-     "why": "Polyphenols ≈ 287 mg/serving: Phenol-Explorer chromatography sum 56 + normal-phase HPLC proanthocyanidins (dimers and larger) 101 = 158 mg/100 g (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
+     "why": "Polyphenols ≈ 261 mg/serving: Phenol-Explorer chromatography sum 56 + normal-phase HPLC proanthocyanidins (dimers and larger) 101 − 15 procyanidin dimers/trimers already in the chromatography sum = 143 mg/100 g (7); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 8"
     },
     "nrf2": {
      "score": 1,
@@ -5453,7 +5541,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Procyanidin dimer B2 (14.6 mg/100 g) was counted twice (in both the chromatography and NP-HPLC sums); removing it gives 287 → 261 mg, score unchanged."
+   }
   },
   {
    "id": "pear",
@@ -5529,14 +5621,18 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "plums",
    "name": "Plums (fresh)",
    "group": "fruit",
    "serving": "2 medium fruits (132 g)",
-   "highlight": "Surprisingly polyphenol-rich (Phenol-Explorer ≈ 420 mg/100 g, much of it proanthocyanidins and chlorogenic acids) with little sugar.",
+   "highlight": "Surprisingly polyphenol-rich (Phenol-Explorer ≈ 380 mg/100 g, much of it proanthocyanidins and chlorogenic acids) with little sugar.",
    "nutrients": {
     "kcal": 61,
     "fiber_g": 1.8,
@@ -5552,14 +5648,14 @@
     "b12_ug": 0,
     "vit_c_mg": 12.5,
     "iodine_ug": null,
-    "polyphenols_mg": 552,
+    "polyphenols_mg": 499,
     "lycopene_mg": 0.0,
     "gl": 5
    },
    "scores": {
     "plants": {
      "score": 10,
-     "why": "Polyphenols ≈ 552 mg/serving: Phenol-Explorer chromatography sum 190 + normal-phase HPLC proanthocyanidins (dimers and larger) 227 = 418 mg/100 g (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
+     "why": "Polyphenols ≈ 499 mg/serving: Phenol-Explorer chromatography sum 190 + normal-phase HPLC proanthocyanidins (dimers and larger) 227 − 40 procyanidin dimers/trimers already in the chromatography sum = 378 mg/100 g (9); pigments below thresholds (0); counted fruit serving ≥ 80 g (+1) = 10"
     },
     "nrf2": {
      "score": 1,
@@ -5609,7 +5705,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Procyanidin oligomers (40 mg/100 g) were counted twice; removing them gives 552 → 499 mg, score unchanged. Highlight changed to ≈ 380 mg/100 g."
+   }
   },
   {
    "id": "prunes",
@@ -5688,7 +5788,11 @@
      "label": "Pérez-Jiménez et al. 2010, the 100 richest dietary sources of polyphenols (Eur J Clin Nutr 64:S112)",
      "url": "https://doi.org/10.1038/ejcn.2010.221"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "peaches",
@@ -5762,7 +5866,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "dried-apricots",
@@ -5841,7 +5949,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "mango",
@@ -5916,7 +6028,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "papaya",
@@ -5990,8 +6106,16 @@
     {
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "Adebiyi et al. 2002, papaya consumption in pregnancy: rat model, ripe fruit vs crude latex (Br J Nutr 88:199)",
+     "url": "https://doi.org/10.1079/BJNBJN2002598"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Pregnancy watch-out confirmed against Adebiyi et al. 2002 (crude latex contracts rat uterus; ripe fruit had no effect), which was added as a source."
+   }
   },
   {
    "id": "pineapple",
@@ -6064,7 +6188,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "banana",
@@ -6139,7 +6267,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "watermelon",
@@ -6214,7 +6346,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "guava",
@@ -6284,7 +6420,11 @@
      "label": "USDA FoodData Central SR Legacy 173044: Guavas, common, raw",
      "url": "https://fdc.nal.usda.gov/food-details/173044/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "figs-fresh",
@@ -6353,7 +6493,11 @@
      "label": "USDA FoodData Central SR Legacy 173021: Figs, raw",
      "url": "https://fdc.nal.usda.gov/food-details/173021/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "dates",
@@ -6374,7 +6518,7 @@
     "zinc_mg": 0.21,
     "selenium_ug": null,
     "b12_ug": 0,
-    "vit_c_mg": 0.0,
+    "vit_c_mg": 0,
     "iodine_ug": null,
     "polyphenols_mg": 19,
     "lycopene_mg": 0.0,
@@ -6427,7 +6571,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "avocado",
@@ -6498,7 +6646,11 @@
      "label": "USDA FoodData Central SR Legacy 171705: Avocados, raw, all commercial varieties",
      "url": "https://fdc.nal.usda.gov/food-details/171705/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "olives",
@@ -6521,18 +6673,18 @@
     "b12_ug": 0,
     "vit_c_mg": 0.4,
     "iodine_ug": null,
-    "polyphenols_mg": 20,
+    "polyphenols_mg": 9,
     "lycopene_mg": 0.0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 2,
-     "why": "Polyphenols ≈ 20 mg/serving: Phenol-Explorer raw black olive is 569 mg/100 g by chromatography, but lye-cured California-style ripe olives lose most of it (≈ 20–60 mg/100 g remain, mainly hydroxytyrosol), so ≈ 45 mg/100 g is assumed (2); pigments below thresholds (0); not a counted fruit serving (0) = 2"
+     "why": "Polyphenols ≈ 9 mg/serving: Phenol-Explorer black olive is 569 mg/100 g by chromatography (naturally black olives), but lye-cured, oxidised California-style ripe olives keep only ≈ 200 mg/kg = 20 mg/100 g by HPLC (Romero et al. 2004, 48 commercial samples), mainly hydroxytyrosol and tyrosol; a 2018 UHPLC study found even less (2); pigments below thresholds (0); not a counted fruit serving (0) = 2"
     },
     "nrf2": {
-     "score": 2,
-     "why": "Hydroxytyrosol and oleuropein derivatives as in EVOO (2–3 tier), but at low doses in table olives and with no human data = 2"
+     "score": 1,
+     "why": "Hydroxytyrosol and tyrosol as in EVOO, but California-style ripe olives give only ≈ 1–4 mg per serving, below a tablespoon of EVOO, and olives are not an anchored food (naturally cured olives would merit 2); anchor 'everything else' = 1"
     },
     "fats": {
      "score": 6,
@@ -6570,10 +6722,18 @@
      "url": "https://fdc.nal.usda.gov/food-details/169094/nutrients"
     },
     {
-     "label": "PubMed: phenolic compounds in table and ripe olives (Romero, Brenes et al.)",
-     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Romero+Brenes+phenolic+compounds+ripe+olives"
+     "label": "Romero et al. 2004, effect of cultivar and processing method on the contents of polyphenols in table olives (J Agric Food Chem 52:479)",
+     "url": "https://doi.org/10.1021/jf030525l"
+    },
+    {
+     "label": "Johnson et al. 2018, oleuropein and related phenolics in Spanish-style, California-style black ripe and Greek-style olives (J Agric Food Chem 66:2121)",
+     "url": "https://doi.org/10.1021/acs.jafc.7b06025"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Polyphenols ≈ 45 → 20 mg/100 g (9 mg/serving), from Romero et al. 2004 HPLC on oxidised ripe olives (≈ 200 mg/kg); plants still 2. Nrf2 2 → 1: ≈ 1–4 mg hydroxytyrosol per serving is below the EVOO dose and olives are not an anchored food. The PubMed search link was replaced with the actual papers."
+   }
   },
   {
    "id": "raisins",
@@ -6650,7 +6810,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "goji-berries",
@@ -6680,7 +6844,7 @@
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Polyphenols ≈ 28 mg/serving: no Phenol-Explorer value; ≈ 100 mg/100 g from published HPLC flavonoid and phenolic-acid data (rutin, chlorogenic acid) (3); pigments: zeaxanthin ≈ 10+ mg per 28 g (literature estimate) (+1); not a counted fruit serving (0) = 4"
+     "why": "Polyphenols ≈ 28 mg/serving: no Phenol-Explorer value; ≈ 100 mg/100 g from published HPLC flavonoid and phenolic-acid data (rutin, chlorogenic acid) (3); pigments: zeaxanthin ≈ 5.6 mg per 28 g ≥ 5 (≈ 3 mg per 15 g in Cheng et al. 2005; varies by batch) (+1); not a counted fruit serving (0) = 4"
     },
     "nrf2": {
      "score": 1,
@@ -6720,14 +6884,22 @@
      "url": "https://fdc.nal.usda.gov/food-details/173032/nutrients"
     },
     {
-     "label": "PubMed: zeaxanthin dipalmitate content of Lycium barbarum fruit",
-     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lycium+barbarum+zeaxanthin+dipalmitate+content"
+     "label": "Cheng et al. 2005, fasting plasma zeaxanthin response to wolfberry, 15 g/day (Br J Nutr 93:123)",
+     "url": "https://doi.org/10.1079/BJN20041284"
     },
     {
-     "label": "PubMed: Lycium barbarum and warfarin case reports",
-     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lycium+barbarum+warfarin"
+     "label": "Lam et al. 2001, possible interaction between warfarin and Lycium barbarum (Ann Pharmacother 35:1199)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11675844/"
+    },
+    {
+     "label": "Rivera et al. 2012, probable interaction between goji and warfarin (Pharmacotherapy 32:e50)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22392461/"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Zeaxanthin pigment point kept, but the figure was corrected from '≈ 10+ mg' to ≈ 5.6 mg per 28 g (Cheng et al. 2005: ≈ 3 mg per 15 g). PubMed search links were replaced with the specific warfarin case reports (Lam 2001, Rivera 2012)."
+   }
   },
   {
    "id": "acai-pulp",
@@ -6736,10 +6908,10 @@
    "serving": "1 frozen pack (100 g)",
    "highlight": "Rich in anthocyanins and proanthocyanidins with oleic-acid-rich fat and almost no sugar when unsweetened, but it is usually sold as sugary bowls and juices.",
    "nutrients": {
-    "kcal": 60,
-    "fiber_g": 4.0,
-    "carb_g": 6.0,
-    "sat_fat_g": 1.0,
+    "kcal": 75,
+    "fiber_g": 3.7,
+    "carb_g": 4.0,
+    "sat_fat_g": 1.5,
     "epa_dha_mg": 0,
     "ala_g": null,
     "folate_ug_dfe": null,
@@ -6750,14 +6922,14 @@
     "b12_ug": 0,
     "vit_c_mg": null,
     "iodine_ug": null,
-    "polyphenols_mg": 160,
+    "polyphenols_mg": 200,
     "lycopene_mg": 0.0,
-    "gl": 1
+    "gl": 0
    },
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Polyphenols ≈ 160 mg/serving: no Phenol-Explorer value; from Schauss et al. 2006 freeze-dried pulp (≈ 1.3 g proanthocyanidins + 0.3 g anthocyanins per 100 g dry) at ≈ 10% solids ≈ 160 mg/100 g (7); pigments below thresholds (0); not a counted fruit serving (0) = 7"
+     "why": "Polyphenols ≈ 200 mg/serving: no Phenol-Explorer value; Schauss et al. 2006 freeze-dried pulp has ≈ 1.3 g proanthocyanidins + 0.3 g anthocyanins per 100 g dry. Commercial packs carry 5–7 g fat/100 g against 32.5% fat in the dry pulp, so they are ≈ 12–17% solids, giving ≈ 190–270 mg/100 g; ≈ 200 mg/100 g is used. Not counted as a fruit serving, because a pack is mostly added water (≈ 30 g of fruit flesh) (7); pigments below thresholds (0); not a counted fruit serving (0) = 7"
     },
     "nrf2": {
      "score": 1,
@@ -6765,11 +6937,11 @@
     },
     "fats": {
      "score": 6,
-     "why": "Base 3; ≈ 4 g fat, mostly monounsaturated oleic acid (+3); sat fat ≈ 1 g, no penalty = 6"
+     "why": "Base 3; ≈ 5.5 g fat, mostly monounsaturated oleic acid (+3); sat fat ≈ 1.5 g, no penalty = 6"
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre ≈ 4.0 g (+3); whole fruit (+2); GL ≈ 1 (GI not tabulated; ≈ 2 g available carbohydrate) (+2) = 7"
+     "why": "Fibre ≈ 3.7 g (+3); whole fruit (+2); GL ≈ 0 (GI not tabulated; under 1 g available carbohydrate) (+2) = 7"
     },
     "sperm": {
      "score": 1,
@@ -6782,7 +6954,7 @@
    },
    "best_prep": "Blend the unsweetened pack with frozen berries and a banana rather than buying sweetened açaí bowls or juice drinks, which can top 40 g of sugar [refined-sugar-high-glycemic].",
    "watch_outs": [
-    "All values are ≈ estimates, because FDC has no unsweetened açaí pulp entry and pulp is diluted with water to varying solids.",
+    "Nutrients are ≈ medians of six unsweetened frozen pulp packs in FDC Branded Foods; FDC has no SR Legacy or Foundation entry, and pulp is diluted with water to varying solids.",
     "Unpasteurised açaí in Brazil has transmitted Chagas disease; buy pasteurised frozen pulp.",
     "Most açaí bowls and drinks are heavily sweetened."
    ],
@@ -6794,8 +6966,16 @@
     {
      "label": "Schauss et al. 2006, phytochemical and nutrient composition of freeze-dried açaí (J Agric Food Chem 54:8598)",
      "url": "https://doi.org/10.1021/jf0609779"
+    },
+    {
+     "label": "USDA FoodData Central Branded 2432436: Organic açaí purée, unsweetened (one of six packs used)",
+     "url": "https://fdc.nal.usda.gov/food-details/2432436/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. Nutrients changed to medians of six unsweetened pulp packs in FDC Branded Foods (75 kcal, 5.5 g fat, 1.5 g sat fat, 4 g carb, 3.7 g fibre). Polyphenols 160 → 200 mg/100 g, cross-checked from fat-implied solids (12–17%) against Schauss 2006. All scores unchanged (plants 7; not counted, because a pack is mostly water)."
+   }
   },
   {
    "id": "cantaloupe",
@@ -6870,7 +7050,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients re-pulled from FDC (portal) and matched; per-serving vitamin C/folate cross-checked with ODS tables; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. No changes needed."
+   }
   },
   {
    "id": "dried-cranberries-sweetened",
@@ -6941,7 +7125,11 @@
      "label": "Atkinson et al. 2008, International tables of glycemic index and glycemic load (Diabetes Care 31:2281)",
      "url": "https://doi.org/10.2337/dc08-1239"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "nutrients matched against the finder's saved FDC portal records; Phenol-Explorer figures re-parsed; all six scores re-derived; serving, watch-outs and sources checked. GL 19.8 rounds to 20 (0 points); the added-sugar penalty and juice-free dried-fruit typing were checked."
+   }
   },
   {
    "id": "chickpeas-cooked",
