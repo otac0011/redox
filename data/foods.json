@@ -21,9 +21,9 @@
   {
    "id": "nrf2",
    "group": "oxidative",
-   "name": "Nrf2 & sulfur compounds",
-   "short": "Nrf2",
-   "how": "An anchored scale: broccoli sprouts 10, watercress and mustard seed 9, raw broccoli 8, other crucifers 6–7, garlic 5, onions and turmeric 4, everything else 1.",
+   "name": "Hormetic compounds (Nrf2)",
+   "short": "Hormetic",
+   "how": "An anchored scale: broccoli sprouts 10, watercress and mustard seed 9, raw broccoli 8, other crucifers 6–7, garlic 5, onions and turmeric 4, everything else 1. These plant compounds work as mild stressors that switch on the body's own antioxidant and repair enzymes (Nrf2).",
    "factors": [
     "broccoli-sprouts",
     "broccoli-mature",

@@ -54,7 +54,7 @@ Then add:
 
 Floor 1, cap 10. If no Phenol-Explorer value exists, estimate from a close relative and say so in `why`.
 
-## 2. Nrf2 and sulfur compounds (`nrf2`)
+## 2. Hormetic compounds: Nrf2 and sulfur compounds (`nrf2`)
 Factors: [broccoli-sprouts] [broccoli-mature] [cruciferous-other] [mustard-seed-myrosinase] [watercress-peitc] [wasabi-horseradish-itc] [garlic-alliums] [turmeric-curcumin] [indole-3-carbinol-dim]
 
 This is an anchored scale per serving, eaten in the best way, with the preparation stated in `best_prep`.

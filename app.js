@@ -805,7 +805,7 @@
   const DIETS = [["", "Any diet"], ["vegetarian", "Vegetarian"], ["vegan", "Vegan"], ["pescatarian", "Pescatarian"], ["gluten-free", "Gluten-free"], ["dairy-free", "Dairy-free"]];
   const GROUP_LABEL = { oxidative: "Oxidative stress", fertility: "Fertility" };
   const mealOf = (r) => (r.meal === "lunch" || r.meal === "dinner" ? "main" : r.meal === "snack" ? "side" : r.meal);
-  const recScore = (r, cat) => (cat ? r.scores[cat].score : D.recipe_categories.reduce((s, c) => s + r.scores[c.id].score, 0) / D.recipe_categories.length);
+  const recScore = (r, cat) => (cat === "plantmix" ? r.scores.plants.score + r.scores.nrf2.score : cat ? r.scores[cat].score : D.recipe_categories.reduce((s, c) => s + r.scores[c.id].score, 0) / D.recipe_categories.length);
   const fmtMin = (m) => (m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + (m % 60) + " min" : ""}` : `${m} min`);
 
   function recBars(r, full) {
@@ -830,11 +830,11 @@
     const chipRow = (k, list, cur) => list.map(([v, l]) => `<a class="chip ${v === cur ? "dir-beneficial" : ""}" href="${link(k, v)}">${esc(l)}</a>`).join("");
     const list = recs.filter((r) => (!cx || r.complexity === cx) && (!meal || mealOf(r) === meal) && (!diet || (r.tags || []).includes(diet)))
       .sort((a, b) => recScore(b, sort) - recScore(a, sort) || a.title.localeCompare(b.title));
-    const sortOpts = [["", "Average of all categories"], ...D.recipe_categories.map((c) => [c.id, `${GROUP_LABEL[c.group]}: ${c.name}`])]
+    const sortOpts = [["", "Average of all categories"], ["plantmix", "Polyphenols + hormetic compounds"], ...D.recipe_categories.map((c) => [c.id, `${GROUP_LABEL[c.group]}: ${c.name}`])]
       .map(([v, l]) => `<option value="${v}" ${v === sort ? "selected" : ""}>${esc(l)}</option>`).join("");
     const card = (r) => `<a class="card fcard recipe-card" href="#/recipe/${encodeURIComponent(r.id)}">
         <h3>${esc(r.title)}</h3>
-        <div class="row"><span class="chips"><span class="chip cx-${esc(r.complexity)}">${esc(r.complexity)}</span><span class="chip">${fmtMin(r.total_min)}</span>${r.check ? "" : `<span class="chip pending">check pending</span>`}</span>${sort ? `<span class="small muted">${esc(D.recipe_categories.find((c) => c.id === sort).short)} ${r.scores[sort].score}/10</span>` : ""}</div>
+        <div class="row"><span class="chips"><span class="chip cx-${esc(r.complexity)}">${esc(r.complexity)}</span><span class="chip">${fmtMin(r.total_min)}</span>${r.check ? "" : `<span class="chip pending">check pending</span>`}</span>${sort === "plantmix" ? `<span class="small muted">Plants+Hormetic ${recScore(r, sort)}/20</span>` : sort ? `<span class="small muted">${esc(D.recipe_categories.find((c) => c.id === sort).short)} ${r.scores[sort].score}/10</span>` : ""}</div>
         <div class="rbars mini">${recBars(r, false)}</div>
         <p>${esc(r.summary.replace(/\[([a-z0-9-]+)\]/g, (m, id) => (byId.has(id) ? byId.get(id).name : id)))}</p>
       </a>`;

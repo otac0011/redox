@@ -25,7 +25,7 @@ Factors: [high-fruit-vegetable-intake] [blueberries] [berries-other] [cocoa-flav
   - anthocyanin vegetables or fruit: red onion, red cabbage, pomegranate, cherries, purple produce
 - **Diversity:** ≥4 different plant families in the dish = +1.
 
-### 2. Nrf2 and sulfur compounds (`nrf2`)
+### 2. Hormetic compounds: Nrf2 and sulfur compounds (`nrf2`)
 Crucifers (preparation decides how much sulforaphane forms), myrosinase sources, watercress, wasabi and horseradish, alliums, turmeric.
 Factors: [broccoli-sprouts] [broccoli-mature] [cruciferous-other] [mustard-seed-myrosinase] [watercress-peitc] [wasabi-horseradish-itc] [garlic-alliums] [turmeric-curcumin]
 

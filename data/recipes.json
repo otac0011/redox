@@ -21,9 +21,9 @@
   {
    "id": "nrf2",
    "group": "oxidative",
-   "name": "Nrf2 & sulfur compounds",
-   "short": "Nrf2",
-   "how": "Crucifers (raw or lightly steamed, or cooked with a myrosinase source such as mustard powder), sprouts, watercress, wasabi or horseradish, garlic and onion, turmeric.",
+   "name": "Hormetic compounds (Nrf2)",
+   "short": "Hormetic",
+   "how": "Crucifers (raw or lightly steamed, or cooked with a myrosinase source such as mustard powder), sprouts, watercress, wasabi or horseradish, garlic and onion, turmeric. These plant compounds work as mild stressors that switch on the body's own antioxidant and repair enzymes (Nrf2).",
    "factors": [
     "broccoli-sprouts",
     "broccoli-mature",
