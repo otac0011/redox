@@ -146,6 +146,8 @@ These settle edge cases so every recipe is scored the same way.
 - **Crucifer preparation:** the +5 "myrosinase survives" tier needs raw crucifers, or crucifers steamed or microwaved for ≤ 4 min. Any sauté, stir-fry, roast or simmer counts as cooked (+3), however short.
 - **Cooking midpoint:** use it only for a separate, harsher component, such as seared meat or crisp roast potatoes beside a stew. Gently softening onions, garlic or greens as the first step of a simmered or baked dish doesn't lower the score.
 - **Legumes** count as at most one fruit-and-vegetable serving per dish.
+- **Potatoes and sweet potatoes:** as the main starch, white potatoes score 0 (high glycemic, like refined starch) and sweet potato, squash or other starchy vegetables score +1. Sweet potato counts as a vegetable serving; white potato doesn't.
+- **Option choices** ("king or sockeye", "1 or 2 cans"): score the first-listed option, and put the other one in boosts if it scores higher.
 - **Folate:** count natural food folate only. Ignore folic acid from fortified flour, pasta or rice, because fortification differs by country.
 - **Servings:** score per the original's serving count. When the original gives a range ("serves 4 to 6") and its nutrition panel doesn't settle it, use the lower number, which is a full meal-sized portion. If the original's serving is unrealistically small (one energy bite), score a realistic portion and say so in `changes`.
 
