@@ -1190,7 +1190,7 @@
   {
    "id": "lentil-vegetable-soup",
    "title": "Lentil soup with kale",
-   "summary": "A one-pot green lentil soup with carrots, celery, tomatoes and kale; it scores high on plants and fibre but only moderately on Nrf2, because each bowl gets a fairly small amount of kale.",
+   "summary": "A one-pot green lentil soup with carrots, celery, tomatoes and kale; it scores high on fibre, folate and gentle cooking, and only moderately on Nrf2 because each bowl gets a fairly small amount of kale.",
    "source": {
     "title": "Best Lentil Soup",
     "author": "Jeanine Donofrio",
@@ -1200,7 +1200,7 @@
     "rating_count": 726,
     "checked": "2026-10-11"
    },
-   "changes": "Metric units added; steps reworded. Parsley, red pepper flakes and optional Parmesan stay as serving toppings, as in the original.",
+   "changes": "Metric units added; steps reworded. Parsley, red pepper flakes and optional Parmesan stay as serving toppings, as in the original. The original serves '4 to 6'; scored for 4, the lower number, per the scoring conventions.",
    "complexity": "medium",
    "active_min": 20,
    "total_min": 60,
@@ -1215,16 +1215,16 @@
     "budget"
    ],
    "nutrients": {
-    "kcal": 270,
+    "kcal": 260,
     "fiber_g": 14,
     "added_sugar_g": 0,
     "sat_fat_g": 1.1,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 150,
-    "choline_mg": 45,
-    "iron_mg": 5.7,
-    "zinc_mg": 1.7,
-    "selenium_ug": 2,
+    "folate_ug_dfe": 225,
+    "choline_mg": 47,
+    "iron_mg": 5.4,
+    "zinc_mg": 1.8,
+    "selenium_ug": 3,
     "b12_ug": 0,
     "vit_c_mg": 40,
     "fruit_veg_servings": 4.2
@@ -1232,11 +1232,11 @@
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Veg ≈259 g (onion 27, carrot 64, celery 20, kale 40, tomato 100, parsley 8) = 3.2 servings, plus lentils counted as 1 pulse serving = 4.2 (+5); fresh herbs: parsley 2 tbsp plus thyme (+1); ≥4 plant families: allium, carrot family, crucifer, nightshade, legume, mint (+1). EVOO is only ½ tbsp per serving (0). Kale is cooked, about ¼ cup per serving, below the ½ cup cooked threshold (0). Total 5+1+1 = 7 [high-fruit-vegetable-intake] [herbs-spices]"
+     "why": "Per serving (4): vegetables ≈259 g (onion 27, carrot 62, celery 20, kale 42, tomato 100, parsley 8) = 3.2 servings, plus lentils ≈94 g cooked = 1 pulse serving (the cap), total ≈4.2 (+5); fresh herbs: parsley 2 tbsp plus thyme and cumin (+1); ≥4 plant families: allium, carrot family, crucifer, nightshade, legume, mint (+1). EVOO is 1½ tsp per serving (0); the kale is cooked, ≈¼ cup cooked per serving, under ½ cup (0); tomato ≈100 g, under ½ cup (0). Total 5+1+1 = 7 [high-fruit-vegetable-intake] [herbs-spices]"
     },
     "nrf2": {
      "score": 4,
-     "why": "Base 1; kale about 40 g per serving, simmered: +3 halved = 1.5, rounded down to +1; 1 garlic clove plus ¼ onion per serving (+2). Total 1+1+2 = 4 [cruciferous-other] [garlic-alliums]"
+     "why": "Base 1; kale ≈42 g per serving, simmered: +3 halved = 1.5, rounded down to +1; 1 garlic clove plus ¼ onion per serving (+2). Total 1+1+2 = 4 [cruciferous-other] [garlic-alliums]"
     },
     "fats": {
      "score": 3,
@@ -1244,7 +1244,7 @@
     },
     "glycemic": {
      "score": 10,
-     "why": "Fibre ≈14 g: lentils 8.3 g plus vegetables about 6 g (+5); legume is the starch (+2); no added sugar (+2); lentil protein plus vinegar (+1). Total 10 [legumes] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈14 g: lentils ≈7.4 g (¾ cup dry ≈1.9 cups cooked × 15.6 g ÷ 4) plus vegetables and parsley ≈6.4 g (+5); legume is the starch (+2); no added sugar (+2); lentil protein plus vinegar (+1). Total 5+2+2+1 = 10 [legumes] [dietary-fiber-microbiome]"
     },
     "cooking": {
      "score": 10,
@@ -1252,11 +1252,11 @@
     },
     "sperm": {
      "score": 3,
-     "why": "Base 1; folate ≈150 µg (+1); ≥2 produce servings (+1). Tomato is about 100 g per serving, under ½ cup (0); zinc 1.7 mg (0). Total 3 [high-fruit-vegetable-intake]"
+     "why": "Base 1; folate ≈225 µg (+1); ≈4.2 produce servings (+1). Tomato ≈100 g per serving, under ½ cup (0); zinc 1.8 mg and selenium ≈3 µg are under the thresholds (0). Total 1+1+1 = 3 [high-fruit-vegetable-intake]"
     },
     "egg": {
-     "score": 4,
-     "why": "Base 1; folate ≈150 µg (+2); plant iron 5.7 mg with vitamin C ≈40 mg (+1). Profertility: produce is the only component present (0). Total 4 [folic-acid] [iron-egg]"
+     "score": 5,
+     "why": "Base 1; folate ≈225 µg (+3): lentils ≈1.9 cups × 358 µg ≈680 µg, plus vegetables and parsley ≈215 µg after cooking losses, ÷ 4; plant iron ≈5.4 mg with vitamin C ≈40 mg (+1); choline ≈47 mg (0); no iodine source, since the salt is sea salt (0). Profertility: produce is the only component (0). Total 1+3+1 = 5 [folic-acid] [iron-egg]"
     }
    },
    "ingredients": [
@@ -1289,27 +1289,31 @@
     }
    ],
    "steps": [
-    "Warm the olive oil in a large pot over medium heat.",
+    "Set a large pot over medium heat and pour in the olive oil.",
     "Add the onion, carrots, celery, kale stems, cumin, salt and a few grinds of pepper. Cook for about 8 minutes, stirring now and then, until the vegetables start to soften.",
-    "Add the garlic, tomatoes, lentils, vinegar, thyme bundle and broth. Cover and simmer for 25–30 minutes, until the lentils are tender.",
+    "Add the garlic, tomatoes, lentils, vinegar, thyme bundle and broth, put the lid on, and let it simmer until the lentils are soft, 25–30 minutes.",
     "Stir in the chopped kale leaves and simmer about 5 minutes more, until wilted.",
     "Remove the thyme, adjust the seasoning, and serve topped with parsley, pepper flakes and Parmesan if you like."
    ],
    "boosts": [
-    "Double the kale to about 80 g per serving and stir ½ tsp mustard powder into the pot just before serving; crucifer points rise from +1 to +5 [cruciferous-other] [mustard-seed-myrosinase]",
+    "Double the kale to about 320 g (80 g per serving) and stir ½ tsp mustard powder into each bowl just before serving: crucifer points +1 → +5 [cruciferous-other] [mustard-seed-myrosinase]",
     "Finish each bowl with 1 tbsp extra-virgin olive oil: plants +1 and fats +1 [extra-virgin-olive-oil]",
     "Season with iodised salt: egg +1 [iodine-status]",
-    "Serve with a slice of whole-grain bread [whole-grains]"
+    "Serve with a slice of whole-grain bread: whole grain becomes a second profertility component (egg +1) [whole-grains] [profertility-diet]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list. If you add Parmesan, choose one made from pasteurised milk.",
     "Allergens: none in the base recipe. The optional Parmesan contains dairy. Check the broth label for gluten."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients, method and rating (4.94/726) confirmed via curl and JSON-LD. Scored for 4 servings, the lower number of '4 to 6'. Folate recomputed at 358 µg per cooked cup of lentils: 150→225 µg, so egg 4→5 (≥200 µg). The other six scores are unchanged. Steps 1 and 3 were reworded to avoid copying."
+   }
   },
   {
    "id": "minestrone-soup",
    "title": "Minestrone",
-   "summary": "A tomato-rich bean and vegetable soup with small pasta; it scores high on plants and lycopene, and the white pasta and absence of crucifers hold back blood-sugar and Nrf2.",
+   "summary": "A tomato-rich bean and vegetable soup with small pasta; it scores high on plants and lycopene, while the white pasta, modest folate and no crucifers hold back blood sugar, Nrf2 and the fertility scores.",
    "source": {
     "title": "Minestrone Soup",
     "author": "Jeanine Donofrio",
@@ -1319,7 +1323,7 @@
     "rating_count": 694,
     "checked": "2026-10-11"
    },
-   "changes": "Metric units added; steps reworded; a step to remove the bay leaves added. Parsley, pepper flakes and optional Parmesan stay as serving toppings.",
+   "changes": "Metric units added; steps reworded; a step to remove the bay leaves added. Parsley, pepper flakes and optional Parmesan stay as serving toppings. The original serves '4 to 6'; scored for 4, the lower number, per the scoring conventions. The beans are scored as canned, since the original says 'drained and rinsed'. The original card says 15 min prep plus 30 min cooking, but its steps add up to about 38 min of cooking, so the total here is 55 min.",
    "complexity": "medium",
    "active_min": 20,
    "total_min": 55,
@@ -1333,24 +1337,24 @@
     "budget"
    ],
    "nutrients": {
-    "kcal": 300,
-    "fiber_g": 10,
+    "kcal": 305,
+    "fiber_g": 10.5,
     "added_sugar_g": 0,
     "sat_fat_g": 1.1,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 115,
-    "choline_mg": 45,
-    "iron_mg": 3.7,
-    "zinc_mg": 1.4,
-    "selenium_ug": 15,
+    "folate_ug_dfe": 90,
+    "choline_mg": 50,
+    "iron_mg": 4.8,
+    "zinc_mg": 1.6,
+    "selenium_ug": 17,
     "b12_ug": 0,
-    "vit_c_mg": 36,
+    "vit_c_mg": 34,
     "fruit_veg_servings": 4.7
    },
    "scores": {
     "plants": {
      "score": 8,
-     "why": "Veg ≈310 g (tomato 200, onion 27, carrot 30, celery 20, green beans 25, parsley 8) = 3.9 servings, plus beans 67 g = 0.8, total 4.7 (+5); cooked tomato about ¾ cup per serving (+1); herbs: parsley 2 tbsp plus ½ tsp dried oregano and thyme (+1); ≥4 plant families (+1). EVOO is ½ tbsp per serving (0). Total 5+1+1+1 = 8 [high-fruit-vegetable-intake] [tomatoes-lycopene] [herbs-spices]"
+     "why": "Per serving (4): vegetables ≈311 g (tomato 198, onion 27, carrot 30, celery 20, green beans 25, parsley 8, garlic 2) = 3.9 servings, plus beans ≈67 g = 0.8, total ≈4.7 (+5); cooked tomato ≈¾ cup per serving (+1); herbs: parsley 2 tbsp plus dried oregano and thyme (+1); ≥4 plant families (+1). EVOO is 1½ tsp per serving (0). Total 5+1+1+1 = 8 [high-fruit-vegetable-intake] [tomatoes-lycopene] [herbs-spices]"
     },
     "nrf2": {
      "score": 2,
@@ -1362,19 +1366,19 @@
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre ≈10 g (+4). The main starch is white pasta, about 22 g dry per serving next to a similar amount of beans, scored as refined (0). No added sugar (+2); bean protein (+1). Total 4+0+2+1 = 7 [whole-grains] [legumes]"
+     "why": "Fibre ≈10.5 g: beans 3.3, tomatoes 3.8, pasta 0.7, other vegetables and herbs 2.7 (+4). The main starch is white pasta, ≈22 g dry per serving, a little more starch than the beans, so it is scored as refined (0). No added sugar (+2); bean protein (+1). Total 4+0+2+1 = 7 [whole-grains] [legumes]"
     },
     "cooking": {
      "score": 10,
      "why": "Vegetables softened at medium heat, then simmered (10) [high-temperature-cooking]"
     },
     "sperm": {
-     "score": 5,
-     "why": "Base 1; cooked tomato ≥½ cup (+2); folate ≈115 µg (+1); ≥2 produce servings (+1). Zinc 1.4 mg and selenium 15 µg are below the thresholds. Total 5 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+     "score": 4,
+     "why": "Base 1; cooked tomato ≥½ cup (+2); ≈4.7 produce servings (+1). Folate ≈90 µg, zinc 1.6 mg and selenium ≈17 µg are under the thresholds (0). Total 1+2+1 = 4 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
     },
     "egg": {
      "score": 3,
-     "why": "Base 1; folate ≈115 µg (+2). Iron is 3.7 mg, under 4 (0). Profertility: produce only, since the pasta is refined (0). Total 3. Enriched US pasta would add about 60 µg DFE folic acid, which is not counted here [folic-acid]"
+     "why": "Base 1; folate ≈90 µg (+1): canned white beans 270 g × 65 µg/100 g ≈176 µg, vegetables ≈130 µg after cooking, parsley 46 µg, pasta and herbs ≈20 µg, ÷ 4; plant iron ≈4.8 mg with vitamin C ≈34 mg from tomato and parsley (+1); choline ≈50 mg (0). Profertility: produce only, since the pasta is refined (0). Total 1+1+1 = 3. Enriched US pasta would add folic acid, which is not counted here [folic-acid] [iron-egg]"
     }
    },
    "ingredients": [
@@ -1408,26 +1412,30 @@
     }
    ],
    "steps": [
-    "Warm the oil in a large pot over medium heat. Add the onion, carrots, celery, salt and some pepper, and cook for about 8 minutes, stirring occasionally, until they begin to soften.",
-    "Add the garlic, tomatoes, beans, green beans, broth, bay leaves, oregano and thyme. Cover and simmer for 20 minutes.",
-    "Uncover, stir in the pasta and simmer for about 10 minutes more, until it is cooked through.",
-    "Remove the bay leaves, season to taste, and serve with parsley, pepper flakes and Parmesan if you like."
+    "Put a large pot over medium heat with the oil. Stir in the onion, carrots, celery, salt and some pepper, and let them cook gently for about 8 minutes, stirring from time to time, until they start to soften.",
+    "Tip in the garlic, tomatoes, both kinds of beans, the broth, bay leaves and dried herbs. Put the lid on and let it simmer for 20 minutes.",
+    "Take the lid off, add the pasta and keep simmering for about 10 minutes, until it is tender.",
+    "Fish out the bay leaves, season to taste, and serve with parsley, pepper flakes and Parmesan if you like."
    ],
    "boosts": [
     "Use whole-wheat pasta: glycemic +2, and whole grain becomes a second profertility component (egg +1) [whole-grains] [profertility-diet]",
-    "Stir in 2 cups chopped kale or Savoy cabbage with the pasta [cruciferous-other]",
+    "Stir about 320 g chopped Savoy cabbage or kale (80 g per serving) in with the pasta: Nrf2 +3 [cruciferous-other]",
     "Drizzle 1 tbsp extra-virgin olive oil over each bowl: plants +1 and fats +1 [extra-virgin-olive-oil]",
-    "Use 8 garlic cloves (2 per serving): Nrf2 +1 [garlic-alliums]"
+    "Use 4 garlic cloves (1 per serving): with the ¼ onion, Nrf2 +1 [garlic-alliums]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list. If you add Parmesan, choose one made from pasteurised milk.",
     "Allergens: gluten (pasta). The optional Parmesan contains dairy."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients, method and rating (4.96/694) confirmed via curl and JSON-LD. Scored for 4 servings, the lower number of ‘4 to 6’, with beans as canned. Folate is ≈90 µg (not 115), so sperm 5→4 (under 100 µg). Egg stays 3: folate now earns +1, not +2, but iron (4.8 mg with vitamin C 34 mg) adds +1. Steps 1–2 copied the original almost word for word and were rewritten."
+   }
   },
   {
    "id": "masoor-dal-tadka",
    "title": "Red lentil dal with tadka",
-   "summary": "Simmered red lentils finished with a sizzling tadka of cumin, garlic and chili in ghee; it scores high on fibre and gentle cooking, and loses fat-quality points for the ghee.",
+   "summary": "Simmered red lentils finished with a tadka of cumin, garlic and chili in ghee; gentle cooking and a legume base score well, but red lentils have less than half the folate of green ones, and the ghee costs fat-quality points.",
    "source": {
     "title": "Masoor Dal Recipe (Red Lentil Dal)",
     "author": "Swasthi Shreekanth",
@@ -1437,7 +1445,7 @@
     "rating_count": 270,
     "checked": "2026-10-11"
    },
-   "changes": "Only the stovetop method is given (the original also has an Instant Pot version). The simmering time is an estimate, because the original says only 'cook until soft'. Units converted; steps reworded. Scored for 2 servings (the original says 2 to 3) with the lower ghee amount (1 tbsp), which matches the site's nutrition panel. The optional moong dal, green chili and mustard seeds are not counted.",
+   "changes": "Only the stovetop method is given (the original also has an Instant Pot version). The simmering time is an estimate, because the original says only 'cook until soft'. Units converted; steps reworded. The original says '2 to 3' servings and '1 to 2 tablespoons' ghee; scored for 2 servings, the lower number per the scoring conventions, with 1 tbsp ghee, which matches the site's nutrition panel (269 kcal, 8 g fat, 4 g saturated fat per serving). The optional moong dal, green chili and mustard seeds are not counted.",
    "complexity": "medium",
    "active_min": 15,
    "total_min": 30,
@@ -1445,53 +1453,52 @@
    "meal": "dinner",
    "tags": [
     "vegetarian",
-    "gluten-free",
     "make-ahead",
     "budget"
    ],
    "nutrients": {
-    "kcal": 245,
-    "fiber_g": 6,
+    "kcal": 250,
+    "fiber_g": 6.4,
     "added_sugar_g": 0,
-    "sat_fat_g": 4,
+    "sat_fat_g": 4.2,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 120,
-    "choline_mg": 40,
-    "iron_mg": 4.7,
-    "zinc_mg": 1.8,
-    "selenium_ug": 2,
+    "folate_ug_dfe": 105,
+    "choline_mg": 51,
+    "iron_mg": 4.5,
+    "zinc_mg": 1.9,
+    "selenium_ug": 3,
     "b12_ug": 0,
-    "vit_c_mg": 12,
-    "fruit_veg_servings": 1.8
+    "vit_c_mg": 11,
+    "fruit_veg_servings": 1.9
    },
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Veg ≈65 g (tomato 57, lemon, coriander) = 0.8 servings, plus lentils as 1 pulse serving = 1.8 (+2); spices ≈0.9 tsp dried per serving plus 1 tbsp fresh coriander (+1); ≥4 plant families: legume, nightshade, allium, carrot family (cumin, coriander, hing), ginger family, citrus (+1). Total 2+1+1 = 4 [herbs-spices]"
+     "why": "Per serving (2): tomato ≈56 g plus lemon juice, coriander and garlic ≈72 g = 0.9 servings, plus red lentils ≈115 g cooked = 1 pulse serving (the cap), total ≈1.9 (+2); spices ≈0.9 tsp dried (cumin, chili powder, turmeric, garam masala, kasuri methi) plus 1 tbsp fresh coriander (+1); ≥4 plant families: legume, nightshade, allium, carrot family (cumin, coriander, hing), ginger family (turmeric), citrus (+1). Total 2+1+1 = 4 [herbs-spices]"
     },
     "nrf2": {
      "score": 2,
-     "why": "Base 1; 1 garlic clove per serving (+1). Turmeric is ⅛ tsp per serving, under ½ tsp (0); the mustard seeds are optional and a tiny amount (0). Total 2 [garlic-alliums] [turmeric-curcumin]"
+     "why": "Base 1; 1 garlic clove per serving (+1). Turmeric is ⅛ tsp per serving, under ½ tsp (0); the mustard seeds are optional and not counted (0). Total 1+1 = 2 [garlic-alliums] [turmeric-curcumin]"
     },
     "fats": {
      "score": 1,
-     "why": "Base 2; ghee (butter fat) is the main fat (−2) = 0, floored to 1 [cooking-oil-choice]"
+     "why": "Base 2; ghee (butter fat) is the main fat (−2) = 0, floored to 1. Saturated fat ≈4.2 g per serving, matching the site panel (4 g). Total 1 [cooking-oil-choice]"
     },
     "glycemic": {
      "score": 8,
-     "why": "Fibre ≈6 g, using the FDC value of 10.7 g per 100 g dry red lentils (+3); legume is the starch (+2); no added sugar (+2); lentil protein plus fat (+1). Total 8 [legumes] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈6.4 g: red lentils 95 g dry × 10.8 g/100 g ≈10.3 g plus tomato, spices and coriander ≈2.5 g, ÷ 2 (+3); legume is the starch (+2); no added sugar (+2); lentil protein plus fat (+1). Total 3+2+2+1 = 8. The site panel's 16 g fibre per serving doesn't fit the ingredients [legumes] [dietary-fiber-microbiome]"
     },
     "cooking": {
-     "score": 9,
-     "why": "The lentils are boiled (10); the tadka is a brief medium-heat sauté of spices and garlic in ghee (8). Secondary component is worse, so midpoint (10+8)/2 = 9 [high-temperature-cooking]"
+     "score": 10,
+     "why": "The lentils are boiled (10). The tadka is a brief medium-heat tempering of spices and garlic in ghee, poured into the dal and simmered; under the scoring conventions that is a flavouring step, not a separate harsher component, so no midpoint. Total 10 [high-temperature-cooking]"
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; folate ≈120 µg (+1). Zinc 1.8 mg (0); produce 1.8 servings, under 2 (0). Total 2 [high-fruit-vegetable-intake]"
+     "why": "Base 1; folate ≈105 µg (+1). Zinc 1.9 mg (0); produce ≈1.9 servings, under 2 (0); tomato ≈¼ cup (0). Total 1+1 = 2 [high-fruit-vegetable-intake]"
     },
     "egg": {
      "score": 3,
-     "why": "Base 1; folate ≈120 µg (+2). Iron is 4.7 mg, but vitamin C is only ≈12 mg, under 25 mg (0). Total 3 [folic-acid] [iron-egg]"
+     "why": "Base 1; folate ≈105 µg (+2): red lentils 95 g dry × 204 µg/100 g (FDC 'Lentils, pink or red, raw') ≈194 µg, plus tomato, lemon and coriander ≈19 µg, ÷ 2. Iron ≈4.5 mg, but vitamin C is only ≈11 mg, under 25 mg (0); choline ≈51 mg (0). Total 1+2 = 3 [folic-acid] [iron-egg]"
     }
    },
    "ingredients": [
@@ -1531,28 +1538,33 @@
    ],
    "steps": [
     "Rinse the red lentils (and moong dal, if using) in a pot, changing the water until it runs clear.",
-    "Add the tomatoes, water and green chili. Bring to a rolling boil, then turn down the heat and simmer until the lentils are completely soft, about 15–20 minutes. Skim off any foam, and add hot water if the dal gets too thick. Alternatively, pressure-cook for 1–2 whistles over medium heat.",
+    "Add the tomatoes, water and green chili (if using). Bring to a rolling boil, then turn down the heat and simmer until the lentils are completely soft, about 15–20 minutes. Skim off any foam, and add hot water if the dal gets too thick. Alternatively, pressure-cook for 1–2 whistles over medium heat.",
     "Mash the dal as smooth or as coarse as you like, loosening it with a few spoonfuls of hot water if needed.",
-    "For the tadka, heat the ghee in a small pan over medium heat. Add the mustard seeds, cumin seeds, dried chili and garlic, and stir until the garlic turns light golden.",
+    "For the tadka, heat the ghee in a small pan over medium heat. Add the mustard seeds (if using), cumin seeds, dried chili and garlic, and stir until the garlic turns light golden.",
     "Take the pan off the heat, stir in the hing, chili powder, turmeric and garam masala, and pour the tadka straight into the dal.",
     "Add the salt and crumbled kasuri methi, and simmer for 2 minutes. Finish with lemon juice and coriander."
    ],
    "boosts": [
-    "Make the tadka with 1 tbsp olive or avocado oil instead of ghee; this removes the −2 penalty (fats 1 → 2, or 3 with EVOO) [cooking-oil-choice] [extra-virgin-olive-oil]",
+    "Make the tadka with 1 tbsp extra-virgin olive oil instead of ghee: this removes the −2 penalty and adds +1 for EVOO (fats 1 → 3) [cooking-oil-choice] [extra-virgin-olive-oil]",
+    "Use 4 garlic cloves (2 per serving) in the tadka: Nrf2 +1 [garlic-alliums]",
     "Simmer 1 tsp turmeric (½ tsp per serving) with the dal; the tadka fat and a twist of black pepper help absorption (Nrf2 +1) [turmeric-curcumin]",
-    "Stir 2 cups baby spinach into the dal at the end [leafy-greens]",
-    "Use the full 2 tbsp lemon juice and top with diced raw onion, so the vitamin C is there for the lentil iron [iron-egg] [garlic-alliums]",
+    "Top each bowl with ¼ cup diced raw red bell pepper (≈45 mg vitamin C), so the vitamin C is there for the lentil iron (egg +1) [iron-egg]",
+    "Stir 2 cups baby spinach into the dal at the end, for folate and iron [leafy-greens]",
     "Serve with brown rice [whole-grains]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
-    "Allergens: dairy (ghee). Gluten: most store-bought asafoetida is cut with wheat flour, so use a gluten-free hing if needed."
-   ]
+    "Allergens: dairy (ghee). Gluten: most store-bought asafoetida (hing) is cut with wheat flour, so use a gluten-free hing, or leave it out, for a gluten-free dal."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients and rating (5.0 from 270 ratings) confirmed via curl and JSON-LD. Scored for 2 servings, the lower number of '2 to 3', with 1 tbsp ghee, which matches the panel. Folate uses FDC's red-lentil value (204 µg/100 g dry), not the green-lentil figure: 120→105 µg, in the same bands. Cooking 9→10, because a tadka isn't a separate harsher component; the other scores are unchanged. Gluten-free tag removed (hing usually contains wheat)."
+   }
   },
   {
    "id": "chickpea-spinach-curry",
    "title": "Chickpea curry with spinach",
-   "summary": "A 25-minute Thai red curry of chickpeas and spinach in coconut milk over jasmine rice; it is fast and folate-rich, but full-fat coconut milk and white rice pull the fat and blood-sugar scores down.",
+   "summary": "A 25-minute Thai red curry of chickpeas and spinach in coconut milk over jasmine rice; it is fast and gently cooked, but full-fat coconut milk, white rice and modest folate keep most scores low.",
    "source": {
     "title": "Steph's Chickpea Curry with Spinach and Rice",
     "author": "Lindsay Ostrom",
@@ -1561,37 +1573,39 @@
     "rating": 5.0,
     "rating_count": 118,
     "checked": "2026-10-11",
-    "note": "The site's JSON-LD gives a 5.0 rating from 118 reviews (reviewCount) and no separate ratingCount."
+    "note": "The page shows '118 reviews / 5 average'. The JSON-LD gives ratingValue 5 and reviewCount 118 but no separate ratingCount, so the count here is a review count."
    },
-   "changes": "Brand suggestions, chili crisp and the side-salad serving idea dropped; metric units added; steps reworded. Scored with 2½ cups (75 g) spinach, the middle of the 2–3 cup range.",
+   "changes": "Brand suggestions, chili crisp and the side-salad serving idea dropped; metric units added; steps reworded. Scored with 2½ cups (75 g) spinach, the middle of the 2–3 cup range, and canned chickpeas as written.",
    "complexity": "medium",
    "active_min": 15,
    "total_min": 25,
    "servings": 4,
    "meal": "dinner",
    "tags": [
+    "vegetarian",
+    "vegan",
     "dairy-free",
     "budget"
    ],
    "nutrients": {
     "kcal": 590,
-    "fiber_g": 6,
+    "fiber_g": 5.4,
     "added_sugar_g": 3.5,
-    "sat_fat_g": 20,
+    "sat_fat_g": 19.5,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 160,
-    "choline_mg": 40,
-    "iron_mg": 5.0,
-    "zinc_mg": 2.3,
-    "selenium_ug": 18,
+    "folate_ug_dfe": 80,
+    "choline_mg": 34,
+    "iron_mg": 5.2,
+    "zinc_mg": 1.8,
+    "selenium_ug": 19,
     "b12_ug": 0,
     "vit_c_mg": 7,
-    "fruit_veg_servings": 1.0
+    "fruit_veg_servings": 1.1
    },
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Spinach 19 g, cilantro, curry-paste aromatics ≈25 g = 0.3 servings, plus chickpeas 60 g = 0.75, total ≈1.0 (+2); fresh cilantro 2 tbsp per serving (+1); ≥4 plant families: legume, amaranth (spinach), carrot family, allium, palm (coconut), grass (rice) (+1). Spinach is about 0.6 cup raw per serving, under 1 cup (0). Total 4 [herbs-spices] [high-fruit-vegetable-intake]"
+     "why": "Spinach ≈19 g, cilantro 2 g, garlic and curry-paste aromatics ≈8 g per serving = 0.35 servings, plus chickpeas ≈60 g = 0.75, total ≈1.1 (+2); fresh cilantro 2 tbsp per serving (+1); ≥4 plant families: legume, amaranth (spinach), carrot family, allium, palm (coconut), grass (rice) (+1). The spinach is about ⅔ cup raw per serving, wilted, under the leafy-greens amount (0). Total 2+1+1 = 4 [herbs-spices] [high-fruit-vegetable-intake]"
     },
     "nrf2": {
      "score": 1,
@@ -1599,23 +1613,23 @@
     },
     "fats": {
      "score": 1,
-     "why": "Base 2; full-fat coconut milk is the main fat and saturated fat is ≈20 g per serving (−2) = 0, floored to 1 [cooking-oil-choice]"
+     "why": "Base 2; full-fat coconut milk is the main fat and saturated fat is ≈19.5 g per serving (−2) = 0, floored to 1 [cooking-oil-choice]"
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈6 g: chickpeas 4.5 g plus rice and spinach (+3); white jasmine rice is the main starch (0); added sugar ≈3.5 g from 1 tbsp brown sugar over 4 servings (+2); chickpea protein plus fat (+1). Total 6 [whole-grains] [refined-sugar-high-glycemic]"
+     "why": "Fibre ≈5.4 g: chickpeas 3.8 g plus rice, spinach and paste (+3); white jasmine rice is the main starch (0); added sugar ≈3.5 g, mostly 1 tbsp brown sugar ÷ 4 (+2); chickpea protein plus fat (+1). Total 3+0+2+1 = 6 [whole-grains] [refined-sugar-high-glycemic]"
     },
     "cooking": {
      "score": 10,
      "why": "Brief medium-heat sauté of garlic and paste, then a gentle simmer; rice boiled (10) [high-temperature-cooking]"
     },
     "sperm": {
-     "score": 2,
-     "why": "Base 1; folate ≈160 µg (+1). Zinc 2.3 mg, selenium ≈18 µg and produce 1 serving are below the thresholds. Total 2 [zinc-status]"
+     "score": 1,
+     "why": "Base 1. Folate ≈80 µg, zinc ≈1.8 mg, selenium ≈19 µg and produce ≈1.1 servings are all under the thresholds. Total 1 [zinc-status]"
     },
     "egg": {
-     "score": 3,
-     "why": "Base 1; folate ≈160 µg (+2). Iron ≈5 mg, but vitamin C is only ≈7 mg (0). Soy sauce is not counted as a soy food. Total 3 [folic-acid] [iron-egg]"
+     "score": 2,
+     "why": "Base 1; folate ≈80 µg (+1): canned chickpeas 240 g × 41 µg/100 g ≈98 µg, wilted spinach ≈135 µg, coconut milk ≈56 µg, rice, cilantro, paste and soy sauce ≈35 µg, total ≈325 µg ÷ 4. Iron ≈5.2 mg (much of it from coconut milk), but vitamin C is only ≈7 mg (0); choline ≈34 mg (0). Soy sauce is not counted as a soy food. Total 1+1 = 2 [folic-acid] [iron-egg]"
     }
    },
    "ingredients": [
@@ -1645,19 +1659,23 @@
    "boosts": [
     "Use light coconut milk, or half coconut milk and half broth, to bring saturated fat under 10 g and remove the −2 [cooking-oil-choice]",
     "Serve over brown rice: glycemic +2 and fibre up [whole-grains]",
-    "Use 5 cups spinach (over 1 cup raw per serving): plants +1 [leafy-greens]",
+    "Wilt a 10-ounce (285 g) bag of spinach into the curry (about ½ cup cooked per serving): plants +1, and folate rises above 100 µg (sperm +1, egg +1) [leafy-greens] [folic-acid]",
     "Add a sliced red bell pepper and a squeeze of lime at the end, so vitamin C (≥25 mg) is there for the plant iron (egg +1) [iron-egg]",
-    "Add 2 more garlic cloves and 2 tsp ground turmeric with the curry paste: Nrf2 +2 [garlic-alliums] [turmeric-curcumin]"
+    "Add 2 more garlic cloves (1 per serving) and 2 tsp ground turmeric (½ tsp per serving) with the curry paste: Nrf2 +2 [garlic-alliums] [turmeric-curcumin]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
-    "Allergens: soy and gluten (soy sauce; use tamari to avoid gluten). Some Thai red curry pastes, including Maesri, which the author mentions, contain shrimp paste (shellfish). Choose a vegan paste for a vegetarian or shellfish-free dish."
-   ]
+    "Allergens: soy and gluten (soy sauce; use tamari to avoid gluten). The recipe's own FAQ warns that some red curry pastes contain fish sauce or shrimp paste, so check the label if you need the dish vegetarian, vegan, or free of fish and shellfish."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients and method confirmed via curl and JSON-LD; 5.0 from 118 reviews (reviewCount only), noted. Folate recomputed from FDC canned chickpeas (41 µg/100 g): 160→80 µg, so sperm 2→1 and egg 3→2. The page calls the dish vegetarian and only warns that some pastes contain fish sauce or shrimp paste; it doesn't name a brand. So vegetarian and vegan tags were added, with that label caveat."
+   }
   },
   {
    "id": "vegetarian-bean-chili",
    "title": "Vegetarian black bean chili",
-   "summary": "A smoky black and pinto bean chili built on a big tomato base with plenty of vegetables and spices; it is one of the strongest all-rounders here, held back only by having no crucifers.",
+   "summary": "A smoky black and pinto bean chili on a big tomato base with plenty of vegetables and spices; it is one of the strongest all-rounders here, held back mainly by having no crucifers.",
    "source": {
     "title": "Homemade Vegetarian Chili",
     "author": "Kathryne Taylor",
@@ -1666,9 +1684,9 @@
     "rating": 4.9,
     "rating_count": 2140,
     "checked": "2026-10-11",
-    "note": "Page read in a browser because direct fetches were blocked. The JSON-LD gives a 4.9 rating from 2140 reviews (reviewCount)."
+    "note": "Fetched with curl and full browser headers (plain requests return 403). The page and JSON-LD give 4.9 from 2,140 reviews (reviewCount); no separate ratingCount is published, so the count here is a review count."
    },
-   "changes": "Optional garnishes (avocado, tortilla chips, sour cream, cheddar) dropped; metric units added; steps reworded. Scored for 4 servings (the original says 4 to 6; the site's nutrition panel appears to be for 6).",
+   "changes": "Optional garnishes (avocado, tortilla chips, sour cream, cheddar) dropped; metric units added; steps reworded. The original yields '4 to 6 servings' (4 large or 6 moderate) and its nutrition panel doesn't state a serving count; scored for 4, the lower number, per the scoring conventions.",
    "complexity": "involved",
    "active_min": 30,
    "total_min": 60,
@@ -1683,28 +1701,28 @@
     "budget"
    ],
    "nutrients": {
-    "kcal": 360,
-    "fiber_g": 16,
+    "kcal": 345,
+    "fiber_g": 20,
     "added_sugar_g": 0,
-    "sat_fat_g": 1.4,
+    "sat_fat_g": 1.2,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 160,
-    "choline_mg": 75,
-    "iron_mg": 6.4,
-    "zinc_mg": 2.2,
-    "selenium_ug": 3,
+    "folate_ug_dfe": 135,
+    "choline_mg": 70,
+    "iron_mg": 6.5,
+    "zinc_mg": 1.8,
+    "selenium_ug": 4,
     "b12_ug": 0,
-    "vit_c_mg": 45,
+    "vit_c_mg": 49,
     "fruit_veg_servings": 5.0
    },
    "scores": {
     "plants": {
      "score": 9,
-     "why": "Veg ≈317 g (tomato 198, red pepper 41, carrot 30, red onion 28, celery 20) = 4.0 servings, plus beans as 1 pulse serving = 5.0 (+5); spices ≈2.6 tsp dried per serving (+1); cooked tomato about ¾ cup (+1); red onion, ¼ per serving (+1); ≥4 plant families (+1). EVOO is ½ tbsp per serving (0). Total 5+3+1 = 9 [high-fruit-vegetable-intake] [herbs-spices] [tomatoes-lycopene]"
+     "why": "Per serving (4): vegetables ≈321 g (tomato 198, red pepper 41, carrot 30, red onion 28, celery 20, garlic 3) = 4.0 servings, plus beans as 1 pulse serving = 5.0 (+5); spices ≈2.6 tsp dried per serving (+1); cooked tomato ≈¾ cup (+1); red onion ¼ per serving, the amount the rubric uses for onions (+1); ≥4 plant families (+1). EVOO is 1½ tsp per serving (0). Total 5+3+1 = 9 [high-fruit-vegetable-intake] [herbs-spices] [tomatoes-lycopene]"
     },
     "nrf2": {
      "score": 3,
-     "why": "Base 1; 1 garlic clove plus ¼ onion per serving (+2); no crucifers or turmeric. Total 3 [garlic-alliums]"
+     "why": "Base 1; 1 garlic clove plus ¼ onion per serving (+2); no crucifers or turmeric. Total 1+2 = 3 [garlic-alliums]"
     },
     "fats": {
      "score": 3,
@@ -1712,7 +1730,7 @@
     },
     "glycemic": {
      "score": 10,
-     "why": "Fibre ≈16 g: beans 180 g ≈12.6 g plus tomatoes, vegetables and spices (+5); legume is the starch (+2); no added sugar (+2); bean protein plus vinegar (+1). Total 10 [legumes] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈20 g: beans ≈49 g, tomatoes ≈15 g, chili powder and other spices ≈8 g, vegetables ≈10 g, total ≈82 g ÷ 4 (+5); legume is the starch (+2); no added sugar (+2); bean protein plus vinegar (+1). Total 5+2+2+1 = 10 [legumes] [dietary-fiber-microbiome]"
     },
     "cooking": {
      "score": 10,
@@ -1720,11 +1738,11 @@
     },
     "sperm": {
      "score": 5,
-     "why": "Base 1; cooked tomato ≥½ cup (+2); folate ≈160 µg (+1); ≥2 produce servings (+1). Zinc 2.2 mg (0). Total 5 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+     "why": "Base 1; cooked tomato ≥½ cup (+2); folate ≈135 µg (+1); ≈5 produce servings (+1). Zinc 1.8 mg (0). Total 1+2+1+1 = 5 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
     },
     "egg": {
      "score": 4,
-     "why": "Base 1; folate ≈160 µg (+2); plant iron ≈6.4 mg with vitamin C ≈45 mg from red pepper and tomato (+1). Profertility: produce only (0). Total 4 [folic-acid] [iron-egg]"
+     "why": "Base 1; folate ≈135 µg (+2): black beans 510 g × 61 µg/100 g ≈311 µg, canned pinto beans 255 g × 24 µg/100 g ≈61 µg, vegetables and spices ≈170 µg after cooking, ÷ 4; plant iron ≈6.5 mg with vitamin C ≈49 mg from red pepper and tomato (+1). Profertility: produce only (0). Total 1+2+1 = 4 [folic-acid] [iron-egg]"
     }
    },
    "ingredients": [
@@ -1768,12 +1786,16 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list. If you top it with cheese or sour cream, choose pasteurised ones.",
     "Allergens: none in the base recipe. Optional toppings may add dairy (sour cream, cheddar) or corn and gluten (tortilla chips)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients and method confirmed via curl (browser headers) and JSON-LD; 4.9 from 2,140 reviews (reviewCount only), noted. Scored for 4 servings, the lower number of '4 to 6'. Folate recomputed (canned pinto beans are 24 µg/100 g): 160→135 µg, in the same bands. All seven scores are unchanged."
+   }
   },
   {
    "id": "kale-salad-carrot-ginger",
    "title": "Massaged kale salad with roasted chickpeas",
-   "summary": "Massaged raw kale with beet, watermelon radish, avocado, pepitas and crispy roasted chickpeas in a roasted carrot-ginger dressing; it is high in plants, fibre and folate, and the raw crucifers help Nrf2.",
+   "summary": "Massaged raw kale with beet, watermelon radish, avocado, pepitas and crispy roasted chickpeas in a roasted carrot-ginger dressing; it is high in plants, fibre and vitamin C, and the raw crucifers earn partial Nrf2 credit.",
    "source": {
     "title": "Kale Salad",
     "author": "Jeanine Donofrio",
@@ -1782,12 +1804,12 @@
     "rating": 4.93,
     "rating_count": 101,
     "checked": "2026-10-11",
-    "note": "The roasted chickpeas follow the linked Love and Lemons 'Roasted Chickpeas' recipe (4.92 from 347 ratings)."
+    "note": "The roasted chickpeas follow the linked Love and Lemons 'Crispy Roasted Chickpeas' recipe (4.92 from 347 ratings)."
    },
-   "changes": "The linked roasted chickpea sub-recipe is written out; metric units added; steps reworded.",
+   "changes": "The linked roasted chickpea sub-recipe is written out; metric units added; steps reworded. The chickpeas are scored as canned, since both recipes say 'drained and rinsed'.",
    "complexity": "involved",
    "active_min": 30,
-   "total_min": 45,
+   "total_min": 40,
    "servings": 4,
    "meal": "lunch",
    "tags": [
@@ -1797,15 +1819,15 @@
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 435,
-    "fiber_g": 11.5,
-    "added_sugar_g": 2,
-    "sat_fat_g": 4.2,
+    "kcal": 400,
+    "fiber_g": 11,
+    "added_sugar_g": 3,
+    "sat_fat_g": 4.0,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 205,
-    "choline_mg": 40,
-    "iron_mg": 3.7,
-    "zinc_mg": 2.2,
+    "folate_ug_dfe": 125,
+    "choline_mg": 35,
+    "iron_mg": 2.6,
+    "zinc_mg": 1.7,
     "selenium_ug": 3,
     "b12_ug": 0,
     "vit_c_mg": 50,
@@ -1814,11 +1836,11 @@
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Veg/fruit ≈170 g (kale 42, carrots 36, avocado 37, radish 25, beet 20, cranberries ×2) = 2.1 servings, plus chickpeas 0.8, total 2.9 (+3); EVOO ≈1¼ tbsp per serving (+1); raw kale about 2 cups per serving (+1); watermelon radish, anthocyanin red (+1); ≥4 plant families (+1). Total 3+3+1 = 7 [high-fruit-vegetable-intake] [extra-virgin-olive-oil] [leafy-greens]"
+     "why": "Vegetables and fruit ≈170 g per serving (kale 42, carrots 36, avocado 37, radish 25, beet 20, dried cranberries 5 counted ×2) = 2.1 servings, plus chickpeas 0.8, total 2.9 (+3); EVOO ≈1¼ tbsp per serving (+1); raw kale about 2 cups per serving (+1); watermelon radish 25 g plus red beet 20 g of red-purple produce per serving (+1); ≥4 plant families (+1). Total 3+1+1+1+1 = 7 [high-fruit-vegetable-intake] [extra-virgin-olive-oil] [leafy-greens]"
     },
     "nrf2": {
      "score": 3,
-     "why": "Base 1; raw crucifers kale 42 g plus watermelon radish 25 g = 67 g per serving: raw +5 halved = 2.5, rounded down to +2; no alliums. Total 3 [cruciferous-other]"
+     "why": "Base 1; raw crucifers kale 42 g plus watermelon radish 25 g = 67 g per serving: raw +5 halved = 2.5, rounded down to +2; no alliums. Total 1+2 = 3 [cruciferous-other]"
     },
     "fats": {
      "score": 4,
@@ -1826,19 +1848,19 @@
     },
     "glycemic": {
      "score": 9,
-     "why": "Fibre ≈11.5 g: chickpeas 4.7, avocado 2.5, kale 1.7, carrots 1.0 and the rest (+4); legume is the only starch (+2); added sugar ≈2 g from the dried cranberries (+2); fat, vinegar and protein (+1). Total 9 [dietary-fiber-microbiome] [legumes]"
+     "why": "Fibre ≈11 g: chickpeas 3.9, avocado 2.5, kale 1.7, carrots 1.0, beet 0.6, pepitas 0.5 and the rest (+4); legume is the only starch (+2); added sugar ≈3 g from the sweetened dried cranberries (+2); fat, vinegar and protein (+1). Total 4+2+2+1 = 9 [dietary-fiber-microbiome] [legumes]"
     },
     "cooking": {
-     "score": 9,
-     "why": "The kale is raw (10); the carrots and chickpeas are roasted at 400–425 °F (≤220 °C) only until golden (8). Midpoint (10+8)/2 = 9 [high-temperature-cooking]"
+     "score": 8,
+     "why": "The kale is raw (10). The roasted chickpeas are a separate component, roasted at 425 °F (220 °C) until golden brown and crisp: roast at ≤220 °C (8), minus 1 for starchy food browned at high heat = 7. Midpoint (10+7)/2 = 8.5, rounded down to 8 [high-temperature-cooking] [acrylamide]"
     },
     "sperm": {
      "score": 3,
-     "why": "Base 1; folate ≈205 µg (+1); ≥2 produce servings (+1). Zinc 2.2 mg and pepitas ≈8 g are below the thresholds. Total 3 [high-fruit-vegetable-intake]"
+     "why": "Base 1; folate ≈125 µg (+1); ≥2 produce servings (+1). Zinc 1.7 mg and pepitas ≈8 g are below the thresholds. Total 3 [high-fruit-vegetable-intake]"
     },
     "egg": {
-     "score": 4,
-     "why": "Base 1; folate ≈205 µg (+3). Iron is 3.7 mg, under 4 (0). Profertility: produce only (0). Total 4 [folic-acid]"
+     "score": 3,
+     "why": "Base 1; folate ≈125 µg (+2): avocado ≈132 µg, kale ≈104, canned chickpeas ≈101 (246 g × 41 µg/100 g), beet ≈87, carrots, radish, pepitas and sesame ≈75, total ≈500 µg ÷ 4. Iron ≈2.6 mg, under 4 (0). Profertility: produce only (0). Total 1+2 = 3 [folic-acid]"
     }
    },
    "ingredients": [
@@ -1890,14 +1912,20 @@
    ],
    "boosts": [
     "Add 1 cup watercress per serving: Nrf2 +3 [watercress-peitc]",
-    "Use 2 bunches of kale, so each serving gets over 80 g raw crucifers: Nrf2 +2 → +5 [cruciferous-other]",
+    "Use 2 bunches of kale, so each serving gets over 80 g raw crucifers: crucifer points +2 → +5 [cruciferous-other]",
+    "Use chickpeas cooked from dry: folate rises to ≈200 µg per serving (egg +1) [legumes] [folic-acid]",
+    "Roast the chickpeas only until lightly golden, not deep brown and crisp: cooking 8 → 9 [acrylamide]",
     "Increase the pepitas to ½ cup (about 16 g per serving): fats +1 [walnuts-nuts]",
     "Add ¼ thinly sliced red onion per serving: Nrf2 +1 [garlic-alliums]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list. Wash raw produce well.",
     "Allergens: sesame."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Kale salad (4.93/101) and linked roasted chickpeas (4.92/347) confirmed via curl and JSON-LD; ingredients match. Folate recomputed with FDC canned chickpeas: 205→125 µg, so egg 4→3. Cooking 9→8: the crisp roasted chickpeas take the −1 for starchy food browned at high heat before the midpoint. Total time set to the original's 40 min."
+   }
   },
   {
    "id": "raw-broccoli-salad",
@@ -1926,15 +1954,15 @@
     "make-ahead"
    ],
    "nutrients": {
-    "kcal": 285,
+    "kcal": 295,
     "fiber_g": 5,
-    "added_sugar_g": 6,
-    "sat_fat_g": 3,
+    "added_sugar_g": 5,
+    "sat_fat_g": 2.7,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 80,
-    "choline_mg": 29,
-    "iron_mg": 1.4,
-    "zinc_mg": 1.2,
+    "folate_ug_dfe": 82,
+    "choline_mg": 27,
+    "iron_mg": 1.7,
+    "zinc_mg": 1.3,
     "selenium_ug": 9,
     "b12_ug": 0,
     "vit_c_mg": 68,
@@ -1943,19 +1971,19 @@
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Broccoli 76 g, red onion 9 g, dried cranberries 7 g (×2) ≈98 g = 1.2 servings (+2); ≥4 plant families: crucifer, allium, heath (cranberry), rose (almond), daisy (sunflower) (+1). EVOO is ½ tbsp per serving (0); spices ¼ tsp in total (0); red onion 9 g is too little to count (0). Total 3 [high-fruit-vegetable-intake]"
+     "why": "Broccoli 76 g, red onion 9 g, dried cranberries 7 g (×2) ≈98 g = 1.2 servings (+2); ≥4 plant families: crucifer, allium, heath (cranberry), rose (almond), daisy (sunflower) (+1). EVOO is ½ tbsp per serving (0); spices ¼ tsp in total (0); red onion 9 g is too little to count (0). Total 2+1 = 3 [high-fruit-vegetable-intake]"
     },
     "nrf2": {
      "score": 3,
-     "why": "Base 1; raw broccoli 1 lb ÷ 6 = 76 g per serving, in the 40–79 g band: +5 halved = 2.5, rounded down to +2. Garlic ⅙ clove and red onion 9 g are under the allium thresholds (0); Dijon ⅓ tsp per serving is not a meaningful amount (0). Total 3 [broccoli-mature]"
+     "why": "Base 1; raw broccoli 1 lb ÷ 6 = 76 g per serving, in the 40–79 g band: +5 halved = 2.5, rounded down to +2. Garlic ⅙ clove and red onion 9 g are under the allium thresholds (0); Dijon ⅓ tsp per serving is not a meaningful amount (0). Total 1+2 = 3 [broccoli-mature]"
     },
     "fats": {
      "score": 4,
-     "why": "Base 2; EVOO 1½ tsp per serving, listed first and used alongside the same amount of mayo (+1); almonds plus sunflower seeds ≈23 g per serving (+1). Total 4 [extra-virgin-olive-oil] [walnuts-nuts]"
+     "why": "Base 2; EVOO 1½ tsp per serving, the main added fat (more than the mayo) (+1); almonds plus sunflower seeds ≈24 g per serving (+1). Total 4 [extra-virgin-olive-oil] [walnuts-nuts]"
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre ≈5 g: broccoli 2.0, almonds 1.5, seeds 1.0, cranberries 0.4 (the site panel says 4 g; FDC sum used) (+3); no starch (+2); added sugar ≈6 g from maple syrup and sweetened cranberries (+1); fat plus vinegar (+1). Total 7 [dietary-fiber-microbiome] [refined-sugar-high-glycemic]"
+     "why": "Fibre ≈5 g: broccoli 2.0, almonds 1.5, seeds 1.0, cranberries 0.4 (the site panel says 4 g; FDC sum used) (+3); no starch (+2); added sugar ≈5 g from maple syrup and sweetened cranberries (+1); fat plus vinegar (+1). Total 3+2+1+1 = 7 [dietary-fiber-microbiome] [refined-sugar-high-glycemic]"
     },
     "cooking": {
      "score": 10,
@@ -1963,11 +1991,11 @@
     },
     "sperm": {
      "score": 1,
-     "why": "Base 1. Nuts and seeds ≈23 g are under 30 g; folate ≈80 µg, zinc 1.2 mg, selenium 9 µg and produce 1.2 servings are all below the thresholds. Total 1 [walnuts-nuts]"
+     "why": "Base 1. Nuts and seeds ≈24 g are under 30 g; folate ≈82 µg, zinc 1.3 mg, selenium ≈9 µg and produce 1.2 servings are all below the thresholds. Total 1 [walnuts-nuts]"
     },
     "egg": {
      "score": 2,
-     "why": "Base 1; folate ≈80 µg (+1). Total 2 [folic-acid]"
+     "why": "Base 1; folate ≈82 µg (+1): broccoli ≈286 µg, sunflower seeds ≈159, almonds ≈32, onion and the rest ≈15, ÷ 6. Total 2 [folic-acid]"
     }
    },
    "ingredients": [
@@ -2010,15 +2038,19 @@
     "Fold most of the nuts and seeds into the salad, scatter the rest on top, season to taste and serve."
    ],
    "boosts": [
-    "Use 1¼ lb (565 g) broccoli, or serve it as 5 portions, so each serving has at least 80 g raw broccoli: Nrf2 +2 → +5 [broccoli-mature]",
-    "Swap the almonds for walnuts and use ¾ cup nuts plus ½ cup seeds (≥30 g per serving): fats +1, sperm +2 [walnuts-nuts]",
+    "Use 1¼ lb (565 g) broccoli, or serve it as 5 portions, so each serving has at least 80 g raw broccoli: crucifer points +2 → +5 [broccoli-mature]",
+    "Swap the almonds for 1½ cups (about 180 g) walnuts, 30 g per serving: fats +1, sperm +2 [walnuts-nuts]",
     "Replace the mayonnaise with more extra-virgin olive oil (≥1 tbsp per serving): plants +1, fats +1 [extra-virgin-olive-oil]",
     "Use fresh pomegranate arils instead of sweetened dried cranberries: less added sugar, and an anthocyanin source (plants +1) [berries-other] [refined-sugar-high-glycemic]"
    ],
    "watch_outs": [
     "Pregnancy: use commercial mayonnaise (made with pasteurised egg), not homemade raw-egg mayo.",
     "Allergens: tree nuts (almonds), egg (mayonnaise), soy (tamari). Most tamari is gluten-free, but check the label."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients, method and rating (4.98/498) confirmed via curl and JSON-LD. Scores unchanged; nutrients refined (added sugar ≈5 g, folate ≈82 µg). The walnut boost was fixed, since ¾ cup nuts gave only 26 g per serving."
+   }
   },
   {
    "id": "tabbouleh",
@@ -2033,7 +2065,7 @@
     "rating_count": 111,
     "checked": "2026-10-11"
    },
-   "changes": "Metric units added; steps reworded; a step to cook and cool the bulgur added (the original lists it as cooked).",
+   "changes": "Metric units added; steps reworded; a step to prepare and cool the bulgur added from the original's recipe note (the ingredient list gives it as cooked).",
    "complexity": "easy",
    "active_min": 20,
    "total_min": 40,
@@ -2049,21 +2081,21 @@
     "kcal": 145,
     "fiber_g": 2.6,
     "added_sugar_g": 0,
-    "sat_fat_g": 1.3,
+    "sat_fat_g": 1.7,
     "epa_dha_mg": 0,
     "folate_ug_dfe": 60,
     "choline_mg": 8,
-    "iron_mg": 2.3,
-    "zinc_mg": 0.4,
+    "iron_mg": 2.4,
+    "zinc_mg": 0.5,
     "selenium_ug": 0.5,
     "b12_ug": 0,
     "vit_c_mg": 48,
-    "fruit_veg_servings": 1.1
+    "fruit_veg_servings": 1.2
    },
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Parsley 30 g, tomato 30 g, cucumber 22 g, scallion, mint and lemon ≈90 g = 1.1 servings (+2); fresh herbs: parsley ½ cup plus mint per serving (+1); ≥4 plant families: carrot family, gourd, nightshade, grass, mint, allium, citrus (+1). EVOO is ⅓ cup ÷ 6 ≈ 0.9 tbsp, just under 1 tbsp (0). Total 4 [herbs-spices] [high-fruit-vegetable-intake]"
+     "why": "Parsley 30 g, tomato 30 g, cucumber 22 g, scallion, mint and lemon ≈97 g = 1.2 servings (+2); fresh herbs: parsley ½ cup plus mint per serving (+1); ≥4 plant families: carrot family, gourd, nightshade, grass, mint, allium, citrus (+1). EVOO is ⅓ cup ÷ 6 ≈ 0.9 tbsp, just under 1 tbsp (0). Total 2+1+1 = 4 [herbs-spices] [high-fruit-vegetable-intake]"
     },
     "nrf2": {
      "score": 1,
@@ -2075,11 +2107,11 @@
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈2.6 g (+1); bulgur is whole grain (+2); no added sugar (+2); dressed with olive oil (+1). Total 6 [whole-grains]"
+     "why": "Fibre ≈2.6 g: parsley 1.0, bulgur 0.9, tomato 0.4 and the rest (+1); bulgur is whole grain (+2); no added sugar (+2); dressed with olive oil and lemon (+1). Total 1+2+2+1 = 6 [whole-grains]"
     },
     "cooking": {
      "score": 10,
-     "why": "Raw salad; the bulgur is boiled (10) [high-temperature-cooking]"
+     "why": "Raw salad; the bulgur is soaked or steeped in hot water (10) [high-temperature-cooking]"
     },
     "sperm": {
      "score": 1,
@@ -2087,7 +2119,7 @@
     },
     "egg": {
      "score": 2,
-     "why": "Base 1; folate ≈60 µg, mostly from parsley (+1). Iron 2.3 mg (0). Profertility: whole grain only (0). Total 2 [folic-acid]"
+     "why": "Base 1; folate ≈60 µg, mostly from parsley (+1). Iron 2.4 mg (0). Profertility: whole grain only (0). Total 2 [folic-acid]"
     }
    },
    "ingredients": [
@@ -2110,10 +2142,10 @@
     }
    ],
    "steps": [
-    "Cook the bulgur following the package directions and let it cool.",
-    "In a large bowl, whisk together the olive oil, lemon juice, garlic, salt, coriander and cinnamon.",
-    "Add the parsley, cucumber, tomato, bulgur, mint and scallions, and toss well.",
-    "Season to taste and chill until you're ready to serve."
+    "Prepare the bulgur: soak fine bulgur in water to cover for about 20 minutes, or stir coarse bulgur into boiling water, cover, take it off the heat and leave 20–30 minutes. Drain, fluff with a fork and let it cool.",
+    "Whisk the dressing in a big bowl: olive oil, lemon juice, garlic, salt, ground coriander and the cinnamon.",
+    "Tip in the chopped parsley, cucumber, tomato, cooled bulgur, mint and scallions, and toss until everything is coated.",
+    "Taste, adjust the salt, and keep it cold until serving."
    ],
    "boosts": [
     "Use ½ cup extra-virgin olive oil (≥1 tbsp per serving): plants +1, fats +1 [extra-virgin-olive-oil]",
@@ -2124,12 +2156,16 @@
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list. Wash the herbs well.",
     "Allergens: gluten (bulgur wheat)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients and rating (4.89/111) confirmed via curl and JSON-LD. Scores unchanged. Steps 2–3 copied the original almost word for word and were rewritten; the bulgur step now follows the original's note (soak or steep, not boil)."
+   }
   },
   {
    "id": "sesame-tofu-broccoli",
    "title": "Sesame tofu and broccoli stir-fry",
-   "summary": "Cornstarch-crisped tofu and broccoli in a sweet-tangy sesame-ginger sauce over rice; tofu brings zinc, selenium and iron, while the small amount of frozen broccoli, the white rice and the sugar keep the other scores middling.",
+   "summary": "Cornstarch-crisped tofu and broccoli in a sweet-tangy sesame-ginger sauce over rice; tofu, rice and sesame bring zinc, selenium and iron, while the small amount of frozen broccoli, the white rice and the sugar keep the other scores middling.",
    "source": {
     "title": "Pan Fried Sesame Tofu with Broccoli",
     "author": "Beth Moncel",
@@ -2138,7 +2174,7 @@
     "rating": 4.61,
     "rating_count": 205,
     "checked": "2026-10-11",
-    "note": "Page read in a browser because direct fetches were blocked. Rating from the page's JSON-LD."
+    "note": "Fetched with curl and full browser headers (plain requests return 403). Rating from the page's JSON-LD."
    },
    "changes": "Ingredient prices dropped; metric units added; steps reworded.",
    "complexity": "involved",
@@ -2153,28 +2189,28 @@
     "budget"
    ],
    "nutrients": {
-    "kcal": 680,
-    "fiber_g": 6.2,
+    "kcal": 640,
+    "fiber_g": 5.9,
     "added_sugar_g": 9,
-    "sat_fat_g": 3,
+    "sat_fat_g": 3.1,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 100,
-    "choline_mg": 70,
-    "iron_mg": 4.9,
-    "zinc_mg": 3.9,
-    "selenium_ug": 41,
+    "folate_ug_dfe": 85,
+    "choline_mg": 66,
+    "iron_mg": 5.2,
+    "zinc_mg": 3.5,
+    "selenium_ug": 37,
     "b12_ug": 0,
-    "vit_c_mg": 33,
+    "vit_c_mg": 36,
     "fruit_veg_servings": 1.2
    },
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Broccoli 76 g, green onion 17 g, ginger and garlic ≈96 g = 1.2 servings (+2); ≥4 plant families: legume (tofu, soy), crucifer, allium, ginger, sesame, grass (rice) (+1). Fresh ginger is 1 tsp per serving, under 1 tbsp (0). Total 3 [high-fruit-vegetable-intake]"
+     "why": "Broccoli 76 g, green onion 17 g, ginger and garlic ≈97 g = 1.2 servings (+2); ≥4 plant families: legume (tofu, soy), crucifer, allium, ginger, sesame, grass (rice) (+1). Fresh ginger is 1 tsp per serving, under 1 tbsp (0). Total 2+1 = 3 [high-fruit-vegetable-intake]"
     },
     "nrf2": {
      "score": 2,
-     "why": "Base 1; frozen (pre-blanched) broccoli ½ lb ÷ 3 = 76 g per serving, stir-fried: +3 halved = 1.5, rounded down to +1. Garlic ⅔ clove and green onion are under the allium thresholds (0). Total 2 [broccoli-mature]"
+     "why": "Base 1; frozen (pre-blanched) broccoli ½ lb ÷ 3 = 76 g per serving, stir-fried: +3 halved = 1.5, rounded down to +1. Garlic ⅔ clove and green onion are under the allium thresholds (0). Total 1+1 = 2 [broccoli-mature]"
     },
     "fats": {
      "score": 2,
@@ -2182,19 +2218,19 @@
     },
     "glycemic": {
      "score": 5,
-     "why": "Fibre ≈6.2 g, in line with the site panel (6.0 g) (+3); white rice is the main starch (0); added sugar ≈9 g (2 tbsp brown sugar ÷ 3) (+1); tofu protein plus rice vinegar (+1). Total 5 [refined-sugar-high-glycemic] [whole-grains]"
+     "why": "Fibre ≈5.9 g, in line with the site panel (6.0 g) (+3); white rice is the main starch (0); added sugar ≈9 g (2 tbsp brown sugar ÷ 3) (+1); tofu protein plus rice vinegar (+1). Total 3+0+1+1 = 5 [refined-sugar-high-glycemic] [whole-grains]"
     },
     "cooking": {
      "score": 8,
      "why": "Tofu pan-fried until golden over medium heat, and broccoli stir-fried, in neutral oil (8). Medium heat rather than high, so no seed-oil deduction, but use canola or peanut rather than soybean 'vegetable' oil [cooking-oil-choice] [high-temperature-cooking]"
     },
     "sperm": {
-     "score": 4,
-     "why": "Base 1; zinc ≈3.9 mg from tofu, rice and sesame (+1); selenium ≈41 µg from tofu and rice (+1); folate ≈100 µg (+1, borderline). Produce 1.2 servings (0). Total 4 [zinc-status] [selenium-supplement]"
+     "score": 3,
+     "why": "Base 1; zinc ≈3.5 mg: tofu 1.4, rice 1.0, sesame 0.5, broccoli and the rest 0.6 (+1); selenium ≈37 µg: tofu 17, rice 16, sesame and broccoli 4 (+1). Folate ≈85 µg (0); produce 1.2 servings (0). Total 1+1+1 = 3 [zinc-status] [selenium-supplement]"
     },
     "egg": {
-     "score": 4,
-     "why": "Base 1; folate ≈100 µg (+2); plant iron ≈4.9 mg with vitamin C ≈33 mg from broccoli (+1). Profertility: soy food only, since the rice is white (0). Choline ≈70 mg (0). Total 4. Enriched US rice would add folic acid, which is not counted here [folic-acid] [iron-egg] [soy]"
+     "score": 3,
+     "why": "Base 1; folate ≈85 µg (+1): broccoli ≈45 µg, extra-firm tofu ≈12 µg (FDC 9 µg/100 g), green onion 11, sesame, soy sauce and rice ≈15. Plant iron ≈5.2 mg with vitamin C ≈36 mg from broccoli (+1). Choline ≈66 mg (0). Profertility: soy food only, since the rice is white (0). Total 1+1+1 = 3. Enriched US rice would add folic acid, which is not counted here [folic-acid] [iron-egg] [soy]"
     }
    },
    "ingredients": [
@@ -2235,16 +2271,20 @@
     "Serve over the rice, topped with green onions."
    ],
    "boosts": [
-    "Use 1 lb fresh broccoli, steamed for 3–4 minutes and then tossed in the sauce off the heat (about 150 g per serving, myrosinase kept): Nrf2 +1 → +5 [broccoli-mature]",
+    "Use 1 lb fresh broccoli, steamed for 3–4 minutes and then tossed in the sauce off the heat (about 150 g per serving, myrosinase kept): crucifer points +1 → +5 [broccoli-mature]",
     "If you keep the frozen broccoli, sprinkle ¼ tsp mustard powder per serving over it after cooking [mustard-seed-myrosinase]",
     "Serve over brown rice: glycemic +2, and a second profertility component (egg +1) [whole-grains] [profertility-diet]",
-    "Halve the brown sugar (≈4.5 g per serving): glycemic +1 [refined-sugar-high-glycemic]",
+    "Cut the brown sugar to 2 tsp (≈3 g per serving): glycemic +1 [refined-sugar-high-glycemic]",
     "Fry the tofu in avocado or high-oleic oil [cooking-oil-choice]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
     "Allergens: soy (tofu, soy sauce), gluten (soy sauce; use tamari to avoid it), sesame."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients, method and rating (4.61/205) confirmed via curl (browser headers) and JSON-LD. Folate recomputed with FDC extra-firm tofu (9 µg/100 g): 100→85 µg, so sperm 4→3 and egg 4→3; zinc (3.5 mg) and selenium (37 µg) still clear their thresholds. The halve-the-sugar boost was replaced, because 4.6 g per serving doesn't reach the 0–4 g band."
+   }
   },
   {
    "id": "asian-peanut-slaw",
@@ -2271,16 +2311,16 @@
     "make-ahead"
    ],
    "nutrients": {
-    "kcal": 300,
-    "fiber_g": 5,
+    "kcal": 290,
+    "fiber_g": 5.3,
     "added_sugar_g": 11.5,
-    "sat_fat_g": 2,
+    "sat_fat_g": 2.4,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 145,
-    "choline_mg": 28,
-    "iron_mg": 1.6,
-    "zinc_mg": 0.9,
-    "selenium_ug": 1,
+    "folate_ug_dfe": 135,
+    "choline_mg": 33,
+    "iron_mg": 1.4,
+    "zinc_mg": 1.0,
+    "selenium_ug": 1.6,
     "b12_ug": 0,
     "vit_c_mg": 47,
     "fruit_veg_servings": 1.7
@@ -2288,11 +2328,11 @@
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Slaw mix 47 g, carrots 37 g, edamame 26 g, red pepper 20 g, scallion and cilantro ≈137 g = 1.7 servings (+2); fresh cilantro ≈1⅓ tbsp plus ginger per serving (+1); ≥4 plant families: crucifer, carrot family, nightshade, legume, allium, ginger (+1). Total 4 [high-fruit-vegetable-intake] [herbs-spices]"
+     "why": "Slaw mix 47 g, carrots 37 g, edamame 26 g, red pepper 20 g, scallion and cilantro ≈137 g = 1.7 servings (+2); fresh cilantro ≈1⅓ tbsp plus ginger per serving (+1); ≥4 plant families: crucifer, carrot family, nightshade, legume, allium, ginger (+1). Total 2+1+1 = 4 [high-fruit-vegetable-intake] [herbs-spices]"
     },
     "nrf2": {
      "score": 3,
-     "why": "Base 1; raw cabbage ≈42 g per serving (4 cups mix at about 70 g per cup, roughly 90% cabbage, ÷ 6), in the 40–79 g band: +5 halved = 2.5, rounded down to +2. Garlic ⅙ clove and scallion are under the allium thresholds (0). Total 3 [cruciferous-other]"
+     "why": "Base 1; raw cabbage ≈42 g per serving (4 cups mix at about 70 g per cup, roughly 90% cabbage, ÷ 6), in the 40–79 g band: +5 halved = 2.5, rounded down to +2. Garlic ⅙ clove and scallion are under the allium thresholds (0). Total 1+2 = 3 [cruciferous-other]"
     },
     "fats": {
      "score": 2,
@@ -2300,7 +2340,7 @@
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre ≈5 g, matching the site panel (+3); no starch (+2); added sugar ≈11.5 g from ¼ cup honey ÷ 6 (+1); vinegar, fat and protein (+1). Total 7 [refined-sugar-high-glycemic] [dietary-fiber-microbiome]"
+     "why": "Fibre ≈5.3 g, close to the site panel's 5 g (+3); no starch (+2); added sugar ≈11.5 g from ¼ cup honey ÷ 6 (+1); vinegar, fat and protein (+1). Total 3+2+1+1 = 7 [refined-sugar-high-glycemic] [dietary-fiber-microbiome]"
     },
     "cooking": {
      "score": 10,
@@ -2308,11 +2348,11 @@
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; folate ≈145 µg, mostly from edamame and peanuts (+1). Peanuts ≈15 g are under 30 g; produce 1.7 servings (0). Total 2 [walnuts-nuts]"
+     "why": "Base 1; folate ≈135 µg, mostly from edamame and peanuts (+1). Peanuts ≈15 g are under 30 g; produce 1.7 servings (0). Total 2 [walnuts-nuts]"
     },
     "egg": {
      "score": 3,
-     "why": "Base 1; folate ≈145 µg (+2). Iron 1.6 mg (0). Profertility: soy food (edamame) only (0). Total 3 [folic-acid] [soy]"
+     "why": "Base 1; folate ≈135 µg (+2): edamame 155 g × 311 µg/100 g ≈482 µg, cabbage ≈108, peanuts and peanut butter ≈85, pepper, carrots and scallion ≈120, ÷ 6. Iron 1.4 mg (0). Profertility: soy food (edamame) only (0). Total 1+2 = 3 [folic-acid] [soy]"
     }
    },
    "ingredients": [
@@ -2350,15 +2390,19 @@
     "Let the slaw sit for at least 10 minutes so the vegetables absorb the dressing. Adjust the salt and serve cold. Covered leftovers keep in the fridge for a few days."
    ],
    "boosts": [
-    "Double the coleslaw mix to 8 cups (over 80 g raw cabbage per serving): Nrf2 +2 → +5 [cruciferous-other]",
-    "Use shredded red cabbage for half the slaw mix, as an anthocyanin source: plants +1 [high-fruit-vegetable-intake]",
+    "Double the coleslaw mix to 8 cups (over 80 g raw cabbage per serving): crucifer points +2 → +5 [cruciferous-other]",
+    "Use 4 cups shredded red cabbage in place of the coleslaw mix (about 47 g per serving), as an anthocyanin source: plants +1 [high-fruit-vegetable-intake]",
     "Raise the peanuts to ¾ cup (about 18 g per serving): fats +1 [walnuts-nuts]",
     "Halve the honey (≈6 g added sugar per serving) [refined-sugar-high-glycemic]"
    ],
    "watch_outs": [
     "Pregnancy: nothing from the watch-out list.",
     "Allergens: peanuts, soy (edamame, soy sauce), gluten (soy sauce; use tamari to avoid it), sesame (sesame oil)."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, ingredients and rating (4.93/182) confirmed via curl and JSON-LD; author Jennifer Segal. Scores unchanged; folate refined to ≈135 µg. The red-cabbage boost was resized, since half the mix (≈23 g per serving) was too little for an anthocyanin point."
+   }
   },
   {
    "id": "sheet-pan-salmon-garlicky-kale",

@@ -147,7 +147,7 @@ These settle edge cases so every recipe is scored the same way.
 - **Cooking midpoint:** use it only for a separate, harsher component, such as seared meat or crisp roast potatoes beside a stew. Gently softening onions, garlic or greens as the first step of a simmered or baked dish doesn't lower the score.
 - **Legumes** count as at most one fruit-and-vegetable serving per dish.
 - **Folate:** count natural food folate only. Ignore folic acid from fortified flour, pasta or rice, because fortification differs by country.
-- **Servings:** score per the original's serving count. If the original's serving is unrealistically small (one energy bite), score a realistic portion and say so in `changes`.
+- **Servings:** score per the original's serving count. When the original gives a range ("serves 4 to 6") and its nutrition panel doesn't settle it, use the lower number, which is a full meal-sized portion. If the original's serving is unrealistically small (one energy bite), score a realistic portion and say so in `changes`.
 
 ## Pregnancy watch-outs (flagged, not scored)
 - raw or lightly cooked sprouts
