@@ -316,7 +316,73 @@ def main():
         "stack": load("stack.json"),
         "compare_presets": (load("compare.json", {}) or {}).get("presets", []),
         "compare_defaults": (load("compare.json", {}) or {}).get("defaults", []),
+        "recipe_categories": [],
+        "recipes": [],
     }
+    rdoc = load("recipes.json", {}) or {}
+    cats = rdoc.get("categories", [])
+    cat_ids = [c["id"] for c in cats]
+    fix = lambda t: re.sub(r"\[([a-z0-9-]+)\]", lambda m: "[" + factor_alias.get(m.group(1), m.group(1)) + "]", t or "")
+    for c in cats:
+        c["factors"] = [factor_alias.get(i, i) for i in c.get("factors", [])]
+        for fid in c["factors"]:
+            if fid not in ids:
+                warn(f"recipe category {c['id']}: unknown factor '{fid}'")
+    seen = set()
+    for r in rdoc.get("recipes", []):
+        if r["id"] in seen:
+            warn(f"recipe {r['id']}: duplicate id")
+        seen.add(r["id"])
+        if set(r.get("scores", {})) != set(cat_ids):
+            warn(f"recipe {r['id']}: scores {sorted(r.get('scores', {}))} != categories {sorted(cat_ids)}")
+        for k, v in r.get("scores", {}).items():
+            if not (isinstance(v.get("score"), int) and 1 <= v["score"] <= 10):
+                warn(f"recipe {r['id']}: {k} score {v.get('score')} not an integer 1-10")
+            v["why"] = fix(v.get("why"))
+        r["boosts"] = [fix(b) for b in r.get("boosts", [])]
+        r["summary"] = fix(r.get("summary"))
+        if r.get("complexity") not in ("easy", "medium", "involved"):
+            warn(f"recipe {r['id']}: complexity '{r.get('complexity')}'")
+        if not (r.get("source") or {}).get("url"):
+            warn(f"recipe {r['id']}: no source url")
+        for t in [v["why"] for v in r.get("scores", {}).values()] + r["boosts"] + [r["summary"]]:
+            for m in re.findall(r"\[([a-z0-9-]+)\]", t):
+                if m not in ids:
+                    warn(f"recipe {r['id']}: [{m}] is not a factor id")
+    fdoc = load("foods.json", {}) or {}
+    fcats = [c["id"] for c in fdoc.get("categories", [])]
+    groups = {g["id"] for g in fdoc.get("groups", [])}
+    fseen = set()
+    for fd in fdoc.get("foods", []):
+        if fd["id"] in fseen:
+            warn(f"food {fd['id']}: duplicate id")
+        fseen.add(fd["id"])
+        if fd.get("group") not in groups:
+            warn(f"food {fd['id']}: unknown group '{fd.get('group')}'")
+        if set(fd.get("scores", {})) != set(fcats):
+            warn(f"food {fd['id']}: scores {sorted(fd.get('scores', {}))} != {sorted(fcats)}")
+        texts = [fd.get("highlight"), fd.get("best_prep")] + list(fd.get("watch_outs", []))
+        for k, v in fd.get("scores", {}).items():
+            sc = v.get("score")
+            if sc is not None and not (isinstance(sc, int) and 1 <= sc <= 10):
+                warn(f"food {fd['id']}: {k} score {sc} not an integer 1-10 or null")
+            texts.append(v.get("why"))
+        for fld in ("highlight", "best_prep"):
+            fd[fld] = fix(fd.get(fld))
+        fd["watch_outs"] = [fix(w) for w in fd.get("watch_outs", [])]
+        for v in fd.get("scores", {}).values():
+            v["why"] = fix(v.get("why"))
+        for t in texts:
+            for m in re.findall(r"\[([a-z0-9-]+)\]", fix(t)):
+                if m not in ids:
+                    warn(f"food {fd['id']}: [{m}] is not a factor id")
+    out["foods"] = fdoc.get("foods", [])
+    out["food_categories"] = fdoc.get("categories", [])
+    out["food_groups"] = fdoc.get("groups", [])
+    out["foods_about"] = fdoc.get("about", "")
+    out["recipe_categories"] = cats
+    out["recipes_about"] = rdoc.get("about", "")
+    out["recipes"] = rdoc.get("recipes", [])
     (ROOT / "assets").mkdir(exist_ok=True)
     (ROOT / "assets" / "data.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

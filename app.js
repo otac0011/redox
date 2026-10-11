@@ -474,6 +474,7 @@
       ${auditCard(f)}
       ${timingCard(f)}
       ${entries}
+      ${(() => { const tag = `[${f.id}]`; const rs = (D.recipes || []).filter((r) => Object.values(r.scores).some((v) => v.score >= 6 && v.why.includes(tag))); return rs.length ? `<section class="card entry"><h2>Recipes that feature it</h2><div class="related">${rs.map((r) => `<a class="chip" href="#/recipe/${encodeURIComponent(r.id)}">${esc(r.title)}</a>`).join("")}</div></section>` : ""; })()}
       ${related.length ? `<section class="card entry"><h2>Works through the same pathways</h2><p class="muted small">If you already cover a pathway well, more inputs to the same pathway may add less. See the mechanism pages for what's known about saturation.</p><div class="related">${related.map((g) => `<a class="chip dir-${dirFor(g)}" href="#/factor/${encodeURIComponent(g.id)}">${esc(g.name)}</a>`).join("")}</div></section>` : ""}
     `;
   }
@@ -798,6 +799,163 @@
     return `<div class="toc">${toc}</div><article class="prose">${html}</article>`;
   }
 
+  // ---------- recipes ----------
+  const CX = [["", "Any"], ["easy", "Easy"], ["medium", "Medium"], ["involved", "Involved"]];
+  const MEALS = [["", "Any meal"], ["breakfast", "Breakfast"], ["main", "Lunch & dinner"], ["side", "Sides & snacks"], ["dessert", "Dessert"]];
+  const DIETS = [["", "Any diet"], ["vegetarian", "Vegetarian"], ["vegan", "Vegan"], ["pescatarian", "Pescatarian"], ["gluten-free", "Gluten-free"], ["dairy-free", "Dairy-free"]];
+  const GROUP_LABEL = { oxidative: "Oxidative stress", fertility: "Fertility" };
+  const mealOf = (r) => (r.meal === "lunch" || r.meal === "dinner" ? "main" : r.meal === "snack" ? "side" : r.meal);
+  const recScore = (r, cat) => (cat ? r.scores[cat].score : D.recipe_categories.reduce((s, c) => s + r.scores[c.id].score, 0) / D.recipe_categories.length);
+  const fmtMin = (m) => (m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + (m % 60) + " min" : ""}` : `${m} min`);
+
+  function recBars(r, full) {
+    const groups = ["oxidative", "fertility"];
+    return groups.map((g) => {
+      const rows = D.recipe_categories.filter((c) => c.group === g).map((c) => {
+        const s = r.scores[c.id];
+        const bar = `<span class="rbar-label">${esc(full ? c.name : c.short)}</span><span class="rbar-track"><span class="rbar-fill" style="width:${s.score * 10}%"></span></span><span class="rbar-num">${s.score}</span>`;
+        return full
+          ? `<details class="rbar-row"><summary>${bar}</summary><p class="small">${linkify(s.why)}</p></details>`
+          : `<div class="rbar-row">${bar}</div>`;
+      }).join("");
+      return `<div class="rbar-group g-${g}">${full ? `<div class="section-label">${GROUP_LABEL[g]}</div>` : ""}${rows}</div>`;
+    }).join("");
+  }
+
+  function viewRecipes(params) {
+    const recs = D.recipes || [];
+    if (!recs.length) return `<h1>Recipes</h1><p class="muted">Recipes are still being collected and checked.</p>`;
+    const cx = params.get("cx") || "", meal = params.get("meal") || "", diet = params.get("diet") || "", sort = params.get("sort") || "";
+    const link = (k, v) => { const p = new URLSearchParams(params); v ? p.set(k, v) : p.delete(k); const q = p.toString(); return "#/recipes" + (q ? "?" + q : ""); };
+    const chipRow = (k, list, cur) => list.map(([v, l]) => `<a class="chip ${v === cur ? "dir-beneficial" : ""}" href="${link(k, v)}">${esc(l)}</a>`).join("");
+    const list = recs.filter((r) => (!cx || r.complexity === cx) && (!meal || mealOf(r) === meal) && (!diet || (r.tags || []).includes(diet)))
+      .sort((a, b) => recScore(b, sort) - recScore(a, sort) || a.title.localeCompare(b.title));
+    const sortOpts = [["", "Average of all categories"], ...D.recipe_categories.map((c) => [c.id, `${GROUP_LABEL[c.group]}: ${c.name}`])]
+      .map(([v, l]) => `<option value="${v}" ${v === sort ? "selected" : ""}>${esc(l)}</option>`).join("");
+    const card = (r) => `<a class="card fcard recipe-card" href="#/recipe/${encodeURIComponent(r.id)}">
+        <h3>${esc(r.title)}</h3>
+        <div class="row"><span class="chips"><span class="chip cx-${esc(r.complexity)}">${esc(r.complexity)}</span><span class="chip">${fmtMin(r.total_min)}</span>${r.check ? "" : `<span class="chip pending">check pending</span>`}</span>${sort ? `<span class="small muted">${esc(D.recipe_categories.find((c) => c.id === sort).short)} ${r.scores[sort].score}/10</span>` : ""}</div>
+        <div class="rbars mini">${recBars(r, false)}</div>
+        <p>${esc(r.summary.replace(/\[([a-z0-9-]+)\]/g, (m, id) => (byId.has(id) ? byId.get(id).name : id)))}</p>
+      </a>`;
+    const how = D.recipe_categories.map((c) => `<li><b>${esc(c.name)}</b> <span class="muted small">(${GROUP_LABEL[c.group]})</span>: ${esc(c.how)}<div class="chips" style="margin-top:4px">${c.factors.filter((i) => byId.has(i)).map((i) => `<a class="chip" href="#/factor/${encodeURIComponent(i)}">${esc(byId.get(i).name)}</a>`).join("")}</div></li>`).join("");
+    return `<h1>Recipes</h1>
+      <p class="lede">Well-rated recipes from around the web, scored for how much each serving does for oxidative stress and fertility. Each bar is a 1–10 rating built from the evidence on this site.</p>
+      <details class="card how-scored"><summary class="section-label" style="cursor:pointer">How the scores work</summary>
+        <p class="small">${esc(D.recipes_about || "")}</p>
+        <ul class="how-list">${how}</ul>
+        <p class="small muted">Full point rules: <a href="https://github.com/otac0011/redox/blob/main/research/RECIPE-RUBRIC.md" target="_blank" rel="noopener">recipe rubric</a>. Each recipe's bars open to show the arithmetic.</p>
+      </details>
+      <div class="filters">
+        <div><div class="section-label">Complexity</div><div class="chips">${chipRow("cx", CX, cx)}</div></div>
+        <div><div class="section-label">Meal</div><div class="chips">${chipRow("meal", MEALS, meal)}</div></div>
+        <div><div class="section-label">Diet</div><div class="chips">${chipRow("diet", DIETS, diet)}</div></div>
+        <label class="section-label">Sort by <select id="rec-sort">${sortOpts}</select></label>
+      </div>
+      <p class="small muted">${list.length} of ${recs.length} recipes</p>
+      ${list.length ? `<div class="grid">${list.map(card).join("")}</div>` : `<p class="muted">No recipes match these filters.</p>`}`;
+  }
+  function bindRecipes(params) {
+    const s = $("#rec-sort");
+    if (s) s.addEventListener("change", () => { const p = new URLSearchParams(params); s.value ? p.set("sort", s.value) : p.delete("sort"); const y = window.scrollY; history.replaceState(null, "", "#/recipes?" + p); route().then(() => window.scrollTo(0, y)); });
+  }
+
+  function viewRecipe(id) {
+    const r = (D.recipes || []).find((x) => x.id === id);
+    if (!r) return `<h1>Not found</h1><p>No recipe called “${esc(id)}”. <a href="#/recipes">All recipes</a>.</p>`;
+    const src = r.source || {};
+    const rating = src.rating ? ` · ★ ${src.rating}${src.rating_count ? ` (${Number(src.rating_count).toLocaleString()} ratings)` : ""}` : "";
+    const n = r.nutrients || {};
+    const NUT = [["kcal", "Calories", ""], ["fiber_g", "Fibre", "g"], ["added_sugar_g", "Added sugar", "g"], ["sat_fat_g", "Saturated fat", "g"], ["epa_dha_mg", "EPA + DHA", "mg"], ["folate_ug_dfe", "Folate", "µg DFE"], ["choline_mg", "Choline", "mg"], ["iron_mg", "Iron", "mg"], ["zinc_mg", "Zinc", "mg"], ["selenium_ug", "Selenium", "µg"], ["b12_ug", "B12", "µg"], ["vit_c_mg", "Vitamin C", "mg"], ["fruit_veg_servings", "Fruit & veg servings", ""]];
+    const nut = NUT.filter(([k]) => n[k] != null).map(([k, l, u]) => `<tr><td>${l}</td><td>${n[k]}${u ? " " + u : ""}</td></tr>`).join("");
+    return `<div class="crumbs"><a href="#/recipes">Recipes</a> / ${esc((MEALS.find((m) => m[0] === mealOf(r)) || [0, r.meal])[1])}</div>
+      <h1>${esc(r.title)}</h1>
+      <div class="chips"><span class="chip cx-${esc(r.complexity)}">${esc(r.complexity)}</span><span class="chip">Active ${fmtMin(r.active_min)}</span><span class="chip">Total ${fmtMin(r.total_min)}</span><span class="chip">Serves ${r.servings}</span>${(r.tags || []).map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+      <p class="small muted" style="margin-top:8px">Adapted from <a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.title || r.title)}</a>${src.author ? ` by ${esc(src.author)}` : ""}${src.site ? `, ${esc(src.site)}` : ""}${rating}${src.note ? ` · ${esc(src.note)}` : ""}</p>
+      ${r.check ? "" : `<p class="small caveat">Preliminary: this recipe hasn't had its second check yet, so scores and details may still change.</p>`}
+      <section class="card rbars full">
+        <div class="entry-title"><h2>How it scores</h2><span class="small muted">per serving, 1–10 · tap a bar for the reasoning</span></div>
+        ${recBars(r, true)}
+      </section>
+      <p class="headline">${linkify(r.summary)}</p>
+      <div class="two-col recipe-body">
+        <section class="card"><h2>Ingredients</h2>${r.ingredients.map((g) => `${g.group ? `<div class="section-label">${esc(g.group)}</div>` : ""}<ul class="ingredients">${g.items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`).join("")}</section>
+        <section class="card"><h2>Instructions</h2><ol class="steps">${r.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol></section>
+      </div>
+      ${(r.boosts || []).length ? `<section class="card"><h2>Make it score higher</h2><ul>${r.boosts.map((b) => `<li>${linkify(b)}</li>`).join("")}</ul></section>` : ""}
+      ${(r.watch_outs || []).length ? `<section class="card caveat-card"><h2>Watch-outs</h2><ul>${r.watch_outs.map((w) => `<li>${esc(w)}</li>`).join("")}</ul></section>` : ""}
+      <details class="card"><summary class="section-label" style="cursor:pointer">Estimated nutrients per serving</summary><table class="nut">${nut}</table><p class="small muted">Estimated from USDA FoodData Central values for the listed ingredients.</p></details>
+      ${r.changes ? `<p class="small muted">Changes from the original: ${esc(r.changes)}</p>` : ""}
+      ${r.check ? `<p class="small muted">Second check (${esc(r.check.date)}): ${esc(r.check.summary)}</p>` : ""}`;
+  }
+
+  // ---------- foods ----------
+  const foodAvg = (fd) => { const v = D.food_categories.map((c) => fd.scores[c.id].score).filter((x) => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : 0; };
+  const foodScore = (fd, cat) => (cat ? fd.scores[cat].score ?? 0 : foodAvg(fd));
+  const heat = (s) => (s == null ? `<td class="heat na" title="Not a meaningful source">–</td>` : `<td class="heat h${s}">${s}</td>`);
+
+  function viewFoods(params) {
+    const foods = D.foods || [];
+    if (!foods.length) return `<h1>Foods</h1><p class="muted">Food ratings are still being researched and checked.</p>`;
+    const group = params.get("group") || "", sort = params.get("sort") || "", q = (params.get("q") || "").toLowerCase();
+    const link = (k, v) => { const p = new URLSearchParams(params); v ? p.set(k, v) : p.delete(k); const s = p.toString(); return "#/foods" + (s ? "?" + s : ""); };
+    const groups = [{ id: "", name: "All" }, ...D.food_groups.filter((g) => foods.some((f) => f.group === g.id))];
+    const chips = groups.map((g) => `<a class="chip ${g.id === group ? "dir-beneficial" : ""}" href="${link("group", g.id)}">${esc(g.name)}</a>`).join("");
+    const list = foods.filter((f) => (!group || f.group === group) && (!q || (f.name + " " + (f.tags || []).join(" ")).toLowerCase().includes(q)))
+      .sort((a, b) => foodScore(b, sort) - foodScore(a, sort) || a.name.localeCompare(b.name));
+    const head = D.food_categories.map((c) => `<th class="${c.id === sort ? "sorted" : ""}"><a href="${link("sort", c.id === sort ? "" : c.id)}" title="${esc(c.name)}: ${esc(c.how)}">${esc(c.short)}</a></th>`).join("");
+    const rows = list.map((f) => `<tr><td class="fname"><a href="#/food/${encodeURIComponent(f.id)}">${esc(f.name)}</a><div class="small muted">${esc(f.serving)}</div></td>${D.food_categories.map((c) => heat(f.scores[c.id].score)).join("")}</tr>`).join("");
+    const how = D.food_categories.map((c) => `<li><b>${esc(c.name)}</b> <span class="muted small">(${GROUP_LABEL[c.group]})</span>: ${esc(c.how)}</li>`).join("");
+    return `<h1>Foods</h1>
+      <p class="lede">${foods.length} single ingredients rated 1–10 per typical serving for oxidative stress and fertility. Click a column to sort, or a food for the reasoning and how best to eat it.</p>
+      <details class="card how-scored"><summary class="section-label" style="cursor:pointer">How the scores work</summary>
+        <p class="small">${esc(D.foods_about || "")}</p><ul class="how-list">${how}</ul>
+        <p class="small muted">Full point rules: <a href="https://github.com/otac0011/redox/blob/main/research/FOOD-RUBRIC.md" target="_blank" rel="noopener">food rubric</a>. Low scores aren't "bad food": a category only counts what that food contributes.</p>
+      </details>
+      <div class="filters">
+        <div><div class="section-label">Group</div><div class="chips">${chips}</div></div>
+        <label class="section-label">Search <input id="food-q" type="search" value="${esc(params.get("q") || "")}" placeholder="e.g. lentils"></label>
+      </div>
+      <p class="small muted">${list.length} foods · sorted by ${sort ? esc(D.food_categories.find((c) => c.id === sort).name) : "average score"}${sort ? ` · <a href="${link("sort", "")}">sort by average</a>` : ""}</p>
+      <div class="food-table-wrap"><table class="food-table"><thead><tr><th>Food</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  function bindFoods(params) {
+    const i = $("#food-q");
+    if (!i) return;
+    let t;
+    i.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => { const p = new URLSearchParams(params); i.value ? p.set("q", i.value) : p.delete("q"); history.replaceState(null, "", "#/foods?" + p); route().then(() => { const n = $("#food-q"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); }); }, 200); });
+  }
+
+  function viewFood(id) {
+    const f = (D.foods || []).find((x) => x.id === id);
+    if (!f) return `<h1>Not found</h1><p>No food called “${esc(id)}”. <a href="#/foods">All foods</a>.</p>`;
+    const g = D.food_groups.find((x) => x.id === f.group) || { name: f.group };
+    const bars = ["oxidative", "fertility"].map((grp) => `<div class="rbar-group g-${grp}"><div class="section-label">${GROUP_LABEL[grp]}</div>${D.food_categories.filter((c) => c.group === grp).map((c) => {
+      const s = f.scores[c.id];
+      const bar = `<span class="rbar-label">${esc(c.name)}</span><span class="rbar-track"><span class="rbar-fill" style="width:${(s.score || 0) * 10}%"></span></span><span class="rbar-num">${s.score ?? "–"}</span>`;
+      return `<details class="rbar-row"><summary>${bar}</summary><p class="small">${linkify(s.why)}</p></details>`;
+    }).join("")}</div>`).join("");
+    const n = f.nutrients || {};
+    const NUT = [["kcal", "Calories", ""], ["fiber_g", "Fibre", "g"], ["carb_g", "Carbohydrate", "g"], ["gl", "Glycemic load", ""], ["sat_fat_g", "Saturated fat", "g"], ["epa_dha_mg", "EPA + DHA", "mg"], ["ala_g", "ALA omega-3", "g"], ["polyphenols_mg", "Polyphenols", "mg"], ["lycopene_mg", "Lycopene", "mg"], ["folate_ug_dfe", "Folate", "µg DFE"], ["choline_mg", "Choline", "mg"], ["iron_mg", "Iron", "mg"], ["zinc_mg", "Zinc", "mg"], ["selenium_ug", "Selenium", "µg"], ["iodine_ug", "Iodine", "µg"], ["b12_ug", "B12", "µg"], ["vit_c_mg", "Vitamin C", "mg"]];
+    const nut = NUT.filter(([k]) => n[k] != null).map(([k, l, u]) => `<tr><td>${l}</td><td>${n[k]}${u ? " " + u : ""}</td></tr>`).join("");
+    const words = f.name.toLowerCase().replace(/\(.*?\)/g, "").split(/[\s,/]+/).filter((w) => w.length > 3);
+    const inRecipes = (D.recipes || []).filter((r) => words.length && r.ingredients.some((gr) => gr.items.some((it) => words.every((w) => it.toLowerCase().includes(w.replace(/s$/, ""))))));
+    return `<div class="crumbs"><a href="#/foods">Foods</a> / <a href="#/foods?group=${esc(f.group)}">${esc(g.name)}</a></div>
+      <h1>${esc(f.name)}</h1>
+      <div class="chips"><span class="chip">Serving: ${esc(f.serving)}</span>${(f.tags || []).map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+      <section class="card rbars full" style="margin-top:12px">
+        <div class="entry-title"><h2>How it scores</h2><span class="small muted">per serving, 1–10 · tap a bar for the reasoning</span></div>
+        ${bars}
+      </section>
+      <p class="headline">${linkify(f.highlight || "")}</p>
+      ${f.best_prep ? `<section class="card"><h2>Best way to eat it</h2><p>${linkify(f.best_prep)}</p></section>` : ""}
+      ${(f.watch_outs || []).length ? `<section class="card caveat-card"><h2>Watch-outs</h2><ul>${f.watch_outs.map((w) => `<li>${linkify(w)}</li>`).join("")}</ul></section>` : ""}
+      ${inRecipes.length ? `<section class="card"><h2>In our recipes</h2><div class="related">${inRecipes.map((r) => `<a class="chip" href="#/recipe/${encodeURIComponent(r.id)}">${esc(r.title)}</a>`).join("")}</div></section>` : ""}
+      <details class="card"><summary class="section-label" style="cursor:pointer">Nutrients per serving</summary><table class="nut">${nut}</table></details>
+      ${(f.sources || []).length ? `<p class="small muted">Sources: ${f.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(" · ")}</p>` : ""}
+      ${f.check ? `<p class="small muted">Second check (${esc(f.check.date)}): ${esc(f.check.summary)}</p>` : ""}`;
+  }
+
   function viewAbout() {
     return `<div class="prose">
       <h1>Methods &amp; evidence grades</h1>
@@ -840,6 +998,10 @@
       case "read": html = await viewRead(arg); break;
       case "tests": html = viewTests(params); break;
       case "stack": html = viewStack(); bind = bindStack; break;
+      case "recipes": html = viewRecipes(params); bind = () => bindRecipes(params); break;
+      case "recipe": html = viewRecipe(arg); setActiveNav("recipes"); break;
+      case "foods": html = viewFoods(params); bind = () => bindFoods(params); break;
+      case "food": html = viewFood(arg); setActiveNav("foods"); break;
       case "about": html = viewAbout(); break;
       default: html = `<h1>Not found</h1><p><a href="#/">Go to overview</a></p>`;
     }

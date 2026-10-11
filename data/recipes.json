@@ -1,0 +1,3495 @@
+{
+ "about": "Each recipe is an existing, well-rated recipe from another site, credited and linked, with the ingredient list kept and the steps reworded. Scores follow research/RECIPE-RUBRIC.md: they count how much of each evidence-backed ingredient or cooking method one serving has. They are not results from trials of the dish.",
+ "categories": [
+  {
+   "id": "plants",
+   "group": "oxidative",
+   "name": "Plant polyphenols",
+   "short": "Polyphenols",
+   "how": "Fruit and vegetable servings, plus berries, cocoa, extra-virgin olive oil, herbs and spices, cooked tomato, dark greens, tea or coffee, and colour variety.",
+   "factors": [
+    "high-fruit-vegetable-intake",
+    "blueberries",
+    "berries-other",
+    "cocoa-flavanols",
+    "herbs-spices",
+    "extra-virgin-olive-oil",
+    "leafy-greens",
+    "tomatoes-lycopene"
+   ]
+  },
+  {
+   "id": "nrf2",
+   "group": "oxidative",
+   "name": "Nrf2 & sulfur compounds",
+   "short": "Nrf2",
+   "how": "Crucifers (raw or lightly steamed, or cooked with a myrosinase source such as mustard powder), sprouts, watercress, wasabi or horseradish, garlic and onion, turmeric.",
+   "factors": [
+    "broccoli-sprouts",
+    "broccoli-mature",
+    "cruciferous-other",
+    "mustard-seed-myrosinase",
+    "watercress-peitc",
+    "garlic-alliums",
+    "turmeric-curcumin"
+   ]
+  },
+  {
+   "id": "fats",
+   "group": "oxidative",
+   "name": "Fat quality",
+   "short": "Fats",
+   "how": "EPA+DHA from fish, extra-virgin olive oil, nuts and seeds; points off for deep-frying, saturated-fat-heavy dishes and processed meat.",
+   "factors": [
+    "omega3-fish",
+    "extra-virgin-olive-oil",
+    "walnuts-nuts",
+    "flaxseed-lignans",
+    "oxidized-frying-oils",
+    "processed-red-meat"
+   ]
+  },
+  {
+   "id": "glycemic",
+   "group": "oxidative",
+   "name": "Blood sugar & fibre",
+   "short": "Fibre",
+   "how": "Fibre per serving, whole-grain or legume starch, little added sugar, and carbs paired with protein or fat.",
+   "factors": [
+    "dietary-fiber-microbiome",
+    "legumes",
+    "whole-grains",
+    "refined-sugar-high-glycemic",
+    "glycemic-control"
+   ]
+  },
+  {
+   "id": "cooking",
+   "group": "oxidative",
+   "name": "Low-oxidant cooking",
+   "short": "Cooking",
+   "how": "Gentle methods (raw, steam, poach, simmer, braise) score highest; charring, well-done grilled meat, deep-frying and dark-browned starch score lowest; marinades help.",
+   "factors": [
+    "high-temperature-cooking",
+    "marinating-meat",
+    "acrylamide",
+    "oxidized-frying-oils",
+    "cooking-oil-choice"
+   ]
+  },
+  {
+   "id": "sperm",
+   "group": "fertility",
+   "name": "Sperm support",
+   "short": "Sperm",
+   "how": "Omega-3 from fish, nuts (trials used 60–75 g/day), cooked tomato (lycopene), zinc, selenium, folate and produce; points off for processed meat, lots of sugar and alcohol.",
+   "factors": [
+    "walnuts-nuts",
+    "omega3-fish",
+    "tomatoes-lycopene",
+    "zinc-status",
+    "selenium-supplement",
+    "high-fruit-vegetable-intake",
+    "mediterranean-diet",
+    "processed-meat"
+   ]
+  },
+  {
+   "id": "egg",
+   "group": "fertility",
+   "name": "Egg & pregnancy support",
+   "short": "Egg",
+   "how": "Folate, DHA from low-mercury fish, iron, choline, iodine, B12 and 'profertility' foods (whole grains, soy, seafood, dairy, produce); points off for high-mercury fish, alcohol and liver.",
+   "factors": [
+    "folic-acid",
+    "vitamin-b12-folate-status",
+    "iron-egg",
+    "iodine-status",
+    "omega3-fish",
+    "mercury-fish",
+    "profertility-diet",
+    "soy"
+   ]
+  }
+ ],
+ "recipes": [
+  {
+   "id": "overnight-oats-berries",
+   "title": "Strawberry Chia Overnight Oats",
+   "summary": "No-cook oats soaked with milk, yogurt and chia, topped with strawberries and almonds; strong on fibre and whole grain, light on produce.",
+   "source": {
+    "title": "Easy Overnight Oats (6 Amazing Flavors)",
+    "author": "Lisa Bryan",
+    "site": "Downshiftology",
+    "url": "https://downshiftology.com/recipes/overnight-oats/",
+    "rating": 4.96,
+    "rating_count": 310,
+    "checked": "2026-10-11",
+    "note": "Base recipe plus the page's 'Strawberry Protein' add-in, the only add-in with berries. The original says only '1 scoop protein powder or collagen powder', with no weight or type. Scored with 2% dairy milk and plain 2% Greek yogurt. No score depends on the protein powder; kcal includes a ~25 g whey scoop (~100 kcal)."
+   },
+   "changes": "Used the base recipe with the Strawberry Protein add-in, with amounts exactly as the original lists them. The protein powder and vanilla are stirred in before soaking rather than added as a topping, so the powder mixes in. Added gram and mL amounts. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 5,
+   "total_min": 485,
+   "servings": 1,
+   "meal": "breakfast",
+   "tags": [
+    "vegetarian",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 515,
+    "fiber_g": 9.6,
+    "added_sugar_g": 12,
+    "sat_fat_g": 3.4,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 45,
+    "choline_mg": 50,
+    "iron_mg": 2.9,
+    "zinc_mg": 3.3,
+    "selenium_ug": 27,
+    "b12_ug": 1.1,
+    "vit_c_mg": 24,
+    "fruit_veg_servings": 0.5
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Strawberries 40 g = 0.5 fruit/veg servings (+1). Berries are under 75 g, and vanilla ½ tsp is under the herb/spice amount (0). Plant families: grass (oats), mint (chia), rose (strawberry, almond) = 3; maple syrup and vanilla extract not counted (0). Total = 1 [berries-other]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. No crucifers, alliums or turmeric. Total = 1"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2. Chia 12 g + sliced almonds 6 g = 18 g nuts and seeds (≥15 g, +1). Saturated fat ≈3.4 g, no penalty. Total = 3 [walnuts-nuts]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈9.6 g (oats 4.0, chia 4.1, strawberries 0.8, almonds 0.7) (+4). Whole-grain oats (+2). Maple syrup 1 tbsp ≈12 g added sugar (+1). Oats come with milk, yogurt and protein powder (+1). Total = 8 [whole-grains] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "No-cook. Score 10"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1. Zinc ≈3.3 mg (oats 1.5, chia 0.55, milk 0.5, yogurt 0.3, maple 0.3, almonds 0.2) (+1). Selenium ≈27 µg (oats 11.6, chia 6.6, yogurt 5.8, milk 3.1) without counting the powder (+1). Folate ≈45 µg (0). Almonds 6 g (0). Total = 3 [zinc-status] [selenium-supplement]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1. Folate ≈45 µg, under 50 (0). Iron ≈2.9 mg (0). Choline ≈50 mg (0). Dairy is an iodine source (+1). B12 ≈1.1 µg from milk and yogurt (+1). Profertility: whole grain + dairy = 2 components (+1). Total = 4 [profertility-diet] [iodine-status] [vitamin-b12-folate-status]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "½ cup (40 g) rolled oats",
+      "½ cup (120 mL) milk, dairy or dairy-free",
+      "¼ cup (60 g) Greek yogurt, dairy or dairy-free",
+      "1 tbsp (12 g) chia seeds",
+      "1 tbsp (15 mL) maple syrup"
+     ]
+    },
+    {
+     "group": "Strawberry protein add-in",
+     "items": [
+      "¼ cup (40 g) small-diced strawberries",
+      "1 scoop protein powder or collagen powder",
+      "1 tbsp (6 g) sliced almonds",
+      "½ tsp vanilla extract"
+     ]
+    }
+   ],
+   "steps": [
+    "In a jar or bowl, stir together the oats, milk, yogurt, chia seeds and maple syrup.",
+    "Stir in the protein powder and vanilla until no lumps remain.",
+    "Cover and refrigerate for at least 2 hours, ideally overnight (about 8 hours), so it turns thick and creamy.",
+    "Top with the strawberries and sliced almonds just before eating."
+   ],
+   "boosts": [
+    "Use ½ cup (75 g) blueberries or mixed berries instead of ¼ cup strawberries (+1 berries, +1 produce step) [blueberries]",
+    "Swap the almonds for 2 tbsp (15 g) chopped walnuts [walnuts-nuts]",
+    "Stir in 1 tbsp ground flaxseed [flaxseed-lignans]",
+    "Use 1 tsp maple syrup instead of 1 tbsp, about 4 g added sugar (+1 glycemic) [refined-sugar-high-glycemic]",
+    "Add 1 tsp cinnamon (+1 herbs and spices) [herbs-spices]"
+   ],
+   "watch_outs": [
+    "Pregnancy: use pasteurised milk and yogurt. Check the protein powder label for added caffeine or herbal extracts.",
+    "Allergens: dairy (milk, yogurt, whey powder), tree nuts (almonds). Oats can carry gluten unless labelled gluten-free. Collagen powder is not vegetarian; use a whey or plant protein to keep the dish vegetarian."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.96/310 (JSON-LD). Ingredients match the base plus Strawberry Protein add-in exactly; the original gives no weight for the powder, so no score relies on it. All seven scores confirmed; nutrients recomputed (zinc 3.3 mg, Se 27 µg without the powder); maple boost corrected so it actually changes a score."
+   }
+  },
+  {
+   "id": "shakshuka",
+   "title": "Shakshuka",
+   "summary": "Eggs poached in a cumin-spiced tomato and pepper sauce; strong on lycopene, produce, choline and iron.",
+   "source": {
+    "title": "Shakshuka Recipe (Best Shakshuka)",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/shakshuka-recipe/",
+    "rating": 4.96,
+    "rating_count": 189,
+    "checked": "2026-10-11"
+   },
+   "changes": "Added gram and mL amounts. Pita is kept as the original's serving suggestion but is not scored. Added a safe egg temperature for pregnancy. Steps reworded.",
+   "complexity": "medium",
+   "active_min": 20,
+   "total_min": 35,
+   "servings": 4,
+   "meal": "breakfast",
+   "tags": [
+    "vegetarian",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 275,
+    "fiber_g": 4.8,
+    "added_sugar_g": 0,
+    "sat_fat_g": 4.8,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 85,
+    "choline_mg": 235,
+    "iron_mg": 4.7,
+    "zinc_mg": 1.9,
+    "selenium_ug": 26,
+    "b12_ug": 0.85,
+    "vit_c_mg": 60,
+    "fruit_veg_servings": 3.1
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Crushed tomatoes ≈198 g + bell pepper 30 g + onion 17.5 g ≈245 g = 3.1 servings (+4). Cooked tomato ≈¾ cup (+1). Fresh parsley or cilantro 1 tbsp per serving (+1). EVOO is 1½ tsp per serving, under 1 tbsp (0). Plant families: nightshade, allium, carrot family (cumin, parsley), olive = 4 (+1). Total = 7 [tomatoes-lycopene] [herbs-spices] [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1. One small onion ÷ 4 = ¼ onion per serving (+1). Garlic is 0.75 clove per serving, under 1, so no second point. Total = 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2. EVOO is the main fat at 1½ tsp per serving (≥1 tsp, +1). Saturated fat ≈4.8 g, no penalty. Total = 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈4.8 g (tomatoes 3.8, pepper 0.6, onion 0.3, herbs and spices 0.1) (+2). No starch in the dish (+2). No added sugar (+2). Vegetables come with eggs (+1). Total = 7 [glycemic-control]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Sauce simmered and eggs poached in it (10). Softening the onion and pepper at medium heat is the first step of a simmered dish, so no midpoint. Total = 10 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 5,
+     "why": "Base 1. Cooked tomato ≥½ cup (+2). Selenium ≈26 µg, mostly from 1.5 eggs (23 µg) plus feta and tomato (+1). Zinc ≈1.9 mg (0). Folate ≈85 µg (0). Produce 3.1 servings (+1). Total = 5 [tomatoes-lycopene] [selenium-supplement] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 6,
+     "why": "Base 1. Folate ≈85 µg (+1). Choline ≈235 mg from 1.5 eggs (+1). Eggs and feta are iodine sources (+1). Iron ≈4.7 mg (tomatoes 2.6, eggs 1.3, spices and parsley 0.6, pepper 0.1) with ≈60 mg vitamin C from pepper and tomato (+1). B12 ≈0.85 µg (0). Profertility: dairy (feta ≈10 g) + ≥2 produce servings = 2 components (+1). Total = 6 [folic-acid] [iron-egg] [iodine-status] [profertility-diet]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tbsp (30 mL) extra-virgin olive oil",
+      "1 small white onion (about 70 g), diced",
+      "1 red bell pepper (about 120 g), stemmed, seeded and diced",
+      "3 garlic cloves, minced",
+      "1 tsp ground cumin",
+      "½ tsp paprika",
+      "Pinch of cayenne pepper (optional)",
+      "1 (28-oz / 794 g) can fire-roasted crushed tomatoes",
+      "½ tsp sea salt, plus more to taste",
+      "Freshly ground black pepper",
+      "6 large eggs",
+      "¼ cup fresh parsley or cilantro leaves",
+      "¼ cup (about 38 g) crumbled feta cheese",
+      "Pita, for serving"
+     ]
+    }
+   ],
+   "steps": [
+    "Warm the olive oil in a large skillet that has a lid, over medium heat. Cook the onion and bell pepper until soft, 5–8 minutes.",
+    "Add the garlic, cumin, paprika and cayenne, if using, and stir for about 30 seconds until fragrant.",
+    "Pour in the tomatoes and season with the salt and pepper. Simmer on low, stirring often, until thickened, about 15 minutes.",
+    "Make six hollows in the sauce and crack an egg into each one.",
+    "Cover and cook 4–8 minutes, until the eggs are as set as you like. For pregnancy, cook until the whites and yolks are firm (160 °F / 71 °C).",
+    "Season to taste, scatter the herbs and feta over the top, and serve with pita."
+   ],
+   "boosts": [
+    "Stir 2 packed cups of baby spinach or chopped kale into the sauce before adding the eggs [leafy-greens]",
+    "Use 4 garlic cloves (1 per serving); with the ¼ onion per serving that earns +2 alliums instead of +1 [garlic-alliums]",
+    "Serve with whole-wheat pita [whole-grains]",
+    "Add 2 tsp turmeric with the spices (½ tsp per serving); the oil and black pepper help absorption [turmeric-curcumin]"
+   ],
+   "watch_outs": [
+    "Pregnancy: cook the eggs until the whites and yolks are firm, not runny. Use feta made from pasteurised milk.",
+    "Allergens: egg, dairy (feta). Gluten if served with pita."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.96/189; ingredients, heat and times match. Cooking 9→10 (softening aromatics first doesn't trigger the midpoint). Egg 5→6: iron is ≈4.7 mg (canned crushed tomatoes ≈1.3 mg/100 g) with ≈60 mg vitamin C. Added 160 °F egg cue; fixed the garlic and turmeric boosts."
+   }
+  },
+  {
+   "id": "spinach-frittata",
+   "title": "Spinach and Cheese Frittata",
+   "summary": "A baked egg frittata with spinach, shallots, basil and two cheeses; very good for choline, folate and B12, but the cream and cheese push saturated fat over 10 g.",
+   "source": {
+    "title": "Spinach Frittata",
+    "author": "Jennifer Segal",
+    "site": "Once Upon a Chef",
+    "url": "https://www.onceuponachef.com/recipes/spinach-frittata.html",
+    "rating": 4.92,
+    "rating_count": 102,
+    "checked": "2026-10-11"
+   },
+   "changes": "Added gram and mL amounts. Added a safe egg temperature. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 20,
+   "total_min": 40,
+   "servings": 4,
+   "meal": "breakfast",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 425,
+    "fiber_g": 1.8,
+    "added_sugar_g": 0,
+    "sat_fat_g": 14.8,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 134,
+    "choline_mg": 313,
+    "iron_mg": 3.2,
+    "zinc_mg": 2.8,
+    "selenium_ug": 40,
+    "b12_ug": 1.3,
+    "vit_c_mg": 13,
+    "fruit_veg_servings": 0.8
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Spinach 35.5 g + shallots 30 g ≈65 g = 0.8 servings (+1). Raw spinach ≈1¼ packed cups per serving (+1). Fresh basil 1 tbsp per serving (+1). Plant families: amaranth (spinach), allium, mint (basil), olive = 4 (+1). Total = 4 [leafy-greens] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1. Shallots ≈30 g per serving, more than ¼ of a medium onion (≈27 g) (+1). Total = 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 2. EVOO 1½ tsp per serving as the cooking fat (+1). Saturated fat ≈14.8 g (cream 4.6, Cheddar 4.0, eggs 3.1, Parmesan 2.1, oil 1.0), over 10 g (−2). Total = 1 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Fibre ≈1.8 g (+1). No starch (+2). No added sugar (+2). The little carbohydrate comes with eggs (+1). Total = 6"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Baked at 325 °F / 165 °C (10). Softening the shallots and wilting the spinach is the first step of a baked dish, so no midpoint. Total = 10 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1. Selenium ≈40 µg (eggs 31, cheeses 9) (+1). Folate ≈134 µg (+1). Zinc ≈2.8 mg, under 3 (0). Produce 0.8 servings (0). Total = 3 [selenium-supplement]"
+    },
+    "egg": {
+     "score": 6,
+     "why": "Base 1. Folate ≈134 µg (spinach 69, eggs 44, shallots 10, cheese 7) (+2). Choline ≈313 mg from 2 eggs (+1). Eggs and dairy are iodine sources (+1). B12 ≈1.3 µg (+1). Iron ≈3.2 mg (0). Profertility: dairy only, produce 0.8 servings (0). Total = 6 [folic-acid] [iodine-status] [vitamin-b12-folate-status]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tbsp (30 mL) extra-virgin olive oil",
+      "¾ cup (about 120 g) thinly sliced shallots, from 2–3 shallots",
+      "5 oz (142 g) baby spinach, about 5 packed cups",
+      "½ tsp salt, divided",
+      "8 large eggs",
+      "⅓ cup (80 mL) heavy cream",
+      "¼ tsp freshly ground black pepper",
+      "¾ cup (about 85 g) shredded Cheddar cheese",
+      "½ cup (about 50 g) grated Parmigiano Reggiano",
+      "¼ cup chopped fresh basil"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 325 °F (165 °C) with a rack in the middle.",
+    "Warm the oil in a 10-inch ovenproof skillet over medium heat. Cook the shallots 3–4 minutes until soft but not browned.",
+    "Add half the spinach and let it wilt, about 1 minute. Add the rest with ¼ tsp salt and cook 1–2 minutes more.",
+    "In a large bowl, whisk the eggs, cream, pepper and the remaining ¼ tsp salt. Stir in the spinach mixture, both cheeses and the basil.",
+    "Pour everything back into the skillet and bake 20–23 minutes, until the centre is set and no longer wet (160 °F / 71 °C).",
+    "Use an oven mitt, because the handle will be hot. Serve from the pan or slide the frittata onto a plate."
+   ],
+   "boosts": [
+    "Use milk instead of heavy cream and halve the Cheddar to bring saturated fat under 10 g per serving (+2 fats) [mediterranean-diet]",
+    "Double the spinach to 10 oz (284 g) [leafy-greens]",
+    "Fold in 1 cup halved cherry tomatoes [tomatoes-lycopene]",
+    "Serve with whole-grain toast [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: bake until fully set. Parmigiano Reggiano is made from raw milk, but hard aged cheeses are generally considered low-risk. Check with your provider if unsure.",
+    "Allergens: egg, dairy.",
+    "Parmigiano Reggiano is made with animal rennet; strict vegetarians can use a Parmesan-style cheese made with microbial rennet."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.92/102 (reviews, not the 163 comments); ingredients, 325 °F and 20–23 min match. Cooking 9→10 (sautéing shallots and spinach first doesn't trigger the midpoint). Other scores confirmed; nutrients refined. Added 160 °F cue and a rennet note."
+   }
+  },
+  {
+   "id": "green-berry-smoothie",
+   "title": "Berry Spinach Smoothie with Flax",
+   "summary": "A blended banana, mixed-berry and spinach smoothie with flax and peanut butter; three produce servings, lots of fibre and no added sugar.",
+   "source": {
+    "title": "My Favorite Green Smoothie",
+    "author": "Dana Shultz",
+    "site": "Minimalist Baker",
+    "url": "https://minimalistbaker.com/my-favorite-green-smoothie/",
+    "rating": 4.87,
+    "rating_count": 125,
+    "checked": "2026-10-11"
+   },
+   "changes": "Added gram and mL amounts. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 5,
+   "total_min": 5,
+   "servings": 1,
+   "meal": "breakfast",
+   "tags": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 335,
+    "fiber_g": 10.5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.6,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 180,
+    "choline_mg": 45,
+    "iron_mg": 3.5,
+    "zinc_mg": 1.7,
+    "selenium_ug": 5,
+    "b12_ug": 0,
+    "vit_c_mg": 45,
+    "fruit_veg_servings": 3.2
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Banana 118 g + berries 75 g + spinach 60 g ≈253 g = 3.2 servings (+4). Mixed berries ½ cup (+1). Raw spinach 2 cups (+1). Plant families: banana, rose (berries, almond), flax, legume (peanut), amaranth (spinach) = 5 (+1). Total = 7 [berries-other] [leafy-greens] [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. No crucifers, alliums or turmeric. Total = 1"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2. Flaxseed meal 7 g + peanut butter 20 g = 27 g nuts and seeds (≥15 g, +1). Total = 3 [flaxseed-lignans] [walnuts-nuts]"
+    },
+    "glycemic": {
+     "score": 9,
+     "why": "Fibre ≈10.5 g (banana 3.1, berries 2.8, flax 1.9, spinach 1.3, peanut butter 1.2) (+4). No starch; the carbohydrate is whole fruit (+2). No added sugar, since the almond milk is unsweetened (+2). Comes with peanut butter and flax (+1). Total = 9 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Raw. Score 10"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1. Folate ≈180 µg, mostly from spinach (≈116 µg) (+1). Produce 3.2 servings (+1). Zinc ≈1.7 mg and selenium ≈5 µg are under the thresholds; peanut butter 20 g is under 30 g of nuts (0). Total = 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1. Folate ≈180 µg (+2). Iron ≈3.5 mg, under 4 (0). No iodine source or B12 (0). Profertility: ≥2 produce servings is only one component (0). Total = 3 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 medium banana (about 118 g), peeled, frozen and quartered",
+      "½ cup (about 75 g) frozen mixed berries",
+      "1 tbsp (7 g) flaxseed meal",
+      "1 heaping tbsp (about 20 g) natural salted peanut butter",
+      "½–¾ cup (120–180 mL) unsweetened vanilla almond milk",
+      "2 cups (60 g) fresh spinach"
+     ]
+    }
+   ],
+   "steps": [
+    "Put everything in a blender and blend until completely smooth.",
+    "Thin with more almond milk, or thicken with more frozen fruit, to your liking.",
+    "Drink right away for the best texture."
+   ],
+   "boosts": [
+    "Replace the spinach with about 3 cups (80 g) raw kale; raw crucifers earn +5 Nrf2 [cruciferous-other]",
+    "Use soy milk instead of almond milk for a soy food, which with the produce makes two profertility components (+1 egg) [soy]",
+    "Swap the peanut butter for 30 g walnuts [walnuts-nuts]",
+    "Choose wild blueberries for the berries [blueberries]"
+   ],
+   "watch_outs": [
+    "Allergens: peanuts, tree nuts (almond milk)."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.87/125; ingredients match. Egg 4→3: under the updated rubric, ≥2 produce servings alone is one profertility component. Folate revised to ≈180 µg (no score change)."
+   }
+  },
+  {
+   "id": "classic-hummus",
+   "title": "Classic Hummus",
+   "summary": "Whipped chickpea, tahini, lemon and olive-oil dip; a fibre-rich legume snack, but a ¼-cup portion of canned-chickpea hummus is too small to score on fertility nutrients.",
+   "source": {
+    "title": "Easy Hummus (Better than Store-Bought)",
+    "author": "Joanne Gallagher",
+    "site": "Inspired Taste",
+    "url": "https://www.inspiredtaste.net/15938/easy-and-smooth-hummus-recipe/",
+    "rating": 4.9,
+    "rating_count": 1980,
+    "checked": "2026-10-11",
+    "note": "Rating and count read from the recipe card (1,980 reviews; the 3,204 comments are separate). Scored with canned chickpeas, the original's first option."
+   },
+   "changes": "Dropped the paprika, sumac or za'atar garnish. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 10,
+   "total_min": 10,
+   "servings": 6,
+   "meal": "snack",
+   "tags": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 160,
+    "fiber_g": 4.1,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.4,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 40,
+    "choline_mg": 15,
+    "iron_mg": 1.5,
+    "zinc_mg": 0.9,
+    "selenium_ug": 5,
+    "b12_ug": 0,
+    "vit_c_mg": 4,
+    "fruit_veg_servings": 0.5
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "Chickpeas ≈42 g per ¼-cup serving = 0.5 servings; legumes count as at most one serving (+1). EVOO is 1 tsp per serving and cumin a trace, so no item points. Plant families: legume, sesame, olive, citrus, allium, carrot family (cumin) = 6 (+1). Total = 2 [legumes]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. One small clove split 6 ways is too little garlic (0). Total = 1"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2. EVOO 2 tbsp ÷ 6 = 1 tsp per serving (+1). Tahini is 10 g per serving, under 15 g (0). Total = 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈4.1 g (chickpeas 3.2, tahini 0.9) (+2). The starch is a legume (+2). No added sugar (+2). Comes with tahini and EVOO fat (+1). Total = 7 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "No-cook. Score 10"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1. Folate ≈40 µg, zinc ≈0.9 mg and selenium ≈5 µg all fall below the thresholds. Total = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1. Folate ≈40 µg: canned chickpeas ≈105 µg per cup, so 42 g ≈27 µg, plus tahini ≈10 µg and lemon ≈2 µg; under 50 (0). Iron ≈1.5 mg (0). Total = 1"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 (15-oz) can chickpeas, drained, or 1½ cups (250 g) cooked chickpeas",
+      "¼ cup (60 mL) fresh lemon juice, from about 1 large lemon",
+      "¼ cup (60 mL) well-stirred tahini",
+      "1 small garlic clove, minced",
+      "2 tbsp (30 mL) extra-virgin olive oil, plus more for serving",
+      "½ tsp ground cumin",
+      "½ tsp salt, or to taste",
+      "2–3 tbsp (30–45 mL) cold water or aquafaba"
+     ]
+    }
+   ],
+   "steps": [
+    "Blend the tahini and lemon juice in a food processor for 1 minute. Scrape down the bowl and blend 30 seconds more, until pale and whipped.",
+    "Add the olive oil, garlic, cumin and salt and blend until combined.",
+    "Add the chickpeas in two additions, processing after each until thick and fairly smooth.",
+    "With the motor running, pour in 2–3 tbsp cold water or aquafaba until the hummus is silky.",
+    "Taste and adjust the salt and lemon, then serve drizzled with a little olive oil."
+   ],
+   "boosts": [
+    "Serve with raw broccoli florets, radishes or cauliflower as dippers; 80 g of raw crucifers earns +5 Nrf2 [cruciferous-other]",
+    "Dust with ½ tsp sumac or smoked paprika [herbs-spices]",
+    "Serve with red-pepper and carrot sticks instead of pita [high-fruit-vegetable-intake]",
+    "Use home-cooked chickpeas, which keep more folate than canned (≈280 vs ≈105 µg per cup), lifting folate to ≈85 µg (+1 egg) [legumes]"
+   ],
+   "watch_outs": [
+    "Allergens: sesame (tahini)."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.9/1,980; ingredients and method match. Egg 2→1: the recipe specifies canned chickpeas, so folate is ≈40 µg, not 80. Chickpea boost now gives its effect."
+   }
+  },
+  {
+   "id": "roasted-broccoli-lemon-parmesan",
+   "title": "Roasted Broccoli with Garlic, Lemon and Parmesan",
+   "summary": "Broccoli roasted at 425 °F, then tossed with lemon and Parmesan; a big crucifer portion with plenty of folate and vitamin C.",
+   "source": {
+    "title": "Magic Broccoli",
+    "author": "Nagi Maehashi",
+    "site": "RecipeTin Eats",
+    "url": "https://www.recipetineats.com/magic-broccoli/",
+    "rating": 4.97,
+    "rating_count": 110,
+    "checked": "2026-10-11",
+    "note": "Rating read from the recipe card (4.97 from 110 votes)."
+   },
+   "changes": "Dropped the extra Parmesan garnish. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 10,
+   "total_min": 35,
+   "servings": 4,
+   "meal": "side",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 155,
+    "fiber_g": 5.2,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.6,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 126,
+    "choline_mg": 38,
+    "iron_mg": 1.5,
+    "zinc_mg": 0.9,
+    "selenium_ug": 5.5,
+    "b12_ug": 0,
+    "vit_c_mg": 150,
+    "fruit_veg_servings": 2.5
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Broccoli ≈200 g trimmed per serving = 2.5 servings (+3). EVOO is ≈1.9 tsp per serving, under 1 tbsp (0). Plant families: crucifer, allium, olive, citrus = 4 (+1). Total = 4 [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1. Broccoli ≈200 g roasted 20–25 min, with no raw myrosinase source added (+3). Garlic is ½ clove per serving (0). Total = 4 [broccoli-mature]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2. EVOO 2½ tbsp ÷ 4 ≈ 1.9 tsp per serving (≥1 tsp, +1). Total = 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈5.2 g (+3). No starch (+2). No added sugar (+2). Comes with EVOO and Parmesan (+1). Total = 8 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Vegetables roasted at 220 °C / 425 °F in EVOO. Score 8 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1. Folate ≈126 µg (+1). Produce 2.5 servings (+1). Zinc ≈0.9 mg and selenium ≈5.5 µg (0). Total = 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1. Folate ≈126 µg (+2). Iron ≈1.5 mg (0). Parmesan is ≈2.5 g per serving, too little to count for iodine or dairy (0). Profertility: ≥2 produce servings is only one component (0). Total = 3 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 medium-to-large heads broccoli (about 2 lb / 1 kg)",
+      "2 garlic cloves, finely sliced or minced",
+      "2½ tbsp (37 mL) extra-virgin olive oil",
+      "½ tsp salt, adjusted to taste",
+      "Black pepper",
+      "Zest of ½ lemon",
+      "1 tbsp (15 mL) lemon juice",
+      "2 tbsp (about 10 g) freshly grated Parmesan"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 425 °F (220 °C), or 200 °C fan.",
+    "Cut the broccoli into florets and pile them on a baking tray.",
+    "Add the olive oil, garlic, salt and pepper, toss well, and spread into a single layer.",
+    "Roast 20–25 minutes, until the floret tips are lightly browned and crisp and the stems are tender-crisp.",
+    "Straight from the oven, toss with the lemon juice, zest and Parmesan, and serve warm."
+   ],
+   "boosts": [
+    "After roasting, toss in ½ tsp mustard powder or a handful of raw rocket to restore myrosinase (+2 Nrf2) [mustard-seed-myrosinase]",
+    "Use 4 garlic cloves (1 per serving) [garlic-alliums]",
+    "Scatter over 2 tbsp toasted chopped walnuts per serving [walnuts-nuts]"
+   ],
+   "watch_outs": [
+    "Pregnancy: Parmesan is a hard aged cheese and is generally considered low-risk.",
+    "Allergens: dairy (Parmesan)."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.97/110; ingredients, 220 °C/425 °F (200 °C fan) and 20–25 min match. Egg 4→3: ≥2 produce servings alone is one profertility component. Fixed the fan-oven temperature (the original gives 200 °C fan, not 400 °F fan)."
+   }
+  },
+  {
+   "id": "sauteed-kale",
+   "title": "Sautéed Kale with Red Wine Vinegar",
+   "summary": "A big pile of kale steamed in stock with garlic and olive oil, then finished with red wine vinegar; over two produce servings and plenty of fibre and folate, but cooking leaves little myrosinase.",
+   "source": {
+    "title": "Sauteed Kale",
+    "author": "Bobby Flay",
+    "site": "Food Network",
+    "url": "https://www.foodnetwork.com/recipes/bobby-flay/sauteed-kale-recipe-1960155",
+    "rating": 4.5,
+    "rating_count": 307,
+    "checked": "2026-10-11",
+    "note": "Replaces Love and Lemons 'Sautéed Kale' (4.98 from 40 votes). The rating only loads with JavaScript, so it was read from the page's JSON-LD (ratingValue 4.5, reviewCount 307) in a browser."
+   },
+   "changes": "Replaced the finder's under-100-rating recipe with this one. Added gram and mL amounts. Split the single method paragraph into steps and added an approximate time for cooking off the liquid. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 15,
+   "total_min": 15,
+   "servings": 4,
+   "meal": "side",
+   "tags": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 155,
+    "fiber_g": 7.0,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.6,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 105,
+    "choline_mg": 1,
+    "iron_mg": 2.7,
+    "zinc_mg": 0.7,
+    "selenium_ug": 1.5,
+    "b12_ug": 0,
+    "vit_c_mg": 159,
+    "fruit_veg_servings": 2.1
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Kale 680 g ÷ 4 = 170 g per serving = 2.1 servings (+3). Dark leafy greens well over ½ cup cooked (+1). The oil is plain olive oil, not extra-virgin, and there are no herbs or spices beyond pepper (0). Plant families: crucifer, allium, olive = 3 (0). Total = 4 [leafy-greens] [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1. Kale 170 g per serving, cooked covered in stock 5 min and then until the liquid evaporates, so the cooked tier, with no raw myrosinase source (+3). Garlic is ½ clove per serving (0). Total = 4 [cruciferous-other]"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2. The recipe calls for olive oil, not extra-virgin, so no EVOO points (0). No nuts or seeds, no penalties. Total = 2 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈7.0 g from 170 g kale (+3). No starch (+2). No added sugar (+2). Comes with olive oil (≈2¼ tsp per serving) and red wine vinegar (+1). Total = 8 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "The kale is steamed and braised in stock under a lid, and the uncovered finish only cooks off the liquid, without browning (10). Softening the garlic first doesn't lower the score. Total = 10 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1. Folate ≈105 µg (kale ≈62 µg per 100 g raw) (+1). Produce 2.1 servings (+1). Zinc ≈0.7 mg and selenium ≈1.5 µg (0). Total = 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1. Folate ≈105 µg (+2). Iron ≈2.7 mg, under 4 (0). No iodine source, choline or B12 (0). Profertility: ≥2 produce servings is only one component (0). Total = 3 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1½ lb (680 g) young kale, stems and leaves coarsely chopped",
+      "3 tbsp (45 mL) olive oil",
+      "2 garlic cloves, thinly sliced",
+      "½ cup (120 mL) vegetable stock or water",
+      "Salt and pepper",
+      "2 tbsp (30 mL) red wine vinegar"
+     ]
+    }
+   ],
+   "steps": [
+    "Warm the olive oil in a large saucepan over medium-high heat. Add the garlic and cook just until soft, without letting it colour.",
+    "Turn the heat up to high, add the stock or water and the kale, and toss together.",
+    "Put the lid on and cook for 5 minutes.",
+    "Take off the lid and keep stirring until the liquid has cooked away, a few minutes more.",
+    "Season with salt and pepper, then stir in the vinegar."
+   ],
+   "boosts": [
+    "Use extra-virgin olive oil; at about 2¼ tsp per serving it earns +1 fats [extra-virgin-olive-oil]",
+    "After cooking, toss in ½ tsp mustard powder or a handful of raw rocket so the cooked kale gets a raw myrosinase source (+5 instead of +3 Nrf2) [mustard-seed-myrosinase]",
+    "Use 4 garlic cloves (1 per serving) [garlic-alliums]",
+    "Top each serving with 2 tbsp (15 g) toasted chopped walnuts [walnuts-nuts]"
+   ],
+   "watch_outs": [
+    "Allergens: none of the common allergens. Check the stock label for gluten or celery."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Replaced Love and Lemons Sautéed Kale (40 ratings) with Bobby Flay's Sauteed Kale on Food Network, 4.5/307 from JSON-LD. Scored fresh: plants 4, Nrf2 4, fats 2 (plain olive oil), glycemic 8, cooking 10 (covered braise in stock), sperm 3, egg 3. New id 'sauteed-kale'."
+   }
+  },
+  {
+   "id": "chocolate-chia-pudding",
+   "title": "Chocolate Chia Pudding",
+   "summary": "Cacao, maple and milk set overnight with chia seeds; a high-fibre cocoa dessert with moderate added sugar.",
+   "source": {
+    "title": "Chocolate Chia Seed Pudding",
+    "author": "Lisa Bryan",
+    "site": "Downshiftology",
+    "url": "https://downshiftology.com/recipes/chocolate-chia-pudding/",
+    "rating": 4.94,
+    "rating_count": 141,
+    "checked": "2026-10-11",
+    "note": "Scored with 2% dairy milk. The recipe allows dairy or dairy-free milk."
+   },
+   "changes": "Dropped the optional garnishes (fruit, chocolate shavings, coconut whipped cream, nuts and seeds), which the original lists without amounts. Added gram and mL amounts. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 5,
+   "total_min": 245,
+   "servings": 2,
+   "meal": "dessert",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 225,
+    "fiber_g": 8.7,
+    "added_sugar_g": 12,
+    "sat_fat_g": 2.6,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 18,
+    "choline_mg": 21,
+    "iron_mg": 2.3,
+    "zinc_mg": 2.1,
+    "selenium_ug": 15,
+    "b12_ug": 0.65,
+    "vit_c_mg": 0,
+    "fruit_veg_servings": 0
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "No fruit or vegetables (0). Cacao powder 1 tbsp per serving (+1). Plant families: cacao, chia = 2; maple syrup and vanilla extract not counted (0). Total = 1 [cocoa-flavanols]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. Total = 1"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2. Chia ≈20 g per serving (≥15 g, +1). Total = 3 [flaxseed-lignans]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈8.7 g (chia 6.9, cacao 1.8) (+4). No starch; the base is chia seed, and sugar is scored separately (+2). Maple 1 tbsp per serving ≈12 g added sugar (+1). Comes with chia fat and milk protein (+1). Total = 8 [dietary-fiber-microbiome] [refined-sugar-high-glycemic]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "No-cook. Score 10"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1. Chia is not a nut, and zinc (≈2.1 mg), selenium (≈15 µg) and folate (≈18 µg) are below the thresholds. Total = 1"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1. Dairy milk is an iodine source (+1). B12 ≈0.65 µg (0). Iron ≈2.3 mg (0). Profertility: dairy only (0). Total = 2 [iodine-status]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tbsp (about 10 g) cacao powder",
+      "2 tbsp (30 mL) maple syrup",
+      "1 tsp vanilla extract",
+      "1 cup (240 mL) milk, dairy or dairy-free",
+      "¼ cup (about 40 g) chia seeds"
+     ]
+    }
+   ],
+   "steps": [
+    "Whisk the cacao, maple syrup, vanilla, milk and chia seeds together in a bowl.",
+    "Leave it alone for 15 minutes so the seeds gel, then whisk again to break up any clumps.",
+    "Cover and chill at least 4 hours, or overnight.",
+    "Stir, spoon into two small glasses, and top as you like."
+   ],
+   "boosts": [
+    "Top each serving with ½ cup (75 g) raspberries (+1 berries, +1 produce) [berries-other]",
+    "Cut the maple syrup to 2 tsp total for under 5 g added sugar per serving (+1 glycemic) [refined-sugar-high-glycemic]",
+    "Top each serving with 2 tbsp chopped walnuts [walnuts-nuts]",
+    "Use unsweetened soy milk for a soy food [soy]"
+   ],
+   "watch_outs": [
+    "Allergens: dairy, if made with dairy milk."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.94/141 (JSON-LD); ingredients, 15-min rest and 4-h chill match. All seven scores confirmed; minor nutrient refinements only."
+   }
+  },
+  {
+   "id": "walnut-cocoa-energy-bites",
+   "title": "Walnut Cocoa Energy Bites",
+   "summary": "No-bake bites of walnuts, dates, cacao and hemp seeds; a 3-bite snack gives 30 g of walnuts, lots of fibre and no added sugar.",
+   "source": {
+    "title": "Dark Chocolate Hemp Energy Bites",
+    "author": "Dana Shultz",
+    "site": "Minimalist Baker",
+    "url": "https://minimalistbaker.com/dark-chocolate-hemp-energy-bites/",
+    "rating": 4.93,
+    "rating_count": 102,
+    "checked": "2026-10-11",
+    "note": "Chosen as the walnut-rich snack because it is the only walnut snack found with ≥100 ratings. The muhammara versions checked had 31–50 ratings."
+   },
+   "changes": "The original serves 1 bite (20 per batch). Scored per a realistic 3-bite snack (3/20 of the batch); the batch makes about six 3-bite portions with 2 bites spare, so servings is 6. Scored without the optional coconut oil. Dropped the optional rolling in extra hemp seeds or cacao. Added gram amounts. Steps reworded.",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 25,
+   "servings": 6,
+   "meal": "snack",
+   "tags": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 345,
+    "fiber_g": 6.3,
+    "added_sugar_g": 0,
+    "sat_fat_g": 3.1,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 43,
+    "choline_mg": 19,
+    "iron_mg": 2.4,
+    "zinc_mg": 2.0,
+    "selenium_ug": 2.4,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "fruit_veg_servings": 0.3
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Per 3 bites: dates 24 g = 0.3 servings (0). Cacao ≈0.9 tbsp, under 1 tbsp (0). Plant families: palm (dates), walnut, cacao, hemp, rose (almond) = 5 (+1). Total = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. Total = 1"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 2. Per 3 bites: walnuts 30 g + almond butter 7 g + hemp 4.5 g ≈42 g nuts and seeds (≥30 g, +2). Optional coconut oil not counted. Saturated fat ≈3.1 g. Total = 4 [walnuts-nuts]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈6.3 g per 3 bites (walnuts 2.0, cacao 1.8, dates 1.6, almond butter 0.7, hemp 0.2) (+3). No starch; the base is nuts and whole dates (+2). No added sugar; dates are whole fruit, not syrup (+2). Date sugars come with nut fat and protein (+1). Total = 8 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "No-cook. Score 10"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1. Walnuts 30 g + almond butter 7 g ≈37 g nuts per 3 bites (≥30 g, +2). Zinc ≈2.0 mg, selenium ≈2.4 µg and folate ≈43 µg are under the thresholds (0). Total = 3 [walnuts-nuts]"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1. Folate ≈43 µg (0), iron ≈2.4 mg (0); no iodine, choline or B12 source. Total = 1"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 cup (about 160 g) packed pitted dates, Medjool recommended",
+      "2 cups (about 200 g) raw walnuts",
+      "6 tbsp (about 32 g) cacao powder or unsweetened cocoa powder",
+      "3 tbsp (30 g) hemp seeds",
+      "¼ tsp sea salt",
+      "3 tbsp (48 g) creamy almond butter, or another nut or seed butter",
+      "1 tbsp melted coconut oil (optional, for a fudgier texture)"
+     ]
+    }
+   ],
+   "steps": [
+    "Pulse the dates in a food processor until they clump into a ball, then tip them out.",
+    "Pulse the walnuts into a fine meal. Add the cacao, hemp seeds and salt and pulse briefly. Stop before the nuts turn to butter.",
+    "Return the dates, add the almond butter and the coconut oil if using, and process until a moist dough forms. Add a little more cacao or hemp if it is too sticky.",
+    "Chill the dough for 10 minutes.",
+    "Scoop rounded tablespoons and roll them into about 20 balls.",
+    "Store in the fridge for up to 1 week or in the freezer for up to 1 month. A snack portion is 3 bites."
+   ],
+   "boosts": [
+    "Use 7 tbsp cacao instead of 6, just over 1 tbsp per 3-bite portion (+1 plants) [cocoa-flavanols]",
+    "Add 2 tbsp ground flaxseed to the dough [flaxseed-lignans]",
+    "Leave out the optional coconut oil [cooking-oil-choice]"
+   ],
+   "watch_outs": [
+    "Allergens: tree nuts (walnuts, almond butter)."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.93/102; ingredients and method match (20 bites, 10-min chill). Rescored per 3-bite portion, servings 20→6: fats 2→4, glycemic 6→8, sperm 1→3; others unchanged. Replaced the '3 bites' boost with a cacao boost."
+   }
+  },
+  {
+   "id": "guacamole",
+   "title": "Guacamole",
+   "summary": "Chunky mashed avocado with tomato, onion, jalapeño, garlic, cilantro and lime; high in fibre and almost 100 µg folate per serving.",
+   "source": {
+    "title": "Best Ever Guacamole (Fresh, Easy & Authentic)",
+    "author": "Lisa Bryan",
+    "site": "Downshiftology",
+    "url": "https://downshiftology.com/recipes/best-ever-guacamole/",
+    "rating": 4.96,
+    "rating_count": 851,
+    "checked": "2026-10-11"
+   },
+   "changes": "Added gram amounts. Tortilla chips are the original's serving suggestion and are not scored. Steps reworded.",
+   "complexity": "easy",
+   "active_min": 10,
+   "total_min": 10,
+   "servings": 4,
+   "meal": "snack",
+   "tags": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free"
+   ],
+   "nutrients": {
+    "kcal": 187,
+    "fiber_g": 7.5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 2.1,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 99,
+    "choline_mg": 16,
+    "iron_mg": 0.8,
+    "zinc_mg": 0.75,
+    "selenium_ug": 0.5,
+    "b12_ug": 0,
+    "vit_c_mg": 21,
+    "fruit_veg_servings": 1.8
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Avocado 102 g + tomato 31 g + onion 9 g + jalapeño 3.5 g ≈146 g = 1.8 servings (+2). Cilantro is ¾ tbsp per serving, under 1 tbsp (0). Plant families: avocado, allium, nightshade, carrot family (cilantro), citrus = 5 (+1). Total = 3 [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. Garlic is ½ clove and onion ⅛ per serving, both under the thresholds (0). Total = 1"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2. Avocado fat is not a scored item, and there is no EVOO, nuts or seeds. Total = 2"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈7.5 g (avocado 6.8) (+3). No starch (+2). No added sugar (+2). Comes with avocado fat (+1). Total = 8 [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Raw. Score 10"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1. Folate ≈99 µg (Hass avocado ≈89 µg/100 g) is just under 100, and produce is 1.8 servings, under 2. Total = 1"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1. Folate ≈99 µg (+1). Iron ≈0.8 mg (0). Total = 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "3 ripe avocados (about 410 g flesh)",
+      "½ small yellow onion (about 35 g), finely diced",
+      "2 Roma tomatoes (about 125 g), diced",
+      "3 tbsp finely chopped fresh cilantro",
+      "1 jalapeño, seeded and finely diced",
+      "2 garlic cloves, minced",
+      "Juice of 1 lime (about 2 tbsp / 30 mL)",
+      "½ tsp sea salt"
+     ]
+    }
+   ],
+   "steps": [
+    "Halve the avocados, remove the pits, and scoop the flesh into a bowl.",
+    "Mash with a fork to the texture you like, chunky or smooth.",
+    "Stir in the onion, tomatoes, cilantro, jalapeño, garlic, lime juice and salt.",
+    "Taste, add more salt or lime if needed, and serve."
+   ],
+   "boosts": [
+    "Use red onion instead of yellow [high-fruit-vegetable-intake]",
+    "Double the cilantro to 6 tbsp (+1 herbs) [herbs-spices]",
+    "Serve with sliced radishes and red-pepper strips instead of chips; 80 g of raw radish adds +5 Nrf2 [cruciferous-other]",
+    "Stir in 2 tbsp toasted pumpkin seeds per serving for zinc [zinc-status]"
+   ],
+   "watch_outs": [
+    "Allergens: none of the common allergens. Check the label of any chips you serve with it."
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Rating confirmed 4.96/851 (JSON-LD); ingredients match. All seven scores confirmed (folate ≈99 µg is just under the 100 µg sperm threshold). Reworded step 2, which echoed the original."
+   }
+  },
+  {
+   "id": "lentil-vegetable-soup",
+   "title": "Lentil soup with kale",
+   "summary": "A one-pot green lentil soup with carrots, celery, tomatoes and kale; it scores high on plants and fibre but only moderately on Nrf2, because each bowl gets a fairly small amount of kale.",
+   "source": {
+    "title": "Best Lentil Soup",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/lentil-soup/",
+    "rating": 4.94,
+    "rating_count": 726,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded. Parsley, red pepper flakes and optional Parmesan stay as serving toppings, as in the original.",
+   "complexity": "medium",
+   "active_min": 20,
+   "total_min": 60,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 270,
+    "fiber_g": 14,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.1,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 150,
+    "choline_mg": 45,
+    "iron_mg": 5.7,
+    "zinc_mg": 1.7,
+    "selenium_ug": 2,
+    "b12_ug": 0,
+    "vit_c_mg": 40,
+    "fruit_veg_servings": 4.2
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Veg ≈259 g (onion 27, carrot 64, celery 20, kale 40, tomato 100, parsley 8) = 3.2 servings, plus lentils counted as 1 pulse serving = 4.2 (+5); fresh herbs: parsley 2 tbsp plus thyme (+1); ≥4 plant families: allium, carrot family, crucifer, nightshade, legume, mint (+1). EVOO is only ½ tbsp per serving (0). Kale is cooked, about ¼ cup per serving, below the ½ cup cooked threshold (0). Total 5+1+1 = 7 [high-fruit-vegetable-intake] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1; kale about 40 g per serving, simmered: +3 halved = 1.5, rounded down to +1; 1 garlic clove plus ¼ onion per serving (+2). Total 1+1+2 = 4 [cruciferous-other] [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at 1½ tsp per serving (+1). Total 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 10,
+     "why": "Fibre ≈14 g: lentils 8.3 g plus vegetables about 6 g (+5); legume is the starch (+2); no added sugar (+2); lentil protein plus vinegar (+1). Total 10 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Vegetables softened at medium heat, then simmered (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1; folate ≈150 µg (+1); ≥2 produce servings (+1). Tomato is about 100 g per serving, under ½ cup (0); zinc 1.7 mg (0). Total 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈150 µg (+2); plant iron 5.7 mg with vitamin C ≈40 mg (+1). Profertility: produce is the only component present (0). Total 4 [folic-acid] [iron-egg]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tablespoons (30 mL) extra-virgin olive oil",
+      "1 medium yellow onion, chopped",
+      "4 medium carrots, chopped (2 cups / about 250 g)",
+      "2 celery stalks, chopped",
+      "6 small or 3 large kale leaves, stems finely diced, leaves chopped (about 8 cups)",
+      "Heaping ½ teaspoon ground cumin",
+      "1½ teaspoons sea salt",
+      "Freshly ground black pepper",
+      "4 garlic cloves, grated",
+      "1 (14-ounce / 400 g) can fire-roasted diced tomatoes",
+      "¾ cup (145 g) dry green lentils, rinsed",
+      "2 tablespoons (30 mL) white wine vinegar",
+      "12 fresh thyme sprigs, tied in a bundle",
+      "6 cups (1.4 L) vegetable broth"
+     ]
+    },
+    {
+     "group": "To serve",
+     "items": [
+      "½ cup chopped fresh parsley",
+      "Red pepper flakes",
+      "Grated Parmesan cheese (optional)"
+     ]
+    }
+   ],
+   "steps": [
+    "Warm the olive oil in a large pot over medium heat.",
+    "Add the onion, carrots, celery, kale stems, cumin, salt and a few grinds of pepper. Cook for about 8 minutes, stirring now and then, until the vegetables start to soften.",
+    "Add the garlic, tomatoes, lentils, vinegar, thyme bundle and broth. Cover and simmer for 25–30 minutes, until the lentils are tender.",
+    "Stir in the chopped kale leaves and simmer about 5 minutes more, until wilted.",
+    "Remove the thyme, adjust the seasoning, and serve topped with parsley, pepper flakes and Parmesan if you like."
+   ],
+   "boosts": [
+    "Double the kale to about 80 g per serving and stir ½ tsp mustard powder into the pot just before serving; crucifer points rise from +1 to +5 [cruciferous-other] [mustard-seed-myrosinase]",
+    "Finish each bowl with 1 tbsp extra-virgin olive oil: plants +1 and fats +1 [extra-virgin-olive-oil]",
+    "Season with iodised salt: egg +1 [iodine-status]",
+    "Serve with a slice of whole-grain bread [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list. If you add Parmesan, choose one made from pasteurised milk.",
+    "Allergens: none in the base recipe. The optional Parmesan contains dairy. Check the broth label for gluten."
+   ]
+  },
+  {
+   "id": "minestrone-soup",
+   "title": "Minestrone",
+   "summary": "A tomato-rich bean and vegetable soup with small pasta; it scores high on plants and lycopene, and the white pasta and absence of crucifers hold back blood-sugar and Nrf2.",
+   "source": {
+    "title": "Minestrone Soup",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/minestrone-soup/",
+    "rating": 4.96,
+    "rating_count": 694,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded; a step to remove the bay leaves added. Parsley, pepper flakes and optional Parmesan stay as serving toppings.",
+   "complexity": "medium",
+   "active_min": 20,
+   "total_min": 55,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 300,
+    "fiber_g": 10,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.1,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 115,
+    "choline_mg": 45,
+    "iron_mg": 3.7,
+    "zinc_mg": 1.4,
+    "selenium_ug": 15,
+    "b12_ug": 0,
+    "vit_c_mg": 36,
+    "fruit_veg_servings": 4.7
+   },
+   "scores": {
+    "plants": {
+     "score": 8,
+     "why": "Veg ≈310 g (tomato 200, onion 27, carrot 30, celery 20, green beans 25, parsley 8) = 3.9 servings, plus beans 67 g = 0.8, total 4.7 (+5); cooked tomato about ¾ cup per serving (+1); herbs: parsley 2 tbsp plus ½ tsp dried oregano and thyme (+1); ≥4 plant families (+1). EVOO is ½ tbsp per serving (0). Total 5+1+1+1 = 8 [high-fruit-vegetable-intake] [tomatoes-lycopene] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; ¼ onion per serving (+1); garlic is 0.75 clove per serving, under 1 (0); no crucifers. Total 2 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at 1½ tsp per serving (+1). Total 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈10 g (+4). The main starch is white pasta, about 22 g dry per serving next to a similar amount of beans, scored as refined (0). No added sugar (+2); bean protein (+1). Total 4+0+2+1 = 7 [whole-grains] [legumes]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Vegetables softened at medium heat, then simmered (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 5,
+     "why": "Base 1; cooked tomato ≥½ cup (+2); folate ≈115 µg (+1); ≥2 produce servings (+1). Zinc 1.4 mg and selenium 15 µg are below the thresholds. Total 5 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1; folate ≈115 µg (+2). Iron is 3.7 mg, under 4 (0). Profertility: produce only, since the pasta is refined (0). Total 3. Enriched US pasta would add about 60 µg DFE folic acid, which is not counted here [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tablespoons (30 mL) extra-virgin olive oil",
+      "1 medium yellow onion, diced",
+      "2 medium carrots, chopped",
+      "2 celery ribs, thinly sliced",
+      "1 teaspoon sea salt, plus more to taste",
+      "Freshly ground black pepper",
+      "3 garlic cloves, grated",
+      "1 (28-ounce / 794 g) can diced tomatoes",
+      "1½ cups (about 270 g) cooked white beans or kidney beans, drained and rinsed",
+      "1 cup (about 100 g) chopped green beans",
+      "4 cups (950 mL) vegetable broth",
+      "2 bay leaves",
+      "1 teaspoon dried oregano",
+      "1 teaspoon dried thyme",
+      "¾ cup (about 90 g) small pasta"
+     ]
+    },
+    {
+     "group": "To serve",
+     "items": [
+      "½ cup chopped fresh parsley",
+      "Red pepper flakes",
+      "Grated Parmesan cheese (optional)"
+     ]
+    }
+   ],
+   "steps": [
+    "Warm the oil in a large pot over medium heat. Add the onion, carrots, celery, salt and some pepper, and cook for about 8 minutes, stirring occasionally, until they begin to soften.",
+    "Add the garlic, tomatoes, beans, green beans, broth, bay leaves, oregano and thyme. Cover and simmer for 20 minutes.",
+    "Uncover, stir in the pasta and simmer for about 10 minutes more, until it is cooked through.",
+    "Remove the bay leaves, season to taste, and serve with parsley, pepper flakes and Parmesan if you like."
+   ],
+   "boosts": [
+    "Use whole-wheat pasta: glycemic +2, and whole grain becomes a second profertility component (egg +1) [whole-grains] [profertility-diet]",
+    "Stir in 2 cups chopped kale or Savoy cabbage with the pasta [cruciferous-other]",
+    "Drizzle 1 tbsp extra-virgin olive oil over each bowl: plants +1 and fats +1 [extra-virgin-olive-oil]",
+    "Use 8 garlic cloves (2 per serving): Nrf2 +1 [garlic-alliums]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list. If you add Parmesan, choose one made from pasteurised milk.",
+    "Allergens: gluten (pasta). The optional Parmesan contains dairy."
+   ]
+  },
+  {
+   "id": "masoor-dal-tadka",
+   "title": "Red lentil dal with tadka",
+   "summary": "Simmered red lentils finished with a sizzling tadka of cumin, garlic and chili in ghee; it scores high on fibre and gentle cooking, and loses fat-quality points for the ghee.",
+   "source": {
+    "title": "Masoor Dal Recipe (Red Lentil Dal)",
+    "author": "Swasthi Shreekanth",
+    "site": "Swasthi's Recipes (Indian Healthy Recipes)",
+    "url": "https://www.indianhealthyrecipes.com/masoor-dal-recipe/",
+    "rating": 5.0,
+    "rating_count": 270,
+    "checked": "2026-10-11"
+   },
+   "changes": "Only the stovetop method is given (the original also has an Instant Pot version). The simmering time is an estimate, because the original says only 'cook until soft'. Units converted; steps reworded. Scored for 2 servings (the original says 2 to 3) with the lower ghee amount (1 tbsp), which matches the site's nutrition panel. The optional moong dal, green chili and mustard seeds are not counted.",
+   "complexity": "medium",
+   "active_min": 15,
+   "total_min": 30,
+   "servings": 2,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 245,
+    "fiber_g": 6,
+    "added_sugar_g": 0,
+    "sat_fat_g": 4,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 120,
+    "choline_mg": 40,
+    "iron_mg": 4.7,
+    "zinc_mg": 1.8,
+    "selenium_ug": 2,
+    "b12_ug": 0,
+    "vit_c_mg": 12,
+    "fruit_veg_servings": 1.8
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Veg ≈65 g (tomato 57, lemon, coriander) = 0.8 servings, plus lentils as 1 pulse serving = 1.8 (+2); spices ≈0.9 tsp dried per serving plus 1 tbsp fresh coriander (+1); ≥4 plant families: legume, nightshade, allium, carrot family (cumin, coriander, hing), ginger family, citrus (+1). Total 2+1+1 = 4 [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; 1 garlic clove per serving (+1). Turmeric is ⅛ tsp per serving, under ½ tsp (0); the mustard seeds are optional and a tiny amount (0). Total 2 [garlic-alliums] [turmeric-curcumin]"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 2; ghee (butter fat) is the main fat (−2) = 0, floored to 1 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 8,
+     "why": "Fibre ≈6 g, using the FDC value of 10.7 g per 100 g dry red lentils (+3); legume is the starch (+2); no added sugar (+2); lentil protein plus fat (+1). Total 8 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 9,
+     "why": "The lentils are boiled (10); the tadka is a brief medium-heat sauté of spices and garlic in ghee (8). Secondary component is worse, so midpoint (10+8)/2 = 9 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; folate ≈120 µg (+1). Zinc 1.8 mg (0); produce 1.8 servings, under 2 (0). Total 2 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1; folate ≈120 µg (+2). Iron is 4.7 mg, but vitamin C is only ≈12 mg, under 25 mg (0). Total 3 [folic-acid] [iron-egg]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "½ cup (95 g) masoor dal (red lentils)",
+      "2 tablespoons (23 g) moong dal (optional)",
+      "2 medium tomatoes, deseeded and chopped (½ to ¾ cup)",
+      "1 green chili (optional)",
+      "1¼ to 1½ cups (300–350 mL) water"
+     ]
+    },
+    {
+     "group": "Tadka",
+     "items": [
+      "1 to 2 tablespoons ghee (or 1 tablespoon oil or 2 tablespoons butter)",
+      "1 dried red chili, broken",
+      "2 garlic cloves, chopped",
+      "¼ teaspoon mustard seeds (optional)",
+      "½ teaspoon cumin seeds",
+      "1 pinch asafoetida (hing)",
+      "¼ to ½ teaspoon Kashmiri red chili powder",
+      "¼ teaspoon turmeric",
+      "⅛ teaspoon garam masala"
+     ]
+    },
+    {
+     "group": "To finish",
+     "items": [
+      "½ teaspoon salt, adjusted to taste",
+      "½ teaspoon kasuri methi (dried fenugreek leaves)",
+      "2 tablespoons finely chopped coriander leaves",
+      "1 to 2 tablespoons lemon juice"
+     ]
+    }
+   ],
+   "steps": [
+    "Rinse the red lentils (and moong dal, if using) in a pot, changing the water until it runs clear.",
+    "Add the tomatoes, water and green chili. Bring to a rolling boil, then turn down the heat and simmer until the lentils are completely soft, about 15–20 minutes. Skim off any foam, and add hot water if the dal gets too thick. Alternatively, pressure-cook for 1–2 whistles over medium heat.",
+    "Mash the dal as smooth or as coarse as you like, loosening it with a few spoonfuls of hot water if needed.",
+    "For the tadka, heat the ghee in a small pan over medium heat. Add the mustard seeds, cumin seeds, dried chili and garlic, and stir until the garlic turns light golden.",
+    "Take the pan off the heat, stir in the hing, chili powder, turmeric and garam masala, and pour the tadka straight into the dal.",
+    "Add the salt and crumbled kasuri methi, and simmer for 2 minutes. Finish with lemon juice and coriander."
+   ],
+   "boosts": [
+    "Make the tadka with 1 tbsp olive or avocado oil instead of ghee; this removes the −2 penalty (fats 1 → 2, or 3 with EVOO) [cooking-oil-choice] [extra-virgin-olive-oil]",
+    "Simmer 1 tsp turmeric (½ tsp per serving) with the dal; the tadka fat and a twist of black pepper help absorption (Nrf2 +1) [turmeric-curcumin]",
+    "Stir 2 cups baby spinach into the dal at the end [leafy-greens]",
+    "Use the full 2 tbsp lemon juice and top with diced raw onion, so the vitamin C is there for the lentil iron [iron-egg] [garlic-alliums]",
+    "Serve with brown rice [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: dairy (ghee). Gluten: most store-bought asafoetida is cut with wheat flour, so use a gluten-free hing if needed."
+   ]
+  },
+  {
+   "id": "chickpea-spinach-curry",
+   "title": "Chickpea curry with spinach",
+   "summary": "A 25-minute Thai red curry of chickpeas and spinach in coconut milk over jasmine rice; it is fast and folate-rich, but full-fat coconut milk and white rice pull the fat and blood-sugar scores down.",
+   "source": {
+    "title": "Steph's Chickpea Curry with Spinach and Rice",
+    "author": "Lindsay Ostrom",
+    "site": "Pinch of Yum",
+    "url": "https://pinchofyum.com/chickpea-curry",
+    "rating": 5.0,
+    "rating_count": 118,
+    "checked": "2026-10-11",
+    "note": "The site's JSON-LD gives a 5.0 rating from 118 reviews (reviewCount) and no separate ratingCount."
+   },
+   "changes": "Brand suggestions, chili crisp and the side-salad serving idea dropped; metric units added; steps reworded. Scored with 2½ cups (75 g) spinach, the middle of the 2–3 cup range.",
+   "complexity": "medium",
+   "active_min": 15,
+   "total_min": 25,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "dairy-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 590,
+    "fiber_g": 6,
+    "added_sugar_g": 3.5,
+    "sat_fat_g": 20,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 160,
+    "choline_mg": 40,
+    "iron_mg": 5.0,
+    "zinc_mg": 2.3,
+    "selenium_ug": 18,
+    "b12_ug": 0,
+    "vit_c_mg": 7,
+    "fruit_veg_servings": 1.0
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Spinach 19 g, cilantro, curry-paste aromatics ≈25 g = 0.3 servings, plus chickpeas 60 g = 0.75, total ≈1.0 (+2); fresh cilantro 2 tbsp per serving (+1); ≥4 plant families: legume, amaranth (spinach), carrot family, allium, palm (coconut), grass (rice) (+1). Spinach is about 0.6 cup raw per serving, under 1 cup (0). Total 4 [herbs-spices] [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. Garlic is 0.5 clove per serving (0); no crucifers or turmeric. Total 1 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 2; full-fat coconut milk is the main fat and saturated fat is ≈20 g per serving (−2) = 0, floored to 1 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Fibre ≈6 g: chickpeas 4.5 g plus rice and spinach (+3); white jasmine rice is the main starch (0); added sugar ≈3.5 g from 1 tbsp brown sugar over 4 servings (+2); chickpea protein plus fat (+1). Total 6 [whole-grains] [refined-sugar-high-glycemic]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Brief medium-heat sauté of garlic and paste, then a gentle simmer; rice boiled (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; folate ≈160 µg (+1). Zinc 2.3 mg, selenium ≈18 µg and produce 1 serving are below the thresholds. Total 2 [zinc-status]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1; folate ≈160 µg (+2). Iron ≈5 mg, but vitamin C is only ≈7 mg (0). Soy sauce is not counted as a soy food. Total 3 [folic-acid] [iron-egg]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 tablespoon (15 mL) avocado oil",
+      "2 cloves garlic, minced",
+      "1 tablespoon brown sugar (more to taste)",
+      "1½ tablespoons red curry paste",
+      "One 14-ounce (400 mL) can full-fat coconut milk",
+      "1½ tablespoons soy sauce",
+      "One 14-ounce (400 g) can chickpeas, drained and rinsed",
+      "2–3 cups (60–90 g) fresh spinach, chopped",
+      "½ cup cilantro, chopped",
+      "1½ cups (280 g) jasmine rice, uncooked"
+     ]
+    }
+   ],
+   "steps": [
+    "Cook the rice following the package directions.",
+    "Warm the oil in a pan over medium heat. Add the garlic and curry paste and cook for 1–2 minutes, until soft and fragrant.",
+    "Stir in the brown sugar, coconut milk and soy sauce. Bring to a gentle simmer and let it thicken slightly.",
+    "Add the chickpeas, spinach and cilantro, and cook until the chickpeas are hot and the spinach has wilted. For a creamier sauce, lightly crush some chickpeas with the back of a spoon.",
+    "Taste, adjust the seasoning, and serve over the rice."
+   ],
+   "boosts": [
+    "Use light coconut milk, or half coconut milk and half broth, to bring saturated fat under 10 g and remove the −2 [cooking-oil-choice]",
+    "Serve over brown rice: glycemic +2 and fibre up [whole-grains]",
+    "Use 5 cups spinach (over 1 cup raw per serving): plants +1 [leafy-greens]",
+    "Add a sliced red bell pepper and a squeeze of lime at the end, so vitamin C (≥25 mg) is there for the plant iron (egg +1) [iron-egg]",
+    "Add 2 more garlic cloves and 2 tsp ground turmeric with the curry paste: Nrf2 +2 [garlic-alliums] [turmeric-curcumin]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: soy and gluten (soy sauce; use tamari to avoid gluten). Some Thai red curry pastes, including Maesri, which the author mentions, contain shrimp paste (shellfish). Choose a vegan paste for a vegetarian or shellfish-free dish."
+   ]
+  },
+  {
+   "id": "vegetarian-bean-chili",
+   "title": "Vegetarian black bean chili",
+   "summary": "A smoky black and pinto bean chili built on a big tomato base with plenty of vegetables and spices; it is one of the strongest all-rounders here, held back only by having no crucifers.",
+   "source": {
+    "title": "Homemade Vegetarian Chili",
+    "author": "Kathryne Taylor",
+    "site": "Cookie and Kate",
+    "url": "https://cookieandkate.com/vegetarian-chili-recipe/",
+    "rating": 4.9,
+    "rating_count": 2140,
+    "checked": "2026-10-11",
+    "note": "Page read in a browser because direct fetches were blocked. The JSON-LD gives a 4.9 rating from 2140 reviews (reviewCount)."
+   },
+   "changes": "Optional garnishes (avocado, tortilla chips, sour cream, cheddar) dropped; metric units added; steps reworded. Scored for 4 servings (the original says 4 to 6; the site's nutrition panel appears to be for 6).",
+   "complexity": "involved",
+   "active_min": 30,
+   "total_min": 60,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 360,
+    "fiber_g": 16,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.4,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 160,
+    "choline_mg": 75,
+    "iron_mg": 6.4,
+    "zinc_mg": 2.2,
+    "selenium_ug": 3,
+    "b12_ug": 0,
+    "vit_c_mg": 45,
+    "fruit_veg_servings": 5.0
+   },
+   "scores": {
+    "plants": {
+     "score": 9,
+     "why": "Veg ≈317 g (tomato 198, red pepper 41, carrot 30, red onion 28, celery 20) = 4.0 servings, plus beans as 1 pulse serving = 5.0 (+5); spices ≈2.6 tsp dried per serving (+1); cooked tomato about ¾ cup (+1); red onion, ¼ per serving (+1); ≥4 plant families (+1). EVOO is ½ tbsp per serving (0). Total 5+3+1 = 9 [high-fruit-vegetable-intake] [herbs-spices] [tomatoes-lycopene]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; 1 garlic clove plus ¼ onion per serving (+2); no crucifers or turmeric. Total 3 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at 1½ tsp per serving (+1). Total 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 10,
+     "why": "Fibre ≈16 g: beans 180 g ≈12.6 g plus tomatoes, vegetables and spices (+5); legume is the starch (+2); no added sugar (+2); bean protein plus vinegar (+1). Total 10 [legumes] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Vegetables softened at medium heat, then simmered for 30 min (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 5,
+     "why": "Base 1; cooked tomato ≥½ cup (+2); folate ≈160 µg (+1); ≥2 produce servings (+1). Zinc 2.2 mg (0). Total 5 [tomatoes-lycopene] [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈160 µg (+2); plant iron ≈6.4 mg with vitamin C ≈45 mg from red pepper and tomato (+1). Profertility: produce only (0). Total 4 [folic-acid] [iron-egg]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 tablespoons (30 mL) extra-virgin olive oil",
+      "1 medium red onion, chopped",
+      "1 large red bell pepper, chopped",
+      "2 medium carrots, chopped",
+      "2 ribs celery, chopped",
+      "½ teaspoon salt, divided",
+      "4 cloves garlic, pressed or minced",
+      "2 tablespoons chili powder",
+      "2 teaspoons ground cumin",
+      "1½ teaspoons smoked paprika",
+      "1 teaspoon dried oregano",
+      "1 large can (28 oz / 794 g) or 2 small cans (15 oz / 425 g each) diced tomatoes, with their juices",
+      "2 cans (15 oz / 425 g each) black beans, rinsed and drained",
+      "1 can (15 oz / 425 g) pinto beans, rinsed and drained",
+      "2 cups (475 mL) vegetable broth or water",
+      "1 bay leaf",
+      "2 tablespoons chopped fresh cilantro",
+      "1 to 2 teaspoons sherry vinegar, red wine vinegar or lime juice, to taste"
+     ]
+    }
+   ],
+   "steps": [
+    "Warm the oil in a Dutch oven over medium heat until it shimmers. Add the onion, bell pepper, carrots, celery and ¼ tsp of the salt, and cook for 7–10 minutes, stirring now and then, until tender and the onion is translucent.",
+    "Stir in the garlic, chili powder, cumin, smoked paprika and oregano, and cook for about 1 minute, stirring constantly, until fragrant.",
+    "Add the tomatoes with their juices, both kinds of beans, the broth and the bay leaf. Bring to a simmer, then keep it at a gentle simmer for 30 minutes, stirring occasionally.",
+    "Take the pot off the heat and remove the bay leaf. Blend 1½ cups of the chili, including some liquid, until smooth and stir it back in. Watch for hot steam. Alternatively, mash some of the chili briefly in the pot.",
+    "Stir in the cilantro, then add vinegar and salt to taste."
+   ],
+   "boosts": [
+    "Top each bowl with 1 cup shredded raw cabbage or sliced radishes (about 80 g): Nrf2 +5 [cruciferous-other]",
+    "Sprinkle 2 tbsp pumpkin seeds (about 16 g) on each bowl: fats +1 [walnuts-nuts]",
+    "Stir in 2 cups chopped kale for the last 5 minutes [leafy-greens]",
+    "Season with iodised salt: egg +1 [iodine-status]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list. If you top it with cheese or sour cream, choose pasteurised ones.",
+    "Allergens: none in the base recipe. Optional toppings may add dairy (sour cream, cheddar) or corn and gluten (tortilla chips)."
+   ]
+  },
+  {
+   "id": "kale-salad-carrot-ginger",
+   "title": "Massaged kale salad with roasted chickpeas",
+   "summary": "Massaged raw kale with beet, watermelon radish, avocado, pepitas and crispy roasted chickpeas in a roasted carrot-ginger dressing; it is high in plants, fibre and folate, and the raw crucifers help Nrf2.",
+   "source": {
+    "title": "Kale Salad",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/kale-salad/",
+    "rating": 4.93,
+    "rating_count": 101,
+    "checked": "2026-10-11",
+    "note": "The roasted chickpeas follow the linked Love and Lemons 'Roasted Chickpeas' recipe (4.92 from 347 ratings)."
+   },
+   "changes": "The linked roasted chickpea sub-recipe is written out; metric units added; steps reworded.",
+   "complexity": "involved",
+   "active_min": 30,
+   "total_min": 45,
+   "servings": 4,
+   "meal": "lunch",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free"
+   ],
+   "nutrients": {
+    "kcal": 435,
+    "fiber_g": 11.5,
+    "added_sugar_g": 2,
+    "sat_fat_g": 4.2,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 205,
+    "choline_mg": 40,
+    "iron_mg": 3.7,
+    "zinc_mg": 2.2,
+    "selenium_ug": 3,
+    "b12_ug": 0,
+    "vit_c_mg": 50,
+    "fruit_veg_servings": 2.9
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Veg/fruit ≈170 g (kale 42, carrots 36, avocado 37, radish 25, beet 20, cranberries ×2) = 2.1 servings, plus chickpeas 0.8, total 2.9 (+3); EVOO ≈1¼ tbsp per serving (+1); raw kale about 2 cups per serving (+1); watermelon radish, anthocyanin red (+1); ≥4 plant families (+1). Total 3+3+1 = 7 [high-fruit-vegetable-intake] [extra-virgin-olive-oil] [leafy-greens]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; raw crucifers kale 42 g plus watermelon radish 25 g = 67 g per serving: raw +5 halved = 2.5, rounded down to +2; no alliums. Total 3 [cruciferous-other]"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 2; EVOO is the main fat at ≥1 tbsp per serving (+2). Pepitas plus sesame are ≈9 g per serving, under 15 g (0). Total 4 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 9,
+     "why": "Fibre ≈11.5 g: chickpeas 4.7, avocado 2.5, kale 1.7, carrots 1.0 and the rest (+4); legume is the only starch (+2); added sugar ≈2 g from the dried cranberries (+2); fat, vinegar and protein (+1). Total 9 [dietary-fiber-microbiome] [legumes]"
+    },
+    "cooking": {
+     "score": 9,
+     "why": "The kale is raw (10); the carrots and chickpeas are roasted at 400–425 °F (≤220 °C) only until golden (8). Midpoint (10+8)/2 = 9 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 3,
+     "why": "Base 1; folate ≈205 µg (+1); ≥2 produce servings (+1). Zinc 2.2 mg and pepitas ≈8 g are below the thresholds. Total 3 [high-fruit-vegetable-intake]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈205 µg (+3). Iron is 3.7 mg, under 4 (0). Profertility: produce only (0). Total 4 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Carrot ginger dressing",
+     "items": [
+      "¾ cup (about 95 g) chopped carrots",
+      "⅓ to ½ cup (80–120 mL) water",
+      "¼ cup (60 mL) extra-virgin olive oil, plus more for drizzling",
+      "2 tablespoons (30 mL) rice vinegar",
+      "2 teaspoons minced fresh ginger",
+      "¼ teaspoon sea salt, plus more for sprinkling"
+     ]
+    },
+    {
+     "group": "Roasted chickpeas",
+     "items": [
+      "1½ cups (about 245 g) cooked chickpeas, drained and rinsed",
+      "Extra-virgin olive oil, for drizzling",
+      "Sea salt",
+      "Paprika, curry powder or other spices (optional)"
+     ]
+    },
+    {
+     "group": "Salad",
+     "items": [
+      "1 bunch curly kale, stems removed, leaves torn into bite-sized pieces",
+      "1 teaspoon fresh lemon juice",
+      "½ teaspoon extra-virgin olive oil",
+      "1 small carrot, grated",
+      "1 small red beet, grated",
+      "½ watermelon radish, very thinly sliced",
+      "1 avocado, cubed",
+      "2 tablespoons dried cranberries",
+      "¼ cup (about 32 g) pepitas, toasted",
+      "1 teaspoon sesame seeds",
+      "Sea salt and freshly ground black pepper"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 400 °F (200 °C) and line two baking sheets with parchment.",
+    "Toss the chopped carrots with a drizzle of olive oil and a pinch of salt on one sheet, and roast for 20–25 minutes, until soft.",
+    "Pat the chickpeas dry and remove any loose skins. Toss them with a drizzle of oil and salt on the second sheet, and roast until golden and crisp (the linked recipe uses 425 °F / 220 °C for 20–30 minutes). Toss with spices while warm, if using.",
+    "Blend the roasted carrots with the water, olive oil, rice vinegar, ginger and salt until smooth, then chill.",
+    "Put the kale in a large bowl with the lemon juice, ½ tsp olive oil and a few pinches of salt. Massage it with your hands until the leaves soften and shrink by about half.",
+    "Add the grated carrot, beet, radish, half the avocado, the cranberries, pepitas, salt and pepper. Toss, then dress generously.",
+    "Top with the remaining avocado, more dressing, the roasted chickpeas and the sesame seeds."
+   ],
+   "boosts": [
+    "Add 1 cup watercress per serving: Nrf2 +3 [watercress-peitc]",
+    "Use 2 bunches of kale, so each serving gets over 80 g raw crucifers: Nrf2 +2 → +5 [cruciferous-other]",
+    "Increase the pepitas to ½ cup (about 16 g per serving): fats +1 [walnuts-nuts]",
+    "Add ¼ thinly sliced red onion per serving: Nrf2 +1 [garlic-alliums]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list. Wash raw produce well.",
+    "Allergens: sesame."
+   ]
+  },
+  {
+   "id": "raw-broccoli-salad",
+   "title": "Raw broccoli salad (no bacon)",
+   "summary": "Finely chopped raw broccoli in a tangy olive oil and mayo dressing with red onion, cranberries and smoky roasted almonds and sunflower seeds; the raw broccoli keeps its myrosinase, but each side portion is just under the full crucifer threshold.",
+   "source": {
+    "title": "Broccoli Salad",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/broccoli-salad/",
+    "rating": 4.98,
+    "rating_count": 498,
+    "checked": "2026-10-11",
+    "note": "Bacon-free version, chosen as requested."
+   },
+   "changes": "Metric units added; steps reworded.",
+   "complexity": "medium",
+   "active_min": 15,
+   "total_min": 25,
+   "servings": 6,
+   "meal": "side",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 285,
+    "fiber_g": 5,
+    "added_sugar_g": 6,
+    "sat_fat_g": 3,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 80,
+    "choline_mg": 29,
+    "iron_mg": 1.4,
+    "zinc_mg": 1.2,
+    "selenium_ug": 9,
+    "b12_ug": 0,
+    "vit_c_mg": 68,
+    "fruit_veg_servings": 1.2
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Broccoli 76 g, red onion 9 g, dried cranberries 7 g (×2) ≈98 g = 1.2 servings (+2); ≥4 plant families: crucifer, allium, heath (cranberry), rose (almond), daisy (sunflower) (+1). EVOO is ½ tbsp per serving (0); spices ¼ tsp in total (0); red onion 9 g is too little to count (0). Total 3 [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; raw broccoli 1 lb ÷ 6 = 76 g per serving, in the 40–79 g band: +5 halved = 2.5, rounded down to +2. Garlic ⅙ clove and red onion 9 g are under the allium thresholds (0); Dijon ⅓ tsp per serving is not a meaningful amount (0). Total 3 [broccoli-mature]"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 2; EVOO 1½ tsp per serving, listed first and used alongside the same amount of mayo (+1); almonds plus sunflower seeds ≈23 g per serving (+1). Total 4 [extra-virgin-olive-oil] [walnuts-nuts]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈5 g: broccoli 2.0, almonds 1.5, seeds 1.0, cranberries 0.4 (the site panel says 4 g; FDC sum used) (+3); no starch (+2); added sugar ≈6 g from maple syrup and sweetened cranberries (+1); fat plus vinegar (+1). Total 7 [dietary-fiber-microbiome] [refined-sugar-high-glycemic]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Broccoli is raw; the nuts are baked at 350 °F (≤180 °C) (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1. Nuts and seeds ≈23 g are under 30 g; folate ≈80 µg, zinc 1.2 mg, selenium 9 µg and produce 1.2 servings are all below the thresholds. Total 1 [walnuts-nuts]"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate ≈80 µg (+1). Total 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 pound (450 g) broccoli crowns",
+      "⅓ cup (about 50 g) diced red onion",
+      "⅓ cup (about 40 g) dried cranberries"
+     ]
+    },
+    {
+     "group": "Dressing",
+     "items": [
+      "3 tablespoons (45 mL) extra-virgin olive oil",
+      "3 tablespoons (about 40 g) mayonnaise",
+      "1½ tablespoons (22 mL) apple cider vinegar",
+      "2 teaspoons Dijon mustard",
+      "1 teaspoon maple syrup or honey",
+      "1 garlic clove, minced",
+      "¼ teaspoon sea salt, plus more to taste"
+     ]
+    },
+    {
+     "group": "Smoky nuts and seeds",
+     "items": [
+      "½ cup (about 70 g) almonds",
+      "½ cup (about 65 g) sunflower seeds or pepitas",
+      "1 tablespoon (15 mL) tamari",
+      "½ teaspoon maple syrup",
+      "¼ teaspoon smoked paprika, more to taste"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 350 °F (175 °C) and line a baking sheet with parchment.",
+    "Cut the broccoli florets into ½-inch (1 cm) pieces. Peel any woody parts off the stems and dice the stems into ¼-inch (5 mm) cubes.",
+    "Whisk the olive oil, mayo, vinegar, mustard, maple syrup, garlic and salt in a large bowl. Add the broccoli, onion and cranberries and toss to coat.",
+    "Toss the almonds and seeds with the tamari, maple syrup and smoked paprika on the baking sheet, spread them out, and bake for 10–14 minutes, until golden. Let them cool for 5 minutes so they crisp.",
+    "Fold most of the nuts and seeds into the salad, scatter the rest on top, season to taste and serve."
+   ],
+   "boosts": [
+    "Use 1¼ lb (565 g) broccoli, or serve it as 5 portions, so each serving has at least 80 g raw broccoli: Nrf2 +2 → +5 [broccoli-mature]",
+    "Swap the almonds for walnuts and use ¾ cup nuts plus ½ cup seeds (≥30 g per serving): fats +1, sperm +2 [walnuts-nuts]",
+    "Replace the mayonnaise with more extra-virgin olive oil (≥1 tbsp per serving): plants +1, fats +1 [extra-virgin-olive-oil]",
+    "Use fresh pomegranate arils instead of sweetened dried cranberries: less added sugar, and an anthocyanin source (plants +1) [berries-other] [refined-sugar-high-glycemic]"
+   ],
+   "watch_outs": [
+    "Pregnancy: use commercial mayonnaise (made with pasteurised egg), not homemade raw-egg mayo.",
+    "Allergens: tree nuts (almonds), egg (mayonnaise), soy (tamari). Most tamari is gluten-free, but check the label."
+   ]
+  },
+  {
+   "id": "tabbouleh",
+   "title": "Tabbouleh",
+   "summary": "A parsley-heavy Lebanese herb salad with tomato, cucumber, mint and a little bulgur in a lemony olive oil dressing; it is quick, fresh and high in vitamin C, but each portion is small, so most scores stay modest.",
+   "source": {
+    "title": "Tabbouleh",
+    "author": "Jeanine Donofrio",
+    "site": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/tabbouleh/",
+    "rating": 4.89,
+    "rating_count": 111,
+    "checked": "2026-10-11"
+   },
+   "changes": "Metric units added; steps reworded; a step to cook and cool the bulgur added (the original lists it as cooked).",
+   "complexity": "easy",
+   "active_min": 20,
+   "total_min": 40,
+   "servings": 6,
+   "meal": "side",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 145,
+    "fiber_g": 2.6,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.3,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 60,
+    "choline_mg": 8,
+    "iron_mg": 2.3,
+    "zinc_mg": 0.4,
+    "selenium_ug": 0.5,
+    "b12_ug": 0,
+    "vit_c_mg": 48,
+    "fruit_veg_servings": 1.1
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Parsley 30 g, tomato 30 g, cucumber 22 g, scallion, mint and lemon ≈90 g = 1.1 servings (+2); fresh herbs: parsley ½ cup plus mint per serving (+1); ≥4 plant families: carrot family, gourd, nightshade, grass, mint, allium, citrus (+1). EVOO is ⅓ cup ÷ 6 ≈ 0.9 tbsp, just under 1 tbsp (0). Total 4 [herbs-spices] [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1. Garlic ⅙ clove and scallion ⅓ per serving are under the allium thresholds. Total 1 [garlic-alliums]"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; EVOO is the main fat at ≈0.9 tbsp (≥1 tsp) per serving (+1). Total 3 [extra-virgin-olive-oil]"
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Fibre ≈2.6 g (+1); bulgur is whole grain (+2); no added sugar (+2); dressed with olive oil (+1). Total 6 [whole-grains]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Raw salad; the bulgur is boiled (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1. Fresh tomato is about 30 g per serving, far below 1 cup; folate, zinc and produce are all below the thresholds. Total 1 [tomatoes-lycopene]"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate ≈60 µg, mostly from parsley (+1). Iron 2.3 mg (0). Profertility: whole grain only (0). Total 2 [folic-acid]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "⅓ cup (80 mL) extra-virgin olive oil",
+      "3 tablespoons (45 mL) fresh lemon juice",
+      "1 garlic clove, grated",
+      "½ teaspoon sea salt",
+      "¼ teaspoon ground coriander",
+      "Pinch of cinnamon",
+      "3 cups finely chopped curly parsley (about 2 bunches)",
+      "1 cup (about 135 g) diced English cucumber",
+      "1 cup (about 180 g) cored and diced tomato",
+      "⅔ cup (about 120 g) cooked bulgur wheat",
+      "⅓ cup finely chopped fresh mint",
+      "2 scallions, chopped"
+     ]
+    }
+   ],
+   "steps": [
+    "Cook the bulgur following the package directions and let it cool.",
+    "In a large bowl, whisk together the olive oil, lemon juice, garlic, salt, coriander and cinnamon.",
+    "Add the parsley, cucumber, tomato, bulgur, mint and scallions, and toss well.",
+    "Season to taste and chill until you're ready to serve."
+   ],
+   "boosts": [
+    "Use ½ cup extra-virgin olive oil (≥1 tbsp per serving): plants +1, fats +1 [extra-virgin-olive-oil]",
+    "Fold in a can of rinsed chickpeas for fibre, folate and iron [legumes]",
+    "Add 2 cups chopped arugula (rocket) [cruciferous-other]",
+    "Double the tomato [tomatoes-lycopene]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list. Wash the herbs well.",
+    "Allergens: gluten (bulgur wheat)."
+   ]
+  },
+  {
+   "id": "sesame-tofu-broccoli",
+   "title": "Sesame tofu and broccoli stir-fry",
+   "summary": "Cornstarch-crisped tofu and broccoli in a sweet-tangy sesame-ginger sauce over rice; tofu brings zinc, selenium and iron, while the small amount of frozen broccoli, the white rice and the sugar keep the other scores middling.",
+   "source": {
+    "title": "Pan Fried Sesame Tofu with Broccoli",
+    "author": "Beth Moncel",
+    "site": "Budget Bytes",
+    "url": "https://www.budgetbytes.com/pan-fried-sesame-tofu-with-broccoli/",
+    "rating": 4.61,
+    "rating_count": 205,
+    "checked": "2026-10-11",
+    "note": "Page read in a browser because direct fetches were blocked. Rating from the page's JSON-LD."
+   },
+   "changes": "Ingredient prices dropped; metric units added; steps reworded.",
+   "complexity": "involved",
+   "active_min": 30,
+   "total_min": 60,
+   "servings": 3,
+   "meal": "dinner",
+   "tags": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 680,
+    "fiber_g": 6.2,
+    "added_sugar_g": 9,
+    "sat_fat_g": 3,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 100,
+    "choline_mg": 70,
+    "iron_mg": 4.9,
+    "zinc_mg": 3.9,
+    "selenium_ug": 41,
+    "b12_ug": 0,
+    "vit_c_mg": 33,
+    "fruit_veg_servings": 1.2
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Broccoli 76 g, green onion 17 g, ginger and garlic ≈96 g = 1.2 servings (+2); ≥4 plant families: legume (tofu, soy), crucifer, allium, ginger, sesame, grass (rice) (+1). Fresh ginger is 1 tsp per serving, under 1 tbsp (0). Total 3 [high-fruit-vegetable-intake]"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; frozen (pre-blanched) broccoli ½ lb ÷ 3 = 76 g per serving, stir-fried: +3 halved = 1.5, rounded down to +1. Garlic ⅔ clove and green onion are under the allium thresholds (0). Total 2 [broccoli-mature]"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2. The neutral oil is not EVOO; sesame seeds are 6 g per serving, under 15 g; the tofu is shallow-fried, not deep-fried, so no penalty. Total 2 [cooking-oil-choice]"
+    },
+    "glycemic": {
+     "score": 5,
+     "why": "Fibre ≈6.2 g, in line with the site panel (6.0 g) (+3); white rice is the main starch (0); added sugar ≈9 g (2 tbsp brown sugar ÷ 3) (+1); tofu protein plus rice vinegar (+1). Total 5 [refined-sugar-high-glycemic] [whole-grains]"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Tofu pan-fried until golden over medium heat, and broccoli stir-fried, in neutral oil (8). Medium heat rather than high, so no seed-oil deduction, but use canola or peanut rather than soybean 'vegetable' oil [cooking-oil-choice] [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 4,
+     "why": "Base 1; zinc ≈3.9 mg from tofu, rice and sesame (+1); selenium ≈41 µg from tofu and rice (+1); folate ≈100 µg (+1, borderline). Produce 1.2 servings (0). Total 4 [zinc-status] [selenium-supplement]"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; folate ≈100 µg (+2); plant iron ≈4.9 mg with vitamin C ≈33 mg from broccoli (+1). Profertility: soy food only, since the rice is white (0). Choline ≈70 mg (0). Total 4. Enriched US rice would add folic acid, which is not counted here [folic-acid] [iron-egg] [soy]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Sauce",
+     "items": [
+      "¼ cup (60 mL) soy sauce",
+      "2 Tbsp (30 mL) water",
+      "1 Tbsp (15 mL) toasted sesame oil",
+      "2 Tbsp (about 25 g) brown sugar",
+      "2 Tbsp (30 mL) rice vinegar",
+      "1 Tbsp grated fresh ginger",
+      "2 cloves garlic, minced",
+      "2 Tbsp (about 18 g) sesame seeds",
+      "1 Tbsp cornstarch"
+     ]
+    },
+    {
+     "group": "Tofu and broccoli",
+     "items": [
+      "14 oz (400 g) block extra-firm tofu",
+      "Pinch of salt",
+      "2 Tbsp cornstarch",
+      "2 Tbsp (30 mL) neutral oil (vegetable, canola or peanut)",
+      "½ lb (225 g) frozen broccoli florets",
+      "3–4 green onions, sliced",
+      "4 cups (about 630 g) cooked rice"
+     ]
+    }
+   ],
+   "steps": [
+    "Press the tofu between towels under a weighted plate for at least 30 minutes, refrigerating it if you press it longer.",
+    "Meanwhile, stir the sauce ingredients together until the sugar and cornstarch dissolve.",
+    "Cut the tofu into 1-inch (2.5 cm) cubes, salt lightly, and toss with the 2 Tbsp cornstarch, one spoonful at a time, until evenly coated.",
+    "Heat a large skillet over medium heat, add the oil, and fry the tofu, turning it, until golden and crisp on all sides. Move it to a plate.",
+    "Stir-fry the frozen broccoli in the same pan until the edges brown a little, then lower the heat to medium-low.",
+    "Stir the sauce and pour it in. Once it bubbles and thickens, which takes only moments, turn off the heat and fold the tofu back in.",
+    "Serve over the rice, topped with green onions."
+   ],
+   "boosts": [
+    "Use 1 lb fresh broccoli, steamed for 3–4 minutes and then tossed in the sauce off the heat (about 150 g per serving, myrosinase kept): Nrf2 +1 → +5 [broccoli-mature]",
+    "If you keep the frozen broccoli, sprinkle ¼ tsp mustard powder per serving over it after cooking [mustard-seed-myrosinase]",
+    "Serve over brown rice: glycemic +2, and a second profertility component (egg +1) [whole-grains] [profertility-diet]",
+    "Halve the brown sugar (≈4.5 g per serving): glycemic +1 [refined-sugar-high-glycemic]",
+    "Fry the tofu in avocado or high-oleic oil [cooking-oil-choice]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: soy (tofu, soy sauce), gluten (soy sauce; use tamari to avoid it), sesame."
+   ]
+  },
+  {
+   "id": "asian-peanut-slaw",
+   "title": "Crunchy Asian slaw with edamame and peanuts",
+   "summary": "Raw cabbage slaw with carrots, red pepper, edamame and peanuts in a honey, ginger and peanut dressing; it is no-cook and folate-rich, but a side portion has only a moderate amount of cabbage, and the honey adds sugar.",
+   "source": {
+    "title": "Asian Slaw with Ginger Peanut Dressing",
+    "author": "Jennifer Segal",
+    "site": "Once Upon a Chef",
+    "url": "https://www.onceuponachef.com/recipes/asian-slaw-with-ginger-peanut-dressing.html",
+    "rating": 4.93,
+    "rating_count": 182,
+    "checked": "2026-10-11"
+   },
+   "changes": "Brand note on the peanut butter dropped; metric units added; steps reworded.",
+   "complexity": "medium",
+   "active_min": 15,
+   "total_min": 25,
+   "servings": 6,
+   "meal": "side",
+   "tags": [
+    "vegetarian",
+    "dairy-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 300,
+    "fiber_g": 5,
+    "added_sugar_g": 11.5,
+    "sat_fat_g": 2,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 145,
+    "choline_mg": 28,
+    "iron_mg": 1.6,
+    "zinc_mg": 0.9,
+    "selenium_ug": 1,
+    "b12_ug": 0,
+    "vit_c_mg": 47,
+    "fruit_veg_servings": 1.7
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Slaw mix 47 g, carrots 37 g, edamame 26 g, red pepper 20 g, scallion and cilantro ≈137 g = 1.7 servings (+2); fresh cilantro ≈1⅓ tbsp plus ginger per serving (+1); ≥4 plant families: crucifer, carrot family, nightshade, legume, allium, ginger (+1). Total 4 [high-fruit-vegetable-intake] [herbs-spices]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; raw cabbage ≈42 g per serving (4 cups mix at about 70 g per cup, roughly 90% cabbage, ÷ 6), in the 40–79 g band: +5 halved = 2.5, rounded down to +2. Garlic ⅙ clove and scallion are under the allium thresholds (0). Total 3 [cruciferous-other]"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2. Peanuts 12.2 g plus peanut butter 2.7 g ≈ 14.9 g per serving, just under 15 g (0); the vegetable oil is unheated, so no penalty. Total 2 [walnuts-nuts]"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈5 g, matching the site panel (+3); no starch (+2); added sugar ≈11.5 g from ¼ cup honey ÷ 6 (+1); vinegar, fat and protein (+1). Total 7 [refined-sugar-high-glycemic] [dietary-fiber-microbiome]"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "No-cook (10) [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; folate ≈145 µg, mostly from edamame and peanuts (+1). Peanuts ≈15 g are under 30 g; produce 1.7 servings (0). Total 2 [walnuts-nuts]"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1; folate ≈145 µg (+2). Iron 1.6 mg (0). Profertility: soy food (edamame) only (0). Total 3 [folic-acid] [soy]"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Dressing",
+     "items": [
+      "¼ cup (85 g) honey",
+      "¼ cup (60 mL) vegetable oil",
+      "¼ cup (60 mL) unseasoned rice vinegar",
+      "1 tablespoon (15 mL) soy sauce",
+      "1 teaspoon sesame oil",
+      "1 tablespoon (16 g) peanut butter",
+      "Heaping ½ teaspoon salt",
+      "1 teaspoon Sriracha sauce (optional)",
+      "1 tablespoon minced fresh ginger",
+      "1 large garlic clove, minced"
+     ]
+    },
+    {
+     "group": "Slaw",
+     "items": [
+      "4 cups (about 280 g) prepared shredded coleslaw mix",
+      "2 cups (about 220 g) prepared shredded carrots",
+      "1 red bell pepper, thinly sliced into bite-sized pieces",
+      "1 cup (about 155 g) cooked, shelled edamame",
+      "2 medium scallions, thinly sliced",
+      "½ cup (about 73 g) chopped salted peanuts",
+      "½ cup loosely packed chopped fresh cilantro"
+     ]
+    }
+   ],
+   "steps": [
+    "Whisk all the dressing ingredients in a bowl until the peanut butter has fully dissolved.",
+    "Put all the slaw ingredients in a large bowl, pour on the dressing, and toss well.",
+    "Let the slaw sit for at least 10 minutes so the vegetables absorb the dressing. Adjust the salt and serve cold. Covered leftovers keep in the fridge for a few days."
+   ],
+   "boosts": [
+    "Double the coleslaw mix to 8 cups (over 80 g raw cabbage per serving): Nrf2 +2 → +5 [cruciferous-other]",
+    "Use shredded red cabbage for half the slaw mix, as an anthocyanin source: plants +1 [high-fruit-vegetable-intake]",
+    "Raise the peanuts to ¾ cup (about 18 g per serving): fats +1 [walnuts-nuts]",
+    "Halve the honey (≈6 g added sugar per serving) [refined-sugar-high-glycemic]"
+   ],
+   "watch_outs": [
+    "Pregnancy: nothing from the watch-out list.",
+    "Allergens: peanuts, soy (edamame, soy sauce), gluten (soy sauce; use tamari to avoid it), sesame (sesame oil)."
+   ]
+  },
+  {
+   "id": "sheet-pan-salmon-garlicky-kale",
+   "title": "Sheet-pan salmon with garlicky kale",
+   "summary": "Spice-rubbed salmon roasted beside olive-oil kale on one pan; a full day's omega-3 and EVOO make it top-scoring for fats, though the small kale portion limits the crucifer points.",
+   "source": {
+    "title": "Sheet Pan Blackened Salmon with Garlicky Kale",
+    "author": "Jenn Segal",
+    "site": "Once Upon a Chef",
+    "url": "https://www.onceuponachef.com/recipes/sheet-pan-blackened-salmon-with-garlicky-kale.html",
+    "rating": 4.9,
+    "rating_count": 117,
+    "checked": "2026-10-11",
+    "note": "Uses Tuscan kale as the vegetable (a crucifer, in place of broccoli or asparagus). 'Blackened' here means a spice coating roasted at 400 °F, not charred."
+   },
+   "changes": "Gram and mL conversions added; steps reworded and condensed.",
+   "complexity": "easy",
+   "active_min": 15,
+   "total_min": 30,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+   ],
+   "nutrients": {
+    "kcal": 560,
+    "fiber_g": 3,
+    "added_sugar_g": 4,
+    "sat_fat_g": 8,
+    "epa_dha_mg": 3700,
+    "folate_ug_dfe": 120,
+    "choline_mg": 155,
+    "iron_mg": 1.5,
+    "zinc_mg": 0.9,
+    "selenium_ug": 70,
+    "b12_ug": 4.8,
+    "vit_c_mg": 45,
+    "fruit_veg_servings": 0.7
+   },
+   "scores": {
+    "plants": {
+     "score": 5,
+     "why": "Kale 57 g raw/serving ≈ 0.7 veg servings (+1); EVOO 5 tbsp ÷ 4 = 1.25 tbsp/serving (+1); dried spices 4 tsp ÷ 4 = 1 tsp/serving (+1) [herbs-spices]; Tuscan kale ≈ 2.5 cups raw/serving (+1) [leafy-greens]; ≥4 plant families: crucifers, alliums, olive, nightshade, mint, citrus (+1) = 5 [extra-virgin-olive-oil]"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; kale 57 g/serving roasted is in the 40–79 g band: half of the cooked +3 = 1.5, rounded down to +1 [cruciferous-other]; ½ fresh clove + ¼ tsp garlic powder (≈2 clove-equivalents) per serving, counted conservatively at +1 [garlic-alliums]; ¼ tsp dry mustard/serving is cooked on the fish, so not a meaningful raw myrosinase source (0). 1 + 1 + 1 = 3"
+    },
+    "fats": {
+     "score": 10,
+     "why": "Base 2; ≈170 g cooked farmed salmon × 2.2 g/100 g ≈ 3,700 mg EPA+DHA (+6) [omega3-fish]; EVOO is the main fat at 1.25 tbsp/serving (+2) [extra-virgin-olive-oil]; sat fat 8 g, no penalty. 2 + 6 + 2 = 10"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈3 g (+2); no starch (+2); honey 1 tbsp ÷ 4 ≈ 4 g added sugar (+2); the honey sits on salmon, so protein and fat come with it (+1) = 7"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Salmon baked at 400 °F (205 °C), in the 200–220 °C fish band = 8; kale roasted at ≤ 425 °F = 8. Score 8 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 6,
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈70 µg (+1) [selenium-supplement]; folate ≈120 µg (+1); zinc 0.9 mg (0); produce 0.7 servings (0). 1 + 3 + 1 + 1 = 6"
+    },
+    "egg": {
+     "score": 8,
+     "why": "Base 1; natural food folate ≈120 µg from salmon and kale (+2); EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; choline ≈155 mg (+1, borderline: assumes 7-oz fillets); seafood iodine (+1) [iodine-status]; B12 ≈4.8 µg (+1); only one profertility component, seafood (0). 1 + 2 + 2 + 1 + 1 + 1 = 8"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Spice rub",
+     "items": [
+      "½ tsp sweet paprika",
+      "½ tsp cayenne pepper",
+      "1 tsp garlic powder",
+      "1 tsp dry mustard",
+      "1 tsp dried oregano",
+      "Salt"
+     ]
+    },
+    {
+     "group": null,
+     "items": [
+      "5 tbsp (75 mL) extra-virgin olive oil, divided",
+      "4 salmon fillets, 6–8 oz (170–225 g) each, skin on",
+      "1 bunch Tuscan kale (about 8 oz / 227 g), stems removed, leaves torn into bite-size pieces",
+      "2 garlic cloves, minced",
+      "1 tbsp (21 g) honey",
+      "Zest and juice of 1 lime"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 400 °F (205 °C) with a rack in the lower-middle position.",
+    "Stir the paprika, cayenne, garlic powder, dry mustard, oregano and ½ tsp salt together until there are no lumps.",
+    "Grease a rimmed sheet pan with 1 tbsp of the oil. Lay the fillets skin-side down with space between them, drizzle with 2 tbsp oil and sprinkle the spice mix evenly over the tops.",
+    "Toss the kale with the last 2 tbsp oil, the garlic and a pinch of salt, and pile it around the fish without covering it.",
+    "Roast 12–14 minutes for medium, or 15–17 minutes for well done, when the fish reaches 145 °F (63 °C) and flakes easily.",
+    "Drizzle the honey over the salmon, scatter the lime zest and juice on top, and serve straight away."
+   ],
+   "boosts": [
+    "Sprinkle ¼ tsp mustard powder per serving over the kale after roasting so myrosinase can work on it [mustard-seed-myrosinase]",
+    "Double the kale to about 115 g raw per serving to reach the full crucifer points [cruciferous-other]",
+    "Serve with a scoop of brown rice or quinoa if you want a starch [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: cook the salmon to 145 °F (63 °C) using the well-done timing (15–17 min). The recipe's medium and medium-rare options leave it undercooked.",
+    "Mercury: salmon is a low-mercury FDA 'best choice'.",
+    "Allergens: fish"
+   ]
+  },
+  {
+   "id": "sardine-pasta-lemon-garlic-crumbs",
+   "title": "Lemony sardine pasta with garlic crumbs",
+   "summary": "A 30-minute pantry pasta of canned sardines, golden onion, lemon zest, parsley and capers under crisp garlic breadcrumbs; it gives solid omega-3 and selenium, but uses white pasta and has modest folate.",
+   "source": {
+    "title": "Sardine Pasta With Lemon & Garlic Crumbs",
+    "author": "My Gourmet Connection",
+    "site": "My Gourmet Connection",
+    "url": "https://www.mygourmetconnection.com/sicilian-pasta-sardines/",
+    "rating": 4.54,
+    "rating_count": 45,
+    "checked": "2026-10-11",
+    "note": "This was the best-rated lemony sardine pasta that could be verified, but 45 ratings is below the 100-rating target. Higher-count versions on Allrecipes, NYT Cooking, Bon Appétit and BBC Good Food block automated fetching, so their ratings couldn't be confirmed."
+   },
+   "changes": "Gram and mL conversions added. The tin size isn't stated in the original, so a typical 3.75–4.4 oz (106–125 g) tin is assumed. Steps reworded.",
+   "complexity": "medium",
+   "active_min": 25,
+   "total_min": 30,
+   "servings": 2,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian",
+    "dairy-free",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 690,
+    "fiber_g": 5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 3,
+    "epa_dha_mg": 440,
+    "folate_ug_dfe": 55,
+    "choline_mg": 55,
+    "iron_mg": 5.8,
+    "zinc_mg": 2.0,
+    "selenium_ug": 85,
+    "b12_ug": 4.0,
+    "vit_c_mg": 18,
+    "fruit_veg_servings": 1.1
+   },
+   "scores": {
+    "plants": {
+     "score": 5,
+     "why": "Onion 80 g + parsley 7.5 g/serving ≈ 1.1 veg servings (+2); EVOO 2 tbsp ÷ 2 = 1 tbsp/serving (+1) [extra-virgin-olive-oil]; parsley 2 tbsp fresh/serving (+1) [herbs-spices]; ≥4 plant families: wheat, alliums, olive, parsley, citrus, caper, chili (+1) = 5"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Base 1; 1 garlic clove plus ≈0.7 onion per serving, so both alliums count (+2) [garlic-alliums]; no crucifers. 1 + 2 = 3"
+    },
+    "fats": {
+     "score": 6,
+     "why": "Base 2; ≈45 g drained sardines/serving × ~1.0 g/100 g ≈ 440 mg EPA+DHA (+2) [omega3-fish]; EVOO is the main fat at ≥1 tbsp/serving (+2) [extra-virgin-olive-oil]. 2 + 2 + 2 = 6"
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Fibre ≈5 g (+3; recipe panel also says 5 g); white spaghetti is a refined starch (0) [whole-grains]; no added sugar (+2); pasta comes with sardines and olive oil (+1) = 6"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Onion sautéed and crumbs lightly toasted in olive oil over medium heat; sardines only warmed through; pasta boiled. Sauté at medium heat in a stable oil = 8 [cooking-oil-choice]"
+    },
+    "sperm": {
+     "score": 4,
+     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; selenium ≈85 µg from sardines and pasta (+1) [selenium-supplement]; natural food folate ≈55 µg, ignoring pasta fortification (0); zinc ≈2 mg (0); produce 1.1 servings (0). 1 + 2 + 1 = 4"
+    },
+    "egg": {
+     "score": 5,
+     "why": "Base 1; natural food folate ≈55 µg from onion, parsley, pasta and sardines, ignoring folic acid in enriched pasta (+1); EPA+DHA 250–499 mg from low-mercury sardines (+1) [omega3-fish]; iron ≈5.8 mg is mostly plant iron with only ≈18 mg vitamin C (0); choline ≈55 mg (0); seafood iodine (+1) [iodine-status]; B12 ≈4 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0). 1 + 1 + 1 + 1 + 1 = 5"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "6 oz (170 g) spaghetti or linguine",
+      "1 tin sardines packed in extra-virgin olive oil (typically 3.75–4.4 oz / 106–125 g)",
+      "2 garlic cloves, minced",
+      "¾ cup fresh breadcrumbs or panko (about 35–40 g)",
+      "Salt and freshly ground black pepper",
+      "2 tbsp (30 mL) extra-virgin olive oil",
+      "1 cup (about 160 g) chopped sweet onion",
+      "Zest of ½ lemon",
+      "¼ cup (about 15 g) chopped fresh parsley",
+      "2 tbsp capers, drained (optional)",
+      "¼ tsp crushed red pepper (optional)",
+      "Lemon wedges, for serving"
+     ]
+    }
+   ],
+   "steps": [
+    "Bring a pot of salted water to the boil for the pasta.",
+    "Tip the oil from the sardine tin into a frying pan and set the fish aside. Warm the pan over medium heat and cook the garlic for about 1 minute, until fragrant.",
+    "Add the breadcrumbs, season lightly and stir for 2–4 minutes until crisp and lightly golden, then move them to a plate.",
+    "Add the 2 tbsp olive oil to the pan and cook the onion, lightly seasoned, for 5–7 minutes until soft and golden.",
+    "Add the sardines, break them into chunks and warm for about 2 minutes. Stir in the lemon zest, parsley, capers and chili, then take the pan off the heat and cover it.",
+    "Cook the pasta as the package directs, saving ½ cup (120 mL) of the cooking water, then drain it and add it to the pan.",
+    "Toss everything together, adding pasta water a spoonful or two at a time until it coats well. Add the crumbs, toss again and serve with lemon wedges."
+   ],
+   "boosts": [
+    "Use whole-wheat spaghetti [whole-grains]",
+    "Toss 80 g of rocket/arugula per serving into the hot pasta just before serving: a raw crucifer adds +5 Nrf2 [cruciferous-other]",
+    "Use two tins of sardines to push EPA+DHA past 500 mg per serving [omega3-fish]",
+    "Squeeze the lemon wedges over the pasta: the extra vitamin C helps absorb the pasta's plant iron [iron-egg]"
+   ],
+   "watch_outs": [
+    "Mercury: sardines are a low-mercury FDA 'best choice' and fine in pregnancy.",
+    "Salty: sardines and capers are high in sodium, so salt lightly.",
+    "Allergens: fish, gluten"
+   ]
+  },
+  {
+   "id": "baked-fish-tacos-purple-cabbage",
+   "title": "Baked fish tacos with purple cabbage",
+   "summary": "Spiced tilapia baked, not fried, and piled into corn tortillas with raw purple cabbage, avocado and a creamy lime sauce; it's high in fibre and produce but low in omega-3.",
+   "source": {
+    "title": "Fish Tacos Recipe with Best Fish Taco Sauce!",
+    "author": "Natasha Kravchuk",
+    "site": "Natasha's Kitchen",
+    "url": "https://natashaskitchen.com/fish-tacos-recipe/",
+    "rating": 4.99,
+    "rating_count": 2021,
+    "checked": "2026-10-11",
+    "note": "Yield is 24 tacos; here 4 tacos count as one serving (6 servings)."
+   },
+   "changes": "Gram and mL conversions added; the cabbage weight (≈350 g for ½ small head) is an estimate. Servings defined as 4 tacos each. Steps reworded.",
+   "complexity": "involved",
+   "active_min": 30,
+   "total_min": 55,
+   "servings": 6,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian",
+    "gluten-free"
+   ],
+   "nutrients": {
+    "kcal": 670,
+    "fiber_g": 11,
+    "added_sugar_g": 0,
+    "sat_fat_g": 9,
+    "epa_dha_mg": 130,
+    "folate_ug_dfe": 62,
+    "choline_mg": 78,
+    "iron_mg": 2.8,
+    "zinc_mg": 2.1,
+    "selenium_ug": 62,
+    "b12_ug": 2.2,
+    "vit_c_mg": 40,
+    "fruit_veg_servings": 1.7
+   },
+   "scores": {
+    "plants": {
+     "score": 5,
+     "why": "Per serving: cabbage ≈53 g + avocado ≈45 g + tomato ≈21 g + red onion ≈9 g + cilantro ≈5 g ≈ 133 g = 1.7 servings (+2) [high-fruit-vegetable-intake]; cilantro ≈5 tbsp fresh/serving (+1) [herbs-spices]; red onion and purple cabbage are anthocyanin vegetables (+1); ≥4 plant families: crucifers, avocado, nightshades, alliums, cilantro/cumin, corn, citrus (+1) = 5"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1; raw purple cabbage ≈53 g/serving is in the 40–79 g band: half of +5 = 2.5, rounded down to +2 [cruciferous-other]; garlic powder 1 tsp ÷ 6 ≈ 1.3 clove-equivalents/serving (+1) [garlic-alliums]. 1 + 2 + 1 = 4"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Base 2; ≈97 g cooked tilapia × ~0.13 g/100 g ≈ 130 mg EPA+DHA (+1) [omega3-fish]; olive oil only ½ tsp/serving (0); sat fat ≈9 g from cotija, sour cream, mayo and butter is under 10 g, and butter isn't the main fat (no penalty). 2 + 1 = 3"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈11 g from corn tortillas, avocado and cabbage (+4; recipe panel 3 g/taco × 4 = 12 g) [dietary-fiber-microbiome]; the rubric scores tortillas as refined (0), though corn masa is arguably whole grain; no added sugar (+2); tortillas come with fish and avocado (+1) = 7"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Fish baked at 375 °F (190 °C). That's above the ≤180 °C band, so it gets the baked-fish score of 8; the optional broil is not counted [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; EPA+DHA ≈130 mg (0); selenium ≈62 µg from tilapia (+1) [selenium-supplement]; zinc ≈2.1 mg (0); folate ≈62 µg (0); fresh tomato under 1 cup (0); produce 1.7 servings (0). 1 + 1 = 2"
+    },
+    "egg": {
+     "score": 5,
+     "why": "Base 1; natural food folate ≈62 µg, mostly from avocado and cabbage (+1); EPA+DHA under 250 mg (0); iron ≈2.8 mg (0); choline ≈78 mg (0); seafood and dairy iodine (+1) [iodine-status]; B12 ≈2.2 µg (+1); seafood + dairy = 2 different profertility components (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 = 5"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Fish",
+     "items": [
+      "1½ lb (680 g) tilapia fillets",
+      "½ tsp ground cumin",
+      "½ tsp cayenne pepper",
+      "1 tsp salt",
+      "¼ tsp black pepper",
+      "1 tbsp (15 mL) olive oil",
+      "1 tbsp (14 g) unsalted butter"
+     ]
+    },
+    {
+     "group": "Tacos and toppings",
+     "items": [
+      "24 small white corn tortillas",
+      "½ small purple cabbage (about 350 g), finely shredded",
+      "2 medium avocados, sliced",
+      "2 roma tomatoes, diced (optional)",
+      "½ red onion, diced",
+      "½ bunch cilantro, long stems removed",
+      "4 oz (1 cup / 113 g) cotija cheese, grated",
+      "1 lime, cut into 8 wedges"
+     ]
+    },
+    {
+     "group": "Taco sauce",
+     "items": [
+      "½ cup (120 g) sour cream",
+      "⅓ cup (75 g) mayonnaise",
+      "2 tbsp (30 mL) lime juice (1 medium lime)",
+      "1 tsp garlic powder",
+      "1 tsp sriracha, or to taste"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 375 °F (190 °C) and line a large baking sheet with parchment or a silicone mat.",
+    "Mix the cumin, cayenne, salt and pepper and season both sides of the fish. Lay it on the sheet, drizzle with olive oil and dot each piece with butter.",
+    "Bake 20–25 minutes until the fish flakes easily, at 145 °F (63 °C). Broil 3–5 minutes at the end only if you want browned edges.",
+    "Whisk the sour cream, mayonnaise, lime juice, garlic powder and sriracha into a smooth sauce.",
+    "Warm the tortillas a few seconds per side in a dry skillet over medium-high heat.",
+    "Fill each tortilla with fish, then cabbage, avocado, tomato, onion and cilantro. Finish with cotija and sauce, and serve with lime wedges."
+   ],
+   "boosts": [
+    "Swap the tilapia for salmon or rainbow trout to lift EPA+DHA above 500 mg per serving [omega3-fish]",
+    "Double the cabbage to over 80 g per serving to earn the full raw-crucifer +5 [cruciferous-other]",
+    "Use plain Greek yogurt in place of the sour cream and mayonnaise to cut saturated fat [mediterranean-diet]",
+    "Skip the optional broil [high-temperature-cooking]"
+   ],
+   "watch_outs": [
+    "Pregnancy: cotija is often unpasteurised and has been linked to Listeria. Use a cotija labelled 'made with pasteurized milk', or leave it out.",
+    "Pregnancy: bake the fish until it flakes (145 °F / 63 °C).",
+    "Mercury: tilapia is a low-mercury FDA 'best choice'.",
+    "Allergens: fish, dairy, egg (mayonnaise)"
+   ]
+  },
+  {
+   "id": "mussels-spicy-tomato-sauce",
+   "title": "Mussels in spicy tomato sauce",
+   "summary": "Mussels steamed in a garlicky, chili-spiked tomato and white-wine sauce in a hot oven. Mussels and tomato give it top-tier zinc, selenium, B12, omega-3 and lycopene, so it scores highest on fertility.",
+   "source": {
+    "title": "Steamed Mussels with Spicy Tomato Sauce",
+    "author": "America's Test Kitchen",
+    "site": "America's Test Kitchen",
+    "url": "https://www.americastestkitchen.com/recipes/12655-steamed-mussels-with-spicy-tomato-sauce",
+    "rating": 4.3,
+    "rating_count": 40,
+    "checked": "2026-10-11",
+    "note": "Test-kitchen recipe (ATK). Rated 4.34 by 40 members, below the 4.5 / 100-rating target. No mussels-in-tomato recipe with ≥100 ratings could be verified on sites that allow fetching. The recipe sits behind ATK's member paywall."
+   },
+   "changes": "Serves 4–6 in the original; scored at 4 main-course servings. Gram and mL conversions added; steps reworded.",
+   "complexity": "easy",
+   "active_min": 20,
+   "total_min": 45,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+   ],
+   "nutrients": {
+    "kcal": 330,
+    "fiber_g": 4,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.4,
+    "epa_dha_mg": 860,
+    "folate_ug_dfe": 112,
+    "choline_mg": 100,
+    "iron_mg": 10,
+    "zinc_mg": 3.3,
+    "selenium_ug": 100,
+    "b12_ug": 26,
+    "vit_c_mg": 34,
+    "fruit_veg_servings": 2.5
+   },
+   "scores": {
+    "plants": {
+     "score": 5,
+     "why": "Crushed tomatoes 794 g ÷ 4 ≈ 200 g/serving = 2.5 servings (+3) [high-fruit-vegetable-intake]; cooked tomato product ≥½ cup (+1) [tomatoes-lycopene]; EVOO only ¾ tsp/serving and parsley ½ tbsp/serving, both below thresholds (0); ≥4 plant families: nightshades, alliums, olive, parsley, grape (+1) = 5"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1; garlic 3 cloves ÷ 4 = 0.75 clove/serving, under the 1-clove threshold (0); no crucifers. = 1"
+    },
+    "fats": {
+     "score": 6,
+     "why": "Base 2; ≈110 g cooked mussel meat/serving (≈25% yield from 4 lb in shell) × ~0.8 g/100 g ≈ 860 mg EPA+DHA (+4) [omega3-fish]; EVOO 1 tbsp ÷ 4 is under 1 tsp/serving (0). 2 + 4 = 6"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈4 g from tomatoes (+2); no starch in the recipe, since bread is only a serving suggestion (+2); no added sugar (+2); tomato carbohydrate comes with mussel protein (+1) = 7"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Mussels steamed in simmering sauce under foil; tomato paste cooked only until slightly darkened. Steam/simmer = 10"
+    },
+    "sperm": {
+     "score": 10,
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; zinc ≈3.3 mg (+1) [zinc-status]; selenium ≈100 µg (+1); folate ≈112 µg (+1); produce 2.5 servings (+1). Wine simmers ≈21–24 min in total (1 min boil + 5 min reduce + 15–18 min covered in the oven), so ≥15 min and no penalty [alcohol]. 1 + 3 + 2 + 1 + 1 + 1 + 1 = 10"
+    },
+    "egg": {
+     "score": 9,
+     "why": "Base 1; folate ≈112 µg (+2); EPA+DHA ≥500 mg from low-mercury mussels (+2) [omega3-fish]; iron ≈10 mg, with ≈34 mg vitamin C covering the tomato's plant iron (+1) [iron-egg]; choline ≈100 mg (0); seafood iodine (+1); B12 ≈26 µg (+1); seafood + ≥2 produce servings = 2 different profertility components (+1). 1 + 2 + 2 + 1 + 1 + 1 + 1 = 9"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 tbsp (15 mL) extra-virgin olive oil",
+      "1 tbsp (16 g) tomato paste",
+      "3 garlic cloves, minced",
+      "¾ tsp red pepper flakes",
+      "1 cup (240 mL) dry white wine",
+      "1 can (28 oz / 794 g) crushed tomatoes",
+      "¼ tsp salt",
+      "4 lb (1.8 kg) mussels, scrubbed and debearded",
+      "2 tbsp minced fresh parsley"
+     ]
+    }
+   ],
+   "steps": [
+    "Throw out any mussels that smell bad, have cracked shells or won't close when tapped. Set a rack in the lowest position and heat the oven to 500 °F (260 °C).",
+    "In a large roasting pan over medium heat, stir the oil, tomato paste, garlic and pepper flakes for about 2 minutes, until fragrant and the paste has darkened a little.",
+    "Pour in the wine, bring it to the boil and let it reduce for about 1 minute. Add the tomatoes and salt, turn the heat to high and cook, stirring often, for about 5 minutes until slightly thickened.",
+    "Stir in the mussels, cover the pan tightly with foil and bake 15–18 minutes, until most shells have opened.",
+    "Discard any mussels that stayed closed, toss with the parsley and serve."
+   ],
+   "boosts": [
+    "Use 4–6 garlic cloves (≥1 per serving) [garlic-alliums]",
+    "Finish each bowl with 1 tbsp extra-virgin olive oil [extra-virgin-olive-oil]",
+    "Scatter a generous handful of parsley or basil (≥1 tbsp per serving) [herbs-spices]",
+    "Serve with whole-grain bread to soak up the sauce [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: the sauce holds ¼ cup wine per serving. It cooks for about 20 minutes, which removes most but not all of the alcohol. Use low-sodium broth or clam juice instead for a fully alcohol-free version.",
+    "Pregnancy: eat only mussels that have opened fully during cooking, and discard any that stay closed.",
+    "Mercury: mussels are very low in mercury.",
+    "Allergens: shellfish (molluscs)"
+   ]
+  },
+  {
+   "id": "cioppino-seafood-stew",
+   "title": "Cioppino (San Francisco fish stew)",
+   "summary": "A wine-and-tomato seafood stew with baked fish, clams and shrimp. Omega-3, EVOO, lycopene, selenium and choline score high; the butter and long prep keep it from being a weeknight dish.",
+   "source": {
+    "title": "Cioppino (Fisherman's Stew)",
+    "author": "Jenn Segal",
+    "site": "Once Upon a Chef",
+    "url": "https://www.onceuponachef.com/recipes/cioppino.html",
+    "rating": 4.88,
+    "rating_count": 136,
+    "checked": "2026-10-11"
+   },
+   "changes": "Serves 4–6 in the original; scored at 4 servings (the site's nutrition panel uses 4). Parsley garnish dropped. Gram and mL conversions added; steps reworded. EPA+DHA assumes cod as the fish.",
+   "complexity": "involved",
+   "active_min": 50,
+   "total_min": 105,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian",
+    "gluten-free"
+   ],
+   "nutrients": {
+    "kcal": 650,
+    "fiber_g": 4.8,
+    "added_sugar_g": 2,
+    "sat_fat_g": 8,
+    "epa_dha_mg": 770,
+    "folate_ug_dfe": 73,
+    "choline_mg": 340,
+    "iron_mg": 4.4,
+    "zinc_mg": 4.1,
+    "selenium_ug": 150,
+    "b12_ug": 16,
+    "vit_c_mg": 22,
+    "fruit_veg_servings": 2.8
+   },
+   "scores": {
+    "plants": {
+     "score": 6,
+     "why": "Crushed tomatoes ≈200 g + shallots ≈27 g/serving ≈ 2.8 servings (+3) [high-fruit-vegetable-intake]; EVOO 6 tbsp ÷ 4 = 1.5 tbsp/serving (+1) [extra-virgin-olive-oil]; cooked tomato ≥½ cup (+1) [tomatoes-lycopene]; thyme, oregano and chili together are under 1 tsp dried per serving (0); ≥4 plant families: nightshades, alliums, olive, mint, grape (+1) = 6"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Base 1; shallots ⅔ cup ÷ 4 ≈ 27 g/serving ≈ ¼ onion (+1) [garlic-alliums]; garlic 0.75 clove/serving doesn't add a second allium point; no crucifers. 1 + 1 = 2"
+    },
+    "fats": {
+     "score": 8,
+     "why": "Base 2; per serving ≈145 g cooked cod (≈290 mg) + ≈140 g shrimp (≈420 mg) + clams (≈60 mg) ≈ 770 mg EPA+DHA (+4) [omega3-fish]; EVOO is the main fat at 1.5 tbsp/serving (+2), with butter only ¾ tbsp; sat fat ≈8 g, no penalty. 2 + 4 + 2 = 8"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈4.8 g (+2); no starch in the recipe, since bread is a serving suggestion (+2); sugar 2 tsp ÷ 4 ≈ 2 g/serving (+2); tomato carbohydrate comes with seafood protein (+1) = 7"
+    },
+    "cooking": {
+     "score": 9,
+     "why": "Stew simmered (10); the fish is baked separately at 400 °F (205 °C) (8), a separate harsher component, so the midpoint applies = 9"
+    },
+    "sperm": {
+     "score": 9,
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; zinc ≈4.1 mg (+1) [zinc-status]; selenium ≈150 µg (+1); folate ≈73 µg (0); produce 2.8 servings (+1). Wine boils 3–4 min, then simmers 25 min covered plus ≈11 min with the shellfish, so ≥15 min and no penalty [alcohol]. 1 + 3 + 2 + 1 + 1 + 1 = 9"
+    },
+    "egg": {
+     "score": 8,
+     "why": "Base 1; folate ≈73 µg (+1); EPA+DHA ≥500 mg from low-mercury cod, shrimp and clams (+2) [omega3-fish]; iron ≈4.4 mg is mostly plant iron with only ≈22 mg vitamin C (0); choline ≈340 mg from shrimp and fish (+1); seafood iodine (+1); B12 ≈16 µg (+1); seafood + ≥2 produce servings = 2 different components (+1). 1 + 1 + 2 + 1 + 1 + 1 + 1 = 8"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Stew",
+     "items": [
+      "¼ cup + 2 tbsp (90 mL) extra-virgin olive oil, divided",
+      "⅔ cup (about 100 g) finely chopped shallots (about 3)",
+      "3 garlic cloves, minced",
+      "1 cup (240 mL) white wine",
+      "1 can (28 oz / 794 g) crushed tomatoes",
+      "2 bottles (8 oz / 240 mL each) clam juice",
+      "2 tsp (8 g) sugar",
+      "1¾ tsp salt, divided",
+      "½ tsp crushed red pepper flakes",
+      "½ tsp dried oregano",
+      "7 sprigs fresh thyme, plus 1 tsp chopped thyme",
+      "1 cup (240 mL) water"
+     ]
+    },
+    {
+     "group": "Seafood",
+     "items": [
+      "1½ lb (680 g) firm fish fillets (halibut, cod, salmon or snapper), cut into 2-in (5 cm) pieces",
+      "3 tbsp (42 g) unsalted butter",
+      "1½ lb (680 g; about 18) littleneck clams, scrubbed",
+      "1½ lb (680 g) extra-large raw shrimp, peeled and deveined"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 400 °F (205 °C) with a rack in the middle, and line a baking sheet with foil.",
+    "Warm ¼ cup of the oil in a large pot over medium heat. Cook the shallots about 5 minutes until soft, then add the garlic for 1 minute without letting it brown.",
+    "Pour in the wine, turn the heat to high and boil 3–4 minutes until it has reduced by about half.",
+    "Add the tomatoes, clam juice, sugar, 1 tsp salt, pepper flakes, oregano, thyme sprigs and the water. Bring to the boil, then cover and simmer gently for 25 minutes.",
+    "While it simmers, toss the fish with the remaining 2 tbsp oil and ¾ tsp salt, spread it on the sheet and bake about 10 minutes until just cooked through (145 °F / 63 °C). Keep it covered and warm.",
+    "Remove the thyme sprigs, stir in the butter and add the clams. Return to a simmer, cover and cook about 6 minutes until most clams open. Add the shrimp and simmer, covered, about 5 minutes more until the shrimp are opaque and all the clams are open; discard any that stay shut. Stir in the chopped thyme and adjust the seasoning.",
+    "Divide the fish among bowls and ladle the stew, clams and shrimp over the top."
+   ],
+   "boosts": [
+    "Use salmon as the fish to push EPA+DHA well above 1,500 mg per serving [omega3-fish]",
+    "Use 4 or more garlic cloves (≥1 per serving) [garlic-alliums]",
+    "Replace the butter with extra-virgin olive oil [extra-virgin-olive-oil]",
+    "Serve with whole-grain bread rather than white baguette [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: the stew contains ¼ cup wine per serving. It simmers well over 15 minutes, so most of the alcohol cooks off, but not all; replace it with extra clam juice or broth for a fully alcohol-free version.",
+    "Pregnancy: cook until the clams are fully open, the shrimp are opaque and the fish reaches 145 °F (63 °C).",
+    "Mercury: choose cod, salmon or snapper. Halibut is an FDA 'good choice', so eat it less often. Never substitute swordfish, king mackerel or other high-mercury fish.",
+    "Allergens: fish, shellfish (crustaceans and molluscs), dairy (butter)"
+   ]
+  },
+  {
+   "id": "baked-mackerel-saba-shioyaki",
+   "title": "Salt-baked mackerel (saba shioyaki)",
+   "summary": "Japanese-style mackerel salted, then baked until golden and served with grated raw daikon. It's one of the richest omega-3 dishes in the set, but too little plant food to score on polyphenols.",
+   "source": {
+    "title": "Grilled Mackerel (Saba Shioyaki)",
+    "author": "Namiko Chen",
+    "site": "Just One Cookbook",
+    "url": "https://www.justonecookbook.com/grilled-mackerel-saba-shioyaki/",
+    "rating": 4.74,
+    "rating_count": 149,
+    "checked": "2026-10-11",
+    "note": "Despite the name, the recipe bakes the fish in the oven."
+   },
+   "changes": "Gram conversions added; storage notes dropped; steps reworded. EPA+DHA uses Atlantic mackerel values; Pacific chub mackerel would be higher.",
+   "complexity": "easy",
+   "active_min": 10,
+   "total_min": 45,
+   "servings": 2,
+   "meal": "dinner",
+   "tags": [
+    "pescatarian",
+    "dairy-free"
+   ],
+   "nutrients": {
+    "kcal": 290,
+    "fiber_g": 0.7,
+    "added_sugar_g": 0,
+    "sat_fat_g": 4.6,
+    "epa_dha_mg": 1300,
+    "folate_ug_dfe": 12,
+    "choline_mg": 80,
+    "iron_mg": 1.7,
+    "zinc_mg": 1.0,
+    "selenium_ug": 57,
+    "b12_ug": 21,
+    "vit_c_mg": 9,
+    "fruit_veg_servings": 0.4
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Grated daikon 75 g ÷ 2, squeezed ≈ under 0.5 serving (0); no high-polyphenol items (0); only 3 plant families: radish, citrus, soy (0). Total 0, floored at 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1; raw daikon ≈37 g/serving is under the 40 g crucifer threshold (0); daikon isn't a listed concentrated isothiocyanate source (0). = 1"
+    },
+    "fats": {
+     "score": 7,
+     "why": "Base 2; 140 g raw fillet ≈ 110 g cooked × ~1.2 g/100 g (Atlantic mackerel) ≈ 1,300 mg EPA+DHA (+5) [omega3-fish]; no added fat; sat fat ≈4.6 g. 2 + 5 = 7"
+    },
+    "glycemic": {
+     "score": 5,
+     "why": "Fibre ≈0.7 g (0); no starch (+2); no added sugar (+2); the trace carbohydrate comes with fish protein (+1) = 5"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Fish baked at 425 °F (218 °C), in the 200–220 °C fish band = 8 [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 5,
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈57 µg (+1) [selenium-supplement]; zinc ≈1 mg (0); folate ≈12 µg (0); produce under 2 servings (0). 1 + 3 + 1 = 5"
+    },
+    "egg": {
+     "score": 5,
+     "why": "Base 1; folate ≈12 µg (0); EPA+DHA ≥500 mg from low-mercury Atlantic or chub mackerel (+2) [omega3-fish] [mercury-fish]; iron ≈1.7 mg (0); choline ≈80 mg (0); seafood iodine (+1); B12 ≈21 µg (+1) [vitamin-b12-folate-status]; only one profertility component, seafood (0). 1 + 2 + 1 + 1 = 5"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "2 mackerel (saba) fillets, 10 oz (280 g) total",
+      "2 tbsp (30 mL) sake",
+      "½ tsp Diamond Crystal kosher salt",
+      "1-inch piece daikon radish (2.6 oz / 75 g), for grating",
+      "1 lemon wedge, cut in half",
+      "1 tsp soy sauce"
+     ]
+    }
+   ],
+   "steps": [
+    "Rub the fillets with the sake, then pat them dry (discard the sake) and set them on a baking sheet lined with parchment.",
+    "Sprinkle both sides with the salt and leave at room temperature for 20 minutes. Meanwhile heat the oven to 425 °F (218 °C), or 25 °F (15 °C) lower with convection.",
+    "Blot off the moisture the salt has drawn out.",
+    "Bake skin-side down for 15–20 minutes, until the top is golden and the flesh flakes easily (145 °F / 63 °C).",
+    "Peel and finely grate the daikon and squeeze out most of its liquid. Serve the fish with the daikon and lemon, with a few drops of soy sauce on the daikon."
+   ],
+   "boosts": [
+    "Serve 80 g or more of grated raw daikon per person to earn the raw-crucifer +5 [cruciferous-other]",
+    "Add a side of watercress salad (≥½ cup raw) [watercress-peitc]",
+    "Serve with brown rice and a cooked leafy-green side [whole-grains] [leafy-greens]"
+   ],
+   "watch_outs": [
+    "Mercury: use Atlantic or Pacific chub (saba) mackerel, which are low-mercury FDA 'best choices'. Never use king mackerel (high mercury). Spanish mackerel is a 'good choice', so eat it less often.",
+    "Pregnancy: bake until the flesh flakes (145 °F / 63 °C).",
+    "Alcohol: the sake is rubbed on and discarded before baking, so almost none remains; you can skip it.",
+    "Allergens: fish, soy and gluten (soy sauce; use tamari for gluten-free)"
+   ]
+  },
+  {
+   "id": "avgolemono-chicken-rice-soup",
+   "title": "Avgolemono (Greek lemon chicken soup)",
+   "summary": "Chicken and rice soup thickened with a blended egg-lemon mixture; it's gentle to cook and gives good choline, but has almost no vegetables, and its optional cream adds saturated fat.",
+   "source": {
+    "title": "Avgolemono Chicken Soup with Rice",
+    "author": "Jenn Segal",
+    "site": "Once Upon a Chef",
+    "url": "https://www.onceuponachef.com/recipes/avgolemono-chicken-soup-with-rice.html",
+    "rating": 4.86,
+    "rating_count": 149,
+    "checked": "2026-10-11"
+   },
+   "changes": "Serves 4–6 in the original; scored at 4 servings. The optional cream is included as written. Gram and mL conversions added; steps reworded.",
+   "complexity": "medium",
+   "active_min": 20,
+   "total_min": 35,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "gluten-free"
+   ],
+   "nutrients": {
+    "kcal": 450,
+    "fiber_g": 0.5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 9,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 36,
+    "choline_mg": 225,
+    "iron_mg": 2.4,
+    "zinc_mg": 1.9,
+    "selenium_ug": 43,
+    "b12_ug": 0.8,
+    "vit_c_mg": 7,
+    "fruit_veg_servings": 0.2
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Lemon juice ≈19 g/serving ≈ 0.2 servings (0); dill ½ tsp fresh/serving is below threshold (0); ≥4 plant families: rice, citrus, dill, bay, pepper (+1) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1; no crucifers, alliums or turmeric. = 1"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 2; no omega-3, EVOO or nuts; heavy cream (½ cup ÷ 4 = 2 tbsp, ≈11 g fat/serving) is the main fat (−2); sat fat ≈9 g. 2 − 2 = 0, floored at 1"
+    },
+    "glycemic": {
+     "score": 3,
+     "why": "Fibre ≈0.5 g (0); white rice is a refined starch (0) [whole-grains]; no added sugar (+2); rice comes with chicken and egg (+1) = 3"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Chicken gently poached in hot broth; soup simmered. Poach/simmer = 10"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; selenium ≈43 µg (+1); natural food folate ≈36 µg, ignoring rice fortification (0); zinc ≈1.9 mg (0); produce under 2 servings (0). 1 + 1 = 2"
+    },
+    "egg": {
+     "score": 3,
+     "why": "Base 1; natural food folate ≈36 µg from eggs, lemon and chicken, ignoring folic acid in enriched rice (0); no omega-3 (0); iron ≈2.4 mg (0); choline ≈225 mg from eggs, yolks and chicken (+1); egg and dairy iodine (+1) [iodine-status]; B12 ≈0.8 µg (0); only one profertility component, dairy (0). 1 + 1 + 1 = 3"
+    }
+   },
+   "ingredients": [
+    {
+     "group": null,
+     "items": [
+      "1 lb (450 g) chicken tenderloins (or breasts cut into 1-in / 2.5 cm strips)",
+      "1¼ tsp salt",
+      "8 cups (1.9 L) chicken broth",
+      "¾ cup (140 g) long-grain white rice",
+      "¼ tsp white pepper",
+      "3 sprigs fresh dill, plus 2 tsp chopped dill",
+      "1 bay leaf",
+      "5 tbsp (75 mL) fresh lemon juice (from 2 lemons)",
+      "2 large eggs plus 2 large yolks",
+      "½ cup (120 mL) heavy cream, plus a little more if needed (optional)",
+      "Freshly ground black pepper, for serving"
+     ]
+    }
+   ],
+   "steps": [
+    "Salt the chicken all over and let it stand for 15 minutes.",
+    "Meanwhile bring the broth, rice, white pepper, dill sprigs and bay leaf to the boil. Cover, turn the heat to low and cook about 5 minutes until the rice is al dente.",
+    "Take the pot off the heat, add the chicken, cover and leave about 15 minutes until it's cooked through (165 °F / 74 °C). Discard the dill sprigs and bay leaf, then lift out the chicken and chop it.",
+    "Spoon about ¾ cup of the rice into a blender with the lemon juice, eggs and yolks and blend until smooth. With the lid vented, blend in a ladle (about ¾ cup / 180 mL) of hot broth, then a second ladle.",
+    "Pour the egg mixture slowly into the pot while stirring, add the cream, and bring to a gentle simmer over low heat without boiling. Simmer a little longer if the rice still needs it.",
+    "Stir in the chopped dill and chicken and adjust the seasoning: add more cream if it's too tart, or water if it's too thick. Serve right away, as it thickens on standing."
+   ],
+   "boosts": [
+    "Leave out the optional cream to remove the −2 fat penalty [mediterranean-diet]",
+    "Stir 2 cups of chopped spinach into the pot in the last minute [leafy-greens]",
+    "Simmer a diced carrot, onion and celery stalk in the broth first [high-fruit-vegetable-intake] [garlic-alliums]",
+    "Use brown rice (cook it longer before adding the chicken) [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: the eggs are only cooked by the soup's heat. Make sure the soup returns to a gentle simmer (at least 160 °F / 71 °C) after the egg mixture goes in, and cook the chicken to 165 °F (74 °C).",
+    "Check the broth label if you need it gluten-free.",
+    "Allergens: egg, dairy (cream)"
+   ]
+  },
+  {
+   "id": "tandoori-chicken-yogurt-marinade",
+   "title": "Tandoori chicken (yogurt-marinated)",
+   "summary": "Skinless chicken marinated overnight in spiced yogurt and lemon, then roasted hot and briefly broiled. The marinade softens the high-heat penalty, but on its own the dish brings little produce or omega-3.",
+   "source": {
+    "title": "Authentic Tandoori Chicken Recipe (Restaurant Style)",
+    "author": "Swasthi Shreekanth",
+    "site": "Swasthi's Recipes (Indian Healthy Recipes)",
+    "url": "https://www.indianhealthyrecipes.com/tandoori-chicken/",
+    "rating": 4.99,
+    "rating_count": 619,
+    "checked": "2026-10-11"
+   },
+   "changes": "Gram and mL conversions added; coriander garnish and air-fryer variation dropped; serving suggestions condensed; steps reworded.",
+   "complexity": "medium",
+   "active_min": 15,
+   "total_min": 415,
+   "servings": 4,
+   "meal": "dinner",
+   "tags": [
+    "gluten-free",
+    "make-ahead"
+   ],
+   "nutrients": {
+    "kcal": 350,
+    "fiber_g": 0.6,
+    "added_sugar_g": 0,
+    "sat_fat_g": 6,
+    "epa_dha_mg": 20,
+    "folate_ug_dfe": 15,
+    "choline_mg": 85,
+    "iron_mg": 1.9,
+    "zinc_mg": 2.9,
+    "selenium_ug": 28,
+    "b12_ug": 0.6,
+    "vit_c_mg": 3,
+    "fruit_veg_servings": 0
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "No fruit or veg in the recipe (0); garam masala, chili, coriander, cumin, pepper, turmeric and methi ≈6 tsp ÷ 4 ≈ 1.5 tsp dried/serving (+1) [herbs-spices]; ≥4 plant families: cumin/coriander, chili, ginger/turmeric, garlic, fenugreek, citrus (+1) = 2"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1; ginger-garlic paste ≈0.4 clove/serving (0); turmeric ¼ tsp ÷ 4 is far below ½ tsp/serving (0). = 1"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2; no omega-3 (≈20 mg); neutral oil, not EVOO (0); skinless chicken, sat fat ≈6 g, no penalty. = 2"
+    },
+    "glycemic": {
+     "score": 5,
+     "why": "Fibre ≈0.6 g (0); no starch (+2); no added sugar (+2); trace carbohydrate comes with protein (+1) = 5"
+    },
+    "cooking": {
+     "score": 6,
+     "why": "Poultry roasted at 470 °F (240 °C) then broiled 3–4 min to charred spots, cooked to well done = 4, raised to 6 by the ≥6-hour yogurt-lemon-spice marinade [marinating-meat] [high-temperature-cooking]. Heavier charring would drop it to 2"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; ≈100 g cooked dark meat gives zinc ≈2.9 mg, just under 3 (0); selenium ≈28 µg (+1); folate ≈15 µg (0); no produce (0). 1 + 1 = 2"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; folate, omega-3 and iron all below thresholds (0); choline ≈85 mg (0); yogurt (dairy) iodine (+1) [iodine-status]; B12 ≈0.6 µg (0); only one profertility component, dairy (0). 1 + 1 = 2"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Chicken and marinade",
+     "items": [
+      "¾ kg (1½ lb) skinless bone-in chicken thighs or legs (or 8 drumsticks; 4 portions)",
+      "½ cup (about 120 g) Greek yogurt (hung curd)",
+      "1 tbsp ginger-garlic paste (or ¾ tbsp each grated ginger and garlic)",
+      "1 tsp garam masala",
+      "1–2 tsp Kashmiri red chili powder (or paprika)",
+      "¼ tsp crushed black pepper",
+      "1½ tsp ground coriander",
+      "½ tsp ground cumin",
+      "½ tsp sea salt",
+      "¼ tsp turmeric (optional)",
+      "1 tsp kasuri methi (dried fenugreek leaves)",
+      "1½ tbsp (22 mL) neutral oil or mustard oil",
+      "1 tbsp (15 mL) lemon juice (or 1 tsp amchur, or ½ tsp chaat masala)"
+     ]
+    },
+    {
+     "group": "For basting",
+     "items": [
+      "1–2 tsp Kashmiri red chili powder",
+      "1–2 tbsp (15–30 mL) neutral oil or mustard oil"
+     ]
+    }
+   ],
+   "steps": [
+    "Stir the yogurt, ginger-garlic paste, spices, salt, methi, oil and lemon juice into a marinade, then taste and adjust the salt and heat.",
+    "Cut 3–4 deep slashes in each leg or thigh (2–3 in drumsticks), coat thoroughly, cover and refrigerate at least 6 hours, and up to 36.",
+    "Take the chicken out 20 minutes before cooking. Heat the oven to 470 °F (240 °C), or 430 °F (220 °C) in a small countertop oven, and set an oiled wire rack over a foil-lined tray.",
+    "Space the pieces on the rack and roast 15 minutes, then baste with leftover marinade or with the basting chili powder stirred into the oil.",
+    "For thighs or legs, turn them and roast another 12–15 minutes, basting again (drumsticks and breasts skip this).",
+    "Broil on the top rack 3–4 minutes until a few spots char and the thickest part reads 165 °F (74 °C). Optionally brush with melted butter and dust with chaat masala before serving."
+   ],
+   "boosts": [
+    "Skip or shorten the final broil to limit charring [high-temperature-cooking]",
+    "Serve with the author's suggested kachumber (cucumber, tomato, onion salad), about 1 cup per person [high-fruit-vegetable-intake]",
+    "Raise the turmeric to ½ tsp per serving; the marinade already has oil and black pepper [turmeric-curcumin]",
+    "Choose avocado or mustard oil rather than grapeseed for the high-heat roast [cooking-oil-choice]"
+   ],
+   "watch_outs": [
+    "Pregnancy: cook to 165 °F (74 °C) at the bone.",
+    "High heat: broiling to char forms heterocyclic amines, so keep charred spots small.",
+    "Allergens: dairy (yogurt; optional butter)"
+   ]
+  },
+  {
+   "id": "beef-broccoli-stir-fry",
+   "title": "Beef and broccoli stir-fry",
+   "summary": "A takeaway-style stir-fry of quickly seared beef and blanched broccoli in a glossy soy sauce. Plenty of broccoli gives solid Nrf2 points; a spoonful of rice wine costs it fertility points.",
+   "source": {
+    "title": "Chinese Beef and Broccoli",
+    "author": "Nagi Maehashi",
+    "site": "RecipeTin Eats",
+    "url": "https://www.recipetineats.com/chinese-beef-and-broccoli/",
+    "rating": 4.92,
+    "rating_count": 118,
+    "checked": "2026-10-11"
+   },
+   "changes": "Serves 3–4 in the original; scored at 3 servings. Sesame-seed garnish dropped. Gram and mL conversions added; the broccoli par-boil from the recipe notes is included as a step; steps reworded.",
+   "complexity": "medium",
+   "active_min": 20,
+   "total_min": 20,
+   "servings": 3,
+   "meal": "dinner",
+   "tags": [
+    "dairy-free"
+   ],
+   "nutrients": {
+    "kcal": 370,
+    "fiber_g": 3.5,
+    "added_sugar_g": 2,
+    "sat_fat_g": 3.8,
+    "epa_dha_mg": 20,
+    "folate_ug_dfe": 75,
+    "choline_mg": 100,
+    "iron_mg": 3.0,
+    "zinc_mg": 5.0,
+    "selenium_ug": 29,
+    "b12_ug": 2.2,
+    "vit_c_mg": 110,
+    "fruit_veg_servings": 1.5
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Broccoli ≈120 g/serving = 1.5 servings (+2); ginger, five-spice and pepper together are far below 1 tsp dried per serving (0); ≥4 plant families: crucifer, allium, ginger, soy, sesame, rice wine (+1) = 3"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Base 1; broccoli ≈120 g/serving (≥80 g), par-boiled 40 s–1 min and then simmered in the sauce: boiled or simmered counts as cooked, however short (+3) [broccoli-mature]; garlic 1 clove ÷ 3 servings (0). 1 + 3 = 4"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2; no omega-3, EVOO or nuts; lean beef, no processed meat; sat fat ≈3.8 g. = 2"
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Fibre ≈3.5 g (+2; panel says 4.1 g); no starch in the recipe, since the suggested rice isn't part of it (+2); sugar 1 tsp ÷ 3 plus dark soy ≈ 2 g (+2); carbohydrate comes with beef (+1) = 7"
+    },
+    "cooking": {
+     "score": 8,
+     "why": "Thin-sliced beef and broccoli stir-fried in oil and finished in a simmering sauce; the beef is browned for about 1 minute and only just cooked through, not well done. Stir-fry row = 8; no separate harsher component, so no midpoint. Oil type isn't specified; a PUFA seed oil would not change this, as there's no long high-heat frying [high-temperature-cooking]"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; ≈90 g cooked beef gives zinc ≈5 mg (+1, ≥3 but under 5.5) [zinc-status]; selenium ≈29 µg (+1); folate ≈75 µg (0); produce 1.5 servings (0); 1 tbsp Shaoxing wine simmers only about 1 min (−1) [alcohol]. 1 + 1 + 1 − 1 = 2"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; folate ≈75 µg (+1); iron ≈3 mg (0); choline ≈100 mg (0); no named iodine source (0); B12 ≈2.2 µg (+1); no profertility components (0); Shaoxing wine not cooked off (−2) [alcohol]. 1 + 1 + 1 − 2 = 1"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Sauce",
+     "items": [
+      "2 tbsp (16 g) cornstarch (cornflour)",
+      "¼ cup (60 mL) water",
+      "1 tsp sugar",
+      "1 tbsp (15 mL) dark soy sauce",
+      "1½ tbsp (22 mL) light soy sauce",
+      "1 tbsp (15 mL) Chinese cooking wine (Shaoxing)",
+      "⅛ tsp Chinese five-spice powder",
+      "1 tsp sesame oil (optional)",
+      "⅛ tsp black pepper"
+     ]
+    },
+    {
+     "group": "Stir-fry",
+     "items": [
+      "2 tbsp (30 mL) oil",
+      "12 oz (360 g) beef fillet, flank or rump",
+      "1 garlic clove, finely chopped",
+      "1 tsp finely chopped fresh ginger",
+      "4–5 cups broccoli florets (1 head, about 300–350 g), par-boiled",
+      "1 cup (240 mL) water"
+     ]
+    }
+   ],
+   "steps": [
+    "Par-boil the broccoli: drop it into boiling water and, once the water returns to the boil, cook 40 seconds (just done) to 1 minute (tender), then drain.",
+    "Stir the cornstarch into the ¼ cup water, then mix in the rest of the sauce ingredients.",
+    "Slice the beef ¼ in (5 mm) thick and toss it with 2 tbsp of the sauce.",
+    "Heat the oil in a skillet over high heat, spread the beef out and leave it 1 minute to brown. Stir for 10 seconds, add the garlic and ginger, and stir 30 seconds more until the beef is no longer pink.",
+    "Pour in the remaining sauce and the 1 cup water and stir. When it bubbles, add the broccoli and simmer about 1 minute, stirring, until the sauce is thick and glossy.",
+    "Take it off the heat immediately and serve; the original suggests rice."
+   ],
+   "boosts": [
+    "Replace the Shaoxing wine with low-sodium chicken broth, as the recipe's own note allows (+1 sperm, +2 egg) [alcohol]",
+    "Marinate the sliced beef in the sauce and ginger for 30 minutes first [marinating-meat]",
+    "Use 3 garlic cloves (1 per serving) [garlic-alliums]",
+    "Serve over brown rice [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: the 1 tbsp of Shaoxing wine is barely cooked. The amount per serving is tiny, but swap in broth to avoid it entirely. Cook the beef until no pink remains.",
+    "Allergens: soy, gluten (soy sauce and Shaoxing wine contain wheat), sesame (optional sesame oil)"
+   ]
+  },
+  {
+   "id": "moroccan-chicken-chickpea-couscous",
+   "title": "Moroccan chicken with chickpeas and couscous",
+   "summary": "A one-pot oven braise of spiced chicken breasts with chickpeas, fire-roasted tomatoes, kale, raisins and pearl couscous. Gentle braising, spices and fibre score well, but small servings and refined couscous hold the rest back.",
+   "source": {
+    "title": "Moroccan Chicken Couscous",
+    "author": "Joanna Cismaru",
+    "site": "Jo Cooks",
+    "url": "https://www.jocooks.com/recipes/moroccan-chicken-couscous/",
+    "rating": 4.56,
+    "rating_count": 102,
+    "checked": "2026-10-11",
+    "note": "Chosen as the chicken-and-chickpea braise. Once Upon a Chef's Moroccan Chicken Tagine (4.8 / 240) has no chickpeas, and RecipeTin Eats' Chicken Tagine with chickpeas has only 66 ratings."
+   },
+   "changes": "Gram and mL conversions added; the kale (≈100 g) and couscous (≈170 g) weights are estimates. Steps reworded, with a 165 °F (74 °C) doneness cue added.",
+   "complexity": "involved",
+   "active_min": 20,
+   "total_min": 90,
+   "servings": 8,
+   "meal": "dinner",
+   "tags": [
+    "dairy-free",
+    "make-ahead",
+    "budget"
+   ],
+   "nutrients": {
+    "kcal": 330,
+    "fiber_g": 5.5,
+    "added_sugar_g": 0,
+    "sat_fat_g": 1.2,
+    "epa_dha_mg": 0,
+    "folate_ug_dfe": 46,
+    "choline_mg": 74,
+    "iron_mg": 3.1,
+    "zinc_mg": 1.5,
+    "selenium_ug": 34,
+    "b12_ug": 0.2,
+    "vit_c_mg": 16,
+    "fruit_veg_servings": 1.8
+   },
+   "scores": {
+    "plants": {
+     "score": 4,
+     "why": "Per serving: tomatoes ≈50 g + onion ≈19 g + kale ≈12 g + garlic ≈2 g ≈ 1.0 serving, plus raisins 10 g ≈ 0.33 and chickpeas 30 g ≈ 0.4 (legumes capped at 1 serving) ≈ 1.8 servings (+2); spice blend without salt ≈7.75 tsp ÷ 8 ≈ 1 tsp dried/serving (+1, borderline) [herbs-spices]; tomato (≈¼ cup) and kale (½ cup raw) are both under threshold (0); ≥4 plant families: wheat, legume, crucifer, nightshade, allium, grape, cumin/coriander, cinnamon, ginger (+1) = 4"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Base 1; kale ≈12 g/serving is under 40 g (0); garlic 5 cloves ÷ 8 ≈ 0.6 clove and onion ⅛/serving are both below threshold (0); turmeric ½ tsp ÷ 8 is under ½ tsp/serving (0). = 1"
+    },
+    "fats": {
+     "score": 2,
+     "why": "Base 2; no omega-3; 'olive oil' (not specified as EVOO) at ¾ tsp/serving (0); lean chicken breast, sat fat ≈1.2 g. = 2"
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Fibre ≈5.5 g from chickpeas, couscous, raisins and veg (+3; the recipe panel claims 8 g) [legumes]; the main starch is refined pearl couscous, with chickpeas the smaller share (0) [whole-grains]; raisins are fruit, so no added sugar (+2); couscous comes with chicken and chickpeas (+1) = 6"
+    },
+    "cooking": {
+     "score": 10,
+     "why": "Oven-braised, covered then uncovered, at 375 °F = 10. The brief initial sear is the first step of the braise, not a separate component, so there's no midpoint"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; tomato ≈50 g/serving is under ½ cup (0); zinc ≈1.5 mg (0); selenium ≈34 µg (+1); folate ≈46 µg (0); produce 1.8 servings (0). 1 + 1 = 2"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; natural food folate ≈46 µg: canned chickpeas ≈19 µg (≈105 µg per cup) plus kale and tomato (0); iron ≈3.1 mg (0); choline ≈74 mg (0); no named iodine source (0); B12 ≈0.2 µg (0); no profertility components (0). = 1"
+    }
+   },
+   "ingredients": [
+    {
+     "group": "Moroccan spice blend (makes about 3 tbsp)",
+     "items": [
+      "1 tsp ground cumin",
+      "1 tsp ground cinnamon",
+      "1 tsp ground ginger",
+      "1 tsp salt",
+      "½ tsp black pepper",
+      "1 tsp paprika",
+      "½ tsp allspice",
+      "1 tsp ground coriander",
+      "½ tsp turmeric",
+      "¼ tsp cayenne pepper",
+      "1 tsp ground cardamom"
+     ]
+    },
+    {
+     "group": null,
+     "items": [
+      "4 boneless, skinless chicken breasts (about 1½ lb / 680 g)",
+      "2 tbsp (30 mL) olive oil",
+      "1 large onion, chopped",
+      "5 garlic cloves, minced",
+      "½ cup (80 g) golden raisins",
+      "1 can (14 oz / 400 g) chickpeas, drained and rinsed",
+      "1 can (14 oz / 400 g) fire-roasted tomatoes",
+      "3 cups (720 mL) low-sodium chicken broth",
+      "1 cup (about 170 g) dry pearl couscous",
+      "4 cups (about 100 g) kale, rinsed and roughly chopped"
+     ]
+    }
+   ],
+   "steps": [
+    "Heat the oven to 375 °F (190 °C) and mix the spice blend.",
+    "Rub the chicken breasts all over with 2 tbsp of the blend.",
+    "Heat the oil in a Dutch oven or other ovenproof pot over medium-high heat and sear the chicken 2–3 minutes per side, until browned outside but not cooked through. Set it aside.",
+    "Cook the onion and garlic in the pot for about 3 minutes until soft and fragrant, then stir in the last 1 tbsp of the blend.",
+    "Add the raisins, chickpeas, tomatoes, broth and couscous, stir well and fold in the kale. Bring to the boil and nestle the chicken back in.",
+    "Cover with a lid or foil and bake 30 minutes, then uncover and bake 30 minutes more, until the couscous is tender and the chicken reaches 165 °F (74 °C)."
+   ],
+   "boosts": [
+    "Double the kale (8 cups) [leafy-greens]",
+    "Add a second can of chickpeas [legumes]",
+    "Use a 28-oz (794 g) can of tomatoes for ≥½ cup cooked tomato per serving [tomatoes-lycopene]",
+    "Sear in extra-virgin olive oil and drizzle 1 tsp more per serving at the table [extra-virgin-olive-oil]",
+    "Use whole-wheat pearl couscous if you can find it [whole-grains]"
+   ],
+   "watch_outs": [
+    "Pregnancy: cook the chicken to 165 °F (74 °C).",
+    "Allergens: gluten (pearl couscous is wheat)"
+   ]
+  }
+ ]
+}

@@ -363,3 +363,62 @@ select { padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border)
 .audit-weakened { border-left: 4px solid var(--mixed); }
 .audit-overturned { border-left: 4px solid var(--bad); }
 .audit-unclear { border-left: 4px solid var(--neutral); }
+
+/* recipes */
+.filters { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: flex-end; margin: 12px 0; }
+.filters select { margin-left: 6px; font: inherit; padding: 4px 6px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); max-width: 100%; }
+.how-list { padding-left: 18px; } .how-list li { margin: 8px 0; }
+.chip.cx-easy { background: var(--good-soft); color: var(--good); }
+.chip.cx-medium { background: var(--mixed-soft); color: var(--mixed); }
+.chip.cx-involved { background: var(--bad-soft); color: var(--bad); }
+.rbar-group { --bar: var(--accent); }
+.rbar-group.g-fertility { --bar: var(--ev-mechanistic); }
+.rbar-row { display: block; }
+.rbar-row > summary, div.rbar-row { display: grid; grid-template-columns: minmax(0, 11rem) 1fr 2rem; gap: 10px; align-items: center; padding: 4px 0; }
+.rbar-row > summary { cursor: pointer; list-style: none; }
+.rbar-row > summary::-webkit-details-marker { display: none; }
+.rbar-row > p { margin: 2px 0 8px; padding: 8px 10px; background: var(--surface-2); border-radius: 8px; }
+.rbar-track { height: 12px; background: var(--surface-2); border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.rbar-fill { display: block; height: 100%; background: var(--bar); border-radius: 6px 0 0 6px; }
+.rbar-num { font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; }
+.rbar-label { font-size: .9rem; }
+.rbars.full .rbar-group + .rbar-group { margin-top: 10px; }
+.rbars.mini { display: grid; gap: 2px; }
+.rbars.mini div.rbar-row { grid-template-columns: 4.6rem 1fr 1.2rem; gap: 6px; padding: 1px 0; }
+.rbars.mini .rbar-label, .rbars.mini .rbar-num { font-size: .75rem; color: var(--muted); }
+.rbars.mini .rbar-track { height: 7px; }
+.rbars.mini .rbar-group.g-fertility { border-top: 1px dashed var(--border); padding-top: 3px; margin-top: 2px; }
+.ingredients { padding-left: 18px; } .ingredients li { margin: 4px 0; }
+.steps { padding-left: 20px; } .steps li { margin: 8px 0; line-height: 1.5; }
+table.nut { border-collapse: collapse; width: 100%; max-width: 420px; }
+table.nut td { padding: 3px 6px; border-bottom: 1px solid var(--border); }
+table.nut td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 560px) { .rbar-row > summary, div.rbar-row { grid-template-columns: minmax(0, 8rem) 1fr 1.6rem; } }
+.caveat-card { border-left: 3px solid var(--mixed); }
+.recipe-body { grid-template-columns: 2fr 3fr; margin: 16px 0; }
+@media (max-width: 860px) { .recipe-body { grid-template-columns: 1fr; } }
+
+/* foods heat table */
+.filters input[type=search] { margin-left: 6px; font: inherit; padding: 4px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); width: 12rem; max-width: 60vw; }
+.food-table-wrap { overflow-x: auto; }
+.food-table { border-collapse: separate; border-spacing: 2px; width: 100%; }
+.food-table th { font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); text-align: center; padding: 4px 2px; }
+.food-table th:first-child { text-align: left; }
+.food-table th a { color: inherit; }
+.food-table th.sorted a { color: var(--accent); }
+.food-table td.fname { padding: 6px 8px 6px 0; min-width: 9rem; }
+.food-table td.fname a { font-weight: 600; }
+.heat { text-align: center; width: 3.2rem; font-weight: 600; font-variant-numeric: tabular-nums; border-radius: 6px; }
+.heat.na { color: var(--muted); background: var(--surface-2); }
+.heat.h1 { background: color-mix(in srgb, var(--accent) 16%, var(--surface)); color: var(--text); }
+.heat.h2 { background: color-mix(in srgb, var(--accent) 24%, var(--surface)); color: var(--text); }
+.heat.h3 { background: color-mix(in srgb, var(--accent) 32%, var(--surface)); color: var(--text); }
+.heat.h4 { background: color-mix(in srgb, var(--accent) 40%, var(--surface)); color: var(--text); }
+.heat.h5 { background: color-mix(in srgb, var(--accent) 48%, var(--surface)); color: var(--text); }
+.heat.h6 { background: color-mix(in srgb, var(--accent) 56%, var(--surface)); color: var(--text); }
+.heat.h7 { background: color-mix(in srgb, var(--accent) 64%, var(--surface)); color: #fff; }
+.heat.h8 { background: color-mix(in srgb, var(--accent) 72%, var(--surface)); color: #fff; }
+.heat.h9 { background: color-mix(in srgb, var(--accent) 80%, var(--surface)); color: #fff; }
+.heat.h10 { background: color-mix(in srgb, var(--accent) 88%, var(--surface)); color: #fff; }
+@media (max-width: 560px) { .heat { width: 2.1rem; font-size: .85rem; } .food-table th { font-size: .62rem; letter-spacing: 0; } .food-table td.fname { min-width: 7rem; font-size: .9rem; } }
+.chip.pending { background: var(--mixed-soft); color: var(--mixed); }

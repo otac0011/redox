@@ -1,0 +1,152 @@
+{
+ "about": "Single ingredients rated per typical serving, using nutrient values from USDA FoodData Central (often via NIH Office of Dietary Supplements tables), polyphenol totals from Phenol-Explorer and FDA/EPA fish-mercury categories. The rules are in research/FOOD-RUBRIC.md. A score is how much of each evidence-backed component a serving provides, not a trial result, and a dash means the category doesn't apply.",
+ "categories": [
+  {
+   "id": "plants",
+   "group": "oxidative",
+   "name": "Plant polyphenols",
+   "short": "Plants",
+   "how": "Total polyphenols per serving (Phenol-Explorer), plus carotenoids, lycopene, nitrate greens and whether it counts as a fruit or vegetable serving.",
+   "factors": [
+    "high-fruit-vegetable-intake",
+    "blueberries",
+    "berries-other",
+    "cocoa-flavanols",
+    "herbs-spices",
+    "extra-virgin-olive-oil",
+    "leafy-greens",
+    "tomatoes-lycopene"
+   ]
+  },
+  {
+   "id": "nrf2",
+   "group": "oxidative",
+   "name": "Nrf2 & sulfur compounds",
+   "short": "Nrf2",
+   "how": "An anchored scale: broccoli sprouts 10, watercress and mustard seed 9, raw broccoli 8, other crucifers 6–7, garlic 5, onions and turmeric 4, everything else 1.",
+   "factors": [
+    "broccoli-sprouts",
+    "broccoli-mature",
+    "cruciferous-other",
+    "mustard-seed-myrosinase",
+    "watercress-peitc",
+    "garlic-alliums",
+    "turmeric-curcumin"
+   ]
+  },
+  {
+   "id": "fats",
+   "group": "oxidative",
+   "name": "Fat quality",
+   "short": "Fats",
+   "how": "EPA+DHA, ALA, monounsaturated fat and EVOO phenolics; points off for saturated fat, processed meat and trans fat. A dash means it isn't a fat source.",
+   "factors": [
+    "omega3-fish",
+    "extra-virgin-olive-oil",
+    "walnuts-nuts",
+    "flaxseed-lignans",
+    "oxidized-frying-oils",
+    "processed-red-meat"
+   ]
+  },
+  {
+   "id": "glycemic",
+   "group": "oxidative",
+   "name": "Blood sugar & fibre",
+   "short": "Fibre",
+   "how": "Fibre per serving, the kind of carbohydrate (legume and whole grain best, juice and sugar worst) and glycemic load. A dash means under 3 g carbohydrate.",
+   "factors": [
+    "dietary-fiber-microbiome",
+    "legumes",
+    "whole-grains",
+    "refined-sugar-high-glycemic",
+    "glycemic-control"
+   ]
+  },
+  {
+   "id": "sperm",
+   "group": "fertility",
+   "name": "Sperm support",
+   "short": "Sperm",
+   "how": "Omega-3 from fish, nuts, lycopene, zinc, selenium, folate and vitamin C; points off for processed meat, sugary drinks and alcohol.",
+   "factors": [
+    "walnuts-nuts",
+    "omega3-fish",
+    "tomatoes-lycopene",
+    "zinc-status",
+    "selenium-supplement",
+    "high-fruit-vegetable-intake",
+    "mediterranean-diet",
+    "processed-meat"
+   ]
+  },
+  {
+   "id": "egg",
+   "group": "fertility",
+   "name": "Egg & pregnancy support",
+   "short": "Egg",
+   "how": "Folate, DHA from low-mercury fish, iron, choline, iodine, B12 and 'profertility' food types; points off for high-mercury fish, alcohol, liver and lots of caffeine.",
+   "factors": [
+    "folic-acid",
+    "vitamin-b12-folate-status",
+    "iron-egg",
+    "iodine-status",
+    "omega3-fish",
+    "mercury-fish",
+    "profertility-diet",
+    "soy"
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "vegetables",
+   "name": "Vegetables"
+  },
+  {
+   "id": "fruit",
+   "name": "Fruit"
+  },
+  {
+   "id": "legumes",
+   "name": "Legumes"
+  },
+  {
+   "id": "grains",
+   "name": "Grains"
+  },
+  {
+   "id": "nuts-seeds",
+   "name": "Nuts & seeds"
+  },
+  {
+   "id": "seafood",
+   "name": "Seafood"
+  },
+  {
+   "id": "meat-eggs",
+   "name": "Meat & eggs"
+  },
+  {
+   "id": "dairy-soy",
+   "name": "Dairy & soy"
+  },
+  {
+   "id": "herbs-spices",
+   "name": "Herbs & spices"
+  },
+  {
+   "id": "oils-fats",
+   "name": "Oils & fats"
+  },
+  {
+   "id": "drinks",
+   "name": "Drinks"
+  },
+  {
+   "id": "other",
+   "name": "Other"
+  }
+ ],
+ "foods": []
+}
