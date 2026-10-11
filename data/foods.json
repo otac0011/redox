@@ -13198,6 +13198,3449 @@
      "url": "http://phenol-explorer.eu/contents/food/938"
     }
    ]
+  },
+  {
+   "id": "turmeric",
+   "name": "Turmeric (ground)",
+   "group": "herbs-spices",
+   "serving": "1 tsp ground (3 g)",
+   "highlight": "The richest culinary curcuminoid source and a modest Nrf2 food; poorly absorbed unless cooked in fat with black pepper, and some supply chains have had lead adulteration.",
+   "nutrients": {
+    "kcal": 9,
+    "fiber_g": 0.7,
+    "carb_g": 2.0,
+    "sat_fat_g": 0.06,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 1,
+    "choline_mg": 1.5,
+    "iron_mg": 1.7,
+    "zinc_mg": 0.13,
+    "selenium_ug": 0.2,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 163,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer chromatography 5,434 mg/100 g (curcuminoids) → ≈163 mg per 3 g (7); no pigment or nitrate bonus (0); not a counted vegetable serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 4,
+     "why": "Rubric anchor: turmeric 4, scored modestly because curcumin is poorly absorbed [curcumin-supplements] = 4"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.1 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (2.0 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; iron ≈1.7 mg (below 3 mg), folate ≈1 µg, no other threshold met = 1"
+    }
+   },
+   "best_prep": "Bloom it in a little oil and grind in black pepper: piperine raised curcumin blood levels about 20-fold in a small human study [turmeric-curcumin]. Use it often in curries, lentils, eggs and roast vegetables; culinary amounts are the point, and high-dose capsules are a different product [curcumin-supplements].",
+   "watch_outs": [
+    "[lead-spices] Turmeric has been coloured with lead chromate in some supply chains (notably Bangladesh). Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands.",
+    "Culinary amounts are fine in pregnancy; avoid high-dose curcumin supplements, which have been linked to rare liver injury and can add to anticoagulant effects.",
+    "Large amounts may aggravate gallstone symptoms."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice",
+    "nrf2"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Turmeric, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/799"
+    },
+    {
+     "label": "Shoba et al. 1998, piperine and curcumin pharmacokinetics (Planta Med)",
+     "url": "https://doi.org/10.1055/s-2006-957450"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, turmeric, ground (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/172231/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "ginger",
+   "name": "Ginger (ground or fresh)",
+   "group": "herbs-spices",
+   "serving": "1 tsp ground (1.8 g); fresh equivalent ≈1 tbsp grated (6 g)",
+   "highlight": "A flavourful anti-nausea spice with some Nrf2-active compounds but few measured polyphenols per serving; supplement doses lack pregnancy safety data.",
+   "nutrients": {
+    "kcal": 6,
+    "fiber_g": 0.3,
+    "carb_g": 1.3,
+    "sat_fat_g": 0.05,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.7,
+    "iron_mg": 0.36,
+    "zinc_mg": 0.06,
+    "selenium_ug": 1.0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 4,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Phenol-Explorer chromatography (dried) 203 mg/100 g, mostly 6-gingerol → ≈4 mg per 1.8 g (1); fresh ginger has only a Folin value (205 mg/100 g, ≈12 mg per tbsp, which overstates); no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Rubric lists ginger in the 2–3 band; human data are small capsule trials on oxidative-stress markers, not Nrf2 at food doses = 2"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.1 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (1.3 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Grate fresh ginger into stir-fries, dressings, soups and hot water with lemon; dried ground ginger is richer in shogaols (formed on drying) and suits baking and curries.",
+   "watch_outs": [
+    "Up to about 1 g a day (≈½ tsp ground or 1 tbsp fresh) is commonly used for pregnancy nausea; larger supplement doses lack safety data.",
+    "Concentrated ginger supplements may add to anticoagulant or antiplatelet drugs.",
+    "[lead-spices] Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Ginger, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/785"
+    },
+    {
+     "label": "Phenol-Explorer: Ginger, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/775"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, ginger, ground (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170926/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "cinnamon",
+   "name": "Cinnamon (Ceylon or cassia, ground)",
+   "group": "herbs-spices",
+   "serving": "1 tsp ground (2.6 g)",
+   "highlight": "Rich in proanthocyanidins per teaspoon; use Ceylon for daily use because cassia (most supermarket cinnamon) carries enough coumarin to exceed the tolerable intake.",
+   "nutrients": {
+    "kcal": 6,
+    "fiber_g": 1.4,
+    "carb_g": 2.1,
+    "sat_fat_g": 0.01,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.3,
+    "iron_mg": 0.22,
+    "zinc_mg": 0.05,
+    "selenium_ug": 0.1,
+    "b12_ug": 0,
+    "vit_c_mg": 0.1,
+    "iodine_ug": null,
+    "polyphenols_mg": 211,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer chromatography lists only phenolic acids (27–48 mg/100 g); cinnamon's polyphenols are mostly proanthocyanidins, ≈8,108 mg/100 g by normal-phase HPLC (Gu et al. 2004) → ≈211 mg per 2.6 g (7); no pigment (0); not a counted serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Cinnamaldehyde activates Nrf2 in cell and animal studies, but there is no food-dose human evidence and it isn't a rubric anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.03 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (2.1 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "For daily use (oats, coffee, yogurt, fruit) choose Ceylon ('true', Cinnamomum verum) cinnamon, which has only trace coumarin; keep cassia for occasional baking.",
+   "watch_outs": [
+    "Coumarin: cassia contains roughly 2–10 mg coumarin per teaspoon. EFSA's tolerable daily intake is 0.1 mg/kg body weight (≈7 mg for a 70 kg adult), so a daily heaped teaspoon of cassia can exceed it; Ceylon is nearly coumarin-free.",
+    "[lead-spices] Lead-contaminated cinnamon caused the 2023 US applesauce-pouch poisonings, and later testing flagged several ground-cinnamon brands; buy from brands that test for lead.",
+    "Cinnamon supplements for blood sugar are a different, higher-dose product."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice",
+    "high-polyphenol"
+   ],
+   "sources": [
+    {
+     "label": "Gu et al. 2004, Concentrations of proanthocyanidins in common foods (J Nutr 134:613)",
+     "url": "https://doi.org/10.1093/jn/134.3.613"
+    },
+    {
+     "label": "Phenol-Explorer: Ceylan cinnamon (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/830"
+    },
+    {
+     "label": "Phenol-Explorer: Chinese cinnamon (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/879"
+    },
+    {
+     "label": "EFSA 2008, Coumarin in flavourings and other food ingredients (EFSA Journal 793)",
+     "url": "https://doi.org/10.2903/j.efsa.2008.793"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, cinnamon, ground (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171320/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "cloves",
+   "name": "Cloves (ground)",
+   "group": "herbs-spices",
+   "serving": "½ tsp ground (1.05 g); a full teaspoon is more than most dishes use per person",
+   "highlight": "The most polyphenol-dense food in Phenol-Explorer, so even half a teaspoon delivers a lot; clove oil, not the spice, is the hazard.",
+   "nutrients": {
+    "kcal": 3,
+    "fiber_g": 0.4,
+    "carb_g": 0.7,
+    "sat_fat_g": 0.04,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.4,
+    "iron_mg": 0.12,
+    "zinc_mg": 0.02,
+    "selenium_ug": 0.1,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 159,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer chromatography 15,188 mg/100 g (mostly eugenol) → ≈159 mg per 1.05 g (7); no pigment (0); not a counted serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Eugenol shows Nrf2 activity in animal work only; not a rubric anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.1 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.7 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use ground cloves in baking, chai, stewed fruit, rice pilafs and spice rubs; whole cloves simmered and removed release less, so ground gives the most per pinch.",
+   "watch_outs": [
+    "Clove oil (concentrated eugenol) is toxic to young children if swallowed; ground cloves in food are fine.",
+    "Eugenol has mild antiplatelet activity; large amounts on top of anticoagulants are a theoretical concern.",
+    "[lead-spices] Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands."
+   ],
+   "tags": [
+    "vegan",
+    "spice",
+    "high-polyphenol"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Cloves (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/797"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, cloves, ground (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171321/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "oregano-dried",
+   "name": "Oregano (dried)",
+   "group": "herbs-spices",
+   "serving": "1 tsp dried leaves (1 g)",
+   "highlight": "An easy daily herb with a few milligrams of polyphenols per teaspoon (Mexican oregano about three times more); dried oregano is one of the herbs most often flagged for lead.",
+   "nutrients": {
+    "kcal": 3,
+    "fiber_g": 0.4,
+    "carb_g": 0.7,
+    "sat_fat_g": 0.02,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 2,
+    "choline_mg": 0.3,
+    "iron_mg": 0.37,
+    "zinc_mg": 0.03,
+    "selenium_ug": 0.05,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 7,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "Phenol-Explorer chromatography 664 mg/100 g (oregano, wild marjoram) → ≈7 mg per 1 g (2); Mexican oregano 2,320 mg/100 g → ≈23 mg, same band; no pigment (0); not a counted serving (0) = 2"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Carvacrol and rosmarinic acid show Nrf2 activity in lab work only; not a rubric anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.04 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.7 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Add during cooking (tomato sauces, beans, roast vegetables, marinades) and a pinch at the end; use a generous hand, since the dose is small.",
+   "watch_outs": [
+    "[lead-spices] Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Oregano, dried (wild marjoram) (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/731"
+    },
+    {
+     "label": "Phenol-Explorer: Mexican oregano, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/796"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, oregano, dried (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171328/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "rosemary",
+   "name": "Rosemary (dried or fresh)",
+   "group": "herbs-spices",
+   "serving": "1 tsp dried (1.2 g) or 1 tbsp fresh chopped (1.7 g)",
+   "highlight": "Carnosic and rosmarinic acids make it a useful marinade herb that cuts heterocyclic amines on grilled meat; polyphenols per teaspoon are modest.",
+   "nutrients": {
+    "kcal": 4,
+    "fiber_g": 0.5,
+    "carb_g": 0.8,
+    "sat_fat_g": 0.09,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 4,
+    "choline_mg": null,
+    "iron_mg": 0.35,
+    "zinc_mg": 0.04,
+    "selenium_ug": 0.06,
+    "b12_ug": 0,
+    "vit_c_mg": 0.7,
+    "iodine_ug": null,
+    "polyphenols_mg": 12,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "Phenol-Explorer chromatography (dried) 1,035 mg/100 g → ≈12 mg per 1.2 g (2); fresh 1,063 mg/100 g → ≈18 mg per tbsp, same band; no pigment (0); not a counted serving (0) = 2"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Rubric lists rosemary in the 2–3 band; carnosic acid activates Nrf2 in cell and animal studies, with no food-dose human data = 2"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.2 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.8 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Rub chopped rosemary into meat, fish or burgers before grilling or roasting: rosemary in marinades cut heterocyclic amine formation in cooking studies [marinating-meat]. Also good with potatoes, beans and roast squash.",
+   "watch_outs": [
+    "Culinary amounts are fine; concentrated rosemary oil isn't advised in pregnancy.",
+    "[lead-spices] Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Rosemary, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/744"
+    },
+    {
+     "label": "Phenol-Explorer: Rosemary, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/734"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, rosemary, dried (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171333/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "thyme-dried",
+   "name": "Thyme (dried)",
+   "group": "herbs-spices",
+   "serving": "1 tsp dried leaves (1 g)",
+   "highlight": "A modest polyphenol herb that also adds about 1 mg of iron per teaspoon; dried thyme is often flagged for lead.",
+   "nutrients": {
+    "kcal": 3,
+    "fiber_g": 0.4,
+    "carb_g": 0.6,
+    "sat_fat_g": 0.03,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 3,
+    "choline_mg": 0.4,
+    "iron_mg": 1.24,
+    "zinc_mg": 0.06,
+    "selenium_ug": 0.05,
+    "b12_ug": 0,
+    "vit_c_mg": 0.5,
+    "iodine_ug": null,
+    "polyphenols_mg": 9,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "Phenol-Explorer chromatography 935 mg/100 g (rosmarinic acid, flavones) → ≈9 mg per 1 g (2); no pigment (0); not a counted serving (0) = 2"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Thymol and carvacrol show Nrf2 activity in lab work only; not a rubric anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.07 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.6 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; iron ≈1.2 mg (below 3 mg), no other threshold met = 1"
+    }
+   },
+   "best_prep": "Add early to soups, beans, braises and roasting trays; thyme's compounds survive simmering. Pair with a vitamin C food to help its iron absorb.",
+   "watch_outs": [
+    "[lead-spices] Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Common thyme, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/763"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, thyme, dried (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170938/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "parsley",
+   "name": "Parsley (fresh)",
+   "group": "herbs-spices",
+   "serving": "¼ cup chopped fresh (15 g), as in tabbouleh, salsa verde or a generous garnish",
+   "highlight": "Used by the handful it brings apigenin, vitamin C and carotenoids; it is very high in vitamin K, so people on warfarin should keep their intake steady.",
+   "nutrients": {
+    "kcal": 5,
+    "fiber_g": 0.5,
+    "carb_g": 1.0,
+    "sat_fat_g": 0.02,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 23,
+    "choline_mg": 1.9,
+    "iron_mg": 0.93,
+    "zinc_mg": 0.16,
+    "selenium_ug": 0.02,
+    "b12_ug": 0,
+    "vit_c_mg": 20,
+    "iodine_ug": null,
+    "polyphenols_mg": 47,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "Phenol-Explorer: apigenin ≈302 mg/100 g (chromatography after hydrolysis; wide range 0–570) plus ≈14 mg/100 g furanocoumarins → ≈47 mg per 15 g (3); β-carotene ≈0.8 mg and lutein ≈0.8 mg, below thresholds (0); 15 g isn't a counted vegetable serving (0) = 3"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Apigenin isn't a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.1 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (1.0 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; vitamin C ≈20 mg (below 50 mg), folate ≈23 µg, no other threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; folate ≈23 µg (below 50 µg), iron ≈0.9 mg, no other threshold met = 1"
+    }
+   },
+   "best_prep": "Eat it raw and in quantity (tabbouleh, chimichurri, salsa verde, scattered over finished dishes); lemon in the same dish helps iron absorption.",
+   "watch_outs": [
+    "Very high in vitamin K (≈250 µg per ¼ cup): keep intake consistent if you take warfarin.",
+    "Culinary parsley is fine in pregnancy; avoid parsley-seed oil or large medicinal amounts (apiol).",
+    "Wash fresh herbs well, especially in pregnancy."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "fresh-herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Parsley, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/755"
+    },
+    {
+     "label": "USDA FoodData Central: Parsley, fresh (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170416/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "cilantro",
+   "name": "Cilantro (fresh coriander leaves)",
+   "group": "herbs-spices",
+   "serving": "¼ cup fresh leaves (4 g)",
+   "highlight": "Adds flavour and a little vitamin K but almost no measured polyphenols at garnish amounts; wash it well, because imported cilantro has been linked to outbreaks.",
+   "nutrients": {
+    "kcal": 1,
+    "fiber_g": 0.1,
+    "carb_g": 0.1,
+    "sat_fat_g": 0.0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 2,
+    "choline_mg": 0.5,
+    "iron_mg": 0.07,
+    "zinc_mg": 0.02,
+    "selenium_ug": 0.04,
+    "b12_ug": 0,
+    "vit_c_mg": 1.1,
+    "iodine_ug": null,
+    "polyphenols_mg": 2,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Phenol-Explorer chromatography (after hydrolysis) 42 mg/100 g → ≈2 mg per 4 g (1); Folin 159 mg/100 g would give ≈6 mg but overstates; no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.02 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.1 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Add raw at the end (salsas, curries, tacos, noodle salads); use a big handful rather than a sprig.",
+   "watch_outs": [
+    "Wash thoroughly: imported fresh cilantro has been linked to Cyclospora and Salmonella outbreaks, which matters more in pregnancy."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "fresh-herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Coriander, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/771"
+    },
+    {
+     "label": "USDA FoodData Central: Coriander (cilantro) leaves, raw (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169997/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "basil",
+   "name": "Basil (fresh)",
+   "group": "herbs-spices",
+   "serving": "2 tbsp chopped fresh (5 g)",
+   "highlight": "A flavour herb with only a couple of milligrams of polyphenols in a normal handful; pesto with olive oil is the way to eat it in quantity.",
+   "nutrients": {
+    "kcal": 1,
+    "fiber_g": 0.1,
+    "carb_g": 0.1,
+    "sat_fat_g": 0.0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 3,
+    "choline_mg": 0.6,
+    "iron_mg": 0.16,
+    "zinc_mg": 0.04,
+    "selenium_ug": 0.0,
+    "b12_ug": 0,
+    "vit_c_mg": 0.9,
+    "iodine_ug": null,
+    "polyphenols_mg": 2,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "No chromatography value for fresh basil; ≈2 mg per 5 g, estimated from dried basil (332 mg/100 g by chromatography) adjusted for water; Folin 232 mg/100 g (≈12 mg) overstates (1); no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.03 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.1 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Tear in at the end or blend into pesto with extra-virgin olive oil; heat dulls its aroma.",
+   "watch_outs": [
+    "Pesto usually contains pine nuts or other nuts and cheese (allergens).",
+    "Moderate vitamin K: keep intake steady on warfarin."
+   ],
+   "tags": [
+    "vegan",
+    "fresh-herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Sweet basil, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/759"
+    },
+    {
+     "label": "Phenol-Explorer: Sweet basil, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/740"
+    },
+    {
+     "label": "USDA FoodData Central: Basil, fresh (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/172232/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "mint",
+   "name": "Mint (fresh spearmint or peppermint)",
+   "group": "herbs-spices",
+   "serving": "2 tbsp chopped fresh (3.2 g)",
+   "highlight": "Fresh mint adds a few milligrams of polyphenols (peppermint more than spearmint); dried peppermint is one of the densest polyphenol foods known.",
+   "nutrients": {
+    "kcal": 1,
+    "fiber_g": 0.2,
+    "carb_g": 0.3,
+    "sat_fat_g": 0.0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 3,
+    "choline_mg": null,
+    "iron_mg": 0.38,
+    "zinc_mg": 0.04,
+    "selenium_ug": 0.0,
+    "b12_ug": 0,
+    "vit_c_mg": 0.4,
+    "iodine_ug": null,
+    "polyphenols_mg": 8,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "No chromatography value for fresh mint; Folin 247 mg/100 g (spearmint) → ≈8 mg per 3.2 g, likely an overestimate (2); fresh peppermint (Folin 980 mg/100 g, ≈31 mg) would score 3; no pigment (0); not a counted serving (0) = 2"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.02 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.3 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use it generously raw in tabbouleh, salads, yogurt sauces and fruit; for a bigger dose, steep dried peppermint leaves (Phenol-Explorer 11,960 mg/100 g by chromatography) as tea.",
+   "watch_outs": [
+    "Peppermint relaxes the lower oesophageal sphincter and can worsen reflux, which is common in pregnancy."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "fresh-herb"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Spearmint, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/757"
+    },
+    {
+     "label": "Phenol-Explorer: Peppermint, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/729"
+    },
+    {
+     "label": "Phenol-Explorer: Peppermint, dried (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/732"
+    },
+    {
+     "label": "USDA FoodData Central: Spearmint, fresh (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173475/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "cumin",
+   "name": "Cumin (seed or ground)",
+   "group": "herbs-spices",
+   "serving": "1 tsp seed (2.1 g)",
+   "highlight": "Brings about 1.4 mg of iron per teaspoon but few measured polyphenols; a staple for beans and lentils.",
+   "nutrients": {
+    "kcal": 8,
+    "fiber_g": 0.2,
+    "carb_g": 0.9,
+    "sat_fat_g": 0.03,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.5,
+    "iron_mg": 1.39,
+    "zinc_mg": 0.1,
+    "selenium_ug": 0.1,
+    "b12_ug": 0,
+    "vit_c_mg": 0.2,
+    "iodine_ug": null,
+    "polyphenols_mg": 1.5,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Phenol-Explorer chromatography 70 mg/100 g → ≈1.5 mg per 2.1 g (1); Folin 2,038 mg/100 g (≈43 mg) overstates; no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.5 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.9 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; iron ≈1.4 mg (below 3 mg), no other threshold met = 1"
+    }
+   },
+   "best_prep": "Toast whole seeds in a dry pan or bloom them in oil before adding; pair with beans, lentils and a vitamin C food so the iron absorbs.",
+   "watch_outs": [
+    "[lead-spices] Ground spices and dried herbs (turmeric, cinnamon, chili, oregano, thyme and many imported spices) have tested high for lead in some brands; buy from brands that publish heavy-metal tests and rotate brands."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Cumin (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/779"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, cumin seed (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170923/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "black-pepper",
+   "name": "Black pepper (ground)",
+   "group": "herbs-spices",
+   "serving": "¼ tsp ground (0.6 g)",
+   "highlight": "Worth adding mainly for piperine, which boosts curcumin absorption from turmeric; it supplies little else at table amounts.",
+   "nutrients": {
+    "kcal": 2,
+    "fiber_g": 0.2,
+    "carb_g": 0.4,
+    "sat_fat_g": 0.01,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": null,
+    "iron_mg": 0.06,
+    "zinc_mg": 0.01,
+    "selenium_ug": 0.0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "No chromatography value; Folin 1,000 mg/100 g → ≈6 mg per 0.6 g, overstated (piperine is an alkaloid, not a polyphenol), treated as under 5 mg (1); no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.02 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.4 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Grind it fresh over turmeric dishes: piperine slows curcumin breakdown (20 mg piperine raised curcumin blood levels about 20-fold in Shoba 1998) [turmeric-curcumin].",
+   "watch_outs": [
+    "Concentrated piperine supplements change absorption of some drugs (for example phenytoin and propranolol); table pepper is fine."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Pepper spice [Black] (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/798"
+    },
+    {
+     "label": "Shoba et al. 1998, piperine and curcumin pharmacokinetics (Planta Med)",
+     "url": "https://doi.org/10.1055/s-2006-957450"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, pepper, black (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "paprika-chili-powder",
+   "name": "Paprika or chili powder",
+   "group": "herbs-spices",
+   "serving": "1 tsp (2.3 g paprika; chili powder blend ≈2.7 g)",
+   "highlight": "Colour and flavour with a little carotenoid, but few measured polyphenols per teaspoon; chili and paprika are among the spices most often flagged for aflatoxin and lead.",
+   "nutrients": {
+    "kcal": 6,
+    "fiber_g": 0.8,
+    "carb_g": 1.2,
+    "sat_fat_g": 0.05,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 1,
+    "choline_mg": 1.2,
+    "iron_mg": 0.49,
+    "zinc_mg": 0.1,
+    "selenium_ug": 0.1,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 1,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "No Phenol-Explorer entry for paprika; ≈1 mg per 2.3 g, scaled from raw red chilli (≈5 mg/100 g by chromatography) for drying (1); β-carotene ≈0.6 mg, below 3 mg (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Capsaicin isn't a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.3 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (1.2 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Bloom it briefly in warm (not smoking) oil to carry its fat-soluble carotenoids; smoked paprika gives a 'cured' flavour that can replace some salt or processed meat.",
+   "watch_outs": [
+    "[aflatoxin-mycotoxins] Chili and paprika are among the spices most often flagged for aflatoxin and ochratoxin; buy from reputable brands and store dry.",
+    "[lead-spices] Paprika has historically been adulterated with lead oxide, and chili powders appear in lead recalls; buy from brands that test.",
+    "Hot chili irritates reflux and haemorrhoids."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Chilli pepper [Red], raw (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/361"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, paprika (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171329/nutrients"
+    },
+    {
+     "label": "USDA FoodData Central: Spices, chili powder (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "brown-mustard-seed",
+   "name": "Brown or black mustard seed / mustard powder",
+   "group": "herbs-spices",
+   "serving": "1 tsp seed or ground mustard (≈2.5 g)",
+   "highlight": "A top Nrf2 food and the cheapest way to restore sulforaphane in cooked crucifers; use it crushed and rested, not fried whole.",
+   "nutrients": {
+    "kcal": 13,
+    "fiber_g": 0.3,
+    "carb_g": 0.7,
+    "sat_fat_g": 0.05,
+    "epa_dha_mg": 0,
+    "ala_g": 0.09,
+    "folate_ug_dfe": 4,
+    "choline_mg": 3,
+    "iron_mg": 0.23,
+    "zinc_mg": 0.15,
+    "selenium_ug": 5.2,
+    "b12_ug": 0,
+    "vit_c_mg": 0.2,
+    "iodine_ug": null,
+    "polyphenols_mg": 20,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "No Phenol-Explorer entry; sinapine and other sinapic-acid esters ≈0.5–1% of seed → ≈20 mg per 2.5 g (estimate) (2); no pigment (0); not a counted serving (0) = 2"
+    },
+    "nrf2": {
+     "score": 9,
+     "why": "Rubric anchor: brown or black mustard seed or powder 9 (myrosinase source plus allyl isothiocyanate) = 9"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.9 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.7 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; selenium ≈5 µg (below 20 µg), zinc ≈0.15 mg, no other threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Crush or grind the seeds (or use dry mustard powder), mix with cool water and wait 10 minutes for myrosinase to form isothiocyanate, then stir ½ tsp into cooked broccoli, cabbage or kale to restore their sulforaphane yield [mustard-seed-myrosinase]. Frying whole seeds in hot oil (tadka) is tasty but inactivates the enzyme. Yellow (white) mustard and ready-made yellow mustard give weaker, mostly non-volatile isothiocyanates [wasabi-horseradish-itc].",
+   "watch_outs": [
+    "Mustard is a regulated allergen in the EU and Canada.",
+    "Large amounts of pungent isothiocyanate irritate the stomach."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "spice",
+    "nrf2"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Spices, mustard seed, ground (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170929/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "horseradish",
+   "name": "Horseradish (prepared)",
+   "group": "herbs-spices",
+   "serving": "1 tbsp prepared horseradish (15 g)",
+   "highlight": "A potent allyl isothiocyanate source and a myrosinase add-back for cooked crucifers; freshly grated is strongest, creamy sauces are diluted.",
+   "nutrients": {
+    "kcal": 7,
+    "fiber_g": 0.5,
+    "carb_g": 1.7,
+    "sat_fat_g": 0.01,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 9,
+    "choline_mg": 1.0,
+    "iron_mg": 0.06,
+    "zinc_mg": 0.12,
+    "selenium_ug": 0.4,
+    "b12_ug": 0,
+    "vit_c_mg": 3.7,
+    "iodine_ug": null,
+    "polyphenols_mg": 0.4,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Phenol-Explorer fresh horseradish ≈3 mg/100 g (chromatography after hydrolysis) → <1 mg per 15 g (1); no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 9,
+     "why": "Rubric anchor: horseradish 9 (allyl isothiocyanate and myrosinase) = 9"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.1 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (1.7 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Grate fresh root, wait 2–3 minutes, then add vinegar to fix the heat. Jarred 'prepared horseradish' (root plus vinegar) keeps useful isothiocyanate if refrigerated and used within a few weeks. Spoon it onto fish, beets, sandwiches or cooked crucifers [wasabi-horseradish-itc].",
+   "watch_outs": [
+    "Very pungent; can irritate the stomach and is best avoided with active ulcers or reflux.",
+    "Creamy horseradish sauce contains dairy."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "nrf2"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Horseradish, fresh (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/845"
+    },
+    {
+     "label": "USDA FoodData Central: Horseradish, prepared (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173472/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "wasabi-real",
+   "name": "Real wasabi (freshly grated)",
+   "group": "herbs-spices",
+   "serving": "1 tsp freshly grated rhizome (5 g)",
+   "highlight": "Genuine wasabi is a top-tier isothiocyanate source; most 'wasabi' paste is horseradish and mustard, which still works but differently.",
+   "nutrients": {
+    "kcal": 5,
+    "fiber_g": 0.4,
+    "carb_g": 1.2,
+    "sat_fat_g": 0.0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 1,
+    "choline_mg": null,
+    "iron_mg": 0.05,
+    "zinc_mg": 0.08,
+    "selenium_ug": null,
+    "b12_ug": 0,
+    "vit_c_mg": 2.1,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "No Phenol-Explorer entry; a 5 g serving of a pale root is estimated at under 5 mg (1); no pigment (0); not a counted serving (0) = 1"
+    },
+    "nrf2": {
+     "score": 9,
+     "why": "Rubric anchor: real wasabi 9 (6-MSITC and allyl isothiocyanate) = 9"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.03 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (1.2 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Grate the rhizome finely (sharkskin or fine microplane), let it stand about 5 minutes and use within 15 minutes; dab onto fish, noodles or steamed broccoli [wasabi-horseradish-itc].",
+   "watch_outs": [
+    "Most tube and powder 'wasabi' is horseradish, mustard and green colouring; check for Wasabia japonica (Eutrema japonicum) on the label.",
+    "Sushi-bar pairing: raw fish is a pregnancy food-safety concern, not the wasabi."
+   ],
+   "tags": [
+    "vegan",
+    "nrf2"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Wasabi, root, raw (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/168583/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "extra-virgin-olive-oil",
+   "name": "Extra-virgin olive oil",
+   "group": "oils-fats",
+   "serving": "1 tbsp (13.5 g)",
+   "highlight": "The best everyday cooking and dressing fat: mostly monounsaturated, heat-stable and carrying olive phenolics; fresh, peppery, harvest-dated oil has the most.",
+   "nutrients": {
+    "kcal": 119,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 1.9,
+    "epa_dha_mg": 0,
+    "ala_g": 0.1,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0.1,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 8,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "Phenol-Explorer chromatography 62 mg/100 g (secoiridoids, tyrosols) → ≈8 mg per tbsp (2); high-phenolic oils (≥500 mg/kg) reach ≈7–10 mg, the same band; EVOO is the rubric's exception to the refined-oil rule = 2"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Rubric lists EVOO in the 2–3 band; human trials of phenol-rich olive oil lowered LDL oxidation, so 3 = 3"
+    },
+    "fats": {
+     "score": 7,
+     "why": "Base 3; mostly monounsaturated with phenolics (EVOO +4); saturated fat 1.9 g (no penalty) = 7"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use it for most cooking, including sautéing and roasting: its phenolics and low polyunsaturated fat make it stable [cooking-oil-choice]. Drizzle raw over vegetables, beans and tomatoes, where the fat carries lycopene and carotenoids. Buy harvest-dated oil in dark glass, finish within about 2 months of opening; robust, peppery or bitter oils have the most phenolics [extra-virgin-olive-oil].",
+   "watch_outs": [
+    "Calorie-dense (≈120 kcal per tbsp).",
+    "Mislabelling and blending are common; prefer harvest-dated, certified or lab-tested oils."
+   ],
+   "tags": [
+    "vegan",
+    "mediterranean",
+    "cooking-oil"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Olive, oil, extra virgin (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/822"
+    },
+    {
+     "label": "USDA FoodData Central: Oil, olive, salad or cooking (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171413/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "olive-oil-refined",
+   "name": "Olive oil, refined ('pure' or 'light')",
+   "group": "oils-fats",
+   "serving": "1 tbsp (13.5 g)",
+   "highlight": "Same healthy fat profile as extra-virgin but with most phenolics refined out; fine for neutral-flavoured cooking.",
+   "nutrients": {
+    "kcal": 119,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 1.9,
+    "epa_dha_mg": 0,
+    "ala_g": 0.1,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0.1,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 5,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Refined oils score 1 under the rubric (Phenol-Explorer ≈37 mg/100 g, ≈5 mg per tbsp, mostly lost in refining) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Phenolics largely removed; not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 6,
+     "why": "Base 3; mostly monounsaturated (+3); saturated fat 1.9 g (no penalty) = 6"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use it where you want a neutral flavour or higher-heat cooking; for raw use and everyday cooking, extra-virgin gives the same fats plus phenolics [cooking-oil-choice].",
+   "watch_outs": [
+    "'Light' refers to flavour and colour, not calories."
+   ],
+   "tags": [
+    "vegan",
+    "cooking-oil"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Olive, oil, refined (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/823"
+    },
+    {
+     "label": "USDA FoodData Central: Oil, olive, salad or cooking (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171413/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "canola-oil",
+   "name": "Canola (rapeseed) oil",
+   "group": "oils-fats",
+   "serving": "1 tbsp (14 g)",
+   "highlight": "A good neutral oil: mostly monounsaturated, with some plant omega-3 (ALA) and little saturated fat; less suited to repeated deep-frying.",
+   "nutrients": {
+    "kcal": 124,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 1.0,
+    "epa_dha_mg": 0,
+    "ala_g": 1.28,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 2,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Refined oils score 1 (Phenol-Explorer rapeseed oil ≈17 mg/100 g, ≈2 mg per tbsp) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 5,
+     "why": "Base 3; canola (+2 per rubric; ALA 1.28 g is below the 1.5 g threshold); saturated fat 1.0 g (no penalty) = 5"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use it for baking, dressings and moderate-heat cooking; its ALA makes it less stable for repeated deep-frying [cooking-oil-choice] [oxidized-frying-oils]. Cold-pressed canola keeps more vitamin E and phenolics.",
+   "watch_outs": [
+    "ALA converts poorly to DHA; it doesn't replace fish or algal omega-3 in pregnancy."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "cooking-oil"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Rape seed, oil (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/842"
+    },
+    {
+     "label": "NIH ODS Omega-3 fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+    },
+    {
+     "label": "USDA FoodData Central: Oil, canola (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/172336/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "avocado-oil",
+   "name": "Avocado oil",
+   "group": "oils-fats",
+   "serving": "1 tbsp (14 g)",
+   "highlight": "Mostly monounsaturated and heat-tolerant, good for searing; refined versions carry few phenolics and quality testing has found many oxidised or blended bottles.",
+   "nutrients": {
+    "kcal": 124,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 1.6,
+    "epa_dha_mg": 0,
+    "ala_g": 0.13,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Most avocado oil sold is refined; refined oils score 1 (no Phenol-Explorer value) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 6,
+     "why": "Base 3; mostly monounsaturated (+3); saturated fat 1.6 g (no penalty) = 6"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use it for high-heat searing and roasting; for everyday cooking and raw use, extra-virgin olive oil is the better buy [cooking-oil-choice].",
+   "watch_outs": [
+    "University testing (UC Davis, 2020) found most US avocado oils sampled were oxidised or mixed with other oils; buy from brands with third-party testing."
+   ],
+   "tags": [
+    "vegan",
+    "cooking-oil"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Oil, avocado (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173573/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "sunflower-oil-refined",
+   "name": "Sunflower oil (refined, regular linoleic)",
+   "group": "oils-fats",
+   "serving": "1 tbsp (13.6 g)",
+   "highlight": "A refined omega-6 seed oil: fine cold or for gentle cooking, poor for repeated high-heat frying; high-oleic sunflower oil is the more stable version.",
+   "nutrients": {
+    "kcal": 120,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 1.4,
+    "epa_dha_mg": 0,
+    "ala_g": 0,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Refined oils score 1 (Phenol-Explorer Folin ≈1 mg/100 g) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 3; refined PUFA seed oil (+1); saturated fat 1.4 g (no penalty) = 4"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Fine cold or for gentle cooking; poor for repeated high-heat frying, because linoleic acid oxidises into aldehydes [cooking-oil-choice] [oxidized-frying-oils]. 'High-oleic' sunflower oil is mostly monounsaturated and would score like refined olive oil (6).",
+   "watch_outs": [
+    "[seed-oils-linoleic-acid] The evidence doesn't support fearing linoleic acid itself; the problem is oil that has been reheated or reused."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "cooking-oil"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Sunflower seed, oil (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/825"
+    },
+    {
+     "label": "USDA FoodData Central: Oil, sunflower, linoleic (approx. 65%) (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171025/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "soybean-oil",
+   "name": "Soybean oil ('vegetable oil')",
+   "group": "oils-fats",
+   "serving": "1 tbsp (13.6 g)",
+   "highlight": "The default US 'vegetable oil': mostly omega-6 with a little ALA; fine for gentle cooking, not for repeated frying.",
+   "nutrients": {
+    "kcal": 120,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 2.1,
+    "epa_dha_mg": 0,
+    "ala_g": 0.92,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Refined oils score 1 = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 4,
+     "why": "Base 3; refined PUFA seed oil (+1); ALA 0.92 g (below 1.5 g); saturated fat 2.1 g (no penalty) = 4"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use for baking and moderate-heat cooking; avoid reusing it for deep-frying [cooking-oil-choice] [oxidized-frying-oils].",
+   "watch_outs": [
+    "[seed-oils-linoleic-acid] Reused frying oil is the concern, not occasional use.",
+    "Highly refined soybean oil is generally tolerated by people with soy allergy, but cold-pressed oil may not be."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "cooking-oil"
+   ],
+   "sources": [
+    {
+     "label": "NIH ODS Omega-3 fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+    },
+    {
+     "label": "USDA FoodData Central: Oil, soybean, salad or cooking (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "flaxseed-oil",
+   "name": "Flaxseed (linseed) oil",
+   "group": "oils-fats",
+   "serving": "1 tbsp (13.6 g)",
+   "highlight": "The richest plant omega-3 (ALA) oil, for cold use only; it turns rancid fast and doesn't replace DHA from fish or algae.",
+   "nutrients": {
+    "kcal": 120,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 1.2,
+    "epa_dha_mg": 0,
+    "ala_g": 7.26,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Pressed oil keeps few of the seed's lignans; refined-oil rule (1) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 7,
+     "why": "Base 3; ALA 7.26 g ≥1.5 g (+4); saturated fat 1.2 g (no penalty) = 7"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Never heat it. Drizzle on salads, potatoes, yogurt or oatmeal; keep it refrigerated in an opaque bottle and finish within about 6 weeks [flaxseed-lignans].",
+   "watch_outs": [
+    "ALA converts poorly to DHA; in pregnancy use fish or an algal DHA supplement.",
+    "Oxidises quickly; a bitter or paint-like smell means it is rancid [fish-oil-oxidation]."
+   ],
+   "tags": [
+    "vegan",
+    "omega-3"
+   ],
+   "sources": [
+    {
+     "label": "NIH ODS Omega-3 fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+    },
+    {
+     "label": "USDA FoodData Central: Oil, flaxseed, cold pressed (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/167702/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "butter",
+   "name": "Butter",
+   "group": "oils-fats",
+   "serving": "1 tbsp (14.2 g)",
+   "highlight": "A flavour fat high in saturated fat; use it sparingly for taste and do most cooking with olive or canola oil.",
+   "nutrients": {
+    "kcal": 102,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 7.3,
+    "epa_dha_mg": 0,
+    "ala_g": 0.04,
+    "folate_ug_dfe": 0.4,
+    "choline_mg": 2.7,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0.14,
+    "b12_ug": 0.02,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Animal fat; animal foods score 1 = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 3; no plant-fat bonus (0); saturated fat 7.3 g ≥5 g (−2); natural ruminant trans ≈0.47 g, just below the 0.5 g penalty threshold = 1"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use as a finishing flavour (on vegetables or wholegrain toast) rather than the main cooking fat; swap most cooking to extra-virgin olive or canola oil [cooking-oil-choice].",
+   "watch_outs": [
+    "Raises LDL cholesterol compared with unsaturated oils.",
+    "Contains traces of milk protein (milk allergy)."
+   ],
+   "tags": [
+    "vegetarian"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Butter, salted (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "ghee",
+   "name": "Ghee (clarified butter)",
+   "group": "oils-fats",
+   "serving": "1 tbsp (12.8 g)",
+   "highlight": "Butterfat without the milk solids: heat-tolerant for occasional frying, but just as saturated as butter.",
+   "nutrients": {
+    "kcal": 112,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 7.9,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 2.9,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Animal fat; animal foods score 1 = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 3; no plant-fat bonus (0); saturated fat 7.9 g ≥5 g (−2) = 1"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Keep it for occasional high-heat dishes where its flavour matters; use mustard, olive or canola oil for daily cooking [cooking-oil-choice].",
+   "watch_outs": [
+    "Raises LDL cholesterol like butter; heating ghee hard forms cholesterol oxidation products [high-temperature-cooking].",
+    "Usually tolerated in lactose intolerance, but may contain traces of milk protein."
+   ],
+   "tags": [
+    "vegetarian"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Butter oil, anhydrous (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173412/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "coconut-oil",
+   "name": "Coconut oil",
+   "group": "oils-fats",
+   "serving": "1 tbsp (13.6 g)",
+   "highlight": "The most saturated common cooking fat; it raises LDL more than unsaturated oils, and MCT-oil claims don't transfer to it.",
+   "nutrients": {
+    "kcal": 121,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 11.2,
+    "epa_dha_mg": 0,
+    "ala_g": 0,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Refined or virgin, coconut oil is not a meaningful polyphenol source; refined-oil rule (1) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Base 3; mostly saturated, no plant-fat bonus (0); saturated fat 11.2 g ≥5 g (−2) = 1"
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use occasionally where its flavour matters (some curries, baking); choose extra-virgin olive or canola oil for everyday cooking [cooking-oil-choice].",
+   "watch_outs": [
+    "Raises LDL cholesterol more than unsaturated oils in controlled trials.",
+    "Coconut is classed as a tree nut by the US FDA for labelling, though true allergy is uncommon."
+   ],
+   "tags": [
+    "vegan"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Oil, coconut (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171412/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "green-tea",
+   "name": "Green tea (brewed)",
+   "group": "drinks",
+   "serving": "1 cup (240 mL)",
+   "highlight": "Around 200 mg of catechins per cup with little caffeine; drink it between meals so it doesn't block iron.",
+   "nutrients": {
+    "kcal": 2,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0.05,
+    "zinc_mg": 0.02,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 221,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer chromatography ≈92 mg/100 mL (catechins) → ≈221 mg per cup (7); not a fruit or vegetable serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Rubric lists green tea in the 2–3 band; EGCG activates Nrf2 in lab work, but human Nrf2 data at drinking doses are thin = 2"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; caffeine ≈29 mg (no penalty; threshold is >100 mg) = 1"
+    }
+   },
+   "best_prep": "Steep 2–3 minutes at 70–80 °C; a squeeze of lemon helps keep catechins stable. Drink between meals rather than with iron-rich food [green-tea].",
+   "watch_outs": [
+    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency].",
+    "Very heavy green-tea drinking has been linked to lower folate status; keep taking folic acid [folic-acid].",
+    "Concentrated green-tea extract supplements have caused liver injury; brewed tea has not [green-tea-extract]."
+   ],
+   "tags": [
+    "vegan",
+    "caffeine",
+    "high-polyphenol"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Tea [Green], infusion (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/29"
+    },
+    {
+     "label": "USDA FoodData Central: Beverages, tea, green, brewed, regular (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171917/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "matcha",
+   "name": "Matcha (whisked)",
+   "group": "drinks",
+   "serving": "1 cup: 2 g powder (≈1 tsp) whisked into 240 mL water",
+   "highlight": "You drink the whole leaf, so catechins per cup are similar to or higher than brewed green tea, with more caffeine and more of whatever the leaf absorbed from soil.",
+   "nutrients": {
+    "kcal": 5,
+    "fiber_g": 1.0,
+    "carb_g": 1.0,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": null,
+    "choline_mg": null,
+    "iron_mg": 0.3,
+    "zinc_mg": null,
+    "selenium_ug": null,
+    "b12_ug": 0,
+    "vit_c_mg": null,
+    "iodine_ug": null,
+    "polyphenols_mg": 160,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "No Phenol-Explorer entry; ≈2 g × ~80 mg catechins per g ≈160 mg (estimate, guided by Weiss and Anderton 2003) (7); not a fruit or vegetable serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Same compounds as green tea (rubric 2–3 band); human Nrf2 data thin = 2"
+    },
+    "fats": {
+     "score": null,
+     "why": "No meaningful fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.8 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; caffeine ≈60–70 mg (no penalty) = 1"
+    }
+   },
+   "best_prep": "Whisk ½–1 tsp into water just off the boil (about 80 °C); plain or with unsweetened milk. Café matcha lattes often carry 20–30 g of sugar.",
+   "watch_outs": [
+    "Because the whole leaf is eaten, matcha delivers more of the leaf's lead, aluminium and fluoride than steeped tea; choose brands that test [heavy-metals].",
+    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency].",
+    "Don't confuse with green-tea extract capsules, which have caused liver injury [green-tea-extract]."
+   ],
+   "tags": [
+    "vegan",
+    "caffeine",
+    "high-polyphenol"
+   ],
+   "sources": [
+    {
+     "label": "Weiss and Anderton 2003, catechins in matcha by micellar electrokinetic chromatography (J Chromatogr A)",
+     "url": "https://doi.org/10.1016/S0021-9673(03)01133-6"
+    },
+    {
+     "label": "Phenol-Explorer: Tea [Green], infusion (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/29"
+    },
+    {
+     "label": "USDA FoodData Central branded food: matcha green tea powder (Tiesta Tea)",
+     "url": "https://fdc.nal.usda.gov/food-details/2308440/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "black-tea",
+   "name": "Black tea (brewed)",
+   "group": "drinks",
+   "serving": "1 cup (240 mL)",
+   "highlight": "A strong polyphenol drink (theaflavins and thearubigins) with moderate caffeine; best between meals.",
+   "nutrients": {
+    "kcal": 2,
+    "fiber_g": 0,
+    "carb_g": 0.7,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 12,
+    "choline_mg": 1.0,
+    "iron_mg": 0.05,
+    "zinc_mg": 0.05,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 250,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer chromatography ≈104 mg/100 mL → ≈250 mg per cup (7); not a fruit or vegetable serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Theaflavins activate Nrf2 in lab work; rubric 2–3 band, no human Nrf2 data = 2"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.7 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; folate ≈12 µg (below 50 µg); caffeine ≈47 mg (no penalty) = 1"
+    }
+   },
+   "best_prep": "Brew 3–5 minutes; a splash of milk is fine. Drink it between meals rather than with iron-rich food [black-tea].",
+   "watch_outs": [
+    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency]."
+   ],
+   "tags": [
+    "vegan",
+    "caffeine",
+    "high-polyphenol",
+    "budget"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Tea [Black], infusion (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/30"
+    },
+    {
+     "label": "USDA FoodData Central: Beverages, tea, black, brewed, prepared with tap water (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173227/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "coffee-brewed",
+   "name": "Coffee (brewed, filtered)",
+   "group": "drinks",
+   "serving": "1 cup (240 mL, 8 fl oz)",
+   "highlight": "The biggest polyphenol source in most diets and one of the few Nrf2 foods with human data; a mug-sized serving tips over the caffeine line.",
+   "nutrients": {
+    "kcal": 2,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 5,
+    "choline_mg": 6,
+    "iron_mg": 0.02,
+    "zinc_mg": 0.05,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 515,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 9,
+     "why": "Phenol-Explorer chromatography 215 mg/100 mL (chlorogenic acids) → ≈515 mg per cup (9); not a fruit or vegetable serving (0) = 9"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Rubric anchor band 2–3 for coffee; coffee raised Nrf2 nuclear translocation in human blood cells (Boettler 2011), so 3 = 3"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; caffeine ≈95 mg per 8 fl oz (just under the >100 mg penalty; a 12–16 oz mug or strong brew passes it) = 1"
+    }
+   },
+   "best_prep": "Paper-filtered, light-to-medium roast keeps the most chlorogenic acids and removes cafestol [coffee]; drink it black or with milk, and keep it away from iron supplements.",
+   "watch_outs": [
+    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "Unfiltered coffee (French press, Turkish, boiled) raises LDL cholesterol via cafestol.",
+    "Roasting forms some acrylamide; normal intake stays well within studied ranges [acrylamide].",
+    "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency].",
+    "Sugar and flavoured creamers can turn it into a dessert drink."
+   ],
+   "tags": [
+    "vegan",
+    "caffeine",
+    "high-polyphenol",
+    "budget"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Coffee beverage [Filter] (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/552"
+    },
+    {
+     "label": "Boettler et al. 2011, coffee constituents and Nrf2 nuclear translocation (J Nutr Biochem)",
+     "url": "https://doi.org/10.1016/j.jnutbio.2010.03.011"
+    },
+    {
+     "label": "USDA FoodData Central: Beverages, coffee, brewed, prepared with tap water (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171890/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "espresso",
+   "name": "Espresso",
+   "group": "drinks",
+   "serving": "1 single shot (30 mL, 1 fl oz)",
+   "highlight": "A concentrated small dose of coffee polyphenols; a single shot stays under the caffeine line but café doubles don't.",
+   "nutrients": {
+    "kcal": 3,
+    "fiber_g": 0,
+    "carb_g": 0.5,
+    "sat_fat_g": 0.03,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.8,
+    "iron_mg": 0.04,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 90,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 5,
+     "why": "No Phenol-Explorer espresso entry; café espressos contained 24–422 mg chlorogenic acids per serving (Crozier et al. 2012), so a typical 30 mL single ≈90 mg (estimate) (5); not a fruit or vegetable serving (0) = 5"
+    },
+    "nrf2": {
+     "score": 3,
+     "why": "Same compounds as brewed coffee (rubric 2–3 band, human data) = 3"
+    },
+    "fats": {
+     "score": null,
+     "why": "No meaningful fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.5 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; caffeine ≈64 mg per single shot (no penalty; a double ≈128 mg would be −1) = 1"
+    }
+   },
+   "best_prep": "Drink as a single shot or with milk; count a café 'double' as about 130 mg caffeine.",
+   "watch_outs": [
+    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "Espresso is unfiltered and carries some cafestol; several shots a day have a small LDL-raising effect.",
+    "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency]."
+   ],
+   "tags": [
+    "vegan",
+    "caffeine"
+   ],
+   "sources": [
+    {
+     "label": "Crozier et al. 2012, Espresso coffees, caffeine and chlorogenic acid intake (Food Funct 3:30)",
+     "url": "https://doi.org/10.1039/c1fo10240k"
+    },
+    {
+     "label": "USDA FoodData Central: Beverages, coffee, brewed, espresso, restaurant-prepared (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171891/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "hibiscus-tea",
+   "name": "Hibiscus tea (brewed)",
+   "group": "drinks",
+   "serving": "1 cup (240 mL) from ≈1.5–2 g dried calyces",
+   "highlight": "A caffeine-free, tart anthocyanin tea that modestly lowers blood pressure; avoid it in pregnancy because safety data are limited.",
+   "nutrients": {
+    "kcal": 0,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 2,
+    "choline_mg": 1.0,
+    "iron_mg": 0.2,
+    "zinc_mg": 0.1,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 50,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 3,
+     "why": "No Phenol-Explorer entry; anthocyanins plus phenolic acids estimated at ≈30–60 mg per cup (≈50 mg; varies widely with steep strength) (3); not a fruit or vegetable serving (0) = 3"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "No carbohydrate."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Steep 1.5–2 g dried calyces for 5–6 minutes; good iced. Skip or limit the sugar that's usually added.",
+   "watch_outs": [
+    "Pregnancy: limited safety data and animal studies showing hormonal effects; avoid when pregnant or trying to conceive.",
+    "Lowers blood pressure; check with a prescriber if you take blood-pressure medicine.",
+    "High-dose hibiscus extracts lowered sperm counts in rat studies; whether a cup of tea matters is unknown."
+   ],
+   "tags": [
+    "vegan",
+    "caffeine-free"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Beverages, tea, hibiscus, brewed (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/171946/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "hot-cocoa-unsweetened",
+   "name": "Hot cocoa (unsweetened, with low-fat milk)",
+   "group": "drinks",
+   "serving": "1 tbsp natural cocoa (5.4 g) in 1 cup 1% milk (244 g)",
+   "highlight": "A warm way to get about 200 mg of cocoa flavanols plus milk's iodine and B12; use natural (non-alkalised) cocoa and go easy on sugar.",
+   "nutrients": {
+    "kcal": 115,
+    "fiber_g": 2.0,
+    "carb_g": 15.3,
+    "sat_fat_g": 2.0,
+    "epa_dha_mg": 0,
+    "ala_g": 0.02,
+    "folate_ug_dfe": 14,
+    "choline_mg": 44,
+    "iron_mg": 0.8,
+    "zinc_mg": 1.4,
+    "selenium_ug": 9,
+    "b12_ug": 1.1,
+    "vit_c_mg": 0,
+    "iodine_ug": 84,
+    "polyphenols_mg": 194,
+    "lycopene_mg": 0,
+    "gl": 4
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer cocoa powder ≈3,590 mg/100 g (flavanols by normal-phase HPLC plus other phenolics) → ≈194 mg per 5.4 g (7); milk adds none; not a fruit or vegetable serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Rubric lists cocoa in the 2–3 band; no human Nrf2 data = 2"
+    },
+    "fats": {
+     "score": 3,
+     "why": "Fat ≈3.1 g: base 3; dairy and cocoa-butter fat, no plant-fat bonus (0); saturated fat 1.9 g (no penalty) = 3"
+    },
+    "glycemic": {
+     "score": 4,
+     "why": "Carbs 15.3 g (scored: cocoa adds non-lactose carbohydrate, so the lactose-only null rule doesn't apply): fibre 2.0 g (+2); mostly lactose from milk, no listed carb type (0); GL ≈4 (+2) = 4"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; zinc ≈1.4 mg (just below 1.5 mg), folate ≈14 µg, no other threshold met = 1"
+    },
+    "egg": {
+     "score": 4,
+     "why": "Base 1; iodine ≈84 µg (+1); B12 ≈1.1 µg (+1); low-fat dairy (+1); caffeine ≈12 mg (no penalty) = 4"
+    }
+   },
+   "best_prep": "Whisk natural ('not processed with alkali') cocoa into warm, not boiling, milk; sweeten lightly (1 tsp sugar = 4 g) or with cinnamon. Low-fat milk keeps the profertility dairy point [cocoa-flavanols].",
+   "watch_outs": [
+    "[cocoa-heavy-metals] Cocoa powder can carry cadmium and lead; choose brands that publish tests and keep to about a tablespoon a day.",
+    "Dutch-processed (alkalised) cocoa loses most of its flavanols.",
+    "Milk allergen; sweetened mixes carry 15–25 g sugar per cup."
+   ],
+   "tags": [
+    "vegetarian",
+    "high-polyphenol",
+    "iodine"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Cocoa, powder (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/536"
+    },
+    {
+     "label": "NIH ODS Iodine fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+    },
+    {
+     "label": "NIH ODS Zinc fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+    },
+    {
+     "label": "NIH ODS Choline fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+    },
+    {
+     "label": "NIH ODS Vitamin B12 fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+    },
+    {
+     "label": "Atkinson et al. 2008, International Tables of Glycemic Index and Glycemic Load (Diabetes Care 31:2281)",
+     "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central: Milk, lowfat, fluid, 1% milkfat (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170872/nutrients"
+    },
+    {
+     "label": "USDA FoodData Central: Cocoa, dry powder, unsweetened (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169593/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "red-wine",
+   "name": "Red wine",
+   "group": "drinks",
+   "serving": "1 standard glass (5 fl oz, 150 mL)",
+   "highlight": "Polyphenol-rich, but the alcohol outweighs them for sperm, eggs and pregnancy; the resveratrol dose is tiny next to supplement trials.",
+   "nutrients": {
+    "kcal": 128,
+    "fiber_g": 0,
+    "carb_g": 3.9,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 2,
+    "choline_mg": 8,
+    "iron_mg": 0.7,
+    "zinc_mg": 0.2,
+    "selenium_ug": 0.3,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 163,
+    "lycopene_mg": 0,
+    "gl": 1
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer chromatography 108 mg/100 mL (anthocyanins, flavanols, phenolic acids) → ≈163 mg per glass (7); not a fruit serving (0) = 7"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Resveratrol per glass (≈0.03–1 mg) is far below doses with Nrf2 effects, and alcohol is pro-oxidant [red-wine-resveratrol] = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": 2,
+     "why": "Carbs 3.8 g: fibre 0 (0); residual sugar and glycerol, no listed carb type (0); GL ≈1 (+2) = 2"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; alcohol (−3) → −2, floor 1 = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; alcohol (−4) → −3, floor 1 = 1"
+    }
+   },
+   "best_prep": "If you drink, keep it to occasional single glasses with food; the same polyphenols come from grapes, berries, tea and cocoa without alcohol [alcohol].",
+   "watch_outs": [
+    "[alcohol] No amount of alcohol is known to be safe in pregnancy; stop when trying to conceive. Alcohol lowers sperm quality in heavier drinkers.",
+    "[red-wine-resveratrol] A glass has ≈0.03–1 mg resveratrol versus 150–1,000 mg in supplement trials.",
+    "Cancer risk rises from the first drink; contains sulfites."
+   ],
+   "tags": [
+    "vegan",
+    "alcohol"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Wine [Red] (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/135"
+    },
+    {
+     "label": "USDA FoodData Central: Alcoholic beverage, wine, table, red (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173190/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "sugar-sweetened-soda",
+   "name": "Sugar-sweetened soda (cola)",
+   "group": "drinks",
+   "serving": "1 can (12 fl oz, 355 mL)",
+   "highlight": "Reference item: about 38 g of fast sugar and nothing protective; the clearest swap in this list.",
+   "nutrients": {
+    "kcal": 155,
+    "fiber_g": 0,
+    "carb_g": 38,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0.1,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": 22
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Sugars score 1 under the rubric = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": 1,
+     "why": "Carbs 38 g: fibre 0 (0); sugar (−3); GL ≈22 (0) → −3, floor 1 = 1"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; sugar-sweetened drink (−2) → −1, floor 1 = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no nutrient thresholds met; caffeine ≈34 mg (no penalty) = 1"
+    }
+   },
+   "best_prep": "Swap for sparkling water with citrus, unsweetened iced tea or hibiscus tea; if you have one, have it with a meal rather than alone.",
+   "watch_outs": [
+    "[refined-sugar-high-glycemic] One can is more than the WHO's ideal limit of 25 g added sugar a day; sugary drinks are linked to lower sperm motility in cohort studies.",
+    "Acidic (phosphoric acid) and erodes tooth enamel.",
+    "Contains ≈34 mg caffeine."
+   ],
+   "tags": [
+    "reference",
+    "added-sugar"
+   ],
+   "sources": [
+    {
+     "label": "Atkinson et al. 2008, International Tables of Glycemic Index and Glycemic Load (Diabetes Care 31:2281)",
+     "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central: Beverages, carbonated, cola, regular (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-85",
+   "name": "Dark chocolate (85% cacao)",
+   "group": "other",
+   "serving": "1 oz (28 g)",
+   "highlight": "One of the densest flavanol foods per bite; the catches are cadmium and lead in many bars and a lot of saturated (mostly stearic) fat.",
+   "nutrients": {
+    "kcal": 167,
+    "fiber_g": 3.1,
+    "carb_g": 12.9,
+    "sat_fat_g": 6.9,
+    "epa_dha_mg": 0,
+    "ala_g": 0.01,
+    "folate_ug_dfe": null,
+    "choline_mg": null,
+    "iron_mg": 3.33,
+    "zinc_mg": 0.93,
+    "selenium_ug": 1.9,
+    "b12_ug": 0.08,
+    "vit_c_mg": null,
+    "iodine_ug": null,
+    "polyphenols_mg": 542,
+    "lycopene_mg": 0,
+    "gl": 2
+   },
+   "scores": {
+    "plants": {
+     "score": 9,
+     "why": "Phenol-Explorer dark chocolate ≈1,890 mg/100 g flavanols by normal-phase HPLC (monomers to polymers) plus ≈50 mg/100 g other phenolics by chromatography ≈1,940 mg/100 g → ≈542 mg per 28 g (9); not a fruit serving (0) = 9"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Rubric lists cocoa in the 2–3 band; no human Nrf2 data = 2"
+    },
+    "fats": {
+     "score": 1,
+     "why": "Fat 11.9 g: base 3; cocoa butter is ≈60% saturated (mostly LDL-neutral stearic acid), no plant-fat bonus category (0); saturated fat 6.9 g ≥5 g (−2) = 1"
+    },
+    "glycemic": {
+     "score": 5,
+     "why": "Carbs 12.9 g: fibre 3.1 g (+3); cocoa solids (seed, +3) offset by ≈7 g added sugar (−3) → 0; GL ≈2 (GI ≈23) (+2) = 5"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; zinc ≈0.9 mg (below 1.5 mg), selenium ≈2 µg, added sugar ≈7 g (below 25 g) = 1"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; iron ≈3.3 mg (+1); caffeine ≈22 mg (no penalty) = 2"
+    }
+   },
+   "best_prep": "Have about 1 oz of 80–90% chocolate as dessert in place of sweets. Choose bars not 'processed with alkali', from brands that publish lead and cadmium tests [cocoa-flavanols] [cocoa-heavy-metals]. Values are FDC's 70–85% category; 85% bars have less sugar (≈3–4 g per oz).",
+   "watch_outs": [
+    "[cocoa-heavy-metals] Many dark chocolates tested above California's limits for lead or cadmium; keep to about an ounce a day, rotate brands and prefer tested ones, especially in pregnancy.",
+    "Caffeine (≈22 mg) and theobromine; can trigger reflux or migraine.",
+    "Allergens: may contain milk, soy lecithin and traces of nuts."
+   ],
+   "tags": [
+    "vegetarian",
+    "high-polyphenol"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Chocolate, dark (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/439"
+    },
+    {
+     "label": "NIH ODS Iron fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+    },
+    {
+     "label": "Atkinson et al. 2008, International Tables of Glycemic Index and Glycemic Load (Diabetes Care 31:2281)",
+     "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central: Chocolate, dark, 70-85% cacao solids (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170273/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "cocoa-powder",
+   "name": "Cocoa powder (natural, unsweetened)",
+   "group": "other",
+   "serving": "1 tbsp (5.4 g)",
+   "highlight": "About 200 mg of polyphenols per tablespoon with almost no calories; buy natural (non-alkalised) cocoa and watch for cadmium.",
+   "nutrients": {
+    "kcal": 12,
+    "fiber_g": 2.0,
+    "carb_g": 3.1,
+    "sat_fat_g": 0.44,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 2,
+    "choline_mg": 0.6,
+    "iron_mg": 0.75,
+    "zinc_mg": 0.37,
+    "selenium_ug": 0.8,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 194,
+    "lycopene_mg": 0,
+    "gl": 1
+   },
+   "scores": {
+    "plants": {
+     "score": 7,
+     "why": "Phenol-Explorer cocoa powder ≈3,500 mg/100 g flavanols by normal-phase HPLC plus ≈85 mg/100 g other phenolics ≈3,590 mg/100 g → ≈194 mg per 5.4 g (7) = 7"
+    },
+    "nrf2": {
+     "score": 2,
+     "why": "Rubric lists cocoa in the 2–3 band; no human Nrf2 data = 2"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.7 g)."
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Carbs 3.1 g (just over 3 g): fibre 2.0 g (+2); cocoa bean is a seed (+3); GL ≈1 (+2) = 7"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; iron ≈0.75 mg, no threshold met; caffeine ≈12 mg (no penalty) = 1"
+    }
+   },
+   "best_prep": "Stir natural cocoa into oatmeal, yogurt, smoothies, chili or warm milk; skip 'Dutch-processed' or 'processed with alkali' if you want the flavanols. Cocoa-flavanol trials used about 500 mg flavanols a day, roughly 2–3 tbsp of natural cocoa [cocoa-flavanols].",
+   "watch_outs": [
+    "[cocoa-heavy-metals] Cadmium and lead concentrate in cocoa solids, so powder can carry more per gram than chocolate; prefer brands that publish tests.",
+    "Dutch-processed (alkalised) cocoa loses most flavanols.",
+    "Contains ≈12 mg caffeine per tbsp."
+   ],
+   "tags": [
+    "vegan",
+    "high-polyphenol",
+    "budget"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Cocoa, powder (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/536"
+    },
+    {
+     "label": "USDA FoodData Central: Cocoa, dry powder, unsweetened (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169593/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "apple-cider-vinegar",
+   "name": "Apple cider vinegar",
+   "group": "other",
+   "serving": "1 tbsp (15 mL)",
+   "highlight": "Useful in dressings and may blunt the glucose rise of a starchy meal slightly; nutritionally it supplies almost nothing, and undiluted shots harm teeth.",
+   "nutrients": {
+    "kcal": 3,
+    "fiber_g": 0,
+    "carb_g": 0.1,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0.03,
+    "zinc_mg": 0.01,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 2,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Phenol-Explorer generic vinegar 13.8 mg/100 mL by chromatography → ≈2 mg per tbsp (1) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0.1 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use it in dressings or diluted (1 tbsp in a glass of water) with a starchy meal; small trials show a modest drop in the post-meal glucose rise [glycemic-control]. The 'mother' is harmless but isn't a proven probiotic.",
+   "watch_outs": [
+    "Always dilute: undiluted vinegar erodes tooth enamel and can burn the throat.",
+    "Large daily amounts have caused low potassium; take care with diuretics, insulin or digoxin."
+   ],
+   "tags": [
+    "vegan",
+    "budget"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Vinegar (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/140"
+    },
+    {
+     "label": "USDA FoodData Central: Vinegar, cider (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173469/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "miso",
+   "name": "Miso (soybean paste)",
+   "group": "other",
+   "serving": "1 tbsp (17 g)",
+   "highlight": "A flavourful fermented soy food with isoflavones and a profertility soy point, but about 630 mg sodium per tablespoon.",
+   "nutrients": {
+    "kcal": 34,
+    "fiber_g": 0.9,
+    "carb_g": 4.3,
+    "sat_fat_g": 0.17,
+    "epa_dha_mg": 0,
+    "ala_g": 0.07,
+    "folate_ug_dfe": 3,
+    "choline_mg": 12,
+    "iron_mg": 0.42,
+    "zinc_mg": 0.44,
+    "selenium_ug": 1.2,
+    "b12_ug": 0.01,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 11,
+    "lycopene_mg": 0,
+    "gl": 1
+   },
+   "scores": {
+    "plants": {
+     "score": 2,
+     "why": "Phenol-Explorer chromatography 63 mg/100 g (isoflavones) → ≈11 mg per 17 g (2); not a vegetable serving (0) = 2"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not a rubric Nrf2 anchor = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (1.0 g)."
+    },
+    "glycemic": {
+     "score": 6,
+     "why": "Carbs 4.3 g: fibre 0.9 g (+1); soybean legume base (+3); GL ≈1 (+2) = 6"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; soy food (+1); no nutrient threshold met = 2"
+    }
+   },
+   "best_prep": "Stir it into soups, dressings and glazes off the boil to keep the live cultures of unpasteurised miso; pair with wakame and tofu for iodine and protein.",
+   "watch_outs": [
+    "High sodium (≈630 mg per tbsp, over a quarter of the daily limit).",
+    "Soy allergen; barley miso contains gluten.",
+    "Soy foods at normal intakes are fine for sperm and pregnancy [soy]."
+   ],
+   "tags": [
+    "vegan",
+    "fermented",
+    "soy"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Soy paste, miso (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/942"
+    },
+    {
+     "label": "USDA FoodData Central: Miso (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/172442/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "kimchi",
+   "name": "Kimchi",
+   "group": "other",
+   "serving": "½ cup (75 g)",
+   "highlight": "A low-calorie fermented cabbage side with live cultures, folate and some crucifer breakdown products; it is salty and often contains fish sauce.",
+   "nutrients": {
+    "kcal": 11,
+    "fiber_g": 1.2,
+    "carb_g": 1.8,
+    "sat_fat_g": 0.05,
+    "epa_dha_mg": 0,
+    "ala_g": 0.1,
+    "folate_ug_dfe": 39,
+    "choline_mg": 12,
+    "iron_mg": 1.9,
+    "zinc_mg": 0.17,
+    "selenium_ug": 0.4,
+    "b12_ug": 0,
+    "vit_c_mg": null,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "No Phenol-Explorer entry; napa cabbage and chilli contribute very little by chromatography, estimated under 5 mg (1); 75 g is below the 80 g counted-serving size (0) = 1"
+    },
+    "nrf2": {
+     "score": 5,
+     "why": "Anchor for napa cabbage and radish is 6–7, but fermentation breaks glucosinolates down mainly to nitriles, ascorbigen and indoles rather than sulforaphane-type isothiocyanates [indole-3-carbinol-dim]; garlic adds allyl sulfides; scored 5 by judgement = 5"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.4 g)."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (1.8 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; folate ≈39 µg (below 50 µg), iron ≈1.9 mg, no other threshold met = 1"
+    }
+   },
+   "best_prep": "Eat it cold as a side (cooking kills the lactobacilli); choose lower-salt versions, and add raw garlic or a pinch of mustard powder if you want more active sulfur compounds [mustard-seed-myrosinase].",
+   "watch_outs": [
+    "Salty (≈370 mg sodium per ½ cup).",
+    "Often made with fish sauce or salted shrimp: not vegan, and a shellfish/fish allergen.",
+    "Very high intake of salted fermented vegetables is linked to stomach cancer in Korean and Chinese cohorts.",
+    "FDC lists vitamin C as 0 for kimchi; real values vary, so it is shown as unknown."
+   ],
+   "tags": [
+    "fermented",
+    "low-calorie"
+   ],
+   "sources": [
+    {
+     "label": "USDA FoodData Central: Cabbage, kimchi (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/170392/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "sauerkraut",
+   "name": "Sauerkraut",
+   "group": "other",
+   "serving": "½ cup (71 g)",
+   "highlight": "Fermented cabbage with fibre, vitamin C and glucosinolate breakdown products; unpasteurised, refrigerated kraut keeps live cultures, and all kraut is salty.",
+   "nutrients": {
+    "kcal": 13,
+    "fiber_g": 2.1,
+    "carb_g": 3.0,
+    "sat_fat_g": 0.02,
+    "epa_dha_mg": 0,
+    "ala_g": 0.02,
+    "folate_ug_dfe": 17,
+    "choline_mg": 7,
+    "iron_mg": 1.04,
+    "zinc_mg": 0.13,
+    "selenium_ug": 0.4,
+    "b12_ug": 0,
+    "vit_c_mg": 10,
+    "iodine_ug": null,
+    "polyphenols_mg": 0.3,
+    "lycopene_mg": 0,
+    "gl": 1
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Phenol-Explorer chromatography ≈0.4 mg/100 g (Folin 67 mg/100 g, which overstates) → under 1 mg (1); 71 g is below the 80 g counted-serving size (0) = 1"
+    },
+    "nrf2": {
+     "score": 5,
+     "why": "Cabbage anchor is 7, but fermentation converts glucosinolates mainly to nitriles, ascorbigen and indoles rather than sulforaphane-type isothiocyanates [indole-3-carbinol-dim]; scored 5 by judgement = 5"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.1 g)."
+    },
+    "glycemic": {
+     "score": 7,
+     "why": "Carbs 3.04 g: fibre 2.1 g (+2); non-starchy vegetable (+3); GL ≈1 (+2) = 7"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; vitamin C ≈10 mg (below 50 mg), folate ≈17 µg, no other threshold met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; folate ≈17 µg, iron ≈1 mg, no threshold met = 1"
+    }
+   },
+   "best_prep": "Buy refrigerated, unpasteurised sauerkraut (or make it) and eat it cold; heating or canning kills the cultures. Add a forkful to sandwiches, grain bowls and salads.",
+   "watch_outs": [
+    "Salty (≈470 mg sodium per ½ cup).",
+    "Tyramine and histamine: avoid large amounts with MAOI drugs or histamine intolerance.",
+    "Moderate vitamin K: keep intake steady on warfarin."
+   ],
+   "tags": [
+    "vegan",
+    "fermented",
+    "budget",
+    "low-calorie"
+   ],
+   "sources": [
+    {
+     "label": "Phenol-Explorer: Sauerkraut (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/285"
+    },
+    {
+     "label": "USDA FoodData Central: Sauerkraut, canned, solids and liquids (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169279/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "nutritional-yeast-fortified",
+   "name": "Nutritional yeast (fortified)",
+   "group": "other",
+   "serving": "¼ cup flakes (≈15 g)",
+   "highlight": "A cheesy seasoning that, when fortified, is a reliable vegan B12 source; check the label, because fortification varies a lot by brand.",
+   "nutrients": {
+    "kcal": 56,
+    "fiber_g": 2.8,
+    "carb_g": 4.7,
+    "sat_fat_g": 0.2,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": null,
+    "choline_mg": null,
+    "iron_mg": null,
+    "zinc_mg": null,
+    "selenium_ug": null,
+    "b12_ug": 22.5,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": 1
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "A fungus with no meaningful polyphenols; non-plant foods score 1 = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "Under 3 g fat per serving (0.5 g)."
+    },
+    "glycemic": {
+     "score": 4,
+     "why": "Carbs ≈4.7 g: fibre ≈2.8 g (+2, mostly β-glucan and mannan); yeast isn't a listed carb type (0); GL ≈1 (+2) = 4"
+    },
+    "sperm": {
+     "score": 2,
+     "why": "Base 1; fortified folic acid ≈420 µg per ¼ cup (+1, check label); zinc and selenium vary by brand and aren't counted = 2"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; fortified B12 ≈22 µg (+1); folate is fortification, which the rubric ignores (0) = 2"
+    }
+   },
+   "best_prep": "Sprinkle it on popcorn, pasta, beans, tofu scrambles or roast vegetables as a cheesy, salt-saving seasoning; for vegans it's a practical daily B12 source alongside a supplement [vitamin-b12-folate-status].",
+   "watch_outs": [
+    "Unfortified brands contain little or no B12; values here are from a fortified US brand (FDC branded data; ODS gives 8.3–24 µg B12 per ¼ cup across brands).",
+    "Some brands add 5–10 mg vitamin B6 per serving; with a B-complex this can exceed the EU upper limit (12 mg a day), and long-term high B6 can cause neuropathy.",
+    "Purine-rich: may aggravate gout."
+   ],
+   "tags": [
+    "vegan",
+    "b12"
+   ],
+   "sources": [
+    {
+     "label": "NIH ODS Vitamin B12 fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+    },
+    {
+     "label": "USDA FoodData Central branded food: nutritional yeast, Wegmans (fortified)",
+     "url": "https://fdc.nal.usda.gov/food-details/2467967/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "honey",
+   "name": "Honey",
+   "group": "other",
+   "serving": "1 tbsp (21 g)",
+   "highlight": "Still added sugar despite trace phenolics; use small amounts, and never give it to babies under one year.",
+   "nutrients": {
+    "kcal": 64,
+    "fiber_g": 0,
+    "carb_g": 17.3,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.5,
+    "iron_mg": 0.09,
+    "zinc_mg": 0.05,
+    "selenium_ug": 0.2,
+    "b12_ug": 0,
+    "vit_c_mg": 0.1,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": 11
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Sugars score 1 under the rubric (darker honeys carry a few mg of phenolics) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": 1,
+     "why": "Carbs 17.3 g: fibre 0 (0); honey (−3); GL ≈11 (GI ≈61) (+1) → −2, floor 1 = 1"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; 17 g sugar is below the 25 g penalty; no thresholds met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use a teaspoon at a time to finish yogurt, tea or dressings rather than as a bulk sweetener; darker honeys (buckwheat) carry more phenolics.",
+   "watch_outs": [
+    "Never give honey to infants under 12 months (infant botulism).",
+    "[refined-sugar-high-glycemic] Counts as added sugar; aim for under 25 g a day.",
+    "Raw and pasteurised honey are both fine for pregnant adults."
+   ],
+   "tags": [
+    "vegetarian",
+    "added-sugar"
+   ],
+   "sources": [
+    {
+     "label": "Atkinson et al. 2008, International Tables of Glycemic Index and Glycemic Load (Diabetes Care 31:2281)",
+     "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central: Honey (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169640/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "maple-syrup",
+   "name": "Maple syrup (pure)",
+   "group": "other",
+   "serving": "1 tbsp (20 g)",
+   "highlight": "A tasty added sugar with a little manganese and zinc; nutritionally close to table sugar.",
+   "nutrients": {
+    "kcal": 52,
+    "fiber_g": 0,
+    "carb_g": 13.4,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0.3,
+    "iron_mg": 0.02,
+    "zinc_mg": 0.29,
+    "selenium_ug": 0.1,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": null,
+    "lycopene_mg": 0,
+    "gl": 7
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Sugars score 1 under the rubric (trace phenolics such as quebecol) = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": 1,
+     "why": "Carbs 13.4 g: fibre 0 (0); syrup (−3); GL ≈7 (GI ≈54) (+2) → −1, floor 1 = 1"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; 13 g sugar is below the 25 g penalty; zinc 0.3 mg; no thresholds met = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Use small amounts for flavour (on oatmeal, yogurt, roasted squash); 'pancake syrup' is mostly corn syrup, not maple.",
+   "watch_outs": [
+    "[refined-sugar-high-glycemic] Counts as added sugar; aim for under 25 g a day."
+   ],
+   "tags": [
+    "vegan",
+    "added-sugar"
+   ],
+   "sources": [
+    {
+     "label": "Atkinson et al. 2008, International Tables of Glycemic Index and Glycemic Load (Diabetes Care 31:2281)",
+     "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central: Syrups, maple (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169661/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "white-sugar",
+   "name": "White sugar (reference)",
+   "group": "other",
+   "serving": "1 tbsp (12.6 g)",
+   "highlight": "Reference item: pure sucrose with no nutrients; two tablespoons in a drink or dessert reach the 25 g added-sugar line.",
+   "nutrients": {
+    "kcal": 49,
+    "fiber_g": 0,
+    "carb_g": 12.6,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0.01,
+    "zinc_mg": 0,
+    "selenium_ug": 0.1,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": null,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": 8
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Sugars score 1 under the rubric = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": 1,
+     "why": "Carbs 12.6 g: fibre 0 (0); sugar (−3); GL ≈8 (GI ≈65) (+2) → −1, floor 1 = 1"
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; 12.6 g is below the 25 g added-sugar penalty = 1"
+    },
+    "egg": {
+     "score": 1,
+     "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
+    }
+   },
+   "best_prep": "Reference item. Cut back gradually and use spices (cinnamon, vanilla) or fruit for sweetness.",
+   "watch_outs": [
+    "[refined-sugar-high-glycemic] Counts as added sugar; aim for under 25 g a day."
+   ],
+   "tags": [
+    "vegan",
+    "reference",
+    "added-sugar"
+   ],
+   "sources": [
+    {
+     "label": "Atkinson et al. 2008, International Tables of Glycemic Index and Glycemic Load (Diabetes Care 31:2281)",
+     "url": "https://doi.org/10.2337/dc08-1239"
+    },
+    {
+     "label": "USDA FoodData Central: Sugars, granulated (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients"
+    }
+   ]
+  },
+  {
+   "id": "iodized-salt",
+   "name": "Iodized table salt",
+   "group": "other",
+   "serving": "¼ tsp (1.5 g)",
+   "highlight": "The cheapest iodine source for pregnancy, at about 78 µg per quarter teaspoon; most sea, kosher and specialty salts and processed foods are not iodized.",
+   "nutrients": {
+    "kcal": 0,
+    "fiber_g": 0,
+    "carb_g": 0,
+    "sat_fat_g": 0,
+    "epa_dha_mg": 0,
+    "ala_g": null,
+    "folate_ug_dfe": 0,
+    "choline_mg": 0,
+    "iron_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "b12_ug": 0,
+    "vit_c_mg": 0,
+    "iodine_ug": 78,
+    "polyphenols_mg": 0,
+    "lycopene_mg": 0,
+    "gl": null
+   },
+   "scores": {
+    "plants": {
+     "score": 1,
+     "why": "Not a plant food = 1"
+    },
+    "nrf2": {
+     "score": 1,
+     "why": "Not an Nrf2 food = 1"
+    },
+    "fats": {
+     "score": null,
+     "why": "No fat."
+    },
+    "glycemic": {
+     "score": null,
+     "why": "Under 3 g carbohydrate per serving (0 g)."
+    },
+    "sperm": {
+     "score": 1,
+     "why": "Base 1; no omega-3, nut, lycopene, zinc, selenium, folate or vitamin C threshold met = 1"
+    },
+    "egg": {
+     "score": 2,
+     "why": "Base 1; iodine ≈78 µg (+1) = 2"
+    }
+   },
+   "best_prep": "If you salt food at home, make it iodized salt; restaurant and packaged foods almost never use it. In pregnancy and breastfeeding a prenatal with 150 µg iodine is still advised [iodine-status].",
+   "watch_outs": [
+    "≈580 mg sodium per ¼ tsp; keep total sodium under about 2,300 mg a day.",
+    "Sea salt, kosher salt and Himalayan salt are usually not iodized."
+   ],
+   "tags": [
+    "vegan",
+    "budget",
+    "iodine"
+   ],
+   "sources": [
+    {
+     "label": "NIH ODS Iodine fact sheet (FDC values)",
+     "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+    },
+    {
+     "label": "USDA FoodData Central: Salt, table (SR Legacy)",
+     "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients"
+    }
+   ]
   }
  ]
 }
