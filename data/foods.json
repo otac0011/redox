@@ -14225,7 +14225,11 @@
      "label": "USDA FoodData Central: Spices, turmeric, ground (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/172231/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 172231 per 3 g (iron 1.65 mg, carb 2.0 g) and Phenol-Explorer chromatography 5,434 mg/100 g (curcuminoids only) → 163 mg; all six scores re-derived and unchanged."
+   }
   },
   {
    "id": "ginger",
@@ -14302,7 +14306,11 @@
      "label": "USDA FoodData Central: Spices, ginger, ground (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170926/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 170926 per 1.8 g and Phenol-Explorer dried ginger chromatography 202.8 mg/100 g (≈3.7 mg); scores unchanged."
+   }
   },
   {
    "id": "cinnamon",
@@ -14388,7 +14396,11 @@
      "label": "USDA FoodData Central: Spices, cinnamon, ground (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171320/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified the USDA proanthocyanidin value (Gu et al. 2004: ground cinnamon 8,108 mg/100 g → 211 mg per 2.6 g, FDC 1 tsp = 2.6 g); Phenol-Explorer adds only 27–48 mg/100 g phenolic acids (≈1 mg), same band. Scores unchanged; coumarin and lead watch-outs confirmed."
+   }
   },
   {
    "id": "cloves",
@@ -14418,7 +14430,7 @@
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Phenol-Explorer chromatography 15,188 mg/100 g (mostly eugenol) → ≈159 mg per 1.05 g (7); no pigment (0); not a counted serving (0) = 7"
+     "why": "Phenol-Explorer chromatography 15,188 mg/100 g → ≈159 mg per 1.05 g (7); note that eugenol and acetyl-eugenol (simple phenols that Phenol-Explorer counts as polyphenols) make up ≈97% of that, and gallic acid, quercetin and kaempferol the rest; no pigment (0); not a counted serving (0) = 7"
     },
     "nrf2": {
      "score": 1,
@@ -14461,7 +14473,11 @@
      "label": "USDA FoodData Central: Spices, cloves, ground (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171321/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving ½ tsp (1.05 g; FDC 1 tsp = 2.1 g) kept: the rubric's 1 tsp default would give ≈319 mg (9), which overstates what a person eats in a dish. Polyphenol arithmetic verified; why now notes that eugenol dominates the Phenol-Explorer total. Nutrients match FDC 171321."
+   }
   },
   {
    "id": "oregano-dried",
@@ -14536,7 +14552,11 @@
      "label": "USDA FoodData Central: Spices, oregano, dried (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171328/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified Phenol-Explorer 664 mg/100 g (≈7 mg per 1 g) and FDC 171328; scores unchanged."
+   }
   },
   {
    "id": "rosemary",
@@ -14566,7 +14586,7 @@
    "scores": {
     "plants": {
      "score": 2,
-     "why": "Phenol-Explorer chromatography (dried) 1,035 mg/100 g → ≈12 mg per 1.2 g (2); fresh 1,063 mg/100 g → ≈18 mg per tbsp, same band; no pigment (0); not a counted serving (0) = 2"
+     "why": "Phenol-Explorer chromatography (dried) 1,018 mg/100 g → ≈12 mg per 1.2 g (2); fresh 1,059 mg/100 g → ≈18 mg per 1.7 g tbsp, same band; no pigment (0); not a counted serving (0) = 2"
     },
     "nrf2": {
      "score": 2,
@@ -14612,7 +14632,11 @@
      "label": "USDA FoodData Central: Spices, rosemary, dried (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171333/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Corrected the Phenol-Explorer values quoted in why (dried 1,035→1,018 mg/100 g; fresh 1,063→1,059); per-serving mg and score unchanged. FDC 171333 values verified."
+   }
   },
   {
    "id": "thyme-dried",
@@ -14642,7 +14666,7 @@
    "scores": {
     "plants": {
      "score": 2,
-     "why": "Phenol-Explorer chromatography 935 mg/100 g (rosmarinic acid, flavones) → ≈9 mg per 1 g (2); no pigment (0); not a counted serving (0) = 2"
+     "why": "Phenol-Explorer chromatography 879 mg/100 g (rosmarinic acid, flavones) → ≈9 mg per 1 g (2); no pigment (0); not a counted serving (0) = 2"
     },
     "nrf2": {
      "score": 1,
@@ -14683,7 +14707,11 @@
      "label": "USDA FoodData Central: Spices, thyme, dried (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170938/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Corrected the Phenol-Explorer value in why (935→879 mg/100 g; ≈9 mg, score unchanged). FDC 170938 iron 1.24 mg per tsp verified."
+   }
   },
   {
    "id": "parsley",
@@ -14713,7 +14741,7 @@
    "scores": {
     "plants": {
      "score": 3,
-     "why": "Phenol-Explorer: apigenin ≈302 mg/100 g (chromatography after hydrolysis; wide range 0–570) plus ≈14 mg/100 g furanocoumarins → ≈47 mg per 15 g (3); β-carotene ≈0.8 mg and lutein ≈0.8 mg, below thresholds (0); 15 g isn't a counted vegetable serving (0) = 3"
+     "why": "Phenol-Explorer: apigenin 302 mg/100 g (chromatography after hydrolysis; wide range) plus 14 mg/100 g furanocoumarins (chromatography) → ≈47 mg per 15 g (3); the USDA flavonoid value (≈215 mg/100 g apigenin) gives ≈35 mg, same band; β-carotene ≈0.8 mg and lutein ≈0.8 mg, below thresholds (0); 15 g isn't a counted vegetable serving (0) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -14756,7 +14784,11 @@
      "label": "USDA FoodData Central: Parsley, fresh (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170416/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving ¼ cup chopped = 15 g confirmed (FDC 1 cup chopped = 60 g); folate 23 µg, vitamin C 20 mg, iron 0.93 mg verified. Polyphenol why clarified (apigenin is a hydrolysis value; a lower USDA value lands in the same band). Scores unchanged."
+   }
   },
   {
    "id": "cilantro",
@@ -14827,13 +14859,17 @@
      "label": "USDA FoodData Central: Coriander (cilantro) leaves, raw (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169997/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 169997 (¼ cup = 4 g) and Phenol-Explorer 42 mg/100 g after hydrolysis; scores unchanged."
+   }
   },
   {
    "id": "basil",
    "name": "Basil (fresh)",
    "group": "herbs-spices",
-   "serving": "2 tbsp chopped fresh (5 g)",
+   "serving": "2 tbsp chopped fresh (5.3 g)",
    "highlight": "A flavour herb with only a couple of milligrams of polyphenols in a normal handful; pesto with olive oil is the way to eat it in quantity.",
    "nutrients": {
     "kcal": 1,
@@ -14842,22 +14878,22 @@
     "sat_fat_g": 0.0,
     "epa_dha_mg": 0,
     "ala_g": null,
-    "folate_ug_dfe": 3,
+    "folate_ug_dfe": 4,
     "choline_mg": 0.6,
-    "iron_mg": 0.16,
+    "iron_mg": 0.17,
     "zinc_mg": 0.04,
     "selenium_ug": 0.0,
     "b12_ug": 0,
-    "vit_c_mg": 0.9,
+    "vit_c_mg": 1.0,
     "iodine_ug": null,
-    "polyphenols_mg": 2,
+    "polyphenols_mg": 1.5,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 1,
-     "why": "No chromatography value for fresh basil; ≈2 mg per 5 g, estimated from dried basil (332 mg/100 g by chromatography) adjusted for water; Folin 232 mg/100 g (≈12 mg) overstates (1); no pigment (0); not a counted serving (0) = 1"
+     "why": "No chromatography value for fresh basil; dried basil 322 mg/100 g (chromatography) scaled for water (FDC 10% vs 92%) ≈29 mg/100 g → ≈1.5 mg per 5.3 g (estimate); Folin 232 mg/100 g (≈12 mg) overstates; either way under 5 mg if fresh leaves keep more rosmarinic acid than dried (1); no pigment (0); not a counted serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -14902,7 +14938,11 @@
      "label": "USDA FoodData Central: Basil, fresh (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/172232/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving weight 5→5.3 g (FDC 172232: 2 tbsp chopped = 5.3 g); folate 3→4 µg, iron 0.16→0.17 mg, vitamin C 0.9→1.0 mg; polyphenol estimate 2→1.5 mg with arithmetic shown. Scores unchanged."
+   }
   },
   {
    "id": "mint",
@@ -14925,14 +14965,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.4,
     "iodine_ug": null,
-    "polyphenols_mg": 8,
+    "polyphenols_mg": 3,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
-     "score": 2,
-     "why": "No chromatography value for fresh mint; Folin 247 mg/100 g (spearmint) → ≈8 mg per 3.2 g, likely an overestimate (2); fresh peppermint (Folin 980 mg/100 g, ≈31 mg) would score 3; no pigment (0); not a counted serving (0) = 2"
+     "score": 1,
+     "why": "No chromatography value for fresh mint. Two chromatography-based estimates for spearmint: dried spearmint 957 mg/100 g scaled for water (FDC 11% vs 86%) ≈156 mg/100 g → ≈5.0 mg per 3.2 g, at most the threshold; or the fresh Folin value 247 mg/100 g × the dried leaf's chromatography/Folin ratio (0.15) ≈36 mg/100 g → ≈1.2 mg; ≈3 mg used, under 5 mg (1). The Folin value alone (≈8 mg) overstates, as the rubric warns. Peppermint is richer and may reach 2–3; no pigment (0); not a counted serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -14981,7 +15021,11 @@
      "label": "USDA FoodData Central: Spearmint, fresh (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173475/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Plants 2→1: the finder scored the Folin value (≈8 mg), which the rubric says overstates; chromatography-based estimates from dried spearmint give ≈1–5 mg per 3.2 g (≈3 mg used). Serving 3.2 g follows FDC's peppermint portion (FDC lists 2 tbsp spearmint as 11.4 g, which looks like loosely packed sprigs); nutrients match FDC 173475 per 3.2 g."
+   }
   },
   {
    "id": "cumin",
@@ -15004,14 +15048,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0.2,
     "iodine_ug": null,
-    "polyphenols_mg": 1.5,
+    "polyphenols_mg": 1.2,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 1,
-     "why": "Phenol-Explorer chromatography 70 mg/100 g → ≈1.5 mg per 2.1 g (1); Folin 2,038 mg/100 g (≈43 mg) overstates; no pigment (0); not a counted serving (0) = 1"
+     "why": "Phenol-Explorer chromatography 55 mg/100 g → ≈1.2 mg per 2.1 g (1); Folin 2,038 mg/100 g (≈43 mg) overstates; no pigment (0); not a counted serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -15052,7 +15096,11 @@
      "label": "USDA FoodData Central: Spices, cumin seed (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170923/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Corrected the Phenol-Explorer chromatography value (70→55 mg/100 g; polyphenols 1.5→1.2 mg). Score unchanged; FDC 170923 iron 1.39 mg per tsp verified."
+   }
   },
   {
    "id": "black-pepper",
@@ -15082,7 +15130,7 @@
    "scores": {
     "plants": {
      "score": 1,
-     "why": "No chromatography value; Folin 1,000 mg/100 g → ≈6 mg per 0.6 g, overstated (piperine is an alkaloid, not a polyphenol), treated as under 5 mg (1); no pigment (0); not a counted serving (0) = 1"
+     "why": "Phenol-Explorer has only a Folin value, 1,000 mg/100 g → ≈6 mg per 0.6 g. Folin overstates spices heavily (cumin and oregano chromatography is 3–21% of Folin), and piperine is an alkaloid, not a polyphenol, so true polyphenols are well under 5 mg (1); no pigment (0); not a counted serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -15127,7 +15175,11 @@
      "label": "USDA FoodData Central: Spices, pepper, black (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving ¼ tsp (0.575 g; FDC 1 tsp ground = 2.3 g) kept: it is the FDA reference amount for spices and a realistic table amount. Polyphenol reasoning made explicit; scores unchanged."
+   }
   },
   {
    "id": "paprika-chili-powder",
@@ -15157,7 +15209,7 @@
    "scores": {
     "plants": {
      "score": 1,
-     "why": "No Phenol-Explorer entry for paprika; ≈1 mg per 2.3 g, scaled from raw red chilli (≈5 mg/100 g by chromatography) for drying (1); β-carotene ≈0.6 mg, below 3 mg (0); not a counted serving (0) = 1"
+     "why": "No Phenol-Explorer entry for paprika; raw red chilli has 4.8 mg/100 g by chromatography after hydrolysis, ≈36 mg/100 g once scaled for drying (≈88% water removed) → ≈1 mg per 2.3 g (estimate) (1); β-carotene ≈0.6 mg, below 3 mg (0); not a counted serving (0) = 1"
     },
     "nrf2": {
      "score": 1,
@@ -15204,37 +15256,41 @@
      "label": "USDA FoodData Central: Spices, chili powder (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Polyphenol basis corrected in why (the raw-chilli value is chromatography after hydrolysis, 4.8 mg/100 g); drying-scale arithmetic shown; score unchanged. FDC 171329 β-carotene ≈0.6 mg per tsp verified."
+   }
   },
   {
    "id": "brown-mustard-seed",
    "name": "Brown or black mustard seed / mustard powder",
    "group": "herbs-spices",
-   "serving": "1 tsp seed or ground mustard (≈2.5 g)",
+   "serving": "1 tsp ground mustard or crushed seed (2.0 g; FDC 1 tsp ground = 2.0 g)",
    "highlight": "A top Nrf2 food and the cheapest way to restore sulforaphane in cooked crucifers; use it crushed and rested, not fried whole.",
    "nutrients": {
-    "kcal": 13,
-    "fiber_g": 0.3,
-    "carb_g": 0.7,
-    "sat_fat_g": 0.05,
+    "kcal": 10,
+    "fiber_g": 0.24,
+    "carb_g": 0.56,
+    "sat_fat_g": 0.04,
     "epa_dha_mg": 0,
-    "ala_g": 0.09,
-    "folate_ug_dfe": 4,
-    "choline_mg": 3,
-    "iron_mg": 0.23,
-    "zinc_mg": 0.15,
-    "selenium_ug": 5.2,
+    "ala_g": 0.08,
+    "folate_ug_dfe": 3,
+    "choline_mg": 2.5,
+    "iron_mg": 0.18,
+    "zinc_mg": 0.12,
+    "selenium_ug": 4.2,
     "b12_ug": 0,
-    "vit_c_mg": 0.2,
+    "vit_c_mg": 0.1,
     "iodine_ug": null,
-    "polyphenols_mg": 20,
+    "polyphenols_mg": 16,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 2,
-     "why": "No Phenol-Explorer entry; sinapine and other sinapic-acid esters ≈0.5–1% of seed → ≈20 mg per 2.5 g (estimate) (2); no pigment (0); not a counted serving (0) = 2"
+     "why": "No Phenol-Explorer entry; mustard seed holds ≈0.5–1% sinapine and other sinapic-acid esters (hydroxycinnamates) → ≈16 mg per 2.0 g (estimate) (2); no pigment (0); not a counted serving (0) = 2"
     },
     "nrf2": {
      "score": 9,
@@ -15242,15 +15298,15 @@
     },
     "fats": {
      "score": null,
-     "why": "Under 3 g fat per serving (0.9 g)."
+     "why": "Under 3 g fat per serving (0.7 g)."
     },
     "glycemic": {
      "score": null,
-     "why": "Under 3 g carbohydrate per serving (0.7 g)."
+     "why": "Under 3 g carbohydrate per serving (0.6 g)."
     },
     "sperm": {
      "score": 1,
-     "why": "Base 1; selenium ≈5 µg (below 20 µg), zinc ≈0.15 mg, no other threshold met = 1"
+     "why": "Base 1; selenium ≈4 µg (below 20 µg), zinc ≈0.1 mg, no other threshold met = 1"
     },
     "egg": {
      "score": 1,
@@ -15273,7 +15329,11 @@
      "label": "USDA FoodData Central: Spices, mustard seed, ground (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170929/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving weight 2.5→2.0 g (FDC 170929: 1 tsp ground = 2.0 g) and nutrients rescaled (kcal 13→10, carb 0.7→0.56 g, selenium 5.2→4.2 µg, folate 4→3 µg, fibre 0.3→0.24 g); polyphenol estimate 20→16 mg, still band 2. Nrf2 9 is the rubric anchor. FDC's ground mustard is mostly yellow seed; brown/black seed values are similar."
+   }
   },
   {
    "id": "horseradish",
@@ -15345,7 +15405,11 @@
      "label": "USDA FoodData Central: Horseradish, prepared (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173472/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 173472 per 15 g tbsp and Phenol-Explorer fresh horseradish (2.8 mg/100 g after hydrolysis); Nrf2 9 is the rubric anchor. No changes."
+   }
   },
   {
    "id": "wasabi-real",
@@ -15412,7 +15476,11 @@
      "label": "USDA FoodData Central: Wasabi, root, raw (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/168583/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 168583 per 5 g (vitamin C 2.1 mg); no Phenol-Explorer entry (estimate kept); Nrf2 9 is the rubric anchor. No changes."
+   }
   },
   {
    "id": "extra-virgin-olive-oil",
@@ -15446,7 +15514,7 @@
     },
     "nrf2": {
      "score": 3,
-     "why": "Rubric lists EVOO in the 2–3 band; human trials of phenol-rich olive oil lowered LDL oxidation, so 3 = 3"
+     "why": "Rubric lists EVOO in the 2–3 band, 3 only with human data. Human trials exist: phenol-rich olive oil lowered oxidised LDL in the EUROLIVE trial (the basis of the EU olive-polyphenol claim) and changed oxidative-stress and inflammatory gene expression in blood cells after a single meal (Camargo 2010); direct Nrf2 readouts are few, so 3 is the upper end = 3"
     },
     "fats": {
      "score": 7,
@@ -15483,8 +15551,16 @@
     {
      "label": "USDA FoodData Central: Oil, olive, salad or cooking (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171413/nutrients"
+    },
+    {
+     "label": "Camargo et al. 2010, PBMC gene expression after phenol-rich virgin olive oil (BMC Genomics 11:253)",
+     "url": "https://doi.org/10.1186/1471-2164-11-253"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 171413 (1 tbsp = 13.5 g, sat fat 1.86 g) and Phenol-Explorer EVOO chromatography 62.4 mg/100 g (≈8 mg, band 2). Fats 7 (base 3 + EVOO 4) confirmed. Nrf2 3 kept as a borderline call; the why now names the human evidence (EUROLIVE LDL oxidation, Camargo 2010 blood-cell gene expression) and a source was added."
+   }
   },
   {
    "id": "olive-oil-refined",
@@ -15554,7 +15630,11 @@
      "label": "USDA FoodData Central: Oil, olive, salad or cooking (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171413/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified fats 6 (base 3 + monounsaturated 3; sat 1.86 g) and refined-oil plants 1; Phenol-Explorer refined olive oil 36.9 mg/100 g. No changes."
+   }
   },
   {
    "id": "canola-oil",
@@ -15629,7 +15709,11 @@
      "label": "USDA FoodData Central: Oil, canola (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/172336/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 172336 (ALA 1.28 g, below the 1.5 g threshold; sat 1.0 g) and fats 5 (canola +2 per rubric). No changes."
+   }
   },
   {
    "id": "avocado-oil",
@@ -15695,7 +15779,11 @@
      "label": "USDA FoodData Central: Oil, avocado (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173573/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 173573 (sat 1.6 g) and fats 6 (monounsaturated +3). No changes."
+   }
   },
   {
    "id": "sunflower-oil-refined",
@@ -15766,7 +15854,11 @@
      "label": "USDA FoodData Central: Oil, sunflower, linoleic (approx. 65%) (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171025/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 171025 and fats 4 (refined PUFA +1) with the [cooking-oil-choice] note. No changes."
+   }
   },
   {
    "id": "soybean-oil",
@@ -15819,7 +15911,7 @@
      "why": "Base 1; no folate, DHA, iron, choline, iodine or B12 threshold met; not a profertility food type = 1"
     }
    },
-   "best_prep": "Use for baking and moderate-heat cooking; avoid reusing it for deep-frying [cooking-oil-choice] [oxidized-frying-oils].",
+   "best_prep": "Fine cold (dressings, baking) or for gentle cooking; poor for repeated high-heat frying, so don't reuse it for deep-frying [cooking-oil-choice] [oxidized-frying-oils].",
    "watch_outs": [
     "[seed-oils-linoleic-acid] Reused frying oil is the concern, not occasional use.",
     "Highly refined soybean oil is generally tolerated by people with soy allergy, but cold-pressed oil may not be."
@@ -15838,7 +15930,11 @@
      "label": "USDA FoodData Central: Oil, soybean, salad or cooking (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 171411 (ALA 0.92 g, sat 2.1 g) and fats 4; best_prep reworded to the rubric's [cooking-oil-choice] wording (fine cold or for gentle cooking, poor for repeated high-heat frying)."
+   }
   },
   {
    "id": "flaxseed-oil",
@@ -15909,7 +16005,11 @@
      "label": "USDA FoodData Central: Oil, flaxseed, cold pressed (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/167702/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC cold-pressed flaxseed oil (ALA 7.26 g per tbsp) and fats 7 (ALA +4); 'never heat it' note present. No changes."
+   }
   },
   {
    "id": "butter",
@@ -15975,7 +16075,11 @@
      "label": "USDA FoodData Central: Butter, salted (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 173410 per 14.2 g: sat 7.3 g (−2) and trans 0.47 g (below the strict 0.5 g threshold) → fats 1. No changes."
+   }
   },
   {
    "id": "ghee",
@@ -16041,7 +16145,11 @@
      "label": "USDA FoodData Central: Butter oil, anhydrous (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173412/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 173412 per 12.8 g: sat 7.9 g (−2) → fats 1. No changes."
+   }
   },
   {
    "id": "coconut-oil",
@@ -16107,7 +16215,11 @@
      "label": "USDA FoodData Central: Oil, coconut (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171412/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 171412 per 13.6 g: sat 11.2 g (−2) → fats 1. No changes."
+   }
   },
   {
    "id": "green-tea",
@@ -16130,14 +16242,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0,
     "iodine_ug": null,
-    "polyphenols_mg": 221,
+    "polyphenols_mg": 214,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Phenol-Explorer chromatography ≈92 mg/100 mL (catechins) → ≈221 mg per cup (7); not a fruit or vegetable serving (0) = 7"
+     "why": "Phenol-Explorer chromatography 89 mg/100 mL (catechins, flavonols, galloylquinic acid) → ≈214 mg per 240 mL (7); not a fruit or vegetable serving (0) = 7"
     },
     "nrf2": {
      "score": 2,
@@ -16181,7 +16293,11 @@
      "label": "USDA FoodData Central: Beverages, tea, green, brewed, regular (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171917/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Corrected the Phenol-Explorer value (≈92→89.0 mg/100 mL; polyphenols 221→214 mg); score 7 unchanged. Caffeine ≈29 mg confirmed (FDC 12 mg/100 g); Nrf2 2 kept (no human Nrf2 data at drinking doses)."
+   }
   },
   {
    "id": "matcha",
@@ -16198,7 +16314,7 @@
     "ala_g": null,
     "folate_ug_dfe": null,
     "choline_mg": null,
-    "iron_mg": 0.3,
+    "iron_mg": null,
     "zinc_mg": null,
     "selenium_ug": null,
     "b12_ug": 0,
@@ -16211,7 +16327,7 @@
    "scores": {
     "plants": {
      "score": 7,
-     "why": "No Phenol-Explorer entry; ≈2 g × ~80 mg catechins per g ≈160 mg (estimate, guided by Weiss and Anderton 2003) (7); not a fruit or vegetable serving (0) = 7"
+     "why": "No Phenol-Explorer entry. A 2 g serving of matcha supplied ≈170 mg catechins in the trial material tabulated by Sławińska and Raczkowska 2026 (Baba et al. 2021), and Weiss and Anderton 2003 found far more EGCG per gram than in steeped tea; ≈160 mg used (estimate) (7). Catechins vary several-fold between grades (one HPLC survey found much less EGCG), so a low-catechin matcha could fall to band 5; not a fruit or vegetable serving (0) = 7"
     },
     "nrf2": {
      "score": 2,
@@ -16231,13 +16347,13 @@
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; caffeine ≈60–70 mg (no penalty) = 1"
+     "why": "Base 1; caffeine ≈40–90 mg per 2 g (matcha contains 18.9–44.4 mg/g, Koláčková 2020), below the >100 mg penalty; a heaped 2-tsp latte can pass it = 1"
     }
    },
    "best_prep": "Whisk ½–1 tsp into water just off the boil (about 80 °C); plain or with unsweetened milk. Café matcha lattes often carry 20–30 g of sugar.",
    "watch_outs": [
     "Because the whole leaf is eaten, matcha delivers more of the leaf's lead, aluminium and fluoride than steeped tea; choose brands that test [heavy-metals].",
-    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "[caffeine-fertility] Caffeine is ≈40–90 mg per 2 g of powder; café lattes made with 2 tsp or more can pass 100 mg. Keep to ≤200 mg a day in pregnancy and when trying to conceive.",
     "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency].",
     "Don't confuse with green-tea extract capsules, which have caused liver injury [green-tea-extract]."
    ],
@@ -16256,10 +16372,22 @@
      "url": "http://phenol-explorer.eu/contents/food/29"
     },
     {
-     "label": "USDA FoodData Central branded food: matcha green tea powder (Tiesta Tea)",
+     "label": "USDA FoodData Central branded food: matcha green tea powder (Tiesta Tea), label values rounded to whole grams per 2 g",
      "url": "https://fdc.nal.usda.gov/food-details/2308440/nutrients"
+    },
+    {
+     "label": "Sławińska and Raczkowska 2026, Matcha as a source of bioactive compounds (Nutrients 18:1613), Table 1",
+     "url": "https://doi.org/10.3390/nu18101613"
+    },
+    {
+     "label": "Koláčková et al. 2020, Matcha tea: nutritional composition, phenolics and caffeine (Plant Foods Hum Nutr 75:48)",
+     "url": "https://doi.org/10.1007/s11130-019-00777-z"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Polyphenols ≈160 mg kept (7) and now sourced (Sławińska and Raczkowska 2026, Table 1: ≈170 mg catechins per ≈2 g); the why notes that grades vary and a low-catechin powder could score 5. Branded FDC 2308440 (Tiesta) checked: it gives only label-rounded 5 kcal, 1 g carb and 1 g fibre per 2 g, so the unsourced iron 0.3 mg was set to null. Caffeine range 40–90 mg per 2 g (Koláčková 2020: 18.9–44.4 mg/g) added to the egg why and watch-out."
+   }
   },
   {
    "id": "black-tea",
@@ -16282,18 +16410,18 @@
     "b12_ug": 0,
     "vit_c_mg": 0,
     "iodine_ug": null,
-    "polyphenols_mg": 250,
+    "polyphenols_mg": 243,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Phenol-Explorer chromatography ≈104 mg/100 mL → ≈250 mg per cup (7); not a fruit or vegetable serving (0) = 7"
+     "why": "Phenol-Explorer chromatography 101 mg/100 mL (catechins, theaflavins, flavonols; thearubigins not measured) → ≈243 mg per 240 mL (7); not a fruit or vegetable serving (0) = 7"
     },
     "nrf2": {
      "score": 2,
-     "why": "Theaflavins activate Nrf2 in lab work; rubric 2–3 band, no human Nrf2 data = 2"
+     "why": "Theaflavins and catechins activate Nrf2 in lab work; black tea is the same plant as the rubric's green-tea example, with no human Nrf2 data, so the bottom of the 2–3 band = 2"
     },
     "fats": {
      "score": null,
@@ -16332,14 +16460,18 @@
      "label": "USDA FoodData Central: Beverages, tea, black, brewed, prepared with tap water (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173227/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Corrected the Phenol-Explorer value (≈104→101.4 mg/100 mL; polyphenols 250→243 mg); score 7 unchanged. Nrf2 2 kept as a same-plant extension of the green-tea anchor."
+   }
   },
   {
    "id": "coffee-brewed",
    "name": "Coffee (brewed, filtered)",
    "group": "drinks",
    "serving": "1 cup (240 mL, 8 fl oz)",
-   "highlight": "The biggest polyphenol source in most diets and one of the few Nrf2 foods with human data; a mug-sized serving tips over the caffeine line.",
+   "highlight": "A major polyphenol source (about 240 mg of chlorogenic acids per 8 oz cup) and one of the few Nrf2 foods with human data; mugs and café sizes pass the caffeine line.",
    "nutrients": {
     "kcal": 2,
     "fiber_g": 0,
@@ -16355,18 +16487,18 @@
     "b12_ug": 0,
     "vit_c_mg": 0,
     "iodine_ug": null,
-    "polyphenols_mg": 515,
+    "polyphenols_mg": 240,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
-     "score": 9,
-     "why": "Phenol-Explorer chromatography 215 mg/100 mL (chlorogenic acids) → ≈515 mg per cup (9); not a fruit or vegetable serving (0) = 9"
+     "score": 7,
+     "why": "Phenol-Explorer's Arabica filter coffee is 89 mg/100 mL by chromatography (213 mg per 240 mL), and adding the 3-caffeoylquinic acid that entry lacks gives ≈260 mg; ≈240 mg used (7). The generic 'Coffee beverage [Filter]' mean (215 mg/100 mL → 515 mg) pools isomer means from different, stronger brews (its 3- and 4-CQA nearly equal 5-CQA, which is atypical) and sits above Clifford's 70–350 mg per cup, so it isn't used. Robusta-heavy or very strong brews (Robusta filter 205 mg/100 mL) can exceed 300 mg; not a fruit or vegetable serving (0) = 7"
     },
     "nrf2": {
      "score": 3,
-     "why": "Rubric anchor band 2–3 for coffee; coffee raised Nrf2 nuclear translocation in human blood cells (Boettler 2011), so 3 = 3"
+     "why": "Rubric band 2–3 for coffee, 3 where human data exist: in a 4-week pilot trial (29 adults, 750 mL/day), coffee raised Nrf2 transcription in blood lymphocytes, with wide individual variation (Volz et al. 2012) = 3"
     },
     "fats": {
      "score": null,
@@ -16382,12 +16514,12 @@
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; caffeine ≈95 mg per 8 fl oz (just under the >100 mg penalty; a 12–16 oz mug or strong brew passes it) = 1"
+     "why": "Base 1; caffeine ≈95 mg per 8 fl oz (FDC 40 mg/100 g × 237 g), just under the strict >100 mg penalty, so no deduction. A 12 oz mug (≈140 mg) or a 16 oz café cup (≈190 mg) would take −1 = 1"
     }
    },
    "best_prep": "Paper-filtered, light-to-medium roast keeps the most chlorogenic acids and removes cafestol [coffee]; drink it black or with milk, and keep it away from iron supplements.",
    "watch_outs": [
-    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "[caffeine-fertility] An 8 oz cup (≈95 mg) sits just under the 100 mg per-serving scoring line, but a 12 oz mug has ≈140 mg, a 16 oz café coffee ≈190 mg and a double espresso ≈125 mg, so real servings often pass it; keep to ≤200 mg a day in pregnancy and when trying to conceive.",
     "Unfiltered coffee (French press, Turkish, boiled) raises LDL cholesterol via cafestol.",
     "Roasting forms some acrylamide; normal intake stays well within studied ranges [acrylamide].",
     "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency].",
@@ -16405,14 +16537,30 @@
      "url": "http://phenol-explorer.eu/contents/food/552"
     },
     {
-     "label": "Boettler et al. 2011, coffee constituents and Nrf2 nuclear translocation (J Nutr Biochem)",
-     "url": "https://doi.org/10.1016/j.jnutbio.2010.03.011"
-    },
-    {
      "label": "USDA FoodData Central: Beverages, coffee, brewed, prepared with tap water (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171890/nutrients"
+    },
+    {
+     "label": "Phenol-Explorer: Arabica coffee beverage [Filter] (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/662"
+    },
+    {
+     "label": "Phenol-Explorer: Robusta coffee beverage [Filter] (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/666"
+    },
+    {
+     "label": "Clifford 1999, Chlorogenic acids and other cinnamates: nature, occurrence and dietary burden (J Sci Food Agric 79:362)",
+     "url": "https://doi.org/10.1002/(SICI)1097-0010(19990301)79:3<362::AID-JSFA256>3.0.CO;2-D"
+    },
+    {
+     "label": "Volz et al. 2012, coffee and the Nrf2/ARE pathway in vitro and in a human pilot study (J Agric Food Chem 60:9631)",
+     "url": "https://doi.org/10.1021/jf302258u"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Polyphenols 515→240 mg and plants 9→7. The 515 mg came from Phenol-Explorer's generic filter-coffee mean, which pools isomer means from different, stronger brews and exceeds the literature range; the Arabica filter entry (213 mg/240 mL, ≈260 mg once 3-CQA is added) is used instead. Nrf2 3 kept, but the evidence was mis-cited: Boettler 2011 is a cell study, so it was replaced with the Volz 2012 human pilot (Nrf2 transcription in lymphocytes). Egg 1 kept under the strict >100 mg rule (≈95 mg per 8 oz); the why and the caffeine watch-out now say that 12–16 oz mugs and double espressos go over."
+   }
   },
   {
    "id": "espresso",
@@ -16462,12 +16610,12 @@
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; caffeine ≈64 mg per single shot (no penalty; a double ≈128 mg would be −1) = 1"
+     "why": "Base 1; caffeine ≈63 mg per 30 mL single shot (FDC 212 mg/100 g), no penalty; a double (≈125 mg) would take −1 = 1"
     }
    },
    "best_prep": "Drink as a single shot or with milk; count a café 'double' as about 130 mg caffeine.",
    "watch_outs": [
-    "[caffeine-fertility] Caffeine counts toward the ≤200 mg/day limit advised in pregnancy and when trying to conceive.",
+    "[caffeine-fertility] A single shot is ≈63 mg, but a café 'double' (≈125 mg) or several shots pass the 100 mg per-serving line; keep to ≤200 mg a day in pregnancy and when trying to conceive.",
     "Espresso is unfiltered and carries some cafestol; several shots a day have a small LDL-raising effect.",
     "Tea and coffee polyphenols cut non-heme iron absorption; drink them between meals if iron is low [iron-deficiency]."
    ],
@@ -16484,7 +16632,11 @@
      "label": "USDA FoodData Central: Beverages, coffee, brewed, espresso, restaurant-prepared (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171891/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving 30 mL single shot confirmed (FDC 171891, 1 fl oz = 29.6 g). Polyphenols ≈90 mg kept (5): consistent with Crozier et al. 2012 (24–422 mg chlorogenic acids per café serving) and ≈3× filter-coffee strength (≈3 mg/mL). Caffeine 63 mg (no penalty); the watch-out now says that a double goes over 100 mg."
+   }
   },
   {
    "id": "hibiscus-tea",
@@ -16507,14 +16659,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0,
     "iodine_ug": null,
-    "polyphenols_mg": 50,
+    "polyphenols_mg": 45,
     "lycopene_mg": 0,
     "gl": null
    },
    "scores": {
     "plants": {
      "score": 3,
-     "why": "No Phenol-Explorer entry; anthocyanins plus phenolic acids estimated at ≈30–60 mg per cup (≈50 mg; varies widely with steep strength) (3); not a fruit or vegetable serving (0) = 3"
+     "why": "No Phenol-Explorer entry; dried calyces hold ≈1.7–2.5% anthocyanins plus phenolic acids and flavonols (Da-Costa-Rocha 2014), so 1.5–2 g steeped (≈70% extracted) gives ≈30–60 mg; ≈45 mg used (estimate) (3). Strong 'agua de jamaica' made with 5–10 g a cup would score higher; not a fruit or vegetable serving (0) = 3"
     },
     "nrf2": {
      "score": 1,
@@ -16551,8 +16703,20 @@
     {
      "label": "USDA FoodData Central: Beverages, tea, hibiscus, brewed (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/171946/nutrients"
+    },
+    {
+     "label": "Da-Costa-Rocha et al. 2014, Hibiscus sabdariffa L.: a phytochemical and pharmacological review (Food Chem 165:424)",
+     "url": "https://doi.org/10.1016/j.foodchem.2014.05.002"
+    },
+    {
+     "label": "McKay et al. 2010, hibiscus tea lowers blood pressure in adults (J Nutr 140:298)",
+     "url": "https://doi.org/10.3945/jn.109.115097"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Polyphenol estimate 50→45 mg (score 3 unchanged) with its basis and arithmetic shown; added sources for calyx composition (Da-Costa-Rocha 2014) and the blood-pressure claim (McKay 2010), which had none. Pregnancy watch-out confirmed."
+   }
   },
   {
    "id": "hot-cocoa-unsweetened",
@@ -16649,7 +16813,11 @@
      "label": "USDA FoodData Central: Cocoa, dry powder, unsweetened (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169593/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Recomputed from FDC 170872 (244 g 1% milk) + 169593 (5.4 g cocoa): kcal 115, carb 15.3 g, fibre 2.0 g, sat 2.0 g, zinc 1.39 mg (below 1.5), iodine 84 µg (ODS), B12 1.15 µg. Polyphenols 194 mg checked for double counting (see cocoa powder). All scores unchanged."
+   }
   },
   {
    "id": "red-wine",
@@ -16658,9 +16826,9 @@
    "serving": "1 standard glass (5 fl oz, 150 mL)",
    "highlight": "Polyphenol-rich, but the alcohol outweighs them for sperm, eggs and pregnancy; the resveratrol dose is tiny next to supplement trials.",
    "nutrients": {
-    "kcal": 128,
+    "kcal": 125,
     "fiber_g": 0,
-    "carb_g": 3.9,
+    "carb_g": 3.8,
     "sat_fat_g": 0,
     "epa_dha_mg": 0,
     "ala_g": null,
@@ -16672,14 +16840,14 @@
     "b12_ug": 0,
     "vit_c_mg": 0,
     "iodine_ug": null,
-    "polyphenols_mg": 163,
+    "polyphenols_mg": 193,
     "lycopene_mg": 0,
     "gl": 1
    },
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Phenol-Explorer chromatography 108 mg/100 mL (anthocyanins, flavanols, phenolic acids) → ≈163 mg per glass (7); not a fruit serving (0) = 7"
+     "why": "Phenol-Explorer chromatography 108 mg/100 mL (anthocyanins, catechin, epicatechin, procyanidin dimers and trimers, phenolic acids) plus proanthocyanidin tetramers and larger by normal-phase HPLC (6.7 + 5.0 + 11.0 = 22.7 mg/100 mL; monomers to trimers left out because chromatography already counts them) = 131 mg/100 mL → ≈193 mg per 147 mL glass (7); not a fruit serving (0) = 7"
     },
     "nrf2": {
      "score": 1,
@@ -16721,7 +16889,11 @@
      "label": "USDA FoodData Central: Alcoholic beverage, wine, table, red (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173190/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "kcal 128→125 and carb 3.9→3.8 g (FDC 173190, 5 fl oz = 147 g). Polyphenols 163→193 mg: proanthocyanidin tetramers and larger were added, leaving out the normal-phase monomer–trimer rows that chromatography already counts. Plants stays 7. Alcohol penalties (sperm −3, egg −4) confirmed."
+   }
   },
   {
    "id": "sugar-sweetened-soda",
@@ -16737,9 +16909,9 @@
     "epa_dha_mg": 0,
     "ala_g": null,
     "folate_ug_dfe": 0,
-    "choline_mg": 0,
-    "iron_mg": 0.1,
-    "zinc_mg": 0,
+    "choline_mg": 1.1,
+    "iron_mg": 0.07,
+    "zinc_mg": 0.33,
     "selenium_ug": 0,
     "b12_ug": 0,
     "vit_c_mg": 0,
@@ -16793,7 +16965,11 @@
      "label": "USDA FoodData Central: Beverages, carbonated, cola, regular (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Serving 12 fl oz can (FDC 370 g) confirmed: carb 38.5 g, kcal 155, GL ≈24; zinc 0→0.33 mg, choline 0→1.1 mg, iron 0.1→0.07 mg from FDC 174852. Scores unchanged."
+   }
   },
   {
    "id": "dark-chocolate-85",
@@ -16823,7 +16999,7 @@
    "scores": {
     "plants": {
      "score": 9,
-     "why": "Phenol-Explorer dark chocolate ≈1,890 mg/100 g flavanols by normal-phase HPLC (monomers to polymers) plus ≈50 mg/100 g other phenolics by chromatography ≈1,940 mg/100 g → ≈542 mg per 28 g (9); not a fruit serving (0) = 9"
+     "why": "Phenol-Explorer dark chocolate, flavanols by normal-phase HPLC: monomers to trimers 912 + tetramers–hexamers 390 (the aggregate row; the separate 4-, 5- and 6-mer rows overlap it and are left out) + 7–10-mers 163 + polymers 421 ≈1,886 mg/100 g, plus chromatography-only phenolics (quercetin, ferulic acid) 49 mg/100 g ≈1,935 mg/100 g → ≈542 mg per 28 g (9); the chromatography catechin and procyanidin rows aren't added again; not a fruit serving (0) = 9"
     },
     "nrf2": {
      "score": 2,
@@ -16873,7 +17049,11 @@
      "label": "USDA FoodData Central: Chocolate, dark, 70-85% cacao solids (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170273/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Checked for double counting: the 542 mg uses one non-overlapping normal-phase series (the 4–6-mer aggregate, not the overlapping single-size rows that would add ≈600 mg) plus only the non-flavanol chromatography phenolics; why spelled out. FDC 170273 per 28.35 g verified (iron 3.37 mg, sat 6.95 g). Scores unchanged."
+   }
   },
   {
    "id": "cocoa-powder",
@@ -16903,7 +17083,7 @@
    "scores": {
     "plants": {
      "score": 7,
-     "why": "Phenol-Explorer cocoa powder ≈3,500 mg/100 g flavanols by normal-phase HPLC plus ≈85 mg/100 g other phenolics ≈3,590 mg/100 g → ≈194 mg per 5.4 g (7) = 7"
+     "why": "Phenol-Explorer cocoa powder, flavanols by normal-phase HPLC (monomers 357 + dimers 127 + trimers 121 + 4–6-mers 912 + 7–10-mers 581 + polymers 1,405 = 3,503 mg/100 g; the separate 4-mer row overlaps the 4–6 aggregate and is left out) plus non-flavanol phenolics (caffeoyl-aspartic acid by chromatography 38, phenolic acids after hydrolysis 48) ≈3,588 mg/100 g → ≈194 mg per 5.4 g (7); the chromatography catechin and procyanidin rows aren't added again = 7"
     },
     "nrf2": {
      "score": 2,
@@ -16946,7 +17126,11 @@
      "label": "USDA FoodData Central: Cocoa, dry powder, unsweetened (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169593/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Checked for double counting: the 194 mg uses the normal-phase flavanol series once (the overlapping 4-mer row is left out) and adds only non-flavanol phenolics; why spelled out. FDC 169593 per 5.4 g verified (carb 3.13 g, so glycemic is scored). Scores unchanged."
+   }
   },
   {
    "id": "apple-cider-vinegar",
@@ -17017,7 +17201,11 @@
      "label": "USDA FoodData Central: Vinegar, cider (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173469/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 173469 and Phenol-Explorer vinegar 13.8 mg/100 mL; no changes."
+   }
   },
   {
    "id": "miso",
@@ -17090,7 +17278,11 @@
      "label": "USDA FoodData Central: Miso (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/172442/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 172442 per 17 g (sodium 634 mg, fibre 0.9 g) and Phenol-Explorer miso chromatography 63 mg/100 g (≈11 mg); sodium watch-out confirmed; no changes."
+   }
   },
   {
    "id": "kimchi",
@@ -17120,11 +17312,11 @@
    "scores": {
     "plants": {
      "score": 1,
-     "why": "No Phenol-Explorer entry; napa cabbage and chilli contribute very little by chromatography, estimated under 5 mg (1); 75 g is below the 80 g counted-serving size (0) = 1"
+     "why": "No Phenol-Explorer entry for kimchi; napa cabbage has only 0.1 mg/100 g by chromatography after hydrolysis, and the chilli powder and garlic in 75 g add a few mg at most → estimated under 5 mg (1); 75 g is below the 80 g counted-serving size (0) = 1"
     },
     "nrf2": {
      "score": 5,
-     "why": "Anchor for napa cabbage and radish is 6–7, but fermentation breaks glucosinolates down mainly to nitriles, ascorbigen and indoles rather than sulforaphane-type isothiocyanates [indole-3-carbinol-dim]; garlic adds allyl sulfides; scored 5 by judgement = 5"
+     "why": "No rubric anchor for fermented crucifers. Raw napa cabbage and radish would score 6–7, but lactic fermentation breaks down nearly all the glucosinolates within days, mostly to nitriles, ascorbigen and indoles rather than sulforaphane-type isothiocyanates [indole-3-carbinol-dim]. With no substrate left, mustard add-back can't restore them; garlic adds allyl sulfides. Judged level with the garlic anchor = 5"
     },
     "fats": {
      "score": null,
@@ -17158,8 +17350,16 @@
     {
      "label": "USDA FoodData Central: Cabbage, kimchi (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/170392/nutrients"
+    },
+    {
+     "label": "Phenol-Explorer: Napa cabbage, raw (polyphenol contents)",
+     "url": "http://phenol-explorer.eu/contents/food/323"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nrf2 5 upheld: the glucosinolate substrate is gone after fermentation, so the crucifer anchors (6–7) don't apply and the cooked-crucifer mustard rule can't help; indoles, ascorbigen and garlic sulfides put it level with garlic (5). Polyphenol estimate now cites Phenol-Explorer napa cabbage. FDC 170392 per 75 g verified (sodium 374 mg, folate 39 µg, iron 1.9 mg)."
+   }
   },
   {
    "id": "sauerkraut",
@@ -17189,11 +17389,11 @@
    "scores": {
     "plants": {
      "score": 1,
-     "why": "Phenol-Explorer chromatography ≈0.4 mg/100 g (Folin 67 mg/100 g, which overstates) → under 1 mg (1); 71 g is below the 80 g counted-serving size (0) = 1"
+     "why": "Phenol-Explorer sauerkraut 0.4 mg/100 g by chromatography after hydrolysis (Folin 67 mg/100 g, which overstates) → under 1 mg (1); 71 g is below the 80 g counted-serving size (0) = 1"
     },
     "nrf2": {
      "score": 5,
-     "why": "Cabbage anchor is 7, but fermentation converts glucosinolates mainly to nitriles, ascorbigen and indoles rather than sulforaphane-type isothiocyanates [indole-3-carbinol-dim]; scored 5 by judgement = 5"
+     "why": "No rubric anchor for fermented crucifers. The cabbage anchor is 7, but lactic fermentation breaks down nearly all the glucosinolates, mostly to nitriles, ascorbigen and indoles rather than sulforaphane-type isothiocyanates [indole-3-carbinol-dim], and mustard add-back can't work without the substrate. Judged level with the garlic anchor = 5"
     },
     "fats": {
      "score": null,
@@ -17233,7 +17433,11 @@
      "label": "USDA FoodData Central: Sauerkraut, canned, solids and liquids (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169279/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Nrf2 5 upheld (same reasoning as kimchi). The polyphenol why now says the 0.4 mg/100 g is a chromatography-after-hydrolysis value. FDC 169279 per 71 g verified (carb 3.04 g, fibre 2.1 g, sodium 469 mg). Scores unchanged."
+   }
   },
   {
    "id": "nutritional-yeast-fortified",
@@ -17245,12 +17449,12 @@
     "kcal": 56,
     "fiber_g": 2.8,
     "carb_g": 4.7,
-    "sat_fat_g": 0.2,
+    "sat_fat_g": 0.19,
     "epa_dha_mg": 0,
     "ala_g": null,
     "folate_ug_dfe": null,
     "choline_mg": null,
-    "iron_mg": null,
+    "iron_mg": 0.9,
     "zinc_mg": null,
     "selenium_ug": null,
     "b12_ug": 22.5,
@@ -17279,17 +17483,17 @@
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; fortified folic acid ≈420 µg per ¼ cup (+1, check label); zinc and selenium vary by brand and aren't counted = 2"
+     "why": "Base 1; folate from added folic acid ≈420 µg per ¼ cup on this brand's label (+1; fortification varies, so check the label); zinc and selenium vary by brand and aren't counted = 2"
     },
     "egg": {
      "score": 2,
-     "why": "Base 1; fortified B12 ≈22 µg (+1); folate is fortification, which the rubric ignores (0) = 2"
+     "why": "Base 1; fortified B12 ≈22 µg (+1); folate is fortification, which the rubric ignores (0); iron ≈0.9 mg (below 3 mg) = 2"
     }
    },
    "best_prep": "Sprinkle it on popcorn, pasta, beans, tofu scrambles or roast vegetables as a cheesy, salt-saving seasoning; for vegans it's a practical daily B12 source alongside a supplement [vitamin-b12-folate-status].",
    "watch_outs": [
-    "Unfortified brands contain little or no B12; values here are from a fortified US brand (FDC branded data; ODS gives 8.3–24 µg B12 per ¼ cup across brands).",
-    "Some brands add 5–10 mg vitamin B6 per serving; with a B-complex this can exceed the EU upper limit (12 mg a day), and long-term high B6 can cause neuropathy.",
+    "Fortification varies a lot by brand, and unfortified yeast has little or no B12. Values here are one fortified US brand (Wegmans, FDC branded label data scaled from 16 g to 15 g); ODS gives 8.3–24 µg B12 per ¼ cup across brands.",
+    "This brand's label works out to ≈11 mg vitamin B6 per ¼ cup, close to the EU adult upper limit of 12 mg a day (EFSA 2023) on its own; with a B-complex or multivitamin it can go over, and long-term high B6 can cause neuropathy.",
     "Purine-rich: may aggravate gout."
    ],
    "tags": [
@@ -17305,7 +17509,11 @@
      "label": "USDA FoodData Central branded food: nutritional yeast, Wegmans (fortified)",
      "url": "https://fdc.nal.usda.gov/food-details/2467967/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Branded FDC 2467967 (Wegmans) checked: per 15 g kcal 56, carb 4.7 g, fibre 2.8 g, B12 22.5 µg confirmed; iron null→0.9 mg and sat fat 0.2→0.19 g added from the label. The watch-out now says plainly that fortification varies by brand, and the B6 line uses this brand's figure (≈11 mg per ¼ cup, vs the EU upper limit of 12 mg/day). Scores unchanged."
+   }
   },
   {
    "id": "honey",
@@ -17377,7 +17585,11 @@
      "label": "USDA FoodData Central: Honey (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169640/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 169640 per 21 g (carb 17.3 g, GL ≈11 → +1) and the floor arithmetic; the infant-botulism watch-out is present. No changes."
+   }
   },
   {
    "id": "maple-syrup",
@@ -17447,7 +17659,11 @@
      "label": "USDA FoodData Central: Syrups, maple (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169661/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 169661 per 20 g (zinc 0.29 mg, GL ≈7). No changes."
+   }
   },
   {
    "id": "white-sugar",
@@ -17518,7 +17734,11 @@
      "label": "USDA FoodData Central: Sugars, granulated (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified FDC 169655 (1 tbsp 12.5–12.6 g, GL ≈8). No changes."
+   }
   },
   {
    "id": "iodized-salt",
@@ -17590,7 +17810,11 @@
      "label": "USDA FoodData Central: Salt, table (SR Legacy)",
      "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients"
     }
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Verified ODS iodine table (iodized salt ¼ tsp = 78 µg) and sodium ≈580 mg per 1.5 g. No changes."
+   }
   }
  ]
 }
