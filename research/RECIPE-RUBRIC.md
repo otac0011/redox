@@ -22,7 +22,7 @@ Factors: [high-fruit-vegetable-intake] [blueberries] [berries-other] [cocoa-flav
   - cooked tomato product ≥ ½ cup
   - dark leafy greens ≥ 1 cup raw or ½ cup cooked
   - coffee, green or black tea, or matcha as an ingredient
-  - anthocyanin vegetables or fruit: red onion, red cabbage, pomegranate, cherries, purple produce
+  - anthocyanin vegetables or fruit ≥ 25 g per serving (about ¼ red onion or ⅓ cup shredded red cabbage): red onion, red cabbage, pomegranate seeds, cherries, purple produce. Syrups and molasses don't count.
 - **Diversity:** ≥4 different plant families in the dish = +1.
 
 ### 2. Hormetic compounds: Nrf2 and sulfur compounds (`nrf2`)

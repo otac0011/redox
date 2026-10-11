@@ -6,7 +6,7 @@ The owner asked for:
 
 1. About 30 recipes with a complexity filter, plus a 1–10 bar graph per category for oxidative stress and fertility at the top of each, then the ingredients, then the steps. Each recipe was to be borrowed from a well-rated online recipe (not invented) and double-checked for both its rating and its quality.
 2. A very long list of single foods (chickpeas, sweet potatoes and so on) rated in the same categories.
-3. More dinners rich in polyphenols and plant hormetic compounds.
+3. More dinners rich in polyphenols and plant hormetic compounds. Twenty were added (sets D and E), for 50 recipes in all.
 
 ## What was built
 
@@ -35,6 +35,10 @@ The owner asked for:
   - "serves 4 to 6" is scored at 4
   - corn tortillas count as whole grain
   - produce alone is only one profertility component
+  - white potatoes score 0 as a starch, while sweet potato scores +1 and counts as a vegetable
+  - where a recipe offers options, the first-listed one is scored
+  - purple produce earns the anthocyanin point only at 25 g or more per serving
+  - shrimp omega-3 uses FDC SR 171971 (≈0.28 g/100 g), which matches NIH ODS; the newer 175180 entry (0.03 g) is out of line
 - **Food-rubric edge cases.**
   - The fat score is null only when a food has under 3 g fat *and* under 100 mg EPA+DHA, so lean fish rich in omega-3 are scored.
   - Blood sugar is null for foods whose only carbohydrate is lactose or glycogen (dairy, shellfish, liver), because a low score there would mislead.

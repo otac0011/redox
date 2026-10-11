@@ -32,7 +32,7 @@
    - rainbow trout ~1.0 g
    - mussels ~0.8 g
    - cod ~0.2 g
-   - shrimp ~0.3 g
+   - shrimp ~0.3 g (FDC SR 171971, moist heat, matching the ODS table of ~240 mg per 3 oz; the newer FDC entry 175180 lists ~0.03 g, which is out of line with the literature, so don't use it)
    - canned light tuna ~0.25 g
    - egg: ~147 mg choline, ~0.5 µg B12, 15 µg Se, 22 µg folate
    - cooked lentils (1 cup / 198 g): ~358 µg folate (181 µg per 100 g), 6.6 mg iron, 15.6 g fibre, 2.5 mg zinc

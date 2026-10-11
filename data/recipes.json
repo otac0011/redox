@@ -4815,7 +4815,7 @@
   {
    "id": "turmeric-ginger-chicken-soup-kale",
    "title": "Turmeric-ginger chicken soup with kale",
-   "summary": "A chicken, sweet potato and lacinato kale soup gently simmered with ginger and turmeric; it is gentle on blood sugar and cooked gently, but butter and full-fat coconut milk sink the fat score, and the turmeric and garlic are too sparse per bowl to earn Nrf2 points.",
+   "summary": "A chicken, sweet potato and lacinato kale soup gently simmered with ginger and turmeric. It is cooked gently and moderate on blood sugar, but butter and full-fat coconut milk sink the fat score, and the turmeric and garlic are too sparse per bowl to earn Nrf2 points.",
    "source": {
     "title": "Ginger Chicken Soup Recipe with Turmeric",
     "author": "Cassy Joy Garcia",
@@ -4826,7 +4826,7 @@
     "checked": "2026-10-11",
     "note": "Rating and count read from the page's JSON-LD aggregateRating."
    },
-   "changes": "Gram and mL conversions added; the kale leaf weight (≈170 g from one de-stemmed head) is an estimate. The original says 'butter or olive oil'; it is scored with butter, the first option. Steps reworded.",
+   "changes": "Gram and mL conversions added; the kale leaf weight (≈170 g from one de-stemmed head) is an estimate. The original says 'butter or olive oil'; it is scored with butter, the first option. Sweet potato is scored as a starchy vegetable (+1 as starch) and counted as produce, per the potato convention. Steps reworded.",
    "complexity": "medium",
    "active_min": 30,
    "total_min": 65,
@@ -4837,24 +4837,24 @@
     "make-ahead"
    ],
    "nutrients": {
-    "kcal": 390,
+    "kcal": 385,
     "fiber_g": 4.2,
     "added_sugar_g": 0,
     "sat_fat_g": 10.4,
     "epa_dha_mg": 0,
     "folate_ug_dfe": 56,
-    "choline_mg": 139,
-    "iron_mg": 3.5,
-    "zinc_mg": 1.8,
-    "selenium_ug": 36,
-    "b12_ug": 0.4,
-    "vit_c_mg": 30,
-    "fruit_veg_servings": 1.7
+    "choline_mg": 140,
+    "iron_mg": 3.4,
+    "zinc_mg": 1.7,
+    "selenium_ug": 35,
+    "b12_ug": 0.3,
+    "vit_c_mg": 32,
+    "fruit_veg_servings": 1.8
    },
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Sweet potato 76 g + kale ≈28 g + celery 20 g + onion 12 g ≈136 g = 1.7 servings, counting sweet potato as a vegetable (only white potatoes are excluded) (+2) [high-fruit-vegetable-intake]; kale ≈28 g raw ≈1⅓ cups per serving (+1) [leafy-greens]; turmeric ⅓ tsp + ginger ½ tsp + a little thyme per serving is under 1 tsp dried / 1 tbsp fresh (0); scored with butter, so no EVOO (0); plant families: allium, carrot family (celery), morning glory (sweet potato), crucifer (kale), ginger family (ginger, turmeric), mint family (thyme), citrus, palm (coconut) ≥4 (+1). 2 + 1 + 1 = 4"
+     "why": "Sweet potato 76 g + kale ≈28 g + celery 20 g + onion 12 g + lemon juice 5 g + garlic and ginger 2.5 g ≈143 g = 1.8 servings; sweet potato counts as a vegetable serving under the potato convention (+2) [high-fruit-vegetable-intake]; kale ≈28 g raw ≈1⅓ cups per serving (FDC: 1 cup = 21 g) (+1) [leafy-greens]; turmeric ⅓ tsp dried + ginger ½ tsp fresh + a little thyme per serving is under 1 tsp dried / 1 tbsp fresh (0) [herbs-spices]; scored with butter, so no EVOO (0); plant families: allium, carrot family (celery), morning glory (sweet potato), crucifer (kale), ginger family (ginger, turmeric), mint family (thyme), citrus, palm (coconut) ≥4 (+1). 2 + 1 + 1 = 4"
     },
     "nrf2": {
      "score": 1,
@@ -4865,8 +4865,8 @@
      "why": "Base 2; no EPA+DHA, nuts or EVOO; butter is the cooking fat and full-fat coconut milk the largest fat source, and saturated fat is ≈10.4 g per serving (coconut milk 7.1 g, butter 2.4 g, chicken 0.9 g) (−2) [cooking-oil-choice]. 2 − 2 = 0, floored to 1. (The site's panel says 8.7 g saturated fat; FDC canned coconut milk gives more.)"
     },
     "glycemic": {
-     "score": 7,
-     "why": "Fibre ≈4.2 g (sweet potato 2.3, kale 1.1, celery, onion and turmeric 0.8) (+2) [dietary-fiber-microbiome]; no grain, and the only starch is whole sweet potato (+2); no added sugar (+2); the sweet potato comes with chicken and coconut milk (+1). 2 + 2 + 2 + 1 = 7"
+     "score": 6,
+     "why": "Fibre ≈4.2 g (sweet potato 2.3, kale 1.2, celery 0.3, turmeric 0.2, onion 0.2) (+2) [dietary-fiber-microbiome]; the main starch is sweet potato, a starchy vegetable (+1 under the potato convention) [glycemic-control]; no added sugar (+2); the sweet potato comes with chicken and coconut milk (+1). 2 + 1 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 10,
@@ -4874,11 +4874,11 @@
     },
     "sperm": {
      "score": 2,
-     "why": "Base 1; no omega-3, nuts or tomato; zinc ≈1.8 mg (0) [zinc-status]; selenium ≈36 µg, mostly from 151 g chicken breast (+1) [selenium-supplement]; folate ≈56 µg (0); produce 1.7 servings (0). 1 + 1 = 2"
+     "why": "Base 1; no omega-3, nuts or tomato; zinc ≈1.7 mg (0) [zinc-status]; selenium ≈35 µg, almost all from 151 g raw chicken breast (×22.8 µg/100 g ≈34) (+1) [selenium-supplement]; folate ≈56 µg (0); produce 1.8 servings (0). 1 + 1 = 2"
     },
     "egg": {
      "score": 2,
-     "why": "Base 1; folate ≈56 µg (kale 17, chicken 14, sweet potato 8, celery 7, coconut milk 5, other 5) (+1) [folic-acid]; no fish (0); iron ≈3.5 mg, under 4 (0) [iron-egg]; choline ≈139 mg, under 150 (0); no named iodine source (0); B12 ≈0.4 µg (0); profertility: produce under 2 servings and no other component (0). 1 + 1 = 2"
+     "why": "Base 1; folate ≈56 µg (kale 18, chicken 14, sweet potato 8, celery 7, coconut milk 5, other 4) (+1) [folic-acid]; no fish (0); iron ≈3.4 mg, under 4 (0) [iron-egg]; choline ≈140 mg (chicken 124, sweet potato 9, other 7), under 150 (0); no named iodine source (0); B12 ≈0.3 µg (0); profertility: produce under 2 servings and no other component (0). 1 + 1 = 2"
     }
    },
    "ingredients": [
@@ -4905,10 +4905,10 @@
     }
    ],
    "steps": [
-    "Melt the butter in a large heavy pot over medium-high heat. Brown the chicken breasts for 3–5 minutes on each side, then lift them onto a plate.",
-    "Add the onion and celery to the pot and cook for 5–7 minutes, until the onion is translucent and lightly coloured. Stir in the garlic and ginger for about 1 minute.",
+    "Heat the butter in a big, heavy pot over medium-high until it melts. Sear the chicken breasts 3–5 minutes per side until browned, then set them on a plate.",
+    "Cook the onion and celery in the same pot for 5–7 minutes, until softened, translucent and lightly browned, then stir in the garlic and ginger for about a minute.",
     "Put the chicken back in with the sweet potato, then add the broth, thyme, salt, pepper, bay leaf and turmeric.",
-    "Cover and simmer over medium-low heat for 30–40 minutes, until the chicken pulls apart easily with a fork (165 °F / 74 °C).",
+    "Put the lid on, lower the heat to medium-low and let it bubble gently for 30–40 minutes, until the chicken is tender enough to shred (165 °F / 74 °C).",
     "Lift out the chicken, shred it with two forks and return it to the pot. Stir in the coconut milk and kale and cook 2–3 minutes, until the kale wilts.",
     "Add the lemon juice, taste, and adjust the salt and pepper before serving."
    ],
@@ -4924,12 +4924,16 @@
     "Saturated fat: butter plus full-fat coconut milk puts a bowl at about 10 g.",
     "Sodium depends on the broth; use low-sodium broth and salt to taste.",
     "Allergens: dairy (butter; use olive oil to avoid it), coconut"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.7/226, ingredients and method confirmed. Glycemic 7→6: sweet potato as the main starch now scores +1, not +2 (new potato convention). Nutrients refined from FDC (choline 140 mg, Se 35 µg); steps 1, 2 and 4 reworded because they copied runs of the original."
+   }
   },
   {
    "id": "wild-salmon-sauce-verte-green-beans",
    "title": "Wild salmon with sauce verte, green beans and potatoes",
-   "summary": "David Tanis's gently baked wild salmon on green beans with a caper-herb sauce verte, new potatoes and chopped egg. Plenty of omega-3, choline and B12 drive high fat and fertility scores; there are no crucifers or garlic, and 'olive oil' isn't specified as extra-virgin.",
+   "summary": "David Tanis's gently baked wild salmon on green beans with a caper-herb sauce verte, boiled new potatoes and chopped egg. Scored with king salmon, the first fish named: lots of omega-3, choline, folate and B12 drive top fat and fertility scores, but there are no crucifers or garlic and the 'olive oil' isn't specified as extra-virgin.",
    "source": {
     "title": "Wild Salmon With Green Sauce",
     "author": "David Tanis",
@@ -4938,9 +4942,9 @@
     "rating": 5,
     "rating_count": 818,
     "checked": "2026-10-11",
-    "note": "NYT Cooking shows only a rounded average: 5 stars from 818 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
+    "note": "NYT Cooking shows only a rounded star average: 5 stars from 818 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
-   "changes": "Serves 4 to 6 in the original; scored at 4. The ingredient list says only 'olive oil'; the amounts (1 tbsp for the salmon, ½ cup for the sauce) come from the method. The optional lettuce lining isn't scored. EPA+DHA is estimated for sockeye, the leaner of the two salmon named. Conversions added; steps reworded.",
+   "changes": "Serves 4 to 6 in the original, and the nutrition panel doesn't settle it, so it's scored at 4. The ingredient list says only 'olive oil'; the amounts (1 tbsp for the salmon, ½ cup for the sauce) come from the method. The optional lettuce lining isn't scored. Scored with king salmon, the first-listed option ('king or sockeye'). Conversions added; steps reworded.",
    "complexity": "involved",
    "active_min": 35,
    "total_min": 60,
@@ -4952,55 +4956,55 @@
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 745,
-    "fiber_g": 8.2,
+    "kcal": 785,
+    "fiber_g": 7.6,
     "added_sugar_g": 0,
-    "sat_fat_g": 6.2,
-    "epa_dha_mg": 1075,
-    "folate_ug_dfe": 91,
-    "choline_mg": 270,
-    "iron_mg": 2.7,
+    "sat_fat_g": 8.9,
+    "epa_dha_mg": 2080,
+    "folate_ug_dfe": 123,
+    "choline_mg": 250,
+    "iron_mg": 4.6,
     "zinc_mg": 2.0,
-    "selenium_ug": 53,
-    "b12_ug": 5.9,
-    "vit_c_mg": 48,
-    "fruit_veg_servings": 1.6
+    "selenium_ug": 66,
+    "b12_ug": 3.7,
+    "vit_c_mg": 45,
+    "fruit_veg_servings": 1.7
    },
    "scores": {
     "plants": {
      "score": 4,
-     "why": "Green beans 113 g + shallot 10 g + herbs ≈5 g ≈128 g = 1.6 servings; potatoes don't count (+2) [high-fruit-vegetable-intake]; parsley + chervil ½ cup ÷ 4 = 2 tbsp fresh per serving (+1) [herbs-spices]; the recipe says 'olive oil', not extra-virgin (0) [extra-virgin-olive-oil]; plant families: legume (beans), nightshade (potato), allium, carrot family (parsley, chervil), caper, citrus, crucifer (mustard), olive ≥4 (+1). 2 + 1 + 1 = 4"
+     "why": "Green beans 113 g + shallot 10 g + herbs ≈7 g + lemon juice ≈7 g + capers 2 g ≈139 g = 1.7 servings; potatoes don't count (+2) [high-fruit-vegetable-intake]; parsley + chervil ½ cup ÷ 4 = 2 tbsp fresh per serving (+1) [herbs-spices]; the recipe says 'olive oil', not extra-virgin (0) [extra-virgin-olive-oil]; plant families: legume (beans), nightshade (potato), allium, carrot family (parsley, chervil), caper, citrus, crucifer (mustard), olive ≥4 (+1). 2 + 1 + 1 = 4"
     },
     "nrf2": {
      "score": 1,
      "why": "Base 1; no crucifers, and 1 tsp Dijon ÷ 4 is not a meaningful mustard dose (0) [mustard-seed-myrosinase]; one shallot ÷ 4 ≈10 g, under ¼ onion, and no garlic (0) [garlic-alliums]; no turmeric. Total 1"
     },
     "fats": {
-     "score": 7,
-     "why": "Base 2; wild salmon 1½ lb ÷ 4 ≈125 g cooked flesh × 0.86 g/100 g (sockeye, FDC) ≈1,075 mg EPA+DHA (+5) [omega3-fish]; 9 tbsp 'olive oil' in all (≈2¼ tbsp per serving) isn't specified as extra-virgin (0) [extra-virgin-olive-oil]; no nuts; saturated fat ≈6 g. 2 + 5 = 7"
+     "score": 8,
+     "why": "Base 2; king salmon (first option) 1½ lb skin-on ÷ 4 ≈120 g cooked flesh × 1.74 g/100 g EPA+DHA (FDC chinook, cooked) ≈2,080 mg (+6) [omega3-fish]; 9 tbsp 'olive oil' in all (≈2¼ tbsp per serving) isn't specified as extra-virgin (0) [extra-virgin-olive-oil]; no nuts; saturated fat ≈8.9 g even if all the sauce is eaten (salmon 3.9, oil 4.2, egg 0.8), under 10 g. 2 + 6 = 8"
     },
     "glycemic": {
-     "score": 7,
-     "why": "Fibre ≈8.2 g (potatoes 4.1, beans 3.6, shallot, herbs and capers 0.5) (+4) [dietary-fiber-microbiome]; boiled potatoes are the starch, neither whole grain nor legume (0) [glycemic-control]; no added sugar (+2); the potatoes come with salmon and an oil-and-vinegar sauce (+1). 4 + 0 + 2 + 1 = 7"
+     "score": 6,
+     "why": "Fibre ≈7.6 g (potatoes 3.9, beans 3.0, shallot 0.3, herbs 0.2, capers and mustard 0.1), just under 8 (+3) [dietary-fiber-microbiome]; boiled white potatoes are the starch, which score 0 under the potato convention [glycemic-control]; no added sugar (+2); the potatoes come with salmon and an oil-and-vinegar sauce (+1). 3 + 0 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 10,
      "why": "Salmon baked at 350 °F (175 °C), ≤180 °C (10); potatoes and beans boiled (10). Total 10 [high-temperature-cooking]"
     },
     "sperm": {
-     "score": 5,
-     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈53 µg (salmon 44, egg 8) (+1) [selenium-supplement]; zinc ≈2.0 mg (0) [zinc-status]; folate ≈91 µg, under 100 (0); produce 1.6 servings (0). 1 + 3 + 1 = 5"
+     "score": 6,
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈66 µg (salmon 56, egg 8, vegetables 2) (+1) [selenium-supplement]; folate ≈123 µg (+1); zinc ≈2.0 mg (0) [zinc-status]; produce 1.7 servings (0). 1 + 3 + 1 + 1 = 6"
     },
     "egg": {
-     "score": 7,
-     "why": "Base 1; folate ≈91 µg (beans 37, potatoes 23, egg 11, salmon 9, parsley 6, other 5) (+1) [folic-acid]; EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; iron ≈2.7 mg (0) [iron-egg]; choline ≈270 mg (salmon 141, ½ egg 74, potatoes 31, beans 19) (+1); seafood and egg iodine (+1) [iodine-status]; B12 ≈5.9 µg (+1) [vitamin-b12-folate-status]; profertility: seafood only, produce 1.6 servings (0). 1 + 1 + 2 + 1 + 1 + 1 = 7"
+     "score": 9,
+     "why": "Base 1; folate ≈123 µg (salmon 42, beans 37, potatoes 23, ½ egg 11, parsley 6, shallot and lemon 4) (+2) [folic-acid]; EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; iron ≈4.6 mg (potatoes with skin 1.6, beans 1.1, salmon 1.1, egg 0.3, herbs and shallot 0.5) with ≈45 mg vitamin C in the dish (+1) [iron-egg]; choline ≈250 mg (salmon ≈120, ½ egg 74, potatoes 37, beans 17) (+1); seafood and egg iodine (+1) [iodine-status]; B12 ≈3.7 µg (+1) [vitamin-b12-folate-status]; profertility: seafood only, produce 1.7 servings (0). 1 + 2 + 2 + 1 + 1 + 1 + 1 = 9"
     }
    },
    "ingredients": [
     {
      "group": null,
      "items": [
-      "1½ lb (680 g) wild salmon fillet, such as king or sockeye, skin on",
+      "1½ lb (680 g) wild salmon fillet, such as king or sockeye, skin on (king is scored)",
       "Salt and pepper",
       "1 tbsp (15 mL) olive oil, for the salmon",
       "2 lb (907 g) new potatoes",
@@ -5027,29 +5031,32 @@
    ],
    "steps": [
     "Pull out any pin bones, season the salmon on both sides, set it skin-side down on a baking sheet and drizzle with 1 tbsp oil. Leave it at room temperature and heat the oven to 350 °F (175 °C).",
-    "Scrub the potatoes and boil them in well-salted water until tender, about 15 minutes. Drain and keep warm.",
+    "Scrub the potatoes, cover them with well-salted water and simmer about 15 minutes, until a knife slides in easily. Drain them and keep them warm.",
     "Trim the beans and simmer them in salted water for 3–5 minutes until tender, then spread them on a platter (or rinse briefly in cool water) to stop the cooking.",
     "For the sauce, cover the shallot with the vinegar and ½ tsp salt and let it stand 5 minutes. Stir in the lemon zest and juice, mustard and capers, then whisk in the ½ cup oil. Add the herbs and pepper just before serving.",
     "Bake the salmon, uncovered, for 10–12 minutes, until just cooked through (145 °F / 63 °C, or it flakes easily), and let it cool slightly.",
     "Season the beans, toss them with 2 tbsp of the sauce and pile them on a platter lined with lettuce, if using. Lift the salmon off its skin onto the beans, spoon 2 more tbsp sauce over it and scatter with the egg. Pass the potatoes and the rest of the sauce at the table."
    ],
    "boosts": [
-    "Make the sauce with extra-virgin olive oil: ≈2¼ tbsp per serving adds +2 fats and +1 plants [extra-virgin-olive-oil]",
-    "Choose king salmon: ≈1.7 g EPA+DHA per 100 g cooked, about 2,200 mg per serving (+1 fats) [omega3-fish]",
+    "Make the sauce and drizzle with extra-virgin olive oil: ≈2¼ tbsp per serving adds +2 fats (to the 10 cap) and +1 plants [extra-virgin-olive-oil]",
     "Line the platter with watercress instead of lettuce: ≥½ cup raw watercress per serving adds +3 Nrf2 [watercress-peitc]",
     "Grate 4 garlic cloves (1 per serving) into the sauce: +1 Nrf2 [garlic-alliums]",
-    "Swap the potatoes for warm lentils dressed with a spoonful of the sauce [legumes]"
+    "Swap the potatoes for warm lentils dressed with a spoonful of the sauce: legume starch (+2 glycemic) and much more fibre and folate [legumes]"
    ],
    "watch_outs": [
     "Pregnancy: bake the salmon to 145 °F / 63 °C (flakes easily) rather than 'just done'; the 9-minute eggs are fully cooked.",
     "Mercury: wild salmon is an FDA 'best choice' fish.",
     "Allergens: fish, egg (Dijon mustard is also a listed allergen in the EU and Canada)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/818 (rounded), ingredients and method confirmed; 'olive oil' is plain in the original. Rescored with king salmon, the first-listed option: fats 7→8 (≈2,080 mg EPA+DHA), sperm 5→6 and egg 7→9 (folate ≈123 µg, iron ≈4.6 mg with vitamin C). Glycemic 7→6: fibre ≈7.6 g, not 8.2. Sockeye boost removed; step 2 reworded."
+   }
   },
   {
    "id": "roasted-broccoli-shrimp",
    "title": "Roasted broccoli with shrimp",
-   "summary": "Melissa Clark's sheet-pan supper of cumin- and coriander-roasted broccoli with lemony shrimp and EVOO. Half a pound of broccoli per plate earns strong produce, Nrf2, fibre and folate scores, but there is no garlic despite the name of the dish we were looking for.",
+   "summary": "Melissa Clark's sheet-pan supper of cumin- and coriander-roasted broccoli with lemony shrimp in EVOO. Over half a pound of broccoli per plate earns strong produce, Nrf2, fibre and folate scores, and the shrimp add a modest dose of omega-3, choline and B12; there's no garlic.",
    "source": {
     "title": "Roasted Broccoli With Shrimp",
     "author": "Melissa Clark",
@@ -5058,9 +5065,9 @@
     "rating": 5,
     "rating_count": 1812,
     "checked": "2026-10-11",
-    "note": "NYT Cooking shows only a rounded average: 5 stars from 1,812 ratings, which means the true average is at least 4.5. Chosen over garlic-shrimp-and-broccoli stir-fries because none we found reached the bar (Allrecipes 'Shrimp with Broccoli in Garlic Sauce' is 4.4 from 105). The recipe has no garlic. The recipe may sit behind NYT Cooking's paywall."
+    "note": "Chosen over garlic-shrimp-and-broccoli stir-fries because none we found reached the bar (Allrecipes 'Shrimp with Broccoli in Garlic Sauce' is 4.4 from 105). The recipe has no garlic. NYT Cooking shows only a rounded star average: 5 stars from 1,812 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
-   "changes": "Broccoli weight per serving estimated at ≈210 g after light trimming. Conversions added; steps reworded.",
+   "changes": "Broccoli scored at the full 2 lb (≈227 g per serving); NYT's own fibre figure (6.4 g) implies the same. Conversions added; steps reworded.",
    "complexity": "easy",
    "active_min": 10,
    "total_min": 30,
@@ -5072,36 +5079,36 @@
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 290,
-    "fiber_g": 5.6,
+    "kcal": 315,
+    "fiber_g": 6.3,
     "added_sugar_g": 0,
-    "sat_fat_g": 2.1,
-    "epa_dha_mg": 270,
-    "folate_ug_dfe": 133,
-    "choline_mg": 168,
-    "iron_mg": 2.2,
+    "sat_fat_g": 2.6,
+    "epa_dha_mg": 262,
+    "folate_ug_dfe": 166,
+    "choline_mg": 171,
+    "iron_mg": 2.4,
     "zinc_mg": 2.5,
     "selenium_ug": 53,
     "b12_ug": 1.6,
-    "vit_c_mg": 150,
-    "fruit_veg_servings": 2.6
+    "vit_c_mg": 170,
+    "fruit_veg_servings": 2.8
    },
    "scores": {
     "plants": {
      "score": 5,
-     "why": "Broccoli ≈210 g per serving (2 lb, lightly trimmed, ÷ 4) = 2.6 servings (+3) [high-fruit-vegetable-intake]; EVOO ¼ cup ÷ 4 = 1 tbsp per serving (+1) [extra-virgin-olive-oil]; coriander + cumin seeds + chile ≈2.1 tsp ÷ 4 ≈ ½ tsp, under 1 tsp (0) [herbs-spices]; plant families: crucifer, carrot family (coriander, cumin), nightshade (chile), pepper, citrus, olive ≥4 (+1). 3 + 1 + 1 = 5"
+     "why": "Broccoli 2 lb ÷ 4 ≈227 g per serving = 2.8 servings (+3) [high-fruit-vegetable-intake]; EVOO ¼ cup ÷ 4 = 1 tbsp per serving (+1) [extra-virgin-olive-oil]; coriander + cumin seeds + black pepper + chile ≈3⅛ tsp ÷ 4 ≈ ¾ tsp, under 1 tsp (0) [herbs-spices]; plant families: crucifer, carrot family (coriander, cumin), nightshade (chile), pepper, citrus, olive ≥4 (+1). 3 + 1 + 1 = 5"
     },
     "nrf2": {
      "score": 4,
-     "why": "Base 1; broccoli ≈210 g roasted 20 minutes, with no raw myrosinase source added (+3) [broccoli-mature]; no garlic or onion (0) [garlic-alliums]; no turmeric. 1 + 3 = 4"
+     "why": "Base 1; broccoli ≈227 g roasted 20 minutes, with no raw myrosinase source added (+3) [broccoli-mature]; no garlic or onion (0) [garlic-alliums]; no turmeric. 1 + 3 = 4"
     },
     "fats": {
      "score": 6,
-     "why": "Base 2; shrimp 1 lb ÷ 4 ≈96 g cooked × ≈0.28 g/100 g ≈270 mg EPA+DHA (+2) [omega3-fish]; EVOO is the only fat at 1 tbsp per serving (+2) [extra-virgin-olive-oil]; saturated fat ≈2.1 g. 2 + 2 + 2 = 6"
+     "why": "Base 2; shrimp 1 lb raw ÷ 4 ≈95 g cooked × 0.276 g/100 g EPA+DHA (FDC SR 171971, shrimp, mixed species, cooked, moist heat: EPA 0.135 + DHA 0.141) ≈262 mg (+2) [omega3-fish]; EVOO is the only fat at 1 tbsp per serving (+2) [extra-virgin-olive-oil]; saturated fat ≈2.6 g. 2 + 2 + 2 = 6"
     },
     "glycemic": {
      "score": 8,
-     "why": "Fibre ≈5.6 g (broccoli 5.4, seeds 0.2) (+3) [dietary-fiber-microbiome]; no starch (+2); no added sugar (+2); the broccoli comes with shrimp and oil (+1). 3 + 2 + 2 + 1 = 8"
+     "why": "Fibre ≈6.3 g (broccoli 5.9, seeds and pepper 0.4) (+3) [dietary-fiber-microbiome]; no starch (+2); no added sugar (+2); the broccoli comes with shrimp and oil (+1). 3 + 2 + 2 + 1 = 8"
     },
     "cooking": {
      "score": 8,
@@ -5109,11 +5116,11 @@
     },
     "sperm": {
      "score": 6,
-     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; selenium ≈53 µg (shrimp 48, broccoli 5) (+1) [selenium-supplement]; folate ≈133 µg (roasted broccoli ≈110, shrimp 23) (+1); produce 2.6 servings (+1) [high-fruit-vegetable-intake]; zinc ≈2.5 mg (0) [zinc-status]. 1 + 2 + 1 + 1 + 1 = 6"
+     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; selenium ≈53 µg (shrimp 47, broccoli 6) (+1) [selenium-supplement]; folate ≈166 µg (broccoli 143, shrimp 23) (+1); produce 2.8 servings (+1) [high-fruit-vegetable-intake]; zinc ≈2.5 mg (0) [zinc-status]. 1 + 2 + 1 + 1 + 1 = 6"
     },
     "egg": {
      "score": 8,
-     "why": "Base 1; folate ≈133 µg (+2) [folic-acid]; EPA+DHA 250–499 mg from low-mercury shrimp (+1) [omega3-fish]; iron ≈2.2 mg (0) [iron-egg]; choline ≈168 mg (shrimp 130, broccoli 39) (+1); seafood iodine (+1) [iodine-status]; B12 ≈1.6 µg (+1) [vitamin-b12-folate-status]; profertility: seafood + 2.6 produce servings (+1) [profertility-diet]. 1 + 2 + 1 + 1 + 1 + 1 + 1 = 8"
+     "why": "Base 1; folate ≈166 µg (+2) [folic-acid]; EPA+DHA 250–499 mg from low-mercury shrimp (+1) [omega3-fish]; iron ≈2.4 mg (0) [iron-egg]; choline ≈171 mg (shrimp 128, broccoli 43) (+1); seafood iodine (+1) [iodine-status]; B12 ≈1.6 µg (+1) [vitamin-b12-folate-status]; profertility: seafood + 2.8 produce servings (+1) [profertility-diet]. 1 + 2 + 1 + 1 + 1 + 1 + 1 = 8"
     }
    },
    "ingredients": [
@@ -5144,14 +5151,19 @@
    "boosts": [
     "Toss 4–8 sliced garlic cloves (1–2 per serving) with the shrimp: +1 or +2 Nrf2 [garlic-alliums]",
     "Sprinkle ½ tsp mustard powder over the hot broccoli: a raw myrosinase source on cooked broccoli scores +5 instead of +3 Nrf2 [mustard-seed-myrosinase]",
-    "Double the cumin and coriander seeds (≈1 tsp spice per serving): +1 plants [herbs-spices]",
+    "Swap half the shrimp for 8 oz (227 g) skinless salmon in chunks, roasted the same way: ≈1,250 mg EPA+DHA per serving, +3 fats, +1 sperm and +1 egg [omega3-fish]",
+    "Double the cumin and coriander seeds (≈1¼ tsp spice per serving): +1 plants [herbs-spices]",
     "Serve with lemony lentils or farro to make it heartier [legumes] [whole-grains]"
    ],
    "watch_outs": [
     "Pregnancy: roast the shrimp until opaque all the way through (145 °F / 63 °C).",
     "Mercury: shrimp is an FDA 'best choice' seafood.",
     "Allergens: shellfish"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/1,812 (rounded), ingredients and method confirmed. Per the coordinator's ruling, shrimp uses FDC SR 171971 (0.276 g EPA+DHA/100 g, choline 135 mg/100 g): ≈262 mg EPA+DHA and ≈171 mg choline per serving, so the finder's fats 6, sperm 6 and egg 8 stand. Broccoli rescored at the full 2 lb (≈227 g); salmon swap added as a boost."
+   }
   },
   {
    "id": "greek-chicken-cucumber-feta-salad",
@@ -5165,7 +5177,7 @@
     "rating": 5,
     "rating_count": 8116,
     "checked": "2026-10-11",
-    "note": "NYT Cooking shows only a rounded average: 5 stars from 8,116 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
+    "note": "NYT Cooking shows only a rounded star average: 5 stars from 8,116 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
    "changes": "Conversions added (Greek yogurt ≈340 g, olives ≈70 g). Steps reworded; the grilling tip isn't included.",
    "complexity": "medium",
@@ -5177,17 +5189,17 @@
     "gluten-free"
    ],
    "nutrients": {
-    "kcal": 580,
-    "fiber_g": 2.9,
+    "kcal": 590,
+    "fiber_g": 2.8,
     "added_sugar_g": 0,
     "sat_fat_g": 9.6,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 52,
-    "choline_mg": 158,
+    "folate_ug_dfe": 51,
+    "choline_mg": 154,
     "iron_mg": 3.2,
-    "zinc_mg": 5.4,
-    "selenium_ug": 65,
-    "b12_ug": 2.5,
+    "zinc_mg": 4.7,
+    "selenium_ug": 62,
+    "b12_ug": 2.2,
     "vit_c_mg": 21,
     "fruit_veg_servings": 3.8
    },
@@ -5202,11 +5214,11 @@
     },
     "fats": {
      "score": 3,
-     "why": "Base 2; no fish or nuts; EVOO is the cooking fat at 1½ tsp per serving (≥1 tsp, +1) [extra-virgin-olive-oil]; saturated fat ≈9.6 g (feta 3.7, chicken thighs 2.5, yogurt 2.0, oil and olives 1.3), under 10 g, so no penalty. (NYT's panel says 11.2 g, probably with fattier untrimmed thighs and all the yogurt eaten.) 2 + 1 = 3"
+     "why": "Base 2; no fish or nuts; EVOO is the cooking fat at 1½ tsp per serving (≥1 tsp, +1) [extra-virgin-olive-oil]; saturated fat ≈9.6 g: chicken thighs 227 g raw × 1.66 g/100 g (FDC boneless skinless thigh, raw) 3.8 + feta 28 g × 11.2 g/100 g (FDC crumbled whole-milk feta) 3.2 + whole-milk Greek yogurt actually eaten ≈50 g (the reserved ½ cup plus the coating left after scraping) 1.2 + EVOO 0.9 + olives 0.4 + produce 0.1. That is under 10 g, so no penalty [cooking-oil-choice]. (The older SR feta value would give ≈10.2 g and NYT's panel says 11.2 g; the current FDC feta record is used.) 2 + 1 = 3"
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈2.9 g (tomato 1.4, cucumber 0.9, olives 0.6) (+1) [dietary-fiber-microbiome]; no starch (+2); no added sugar (+2); the vegetables come with chicken, yogurt and feta (+1). 1 + 2 + 2 + 1 = 6"
+     "why": "Fibre ≈2.8 g (tomato 1.4, cucumber 0.9, olives 0.3, garlic and oregano 0.2) (+1) [dietary-fiber-microbiome]; no starch (+2); no added sugar (+2); the vegetables come with chicken, yogurt and feta (+1). 1 + 2 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 6,
@@ -5214,11 +5226,11 @@
     },
     "sperm": {
      "score": 4,
-     "why": "Base 1; raw tomato 113 g, under 1 cup (0) [tomatoes-lycopene]; zinc ≈5.4 mg (chicken 3.6, feta 0.8, yogurt 0.4, produce 0.6), ≥3 but under 5.5 (+1) [zinc-status]; selenium ≈65 µg (+1) [selenium-supplement]; folate ≈52 µg (0); produce 3.8 servings (+1) [high-fruit-vegetable-intake]. 1 + 1 + 1 + 1 = 4"
+     "why": "Base 1; raw tomato 113 g, under 1 cup (0) [tomatoes-lycopene]; zinc ≈4.7 mg (chicken 3.1, feta 0.8, produce 0.6, yogurt 0.2), ≥3 but under 5.5 (+1) [zinc-status]; selenium ≈62 µg (chicken 52, yogurt 5, feta 4) (+1) [selenium-supplement]; folate ≈51 µg (0); produce 3.8 servings (+1) [high-fruit-vegetable-intake]. 1 + 1 + 1 + 1 = 4"
     },
     "egg": {
      "score": 6,
-     "why": "Base 1; folate ≈52 µg (tomato 17, cucumber 12, feta 9, chicken 9, yogurt 4) (+1) [folic-acid]; no fish (0); iron ≈3.2 mg (0) [iron-egg]; choline ≈158 mg (chicken 122, produce 18, yogurt 13, feta 4) (+1); dairy iodine (+1) [iodine-status]; B12 ≈2.5 µg (+1) [vitamin-b12-folate-status]; profertility: dairy + 3.8 produce servings (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 + 1 = 6"
+     "why": "Base 1; folate ≈51 µg (tomato 17, cucumber 12, feta 9, chicken 9, yogurt 3, oregano and garlic 1), just over 50 (+1) [folic-acid]; no fish (0); iron ≈3.2 mg (0) [iron-egg]; choline ≈154 mg (chicken 122, cucumber 10, tomato 8, yogurt 7, feta 4, other 3) (+1); dairy iodine (+1) [iodine-status]; B12 ≈2.2 µg (+1) [vitamin-b12-folate-status]; profertility: dairy + 3.8 produce servings (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 + 1 = 6"
     }
    },
    "ingredients": [
@@ -5258,7 +5270,11 @@
     "Pregnancy: choose feta made from pasteurised milk, and cook the chicken to 165 °F / 74 °C.",
     "Salty: the salad is salted to draw water, and feta and olives add more; NYT's panel lists about 1,570 mg sodium per serving.",
     "Allergens: dairy"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/8,116 (rounded), ingredients and method confirmed. Own FDC saturated-fat estimate ≈9.6 g (thighs 3.8, current FDC crumbled feta 3.2, yogurt eaten 1.2, oil and olives 1.3), under 10 g, so no penalty, as the coordinator confirmed. Scores unchanged; nutrients refined."
+   }
   },
   {
    "id": "chicken-cacciatore-mushrooms-peppers",
@@ -5291,12 +5307,12 @@
     "added_sugar_g": 0,
     "sat_fat_g": 6.0,
     "epa_dha_mg": 0,
-    "folate_ug_dfe": 43,
-    "choline_mg": 85,
-    "iron_mg": 3.1,
-    "zinc_mg": 2.3,
-    "selenium_ug": 28,
-    "b12_ug": 0.8,
+    "folate_ug_dfe": 44,
+    "choline_mg": 100,
+    "iron_mg": 3.6,
+    "zinc_mg": 2.6,
+    "selenium_ug": 37,
+    "b12_ug": 0.5,
     "vit_c_mg": 37,
     "fruit_veg_servings": 2.7
    },
@@ -5323,11 +5339,11 @@
     },
     "sperm": {
      "score": 5,
-     "why": "Base 1; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; selenium ≈28 µg (chicken thigh ≈24, mushrooms 3.5, tomato 0.8) (+1) [selenium-supplement]; zinc ≈2.3 mg (0) [zinc-status]; folate ≈43 µg (0); produce 2.7 servings (+1) [high-fruit-vegetable-intake]. The wine is reduced, then simmered 35+ minutes, so there's no alcohol penalty [alcohol]. 1 + 2 + 1 + 1 = 5"
+     "why": "Base 1; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; selenium ≈37 µg (one braised thigh ≈111 g meat × 29.2 µg/100 g ≈32, mushrooms 3.5, tomato and garlic 1) (+1) [selenium-supplement]; zinc ≈2.6 mg (0) [zinc-status]; folate ≈44 µg (0); produce 2.7 servings (+1) [high-fruit-vegetable-intake]. The wine is reduced, then simmered 35+ minutes, so there's no alcohol penalty [alcohol]. 1 + 2 + 1 + 1 = 5"
     },
     "egg": {
      "score": 1,
-     "why": "Base 1; folate ≈43 µg (0) [folic-acid]; iron ≈3.1 mg (0) [iron-egg]; choline ≈85 mg (0); no named iodine source (0); B12 ≈0.8 µg (0); profertility: produce only (0); wine cooked 35+ minutes, so no alcohol penalty [alcohol]. Total 1"
+     "why": "Base 1; folate ≈44 µg (tomatoes 17, mushrooms 6, chicken 6, celery 5, peppers 6, other 4) (0) [folic-acid]; iron ≈3.6 mg (0) [iron-egg]; choline ≈100 mg (0); no named iodine source (0); B12 ≈0.5 µg (0); profertility: produce only (0); wine cooked 35+ minutes, so no alcohol penalty [alcohol]. Total 1"
     }
    },
    "ingredients": [
@@ -5371,7 +5387,11 @@
     "Alcohol: 1 cup red wine is reduced and then simmered for 35+ minutes. Most of it cooks off, but USDA retention data suggest roughly a quarter to a third can remain after 30–60 minutes of simmering. In pregnancy, swap the wine for broth.",
     "Pregnancy: cook the chicken to 165 °F / 74 °C.",
     "Allergens: none of the common ones listed (celery is a listed allergen in the EU)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source (Suzy Karadsheh), rating 4.8/241, ingredients and method confirmed; the oil is extra-virgin in the original. Selenium rechecked at ≈37 µg with FDC braised thigh meat, comfortably over 25. Scores unchanged; nutrients refined."
+   }
   },
   {
    "id": "puttanesca-poached-white-fish",
@@ -5385,7 +5405,7 @@
     "rating": 5,
     "rating_count": 898,
     "checked": "2026-10-11",
-    "note": "NYT Cooking shows only a rounded average: 5 stars from 898 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
+    "note": "NYT Cooking shows only a rounded star average: 5 stars from 898 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
    "changes": "Scored with cod, the first fish named. The optional parsley garnish isn't scored. Conversions added; steps reworded.",
    "complexity": "easy",
@@ -5399,18 +5419,18 @@
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 330,
-    "fiber_g": 4.8,
+    "kcal": 335,
+    "fiber_g": 4.6,
     "added_sugar_g": 0,
     "sat_fat_g": 1.8,
-    "epa_dha_mg": 290,
-    "folate_ug_dfe": 40,
-    "choline_mg": 143,
-    "iron_mg": 4.0,
-    "zinc_mg": 1.4,
-    "selenium_ug": 60,
-    "b12_ug": 1.6,
-    "vit_c_mg": 19,
+    "epa_dha_mg": 295,
+    "folate_ug_dfe": 39,
+    "choline_mg": 146,
+    "iron_mg": 4.4,
+    "zinc_mg": 1.5,
+    "selenium_ug": 55,
+    "b12_ug": 1.5,
+    "vit_c_mg": 20,
     "fruit_veg_servings": 2.9
    },
    "scores": {
@@ -5424,11 +5444,11 @@
     },
     "fats": {
      "score": 5,
-     "why": "Base 2; cod 6 oz (170 g raw) × ≈0.12 g/100 g ≈210 mg + anchovies 4 g × 2.05 g/100 g ≈80 mg ≈290 mg EPA+DHA (+2) [omega3-fish]; EVOO is the only added fat at 1½ tsp per serving (+1) [extra-virgin-olive-oil]; saturated fat ≈1.8 g. 2 + 2 + 1 = 5"
+     "why": "Base 2; cod (first fish named) 6 oz raw ≈136 g cooked × 0.158 g/100 g (FDC Atlantic cod, cooked) ≈215 mg + anchovies 4 g × 2.05 g/100 g ≈80 mg ≈295 mg EPA+DHA (+2) [omega3-fish]; EVOO is the only added fat at 1½ tsp per serving (+1) [extra-virgin-olive-oil]; saturated fat ≈1.8 g. 2 + 2 + 1 = 5"
     },
     "glycemic": {
      "score": 7,
-     "why": "Fibre ≈4.8 g (tomatoes 3.8, olives 0.8, capers 0.1) (+2) [dietary-fiber-microbiome]; no starch (+2); no added sugar (+2); the sauce comes with fish (+1). 2 + 2 + 2 + 1 = 7"
+     "why": "Fibre ≈4.6 g (tomatoes 3.8, olives 0.6, capers and garlic 0.2) (+2) [dietary-fiber-microbiome]; no starch (+2); no added sugar (+2); the sauce comes with fish (+1). 2 + 2 + 2 + 1 = 7"
     },
     "cooking": {
      "score": 10,
@@ -5436,11 +5456,11 @@
     },
     "sperm": {
      "score": 7,
-     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; selenium ≈60 µg, mostly from cod (+1) [selenium-supplement]; zinc ≈1.4 mg (0) [zinc-status]; folate ≈40 µg (0); produce 2.9 servings (+1) [high-fruit-vegetable-intake]. The wine simmers about 20 minutes in all, so there's no alcohol penalty [alcohol]. 1 + 2 + 2 + 1 + 1 = 7"
+     "why": "Base 1; EPA+DHA 250–499 mg (+2) [omega3-fish]; cooked tomato ≥½ cup (+2) [tomatoes-lycopene]; selenium ≈55 µg, mostly from cod (+1) [selenium-supplement]; zinc ≈1.5 mg (0) [zinc-status]; folate ≈39 µg (0); produce 2.9 servings (+1) [high-fruit-vegetable-intake]. The wine simmers about 20 minutes in all, so there's no alcohol penalty [alcohol]. 1 + 2 + 2 + 1 + 1 = 7"
     },
     "egg": {
      "score": 5,
-     "why": "Base 1; folate ≈40 µg (0) [folic-acid]; EPA+DHA 250–499 mg from low-mercury cod (+1) [omega3-fish]; iron ≈4.0 mg, but it is almost all plant iron and vitamin C is only ≈19 mg (0) [iron-egg]; choline ≈143 mg (cod 111, tomatoes 26, olives and anchovies 7), under 150 (0); seafood iodine (+1) [iodine-status]; B12 ≈1.6 µg (+1) [vitamin-b12-folate-status]; profertility: seafood + 2.9 produce servings (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 = 5"
+     "why": "Base 1; folate ≈39 µg (0) [folic-acid]; EPA+DHA 250–499 mg from low-mercury cod (+1) [omega3-fish]; iron ≈4.4 mg, but it is mostly plant iron and vitamin C is only ≈20 mg (0) [iron-egg]; choline ≈146 mg (cod 114, tomatoes 26, olives and anchovies 6), under 150 (0); seafood iodine (+1) [iodine-status]; B12 ≈1.5 µg (+1) [vitamin-b12-folate-status]; profertility: seafood + 2.9 produce servings (+1) [profertility-diet]. 1 + 1 + 1 + 1 + 1 = 5"
     }
    },
    "ingredients": [
@@ -5482,12 +5502,16 @@
     "Mercury: cod and flounder are FDA 'best choice' fish, and halibut is a 'good choice'. Anchovies are low in mercury.",
     "Salty: olives, capers and anchovies give about 1,000 mg sodium per serving, so salt the sauce only after tasting.",
     "Allergens: fish"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/898 (rounded), ingredients and method confirmed; scored with cod, the first fish named, and the oil is extra-virgin in the original. EPA+DHA rechecked at ≈295 mg with FDC cooked cod. Scores unchanged; nutrients refined."
+   }
   },
   {
    "id": "herb-walnut-pomegranate-stuffed-fish",
    "title": "Fish stuffed with herbs, walnuts and pomegranate",
-   "summary": "Samin Nosrat's Persian-style whole branzino or trout stuffed with five herbs, garlic, ground walnuts, citrus and pomegranate molasses, swapped in for fesenjan. It is high in omega-3 and allium; the very hot oven, the small walnut share and 'olive oil' rather than EVOO hold some scores back.",
+   "summary": "Samin Nosrat's Persian-style whole branzino stuffed with five herbs, garlic, ground walnuts, citrus and pomegranate molasses, swapped in for fesenjan. It is high in omega-3 and alliums; the very hot oven, the small walnut share and 'olive oil' rather than EVOO hold some scores back.",
    "source": {
     "title": "Fish Stuffed With Herbs, Walnuts and Pomegranate",
     "author": "Samin Nosrat",
@@ -5496,9 +5520,9 @@
     "rating": 5,
     "rating_count": 468,
     "checked": "2026-10-11",
-    "note": "Swapped in for fesenjan: no fesenjan we found has ≥4.5 stars from ≥100 ratings. NYT's Samin Nosrat (857 ratings) and Sam Sifton (454) versions both round to 4 stars; The Mediterranean Dish is 4.83 from 23; Feasting at Home is 5 from 68; Unicorns in the Kitchen is 4.79 from 14. This dish keeps the walnut-and-pomegranate pairing. NYT Cooking shows only a rounded average: 5 stars from 468 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
+    "note": "Swapped in for fesenjan: no fesenjan we found has ≥4.5 stars from ≥100 ratings. NYT's Samin Nosrat (857 ratings) and Sam Sifton (454) versions both round to 4 stars; The Mediterranean Dish is 4.83 from 23; Feasting at Home is 5 from 68; Unicorns in the Kitchen is 4.79 from 14. This dish keeps the walnut-and-pomegranate pairing. NYT Cooking shows only a rounded star average: 5 stars from 468 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
-   "changes": "Serves 4 to 6 in the original; scored at 4. Scored with branzino, the first fish named; edible flesh is estimated at ≈170 g cooked per 1-lb fish. The optional tobiko isn't scored. Conversions added; steps reworded.",
+   "changes": "Serves 4 to 6 in the original, and the nutrition panel doesn't settle it, so it's scored at 4. Scored with branzino, the first fish named; edible flesh is estimated at ≈155 g cooked per 1-lb whole fish. The optional tobiko isn't scored. Conversions added; steps reworded.",
    "complexity": "medium",
    "active_min": 25,
    "total_min": 45,
@@ -5510,24 +5534,24 @@
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 490,
-    "fiber_g": 2.5,
+    "kcal": 470,
+    "fiber_g": 2.6,
     "added_sugar_g": 6,
-    "sat_fat_g": 4.0,
-    "epa_dha_mg": 1300,
-    "folate_ug_dfe": 62,
-    "choline_mg": 135,
-    "iron_mg": 2.1,
-    "zinc_mg": 1.4,
-    "selenium_ug": 80,
+    "sat_fat_g": 3.8,
+    "epa_dha_mg": 1180,
+    "folate_ug_dfe": 72,
+    "choline_mg": 115,
+    "iron_mg": 2.3,
+    "zinc_mg": 1.5,
+    "selenium_ug": 74,
     "b12_ug": 0.5,
-    "vit_c_mg": 35,
-    "fruit_veg_servings": 1.2
+    "vit_c_mg": 41,
+    "fruit_veg_servings": 1.3
    },
    "scores": {
     "plants": {
-     "score": 5,
-     "why": "Shallots 25 g + scallions 6 g + herbs ≈15 g + garlic 3 g + orange and lime juice ≈45 g ≈94 g = 1.2 servings (+2) [high-fruit-vegetable-intake]; herbs ≈6 tbsp fresh per serving (+1) [herbs-spices]; pomegranate molasses ½ tbsp per serving (about 2 tbsp of juice, concentrated) as the anthocyanin item (+1); 'olive oil', not extra-virgin (0); plant families: allium, carrot family (parsley, cilantro, dill), daisy (tarragon), walnut, citrus, pomegranate, olive ≥4 (+1). 2 + 1 + 1 + 1 = 5"
+     "score": 4,
+     "why": "Shallots 25 g + scallions 6 g + herbs ≈23 g + garlic 3 g + orange and lime juice ≈46 g ≈103 g = 1.3 servings (+2) [high-fruit-vegetable-intake]; herbs ≈6 tbsp fresh per serving (+1) [herbs-spices]; pomegranate molasses (½ tbsp per serving) doesn't count as an anthocyanin item, since the rubric excludes syrups and molasses (0); 'olive oil', not extra-virgin (0); plant families: allium, carrot family (parsley, cilantro, dill), daisy (tarragon), walnut, citrus, pomegranate, olive ≥4 (+1). 2 + 1 + 1 = 4"
     },
     "nrf2": {
      "score": 3,
@@ -5535,11 +5559,11 @@
     },
     "fats": {
      "score": 7,
-     "why": "Base 2; a 1-lb whole branzino yields ≈170 g cooked flesh × 0.76 g/100 g (sea bass, FDC) ≈1,300 mg EPA+DHA (+5) [omega3-fish]; ≈1 tbsp 'olive oil' per serving, not specified as extra-virgin (0) [extra-virgin-olive-oil]; walnuts ½ cup (≈50 g) ÷ 4 ≈13 g, under 15 g (0) [walnuts-nuts]; saturated fat ≈4 g. 2 + 5 = 7"
+     "why": "Base 2; a 1-lb whole branzino yields ≈155 g cooked flesh × 0.76 g/100 g EPA+DHA (FDC sea bass, cooked) ≈1,180 mg (+5) [omega3-fish]; ≈1 tbsp 'olive oil' per serving, not specified as extra-virgin (0) [extra-virgin-olive-oil]; walnuts ½ cup (≈50 g) ÷ 4 ≈13 g, under 15 g (0) [walnuts-nuts]; saturated fat ≈3.8 g. 2 + 5 = 7"
     },
     "glycemic": {
      "score": 5,
-     "why": "Fibre ≈2.5 g (walnuts 0.8, shallots 0.8, herbs 0.5, scallions and juice 0.4) (+1) [dietary-fiber-microbiome]; no starch (+2); pomegranate molasses, a syrup, gives ≈6 g sugar per serving (5–12 g, +1) [refined-sugar-high-glycemic]; with fish and walnuts (+1). 1 + 2 + 1 + 1 = 5"
+     "why": "Fibre ≈2.6 g (walnuts 0.8, shallots 0.8, herbs 0.6, scallions, garlic and juice 0.4) (+1) [dietary-fiber-microbiome]; no starch (+2); pomegranate molasses, a syrup, gives ≈6 g sugar per serving (5–12 g, +1) [refined-sugar-high-glycemic]; with fish and walnuts (+1). 1 + 2 + 1 + 1 = 5"
     },
     "cooking": {
      "score": 6,
@@ -5547,11 +5571,11 @@
     },
     "sperm": {
      "score": 5,
-     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; walnuts ≈13 g, under 30 g (0) [walnuts-nuts]; selenium ≈80 µg (+1) [selenium-supplement]; zinc ≈1.4 mg (0) [zinc-status]; folate ≈62 µg (0); produce 1.2 servings (0). 1 + 3 + 1 = 5"
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; walnuts ≈13 g, under 30 g (0) [walnuts-nuts]; selenium ≈74 µg (fish 73) (+1) [selenium-supplement]; zinc ≈1.5 mg (0) [zinc-status]; folate ≈72 µg (0); produce 1.3 servings (0). 1 + 3 + 1 = 5"
     },
     "egg": {
      "score": 5,
-     "why": "Base 1; folate ≈62 µg (walnuts 12, parsley 11, fish 10, orange juice 9, shallots 9, scallions 4, other herbs 7) (+1) [folic-acid]; EPA+DHA ≥500 mg from low-mercury branzino or trout (+2) [omega3-fish] [mercury-fish]; iron ≈2.1 mg (0) [iron-egg]; choline ≈135 mg (estimated; FDC has no choline value for sea bass) (0); seafood iodine (+1) [iodine-status]; B12 ≈0.5 µg with branzino (0; trout would give ≈7 µg) [vitamin-b12-folate-status]; profertility: seafood only (0). 1 + 1 + 2 + 1 = 5"
+     "why": "Base 1; folate ≈72 µg (walnuts 12, parsley 11, fish 9, orange juice 9, shallots 9, dill 6, cilantro 5, chives 4, scallions 4, other 3) (+1) [folic-acid]; EPA+DHA ≥500 mg from low-mercury branzino (+2) [omega3-fish] [mercury-fish]; iron ≈2.3 mg (0) [iron-egg]; choline ≈115 mg (estimated; FDC has no choline value for sea bass) (0); seafood iodine (+1) [iodine-status]; B12 ≈0.5 µg with branzino (0) [vitamin-b12-folate-status]; profertility: seafood only (0). 1 + 1 + 2 + 1 = 5"
     }
    },
    "ingredients": [
@@ -5596,7 +5620,8 @@
     "Roast at 425 °F (220 °C) for a few minutes longer instead of 475 °F: cooking 6 → 8 [high-temperature-cooking]",
     "Use extra-virgin olive oil: ≈1 tbsp per serving adds +2 fats and +1 plants [extra-virgin-olive-oil]",
     "Use 1 cup walnuts (≈25 g per serving): +1 fats [walnuts-nuts]",
-    "Choose rainbow trout: B12 rises to ≈7 µg per serving (+1 egg) and EPA+DHA is a little higher [vitamin-b12-folate-status] [omega3-fish]",
+    "Scatter 1 cup pomegranate seeds over the platter (≈45 g per serving, over the 25 g minimum): an anthocyanin fruit adds +1 plants [high-fruit-vegetable-intake]",
+    "Choose rainbow trout, the other fish named: B12 ≈6 µg per serving (+1 egg) and EPA+DHA a little higher [vitamin-b12-folate-status] [omega3-fish]",
     "Serve with a watercress and radish salad (≥½ cup raw watercress per serving): +3 Nrf2 [watercress-peitc]"
    ],
    "watch_outs": [
@@ -5604,7 +5629,11 @@
     "Mercury: rainbow trout is an FDA 'best choice'; farmed branzino (European sea bass) is also low in mercury.",
     "Some pomegranate molasses brands add sugar; check the label.",
     "Allergens: fish, tree nuts (walnuts)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/468 (rounded), ingredients and method confirmed; branzino is listed first and the oil is plain 'olive oil'. Plants 5→4: the rubric excludes syrups and molasses from the anthocyanin item. Flesh yield trimmed to ≈155 g (EPA+DHA ≈1,180 mg, same band); pomegranate-seed boost added."
+   }
   },
   {
    "id": "tuna-kimchi-tofu-stew",
@@ -5618,9 +5647,9 @@
     "rating": 4.9,
     "rating_count": 292,
     "checked": "2026-10-11",
-    "note": "The page shows '4.9/5 from 292 votes', matching its JSON-LD aggregateRating. The ingredients aren't in the JSON-LD and were read from the page text."
+    "note": "The page shows '4.9/5 from 292 votes', matching its JSON-LD aggregateRating reference. The ingredients aren't in the JSON-LD and were read from the page text."
    },
-   "changes": "The original says '1 or 2 cans of tuna'; it is scored with one 5-oz (142 g) can, drained. The optional kimchi brine isn't counted. Conversions added; steps reworded.",
+   "changes": "The original says '1 or 2 cans of tuna'; it is scored with one 5-oz (142 g) can, drained, the first-listed option. It doesn't name the tuna type: Maangchi prefers Korean tuna in oil, which is normally skipjack (light) tuna, so it is scored as canned light tuna in oil. Tofu is scored as firm; the optional kimchi brine isn't counted. There is no pork in this tuna version. Conversions added; steps reworded.",
    "complexity": "easy",
    "active_min": 10,
    "total_min": 35,
@@ -5657,7 +5686,7 @@
     },
     "fats": {
      "score": 2,
-     "why": "Base 2; one 5-oz can of light tuna in oil (≈113 g drained) ÷ 4 ≈28 g × 0.13 g/100 g (FDC) ≈36 mg EPA+DHA (0) [omega3-fish]; ½ tsp sesame oil per serving; no EVOO, nuts or penalties; saturated fat ≈1.6 g. Total 2"
+     "why": "Base 2; one 5-oz can of light tuna in oil (≈113 g drained) ÷ 4 ≈28 g × 0.128 g/100 g EPA+DHA (FDC light tuna in oil, drained) ≈36 mg (0) [omega3-fish]; ½ tsp sesame oil per serving; no EVOO, nuts or penalties; saturated fat ≈1.6 g. Total 2"
     },
     "glycemic": {
      "score": 7,
@@ -5698,7 +5727,7 @@
     "Put the kimchi in a shallow, heavy pot with the brine (if using), onion, diagonally cut green onion, salt, pepper flakes, sugar and sesame oil.",
     "Add the water, cover and cook over medium-high heat for 25 minutes. If it starts to boil over, set the lid ajar, and add water if needed to keep everything submerged.",
     "Stir, add the tuna and tofu, and cook about 5 minutes more, until the tofu is soft and hot through.",
-    "Scatter with the chopped green onion and serve right away, with rice and side dishes if you like."
+    "Finish with the finely chopped green onion and bring it to the table while it's still bubbling, with rice and banchan if you like."
    ],
    "boosts": [
     "Use canned salmon or mackerel instead of tuna (2 cans, ≈60 g fish per serving): ≈700–800 mg EPA+DHA, worth +4 fats, +3 sperm and +2 egg [omega3-fish]",
@@ -5709,15 +5738,19 @@
    ],
    "watch_outs": [
     "Pregnancy: unpasteurised kimchi is generally considered low-risk, but some pregnancy guidance flags raw fermented foods. Here the kimchi simmers for about 30 minutes, which settles that concern.",
-    "Salty: kimchi (≈500 mg sodium per 100 g) plus 1 tsp salt and the brine make this a high-sodium dish; skip the brine and taste before salting.",
-    "Mercury: canned light (skipjack) tuna is an FDA 'best choice'; albacore ('white') tuna is a 'good choice', so limit it to one serving a week.",
+    "Salty: kimchi (≈500 mg sodium per 100 g) gives ≈560 mg per bowl, and the teaspoon of salt and the tuna add roughly 400–600 mg more, so a bowl is about 1,000–1,150 mg before any brine. Skip the brine and taste before salting.",
+    "Mercury: the recipe doesn't name the tuna. Use canned light or skipjack tuna (Korean brands are usually skipjack), an FDA 'best choice'; albacore ('white') tuna is a 'good choice', so limit it to one serving a week.",
     "Allergens: fish, soy, sesame; many kimchi brands contain fish sauce or salted shrimp (shellfish), and some contain wheat, so check the label."
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 4.9/292, ingredients and method confirmed from the page text; no pork. The recipe doesn't specify the tuna, so it's scored as canned light (skipjack) tuna in oil, Maangchi's stated preference, and one can, the first option. Scores unchanged; sodium watch-out quantified (≈1,000 mg a bowl); step 4 reworded."
+   }
   },
   {
    "id": "likama-salmon-cabbage-salad",
    "title": "Likama-roasted salmon with cabbage salad",
-   "summary": "Nargisse Benkabbou's salmon roasted under a Moroccan spice oil of turmeric, ginger, cumin, coriander, paprika and garlic, topped with a raw red- and green-cabbage and cilantro salad. Gentle roasting and lots of omega-3 score high; at six servings, each plate gets only a modest share of raw crucifer.",
+   "summary": "Nargisse Benkabbou's salmon roasted under a Moroccan spice oil of turmeric, ginger, cumin, coriander, paprika and garlic, topped with a raw red- and green-cabbage and cilantro salad. Gentle roasting and lots of omega-3 score high; at six servings, each plate gets only a modest share of raw crucifer and red cabbage.",
    "source": {
     "title": "Likama Roasted Salmon With Cabbage Salad",
     "author": "Nargisse Benkabbou",
@@ -5726,9 +5759,9 @@
     "rating": 5,
     "rating_count": 616,
     "checked": "2026-10-11",
-    "note": "Chosen for the 'miso salmon with bok choy, or a similar salmon and crucifer dish' slot: no miso-and-bok-choy salmon we found reached ≥100 ratings with a vegetable included (Jessica Gavin's miso-glazed salmon, 4.79 from 111, has no vegetable). NYT's Chan Chan Yaki (miso-butter salmon with cabbage, 1,589 ratings) was passed over because it uses butter and sake simmered for under 15 minutes. NYT Cooking shows only a rounded average: 5 stars from 616 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
+    "note": "Chosen for the 'miso salmon with bok choy, or a similar salmon and crucifer dish' slot: no miso-and-bok-choy salmon we found reached ≥100 ratings with a vegetable included (Jessica Gavin's miso-glazed salmon, 4.79 from 111, has no vegetable). NYT's Chan Chan Yaki (miso-butter salmon with cabbage, 1,589 ratings) was passed over because it uses butter and sake simmered for under 15 minutes. NYT Cooking shows only a rounded star average: 5 stars from 616 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
-   "changes": "Cabbage weight estimated at ≈75 g per cup very thinly sliced. The optional almonds aren't scored. Conversions added; steps reworded.",
+   "changes": "Cabbage weight taken as 70 g per cup shredded (FDC), ≈280 g in all. The salmon type isn't named; it's scored as farmed Atlantic. The optional almonds aren't scored. Conversions added; steps reworded.",
    "complexity": "medium",
    "active_min": 15,
    "total_min": 25,
@@ -5740,36 +5773,36 @@
     "dairy-free"
    ],
    "nutrients": {
-    "kcal": 350,
-    "fiber_g": 1.7,
+    "kcal": 310,
+    "fiber_g": 1.4,
     "added_sugar_g": 1,
-    "sat_fat_g": 3.9,
-    "epa_dha_mg": 1900,
-    "folate_ug_dfe": 49,
-    "choline_mg": 88,
+    "sat_fat_g": 3.8,
+    "epa_dha_mg": 1870,
+    "folate_ug_dfe": 47,
+    "choline_mg": 86,
     "iron_mg": 1.0,
-    "zinc_mg": 0.6,
-    "selenium_ug": 38,
-    "b12_ug": 2.5,
-    "vit_c_mg": 31,
+    "zinc_mg": 0.5,
+    "selenium_ug": 36,
+    "b12_ug": 2.4,
+    "vit_c_mg": 27,
     "fruit_veg_servings": 0.7
    },
    "scores": {
     "plants": {
-     "score": 4,
-     "why": "Cabbage ≈50 g + cilantro 3 g + garlic 1 g + lemon juice 4 g ≈58 g = 0.7 servings (+1) [high-fruit-vegetable-intake]; cilantro 1 cup ÷ 6 ≈2½ tbsp fresh, plus ≈½ tsp dried spices per serving (+1) [herbs-spices]; red cabbage ≈25 g per serving as the anthocyanin item (+1); 'olive oil', not extra-virgin (0); plant families: crucifer, carrot family (cilantro, cumin, coriander), ginger family (ginger, turmeric), nightshade (paprika), allium, nutmeg, citrus, pepper, olive ≥4 (+1). 1 + 1 + 1 + 1 = 4"
+     "score": 3,
+     "why": "Cabbage ≈47 g + cilantro 3 g + garlic 1 g + lemon juice 4 g ≈55 g = 0.7 servings (+1) [high-fruit-vegetable-intake]; cilantro 1 cup ÷ 6 ≈2½ tbsp fresh, plus ≈½ tsp dried spices per serving (+1) [herbs-spices]; red cabbage 2 cups (≈140 g) ÷ 6 ≈23 g per serving, under the 25 g anthocyanin minimum (0); 'olive oil', not extra-virgin (0); plant families: crucifer, carrot family (cilantro, cumin, coriander), ginger family (ginger, turmeric), nightshade (paprika), allium, nutmeg, citrus, pepper, olive ≥4 (+1). 1 + 1 + 1 = 3"
     },
     "nrf2": {
      "score": 3,
-     "why": "Base 1; raw red and green cabbage, 4 cups (≈300 g) ÷ 6 ≈50 g per serving: raw crucifer in the 40–79 g band, +5 halved and rounded down (+2) [cruciferous-other]; garlic 2 cloves ÷ 6 ≈⅓ clove (0) [garlic-alliums]; turmeric ½ tsp ÷ 6, under ½ tsp per serving (0) [turmeric-curcumin]. 1 + 2 = 3"
+     "why": "Base 1; raw red and green cabbage, 4 cups (≈280 g) ÷ 6 ≈47 g per serving: raw crucifer in the 40–79 g band, +5 halved and rounded down (+2) [cruciferous-other]; garlic 2 cloves ÷ 6 ≈⅓ clove (0) [garlic-alliums]; turmeric ½ tsp ÷ 6, under ½ tsp per serving (0) [turmeric-curcumin]. 1 + 2 = 3"
     },
     "fats": {
      "score": 8,
-     "why": "Base 2; farmed salmon 1½ lb ÷ 6 ≈90 g cooked × 2.15 g/100 g ≈1,900 mg EPA+DHA (+6) [omega3-fish]; 5½ tbsp 'olive oil' ÷ 6 ≈0.9 tbsp per serving, not specified as extra-virgin (0) [extra-virgin-olive-oil]; the optional almonds aren't counted; saturated fat ≈3.9 g. 2 + 6 = 8"
+     "why": "Base 2; salmon 1½ lb skin-on ÷ 6 ≈87 g cooked flesh × 2.15 g/100 g EPA+DHA (FDC farmed Atlantic, cooked) ≈1,870 mg (+6) [omega3-fish]; 5½ tbsp 'olive oil' ÷ 6 ≈0.9 tbsp per serving, not specified as extra-virgin (0) [extra-virgin-olive-oil]; the optional almonds aren't counted; saturated fat ≈3.8 g. 2 + 6 = 8"
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈1.7 g (cabbage 1.2, spices 0.3, cilantro and garlic 0.2) (+1) [dietary-fiber-microbiome]; no starch (+2); honey 1 tsp ÷ 6 ≈1 g added sugar (+2); with salmon and an oil-and-lemon dressing (+1). 1 + 2 + 2 + 1 = 6"
+     "why": "Fibre ≈1.4 g (cabbage 1.1, spices 0.2, cilantro 0.1) (+1) [dietary-fiber-microbiome]; no starch (+2); honey 1 tsp ÷ 6 ≈1 g added sugar (+2); with salmon and an oil-and-lemon dressing (+1). 1 + 2 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 10,
@@ -5777,11 +5810,11 @@
     },
     "sperm": {
      "score": 5,
-     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈38 µg (+1) [selenium-supplement]; zinc ≈0.6 mg (0) [zinc-status]; folate ≈49 µg (0); produce 0.7 servings (0). 1 + 3 + 1 = 5"
+     "why": "Base 1; EPA+DHA ≥500 mg (+3) [omega3-fish]; selenium ≈36 µg (+1) [selenium-supplement]; zinc ≈0.5 mg (0) [zinc-status]; folate ≈47 µg (0); produce 0.7 servings (0). 1 + 3 + 1 = 5"
     },
     "egg": {
      "score": 5,
-     "why": "Base 1; folate ≈49 µg (salmon 31, cabbage 15, cilantro, lemon and spices 3), just under 50 (0) [folic-acid]; EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; iron ≈1.0 mg (0) [iron-egg]; choline ≈88 mg (0); seafood iodine (+1) [iodine-status]; B12 ≈2.5 µg (+1) [vitamin-b12-folate-status]; profertility: seafood only (0). 1 + 2 + 1 + 1 = 5"
+     "why": "Base 1; folate ≈47 µg (salmon 30, green cabbage 10, red cabbage 4, cilantro, lemon and spices 3), under 50 (0) [folic-acid]; EPA+DHA ≥500 mg from low-mercury salmon (+2) [omega3-fish]; iron ≈1.0 mg (0) [iron-egg]; choline ≈86 mg (0); seafood iodine (+1) [iodine-status]; B12 ≈2.4 µg (+1) [vitamin-b12-folate-status]; profertility: seafood only (0). 1 + 2 + 1 + 1 = 5"
     }
    },
    "ingredients": [
@@ -5809,8 +5842,8 @@
       "1 tsp honey",
       "½ tsp fine sea salt",
       "¼ tsp ground white or black pepper",
-      "2 cups very thinly sliced green cabbage (about 150 g)",
-      "2 cups very thinly sliced red cabbage (about 150 g)",
+      "2 cups very thinly sliced green cabbage (about 140 g)",
+      "2 cups very thinly sliced red cabbage (about 140 g)",
       "1 cup roughly chopped cilantro leaves and tender stems (about 16–20 g)",
       "2 tbsp toasted sliced almonds (optional)",
       "2 lemons, cut into wedges"
@@ -5818,14 +5851,14 @@
     }
    ],
    "steps": [
-    "Heat the oven to 350 °F (175 °C). In a small bowl, stir the oil, garlic, salt, ginger, turmeric, paprika, cumin, coriander and pepper together, then grate in about 12 passes of nutmeg (or add the ground nutmeg).",
+    "Heat the oven to 350 °F (175 °C). For the likama, mix the oil with the garlic, salt and all the ground spices in a small bowl, then grate about 12 strokes of nutmeg over it (or add the ground nutmeg) and stir until fairly smooth.",
     "Line a baking sheet with parchment or foil. Pat the salmon dry, lay it skin-side down on the sheet and spread the spice oil over every side. (You can cover and refrigerate it for up to 24 hours at this point.)",
     "Roast on the middle rack for 12–15 minutes, until the salmon flakes easily with a fork (145 °F / 63 °C).",
     "While it roasts, whisk the oil, lemon juice, honey, salt and pepper in a large bowl, then toss in both cabbages and the cilantro. Taste for salt.",
     "Pile the salad on the salmon, add the almonds if using, and serve with lemon wedges and the rest of the salad on the side."
    ],
    "boosts": [
-    "Double the cabbage salad (≈100 g raw cabbage per serving): raw crucifer ≥80 g scores +5 instead of +2 Nrf2, and produce rises to ≈1.4 servings (+1 plants) [cruciferous-other]",
+    "Double the cabbage salad (≈95 g raw cabbage per serving, ≈47 g of it red): raw crucifer ≥80 g scores +5 instead of +2 Nrf2, produce rises to ≈1.3 servings (+1 plants) and the red cabbage clears 25 g (+1 plants) [cruciferous-other]",
     "Use 6 garlic cloves (1 per serving) in the spice oil: +1 Nrf2 [garlic-alliums]",
     "Raise the turmeric to 1 tbsp (½ tsp per serving, in the oil with the pepper): +1 Nrf2 [turmeric-curcumin]",
     "Use extra-virgin olive oil for both the spice oil and the dressing (≈0.9 tbsp per serving): +1 fats [extra-virgin-olive-oil]",
@@ -5835,7 +5868,11 @@
     "Pregnancy: the recipe allows medium-rare salmon; in pregnancy, cook it until it flakes (145 °F / 63 °C).",
     "Mercury: salmon is an FDA 'best choice' fish.",
     "Allergens: fish; tree nuts if you add the almonds"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/616 (rounded), ingredients and method confirmed; both oils are plain 'olive oil'. Plants 4→3: red cabbage is ≈23 g per serving (FDC 70 g per shredded cup), under the new 25 g anthocyanin minimum. Folate rechecked at ≈47 µg, so still no folate point. Nutrients and cabbage weights refined; step 1 reworded."
+   }
   },
   {
    "id": "kuku-sabzi-herb-frittata",
@@ -5849,7 +5886,7 @@
     "rating": 5,
     "rating_count": 262,
     "checked": "2026-10-11",
-    "note": "Chosen over ghormeh sabzi because the well-rated ghormeh sabzi versions are lamb or beef stews (NYT's Samin Nosrat version, 5 stars from 683 ratings, is lamb). Samin Nosrat's kuku sabzi (550 ratings) rounds to 4 stars. NYT Cooking shows only a rounded average: 5 stars from 262 ratings, which means the true average is at least 4.5. The recipe may sit behind NYT Cooking's paywall."
+    "note": "Chosen over ghormeh sabzi because the well-rated ghormeh sabzi versions are lamb or beef stews (NYT's Samin Nosrat version, 5 stars from 683 ratings, is lamb). Samin Nosrat's kuku sabzi (550 ratings) rounds to 4 stars. NYT Cooking shows only a rounded star average: 5 stars from 262 ratings, so the true average is at least 4.5. The recipe may need an NYT Cooking subscription to view."
    },
    "changes": "The herb weight is estimated at ≈225 g chopped (4½ cups). The serving accompaniments (flatbread, torshi pickles, mast-o-khiar yogurt) aren't scored. Conversions added; steps reworded.",
    "complexity": "medium",
@@ -5865,11 +5902,11 @@
    ],
    "nutrients": {
     "kcal": 160,
-    "fiber_g": 1.9,
+    "fiber_g": 2.0,
     "added_sugar_g": 0,
     "sat_fat_g": 2.0,
     "epa_dha_mg": 24,
-    "folate_ug_dfe": 82,
+    "folate_ug_dfe": 80,
     "choline_mg": 130,
     "iron_mg": 3.2,
     "zinc_mg": 1.0,
@@ -5893,7 +5930,7 @@
     },
     "glycemic": {
      "score": 6,
-     "why": "Fibre ≈1.9 g (herbs 1.1, scallions 0.7, spices 0.1) (+1) [dietary-fiber-microbiome]; no starch in the kuku itself, since the flatbread is a serving suggestion (+2); no added sugar (+2); the herbs are bound with egg (+1). 1 + 2 + 2 + 1 = 6"
+     "why": "Fibre ≈2.0 g (scallions 0.7, parsley 0.5, cilantro 0.4, dill, spices and fenugreek 0.4) (+1) [dietary-fiber-microbiome]; no starch in the kuku itself, since the flatbread is a serving suggestion (+2); no added sugar (+2); the herbs are bound with egg (+1). 1 + 2 + 2 + 1 = 6"
     },
     "cooking": {
      "score": 8,
@@ -5905,7 +5942,7 @@
     },
     "egg": {
      "score": 3,
-     "why": "Base 1; folate ≈82 µg (parsley 26, egg 20, scallions 16, dill 11, cilantro 8) (+1) [folic-acid]; no fish (0); iron ≈3.2 mg (0) [iron-egg]; choline ≈130 mg from ⅚ egg per serving (0); egg iodine (+1) [iodine-status]; B12 ≈0.4 µg (0); profertility: produce 0.8 servings only (0). 1 + 1 + 1 = 3"
+     "why": "Base 1; folate ≈80 µg (parsley 24, egg 20, scallions 16, dill 11, cilantro 9) (+1) [folic-acid]; no fish (0); iron ≈3.2 mg (0) [iron-egg]; choline ≈130 mg from ⅚ egg per serving (0); egg iodine (+1) [iodine-status]; B12 ≈0.4 µg (0); profertility: produce 0.8 servings only (0). 1 + 1 + 1 = 3"
     }
    },
    "ingredients": [
@@ -5935,7 +5972,7 @@
    ],
    "steps": [
     "Wash the herbs in batches to remove any grit. Cut off the thick lower stems (about 4 inches / 10 cm) and finely chop the rest a handful at a time, to get about 4½ cups. Put them in a large bowl with the scallions.",
-    "Crumble the fenugreek between your fingertips over the bowl, then add the salt, pepper and turmeric. Add the eggs and mix with a fork until they coat and bind the herbs.",
+    "Rub the dried fenugreek between your fingertips over the bowl, then season with the salt, pepper and turmeric. Crack in the eggs, break the yolks with a fork and mix until the herbs are just bound.",
     "Set a rack 5 inches (13 cm) below the broiler and turn the broiler on. Heat the oil in a 10-inch (25 cm) ovenproof nonstick skillet over medium heat until it shimmers.",
     "Scrape in the herb mixture and spread it to the edges. Cover and cook 10–12 minutes, rotating the pan now and then, until the underside is set and a very dark green.",
     "Uncover and slide the pan under the broiler for 1–4 minutes, watching closely, until the top is set with no liquid egg left.",
@@ -5952,7 +5989,11 @@
     "Pregnancy: make sure the kuku is fully set in the centre with no runny egg.",
     "Light on protein for a dinner (about 10 g per slice); the yogurt served alongside helps.",
     "Allergens: egg (the flatbread served with it contains gluten, and the yogurt is dairy)"
-   ]
+   ],
+   "check": {
+    "date": "2026-10-11",
+    "summary": "Source, rating 5/262 (rounded), ingredients and method confirmed. Egg-based and correctly tagged vegetarian (not vegan); canola, the first oil listed, is scored. Scores unchanged; step 2 reworded."
+   }
   }
  ]
 }
