@@ -834,7 +834,7 @@
     const link = (k, v) => { const p = new URLSearchParams(params); v ? p.set(k, v) : p.delete(k); const q = p.toString(); return "#/recipes" + (q ? "?" + q : ""); };
     const chipRow = (k, list, cur) => list.map(([v, l]) => `<a class="chip ${v === cur ? "dir-beneficial" : ""}" href="${link(k, v)}">${esc(l)}</a>`).join("");
     const list = recs.filter((r) => (!cx || r.complexity === cx) && (!meal || mealOf(r) === meal) && (!diet || (r.tags || []).includes(diet)))
-      .sort((a, b) => recScore(b, sort) - recScore(a, sort) || a.title.localeCompare(b.title));
+      .sort((a, b) => recScore(b, sort) - recScore(a, sort) || recScore(b, "") - recScore(a, "") || a.title.localeCompare(b.title));
     const sortOpts = [["", "Average of protective categories"], ["plantmix", "Polyphenols + hormetic compounds"], ...D.recipe_categories.map((c) => [c.id, isLow(c) ? `${c.name}: lowest first` : `${GROUP_LABEL[c.group]}: ${c.name}`])]
       .map(([v, l]) => `<option value="${v}" ${v === sort ? "selected" : ""}>${esc(l)}</option>`).join("");
     const card = (r) => `<a class="card fcard recipe-card" href="#/recipe/${encodeURIComponent(r.id)}">
@@ -907,7 +907,7 @@
     const groups = [{ id: "", name: "All" }, ...D.food_groups.filter((g) => foods.some((f) => f.group === g.id))];
     const chips = groups.map((g) => `<a class="chip ${g.id === group ? "dir-beneficial" : ""}" href="${link("group", g.id)}">${esc(g.name)}</a>`).join("");
     const list = foods.filter((f) => (!group || f.group === group) && (!q || (f.name + " " + (f.tags || []).join(" ")).toLowerCase().includes(q)))
-      .sort((a, b) => foodScore(b, sort) - foodScore(a, sort) || a.name.localeCompare(b.name));
+      .sort((a, b) => foodScore(b, sort) - foodScore(a, sort) || foodAvg(b) - foodAvg(a) || a.name.localeCompare(b.name));
     const head = D.food_categories.map((c) => `<th class="${c.id === sort ? "sorted" : ""}"><a href="${link("sort", c.id === sort ? "" : c.id)}" title="${esc(c.name)}${isLow(c) ? " (lower is better)" : ""}: ${esc(c.how)}">${esc(c.short)}${isLow(c) ? " ↓" : ""}</a></th>`).join("");
     const rows = list.map((f) => `<tr><td class="fname"><a href="#/food/${encodeURIComponent(f.id)}">${esc(f.name)}</a>${f.check ? "" : ` <span class="pending-dot" title="Second check pending">●</span>`}<div class="small muted">${esc(f.serving)}</div></td>${D.food_categories.map((c) => heat(f.scores[c.id].score, c)).join("")}</tr>`).join("");
     const how = D.food_categories.map((c) => `<li><b>${esc(c.name)}</b> <span class="muted small">(${GROUP_LABEL[c.group]})</span>: ${esc(c.how)}</li>`).join("");

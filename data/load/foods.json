@@ -1,0 +1,888 @@
+{
+ "load": {
+  "broccoli": {
+   "score": 1,
+   "why": "Raw or lightly steamed plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "broccoli-sprouts": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "kale": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 1.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "green-cabbage": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "red-cabbage": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "brussels-sprouts": {
+   "score": 1,
+   "why": "Steamed or roasted; roasted vegetables score nothing, since B covers only browned starch and nut products (B 0); fat 0.3 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "cauliflower": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "bok-choy": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "collard-greens": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.7 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "arugula": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "watercress": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); no fat (F 0) = 1."
+  },
+  "radish": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "daikon": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "turnip-greens": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.3 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "mustard-greens": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "kohlrabi": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "spinach": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "swiss-chard": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "romaine-lettuce": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "beet-greens": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "beetroot": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "carrots": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "sweet-potato": {
+   "score": 1,
+   "why": "Baked whole in its skin; the moist flesh is not a low-moisture browned product and stays well under 10 \u00b5g acrylamide per 114 g (B 0); sweet-potato fries would differ; fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "white-potato": {
+   "score": 1,
+   "why": "Boiled in its skin; boiled potatoes carry under 5 \u00b5g/kg acrylamide (B 0), unlike fries or crisps; fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "butternut-squash": {
+   "score": 1,
+   "why": "Baked squash cubes; roasted or baked vegetables score nothing, since B covers only browned starch and nut products (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "parsnip": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "tomato-raw": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "tomato-sauce": {
+   "score": 1,
+   "why": "Cooked tomato sauce: simmered, so almost no acrylamide (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "red-bell-pepper": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "asparagus": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "artichoke": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "eggplant": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "zucchini": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "okra": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "green-beans": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "green-peas": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "sweet-corn": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 1.5 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "white-button-mushrooms": {
+   "score": 1,
+   "why": "Mushrooms, eaten raw or cooked; plant foods never score cooking points and mushrooms are not a browned starch (C 0, B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "shiitake": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "oyster-mushrooms": {
+   "score": 1,
+   "why": "Mushrooms, eaten raw or cooked; plant foods never score cooking points and mushrooms are not a browned starch (C 0, B 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "yellow-onion": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "red-onion": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "garlic": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); no fat (F 0) = 1."
+  },
+  "leeks": {
+   "score": 1,
+   "why": "Vegetable cooked by moist heat; boiling, steaming and simmering form almost no acrylamide (under 5 \u00b5g/kg) (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "celery": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "cucumber": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "nori": {
+   "score": 1,
+   "why": "Dried seaweed, not a browned starch or nut product (B 0); iodine is a watch-out, not oxidant points; fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "kombu": {
+   "score": 1,
+   "why": "Dried seaweed, not a browned starch or nut product (B 0); iodine is a watch-out, not oxidant points; fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "fennel": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "radicchio": {
+   "score": 1,
+   "why": "Raw plant food: no cooking by-products, browned starch, heme, oxidised fat, alcohol or high-mercury fish (C, B, H, O, A, M 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "blueberries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "wild-blueberries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "blackberries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.7 g per serving, under 30 g (F 0) = 1."
+  },
+  "raspberries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.8 g per serving, under 30 g (F 0) = 1."
+  },
+  "strawberries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "cranberries-fresh": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "black-currants": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "aronia": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "tart-cherries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "sweet-cherries": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "red-grapes": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "pomegranate-arils": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 1.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "pomegranate-juice": {
+   "score": 1,
+   "why": "Fruit juice: nothing in the rubric applies (B 0); sugar is scored in the glycemic category, not here; fat 0.7 g per serving, under 30 g (F 0) = 1."
+  },
+  "orange": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "orange-juice": {
+   "score": 1,
+   "why": "Fruit juice: nothing in the rubric applies (B 0); sugar is scored in the glycemic category, not here; fat 0.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "grapefruit": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "lemon": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "kiwi": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.7 g per serving, under 30 g (F 0) = 1."
+  },
+  "apple": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "pear": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "plums": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "prunes": {
+   "score": 1,
+   "why": "Dried plums carry some acrylamide, but typical levels (about 50-200 \u00b5g/kg) give roughly 2-9 \u00b5g per 44 g, under 10 \u00b5g, and dried fruit is not on the AGE-dense list (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "peaches": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "dried-apricots": {
+   "score": 1,
+   "why": "Dried fruit: low acrylamide (well under 10 \u00b5g per serving) and not on the AGE-dense list (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "mango": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.6 g per serving, under 30 g (F 0) = 1."
+  },
+  "papaya": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "pineapple": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "banana": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "watermelon": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "guava": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 1 g per serving, under 30 g (F 0) = 1."
+  },
+  "figs-fresh": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "dates": {
+   "score": 1,
+   "why": "Dried fruit: low acrylamide (well under 10 \u00b5g per serving) and not on the AGE-dense list (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "avocado": {
+   "score": 1,
+   "why": "Fresh fruit (B 0); its high ELISA AGE value is not used; fat 14.7 g per serving, under 30 g (F 0) = 1. [dietary-ages]"
+  },
+  "olives": {
+   "score": 2,
+   "why": "Canned California ripe olives are lye-oxidised and heat-sterilised, which forms acrylamide: about 10-39 \u00b5g per 44 g (B +1); fat 4.8 g per serving, under 30 g (F 0) = 1 + 1 = 2. Brine-cured Greek or Kalamata-style olives form little acrylamide and would score 1. [acrylamide]"
+  },
+  "raisins": {
+   "score": 1,
+   "why": "Dried fruit: low acrylamide (well under 10 \u00b5g per serving) and not on the AGE-dense list (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "goji-berries": {
+   "score": 1,
+   "why": "Dried fruit: low acrylamide (well under 10 \u00b5g per serving) and not on the AGE-dense list (B 0); fat 0.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "acai-pulp": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 5.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "cantaloupe": {
+   "score": 1,
+   "why": "Fresh fruit: nothing in the rubric applies (B 0); fat 0.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "dried-cranberries-sweetened": {
+   "score": 1,
+   "why": "Dried fruit: low acrylamide (well under 10 \u00b5g per serving) and not on the AGE-dense list (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "chickpeas-cooked": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 4.2 g per serving, under 30 g (F 0) = 1."
+  },
+  "chickpeas-canned": {
+   "score": 1,
+   "why": "Canned chickpeas, cooked in the can by moist heat; plain cooked legumes are not flagged and carry almost no acrylamide (B 0); fat 3.8 g per serving, under 30 g (F 0) = 1."
+  },
+  "lentils-brown-green": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 0.8 g per serving, under 30 g (F 0) = 1."
+  },
+  "lentils-red": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 1.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "black-beans": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 0.9 g per serving, under 30 g (F 0) = 1."
+  },
+  "kidney-beans": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 0.9 g per serving, under 30 g (F 0) = 1."
+  },
+  "pinto-beans": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 1.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "navy-beans": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 1.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "edamame": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 8.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "split-peas": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 0.8 g per serving, under 30 g (F 0) = 1."
+  },
+  "fava-beans": {
+   "score": 1,
+   "why": "Plain cooked legumes are not an AGE-dense browned product and moist heat forms almost no acrylamide (B 0); fat 0.7 g per serving, under 30 g (F 0) = 1."
+  },
+  "peanuts": {
+   "score": 2,
+   "why": "FDC record is the dry-roasted peanut, an AGE-dense roasted product (B +1); fat 13.9 g per serving, under 30 g (F 0) = 1 + 1 = 2. Raw peanuts would score 1. [dietary-ages]"
+  },
+  "peanut-butter-natural": {
+   "score": 2,
+   "why": "Peanut butter is ground from roasted peanuts, an AGE-dense roasted-nut spread (B +1); fat 16.4 g per serving, under 30 g (F 0) = 1 + 1 = 2. [dietary-ages]"
+  },
+  "rolled-oats": {
+   "score": 1,
+   "why": "Oats, cooked as porridge; oats are explicitly not flagged (B 0); fat 2.6 g per serving, under 30 g (F 0) = 1."
+  },
+  "steel-cut-oats": {
+   "score": 1,
+   "why": "Oats, cooked as porridge; oats are explicitly not flagged (B 0); fat 2.6 g per serving, under 30 g (F 0) = 1."
+  },
+  "pearl-barley": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 0.7 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "quinoa": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 3.5 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "brown-rice": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 1.9 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "white-rice": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "buckwheat": {
+   "score": 1,
+   "why": "Boiled buckwheat groats; boiled grains are not flagged, and even pre-toasted kasha is eaten boiled and moist (B 0); fat 1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "whole-wheat-bread": {
+   "score": 1,
+   "why": "Soft bread is not flagged; at the EU bread benchmark of 50 \u00b5g/kg a slice holds under 2 \u00b5g acrylamide (B 0); fat 1.1 g per serving, under 30 g (F 0) = 1. Toasting it dark adds acrylamide but usually stays under 10 \u00b5g per slice. [acrylamide]"
+  },
+  "white-bread": {
+   "score": 1,
+   "why": "Soft bread is not flagged; at the EU bread benchmark of 50 \u00b5g/kg a slice holds under 2 \u00b5g acrylamide (B 0); fat 0.9 g per serving, under 30 g (F 0) = 1. Toasting it dark adds acrylamide but usually stays under 10 \u00b5g per slice. [acrylamide]"
+  },
+  "whole-wheat-pasta": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 2.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "white-pasta": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 1.3 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "bulgur": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 0.4 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "farro": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 1.9 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "millet": {
+   "score": 1,
+   "why": "Boiled grain: boiled and steamed grains are not flagged and carry almost no acrylamide (B 0); fat 1.7 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "rye-bread-wholegrain": {
+   "score": 1,
+   "why": "Soft bread is not flagged; at the EU bread benchmark of 50 \u00b5g/kg a slice holds under 2 \u00b5g acrylamide (B 0); fat 1 g per serving, under 30 g (F 0) = 1. Toasting it dark adds acrylamide but usually stays under 10 \u00b5g per slice. [acrylamide]"
+  },
+  "popcorn-air-popped": {
+   "score": 1,
+   "why": "Popcorn is explicitly not flagged, and air-popped corn is not fried in oil; acrylamide stays under 10 \u00b5g per 3 cups (B 0); fat 1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "corn-tortillas": {
+   "score": 1,
+   "why": "Soft corn tortillas, not a crisp low-moisture product; acrylamide stays well under 10 \u00b5g per 2 tortillas (B 0); fat 1.5 g per serving, under 30 g (F 0) = 1. Fried tortilla chips or tostadas would score higher. [acrylamide]"
+  },
+  "walnuts": {
+   "score": 1,
+   "why": "Raw (unroasted) nuts or seeds per the FDC record; raw or blanched nuts are not flagged (B 0); fat 18.3 g per serving, under 30 g (F 0) = 1. Roasted versions would get B +1. [dietary-ages]"
+  },
+  "almonds": {
+   "score": 1,
+   "why": "Raw (unroasted) nuts or seeds per the FDC record; raw or blanched nuts are not flagged (B 0); fat 14 g per serving, under 30 g (F 0) = 1. Roasted versions would get B +1. [dietary-ages]"
+  },
+  "pecans": {
+   "score": 1,
+   "why": "Raw (unroasted) nuts or seeds per the FDC record; raw or blanched nuts are not flagged (B 0); fat 20.2 g per serving, under 30 g (F 0) = 1. Roasted versions would get B +1. [dietary-ages]"
+  },
+  "pistachios": {
+   "score": 2,
+   "why": "FDC record is the dry-roasted pistachio, an AGE-dense roasted product (B +1); fat 12.8 g per serving, under 30 g (F 0) = 1 + 1 = 2. Raw pistachios would score 1. [dietary-ages]"
+  },
+  "hazelnuts": {
+   "score": 1,
+   "why": "Raw (unroasted) nuts or seeds per the FDC record; raw or blanched nuts are not flagged (B 0); fat 17 g per serving, under 30 g (F 0) = 1. Roasted versions would get B +1. [dietary-ages]"
+  },
+  "brazil-nut": {
+   "score": 1,
+   "why": "Raw dried, unblanched Brazil nut per the FDC record; raw nuts are not flagged (B 0); fat 3.4 g per serving, under 30 g (F 0) = 1. [dietary-ages]"
+  },
+  "cashews": {
+   "score": 2,
+   "why": "FDC record is the dry-roasted cashew, an AGE-dense roasted product (B +1); fat 13 g per serving, under 30 g (F 0) = 1 + 1 = 2. Raw cashews would score 1. [dietary-ages]"
+  },
+  "macadamia": {
+   "score": 1,
+   "why": "Raw (unroasted) nuts or seeds per the FDC record; raw or blanched nuts are not flagged (B 0); fat 21.2 g per serving, under 30 g (F 0) = 1. Roasted versions would get B +1. [dietary-ages]"
+  },
+  "chia-seeds": {
+   "score": 1,
+   "why": "Raw seeds; raw seeds are not flagged (B 0) and their omega-3 fat is not an oxidised-fat hot spot (O 0); fat 7.4 g per serving, under 30 g (F 0) = 1. [dietary-ages]"
+  },
+  "flaxseed-ground": {
+   "score": 1,
+   "why": "Raw ground seed, not roasted (B 0) and not an oxidised-fat hot spot (O 0); keep it cold and sealed, since ground flax oxidises in storage; fat 5.9 g per serving, under 30 g (F 0) = 1. [dietary-ages]"
+  },
+  "hemp-seeds": {
+   "score": 1,
+   "why": "Raw seeds; raw seeds are not flagged (B 0) and their omega-3 fat is not an oxidised-fat hot spot (O 0); fat 14.6 g per serving, under 30 g (F 0) = 1. [dietary-ages]"
+  },
+  "pumpkin-seeds": {
+   "score": 2,
+   "why": "FDC record is the roasted pumpkin seed kernel, an AGE-dense roasted product (B +1); fat 13.7 g per serving, under 30 g (F 0) = 1 + 1 = 2. Raw pepitas would score 1. [dietary-ages]"
+  },
+  "sunflower-seeds": {
+   "score": 2,
+   "why": "FDC record is the dry-roasted sunflower kernel, an AGE-dense roasted product (B +1); fat 13.9 g per serving, under 30 g (F 0) = 1 + 1 = 2. Raw kernels would score 1. [dietary-ages]"
+  },
+  "tahini": {
+   "score": 2,
+   "why": "Tahini made from roasted and toasted sesame kernels (FDC's most common type), an AGE-dense roasted-seed spread (B +1); fat 16.1 g per serving, under 30 g (F 0) = 1 + 1 = 2. Raw-sesame tahini would score 1. [dietary-ages]"
+  },
+  "salmon-atlantic-farmed": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 10.5 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "salmon-sockeye-wild": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 4.7 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "salmon-pink-canned": {
+   "score": 1,
+   "why": "Canned fish, heat-sterilised in the can with no browned surface (C 0); canned fish is not a dried, dried-salted or reheated product (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 3.6 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "sardines-canned": {
+   "score": 1,
+   "why": "Canned fish, heat-sterilised in the can with no browned surface (C 0); canned fish is not a dried, dried-salted or reheated product (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 9.7 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "mackerel-atlantic": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 15.1 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "mackerel-king": {
+   "score": 2,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); king mackerel is an FDA/EPA \"choices to avoid\" high-mercury species (M +1); seafood fat 2.2 g is not counted (F 0) = 1 + 1 = 2. Mercury points can't be offset by mitigation. [high-temperature-cooking] [mercury-fish]"
+  },
+  "herring-atlantic": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 9.9 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "anchovies-canned": {
+   "score": 1,
+   "why": "Salt-cured anchovies canned in oil, scored as canned fish rather than dried-salted fish: heat-sterilised with no browned surface (C 0, O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 2.7 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "trout-rainbow": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 6.3 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "tuna-canned-light": {
+   "score": 1,
+   "why": "Canned fish, heat-sterilised in the can with no browned surface (C 0); canned fish is not a dried, dried-salted or reheated product (O 0); light (mostly skipjack) tuna is not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 0.8 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "tuna-albacore": {
+   "score": 1,
+   "why": "Canned fish, heat-sterilised in the can with no browned surface (C 0); canned fish is not a dried, dried-salted or reheated product (O 0); albacore carries more mercury than light tuna but is not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 2.5 g is not counted (F 0) = 1. Mercury in albacore is a frequency watch-out rather than points. [mercury-fish]"
+  },
+  "cod-atlantic": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 0.7 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "tilapia": {
+   "score": 1,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 2.3 g is not counted (F 0) = 1. [high-temperature-cooking] [mercury-fish]"
+  },
+  "shrimp": {
+   "score": 1,
+   "why": "Shellfish cooked by moist heat or steaming (C 0); no heme points for shellfish (H 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 0.2 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "mussels": {
+   "score": 1,
+   "why": "Shellfish cooked by moist heat or steaming (C 0); no heme points for shellfish (H 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 3.8 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "oysters": {
+   "score": 1,
+   "why": "Shellfish cooked by moist heat or steaming (C 0); no heme points for shellfish (H 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 2.3 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "clams": {
+   "score": 1,
+   "why": "Shellfish cooked by moist heat or steaming (C 0); no heme points for shellfish (H 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 1.7 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "scallops": {
+   "score": 1,
+   "why": "Shellfish cooked by moist heat or steaming (C 0); no heme points for shellfish (H 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 0.7 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "crab-blue": {
+   "score": 1,
+   "why": "Shellfish cooked by moist heat or steaming (C 0); no heme points for shellfish (H 0); not an FDA/EPA \"choices to avoid\" species (M 0); seafood fat 0.6 g is not counted (F 0) = 1. [mercury-fish]"
+  },
+  "swordfish": {
+   "score": 2,
+   "why": "Fish \"3 oz cooked\" assumed baked without a browned surface (C 0); fresh fish and its omega-3s score 0 for oxidised fat (O 0); swordfish is an FDA/EPA \"choices to avoid\" high-mercury species (M +1); seafood fat 6.7 g is not counted (F 0) = 1 + 1 = 2. Grilled or seared with browning it would add C +1 (score 3). [high-temperature-cooking] [mercury-fish]"
+  },
+  "eggs": {
+   "score": 1,
+   "why": "Hard-boiled eggs: boiled, no browning (C 0); egg heme doesn't count (H 0) and whole boiled eggs are not an oxysterol hot spot (O 0); fat 10.6 g per serving, under 30 g (F 0) = 1. [heme-iron]"
+  },
+  "chicken-breast": {
+   "score": 2,
+   "why": "Assumed roasted uncovered at about 200-220 \u00b0C (typical home oven), above 180 \u00b0C with browning (C +1); poultry heme doesn't count (H 0); fat 3 g per serving, under 30 g (F 0) = 1 + 1 = 2. Poached or roasted at 180 \u00b0C or below it would score 1. [high-temperature-cooking] [heme-iron]"
+  },
+  "chicken-thigh": {
+   "score": 2,
+   "why": "Assumed roasted uncovered at about 200-220 \u00b0C (typical home oven), above 180 \u00b0C with browning (C +1); poultry heme doesn't count (H 0); fat 6.9 g per serving, under 30 g (F 0) = 1 + 1 = 2. Braised or roasted at 180 \u00b0C or below it would score 1. [high-temperature-cooking] [heme-iron]"
+  },
+  "turkey-breast": {
+   "score": 1,
+   "why": "Roasted at 163 \u00b0C (325 \u00b0F, the USDA FSIS roasting chart), within the 180 \u00b0C-or-below band (C 0); poultry heme doesn't count (H 0); fat 1.8 g per serving, under 30 g (F 0) = 1. [high-temperature-cooking] [heme-iron]"
+  },
+  "beef-sirloin": {
+   "score": 5,
+   "why": "Beef steak heme about 0.8-1.3 mg per 85 g (H +2); broiled, scored in the red-meat broiled-to-well-done band (C +2); fat 5.7 g per serving, under 30 g (F 0) = 1 + 2 + 2 = 5. A herb, spice or acid marinade of 30 min or more would take 1 off C. [heme-iron] [unprocessed-red-meat] [high-temperature-cooking]"
+  },
+  "ground-beef-85": {
+   "score": 5,
+   "why": "Ground beef heme about 0.9-1.7 mg per 85 g (H +2); patty broiled (FDC record), cooked through as ground beef should be, so the broiled-to-well-done band (C +2); fat 13.1 g per serving, under 30 g (F 0) = 1 + 2 + 2 = 5. Microwaving the patty 1-3 min first and pouring off the juice, or a spice marinade, would take 1 off C. [heme-iron] [unprocessed-red-meat] [high-temperature-cooking]"
+  },
+  "lamb": {
+   "score": 4,
+   "why": "Lamb heme about 0.7-1.3 mg per 85 g (H +2); method unstated, so assumed oven-roasted at 180 \u00b0C or below, the common home method for these roasted retail cuts (C +1); fat 17.8 g per serving, under 30 g (F 0) = 1 + 2 + 1 = 4. Grilled lamb chops cooked well done would get C +2 (score 5). [heme-iron] [unprocessed-red-meat] [high-temperature-cooking]"
+  },
+  "pork-loin": {
+   "score": 4,
+   "why": "Pork loin heme 0.3-0.6 mg per 85 g (rubric default; measured well-done loin 0.29-0.33 mg, at the band edge) (H +1); broiled and, as pork usually is, cooked through, so the broiled-to-well-done band (C +2); fat 6.2 g per serving, under 30 g (F 0) = 1 + 1 + 2 = 4. [heme-iron] [unprocessed-red-meat] [high-temperature-cooking]"
+  },
+  "bacon": {
+   "score": 6,
+   "why": "Cured, nitrite-preserved pork, 24 g in the 20-49 g band (P +2); pan-fried processed meat (C +3); its heme counts through P, not H; fat 8.4 g per serving, under 30 g (F 0) = 1 + 2 + 3 = 6. [processed-meat] [processed-red-meat] [high-temperature-cooking]"
+  },
+  "deli-ham": {
+   "score": 4,
+   "why": "Cured ham 56 g, at least 50 g (P +3); eaten cold, so no cooking by-products (C 0); its heme counts through P, not H; fat 4.9 g per serving, under 30 g (F 0) = 1 + 3 = 4. Fried or grilled ham would add C +3 (score 7). [processed-meat] [processed-red-meat]"
+  },
+  "chicken-liver": {
+   "score": 3,
+   "why": "Organ meat of any species counts for heme; chicken liver about 1.0-1.6 mg per 85 g (uncertain) (H +2); simmered (C 0); fat 5.5 g per serving, under 30 g (F 0) = 1 + 2 = 3. [heme-iron] [high-temperature-cooking]"
+  },
+  "beef-liver": {
+   "score": 4,
+   "why": "Organ meat; heme about 0.7 mg per 85 g (only about 14% of liver iron is heme) (H +2); briefly pan-fried, not taken to well done, so the brief medium-high-heat band (C +1); fat 4 g per serving, under 30 g (F 0) = 1 + 2 + 1 = 4. [heme-iron] [high-temperature-cooking]"
+  },
+  "greek-yogurt-2pct": {
+   "score": 1,
+   "why": "Plain dairy, not browned, cured or powdered: nothing scores (C, B, O 0); fat 3.3 g per serving, under 30 g (F 0) = 1."
+  },
+  "kefir": {
+   "score": 1,
+   "why": "Fermented milk; kefir carries only trace alcohol, well under 2 g per cup (A 0); fat 2.5 g per serving, under 30 g (F 0) = 1. [alcohol]"
+  },
+  "milk-2pct": {
+   "score": 1,
+   "why": "Plain dairy, not browned, cured or powdered: nothing scores (C, B, O 0); fat 4.8 g per serving, under 30 g (F 0) = 1."
+  },
+  "cheddar": {
+   "score": 1,
+   "why": "A 1 oz piece of cheese; the oxysterol hot spot covers only 20 g or more of grated aged hard cheese (O 0); fat 9.3 g per serving, under 30 g (F 0) = 1. [dietary-lipid-oxidation-products]"
+  },
+  "parmesan": {
+   "score": 1,
+   "why": "Scored as a 1 oz piece of hard cheese, not grated (O 0); fat 7 g per serving, under 30 g (F 0) = 1. 28 g of grated Parmesan would be an oxysterol hot spot, earning O +1 for a score of 2; a 10 g grating stays under the 20 g threshold. [dietary-lipid-oxidation-products]"
+  },
+  "cottage-cheese-2pct": {
+   "score": 1,
+   "why": "Plain dairy, not browned, cured or powdered: nothing scores (C, B, O 0); fat 2.6 g per serving, under 30 g (F 0) = 1."
+  },
+  "tofu-firm": {
+   "score": 1,
+   "why": "Soy food, not browned, fried or cured: nothing scores (C, B, O 0); fat 11 g per serving, under 30 g (F 0) = 1."
+  },
+  "tempeh": {
+   "score": 1,
+   "why": "Tempeh, cooked; plant foods never score meat-cooking points and tempeh is not a browned starch (C 0, B 0); fat 9.7 g per serving, under 30 g (F 0) = 1. Pan-frying it in a PUFA-rich seed oil would add O +1 in a recipe. [cooking-oil-choice]"
+  },
+  "soy-milk-unsweetened": {
+   "score": 1,
+   "why": "Soy food, not browned, fried or cured: nothing scores (C, B, O 0); fat 4 g per serving, under 30 g (F 0) = 1."
+  },
+  "turmeric": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "ginger": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "cinnamon": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "cloves": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "oregano-dried": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "rosemary": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.2 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "thyme-dried": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "parsley": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "cilantro": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "basil": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "mint": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "cumin": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.5 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "black-pepper": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "paprika-chili-powder": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.3 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "brown-mustard-seed": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.7 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "horseradish": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "wasabi-real": {
+   "score": 1,
+   "why": "Herb or spice at a typical serving: nothing scores (C, B, O 0); cooked into or onto meat or a fatty dish it earns the \u22121 mitigation in recipes, and spice lead is a watch-out, not points; fat under 0.1 g per serving, under 30 g (F 0) = 1. [herbs-spices]"
+  },
+  "extra-virgin-olive-oil": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 13.5 g per serving, under 30 g (F 0) = 1. For frying: a stable, mostly monounsaturated oil; home deep-frying in fresh oil like this counts O +1 in a recipe, and reused oil O +2. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "olive-oil-refined": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 13.5 g per serving, under 30 g (F 0) = 1. For frying: a stable, mostly monounsaturated oil; home deep-frying in fresh oil like this counts O +1 in a recipe, and reused oil O +2. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "canola-oil": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 14 g per serving, under 30 g (F 0) = 1. For frying: canola counts as a stable oil; home deep-frying in fresh canola is O +1 in a recipe, reused oil O +2. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "avocado-oil": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 14 g per serving, under 30 g (F 0) = 1. For frying: a stable, mostly monounsaturated oil; home deep-frying in fresh oil like this counts O +1 in a recipe, and reused oil O +2. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "sunflower-oil-refined": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 13.6 g per serving, under 30 g (F 0) = 1. For frying: a PUFA-rich seed oil, so pan-frying or roasting in it at high heat adds O +1 in a recipe and deep-frying O +2; use it cold or swap in olive or high-oleic oil for heat. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "soybean-oil": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 13.6 g per serving, under 30 g (F 0) = 1. For frying: a PUFA-rich seed oil, so pan-frying or roasting in it at high heat adds O +1 in a recipe and deep-frying O +2; use it cold or swap in olive or high-oleic oil for heat. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "flaxseed-oil": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 13.6 g per serving, under 30 g (F 0) = 1. For frying: don't; flaxseed oil is the most oxidation-prone oil here, so use it cold and keep it refrigerated. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "butter": {
+   "score": 1,
+   "why": "Butter gets no AGE points (the ELISA value is not used) and 1 tbsp is not an oxysterol hot spot (B 0, O 0); fat 11.5 g per serving, under 30 g (F 0) = 1. For frying: whole butter browns and burns at moderate heat, so keep the heat medium or finish dishes with it. [cooking-oil-choice] [dietary-ages]"
+  },
+  "ghee": {
+   "score": 2,
+   "why": "Ghee is an oxysterol hot spot: clarifying butterfat by heating, and storing it, oxidises its cholesterol (O +1); fat 12.7 g per serving, under 30 g (F 0) = 1 + 1 = 2. For frying: ghee tolerates heat, but as the main cooking fat it keeps this O +1 in a recipe. [dietary-lipid-oxidation-products] [cooking-oil-choice]"
+  },
+  "coconut-oil": {
+   "score": 1,
+   "why": "Oils get no AGE points (the ELISA value is not used) and 1 tbsp adds no oxidised-fat point by itself (B 0, O 0); fat 13.5 g per serving, under 30 g (F 0) = 1. For frying: mostly saturated and heat-stable, so it oxidises little; its saturated fat is the fats category's concern. [cooking-oil-choice] [oxidized-frying-oils] [dietary-ages]"
+  },
+  "green-tea": {
+   "score": 1,
+   "why": "Brewed tea: nothing scores (B 0, A 0); no fat (F 0) = 1."
+  },
+  "matcha": {
+   "score": 1,
+   "why": "Matcha whisked in water: nothing scores (B 0, A 0); no fat (F 0) = 1."
+  },
+  "black-tea": {
+   "score": 1,
+   "why": "Brewed tea: nothing scores (B 0, A 0); no fat (F 0) = 1."
+  },
+  "coffee-brewed": {
+   "score": 1,
+   "why": "Brewed coffee holds at most about 4 \u00b5g acrylamide per cup (400 \u00b5g/kg roast benchmark x about 10 g grounds), under 10 \u00b5g (B 0); no fat (F 0) = 1. [acrylamide]"
+  },
+  "espresso": {
+   "score": 1,
+   "why": "A single shot uses about 7 g of grounds, so at most about 3 \u00b5g acrylamide (B 0); no fat (F 0) = 1. [acrylamide]"
+  },
+  "hibiscus-tea": {
+   "score": 1,
+   "why": "Brewed tea: nothing scores (B 0, A 0); no fat (F 0) = 1."
+  },
+  "hot-cocoa-unsweetened": {
+   "score": 1,
+   "why": "Cocoa 5.4 g adds well under 1 \u00b5g acrylamide (B 0); heated fresh milk is not an oxysterol hot spot (O 0); fat 3.1 g per serving, under 30 g (F 0) = 1. [acrylamide]"
+  },
+  "red-wine": {
+   "score": 5,
+   "why": "FDC red wine has about 10.6 g alcohol per 100 g, so about 16 g per 150 mL glass, above one 14 g standard drink (A +4); no fat (F 0) = 1 + 4 = 5. The wine's polyphenols don't cancel the alcohol, and mitigation can't offset alcohol points. [alcohol]"
+  },
+  "sugar-sweetened-soda": {
+   "score": 1,
+   "why": "Soda: nothing scores here (B 0, A 0); its sugar load belongs to the glycemic category; no fat (F 0) = 1."
+  },
+  "dark-chocolate-85": {
+   "score": 1,
+   "why": "Chocolate from roasted cocoa carries little acrylamide (typically under 100 \u00b5g/kg, about 3 \u00b5g or less per 28 g) and is not on the AGE-dense list (B 0); fat 11.9 g per serving, under 30 g (F 0) = 1. Cocoa cadmium and lead are watch-outs, not points. [acrylamide] [dietary-ages]"
+  },
+  "cocoa-powder": {
+   "score": 1,
+   "why": "Natural cocoa powder at 5.4 g adds only about 1-2 \u00b5g acrylamide even at a few hundred \u00b5g/kg (B 0); fat 0.7 g per serving, under 30 g (F 0) = 1. Cocoa cadmium and lead are watch-outs, not points. [acrylamide]"
+  },
+  "apple-cider-vinegar": {
+   "score": 1,
+   "why": "Cider vinegar holds only trace alcohol, well under 2 g (A 0); no fat (F 0) = 1. [alcohol]"
+  },
+  "miso": {
+   "score": 1,
+   "why": "Fermented paste, not a browned low-moisture product (B 0) and essentially no alcohol (A 0); fat 1 g per serving, under 30 g (F 0) = 1."
+  },
+  "kimchi": {
+   "score": 1,
+   "why": "Raw fermented vegetables: nothing scores (B 0, A 0); fat 0.4 g per serving, under 30 g (F 0) = 1."
+  },
+  "sauerkraut": {
+   "score": 1,
+   "why": "Raw fermented vegetables: nothing scores (B 0, A 0); fat 0.1 g per serving, under 30 g (F 0) = 1."
+  },
+  "nutritional-yeast-fortified": {
+   "score": 1,
+   "why": "Dried yeast flakes, not a browned starch or nut product (B 0); fat 0.5 g per serving, under 30 g (F 0) = 1."
+  },
+  "honey": {
+   "score": 1,
+   "why": "Sweetener: nothing scores here (B 0); sugar belongs to the glycemic category; no fat (F 0) = 1."
+  },
+  "maple-syrup": {
+   "score": 1,
+   "why": "Sweetener: nothing scores here (B 0); sugar belongs to the glycemic category; no fat (F 0) = 1."
+  },
+  "white-sugar": {
+   "score": 1,
+   "why": "Sweetener: nothing scores here (B 0); sugar belongs to the glycemic category; no fat (F 0) = 1."
+  },
+  "iodized-salt": {
+   "score": 1,
+   "why": "Salt: nothing in the rubric applies; no fat (F 0) = 1."
+  }
+ }
+}

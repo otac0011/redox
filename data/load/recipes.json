@@ -1,0 +1,204 @@
+{
+ "load": {
+  "overnight-oats-berries": {
+   "score": 1,
+   "why": "No-cook; no meat, browned starch, oxidised fat or alcohol; fat ≈15 g (F 0); nothing scores = 1"
+  },
+  "shakshuka": {
+   "score": 1,
+   "why": "Eggs poached in a simmered tomato sauce, no meat (C 0); fat ≈17 g per serving: oil 7 g, eggs 7.5 g, feta 2 g (F 0); nothing scores = 1"
+  },
+  "spinach-frittata": {
+   "score": 1,
+   "why": "Baked at 165 °C, no meat (C 0); Parmesan 50 g ÷ 4 ≈12.5 g per serving, under 20 g (O 0); fat ≈34 g per serving: eggs 9.5, cream 7, Cheddar 7, oil 7, Parmesan 3.5 (F +1); fresh basil 1 tbsp per serving cooked into the egg mix (X −1); produce ≈65 g per serving, under 80 g, adds nothing = 1 + 1 − 1 = 1 [postprandial-fat-load] [herbs-spices]"
+  },
+  "green-berry-smoothie": {
+   "score": 1,
+   "why": "Raw blend; peanut butter 20 g is under the ≈30 g browned-product threshold (B 0); fat ≈16 g (F 0); nothing scores = 1 [dietary-ages]"
+  },
+  "classic-hummus": {
+   "score": 1,
+   "why": "No-cook; tahini ≈10 g per serving, well under 30 g (B 0); fat ≈12 g per serving (F 0); nothing scores = 1"
+  },
+  "roasted-broccoli-lemon-parmesan": {
+   "score": 1,
+   "why": "Roast vegetables score nothing; Parmesan 10 g ÷ 4 ≈2.5 g, under 20 g (O 0); fat ≈9 g per serving (F 0); nothing scores = 1 [dietary-lipid-oxidation-products]"
+  },
+  "sauteed-kale": {
+   "score": 1,
+   "why": "Kale steamed and braised under a lid, no meat or starch; olive oil ≈10 g fat per serving (F 0); nothing scores = 1"
+  },
+  "chocolate-chia-pudding": {
+   "score": 1,
+   "why": "No-cook; fat ≈11 g per serving: chia 6 g, milk 4 g (F 0); nothing scores = 1"
+  },
+  "walnut-cocoa-energy-bites": {
+   "score": 1,
+   "why": "No-cook; raw walnuts are not a browned nut product (B 0); fat ≈26 g per 3-bite portion (walnuts 20, almond butter 4, hemp 2; optional coconut oil not counted) (F 0); nothing scores = 1 [postprandial-fat-load]"
+  },
+  "guacamole": {
+   "score": 1,
+   "why": "Raw; avocado fat ≈15 g per serving (F 0); nothing scores = 1"
+  },
+  "lentil-vegetable-soup": {
+   "score": 1,
+   "why": "Vegetables softened at medium heat, then simmered; fat ≈7 g per serving (F 0); nothing scores = 1"
+  },
+  "minestrone-soup": {
+   "score": 1,
+   "why": "Vegetables softened, then simmered; pasta boiled; fat ≈7 g per serving (F 0); nothing scores = 1"
+  },
+  "masoor-dal-tadka": {
+   "score": 1,
+   "why": "Lentils boiled (no meat); ghee is the cooking fat of the tadka (O +1); fat ≈7–13 g per serving (F 0); tadka spices (cumin, chili, turmeric, garam masala, kasuri methi ≈1 tsp per serving) cooked in the ghee plus 1 tbsp fresh coriander per serving (X −1, the most allowed: the floor is 1) = 1 + 1 − 1 = 1 [dietary-lipid-oxidation-products] [herbs-spices]"
+  },
+  "chickpea-spinach-curry": {
+   "score": 1,
+   "why": "Brief medium-heat sauté of garlic and paste, then a gentle simmer; rice boiled; fat ≈26 g per serving, mostly coconut milk (F 0); nothing scores = 1 [postprandial-fat-load]"
+  },
+  "vegetarian-bean-chili": {
+   "score": 1,
+   "why": "Vegetables softened, then simmered 30 min; fat ≈7 g per serving (F 0); nothing scores = 1"
+  },
+  "kale-salad-carrot-ginger": {
+   "score": 2,
+   "why": "Chickpeas roasted at 220 °C until golden and crisp, ≈35–40 g per serving, a meaningful browned component (B +1); kale raw; fat ≈27 g per serving: oil ≈16, pepitas 4, avocado 5.5, chickpeas 1.5 (F 0); no meat, fat or oxidised-fat points, so no mitigation applies = 1 + 1 = 2 [acrylamide] [dietary-ages]"
+  },
+  "raw-broccoli-salad": {
+   "score": 1,
+   "why": "Broccoli raw; almonds and seeds baked golden at 175 °C are ≈22 g per serving, under the ≈30 g threshold (B 0); fat ≈23 g per serving: nuts and seeds 11, oil 7, mayo 5 (F 0); nothing scores = 1 [dietary-ages]"
+  },
+  "tabbouleh": {
+   "score": 1,
+   "why": "Raw salad; bulgur soaked; fat ≈12 g per serving (F 0); nothing scores = 1"
+  },
+  "sesame-tofu-broccoli": {
+   "score": 1,
+   "why": "Tofu pan-fried golden at medium heat in unspecified neutral oil (no seed-oil point, O 0); cornstarch coating ≈10 g per serving is not a meaningful browned starch (B 0); fat ≈27 g per serving: oil 9, tofu 10, sesame oil 4.5, seeds 3 (F 0); nothing scores = 1 [cooking-oil-choice] [postprandial-fat-load]"
+  },
+  "asian-peanut-slaw": {
+   "score": 1,
+   "why": "No-cook; salted peanuts ≈12 g per serving, under 30 g (B 0); vegetable oil unheated (O 0); fat ≈19 g per serving (F 0); nothing scores = 1"
+  },
+  "roasted-cauliflower-chickpea-tahini-bowl": {
+   "score": 1,
+   "why": "Vegetables roasted at 200 °C score nothing; chickpeas only warmed 5 min at medium heat until a little crisp, plain cooked legumes (B 0); olive oil, not a seed oil (O 0); fat ≈23 g per serving: tahini 11, oil 10, chickpeas 1.5 (F 0); nothing scores = 1"
+  },
+  "ratatouille": {
+   "score": 1,
+   "why": "Vegetables cooked at medium heat, then stewed; EVOO ≈21 g fat per serving (F 0); nothing scores = 1"
+  },
+  "ribollita-tuscan-kale-bean-soup": {
+   "score": 1,
+   "why": "Soup simmered; ciabatta toasted only lightly golden and softened into the soup, acrylamide well under 10 µg per serving (B 0); 1 cup wine simmered ≥20 min, cooked off (A 0); fat ≈13 g per serving (F 0); nothing scores = 1 [acrylamide]"
+  },
+  "cabbage-soup-turmeric-ginger": {
+   "score": 1,
+   "why": "Aromatics and cabbage softened, then simmered; fat ≈5 g per serving (F 0); nothing scores = 1"
+  },
+  "orecchiette-broccoli-sauce": {
+   "score": 1,
+   "why": "Broccoli steamed and simmered, pasta boiled; pecorino 25 g ÷ 4 ≈6 g, under 20 g (O 0); 1 tsp anchovy paste is cured fish, no oxidised-fat point; fat ≈12 g per serving (F 0); nothing scores = 1"
+  },
+  "sweet-potato-black-bean-tacos": {
+   "score": 2,
+   "why": "Sweet potato cubes ≈225 g per serving roasted at 220 °C until browned, ≈14–40 µg acrylamide (B +1); fat ≈31 g per serving: avocado 11, oil 10, pepitas 8, beans and tortillas 2 (F +1); roasted sweet potato and avocado in the same taco (X −1, limited by the floor of 1 + B = 2) = 1 + 1 + 1 − 1 = 2 [acrylamide] [postprandial-fat-load] [meal-polyphenol-pairing]"
+  },
+  "greek-eggplant-chickpea-stew": {
+   "score": 1,
+   "why": "Vegetables softened, boiled briefly, then braised covered; fat ≈11 g per serving (F 0); nothing scores = 1"
+  },
+  "palak-paneer": {
+   "score": 1,
+   "why": "No meat; onions softened, then simmered; fat ≈33 g per serving: paneer 16, oil and butter 12, cashews 3.5, more with the optional cream (F +1); spinach ≈110 g, onion 45 g and tomato cooked into the gravy with the paneer (X −1) = 1 + 1 − 1 = 1 [postprandial-fat-load] [meal-polyphenol-pairing]"
+  },
+  "cauliflower-chickpea-masala": {
+   "score": 1,
+   "why": "Aromatics softened, then simmered; fat ≈15 g per serving: oil 7, cream 7 (F 0); nothing scores = 1"
+  },
+  "mujadara": {
+   "score": 1,
+   "why": "Rice and lentils simmered; onions fried deep brown in EVOO, a stable oil and not a starch (O 0, B 0); fat ≈18 g per serving (F 0); nothing scores = 1 [cooking-oil-choice]"
+  },
+  "sheet-pan-salmon-garlicky-kale": {
+   "score": 1,
+   "why": "Salmon roasted uncovered at 205 °C (C +1); salt-free spice rub ≈1 tsp per serving baked onto the fish (X −1); added oil ≈17 g per serving, salmon fat not counted (F 0); kale 57 g per serving, under 80 g = 1 + 1 − 1 = 1 [high-temperature-cooking] [herbs-spices]"
+  },
+  "sardine-pasta-breadcrumbs-capers": {
+   "score": 1,
+   "why": "Canned sardines only warmed 2 min (C 0; canned fish, no oxidised-fat point); toasted crumbs ≈10 g per serving, a garnish (B 0); oil ≈13 g per serving, sardine fat not counted (F 0); nothing scores = 1"
+  },
+  "baked-fish-tacos-purple-cabbage": {
+   "score": 2,
+   "why": "Tilapia baked uncovered at 190 °C (C +1; optional broil not counted); fat ≈32 g per serving from mayo, avocado, cotija, sour cream, butter, oil and tortillas, fish fat not counted (F +1); cabbage ≈58 g, avocado, tomato and onion in the taco, ≈90 g+ produce (X −1) = 1 + 1 + 1 − 1 = 2 [high-temperature-cooking] [postprandial-fat-load] [meal-polyphenol-pairing]"
+  },
+  "pasta-mussels-tomato-sauce": {
+   "score": 3,
+   "why": "Mussels steamed (C 0); ½ cup wine heated well under 15 min, so not cooked off: ≈11 g alcohol ÷ 4 ≈2.8 g per serving (A +2); oil ≈7 g fat per serving, shellfish fat not counted (F 0); mitigation can't offset alcohol = 1 + 2 = 3 [alcohol]"
+  },
+  "cioppino-seafood-stew": {
+   "score": 1,
+   "why": "Fish pieces baked uncovered at 205 °C ≈10 min (C +1); clams and shrimp simmered; 1 cup wine reduced, then simmered ≥35 min, cooked off (A 0); oil and butter ≈29 g fat per serving, seafood fat not counted (F 0); crushed tomatoes ≈200 g per serving in the stew ladled over the fish (X −1) = 1 + 1 − 1 = 1 [high-temperature-cooking] [meal-polyphenol-pairing]"
+  },
+  "baked-mackerel-saba-shioyaki": {
+   "score": 2,
+   "why": "Mackerel baked at 218 °C until golden (C +1); sake rubbed on and discarded (A 0); Atlantic or Pacific mackerel, not king mackerel (M 0); no added fat, fish fat not counted (F 0); daikon ≈37 g per serving, under 80 g = 1 + 1 = 2 [high-temperature-cooking]"
+  },
+  "avgolemono-chicken-rice-soup": {
+   "score": 1,
+   "why": "Chicken poached in broth, soup simmered (C 0); fat ≈18 g per serving: cream 10.5, eggs 5, chicken 2.5 (F 0); nothing scores = 1"
+  },
+  "tandoori-chicken-yogurt-marinade": {
+   "score": 2,
+   "why": "Chicken roasted at 240 °C, then broiled to a few charred spots, well done (C +2); ≥6 h yogurt-spice-lemon marinade (−1 in C); unspecified neutral or mustard oil (O 0); fat ≈18 g per serving (F 0) = 1 + 2 − 1 = 2 [high-temperature-cooking] [marinating-meat]"
+  },
+  "beef-broccoli-stir-fry": {
+   "score": 3,
+   "why": "Beef 120 g raw ≈90 g cooked per serving ≈0.9 mg heme (H +2); brief high-heat stir-fry, just cooked through (C +1); Shaoxing wine 15 mL ÷ 3 ≈0.6 g alcohol (A 0); fat ≈19 g (F 0); broccoli ≈110 g per serving in the dish (X −1) = 1 + 2 + 1 − 1 = 3 [heme-iron] [unprocessed-red-meat] [high-temperature-cooking] [meal-polyphenol-pairing]"
+  },
+  "moroccan-chicken-chickpea-couscous": {
+   "score": 1,
+   "why": "Chicken seared 2–3 min a side as the first step of an hour-long covered oven braise, scored as the braise (C 0); even counted as a sear, the ≈1 tsp per serving spice blend rubbed on would cancel it; fat ≈6 g per serving (F 0); nothing scores = 1 [high-temperature-cooking]"
+  },
+  "turmeric-ginger-chicken-soup-kale": {
+   "score": 1,
+   "why": "Chicken browned as the first step, then simmered 30–40 min (C 0); kale, sweet potato and aromatics ≈135 g per serving would cancel a sear point anyway; fat ≈17 g per serving: coconut milk 9, butter 4, chicken 4 (F 0); nothing scores = 1 [high-temperature-cooking]"
+  },
+  "wild-salmon-sauce-verte-green-beans": {
+   "score": 1,
+   "why": "Salmon baked at 175 °C, ≤180 °C (C 0); potatoes and beans boiled; olive oil ≈30 g plus egg ≈2.5 g fat per serving if all the sauce is eaten, salmon fat not counted (F +1); green beans ≈113 g per serving dressed with the sauce, plus 2 tbsp fresh herbs per serving in it (X −1) = 1 + 1 − 1 = 1 [postprandial-fat-load] [meal-polyphenol-pairing]"
+  },
+  "roasted-broccoli-shrimp": {
+   "score": 1,
+   "why": "Shrimp roasted uncovered at 220 °C ≈10 min (C +1); broccoli ≈225 g per serving roasted with them (X −1); EVOO ≈13.5 g fat per serving, shrimp fat not counted (F 0) = 1 + 1 − 1 = 1 [high-temperature-cooking] [meal-polyphenol-pairing]"
+  },
+  "greek-chicken-cucumber-feta-salad": {
+   "score": 3,
+   "why": "Chicken thighs pan-fried 5–7 min a side until well browned (C +2); the yogurt coat sits under 30 min, no marinade credit; fat ≈31 g per serving: chicken 13.5, oil 7, feta 6, olives 2.5, yogurt 2 (F +1); cucumber and tomato salad ≈280 g per serving (X −1) = 1 + 2 + 1 − 1 = 3 [high-temperature-cooking] [postprandial-fat-load] [meal-polyphenol-pairing]"
+  },
+  "chicken-cacciatore-mushrooms-peppers": {
+   "score": 1,
+   "why": "Thighs browned 8 min as the first step of a 30-min covered braise (C 0); 1 cup red wine reduced, then braised ≥35 min, cooked off (A 0); fat ≈20 g per serving (F 0); nothing scores = 1 [high-temperature-cooking] [alcohol]"
+  },
+  "puttanesca-poached-white-fish": {
+   "score": 1,
+   "why": "Fish poached covered in the sauce (C 0); ½ cup wine simmered ≈20 min, cooked off (A 0); anchovies ≈4 g per serving, cured fish, no oxidised-fat point; fat ≈11 g per serving (F 0); nothing scores = 1"
+  },
+  "herb-walnut-pomegranate-stuffed-fish": {
+   "score": 1,
+   "why": "Whole fish roasted uncovered at 245 °C (C +1); ≈1¾ cups fresh herbs (≈7 tbsp per serving) cooked into the stuffing inside the fish (X −1); oil and walnuts ≈23 g fat per serving, fish fat not counted (F 0) = 1 + 1 − 1 = 1 [high-temperature-cooking] [herbs-spices]"
+  },
+  "tuna-kimchi-tofu-stew": {
+   "score": 1,
+   "why": "Simmered covered ≈30 min (C 0); canned light tuna, not a high-mercury species (M 0), no oxidised-fat point; fat ≈5 g per serving (F 0); nothing scores = 1 [mercury-fish]"
+  },
+  "likama-salmon-cabbage-salad": {
+   "score": 1,
+   "why": "Salmon roasted at 175 °C, ≤180 °C (C 0); salad raw; olive oil ≈12 g fat per serving, salmon fat not counted (F 0); nothing scores = 1"
+  },
+  "kuku-sabzi-herb-frittata": {
+   "score": 1,
+   "why": "Eggs and herbs cooked covered at medium heat in canola, a stable oil, then broiled 1–4 min (C 0, O 0); fat ≈13 g per serving (F 0); nothing scores = 1 [cooking-oil-choice]"
+  }
+ }
+}

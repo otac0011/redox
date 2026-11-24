@@ -1,6 +1,30 @@
 {
- "about": "Single ingredients rated per typical serving, using nutrient values from USDA FoodData Central (often via NIH Office of Dietary Supplements tables), polyphenol totals from Phenol-Explorer and FDA/EPA fish-mercury categories. The rules are in research/FOOD-RUBRIC.md. A score is how much of each evidence-backed component a serving provides, not a trial result, and a dash means the category doesn't apply.",
+ "about": "Single ingredients rated per typical serving, using nutrient values from USDA FoodData Central (often via NIH Office of Dietary Supplements tables), polyphenol totals from Phenol-Explorer and FDA/EPA fish-mercury categories. The rules are in research/FOOD-RUBRIC.md and research/LOAD-RUBRIC.md. A score is how much of each evidence-backed component a serving provides, not a trial result, and a dash means the category doesn't apply.",
  "categories": [
+  {
+   "id": "load",
+   "group": "load",
+   "direction": "lower",
+   "name": "Oxidant load",
+   "short": "Load",
+   "how": "How much oxidative stress the food itself brings: alcohol, processed meat (nitrite and N-nitroso compounds), heme iron in red and organ meat, high-heat cooking by-products (HCAs, PAHs, browned-starch acrylamide and AGEs), oxidised frying oil and oxysterols, large fat loads, and high-mercury fish. Herbs, spices or produce eaten with the meat take points off. 1 means negligible; higher is worse.",
+   "factors": [
+    "alcohol",
+    "processed-meat",
+    "processed-red-meat",
+    "heme-iron",
+    "unprocessed-red-meat",
+    "high-temperature-cooking",
+    "marinating-meat",
+    "acrylamide",
+    "dietary-ages",
+    "oxidized-frying-oils",
+    "dietary-lipid-oxidation-products",
+    "postprandial-fat-load",
+    "mercury-fish",
+    "meal-polyphenol-pairing"
+   ]
+  },
   {
    "id": "plants",
    "group": "oxidative",

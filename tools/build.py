@@ -320,6 +320,14 @@ def main():
         "recipes": [],
     }
     rdoc = load("recipes.json", {}) or {}
+    fdoc0 = load("foods.json", {}) or {}
+    # oxidant-load scores live in data/load/<kind>.json and are merged in here
+    for kind, doc, key in (("recipes", rdoc, "recipes"), ("foods", fdoc0, "foods")):
+        lp = ROOT / "data" / "load" / f"{kind}.json"
+        lmap = json.loads(lp.read_text(encoding="utf-8"))["load"] if lp.exists() else {}
+        for x in doc.get(key, []):
+            if x["id"] in lmap:
+                x["scores"] = {"load": lmap[x["id"]]} | {k: v for k, v in x["scores"].items() if k != "load"}
     cats = rdoc.get("categories", [])
     cat_ids = [c["id"] for c in cats]
     fix = lambda t: re.sub(r"\[([a-z0-9-]+)\]", lambda m: "[" + factor_alias.get(m.group(1), m.group(1)) + "]", t or "")
@@ -349,7 +357,7 @@ def main():
             for m in re.findall(r"\[([a-z0-9-]+)\]", t):
                 if m not in ids:
                     warn(f"recipe {r['id']}: [{m}] is not a factor id")
-    fdoc = load("foods.json", {}) or {}
+    fdoc = fdoc0
     fcats = [c["id"] for c in fdoc.get("categories", [])]
     groups = {g["id"] for g in fdoc.get("groups", [])}
     fseen = set()
