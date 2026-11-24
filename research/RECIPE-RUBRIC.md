@@ -81,7 +81,9 @@ Factors: [dietary-fiber-microbiome] [legumes] [whole-grains] [refined-sugar-high
 - **Added sugar per serving** (honey, maple and syrups count): 0–4 g = +2; 5–12 g = +1; 13–25 g = 0; > 25 g = −2.
 - **Pairing:** the carbohydrate comes with meaningful protein, fat or vinegar in the same dish = +1.
 
-### 5. Low-oxidant cooking (`cooking`)
+### 5. Low-oxidant cooking (`cooking`): retired 2026-10-11
+This category has been replaced by **Oxidant load** (`research/LOAD-RUBRIC.md`), which covers cooking by-products along with the oxidants that come from the ingredients themselves. The rules below are kept for the record.
+
 Heterocyclic amines, PAHs, AGEs, acrylamide and oxidised frying oil all come from how food is cooked.
 Factors: [high-temperature-cooking] [marinating-meat] [acrylamide] [oxidized-frying-oils] [cooking-oil-choice] [herbs-spices]
 

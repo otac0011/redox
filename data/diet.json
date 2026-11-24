@@ -4830,6 +4830,503 @@
     "efw-heyndrickx2015",
     "efw-aljaal2021"
    ]
+  },
+  {
+   "id": "dietary-ages",
+   "name": "Dietary AGEs (browned, dry-heated foods)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Dry heat raises food AGEs 10- to 100-fold and part of them is absorbed, but trials disagree (two blinded trials improved insulin sensitivity on low-AGE diets, a 4-week double-blind trial with 2.7- to 5.3-fold AGE contrasts changed nothing), large cohorts link AGE intake to no more cancer or death, and a 2024 German food-safety review found no convincing evidence of harm.",
+   "dose": {
+    "effective": "Prefer moist heat (poach, steam, stew, braise), shorter and cooler cooking, and acidic marinades (lemon juice or vinegar halved AGE formation in beef); by mass spectrometry the densest sources are breakfast cereals, biscuits, bread crust, peanut butter, roasted nuts and browned or canned meat, not butter or oils.",
+    "studied_range": "Controlled diets differing 2.7- to 5-fold in CML for 2 weeks to 1 year; single meals of about 2,750 vs 15,100 kU (ELISA). Typical New York intake about 14,700 kU/day (ELISA database).",
+    "too_much": "No threshold has been validated. The Uribarri group called intakes well above about 15,000 kU/day 'high', but that figure depends on the disputed ELISA database.",
+    "timeframe": "Urinary and plasma free AGEs follow diet within days; claimed metabolic effects were tested over 2 weeks to 1 year.",
+    "notes": "The two food databases disagree. ELISA (Uribarri 2010, 549 foods) ranks butter, oils, cream cheese and roasted nuts highest; LC-MS/MS (Scheijen 2016, 190 foods; CML, CEL, MG-H1) finds butter among the lowest and bakery, cereal and nut products highest. Use mass-spectrometry data to rank foods; use ELISA data only to compare cooking methods within one food."
+   },
+   "mechanism": "Maillard reactions between reducing sugars or dicarbonyls (glyoxal, methylglyoxal) and lysine or arginine form CML, CEL and hydroimidazolones (MG-H1). Only free and small peptide-bound AGEs are absorbed; most protein-bound CML passes to the colon. Absorbed AGEs are proposed to bind RAGE, activate NADPH oxidase and NF-kB, and deplete defences such as AGER1 and sirtuin-1, but these steps are shown mostly in cells and animals.",
+   "pathways": [
+    "glycation-ages",
+    "nox",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Shares its chemistry and its main food sources with [high-temperature-cooking] (browned meat) and [acrylamide] (browned starches), so a cooking-based score already captures much of it. Endogenous AGEs from high blood sugar ([glycemic-control], [refined-sugar-high-glycemic]) are a larger body burden. Acid marinades ([marinating-meat]) and moist cooking lower it.",
+   "caveats": "About 10% of ingested AGE immunoreactivity reached the blood in the classic study and urinary CML does not rise in proportion to intake, so exposure is far smaller than the food values suggest. Most positive trials came from one research group using its own ELISA database with open-label designs. Independent groups using mass-spectrometry-verified diets got mixed results. Low-AGE diets also change other things (less frying, more stewing and vegetables), which confounds open trials. Cohorts using LC-MS estimates found slightly less colorectal cancer with more CML (cereals are the main source).",
+   "debate": "For harm: the Vlassara/Uribarri group reported lower 8-isoprostanes, TNF-alpha and insulin resistance on low-AGE diets in healthy adults and people with metabolic syndrome [fox-vlassara2009, fox-vlassara2016, fox-uribarri2007], an acute high-AGE meal impaired endothelial function in diabetes [fox-negrean2007], and meta-analyses report lower HOMA-IR and 8-isoprostane on low-AGE diets [fox-baye2017, fox-sohouli2021, fox-clarke2016, fox-lu2025]; independent blinded trials with mass-spectrometry-verified diets also found better insulin sensitivity [fox-decourten2016, fox-mark2014]. Against: a 4-week double-blind trial with large verified AGE contrasts found no effect on clamp insulin sensitivity, vascular function or inflammation [fox-linkens2022], a 6-week trial found none on endothelial function [fox-semba2014], habitual LC-MS-estimated intake was unrelated to microvascular function or diabetes [fox-linkens2022b, fox-linkens2023], cohort meta-analyses found no link with cancer or mortality [fox-sharifizahabi2024, fox-ahmadirad2025, fox-pascualmorena2025] and EPIC found slightly lower colorectal cancer [fox-aglago2021]. Systematic reviewers rate trial quality low to very low [fox-kellow2013], and the DFG food-safety commission concluded there is no convincing causal evidence [fox-hellwig2024]. On methods, reviewers note that no assay captures all AGEs and ELISA results depend on the food matrix [fox-poulsen2013, fox-ames2008, fox-charissou2007].",
+   "key_numbers": [
+    {
+     "label": "Rise in AGEs with dry heat vs uncooked",
+     "value": 100,
+     "unit": "fold (upper end of 10-100)",
+     "source": "fox-uribarri2010"
+    },
+    {
+     "label": "Share of ingested AGE reaching serum",
+     "value": 10,
+     "unit": "%",
+     "source": "fox-koschinsky1997"
+    },
+    {
+     "label": "Low- vs high-AGE diet: HOMA-IR difference",
+     "value": -1.3,
+     "unit": "mean difference",
+     "source": "fox-baye2017"
+    },
+    {
+     "label": "CML contrast in null 4-week double-blind trial",
+     "value": 2.7,
+     "unit": "fold",
+     "source": "fox-linkens2022"
+    },
+    {
+     "label": "Colorectal cancer, top vs bottom CML intake (EPIC)",
+     "value": 0.92,
+     "unit": "HR",
+     "source": "fox-aglago2021"
+    },
+    {
+     "label": "Peanut-butter-type spreads, MG-H1 (LC-MS)",
+     "value": 445,
+     "unit": "mg/kg (upper end of 204-445)",
+     "source": "fox-kataoka2025"
+    }
+   ],
+   "refs": [
+    "fox-uribarri2010",
+    "fox-scheijen2016",
+    "fox-kataoka2025",
+    "fox-koschinsky1997",
+    "fox-delgadoandrade2012",
+    "fox-forster2005",
+    "fox-scheijen2018",
+    "fox-baye2017",
+    "fox-clarke2016",
+    "fox-sohouli2021",
+    "fox-lu2025",
+    "fox-kellow2013",
+    "fox-poulsen2013",
+    "fox-hellwig2024",
+    "fox-aglago2021",
+    "fox-pascualmorena2025",
+    "fox-sharifizahabi2024",
+    "fox-ahmadirad2025",
+    "fox-linkens2022",
+    "fox-linkens2022b",
+    "fox-linkens2023",
+    "fox-semba2014",
+    "fox-decourten2016",
+    "fox-mark2014",
+    "fox-uribarri2007",
+    "fox-vlassara2009",
+    "fox-vlassara2016",
+    "fox-negrean2007",
+    "fox-charissou2007",
+    "fox-ames2008"
+   ]
+  },
+  {
+   "id": "dietary-lipid-oxidation-products",
+   "name": "Oxidised fats in food (MDA, 4-HNE, oxysterols)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Oxidised fats in food are absorbed: a 250 g cutlet meal raised plasma malondialdehyde from about 50 to 210 nM, oxidised oil shows up in blood chylomicrons and dietary oxysterols in LDL, but all studies are single meals in 5-20 people, a meal of long-used frying oil left artery function unchanged, and no study links these markers to disease.",
+   "dose": {
+    "effective": "Choose fresh over stored, reheated or powdered animal foods; fry in stable oils and don't keep reusing the oil; cook meat with herbs and spices and eat it with vegetables, fruit, coffee or tea, which cut postprandial MDA by 50-100% in meal studies.",
+    "studied_range": "Single meals: 250 g heated meat cutlets or burgers; highly oxidised corn oil; 400 mg alpha-epoxy-cholesterol; a salami-and-Parmesan meal; breakfasts made with oil heated through 20 frying cycles.",
+    "too_much": "No exposure limit exists. Estimated dietary 4-hydroxyalkenal exposure in Korea was about 0.3 ug/kg body weight/day including fried food.",
+    "timeframe": "Plasma MDA peaks 2-4 h after the meal; dietary oxysterols peak in plasma about 8 h after a meal and stay in lipoproteins up to 72 h.",
+    "notes": "Hot spots for cholesterol oxides: spray-dried egg yolk (55-113 mg/100 g), traditional ghee (about 12% of its cholesterol), grated aged cheeses, dried fish, and cooked meat that is stored and reheated (fried hamburger rose from 29 to 50 ug/g over 2 weeks in the fridge). Fresh eggs, fresh meat and fresh cheese contain only traces."
+   },
+   "mechanism": "Polyunsaturated fats oxidise in food and, catalysed by heme and iron, in the acidic stomach, forming hydroperoxides that break down to malondialdehyde, 4-hydroxynonenal and other reactive aldehydes; cholesterol oxidises to 7-keto- and 7-hydroxycholesterol and epoxides. Some of these are absorbed into chylomicrons and lipoproteins, where they can modify proteins and LDL.",
+   "pathways": [
+    "lipid-peroxidation",
+    "iron-fenton",
+    "inflammation-nfkb"
+   ],
+   "interactions": "The frying-oil side is covered in [oxidized-frying-oils] and [cooking-oil-choice]; capsule rancidity in [fish-oil-oxidation]. Heme catalyses gastric peroxidation ([heme-iron]); polyphenols in the same meal prevent it ([meal-polyphenol-pairing], [herbs-spices]). Eating fish or fish oil itself does not raise systemic F2-isoprostanes ([omega3-fish]) even though fish oil raised MDA in a simulated stomach.",
+   "caveats": "The postprandial MDA work comes mostly from one Israeli group and uses MDA, a marker with known measurement artefacts. Effects are transient and measured only as biomarkers. Oxysterol levels in foods vary enormously between products and laboratories. Fried-food associations with heart disease are confounded by fast-food patterns and body weight.",
+   "debate": "For harm: Kanner and colleagues showed lipid peroxidation in simulated gastric fluid [fox-kanner2001] and rising plasma MDA after meat meals in humans, prevented by red-wine or coffee polyphenols [fox-gorelik2008a, fox-sirota2013, fox-kanner2012], with supporting rat data [fox-gorelik2008b] and a review arguing repeated intake is a chronic threat [fox-kanner2007]; an independent group saw the same pattern with spiced burgers [fox-li2010]. Oxidised dietary lipids and oxysterols reach chylomicrons and LDL [fox-staprans1994, fox-staprans2003, fox-linseisen1998], and heated sunflower oil raised postprandial carbonyls and DNA-oxidation markers versus heated olive oil [fox-perezherrera2013, fox-rangelzuniga2017]. Against or tempering: a double-blind trial of meals with oils used for 8 hours of deep frying found no effect on endothelial function [fox-williams2001], fresh and repeatedly fried oils impaired FMD equally, implicating fat load rather than oxidation [fox-ruedaclausen2007], Esterbauer judged the oral toxicity of oxidised lipids unexpectedly low [fox-esterbauer1993], dietary hydroxyalkenal exposure was judged unlikely to matter [fox-surh2005], MDA assays are artefact-prone [fox-tsikas2017], and highly peroxidisable fish oil and fish meals did not raise, or lowered, F2-isoprostanes [fox-higdon2000, fox-mori1999]. Fried-food cohorts disagree [fox-qin2021, fox-guallarcastillon2012].",
+   "key_numbers": [
+    {
+     "label": "Plasma MDA rise after 250 g cutlet meal",
+     "value": 160,
+     "unit": "nM (baseline 50)",
+     "source": "fox-gorelik2008a"
+    },
+    {
+     "label": "Chylomicron conjugated dienes after oxidised oil",
+     "value": 4.7,
+     "unit": "fold",
+     "source": "fox-staprans1994"
+    },
+    {
+     "label": "Cholesterol oxides, spray-dried egg yolk powder",
+     "value": 113,
+     "unit": "mg/100 g (upper end of 55-113)",
+     "source": "fox-savage2002"
+    },
+    {
+     "label": "Cholesterol oxides in traditional ghee",
+     "value": 12,
+     "unit": "% of cholesterol",
+     "source": "fox-savage2002"
+    },
+    {
+     "label": "COPs in processed meat after storage and reheating",
+     "value": 3.3,
+     "unit": "% of cholesterol (max)",
+     "source": "fox-khan2015"
+    },
+    {
+     "label": "Dietary 4-hydroxyalkenal exposure incl. fried food",
+     "value": 0.3,
+     "unit": "ug/kg bw/day",
+     "source": "fox-surh2005"
+    }
+   ],
+   "refs": [
+    "fox-kanner2001",
+    "fox-kanner2007",
+    "fox-gorelik2008a",
+    "fox-gorelik2008b",
+    "fox-kanner2012",
+    "fox-sirota2013",
+    "fox-tirosh2015",
+    "fox-li2010",
+    "fox-staprans1994",
+    "fox-staprans2003",
+    "fox-linseisen1998",
+    "fox-otaeguiarrazola2010",
+    "fox-savage2002",
+    "fox-khan2015",
+    "fox-chudy2021",
+    "fox-esterbauer1993",
+    "fox-surh2005",
+    "fox-tsikas2017",
+    "fox-williams2001",
+    "fox-perezherrera2013",
+    "fox-rangelzuniga2017",
+    "fox-ruedaclausen2007",
+    "fox-higdon2000",
+    "fox-mori1999",
+    "fox-qin2021",
+    "fox-guallarcastillon2012"
+   ]
+  },
+  {
+   "id": "heme-iron",
+   "name": "Heme iron from red meat",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 2
+   },
+   "evidence": "moderate",
+   "headline": "In the gut, heme drives fat oxidation and N-nitrosation: adding heme to a diet doubled urinary DHN-MA (a 4-HNE breakdown product), faecal N-nitroso compounds rose in step with red meat from 0 to 420 g/day, and each extra 1 mg/day of heme is linked to about 11-12% more colon cancer, but 200 g/day of lean red meat did not raise markers of whole-body oxidative stress.",
+   "dose": {
+    "effective": "A typical 85 g (3 oz) cooked serving supplies roughly 0.7-1.3 mg heme from beef or lamb, 0.3-0.6 mg from pork, 0.15-0.25 mg from chicken breast and 0.4-0.5 mg from chicken thigh. Keeping red meat to a few modest servings a week, choosing poultry, fish or legumes on other days, and eating red meat with vegetables and herbs keeps gut heme exposure low.",
+    "studied_range": "Controlled feeding of 0-420 g/day red meat (faecal N-nitroso compounds), 60 vs 120 g/day red meat plus heme supplements (urinary DHN-MA), 180 g/day cured meat; cohort intakes in 1 mg/day steps.",
+    "too_much": "Highest vs lowest heme intake: colon cancer RR 1.18; per 1 mg/day: colorectal cancer RR 1.11 and type 2 diabetes RR 1.16. No safe threshold is defined.",
+    "timeframe": "Faecal and urinary markers change within days; cancer and diabetes associations reflect years of intake.",
+    "notes": "Cooking turns part of the heme into non-heme iron, so cooked meat holds about 40-60% of its iron as heme versus 64-88% raw. Liver is rich in iron but mostly as storage (non-heme) iron. White meat at 420-600 g/day did not raise faecal N-nitroso compounds. Calcium carbonate normalised faecal markers after cured meat in a human trial."
+   },
+   "mechanism": "Heme (from myoglobin) catalyses peroxidation of dietary polyunsaturated fat in the stomach and colon, producing cytotoxic aldehydes such as 4-HNE (excreted as DHN-MA) and malondialdehyde, and promotes endogenous N-nitrosation, forming nitrosyl heme and other N-nitroso compounds that alkylate DNA. Cytotoxic faecal water drives compensatory epithelial proliferation in rodents.",
+   "pathways": [
+    "iron-fenton",
+    "lipid-peroxidation",
+    "dna-repair",
+    "microbiome"
+   ],
+   "interactions": "Underlies part of the cancer risk of [processed-red-meat] and [unprocessed-red-meat]; adds to non-heme iron excess in the colon ([iron-excess]) and relates to body iron stores ([iron-status-ferritin]). Polyphenols, herbs and spices eaten with the meat lower the oxidation it catalyses ([meal-polyphenol-pairing], [herbs-spices]). Fish oils increased meat peroxidation in a simulated stomach, whereas olive oil reduced it ([omega3-fish]).",
+   "caveats": "The mechanistic chain is strongest in rodents; human evidence is biomarker trials of days to weeks and observational cohorts with modest relative risks. Heme intake in cohorts is estimated from meat questionnaires and correlates with everything else about meat eating. Systemic oxidative-stress markers did not rise with lean red meat. In people with low iron, heme is the best-absorbed iron source.",
+   "debate": "For harm: meta-analyses link heme intake to colon and colorectal cancer [fox-bastide2011, fox-qiao2013, fox-fonsecanunes2014] and type 2 diabetes [fox-bao2012]; NIH-AARP linked heme and processed-meat nitrate to colorectal cancer [fox-cross2010]; and human feeding trials show heme-dependent rises in urinary DHN-MA and faecal N-nitroso compounds [fox-pierre2006, fox-bingham2002, fox-joosen2009, fox-pierre2013]. Against or tempering: 200 g/day of lean red meat for 8 weeks did not raise systemic F2-isoprostanes or inflammation [fox-hodgson2007], a meta-analysis of 24 RCTs found no effect of red meat on glycaemic or inflammatory markers [fox-oconnor2021], a Burden of Proof analysis rated the disease evidence for unprocessed red meat as weak [fox-lescinsky2022], the NutriRECS panel judged the certainty too low to advise people to cut red or processed meat [fox-johnston2019], urinary isoprostanes did not rise with heme in humans [fox-pierre2006], and in one trial a vegetarian diet produced more faecal-water DNA strand breaks than meat diets [fox-joosen2009].",
+   "key_numbers": [
+    {
+     "label": "Urinary DHN-MA with heme supplement",
+     "value": 2,
+     "unit": "fold",
+     "source": "fox-pierre2006"
+    },
+    {
+     "label": "Faecal N-nitroso compounds per g red meat/day",
+     "value": 2.6,
+     "unit": "ug/day",
+     "source": "fox-bingham2002"
+    },
+    {
+     "label": "Colorectal cancer per 1 mg/day heme",
+     "value": 1.11,
+     "unit": "RR",
+     "source": "fox-qiao2013"
+    },
+    {
+     "label": "Type 2 diabetes per 1 mg/day heme",
+     "value": 1.16,
+     "unit": "RR",
+     "source": "fox-bao2012"
+    },
+    {
+     "label": "Heme in cooked hamburger",
+     "value": 10.3,
+     "unit": "ug/g",
+     "source": "fox-cross2012"
+    },
+    {
+     "label": "Heme in cooked chicken breast",
+     "value": 2.4,
+     "unit": "ug/g",
+     "source": "fox-cross2012"
+    },
+    {
+     "label": "Urinary F2-isoprostanes on 200 g/day lean red meat",
+     "value": -137,
+     "unit": "pmol/mmol creatinine vs control",
+     "source": "fox-hodgson2007"
+    }
+   ],
+   "refs": [
+    "fox-pierre2006",
+    "fox-pierre2013",
+    "fox-joosen2009",
+    "fox-bingham2002",
+    "fox-bastide2011",
+    "fox-qiao2013",
+    "fox-fonsecanunes2014",
+    "fox-cross2010",
+    "fox-cross2012",
+    "fox-pretorius2016",
+    "fox-valenzuela2009",
+    "fox-wheal2016",
+    "fox-hodgson2007",
+    "fox-oconnor2021",
+    "fox-lescinsky2022",
+    "fox-johnston2019",
+    "fox-bao2012",
+    "fox-tirosh2015"
+   ]
+  },
+  {
+   "id": "unprocessed-red-meat",
+   "name": "Unprocessed red meat (beef, pork, lamb)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "mixed",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Fresh red meat supplies heme that raises gut oxidation and N-nitroso markers in feeding trials, yet 200 g/day of lean red meat did not raise whole-body oxidative stress in an 8-week RCT, and a Burden of Proof review rates its links to colorectal cancer, diabetes and heart disease as weak; how it is cooked often matters as much as the meat.",
+   "dose": {
+    "effective": "A few modest servings (about 85-100 g cooked) a week, stewed, braised or roasted at moderate heat rather than charred, with vegetables and herbs in the same meal.",
+    "studied_range": "Lean red meat about 200 g/day for 8 weeks (RCT); 60-420 g/day in metabolic-suite feeding studies; cohort intakes from 0 to over 100 g/day.",
+    "too_much": "IARC: colorectal cancer risk up about 17% per 100 g/day of red meat (probable carcinogen, Group 2A). Burden of Proof: risk-minimising intake 0 g/day with a 0-200 g/day uncertainty interval.",
+    "timeframe": "Gut markers within days; disease associations over years.",
+    "notes": "Red meat is a dense source of heme iron, zinc and vitamin B12, which matter most for people with low intake. Processed meat is a separate and stronger risk ([processed-red-meat]). Well-done grilling adds HCAs and PAHs ([high-temperature-cooking])."
+   },
+   "mechanism": "Heme-catalysed lipid peroxidation and N-nitrosation in the gut lumen ([heme-iron]); high-heat cooking adds heterocyclic amines, PAHs and AGEs; saturated fat raises LDL. Systemic oxidative-stress markers are not raised in controlled trials.",
+   "pathways": [
+    "iron-fenton",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Heme side in [heme-iron]; cooking side in [high-temperature-cooking] and [marinating-meat]; offset in part by [meal-polyphenol-pairing] and [herbs-spices]. For sperm, unprocessed red meat is not linked to worse semen (see the sperm entry for this factor).",
+   "caveats": "Evidence is a mix of gut-biomarker trials and observational cohorts with small relative risks and residual confounding. Effects depend on what replaces the meat.",
+   "debate": "IARC classed red meat as probably carcinogenic [fox-bouvard2015], and heme biomarker trials support a gut mechanism [fox-bingham2002, fox-pierre2006]; the NIH-AARP cohort linked red meat to colorectal cancer (HR 1.24) [fox-cross2010]. On the other side, the Burden of Proof analysis rated the evidence weak [fox-lescinsky2022], the NutriRECS panel advised people to continue current intake on low-certainty evidence [fox-johnston2019], a 24-RCT meta-analysis found no effect on glycaemic or inflammatory markers [fox-oconnor2021], 200 g/day lean red meat did not raise isoprostanes [fox-hodgson2007], and the 165,717-person Multiethnic Cohort found no association with colorectal cancer [fox-ollberding2012].",
+   "key_numbers": [
+    {
+     "label": "Colorectal cancer, top vs bottom red meat (NIH-AARP)",
+     "value": 1.24,
+     "unit": "HR",
+     "source": "fox-cross2010"
+    },
+    {
+     "label": "Heme per 85 g cooked beef",
+     "value": 0.9,
+     "unit": "mg (about 0.8-1.3)",
+     "source": "fox-cross2012"
+    },
+    {
+     "label": "Urinary F2-isoprostanes on 200 g/day lean red meat",
+     "value": -137,
+     "unit": "pmol/mmol creatinine vs control",
+     "source": "fox-hodgson2007"
+    }
+   ],
+   "refs": [
+    "fox-bouvard2015",
+    "fox-bingham2002",
+    "fox-pierre2006",
+    "fox-cross2010",
+    "fox-lescinsky2022",
+    "fox-johnston2019",
+    "fox-oconnor2021",
+    "fox-hodgson2007",
+    "fox-ollberding2012",
+    "fox-cross2012"
+   ]
+  },
+  {
+   "id": "postprandial-fat-load",
+   "name": "Large high-fat meals (postprandial fat load)",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "harmful",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "moderate",
+   "headline": "A single meal with about 50-66 g of fat raises blood triglycerides, white-cell superoxide and malondialdehyde and lowers flow-mediated dilation by about 1 percentage point for 2-4 hours (90-study meta-analysis), whereas 33 g of fat did not raise oxidative markers in a dose comparison; whether these repeated transient dips cause disease is unproven.",
+   "dose": {
+    "effective": "Keep most meals under about 30 g of fat, spread rich foods across the day, and eat vegetables, fruit, vinegar-dressed salad or polyphenol-rich drinks with fatty meals.",
+    "studied_range": "Single meals of 33-66 g fat (cream), 50 g fat breakfasts of about 900 kcal, and 60 mL oil in soup.",
+    "too_much": "About 50 g fat or more in one sitting impaired endothelial function in most studies; 66 g raised plasma MDA and H2O2 where 33 g did not.",
+    "timeframe": "Peaks 2-4 h after the meal and resolves by about 6 h.",
+    "notes": "Fat amount seemed to matter more than the oil's state: fresh and repeatedly fried oils impaired FMD equally. Sugar-driven spikes are covered elsewhere ([refined-sugar-high-glycemic])."
+   },
+   "mechanism": "Triglyceride-rich lipoproteins and free fatty acids after a fatty meal activate leukocyte NADPH oxidase and mitochondrial superoxide production, consume nitric oxide and impair endothelium-dependent dilation; combined fat and glucose loads have additive effects on nitrotyrosine and adhesion molecules.",
+   "pathways": [
+    "nox",
+    "endothelial",
+    "inflammation-nfkb"
+   ],
+   "interactions": "Adds to sugar spikes ([refined-sugar-high-glycemic], [glycemic-control]) and to chronic surplus ([overfeeding]). Blunted by polyphenol-rich foods in the same meal ([meal-polyphenol-pairing]); salmon- or canola-based meals impaired FMD less than an olive-oil meal in one small study ([omega3-fish]).",
+   "caveats": "Studies are small acute crossovers, mostly in young men, using surrogate markers. Antioxidant vitamins blocked the FMD fall acutely but vitamin supplements have failed in long-term trials, so this does not argue for pills.",
+   "debate": "For harm: high-fat meals impair endothelial function via oxidative stress in many crossovers [fox-plotnick1997, fox-bae2001, fox-vogel2000], lipid meals raise oxidative markers more than isocaloric carbohydrate or protein [fox-fisherwellman2010, fox-bloomer2010], fat and glucose loads add up [fox-ceriello2004], and a 131-study meta-analysis confirmed a transient FMD fall [fox-fewkes2022]. Tempering: in that meta-analysis the fall was smaller in older and heavier people and inversely related to meal fat percentage [fox-fewkes2022]; 75-150 g glucose loads produced minimal oxidative stress in one comparison [fox-bloomer2010], contrasting with an earlier study showing leukocyte ROS more than doubling after 75 g glucose [fox-mohanty2000]; and fresh and fried oils had identical effects, implying the fat load rather than its oxidation is what matters acutely [fox-ruedaclausen2007].",
+   "key_numbers": [
+    {
+     "label": "FMD fall 2-4 h after a high-fat meal",
+     "value": -1.1,
+     "unit": "percentage points (about -1.0 to -1.2)",
+     "source": "fox-fewkes2022"
+    },
+    {
+     "label": "Fat load that raised plasma MDA and H2O2",
+     "value": 66,
+     "unit": "g (33 g did not)",
+     "source": "fox-bloomer2010"
+    },
+    {
+     "label": "FMD after 50 g fat breakfast (from 20%)",
+     "value": 8,
+     "unit": "% at 4 h",
+     "source": "fox-plotnick1997"
+    },
+    {
+     "label": "Leukocyte superoxide 2 h after high-fat meal",
+     "value": 34,
+     "unit": "% rise",
+     "source": "fox-bae2001"
+    }
+   ],
+   "refs": [
+    "fox-bloomer2010",
+    "fox-fisherwellman2010",
+    "fox-ceriello2004",
+    "fox-bae2001",
+    "fox-plotnick1997",
+    "fox-fewkes2022",
+    "fox-vogel2000",
+    "fox-ruedaclausen2007",
+    "fox-mohanty2000",
+    "fox-sies2005",
+    "fox-ghanim2010"
+   ]
+  },
+  {
+   "id": "meal-polyphenol-pairing",
+   "name": "Polyphenol-rich foods eaten with meat or fatty meals",
+   "kind": "food",
+   "scopes": [
+    "general"
+   ],
+   "direction": "beneficial",
+   "impact": {
+    "general": 1
+   },
+   "evidence": "limited",
+   "headline": "Polyphenols in the same meal blunt the oxidation a meat or fatty meal causes: wine polyphenols in the marinade prevented the plasma MDA rise after 250 g of cutlets, coffee cut it 50-80%, a spice blend cut urinary MDA 49%, and orange juice or strawberries blunted post-meal oxidative and inflammatory markers, but every trial is a single meal in 10-24 people.",
+   "dose": {
+    "effective": "At least 1 teaspoon of dried herbs or spices (oregano, rosemary, thyme, cloves, cinnamon) per meat serving, or a 30-60 minute herb-and-acid marinade; serve meat and fried or fatty dishes with at least one serving of vegetables or fruit; coffee or tea with the meal. Wine is not recommended for this because its alcohol raises oxidative stress.",
+    "studied_range": "Spice blend in a 250 g burger; 200 mL red wine or 200 mL roasted coffee with 250 g cutlets; berry concentrate in and with a 250 g turkey burger; 300 kcal orange juice or 10 g freeze-dried strawberry with a high-fat meal; salad with balsamic vinegar.",
+    "too_much": null,
+    "timeframe": "Same meal; effects measured over 2-6 hours.",
+    "notes": "Works mainly in the food and the stomach, where polyphenol concentrations are high, not by raising blood antioxidants. In a gastric model, the protective capacity of 50 plant foods tracked their polyphenol content (R2 0.75)."
+   },
+   "mechanism": "Polyphenols and carotenoids reach high concentrations in the gastric lumen, where they reduce metmyoglobin- and iron-catalysed lipid peroxidation, break down hydroperoxides and trap aldehydes, so less MDA is formed and absorbed; in cooking they also scavenge radicals in Maillard pathways that lead to HCAs.",
+   "pathways": [
+    "direct-scavenging",
+    "lipid-peroxidation"
+   ],
+   "interactions": "Counters [dietary-lipid-oxidation-products], [heme-iron] and [postprandial-fat-load]; overlaps with [herbs-spices] and [marinating-meat]. The red-wine version is undercut by alcohol ([alcohol], [red-wine-resveratrol]).",
+   "caveats": "Single-meal trials with surrogate markers; the MDA studies mostly come from one group, and MDA measurement is artefact-prone. A month of daily grape-pomace burgers lowered oxidised LDL but not plasma MDA. No trial shows that pairing changes disease risk.",
+   "debate": "Supportive: the Kanner group's human crossovers with wine and coffee [fox-gorelik2008a, fox-sirota2013], its gastric-model index [fox-kanner2017] and reviews [fox-kanner2012, fox-halliwell2000]; independent groups found similar results with spiced burgers [fox-li2010], berry concentrate [fox-urquiaga2017], orange juice [fox-ghanim2010], strawberries [fox-burtonfreeman2010] and vinegar-dressed salad [fox-vogel2000]. Tempering: MDA assays are prone to artefacts [fox-tsikas2017]; in a 3-month controlled trial plasma MDA did not change with polyphenol-enriched burgers [fox-urquiaga2018]; and long-term antioxidant supplements have not reproduced acute benefits, so the effect may be limited to the gut and the meal.",
+   "key_numbers": [
+    {
+     "label": "Plasma MDA rise prevented by wine-marinated cutlets",
+     "value": 100,
+     "unit": "%",
+     "source": "fox-gorelik2008a"
+    },
+    {
+     "label": "Postprandial plasma MDA cut by coffee at 2 h",
+     "value": 80,
+     "unit": "%",
+     "source": "fox-sirota2013"
+    },
+    {
+     "label": "Urinary MDA after spiced vs plain burger",
+     "value": -49,
+     "unit": "%",
+     "source": "fox-li2010"
+    },
+    {
+     "label": "MDA in spiced vs plain cooked burger meat",
+     "value": -71,
+     "unit": "%",
+     "source": "fox-li2010"
+    },
+    {
+     "label": "Gastric-model protection vs polyphenol content",
+     "value": 0.75,
+     "unit": "R2",
+     "source": "fox-kanner2017"
+    }
+   ],
+   "refs": [
+    "fox-gorelik2008a",
+    "fox-sirota2013",
+    "fox-kanner2017",
+    "fox-kanner2012",
+    "fox-halliwell2000",
+    "fox-li2010",
+    "fox-urquiaga2017",
+    "fox-urquiaga2018",
+    "fox-ghanim2010",
+    "fox-burtonfreeman2010",
+    "fox-vogel2000",
+    "fox-tsikas2017",
+    "fox-smith2008"
+   ]
   }
  ],
  "mechanisms": [
@@ -12959,6 +13456,1098 @@
    "type": "mechanistic",
    "n": null,
    "finding": "On apples, a 1% baking-soda (10 mg/mL) wash removed surface thiabendazole and phosmet in 12-15 min, better than tap water or bleach, but 20% of thiabendazole and 4.4% of phosmet had penetrated the peel and could not be washed off; peeling removed more."
+  },
+  {
+   "id": "fox-aglago2021",
+   "authors": "Aglago EK, Mayén AL, Knaze V, et al.",
+   "year": 2021,
+   "title": "Dietary Advanced Glycation End-Products and Colorectal Cancer Risk in the European Prospective Investigation into Cancer and Nutrition (EPIC) Study.",
+   "journal": "Nutrients",
+   "pmid": "34579010",
+   "doi": "10.3390/nu13093132",
+   "type": "cohort",
+   "n": "450,111 adults, 6162 colorectal cancers (EPIC)",
+   "finding": "Highest vs lowest quintile of LC-MS-estimated CML (HR 0.92) and MG-H1 (HR 0.92) intake was associated with slightly LOWER colorectal cancer risk; CEL showed no association. Cereals were the main CML/MG-H1 source."
+  },
+  {
+   "id": "fox-ahmadirad2025",
+   "authors": "Ahmadirad H, Farhadnejad H, Norouzzadeh M, et al.",
+   "year": 2025,
+   "title": "Uncovering the possible link between dietary advanced glycation end products and mortality risk: A systematic review and meta-analysis.",
+   "journal": "Cancer Epidemiol",
+   "pmid": "40139092",
+   "doi": "10.1016/j.canep.2025.102807",
+   "type": "meta-analysis",
+   "n": "6 studies, 111,543 participants",
+   "finding": "Dietary AGE intake was not associated with all-cause (HR 1.02), cancer (HR 1.00) or cardiovascular (HR 1.16, NS) mortality."
+  },
+  {
+   "id": "fox-ames2008",
+   "authors": "Ames JM",
+   "year": 2008,
+   "title": "Determination of N epsilon-(carboxymethyl)lysine in foods and related systems.",
+   "journal": "Ann N Y Acad Sci",
+   "pmid": "18448791",
+   "doi": "10.1196/annals.1433.030",
+   "type": "review",
+   "n": null,
+   "finding": "Immunochemical and instrumental CML methods each have drawbacks, extraction and hydrolysis are harder in foods than in plasma, and labs use different procedures; methods urgently need comparison and validation."
+  },
+  {
+   "id": "fox-bae2001",
+   "authors": "Bae JH, Bassenge E, Kim KB, et al.",
+   "year": 2001,
+   "title": "Postprandial hypertriglyceridemia impairs endothelial function by enhanced oxidant stress.",
+   "journal": "Atherosclerosis",
+   "pmid": "11254924",
+   "doi": "10.1016/s0021-9150(00)00601-8",
+   "type": "mechanistic",
+   "n": "20 adults",
+   "finding": "Two hours after a high-fat meal, triglycerides and leukocyte superoxide production rose and flow-mediated dilation fell from 13.7% to 8.2%; changes in superoxide correlated with FMD (r = -0.78); a low-fat meal had no effect."
+  },
+  {
+   "id": "fox-bao2012",
+   "authors": "Bao W, Rong Y, Rong S, et al.",
+   "year": 2012,
+   "title": "Dietary iron intake, body iron stores, and the risk of type 2 diabetes: a systematic review and meta-analysis.",
+   "journal": "BMC Med",
+   "pmid": "23046549",
+   "doi": "10.1186/1741-7015-10-119",
+   "type": "meta-analysis",
+   "n": "11 prospective studies",
+   "finding": "Type 2 diabetes RR 1.33 for highest vs lowest heme iron intake and 1.16 per 1 mg/day; ferritin was also associated with diabetes."
+  },
+  {
+   "id": "fox-bastide2011",
+   "authors": "Bastide NM, Pierre FH, Corpet DE",
+   "year": 2011,
+   "title": "Heme iron from meat and risk of colorectal cancer: a meta-analysis and a review of the mechanisms involved.",
+   "journal": "Cancer Prev Res (Phila)",
+   "pmid": "21209396",
+   "doi": "10.1158/1940-6207.CAPR-10-0113",
+   "type": "meta-analysis",
+   "n": "566,607 people, 4734 colon cancers",
+   "finding": "Highest vs lowest heme intake: colon cancer RR 1.18 (1.06-1.32); rat studies consistently show heme and red meat promote precancerous lesions via N-nitrosation and lipid-peroxidation aldehydes."
+  },
+  {
+   "id": "fox-baye2017",
+   "authors": "Baye E, Kiriakova V, Uribarri J, et al.",
+   "year": 2017,
+   "title": "Consumption of diets with low advanced glycation end products improves cardiometabolic parameters: meta-analysis of randomised controlled trials.",
+   "journal": "Sci Rep",
+   "pmid": "28536448",
+   "doi": "10.1038/s41598-017-02268-0",
+   "type": "meta-analysis",
+   "n": "17 RCTs, 560 participants",
+   "finding": "Low-AGE diets lowered HOMA-IR (MD -1.3), total and LDL cholesterol, and individual trials reported lower 8-isoprostane, TNF-alpha and circulating AGEs; no change in weight, glucose, HbA1c or blood pressure."
+  },
+  {
+   "id": "fox-bingham2002",
+   "authors": "Bingham SA, Hughes R, Cross AJ",
+   "year": 2002,
+   "title": "Effect of white versus red meat on endogenous N-nitrosation in the human colon and further evidence of a dose response.",
+   "journal": "J Nutr",
+   "pmid": "12421881",
+   "doi": "10.1093/jn/132.11.3522S",
+   "type": "rct",
+   "n": "volunteers in controlled metabolic-suite studies",
+   "finding": "Faecal apparent total N-nitroso compounds rose linearly with red meat from 0 to 420 g/day (r = 0.97; about 2.6 ug/day per g meat), while 420-600 g/day of white meat had no effect."
+  },
+  {
+   "id": "fox-bloomer2010",
+   "authors": "Bloomer RJ, Kabir MM, Marshall KE, et al.",
+   "year": 2010,
+   "title": "Postprandial oxidative stress in response to dextrose and lipid meals of differing size.",
+   "journal": "Lipids Health Dis",
+   "pmid": "20663187",
+   "doi": "10.1186/1476-511X-9-79",
+   "type": "rct",
+   "n": "9 healthy young men (crossover)",
+   "finding": "Only a 66 g fat load (heavy cream) raised plasma MDA and H2O2; 33 g fat and 75 or 150 g dextrose produced minimal oxidative stress."
+  },
+  {
+   "id": "fox-bouvard2015",
+   "authors": "Bouvard V, Loomis D, Guyton KZ, et al.",
+   "year": 2015,
+   "title": "Carcinogenicity of consumption of red and processed meat.",
+   "journal": "Lancet Oncol",
+   "pmid": "26514947",
+   "doi": "10.1016/S1470-2045(15)00444-1",
+   "type": "guideline",
+   "n": null,
+   "finding": "IARC classified processed meat as carcinogenic to humans (Group 1) and red meat as probably carcinogenic (Group 2A), estimating colorectal cancer risk up about 18% per 50 g/day of processed meat and 17% per 100 g/day of red meat."
+  },
+  {
+   "id": "fox-burtonfreeman2010",
+   "authors": "Burton-Freeman B, Linares A, Hyson D, et al.",
+   "year": 2010,
+   "title": "Strawberry modulates LDL oxidation and postprandial lipemia in response to high-fat meal in overweight hyperlipidemic men and women.",
+   "journal": "J Am Coll Nutr",
+   "pmid": "20595645",
+   "doi": "10.1080/07315724.2010.10719816",
+   "type": "rct",
+   "n": "24 overweight hyperlipidaemic adults",
+   "finding": "A strawberry beverage (10 g freeze-dried fruit) taken with a high-fat meal lowered postprandial triglycerides and oxidised LDL compared with placebo."
+  },
+  {
+   "id": "fox-ceriello2004",
+   "authors": "Ceriello A, Quagliaro L, Piconi L, et al.",
+   "year": 2004,
+   "title": "Effect of postprandial hypertriglyceridemia and hyperglycemia on circulating adhesion molecules and oxidative stress generation and the possible role of simvastatin treatment.",
+   "journal": "Diabetes",
+   "pmid": "14988255",
+   "doi": "10.2337/diabetes.53.3.701",
+   "type": "rct",
+   "n": "30 adults with type 2 diabetes, 20 controls",
+   "finding": "A high-fat meal and 75 g glucose each raised nitrotyrosine and adhesion molecules, with additive effects when combined; simvastatin blunted the response."
+  },
+  {
+   "id": "fox-charissou2007",
+   "authors": "Charissou A, Ait-Ameur L, Birlouez-Aragon I",
+   "year": 2007,
+   "title": "Evaluation of a gas chromatography/mass spectrometry method for the quantification of carboxymethyllysine in food samples.",
+   "journal": "J Chromatogr A",
+   "pmid": "17174315",
+   "doi": "10.1016/j.chroma.2006.11.066",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "An isotope-dilution GC-MS method for CML agreed with ELISA in powdered but not liquid infant formulas, illustrating matrix-dependent ELISA error."
+  },
+  {
+   "id": "fox-chudy2021",
+   "authors": "Chudy S, Teichert J",
+   "year": 2021,
+   "title": "Oxysterols in stored powders as potential health hazards.",
+   "journal": "Sci Rep",
+   "pmid": "34707144",
+   "doi": "10.1038/s41598-021-00636-5",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In milk, egg and milk-egg powders stored 24 months, oxysterols rose steadily (to 1.81% of cholesterol in milk powder); eggs, heated milk products and fried meat are the main dietary oxysterol sources."
+  },
+  {
+   "id": "fox-clarke2016",
+   "authors": "Clarke RE, Dordevic AL, Tan SM, et al.",
+   "year": 2016,
+   "title": "Dietary Advanced Glycation End Products and Risk Factors for Chronic Disease: A Systematic Review of Randomised Controlled Trials.",
+   "journal": "Nutrients",
+   "pmid": "26938557",
+   "doi": "10.3390/nu8030125",
+   "type": "meta-analysis",
+   "n": "12 trials, 293 participants",
+   "finding": "High-AGE diets raised circulating TNF-alpha and AGEs and raised 8-isoprostanes in healthy adults, but the authors called for higher-quality trials."
+  },
+  {
+   "id": "fox-cross2010",
+   "authors": "Cross AJ, Ferrucci LM, Risch A, et al.",
+   "year": 2010,
+   "title": "A large prospective study of meat consumption and colorectal cancer risk: an investigation of potential mechanisms underlying this association.",
+   "journal": "Cancer Res",
+   "pmid": "20215514",
+   "doi": "10.1158/0008-5472.CAN-09-3929",
+   "type": "cohort",
+   "n": "300,948 adults, 2719 colorectal cancers (NIH-AARP)",
+   "finding": "Red (HR 1.24) and processed meat (HR 1.16) were linked to colorectal cancer, with heme iron (HR 1.13), nitrate from processed meat (HR 1.16) and the HCAs MeIQx and DiMeIQx (HR 1.17-1.19) as candidate mechanisms."
+  },
+  {
+   "id": "fox-cross2012",
+   "authors": "Cross AJ, Harnly JM, Ferrucci LM, et al.",
+   "year": 2012,
+   "title": "Developing a heme iron database for meats according to meat type, cooking method and doneness level.",
+   "journal": "Food Nutr Sci",
+   "pmid": "23459329",
+   "doi": "10.4236/fns.2012.37120",
+   "type": "database",
+   "n": "88 composite meat samples",
+   "finding": "Heme iron in cooked US meats: hamburger mean 10.3 ug/g, steak 9.3, pork products 3.4 (chop) to 7.5 (ham), chicken breast 2.4; cooking method and doneness made no consistent difference."
+  },
+  {
+   "id": "fox-decourten2016",
+   "authors": "de Courten B, de Courten MP, Soldatos G, et al.",
+   "year": 2016,
+   "title": "Diet low in advanced glycation end products increases insulin sensitivity in healthy overweight individuals: a double-blind, randomized, crossover trial.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "27030534",
+   "doi": "10.3945/ajcn.115.125427",
+   "type": "rct",
+   "n": "20 overweight adults (double-blind crossover)",
+   "finding": "Two weeks of a low-AGE diet (mass-spectrometry verified) raised clamp-measured insulin sensitivity by 1.3 mg/kg/min, an overall 2.1 mg/kg/min difference from the high-AGE diet."
+  },
+  {
+   "id": "fox-delgadoandrade2012",
+   "authors": "Delgado-Andrade C, Tessier FJ, Niquet-Leridon C, et al.",
+   "year": 2012,
+   "title": "Study of the urinary and faecal excretion of Nε-carboxymethyllysine in young human volunteers.",
+   "journal": "Amino Acids",
+   "pmid": "21984382",
+   "doi": "10.1007/s00726-011-1107-8",
+   "type": "rct",
+   "n": "20 adolescent boys (crossover)",
+   "finding": "A Maillard-rich diet doubled CML intake (11.3 vs 5.4 mg/day) and tripled faecal CML (3.5 vs 1.2 mg/day) while urinary CML did not rise in proportion, showing most dietary CML is not absorbed."
+  },
+  {
+   "id": "fox-esterbauer1993",
+   "authors": "Esterbauer H",
+   "year": 1993,
+   "title": "Cytotoxicity and genotoxicity of lipid-oxidation products.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "8475896",
+   "doi": "10.1093/ajcn/57.5.779S",
+   "type": "review",
+   "n": null,
+   "finding": "Lipid-oxidation products such as 4-HNE and MDA are cytotoxic and genotoxic in cells and modify LDL, but the oral toxicity of oxidised lipids is unexpectedly low and their pathological significance unclear."
+  },
+  {
+   "id": "fox-fewkes2022",
+   "authors": "Fewkes JJ, Kellow NJ, Cowan SF, et al.",
+   "year": 2022,
+   "title": "A single, high-fat meal adversely affects postprandial endothelial function: a systematic review and meta-analysis.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "35665799",
+   "doi": "10.1093/ajcn/nqac153",
+   "type": "meta-analysis",
+   "n": "131 studies (90 meta-analysed)",
+   "finding": "A single high-fat meal lowered flow-mediated dilation by about 1.0-1.2 percentage points at 2-4 h; the fall was larger in younger, leaner people, and meal fat percentage was inversely associated with the 3-h change."
+  },
+  {
+   "id": "fox-fisherwellman2010",
+   "authors": "Fisher-Wellman KH, Bloomer RJ",
+   "year": 2010,
+   "title": "Exacerbated postprandial oxidative stress induced by the acute intake of a lipid meal compared to isoenergetically administered carbohydrate, protein, and mixed meals in young, healthy men.",
+   "journal": "J Am Coll Nutr",
+   "pmid": "21041812",
+   "doi": "10.1080/07315724.2010.10719854",
+   "type": "rct",
+   "n": "10 healthy young men (crossover)",
+   "finding": "Among isocaloric lipid, carbohydrate, protein and mixed meals, only the lipid meal raised H2O2, MDA and nitrate/nitrite over 2-6 h."
+  },
+  {
+   "id": "fox-fonsecanunes2014",
+   "authors": "Fonseca-Nunes A, Jakszyn P, Agudo A",
+   "year": 2014,
+   "title": "Iron and cancer risk--a systematic review and meta-analysis of the epidemiological evidence.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "24243555",
+   "doi": "10.1158/1055-9965.EPI-13-0733",
+   "type": "meta-analysis",
+   "n": "59 epidemiologic studies",
+   "finding": "Each 1 mg/day of heme iron was associated with colorectal (RR 1.08, 1.00-1.17) and colon cancer (RR 1.12); a tendency toward positive association with cancer overall."
+  },
+  {
+   "id": "fox-forster2005",
+   "authors": "Förster A, Kühne Y, Henle T",
+   "year": 2005,
+   "title": "Studies on absorption and elimination of dietary maillard reaction products.",
+   "journal": "Ann N Y Acad Sci",
+   "pmid": "16037269",
+   "doi": "10.1196/annals.1333.054",
+   "type": "mechanistic",
+   "n": "18 healthy volunteers",
+   "finding": "About 50% of ingested free pyrraline and 60% of free pentosidine (from coffee) appeared in urine, but only 2% of peptide-bound pentosidine from pretzels; absorption differs widely between individual Maillard products."
+  },
+  {
+   "id": "fox-ghanim2010",
+   "authors": "Ghanim H, Sia CL, Upadhyay M, et al.",
+   "year": 2010,
+   "title": "Orange juice neutralizes the proinflammatory effect of a high-fat, high-carbohydrate meal and prevents endotoxin increase and Toll-like receptor expression.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20200256",
+   "doi": "10.3945/ajcn.2009.28584",
+   "type": "mechanistic",
+   "n": "30 healthy adults (3 groups of 10)",
+   "finding": "A 900 kcal high-fat high-carbohydrate meal with water or glucose raised NADPH-oxidase p47phox, leukocyte ROS, endotoxin and Toll-like receptors; drinking 300 kcal orange juice with it prevented these rises."
+  },
+  {
+   "id": "fox-gorelik2008a",
+   "authors": "Gorelik S, Ligumsky M, Kohen R, et al.",
+   "year": 2008,
+   "title": "A novel function of red wine polyphenols in humans: prevention of absorption of cytotoxic lipid peroxidation products.",
+   "journal": "FASEB J",
+   "pmid": "17712060",
+   "doi": "10.1096/fj.07-9041com",
+   "type": "rct",
+   "n": "10 healthy volunteers (crossover)",
+   "finding": "Plasma MDA rose by 160 nM (from 50 nM) after 250 g of heated turkey cutlets; red wine with the meal cut the rise 75% and cutlets soaked in wine before heating prevented it entirely; urine MDA followed."
+  },
+  {
+   "id": "fox-gorelik2008b",
+   "authors": "Gorelik S, Ligumsky M, Kohen R, et al.",
+   "year": 2008,
+   "title": "The stomach as a \"bioreactor\": when red meat meets red wine.",
+   "journal": "J Agric Food Chem",
+   "pmid": "18540628",
+   "doi": "10.1021/jf703700d",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In rats fed red turkey-meat cutlets, stomach hydroperoxides and MDA accumulated and plasma MDA rose 50%; red-wine concentrate in the meal prevented the rise."
+  },
+  {
+   "id": "fox-guallarcastillon2012",
+   "authors": "Guallar-Castillón P, Rodríguez-Artalejo F, Lopez-Garcia E, et al.",
+   "year": 2012,
+   "title": "Consumption of fried foods and risk of coronary heart disease: Spanish cohort of the European Prospective Investigation into Cancer and Nutrition study.",
+   "journal": "BMJ",
+   "pmid": "22275385",
+   "doi": "10.1136/bmj.e363",
+   "type": "cohort",
+   "n": "40,757 adults (Spanish EPIC)",
+   "finding": "Fried-food intake was not associated with coronary heart disease (top quarter HR 1.08) or mortality, whether olive or sunflower oil was used."
+  },
+  {
+   "id": "fox-halliwell2000",
+   "authors": "Halliwell B, Zhao K, Whiteman M",
+   "year": 2000,
+   "title": "The gastrointestinal tract: a major site of antioxidant action?",
+   "journal": "Free Radic Res",
+   "pmid": "11237104",
+   "doi": "10.1080/10715760000301341",
+   "type": "review",
+   "n": null,
+   "finding": "Diet supplies pro-oxidants (iron, heme, lipid peroxides, aldehydes, nitrite) and poorly absorbed polyphenols and carotenoids reach high concentrations in the gut lumen, making the GI tract a plausible main site of dietary antioxidant action."
+  },
+  {
+   "id": "fox-hellwig2024",
+   "authors": "Hellwig M, Diel P, Eisenbrand G, et al.",
+   "year": 2024,
+   "title": "Dietary glycation compounds - implications for human health.",
+   "journal": "Crit Rev Toxicol",
+   "pmid": "39150724",
+   "doi": "10.1080/10408444.2024.2362985",
+   "type": "review",
+   "n": "253 publications screened, 192 met quality criteria",
+   "finding": "German Research Foundation food-safety commission (SKLM) systematic assessment: human studies were small, short and confounded, animal effects needed doses far above human exposure, and there is at present no convincing evidence of a causal link between dietary glycation compounds and adverse health effects."
+  },
+  {
+   "id": "fox-higdon2000",
+   "authors": "Higdon JV, Liu J, Du SH, et al.",
+   "year": 2000,
+   "title": "Supplementation of postmenopausal women with fish oil rich in eicosapentaenoic acid and docosahexaenoic acid is not associated with greater in vivo lipid peroxidation compared with oils rich in oleate and linoleate as assessed by plasma malondialdehyde and F(2)-isoprostanes.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "10966889",
+   "doi": "10.1093/ajcn/72.3.714",
+   "type": "rct",
+   "n": "15 postmenopausal women (crossover)",
+   "finding": "Fish oil supplying 3.4 g/day EPA+DHA did not raise plasma F2-isoprostanes or MDA compared with oleate- or linoleate-rich oils (values were lower after fish oil), although TBARS rose."
+  },
+  {
+   "id": "fox-hodgson2007",
+   "authors": "Hodgson JM, Ward NC, Burke V, et al.",
+   "year": 2007,
+   "title": "Increased lean red meat intake does not elevate markers of oxidative stress and inflammation in humans.",
+   "journal": "J Nutr",
+   "pmid": "17237312",
+   "doi": "10.1093/jn/137.2.363",
+   "type": "rct",
+   "n": "60 adults, 8 weeks",
+   "finding": "Replacing carbohydrate foods with about 200 g/day of lean red meat did not raise plasma F2-isoprostanes and lowered urinary F2-isoprostanes (-137 pmol/mmol creatinine) and white-cell counts versus usual diet."
+  },
+  {
+   "id": "fox-johnston2019",
+   "authors": "Johnston BC, Zeraatkar D, Han MA, et al.",
+   "year": 2019,
+   "title": "Unprocessed Red Meat and Processed Meat Consumption: Dietary Guideline Recommendations From the Nutritional Recommendations (NutriRECS) Consortium.",
+   "journal": "Ann Intern Med",
+   "pmid": "31569235",
+   "doi": "10.7326/M19-1621",
+   "type": "guideline",
+   "n": null,
+   "finding": "NutriRECS panel (GRADE) suggested adults continue current unprocessed and processed meat consumption (weak recommendation, low-certainty evidence); the guideline drew multiple published letters of objection."
+  },
+  {
+   "id": "fox-joosen2009",
+   "authors": "Joosen AM, Kuhnle GG, Aspinall SM, et al.",
+   "year": 2009,
+   "title": "Effect of processed and red meat on endogenous nitrosation and DNA damage.",
+   "journal": "Carcinogenesis",
+   "pmid": "19498009",
+   "doi": "10.1093/carcin/bgp130",
+   "type": "rct",
+   "n": "28 volunteers in two crossover studies",
+   "finding": "420 g/day (men) or 366 g/day (women) of fresh red or nitrite-cured meat raised faecal N-nitroso compounds about 50-fold over a vegetarian diet (175-185 vs 2.6-3.5 nmol/g); cured meat raised oxidised pyrimidines in faecal-water-treated cells, though the vegetarian diet surprisingly caused more strand breaks."
+  },
+  {
+   "id": "fox-kanner2001",
+   "authors": "Kanner J, Lapidot T",
+   "year": 2001,
+   "title": "The stomach as a bioreactor: dietary lipid peroxidation in the gastric fluid and the effects of plant-derived antioxidants.",
+   "journal": "Free Radic Biol Med",
+   "pmid": "11728810",
+   "doi": "10.1016/s0891-5849(01)00718-3",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Simulated gastric fluid amplified metmyoglobin- and iron-catalysed lipid peroxidation; heated muscle incubated 2 h accumulated hydroperoxides 6-fold to 1200 uM, and catechin or red-wine polyphenols prevented it."
+  },
+  {
+   "id": "fox-kanner2007",
+   "authors": "Kanner J",
+   "year": 2007,
+   "title": "Dietary advanced lipid oxidation endproducts are risk factors to human health.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "17854006",
+   "doi": "10.1002/mnfr.200600303",
+   "type": "review",
+   "n": null,
+   "finding": "Argues that dietary advanced lipid oxidation end-products (MDA, carbonyls, oxysterols) are partly absorbed, excreted in urine and may drive inflammation, and that antioxidants eaten with the meal limit their formation in the stomach."
+  },
+  {
+   "id": "fox-kanner2012",
+   "authors": "Kanner J, Gorelik S, Roman S, et al.",
+   "year": 2012,
+   "title": "Protection by polyphenols of postprandial human plasma and low-density lipoprotein modification: the stomach as a bioreactor.",
+   "journal": "J Agric Food Chem",
+   "pmid": "22530973",
+   "doi": "10.1021/jf300193g",
+   "type": "review",
+   "n": null,
+   "finding": "Summarises human data that plasma MDA roughly triples after a red-meat cutlet meal, modifies LDL, and is reduced about 75% by red-wine polyphenols taken with the meal."
+  },
+  {
+   "id": "fox-kanner2017",
+   "authors": "Kanner J, Selhub J, Shpaizer A, et al.",
+   "year": 2017,
+   "title": "Redox homeostasis in stomach medium by foods: The Postprandial Oxidative Stress Index (POSI) for balancing nutrition and human health.",
+   "journal": "Redox Biol",
+   "pmid": "28478382",
+   "doi": "10.1016/j.redox.2017.04.029",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "Proposed a Postprandial Oxidative Stress Index: in simulated gastric fluid, 100 g portions of more than 50 plant foods inhibited peroxidation of 200 g red meat in proportion to their polyphenol content (R2 = 0.75)."
+  },
+  {
+   "id": "fox-kataoka2025",
+   "authors": "Kataoka H",
+   "year": 2025,
+   "title": "Current Developments in Analytical Methods for Advanced Glycation End Products in Foods.",
+   "journal": "Molecules",
+   "pmid": "41157111",
+   "doi": "10.3390/molecules30204095",
+   "type": "review",
+   "n": null,
+   "finding": "Review of AGE analysis in foods that tabulates mass-spectrometry contents by food group, including Scheijen 2016 category ranges (e.g. bread MG-H1 13.5-231 mg/kg; savory spreads 204-445 mg/kg; cooked meats CML 0.8-48.2 mg/kg)."
+  },
+  {
+   "id": "fox-kellow2013",
+   "authors": "Kellow NJ, Savige GS",
+   "year": 2013,
+   "title": "Dietary advanced glycation end-product restriction for the attenuation of insulin resistance, oxidative stress and endothelial dysfunction: a systematic review.",
+   "journal": "Eur J Clin Nutr",
+   "pmid": "23361161",
+   "doi": "10.1038/ejcn.2012.220",
+   "type": "meta-analysis",
+   "n": "12 trials, 289 participants",
+   "finding": "Two 16-week trials in healthy adults favoured AGE restriction for 8-isoprostanes (SMD 0.9) and TNF-alpha, but 75% of trials lasted under 6 weeks and evidence quality was low to very low."
+  },
+  {
+   "id": "fox-khan2015",
+   "authors": "Khan MI, Min JS, Lee SO, et al.",
+   "year": 2015,
+   "title": "Cooking, storage, and reheating effect on the formation of cholesterol oxidation products in processed meat products.",
+   "journal": "Lipids Health Dis",
+   "pmid": "26260472",
+   "doi": "10.1186/s12944-015-0091-5",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In sausages, ham, bacon and luncheon meat, cooking produced COPs up to 0.73% of cholesterol (microwaving and oven grilling highest), and refrigerated storage with reheating raised them further (up to 3.3%)."
+  },
+  {
+   "id": "fox-koschinsky1997",
+   "authors": "Koschinsky T, He CJ, Mitsuhashi T, et al.",
+   "year": 1997,
+   "title": "Orally absorbed reactive glycation products (glycotoxins): an environmental risk factor in diabetic nephropathy.",
+   "journal": "Proc Natl Acad Sci U S A",
+   "pmid": "9177242",
+   "doi": "10.1073/pnas.94.12.6474",
+   "type": "mechanistic",
+   "n": "38 people with diabetes and 5 healthy controls",
+   "finding": "After a single egg-white meal cooked with fructose, serum AGEs rose in proportion to the amount eaten; about 10% of ingested AGE (ELISA) appeared in serum and only about 30% of that was excreted in urine, less with kidney disease."
+  },
+  {
+   "id": "fox-lescinsky2022",
+   "authors": "Lescinsky H, Afshin A, Ashbaugh C, et al.",
+   "year": 2022,
+   "title": "Health effects associated with consumption of unprocessed red meat: a Burden of Proof study.",
+   "journal": "Nat Med",
+   "pmid": "36216940",
+   "doi": "10.1038/s41591-022-01968-z",
+   "type": "meta-analysis",
+   "n": null,
+   "finding": "Burden of Proof analysis: weak evidence linking unprocessed red meat to colorectal cancer, breast cancer, type 2 diabetes and ischaemic heart disease, and no evidence for stroke; the risk-minimising intake had a 0-200 g/day uncertainty interval."
+  },
+  {
+   "id": "fox-li2010",
+   "authors": "Li Z, Henning SM, Zhang Y, et al.",
+   "year": 2010,
+   "title": "Antioxidant-rich spice added to hamburger meat during cooking results in reduced meat, plasma, and urine malondialdehyde concentrations.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "20335545",
+   "doi": "10.3945/ajcn.2009.28526",
+   "type": "rct",
+   "n": "11 healthy volunteers (crossover)",
+   "finding": "Adding a polyphenol-rich spice blend to hamburger meat before cooking cut MDA in the meat by 71% (0.52 vs 1.79 umol/250 g), prevented the rise in plasma MDA and lowered urinary MDA by 49%."
+  },
+  {
+   "id": "fox-linkens2022",
+   "authors": "Linkens AM, Houben AJ, Niessen PM, et al.",
+   "year": 2022,
+   "title": "A 4-week high-AGE diet does not impair glucose metabolism and vascular function in obese individuals.",
+   "journal": "JCI Insight",
+   "pmid": "35133989",
+   "doi": "10.1172/jci.insight.156950",
+   "type": "rct",
+   "n": "73 abdominally obese adults",
+   "finding": "Double-blind 4-week diets differing 2.7-, 5.3- and 3.7-fold in CML, CEL and MG-H1 changed urinary and plasma AGEs but not insulin sensitivity (clamp), micro- or macrovascular function, inflammation or lipids."
+  },
+  {
+   "id": "fox-linkens2022b",
+   "authors": "Linkens AMA, Houben AJHM, Kroon AA, et al.",
+   "year": 2022,
+   "title": "Habitual intake of dietary advanced glycation end products is not associated with generalized microvascular function-the Maastricht Study.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "34581759",
+   "doi": "10.1093/ajcn/nqab302",
+   "type": "cross-sectional",
+   "n": "3144 adults (Maastricht Study)",
+   "finding": "Habitual LC-MS-estimated AGE intake was not associated with retinal, skin or plasma markers of microvascular function or albuminuria."
+  },
+  {
+   "id": "fox-linkens2023",
+   "authors": "Linkens AMA, Eussen SJMP, Houben AJHM, et al.",
+   "year": 2023,
+   "title": "Habitual intake of advanced glycation endproducts is not associated with worse insulin sensitivity, worse beta cell function, or presence of prediabetes or type 2 diabetes: The Maastricht Study.",
+   "journal": "Clin Nutr",
+   "pmid": "37302878",
+   "doi": "10.1016/j.clnu.2023.05.021",
+   "type": "cross-sectional",
+   "n": "6275 adults (Maastricht Study)",
+   "finding": "Habitual dietary AGE intake was not associated with worse insulin sensitivity, beta-cell function, prediabetes or type 2 diabetes."
+  },
+  {
+   "id": "fox-linseisen1998",
+   "authors": "Linseisen J, Wolfram G",
+   "year": 1998,
+   "title": "Absorption of cholesterol oxidation products from ordinary foodstuff in humans.",
+   "journal": "Ann Nutr Metab",
+   "pmid": "9745108",
+   "doi": "10.1159/000012737",
+   "type": "mechanistic",
+   "n": "5 healthy young men",
+   "finding": "A salami-and-Parmesan meal naturally rich in cholesterol oxidation products raised plasma 7alpha-, 7beta-hydroxycholesterol and 7-ketocholesterol, peaking 8 h after the meal."
+  },
+  {
+   "id": "fox-lu2025",
+   "authors": "Lu X, Ma R, Zhan J, et al.",
+   "year": 2025,
+   "title": "Effect of dietary intake of advanced glycation end products on biomarkers of type 2 diabetes: a systematic review and meta-analysis.",
+   "journal": "Crit Rev Food Sci Nutr",
+   "pmid": "39320860",
+   "doi": "10.1080/10408398.2024.2407894",
+   "type": "meta-analysis",
+   "n": "17 trials",
+   "finding": "High-AGE diets raised fasting glucose, insulin and HOMA-IR (SMD about 1.0-1.5) in pooled trials, especially in healthy participants."
+  },
+  {
+   "id": "fox-mark2014",
+   "authors": "Mark AB, Poulsen MW, Andersen S, et al.",
+   "year": 2014,
+   "title": "Consumption of a diet low in advanced glycation end products for 4 weeks improves insulin sensitivity in overweight women.",
+   "journal": "Diabetes Care",
+   "pmid": "23959566",
+   "doi": "10.2337/dc13-0842",
+   "type": "rct",
+   "n": "74 overweight women",
+   "finding": "Four weeks of low-AGE cooking lowered urinary AGEs (LC-MS/MS), fasting insulin and HOMA-IR versus a high-AGE diet after adjustment for anthropometric change."
+  },
+  {
+   "id": "fox-mohanty2000",
+   "authors": "Mohanty P, Hamouda W, Garg R, et al.",
+   "year": 2000,
+   "title": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "10946914",
+   "doi": "10.1210/jcem.85.8.6854",
+   "type": "mechanistic",
+   "n": "14 healthy adults",
+   "finding": "75 g glucose raised leukocyte ROS generation to about 240% of baseline at 2 h, increased p47phox and lowered alpha-tocopherol."
+  },
+  {
+   "id": "fox-mori1999",
+   "authors": "Mori TA, Dunstan DW, Burke V, et al.",
+   "year": 1999,
+   "title": "Effect of dietary fish and exercise training on urinary F2-isoprostane excretion in non-insulin-dependent diabetic patients.",
+   "journal": "Metabolism",
+   "pmid": "10582548",
+   "doi": "10.1016/s0026-0495(99)90150-6",
+   "type": "rct",
+   "n": "55 dyslipidaemic adults with type 2 diabetes",
+   "finding": "Adding one fish meal a day (3.6 g omega-3/day) to a low-fat diet for 8 weeks lowered urinary F2-isoprostanes by 20%."
+  },
+  {
+   "id": "fox-negrean2007",
+   "authors": "Negrean M, Stirban A, Stratmann B, et al.",
+   "year": 2007,
+   "title": "Effects of low- and high-advanced glycation endproduct meals on macro- and microvascular endothelial function and oxidative stress in patients with type 2 diabetes mellitus.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "17490958",
+   "doi": "10.1093/ajcn/85.5.1236",
+   "type": "rct",
+   "n": "20 inpatients with type 2 diabetes (crossover)",
+   "finding": "A meal with 15,100 vs 2,750 kU AGE (same ingredients, different cooking) reduced flow-mediated dilation by 36% vs 21% and raised oxidative-stress and endothelial markers more."
+  },
+  {
+   "id": "fox-oconnor2021",
+   "authors": "O'Connor LE, Kim JE, Clark CM, et al.",
+   "year": 2021,
+   "title": "Effects of Total Red Meat Intake on Glycemic Control and Inflammatory Biomarkers: A Meta-Analysis of Randomized Controlled Trials.",
+   "journal": "Adv Nutr",
+   "pmid": "32910818",
+   "doi": "10.1093/advances/nmaa096",
+   "type": "meta-analysis",
+   "n": "24 RCTs",
+   "finding": "Diets with at least 0.5 servings/day of total red meat for up to 16 weeks did not change glucose, insulin, HOMA-IR, HbA1c or CRP compared with less red meat."
+  },
+  {
+   "id": "fox-ollberding2012",
+   "authors": "Ollberding NJ, Wilkens LR, Henderson BE, et al.",
+   "year": 2012,
+   "title": "Meat consumption, heterocyclic amines and colorectal cancer risk: the Multiethnic Cohort Study.",
+   "journal": "Int J Cancer",
+   "pmid": "22438055",
+   "doi": "10.1002/ijc.27546",
+   "type": "cohort",
+   "n": "165,717 adults (Multiethnic Cohort)",
+   "finding": "Neither red or processed meat nor estimated HCA intake was associated with colorectal cancer risk."
+  },
+  {
+   "id": "fox-otaeguiarrazola2010",
+   "authors": "Otaegui-Arrazola A, Menéndez-Carreño M, Ansorena D, et al.",
+   "year": 2010,
+   "title": "Oxysterols: A world to explore.",
+   "journal": "Food Chem Toxicol",
+   "pmid": "20870006",
+   "doi": "10.1016/j.fct.2010.09.023",
+   "type": "review",
+   "n": null,
+   "finding": "Oxysterols form in foods through heating, oxygen and light, are absorbed at different rates, and cholesterol oxidation products are cytotoxic, pro-apoptotic and pro-inflammatory in experimental studies."
+  },
+  {
+   "id": "fox-pascualmorena2025",
+   "authors": "Pascual-Morena C, Garrido-Miguel M, Martínez-García I, et al.",
+   "year": 2025,
+   "title": "Association of Dietary Advanced Glycation End Products with Overall and Site-Specific Cancer Risk and Mortality: A Systematic Review and Meta-Analysis.",
+   "journal": "Nutrients",
+   "pmid": "40431378",
+   "doi": "10.3390/nu17101638",
+   "type": "meta-analysis",
+   "n": "14 studies",
+   "finding": "High dietary AGE intake was not associated with overall cancer risk (HR 0.99) but was associated with invasive breast cancer (HR 1.14) in a subset."
+  },
+  {
+   "id": "fox-perezherrera2013",
+   "authors": "Perez-Herrera A, Rangel-Zuñiga OA, Delgado-Lista J, et al.",
+   "year": 2013,
+   "title": "The antioxidants in oils heated at frying temperature, whether natural or added, could protect against postprandial oxidative stress in obese people.",
+   "journal": "Food Chem",
+   "pmid": "23497883",
+   "doi": "10.1016/j.foodchem.2012.12.023",
+   "type": "rct",
+   "n": "20 obese adults (crossover)",
+   "finding": "A breakfast made with sunflower oil heated through 20 frying cycles lowered plasma GSH, raised protein carbonyls and NADPH-oxidase gene expression more than the same breakfast made with heated virgin olive oil or antioxidant-enriched seed oil."
+  },
+  {
+   "id": "fox-pierre2006",
+   "authors": "Pierre F, Peiro G, Taché S, et al.",
+   "year": 2006,
+   "title": "New marker of colon cancer risk associated with heme intake: 1,4-dihydroxynonane mercapturic acid.",
+   "journal": "Cancer Epidemiol Biomarkers Prev",
+   "pmid": "17119057",
+   "doi": "10.1158/1055-9965.EPI-06-0085",
+   "type": "rct",
+   "n": "human crossover arm plus rat studies",
+   "finding": "Urinary DHN-MA (the main 4-HNE metabolite) tracked heme intake: in a randomised human crossover, adding heme iron to a 60 g/day red-meat diet doubled DHN-MA, whereas urinary 8-iso-PGF2alpha did not rise in humans."
+  },
+  {
+   "id": "fox-pierre2013",
+   "authors": "Pierre FH, Martin OC, Santarelli RL, et al.",
+   "year": 2013,
+   "title": "Calcium and α-tocopherol suppress cured-meat promotion of chemically induced colon carcinogenesis in rats and reduce associated biomarkers in human volunteers.",
+   "journal": "Am J Clin Nutr",
+   "pmid": "24025632",
+   "doi": "10.3945/ajcn.113.061069",
+   "type": "rct",
+   "n": "human volunteers (crossover, 180 g/day cured meat for 4 days) plus rats",
+   "finding": "Cured meat raised faecal N-nitroso compounds and lipoperoxidation markers in human stools; calcium carbonate normalised both and alpha-tocopherol added to the meat lowered faecal lipoperoxidation."
+  },
+  {
+   "id": "fox-plotnick1997",
+   "authors": "Plotnick GD, Corretti MC, Vogel RA",
+   "year": 1997,
+   "title": "Effect of antioxidant vitamins on the transient impairment of endothelium-dependent brachial artery vasoactivity following a single high-fat meal.",
+   "journal": "JAMA",
+   "pmid": "9388088",
+   "doi": null,
+   "type": "rct",
+   "n": "20 healthy adults",
+   "finding": "A 900 kcal, 50 g fat breakfast cut flow-mediated dilation from 20% to 8-12% for 2-4 h, while a fat-free 900 kcal meal did not; pretreatment with 1 g vitamin C and 800 IU vitamin E blocked the fall."
+  },
+  {
+   "id": "fox-poulsen2013",
+   "authors": "Poulsen MW, Hedegaard RV, Andersen JM, et al.",
+   "year": 2013,
+   "title": "Advanced glycation endproducts in food and their effects on health.",
+   "journal": "Food Chem Toxicol",
+   "pmid": "23867544",
+   "doi": "10.1016/j.fct.2013.06.052",
+   "type": "review",
+   "n": null,
+   "finding": "Neither ELISA nor LC-MS covers all AGEs; most research relies on CML as a marker, only low-molecular-weight AGEs are absorbed, and the pro-inflammatory effects attributed to dietary AGEs come largely from feeding heated foods and need confirmation."
+  },
+  {
+   "id": "fox-pretorius2016",
+   "authors": "Pretorius B, Schönfeldt HC, Hall N",
+   "year": 2016,
+   "title": "Total and haem iron content lean meat cuts and the contribution to the diet.",
+   "journal": "Food Chem",
+   "pmid": "26433293",
+   "doi": "10.1016/j.foodchem.2015.02.109",
+   "type": "database",
+   "n": null,
+   "finding": "Raw lean beef, lamb, pork and chicken contained 1.58, 1.64, 0.81 and 0.78 mg total iron/100 g, of which 77%, 81%, 88% and 74% was heme."
+  },
+  {
+   "id": "fox-qiao2013",
+   "authors": "Qiao L, Feng Y",
+   "year": 2013,
+   "title": "Intakes of heme iron and zinc and colorectal cancer incidence: a meta-analysis of prospective studies.",
+   "journal": "Cancer Causes Control",
+   "pmid": "23568532",
+   "doi": "10.1007/s10552-013-0197-x",
+   "type": "meta-analysis",
+   "n": "8 prospective studies",
+   "finding": "Colorectal cancer RR 1.14 for highest vs lowest heme iron intake and 1.11 per 1 mg/day of heme."
+  },
+  {
+   "id": "fox-qin2021",
+   "authors": "Qin P, Zhang M, Han M, et al.",
+   "year": 2021,
+   "title": "Fried-food consumption and risk of cardiovascular disease and all-cause mortality: a meta-analysis of observational studies.",
+   "journal": "Heart",
+   "pmid": "33468573",
+   "doi": "10.1136/heartjnl-2020-317883",
+   "type": "meta-analysis",
+   "n": "17 studies",
+   "finding": "Highest vs lowest fried-food intake: major CVD RR 1.28, CHD 1.22, heart failure 1.37, but no association with cardiovascular (1.02) or all-cause mortality (1.03); heterogeneity was high."
+  },
+  {
+   "id": "fox-rangelzuniga2017",
+   "authors": "Rangel-Zuñiga OA, Haro C, Tormos C, et al.",
+   "year": 2017,
+   "title": "Frying oils with high natural or added antioxidants content, which protect against postprandial oxidative stress, also protect against DNA oxidation damage.",
+   "journal": "Eur J Nutr",
+   "pmid": "27015911",
+   "doi": "10.1007/s00394-016-1205-1",
+   "type": "rct",
+   "n": "20 obese adults (crossover)",
+   "finding": "Postprandial 8-OHdG was lower after breakfasts with repeatedly heated virgin olive oil or antioxidant-enriched oil than after heated sunflower oil, which activated p53-dependent DNA-repair genes."
+  },
+  {
+   "id": "fox-ruedaclausen2007",
+   "authors": "Rueda-Clausen CF, Silva FA, Lindarte MA, et al.",
+   "year": 2007,
+   "title": "Olive, soybean and palm oils intake have a similar acute detrimental effect over the endothelial function in healthy young subjects.",
+   "journal": "Nutr Metab Cardiovasc Dis",
+   "pmid": "17174226",
+   "doi": "10.1016/j.numecd.2005.08.008",
+   "type": "rct",
+   "n": "10 healthy young adults",
+   "finding": "A potato-soup meal with 60 mL olive, soybean or palm oil, fresh or after 10 or 20 deep-fries, all reduced flow-mediated dilation similarly (about 32%) at 3 h."
+  },
+  {
+   "id": "fox-savage2002",
+   "authors": "Savage GP, Dutta PC, Rodriguez-Estrada MT",
+   "year": 2002,
+   "title": "Cholesterol oxides: their occurrence and methods to prevent their generation in foods.",
+   "journal": "Asia Pac J Clin Nutr",
+   "pmid": "11890642",
+   "doi": "10.1046/j.1440-6047.2002.00270.x",
+   "type": "review",
+   "n": null,
+   "finding": "Tabulates food cholesterol oxides: spray-dried egg yolk 55-113 mg/100 g; egg yolk, stored meat, butter, cheese, cream and heated tallow 10-150 ug/g dry weight; grated cheeses 6-32 ug/g; traditional ghee about 12% of cholesterol; fresh egg yolk and fresh meat only traces; fried and stored hamburger rose from 8.4 to 49.5 ug/g."
+  },
+  {
+   "id": "fox-scheijen2016",
+   "authors": "Scheijen JLJM, Clevers E, Engelen L, et al.",
+   "year": 2016,
+   "title": "Analysis of advanced glycation endproducts in selected food items by ultra-performance liquid chromatography tandem mass spectrometry: Presentation of a dietary AGE database.",
+   "journal": "Food Chem",
+   "pmid": "26213088",
+   "doi": "10.1016/j.foodchem.2015.06.049",
+   "type": "database",
+   "n": null,
+   "finding": "UPLC-MS/MS measurement of protein-bound CML, CEL and MG-H1 in 190 foods: highest levels in high-heat-processed nut and grain products and canned meats; fruits, vegetables, butter and coffee lowest."
+  },
+  {
+   "id": "fox-scheijen2018",
+   "authors": "Scheijen JLJM, Hanssen NMJ, van Greevenbroek MM, et al.",
+   "year": 2018,
+   "title": "Dietary intake of advanced glycation endproducts is associated with higher levels of advanced glycation endproducts in plasma and urine: The CODAM study.",
+   "journal": "Clin Nutr",
+   "pmid": "29381139",
+   "doi": "10.1016/j.clnu.2017.03.019",
+   "type": "cross-sectional",
+   "n": "450 adults (CODAM)",
+   "finding": "Higher FFQ-estimated intake of CML, CEL and MG-H1 (LC-MS/MS database) was associated with higher free plasma and urinary levels of the same AGEs (standardised beta about 0.18-0.25), but not with protein-bound plasma AGEs."
+  },
+  {
+   "id": "fox-semba2014",
+   "authors": "Semba RD, Gebauer SK, Baer DJ, et al.",
+   "year": 2014,
+   "title": "Dietary intake of advanced glycation end products did not affect endothelial function and inflammation in healthy adults in a randomized controlled trial.",
+   "journal": "J Nutr",
+   "pmid": "24744309",
+   "doi": "10.3945/jn.113.189480",
+   "type": "rct",
+   "n": "24 healthy adults aged 50-69",
+   "finding": "Six weeks of isocaloric diets cooked at high versus mild temperatures changed serum and urine CML in the low-AGE arm but had no effect on endothelial function or inflammatory markers."
+  },
+  {
+   "id": "fox-sharifizahabi2024",
+   "authors": "Sharifi-Zahabi E, Soltani S, Hajizadeh-Sharafabad F, et al.",
+   "year": 2024,
+   "title": "Dietary advanced glycation end-products (dAGEs) are not associated with the risk of cancer incidence. A systematic review and meta-analysis of prospective cohort studies.",
+   "journal": "Food Sci Nutr",
+   "pmid": "39479627",
+   "doi": "10.1002/fsn3.4396",
+   "type": "meta-analysis",
+   "n": "5 cohorts, 1,220,096 participants",
+   "finding": "Dietary AGEs were not associated with cancer incidence (HR 1.04, 0.94-1.15)."
+  },
+  {
+   "id": "fox-sies2005",
+   "authors": "Sies H, Stahl W, Sevanian A",
+   "year": 2005,
+   "title": "Nutritional, dietary and postprandial oxidative stress.",
+   "journal": "J Nutr",
+   "pmid": "15867266",
+   "doi": "10.1093/jn/135.5.969",
+   "type": "review",
+   "n": null,
+   "finding": "Postprandial oxidative stress follows sustained hyperlipidaemia and hyperglycaemia; dietary lipid hydroperoxides are absorbed, and antioxidants supplied with a meal rich in oxidised or oxidisable fat attenuate the response."
+  },
+  {
+   "id": "fox-sirota2013",
+   "authors": "Sirota R, Gorelik S, Harris R, et al.",
+   "year": 2013,
+   "title": "Coffee polyphenols protect human plasma from postprandial carbonyl modifications.",
+   "journal": "Mol Nutr Food Res",
+   "pmid": "23322503",
+   "doi": "10.1002/mnfr.201200557",
+   "type": "rct",
+   "n": "10 volunteers",
+   "finding": "200 mL roasted coffee drunk with 250 g red-meat cutlets inhibited postprandial plasma MDA by 80% at 2 h and 50% at 4 h; roasted-ground coffee polyphenols were 2-5-fold more effective than instant in the stomach model."
+  },
+  {
+   "id": "fox-smith2008",
+   "authors": "Smith JS, Ameri F, Gadgil P",
+   "year": 2008,
+   "title": "Effect of marinades on the formation of heterocyclic amines in grilled beef steaks.",
+   "journal": "J Food Sci",
+   "pmid": "19241593",
+   "doi": "10.1111/j.1750-3841.2008.00856.x",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "One-hour commercial spice marinades cut total HCAs in grilled beef steak by 57-88% (Caribbean 88%, herb 72%, Southwest 57%), correlating with carnosic acid, carnosol and rosmarinic acid content."
+  },
+  {
+   "id": "fox-sohouli2021",
+   "authors": "Sohouli MH, Fatahi S, Sharifi-Zahabi E, et al.",
+   "year": 2021,
+   "title": "The Impact of Low Advanced Glycation End Products Diet on Metabolic Risk Factors: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "journal": "Adv Nutr",
+   "pmid": "33253361",
+   "doi": "10.1093/advances/nmaa150",
+   "type": "meta-analysis",
+   "n": "13 RCTs",
+   "finding": "Low-AGE diets reduced HOMA-IR (WMD -1.2), fasting insulin, total and LDL cholesterol versus high-AGE diets, with no change in other metabolic-syndrome components."
+  },
+  {
+   "id": "fox-staprans1994",
+   "authors": "Staprãns I, Rapp JH, Pan XM, et al.",
+   "year": 1994,
+   "title": "Oxidized lipids in the diet are a source of oxidized lipid in chylomicrons of human serum.",
+   "journal": "Arterioscler Thromb",
+   "pmid": "7981177",
+   "doi": "10.1161/01.atv.14.12.1900",
+   "type": "rct",
+   "n": "healthy volunteers (feeding study)",
+   "finding": "Feeding highly oxidised corn oil raised conjugated dienes in postprandial chylomicrons 4.7-fold and made them more oxidisable, showing dietary oxidised lipids are absorbed into blood."
+  },
+  {
+   "id": "fox-staprans2003",
+   "authors": "Staprans I, Pan XM, Rapp JH, et al.",
+   "year": 2003,
+   "title": "Oxidized cholesterol in the diet is a source of oxidized lipoproteins in human serum.",
+   "journal": "J Lipid Res",
+   "pmid": "12562864",
+   "doi": "10.1194/jlr.M200266-JLR200",
+   "type": "mechanistic",
+   "n": "6 controls, 3 type III hyperlipoproteinemia",
+   "finding": "A meal with 400 mg alpha-epoxy cholesterol appeared in chylomicrons and then in LDL and HDL for up to 72 h, transferred by CETP, making LDL more oxidisable."
+  },
+  {
+   "id": "fox-surh2005",
+   "authors": "Surh J, Kwon H",
+   "year": 2005,
+   "title": "Estimation of daily exposure to 4-hydroxy-2-alkenals in Korean foods containing n-3 and n-6 polyunsaturated fatty acids.",
+   "journal": "Food Addit Contam",
+   "pmid": "16147425",
+   "doi": "10.1080/02652030500164359",
+   "type": "cross-sectional",
+   "n": "Korean national diet survey data",
+   "finding": "Estimated dietary exposure to 4-hydroxy-2-alkenals of 4.3 ug/day, plus more than 11.8 ug/day from fried foods (about 0.3 ug/kg/day), which the authors judged unlikely to pose a significant risk given tissue background levels."
+  },
+  {
+   "id": "fox-tirosh2015",
+   "authors": "Tirosh O, Shpaizer A, Kanner J",
+   "year": 2015,
+   "title": "Lipid Peroxidation in a Stomach Medium Is Affected by Dietary Oils (Olive/Fish) and Antioxidants: The Mediterranean versus Western Diet.",
+   "journal": "J Agric Food Chem",
+   "pmid": "26165509",
+   "doi": "10.1021/acs.jafc.5b02149",
+   "type": "mechanistic",
+   "n": null,
+   "finding": "In a simulated stomach, olive oil cut red-meat MDA from 122 to 48 uM (via oleic acid), whereas tuna or omega-3 oils raised it from 96 to 514 uM; vitamin E paradoxically increased peroxidation with fish oil."
+  },
+  {
+   "id": "fox-tsikas2017",
+   "authors": "Tsikas D",
+   "year": 2017,
+   "title": "Assessment of lipid peroxidation by measuring malondialdehyde (MDA) and relatives in biological samples: Analytical and biological challenges.",
+   "journal": "Anal Biochem",
+   "pmid": "27789233",
+   "doi": "10.1016/j.ab.2016.10.021",
+   "type": "review",
+   "n": null,
+   "finding": "MDA, HNE and F2-isoprostanes are hard to measure reliably: TBARS-type MDA assays are prone to pre-analytical and analytical artefacts, so reported changes are rarely free of doubt."
+  },
+  {
+   "id": "fox-uribarri2007",
+   "authors": "Uribarri J, Cai W, Peppa M, et al.",
+   "year": 2007,
+   "title": "Circulating glycotoxins and dietary advanced glycation endproducts: two links to inflammatory response, oxidative stress, and aging.",
+   "journal": "J Gerontol A Biol Sci Med Sci",
+   "pmid": "17452738",
+   "doi": "10.1093/gerona/62.4.427",
+   "type": "cross-sectional",
+   "n": "172 healthy adults",
+   "finding": "Dietary AGE intake (ELISA database) correlated with serum CML (r = 0.42) and CRP, and serum CML correlated with plasma 8-isoprostanes (r = 0.45), independent of age and calories."
+  },
+  {
+   "id": "fox-uribarri2010",
+   "authors": "Uribarri J, Woodruff S, Goodman S, et al.",
+   "year": 2010,
+   "title": "Advanced glycation end products in foods and a practical guide to their reduction in the diet.",
+   "journal": "J Am Diet Assoc",
+   "pmid": "20497781",
+   "doi": "10.1016/j.jada.2010.03.018",
+   "type": "database",
+   "n": null,
+   "finding": "ELISA (CML immunoreactivity) database of 549 foods: dry heat raised AGEs 10- to 100-fold over the uncooked state; moist heat, shorter times, lower temperatures and lemon/vinegar marinades (which halved AGE formation in beef) reduced them; fat- and protein-rich animal foods ranked highest."
+  },
+  {
+   "id": "fox-urquiaga2017",
+   "authors": "Urquiaga I, Ávila F, Echeverria G, et al.",
+   "year": 2017,
+   "title": "A Chilean Berry Concentrate Protects against Postprandial Oxidative Stress and Increases Plasma Antioxidant Activity in Healthy Humans.",
+   "journal": "Oxid Med Cell Longev",
+   "pmid": "28243359",
+   "doi": "10.1155/2017/8361493",
+   "type": "rct",
+   "n": "11 healthy men (crossover)",
+   "finding": "A Chilean berry concentrate taken with (and added to) a 250 g ground-turkey burger lowered postprandial plasma MDA and protein carbonyls and raised plasma antioxidant capacity."
+  },
+  {
+   "id": "fox-urquiaga2018",
+   "authors": "Urquiaga I, Troncoso D, Mackenna MJ, et al.",
+   "year": 2018,
+   "title": "The Consumption of Beef Burgers Prepared with Wine Grape Pomace Flour Improves Fasting Glucose, Plasma Antioxidant Levels, and Oxidative Damage Markers in Humans: A Controlled Trial.",
+   "journal": "Nutrients",
+   "pmid": "30275350",
+   "doi": "10.3390/nu10101388",
+   "type": "rct",
+   "n": "27 men with metabolic-syndrome features",
+   "finding": "One burger a day made with 7% grape-pomace flour for a month lowered oxLDL, advanced oxidation protein products and HOMA-IR, but plasma MDA did not change (non-randomised sequential design)."
+  },
+  {
+   "id": "fox-valenzuela2009",
+   "authors": "Valenzuela C, de Romaña DL, Olivares M, et al.",
+   "year": 2009,
+   "title": "Total iron and heme iron content and their distribution in beef meat and viscera.",
+   "journal": "Biol Trace Elem Res",
+   "pmid": "19475341",
+   "doi": "10.1007/s12011-009-8400-3",
+   "type": "database",
+   "n": "2 calves, 12 cuts plus organs",
+   "finding": "Beef muscle cuts averaged 1.4 mg total iron/100 g with 64% as heme; liver had 6.0 mg/100 g but only 13.6% heme."
+  },
+  {
+   "id": "fox-vlassara2009",
+   "authors": "Vlassara H, Cai W, Goodman S, et al.",
+   "year": 2009,
+   "title": "Protection against loss of innate defenses in adulthood by low advanced glycation end products (AGE) intake: role of the antiinflammatory AGE receptor-1.",
+   "journal": "J Clin Endocrinol Metab",
+   "pmid": "19820033",
+   "doi": "10.1210/jc.2009-0089",
+   "type": "rct",
+   "n": "325 healthy adults, 66 CKD-3 patients; 40 healthy adults randomised",
+   "finding": "A 30-50% lower-AGE diet for 4 months lowered serum AGEs, oxidant stress markers, RAGE and TNF-alpha in healthy adults and CKD patients (Vlassara/Uribarri group)."
+  },
+  {
+   "id": "fox-vlassara2016",
+   "authors": "Vlassara H, Cai W, Tripp E, et al.",
+   "year": 2016,
+   "title": "Oral AGE restriction ameliorates insulin resistance in obese individuals with the metabolic syndrome: a randomised controlled trial.",
+   "journal": "Diabetologia",
+   "pmid": "27468708",
+   "doi": "10.1007/s00125-016-4053-x",
+   "type": "rct",
+   "n": "138 obese adults with metabolic syndrome (100 analysed)",
+   "finding": "A 1-year low-AGE diet improved insulin resistance and lowered AGEs, oxidative stress and inflammation versus a regular diet; only laboratory staff were blinded."
+  },
+  {
+   "id": "fox-vogel2000",
+   "authors": "Vogel RA, Corretti MC, Plotnick GD",
+   "year": 2000,
+   "title": "The postprandial effect of components of the Mediterranean diet on endothelial function.",
+   "journal": "J Am Coll Cardiol",
+   "pmid": "11079642",
+   "doi": "10.1016/s0735-1097(00)00896-2",
+   "type": "mechanistic",
+   "n": "10 healthy adults",
+   "finding": "Five 900 kcal, 50 g fat meals all raised triglycerides; the olive-oil meal cut FMD 31%, but olive oil with balsamic vinegar and salad, or with vitamins C and E, and salmon or canola-oil meals did not significantly reduce FMD."
+  },
+  {
+   "id": "fox-wheal2016",
+   "authors": "Wheal MS, DeCourcy-Ireland E, Bogard JR, et al.",
+   "year": 2016,
+   "title": "Measurement of haem and total iron in fish, shrimp and prawn using ICP-MS: Implications for dietary iron intake calculations.",
+   "journal": "Food Chem",
+   "pmid": "26868569",
+   "doi": "10.1016/j.foodchem.2016.01.080",
+   "type": "database",
+   "n": "25 fish, shrimp and prawn species",
+   "finding": "Total iron ranged 0.55-14.43 mg/100 g fresh weight and heme iron 18-93% of total across species; single acetone extractions underestimate heme."
+  },
+  {
+   "id": "fox-williams2001",
+   "authors": "Williams MJ, Sutherland WH, McCormick MP, et al.",
+   "year": 2001,
+   "title": "Normal endothelial function after meals rich in olive or safflower oil previously used for deep frying.",
+   "journal": "Nutr Metab Cardiovasc Dis",
+   "pmid": "11590989",
+   "doi": null,
+   "type": "rct",
+   "n": "14 healthy men (double-blind crossover)",
+   "finding": "Meals rich in olive or safflower oil used for 8 hours of deep-frying, with high peroxide and carbonyl content, raised triglycerides but did not change flow-mediated dilation."
   }
  ]
 }

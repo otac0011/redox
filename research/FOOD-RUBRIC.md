@@ -4,6 +4,9 @@ The Foods page rates individual ingredients per **typical serving**, using six o
 
 A score is how much of each evidence-backed component one serving delivers. It does not claim that the food was tested in a trial. When a category doesn't apply (fat quality for spinach, blood sugar for salmon), the score is `null` and the page shows a dash. Null means "not a meaningful source", not "bad".
 
+## Oxidant load
+Every food also gets an **Oxidant load** score, 1–10 with lower better, for the oxidative stress the food itself brings. The rules are in `research/LOAD-RUBRIC.md`.
+
 ## Serving sizes
 Use the FDA reference amount or a common household measure, and state it with grams:
 

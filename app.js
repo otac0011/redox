@@ -474,7 +474,7 @@
       ${auditCard(f)}
       ${timingCard(f)}
       ${entries}
-      ${(() => { const tag = `[${f.id}]`; const rs = (D.recipes || []).filter((r) => Object.values(r.scores).some((v) => v.score >= 6 && v.why.includes(tag))); return rs.length ? `<section class="card entry"><h2>Recipes that feature it</h2><div class="related">${rs.map((r) => `<a class="chip" href="#/recipe/${encodeURIComponent(r.id)}">${esc(r.title)}</a>`).join("")}</div></section>` : ""; })()}
+      ${(() => { const tag = `[${f.id}]`; const rs = (D.recipes || []).filter((r) => Object.entries(r.scores).some(([k, v]) => k !== "load" && v.score >= 6 && v.why.includes(tag))); return rs.length ? `<section class="card entry"><h2>Recipes that feature it</h2><div class="related">${rs.map((r) => `<a class="chip" href="#/recipe/${encodeURIComponent(r.id)}">${esc(r.title)}</a>`).join("")}</div></section>` : ""; })()}
       ${related.length ? `<section class="card entry"><h2>Works through the same pathways</h2><p class="muted small">If you already cover a pathway well, more inputs to the same pathway may add less. See the mechanism pages for what's known about saturation.</p><div class="related">${related.map((g) => `<a class="chip dir-${dirFor(g)}" href="#/factor/${encodeURIComponent(g.id)}">${esc(g.name)}</a>`).join("")}</div></section>` : ""}
     `;
   }
@@ -803,13 +803,18 @@
   const CX = [["", "Any"], ["easy", "Easy"], ["medium", "Medium"], ["involved", "Involved"]];
   const MEALS = [["", "Any meal"], ["breakfast", "Breakfast"], ["main", "Lunch & dinner"], ["side", "Sides & snacks"], ["dessert", "Dessert"]];
   const DIETS = [["", "Any diet"], ["vegetarian", "Vegetarian"], ["vegan", "Vegan"], ["pescatarian", "Pescatarian"], ["gluten-free", "Gluten-free"], ["dairy-free", "Dairy-free"]];
-  const GROUP_LABEL = { oxidative: "Oxidative stress", fertility: "Fertility" };
+  const GROUP_LABEL = { load: "Oxidant load from the food itself", oxidative: "Oxidative-stress protection", fertility: "Fertility" };
+  const GROUP_NOTE = { load: "lower is better", oxidative: "higher is better", fertility: "higher is better" };
+  const isLow = (c) => c.direction === "lower";
+  const catGroups = (cats) => ["load", "oxidative", "fertility"].filter((g) => cats.some((c) => c.group === g));
+  // sort key: higher is always better, so lower-is-better categories are flipped
+  const goodness = (c, v) => (v == null ? 0 : isLow(c) ? 11 - v : v);
   const mealOf = (r) => (r.meal === "lunch" || r.meal === "dinner" ? "main" : r.meal === "snack" ? "side" : r.meal);
-  const recScore = (r, cat) => (cat === "plantmix" ? r.scores.plants.score + r.scores.nrf2.score : cat ? r.scores[cat].score : D.recipe_categories.reduce((s, c) => s + r.scores[c.id].score, 0) / D.recipe_categories.length);
+  const recScore = (r, cat) => { if (cat === "plantmix") return r.scores.plants.score + r.scores.nrf2.score; if (cat) return goodness(D.recipe_categories.find((c) => c.id === cat), r.scores[cat].score); const cs = D.recipe_categories.filter((c) => !isLow(c)); return cs.reduce((s, c) => s + r.scores[c.id].score, 0) / cs.length; };
   const fmtMin = (m) => (m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + (m % 60) + " min" : ""}` : `${m} min`);
 
   function recBars(r, full) {
-    const groups = ["oxidative", "fertility"];
+    const groups = catGroups(D.recipe_categories);
     return groups.map((g) => {
       const rows = D.recipe_categories.filter((c) => c.group === g).map((c) => {
         const s = r.scores[c.id];
@@ -818,7 +823,7 @@
           ? `<details class="rbar-row"><summary>${bar}</summary><p class="small">${linkify(s.why)}</p></details>`
           : `<div class="rbar-row">${bar}</div>`;
       }).join("");
-      return `<div class="rbar-group g-${g}">${full ? `<div class="section-label">${GROUP_LABEL[g]}</div>` : ""}${rows}</div>`;
+      return `<div class="rbar-group g-${g}">${full ? `<div class="section-label">${GROUP_LABEL[g]} <span class="muted">· ${GROUP_NOTE[g]}</span></div>` : ""}${rows}</div>`;
     }).join("");
   }
 
@@ -830,7 +835,7 @@
     const chipRow = (k, list, cur) => list.map(([v, l]) => `<a class="chip ${v === cur ? "dir-beneficial" : ""}" href="${link(k, v)}">${esc(l)}</a>`).join("");
     const list = recs.filter((r) => (!cx || r.complexity === cx) && (!meal || mealOf(r) === meal) && (!diet || (r.tags || []).includes(diet)))
       .sort((a, b) => recScore(b, sort) - recScore(a, sort) || a.title.localeCompare(b.title));
-    const sortOpts = [["", "Average of all categories"], ["plantmix", "Polyphenols + hormetic compounds"], ...D.recipe_categories.map((c) => [c.id, `${GROUP_LABEL[c.group]}: ${c.name}`])]
+    const sortOpts = [["", "Average of protective categories"], ["plantmix", "Polyphenols + hormetic compounds"], ...D.recipe_categories.map((c) => [c.id, isLow(c) ? `${c.name}: lowest first` : `${GROUP_LABEL[c.group]}: ${c.name}`])]
       .map(([v, l]) => `<option value="${v}" ${v === sort ? "selected" : ""}>${esc(l)}</option>`).join("");
     const card = (r) => `<a class="card fcard recipe-card" href="#/recipe/${encodeURIComponent(r.id)}">
         <h3>${esc(r.title)}</h3>
@@ -890,9 +895,9 @@
   }
 
   // ---------- foods ----------
-  const foodAvg = (fd) => { const v = D.food_categories.map((c) => fd.scores[c.id].score).filter((x) => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : 0; };
-  const foodScore = (fd, cat) => (cat ? fd.scores[cat].score ?? 0 : foodAvg(fd));
-  const heat = (s) => (s == null ? `<td class="heat na" title="Not a meaningful source">–</td>` : `<td class="heat h${s}">${s}</td>`);
+  const foodAvg = (fd) => { const v = D.food_categories.filter((c) => !isLow(c)).map((c) => fd.scores[c.id].score).filter((x) => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : 0; };
+  const foodScore = (fd, cat) => (cat ? goodness(D.food_categories.find((c) => c.id === cat), fd.scores[cat].score) : foodAvg(fd));
+  const heat = (s, c) => (s == null ? `<td class="heat na" title="Not a meaningful source">–</td>` : `<td class="heat ${c && isLow(c) ? "l" : "h"}${s}">${s}</td>`);
 
   function viewFoods(params) {
     const foods = D.foods || [];
@@ -903,8 +908,8 @@
     const chips = groups.map((g) => `<a class="chip ${g.id === group ? "dir-beneficial" : ""}" href="${link("group", g.id)}">${esc(g.name)}</a>`).join("");
     const list = foods.filter((f) => (!group || f.group === group) && (!q || (f.name + " " + (f.tags || []).join(" ")).toLowerCase().includes(q)))
       .sort((a, b) => foodScore(b, sort) - foodScore(a, sort) || a.name.localeCompare(b.name));
-    const head = D.food_categories.map((c) => `<th class="${c.id === sort ? "sorted" : ""}"><a href="${link("sort", c.id === sort ? "" : c.id)}" title="${esc(c.name)}: ${esc(c.how)}">${esc(c.short)}</a></th>`).join("");
-    const rows = list.map((f) => `<tr><td class="fname"><a href="#/food/${encodeURIComponent(f.id)}">${esc(f.name)}</a>${f.check ? "" : ` <span class="pending-dot" title="Second check pending">●</span>`}<div class="small muted">${esc(f.serving)}</div></td>${D.food_categories.map((c) => heat(f.scores[c.id].score)).join("")}</tr>`).join("");
+    const head = D.food_categories.map((c) => `<th class="${c.id === sort ? "sorted" : ""}"><a href="${link("sort", c.id === sort ? "" : c.id)}" title="${esc(c.name)}${isLow(c) ? " (lower is better)" : ""}: ${esc(c.how)}">${esc(c.short)}${isLow(c) ? " ↓" : ""}</a></th>`).join("");
+    const rows = list.map((f) => `<tr><td class="fname"><a href="#/food/${encodeURIComponent(f.id)}">${esc(f.name)}</a>${f.check ? "" : ` <span class="pending-dot" title="Second check pending">●</span>`}<div class="small muted">${esc(f.serving)}</div></td>${D.food_categories.map((c) => heat(f.scores[c.id].score, c)).join("")}</tr>`).join("");
     const how = D.food_categories.map((c) => `<li><b>${esc(c.name)}</b> <span class="muted small">(${GROUP_LABEL[c.group]})</span>: ${esc(c.how)}</li>`).join("");
     return `<h1>Foods</h1>
       <p class="lede">${foods.length} single ingredients rated 1–10 per typical serving for oxidative stress and fertility. Click a column to sort, or a food for the reasoning and how best to eat it.</p>
@@ -916,7 +921,7 @@
         <div><div class="section-label">Group</div><div class="chips">${chips}</div></div>
         <label class="section-label">Search <input id="food-q" type="search" value="${esc(params.get("q") || "")}" placeholder="e.g. lentils"></label>
       </div>
-      <p class="small muted">${list.some((f) => !f.check) ? `<span class="pending-dot">●</span> = second check pending · ` : ""}${list.length} foods · sorted by ${sort ? esc(D.food_categories.find((c) => c.id === sort).name) : "average score"}${sort ? ` · <a href="${link("sort", "")}">sort by average</a>` : ""}</p>
+      <p class="small muted">${list.some((f) => !f.check) ? `<span class="pending-dot">●</span> = second check pending · ` : ""}${list.length} foods · sorted by ${sort ? (isLow(D.food_categories.find((c) => c.id === sort)) ? "lowest " : "") + esc(D.food_categories.find((c) => c.id === sort).name).toLowerCase() + (isLow(D.food_categories.find((c) => c.id === sort)) ? " first" : "") : "average of protective scores"}${sort ? ` · <a href="${link("sort", "")}">sort by average</a>` : ""}</p>
       <div class="food-table-wrap"><table class="food-table"><thead><tr><th>Food</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
   }
   function bindFoods(params) {
@@ -930,7 +935,7 @@
     const f = (D.foods || []).find((x) => x.id === id);
     if (!f) return `<h1>Not found</h1><p>No food called “${esc(id)}”. <a href="#/foods">All foods</a>.</p>`;
     const g = D.food_groups.find((x) => x.id === f.group) || { name: f.group };
-    const bars = ["oxidative", "fertility"].map((grp) => `<div class="rbar-group g-${grp}"><div class="section-label">${GROUP_LABEL[grp]}</div>${D.food_categories.filter((c) => c.group === grp).map((c) => {
+    const bars = catGroups(D.food_categories).map((grp) => `<div class="rbar-group g-${grp}"><div class="section-label">${GROUP_LABEL[grp]} <span class="muted">· ${GROUP_NOTE[grp]}</span></div>${D.food_categories.filter((c) => c.group === grp).map((c) => {
       const s = f.scores[c.id];
       const bar = `<span class="rbar-label">${esc(c.name)}</span><span class="rbar-track"><span class="rbar-fill" style="width:${(s.score || 0) * 10}%"></span></span><span class="rbar-num">${s.score ?? "–"}</span>`;
       return `<details class="rbar-row"><summary>${bar}</summary><p class="small">${linkify(s.why)}</p></details>`;
